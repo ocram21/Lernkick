@@ -1,0 +1,1017 @@
+{
+  "version": 2,
+  "status": "practice",
+  "revision": "2026.10.16.1",
+  "reviewStatus": "teacher-review-pending",
+  "sources": [
+    {
+      "id": "lsa-geography-2019",
+      "title": "Fachlehrplan Sekundarschule Geographie",
+      "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_geo_01_08_2019.pdf",
+      "documentDate": "2019-08-01",
+      "accessedAt": "2026-10-16"
+    }
+  ],
+  "questions": [
+    {
+      "id": "geography-001",
+      "subject": "geography",
+      "topic": "orientierung",
+      "competency": "orientierung",
+      "difficulty": 1,
+      "prompt": "Welche Himmelsrichtung liegt auf einer üblichen nach Norden ausgerichteten Karte oben?",
+      "options": [
+        "Süden.",
+        "Westen.",
+        "Norden."
+      ],
+      "correct": 2,
+      "explanation": "Ist eine Karte nach Norden ausgerichtet, liegt Norden oben. Prüfe bei anderen Karten den Nordpfeil.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-002",
+      "subject": "geography",
+      "topic": "orientierung",
+      "competency": "orientierung",
+      "difficulty": 1,
+      "prompt": "Welche Himmelsrichtung liegt zwischen Norden und Osten?",
+      "options": [
+        "Nordosten.",
+        "Südwesten.",
+        "Nordwesten."
+      ],
+      "correct": 0,
+      "explanation": "Die Zwischenrichtung zwischen Norden und Osten heißt Nordosten.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-003",
+      "subject": "geography",
+      "topic": "karten",
+      "competency": "karten",
+      "difficulty": 1,
+      "prompt": "Wozu dient die Legende einer Karte?",
+      "options": [
+        "Sie gibt immer das Wetter von morgen an.",
+        "Sie ersetzt alle Entfernungsangaben.",
+        "Sie erklärt Zeichen und Farben."
+      ],
+      "correct": 2,
+      "explanation": "In der Legende werden die verwendeten Kartensymbole und Farbbedeutungen erklärt.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-004",
+      "subject": "geography",
+      "topic": "massstab",
+      "competency": "massstab",
+      "difficulty": 2,
+      "prompt": "Eine Karte hat den Maßstab 1 : 100.000. Wie viel sind 1 cm auf der Karte in Wirklichkeit?",
+      "options": [
+        "1 km.",
+        "100 m.",
+        "10 km."
+      ],
+      "correct": 0,
+      "explanation": "1 cm entspricht 100.000 cm. Das sind 1.000 m oder 1 km.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-005",
+      "subject": "geography",
+      "topic": "massstab",
+      "competency": "massstab",
+      "difficulty": 2,
+      "prompt": "Auf einer Karte im Maßstab 1 : 50.000 liegen zwei Orte 4 cm auseinander. Wie groß ist die Luftlinie?",
+      "options": [
+        "20 km.",
+        "200 m.",
+        "2 km."
+      ],
+      "correct": 2,
+      "explanation": "Ein Zentimeter entspricht 500 m. Vier Zentimeter sind 4 × 500 m = 2.000 m oder 2 km.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-006",
+      "subject": "geography",
+      "topic": "gradnetz",
+      "competency": "gradnetz",
+      "difficulty": 1,
+      "prompt": "Was ist der Äquator?",
+      "options": [
+        "Eine gedachte Linie zwischen Nord- und Südhalbkugel.",
+        "Eine Linie durch beide Pole.",
+        "Die Grenze zwischen Europa und Asien."
+      ],
+      "correct": 0,
+      "explanation": "Der Äquator verläuft in der Mitte zwischen den Polen und teilt die Erde in Nord- und Südhalbkugel.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-007",
+      "subject": "geography",
+      "topic": "gradnetz",
+      "competency": "gradnetz",
+      "difficulty": 2,
+      "prompt": "Was gibt die geografische Breite an?",
+      "options": [
+        "Die Lage nördlich oder südlich des Äquators.",
+        "Die Tiefe eines Meeres.",
+        "Die Entfernung zum nächsten Bahnhof."
+      ],
+      "correct": 0,
+      "explanation": "Breitengrade beschreiben die Lage relativ zum Äquator. Längengrade beziehen sich auf den Nullmeridian.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-008",
+      "subject": "geography",
+      "topic": "kontinente",
+      "competency": "kontinente",
+      "difficulty": 1,
+      "prompt": "Auf welchem Kontinent liegt Deutschland?",
+      "options": [
+        "Südamerika.",
+        "Australien.",
+        "Europa."
+      ],
+      "correct": 2,
+      "explanation": "Deutschland liegt in Mitteleuropa. Sachsen-Anhalt ist ein Bundesland Deutschlands.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-009",
+      "subject": "geography",
+      "topic": "deutschland",
+      "competency": "deutschland",
+      "difficulty": 1,
+      "prompt": "Wie heißt die Landeshauptstadt von Sachsen-Anhalt?",
+      "options": [
+        "Dessau-Roßlau.",
+        "Magdeburg.",
+        "Halle (Saale)."
+      ],
+      "correct": 1,
+      "explanation": "Magdeburg ist die Landeshauptstadt. Halle und Dessau-Roßlau sind ebenfalls Städte in Sachsen-Anhalt.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-010",
+      "subject": "geography",
+      "topic": "deutschland",
+      "competency": "deutschland",
+      "difficulty": 1,
+      "prompt": "Welcher große Fluss fließt durch Magdeburg?",
+      "options": [
+        "Die Elbe.",
+        "Der Rhein.",
+        "Die Donau."
+      ],
+      "correct": 0,
+      "explanation": "Magdeburg liegt an der Elbe. Der Fluss prägt Verkehr, Landschaft und Hochwasserschutz der Stadt.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-011",
+      "subject": "geography",
+      "topic": "deutschland",
+      "competency": "deutschland",
+      "difficulty": 1,
+      "prompt": "Welches Mittelgebirge liegt teilweise in Sachsen-Anhalt?",
+      "options": [
+        "Der Schwarzwald.",
+        "Der Harz.",
+        "Die Alpen."
+      ],
+      "correct": 1,
+      "explanation": "Der Harz erstreckt sich über Teile von Sachsen-Anhalt, Niedersachsen und Thüringen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-012",
+      "subject": "geography",
+      "topic": "europa",
+      "competency": "europa",
+      "difficulty": 1,
+      "prompt": "Welcher Staat grenzt direkt an Deutschland?",
+      "options": [
+        "Portugal.",
+        "Polen.",
+        "Griechenland."
+      ],
+      "correct": 1,
+      "explanation": "Polen ist ein östliches Nachbarland Deutschlands. Portugal und Griechenland haben keine gemeinsame Grenze mit Deutschland.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-013",
+      "subject": "geography",
+      "topic": "europa",
+      "competency": "europa",
+      "difficulty": 2,
+      "prompt": "Was ist die Europäische Union?",
+      "options": [
+        "Ein anderer Name für alle Kontinente.",
+        "Ein Zusammenschluss europäischer Staaten.",
+        "Ein einzelner Staat mit nur einer Hauptstadt."
+      ],
+      "correct": 1,
+      "explanation": "In der EU arbeiten Mitgliedstaaten in vielen Bereichen zusammen. Europa und EU bezeichnen nicht dasselbe.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-014",
+      "subject": "geography",
+      "topic": "meere",
+      "competency": "meere",
+      "difficulty": 1,
+      "prompt": "Welche zwei Meere grenzen an Deutschland?",
+      "options": [
+        "Mittelmeer und Rotes Meer.",
+        "Nordsee und Ostsee.",
+        "Schwarzes Meer und Kaspisches Meer."
+      ],
+      "correct": 1,
+      "explanation": "Deutschlands Küsten liegen an der Nordsee und an der Ostsee.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-015",
+      "subject": "geography",
+      "topic": "landschaften",
+      "competency": "landschaften",
+      "difficulty": 2,
+      "prompt": "Was ist typisch für ein Tiefland?",
+      "options": [
+        "Nur Gipfel über 3.000 Metern.",
+        "Ausschließlich Vulkankegel.",
+        "Überwiegend geringe Höhenlage und oft wenig Relief."
+      ],
+      "correct": 2,
+      "explanation": "Ein Tiefland liegt relativ niedrig. Das Relief beschreibt unter anderem Höhenunterschiede und Geländeformen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-016",
+      "subject": "geography",
+      "topic": "wetter-klima",
+      "competency": "wetter-klima",
+      "difficulty": 1,
+      "prompt": "Was beschreibt das Wetter?",
+      "options": [
+        "Den Zustand der Atmosphäre an einem Ort zu einer bestimmten Zeit.",
+        "Den durchschnittlichen Zustand über viele Jahrzehnte.",
+        "Nur den Aufbau des Erdkerns."
+      ],
+      "correct": 0,
+      "explanation": "Wetter beschreibt zum Beispiel Temperatur, Niederschlag und Wind zu einer bestimmten Zeit.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-017",
+      "subject": "geography",
+      "topic": "wetter-klima",
+      "competency": "wetter-klima",
+      "difficulty": 2,
+      "prompt": "Was ist der Unterschied zwischen Wetter und Klima?",
+      "options": [
+        "Wetter und Klima sind immer genau dasselbe.",
+        "Klima gilt nur für einen einzigen Nachmittag.",
+        "Klima beschreibt langfristige typische Wetterverhältnisse."
+      ],
+      "correct": 2,
+      "explanation": "Ein Regentag beschreibt Wetter. Klima wird über längere Zeiträume mithilfe vieler Wetterbeobachtungen beschrieben.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-018",
+      "subject": "geography",
+      "topic": "wasserkreislauf",
+      "competency": "wasserkreislauf",
+      "difficulty": 1,
+      "prompt": "Was bedeutet Verdunstung?",
+      "options": [
+        "Wasserdampf wird zu Eis im Erdkern.",
+        "Flüssiges Wasser wird zu Wasserdampf.",
+        "Wasser verschwindet endgültig von der Erde."
+      ],
+      "correct": 1,
+      "explanation": "Bei der Verdunstung geht Wasser vom flüssigen in den gasförmigen Zustand über.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-019",
+      "subject": "geography",
+      "topic": "wasserkreislauf",
+      "competency": "wasserkreislauf",
+      "difficulty": 2,
+      "prompt": "Was geschieht bei der Kondensation von Wasserdampf?",
+      "options": [
+        "Wasser wird zu Salz.",
+        "Es bilden sich flüssige Wassertröpfchen.",
+        "Gestein schmilzt."
+      ],
+      "correct": 1,
+      "explanation": "Kühlt feuchte Luft ausreichend ab, kann Wasserdampf zu kleinen Tröpfchen kondensieren, etwa in Wolken.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-020",
+      "subject": "geography",
+      "topic": "klimazonen",
+      "competency": "klimazonen",
+      "difficulty": 2,
+      "prompt": "Wo liegen die Tropen?",
+      "options": [
+        "Im Bereich um den Äquator zwischen den Wendekreisen.",
+        "Nur im Norden Europas.",
+        "Ausschließlich am Nordpol."
+      ],
+      "correct": 0,
+      "explanation": "Die Tropen liegen zwischen dem nördlichen und dem südlichen Wendekreis. Dort steht die Sonne zeitweise sehr hoch.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-021",
+      "subject": "geography",
+      "topic": "vegetation",
+      "competency": "vegetation",
+      "difficulty": 2,
+      "prompt": "Was ist ein Merkmal tropischer Regenwälder?",
+      "options": [
+        "Hohe Artenvielfalt bei meist ganzjährig warm-feuchtem Klima.",
+        "Dauerhaft gefrorener Boden ohne Pflanzen.",
+        "Ausschließlich winterkahle Nadelbäume."
+      ],
+      "correct": 0,
+      "explanation": "Viele tropische Regenwälder sind warm und feucht. Diese Bedingungen ermöglichen eine große Vielfalt an Lebewesen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-022",
+      "subject": "geography",
+      "topic": "wuesten",
+      "competency": "wuesten",
+      "difficulty": 2,
+      "prompt": "Warum wachsen in vielen Wüsten nur wenige Pflanzen?",
+      "options": [
+        "Wasser ist häufig sehr knapp.",
+        "Pflanzen benötigen dort keinen Stoffwechsel.",
+        "Es gibt dort grundsätzlich keinen Boden."
+      ],
+      "correct": 0,
+      "explanation": "Wassermangel begrenzt das Pflanzenwachstum. Wüsten können heiß oder kalt sein.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-023",
+      "subject": "geography",
+      "topic": "plattentektonik",
+      "competency": "plattentektonik",
+      "difficulty": 2,
+      "prompt": "Wie entstehen viele Erdbeben?",
+      "options": [
+        "Durch die tägliche Verdunstung über Seen.",
+        "Nur durch den Wechsel von Tag und Nacht.",
+        "Durch ruckartige Bewegungen entlang von Störungen der Erdkruste."
+      ],
+      "correct": 2,
+      "explanation": "Spannungen im Gestein können sich plötzlich lösen. Besonders häufig geschieht das an Plattengrenzen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-024",
+      "subject": "geography",
+      "topic": "vulkane",
+      "competency": "vulkane",
+      "difficulty": 2,
+      "prompt": "Wie nennt man Magma, das an die Erdoberfläche gelangt?",
+      "options": [
+        "Lava.",
+        "Granitstaub.",
+        "Grundwasser."
+      ],
+      "correct": 0,
+      "explanation": "Geschmolzenes Gestein im Erdinneren heißt Magma. An der Oberfläche wird es Lava genannt.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-025",
+      "subject": "geography",
+      "topic": "erosion",
+      "competency": "erosion",
+      "difficulty": 2,
+      "prompt": "Was bedeutet Erosion?",
+      "options": [
+        "Abtragung von Material durch Wasser, Wind oder Eis.",
+        "Die Herstellung neuer Kontinente durch Menschen.",
+        "Nur das Verdunsten von Meerwasser."
+      ],
+      "correct": 0,
+      "explanation": "Erosion trägt Boden und Gestein ab und verändert dadurch Landschaften.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-026",
+      "subject": "geography",
+      "topic": "ressourcen",
+      "competency": "ressourcen",
+      "difficulty": 1,
+      "prompt": "Welche Energiequelle ist erneuerbar?",
+      "options": [
+        "Wind.",
+        "Erdöl.",
+        "Steinkohle."
+      ],
+      "correct": 0,
+      "explanation": "Wind wird durch natürliche Prozesse fortlaufend neu bereitgestellt. Erdöl und Kohle sind endliche fossile Energieträger.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-027",
+      "subject": "geography",
+      "topic": "ressourcen",
+      "competency": "ressourcen",
+      "difficulty": 2,
+      "prompt": "Was ist ein fossiler Energieträger?",
+      "options": [
+        "Sonnenlicht.",
+        "Wind.",
+        "Erdgas."
+      ],
+      "correct": 2,
+      "explanation": "Erdgas, Erdöl und Kohle sind über sehr lange Zeiträume aus organischem Material entstanden.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-028",
+      "subject": "geography",
+      "topic": "wasser",
+      "competency": "wasser",
+      "difficulty": 2,
+      "prompt": "Warum ist Trinkwasser eine wichtige Ressource?",
+      "options": [
+        "Es wird nur zum Autowaschen gebraucht.",
+        "Es lässt sich überall unbegrenzt ohne Aufwand gewinnen.",
+        "Es ist lebensnotwendig und nicht überall ausreichend verfügbar."
+      ],
+      "correct": 2,
+      "explanation": "Sauberes Trinkwasser ist für Menschen unverzichtbar. Verfügbarkeit und Zugang unterscheiden sich regional stark.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-029",
+      "subject": "geography",
+      "topic": "nachhaltigkeit",
+      "competency": "nachhaltigkeit",
+      "difficulty": 2,
+      "prompt": "Was bedeutet nachhaltige Nutzung einer Ressource?",
+      "options": [
+        "Auch die Möglichkeiten künftiger Generationen berücksichtigen.",
+        "Möglichst alles sofort verbrauchen.",
+        "Jede Nutzung unabhängig von Folgen ausweiten."
+      ],
+      "correct": 0,
+      "explanation": "Nachhaltiges Handeln bezieht ökologische, soziale und wirtschaftliche Folgen heute und in Zukunft ein.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-030",
+      "subject": "geography",
+      "topic": "klimawandel",
+      "competency": "klimawandel",
+      "difficulty": 2,
+      "prompt": "Welches Gas trägt zum menschengemachten Treibhauseffekt bei?",
+      "options": [
+        "Kohlenstoffdioxid.",
+        "Helium.",
+        "Neon."
+      ],
+      "correct": 0,
+      "explanation": "Mehr Kohlenstoffdioxid in der Atmosphäre verstärkt den Treibhauseffekt. Es entsteht unter anderem beim Verbrennen fossiler Brennstoffe.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "extension"
+      }
+    },
+    {
+      "id": "geography-031",
+      "subject": "geography",
+      "topic": "hochwasser",
+      "competency": "hochwasser",
+      "difficulty": 3,
+      "prompt": "Warum können versiegelte Flächen Hochwasser begünstigen?",
+      "options": [
+        "Asphalt nimmt unbegrenzt mehr Wasser auf als Boden.",
+        "Regen fällt dadurch grundsätzlich nur in Flüsse.",
+        "Weniger Wasser versickert; es fließt schneller oberflächlich ab."
+      ],
+      "correct": 2,
+      "explanation": "Auf versiegelten Flächen kann Wasser oft kaum versickern. Schneller Abfluss kann Gewässer und Kanalisation belasten.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-032",
+      "subject": "geography",
+      "topic": "raumplanung",
+      "competency": "raumplanung",
+      "difficulty": 3,
+      "prompt": "Welche Maßnahme kann einer Stadt bei Starkregen helfen?",
+      "options": [
+        "Entsiegelte Flächen und Rückhalteräume schaffen.",
+        "Jedes Gewässer vollständig zuschütten.",
+        "Alle Grünflächen zusätzlich asphaltieren."
+      ],
+      "correct": 0,
+      "explanation": "Versickerungsflächen und Rückhalteräume können Niederschlagswasser aufnehmen und den Abfluss verzögern.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-033",
+      "subject": "geography",
+      "topic": "wirtschaftssektoren",
+      "competency": "wirtschaftssektoren",
+      "difficulty": 2,
+      "prompt": "Welche Tätigkeit gehört zum primären Wirtschaftssektor?",
+      "options": [
+        "Getreide anbauen.",
+        "Autos in einer Fabrik montieren.",
+        "Kundinnen in einer Bank beraten."
+      ],
+      "correct": 0,
+      "explanation": "Der primäre Sektor gewinnt natürliche Rohstoffe, etwa in Landwirtschaft, Forstwirtschaft und Fischerei.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-034",
+      "subject": "geography",
+      "topic": "wirtschaftssektoren",
+      "competency": "wirtschaftssektoren",
+      "difficulty": 2,
+      "prompt": "Welche Tätigkeit gehört zum sekundären Wirtschaftssektor?",
+      "options": [
+        "Möbel in einer Fabrik herstellen.",
+        "Unterricht an einer Schule geben.",
+        "Fisch im Meer fangen."
+      ],
+      "correct": 0,
+      "explanation": "Der sekundäre Sektor verarbeitet Rohstoffe und stellt Waren her, zum Beispiel Möbel.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-035",
+      "subject": "geography",
+      "topic": "wirtschaftssektoren",
+      "competency": "wirtschaftssektoren",
+      "difficulty": 2,
+      "prompt": "Welche Tätigkeit gehört zum tertiären Wirtschaftssektor?",
+      "options": [
+        "Eisenerz abbauen.",
+        "Stahl im Hochofen herstellen.",
+        "Pakete zustellen."
+      ],
+      "correct": 2,
+      "explanation": "Zum tertiären Sektor gehören Dienstleistungen. Paketdienste erbringen eine Transportleistung.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-036",
+      "subject": "geography",
+      "topic": "standortfaktoren",
+      "competency": "standortfaktoren",
+      "difficulty": 2,
+      "prompt": "Was ist ein Standortfaktor für ein Unternehmen?",
+      "options": [
+        "Ein überall gleiches Naturgesetz ohne Ortsbezug.",
+        "Eine gute Verkehrsanbindung.",
+        "Die zufällige Lieblingsfarbe des Gebäudes."
+      ],
+      "correct": 1,
+      "explanation": "Standortfaktoren beeinflussen, wie geeignet ein Ort für eine wirtschaftliche Tätigkeit ist.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-037",
+      "subject": "geography",
+      "topic": "standortfaktoren",
+      "competency": "standortfaktoren",
+      "difficulty": 3,
+      "prompt": "Eine Bäckerei verkauft vor allem an Laufkundschaft. Welcher Standortvorteil ist besonders naheliegend?",
+      "options": [
+        "Möglichst große Entfernung zu allen Kunden.",
+        "Keine erreichbaren Zugänge.",
+        "Viele vorbeigehende Menschen."
+      ],
+      "correct": 2,
+      "explanation": "Viele potenzielle Kunden in der Nähe können den Verkauf erleichtern. Weitere Faktoren wie Miete und Konkurrenz bleiben wichtig.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-038",
+      "subject": "geography",
+      "topic": "strukturwandel",
+      "competency": "strukturwandel",
+      "difficulty": 3,
+      "prompt": "Was bedeutet wirtschaftlicher Strukturwandel?",
+      "options": [
+        "Die Erdachse verändert täglich ihre Richtung.",
+        "Alle Betriebe stellen für immer dasselbe her.",
+        "Die Bedeutung von Branchen und Berufen verändert sich."
+      ],
+      "correct": 2,
+      "explanation": "Technik, Nachfrage und politische Rahmenbedingungen verändern Arbeitsplätze und die Zusammensetzung einer regionalen Wirtschaft.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-039",
+      "subject": "geography",
+      "topic": "verdichtungsraeume",
+      "competency": "verdichtungsraeume",
+      "difficulty": 2,
+      "prompt": "Was ist ein Verdichtungsraum?",
+      "options": [
+        "Ein anderes Wort für die tiefste Stelle eines Meeres.",
+        "Ein Gebiet mit vielen Menschen, Arbeitsplätzen und Verkehrswegen.",
+        "Ein Raum ohne Siedlungen und Verkehrswege."
+      ],
+      "correct": 1,
+      "explanation": "In Verdichtungsräumen liegen viele Nutzungen auf engem Raum. Das bietet Chancen, kann aber auch Belastungen verursachen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-040",
+      "subject": "geography",
+      "topic": "mobilitaet",
+      "competency": "mobilitaet",
+      "difficulty": 2,
+      "prompt": "Was ist ein Pendler?",
+      "options": [
+        "Eine Person, die regelmäßig zwischen Wohn- und Arbeits- oder Ausbildungsort fährt.",
+        "Eine Person, die ihren Wohnort nie verlässt.",
+        "Nur eine Person auf einer Weltreise."
+      ],
+      "correct": 0,
+      "explanation": "Pendeln bezeichnet regelmäßige Wege zwischen verschiedenen Lebensorten, zum Beispiel Wohnort und Ausbildungsstätte.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-041",
+      "subject": "geography",
+      "topic": "transit",
+      "competency": "transit",
+      "difficulty": 2,
+      "prompt": "Was bedeutet Transitverkehr?",
+      "options": [
+        "Nur Verkehr mit Fahrrädern.",
+        "Verkehr ausschließlich innerhalb eines Parkplatzes.",
+        "Verkehr, der ein Gebiet durchquert."
+      ],
+      "correct": 2,
+      "explanation": "Beim Transit liegen Start und Ziel außerhalb des durchquerten Gebiets.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-042",
+      "subject": "geography",
+      "topic": "globalisierung",
+      "competency": "globalisierung",
+      "difficulty": 2,
+      "prompt": "Was beschreibt wirtschaftliche Globalisierung?",
+      "options": [
+        "Die vollständige Trennung aller Volkswirtschaften.",
+        "Zunehmende internationale Verflechtung von Produktion und Handel.",
+        "Nur den Handel auf einem Wochenmarkt."
+      ],
+      "correct": 1,
+      "explanation": "Waren, Dienstleistungen und Produktionsschritte verbinden Regionen über Ländergrenzen hinweg.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-043",
+      "subject": "geography",
+      "topic": "lieferketten",
+      "competency": "lieferketten",
+      "difficulty": 3,
+      "prompt": "Ein Handy enthält Rohstoffe aus mehreren Ländern und wird in einem weiteren montiert. Was zeigt das?",
+      "options": [
+        "Dass Rohstoffe keinen Einfluss auf Wirtschaft haben.",
+        "Dass jedes Handy vollständig am Verkaufsort entsteht.",
+        "Eine internationale Produktions- und Lieferkette."
+      ],
+      "correct": 2,
+      "explanation": "Bei globalen Lieferketten sind Gewinnung, Verarbeitung, Montage und Verkauf räumlich miteinander verbunden.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-044",
+      "subject": "geography",
+      "topic": "disparitaeten",
+      "competency": "disparitaeten",
+      "difficulty": 2,
+      "prompt": "Was sind räumliche Disparitäten?",
+      "options": [
+        "Unterschiede der Lebens- und Wirtschaftsbedingungen zwischen Regionen.",
+        "Nur Unterschiede in der Farbe von Landkarten.",
+        "Eine überall identische Bevölkerungsverteilung."
+      ],
+      "correct": 0,
+      "explanation": "Disparitäten betreffen beispielsweise Einkommen, Infrastruktur oder den Zugang zu Bildung und Versorgung.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-045",
+      "subject": "geography",
+      "topic": "disparitaeten",
+      "competency": "disparitaeten",
+      "difficulty": 3,
+      "prompt": "Zwei Regionen haben dasselbe Durchschnittseinkommen. Was lässt sich daraus nicht sicher ableiten?",
+      "options": [
+        "Dass weitere Daten für einen Vergleich nützlich sein können.",
+        "Dass Einkommen innerhalb beider Regionen gleich verteilt sind.",
+        "Dass beide denselben genannten Durchschnitt haben."
+      ],
+      "correct": 1,
+      "explanation": "Ein Durchschnitt verbirgt die Verteilung. Wenige sehr hohe Einkommen können denselben Mittelwert ergeben wie viele ähnliche Einkommen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-046",
+      "subject": "geography",
+      "topic": "infrastruktur",
+      "competency": "infrastruktur",
+      "difficulty": 2,
+      "prompt": "Was gehört zur Infrastruktur einer Region?",
+      "options": [
+        "Nur die Form der Wolken.",
+        "Verkehrswege, Stromnetze und Versorgungseinrichtungen.",
+        "Nur die Hobbys einzelner Menschen."
+      ],
+      "correct": 1,
+      "explanation": "Infrastruktur schafft grundlegende Voraussetzungen für Alltag und Wirtschaft, etwa Verkehr, Energie und Versorgung.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-047",
+      "subject": "geography",
+      "topic": "bevoelkerung",
+      "competency": "bevoelkerung",
+      "difficulty": 3,
+      "prompt": "Eine Region hat 20.000 Einwohner auf 100 km². Wie hoch ist die Bevölkerungsdichte?",
+      "options": [
+        "20 Einwohner je km².",
+        "200 Einwohner je km².",
+        "2.000 Einwohner je km²."
+      ],
+      "correct": 1,
+      "explanation": "Teile die Einwohnerzahl durch die Fläche: 20.000 ÷ 100 = 200 Einwohner je km².",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-048",
+      "subject": "geography",
+      "topic": "karten-auswerten",
+      "competency": "karten-auswerten",
+      "difficulty": 3,
+      "prompt": "Eine Karte zeigt absolute Einwohnerzahlen je Region. Was brauchst du zusätzlich für die Bevölkerungsdichte?",
+      "options": [
+        "Nur die Farbe der Hauptstadt.",
+        "Nur die Anzahl der Ortsnamen.",
+        "Die Fläche jeder Region."
+      ],
+      "correct": 2,
+      "explanation": "Bevölkerungsdichte setzt Einwohnerzahl und Fläche ins Verhältnis. Absolute Zahlen allein reichen nicht.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-049",
+      "subject": "geography",
+      "topic": "nutzungskonflikte",
+      "competency": "nutzungskonflikte",
+      "difficulty": 3,
+      "prompt": "Ein neues Gewerbegebiet soll auf Ackerland entstehen. Was ist ein Nutzungskonflikt dabei?",
+      "options": [
+        "Dass Fläche für jede Nutzung unendlich verfügbar ist.",
+        "Dass alle Nutzungen immer gleichzeitig unbegrenzt möglich sind.",
+        "Arbeitsplätze und Flächenbedarf gegen Landwirtschaft und Naturschutz abwägen."
+      ],
+      "correct": 2,
+      "explanation": "Fläche ist begrenzt. Raumplanung muss unterschiedliche Interessen und Folgen einer Nutzung berücksichtigen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-050",
+      "subject": "geography",
+      "topic": "raumplanung",
+      "competency": "raumplanung",
+      "difficulty": 3,
+      "prompt": "Welche Planung unterstützt kurze Alltagswege und spart Fläche?",
+      "options": [
+        "Vorhandene Siedlungsflächen sinnvoll nutzen und Wege gut verbinden.",
+        "Neue Siedlungen nur weit entfernt von allen Einrichtungen bauen.",
+        "Fuß- und Radwege grundsätzlich trennen, indem man sie abschafft."
+      ],
+      "correct": 0,
+      "explanation": "Gut erreichbare Einrichtungen und die Nutzung vorhandener Flächen können Wege und zusätzlichen Flächenverbrauch verringern.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    }
+  ]
+}

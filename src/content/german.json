@@ -1,6 +1,17 @@
 {
-  "version": 1,
-  "status": "demo",
+  "version": 2,
+  "status": "practice",
+  "revision": "2026.10.16.1",
+  "reviewStatus": "teacher-review-pending",
+  "sources": [
+    {
+      "id": "lsa-german-2019",
+      "title": "Fachlehrplan Sekundarschule Deutsch",
+      "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_deutsch_01_08_2019_k2.pdf",
+      "documentDate": "2019-08-01",
+      "accessedAt": "2026-10-16"
+    }
+  ],
   "questions": [
     {
       "id": "german-001",
@@ -15,7 +26,12 @@
         "Jemand spricht sehr laut."
       ],
       "correct": 0,
-      "explanation": "Auf eine zuverlässige Person kannst du dich verlassen. Sie hält sich an Absprachen."
+      "explanation": "Auf eine zuverlässige Person kannst du dich verlassen. Sie hält sich an Absprachen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-002",
@@ -30,7 +46,12 @@
         "Fahrat"
       ],
       "correct": 0,
-      "explanation": "„Fahrrad“ besteht aus „fahren“ und „Rad“. Deshalb steht in der Mitte ein doppeltes r."
+      "explanation": "„Fahrrad“ besteht aus „fahren“ und „Rad“. Deshalb steht in der Mitte ein doppeltes r.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-003",
@@ -45,7 +66,12 @@
         "Tisch"
       ],
       "correct": 2,
-      "explanation": "Nomen bezeichnen zum Beispiel Dinge, Menschen oder Gefühle. „Tisch“ ist ein Ding und wird großgeschrieben."
+      "explanation": "Nomen bezeichnen zum Beispiel Dinge, Menschen oder Gefühle. „Tisch“ ist ein Ding und wird großgeschrieben.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-004",
@@ -60,7 +86,12 @@
         "Das"
       ],
       "correct": 1,
-      "explanation": "Es heißt „die Sonne“. Der bestimmte Artikel ist „die“."
+      "explanation": "Es heißt „die Sonne“. Der bestimmte Artikel ist „die“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-005",
@@ -75,7 +106,12 @@
         "vergessen"
       ],
       "correct": 1,
-      "explanation": "„Beginnen“ und „anfangen“ haben dieselbe Bedeutung."
+      "explanation": "„Beginnen“ und „anfangen“ haben dieselbe Bedeutung.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-006",
@@ -89,7 +125,12 @@
         "Ich lerne Deutsch."
       ],
       "correct": 1,
-      "explanation": "Der Name einer Sprache wird hier als Nomen verwendet und großgeschrieben: Deutsch."
+      "explanation": "Der Name einer Sprache wird hier als Nomen verwendet und großgeschrieben: Deutsch.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-007",
@@ -104,7 +145,12 @@
         "Ich werde morgen lernen."
       ],
       "correct": 1,
-      "explanation": "„Habe gelernt“ steht im Perfekt. Damit erzählst du von etwas Vergangenem."
+      "explanation": "„Habe gelernt“ steht im Perfekt. Damit erzählst du von etwas Vergangenem.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-008",
@@ -119,7 +165,12 @@
         "bist"
       ],
       "correct": 2,
-      "explanation": "Zum Personalpronomen „du“ gehört bei „sein“ die Form „bist“."
+      "explanation": "Zum Personalpronomen „du“ gehört bei „sein“ die Form „bist“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-009",
@@ -134,7 +185,12 @@
         "Ich lerne weil morgen, ein Test ist."
       ],
       "correct": 0,
-      "explanation": "Der Nebensatz mit „weil“ wird durch ein Komma vom Hauptsatz getrennt."
+      "explanation": "Der Nebensatz mit „weil“ wird durch ein Komma vom Hauptsatz getrennt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
     },
     {
       "id": "german-010",
@@ -149,7 +205,12 @@
         "freundlich"
       ],
       "correct": 1,
-      "explanation": "„Ängstlich“ beschreibt jemanden, der Angst hat. Das Gegenwort zu „mutig“ ist hier „ängstlich“."
+      "explanation": "„Ängstlich“ beschreibt jemanden, der Angst hat. Das Gegenwort zu „mutig“ ist hier „ängstlich“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-011",
@@ -164,7 +225,12 @@
         "Wen oder was?"
       ],
       "correct": 1,
-      "explanation": "Den Dativ erfragst du mit „Wem?“. Beispiel: Ich helfe dem Freund. Wem helfe ich?"
+      "explanation": "Den Dativ erfragst du mit „Wem?“. Beispiel: Ich helfe dem Freund. Wem helfe ich?",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "german-012",
@@ -178,7 +244,772 @@
         "dass"
       ],
       "correct": 1,
-      "explanation": "Hier verbindet „dass“ zwei Satzteile. Du kannst es nicht durch „dieses“, „jenes“ oder „welches“ ersetzen."
+      "explanation": "Hier verbindet „dass“ zwei Satzteile. Du kannst es nicht durch „dieses“, „jenes“ oder „welches“ ersetzen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-013",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 1,
+      "prompt": "Was bedeutet „pünktlich“?",
+      "options": [
+        "Zur vereinbarten Zeit da sein.",
+        "Eine Aufgabe vergessen.",
+        "Immer möglichst spät kommen."
+      ],
+      "correct": 0,
+      "explanation": "Wer pünktlich ist, hält die vereinbarte Zeit ein.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-014",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 1,
+      "prompt": "Was ist das Gegenteil von „erlaubt“?",
+      "options": [
+        "verboten",
+        "möglich",
+        "gestattet"
+      ],
+      "correct": 0,
+      "explanation": "„Verboten“ bedeutet, dass etwas nicht erlaubt ist. „Gestattet“ bedeutet dagegen „erlaubt“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-015",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 1,
+      "prompt": "Was bedeutet „eine Frist einhalten“?",
+      "options": [
+        "Etwas ohne Termin beginnen.",
+        "Etwas rechtzeitig erledigen.",
+        "Etwas für immer verschieben."
+      ],
+      "correct": 1,
+      "explanation": "Eine Frist legt einen Zeitraum oder einen letzten Termin fest. Einhalten heißt: rechtzeitig fertig sein.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-016",
+      "subject": "german",
+      "topic": "wortarten",
+      "competency": "wortarten",
+      "difficulty": 1,
+      "prompt": "Welches Wort ist in „Der Bus fährt schnell“ das Verb?",
+      "options": [
+        "fährt",
+        "Bus",
+        "schnell"
+      ],
+      "correct": 0,
+      "explanation": "Das Verb beschreibt hier die Tätigkeit: Der Bus fährt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-017",
+      "subject": "german",
+      "topic": "wortarten",
+      "competency": "wortarten",
+      "difficulty": 1,
+      "prompt": "Welches Wort ist ein Adjektiv?",
+      "options": [
+        "grüßen",
+        "Freundschaft",
+        "freundlich"
+      ],
+      "correct": 2,
+      "explanation": "Adjektive beschreiben Eigenschaften. „Freundlich“ sagt, wie jemand ist.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-018",
+      "subject": "german",
+      "topic": "mehrzahl",
+      "competency": "mehrzahl",
+      "difficulty": 1,
+      "prompt": "Wie lautet die Mehrzahl von „das Kind“?",
+      "options": [
+        "die Kinde",
+        "die Kindes",
+        "die Kinder"
+      ],
+      "correct": 2,
+      "explanation": "Der Plural von „das Kind“ ist „die Kinder“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-019",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 1,
+      "prompt": "Welche Schreibweise ist richtig?",
+      "options": [
+        "Strahße",
+        "Strase",
+        "Straße"
+      ],
+      "correct": 2,
+      "explanation": "Nach dem langen Vokal schreibt man „Straße“ mit ß.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-020",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 1,
+      "prompt": "Welche Schreibweise passt zu „Ich trinke ein Glas …“?",
+      "options": [
+        "Wahsser",
+        "Wasser",
+        "Waser"
+      ],
+      "correct": 1,
+      "explanation": "Der Vokal a wird kurz gesprochen. „Wasser“ schreibt man mit ss.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-021",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 1,
+      "prompt": "Welcher Satz hat die richtige Groß- und Kleinschreibung?",
+      "options": [
+        "Morgen gehen wir schwimmen.",
+        "Morgen Gehen wir Schwimmen.",
+        "morgen gehen wir schwimmen."
+      ],
+      "correct": 0,
+      "explanation": "Das erste Wort eines Satzes wird großgeschrieben. Die Verben bleiben hier klein.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-022",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 2,
+      "prompt": "Welche Ergänzung passt? „Beim ___ höre ich Musik.“",
+      "options": [
+        "Lernen",
+        "lernen",
+        "lehrnen"
+      ],
+      "correct": 0,
+      "explanation": "Nach „beim“ wird das Verb hier als Nomen gebraucht: beim Lernen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-023",
+      "subject": "german",
+      "topic": "faelle",
+      "competency": "faelle",
+      "difficulty": 2,
+      "prompt": "Frage nach dem Subjekt: „Die Schülerin liest ein Buch.“",
+      "options": [
+        "Wer liest ein Buch?",
+        "Wohin liest sie?",
+        "Wem liest die Schülerin?"
+      ],
+      "correct": 0,
+      "explanation": "Das Subjekt erfragst du mit „Wer oder was?“. Hier ist es „die Schülerin“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-024",
+      "subject": "german",
+      "topic": "satzglieder",
+      "competency": "satzglieder",
+      "difficulty": 2,
+      "prompt": "Was ist in „Ali bringt dem Freund einen Ball“ das Dativobjekt?",
+      "options": [
+        "einen Ball",
+        "dem Freund",
+        "Ali"
+      ],
+      "correct": 1,
+      "explanation": "Frage „Wem bringt Ali einen Ball?“. Die Antwort „dem Freund“ ist das Dativobjekt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-025",
+      "subject": "german",
+      "topic": "zeitformen",
+      "competency": "zeitformen",
+      "difficulty": 2,
+      "prompt": "Wie lautet das Präteritum von „gehen“ bei „ich“?",
+      "options": [
+        "ich ging",
+        "ich bin gegangen",
+        "ich gehe"
+      ],
+      "correct": 0,
+      "explanation": "„Ich ging“ ist Präteritum. „Ich bin gegangen“ ist Perfekt und ebenfalls Vergangenheit.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-026",
+      "subject": "german",
+      "topic": "zeitformen",
+      "competency": "zeitformen",
+      "difficulty": 2,
+      "prompt": "Welcher Satz steht im Futur I?",
+      "options": [
+        "Ich habe gelernt.",
+        "Ich werde morgen lernen.",
+        "Ich lernte gestern."
+      ],
+      "correct": 1,
+      "explanation": "Das Futur I wird mit einer Form von „werden“ und dem Infinitiv gebildet: werde lernen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-027",
+      "subject": "german",
+      "topic": "grammatik",
+      "competency": "grammatik",
+      "difficulty": 2,
+      "prompt": "Welcher Satz ist grammatisch richtig?",
+      "options": [
+        "Die Kinder spielst draußen.",
+        "Die Kinder spielt draußen.",
+        "Die Kinder spielen draußen."
+      ],
+      "correct": 2,
+      "explanation": "Das Subjekt steht im Plural. Dazu passt die Verbform „spielen“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-028",
+      "subject": "german",
+      "topic": "satzzeichen",
+      "competency": "satzzeichen",
+      "difficulty": 2,
+      "prompt": "Welcher Satz hat die richtigen Satzzeichen?",
+      "options": [
+        "Kommst du morgen?",
+        "Kommst du morgen.",
+        "Kommst du, morgen?"
+      ],
+      "correct": 0,
+      "explanation": "Eine direkte Frage endet mit einem Fragezeichen. Hier ist kein Komma nötig.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-029",
+      "subject": "german",
+      "topic": "satzzeichen",
+      "competency": "satzzeichen",
+      "difficulty": 2,
+      "prompt": "Wo ist die Aufzählung richtig geschrieben?",
+      "options": [
+        "Ich kaufe Brot, Milch, und Äpfel.",
+        "Ich kaufe Brot, Milch und Äpfel.",
+        "Ich kaufe Brot Milch und Äpfel."
+      ],
+      "correct": 1,
+      "explanation": "Zwischen gleichrangigen Aufzählungsteilen stehen Kommas. Vor dem einfachen „und“ steht hier keines.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-030",
+      "subject": "german",
+      "topic": "das-dass",
+      "competency": "das-dass",
+      "difficulty": 2,
+      "prompt": "Welche Ergänzung passt? „Das ist das Fahrrad, ___ ich meine.“",
+      "options": [
+        "das",
+        "dass",
+        "daß"
+      ],
+      "correct": 0,
+      "explanation": "Du kannst „das“ hier durch „welches“ ersetzen. Deshalb ist „das“ mit einem s richtig.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-031",
+      "subject": "german",
+      "topic": "wortbildung",
+      "competency": "wortbildung",
+      "difficulty": 2,
+      "prompt": "Aus welchen Wörtern besteht „Haustür“?",
+      "options": [
+        "Haut und Uhr",
+        "Hase und Tier",
+        "Haus und Tür"
+      ],
+      "correct": 2,
+      "explanation": "Zusammengesetzte Nomen verbinden Wörter zu einer neuen Bedeutung: Haus + Tür.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-032",
+      "subject": "german",
+      "topic": "leseverstehen",
+      "competency": "leseverstehen",
+      "difficulty": 1,
+      "prompt": "„Der Bus fährt um 8:10 Uhr. Lea kommt um 8:15 Uhr.“ Was folgt daraus?",
+      "options": [
+        "Lea kommt genau zur Abfahrt.",
+        "Lea kommt fünf Minuten nach der Abfahrtszeit.",
+        "Lea ist fünf Minuten zu früh."
+      ],
+      "correct": 1,
+      "explanation": "8:15 Uhr liegt fünf Minuten nach 8:10 Uhr. Mehr, etwa ob der Bus pünktlich war, sagt der Text nicht.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-033",
+      "subject": "german",
+      "topic": "leseverstehen",
+      "competency": "leseverstehen",
+      "difficulty": 1,
+      "prompt": "„Am Montag bleibt die Werkstatt geschlossen.“ Wann ist sie laut Text geschlossen?",
+      "options": [
+        "Am Dienstag.",
+        "An jedem Tag.",
+        "Am Montag."
+      ],
+      "correct": 2,
+      "explanation": "Die Zeitangabe „am Montag“ nennt den Tag. Über andere Tage sagt der Satz nichts.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-034",
+      "subject": "german",
+      "topic": "leseverstehen",
+      "competency": "leseverstehen",
+      "difficulty": 2,
+      "prompt": "„Obwohl es regnet, fährt Mira mit dem Rad.“ Welche Aussage stimmt?",
+      "options": [
+        "Mira fährt trotz des Regens Rad.",
+        "Mira fährt wegen des Regens Bus.",
+        "Mira fährt nur bei Sonne Rad."
+      ],
+      "correct": 0,
+      "explanation": "„Obwohl“ drückt einen Gegensatz aus: Der Regen hält Mira nicht vom Radfahren ab.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-035",
+      "subject": "german",
+      "topic": "leseverstehen",
+      "competency": "leseverstehen",
+      "difficulty": 2,
+      "prompt": "„Tom leiht Ben sein Buch. Ben gibt es am Freitag zurück.“ Worauf bezieht sich „es“?",
+      "options": [
+        "Auf den Freitag.",
+        "Auf Tom.",
+        "Auf das Buch."
+      ],
+      "correct": 2,
+      "explanation": "Das Pronomen „es“ ersetzt hier „das Buch“ und verbindet die Sätze miteinander.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-036",
+      "subject": "german",
+      "topic": "leseverstehen",
+      "competency": "leseverstehen",
+      "difficulty": 2,
+      "prompt": "„Für das Training brauchst du feste Schuhe und ein Getränk.“ Was musst du mitbringen?",
+      "options": [
+        "Nur eine Jacke.",
+        "Feste Schuhe und ein Getränk.",
+        "Ein Fahrrad und einen Ball."
+      ],
+      "correct": 1,
+      "explanation": "Die beiden benötigten Dinge stehen ausdrücklich im Satz. Andere Sachen werden nicht genannt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-037",
+      "subject": "german",
+      "topic": "textsorten",
+      "competency": "textsorten",
+      "difficulty": 2,
+      "prompt": "Was gehört am ehesten zu einem sachlichen Bericht?",
+      "options": [
+        "Nur die eigene Meinung ohne Fakten.",
+        "Nachprüfbare Angaben zu einem Ereignis.",
+        "Erfundene Zaubersprüche."
+      ],
+      "correct": 1,
+      "explanation": "Ein Bericht informiert sachlich über ein Ereignis und beantwortet wichtige W-Fragen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-038",
+      "subject": "german",
+      "topic": "textsorten",
+      "competency": "textsorten",
+      "difficulty": 2,
+      "prompt": "Was ist typisch für eine Inhaltsangabe?",
+      "options": [
+        "Sie fasst das Wesentliche knapp zusammen.",
+        "Sie schreibt jeden Satz unverändert ab.",
+        "Sie ergänzt ein neues Ende."
+      ],
+      "correct": 0,
+      "explanation": "Eine Inhaltsangabe gibt die wichtigsten Inhalte in eigenen Worten wieder, meist im Präsens.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-039",
+      "subject": "german",
+      "topic": "schreiben",
+      "competency": "schreiben",
+      "difficulty": 2,
+      "prompt": "Welche Reihenfolge hilft beim Schreiben eines Textes?",
+      "options": [
+        "Planen, schreiben, überarbeiten.",
+        "Überarbeiten, abgeben, anfangen.",
+        "Abgeben, planen, schreiben."
+      ],
+      "correct": 0,
+      "explanation": "Erst ordnest du Inhalt und Aufbau, dann schreibst du und prüfst zum Schluss Inhalt und Sprache.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-040",
+      "subject": "german",
+      "topic": "bewerbung",
+      "competency": "bewerbung",
+      "difficulty": 2,
+      "prompt": "Welche Anrede passt zu einem formellen Bewerbungsschreiben an Frau Kaya?",
+      "options": [
+        "Hey Kaya!",
+        "Sehr geehrte Frau Kaya,",
+        "Na, was geht?"
+      ],
+      "correct": 1,
+      "explanation": "Eine Bewerbung braucht eine höfliche, zur Situation passende Anrede. Nach der Anrede steht hier ein Komma.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-041",
+      "subject": "german",
+      "topic": "bewerbung",
+      "competency": "bewerbung",
+      "difficulty": 2,
+      "prompt": "Was gehört in einen tabellarischen Lebenslauf?",
+      "options": [
+        "Das Passwort zum E-Mail-Konto.",
+        "Schulbildung und praktische Erfahrungen.",
+        "Erfundene Abschlüsse."
+      ],
+      "correct": 1,
+      "explanation": "Ein Lebenslauf stellt relevante Stationen übersichtlich und wahrheitsgemäß dar. Passwörter gehören nie hinein.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-042",
+      "subject": "german",
+      "topic": "argumentieren",
+      "competency": "argumentieren",
+      "difficulty": 2,
+      "prompt": "Welche Aussage enthält eine Begründung?",
+      "options": [
+        "Ich fahre Rad, weil der Weg kurz ist.",
+        "Alle müssen immer Rad fahren.",
+        "Ich fahre Rad. Punkt."
+      ],
+      "correct": 0,
+      "explanation": "„Weil der Weg kurz ist“ nennt einen Grund für die Entscheidung.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-043",
+      "subject": "german",
+      "topic": "argumentieren",
+      "competency": "argumentieren",
+      "difficulty": 3,
+      "prompt": "Welche Reaktion passt zu einer sachlichen Diskussion?",
+      "options": [
+        "Du bist zu dumm dafür!",
+        "Ich sehe das anders, weil …",
+        "Ich lasse dich nicht ausreden."
+      ],
+      "correct": 1,
+      "explanation": "Beziehe dich auf das Argument und begründe deine Position. Beleidigungen ersetzen keine Begründung.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-044",
+      "subject": "german",
+      "topic": "medien",
+      "competency": "medien",
+      "difficulty": 2,
+      "prompt": "Welche Aussage ist eine Meinung?",
+      "options": [
+        "Der Film dauert 90 Minuten.",
+        "Ich finde den Film spannend.",
+        "Der Film beginnt um 18 Uhr."
+      ],
+      "correct": 1,
+      "explanation": "„Spannend“ ist hier eine persönliche Bewertung. Dauer und Beginn sind überprüfbare Angaben.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-045",
+      "subject": "german",
+      "topic": "medien",
+      "competency": "medien",
+      "difficulty": 3,
+      "prompt": "Du liest eine überraschende Nachricht im Netz. Was hilft beim Prüfen?",
+      "options": [
+        "Sofort ohne Prüfung weiterleiten.",
+        "Nur die Überschrift ansehen.",
+        "Quelle, Datum und weitere Berichte vergleichen."
+      ],
+      "correct": 2,
+      "explanation": "Eine Nachricht wird verlässlicher einschätzbar, wenn du Urheber, Aktualität und unabhängige Bestätigungen prüfst.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-046",
+      "subject": "german",
+      "topic": "literatur",
+      "competency": "literatur",
+      "difficulty": 2,
+      "prompt": "Was ist ein Reim?",
+      "options": [
+        "Ein ähnlicher Klang am Ende von Wörtern.",
+        "Ein besonders langer Satz.",
+        "Eine Liste von Personen."
+      ],
+      "correct": 0,
+      "explanation": "Zum Beispiel reimen sich „Haus“ und „Maus“, weil ihr Wortende ähnlich klingt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-047",
+      "subject": "german",
+      "topic": "literatur",
+      "competency": "literatur",
+      "difficulty": 3,
+      "prompt": "Was ist mit „Die Zeit rennt“ gemeint?",
+      "options": [
+        "Eine Uhr hat Beine.",
+        "Die Zeit vergeht gefühlt sehr schnell.",
+        "Die Zeit bleibt stehen."
+      ],
+      "correct": 1,
+      "explanation": "Hier wird eine menschliche Tätigkeit auf die Zeit übertragen. Das ist eine bildhafte Ausdrucksweise.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-048",
+      "subject": "german",
+      "topic": "literatur",
+      "competency": "literatur",
+      "difficulty": 3,
+      "prompt": "Ein Text erzählt: „Ich öffnete die Tür und ging hinein.“ Welche Erzählform liegt vor?",
+      "options": [
+        "Du-Erzählung.",
+        "Ich-Erzählung.",
+        "Ausschließlich direkte Rede."
+      ],
+      "correct": 1,
+      "explanation": "Die erzählende Stimme tritt mit „ich“ selbst auf. Das macht den Text zur Ich-Erzählung.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-049",
+      "subject": "german",
+      "topic": "satzzeichen",
+      "competency": "satzzeichen",
+      "difficulty": 3,
+      "prompt": "Welche Zeichensetzung ist richtig?",
+      "options": [
+        "Sie übt um, die Prüfung zu schaffen.",
+        "Sie übt, um die Prüfung zu schaffen.",
+        "Sie übt um die Prüfung zu schaffen."
+      ],
+      "correct": 1,
+      "explanation": "Eine mit „um“ eingeleitete Infinitivgruppe wird durch ein Komma abgetrennt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-050",
+      "subject": "german",
+      "topic": "zusammenfassen",
+      "competency": "zusammenfassen",
+      "difficulty": 3,
+      "prompt": "„Nora verpasst den Bus und läuft deshalb zur Schule.“ Welche Zusammenfassung passt?",
+      "options": [
+        "Nora geht zu Fuß, weil sie den Bus verpasst.",
+        "Nora läuft aus Spaß hinter dem Bus her.",
+        "Nora fährt mit dem Bus zur Schule."
+      ],
+      "correct": 0,
+      "explanation": "Die passende Zusammenfassung bewahrt Ursache und Folge, ohne neue Informationen zu erfinden.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
     }
   ]
 }

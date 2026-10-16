@@ -1,6 +1,17 @@
 {
-  "version": 1,
-  "status": "demo",
+  "version": 2,
+  "status": "practice",
+  "revision": "2026.10.16.1",
+  "reviewStatus": "teacher-review-pending",
+  "sources": [
+    {
+      "id": "lsa-math-2019",
+      "title": "Fachlehrplan Sekundarschule Mathematik",
+      "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_mathe_01_08_2019.pdf",
+      "documentDate": "2019-08-01",
+      "accessedAt": "2026-10-16"
+    }
+  ],
   "questions": [
     {
       "id": "math-001",
@@ -16,7 +27,12 @@
         "48"
       ],
       "correct": 1,
-      "explanation": "7 × 8 = 56. Du kannst auch 5 × 8 + 2 × 8 rechnen: 40 + 16."
+      "explanation": "7 × 8 = 56. Du kannst auch 5 × 8 + 2 × 8 rechnen: 40 + 16.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-002",
@@ -31,7 +47,12 @@
         "73"
       ],
       "correct": 1,
-      "explanation": "Rechne erst 36 + 20 = 56, dann 56 + 7 = 63."
+      "explanation": "Rechne erst 36 + 20 = 56, dann 56 + 7 = 63.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-003",
@@ -47,7 +68,12 @@
         "6"
       ],
       "correct": 1,
-      "explanation": "9 × 9 = 81. Deshalb ist 81 ÷ 9 = 9."
+      "explanation": "9 × 9 = 81. Deshalb ist 81 ÷ 9 = 9.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-004",
@@ -62,7 +88,12 @@
         "8 °C"
       ],
       "correct": 1,
-      "explanation": "Von −3 bis 0 sind es 3 Grad. Noch 2 Grad dazu ergeben 2 °C."
+      "explanation": "Von −3 bis 0 sind es 3 Grad. Noch 2 Grad dazu ergeben 2 °C.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-005",
@@ -77,7 +108,12 @@
         "2/3"
       ],
       "correct": 0,
-      "explanation": "Multipliziere Zähler und Nenner mit 2: Aus 1/2 wird 2/4."
+      "explanation": "Multipliziere Zähler und Nenner mit 2: Aus 1/2 wird 2/4.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-006",
@@ -93,7 +129,12 @@
         "21"
       ],
       "correct": 2,
-      "explanation": "7 lässt sich nur durch 1 und sich selbst ohne Rest teilen."
+      "explanation": "7 lässt sich nur durch 1 und sich selbst ohne Rest teilen.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-007",
@@ -108,7 +149,12 @@
         "1/3"
       ],
       "correct": 1,
-      "explanation": "Teile Zähler und Nenner durch 3: 6 ÷ 3 = 2 und 9 ÷ 3 = 3."
+      "explanation": "Teile Zähler und Nenner durch 3: 6 ÷ 3 = 2 und 9 ÷ 3 = 3.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-008",
@@ -123,7 +169,12 @@
         "18 €"
       ],
       "correct": 0,
-      "explanation": "10 % sind ein Zehntel. Teile 80 € durch 10: Das sind 8 €."
+      "explanation": "10 % sind ein Zehntel. Teile 80 € durch 10: Das sind 8 €.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-009",
@@ -138,7 +189,12 @@
         "5x²"
       ],
       "correct": 0,
-      "explanation": "Gleichartige Terme kannst du zusammenfassen: 3x + 2x = (3 + 2)x = 5x."
+      "explanation": "Gleichartige Terme kannst du zusammenfassen: 3x + 2x = (3 + 2)x = 5x.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-010",
@@ -153,7 +209,12 @@
         "12 €"
       ],
       "correct": 1,
-      "explanation": "Ein Heft kostet 6 € ÷ 3 = 2 €. Fünf Hefte kosten 5 × 2 € = 10 €."
+      "explanation": "Ein Heft kostet 6 € ÷ 3 = 2 €. Fünf Hefte kosten 5 × 2 € = 10 €.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-011",
@@ -168,7 +229,12 @@
         "1/8"
       ],
       "correct": 1,
-      "explanation": "Erweitere 1/2 zu 2/4. Dann gilt: 2/4 + 1/4 = 3/4."
+      "explanation": "Erweitere 1/2 zu 2/4. Dann gilt: 2/4 + 1/4 = 3/4.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     },
     {
       "id": "math-012",
@@ -183,7 +249,777 @@
         "6 Stunden"
       ],
       "correct": 0,
-      "explanation": "Doppelt so viele Pumpen brauchen halb so lange, wenn alle gleichzeitig arbeiten: 6 ÷ 2 = 3 Stunden."
+      "explanation": "Doppelt so viele Pumpen brauchen halb so lange, wenn alle gleichzeitig arbeiten: 6 ÷ 2 = 3 Stunden.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-013",
+      "subject": "math",
+      "topic": "grundrechnen",
+      "competency": "grundrechnen",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 90 − 47?",
+      "options": [
+        "47",
+        "33",
+        "53",
+        "43"
+      ],
+      "correct": 3,
+      "explanation": "Rechne 90 − 40 = 50 und dann 50 − 7 = 43.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-014",
+      "subject": "math",
+      "topic": "einmaleins",
+      "competency": "einmaleins",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 6 × 9?",
+      "options": [
+        "54",
+        "63",
+        "45",
+        "56"
+      ],
+      "correct": 0,
+      "explanation": "6 × 9 = 6 × 10 − 6 = 60 − 6 = 54.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-015",
+      "subject": "math",
+      "topic": "grundrechnen",
+      "competency": "grundrechnen",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 48 ÷ 6?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "6 × 8 = 48. Deshalb ist 48 ÷ 6 = 8.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-016",
+      "subject": "math",
+      "topic": "rechenregeln",
+      "competency": "rechenregeln",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 4 + 3 × 2?",
+      "options": [
+        "12",
+        "14",
+        "10"
+      ],
+      "correct": 2,
+      "explanation": "Punktrechnung geht vor Strichrechnung: erst 3 × 2 = 6, dann 4 + 6 = 10.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-017",
+      "subject": "math",
+      "topic": "negative-zahlen",
+      "competency": "negative-zahlen",
+      "difficulty": 1,
+      "prompt": "Welche Zahl ist am kleinsten?",
+      "options": [
+        "−8",
+        "−2",
+        "0",
+        "3"
+      ],
+      "correct": 0,
+      "explanation": "Auf der Zahlengeraden steht −8 am weitesten links und ist deshalb am kleinsten.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-018",
+      "subject": "math",
+      "topic": "dezimalzahlen",
+      "competency": "dezimalzahlen",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 2,5 + 0,75?",
+      "options": [
+        "3,25",
+        "2,80",
+        "3,75"
+      ],
+      "correct": 0,
+      "explanation": "Schreibe 2,50 + 0,75. Addiere die gleichen Stellen: Das ergibt 3,25.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-019",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 1,
+      "prompt": "Welche Dezimalzahl entspricht ¼?",
+      "options": [
+        "2,5",
+        "0,25",
+        "0,4"
+      ],
+      "correct": 1,
+      "explanation": "Ein Viertel ist 1 ÷ 4 = 0,25.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-020",
+      "subject": "math",
+      "topic": "einheiten",
+      "competency": "einheiten",
+      "difficulty": 1,
+      "prompt": "Wie viele Zentimeter sind 1,5 Meter?",
+      "options": [
+        "150 cm",
+        "1.500 cm",
+        "15 cm"
+      ],
+      "correct": 0,
+      "explanation": "Ein Meter hat 100 Zentimeter. Also sind 1,5 × 100 = 150 cm.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-021",
+      "subject": "math",
+      "topic": "einheiten",
+      "competency": "einheiten",
+      "difficulty": 1,
+      "prompt": "Wie viele Gramm sind 2,4 Kilogramm?",
+      "options": [
+        "2.400 g",
+        "24 g",
+        "240 g"
+      ],
+      "correct": 0,
+      "explanation": "Ein Kilogramm sind 1.000 Gramm. 2,4 × 1.000 = 2.400.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-022",
+      "subject": "math",
+      "topic": "zeit",
+      "competency": "zeit",
+      "difficulty": 1,
+      "prompt": "Ein Training beginnt um 14:35 Uhr und dauert 50 Minuten. Wann endet es?",
+      "options": [
+        "14:85 Uhr",
+        "15:25 Uhr",
+        "15:15 Uhr"
+      ],
+      "correct": 1,
+      "explanation": "Nach 25 Minuten ist es 15:00 Uhr. Die restlichen 25 Minuten führen zu 15:25 Uhr.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-023",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 2,
+      "prompt": "Wie viel ist ¾ − ¼?",
+      "options": [
+        "2/8",
+        "1",
+        "½"
+      ],
+      "correct": 2,
+      "explanation": "Die Nenner sind gleich: 3/4 − 1/4 = 2/4 = 1/2.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-024",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 2,
+      "prompt": "Wie viel ist ⅔ × ¾?",
+      "options": [
+        "6/7",
+        "5/7",
+        "½"
+      ],
+      "correct": 2,
+      "explanation": "Multipliziere Zähler und Nenner: 2 × 3 / (3 × 4) = 6/12 = 1/2.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-025",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 2,
+      "prompt": "Wie viel ist ½ ÷ ¼?",
+      "options": [
+        "2",
+        "½",
+        "⅛"
+      ],
+      "correct": 0,
+      "explanation": "Teile durch einen Bruch, indem du mit seinem Kehrwert multiplizierst: 1/2 × 4 = 2.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-026",
+      "subject": "math",
+      "topic": "prozent",
+      "competency": "prozent",
+      "difficulty": 2,
+      "prompt": "Eine Jacke kostet 60 €. Es gibt 25 % Rabatt. Was kostet sie danach?",
+      "options": [
+        "15 €",
+        "45 €",
+        "35 €"
+      ],
+      "correct": 1,
+      "explanation": "25 % von 60 € sind 15 €. Ziehe den Rabatt ab: 60 € − 15 € = 45 €.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-027",
+      "subject": "math",
+      "topic": "prozent",
+      "competency": "prozent",
+      "difficulty": 2,
+      "prompt": "Ein Preis steigt von 50 € auf 60 €. Um wie viel Prozent steigt er?",
+      "options": [
+        "25 %",
+        "20 %",
+        "10 %"
+      ],
+      "correct": 1,
+      "explanation": "Der Anstieg beträgt 10 €. Bezogen auf 50 € gilt: 10 ÷ 50 = 0,2 = 20 %.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-028",
+      "subject": "math",
+      "topic": "zinsen",
+      "competency": "zinsen",
+      "difficulty": 2,
+      "prompt": "100 € werden ein Jahr lang mit 3 % verzinst. Wie hoch sind die Zinsen ohne Gebühren?",
+      "options": [
+        "103 €",
+        "3 €",
+        "30 €"
+      ],
+      "correct": 1,
+      "explanation": "Die Zinsen sind 3 % von 100 €, also 3 €. 103 € wäre das Guthaben nach einem Jahr.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-029",
+      "subject": "math",
+      "topic": "dreisatz",
+      "competency": "dreisatz",
+      "difficulty": 2,
+      "prompt": "4 kg Äpfel kosten 8 €. Wie viel kosten 1,5 kg zum gleichen Kilopreis?",
+      "options": [
+        "3 €",
+        "6 €",
+        "4 €"
+      ],
+      "correct": 0,
+      "explanation": "Ein Kilogramm kostet 8 € ÷ 4 = 2 €. Für 1,5 kg zahlst du 1,5 × 2 € = 3 €.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-030",
+      "subject": "math",
+      "topic": "terme",
+      "competency": "terme",
+      "difficulty": 2,
+      "prompt": "Berechne 2x + 5 für x = 4.",
+      "options": [
+        "18",
+        "11",
+        "13"
+      ],
+      "correct": 2,
+      "explanation": "Setze 4 für x ein: 2 × 4 + 5 = 8 + 5 = 13.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-031",
+      "subject": "math",
+      "topic": "gleichungen",
+      "competency": "gleichungen",
+      "difficulty": 2,
+      "prompt": "Löse die Gleichung: 3x + 2 = 17.",
+      "options": [
+        "x = 15",
+        "x = 5",
+        "x = 6"
+      ],
+      "correct": 1,
+      "explanation": "Ziehe 2 ab: 3x = 15. Teile dann durch 3: x = 5.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-032",
+      "subject": "math",
+      "topic": "formeln",
+      "competency": "formeln",
+      "difficulty": 3,
+      "prompt": "Stelle A = a × b nach b um.",
+      "options": [
+        "b = A ÷ a",
+        "b = A × a",
+        "b = a ÷ A"
+      ],
+      "correct": 0,
+      "explanation": "Teile beide Seiten durch a. Für a ≠ 0 erhältst du b = A ÷ a.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-033",
+      "subject": "math",
+      "topic": "potenzen",
+      "competency": "potenzen",
+      "difficulty": 2,
+      "prompt": "Wie viel ist 2⁴?",
+      "options": [
+        "6",
+        "16",
+        "8",
+        "24"
+      ],
+      "correct": 1,
+      "explanation": "2⁴ bedeutet 2 × 2 × 2 × 2 = 16.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-034",
+      "subject": "math",
+      "topic": "potenzen",
+      "competency": "potenzen",
+      "difficulty": 3,
+      "prompt": "Welche Zahl ist gleich 3,2 × 10³?",
+      "options": [
+        "320",
+        "3.200",
+        "32.000"
+      ],
+      "correct": 1,
+      "explanation": "10³ = 1.000. Deshalb gilt: 3,2 × 1.000 = 3.200.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-035",
+      "subject": "math",
+      "topic": "wurzeln",
+      "competency": "wurzeln",
+      "difficulty": 2,
+      "prompt": "Wie viel ist die Quadratwurzel aus 81?",
+      "options": [
+        "9",
+        "8",
+        "40,5"
+      ],
+      "correct": 0,
+      "explanation": "Die Quadratwurzel ist die nicht negative Zahl, deren Quadrat 81 ergibt: 9 × 9 = 81.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-036",
+      "subject": "math",
+      "topic": "funktionen",
+      "competency": "funktionen",
+      "difficulty": 2,
+      "prompt": "Für eine Zuordnung gilt y = 3x. Welcher y-Wert gehört zu x = 4?",
+      "options": [
+        "1",
+        "12",
+        "7"
+      ],
+      "correct": 1,
+      "explanation": "Setze x = 4 ein: y = 3 × 4 = 12.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-037",
+      "subject": "math",
+      "topic": "funktionen",
+      "competency": "funktionen",
+      "difficulty": 3,
+      "prompt": "Eine Taxifahrt kostet 4 € Grundpreis und 2 € je Kilometer. Was kosten 5 km?",
+      "options": [
+        "14 €",
+        "10 €",
+        "20 €"
+      ],
+      "correct": 0,
+      "explanation": "Die Kosten sind 4 € + 5 × 2 € = 14 €. Der Grundpreis fällt zusätzlich an.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-038",
+      "subject": "math",
+      "topic": "gleichungssysteme",
+      "competency": "gleichungssysteme",
+      "difficulty": 3,
+      "prompt": "Es gilt x + y = 10 und x − y = 2. Welche Lösung passt?",
+      "options": [
+        "x = 6, y = 4",
+        "x = 5, y = 5",
+        "x = 8, y = 2"
+      ],
+      "correct": 0,
+      "explanation": "Addiere beide Gleichungen: 2x = 12, also x = 6. Aus x + y = 10 folgt y = 4.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-039",
+      "subject": "math",
+      "topic": "potenzfunktionen",
+      "competency": "potenzfunktionen",
+      "difficulty": 3,
+      "prompt": "Für y = x² gilt x = −3. Wie groß ist y?",
+      "options": [
+        "−9",
+        "6",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "Das Quadrat von −3 ist (−3) × (−3) = 9.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-040",
+      "subject": "math",
+      "topic": "wachstum",
+      "competency": "wachstum",
+      "difficulty": 3,
+      "prompt": "Eine Pflanze ist 20 cm hoch und wächst jeden Tag 2 cm. Wie hoch ist sie nach 5 Tagen?",
+      "options": [
+        "22 cm",
+        "100 cm",
+        "30 cm"
+      ],
+      "correct": 2,
+      "explanation": "In 5 Tagen wächst sie 5 × 2 cm = 10 cm. Mit der Anfangshöhe sind das 30 cm: lineares Wachstum.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-041",
+      "subject": "math",
+      "topic": "geometrie",
+      "competency": "geometrie",
+      "difficulty": 1,
+      "prompt": "Ein Rechteck ist 6 cm lang und 4 cm breit. Wie groß ist sein Umfang?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "24 cm"
+      ],
+      "correct": 1,
+      "explanation": "Addiere alle Seiten: 6 + 4 + 6 + 4 = 20 cm.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-042",
+      "subject": "math",
+      "topic": "geometrie",
+      "competency": "geometrie",
+      "difficulty": 2,
+      "prompt": "Ein Dreieck hat die Grundseite 8 cm und die zugehörige Höhe 5 cm. Wie groß ist seine Fläche?",
+      "options": [
+        "20 cm²",
+        "13 cm²",
+        "40 cm²"
+      ],
+      "correct": 0,
+      "explanation": "Die Dreiecksfläche ist Grundseite × Höhe ÷ 2: 8 × 5 ÷ 2 = 20 cm².",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-043",
+      "subject": "math",
+      "topic": "geometrie",
+      "competency": "geometrie",
+      "difficulty": 2,
+      "prompt": "Ein Kreis hat einen Radius von 3 cm. Wie groß ist sein Durchmesser?",
+      "options": [
+        "1,5 cm",
+        "9 cm",
+        "6 cm"
+      ],
+      "correct": 2,
+      "explanation": "Der Durchmesser ist doppelt so groß wie der Radius: 2 × 3 cm = 6 cm.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-044",
+      "subject": "math",
+      "topic": "pythagoras",
+      "competency": "pythagoras",
+      "difficulty": 3,
+      "prompt": "Ein rechtwinkliges Dreieck hat Katheten von 3 cm und 4 cm. Wie lang ist die Hypotenuse?",
+      "options": [
+        "5 cm",
+        "7 cm",
+        "12 cm"
+      ],
+      "correct": 0,
+      "explanation": "Nach Pythagoras gilt c² = 3² + 4² = 9 + 16 = 25. Die Quadratwurzel aus 25 ist 5.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-045",
+      "subject": "math",
+      "topic": "koerper",
+      "competency": "koerper",
+      "difficulty": 2,
+      "prompt": "Ein Quader ist 5 cm lang, 3 cm breit und 2 cm hoch. Wie groß ist sein Volumen?",
+      "options": [
+        "20 cm³",
+        "30 cm³",
+        "10 cm³"
+      ],
+      "correct": 1,
+      "explanation": "Multipliziere Länge, Breite und Höhe: 5 × 3 × 2 = 30 cm³.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-046",
+      "subject": "math",
+      "topic": "pyramide",
+      "competency": "pyramide",
+      "difficulty": 3,
+      "prompt": "Eine Pyramide hat 36 cm² Grundfläche und 5 cm senkrechte Höhe. Wie groß ist ihr Volumen?",
+      "options": [
+        "60 cm³",
+        "90 cm³",
+        "180 cm³"
+      ],
+      "correct": 0,
+      "explanation": "Für eine Pyramide gilt V = Grundfläche × Höhe ÷ 3: 36 × 5 ÷ 3 = 60 cm³.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-047",
+      "subject": "math",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 2,
+      "prompt": "Die Werte sind 4, 6 und 8. Wie groß ist ihr arithmetischer Mittelwert?",
+      "options": [
+        "8",
+        "6",
+        "18"
+      ],
+      "correct": 1,
+      "explanation": "Addiere die Werte und teile durch ihre Anzahl: (4 + 6 + 8) ÷ 3 = 6.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-048",
+      "subject": "math",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 2,
+      "prompt": "Die geordneten Werte sind 2, 3, 7, 8 und 10. Was ist der Median?",
+      "options": [
+        "10",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "explanation": "Der Median ist bei einer ungeraden Anzahl der mittlere Wert. Hier steht die 7 in der Mitte.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-049",
+      "subject": "math",
+      "topic": "wahrscheinlichkeit",
+      "competency": "wahrscheinlichkeit",
+      "difficulty": 2,
+      "prompt": "Du würfelst einmal mit einem fairen sechsseitigen Würfel. Wie wahrscheinlich ist eine gerade Zahl?",
+      "options": [
+        "⅓",
+        "⅙",
+        "½"
+      ],
+      "correct": 2,
+      "explanation": "Die geraden Zahlen sind 2, 4 und 6: drei von sechs gleich wahrscheinlichen Ergebnissen. 3/6 = 1/2.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-050",
+      "subject": "math",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 3,
+      "prompt": "In einer Umfrage fahren 8 von 20 Personen mit dem Rad. Wie groß ist die relative Häufigkeit?",
+      "options": [
+        "8 %",
+        "20 %",
+        "40 %"
+      ],
+      "correct": 2,
+      "explanation": "Teile die Anzahl durch die Gesamtzahl: 8 ÷ 20 = 0,4 = 40 %.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
     }
   ]
 }

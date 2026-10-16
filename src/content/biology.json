@@ -1,0 +1,1017 @@
+{
+  "version": 2,
+  "status": "practice",
+  "revision": "2026.10.16.1",
+  "reviewStatus": "teacher-review-pending",
+  "sources": [
+    {
+      "id": "lsa-biology-2019",
+      "title": "Fachlehrplan Sekundarschule Biologie",
+      "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_biologie_01_08_2019.pdf",
+      "documentDate": "2019-08-01",
+      "accessedAt": "2026-10-16"
+    }
+  ],
+  "questions": [
+    {
+      "id": "biology-001",
+      "subject": "biology",
+      "topic": "lebewesen",
+      "competency": "lebewesen",
+      "difficulty": 1,
+      "prompt": "Welches Merkmal gehört zu Lebewesen?",
+      "options": [
+        "Sie können grundsätzlich nicht wachsen.",
+        "Sie besitzen einen Stoffwechsel.",
+        "Sie bestehen immer aus Metall."
+      ],
+      "correct": 1,
+      "explanation": "Lebewesen nehmen Stoffe auf, wandeln sie um und geben Stoffe ab. Das nennt man Stoffwechsel.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-002",
+      "subject": "biology",
+      "topic": "zellen",
+      "competency": "zellen",
+      "difficulty": 1,
+      "prompt": "Was ist die kleinste lebende Baueinheit eines Organismus?",
+      "options": [
+        "Die Zelle.",
+        "Das Organ.",
+        "Das Organsystem."
+      ],
+      "correct": 0,
+      "explanation": "Zellen sind die grundlegenden lebenden Baueinheiten. Mehrere Zellen können Gewebe und Organe bilden.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-003",
+      "subject": "biology",
+      "topic": "zellen",
+      "competency": "zellen",
+      "difficulty": 1,
+      "prompt": "Welche Struktur besitzen Pflanzenzellen zusätzlich zur Zellmembran?",
+      "options": [
+        "Ein Herz.",
+        "Eine Zellwand.",
+        "Eine Wirbelsäule."
+      ],
+      "correct": 1,
+      "explanation": "Pflanzenzellen haben außen eine stabilisierende Zellwand. Tierische Zellen besitzen keine solche Zellwand.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-004",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 1,
+      "prompt": "Was brauchen grüne Pflanzen für die Fotosynthese?",
+      "options": [
+        "Nur Sand und Dunkelheit.",
+        "Fertige Nahrung aus Fleisch.",
+        "Licht, Wasser und Kohlenstoffdioxid."
+      ],
+      "correct": 2,
+      "explanation": "Grüne Pflanzen bauen mithilfe von Licht aus Wasser und Kohlenstoffdioxid energiereiche Stoffe auf.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-005",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 2,
+      "prompt": "Welches Gas entsteht bei der Fotosynthese grüner Pflanzen?",
+      "options": [
+        "Helium.",
+        "Sauerstoff.",
+        "Stickstoff."
+      ],
+      "correct": 1,
+      "explanation": "Bei der Fotosynthese wird unter anderem Sauerstoff freigesetzt.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-006",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 1,
+      "prompt": "Welche Aufgabe haben die Wurzeln einer Pflanze?",
+      "options": [
+        "Wasser und Mineralsalze aufnehmen.",
+        "Samen durch Flügelschläge verbreiten.",
+        "Sonnenlicht mit Augen erkennen."
+      ],
+      "correct": 0,
+      "explanation": "Wurzeln nehmen Wasser und gelöste Mineralsalze auf und verankern die Pflanze im Boden.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-007",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 2,
+      "prompt": "Was ist Bestäubung bei Blütenpflanzen?",
+      "options": [
+        "Die Aufnahme von Wasser durch Wurzeln.",
+        "Die Übertragung von Pollen auf die Narbe.",
+        "Das Abwerfen aller Blätter."
+      ],
+      "correct": 1,
+      "explanation": "Bei der Bestäubung gelangt Pollen auf die Narbe einer Blüte. Sie ist eine Voraussetzung für die anschließende Befruchtung vieler Blütenpflanzen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-008",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 2,
+      "prompt": "Warum sind viele Insekten für Blütenpflanzen wichtig?",
+      "options": [
+        "Sie übertragen beim Blütenbesuch Pollen.",
+        "Sie ersetzen bei allen Pflanzen die Wurzeln.",
+        "Sie verhindern grundsätzlich jede Fortpflanzung."
+      ],
+      "correct": 0,
+      "explanation": "Bestäubende Insekten übertragen Pollen. Damit helfen sie vielen Pflanzen bei der geschlechtlichen Fortpflanzung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-009",
+      "subject": "biology",
+      "topic": "wirbeltiere",
+      "competency": "wirbeltiere",
+      "difficulty": 1,
+      "prompt": "Was haben alle Wirbeltiere gemeinsam?",
+      "options": [
+        "Ein Fell.",
+        "Federn.",
+        "Eine Wirbelsäule."
+      ],
+      "correct": 2,
+      "explanation": "Zu den Wirbeltieren zählen zum Beispiel Fische, Amphibien, Reptilien, Vögel und Säugetiere. Ihr gemeinsames Merkmal ist die Wirbelsäule.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-010",
+      "subject": "biology",
+      "topic": "saeugetiere",
+      "competency": "saeugetiere",
+      "difficulty": 1,
+      "prompt": "Welches Merkmal kennzeichnet Säugetiere?",
+      "options": [
+        "Junge erhalten Milch aus Milchdrüsen.",
+        "Alle legen viele Eier in Gewässer.",
+        "Alle leben ausschließlich an Land."
+      ],
+      "correct": 0,
+      "explanation": "Säugetiere ernähren ihre Jungen mit Milch. Manche, etwa Wale, leben im Wasser.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-011",
+      "subject": "biology",
+      "topic": "insekten",
+      "competency": "insekten",
+      "difficulty": 1,
+      "prompt": "Wie viele Beine hat ein erwachsenes Insekt normalerweise?",
+      "options": [
+        "Acht.",
+        "Sechs.",
+        "Zehn."
+      ],
+      "correct": 1,
+      "explanation": "Insekten besitzen drei Beinpaare am Brustabschnitt, also sechs Beine.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-012",
+      "subject": "biology",
+      "topic": "fortpflanzung",
+      "competency": "fortpflanzung",
+      "difficulty": 2,
+      "prompt": "Was geschieht bei einer geschlechtlichen Befruchtung?",
+      "options": [
+        "Ein Tier wechselt seinen Lebensraum.",
+        "Zwei Keimzellen verschmelzen.",
+        "Ein Organismus verdoppelt nur seine Körpergröße."
+      ],
+      "correct": 1,
+      "explanation": "Bei der Befruchtung verschmelzen die Keimzellen. So entsteht die erste Zelle eines neuen Organismus.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-013",
+      "subject": "biology",
+      "topic": "entwicklung",
+      "competency": "entwicklung",
+      "difficulty": 2,
+      "prompt": "Welche Reihenfolge beschreibt die vollständige Verwandlung eines Schmetterlings?",
+      "options": [
+        "Ei, Raupe, Puppe, Falter.",
+        "Puppe, Ei, Falter, Raupe.",
+        "Ei, Falter, Raupe, Puppe."
+      ],
+      "correct": 0,
+      "explanation": "Aus dem Ei schlüpft die Raupe. Über das Puppenstadium entwickelt sich der erwachsene Falter.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-014",
+      "subject": "biology",
+      "topic": "systemebenen",
+      "competency": "systemebenen",
+      "difficulty": 2,
+      "prompt": "Welche Reihenfolge führt vom Kleinen zum Größeren?",
+      "options": [
+        "Organsystem, Gewebe, Zelle, Organ.",
+        "Zelle, Gewebe, Organ, Organsystem.",
+        "Organ, Zelle, Organsystem, Gewebe."
+      ],
+      "correct": 1,
+      "explanation": "Ähnliche Zellen bilden Gewebe. Verschiedene Gewebe bilden Organe, die in Organsystemen zusammenarbeiten.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-015",
+      "subject": "biology",
+      "topic": "atmung",
+      "competency": "atmung",
+      "difficulty": 1,
+      "prompt": "Welches Organ ist beim Menschen hauptsächlich für den Gasaustausch zuständig?",
+      "options": [
+        "Die Harnblase.",
+        "Die Lunge.",
+        "Der Magen."
+      ],
+      "correct": 1,
+      "explanation": "In der Lunge gelangt Sauerstoff ins Blut und Kohlenstoffdioxid wird aus dem Blut an die Atemluft abgegeben.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-016",
+      "subject": "biology",
+      "topic": "atmung",
+      "competency": "atmung",
+      "difficulty": 2,
+      "prompt": "Was passiert beim Gasaustausch in den Lungenbläschen?",
+      "options": [
+        "Blut wird vollständig durch Luft ersetzt.",
+        "Nahrung wird in Knochen umgewandelt.",
+        "Sauerstoff gelangt ins Blut, Kohlenstoffdioxid in die Atemluft."
+      ],
+      "correct": 2,
+      "explanation": "Die dünnen Wände der Lungenbläschen ermöglichen den Austausch der Atemgase zwischen Luft und Blut.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-017",
+      "subject": "biology",
+      "topic": "kreislauf",
+      "competency": "kreislauf",
+      "difficulty": 1,
+      "prompt": "Welche Aufgabe hat das Herz?",
+      "options": [
+        "Es bildet den größten Teil der Atemluft.",
+        "Es pumpt Blut durch den Körper.",
+        "Es verdaut die Nahrung im Darm."
+      ],
+      "correct": 1,
+      "explanation": "Das Herz ist eine Muskelpumpe. Es hält den Blutkreislauf in Bewegung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-018",
+      "subject": "biology",
+      "topic": "kreislauf",
+      "competency": "kreislauf",
+      "difficulty": 2,
+      "prompt": "Welche Blutbestandteile transportieren vor allem Sauerstoff?",
+      "options": [
+        "Rote Blutkörperchen.",
+        "Verdauungsenzyme.",
+        "Blutplättchen."
+      ],
+      "correct": 0,
+      "explanation": "Rote Blutkörperchen enthalten Hämoglobin. Dieser rote Blutfarbstoff bindet Sauerstoff.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-019",
+      "subject": "biology",
+      "topic": "verdauung",
+      "competency": "verdauung",
+      "difficulty": 1,
+      "prompt": "Wo werden die meisten Nährstoffe ins Blut oder in die Lymphe aufgenommen?",
+      "options": [
+        "Im Dünndarm.",
+        "In der Speiseröhre.",
+        "In der Harnblase."
+      ],
+      "correct": 0,
+      "explanation": "Der Dünndarm besitzt eine große Oberfläche. Dort werden die meisten verdauten Nährstoffe aufgenommen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-020",
+      "subject": "biology",
+      "topic": "verdauung",
+      "competency": "verdauung",
+      "difficulty": 2,
+      "prompt": "Was ist eine wichtige Aufgabe von Verdauungsenzymen?",
+      "options": [
+        "Knochen miteinander verschweißen.",
+        "Sauerstoff in Licht umwandeln.",
+        "Nährstoffe in kleinere Bausteine zerlegen."
+      ],
+      "correct": 2,
+      "explanation": "Enzyme ermöglichen die Zerlegung großer Nährstoffmoleküle, damit ihre Bausteine aufgenommen werden können.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-021",
+      "subject": "biology",
+      "topic": "ernaehrung",
+      "competency": "ernaehrung",
+      "difficulty": 1,
+      "prompt": "Welcher Nährstoff liefert dem Körper Energie?",
+      "options": [
+        "Kohlenhydrate.",
+        "Kochsalz.",
+        "Wasser."
+      ],
+      "correct": 0,
+      "explanation": "Kohlenhydrate können zur Energiegewinnung genutzt werden. Wasser und Mineralsalze sind wichtig, liefern aber keine Energie.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-022",
+      "subject": "biology",
+      "topic": "bewegung",
+      "competency": "bewegung",
+      "difficulty": 2,
+      "prompt": "Warum arbeiten viele Muskeln als Gegenspieler zusammen?",
+      "options": [
+        "Muskeln können aktiv ziehen, aber nicht aktiv schieben.",
+        "Ein einzelner Muskel kann jede Bewegung ausführen.",
+        "Jeder Muskel kann Knochen beliebig verlängern."
+      ],
+      "correct": 0,
+      "explanation": "Beim Beugen und Strecken ziehen verschiedene Muskeln in entgegengesetzte Richtungen, etwa Bizeps und Trizeps.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-023",
+      "subject": "biology",
+      "topic": "mikrobiologie",
+      "competency": "mikrobiologie",
+      "difficulty": 2,
+      "prompt": "Was unterscheidet Bakterienzellen von den meisten menschlichen Körperzellen?",
+      "options": [
+        "Bakterien besitzen immer viele Organe.",
+        "Menschliche Körperzellen besitzen keine Zellmembran.",
+        "Bakterienzellen haben keinen Zellkern."
+      ],
+      "correct": 2,
+      "explanation": "Bakterien besitzen keinen abgegrenzten Zellkern. Die meisten menschlichen Körperzellen besitzen dagegen einen Zellkern; reife rote Blutkörperchen sind eine Ausnahme.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-024",
+      "subject": "biology",
+      "topic": "mikrobiologie",
+      "competency": "mikrobiologie",
+      "difficulty": 2,
+      "prompt": "Warum sind nicht alle Bakterien schädlich?",
+      "options": [
+        "Bakterien können grundsätzlich nicht leben.",
+        "Alle Bakterien sind Pflanzen.",
+        "Viele übernehmen nützliche Aufgaben, etwa im Darm oder beim Zersetzen."
+      ],
+      "correct": 2,
+      "explanation": "Bakterien erfüllen viele wichtige Funktionen. Nur ein Teil kann Krankheiten verursachen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-025",
+      "subject": "biology",
+      "topic": "abwehr",
+      "competency": "abwehr",
+      "difficulty": 2,
+      "prompt": "Welche Aufgabe hat das Immunsystem?",
+      "options": [
+        "Krankheitserreger und andere Gefahren abwehren.",
+        "Die Knochenlänge direkt messen.",
+        "Licht für die Fotosynthese sammeln."
+      ],
+      "correct": 0,
+      "explanation": "Das Immunsystem erkennt und bekämpft unter anderem Krankheitserreger. Verschiedene Zellen und Stoffe wirken dabei zusammen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-026",
+      "subject": "biology",
+      "topic": "nervensystem",
+      "competency": "nervensystem",
+      "difficulty": 1,
+      "prompt": "Was gehört zum zentralen Nervensystem des Menschen?",
+      "options": [
+        "Gehirn und Rückenmark.",
+        "Herz und Lunge.",
+        "Magen und Darm."
+      ],
+      "correct": 0,
+      "explanation": "Gehirn und Rückenmark bilden das zentrale Nervensystem. Dort werden viele Informationen verarbeitet.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-027",
+      "subject": "biology",
+      "topic": "reiz-reaktion",
+      "competency": "reiz-reaktion",
+      "difficulty": 2,
+      "prompt": "Welche Reihenfolge beschreibt eine einfache Reiz-Reaktionskette?",
+      "options": [
+        "Reaktion, Reiz, Sinnesorgan, Verarbeitung.",
+        "Reiz, Sinnesorgan, Verarbeitung, Reaktion.",
+        "Verarbeitung, Reaktion, Sinnesorgan, Reiz."
+      ],
+      "correct": 1,
+      "explanation": "Ein Sinnesorgan nimmt einen Reiz auf. Nach der Verarbeitung können Signale eine Reaktion auslösen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-028",
+      "subject": "biology",
+      "topic": "sinnesorgane",
+      "competency": "sinnesorgane",
+      "difficulty": 1,
+      "prompt": "Welches Sinnesorgan nimmt Lichtreize auf?",
+      "options": [
+        "Das Ohr.",
+        "Das Auge.",
+        "Die Zunge."
+      ],
+      "correct": 1,
+      "explanation": "Lichtreizaufnahme ermöglicht das Sehen. Dafür besitzt das Auge spezialisierte Sinneszellen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-029",
+      "subject": "biology",
+      "topic": "sinnesorgane",
+      "competency": "sinnesorgane",
+      "difficulty": 2,
+      "prompt": "Welche Aufgabe hat die Pupille im Zusammenspiel mit der Iris?",
+      "options": [
+        "Die eintretende Lichtmenge mitregeln.",
+        "Schallwellen in Luft erzeugen.",
+        "Die Nahrung zerkleinern."
+      ],
+      "correct": 0,
+      "explanation": "Die Pupille ist die Öffnung in der Iris. Ihre Größe verändert, wie viel Licht ins Auge gelangt.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-030",
+      "subject": "biology",
+      "topic": "sinnesorgane",
+      "competency": "sinnesorgane",
+      "difficulty": 2,
+      "prompt": "Wo im Auge sitzen die lichtempfindlichen Sinneszellen?",
+      "options": [
+        "In der Augenbraue.",
+        "Im Augenlid.",
+        "In der Netzhaut."
+      ],
+      "correct": 2,
+      "explanation": "Die Netzhaut enthält unter anderem Stäbchen und Zapfen. Sie wandeln Lichtreize in elektrische Signale um.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-031",
+      "subject": "biology",
+      "topic": "sinnesorgane",
+      "competency": "sinnesorgane",
+      "difficulty": 2,
+      "prompt": "Welche Reize nimmt das Ohr beim Hören auf?",
+      "options": [
+        "Schallschwingungen.",
+        "Nur gelöste Geschmacksstoffe.",
+        "Nur Lichtblitze."
+      ],
+      "correct": 0,
+      "explanation": "Schall sind Schwingungen, die im Ohr weitergeleitet und in Nervensignale umgewandelt werden.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-032",
+      "subject": "biology",
+      "topic": "reflexe",
+      "competency": "reflexe",
+      "difficulty": 2,
+      "prompt": "Was ist typisch für einen Reflex?",
+      "options": [
+        "Eine schnelle, unwillkürliche Reaktion auf einen Reiz.",
+        "Eine lange geplante Urlaubsentscheidung.",
+        "Eine immer neu erfundene Bewegung ohne Auslöser."
+      ],
+      "correct": 0,
+      "explanation": "Reflexe laufen ohne bewusste Entscheidung ab. Sie können zum Beispiel eine Schutzfunktion haben.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-033",
+      "subject": "biology",
+      "topic": "verhalten",
+      "competency": "verhalten",
+      "difficulty": 2,
+      "prompt": "Du lernst eine neue Bewegung durch Übung. Welche Verhaltensform zeigt das?",
+      "options": [
+        "Ausschließlich einen angeborenen Reflex.",
+        "Erlerntes Verhalten.",
+        "Eine Veränderung der Augenfarbe."
+      ],
+      "correct": 1,
+      "explanation": "Übung und Erfahrung können Verhalten verändern. Das ist Lernen und unterscheidet sich von einem einfachen angeborenen Reflex.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-034",
+      "subject": "biology",
+      "topic": "sucht",
+      "competency": "sucht",
+      "difficulty": 2,
+      "prompt": "Was kennzeichnet eine Abhängigkeit unter anderem?",
+      "options": [
+        "Jeder einmalige Medienkontakt.",
+        "Jede Freude an einem Hobby.",
+        "Starker Konsumdrang und eingeschränkte Kontrolle."
+      ],
+      "correct": 2,
+      "explanation": "Abhängigkeit kann mit starkem Verlangen und Kontrollverlust einhergehen. Ein einzelnes Verhalten reicht nicht zur Beurteilung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-035",
+      "subject": "biology",
+      "topic": "oekosystem",
+      "competency": "oekosystem",
+      "difficulty": 1,
+      "prompt": "Was umfasst ein Ökosystem?",
+      "options": [
+        "Lebensraum und die darin lebenden Organismen mit ihren Beziehungen.",
+        "Nur die unbelebten Steine eines Gebiets.",
+        "Nur die Tiere eines Zoos."
+      ],
+      "correct": 0,
+      "explanation": "Ein Ökosystem verbindet den Lebensraum, seine Lebensgemeinschaft und ihre Wechselwirkungen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-036",
+      "subject": "biology",
+      "topic": "umweltfaktoren",
+      "competency": "umweltfaktoren",
+      "difficulty": 2,
+      "prompt": "Welcher Umweltfaktor ist unbelebt, also abiotisch?",
+      "options": [
+        "Ein Fressfeind.",
+        "Ein Krankheitserreger.",
+        "Temperatur."
+      ],
+      "correct": 2,
+      "explanation": "Temperatur ist ein unbelebter Umweltfaktor. Fressfeinde und andere Organismen sind belebte, biotische Faktoren.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-037",
+      "subject": "biology",
+      "topic": "nahrungskette",
+      "competency": "nahrungskette",
+      "difficulty": 1,
+      "prompt": "Welche Nahrungskette ist sinnvoll?",
+      "options": [
+        "Kaninchen → Fuchs → Gras.",
+        "Gras → Kaninchen → Fuchs.",
+        "Fuchs → Gras → Kaninchen."
+      ],
+      "correct": 1,
+      "explanation": "Der Pfeil bedeutet hier „wird gefressen von“. Das Kaninchen frisst Gras, der Fuchs kann Kaninchen fressen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-038",
+      "subject": "biology",
+      "topic": "produzenten",
+      "competency": "produzenten",
+      "difficulty": 2,
+      "prompt": "Welche Rolle haben grüne Pflanzen in vielen Nahrungsketten?",
+      "options": [
+        "Sie sind Produzenten.",
+        "Sie sind ausschließlich Fleischfresser.",
+        "Sie sind unbelebte Faktoren."
+      ],
+      "correct": 0,
+      "explanation": "Grüne Pflanzen produzieren mithilfe der Fotosynthese energiereiche organische Stoffe.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-039",
+      "subject": "biology",
+      "topic": "destruenten",
+      "competency": "destruenten",
+      "difficulty": 2,
+      "prompt": "Welche Aufgabe haben viele Pilze und Bakterien im Ökosystem?",
+      "options": [
+        "Sonnenlicht herstellen.",
+        "Jeden Stoffkreislauf dauerhaft stoppen.",
+        "Tote organische Stoffe abbauen."
+      ],
+      "correct": 2,
+      "explanation": "Zersetzer bauen tote organische Stoffe ab. Dabei werden unter anderem Mineralstoffe wieder verfügbar.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-040",
+      "subject": "biology",
+      "topic": "nahrungsnetz",
+      "competency": "nahrungsnetz",
+      "difficulty": 2,
+      "prompt": "Warum ist ein Nahrungsnetz oft realistischer als eine einzelne Nahrungskette?",
+      "options": [
+        "Jedes Tier frisst genau eine Art.",
+        "Alle Organismen stehen ohne Beziehung nebeneinander.",
+        "Viele Arten haben mehrere Nahrungsquellen und Fressfeinde."
+      ],
+      "correct": 2,
+      "explanation": "Ein Nahrungsnetz verbindet mehrere Nahrungsketten und zeigt die vielfältigen Beziehungen besser.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-041",
+      "subject": "biology",
+      "topic": "konkurrenz",
+      "competency": "konkurrenz",
+      "difficulty": 2,
+      "prompt": "Zwei Pflanzen wachsen dicht nebeneinander. Worum können sie konkurrieren?",
+      "options": [
+        "Schulnoten.",
+        "Elektrische Steckdosen.",
+        "Licht, Wasser und Mineralsalze."
+      ],
+      "correct": 2,
+      "explanation": "Organismen können um begrenzte Ressourcen konkurrieren. Bei Pflanzen gehören Licht, Wasser und Mineralsalze dazu.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-042",
+      "subject": "biology",
+      "topic": "symbiose",
+      "competency": "symbiose",
+      "difficulty": 3,
+      "prompt": "Was beschreibt eine Symbiose im schulischen Sinn?",
+      "options": [
+        "Eine Beziehung, in der immer nur eine Art geschädigt wird.",
+        "Eine enge Beziehung zwischen Arten mit beiderseitigem Nutzen.",
+        "Jede zufällige Begegnung zweier Tiere."
+      ],
+      "correct": 1,
+      "explanation": "Bei einer Symbiose profitieren die beteiligten Partner. Sie kann zum Beispiel zwischen Pilzen und Pflanzenwurzeln bestehen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-043",
+      "subject": "biology",
+      "topic": "parasitismus",
+      "competency": "parasitismus",
+      "difficulty": 3,
+      "prompt": "Was kennzeichnet einen Parasiten?",
+      "options": [
+        "Er nutzt nur Sonnenlicht und niemals einen Wirt.",
+        "Er ist grundsätzlich ein unbelebter Gegenstand.",
+        "Er lebt auf Kosten eines Wirts und schädigt ihn."
+      ],
+      "correct": 2,
+      "explanation": "Ein Parasit zieht Nutzen aus einem Wirt, während dieser Nachteile erleidet. Das unterscheidet Parasitismus von Symbiose.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-044",
+      "subject": "biology",
+      "topic": "biodiversitaet",
+      "competency": "biodiversitaet",
+      "difficulty": 2,
+      "prompt": "Was bedeutet Artenvielfalt?",
+      "options": [
+        "Die Vielfalt verschiedener Arten in einem Gebiet.",
+        "Nur die Anzahl der Tiere einer einzigen Art.",
+        "Die Größe eines einzelnen Baums."
+      ],
+      "correct": 0,
+      "explanation": "Artenvielfalt beschreibt, wie viele unterschiedliche Arten vorkommen. Biodiversität umfasst darüber hinaus weitere Vielfaltsebenen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-045",
+      "subject": "biology",
+      "topic": "naturschutz",
+      "competency": "naturschutz",
+      "difficulty": 3,
+      "prompt": "Warum können Hecken zwischen Feldern nützlich sein?",
+      "options": [
+        "Sie bieten Lebensraum und verbinden Lebensräume miteinander.",
+        "Sie ersetzen für jede Pflanze das Sonnenlicht.",
+        "Sie machen alle Tierarten gleich."
+      ],
+      "correct": 0,
+      "explanation": "Hecken geben vielen Arten Nahrung und Schutz. Als Verbindung können sie den Austausch zwischen Lebensräumen fördern.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-046",
+      "subject": "biology",
+      "topic": "oekologie",
+      "competency": "oekologie",
+      "difficulty": 3,
+      "prompt": "Zu viele Nährstoffe gelangen in einen See. Was kann eine Folge sein?",
+      "options": [
+        "Dauerhaft unbegrenzt mehr Sauerstoff in jeder Wassertiefe.",
+        "Starkes Algenwachstum und später Sauerstoffmangel.",
+        "Alle Zersetzungsprozesse enden sofort."
+      ],
+      "correct": 1,
+      "explanation": "Viele Algen können wachsen. Ihr späterer Abbau verbraucht Sauerstoff und kann zu Sauerstoffmangel beitragen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-047",
+      "subject": "biology",
+      "topic": "experimente",
+      "competency": "experimente",
+      "difficulty": 3,
+      "prompt": "Du prüfst den Einfluss von Licht auf Pflanzenwachstum. Was sollte sich zwischen zwei Gruppen gezielt unterscheiden?",
+      "options": [
+        "Die Lichtmenge.",
+        "Nur die Farbe der Beschriftung.",
+        "Gleichzeitig Licht, Wasser, Erde und Pflanzenart."
+      ],
+      "correct": 0,
+      "explanation": "Wenn möglichst nur die Lichtmenge verändert wird, lässt sich ihr Einfluss besser beurteilen. Andere Bedingungen bleiben vergleichbar.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-048",
+      "subject": "biology",
+      "topic": "experimente",
+      "competency": "experimente",
+      "difficulty": 3,
+      "prompt": "Warum wiederholt man ein Experiment?",
+      "options": [
+        "Um die Zuverlässigkeit der Beobachtungen besser einzuschätzen.",
+        "Damit jedes Ergebnis automatisch wahr wird.",
+        "Um auf Messungen verzichten zu können."
+      ],
+      "correct": 0,
+      "explanation": "Wiederholungen helfen, zufällige Einflüsse zu erkennen. Sie garantieren allein aber noch keine fehlerfreie Untersuchung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-049",
+      "subject": "biology",
+      "topic": "daten-auswerten",
+      "competency": "daten-auswerten",
+      "difficulty": 3,
+      "prompt": "Im Schatten wächst eine Pflanze 2 cm, im Licht 6 cm. Was lässt sich für diesen Versuch sagen?",
+      "options": [
+        "Jede Pflanze wächst immer exakt 6 cm.",
+        "Unter den Versuchsbedingungen wuchs die Pflanze im Licht stärker.",
+        "Licht spielt niemals eine Rolle."
+      ],
+      "correct": 1,
+      "explanation": "Die Aussage bezieht sich auf die Messwerte dieses Versuchs. Für allgemeine Aussagen braucht es geeignete weitere Untersuchungen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-050",
+      "subject": "biology",
+      "topic": "anpassung",
+      "competency": "anpassung",
+      "difficulty": 3,
+      "prompt": "Warum sind Schwimmhäute bei Wasservögeln vorteilhaft?",
+      "options": [
+        "Sie verhindern jede Bewegung im Wasser.",
+        "Sie vergrößern die Fläche zum Abstoßen im Wasser.",
+        "Sie verwandeln Wasser in Nahrung."
+      ],
+      "correct": 1,
+      "explanation": "Mit der größeren wirksamen Fläche können Wasservögel beim Schwimmen mehr Wasser nach hinten drücken.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    }
+  ]
+}

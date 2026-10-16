@@ -1,13 +1,13 @@
 # Inhalte, Annahmen und offene Abnahme
 
-Stand: 16.10.2026. Grundlage: vom Nutzer übergebenes Briefing, unverändert unter `CODEX_BRIEF_LERN_PWA.md` abgelegt. Es dient als Produktspezifikation; es enthält keine Zugangsberechtigung zu unbekannten GitHub-Repositories.
+Stand: 16.10.2026. Grundlage ist das übergebene Briefing. Aktuell enthält LernKick **250 selbst erstellte Übungsfragen: 50 je Fach** in Mathematik, Deutsch, Sozialkunde, Biologie und Geografie.
 
-Die 24 enthaltenen Aufgaben sind selbst erstellte Demo-Fragen. Es wurden keine offiziellen Prüfungsaufgaben übernommen. Mathematik deckt Grundrechnen, Einmaleins, negative Zahlen, Primzahlen, Brüche, Terme, Prozentrechnung und direkten/indirekten Dreisatz exemplarisch ab. Deutsch enthält Wortschatz, Wortarten, Grammatik, Rechtschreibung und Satzzeichen. Das ist kein vollständiger Prüfungskatalog.
+Die Recherche der offiziellen curricularen Anforderungen, Quellen, Fassungsstände, Prüfungsformate und Grenzen steht in [ANFORDERUNGEN-SACHSEN-ANHALT.md](ANFORDERUNGEN-SACHSEN-ANHALT.md). Der vollständige [Fragenkatalog](FRAGENKATALOG.md) enthält Antworten und Erklärungen zur Abnahme. Die Fragen sind keine amtlichen Prüfungsfragen und bilden die vollständige Prüfung nicht ab. Eine Freigabe durch Fachlehrkräfte wurde noch nicht erteilt.
 
-Die Bezeichnung und Anforderungen des angestrebten Abschlusses, aktuelle Fachlehrpläne, Prüfungsformate und zulässige Hilfsmittel müssen mit aktuellen Veröffentlichungen des Bildungsministeriums/Landesinstituts Sachsen-Anhalt und den Fachlehrkräften abgeglichen werden. Noch keine Quellen als fachliche Freigabe dokumentiert. Nach Abgleich konkrete Dokumenttitel, URLs, Fassungsdatum, Abrufdatum, Kompetenzzuordnung und prüfende Lehrkraft ergänzen.
+Inhaltsformat 2 ergänzt Quellenmetadaten und Lehrplanbezüge. Die 24 bisherigen Fragen-IDs bleiben erhalten. Lokale Lernstände, Bestleistungen, Einstellungen und eigene Karten haben weiterhin Datenversion 1. Quellenangaben begründen eine thematische Orientierung, keine amtliche Zertifizierung der einzelnen Aufgaben.
 
-Vorläufige Produktentscheidungen: keine Anmeldung; Gerätespeicher; Zehn-Fragen-Runden; Lernmodus frei oder adaptiv. Fehlende Inhalte in Sozialkunde, Biologie und Geografie bleiben sichtbar als „Kommt bald“. Eigene Karten werden manuell wiederholt. Weitere Eingabetypen und Challenge-Modus sind spätere Etappen.
+Zehn-Fragen-Runden bleiben bestehen. Alle fünf Fächer sind spielbar; eigene Karten werden manuell wiederholt. Weitere Eingabetypen, längere Lesetexte, freies Schreiben, grafische Aufgaben und mündliches Begründen bleiben zusätzliche Entwicklungsschritte.
 
-Die adaptive Demo wertet die kumulierte Trefferquote innerhalb des Fachs aus, nach mindestens fünf Antworten. Das Modell muss später pro Kompetenz und über einen sinnvollen jüngeren Zeitraum differenziert werden. Es ist keine pädagogische Diagnose. Bestehende Boxen und Fortschritts-IDs bleiben bei Inhaltsupdates erhalten.
+Die adaptive Lernlogik wertet die kumulierte Trefferquote innerhalb des Fachs aus, nach mindestens fünf Antworten. Das Modell muss später pro Kompetenz und über einen sinnvollen jüngeren Zeitraum differenziert werden. Es ist keine pädagogische Diagnose.
 
-Offene Realgeräteprüfung: Android-/iOS-Installation, sichere Aktualisierung einer installierten Vorgängerversion mit laufender Runde, Browser-Speicherverhalten und Verständlichkeit im Klassenpilot. Keine Nutzertest-Ergebnisse behauptet.
+Offen bleiben die Prüfung des konkreten BvB-Reha-Prüfungswegs mit dem Bildungsträger, die fachliche und pädagogische Abnahme, der Klassenpilot sowie Installation und Updates auf realen Android-/iOS-Geräten. Es werden keine Ergebnisse von Lehrkräfte- oder Schülertests behauptet.

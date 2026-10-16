@@ -28,3 +28,5 @@ button:disabled{opacity:.75}.answer.correct:disabled,.answer.incorrect:disabled{
 .round-actions .primary{width:100%;min-height:52px}
 .round-actions p{font-size:14px;text-align:center;margin:0;min-height:52px;display:grid;place-items:center}
 @media(max-height:700px){.learning .header{height:52px}.learning .round-view{padding-top:6px}.learning .question{padding:14px 0 12px}.learning .question h1{font-size:27px;margin-top:7px}.learning .answers{padding:9px;gap:7px}.learning .answer{min-height:52px;padding:10px}.learning .feedback{margin-top:12px}.learning .feedback h2{font-size:23px}.round-actions{padding-top:8px}}
+
+.subject-meta{display:grid;gap:4px;text-align:right}.subject-meta small{font-size:11px}.curriculum-sources{padding-left:20px;line-height:1.5}.curriculum-sources li{margin:10px 0}.curriculum-sources a{overflow-wrap:anywhere}
