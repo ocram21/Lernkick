@@ -8,3 +8,7 @@
 - Speicherrennen beim sofortigen Neuladen nach Kartenanlage im Browser-Test entdeckt und behoben: Speicherbestätigung erfolgt erst nach abgeschlossener IndexedDB-Transaktion. Antworten und Rundenabschluss warten ebenfalls auf die Speicherung.
 
 Noch offen: Installation auf realem Android/iPhone, Update einer bereits installierten Vorgängerversion während einer laufenden Runde, fachliche Freigabe und Klassenpilot. Auf ausdrücklichen Nutzerwunsch auf GitHub Pages veröffentlicht: https://ocram21.github.io/Lernkick/. Repository ebenfalls ausdrücklich öffentlich gestellt. GitHub-Build, Tests und Deployment erfolgreich (Run 38955626874). Live-HTML, Unterpfad, Manifest und Service Worker per HTTPS geprüft. Weitere Deployments werden manuell ausgelöst.
+
+## Anpassung der Lernrunden
+
+Demo-Kennzeichnung aus der Oberfläche entfernt; fachliche Einschränkungen unter Einstellungen bleiben erhalten. Lernrunde auf die verfügbare Bildschirmhöhe begrenzt, Weiter-Button in eigenem unteren Aktionsbereich. Nach der Antwort bleiben die gewählte und die richtige Antwort samt Erklärung sichtbar. Sieben Browserprüfungen bestanden, darunter vollständige Mathe-/Deutsch-Runden bei 375×667, 320×568 und 844×390: Weiter-Button stets im sichtbaren Bereich und kein Seitenscrollen. Bei 375×667 auch der gesamte Frage-/Antwort-/Erklärungsbereich ohne Scrollen. Acht Logiktests und Produktionsbuild bestanden. Realgeräteprüfung bleibt offen.
