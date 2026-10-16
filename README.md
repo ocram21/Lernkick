@@ -1,5 +1,7 @@
 # LernKick
 
+**Live-PWA:** [LernKick öffnen](https://ocram21.github.io/Lernkick/)
+
 Mobile Lern-PWA für einen BvB-Reha-Piloten. Erste Demo zur Vorbereitung auf den qualifizierten Hauptschulabschluss in Sachsen-Anhalt. **Keine offiziellen Prüfungsfragen, keine fachliche Freigabe.** Das Originalbriefing liegt in `docs/CODEX_BRIEF_LERN_PWA.md`.
 
 ## Lokal entwickeln
@@ -47,7 +49,7 @@ Für alle spielbaren Fächer mindestens zehn Fragen bereitstellen. Build und Tes
 
 ## GitHub Pages
 
-Die Workflow-Datei `.github/workflows/pages.yml` prüft Pull Requests und baut bei Push auf `main`. Veröffentlichen erfolgt ausdrücklich manuell über **Actions → Build, test and deploy LernKick → Run workflow → publish**. Im Ziel-Repository unter **Settings → Pages → Source → GitHub Actions** aktivieren. Ziel-Repository: [ocram21/Lernkick](https://github.com/ocram21/Lernkick), privat angelegt. GitHub Pages muss für Repository-Sichtbarkeit und Kontotarif verfügbar sein.
+Die Workflow-Datei `.github/workflows/pages.yml` prüft Pull Requests und baut bei Push auf `main`. Veröffentlichen erfolgt ausdrücklich manuell über **Actions → Build, test and deploy LernKick → Run workflow → publish**. Im Ziel-Repository unter **Settings → Pages → Source → GitHub Actions** aktivieren. Ziel-Repository: [ocram21/Lernkick](https://github.com/ocram21/Lernkick), auf ausdrückliche Bestätigung des Nutzers öffentlich gestellt. GitHub Pages muss für Repository-Sichtbarkeit und Kontotarif verfügbar sein.
 
 Der Workflow setzt automatisch `BASE_PATH=/<Repositoryname>/`; bei `<Owner>.github.io` wird `/` verwendet. Für eine eigene Domain die Repository-Variable `BASE_PATH=/` setzen und die Domain in Pages konfigurieren. Manifest, Assets und Service-Worker-Scope folgen diesem Pfad. Lokal einen Unterpfad prüfen:
 
@@ -66,7 +68,7 @@ Für Browserprüfungen ist `tests/pwa.spec.ts` vorgesehen. Nach Browserinstallat
 
 ## Offene Entscheidungen und Grenzen
 
-- Betreiberangaben fehlen noch. Es wurde keine öffentliche Veröffentlichung vorgenommen.
+- Betreiberangaben fehlen noch. Die Demo ist unter https://ocram21.github.io/Lernkick/ veröffentlicht.
 - Lehrplan- und Prüfungsabgleich, fachliche Prüfung jeder Frage, Freigabeprozess und weitere Fächer folgen. Siehe `docs/INHALTE-UND-ANNAHMEN.md`.
 - Keine Konten, Tracker oder zentralen Schülerdaten. Hosting-Logs sowie Betreiber-/Datenschutzhinweise vor öffentlichem Einsatz gesondert prüfen.
 - Browserdaten sind an Origin und Browserprofil gebunden; bei Domainwechsel exportieren/importieren. Entfernte Browserdaten können nur aus einer vorherigen Sicherung wiederhergestellt werden. Andere Apps derselben Origin teilen deren Speicherumgebung; eigene Domain empfohlen.

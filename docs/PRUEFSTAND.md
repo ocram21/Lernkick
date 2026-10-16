@@ -7,4 +7,4 @@
 - Produktionsbuild für `/Lernkick/` erstellt und Pfade von Assets und Manifest geprüft.
 - Speicherrennen beim sofortigen Neuladen nach Kartenanlage im Browser-Test entdeckt und behoben: Speicherbestätigung erfolgt erst nach abgeschlossener IndexedDB-Transaktion. Antworten und Rundenabschluss warten ebenfalls auf die Speicherung.
 
-Noch offen: Installation auf realem Android/iPhone, Update einer bereits installierten Vorgängerversion während einer laufenden Runde, fachliche Freigabe und Klassenpilot. Keine Veröffentlichung auf GitHub Pages erfolgt. CI-Workflow vorhanden; Pages-Deployment wird manuell ausgelöst.
+Noch offen: Installation auf realem Android/iPhone, Update einer bereits installierten Vorgängerversion während einer laufenden Runde, fachliche Freigabe und Klassenpilot. Auf ausdrücklichen Nutzerwunsch auf GitHub Pages veröffentlicht: https://ocram21.github.io/Lernkick/. Repository ebenfalls ausdrücklich öffentlich gestellt. GitHub-Build, Tests und Deployment erfolgreich (Run 38955626874). Live-HTML, Unterpfad, Manifest und Service Worker per HTTPS geprüft. Weitere Deployments werden manuell ausgelöst.
