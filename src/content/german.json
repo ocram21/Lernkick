@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "status": "demo",
+  "questions": [
+    {
+      "id": "german-001",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 1,
+      "prompt": "Was bedeutet „zuverlässig“?",
+      "options": [
+        "Jemand hält seine Zusagen.",
+        "Jemand kommt immer zu spät.",
+        "Jemand spricht sehr laut."
+      ],
+      "correct": 0,
+      "explanation": "Auf eine zuverlässige Person kannst du dich verlassen. Sie hält sich an Absprachen."
+    },
+    {
+      "id": "german-002",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 1,
+      "prompt": "Welches Wort ist richtig geschrieben?",
+      "options": [
+        "Fahrrad",
+        "Farrad",
+        "Fahrat"
+      ],
+      "correct": 0,
+      "explanation": "„Fahrrad“ besteht aus „fahren“ und „Rad“. Deshalb steht in der Mitte ein doppeltes r."
+    },
+    {
+      "id": "german-003",
+      "subject": "german",
+      "topic": "wortarten",
+      "competency": "wortarten",
+      "difficulty": 1,
+      "prompt": "Welches Wort ist ein Nomen?",
+      "options": [
+        "laufen",
+        "schön",
+        "Tisch"
+      ],
+      "correct": 2,
+      "explanation": "Nomen bezeichnen zum Beispiel Dinge, Menschen oder Gefühle. „Tisch“ ist ein Ding und wird großgeschrieben."
+    },
+    {
+      "id": "german-004",
+      "subject": "german",
+      "topic": "grammatik",
+      "competency": "grammatik",
+      "difficulty": 1,
+      "prompt": "Welcher Artikel passt? „___ Sonne scheint.“",
+      "options": [
+        "Der",
+        "Die",
+        "Das"
+      ],
+      "correct": 1,
+      "explanation": "Es heißt „die Sonne“. Der bestimmte Artikel ist „die“."
+    },
+    {
+      "id": "german-005",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 1,
+      "prompt": "Welches Wort bedeutet ungefähr dasselbe wie „beginnen“?",
+      "options": [
+        "aufhören",
+        "anfangen",
+        "vergessen"
+      ],
+      "correct": 1,
+      "explanation": "„Beginnen“ und „anfangen“ haben dieselbe Bedeutung."
+    },
+    {
+      "id": "german-006",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 1,
+      "prompt": "Welcher Satz ist richtig geschrieben?",
+      "options": [
+        "Ich lerne deutsch.",
+        "Ich lerne Deutsch."
+      ],
+      "correct": 1,
+      "explanation": "Der Name einer Sprache wird hier als Nomen verwendet und großgeschrieben: Deutsch."
+    },
+    {
+      "id": "german-007",
+      "subject": "german",
+      "topic": "zeitformen",
+      "competency": "zeitformen",
+      "difficulty": 2,
+      "prompt": "Welcher Satz steht in der Vergangenheit?",
+      "options": [
+        "Ich lerne heute.",
+        "Ich habe gestern gelernt.",
+        "Ich werde morgen lernen."
+      ],
+      "correct": 1,
+      "explanation": "„Habe gelernt“ steht im Perfekt. Damit erzählst du von etwas Vergangenem."
+    },
+    {
+      "id": "german-008",
+      "subject": "german",
+      "topic": "grammatik",
+      "competency": "grammatik",
+      "difficulty": 2,
+      "prompt": "Welche Form passt? „Du ___ heute gut vorbereitet.“",
+      "options": [
+        "bin",
+        "ist",
+        "bist"
+      ],
+      "correct": 2,
+      "explanation": "Zum Personalpronomen „du“ gehört bei „sein“ die Form „bist“."
+    },
+    {
+      "id": "german-009",
+      "subject": "german",
+      "topic": "satzzeichen",
+      "competency": "satzzeichen",
+      "difficulty": 2,
+      "prompt": "Wo gehört das Komma hin?",
+      "options": [
+        "Ich lerne, weil morgen ein Test ist.",
+        "Ich, lerne weil morgen ein Test ist.",
+        "Ich lerne weil morgen, ein Test ist."
+      ],
+      "correct": 0,
+      "explanation": "Der Nebensatz mit „weil“ wird durch ein Komma vom Hauptsatz getrennt."
+    },
+    {
+      "id": "german-010",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 2,
+      "prompt": "Was ist das Gegenteil von „mutig“?",
+      "options": [
+        "tapfer",
+        "ängstlich",
+        "freundlich"
+      ],
+      "correct": 1,
+      "explanation": "„Ängstlich“ beschreibt jemanden, der Angst hat. Das Gegenwort zu „mutig“ ist hier „ängstlich“."
+    },
+    {
+      "id": "german-011",
+      "subject": "german",
+      "topic": "faelle",
+      "competency": "faelle",
+      "difficulty": 3,
+      "prompt": "Welche Frage passt zum Dativ?",
+      "options": [
+        "Wer oder was?",
+        "Wem?",
+        "Wen oder was?"
+      ],
+      "correct": 1,
+      "explanation": "Den Dativ erfragst du mit „Wem?“. Beispiel: Ich helfe dem Freund. Wem helfe ich?"
+    },
+    {
+      "id": "german-012",
+      "subject": "german",
+      "topic": "das-dass",
+      "competency": "das-dass",
+      "difficulty": 3,
+      "prompt": "Welche Ergänzung ist richtig? „Ich hoffe, ___ du kommst.“",
+      "options": [
+        "das",
+        "dass"
+      ],
+      "correct": 1,
+      "explanation": "Hier verbindet „dass“ zwei Satzteile. Du kannst es nicht durch „dieses“, „jenes“ oder „welches“ ersetzen."
+    }
+  ]
+}

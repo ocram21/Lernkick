@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "status": "demo",
+  "questions": [
+    {
+      "id": "math-001",
+      "subject": "math",
+      "topic": "einmaleins",
+      "competency": "einmaleins",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 7 × 8?",
+      "options": [
+        "54",
+        "56",
+        "64",
+        "48"
+      ],
+      "correct": 1,
+      "explanation": "7 × 8 = 56. Du kannst auch 5 × 8 + 2 × 8 rechnen: 40 + 16."
+    },
+    {
+      "id": "math-002",
+      "subject": "math",
+      "topic": "grundrechnen",
+      "competency": "grundrechnen",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 36 + 27?",
+      "options": [
+        "53",
+        "63",
+        "73"
+      ],
+      "correct": 1,
+      "explanation": "Rechne erst 36 + 20 = 56, dann 56 + 7 = 63."
+    },
+    {
+      "id": "math-003",
+      "subject": "math",
+      "topic": "grundrechnen",
+      "competency": "grundrechnen",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 81 ÷ 9?",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "6"
+      ],
+      "correct": 1,
+      "explanation": "9 × 9 = 81. Deshalb ist 81 ÷ 9 = 9."
+    },
+    {
+      "id": "math-004",
+      "subject": "math",
+      "topic": "negative-zahlen",
+      "competency": "negative-zahlen",
+      "difficulty": 1,
+      "prompt": "Am Morgen sind es −3 °C. Es wird 5 Grad wärmer. Wie warm ist es jetzt?",
+      "options": [
+        "−8 °C",
+        "2 °C",
+        "8 °C"
+      ],
+      "correct": 1,
+      "explanation": "Von −3 bis 0 sind es 3 Grad. Noch 2 Grad dazu ergeben 2 °C."
+    },
+    {
+      "id": "math-005",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 1,
+      "prompt": "Welcher Bruch ist genauso groß wie ½?",
+      "options": [
+        "2/4",
+        "1/4",
+        "2/3"
+      ],
+      "correct": 0,
+      "explanation": "Multipliziere Zähler und Nenner mit 2: Aus 1/2 wird 2/4."
+    },
+    {
+      "id": "math-006",
+      "subject": "math",
+      "topic": "primzahlen",
+      "competency": "primzahlen",
+      "difficulty": 1,
+      "prompt": "Welche Zahl ist eine Primzahl?",
+      "options": [
+        "9",
+        "15",
+        "7",
+        "21"
+      ],
+      "correct": 2,
+      "explanation": "7 lässt sich nur durch 1 und sich selbst ohne Rest teilen."
+    },
+    {
+      "id": "math-007",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 2,
+      "prompt": "Kürze den Bruch 6/9 vollständig.",
+      "options": [
+        "3/4",
+        "2/3",
+        "1/3"
+      ],
+      "correct": 1,
+      "explanation": "Teile Zähler und Nenner durch 3: 6 ÷ 3 = 2 und 9 ÷ 3 = 3."
+    },
+    {
+      "id": "math-008",
+      "subject": "math",
+      "topic": "prozent",
+      "competency": "prozent",
+      "difficulty": 2,
+      "prompt": "Wie viel sind 10 % von 80 €?",
+      "options": [
+        "8 €",
+        "10 €",
+        "18 €"
+      ],
+      "correct": 0,
+      "explanation": "10 % sind ein Zehntel. Teile 80 € durch 10: Das sind 8 €."
+    },
+    {
+      "id": "math-009",
+      "subject": "math",
+      "topic": "terme",
+      "competency": "terme",
+      "difficulty": 2,
+      "prompt": "Vereinfache: 3x + 2x.",
+      "options": [
+        "5x",
+        "6x",
+        "5x²"
+      ],
+      "correct": 0,
+      "explanation": "Gleichartige Terme kannst du zusammenfassen: 3x + 2x = (3 + 2)x = 5x."
+    },
+    {
+      "id": "math-010",
+      "subject": "math",
+      "topic": "dreisatz",
+      "competency": "dreisatz",
+      "difficulty": 2,
+      "prompt": "3 Hefte kosten 6 €. Was kosten 5 Hefte zum gleichen Stückpreis?",
+      "options": [
+        "8 €",
+        "10 €",
+        "12 €"
+      ],
+      "correct": 1,
+      "explanation": "Ein Heft kostet 6 € ÷ 3 = 2 €. Fünf Hefte kosten 5 × 2 € = 10 €."
+    },
+    {
+      "id": "math-011",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 3,
+      "prompt": "Wie viel ist ½ + ¼?",
+      "options": [
+        "2/6",
+        "3/4",
+        "1/8"
+      ],
+      "correct": 1,
+      "explanation": "Erweitere 1/2 zu 2/4. Dann gilt: 2/4 + 1/4 = 3/4."
+    },
+    {
+      "id": "math-012",
+      "subject": "math",
+      "topic": "dreisatz-indirekt",
+      "competency": "dreisatz-indirekt",
+      "difficulty": 3,
+      "prompt": "2 gleich schnelle Pumpen brauchen 6 Stunden. Wie lange brauchen 4 solche Pumpen?",
+      "options": [
+        "3 Stunden",
+        "12 Stunden",
+        "6 Stunden"
+      ],
+      "correct": 0,
+      "explanation": "Doppelt so viele Pumpen brauchen halb so lange, wenn alle gleichzeitig arbeiten: 6 ÷ 2 = 3 Stunden."
+    }
+  ]
+}
