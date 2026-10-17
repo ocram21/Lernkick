@@ -2,7 +2,7 @@
 
 **Live-PWA:** [LernKick öffnen](https://ocram21.github.io/Lernkick/)
 
-Mobile Lern-PWA für einen BvB-Reha-Piloten. Lernangebot mit 500 Fragen zur Vorbereitung auf den qualifizierten Hauptschulabschluss in Sachsen-Anhalt. **Keine offiziellen Prüfungsfragen, keine fachliche Freigabe.** Das Originalbriefing liegt in `docs/CODEX_BRIEF_LERN_PWA.md`.
+Mobile Lern-PWA für einen BvB-Reha-Piloten. Lernangebot mit 500 redaktionellen Fragen und einem adaptiven Mathe-Piloten mit zusätzlichen generierten Aufgaben zur Vorbereitung auf den qualifizierten Hauptschulabschluss in Sachsen-Anhalt. **Keine offiziellen Prüfungsfragen, keine fachliche Freigabe.** Das Originalbriefing liegt in `docs/CODEX_BRIEF_LERN_PWA.md`.
 
 ## Lokal entwickeln
 
@@ -25,12 +25,15 @@ App-Icons können nach Änderungen an `public/icon.svg` mit `node scripts/icons.
 
 ## Funktionen
 
-Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle fünf Fächer, Lernmodus und Hauptnavigation bleiben sichtbar. Erklärungen zu Runden, Automatik, Punkten, Karten, Aktualisierung, Offline-Nutzung und Datensicherung stehen hinter „Hilfe“.
+Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle fünf Fächer, Lernmodus und Hauptnavigation bleiben sichtbar. Eine kurze Bedienhilfe erklärt Start, Antworten, Hilfen, Lernweg, Wimmelbild und Sicherung. Technische Hintergründe stehen in dieser README und im [Pilotkonzept](docs/MATHE-PILOT.md).
 
 - Je 100 Fragen für Mathematik, Deutsch, Sozialkunde, Biologie und Geografie; zehn unterschiedliche Fragen pro Runde, zwei bis vier gemischte Antworten.
 - Adaptive Lernrunde oder zufälliges freies Üben. Alle fünf Fächer sind spielbar.
-- Leitner-Boxen: richtig beantwortete Fragen nach 1, 3, 7, 14, 30 Tagen; falsche nach 10 Minuten. Fällige Fragen haben Vorrang. Nach mindestens fünf Antworten wird die Schwierigkeit anhand der bisherigen Trefferquote eingeschätzt; das ist eine einfache Heuristik, kein diagnostisches Kompetenzmodell.
-- Punkte pro Frage maximal einmal in 24 Stunden. Bestleistung pro Fach ist die höchste Rundenpunktzahl. Level wächst pro fünf gefestigten Fragen (Box 3 oder höher).
+- Mathe-Lernpfad mit 35 kleinen Kompetenzen, Voraussetzungen, sieben deterministischen Generatorarten und drei Aufgabenstufen. Nach Fehlern passende Unterstützung, anschließend eine neue Herausforderung derselben ursprünglichen Stufe. Kompetenzeinschätzung aus mehreren Beobachtungen statt fachweiter Trefferquote. Grenzwerte, Rückfragen und Fallbacks: [Mathe-Pilot](docs/MATHE-PILOT.md).
+- Hinweis → Beispiel → Lösungserklärung; optionale Zahlenstrahl-/Punktefeld-Hilfe. Unter „Lernweg“ jederzeit leichter, passend, anspruchsvoller oder anders erklären lassen. Keine Zeitmessung und keine Minuspunkte.
+- Leitner-Boxen bleiben für Bestandsfragen erhalten: 1, 3, 7, 14, 30 Tage bei richtigen Antworten, 10 Minuten nach Fehlern. In den anderen vier Fächern bleibt die bisherige Auswahlheuristik bestehen. Ihre neuen Kompetenzbäume sind ein späterer Schritt.
+- Punkte für Bestandsfragen maximal einmal pro Frage und 24 Stunden, für Generatoren einmal pro Kompetenz und 24 Stunden. Bestleistungen bleiben erhalten. Veränderliche Kompetenzzustände ersetzen die globale Level-Zahl.
+- Unter „Fortschritt“ stehen fünf austauschbare Mosaik-Welten mit neutralen Platzhaltern bereit. Freigeschaltete Segmente bleiben bei Fehlern erhalten; Motive sind unabhängig von gespeicherten Meilensteinen austauschbar.
 - IndexedDB für Fortschritt, Bestleistungen, Einstellungen und eigene Karten. Eigene Karten erstellen, bearbeiten, löschen und manuell umdrehen/wiederholen. Eigene Karten haben in dieser Version noch keine adaptive Terminplanung.
 - Versionierter, validierter JSON-Export/Import. Import ersetzt nach Bestätigung den vorhandenen Stand und ist auf 5 MB / 2.000 eigene Karten begrenzt.
 - Rechts neben dem Logo auf der Fächerauswahl steht „App aktualisieren“. Er prüft online auf eine neue Version, wartet auf den vollständigen Download und lädt die App nach dem Versionswechsel neu. Meldungen unterscheiden aktuell, offline und Fehler. Während der Prüfung kann keine Lernrunde gestartet werden. Nutzerdaten bleiben unabhängig vom Service-Worker-Cache erhalten.
@@ -38,9 +41,9 @@ Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle
 
 ## Architektur und Inhalte pflegen
 
-Die fünf JSON-Dateien unter `src/content/` enthalten je 100 versionierte Fragen samt Lehrplanquellen. `src/lib/schema.ts` validiert Fragen und Sicherungen. `engine.ts` hält Lernlogik getrennt von `storage.ts` und UI. `src/App.tsx` enthält die Oberflächen, `style.css` die gemeinsamen Tokens und Styles.
+Die fünf JSON-Dateien unter `src/content/` enthalten je 100 versionierte Fragen samt Lehrplanquellen. `src/lib/schema.ts` validiert Fragen und Sicherungen. `engine.ts` hält die bestehende Leitner- und Punkte-Logik. `src/learning/` kapselt Kompetenzgraph, Generatoren, adaptive Auswahl, Beobachtungen, Migration und Mosaik-Konfiguration getrennt von React; UI-Bausteine liegen in `src/components/`. `src/App.tsx` enthält die Oberflächen, `style.css` die gemeinsamen Tokens und Styles.
 
-Jede Frage braucht eine dauerhafte `id`, `subject`, `topic`, `competency`, `difficulty` (1–3), `prompt`, 2–4 eindeutige `options`, `correct` als nullbasierten Index und eine verständliche `explanation`. IDs bei bloßen Textkorrekturen behalten; bei inhaltlich veränderter Frage neue IDs vergeben. Neue Inhaltsdateien in `src/content/index.ts` registrieren. Inhaltsformat 2 verwendet `status: practice`, eine Inhaltsrevision, Quellenmetadaten und pro Frage `curriculum` mit `sourceId`, `section` und `stage`. `reviewStatus: teacher-review-pending` macht die offene Freigabe ausdrücklich. Das alte Inhaltsformat 1 bleibt lesbar. Lernstände und Sicherungen behalten Datenversion 1.
+Jede Frage braucht eine dauerhafte `id`, `subject`, `topic`, `competency`, `difficulty` (1–3), `prompt`, 2–4 eindeutige `options`, `correct` als nullbasierten Index und eine verständliche `explanation`. IDs bei bloßen Textkorrekturen behalten; bei inhaltlich veränderter Frage neue IDs vergeben. Neue Inhaltsdateien in `src/content/index.ts` registrieren. Inhaltsformat 2 verwendet `status: practice`, eine Inhaltsrevision, Quellenmetadaten und pro Frage `curriculum` mit `sourceId`, `section` und `stage`. `reviewStatus: teacher-review-pending` macht die offene Freigabe ausdrücklich. Das alte Inhaltsformat 1 bleibt lesbar. Neue Lernstände und Sicherungen verwenden Datenversion 2. Version 1 wird verlustfrei migriert; Datenbank und Store bleiben erhalten. Die Migration erfindet weder Antwortzeitpunkte noch gesicherte Kompetenzen aus alten Summen. Alte App-Versionen können neue Sicherungen nicht lesen; bei Rollbacks die neue Leseschicht beibehalten.
 
 Beispiel:
 
@@ -67,9 +70,9 @@ Referenzen: [Vite: GitHub Pages](https://vite.dev/guide/static-deploy.html#githu
 
 `node scripts/export-questions.mjs` aktualisiert den lesbaren Fragenkatalog nach Inhaltsänderungen.
 
-`npm test` prüft 100 Fragen je Fach, gültige Quellenbezüge, alle Schwierigkeitsstufen, Inhaltsvalidierung, zehn eindeutige Fragen, leichte Einstiegsfragen, Wiederholungsfristen, adaptive Schwierigkeit, Punktebegrenzung und ungültige Imports. `npm run build` führt die TypeScript-Prüfung aus und generiert den Workbox-Service-Worker.
+`npm test` prüft zusätzlich Kompetenzgraph und Fragezuordnung, viele Generatorparameter, Fehlerfolgen, Hilfesignal, zeitversetzte Sicherheit, Varianten-Duplikate, dauerhafte Erfolge und Migration. Der Bestandstest prüft weiterhin 100 Fragen je Fach, gültige Quellenbezüge, alle Schwierigkeitsstufen, Inhaltsvalidierung, zehn eindeutige Fragen, leichte Einstiegsfragen, Wiederholungsfristen, adaptive Schwierigkeit, Punktebegrenzung und ungültige Imports. `npm run build` führt die TypeScript-Prüfung aus und generiert den Workbox-Service-Worker.
 
-Für Browserprüfungen ist `tests/pwa.spec.ts` vorgesehen. Nach Browserinstallation `npx playwright test` ausführen. Geprüft werden komplette Runden, Neustart mit gespeicherten Daten, eigene Karten und Offline-Neuladen. Manuell zusätzlich echte Android-/iOS-Installation, Update einer zuvor installierten Version während einer Runde und Nutzung mit der Pilotklasse prüfen. Diese Tests ersetzen keine fachliche Abnahme.
+Die Browserprüfungen liegen in `tests/*.spec.ts`, der Pilot in `tests/learning.spec.ts`. Nach Browserinstallation `npx playwright test` ausführen. Geprüft werden komplette Runden einschließlich des gesamten Katalogs, kompakte Startseite, Hilfestufen, Lernweg-Wahl, Mosaik-Erhalt nach Fehlern, IndexedDB-Migration, tatsächlicher Sicherungsexport und -import, eigene Karten, Offline-Nutzung und Service-Worker-Updates. Manuell zusätzlich echte Android-/iOS-Installation, Update einer zuvor installierten Version während einer Runde und Nutzung mit der Pilotklasse prüfen. Diese Tests ersetzen keine fachliche Abnahme.
 
 ## Offene Entscheidungen und Grenzen
 

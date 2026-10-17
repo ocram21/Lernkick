@@ -19,7 +19,9 @@ for(const viewport of [{width:320,height:568},{width:360,height:640},{width:390,
 test('Hilfe erklärt die Funktionen und führt zurück zur Fächerauswahl',async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:'Hilfe',exact:true}).click();
   await expect(page.getByRole('heading',{name:'So geht LernKick.'})).toBeVisible();
-  for(const heading of ['Fach wählen, loslegen','Deine Lernrunde oder freies Üben?','Antworten und Erklärungen','Fortschritt und Punkte','Eigene Karten','App aktualisieren','Offline lernen und Daten sichern','Zu den Aufgaben']) await expect(page.getByRole('heading',{name:heading,exact:true})).toBeVisible();
+  for(const heading of ['Loslegen','Antworten und Hilfe','Deinen Lernweg wählen','Deinen Fortschritt sehen','Aktualisieren und sichern']) await expect(page.getByRole('heading',{name:heading,exact:true})).toBeVisible();
+  expect((await page.locator('.help-page').innerText()).split(/\s+/).length).toBeLessThan(260);
+  await expect(page.locator('.help-page')).not.toContainText(/IndexedDB|Algorithmus|24 Stunden|drei Sekunden/);
   await page.getByRole('button',{name:'Zurück zum Lernen'}).click();await expect(page.getByRole('heading',{name:'Was geht heute?'})).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+1)).toBe(true);
   await page.getByRole('button',{name:'Mathematik 100 Fragen'}).click();await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();

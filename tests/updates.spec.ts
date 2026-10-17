@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 import { createServer } from 'node:http';
 import { readFileSync } from 'node:fs';
 import { resolve, sep, extname } from 'node:path';
-import { emptyData, type Question } from '../src/lib/schema';
-const questions: Question[] = ['math','german','social','biology','geography'].flatMap(subject => JSON.parse(readFileSync(new URL(`../src/content/${subject}.json`, import.meta.url), 'utf8')).questions);
+import { answerCorrect, answerWrong } from './helpers';
+import { emptyData } from '../src/lib/schema';
 
 test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async({page,context})=>{
   await page.setViewportSize({width:320,height:568});await page.goto('/');
@@ -15,11 +15,7 @@ test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async(
 
 test('Antwort bleibt drei Sekunden sichtbar; Automatik lässt sich anhalten und fortsetzen',async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:/Mathematik .*100 Fragen/}).click();
-  const answer=async()=>{
-    const prompt=await page.locator('.question h1').innerText();
-    const question=questions.find(q=>q.prompt===prompt)!;
-    await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').filter({has:page.getByText(question.options[question.correct],{exact:true})}).click();
-  };
+  const answer=()=>answerCorrect(page);
   await answer();await expect(page.locator('.feedback')).toBeVisible();
   await page.clock.install();
   // Re-arm via the accessible pause control so the mocked clock owns both timers.
@@ -39,10 +35,8 @@ test('Falsche Antworten bleiben ohne Timer stehen, auch bei der letzten Frage',a
   await page.clock.install();
   for(let i=0;i<10;i++) {
     const prompt=await page.locator('.question h1').innerText();
-    const question=questions.find(q=>q.prompt===prompt)!;
-    const wrong=question.options.find((_,index)=>index!==question.correct)!;
-    await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').filter({has:page.getByText(wrong,{exact:true})}).click();
-    await expect(page.locator('.feedback')).toContainText(question.explanation);
+    await answerWrong(page);
+    await expect(page.locator('.feedback p')).not.toBeEmpty();
     await expect(page.getByRole('button',{name:'Anhalten',exact:true})).toHaveCount(0);
     await expect(page.getByRole('button',{name:'Automatisch weiter',exact:true})).toHaveCount(0);
     await page.clock.runFor(30_000);

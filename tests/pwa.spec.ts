@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import type { Question } from '../src/lib/schema';
 const questions: Question[] = ['math','german','social','biology','geography'].flatMap(subject => JSON.parse(readFileSync(new URL(`../src/content/${subject}.json`, import.meta.url), 'utf8')).questions);
 import { emptyData } from '../src/lib/schema';
+import { answerCorrect } from './helpers';
 import { test, expect } from '@playwright/test';
 for (const subject of ['Mathematik','Deutsch','Sozialkunde','Biologie','Geografie']) test(`${subject}: vollständige Runde, Speicherung, offline`,async({page,context})=>{
   await page.goto('/');
@@ -34,6 +35,7 @@ for (const viewport of [{width:375,height:667},{width:320,height:568},{width:844
     for (const subject of ['Mathematik','Deutsch']) {
       await page.getByRole('button',{name:new RegExp(subject+' .*100 Fragen')}).click();
       for (let i=0;i<10;i++) {
+        const helpClose=page.getByRole('button',{name:'Hilfe schließen',exact:true});if(await helpClose.isVisible())await helpClose.click();
         if(viewport.width===375) expect(await page.locator('.round-scroll').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
         await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').first().click();
         const next=page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'});
@@ -69,7 +71,7 @@ for (const [subject, title] of [['math','Mathematik'],['german','Deutsch'],['soc
       await page.getByRole('button',{name:new RegExp(title+' .*100 Fragen')}).click();
       for(let i=0;i<10;i++) {
         const prompt=await page.locator('.question h1').innerText();expect(seen.has(prompt)).toBe(false);seen.add(prompt);
-        await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').first().click();
+        await answerCorrect(page);
         const next=page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'});await expect(next).toBeEnabled();
         const rect=await next.boundingBox();expect(rect!.y+rect!.height).toBeLessThanOrEqual(667);
         expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+1)).toBe(true);
