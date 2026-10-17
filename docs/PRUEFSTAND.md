@@ -16,3 +16,9 @@ Demo-Kennzeichnung aus der Oberfläche entfernt; fachliche Einschränkungen unte
 ## Ausbau auf 250 Fragen
 
 Je 50 Fragen in allen fünf Fächern, Inhaltsformat 2 mit Quellenbezug und offener Lehrerfreigabe. Die bisherigen 24 Aufgaben einschließlich IDs, Antworten und Erklärungen wurden mit dem vorherigen Git-Stand verglichen und unverändert erhalten. Elf Inhalts-/Logik-/Sicherungstests sowie der Produktionsbuild bestanden. Fünfzehn Browserprüfungen bestanden: Offline-Runden in allen fünf Fächern, eigene Karten, kleine Displays und Querformat sowie ein vollständiger Durchlauf aller 50 Fragen jedes Fachs. Der Weiter-Button blieb auch in allen 250 Aufgaben im sichtbaren Bereich; kein Seitenscrollen bei 375×667. Die Browserprüfungen nutzen Chromium mit emulierten Bildschirmgrößen, keine echten Mobilgeräte. Design-Detektor ohne Befund, Startseite auf Mobil- und Desktop-Screenshot geprüft. Recherche und kompletter Fragenkatalog liegen separat bei.
+
+## 17.10.2026: Manuelle Aktualisierung und automatisches Weitergehen
+
+Großer Update-Button oben auf der Startseite, Prüfung und vollständiger Download der neuen Version, bewusster Wechsel des Service Workers mit Neuladen. Kein Löschen von Browserdaten, IndexedDB oder Caches. Nach Antworten drei Sekunden Rückmeldung und automatisches Weitergehen; pausierbar und manuell übersteuerbar.
+
+17 Logik-/Inhalts-/Updateprüfungen bestanden. 18 Browserprüfungen bestanden, darunter ein echter Service-Worker-Wechsel von Testversion 1 auf 2 mit anschließendem Neuladen und unverändert erhaltenen Lernständen, Highscores und eigener Karte. Drei-Sekunden-Timer bei 2.999/3.000 ms, Pause, Fortsetzen und Abbruch alter Timer beim manuellen Weitergehen geprüft. Offline-Hinweis und Erreichbarkeit des großen Update-Buttons auf 320×568 geprüft. Alle bisherigen Runden-, Offline-, Inhalts- und Layoutprüfungen bestanden. Produktionsbuild erfolgreich. Chromium mit emulierten Displays; keine neue Realgeräteprüfung.

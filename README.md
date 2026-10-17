@@ -31,7 +31,8 @@ App-Icons können nach Änderungen an `public/icon.svg` mit `node scripts/icons.
 - Punkte pro Frage maximal einmal in 24 Stunden. Bestleistung pro Fach ist die höchste Rundenpunktzahl. Level wächst pro fünf gefestigten Fragen (Box 3 oder höher).
 - IndexedDB für Fortschritt, Bestleistungen, Einstellungen und eigene Karten. Eigene Karten erstellen, bearbeiten, löschen und manuell umdrehen/wiederholen. Eigene Karten haben in dieser Version noch keine adaptive Terminplanung.
 - Versionierter, validierter JSON-Export/Import. Import ersetzt nach Bestätigung den vorhandenen Stand und ist auf 5 MB / 2.000 eigene Karten begrenzt.
-- Updates werden angezeigt und nur außerhalb einer laufenden Runde angeboten. Nutzerdaten bleiben unabhängig vom Service-Worker-Cache erhalten.
+- Oben auf der Fächerauswahl steht ein großer Button „App aktualisieren“. Er prüft online auf eine neue Version, wartet auf den vollständigen Download und lädt die App nach dem Versionswechsel neu. Meldungen unterscheiden aktuell, offline und Fehler. Während der Prüfung kann keine Lernrunde gestartet werden. Nutzerdaten bleiben unabhängig vom Service-Worker-Cache erhalten.
+- Nach jeder Antwort sind Lösung und Erklärung drei Sekunden sichtbar; danach geht die Runde automatisch weiter. „Anhalten“ gibt mehr Lesezeit, „Automatisch weiter“ startet die drei Sekunden neu. Manuelles Weitergehen ist ebenfalls möglich.
 
 ## Architektur und Inhalte pflegen
 

@@ -30,3 +30,7 @@ button:disabled{opacity:.75}.answer.correct:disabled,.answer.incorrect:disabled{
 @media(max-height:700px){.learning .header{height:52px}.learning .round-view{padding-top:6px}.learning .question{padding:14px 0 12px}.learning .question h1{font-size:27px;margin-top:7px}.learning .answers{padding:9px;gap:7px}.learning .answer{min-height:52px;padding:10px}.learning .feedback{margin-top:12px}.learning .feedback h2{font-size:23px}.round-actions{padding-top:8px}}
 
 .subject-meta{display:grid;gap:4px;text-align:right}.subject-meta small{font-size:11px}.curriculum-sources{padding-left:20px;line-height:1.5}.curriculum-sources li{margin:10px 0}.curriculum-sources a{overflow-wrap:anywhere}
+
+.update-panel{margin:0 0 30px;max-width:850px}.update-button{width:100%;min-height:62px;font-size:20px;gap:13px}.update-panel p{font-size:14px;line-height:1.4;margin:10px 0 0;color:var(--muted);max-width:none}.update-button[aria-busy=true] svg{animation:update-spin 1.2s linear infinite}@keyframes update-spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.update-button[aria-busy=true] svg{animation:none}}
+
+.auto-advance{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;margin-bottom:6px;color:var(--muted);font-size:14px}.auto-toggle{background:transparent;color:var(--accent);border:0;min-height:44px;padding:8px 12px;text-decoration:underline;text-underline-offset:4px}.auto-toggle:hover{background:#303829;border-radius:7px}
