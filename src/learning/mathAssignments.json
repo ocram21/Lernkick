@@ -1,0 +1,502 @@
+{
+  "math-001": {
+    "skillId": "math.multiply.facts",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-002": {
+    "skillId": "math.add.carry",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-003": {
+    "skillId": "math.divide.exact",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-004": {
+    "skillId": "math.number.negative",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-005": {
+    "skillId": "math.fraction.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-006": {
+    "skillId": "math.number.divisibility",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-007": {
+    "skillId": "math.fraction.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-008": {
+    "skillId": "math.percent.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-009": {
+    "skillId": "math.term.evaluate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-010": {
+    "skillId": "math.ratio.proportion",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-011": {
+    "skillId": "math.fraction.calculate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-012": {
+    "skillId": "math.ratio.proportion",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-013": {
+    "skillId": "math.subtract.borrow",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-014": {
+    "skillId": "math.multiply.facts",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-015": {
+    "skillId": "math.divide.exact",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-016": {
+    "skillId": "math.term.evaluate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-017": {
+    "skillId": "math.number.negative",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-018": {
+    "skillId": "math.decimal.calculate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-019": {
+    "skillId": "math.fraction.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-020": {
+    "skillId": "math.measure.convert",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-021": {
+    "skillId": "math.measure.convert",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-022": {
+    "skillId": "math.measure.convert",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-023": {
+    "skillId": "math.fraction.calculate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-024": {
+    "skillId": "math.fraction.calculate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-025": {
+    "skillId": "math.fraction.calculate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-026": {
+    "skillId": "math.percent.change",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-027": {
+    "skillId": "math.percent.change",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-028": {
+    "skillId": "math.percent.basic",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-029": {
+    "skillId": "math.ratio.proportion",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-030": {
+    "skillId": "math.term.evaluate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-031": {
+    "skillId": "math.equation.linear",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-032": {
+    "skillId": "math.formula.rearrange",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-033": {
+    "skillId": "math.power.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-034": {
+    "skillId": "math.power.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-035": {
+    "skillId": "math.power.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-036": {
+    "skillId": "math.function.linear",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-037": {
+    "skillId": "math.function.linear",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-038": {
+    "skillId": "math.equation.system",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-039": {
+    "skillId": "math.function.power",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-040": {
+    "skillId": "math.growth.model",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-041": {
+    "skillId": "math.geometry.area",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-042": {
+    "skillId": "math.geometry.area",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-043": {
+    "skillId": "math.geometry.circle",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-044": {
+    "skillId": "math.geometry.pythagoras",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-045": {
+    "skillId": "math.geometry.volume",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-046": {
+    "skillId": "math.geometry.pyramid",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-047": {
+    "skillId": "math.data.summary",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-048": {
+    "skillId": "math.data.summary",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-049": {
+    "skillId": "math.chance.single",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-050": {
+    "skillId": "math.data.summary",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-051": {
+    "skillId": "math.number.place",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-052": {
+    "skillId": "math.number.negative",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-053": {
+    "skillId": "math.number.negative",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-054": {
+    "skillId": "math.number.divisibility",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-055": {
+    "skillId": "math.fraction.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-056": {
+    "skillId": "math.fraction.basic",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-057": {
+    "skillId": "math.decimal.calculate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-058": {
+    "skillId": "math.measure.convert",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-059": {
+    "skillId": "math.measure.convert",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-060": {
+    "skillId": "math.measure.convert",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-061": {
+    "skillId": "math.measure.convert",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-062": {
+    "skillId": "math.number.place",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-063": {
+    "skillId": "math.percent.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-064": {
+    "skillId": "math.percent.change",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-065": {
+    "skillId": "math.percent.change",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-066": {
+    "skillId": "math.ratio.proportion",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-067": {
+    "skillId": "math.applied.model",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-068": {
+    "skillId": "math.ratio.proportion",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-069": {
+    "skillId": "math.term.evaluate",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-070": {
+    "skillId": "math.equation.linear",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-071": {
+    "skillId": "math.equation.linear",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-072": {
+    "skillId": "math.formula.rearrange",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-073": {
+    "skillId": "math.power.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-074": {
+    "skillId": "math.power.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-075": {
+    "skillId": "math.power.basic",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-076": {
+    "skillId": "math.function.linear",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-077": {
+    "skillId": "math.function.linear",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-078": {
+    "skillId": "math.equation.system",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-079": {
+    "skillId": "math.growth.model",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-080": {
+    "skillId": "math.function.power",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-081": {
+    "skillId": "math.geometry.angle",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-082": {
+    "skillId": "math.geometry.angle",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-083": {
+    "skillId": "math.geometry.area",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-084": {
+    "skillId": "math.geometry.area",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-085": {
+    "skillId": "math.geometry.circle",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-086": {
+    "skillId": "math.geometry.pythagoras",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-087": {
+    "skillId": "math.ratio.proportion",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-088": {
+    "skillId": "math.geometry.area",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-089": {
+    "skillId": "math.geometry.volume",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-090": {
+    "skillId": "math.geometry.pyramid",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-091": {
+    "skillId": "math.geometry.volume",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-092": {
+    "skillId": "math.data.summary",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-093": {
+    "skillId": "math.data.summary",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-094": {
+    "skillId": "math.data.critique",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-095": {
+    "skillId": "math.data.summary",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-096": {
+    "skillId": "math.chance.single",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-097": {
+    "skillId": "math.chance.single",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-098": {
+    "skillId": "math.data.critique",
+    "status": "mapped",
+    "note": "Redaktionelle Zuordnung nach der gefragten Rechenhandlung; fachliche Abnahme offen."
+  },
+  "math-099": {
+    "skillId": "math.applied.model",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  },
+  "math-100": {
+    "skillId": "math.equation.linear",
+    "status": "provisional",
+    "note": "Mehrere Teilfähigkeiten beteiligt; primärer Schwerpunkt, fachliche Abnahme offen."
+  }
+}

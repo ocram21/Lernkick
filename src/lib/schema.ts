@@ -18,6 +18,24 @@ export const contentSchema = z.discriminatedUnion('version', [
 export const progressSchema = z.object({ box: z.number().int().min(0).max(5), due: z.number().nonnegative(), attempts: z.number().int().nonnegative(), correct: z.number().int().nonnegative(), lastAward: z.number().nonnegative() }).refine(p => p.correct <= p.attempts, 'Mehr richtige Antworten als Versuche');
 export const cardSchema = z.object({ id: z.string().min(1).max(100), front: z.string().trim().min(1).max(500), back: z.string().trim().min(1).max(1000), subject: subjectSchema });
 export type Card = z.infer<typeof cardSchema>;
-export const dataSchema = z.object({ version: z.literal(1), progress: z.record(z.string(), progressSchema), scores: z.record(subjectSchema, z.number().int().nonnegative()), cards: z.array(cardSchema).max(2000), settings: z.object({ reducedMotion: z.boolean() }) }).refine(d => new Set(d.cards.map(c => c.id)).size === d.cards.length, 'Karten-IDs müssen eindeutig sein');
+const commonData = {
+  progress: z.record(z.string(), progressSchema), scores: z.record(subjectSchema, z.number().int().nonnegative()),
+  cards: z.array(cardSchema).max(2000), settings: z.object({ reducedMotion: z.boolean() })
+};
+const uniqueCards = (d: {cards: Card[]}) => new Set(d.cards.map(c=>c.id)).size === d.cards.length;
+export const legacyDataSchema = z.object({version:z.literal(1),...commonData}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
+const observationSchema = z.object({ taskId:z.string(), signature:z.string(), at:z.number().nonnegative(), correct:z.boolean(), help:z.number().int().min(0).max(3), level:z.number().int().min(1).max(3) });
+export const competencyStateSchema = z.object({ baseline:z.object({attempts:z.number().int().nonnegative(),correct:z.number().int().nonnegative()}).refine(b=>b.correct<=b.attempts), observations:z.array(observationSchema).max(12), helpRequests:z.number().int().nonnegative().default(0), attempts:z.number().int().nonnegative(), correct:z.number().int().nonnegative(), due:z.number().nonnegative(), level:z.number().int().min(1).max(3) }).refine(s=>s.correct<=s.attempts);
+export const preferenceSchema = z.object({pace:z.enum(['easier','fit','challenge']),explanation:z.enum(['plain','alternate'])});
+export const learningSchema = z.object({
+  competencies:z.record(z.string(),competencyStateSchema), preferences:z.record(z.string(),preferenceSchema),
+  unlocks:z.record(z.string(),z.object({at:z.number().nonnegative(),subject:subjectSchema,skillId:z.string(),milestone:z.enum(['growing','secure'])})),
+  recovery:z.record(z.string(),z.object({skillId:z.string(),originalLevel:z.number().int().min(1).max(3),supportLeft:z.number().int().min(0).max(2),failures:z.number().int().nonnegative(),returnTo:z.object({skillId:z.string(),originalLevel:z.number().int().min(1).max(3)}).optional()})),
+  awards:z.record(z.string(),z.number().nonnegative())
+});
+export const dataSchema = z.object({version:z.literal(2),...commonData,learning:learningSchema}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
 export type UserData = z.infer<typeof dataSchema>;
-export const emptyData = (): UserData => ({ version: 1, progress: {}, scores: { math: 0, german: 0, social: 0, biology: 0, geography: 0 }, cards: [], settings: { reducedMotion: false } });
+export type CompetencyState = z.infer<typeof competencyStateSchema>;
+export type Observation = z.infer<typeof observationSchema>;
+export const emptyLearning = (): UserData['learning'] => ({competencies:{},preferences:{},unlocks:{},recovery:{},awards:{}});
+export const emptyData = (): UserData => ({version:2,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false},learning:emptyLearning()});
