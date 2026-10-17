@@ -41,8 +41,7 @@ test('eigener Lernfortschritt legt Mosaikteile frei, alle fünf Fachwelten sind 
   for(let i=0;i<3;i++){await answerCorrect(page);await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();}
   await expect(page.locator('.question-topic')).toHaveText('Addieren ohne Zehnerübergang');
   await leaveRound(page);await expect(page.getByRole('group',{name:'Zahlenwerkstatt: 1 von 12 Teilen sichtbar'})).toBeVisible();
-  for(const subject of ['Deutsch','Sozialkunde','Biologie','Geografie','Mathematik'])await page.getByRole('group',{name:'Fach für das Wimmelbild'}).getByRole('button',{name:subject,exact:true}).click();
-  await page.getByText('Meine Mathe-Schritte ansehen',{exact:true}).click();await expect(page.locator('.competency-details li').first()).toContainText('Fortschritt sichtbar');
+  for(const subject of ['Deutsch','Sozialkunde','Biologie','Geografie','Mathematik'])await page.getByRole('group',{name:'Fach für den Fortschritt'}).getByRole('button',{name:new RegExp('^'+subject+' ')}).click();
   await page.screenshot({path:'test-results/pilot-mosaic-mobile.png',fullPage:true});
   await page.setViewportSize({width:1440,height:900});await page.screenshot({path:'test-results/pilot-mosaic-desktop.png',fullPage:true});
   await page.reload();await page.getByRole('button',{name:'Fortschritt',exact:true}).click();await expect(page.getByRole('group',{name:'Zahlenwerkstatt: 1 von 12 Teilen sichtbar'})).toBeVisible();

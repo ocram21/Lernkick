@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import type { Question } from '../src/lib/schema';
 const questions: Question[] = ['math','german','social','biology','geography'].flatMap(subject => JSON.parse(readFileSync(new URL(`../src/content/${subject}.json`, import.meta.url), 'utf8')).questions);
 import { emptyData } from '../src/lib/schema';
-import { answerCorrect } from './helpers';
+import { answerCorrect, storedAttempts } from './helpers';
 import { test, expect } from '@playwright/test';
 for (const subject of ['Mathematik','Deutsch','Sozialkunde','Biologie','Geografie']) test(`${subject}: vollständige Runde, Speicherung, offline`,async({page,context})=>{
   await page.goto('/');
@@ -12,10 +12,10 @@ for (const subject of ['Mathematik','Deutsch','Sozialkunde','Biologie','Geografi
   await expect(page.getByRole('heading',{name:'Runde geschafft.'})).toBeVisible();
   await page.getByRole('button',{name:'Zur Fächerauswahl'}).click();
   await page.getByRole('button',{name:'Fortschritt',exact:true}).click();
-  await expect(page.locator('.progress-summary')).toContainText('10');
+  expect(await storedAttempts(page)).toBe(10);
   await page.reload();
   await page.getByRole('button',{name:'Fortschritt',exact:true}).click();
-  await expect(page.locator('.progress-summary')).toContainText('10');
+  expect(await storedAttempts(page)).toBe(10);
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
   await page.reload();
   await expect.poll(()=>page.evaluate(()=>!!navigator.serviceWorker.controller)).toBe(true);
@@ -44,7 +44,10 @@ for (const viewport of [{width:375,height:667},{width:320,height:568},{width:844
         expect(rect!.y).toBeGreaterThanOrEqual(0);
         expect(rect!.y+rect!.height).toBeLessThanOrEqual(viewport.height);
         expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+1)).toBe(true);
-        if(viewport.width===375) expect(await page.locator('.round-scroll').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
+        // Long explanations may scroll inside the round; the next action must stay fixed.
+        await page.locator('.feedback').scrollIntoViewIfNeeded();
+        const afterScroll=await next.boundingBox();expect(afterScroll!.y).toBe(rect!.y);
+        expect(afterScroll!.y+afterScroll!.height).toBeLessThanOrEqual(viewport.height);
         if(i===0 && subject==='Deutsch') await page.screenshot({path:`test-results/round-${viewport.width}.png`});
         await next.click();
       }

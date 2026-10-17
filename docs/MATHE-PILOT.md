@@ -98,3 +98,7 @@ Noch nicht durchgeführt. Vorschlag für einen begleiteten Test mit 3–5 Lernen
 5. Den Ort der Sicherung zeigen lassen; Begriffe und Sätze notieren, bei denen Nachfragen nötig waren.
 
 Abnahmekriterium als Arbeitsannahme: Jede Kernhandlung gelingt ohne vorsagende Hilfe; missverständliche Begriffe werden vor dem Klassenpilot überarbeitet. Fachliche Freigabe von Generatorvarianten, Kompetenzgrenzen und Zuordnungen sowie Installation auf echten Mobilgeräten bleiben zusätzlich offen.
+
+## Aktuelle kompakte Fortschrittsoberfläche
+
+Auf nachfolgenden Nutzerwunsch zeigt „Fortschritt“ nur die Fachauswahl und das Bild ohne Scrollen. Kompetenzzustände, Baseline und Bestleistungen bleiben im Datenmodell und in Sicherungen erhalten, werden dort aber nicht als Textliste oder Zähler angezeigt. Der Lernenden-Test fragt entsprechend nach dem Finden der Ansicht „Fortschritt“, dem Wechsel zwischen Fächern und dem dauerhaften Erhalt freigelegter Bildteile. Die Bildwelten sind weiterhin neutrale austauschbare Platzhalter.

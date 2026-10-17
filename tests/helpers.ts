@@ -20,3 +20,6 @@ export async function answerWrong(page:Page) {
   const count=await buttons.count();for(let i=0;i<count;i++)if(await buttons.nth(i).locator('span').nth(1).innerText()!==value){await buttons.nth(i).click();return;}
   throw new Error('Keine falsche Option');
 }
+export async function storedAttempts(page:Page):Promise<number> {
+  return page.evaluate(()=>new Promise((resolve,reject)=>{const request=indexedDB.open('lernkick',1);request.onerror=()=>reject(request.error);request.onsuccess=()=>{const db=request.result,get=db.transaction('user').objectStore('user').get('data');get.onsuccess=()=>{resolve(Object.values(get.result.progress as Record<string,{attempts:number}>).reduce((sum,entry)=>sum+entry.attempts,0));db.close();};get.onerror=()=>reject(get.error);};}));
+}

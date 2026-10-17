@@ -19,3 +19,5 @@ Bei falschen Antworten bleibt die Erklärung ohne Zeitlimit stehen; weiter geht 
 Mathe-Pilot laut Entwicklungsauftrag: kleine veränderliche Kompetenzen, deterministische Aufgabenvarianten, freiwillige Hilfestufen und Lernweg-Wahl. Kein Zeitdruck bei der Antwort, keine Interpretation von Antwortgeschwindigkeit. Mosaik-Meilensteine bleiben dauerhaft erhalten. Fünf getrennte neutrale Bildplatzhalter; aufwendige finale Bildwelten und neue Kompetenzbäume der anderen Fächer folgen später.
 
 Fachauswahl auf ausdrücklichen Nutzerwunsch als abgerundete quadratische Buttons mit MA, D, SK, Bio und Geo. Vollständige Fachnamen bleiben zugänglich. Verlassen einer laufenden Runde über Zurückpfeil oder Logo erst nach eigener Bestätigung; die Automatik pausiert während der Abfrage.
+
+Fortschritt auf ausdrücklichen Nutzerwunsch: nur Überschrift „Fortschritt“, Fachkürzel und das jeweilige Bild auf einer Bildschirmhöhe. Keine sichtbaren Erklärtexte, Zähler, Kompetenzlisten oder Bestleistungen. Die Bezeichnung „Wimmelbild“ entfällt in der Oberfläche. Bestleistungen und Kompetenzdaten bleiben gespeichert.

@@ -72,3 +72,19 @@ button:disabled{opacity:.75}.answer.correct:disabled,.answer.incorrect:disabled{
 .leave-round-dialog::backdrop{background:#000a}.leave-round-dialog h2{margin:0 0 14px;font-size:30px}.leave-round-dialog p{margin:0 0 22px}.leave-round-actions{display:grid;gap:8px}.leave-round-actions button{width:100%;min-height:48px}
 @media(min-width:700px){.home-screen .subject-tile-grid{grid-template-columns:repeat(5,104px);width:max-content;max-width:100%}}
 @media(min-width:600px) and (max-height:500px){.home-screen .subject-tile-grid{grid-template-columns:repeat(5,72px);gap:10px}.subject-tile{font-size:29px;border-radius:14px}}
+
+/* Progress is only the subject switch and its picture, within one screen. */
+.progress-screen{height:100vh;height:100dvh;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+.progress-screen .header{height:64px;flex-shrink:0}
+.progress-screen main{flex:1;min-height:0;width:100%;max-width:760px;margin:0 auto;padding:12px 0 0;display:flex;flex-direction:column}
+.progress-screen h1{font-size:32px;margin:0 0 12px;line-height:1.1}
+.progress-screen .mosaic-section{margin:0;max-width:none;flex:1;min-height:0;display:flex;flex-direction:column}
+.progress-screen .mosaic-subjects{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;width:100%;max-width:420px;margin:0 0 12px;flex-shrink:0}
+.progress-screen .mosaic-subjects button{padding:8px 4px;min-width:44px;min-height:44px;font-weight:600}
+.progress-art{display:flex;justify-content:center;align-items:flex-start;flex:1;min-height:0}
+.progress-screen .competency-mosaic{width:min(100%,520px,calc(max(96px,100dvh - 260px - env(safe-area-inset-top) - env(safe-area-inset-bottom))*4/3));flex-shrink:0}
+.progress-screen .bottom-nav{position:static;flex-shrink:0;width:100%;margin:6px auto 0;min-height:64px;box-shadow:none}
+.progress-screen .bottom-nav button{min-height:52px}
+.progress-screen .footer{display:none}
+.progress-screen .notice{position:fixed;z-index:20;bottom:max(82px,calc(env(safe-area-inset-bottom) + 82px));left:50%;transform:translateX(-50%);width:min(680px,calc(100% - 32px));max-height:40dvh;overflow-y:auto;margin:0;box-shadow:0 6px 24px #0005}
+@media(max-height:500px){.progress-screen .header{height:52px}.progress-screen main{padding-top:6px}.progress-screen h1{font-size:29px;margin-bottom:8px}.progress-screen .mosaic-subjects{margin-bottom:8px}.progress-screen .bottom-nav button{flex-direction:row;min-height:44px}.progress-screen .bottom-nav{min-height:56px}}

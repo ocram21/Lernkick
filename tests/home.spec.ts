@@ -30,7 +30,7 @@ test('Hilfe erklärt die Funktionen und führt zurück zur Fächerauswahl',async
 
 for(const exit of ['Pfeil','Logo'])test(`Rundenabbruch über ${exit} fragt nach und pausiert die Automatik`,async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:/Mathematik 100 Fragen/}).click();
-  const {answerCorrect}=await import('./helpers');await answerCorrect(page);
+  const {answerCorrect,storedAttempts}=await import('./helpers');await answerCorrect(page);
   await page.clock.install();
   await page.getByRole('button',{name:'Anhalten',exact:true}).click();await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
   const trigger=page.getByRole('button',{name:exit==='Logo'?'LernKick Startseite':'Runde verlassen',exact:true});
@@ -42,5 +42,5 @@ for(const exit of ['Pfeil','Logo'])test(`Rundenabbruch über ${exit} fragt nach 
   await trigger.click();await page.keyboard.press('Escape');await expect(dialog).toHaveCount(0);await expect(trigger).toBeFocused();
   await trigger.click();if(exit==='Pfeil')await page.screenshot({path:'test-results/leave-round-confirmation.png'});
   await dialog.getByRole('button',{name:'Runde verlassen',exact:true}).click();await expect(page.getByRole('heading',{name:'Was geht heute?'})).toBeVisible();
-  await page.getByRole('button',{name:'Fortschritt',exact:true}).click();await expect(page.locator('.progress-summary')).toContainText('1');
+  await page.getByRole('button',{name:'Fortschritt',exact:true}).click();expect(await storedAttempts(page)).toBe(1);
 });
