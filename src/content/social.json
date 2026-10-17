@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.16.1",
+  "revision": "2026.10.17.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "title": "Fachlehrplan Sekundarschule Sozialkunde",
       "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_sozi_01_08_2019.pdf",
       "documentDate": "2019-08-01",
-      "accessedAt": "2026-10-16"
+      "accessedAt": "2026-10-17"
     }
   ],
   "questions": [
@@ -1007,6 +1007,1006 @@
       ],
       "correct": 1,
       "explanation": "Demokratische Beteiligung braucht nachvollziehbare Argumente, faire Verfahren und die zuständigen Entscheidungsgremien.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-051",
+      "subject": "social",
+      "topic": "demokratie",
+      "competency": "demokratie",
+      "difficulty": 1,
+      "prompt": "Was unterscheidet eine Demokratie von einer Diktatur?",
+      "options": [
+        "Regierungsmacht kann durch freie Wahlen abgelöst werden.",
+        "Eine einzelne Person darf unbegrenzt alles bestimmen.",
+        "Kritik an der Regierung ist grundsätzlich verboten."
+      ],
+      "correct": 0,
+      "explanation": "Zur Demokratie gehören freie Wahlen, Grundrechte und die Möglichkeit, die Regierenden friedlich abzulösen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-052",
+      "subject": "social",
+      "topic": "gewaltenteilung",
+      "competency": "gewaltenteilung",
+      "difficulty": 2,
+      "prompt": "Zu welcher Gewalt gehört die Bundesregierung?",
+      "options": [
+        "zur gesetzgebenden Gewalt als Parlament",
+        "zur rechtsprechenden Gewalt",
+        "zur ausführenden Gewalt"
+      ],
+      "correct": 2,
+      "explanation": "Die Regierung gehört zur Exekutive. Gesetzgebung und Rechtsprechung haben eigene Aufgaben und Institutionen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-053",
+      "subject": "social",
+      "topic": "gewaltenteilung",
+      "competency": "gewaltenteilung",
+      "difficulty": 2,
+      "prompt": "Welche Institution gehört zur rechtsprechenden Gewalt?",
+      "options": [
+        "eine Polizeidienststelle",
+        "ein Gericht",
+        "ein Ministerium"
+      ],
+      "correct": 1,
+      "explanation": "Gerichte entscheiden in rechtlichen Streitfällen und gehören zur Judikative. Polizei und Verwaltung gehören zur Exekutive.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-054",
+      "subject": "social",
+      "topic": "parlament",
+      "competency": "parlament",
+      "difficulty": 2,
+      "prompt": "Wie kann ein Parlament eine Regierung kontrollieren?",
+      "options": [
+        "durch Anfragen, Debatten und Untersuchungsausschüsse",
+        "indem es jede Kritik verbietet",
+        "indem es alle Gerichte abschafft"
+      ],
+      "correct": 0,
+      "explanation": "Parlamentarische Kontrolle macht Regierungshandeln überprüfbar. Abgeordnete können Auskunft verlangen und Vorgänge untersuchen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-055",
+      "subject": "social",
+      "topic": "bundesrat",
+      "competency": "bundesrat",
+      "difficulty": 2,
+      "prompt": "Warum ist der Bundesrat für die Länder wichtig?",
+      "options": [
+        "Er wählt in jeder Schule die Klassensprecher.",
+        "Durch ihn wirken die Länder an der Gesetzgebung des Bundes mit.",
+        "Er ersetzt alle Gemeinderäte."
+      ],
+      "correct": 1,
+      "explanation": "Im Bundesrat bringen die Länder ihre Interessen in die Bundespolitik ein. Er ist ein Teil des föderalen Systems.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-056",
+      "subject": "social",
+      "topic": "verfassung",
+      "competency": "verfassung",
+      "difficulty": 1,
+      "prompt": "Wie heißt die Verfassung der Bundesrepublik Deutschland?",
+      "options": [
+        "Grundgesetz",
+        "Parteiprogramm",
+        "Hausordnung"
+      ],
+      "correct": 0,
+      "explanation": "Das Grundgesetz regelt die Grundlagen des Staates und schützt Grundrechte. Eine Hausordnung hat eine andere Funktion.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-057",
+      "subject": "social",
+      "topic": "verfassung",
+      "competency": "verfassung",
+      "difficulty": 2,
+      "prompt": "Warum muss auch eine gewählte Regierung das Grundgesetz beachten?",
+      "options": [
+        "Ein Wahlsieg hebt alle Regeln auf.",
+        "Verfassungen gelten nur für Privatpersonen.",
+        "Staatliche Macht ist an die Verfassung und an Recht gebunden."
+      ],
+      "correct": 2,
+      "explanation": "Demokratie und Rechtsstaat gehören zusammen. Eine Wahl gibt kein Recht, die verfassungsmäßigen Grenzen zu überschreiten.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-058",
+      "subject": "social",
+      "topic": "grundrechte",
+      "competency": "grundrechte",
+      "difficulty": 1,
+      "prompt": "Was schützt die Versammlungsfreiheit grundsätzlich?",
+      "options": [
+        "jede beliebige Sachbeschädigung",
+        "andere mit Gewalt zum Mitmachen zu zwingen",
+        "sich friedlich und ohne Waffen zu versammeln"
+      ],
+      "correct": 2,
+      "explanation": "Artikel 8 des Grundgesetzes schützt für Deutsche friedliche Versammlungen ohne Waffen. Der Schutz ist kein Freibrief für Gewalt.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-059",
+      "subject": "social",
+      "topic": "grundrechte",
+      "competency": "grundrechte",
+      "difficulty": 2,
+      "prompt": "Was bedeutet Pressefreiheit für die Kontrolle der Politik?",
+      "options": [
+        "Nur Regierungsmitglieder dürfen Nachrichten veröffentlichen.",
+        "Medien dürfen unabhängig recherchieren und kritisch berichten.",
+        "Die Regierung muss jeden Artikel vorher genehmigen."
+      ],
+      "correct": 1,
+      "explanation": "Unabhängige Medien ermöglichen Öffentlichkeit und Kontrolle. Berichterstattung muss dabei geltendes Recht beachten.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-060",
+      "subject": "social",
+      "topic": "gleichberechtigung",
+      "competency": "gleichberechtigung",
+      "difficulty": 2,
+      "prompt": "Was ist mit Chancengleichheit gemeint?",
+      "options": [
+        "Nur wohlhabende Menschen dürfen sich bewerben.",
+        "Alle Menschen müssen dieselben Hobbys haben.",
+        "Menschen sollen faire Zugänge zu Bildung und Teilhabe haben."
+      ],
+      "correct": 2,
+      "explanation": "Chancengleichheit betrifft faire Möglichkeiten. Unterschiedliche Interessen und Lebenswege bleiben dabei möglich.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-061",
+      "subject": "social",
+      "topic": "wahlen",
+      "competency": "wahlen",
+      "difficulty": 1,
+      "prompt": "Was bedeutet „gleiche Wahl“ bei einer demokratischen Parlamentswahl?",
+      "options": [
+        "Reiche Personen erhalten grundsätzlich mehr Stimmen.",
+        "Alle müssen dieselbe Partei wählen.",
+        "Jede Stimme zählt grundsätzlich gleich viel."
+      ],
+      "correct": 2,
+      "explanation": "Gleichheit der Wahl bedeutet gleichen Zählwert und grundsätzlich gleichen Erfolgswert der Stimmen, nicht gleiche Wahlentscheidungen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-062",
+      "subject": "social",
+      "topic": "wahlen",
+      "competency": "wahlen",
+      "difficulty": 2,
+      "prompt": "Warum darf niemand verlangen, deinen ausgefüllten Stimmzettel zu sehen?",
+      "options": [
+        "Die geheime Wahl schützt vor Druck auf die Wahlentscheidung.",
+        "Weil alle Stimmzettel leer bleiben müssen.",
+        "Weil Wahlen ohne Auszählung stattfinden."
+      ],
+      "correct": 0,
+      "explanation": "Das Wahlgeheimnis ermöglicht eine persönliche Entscheidung ohne Kontrolle durch Arbeitgeber, Familie oder andere Personen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-063",
+      "subject": "social",
+      "topic": "parteien",
+      "competency": "parteien",
+      "difficulty": 2,
+      "prompt": "Wozu dient ein Wahlprogramm?",
+      "options": [
+        "Es zeigt politische Ziele und Vorhaben einer Partei.",
+        "Es garantiert, dass alle Ziele automatisch Gesetz werden.",
+        "Es ersetzt das Grundgesetz."
+      ],
+      "correct": 0,
+      "explanation": "Ein Wahlprogramm ermöglicht den Vergleich politischer Angebote. Ob Vorhaben umgesetzt werden, hängt von weiteren Entscheidungen ab.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-064",
+      "subject": "social",
+      "topic": "koalition",
+      "competency": "koalition",
+      "difficulty": 3,
+      "prompt": "Zwei Parteien bilden eine Koalition. Warum verhandeln sie über gemeinsame Ziele?",
+      "options": [
+        "Sie müssen unterschiedliche Positionen für gemeinsames Regieren abstimmen.",
+        "Sie schaffen dadurch alle anderen Parteien ab.",
+        "Sie dürfen danach keine unterschiedlichen Ansichten mehr haben."
+      ],
+      "correct": 0,
+      "explanation": "Ein Koalitionsvertrag bündelt ausgehandelte Vorhaben. Die beteiligten Parteien bleiben dabei eigenständige Organisationen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-065",
+      "subject": "social",
+      "topic": "opposition",
+      "competency": "opposition",
+      "difficulty": 2,
+      "prompt": "Welche Rolle hat die Opposition neben Kritik an der Regierung?",
+      "options": [
+        "Alternativen und eigene Vorschläge öffentlich vertreten",
+        "jede Entscheidung der Regierung automatisch verhindern",
+        "die Regierung ohne Wahl dauerhaft ersetzen"
+      ],
+      "correct": 0,
+      "explanation": "Opposition bietet politische Alternativen und kontrolliert die Mehrheit. Sie gehört zum demokratischen Wettbewerb.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-066",
+      "subject": "social",
+      "topic": "foederalismus",
+      "competency": "foederalismus",
+      "difficulty": 2,
+      "prompt": "Was ist ein Vorteil, wenn politische Aufgaben auf mehrere Ebenen verteilt sind?",
+      "options": [
+        "Keine Ebene trägt Verantwortung.",
+        "Es gibt dadurch grundsätzlich keine gemeinsamen Regeln mehr.",
+        "Regionale Besonderheiten können berücksichtigt werden."
+      ],
+      "correct": 2,
+      "explanation": "Föderalismus verbindet gemeinsame Aufgaben mit regionalen Gestaltungsmöglichkeiten. Zuständigkeiten müssen dabei geklärt sein.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-067",
+      "subject": "social",
+      "topic": "kommunalpolitik",
+      "competency": "kommunalpolitik",
+      "difficulty": 1,
+      "prompt": "Ein Dorf möchte einen Spielplatz erneuern. Wo kannst du das Anliegen zunächst einbringen?",
+      "options": [
+        "bei der Gemeinde und ihren Vertretungen",
+        "nur beim Europäischen Gerichtshof",
+        "ausschließlich bei einer ausländischen Regierung"
+      ],
+      "correct": 0,
+      "explanation": "Ein örtlicher Spielplatz ist ein Anliegen im Nahraum. Die Gemeinde ist deshalb eine passende erste Anlaufstelle.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-068",
+      "subject": "social",
+      "topic": "kommunalpolitik",
+      "competency": "kommunalpolitik",
+      "difficulty": 2,
+      "prompt": "Was ist ein öffentlicher Haushalt einer Kommune?",
+      "options": [
+        "eine Liste aller privaten Passwörter",
+        "ein Plan für Einnahmen und Ausgaben",
+        "die Hausordnung einer einzelnen Wohnung"
+      ],
+      "correct": 1,
+      "explanation": "Ein kommunaler Haushalt plant die öffentlichen Mittel. Da diese begrenzt sind, müssen Ausgaben begründet und abgewogen werden.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-069",
+      "subject": "social",
+      "topic": "konfliktanalyse",
+      "competency": "konfliktanalyse",
+      "difficulty": 3,
+      "prompt": "Für ein Jugendzentrum und einen Sportplatz reicht das Geld nicht gleichzeitig. Was hilft bei der Entscheidung?",
+      "options": [
+        "Bedarf, Kosten und mögliche Zwischenlösungen vergleichen",
+        "Kosten und Betroffene völlig ignorieren",
+        "nur die lauteste Gruppe anhören"
+      ],
+      "correct": 0,
+      "explanation": "Ein politischer Konflikt lässt sich besser beurteilen, wenn Interessen, begrenzte Mittel und Handlungsalternativen sichtbar sind.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-070",
+      "subject": "social",
+      "topic": "beteiligung",
+      "competency": "beteiligung",
+      "difficulty": 2,
+      "prompt": "Was kann ein Jugendbeirat in einer Kommune beitragen?",
+      "options": [
+        "jedem Erwachsenen das Wahlrecht entziehen",
+        "alle Gesetze allein beschließen",
+        "Interessen junger Menschen in Beratungen einbringen"
+      ],
+      "correct": 2,
+      "explanation": "Ein Jugendbeirat eröffnet einen Beteiligungsweg. Seine konkreten Rechte hängen von den örtlichen Regelungen ab.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-071",
+      "subject": "social",
+      "topic": "beteiligung",
+      "competency": "beteiligung",
+      "difficulty": 2,
+      "prompt": "Eine Unterschriftensammlung fordert bessere Busverbindungen. Was zeigt sie zunächst?",
+      "options": [
+        "die Zustimmung aller Einwohner",
+        "Unterstützung für das Anliegen",
+        "eine bereits rechtskräftige Fahrplanänderung"
+      ],
+      "correct": 1,
+      "explanation": "Unterschriften können Aufmerksamkeit und politischen Druck erzeugen. Sie ersetzen aber nicht automatisch eine zuständige Entscheidung.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-072",
+      "subject": "social",
+      "topic": "interessen",
+      "competency": "interessen",
+      "difficulty": 2,
+      "prompt": "Was ist eine Interessengruppe?",
+      "options": [
+        "ein Zusammenschluss, der gemeinsame Anliegen vertritt",
+        "immer das gesamte Staatsvolk",
+        "ein Gericht mit Strafbefugnissen"
+      ],
+      "correct": 0,
+      "explanation": "Verbände oder Initiativen bündeln gemeinsame Anliegen und versuchen, politische Entscheidungen zu beeinflussen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-073",
+      "subject": "social",
+      "topic": "lobbyismus",
+      "competency": "lobbyismus",
+      "difficulty": 3,
+      "prompt": "Warum sollten Kontakte zwischen Politik und Interessenvertretungen transparent sein?",
+      "options": [
+        "Damit nur finanzstarke Gruppen Zugang erhalten.",
+        "Damit mögliche Einflüsse und Interessen nachvollziehbar werden.",
+        "Damit keine Person mehr ihre Meinung äußern darf."
+      ],
+      "correct": 1,
+      "explanation": "Transparenz hilft, politische Entscheidungen kritisch einzuordnen. Interessenvertretung kann Informationen liefern, aber auch einseitig wirken.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-074",
+      "subject": "social",
+      "topic": "recht",
+      "competency": "recht",
+      "difficulty": 2,
+      "prompt": "Warum gibt es bei einem Gerichtsverfahren Regeln für beide Seiten?",
+      "options": [
+        "Sie sollen Urteile durch Lautstärke ersetzen.",
+        "Sie sollen Beweise immer verhindern.",
+        "Sie sollen ein faires Verfahren ermöglichen."
+      ],
+      "correct": 2,
+      "explanation": "Verfahrensregeln schützen vor Willkür. Entscheidungen sollen nach Recht und anhand nachvollziehbarer Tatsachen getroffen werden.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-075",
+      "subject": "social",
+      "topic": "recht",
+      "competency": "recht",
+      "difficulty": 2,
+      "prompt": "Was beschreibt die Unschuldsvermutung?",
+      "options": [
+        "Zeitungsberichte ersetzen jedes Verfahren.",
+        "Eine beschuldigte Person gilt bis zum rechtmäßigen Schuldnachweis als unschuldig.",
+        "Jede Beschuldigung beweist bereits die Schuld."
+      ],
+      "correct": 1,
+      "explanation": "Ein Verdacht ist kein Schuldnachweis. Diese Unterscheidung schützt Menschen vor Vorverurteilung.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-076",
+      "subject": "social",
+      "topic": "regeln",
+      "competency": "regeln",
+      "difficulty": 1,
+      "prompt": "Was unterscheidet eine Schulregel von einer persönlichen Vorliebe?",
+      "options": [
+        "Eine Schulregel darf niemals erklärt werden.",
+        "Jede Vorliebe ist automatisch ein staatliches Gesetz.",
+        "Die Schulregel legt ein gemeinsames Verhalten fest."
+      ],
+      "correct": 2,
+      "explanation": "Gemeinsame Regeln ordnen das Zusammenleben. Persönliche Vorlieben können unterschiedlich sein und gelten nicht automatisch für alle.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-077",
+      "subject": "social",
+      "topic": "sozialstaat",
+      "competency": "sozialstaat",
+      "difficulty": 2,
+      "prompt": "Warum werden öffentliche Bildungsangebote finanziert?",
+      "options": [
+        "Sie machen eigenes Lernen überflüssig.",
+        "Sie ermöglichen Bildung auch unabhängig vom Einkommen der Eltern.",
+        "Sie sollen ausschließlich Reiche fördern."
+      ],
+      "correct": 1,
+      "explanation": "Öffentliche Bildung unterstützt Teilhabe und faire Chancen. Sie ersetzt weder eigenes Lernen noch individuelle Unterstützung.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-078",
+      "subject": "social",
+      "topic": "soziale-ungleichheit",
+      "competency": "soziale-ungleichheit",
+      "difficulty": 2,
+      "prompt": "Welche Situation zeigt einen ungleichen Zugang zu Bildung?",
+      "options": [
+        "Eine Person kann wegen fehlender Geräte am Onlineunterricht kaum teilnehmen.",
+        "Zwei Personen wohnen in gleich großen Zimmern.",
+        "Zwei Personen wählen unterschiedliche Lieblingsfarben."
+      ],
+      "correct": 0,
+      "explanation": "Fehlende technische Ausstattung kann Lernmöglichkeiten einschränken. Hier geht es um Teilhabe, nicht nur um unterschiedliche Vorlieben.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-079",
+      "subject": "social",
+      "topic": "soziale-ungleichheit",
+      "competency": "soziale-ungleichheit",
+      "difficulty": 3,
+      "prompt": "Warum reicht das Durchschnittseinkommen allein nicht zur Beurteilung sozialer Ungleichheit?",
+      "options": [
+        "Es beweist, dass niemand wenig verdient.",
+        "Es nennt automatisch jedes einzelne Einkommen.",
+        "Es zeigt nicht, wie das Einkommen verteilt ist."
+      ],
+      "correct": 2,
+      "explanation": "Ein hoher Durchschnitt kann neben sehr niedrigen Einkommen bestehen. Für Ungleichheit braucht man auch Informationen zur Verteilung.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-080",
+      "subject": "social",
+      "topic": "solidaritaet",
+      "competency": "solidaritaet",
+      "difficulty": 2,
+      "prompt": "Welches Beispiel zeigt solidarisches Handeln in einer Klasse?",
+      "options": [
+        "nur die eigenen Vorteile berücksichtigen",
+        "Material teilen, damit alle an einer Aufgabe teilnehmen können",
+        "eine Person wegen fehlender Ausrüstung auslachen"
+      ],
+      "correct": 1,
+      "explanation": "Solidarisches Handeln bezieht andere ein und unterstützt gemeinsame Teilhabe, etwa durch das Teilen vorhandener Mittel.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-081",
+      "subject": "social",
+      "topic": "vorurteile",
+      "competency": "vorurteile",
+      "difficulty": 2,
+      "prompt": "Warum ist „Alle Menschen aus dieser Region sind faul“ ein Vorurteil?",
+      "options": [
+        "Es beschreibt jede einzelne Person anhand überprüfter Daten.",
+        "Es schreibt einer ganzen Gruppe pauschal eine Eigenschaft zu.",
+        "Es ist allein wegen des Wortes „Region“ wissenschaftlich."
+      ],
+      "correct": 1,
+      "explanation": "Pauschale Zuschreibungen übergehen Unterschiede zwischen Menschen und ersetzen keine sachliche Prüfung.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-082",
+      "subject": "social",
+      "topic": "diskriminierung",
+      "competency": "diskriminierung",
+      "difficulty": 2,
+      "prompt": "Eine geeignete Bewerberin wird nur wegen ihrer Religion abgelehnt. Was beschreibt diesen Fall?",
+      "options": [
+        "Benachteiligung wegen einer persönlichen Zugehörigkeit",
+        "eine fachliche Bewertung ihrer Qualifikation",
+        "eine zufällige Auswahl ohne Bezug zur Person"
+      ],
+      "correct": 0,
+      "explanation": "Die Entscheidung knüpft hier an die Religion statt an die Eignung an. Das Beispiel zeigt eine diskriminierende Benachteiligung.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-083",
+      "subject": "social",
+      "topic": "inklusion",
+      "competency": "inklusion",
+      "difficulty": 1,
+      "prompt": "Welche Maßnahme erleichtert gesellschaftliche Teilhabe?",
+      "options": [
+        "ein barrierefreier Zugang zu einem öffentlichen Gebäude",
+        "Menschen mit Behinderungen grundsätzlich ausschließen",
+        "Informationen absichtlich unlesbar machen"
+      ],
+      "correct": 0,
+      "explanation": "Barrieren können Menschen an der Teilnahme hindern. Ein zugänglicher Eingang ermöglicht mehr Selbstständigkeit und Teilhabe.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-084",
+      "subject": "social",
+      "topic": "zivilcourage",
+      "competency": "zivilcourage",
+      "difficulty": 2,
+      "prompt": "In einem Gruppenchat wird jemand beleidigt. Was ist eine hilfreiche Reaktion?",
+      "options": [
+        "Die Beleidigungen zur Unterhaltung weiterverbreiten.",
+        "Weitere Personen zum Mitbeleidigen einladen.",
+        "Der Person Unterstützung anbieten und die Angriffe melden."
+      ],
+      "correct": 2,
+      "explanation": "Unterstützung und das Melden von Angriffen können Betroffene schützen. Weiterverbreitung vergrößert den Schaden.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-085",
+      "subject": "social",
+      "topic": "konflikte",
+      "competency": "konflikte",
+      "difficulty": 2,
+      "prompt": "Was ist der Unterschied zwischen einem Interesse und einer Position?",
+      "options": [
+        "Interessen und Positionen sind immer wortgleich.",
+        "Das Interesse erklärt das Bedürfnis hinter einer Forderung.",
+        "Eine Position ist immer ein Gesetz."
+      ],
+      "correct": 1,
+      "explanation": "„Wir wollen den Raum“ ist eine Position. Das dahinterliegende Interesse könnte ein ruhiger Ort zum Lernen sein.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-086",
+      "subject": "social",
+      "topic": "konflikte",
+      "competency": "konflikte",
+      "difficulty": 3,
+      "prompt": "Zwei Gruppen möchten denselben Raum nutzen. Welche Lösung berücksichtigt beide Interessen?",
+      "options": [
+        "Nutzungszeiten gemeinsam aufteilen und später überprüfen",
+        "den Raum aus Ärger unbrauchbar machen",
+        "eine Gruppe ohne Gespräch dauerhaft ausschließen"
+      ],
+      "correct": 0,
+      "explanation": "Eine ausgehandelte Aufteilung kann beiden Gruppen Zugang geben. Eine spätere Überprüfung zeigt, ob sie im Alltag funktioniert.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-087",
+      "subject": "social",
+      "topic": "medienkompetenz",
+      "competency": "medienkompetenz",
+      "difficulty": 1,
+      "prompt": "Was ist eine Quelle einer Nachricht?",
+      "options": [
+        "der Ursprung der Information",
+        "die Zahl der Emojis im Titel",
+        "immer die Person mit den meisten Followern"
+      ],
+      "correct": 0,
+      "explanation": "Die Quelle zeigt, woher eine Information stammt. Ihre Nähe zum Geschehen und ihre Belege helfen beim Prüfen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-088",
+      "subject": "social",
+      "topic": "medienkompetenz",
+      "competency": "medienkompetenz",
+      "difficulty": 2,
+      "prompt": "Ein Beitrag hat viele Aufrufe. Was beweist das?",
+      "options": [
+        "Dass alle Aussagen wahr sind.",
+        "Dass er häufig angesehen wurde.",
+        "Dass er amtlich geprüft wurde."
+      ],
+      "correct": 1,
+      "explanation": "Reichweite beschreibt Aufmerksamkeit. Sie ist kein Beleg für die Richtigkeit oder Vollständigkeit eines Inhalts.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-089",
+      "subject": "social",
+      "topic": "medienkompetenz",
+      "competency": "medienkompetenz",
+      "difficulty": 2,
+      "prompt": "Warum solltest du bei einer Meldung das Datum prüfen?",
+      "options": [
+        "Das Datum ersetzt alle weiteren Quellen.",
+        "Alte Informationen können in einem neuen Zusammenhang irreführen.",
+        "Alte Texte sind grundsätzlich immer falsch."
+      ],
+      "correct": 1,
+      "explanation": "Eine früher zutreffende Meldung kann heute überholt sein. Auch ein aktuelles Datum garantiert jedoch keine Richtigkeit.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-090",
+      "subject": "social",
+      "topic": "medienkompetenz",
+      "competency": "medienkompetenz",
+      "difficulty": 3,
+      "prompt": "Zwei Webseiten verwenden wortgleich denselben unbelegten Text. Sind das zwei unabhängige Belege?",
+      "options": [
+        "Nein, beide können dieselbe ungeprüfte Quelle übernommen haben.",
+        "Ja, gleiche Wörter beweisen unabhängige Forschung.",
+        "Ja, zweimaliges Teilen ersetzt jede Prüfung."
+      ],
+      "correct": 0,
+      "explanation": "Mehrere Fundstellen können auf eine einzige Quelle zurückgehen. Unabhängige Belege müssen eigenständig nachvollziehbar sein.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-091",
+      "subject": "social",
+      "topic": "medienkompetenz",
+      "competency": "medienkompetenz",
+      "difficulty": 2,
+      "prompt": "Welche Aussage trennt Nachricht und Kommentar am klarsten?",
+      "options": [
+        "Ein Kommentar bewertet, eine Nachricht informiert vorrangig über das Geschehen.",
+        "Eine Nachricht darf niemals überprüft werden.",
+        "Ein Kommentar ist immer ein Gesetz."
+      ],
+      "correct": 0,
+      "explanation": "Kommentare vertreten und begründen eine Sichtweise. Nachrichten sollen vor allem sachlich über überprüfbare Ereignisse informieren.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-092",
+      "subject": "social",
+      "topic": "datenschutz",
+      "competency": "datenschutz",
+      "difficulty": 2,
+      "prompt": "Warum sollte eine App nur notwendige persönliche Daten verlangen?",
+      "options": [
+        "Alle Daten sind nach dem Hochladen öffentliches Eigentum.",
+        "Weniger gespeicherte Daten verringern mögliche Missbrauchsfolgen.",
+        "Jede zusätzliche Datensammlung macht sie automatisch sicherer."
+      ],
+      "correct": 1,
+      "explanation": "Datensparsamkeit begrenzt die Menge persönlicher Informationen, die verloren gehen oder zweckfremd genutzt werden könnten.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-093",
+      "subject": "social",
+      "topic": "werbung",
+      "competency": "werbung",
+      "difficulty": 2,
+      "prompt": "Warum sollte bezahlte Werbung als solche erkennbar sein?",
+      "options": [
+        "Damit Quellen grundsätzlich entfallen können.",
+        "Damit man die kommerzielle Absicht einordnen kann.",
+        "Damit jede Werbeaussage automatisch wahr wird."
+      ],
+      "correct": 1,
+      "explanation": "Eine erkennbare Werbekennzeichnung hilft, Verkaufsinteressen von unabhängiger Information zu unterscheiden.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-094",
+      "subject": "social",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 3,
+      "prompt": "Eine Onlineabstimmung ist offen für alle und wird in einer Fangruppe geteilt. Was ist bei der Auswertung wichtig?",
+      "options": [
+        "Das Ergebnis gilt sicher für alle Einwohner.",
+        "Jede offene Onlineabstimmung ist automatisch repräsentativ.",
+        "Die Teilnehmenden vertreten möglicherweise nicht die Gesamtbevölkerung."
+      ],
+      "correct": 2,
+      "explanation": "Wer freiwillig teilnimmt und wo geworben wird, beeinflusst das Ergebnis. Eine große Zahl allein sichert keine Repräsentativität.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-095",
+      "subject": "social",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 2,
+      "prompt": "40 von 50 befragten Personen wünschen einen Jugendtreff. Was ist eine passende Aussage?",
+      "options": [
+        "80 % aller Menschen der Welt wünschen ihn.",
+        "80 % der Befragten wünschen einen Jugendtreff.",
+        "Genau 40 % der Befragten wünschen ihn."
+      ],
+      "correct": 1,
+      "explanation": "40 geteilt durch 50 sind 80 Prozent. Die Aussage darf zunächst nur auf die tatsächlich befragte Gruppe bezogen werden.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-096",
+      "subject": "social",
+      "topic": "urteil",
+      "competency": "urteil",
+      "difficulty": 3,
+      "prompt": "Welche Begründung wägt ein politisches Vorhaben ab?",
+      "options": [
+        "„Wer zweifelt, darf nicht mitreden.“",
+        "„Meine Gruppe will es, also gibt es keine Nachteile.“",
+        "„Es schafft Treffpunkte, kostet aber Geld; beides muss berücksichtigt werden.“"
+      ],
+      "correct": 2,
+      "explanation": "Ein begründetes Urteil berücksichtigt verschiedene Folgen und Interessen. Es kann trotzdem zu einer klaren Entscheidung kommen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-097",
+      "subject": "social",
+      "topic": "pluralismus",
+      "competency": "pluralismus",
+      "difficulty": 2,
+      "prompt": "Was bedeutet Pluralismus in einer Demokratie?",
+      "options": [
+        "Alle Konflikte müssen verborgen bleiben.",
+        "Es darf nur eine einzige Meinung geben.",
+        "Unterschiedliche Interessen und Ansichten dürfen öffentlich vertreten werden."
+      ],
+      "correct": 2,
+      "explanation": "Pluralismus erkennt gesellschaftliche Vielfalt an. Unterschiede werden innerhalb demokratischer Regeln öffentlich ausgetragen.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-098",
+      "subject": "social",
+      "topic": "minderheitenschutz",
+      "competency": "minderheitenschutz",
+      "difficulty": 3,
+      "prompt": "Warum braucht eine Demokratie Minderheitenschutz?",
+      "options": [
+        "Damit keine Wahlen mehr stattfinden.",
+        "Damit Minderheiten immer allein regieren.",
+        "Auch Mehrheitsentscheidungen müssen die Rechte anderer achten."
+      ],
+      "correct": 2,
+      "explanation": "Demokratie umfasst mehr als die Mehrheit. Grundrechte setzen Grenzen und schützen auch Menschen mit anderen Ansichten oder Zugehörigkeiten.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.3",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "social-099",
+      "subject": "social",
+      "topic": "engagement",
+      "competency": "engagement",
+      "difficulty": 1,
+      "prompt": "Welches Beispiel zeigt ehrenamtliches Engagement?",
+      "options": [
+        "andere an freiwilliger Hilfe hindern",
+        "nur gegen den eigenen Willen teilnehmen",
+        "freiwillig bei einer gemeinnützigen Initiative mithelfen"
+      ],
+      "correct": 2,
+      "explanation": "Ehrenamtliches Engagement geschieht freiwillig für andere oder für ein gemeinsames Anliegen und ist nicht auf Gewinn ausgerichtet.",
+      "curriculum": {
+        "sourceId": "lsa-social-2019",
+        "section": "3.2",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "social-100",
+      "subject": "social",
+      "topic": "kompromiss",
+      "competency": "kompromiss",
+      "difficulty": 3,
+      "prompt": "Woran lässt sich ein fair ausgehandelter Kompromiss erkennen?",
+      "options": [
+        "Nur eine Seite durfte sprechen.",
+        "Alle Einwände wurden ohne Anhörung gelöscht.",
+        "Die Beteiligten können ihre Zugeständnisse und Vorteile benennen."
+      ],
+      "correct": 2,
+      "explanation": "Ein fairer Kompromiss entsteht durch Austausch. Die Beteiligten verstehen, worauf sie verzichten und was sie dafür erreichen.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",

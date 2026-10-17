@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.16.1",
+  "revision": "2026.10.17.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "title": "Fachlehrplan Sekundarschule Geographie",
       "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_geo_01_08_2019.pdf",
       "documentDate": "2019-08-01",
-      "accessedAt": "2026-10-16"
+      "accessedAt": "2026-10-17"
     }
   ],
   "questions": [
@@ -1007,6 +1007,1006 @@
       ],
       "correct": 0,
       "explanation": "Gut erreichbare Einrichtungen und die Nutzung vorhandener Flächen können Wege und zusätzlichen Flächenverbrauch verringern.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-051",
+      "subject": "geography",
+      "topic": "karten",
+      "competency": "karten",
+      "difficulty": 1,
+      "prompt": "Was zeigt ein Kartenmaßstab an?",
+      "options": [
+        "die Temperatur am Kartenrand",
+        "das Verhältnis zwischen Kartenstrecke und wirklicher Strecke",
+        "die Einwohnerzahl jedes Ortes"
+      ],
+      "correct": 1,
+      "explanation": "Der Maßstab beschreibt die Verkleinerung der Wirklichkeit. Damit lassen sich Kartenstrecken in reale Entfernungen umrechnen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-052",
+      "subject": "geography",
+      "topic": "karten",
+      "competency": "karten",
+      "difficulty": 2,
+      "prompt": "Auf einer Karte mit Maßstab 1 : 200.000 misst eine Strecke 3 cm. Wie lang ist sie in Wirklichkeit?",
+      "options": [
+        "60 km",
+        "6 km",
+        "600 m"
+      ],
+      "correct": 1,
+      "explanation": "Ein Zentimeter entspricht 200.000 cm = 2 km. Drei Zentimeter entsprechen deshalb 6 km.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-053",
+      "subject": "geography",
+      "topic": "karten",
+      "competency": "karten",
+      "difficulty": 2,
+      "prompt": "Welche Karte zeigt bei gleicher Blattgröße mehr Einzelheiten?",
+      "options": [
+        "eine Karte im Maßstab 1 : 1.000.000",
+        "eine Karte im Maßstab 1 : 10.000",
+        "eine Karte im Maßstab 1 : 10.000.000"
+      ],
+      "correct": 1,
+      "explanation": "Bei 1 : 10.000 ist die Verkleinerung geringer. Ein kleinerer Raumausschnitt kann deshalb genauer dargestellt werden.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-054",
+      "subject": "geography",
+      "topic": "hoehenlinien",
+      "competency": "hoehenlinien",
+      "difficulty": 2,
+      "prompt": "Was bedeuten eng beieinanderliegende Höhenlinien meist?",
+      "options": [
+        "ein steiles Gelände",
+        "ein völlig ebenes Gelände",
+        "immer einen breiten Fluss"
+      ],
+      "correct": 0,
+      "explanation": "Wenn sich die Höhe auf kurzer waagerechter Entfernung stark ändert, liegen die Höhenlinien dicht zusammen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-055",
+      "subject": "geography",
+      "topic": "gradnetz",
+      "competency": "gradnetz",
+      "difficulty": 1,
+      "prompt": "Was bezeichnet der Nullmeridian?",
+      "options": [
+        "den Ausgangsmeridian für die geografische Länge",
+        "den höchsten Berg der Erde",
+        "die Grenze zwischen Nord- und Südhalbkugel"
+      ],
+      "correct": 0,
+      "explanation": "Der Nullmeridian verläuft durch Greenwich. Von dort werden geografische Längen nach Osten oder Westen gezählt.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-056",
+      "subject": "geography",
+      "topic": "gradnetz",
+      "competency": "gradnetz",
+      "difficulty": 2,
+      "prompt": "Ein Ort liegt bei 30° südlicher Breite. Auf welcher Halbkugel liegt er?",
+      "options": [
+        "auf der Südhalbkugel",
+        "genau auf dem Äquator",
+        "auf der Nordhalbkugel"
+      ],
+      "correct": 0,
+      "explanation": "Die geografische Breite gibt den Winkelabstand zum Äquator an. „Südlich“ ordnet den Ort der Südhalbkugel zu.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-057",
+      "subject": "geography",
+      "topic": "erde",
+      "competency": "erde",
+      "difficulty": 1,
+      "prompt": "Warum gibt es Tag und Nacht?",
+      "options": [
+        "Die Erde dreht sich um ihre eigene Achse.",
+        "Die Sonne wird jeden Abend ausgeschaltet.",
+        "Der Mond verdeckt täglich die ganze Erde."
+      ],
+      "correct": 0,
+      "explanation": "Durch die Erdrotation wird ein Ort abwechselnd von der Sonne beleuchtet und von ihr abgewandt.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-058",
+      "subject": "geography",
+      "topic": "erde",
+      "competency": "erde",
+      "difficulty": 2,
+      "prompt": "Was verursacht zusammen mit dem Umlauf der Erde die Jahreszeiten?",
+      "options": [
+        "die Neigung der Erdachse",
+        "das tägliche Wechseln der Kontinente",
+        "nur die Entfernung zum Mond"
+      ],
+      "correct": 0,
+      "explanation": "Die geneigte Erdachse bewirkt im Jahreslauf unterschiedliche Sonnenstände und Tageslängen auf den Halbkugeln.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-059",
+      "subject": "geography",
+      "topic": "deutschland",
+      "competency": "deutschland",
+      "difficulty": 1,
+      "prompt": "Welche Stadt liegt an der Saale und in Sachsen-Anhalt?",
+      "options": [
+        "München",
+        "Kiel",
+        "Halle"
+      ],
+      "correct": 2,
+      "explanation": "Halle liegt im Süden Sachsen-Anhalts an der Saale. Kiel und München liegen in anderen Bundesländern.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-060",
+      "subject": "geography",
+      "topic": "deutschland",
+      "competency": "deutschland",
+      "difficulty": 1,
+      "prompt": "Welches Gebirge liegt am südlichen Rand Deutschlands?",
+      "options": [
+        "der Himalaya",
+        "die Anden",
+        "die Alpen"
+      ],
+      "correct": 2,
+      "explanation": "Deutschland hat im Süden Anteil an den Alpen. Himalaya und Anden liegen auf anderen Kontinenten.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-061",
+      "subject": "geography",
+      "topic": "europa",
+      "competency": "europa",
+      "difficulty": 1,
+      "prompt": "Welcher Staat liegt südlich von Deutschland und grenzt direkt daran?",
+      "options": [
+        "Schweden",
+        "Portugal",
+        "Österreich"
+      ],
+      "correct": 2,
+      "explanation": "Österreich grenzt im Süden an Deutschland. Schweden und Portugal haben keine gemeinsame Landgrenze mit Deutschland.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-062",
+      "subject": "geography",
+      "topic": "europa",
+      "competency": "europa",
+      "difficulty": 2,
+      "prompt": "Was unterscheidet Europa von der Europäischen Union?",
+      "options": [
+        "Europa ist ein einzelner Staat.",
+        "Beide Begriffe meinen immer genau dieselben Staaten.",
+        "Europa ist ein geografischer Raum; die EU ist ein politisch-wirtschaftlicher Zusammenschluss von Staaten."
+      ],
+      "correct": 2,
+      "explanation": "Nicht jeder europäische Staat gehört zur EU. Geografische Zugehörigkeit und politische Mitgliedschaft sind verschiedene Dinge.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-063",
+      "subject": "geography",
+      "topic": "landschaft",
+      "competency": "landschaft",
+      "difficulty": 1,
+      "prompt": "Was ist eine Flussmündung?",
+      "options": [
+        "der Beginn jedes Gletschers",
+        "die Stelle, an der ein Fluss in ein anderes Gewässer fließt",
+        "immer der höchste Punkt eines Gebirges"
+      ],
+      "correct": 1,
+      "explanation": "Ein Fluss kann in einen anderen Fluss, einen See oder das Meer münden. Das unterscheidet die Mündung von der Quelle.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-064",
+      "subject": "geography",
+      "topic": "landschaft",
+      "competency": "landschaft",
+      "difficulty": 2,
+      "prompt": "Warum lagert ein Fluss bei sinkender Fließgeschwindigkeit oft Material ab?",
+      "options": [
+        "Seine Transportkraft nimmt ab.",
+        "Er verwandelt Wasser in Gestein.",
+        "Er fließt dann grundsätzlich bergauf."
+      ],
+      "correct": 0,
+      "explanation": "Bei geringerer Geschwindigkeit kann das Wasser weniger Material mitführen. Ein Teil der mitgeführten Teilchen wird abgelagert.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-065",
+      "subject": "geography",
+      "topic": "kueste",
+      "competency": "kueste",
+      "difficulty": 2,
+      "prompt": "Was bezeichnet man als Gezeiten?",
+      "options": [
+        "die tägliche Drehung des Windrades",
+        "den regelmäßigen Wechsel von Ebbe und Flut",
+        "den Wechsel von Sommer und Winter"
+      ],
+      "correct": 1,
+      "explanation": "Gezeiten sind Wasserstandsänderungen, die vor allem durch die Anziehung von Mond und Sonne entstehen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-066",
+      "subject": "geography",
+      "topic": "wetter",
+      "competency": "wetter",
+      "difficulty": 1,
+      "prompt": "Mit welchem Gerät misst man die Lufttemperatur?",
+      "options": [
+        "mit einem Kompass",
+        "mit einem Thermometer",
+        "mit einem Kilometerzähler"
+      ],
+      "correct": 1,
+      "explanation": "Ein Thermometer misst die Temperatur. Ein Kompass dient der Richtungsbestimmung und ein Kilometerzähler misst Strecken.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-067",
+      "subject": "geography",
+      "topic": "klimadiagramme",
+      "competency": "klimadiagramme",
+      "difficulty": 2,
+      "prompt": "Was zeigt die Niederschlagssäule eines Monats in einem Klimadiagramm gewöhnlich?",
+      "options": [
+        "die höchste Bergspitze des Monats",
+        "die tägliche Bevölkerungszahl",
+        "die mittlere monatliche Niederschlagssumme"
+      ],
+      "correct": 2,
+      "explanation": "Klimadiagramme stellen meist langjährige Monatsmittel dar. Niederschlag und Temperatur werden dabei getrennt abgelesen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-068",
+      "subject": "geography",
+      "topic": "klimadiagramme",
+      "competency": "klimadiagramme",
+      "difficulty": 3,
+      "prompt": "Ein Ort hat 12 Monatsmittel von je 10 °C. Wie groß ist das Jahresmittel dieser Monatswerte?",
+      "options": [
+        "120 °C",
+        "0,83 °C",
+        "10 °C"
+      ],
+      "correct": 2,
+      "explanation": "Für das Mittel addierst du die zwölf Monatswerte und teilst durch zwölf. Bei gleichen Werten bleibt das Mittel 10 °C.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-069",
+      "subject": "geography",
+      "topic": "klima",
+      "competency": "klima",
+      "difficulty": 2,
+      "prompt": "Was kennzeichnet ozeanisch geprägtes Klima im Vergleich zu kontinentalem Klima meist?",
+      "options": [
+        "geringere Temperaturunterschiede zwischen Sommer und Winter",
+        "jeden Tag dieselbe Temperatur",
+        "grundsätzlich keinen Niederschlag"
+      ],
+      "correct": 0,
+      "explanation": "Das Meer erwärmt und kühlt sich langsamer als Land. Dadurch gleicht es jahreszeitliche Temperaturunterschiede oft aus.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-070",
+      "subject": "geography",
+      "topic": "vegetation",
+      "competency": "vegetation",
+      "difficulty": 2,
+      "prompt": "Warum findet man im Hochgebirge verschiedene Vegetationsstufen?",
+      "options": [
+        "Mit zunehmender Höhe ändern sich unter anderem Temperatur und Wachstumsbedingungen.",
+        "Alle Pflanzen brauchen unabhängig vom Standort dieselben Bedingungen.",
+        "Die geografische Breite springt an jedem Hang um 90 Grad."
+      ],
+      "correct": 0,
+      "explanation": "Mit der Höhe sinkt im Allgemeinen die Temperatur. Unterschiedliche Bedingungen begünstigen unterschiedliche Pflanzengesellschaften.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-071",
+      "subject": "geography",
+      "topic": "landwirtschaft",
+      "competency": "landwirtschaft",
+      "difficulty": 1,
+      "prompt": "Was versteht man unter Bewässerung?",
+      "options": [
+        "ausschließlich die Ernte von Getreide",
+        "das Entfernen aller Pflanzen von einem Feld",
+        "das gezielte Zuführen von Wasser zu Nutzpflanzen"
+      ],
+      "correct": 2,
+      "explanation": "Bewässerung ergänzt fehlenden Niederschlag. Dabei muss die Verfügbarkeit der Wasserressourcen berücksichtigt werden.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-072",
+      "subject": "geography",
+      "topic": "landwirtschaft",
+      "competency": "landwirtschaft",
+      "difficulty": 2,
+      "prompt": "Welches Risiko kann dauerhafte Bewässerung in trockenen Gebieten bei schlechter Entwässerung erhöhen?",
+      "options": [
+        "das vollständige Verschwinden aller gelösten Salze",
+        "Versalzung des Bodens",
+        "die sofortige Entstehung eines Gletschers"
+      ],
+      "correct": 1,
+      "explanation": "Mit dem Wasser gelangen Salze in den Boden. Verdunstet viel Wasser und werden die Salze nicht abgeführt, können sie sich anreichern.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-073",
+      "subject": "geography",
+      "topic": "boden",
+      "competency": "boden",
+      "difficulty": 2,
+      "prompt": "Warum schützt eine geschlossene Pflanzendecke den Boden häufig vor Erosion?",
+      "options": [
+        "Boden wird unter Pflanzen grundsätzlich zu Beton.",
+        "Pflanzen verhindern jede Form von Wind.",
+        "Wurzeln stabilisieren ihn und Blätter bremsen auftreffenden Regen."
+      ],
+      "correct": 2,
+      "explanation": "Pflanzen vermindern den direkten Aufprall von Regentropfen. Wurzeln halten Boden fest und bremsen so den Abtrag.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-074",
+      "subject": "geography",
+      "topic": "ressourcen",
+      "competency": "ressourcen",
+      "difficulty": 1,
+      "prompt": "Was ist ein nachwachsender Rohstoff?",
+      "options": [
+        "jedes beliebige Metall im Boden",
+        "ein Rohstoff, der nie neu entstehen kann, etwa Erdöl",
+        "ein Rohstoff aus sich erneuernder Biomasse, etwa Holz"
+      ],
+      "correct": 2,
+      "explanation": "Holz kann durch Pflanzenwachstum neu entstehen. Nachhaltigkeit setzt voraus, dass die Nutzung die Erneuerung nicht überfordert.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-075",
+      "subject": "geography",
+      "topic": "energie",
+      "competency": "energie",
+      "difficulty": 2,
+      "prompt": "Was ist eine Herausforderung bei Wind- und Solarstrom?",
+      "options": [
+        "Sie erzeugen nur unterirdisch Strom.",
+        "Sie benötigen immer Erdöl als direkten Brennstoff.",
+        "Die Erzeugung schwankt mit Wetter und Tageszeit."
+      ],
+      "correct": 2,
+      "explanation": "Schwankende Erzeugung erfordert passende Netze, Speicher, flexible Nutzung und ergänzende Versorgungslösungen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-076",
+      "subject": "geography",
+      "topic": "wasser",
+      "competency": "wasser",
+      "difficulty": 2,
+      "prompt": "Was unterscheidet Grundwasser von Oberflächenwasser?",
+      "options": [
+        "Grundwasser liegt grundsätzlich über allen Bergen.",
+        "Grundwasser füllt Hohlräume unterhalb der Erdoberfläche aus.",
+        "Oberflächenwasser existiert nur in Wolken."
+      ],
+      "correct": 1,
+      "explanation": "Grundwasser befindet sich im Untergrund. Flüsse und Seen sind Beispiele für Wasser an der Erdoberfläche.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-077",
+      "subject": "geography",
+      "topic": "hochwasser",
+      "competency": "hochwasser",
+      "difficulty": 3,
+      "prompt": "Welche Wirkung können natürliche Auen bei Hochwasser haben?",
+      "options": [
+        "Sie verhindern, dass es überhaupt regnet.",
+        "Sie machen jeden Deich überflüssig.",
+        "Sie können Wasser zeitweise aufnehmen und den Abfluss verzögern."
+      ],
+      "correct": 2,
+      "explanation": "Auen bieten Raum für Überflutungen und können Abflussspitzen mindern. Ihre Wirkung hängt von Größe und örtlichen Bedingungen ab.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "geography-078",
+      "subject": "geography",
+      "topic": "wirtschaft",
+      "competency": "wirtschaft",
+      "difficulty": 1,
+      "prompt": "Ein Betrieb verarbeitet Milch zu Käse. Zu welchem Wirtschaftssektor gehört diese Verarbeitung?",
+      "options": [
+        "zum tertiären Sektor als reine Beratung",
+        "zum sekundären Sektor",
+        "zum primären Sektor als Rohstoffgewinnung"
+      ],
+      "correct": 1,
+      "explanation": "Die industrielle oder handwerkliche Verarbeitung gehört zum sekundären Sektor. Die Milchgewinnung auf dem Hof zählt dagegen zum primären.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-079",
+      "subject": "geography",
+      "topic": "standortfaktoren",
+      "competency": "standortfaktoren",
+      "difficulty": 2,
+      "prompt": "Ein Logistikzentrum benötigt schnelle überregionale Warenverbindungen. Welcher Faktor passt besonders?",
+      "options": [
+        "möglichst weite Entfernung zu jedem Verkehrsweg",
+        "gute Anbindung an wichtige Verkehrswege",
+        "ausschließlich eine schöne Aussicht"
+      ],
+      "correct": 1,
+      "explanation": "Für Logistik ist Erreichbarkeit zentral. Straßen-, Schienen- oder Hafenanschlüsse beeinflussen Transportzeiten und Kosten.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-080",
+      "subject": "geography",
+      "topic": "standortfaktoren",
+      "competency": "standortfaktoren",
+      "difficulty": 3,
+      "prompt": "Warum ist ein billiges Grundstück allein kein ausreichendes Argument für einen Fabrikstandort?",
+      "options": [
+        "Andere Standortfaktoren spielen grundsätzlich keine Rolle.",
+        "Auch Arbeitskräfte, Verkehr, Energie und Umweltfolgen sind wichtig.",
+        "Ein niedriger Grundstückspreis garantiert immer Gewinn."
+      ],
+      "correct": 1,
+      "explanation": "Standortentscheidungen beruhen auf mehreren Faktoren. Ein Vorteil kann durch hohe Kosten oder Probleme an anderer Stelle aufgehoben werden.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-081",
+      "subject": "geography",
+      "topic": "strukturwandel",
+      "competency": "strukturwandel",
+      "difficulty": 2,
+      "prompt": "In einer Region schließen Bergwerke, während Dienstleistungen wachsen. Was ist das?",
+      "options": [
+        "eine Verschiebung des Äquators",
+        "wirtschaftlicher Strukturwandel",
+        "nur ein täglicher Wetterwechsel"
+      ],
+      "correct": 1,
+      "explanation": "Die Bedeutung der Branchen und Arbeitsplätze verändert sich. Das kann neue Chancen schaffen, aber auch Anpassungsprobleme verursachen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-082",
+      "subject": "geography",
+      "topic": "siedlung",
+      "competency": "siedlung",
+      "difficulty": 2,
+      "prompt": "Was bedeutet Suburbanisierung?",
+      "options": [
+        "Bevölkerung oder Betriebe verlagern sich aus der Kernstadt ins Umland.",
+        "Alle Städte werden zu Ozeanen.",
+        "Ein Gebirge verschiebt sich ins Stadtzentrum."
+      ],
+      "correct": 0,
+      "explanation": "Beim Wachstum des Umlands verändern sich Siedlungsflächen und Verkehrsbeziehungen zwischen Kernstadt und Umgebung.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-083",
+      "subject": "geography",
+      "topic": "verkehr",
+      "competency": "verkehr",
+      "difficulty": 2,
+      "prompt": "Was kann lange tägliche Pendelwege verringern?",
+      "options": [
+        "neue Wohngebiete nur fern jeder Anbindung bauen",
+        "Wohnungen, Arbeitsplätze und Versorgung besser räumlich verbinden",
+        "jede Nahversorgung schließen"
+      ],
+      "correct": 1,
+      "explanation": "Eine gute räumliche Zuordnung und erreichbare Angebote können Wege verkürzen. Auch öffentliche Verkehrsverbindungen spielen eine Rolle.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-084",
+      "subject": "geography",
+      "topic": "stadtplanung",
+      "competency": "stadtplanung",
+      "difficulty": 3,
+      "prompt": "Ein neues Wohngebiet soll geplant werden. Welche Frage gehört zur nachhaltigen Planung?",
+      "options": [
+        "Wie sind Schule, Einkauf und öffentlicher Verkehr erreichbar?",
+        "Welche Grundstücke lassen sich ohne jede Prüfung versiegeln?",
+        "Wie können alle Wege möglichst lang werden?"
+      ],
+      "correct": 0,
+      "explanation": "Nachhaltige Planung berücksichtigt Mobilität, Versorgung, Flächenverbrauch und Umwelt. Die Erreichbarkeit prägt den Alltag der Bewohner.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-085",
+      "subject": "geography",
+      "topic": "bevoelkerung",
+      "competency": "bevoelkerung",
+      "difficulty": 2,
+      "prompt": "Eine Gemeinde hat 8.000 Einwohner auf 40 km². Wie groß ist die Bevölkerungsdichte?",
+      "options": [
+        "20 Einwohner je km²",
+        "320.000 Einwohner je km²",
+        "200 Einwohner je km²"
+      ],
+      "correct": 2,
+      "explanation": "Bevölkerungsdichte ist Einwohnerzahl geteilt durch Fläche: 8.000 ÷ 40 = 200 Einwohner je Quadratkilometer.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-086",
+      "subject": "geography",
+      "topic": "bevoelkerung",
+      "competency": "bevoelkerung",
+      "difficulty": 2,
+      "prompt": "Es werden 100 Menschen geboren, 140 sterben; Zu- und Fortzüge sind gleich groß. Wie verändert sich die Einwohnerzahl?",
+      "options": [
+        "Sie sinkt um 40.",
+        "Sie steigt um 40.",
+        "Sie bleibt unverändert."
+      ],
+      "correct": 0,
+      "explanation": "Ohne Wanderungsüberschuss entscheidet hier die Differenz von Geburten und Sterbefällen: 100 − 140 = −40.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-087",
+      "subject": "geography",
+      "topic": "migration",
+      "competency": "migration",
+      "difficulty": 2,
+      "prompt": "Was ist ein möglicher Push-Faktor für Abwanderung?",
+      "options": [
+        "eine neue Arbeitsstelle am Zielort",
+        "fehlende Arbeitsmöglichkeiten am Herkunftsort",
+        "ein attraktives Ausbildungsangebot am Zielort"
+      ],
+      "correct": 1,
+      "explanation": "Push-Faktoren wirken am Herkunftsort und können Menschen zum Weggehen bewegen. Vorteile am Zielort heißen Pull-Faktoren.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-088",
+      "subject": "geography",
+      "topic": "disparitaeten",
+      "competency": "disparitaeten",
+      "difficulty": 3,
+      "prompt": "Welche Angaben helfen beim Vergleich der Lebensbedingungen zweier Regionen?",
+      "options": [
+        "nur die Farbe auf einer politischen Karte",
+        "Bildungszugang, Versorgung, Einkommen und weitere Indikatoren zusammen",
+        "nur die Reihenfolge ihrer Namen im Alphabet"
+      ],
+      "correct": 1,
+      "explanation": "Lebensbedingungen haben mehrere Seiten. Ein Bündel verschiedener Indikatoren ermöglicht einen aussagekräftigeren Vergleich.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-089",
+      "subject": "geography",
+      "topic": "disparitaeten",
+      "competency": "disparitaeten",
+      "difficulty": 3,
+      "prompt": "Warum kann das Einkommen je Einwohner regionale Armut verdecken?",
+      "options": [
+        "Es nennt das Einkommen jeder einzelnen Person.",
+        "Es ist ein Durchschnitt und zeigt die Verteilung nicht.",
+        "Es ist automatisch überall gleich hoch."
+      ],
+      "correct": 1,
+      "explanation": "Auch bei hohem Durchschnitt können viele Menschen wenig Einkommen haben. Verteilung und weitere Lebensbedingungen müssen mitbetrachtet werden.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-090",
+      "subject": "geography",
+      "topic": "globalisierung",
+      "competency": "globalisierung",
+      "difficulty": 2,
+      "prompt": "Was ist eine globale Lieferkette?",
+      "options": [
+        "ausschließlich ein Verkauf im selben Haus",
+        "mehrere über Länder verteilte Schritte von Rohstoffgewinnung bis Verkauf",
+        "eine Kette, die nur auf Landkarten gezeichnet wird"
+      ],
+      "correct": 1,
+      "explanation": "Produktion, Verarbeitung, Transport und Handel können in verschiedenen Staaten stattfinden und wirtschaftlich miteinander verbunden sein.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-091",
+      "subject": "geography",
+      "topic": "globalisierung",
+      "competency": "globalisierung",
+      "difficulty": 3,
+      "prompt": "Ein wichtiges Bauteil kommt nur aus einer weit entfernten Fabrik. Was ist ein mögliches Risiko?",
+      "options": [
+        "Ein Ausfall dort kann die Produktion an anderen Orten stoppen.",
+        "Die Entfernung verhindert grundsätzlich jede Abhängigkeit.",
+        "Die Fabrik kann deshalb niemals ausfallen."
+      ],
+      "correct": 0,
+      "explanation": "Internationale Verflechtung kann Vorteile bringen, aber auch Abhängigkeiten. Störungen eines Glieds können weitere Glieder treffen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-092",
+      "subject": "geography",
+      "topic": "handel",
+      "competency": "handel",
+      "difficulty": 1,
+      "prompt": "Was bedeutet Export?",
+      "options": [
+        "immer nur Waren aus dem Ausland einkaufen",
+        "Waren ausschließlich im eigenen Haushalt verbrauchen",
+        "Waren oder Dienstleistungen ins Ausland verkaufen"
+      ],
+      "correct": 2,
+      "explanation": "Export bezeichnet die Ausfuhr beziehungsweise den Verkauf ins Ausland. Der Bezug aus dem Ausland heißt Import.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-093",
+      "subject": "geography",
+      "topic": "tourismus",
+      "competency": "tourismus",
+      "difficulty": 2,
+      "prompt": "Welche Folge von Tourismus kann für eine Region positiv sein?",
+      "options": [
+        "Jeder Verkehr verschwindet dauerhaft.",
+        "Naturräume bleiben unter allen Umständen unverändert.",
+        "Einkommen und Arbeitsplätze entstehen."
+      ],
+      "correct": 2,
+      "explanation": "Tourismus kann wirtschaftlich nützen. Für eine Gesamtbewertung müssen auch Belastungen für Natur und Bevölkerung betrachtet werden.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-094",
+      "subject": "geography",
+      "topic": "tourismus",
+      "competency": "tourismus",
+      "difficulty": 3,
+      "prompt": "Warum kann eine Begrenzung der Besucherzahl in einem empfindlichen Naturraum sinnvoll sein?",
+      "options": [
+        "Sie erhöht automatisch jede Besucherzahl.",
+        "Sie macht alle Lebewesen unnötig.",
+        "Sie kann Überlastung und Schäden verringern."
+      ],
+      "correct": 2,
+      "explanation": "Viele Besucher können Wege, Tiere und Pflanzen belasten. Eine Begrenzung kann Schutz und Nutzung besser vereinbaren.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-095",
+      "subject": "geography",
+      "topic": "raumnutzung",
+      "competency": "raumnutzung",
+      "difficulty": 3,
+      "prompt": "Windräder sollen nahe einem Wohngebiet entstehen. Welche Abwägung ist sachgerecht?",
+      "options": [
+        "Energieertrag, Abstände, Naturschutz und Belastungen prüfen",
+        "alle Auswirkungen ungeprüft als gleich annehmen",
+        "nur die lauteste Einzelmeinung beachten"
+      ],
+      "correct": 0,
+      "explanation": "Raumplanung muss verschiedene Interessen berücksichtigen. Eine begründete Entscheidung braucht Informationen zu Nutzen und Belastungen.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-096",
+      "subject": "geography",
+      "topic": "kartenkritik",
+      "competency": "kartenkritik",
+      "difficulty": 3,
+      "prompt": "Zwei Karten zeigen Arbeitslosigkeit, nutzen aber unterschiedliche Farbgrenzen. Was ist beim Vergleich nötig?",
+      "options": [
+        "Werteklassen und Legenden beider Karten prüfen",
+        "die Zahlen absichtlich ignorieren",
+        "nur gleich gefärbte Flächen als gleich ansehen"
+      ],
+      "correct": 0,
+      "explanation": "Dieselbe Farbe kann je nach Legende unterschiedliche Werte bedeuten. Vergleichbar werden Karten erst durch Prüfung ihrer Einteilung.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-097",
+      "subject": "geography",
+      "topic": "datenkritik",
+      "competency": "datenkritik",
+      "difficulty": 3,
+      "prompt": "Eine Karte von 2005 zeigt die damalige Industrie einer Region. Wofür reicht sie allein nicht?",
+      "options": [
+        "die dargestellte Legende lesen",
+        "die heutige Branchenstruktur sicher beurteilen",
+        "die damalige Darstellung beschreiben"
+      ],
+      "correct": 1,
+      "explanation": "Wirtschaftsräume verändern sich. Für Aussagen zur Gegenwart brauchst du aktuelle und passend erhobene Daten.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-098",
+      "subject": "geography",
+      "topic": "nachhaltigkeit",
+      "competency": "nachhaltigkeit",
+      "difficulty": 2,
+      "prompt": "Welche drei Perspektiven gehören zu einer umfassenden Nachhaltigkeitsbewertung?",
+      "options": [
+        "nur der kurzfristige Preis",
+        "nur die Entfernung zum Äquator",
+        "Umwelt, Wirtschaft und soziale Belange"
+      ],
+      "correct": 2,
+      "explanation": "Nachhaltigkeit verbindet ökologische, wirtschaftliche und soziale Gesichtspunkte und berücksichtigt Folgen für die Zukunft.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "geography-099",
+      "subject": "geography",
+      "topic": "klimawandel",
+      "competency": "klimawandel",
+      "difficulty": 2,
+      "prompt": "Warum kann der Verlust heller Eisflächen die Erwärmung verstärken?",
+      "options": [
+        "Dunklere Flächen nehmen mehr Sonnenenergie auf.",
+        "Eis erzeugt ständig neuen Brennstoff.",
+        "Dunkles Meer reflektiert grundsätzlich alles Sonnenlicht."
+      ],
+      "correct": 0,
+      "explanation": "Helles Eis reflektiert viel Sonnenlicht. Wird es durch dunklere Flächen ersetzt, kann mehr Energie aufgenommen werden: eine Rückkopplung.",
+      "curriculum": {
+        "sourceId": "lsa-geography-2019",
+        "section": "3.4",
+        "stage": "extension"
+      }
+    },
+    {
+      "id": "geography-100",
+      "subject": "geography",
+      "topic": "raumuntersuchung",
+      "competency": "raumuntersuchung",
+      "difficulty": 3,
+      "prompt": "Du vergleichst zwei mögliche Schulstandorte. Welches Vorgehen ist sinnvoll?",
+      "options": [
+        "Kriterien festlegen, Daten vergleichen und die Entscheidung begründen",
+        "zuerst entscheiden und alle widersprechenden Daten löschen",
+        "ausschließlich nach der längeren Ortsbezeichnung wählen"
+      ],
+      "correct": 0,
+      "explanation": "Eine Raumanalyse verbindet nachvollziehbare Kriterien mit passenden Daten. Dazu können Erreichbarkeit, Platz, Kosten und Umweltbelastung gehören.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.4",

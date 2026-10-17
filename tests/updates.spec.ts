@@ -2,7 +2,8 @@ import { test, expect } from '@playwright/test';
 import { createServer } from 'node:http';
 import { readFileSync } from 'node:fs';
 import { resolve, sep, extname } from 'node:path';
-import { emptyData } from '../src/lib/schema';
+import { emptyData, type Question } from '../src/lib/schema';
+const questions: Question[] = ['math','german','social','biology','geography'].flatMap(subject => JSON.parse(readFileSync(new URL(`../src/content/${subject}.json`, import.meta.url), 'utf8')).questions);
 
 test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async({page,context})=>{
   await page.setViewportSize({width:320,height:568});await page.goto('/');
@@ -13,19 +14,46 @@ test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async(
 });
 
 test('Antwort bleibt drei Sekunden sichtbar; Automatik lässt sich anhalten und fortsetzen',async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:/Mathematik .*50 Fragen/}).click();
-  const answer=()=>page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').first();
-  await answer().click();await expect(page.locator('.feedback')).toBeVisible();
+  await page.goto('/');await page.getByRole('button',{name:/Mathematik .*100 Fragen/}).click();
+  const answer=async()=>{
+    const prompt=await page.locator('.question h1').innerText();
+    const question=questions.find(q=>q.prompt===prompt)!;
+    await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').filter({has:page.getByText(question.options[question.correct],{exact:true})}).click();
+  };
+  await answer();await expect(page.locator('.feedback')).toBeVisible();
   await page.clock.install();
   // Re-arm via the accessible pause control so the mocked clock owns both timers.
   await page.getByRole('button',{name:'Anhalten',exact:true}).click();await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
   await page.clock.runFor(2999);await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
   await page.clock.runFor(1);await expect(page.getByText('Frage 2 von 10',{exact:true})).toBeVisible();
-  await answer().click();await page.getByRole('button',{name:'Anhalten',exact:true}).click();
+  await answer();await page.getByRole('button',{name:'Anhalten',exact:true}).click();
   await page.clock.runFor(5000);await expect(page.getByText('Frage 2 von 10',{exact:true})).toBeVisible();await expect(page.locator('.feedback')).toBeVisible();
   await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();await page.clock.runFor(3000);await expect(page.getByText('Frage 3 von 10',{exact:true})).toBeVisible();
-  await answer().click();await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();await page.clock.runFor(4000);await expect(page.getByText('Frage 4 von 10',{exact:true})).toBeVisible();
+  await answer();await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();await page.clock.runFor(4000);await expect(page.getByText('Frage 4 von 10',{exact:true})).toBeVisible();
   await page.screenshot({path:'test-results/auto-next-mobile.png'});
+});
+
+
+test('Falsche Antworten bleiben ohne Timer stehen, auch bei der letzten Frage',async({page})=>{
+  await page.goto('/');await page.getByRole('button',{name:/Mathematik .*100 Fragen/}).click();
+  await page.clock.install();
+  for(let i=0;i<10;i++) {
+    const prompt=await page.locator('.question h1').innerText();
+    const question=questions.find(q=>q.prompt===prompt)!;
+    const wrong=question.options.find((_,index)=>index!==question.correct)!;
+    await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').filter({has:page.getByText(wrong,{exact:true})}).click();
+    await expect(page.locator('.feedback')).toContainText(question.explanation);
+    await expect(page.getByRole('button',{name:'Anhalten',exact:true})).toHaveCount(0);
+    await expect(page.getByRole('button',{name:'Automatisch weiter',exact:true})).toHaveCount(0);
+    await page.clock.runFor(30_000);
+    await expect(page.locator('.question h1')).toHaveText(prompt);
+    await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible();
+    await expect(page.locator('.feedback')).toBeVisible();
+    if(i===0) await page.screenshot({path:'test-results/wrong-answer-mobile.png'});
+    await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage',exact:true}).click();
+  }
+  await expect(page.getByRole('heading',{name:'Runde geschafft.'})).toBeVisible();
+  await expect(page.locator('.result-numbers')).toContainText('0/10');
 });
 
 test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten',async({page})=>{

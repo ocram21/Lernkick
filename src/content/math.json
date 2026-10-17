@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.16.1",
+  "revision": "2026.10.17.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "title": "Fachlehrplan Sekundarschule Mathematik",
       "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_mathe_01_08_2019.pdf",
       "documentDate": "2019-08-01",
-      "accessedAt": "2026-10-16"
+      "accessedAt": "2026-10-17"
     }
   ],
   "questions": [
@@ -1015,6 +1015,1006 @@
       ],
       "correct": 2,
       "explanation": "Teile die Anzahl durch die Gesamtzahl: 8 ÷ 20 = 0,4 = 40 %.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-051",
+      "subject": "math",
+      "topic": "runden",
+      "competency": "runden",
+      "difficulty": 1,
+      "prompt": "Runde 3,746 auf zwei Nachkommastellen.",
+      "options": [
+        "3,75",
+        "3,70",
+        "3,74"
+      ],
+      "correct": 0,
+      "explanation": "Die dritte Nachkommastelle ist 6. Deshalb wird die zweite Nachkommastelle von 4 auf 5 erhöht.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-052",
+      "subject": "math",
+      "topic": "negative-zahlen",
+      "competency": "negative-zahlen",
+      "difficulty": 1,
+      "prompt": "Wie viel ist −8 + 3?",
+      "options": [
+        "−11",
+        "−5",
+        "5"
+      ],
+      "correct": 1,
+      "explanation": "Von −8 gehst du auf dem Zahlenstrahl drei Schritte nach rechts und landest bei −5.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-053",
+      "subject": "math",
+      "topic": "vorzeichen",
+      "competency": "vorzeichen",
+      "difficulty": 2,
+      "prompt": "Wie viel ist (−4) × (−6)?",
+      "options": [
+        "24",
+        "−10",
+        "−24"
+      ],
+      "correct": 0,
+      "explanation": "Das Produkt zweier negativer Zahlen ist positiv. 4 × 6 ergibt 24.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-054",
+      "subject": "math",
+      "topic": "teilbarkeit",
+      "competency": "teilbarkeit",
+      "difficulty": 1,
+      "prompt": "Welche Zahl ist durch 3 teilbar?",
+      "options": [
+        "123",
+        "124",
+        "125"
+      ],
+      "correct": 0,
+      "explanation": "Die Quersumme von 123 ist 6. Weil 6 durch 3 teilbar ist, gilt das auch für 123.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-055",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 2,
+      "prompt": "Welche Zahl ist größer als ½?",
+      "options": [
+        "¼",
+        "⅓",
+        "⅔"
+      ],
+      "correct": 2,
+      "explanation": "Auf Sechstel gebracht ist ½ = 3/6 und ⅔ = 4/6. Deshalb ist ⅔ größer.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-056",
+      "subject": "math",
+      "topic": "brueche",
+      "competency": "brueche",
+      "difficulty": 2,
+      "prompt": "Wie viel sind ⅗ von 40 Litern?",
+      "options": [
+        "32 Liter",
+        "24 Liter",
+        "8 Liter"
+      ],
+      "correct": 1,
+      "explanation": "Ein Fünftel von 40 ist 8. Drei Fünftel sind 3 × 8 = 24 Liter.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-057",
+      "subject": "math",
+      "topic": "dezimalzahlen",
+      "competency": "dezimalzahlen",
+      "difficulty": 1,
+      "prompt": "Wie viel ist 0,6 × 0,5?",
+      "options": [
+        "0,03",
+        "3",
+        "0,3"
+      ],
+      "correct": 2,
+      "explanation": "Die Hälfte von 0,6 ist 0,3. Das Komma gehört daher vor die 3.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-058",
+      "subject": "math",
+      "topic": "groessen",
+      "competency": "groessen",
+      "difficulty": 1,
+      "prompt": "Wie viele Milliliter sind 0,75 Liter?",
+      "options": [
+        "750 ml",
+        "75 ml",
+        "7.500 ml"
+      ],
+      "correct": 0,
+      "explanation": "Ein Liter hat 1.000 Milliliter. 0,75 × 1.000 ergibt 750 Milliliter.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-059",
+      "subject": "math",
+      "topic": "flaecheneinheiten",
+      "competency": "flaecheneinheiten",
+      "difficulty": 2,
+      "prompt": "Wie viele Quadratzentimeter sind 2 dm²?",
+      "options": [
+        "2.000 cm²",
+        "20 cm²",
+        "200 cm²"
+      ],
+      "correct": 2,
+      "explanation": "Ein Quadratdezimeter ist 10 cm × 10 cm = 100 cm². Zwei davon ergeben 200 cm².",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-060",
+      "subject": "math",
+      "topic": "volumeneinheiten",
+      "competency": "volumeneinheiten",
+      "difficulty": 2,
+      "prompt": "Wie viele Liter sind 3 m³?",
+      "options": [
+        "300 Liter",
+        "3.000 Liter",
+        "30 Liter"
+      ],
+      "correct": 1,
+      "explanation": "Ein Kubikmeter entspricht 1.000 Litern. Drei Kubikmeter sind also 3.000 Liter.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-061",
+      "subject": "math",
+      "topic": "zeit",
+      "competency": "zeit",
+      "difficulty": 2,
+      "prompt": "Wie viele Minuten sind 1,25 Stunden?",
+      "options": [
+        "85 Minuten",
+        "75 Minuten",
+        "125 Minuten"
+      ],
+      "correct": 1,
+      "explanation": "Eine Stunde hat 60 Minuten. Ein Viertel davon sind 15 Minuten: zusammen 75 Minuten.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-062",
+      "subject": "math",
+      "topic": "ueberschlagen",
+      "competency": "ueberschlagen",
+      "difficulty": 1,
+      "prompt": "Welche Überschlagsrechnung passt am besten zu 198 × 5,1?",
+      "options": [
+        "200 × 5 ≈ 1.000",
+        "20 × 5 ≈ 100",
+        "200 × 50 ≈ 10.000"
+      ],
+      "correct": 0,
+      "explanation": "198 liegt nahe bei 200 und 5,1 nahe bei 5. Der Überschlag hilft, die Größenordnung zu prüfen.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-063",
+      "subject": "math",
+      "topic": "prozentrechnung",
+      "competency": "prozentrechnung",
+      "difficulty": 2,
+      "prompt": "18 von 60 Plätzen sind besetzt. Wie viel Prozent sind das?",
+      "options": [
+        "42 %",
+        "30 %",
+        "18 %"
+      ],
+      "correct": 1,
+      "explanation": "18 geteilt durch 60 ist 0,3. Mit 100 multipliziert ergibt das 30 Prozent.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-064",
+      "subject": "math",
+      "topic": "prozentrechnung",
+      "competency": "prozentrechnung",
+      "difficulty": 3,
+      "prompt": "Nach 20 % Rabatt kostet ein Rucksack 48 €. Was war der ursprüngliche Preis?",
+      "options": [
+        "60 €",
+        "57,60 €",
+        "68 €"
+      ],
+      "correct": 0,
+      "explanation": "48 € sind 80 % des ursprünglichen Preises. 48 ÷ 0,8 ergibt 60 €.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-065",
+      "subject": "math",
+      "topic": "prozentrechnung",
+      "competency": "prozentrechnung",
+      "difficulty": 3,
+      "prompt": "Ein Preis steigt von 100 € um 10 % und sinkt dann um 10 %. Wie hoch ist er zuletzt?",
+      "options": [
+        "99 €",
+        "100 €",
+        "90 €"
+      ],
+      "correct": 0,
+      "explanation": "Erst steigt der Preis auf 110 €. Zehn Prozent von 110 € sind 11 €, daher bleiben 99 €.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-066",
+      "subject": "math",
+      "topic": "verhaeltnisse",
+      "competency": "verhaeltnisse",
+      "difficulty": 2,
+      "prompt": "Saft und Wasser werden im Verhältnis 1 : 3 gemischt. Wie viel Saft steckt in 2 Litern Mischung?",
+      "options": [
+        "0,5 Liter",
+        "1,5 Liter",
+        "1 Liter"
+      ],
+      "correct": 0,
+      "explanation": "Die Mischung besteht aus vier gleichen Teilen. Einer davon ist Saft: 2 ÷ 4 = 0,5 Liter.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-067",
+      "subject": "math",
+      "topic": "geschwindigkeit",
+      "competency": "geschwindigkeit",
+      "difficulty": 2,
+      "prompt": "Ein Rad fährt gleichmäßig 36 km in 2 Stunden. Wie hoch ist die Geschwindigkeit?",
+      "options": [
+        "34 km/h",
+        "72 km/h",
+        "18 km/h"
+      ],
+      "correct": 2,
+      "explanation": "Geschwindigkeit ist Strecke geteilt durch Zeit. 36 km ÷ 2 h ergibt 18 km/h.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-068",
+      "subject": "math",
+      "topic": "dreisatz",
+      "competency": "dreisatz",
+      "difficulty": 2,
+      "prompt": "6 gleich schnelle Personen erledigen eine Arbeit in 4 Stunden. Wie lange brauchen 3 Personen?",
+      "options": [
+        "8 Stunden",
+        "2 Stunden",
+        "12 Stunden"
+      ],
+      "correct": 0,
+      "explanation": "Bei halber Personenzahl verdoppelt sich die Arbeitszeit, sofern alle gleich schnell und parallel arbeiten.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-069",
+      "subject": "math",
+      "topic": "terme",
+      "competency": "terme",
+      "difficulty": 2,
+      "prompt": "Löse die Klammer auf: 3 × (x + 4).",
+      "options": [
+        "3x + 12",
+        "x + 12",
+        "3x + 4"
+      ],
+      "correct": 0,
+      "explanation": "Die 3 wird mit beiden Summanden multipliziert: 3 × x und 3 × 4.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-070",
+      "subject": "math",
+      "topic": "gleichungen",
+      "competency": "gleichungen",
+      "difficulty": 2,
+      "prompt": "Löse 5x − 7 = 18.",
+      "options": [
+        "x = 25",
+        "x = 5",
+        "x = 11/5"
+      ],
+      "correct": 1,
+      "explanation": "Addiere zuerst 7: 5x = 25. Teile anschließend durch 5, dann ist x = 5.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-071",
+      "subject": "math",
+      "topic": "gleichungen",
+      "competency": "gleichungen",
+      "difficulty": 2,
+      "prompt": "Welche Zahl löst 2(x + 3) = 14?",
+      "options": [
+        "7",
+        "10",
+        "4"
+      ],
+      "correct": 2,
+      "explanation": "Teile durch 2: x + 3 = 7. Ziehe dann 3 ab und erhalte x = 4.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-072",
+      "subject": "math",
+      "topic": "formeln",
+      "competency": "formeln",
+      "difficulty": 3,
+      "prompt": "Stelle die Geschwindigkeitsformel v = s / t nach t um.",
+      "options": [
+        "t = v / s",
+        "t = s / v",
+        "t = s × v"
+      ],
+      "correct": 1,
+      "explanation": "Multipliziere mit t und teile durch v. Für v ≠ 0 ergibt sich t = s / v.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-073",
+      "subject": "math",
+      "topic": "potenzen",
+      "competency": "potenzen",
+      "difficulty": 2,
+      "prompt": "Wie viel ist 10⁻²?",
+      "options": [
+        "−100",
+        "0,1",
+        "0,01"
+      ],
+      "correct": 2,
+      "explanation": "Ein negativer Exponent bezeichnet den Kehrwert: 10⁻² = 1/10² = 1/100.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-074",
+      "subject": "math",
+      "topic": "potenzen",
+      "competency": "potenzen",
+      "difficulty": 2,
+      "prompt": "Wie viel ist 3² × 3³?",
+      "options": [
+        "9⁵",
+        "3⁶ = 729",
+        "3⁵ = 243"
+      ],
+      "correct": 2,
+      "explanation": "Bei gleicher Basis werden die Exponenten beim Multiplizieren addiert: 2 + 3 = 5.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-075",
+      "subject": "math",
+      "topic": "wurzeln",
+      "competency": "wurzeln",
+      "difficulty": 1,
+      "prompt": "Welche positive Zahl hat das Quadrat 144?",
+      "options": [
+        "72",
+        "12",
+        "14"
+      ],
+      "correct": 1,
+      "explanation": "12 × 12 ergibt 144. Deshalb ist die positive Quadratwurzel aus 144 gleich 12.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-076",
+      "subject": "math",
+      "topic": "funktionen",
+      "competency": "funktionen",
+      "difficulty": 2,
+      "prompt": "Bei y = 2x + 3: Welcher Punkt liegt auf dem Graphen?",
+      "options": [
+        "P(2; 5)",
+        "P(2; 7)",
+        "P(3; 7)"
+      ],
+      "correct": 1,
+      "explanation": "Setze x = 2 ein: y = 2 × 2 + 3 = 7. Daher passt P(2; 7).",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-077",
+      "subject": "math",
+      "topic": "funktionen",
+      "competency": "funktionen",
+      "difficulty": 2,
+      "prompt": "Eine Gerade hat die Gleichung y = 4x − 2. Was ist ihre Steigung?",
+      "options": [
+        "2",
+        "4",
+        "−2"
+      ],
+      "correct": 1,
+      "explanation": "In y = mx + b gibt m die Steigung an. Hier ist m = 4 und b = −2.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-078",
+      "subject": "math",
+      "topic": "gleichungssysteme",
+      "competency": "gleichungssysteme",
+      "difficulty": 3,
+      "prompt": "Es gilt x + y = 7 und 2x + y = 11. Wie groß ist x?",
+      "options": [
+        "4",
+        "7",
+        "3"
+      ],
+      "correct": 0,
+      "explanation": "Ziehe die erste Gleichung von der zweiten ab. Links bleibt x und rechts 11 − 7 = 4.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-079",
+      "subject": "math",
+      "topic": "wachstum",
+      "competency": "wachstum",
+      "difficulty": 3,
+      "prompt": "Eine Menge von 100 verdoppelt sich in jedem Schritt. Wie groß ist sie nach 3 Schritten?",
+      "options": [
+        "800",
+        "300",
+        "600"
+      ],
+      "correct": 0,
+      "explanation": "Nach den Schritten sind es 200, dann 400 und schließlich 800. Es wird jeweils mit 2 multipliziert.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-080",
+      "subject": "math",
+      "topic": "potenzfunktionen",
+      "competency": "potenzfunktionen",
+      "difficulty": 2,
+      "prompt": "Für y = x²: Was passiert mit y, wenn x von 2 auf 4 steigt?",
+      "options": [
+        "y steigt von 4 auf 8.",
+        "y steigt von 4 auf 16.",
+        "y bleibt gleich."
+      ],
+      "correct": 1,
+      "explanation": "2² ergibt 4 und 4² ergibt 16. Beim Verdoppeln von x vervierfacht sich hier y.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-081",
+      "subject": "math",
+      "topic": "winkel",
+      "competency": "winkel",
+      "difficulty": 1,
+      "prompt": "Zwei Winkel eines Dreiecks sind 50° und 60°. Wie groß ist der dritte?",
+      "options": [
+        "110°",
+        "70°",
+        "80°"
+      ],
+      "correct": 1,
+      "explanation": "Die Innenwinkel eines Dreiecks ergeben 180°. 180° − 50° − 60° sind 70°.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-082",
+      "subject": "math",
+      "topic": "winkel",
+      "competency": "winkel",
+      "difficulty": 2,
+      "prompt": "Ein Winkel und sein Nebenwinkel liegen an einer Geraden. Einer beträgt 125°. Wie groß ist der andere?",
+      "options": [
+        "125°",
+        "55°",
+        "65°"
+      ],
+      "correct": 1,
+      "explanation": "Nebenwinkel ergänzen sich zu 180°. Deshalb rechnest du 180° − 125° = 55°.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-083",
+      "subject": "math",
+      "topic": "rechteck",
+      "competency": "rechteck",
+      "difficulty": 1,
+      "prompt": "Eine rechteckige Wand ist 4 m breit und 2,5 m hoch. Wie groß ist ihre Fläche?",
+      "options": [
+        "10 m²",
+        "6,5 m²",
+        "13 m²"
+      ],
+      "correct": 0,
+      "explanation": "Für die Rechtecksfläche multiplizierst du Breite und Höhe: 4 × 2,5 = 10.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-084",
+      "subject": "math",
+      "topic": "parallelogramm",
+      "competency": "parallelogramm",
+      "difficulty": 2,
+      "prompt": "Ein Parallelogramm hat 7 cm Grundseite und 4 cm zugehörige Höhe. Wie groß ist die Fläche?",
+      "options": [
+        "14 cm²",
+        "22 cm²",
+        "28 cm²"
+      ],
+      "correct": 2,
+      "explanation": "Auch beim Parallelogramm gilt A = Grundseite × zugehörige Höhe. Die schräge Seitenlänge brauchst du hier nicht.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-085",
+      "subject": "math",
+      "topic": "kreis",
+      "competency": "kreis",
+      "difficulty": 2,
+      "prompt": "Ein Kreis hat 5 cm Radius. Wie groß ist seine Fläche ungefähr? Nutze π ≈ 3,14.",
+      "options": [
+        "15,7 cm²",
+        "31,4 cm²",
+        "78,5 cm²"
+      ],
+      "correct": 2,
+      "explanation": "Die Kreisfläche ist π × r². Rechne 3,14 × 25 = 78,5 cm².",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-086",
+      "subject": "math",
+      "topic": "pythagoras",
+      "competency": "pythagoras",
+      "difficulty": 3,
+      "prompt": "Ein rechtwinkliges Dreieck hat 13 cm Hypotenuse und eine Kathete von 5 cm. Wie lang ist die andere Kathete?",
+      "options": [
+        "8 cm",
+        "18 cm",
+        "12 cm"
+      ],
+      "correct": 2,
+      "explanation": "Nach Pythagoras gilt b² = 13² − 5² = 169 − 25 = 144. Daraus folgt b = 12 cm.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-087",
+      "subject": "math",
+      "topic": "massstab",
+      "competency": "massstab",
+      "difficulty": 2,
+      "prompt": "Ein Modell im Maßstab 1 : 20 ist 15 cm lang. Wie lang ist das Original?",
+      "options": [
+        "0,75 m",
+        "30 m",
+        "3 m"
+      ],
+      "correct": 2,
+      "explanation": "Multipliziere 15 cm mit 20. 300 cm entsprechen 3 m.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-088",
+      "subject": "math",
+      "topic": "wuerfel",
+      "competency": "wuerfel",
+      "difficulty": 2,
+      "prompt": "Ein Würfel hat 3 cm Kantenlänge. Wie groß ist seine Oberfläche?",
+      "options": [
+        "27 cm²",
+        "18 cm²",
+        "54 cm²"
+      ],
+      "correct": 2,
+      "explanation": "Ein Würfel hat sechs quadratische Flächen. Jede ist 3 × 3 = 9 cm² groß, zusammen also 54 cm².",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-089",
+      "subject": "math",
+      "topic": "zylinder",
+      "competency": "zylinder",
+      "difficulty": 3,
+      "prompt": "Ein Zylinder hat 2 cm Radius und 5 cm Höhe. Wie groß ist sein Volumen? Nutze π ≈ 3,14.",
+      "options": [
+        "31,4 cm³",
+        "62,8 cm³",
+        "20 cm³"
+      ],
+      "correct": 1,
+      "explanation": "Das Volumen ist π × r² × h. Das ergibt 3,14 × 4 × 5 = 62,8 cm³.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-090",
+      "subject": "math",
+      "topic": "pyramide",
+      "competency": "pyramide",
+      "difficulty": 2,
+      "prompt": "Eine quadratische Pyramide hat 4 cm Grundkante und 6 cm senkrechte Höhe. Wie groß ist ihr Volumen?",
+      "options": [
+        "96 cm³",
+        "24 cm³",
+        "32 cm³"
+      ],
+      "correct": 2,
+      "explanation": "Die Grundfläche ist 4 × 4 = 16 cm². Mit V = G × h / 3 erhältst du 16 × 6 / 3 = 32 cm³.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-091",
+      "subject": "math",
+      "topic": "koerper",
+      "competency": "koerper",
+      "difficulty": 3,
+      "prompt": "Zwei Quader mit 12 cm³ und 18 cm³ werden ohne Überlappung zusammengesetzt. Wie groß ist das Gesamtvolumen?",
+      "options": [
+        "216 cm³",
+        "30 cm³",
+        "6 cm³"
+      ],
+      "correct": 1,
+      "explanation": "Ohne Überlappung addieren sich die Volumina der Teilkörper: 12 + 18 = 30 cm³.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-092",
+      "subject": "math",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 2,
+      "prompt": "Die Werte sind 3, 5, 5 und 9. Wie groß ist die Spannweite?",
+      "options": [
+        "9",
+        "6",
+        "5"
+      ],
+      "correct": 1,
+      "explanation": "Die Spannweite ist größter minus kleinster Wert: 9 − 3 = 6.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-093",
+      "subject": "math",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 2,
+      "prompt": "Die geordneten Werte sind 2, 4, 8 und 10. Wie groß ist der Median?",
+      "options": [
+        "6",
+        "4",
+        "8"
+      ],
+      "correct": 0,
+      "explanation": "Bei vier Werten liegt der Median zwischen den beiden mittleren Werten: (4 + 8) ÷ 2 = 6.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-094",
+      "subject": "math",
+      "topic": "statistik",
+      "competency": "statistik",
+      "difficulty": 3,
+      "prompt": "Vier Pakete wiegen 2, 2, 3 und 13 kg. Warum liegt der Mittelwert über dem Median?",
+      "options": [
+        "Der Median ist immer der kleinste Wert.",
+        "Der Mittelwert ignoriert große Werte.",
+        "Das schwere Paket zieht den Mittelwert nach oben."
+      ],
+      "correct": 2,
+      "explanation": "Der Mittelwert ist 5 kg, der Median 2,5 kg. Der Ausreißer von 13 kg beeinflusst den Mittelwert stark.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-095",
+      "subject": "math",
+      "topic": "haeufigkeit",
+      "competency": "haeufigkeit",
+      "difficulty": 2,
+      "prompt": "Von 25 Befragten wählen 10 das Fahrrad. Welcher Anteil im Kreisdiagramm passt?",
+      "options": [
+        "40 %",
+        "25 %",
+        "10 %"
+      ],
+      "correct": 0,
+      "explanation": "10 ÷ 25 = 0,4. Das entspricht 40 Prozent des gesamten Kreises.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-096",
+      "subject": "math",
+      "topic": "wahrscheinlichkeit",
+      "competency": "wahrscheinlichkeit",
+      "difficulty": 1,
+      "prompt": "In einem Beutel sind 3 rote und 2 blaue Kugeln. Wie wahrscheinlich ist Rot bei einer zufälligen Ziehung?",
+      "options": [
+        "2/5",
+        "3/2",
+        "3/5"
+      ],
+      "correct": 2,
+      "explanation": "Es gibt fünf gleichwahrscheinliche Kugeln, davon drei rote. Daher beträgt die Wahrscheinlichkeit 3/5.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-097",
+      "subject": "math",
+      "topic": "wahrscheinlichkeit",
+      "competency": "wahrscheinlichkeit",
+      "difficulty": 2,
+      "prompt": "Ein Ereignis hat die Wahrscheinlichkeit 0,7. Wie wahrscheinlich ist sein Gegenereignis?",
+      "options": [
+        "0,3",
+        "1,7",
+        "0,7"
+      ],
+      "correct": 0,
+      "explanation": "Ereignis und Gegenereignis ergänzen sich zu 1. Deshalb rechnest du 1 − 0,7 = 0,3.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-098",
+      "subject": "math",
+      "topic": "diagramme",
+      "competency": "diagramme",
+      "difficulty": 3,
+      "prompt": "Ein Balkendiagramm beginnt bei 90 statt bei 0 und zeigt 100 gegenüber 110. Was ist kritisch?",
+      "options": [
+        "110 ist deshalb kleiner als 100.",
+        "Der sichtbare Unterschied kann übertrieben wirken.",
+        "Die Zahlen sind automatisch falsch."
+      ],
+      "correct": 1,
+      "explanation": "Eine abgeschnittene Achse kann Unterschiede optisch verstärken. Prüfe deshalb immer die Achsenbeschriftung.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.4.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "math-099",
+      "subject": "math",
+      "topic": "sachrechnen",
+      "competency": "sachrechnen",
+      "difficulty": 2,
+      "prompt": "Ein Boden misst 12 m². Eine Packung deckt 2,5 m². Wie viele ganze Packungen brauchst du mindestens ohne Verschnitt?",
+      "options": [
+        "6",
+        "5",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "12 ÷ 2,5 = 4,8. Du brauchst ganze Packungen und musst deshalb auf 5 aufrunden.",
+      "curriculum": {
+        "sourceId": "lsa-math-2019",
+        "section": "3.2; 3.4.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "math-100",
+      "subject": "math",
+      "topic": "probe",
+      "competency": "probe",
+      "difficulty": 2,
+      "prompt": "Du hast x = 4 für 3x + 1 = 13 berechnet. Welche Probe ist richtig?",
+      "options": [
+        "3 + 4 + 1 = 13",
+        "3 × 4 + 1 = 13",
+        "3 × 13 + 1 = 4"
+      ],
+      "correct": 1,
+      "explanation": "Bei einer Probe setzt du den gefundenen Wert für x in die ursprüngliche Gleichung ein.",
       "curriculum": {
         "sourceId": "lsa-math-2019",
         "section": "3.2; 3.4.1",

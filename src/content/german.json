@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.16.1",
+  "revision": "2026.10.17.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "title": "Fachlehrplan Sekundarschule Deutsch",
       "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_deutsch_01_08_2019_k2.pdf",
       "documentDate": "2019-08-01",
-      "accessedAt": "2026-10-16"
+      "accessedAt": "2026-10-17"
     }
   ],
   "questions": [
@@ -1005,6 +1005,1006 @@
       ],
       "correct": 0,
       "explanation": "Die passende Zusammenfassung bewahrt Ursache und Folge, ohne neue Informationen zu erfinden.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-051",
+      "subject": "german",
+      "topic": "satzglieder",
+      "competency": "satzglieder",
+      "difficulty": 1,
+      "prompt": "Was ist das Prädikat in „Mara repariert das Rad“?",
+      "options": [
+        "Mara",
+        "repariert",
+        "das Rad"
+      ],
+      "correct": 1,
+      "explanation": "Das Prädikat sagt, was geschieht oder was jemand tut. Hier ist das Verb „repariert“ das Prädikat.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-052",
+      "subject": "german",
+      "topic": "satzglieder",
+      "competency": "satzglieder",
+      "difficulty": 2,
+      "prompt": "Was ist das Akkusativobjekt in „Der Koch schneidet die Zwiebel“?",
+      "options": [
+        "der Koch",
+        "schneidet",
+        "die Zwiebel"
+      ],
+      "correct": 2,
+      "explanation": "Mit „Wen oder was schneidet der Koch?“ fragst du nach dem Akkusativobjekt: die Zwiebel.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-053",
+      "subject": "german",
+      "topic": "wortarten",
+      "competency": "wortarten",
+      "difficulty": 1,
+      "prompt": "Welches Wort ist ein Personalpronomen?",
+      "options": [
+        "wir",
+        "unter",
+        "leise"
+      ],
+      "correct": 0,
+      "explanation": "„Wir“ steht für mehrere Personen einschließlich der sprechenden Person und ist ein Personalpronomen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-054",
+      "subject": "german",
+      "topic": "wortarten",
+      "competency": "wortarten",
+      "difficulty": 2,
+      "prompt": "Welche Präposition ergänzt „Ich fahre ___ dem Bus“ korrekt?",
+      "options": [
+        "mit",
+        "durch",
+        "für"
+      ],
+      "correct": 0,
+      "explanation": "„Mit dem Bus“ nennt das Verkehrsmittel. Die Präposition „mit“ verlangt hier den Dativ.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-055",
+      "subject": "german",
+      "topic": "steigerung",
+      "competency": "steigerung",
+      "difficulty": 1,
+      "prompt": "Wie lautet die Steigerung von „gut“?",
+      "options": [
+        "gut – guter – am gutesten",
+        "gut – besser – am besten",
+        "gut – mehr – am meisten"
+      ],
+      "correct": 1,
+      "explanation": "„Gut“ wird unregelmäßig gesteigert: Die Vergleichsform ist „besser“, die höchste Stufe „am besten“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-056",
+      "subject": "german",
+      "topic": "zeitformen",
+      "competency": "zeitformen",
+      "difficulty": 2,
+      "prompt": "Welcher Satz steht im Perfekt?",
+      "options": [
+        "Ich werde lernen.",
+        "Ich lernte.",
+        "Ich habe gelernt."
+      ],
+      "correct": 2,
+      "explanation": "Das Perfekt wird mit „haben“ oder „sein“ und einem Partizip II gebildet: hier „habe gelernt“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-057",
+      "subject": "german",
+      "topic": "zeitformen",
+      "competency": "zeitformen",
+      "difficulty": 2,
+      "prompt": "Was beschreibt „Nachdem sie gegessen hatte, ging sie los“?",
+      "options": [
+        "Das Essen geschah vor dem Losgehen.",
+        "Sie ging vor dem Essen los.",
+        "Beides geschieht erst morgen."
+      ],
+      "correct": 0,
+      "explanation": "Das Plusquamperfekt „gegessen hatte“ bezeichnet hier die Handlung vor der Handlung im Präteritum.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-058",
+      "subject": "german",
+      "topic": "aktiv-passiv",
+      "competency": "aktiv-passiv",
+      "difficulty": 2,
+      "prompt": "Welcher Satz steht im Passiv?",
+      "options": [
+        "Lena hat das Fenster geöffnet.",
+        "Lena öffnet das Fenster.",
+        "Das Fenster wird geöffnet."
+      ],
+      "correct": 2,
+      "explanation": "„Wird geöffnet“ ist eine Passivform. Im Mittelpunkt steht, was mit dem Fenster geschieht.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-059",
+      "subject": "german",
+      "topic": "satzbau",
+      "competency": "satzbau",
+      "difficulty": 2,
+      "prompt": "Welche Satzverknüpfung drückt eine Ursache aus?",
+      "options": [
+        "Ich bleibe zu Hause, weil ich krank bin.",
+        "Ich bleibe zu Hause, obwohl die Sonne scheint.",
+        "Ich bleibe zu Hause, während du einkaufst."
+      ],
+      "correct": 0,
+      "explanation": "„Weil“ leitet eine Begründung ein. Der Nebensatz erklärt hier den Grund für das Zuhausebleiben.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-060",
+      "subject": "german",
+      "topic": "satzbau",
+      "competency": "satzbau",
+      "difficulty": 2,
+      "prompt": "Welcher Satz drückt eine Bedingung aus?",
+      "options": [
+        "Es regnet und der Wind weht.",
+        "Wenn es regnet, nehmen wir den Bus.",
+        "Es regnet, deshalb ist die Straße nass."
+      ],
+      "correct": 1,
+      "explanation": "„Wenn es regnet“ nennt hier die Bedingung dafür, dass die Gruppe den Bus nimmt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-061",
+      "subject": "german",
+      "topic": "satzbau",
+      "competency": "satzbau",
+      "difficulty": 2,
+      "prompt": "Wo steht das gebeugte Verb im Nebensatz „…, weil ich morgen arbeite“?",
+      "options": [
+        "direkt nach „weil“",
+        "am Ende",
+        "immer an erster Stelle"
+      ],
+      "correct": 1,
+      "explanation": "Im mit „weil“ eingeleiteten Nebensatz steht das finite, also gebeugte Verb „arbeite“ am Ende.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-062",
+      "subject": "german",
+      "topic": "kommas",
+      "competency": "kommas",
+      "difficulty": 2,
+      "prompt": "Welcher Satz ist richtig gesetzt?",
+      "options": [
+        "Ich, versuche pünktlich zu sein.",
+        "Ich versuche pünktlich, zu sein.",
+        "Ich versuche, pünktlich zu sein."
+      ],
+      "correct": 2,
+      "explanation": "Das Komma trennt hier die Infinitivgruppe „pünktlich zu sein“ sinnvoll vom übrigen Satz ab.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-063",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 1,
+      "prompt": "Welche Schreibweise passt? „Der Weg ist sehr ___.“",
+      "options": [
+        "lang",
+        "lanck",
+        "lank"
+      ],
+      "correct": 0,
+      "explanation": "Verlängere das Wort: „lange“. Dann hörst du das g und kannst die richtige Endung ableiten.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-064",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 1,
+      "prompt": "Welches Wort schreibt man mit „ä“, weil es zu „Hand“ gehört?",
+      "options": [
+        "Hende",
+        "Hähnde",
+        "Hände"
+      ],
+      "correct": 2,
+      "explanation": "„Hände“ gehört zur Wortfamilie von „Hand“. Das a hilft dir, das ä in der Mehrzahl zu erklären.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-065",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 2,
+      "prompt": "Welche Ergänzung ist richtig? „Ich ___ nicht, wo er ist.“",
+      "options": [
+        "weiß",
+        "weiss",
+        "weis"
+      ],
+      "correct": 0,
+      "explanation": "Im deutschen Standard schreibt man „weiß“ nach dem langen Vokal mit ß. Der Infinitiv lautet „wissen“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-066",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 2,
+      "prompt": "Wie schreibt man „etwas ___“ richtig?",
+      "options": [
+        "Neues",
+        "neues",
+        "NeuEs"
+      ],
+      "correct": 0,
+      "explanation": "Nach „etwas“ wird das Adjektiv hier als Nomen gebraucht und deshalb großgeschrieben: „etwas Neues“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-067",
+      "subject": "german",
+      "topic": "rechtschreibung",
+      "competency": "rechtschreibung",
+      "difficulty": 2,
+      "prompt": "Welche Ergänzung passt? „___ ihr schon fertig?“",
+      "options": [
+        "Sait",
+        "Seid",
+        "Seit"
+      ],
+      "correct": 1,
+      "explanation": "„Seid“ ist eine Form von „sein“. „Seit“ wird für Zeitangaben verwendet, etwa „seit Montag“.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-068",
+      "subject": "german",
+      "topic": "wortbildung",
+      "competency": "wortbildung",
+      "difficulty": 1,
+      "prompt": "Welches Wort gehört zur Wortfamilie „fahren“?",
+      "options": [
+        "Fahrer",
+        "Faden",
+        "Farbe"
+      ],
+      "correct": 0,
+      "explanation": "„Fahrer“ ist von „fahren“ abgeleitet. Ein ähnlicher Wortanfang allein macht noch keine Wortfamilie.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-069",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 1,
+      "prompt": "Was bedeutet „sorgfältig arbeiten“?",
+      "options": [
+        "absichtlich unordentlich arbeiten",
+        "genau und aufmerksam arbeiten",
+        "möglichst laut arbeiten"
+      ],
+      "correct": 1,
+      "explanation": "Wer sorgfältig arbeitet, achtet auf Einzelheiten und vermeidet nach Möglichkeit Fehler.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-070",
+      "subject": "german",
+      "topic": "wortschatz",
+      "competency": "wortschatz",
+      "difficulty": 2,
+      "prompt": "Was meint „den Überblick behalten“?",
+      "options": [
+        "nur eine Kleinigkeit beachten",
+        "ständig nach oben schauen",
+        "die wichtigsten Zusammenhänge weiter erkennen"
+      ],
+      "correct": 2,
+      "explanation": "Die Redewendung beschreibt, dass man die Gesamtsituation weiterhin versteht und ordnen kann.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-071",
+      "subject": "german",
+      "topic": "lesen",
+      "competency": "lesen",
+      "difficulty": 1,
+      "prompt": "„Ab Mittwoch ist die Bibliothek bis 18 Uhr geöffnet.“ An welchem Tag beginnt die Änderung?",
+      "options": [
+        "Mittwoch",
+        "Donnerstag",
+        "Dienstag"
+      ],
+      "correct": 0,
+      "explanation": "„Ab Mittwoch“ nennt den Beginn der neuen Regelung. Die Uhrzeit allein sagt nichts über den Starttag.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-072",
+      "subject": "german",
+      "topic": "lesen",
+      "competency": "lesen",
+      "difficulty": 2,
+      "prompt": "„Der Kurs fällt nur aus, wenn sich weniger als fünf Personen anmelden.“ Es gibt sechs Anmeldungen. Was folgt?",
+      "options": [
+        "Der Text nennt keine Mindestzahl.",
+        "Der Kurs muss wegen zu weniger Anmeldungen ausfallen.",
+        "Der genannte Ausfallgrund liegt nicht vor."
+      ],
+      "correct": 2,
+      "explanation": "Sechs ist nicht weniger als fünf. Aus anderen Gründen könnte der Kurs ausfallen; dazu sagt der Text nichts.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-073",
+      "subject": "german",
+      "topic": "lesen",
+      "competency": "lesen",
+      "difficulty": 2,
+      "prompt": "„Samir packt eine Regenjacke ein, denn dunkle Wolken ziehen auf.“ Warum packt er sie ein?",
+      "options": [
+        "Er rechnet mit Regen.",
+        "Die Sonne ist zu heiß.",
+        "Er hat die Jacke verloren."
+      ],
+      "correct": 0,
+      "explanation": "Die dunklen Wolken begründen im Text, warum Samir vorsorglich die Regenjacke mitnimmt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-074",
+      "subject": "german",
+      "topic": "lesen",
+      "competency": "lesen",
+      "difficulty": 2,
+      "prompt": "„Mina besucht ihre Schwester. Diese zeigt ihr die neue Wohnung.“ Wen meint „Diese“?",
+      "options": [
+        "Mina",
+        "Minas Schwester",
+        "die Wohnung"
+      ],
+      "correct": 1,
+      "explanation": "„Diese“ greift hier die zuletzt genannte Person auf, also die Schwester, die ihre Wohnung zeigt.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-075",
+      "subject": "german",
+      "topic": "lesen",
+      "competency": "lesen",
+      "difficulty": 3,
+      "prompt": "„Jona wollte helfen. Doch als er die Scherben sah, holte er erst Handschuhe.“ Was lässt sich begründet schließen?",
+      "options": [
+        "Er denkt beim Helfen an Schutz vor Verletzungen.",
+        "Er hat die Hilfe endgültig aufgegeben.",
+        "Er möchte die Scherben essen."
+      ],
+      "correct": 0,
+      "explanation": "Die Handschuhe passen zum sicheren Umgang mit Scherben. Dass Jona gar nicht helfen will, steht nicht im Text.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-076",
+      "subject": "german",
+      "topic": "lesen",
+      "competency": "lesen",
+      "difficulty": 3,
+      "prompt": "„Die Buslinie wird eingestellt, weil zu wenige Menschen sie nutzen.“ Welche Information fehlt für eine faire Bewertung?",
+      "options": [
+        "Welche Alternativen die betroffenen Fahrgäste haben.",
+        "Welche Farbe das letzte Wort hat.",
+        "Wie oft das Wort „Bus“ vorkommt."
+      ],
+      "correct": 0,
+      "explanation": "Eine Bewertung sollte auch die Folgen für die Betroffenen berücksichtigen. Dazu gehören andere erreichbare Verkehrsmittel.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-077",
+      "subject": "german",
+      "topic": "textsorten",
+      "competency": "textsorten",
+      "difficulty": 1,
+      "prompt": "Welches Merkmal passt zu einer Anleitung?",
+      "options": [
+        "zufällige Sätze ohne Zusammenhang",
+        "Arbeitsschritte in sinnvoller Reihenfolge",
+        "nur persönliche Gefühle ohne Handlungsschritte"
+      ],
+      "correct": 1,
+      "explanation": "Eine Anleitung soll das Ausführen einer Handlung ermöglichen. Dafür braucht sie klare und geordnete Schritte.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-078",
+      "subject": "german",
+      "topic": "textsorten",
+      "competency": "textsorten",
+      "difficulty": 2,
+      "prompt": "Welche Frage beantwortet ein sachlicher Unfallbericht vor allem?",
+      "options": [
+        "Was ist wann und wo passiert?",
+        "Welche Fantasiefigur rettet die Welt?",
+        "Welcher Reim klingt am schönsten?"
+      ],
+      "correct": 0,
+      "explanation": "Ein Bericht informiert über ein Geschehen. Wichtige W-Fragen betreffen etwa Ort, Zeit, Beteiligte und Ablauf.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-079",
+      "subject": "german",
+      "topic": "textsorten",
+      "competency": "textsorten",
+      "difficulty": 2,
+      "prompt": "Was gehört in die Einleitung einer Inhaltsangabe zu einer Erzählung?",
+      "options": [
+        "die eigene Fortsetzung der Handlung",
+        "eine Liste aller unbekannten Wörter",
+        "Titel, Autor und Thema des Textes"
+      ],
+      "correct": 2,
+      "explanation": "Die Einleitung ordnet den Ausgangstext ein. Die wesentliche Handlung wird anschließend knapp wiedergegeben.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-080",
+      "subject": "german",
+      "topic": "schreibplanung",
+      "competency": "schreibplanung",
+      "difficulty": 2,
+      "prompt": "Du sollst für einen Jugendtreff werben. Was klärst du vor dem Schreiben zuerst?",
+      "options": [
+        "Wie man jeden Satz möglichst lang macht.",
+        "Welche Wörter zufällig zuerst einfallen.",
+        "An wen sich der Text richtet und was er erreichen soll."
+      ],
+      "correct": 2,
+      "explanation": "Adressaten und Schreibziel bestimmen Inhalt, Ton und Aufbau eines Textes. Deshalb gehören sie an den Anfang der Planung.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-081",
+      "subject": "german",
+      "topic": "ueberarbeiten",
+      "competency": "ueberarbeiten",
+      "difficulty": 2,
+      "prompt": "Welche Änderung macht „Das Ding da ist kaputt“ in einer Reparaturmeldung genauer?",
+      "options": [
+        "„Das Ding ist irgendwie ziemlich kaputt.“",
+        "„Da ist halt etwas.“",
+        "„Der rechte Bremshebel am Fahrrad ist abgebrochen.“"
+      ],
+      "correct": 2,
+      "explanation": "Die überarbeitete Fassung nennt Bauteil, Gegenstand und Schaden. So lässt sich das Problem besser zuordnen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-082",
+      "subject": "german",
+      "topic": "argumentieren",
+      "competency": "argumentieren",
+      "difficulty": 2,
+      "prompt": "Welcher Satz enthält neben der Behauptung auch ein passendes Beispiel?",
+      "options": [
+        "Lesen erweitert den Wortschatz; etwa lerne ich dabei neue Fachbegriffe.",
+        "Lesen ist gut. Mein Fahrrad ist blau.",
+        "Lesen ist gut, weil Lesen eben gut ist."
+      ],
+      "correct": 0,
+      "explanation": "Ein Beispiel macht eine Begründung anschaulich. Neue Fachbegriffe passen hier zum erweiterten Wortschatz.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-083",
+      "subject": "german",
+      "topic": "argumentieren",
+      "competency": "argumentieren",
+      "difficulty": 3,
+      "prompt": "Welche Antwort greift ein Gegenargument sachlich auf?",
+      "options": [
+        "„Die Kosten sind ein Problem. Wir könnten zunächst einen kleineren Versuch starten.“",
+        "„Ich wiederhole einfach meine Forderung.“",
+        "„Wer Kosten erwähnt, hat keine Ahnung.“"
+      ],
+      "correct": 0,
+      "explanation": "Die Antwort nimmt den Einwand ernst und entwickelt einen Lösungsvorschlag. Persönliche Angriffe helfen nicht beim Abwägen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-084",
+      "subject": "german",
+      "topic": "kommunikation",
+      "competency": "kommunikation",
+      "difficulty": 2,
+      "prompt": "Welche Ich-Botschaft beschreibt eine Störung ohne Beleidigung?",
+      "options": [
+        "„Ich kann mich bei der Lautstärke schlecht konzentrieren.“",
+        "„Du bist immer rücksichtslos.“",
+        "„Alle anderen sind unfähig.“"
+      ],
+      "correct": 0,
+      "explanation": "Die Ich-Botschaft benennt die eigene Wahrnehmung und Wirkung der Situation, statt die andere Person abzuwerten.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-085",
+      "subject": "german",
+      "topic": "zuhoeren",
+      "competency": "zuhoeren",
+      "difficulty": 1,
+      "prompt": "Was zeigt aktives Zuhören?",
+      "options": [
+        "„Habe ich richtig verstanden, dass du mehr Zeit brauchst?“",
+        "währenddessen nur das Handy ansehen",
+        "die Person mitten im Satz unterbrechen"
+      ],
+      "correct": 0,
+      "explanation": "Eine klärende Rückfrage prüft, ob du die Aussage richtig verstanden hast, und gibt Raum für eine Korrektur.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-086",
+      "subject": "german",
+      "topic": "bewerbung",
+      "competency": "bewerbung",
+      "difficulty": 2,
+      "prompt": "Welche Betreffzeile ist für eine Bewerbung besonders hilfreich?",
+      "options": [
+        "„Das wollte ich schon immer sagen“",
+        "„Bewerbung um einen Ausbildungsplatz als Tischler“",
+        "„Hallo!!!“"
+      ],
+      "correct": 1,
+      "explanation": "Der Betreff benennt den Anlass und die gewünschte Stelle. So kann der Betrieb das Schreiben schnell zuordnen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-087",
+      "subject": "german",
+      "topic": "berufssprache",
+      "competency": "berufssprache",
+      "difficulty": 2,
+      "prompt": "Welche Nachricht passt zu einer sachlichen Terminverschiebung?",
+      "options": [
+        "„Du musst das irgendwie merken.“",
+        "„Morgen geht halt nicht. Pech.“",
+        "„Können wir den Termin bitte auf Donnerstag um 10 Uhr verschieben?“"
+      ],
+      "correct": 2,
+      "explanation": "Die sachliche Nachricht nennt den Wunsch und einen konkreten Ersatztermin. Das erleichtert eine verbindliche Absprache.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-088",
+      "subject": "german",
+      "topic": "lebenslauf",
+      "competency": "lebenslauf",
+      "difficulty": 2,
+      "prompt": "Wie gehst du mit Angaben im Lebenslauf um?",
+      "options": [
+        "wahrheitsgemäß und übersichtlich formulieren",
+        "nicht vorhandene Abschlüsse erfinden",
+        "Datumsangaben absichtlich widersprüchlich machen"
+      ],
+      "correct": 0,
+      "explanation": "Ein Lebenslauf soll nachvollziehbar über den eigenen Werdegang informieren. Erfundenes ist dafür ungeeignet.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-089",
+      "subject": "german",
+      "topic": "medien",
+      "competency": "medien",
+      "difficulty": 2,
+      "prompt": "Eine Überschrift lautet „Unglaublich! Das musst du sofort sehen!!!“. Worauf zielt sie vermutlich?",
+      "options": [
+        "eine vollständige Quellenprüfung ersetzen",
+        "Aufmerksamkeit und viele Klicks gewinnen",
+        "den ganzen Sachverhalt neutral erklären"
+      ],
+      "correct": 1,
+      "explanation": "Starke Reizwörter und Ausrufe sollen Neugier auslösen. Prüfe den Inhalt, statt allein der Überschrift zu vertrauen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-090",
+      "subject": "german",
+      "topic": "medien",
+      "competency": "medien",
+      "difficulty": 3,
+      "prompt": "Ein Beitrag nennt eine Studie, verlinkt aber nur auf einen Werbeshop. Was ist sinnvoll?",
+      "options": [
+        "Die Aussage allein wegen vieler Likes glauben.",
+        "Die ursprüngliche Studie und ihre Aussage suchen.",
+        "Den Shop-Link als sicheren Studienbeleg behandeln."
+      ],
+      "correct": 1,
+      "explanation": "Ein Verweis ist nur hilfreich, wenn er die Behauptung tatsächlich belegt. Dafür braucht man die ursprüngliche Quelle.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-091",
+      "subject": "german",
+      "topic": "zitieren",
+      "competency": "zitieren",
+      "difficulty": 2,
+      "prompt": "Was gehört zu einem direkten Zitat aus einem Text?",
+      "options": [
+        "eine eigene Meinung ohne Kennzeichnung",
+        "genauer Wortlaut in Anführungszeichen mit Quellenangabe",
+        "ein erfundener Satz im Namen des Autors"
+      ],
+      "correct": 1,
+      "explanation": "Ein direktes Zitat übernimmt den Wortlaut und macht Herkunft und Übernahme erkennbar. So ist es überprüfbar.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-092",
+      "subject": "german",
+      "topic": "literatur",
+      "competency": "literatur",
+      "difficulty": 1,
+      "prompt": "Wie nennt man eine Zeile in einem Gedicht?",
+      "options": [
+        "Regieanweisung",
+        "Kapitel",
+        "Vers"
+      ],
+      "correct": 2,
+      "explanation": "Eine einzelne Gedichtzeile heißt Vers. Mehrere zusammengehörige Verse können eine Strophe bilden.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-093",
+      "subject": "german",
+      "topic": "literatur",
+      "competency": "literatur",
+      "difficulty": 2,
+      "prompt": "Was ist eine Strophe?",
+      "options": [
+        "jede sprechende Figur eines Dramas",
+        "jede Seite in einem Roman",
+        "eine Gruppe von Versen in einem Gedicht"
+      ],
+      "correct": 2,
+      "explanation": "Eine Strophe fasst mehrere Gedichtzeilen zu einer Einheit zusammen und ist meist durch einen Abstand erkennbar.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-094",
+      "subject": "german",
+      "topic": "stilmittel",
+      "competency": "stilmittel",
+      "difficulty": 2,
+      "prompt": "Welches Beispiel ist ein Vergleich?",
+      "options": [
+        "„Er öffnet die Tür.“",
+        "„Er ist schnell wie ein Blitz.“",
+        "„Er steht am Fenster.“"
+      ],
+      "correct": 1,
+      "explanation": "Das Wort „wie“ verbindet hier zwei Bereiche und hebt eine gemeinsame Eigenschaft hervor: die Schnelligkeit.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-095",
+      "subject": "german",
+      "topic": "stilmittel",
+      "competency": "stilmittel",
+      "difficulty": 2,
+      "prompt": "Welcher Satz enthält eine Personifikation?",
+      "options": [
+        "„Der Wind kommt aus Westen.“",
+        "„Der Wind weht mit 20 km/h.“",
+        "„Der Wind flüstert.“"
+      ],
+      "correct": 2,
+      "explanation": "Flüstern ist eine menschliche Tätigkeit. Der Satz überträgt sie auf den Wind und personifiziert ihn dadurch.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-096",
+      "subject": "german",
+      "topic": "erzaehlen",
+      "competency": "erzaehlen",
+      "difficulty": 3,
+      "prompt": "Eine Figur sagt „Mir geht es gut“, während ihre Hände zittern. Was ist beim Deuten sinnvoll?",
+      "options": [
+        "Ohne Beleg eine ganze Lebensgeschichte erfinden.",
+        "Nur die wörtliche Aussage beachten.",
+        "Die Worte und das beschriebene Verhalten gemeinsam betrachten."
+      ],
+      "correct": 2,
+      "explanation": "Worte und Verhalten können unterschiedlich wirken. Eine Deutung braucht Belege aus dem Text und muss diese zusammenführen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-097",
+      "subject": "german",
+      "topic": "drama",
+      "competency": "drama",
+      "difficulty": 2,
+      "prompt": "Was ist eine Regieanweisung in einem Theatertext?",
+      "options": [
+        "immer ein gesprochener Satz der Hauptfigur",
+        "die Rechnung für die Eintrittskarte",
+        "ein Hinweis zu Spiel, Bewegung oder Bühnenbild"
+      ],
+      "correct": 2,
+      "explanation": "Regieanweisungen geben Hinweise für die Aufführung. Sie gehören nicht zum normalen gesprochenen Dialog der Figuren.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-098",
+      "subject": "german",
+      "topic": "zusammenfassen",
+      "competency": "zusammenfassen",
+      "difficulty": 3,
+      "prompt": "„Der Verein sammelt alte Räder, repariert sie und gibt sie günstig weiter.“ Was fasst den Kern zusammen?",
+      "options": [
+        "Der Verein verkauft nur neue Autos.",
+        "Der Verein macht gebrauchte Räder wieder nutzbar und erschwinglich.",
+        "Der Verein verbietet Reparaturen."
+      ],
+      "correct": 1,
+      "explanation": "Die Zusammenfassung verbindet die wesentlichen Tätigkeiten und ihr Ergebnis, ohne neue Informationen hinzuzufügen.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.3.2",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "german-099",
+      "subject": "german",
+      "topic": "rechtschreibstrategien",
+      "competency": "rechtschreibstrategien",
+      "difficulty": 2,
+      "prompt": "Du bist unsicher, ob „Fahrrad“ ein oder zwei r hat. Welche Strategie hilft?",
+      "options": [
+        "In „Fahr“ und „Rad“ zerlegen.",
+        "Alle Doppelbuchstaben grundsätzlich streichen.",
+        "Nur nach der Wortlänge raten."
+      ],
+      "correct": 0,
+      "explanation": "„Fahrrad“ besteht aus „Fahr-“ und „Rad“. An der Zusammensetzung treffen deshalb zwei r aufeinander.",
+      "curriculum": {
+        "sourceId": "lsa-german-2019",
+        "section": "3.1; 3.3.1",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "german-100",
+      "subject": "german",
+      "topic": "textaufbau",
+      "competency": "textaufbau",
+      "difficulty": 2,
+      "prompt": "Wozu dienen Absätze in einem längeren Sachtext?",
+      "options": [
+        "Sie machen Belege überflüssig.",
+        "Sie gliedern zusammengehörige Gedanken.",
+        "Sie müssen nach jedem einzelnen Wort stehen."
+      ],
+      "correct": 1,
+      "explanation": "Ein Absatz bündelt einen Sinnabschnitt. Dadurch können Leserinnen und Leser dem Gedankengang leichter folgen.",
       "curriculum": {
         "sourceId": "lsa-german-2019",
         "section": "3.3.2",

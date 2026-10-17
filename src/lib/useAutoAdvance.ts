@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-/** A new answered question gets a fresh three-second reading period. */
+/** The caller enables a fresh three-second reading period only for correct answers. */
 export function useAutoAdvance(active: boolean, questionId: string | undefined, advance: () => void) {
   const latestAdvance = useRef(advance);
   const [seconds, setSeconds] = useState(3);

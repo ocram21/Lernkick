@@ -1,6 +1,6 @@
 # LernKick – Fragenkatalog mit Lösungen
 
-Stand: 16.10.2026 · 250 selbst erstellte Übungsfragen · 50 pro Fach.
+Stand: 17.10.2026 · 500 selbst erstellte Übungsfragen · 100 pro Fach.
 
 Keine amtlichen Prüfungsfragen. Fachliche und pädagogische Freigabe durch Lehrkräfte steht aus. Anforderungen und Grenzen: [Recherche Sachsen-Anhalt](ANFORDERUNGEN-SACHSEN-ANHALT.md).
 
@@ -8,7 +8,7 @@ Die Antwortreihenfolge wird in der App zusätzlich gemischt. Die hier genannten 
 
 ## Mathematik
 
-Lehrplan: [Fachlehrplan Sekundarschule Mathematik](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_mathe_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-16.
+Lehrplan: [Fachlehrplan Sekundarschule Mathematik](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_mathe_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-17.
 
 ### math-001 · Wie viel ist 7 × 8?
 
@@ -518,9 +518,509 @@ Thema: statistik · Schwierigkeit 3 · Lehrplan 3.2; 3.4.1 · foundation
 
 **Erklärung:** Teile die Anzahl durch die Gesamtzahl: 8 ÷ 20 = 0,4 = 40 %.
 
+### math-051 · Runde 3,746 auf zwei Nachkommastellen.
+
+Thema: runden · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 3,75 **(richtig)**
+- **B:** 3,70
+- **C:** 3,74
+
+**Erklärung:** Die dritte Nachkommastelle ist 6. Deshalb wird die zweite Nachkommastelle von 4 auf 5 erhöht.
+
+### math-052 · Wie viel ist −8 + 3?
+
+Thema: negative-zahlen · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** −11
+- **B:** −5 **(richtig)**
+- **C:** 5
+
+**Erklärung:** Von −8 gehst du auf dem Zahlenstrahl drei Schritte nach rechts und landest bei −5.
+
+### math-053 · Wie viel ist (−4) × (−6)?
+
+Thema: vorzeichen · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 24 **(richtig)**
+- **B:** −10
+- **C:** −24
+
+**Erklärung:** Das Produkt zweier negativer Zahlen ist positiv. 4 × 6 ergibt 24.
+
+### math-054 · Welche Zahl ist durch 3 teilbar?
+
+Thema: teilbarkeit · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 123 **(richtig)**
+- **B:** 124
+- **C:** 125
+
+**Erklärung:** Die Quersumme von 123 ist 6. Weil 6 durch 3 teilbar ist, gilt das auch für 123.
+
+### math-055 · Welche Zahl ist größer als ½?
+
+Thema: brueche · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** ¼
+- **B:** ⅓
+- **C:** ⅔ **(richtig)**
+
+**Erklärung:** Auf Sechstel gebracht ist ½ = 3/6 und ⅔ = 4/6. Deshalb ist ⅔ größer.
+
+### math-056 · Wie viel sind ⅗ von 40 Litern?
+
+Thema: brueche · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 32 Liter
+- **B:** 24 Liter **(richtig)**
+- **C:** 8 Liter
+
+**Erklärung:** Ein Fünftel von 40 ist 8. Drei Fünftel sind 3 × 8 = 24 Liter.
+
+### math-057 · Wie viel ist 0,6 × 0,5?
+
+Thema: dezimalzahlen · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 0,03
+- **B:** 3
+- **C:** 0,3 **(richtig)**
+
+**Erklärung:** Die Hälfte von 0,6 ist 0,3. Das Komma gehört daher vor die 3.
+
+### math-058 · Wie viele Milliliter sind 0,75 Liter?
+
+Thema: groessen · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 750 ml **(richtig)**
+- **B:** 75 ml
+- **C:** 7.500 ml
+
+**Erklärung:** Ein Liter hat 1.000 Milliliter. 0,75 × 1.000 ergibt 750 Milliliter.
+
+### math-059 · Wie viele Quadratzentimeter sind 2 dm²?
+
+Thema: flaecheneinheiten · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 2.000 cm²
+- **B:** 20 cm²
+- **C:** 200 cm² **(richtig)**
+
+**Erklärung:** Ein Quadratdezimeter ist 10 cm × 10 cm = 100 cm². Zwei davon ergeben 200 cm².
+
+### math-060 · Wie viele Liter sind 3 m³?
+
+Thema: volumeneinheiten · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 300 Liter
+- **B:** 3.000 Liter **(richtig)**
+- **C:** 30 Liter
+
+**Erklärung:** Ein Kubikmeter entspricht 1.000 Litern. Drei Kubikmeter sind also 3.000 Liter.
+
+### math-061 · Wie viele Minuten sind 1,25 Stunden?
+
+Thema: zeit · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 85 Minuten
+- **B:** 75 Minuten **(richtig)**
+- **C:** 125 Minuten
+
+**Erklärung:** Eine Stunde hat 60 Minuten. Ein Viertel davon sind 15 Minuten: zusammen 75 Minuten.
+
+### math-062 · Welche Überschlagsrechnung passt am besten zu 198 × 5,1?
+
+Thema: ueberschlagen · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 200 × 5 ≈ 1.000 **(richtig)**
+- **B:** 20 × 5 ≈ 100
+- **C:** 200 × 50 ≈ 10.000
+
+**Erklärung:** 198 liegt nahe bei 200 und 5,1 nahe bei 5. Der Überschlag hilft, die Größenordnung zu prüfen.
+
+### math-063 · 18 von 60 Plätzen sind besetzt. Wie viel Prozent sind das?
+
+Thema: prozentrechnung · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 42 %
+- **B:** 30 % **(richtig)**
+- **C:** 18 %
+
+**Erklärung:** 18 geteilt durch 60 ist 0,3. Mit 100 multipliziert ergibt das 30 Prozent.
+
+### math-064 · Nach 20 % Rabatt kostet ein Rucksack 48 €. Was war der ursprüngliche Preis?
+
+Thema: prozentrechnung · Schwierigkeit 3 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 60 € **(richtig)**
+- **B:** 57,60 €
+- **C:** 68 €
+
+**Erklärung:** 48 € sind 80 % des ursprünglichen Preises. 48 ÷ 0,8 ergibt 60 €.
+
+### math-065 · Ein Preis steigt von 100 € um 10 % und sinkt dann um 10 %. Wie hoch ist er zuletzt?
+
+Thema: prozentrechnung · Schwierigkeit 3 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 99 € **(richtig)**
+- **B:** 100 €
+- **C:** 90 €
+
+**Erklärung:** Erst steigt der Preis auf 110 €. Zehn Prozent von 110 € sind 11 €, daher bleiben 99 €.
+
+### math-066 · Saft und Wasser werden im Verhältnis 1 : 3 gemischt. Wie viel Saft steckt in 2 Litern Mischung?
+
+Thema: verhaeltnisse · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 0,5 Liter **(richtig)**
+- **B:** 1,5 Liter
+- **C:** 1 Liter
+
+**Erklärung:** Die Mischung besteht aus vier gleichen Teilen. Einer davon ist Saft: 2 ÷ 4 = 0,5 Liter.
+
+### math-067 · Ein Rad fährt gleichmäßig 36 km in 2 Stunden. Wie hoch ist die Geschwindigkeit?
+
+Thema: geschwindigkeit · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 34 km/h
+- **B:** 72 km/h
+- **C:** 18 km/h **(richtig)**
+
+**Erklärung:** Geschwindigkeit ist Strecke geteilt durch Zeit. 36 km ÷ 2 h ergibt 18 km/h.
+
+### math-068 · 6 gleich schnelle Personen erledigen eine Arbeit in 4 Stunden. Wie lange brauchen 3 Personen?
+
+Thema: dreisatz · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 8 Stunden **(richtig)**
+- **B:** 2 Stunden
+- **C:** 12 Stunden
+
+**Erklärung:** Bei halber Personenzahl verdoppelt sich die Arbeitszeit, sofern alle gleich schnell und parallel arbeiten.
+
+### math-069 · Löse die Klammer auf: 3 × (x + 4).
+
+Thema: terme · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 3x + 12 **(richtig)**
+- **B:** x + 12
+- **C:** 3x + 4
+
+**Erklärung:** Die 3 wird mit beiden Summanden multipliziert: 3 × x und 3 × 4.
+
+### math-070 · Löse 5x − 7 = 18.
+
+Thema: gleichungen · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** x = 25
+- **B:** x = 5 **(richtig)**
+- **C:** x = 11/5
+
+**Erklärung:** Addiere zuerst 7: 5x = 25. Teile anschließend durch 5, dann ist x = 5.
+
+### math-071 · Welche Zahl löst 2(x + 3) = 14?
+
+Thema: gleichungen · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 7
+- **B:** 10
+- **C:** 4 **(richtig)**
+
+**Erklärung:** Teile durch 2: x + 3 = 7. Ziehe dann 3 ab und erhalte x = 4.
+
+### math-072 · Stelle die Geschwindigkeitsformel v = s / t nach t um.
+
+Thema: formeln · Schwierigkeit 3 · Lehrplan 3.4.2 · grade9
+
+- **A:** t = v / s
+- **B:** t = s / v **(richtig)**
+- **C:** t = s × v
+
+**Erklärung:** Multipliziere mit t und teile durch v. Für v ≠ 0 ergibt sich t = s / v.
+
+### math-073 · Wie viel ist 10⁻²?
+
+Thema: potenzen · Schwierigkeit 2 · Lehrplan 3.4.2 · grade9
+
+- **A:** −100
+- **B:** 0,1
+- **C:** 0,01 **(richtig)**
+
+**Erklärung:** Ein negativer Exponent bezeichnet den Kehrwert: 10⁻² = 1/10² = 1/100.
+
+### math-074 · Wie viel ist 3² × 3³?
+
+Thema: potenzen · Schwierigkeit 2 · Lehrplan 3.4.2 · grade9
+
+- **A:** 9⁵
+- **B:** 3⁶ = 729
+- **C:** 3⁵ = 243 **(richtig)**
+
+**Erklärung:** Bei gleicher Basis werden die Exponenten beim Multiplizieren addiert: 2 + 3 = 5.
+
+### math-075 · Welche positive Zahl hat das Quadrat 144?
+
+Thema: wurzeln · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 72
+- **B:** 12 **(richtig)**
+- **C:** 14
+
+**Erklärung:** 12 × 12 ergibt 144. Deshalb ist die positive Quadratwurzel aus 144 gleich 12.
+
+### math-076 · Bei y = 2x + 3: Welcher Punkt liegt auf dem Graphen?
+
+Thema: funktionen · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** P(2; 5)
+- **B:** P(2; 7) **(richtig)**
+- **C:** P(3; 7)
+
+**Erklärung:** Setze x = 2 ein: y = 2 × 2 + 3 = 7. Daher passt P(2; 7).
+
+### math-077 · Eine Gerade hat die Gleichung y = 4x − 2. Was ist ihre Steigung?
+
+Thema: funktionen · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 2
+- **B:** 4 **(richtig)**
+- **C:** −2
+
+**Erklärung:** In y = mx + b gibt m die Steigung an. Hier ist m = 4 und b = −2.
+
+### math-078 · Es gilt x + y = 7 und 2x + y = 11. Wie groß ist x?
+
+Thema: gleichungssysteme · Schwierigkeit 3 · Lehrplan 3.4.2 · grade9
+
+- **A:** 4 **(richtig)**
+- **B:** 7
+- **C:** 3
+
+**Erklärung:** Ziehe die erste Gleichung von der zweiten ab. Links bleibt x und rechts 11 − 7 = 4.
+
+### math-079 · Eine Menge von 100 verdoppelt sich in jedem Schritt. Wie groß ist sie nach 3 Schritten?
+
+Thema: wachstum · Schwierigkeit 3 · Lehrplan 3.4.2 · grade9
+
+- **A:** 800 **(richtig)**
+- **B:** 300
+- **C:** 600
+
+**Erklärung:** Nach den Schritten sind es 200, dann 400 und schließlich 800. Es wird jeweils mit 2 multipliziert.
+
+### math-080 · Für y = x²: Was passiert mit y, wenn x von 2 auf 4 steigt?
+
+Thema: potenzfunktionen · Schwierigkeit 2 · Lehrplan 3.4.2 · grade9
+
+- **A:** y steigt von 4 auf 8.
+- **B:** y steigt von 4 auf 16. **(richtig)**
+- **C:** y bleibt gleich.
+
+**Erklärung:** 2² ergibt 4 und 4² ergibt 16. Beim Verdoppeln von x vervierfacht sich hier y.
+
+### math-081 · Zwei Winkel eines Dreiecks sind 50° und 60°. Wie groß ist der dritte?
+
+Thema: winkel · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 110°
+- **B:** 70° **(richtig)**
+- **C:** 80°
+
+**Erklärung:** Die Innenwinkel eines Dreiecks ergeben 180°. 180° − 50° − 60° sind 70°.
+
+### math-082 · Ein Winkel und sein Nebenwinkel liegen an einer Geraden. Einer beträgt 125°. Wie groß ist der andere?
+
+Thema: winkel · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 125°
+- **B:** 55° **(richtig)**
+- **C:** 65°
+
+**Erklärung:** Nebenwinkel ergänzen sich zu 180°. Deshalb rechnest du 180° − 125° = 55°.
+
+### math-083 · Eine rechteckige Wand ist 4 m breit und 2,5 m hoch. Wie groß ist ihre Fläche?
+
+Thema: rechteck · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 10 m² **(richtig)**
+- **B:** 6,5 m²
+- **C:** 13 m²
+
+**Erklärung:** Für die Rechtecksfläche multiplizierst du Breite und Höhe: 4 × 2,5 = 10.
+
+### math-084 · Ein Parallelogramm hat 7 cm Grundseite und 4 cm zugehörige Höhe. Wie groß ist die Fläche?
+
+Thema: parallelogramm · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 14 cm²
+- **B:** 22 cm²
+- **C:** 28 cm² **(richtig)**
+
+**Erklärung:** Auch beim Parallelogramm gilt A = Grundseite × zugehörige Höhe. Die schräge Seitenlänge brauchst du hier nicht.
+
+### math-085 · Ein Kreis hat 5 cm Radius. Wie groß ist seine Fläche ungefähr? Nutze π ≈ 3,14.
+
+Thema: kreis · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 15,7 cm²
+- **B:** 31,4 cm²
+- **C:** 78,5 cm² **(richtig)**
+
+**Erklärung:** Die Kreisfläche ist π × r². Rechne 3,14 × 25 = 78,5 cm².
+
+### math-086 · Ein rechtwinkliges Dreieck hat 13 cm Hypotenuse und eine Kathete von 5 cm. Wie lang ist die andere Kathete?
+
+Thema: pythagoras · Schwierigkeit 3 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 8 cm
+- **B:** 18 cm
+- **C:** 12 cm **(richtig)**
+
+**Erklärung:** Nach Pythagoras gilt b² = 13² − 5² = 169 − 25 = 144. Daraus folgt b = 12 cm.
+
+### math-087 · Ein Modell im Maßstab 1 : 20 ist 15 cm lang. Wie lang ist das Original?
+
+Thema: massstab · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 0,75 m
+- **B:** 30 m
+- **C:** 3 m **(richtig)**
+
+**Erklärung:** Multipliziere 15 cm mit 20. 300 cm entsprechen 3 m.
+
+### math-088 · Ein Würfel hat 3 cm Kantenlänge. Wie groß ist seine Oberfläche?
+
+Thema: wuerfel · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 27 cm²
+- **B:** 18 cm²
+- **C:** 54 cm² **(richtig)**
+
+**Erklärung:** Ein Würfel hat sechs quadratische Flächen. Jede ist 3 × 3 = 9 cm² groß, zusammen also 54 cm².
+
+### math-089 · Ein Zylinder hat 2 cm Radius und 5 cm Höhe. Wie groß ist sein Volumen? Nutze π ≈ 3,14.
+
+Thema: zylinder · Schwierigkeit 3 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 31,4 cm³
+- **B:** 62,8 cm³ **(richtig)**
+- **C:** 20 cm³
+
+**Erklärung:** Das Volumen ist π × r² × h. Das ergibt 3,14 × 4 × 5 = 62,8 cm³.
+
+### math-090 · Eine quadratische Pyramide hat 4 cm Grundkante und 6 cm senkrechte Höhe. Wie groß ist ihr Volumen?
+
+Thema: pyramide · Schwierigkeit 2 · Lehrplan 3.4.2 · grade9
+
+- **A:** 96 cm³
+- **B:** 24 cm³
+- **C:** 32 cm³ **(richtig)**
+
+**Erklärung:** Die Grundfläche ist 4 × 4 = 16 cm². Mit V = G × h / 3 erhältst du 16 × 6 / 3 = 32 cm³.
+
+### math-091 · Zwei Quader mit 12 cm³ und 18 cm³ werden ohne Überlappung zusammengesetzt. Wie groß ist das Gesamtvolumen?
+
+Thema: koerper · Schwierigkeit 3 · Lehrplan 3.4.2 · grade9
+
+- **A:** 216 cm³
+- **B:** 30 cm³ **(richtig)**
+- **C:** 6 cm³
+
+**Erklärung:** Ohne Überlappung addieren sich die Volumina der Teilkörper: 12 + 18 = 30 cm³.
+
+### math-092 · Die Werte sind 3, 5, 5 und 9. Wie groß ist die Spannweite?
+
+Thema: statistik · Schwierigkeit 2 · Lehrplan 3.4.2 · grade9
+
+- **A:** 9
+- **B:** 6 **(richtig)**
+- **C:** 5
+
+**Erklärung:** Die Spannweite ist größter minus kleinster Wert: 9 − 3 = 6.
+
+### math-093 · Die geordneten Werte sind 2, 4, 8 und 10. Wie groß ist der Median?
+
+Thema: statistik · Schwierigkeit 2 · Lehrplan 3.4.2 · grade9
+
+- **A:** 6 **(richtig)**
+- **B:** 4
+- **C:** 8
+
+**Erklärung:** Bei vier Werten liegt der Median zwischen den beiden mittleren Werten: (4 + 8) ÷ 2 = 6.
+
+### math-094 · Vier Pakete wiegen 2, 2, 3 und 13 kg. Warum liegt der Mittelwert über dem Median?
+
+Thema: statistik · Schwierigkeit 3 · Lehrplan 3.4.2 · grade9
+
+- **A:** Der Median ist immer der kleinste Wert.
+- **B:** Der Mittelwert ignoriert große Werte.
+- **C:** Das schwere Paket zieht den Mittelwert nach oben. **(richtig)**
+
+**Erklärung:** Der Mittelwert ist 5 kg, der Median 2,5 kg. Der Ausreißer von 13 kg beeinflusst den Mittelwert stark.
+
+### math-095 · Von 25 Befragten wählen 10 das Fahrrad. Welcher Anteil im Kreisdiagramm passt?
+
+Thema: haeufigkeit · Schwierigkeit 2 · Lehrplan 3.4.2 · grade9
+
+- **A:** 40 % **(richtig)**
+- **B:** 25 %
+- **C:** 10 %
+
+**Erklärung:** 10 ÷ 25 = 0,4. Das entspricht 40 Prozent des gesamten Kreises.
+
+### math-096 · In einem Beutel sind 3 rote und 2 blaue Kugeln. Wie wahrscheinlich ist Rot bei einer zufälligen Ziehung?
+
+Thema: wahrscheinlichkeit · Schwierigkeit 1 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 2/5
+- **B:** 3/2
+- **C:** 3/5 **(richtig)**
+
+**Erklärung:** Es gibt fünf gleichwahrscheinliche Kugeln, davon drei rote. Daher beträgt die Wahrscheinlichkeit 3/5.
+
+### math-097 · Ein Ereignis hat die Wahrscheinlichkeit 0,7. Wie wahrscheinlich ist sein Gegenereignis?
+
+Thema: wahrscheinlichkeit · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 0,3 **(richtig)**
+- **B:** 1,7
+- **C:** 0,7
+
+**Erklärung:** Ereignis und Gegenereignis ergänzen sich zu 1. Deshalb rechnest du 1 − 0,7 = 0,3.
+
+### math-098 · Ein Balkendiagramm beginnt bei 90 statt bei 0 und zeigt 100 gegenüber 110. Was ist kritisch?
+
+Thema: diagramme · Schwierigkeit 3 · Lehrplan 3.4.2 · grade9
+
+- **A:** 110 ist deshalb kleiner als 100.
+- **B:** Der sichtbare Unterschied kann übertrieben wirken. **(richtig)**
+- **C:** Die Zahlen sind automatisch falsch.
+
+**Erklärung:** Eine abgeschnittene Achse kann Unterschiede optisch verstärken. Prüfe deshalb immer die Achsenbeschriftung.
+
+### math-099 · Ein Boden misst 12 m². Eine Packung deckt 2,5 m². Wie viele ganze Packungen brauchst du mindestens ohne Verschnitt?
+
+Thema: sachrechnen · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 6
+- **B:** 5 **(richtig)**
+- **C:** 4
+
+**Erklärung:** 12 ÷ 2,5 = 4,8. Du brauchst ganze Packungen und musst deshalb auf 5 aufrunden.
+
+### math-100 · Du hast x = 4 für 3x + 1 = 13 berechnet. Welche Probe ist richtig?
+
+Thema: probe · Schwierigkeit 2 · Lehrplan 3.2; 3.4.1 · foundation
+
+- **A:** 3 + 4 + 1 = 13
+- **B:** 3 × 4 + 1 = 13 **(richtig)**
+- **C:** 3 × 13 + 1 = 4
+
+**Erklärung:** Bei einer Probe setzt du den gefundenen Wert für x in die ursprüngliche Gleichung ein.
+
 ## Deutsch
 
-Lehrplan: [Fachlehrplan Sekundarschule Deutsch](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_deutsch_01_08_2019_k2.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-16.
+Lehrplan: [Fachlehrplan Sekundarschule Deutsch](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_deutsch_01_08_2019_k2.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-17.
 
 ### german-001 · Was bedeutet „zuverlässig“?
 
@@ -1020,9 +1520,509 @@ Thema: zusammenfassen · Schwierigkeit 3 · Lehrplan 3.3.2 · grade9
 
 **Erklärung:** Die passende Zusammenfassung bewahrt Ursache und Folge, ohne neue Informationen zu erfinden.
 
+### german-051 · Was ist das Prädikat in „Mara repariert das Rad“?
+
+Thema: satzglieder · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Mara
+- **B:** repariert **(richtig)**
+- **C:** das Rad
+
+**Erklärung:** Das Prädikat sagt, was geschieht oder was jemand tut. Hier ist das Verb „repariert“ das Prädikat.
+
+### german-052 · Was ist das Akkusativobjekt in „Der Koch schneidet die Zwiebel“?
+
+Thema: satzglieder · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** der Koch
+- **B:** schneidet
+- **C:** die Zwiebel **(richtig)**
+
+**Erklärung:** Mit „Wen oder was schneidet der Koch?“ fragst du nach dem Akkusativobjekt: die Zwiebel.
+
+### german-053 · Welches Wort ist ein Personalpronomen?
+
+Thema: wortarten · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** wir **(richtig)**
+- **B:** unter
+- **C:** leise
+
+**Erklärung:** „Wir“ steht für mehrere Personen einschließlich der sprechenden Person und ist ein Personalpronomen.
+
+### german-054 · Welche Präposition ergänzt „Ich fahre ___ dem Bus“ korrekt?
+
+Thema: wortarten · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** mit **(richtig)**
+- **B:** durch
+- **C:** für
+
+**Erklärung:** „Mit dem Bus“ nennt das Verkehrsmittel. Die Präposition „mit“ verlangt hier den Dativ.
+
+### german-055 · Wie lautet die Steigerung von „gut“?
+
+Thema: steigerung · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** gut – guter – am gutesten
+- **B:** gut – besser – am besten **(richtig)**
+- **C:** gut – mehr – am meisten
+
+**Erklärung:** „Gut“ wird unregelmäßig gesteigert: Die Vergleichsform ist „besser“, die höchste Stufe „am besten“.
+
+### german-056 · Welcher Satz steht im Perfekt?
+
+Thema: zeitformen · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Ich werde lernen.
+- **B:** Ich lernte.
+- **C:** Ich habe gelernt. **(richtig)**
+
+**Erklärung:** Das Perfekt wird mit „haben“ oder „sein“ und einem Partizip II gebildet: hier „habe gelernt“.
+
+### german-057 · Was beschreibt „Nachdem sie gegessen hatte, ging sie los“?
+
+Thema: zeitformen · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Das Essen geschah vor dem Losgehen. **(richtig)**
+- **B:** Sie ging vor dem Essen los.
+- **C:** Beides geschieht erst morgen.
+
+**Erklärung:** Das Plusquamperfekt „gegessen hatte“ bezeichnet hier die Handlung vor der Handlung im Präteritum.
+
+### german-058 · Welcher Satz steht im Passiv?
+
+Thema: aktiv-passiv · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Lena hat das Fenster geöffnet.
+- **B:** Lena öffnet das Fenster.
+- **C:** Das Fenster wird geöffnet. **(richtig)**
+
+**Erklärung:** „Wird geöffnet“ ist eine Passivform. Im Mittelpunkt steht, was mit dem Fenster geschieht.
+
+### german-059 · Welche Satzverknüpfung drückt eine Ursache aus?
+
+Thema: satzbau · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Ich bleibe zu Hause, weil ich krank bin. **(richtig)**
+- **B:** Ich bleibe zu Hause, obwohl die Sonne scheint.
+- **C:** Ich bleibe zu Hause, während du einkaufst.
+
+**Erklärung:** „Weil“ leitet eine Begründung ein. Der Nebensatz erklärt hier den Grund für das Zuhausebleiben.
+
+### german-060 · Welcher Satz drückt eine Bedingung aus?
+
+Thema: satzbau · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Es regnet und der Wind weht.
+- **B:** Wenn es regnet, nehmen wir den Bus. **(richtig)**
+- **C:** Es regnet, deshalb ist die Straße nass.
+
+**Erklärung:** „Wenn es regnet“ nennt hier die Bedingung dafür, dass die Gruppe den Bus nimmt.
+
+### german-061 · Wo steht das gebeugte Verb im Nebensatz „…, weil ich morgen arbeite“?
+
+Thema: satzbau · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** direkt nach „weil“
+- **B:** am Ende **(richtig)**
+- **C:** immer an erster Stelle
+
+**Erklärung:** Im mit „weil“ eingeleiteten Nebensatz steht das finite, also gebeugte Verb „arbeite“ am Ende.
+
+### german-062 · Welcher Satz ist richtig gesetzt?
+
+Thema: kommas · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Ich, versuche pünktlich zu sein.
+- **B:** Ich versuche pünktlich, zu sein.
+- **C:** Ich versuche, pünktlich zu sein. **(richtig)**
+
+**Erklärung:** Das Komma trennt hier die Infinitivgruppe „pünktlich zu sein“ sinnvoll vom übrigen Satz ab.
+
+### german-063 · Welche Schreibweise passt? „Der Weg ist sehr ___.“
+
+Thema: rechtschreibung · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** lang **(richtig)**
+- **B:** lanck
+- **C:** lank
+
+**Erklärung:** Verlängere das Wort: „lange“. Dann hörst du das g und kannst die richtige Endung ableiten.
+
+### german-064 · Welches Wort schreibt man mit „ä“, weil es zu „Hand“ gehört?
+
+Thema: rechtschreibung · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Hende
+- **B:** Hähnde
+- **C:** Hände **(richtig)**
+
+**Erklärung:** „Hände“ gehört zur Wortfamilie von „Hand“. Das a hilft dir, das ä in der Mehrzahl zu erklären.
+
+### german-065 · Welche Ergänzung ist richtig? „Ich ___ nicht, wo er ist.“
+
+Thema: rechtschreibung · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** weiß **(richtig)**
+- **B:** weiss
+- **C:** weis
+
+**Erklärung:** Im deutschen Standard schreibt man „weiß“ nach dem langen Vokal mit ß. Der Infinitiv lautet „wissen“.
+
+### german-066 · Wie schreibt man „etwas ___“ richtig?
+
+Thema: rechtschreibung · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Neues **(richtig)**
+- **B:** neues
+- **C:** NeuEs
+
+**Erklärung:** Nach „etwas“ wird das Adjektiv hier als Nomen gebraucht und deshalb großgeschrieben: „etwas Neues“.
+
+### german-067 · Welche Ergänzung passt? „___ ihr schon fertig?“
+
+Thema: rechtschreibung · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Sait
+- **B:** Seid **(richtig)**
+- **C:** Seit
+
+**Erklärung:** „Seid“ ist eine Form von „sein“. „Seit“ wird für Zeitangaben verwendet, etwa „seit Montag“.
+
+### german-068 · Welches Wort gehört zur Wortfamilie „fahren“?
+
+Thema: wortbildung · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Fahrer **(richtig)**
+- **B:** Faden
+- **C:** Farbe
+
+**Erklärung:** „Fahrer“ ist von „fahren“ abgeleitet. Ein ähnlicher Wortanfang allein macht noch keine Wortfamilie.
+
+### german-069 · Was bedeutet „sorgfältig arbeiten“?
+
+Thema: wortschatz · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** absichtlich unordentlich arbeiten
+- **B:** genau und aufmerksam arbeiten **(richtig)**
+- **C:** möglichst laut arbeiten
+
+**Erklärung:** Wer sorgfältig arbeitet, achtet auf Einzelheiten und vermeidet nach Möglichkeit Fehler.
+
+### german-070 · Was meint „den Überblick behalten“?
+
+Thema: wortschatz · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** nur eine Kleinigkeit beachten
+- **B:** ständig nach oben schauen
+- **C:** die wichtigsten Zusammenhänge weiter erkennen **(richtig)**
+
+**Erklärung:** Die Redewendung beschreibt, dass man die Gesamtsituation weiterhin versteht und ordnen kann.
+
+### german-071 · „Ab Mittwoch ist die Bibliothek bis 18 Uhr geöffnet.“ An welchem Tag beginnt die Änderung?
+
+Thema: lesen · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Mittwoch **(richtig)**
+- **B:** Donnerstag
+- **C:** Dienstag
+
+**Erklärung:** „Ab Mittwoch“ nennt den Beginn der neuen Regelung. Die Uhrzeit allein sagt nichts über den Starttag.
+
+### german-072 · „Der Kurs fällt nur aus, wenn sich weniger als fünf Personen anmelden.“ Es gibt sechs Anmeldungen. Was folgt?
+
+Thema: lesen · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Der Text nennt keine Mindestzahl.
+- **B:** Der Kurs muss wegen zu weniger Anmeldungen ausfallen.
+- **C:** Der genannte Ausfallgrund liegt nicht vor. **(richtig)**
+
+**Erklärung:** Sechs ist nicht weniger als fünf. Aus anderen Gründen könnte der Kurs ausfallen; dazu sagt der Text nichts.
+
+### german-073 · „Samir packt eine Regenjacke ein, denn dunkle Wolken ziehen auf.“ Warum packt er sie ein?
+
+Thema: lesen · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Er rechnet mit Regen. **(richtig)**
+- **B:** Die Sonne ist zu heiß.
+- **C:** Er hat die Jacke verloren.
+
+**Erklärung:** Die dunklen Wolken begründen im Text, warum Samir vorsorglich die Regenjacke mitnimmt.
+
+### german-074 · „Mina besucht ihre Schwester. Diese zeigt ihr die neue Wohnung.“ Wen meint „Diese“?
+
+Thema: lesen · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Mina
+- **B:** Minas Schwester **(richtig)**
+- **C:** die Wohnung
+
+**Erklärung:** „Diese“ greift hier die zuletzt genannte Person auf, also die Schwester, die ihre Wohnung zeigt.
+
+### german-075 · „Jona wollte helfen. Doch als er die Scherben sah, holte er erst Handschuhe.“ Was lässt sich begründet schließen?
+
+Thema: lesen · Schwierigkeit 3 · Lehrplan 3.3.2 · grade9
+
+- **A:** Er denkt beim Helfen an Schutz vor Verletzungen. **(richtig)**
+- **B:** Er hat die Hilfe endgültig aufgegeben.
+- **C:** Er möchte die Scherben essen.
+
+**Erklärung:** Die Handschuhe passen zum sicheren Umgang mit Scherben. Dass Jona gar nicht helfen will, steht nicht im Text.
+
+### german-076 · „Die Buslinie wird eingestellt, weil zu wenige Menschen sie nutzen.“ Welche Information fehlt für eine faire Bewertung?
+
+Thema: lesen · Schwierigkeit 3 · Lehrplan 3.3.2 · grade9
+
+- **A:** Welche Alternativen die betroffenen Fahrgäste haben. **(richtig)**
+- **B:** Welche Farbe das letzte Wort hat.
+- **C:** Wie oft das Wort „Bus“ vorkommt.
+
+**Erklärung:** Eine Bewertung sollte auch die Folgen für die Betroffenen berücksichtigen. Dazu gehören andere erreichbare Verkehrsmittel.
+
+### german-077 · Welches Merkmal passt zu einer Anleitung?
+
+Thema: textsorten · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** zufällige Sätze ohne Zusammenhang
+- **B:** Arbeitsschritte in sinnvoller Reihenfolge **(richtig)**
+- **C:** nur persönliche Gefühle ohne Handlungsschritte
+
+**Erklärung:** Eine Anleitung soll das Ausführen einer Handlung ermöglichen. Dafür braucht sie klare und geordnete Schritte.
+
+### german-078 · Welche Frage beantwortet ein sachlicher Unfallbericht vor allem?
+
+Thema: textsorten · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Was ist wann und wo passiert? **(richtig)**
+- **B:** Welche Fantasiefigur rettet die Welt?
+- **C:** Welcher Reim klingt am schönsten?
+
+**Erklärung:** Ein Bericht informiert über ein Geschehen. Wichtige W-Fragen betreffen etwa Ort, Zeit, Beteiligte und Ablauf.
+
+### german-079 · Was gehört in die Einleitung einer Inhaltsangabe zu einer Erzählung?
+
+Thema: textsorten · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** die eigene Fortsetzung der Handlung
+- **B:** eine Liste aller unbekannten Wörter
+- **C:** Titel, Autor und Thema des Textes **(richtig)**
+
+**Erklärung:** Die Einleitung ordnet den Ausgangstext ein. Die wesentliche Handlung wird anschließend knapp wiedergegeben.
+
+### german-080 · Du sollst für einen Jugendtreff werben. Was klärst du vor dem Schreiben zuerst?
+
+Thema: schreibplanung · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** Wie man jeden Satz möglichst lang macht.
+- **B:** Welche Wörter zufällig zuerst einfallen.
+- **C:** An wen sich der Text richtet und was er erreichen soll. **(richtig)**
+
+**Erklärung:** Adressaten und Schreibziel bestimmen Inhalt, Ton und Aufbau eines Textes. Deshalb gehören sie an den Anfang der Planung.
+
+### german-081 · Welche Änderung macht „Das Ding da ist kaputt“ in einer Reparaturmeldung genauer?
+
+Thema: ueberarbeiten · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** „Das Ding ist irgendwie ziemlich kaputt.“
+- **B:** „Da ist halt etwas.“
+- **C:** „Der rechte Bremshebel am Fahrrad ist abgebrochen.“ **(richtig)**
+
+**Erklärung:** Die überarbeitete Fassung nennt Bauteil, Gegenstand und Schaden. So lässt sich das Problem besser zuordnen.
+
+### german-082 · Welcher Satz enthält neben der Behauptung auch ein passendes Beispiel?
+
+Thema: argumentieren · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** Lesen erweitert den Wortschatz; etwa lerne ich dabei neue Fachbegriffe. **(richtig)**
+- **B:** Lesen ist gut. Mein Fahrrad ist blau.
+- **C:** Lesen ist gut, weil Lesen eben gut ist.
+
+**Erklärung:** Ein Beispiel macht eine Begründung anschaulich. Neue Fachbegriffe passen hier zum erweiterten Wortschatz.
+
+### german-083 · Welche Antwort greift ein Gegenargument sachlich auf?
+
+Thema: argumentieren · Schwierigkeit 3 · Lehrplan 3.3.2 · grade9
+
+- **A:** „Die Kosten sind ein Problem. Wir könnten zunächst einen kleineren Versuch starten.“ **(richtig)**
+- **B:** „Ich wiederhole einfach meine Forderung.“
+- **C:** „Wer Kosten erwähnt, hat keine Ahnung.“
+
+**Erklärung:** Die Antwort nimmt den Einwand ernst und entwickelt einen Lösungsvorschlag. Persönliche Angriffe helfen nicht beim Abwägen.
+
+### german-084 · Welche Ich-Botschaft beschreibt eine Störung ohne Beleidigung?
+
+Thema: kommunikation · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** „Ich kann mich bei der Lautstärke schlecht konzentrieren.“ **(richtig)**
+- **B:** „Du bist immer rücksichtslos.“
+- **C:** „Alle anderen sind unfähig.“
+
+**Erklärung:** Die Ich-Botschaft benennt die eigene Wahrnehmung und Wirkung der Situation, statt die andere Person abzuwerten.
+
+### german-085 · Was zeigt aktives Zuhören?
+
+Thema: zuhoeren · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** „Habe ich richtig verstanden, dass du mehr Zeit brauchst?“ **(richtig)**
+- **B:** währenddessen nur das Handy ansehen
+- **C:** die Person mitten im Satz unterbrechen
+
+**Erklärung:** Eine klärende Rückfrage prüft, ob du die Aussage richtig verstanden hast, und gibt Raum für eine Korrektur.
+
+### german-086 · Welche Betreffzeile ist für eine Bewerbung besonders hilfreich?
+
+Thema: bewerbung · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** „Das wollte ich schon immer sagen“
+- **B:** „Bewerbung um einen Ausbildungsplatz als Tischler“ **(richtig)**
+- **C:** „Hallo!!!“
+
+**Erklärung:** Der Betreff benennt den Anlass und die gewünschte Stelle. So kann der Betrieb das Schreiben schnell zuordnen.
+
+### german-087 · Welche Nachricht passt zu einer sachlichen Terminverschiebung?
+
+Thema: berufssprache · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** „Du musst das irgendwie merken.“
+- **B:** „Morgen geht halt nicht. Pech.“
+- **C:** „Können wir den Termin bitte auf Donnerstag um 10 Uhr verschieben?“ **(richtig)**
+
+**Erklärung:** Die sachliche Nachricht nennt den Wunsch und einen konkreten Ersatztermin. Das erleichtert eine verbindliche Absprache.
+
+### german-088 · Wie gehst du mit Angaben im Lebenslauf um?
+
+Thema: lebenslauf · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** wahrheitsgemäß und übersichtlich formulieren **(richtig)**
+- **B:** nicht vorhandene Abschlüsse erfinden
+- **C:** Datumsangaben absichtlich widersprüchlich machen
+
+**Erklärung:** Ein Lebenslauf soll nachvollziehbar über den eigenen Werdegang informieren. Erfundenes ist dafür ungeeignet.
+
+### german-089 · Eine Überschrift lautet „Unglaublich! Das musst du sofort sehen!!!“. Worauf zielt sie vermutlich?
+
+Thema: medien · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** eine vollständige Quellenprüfung ersetzen
+- **B:** Aufmerksamkeit und viele Klicks gewinnen **(richtig)**
+- **C:** den ganzen Sachverhalt neutral erklären
+
+**Erklärung:** Starke Reizwörter und Ausrufe sollen Neugier auslösen. Prüfe den Inhalt, statt allein der Überschrift zu vertrauen.
+
+### german-090 · Ein Beitrag nennt eine Studie, verlinkt aber nur auf einen Werbeshop. Was ist sinnvoll?
+
+Thema: medien · Schwierigkeit 3 · Lehrplan 3.3.2 · grade9
+
+- **A:** Die Aussage allein wegen vieler Likes glauben.
+- **B:** Die ursprüngliche Studie und ihre Aussage suchen. **(richtig)**
+- **C:** Den Shop-Link als sicheren Studienbeleg behandeln.
+
+**Erklärung:** Ein Verweis ist nur hilfreich, wenn er die Behauptung tatsächlich belegt. Dafür braucht man die ursprüngliche Quelle.
+
+### german-091 · Was gehört zu einem direkten Zitat aus einem Text?
+
+Thema: zitieren · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** eine eigene Meinung ohne Kennzeichnung
+- **B:** genauer Wortlaut in Anführungszeichen mit Quellenangabe **(richtig)**
+- **C:** ein erfundener Satz im Namen des Autors
+
+**Erklärung:** Ein direktes Zitat übernimmt den Wortlaut und macht Herkunft und Übernahme erkennbar. So ist es überprüfbar.
+
+### german-092 · Wie nennt man eine Zeile in einem Gedicht?
+
+Thema: literatur · Schwierigkeit 1 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** Regieanweisung
+- **B:** Kapitel
+- **C:** Vers **(richtig)**
+
+**Erklärung:** Eine einzelne Gedichtzeile heißt Vers. Mehrere zusammengehörige Verse können eine Strophe bilden.
+
+### german-093 · Was ist eine Strophe?
+
+Thema: literatur · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** jede sprechende Figur eines Dramas
+- **B:** jede Seite in einem Roman
+- **C:** eine Gruppe von Versen in einem Gedicht **(richtig)**
+
+**Erklärung:** Eine Strophe fasst mehrere Gedichtzeilen zu einer Einheit zusammen und ist meist durch einen Abstand erkennbar.
+
+### german-094 · Welches Beispiel ist ein Vergleich?
+
+Thema: stilmittel · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** „Er öffnet die Tür.“
+- **B:** „Er ist schnell wie ein Blitz.“ **(richtig)**
+- **C:** „Er steht am Fenster.“
+
+**Erklärung:** Das Wort „wie“ verbindet hier zwei Bereiche und hebt eine gemeinsame Eigenschaft hervor: die Schnelligkeit.
+
+### german-095 · Welcher Satz enthält eine Personifikation?
+
+Thema: stilmittel · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** „Der Wind kommt aus Westen.“
+- **B:** „Der Wind weht mit 20 km/h.“
+- **C:** „Der Wind flüstert.“ **(richtig)**
+
+**Erklärung:** Flüstern ist eine menschliche Tätigkeit. Der Satz überträgt sie auf den Wind und personifiziert ihn dadurch.
+
+### german-096 · Eine Figur sagt „Mir geht es gut“, während ihre Hände zittern. Was ist beim Deuten sinnvoll?
+
+Thema: erzaehlen · Schwierigkeit 3 · Lehrplan 3.3.2 · grade9
+
+- **A:** Ohne Beleg eine ganze Lebensgeschichte erfinden.
+- **B:** Nur die wörtliche Aussage beachten.
+- **C:** Die Worte und das beschriebene Verhalten gemeinsam betrachten. **(richtig)**
+
+**Erklärung:** Worte und Verhalten können unterschiedlich wirken. Eine Deutung braucht Belege aus dem Text und muss diese zusammenführen.
+
+### german-097 · Was ist eine Regieanweisung in einem Theatertext?
+
+Thema: drama · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** immer ein gesprochener Satz der Hauptfigur
+- **B:** die Rechnung für die Eintrittskarte
+- **C:** ein Hinweis zu Spiel, Bewegung oder Bühnenbild **(richtig)**
+
+**Erklärung:** Regieanweisungen geben Hinweise für die Aufführung. Sie gehören nicht zum normalen gesprochenen Dialog der Figuren.
+
+### german-098 · „Der Verein sammelt alte Räder, repariert sie und gibt sie günstig weiter.“ Was fasst den Kern zusammen?
+
+Thema: zusammenfassen · Schwierigkeit 3 · Lehrplan 3.3.2 · grade9
+
+- **A:** Der Verein verkauft nur neue Autos.
+- **B:** Der Verein macht gebrauchte Räder wieder nutzbar und erschwinglich. **(richtig)**
+- **C:** Der Verein verbietet Reparaturen.
+
+**Erklärung:** Die Zusammenfassung verbindet die wesentlichen Tätigkeiten und ihr Ergebnis, ohne neue Informationen hinzuzufügen.
+
+### german-099 · Du bist unsicher, ob „Fahrrad“ ein oder zwei r hat. Welche Strategie hilft?
+
+Thema: rechtschreibstrategien · Schwierigkeit 2 · Lehrplan 3.1; 3.3.1 · foundation
+
+- **A:** In „Fahr“ und „Rad“ zerlegen. **(richtig)**
+- **B:** Alle Doppelbuchstaben grundsätzlich streichen.
+- **C:** Nur nach der Wortlänge raten.
+
+**Erklärung:** „Fahrrad“ besteht aus „Fahr-“ und „Rad“. An der Zusammensetzung treffen deshalb zwei r aufeinander.
+
+### german-100 · Wozu dienen Absätze in einem längeren Sachtext?
+
+Thema: textaufbau · Schwierigkeit 2 · Lehrplan 3.3.2 · grade9
+
+- **A:** Sie machen Belege überflüssig.
+- **B:** Sie gliedern zusammengehörige Gedanken. **(richtig)**
+- **C:** Sie müssen nach jedem einzelnen Wort stehen.
+
+**Erklärung:** Ein Absatz bündelt einen Sinnabschnitt. Dadurch können Leserinnen und Leser dem Gedankengang leichter folgen.
+
 ## Sozialkunde
 
-Lehrplan: [Fachlehrplan Sekundarschule Sozialkunde](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_sozi_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-16.
+Lehrplan: [Fachlehrplan Sekundarschule Sozialkunde](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_sozi_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-17.
 
 ### social-001 · Was bedeutet Demokratie im Kern?
 
@@ -1524,9 +2524,509 @@ Thema: beteiligung · Schwierigkeit 3 · Lehrplan 3.3 · grade9
 
 **Erklärung:** Demokratische Beteiligung braucht nachvollziehbare Argumente, faire Verfahren und die zuständigen Entscheidungsgremien.
 
+### social-051 · Was unterscheidet eine Demokratie von einer Diktatur?
+
+Thema: demokratie · Schwierigkeit 1 · Lehrplan 3.3 · grade9
+
+- **A:** Regierungsmacht kann durch freie Wahlen abgelöst werden. **(richtig)**
+- **B:** Eine einzelne Person darf unbegrenzt alles bestimmen.
+- **C:** Kritik an der Regierung ist grundsätzlich verboten.
+
+**Erklärung:** Zur Demokratie gehören freie Wahlen, Grundrechte und die Möglichkeit, die Regierenden friedlich abzulösen.
+
+### social-052 · Zu welcher Gewalt gehört die Bundesregierung?
+
+Thema: gewaltenteilung · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** zur gesetzgebenden Gewalt als Parlament
+- **B:** zur rechtsprechenden Gewalt
+- **C:** zur ausführenden Gewalt **(richtig)**
+
+**Erklärung:** Die Regierung gehört zur Exekutive. Gesetzgebung und Rechtsprechung haben eigene Aufgaben und Institutionen.
+
+### social-053 · Welche Institution gehört zur rechtsprechenden Gewalt?
+
+Thema: gewaltenteilung · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** eine Polizeidienststelle
+- **B:** ein Gericht **(richtig)**
+- **C:** ein Ministerium
+
+**Erklärung:** Gerichte entscheiden in rechtlichen Streitfällen und gehören zur Judikative. Polizei und Verwaltung gehören zur Exekutive.
+
+### social-054 · Wie kann ein Parlament eine Regierung kontrollieren?
+
+Thema: parlament · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** durch Anfragen, Debatten und Untersuchungsausschüsse **(richtig)**
+- **B:** indem es jede Kritik verbietet
+- **C:** indem es alle Gerichte abschafft
+
+**Erklärung:** Parlamentarische Kontrolle macht Regierungshandeln überprüfbar. Abgeordnete können Auskunft verlangen und Vorgänge untersuchen.
+
+### social-055 · Warum ist der Bundesrat für die Länder wichtig?
+
+Thema: bundesrat · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Er wählt in jeder Schule die Klassensprecher.
+- **B:** Durch ihn wirken die Länder an der Gesetzgebung des Bundes mit. **(richtig)**
+- **C:** Er ersetzt alle Gemeinderäte.
+
+**Erklärung:** Im Bundesrat bringen die Länder ihre Interessen in die Bundespolitik ein. Er ist ein Teil des föderalen Systems.
+
+### social-056 · Wie heißt die Verfassung der Bundesrepublik Deutschland?
+
+Thema: verfassung · Schwierigkeit 1 · Lehrplan 3.3 · grade9
+
+- **A:** Grundgesetz **(richtig)**
+- **B:** Parteiprogramm
+- **C:** Hausordnung
+
+**Erklärung:** Das Grundgesetz regelt die Grundlagen des Staates und schützt Grundrechte. Eine Hausordnung hat eine andere Funktion.
+
+### social-057 · Warum muss auch eine gewählte Regierung das Grundgesetz beachten?
+
+Thema: verfassung · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Ein Wahlsieg hebt alle Regeln auf.
+- **B:** Verfassungen gelten nur für Privatpersonen.
+- **C:** Staatliche Macht ist an die Verfassung und an Recht gebunden. **(richtig)**
+
+**Erklärung:** Demokratie und Rechtsstaat gehören zusammen. Eine Wahl gibt kein Recht, die verfassungsmäßigen Grenzen zu überschreiten.
+
+### social-058 · Was schützt die Versammlungsfreiheit grundsätzlich?
+
+Thema: grundrechte · Schwierigkeit 1 · Lehrplan 3.3 · grade9
+
+- **A:** jede beliebige Sachbeschädigung
+- **B:** andere mit Gewalt zum Mitmachen zu zwingen
+- **C:** sich friedlich und ohne Waffen zu versammeln **(richtig)**
+
+**Erklärung:** Artikel 8 des Grundgesetzes schützt für Deutsche friedliche Versammlungen ohne Waffen. Der Schutz ist kein Freibrief für Gewalt.
+
+### social-059 · Was bedeutet Pressefreiheit für die Kontrolle der Politik?
+
+Thema: grundrechte · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Nur Regierungsmitglieder dürfen Nachrichten veröffentlichen.
+- **B:** Medien dürfen unabhängig recherchieren und kritisch berichten. **(richtig)**
+- **C:** Die Regierung muss jeden Artikel vorher genehmigen.
+
+**Erklärung:** Unabhängige Medien ermöglichen Öffentlichkeit und Kontrolle. Berichterstattung muss dabei geltendes Recht beachten.
+
+### social-060 · Was ist mit Chancengleichheit gemeint?
+
+Thema: gleichberechtigung · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Nur wohlhabende Menschen dürfen sich bewerben.
+- **B:** Alle Menschen müssen dieselben Hobbys haben.
+- **C:** Menschen sollen faire Zugänge zu Bildung und Teilhabe haben. **(richtig)**
+
+**Erklärung:** Chancengleichheit betrifft faire Möglichkeiten. Unterschiedliche Interessen und Lebenswege bleiben dabei möglich.
+
+### social-061 · Was bedeutet „gleiche Wahl“ bei einer demokratischen Parlamentswahl?
+
+Thema: wahlen · Schwierigkeit 1 · Lehrplan 3.3 · grade9
+
+- **A:** Reiche Personen erhalten grundsätzlich mehr Stimmen.
+- **B:** Alle müssen dieselbe Partei wählen.
+- **C:** Jede Stimme zählt grundsätzlich gleich viel. **(richtig)**
+
+**Erklärung:** Gleichheit der Wahl bedeutet gleichen Zählwert und grundsätzlich gleichen Erfolgswert der Stimmen, nicht gleiche Wahlentscheidungen.
+
+### social-062 · Warum darf niemand verlangen, deinen ausgefüllten Stimmzettel zu sehen?
+
+Thema: wahlen · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Die geheime Wahl schützt vor Druck auf die Wahlentscheidung. **(richtig)**
+- **B:** Weil alle Stimmzettel leer bleiben müssen.
+- **C:** Weil Wahlen ohne Auszählung stattfinden.
+
+**Erklärung:** Das Wahlgeheimnis ermöglicht eine persönliche Entscheidung ohne Kontrolle durch Arbeitgeber, Familie oder andere Personen.
+
+### social-063 · Wozu dient ein Wahlprogramm?
+
+Thema: parteien · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Es zeigt politische Ziele und Vorhaben einer Partei. **(richtig)**
+- **B:** Es garantiert, dass alle Ziele automatisch Gesetz werden.
+- **C:** Es ersetzt das Grundgesetz.
+
+**Erklärung:** Ein Wahlprogramm ermöglicht den Vergleich politischer Angebote. Ob Vorhaben umgesetzt werden, hängt von weiteren Entscheidungen ab.
+
+### social-064 · Zwei Parteien bilden eine Koalition. Warum verhandeln sie über gemeinsame Ziele?
+
+Thema: koalition · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** Sie müssen unterschiedliche Positionen für gemeinsames Regieren abstimmen. **(richtig)**
+- **B:** Sie schaffen dadurch alle anderen Parteien ab.
+- **C:** Sie dürfen danach keine unterschiedlichen Ansichten mehr haben.
+
+**Erklärung:** Ein Koalitionsvertrag bündelt ausgehandelte Vorhaben. Die beteiligten Parteien bleiben dabei eigenständige Organisationen.
+
+### social-065 · Welche Rolle hat die Opposition neben Kritik an der Regierung?
+
+Thema: opposition · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Alternativen und eigene Vorschläge öffentlich vertreten **(richtig)**
+- **B:** jede Entscheidung der Regierung automatisch verhindern
+- **C:** die Regierung ohne Wahl dauerhaft ersetzen
+
+**Erklärung:** Opposition bietet politische Alternativen und kontrolliert die Mehrheit. Sie gehört zum demokratischen Wettbewerb.
+
+### social-066 · Was ist ein Vorteil, wenn politische Aufgaben auf mehrere Ebenen verteilt sind?
+
+Thema: foederalismus · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Keine Ebene trägt Verantwortung.
+- **B:** Es gibt dadurch grundsätzlich keine gemeinsamen Regeln mehr.
+- **C:** Regionale Besonderheiten können berücksichtigt werden. **(richtig)**
+
+**Erklärung:** Föderalismus verbindet gemeinsame Aufgaben mit regionalen Gestaltungsmöglichkeiten. Zuständigkeiten müssen dabei geklärt sein.
+
+### social-067 · Ein Dorf möchte einen Spielplatz erneuern. Wo kannst du das Anliegen zunächst einbringen?
+
+Thema: kommunalpolitik · Schwierigkeit 1 · Lehrplan 3.2 · foundation
+
+- **A:** bei der Gemeinde und ihren Vertretungen **(richtig)**
+- **B:** nur beim Europäischen Gerichtshof
+- **C:** ausschließlich bei einer ausländischen Regierung
+
+**Erklärung:** Ein örtlicher Spielplatz ist ein Anliegen im Nahraum. Die Gemeinde ist deshalb eine passende erste Anlaufstelle.
+
+### social-068 · Was ist ein öffentlicher Haushalt einer Kommune?
+
+Thema: kommunalpolitik · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** eine Liste aller privaten Passwörter
+- **B:** ein Plan für Einnahmen und Ausgaben **(richtig)**
+- **C:** die Hausordnung einer einzelnen Wohnung
+
+**Erklärung:** Ein kommunaler Haushalt plant die öffentlichen Mittel. Da diese begrenzt sind, müssen Ausgaben begründet und abgewogen werden.
+
+### social-069 · Für ein Jugendzentrum und einen Sportplatz reicht das Geld nicht gleichzeitig. Was hilft bei der Entscheidung?
+
+Thema: konfliktanalyse · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** Bedarf, Kosten und mögliche Zwischenlösungen vergleichen **(richtig)**
+- **B:** Kosten und Betroffene völlig ignorieren
+- **C:** nur die lauteste Gruppe anhören
+
+**Erklärung:** Ein politischer Konflikt lässt sich besser beurteilen, wenn Interessen, begrenzte Mittel und Handlungsalternativen sichtbar sind.
+
+### social-070 · Was kann ein Jugendbeirat in einer Kommune beitragen?
+
+Thema: beteiligung · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** jedem Erwachsenen das Wahlrecht entziehen
+- **B:** alle Gesetze allein beschließen
+- **C:** Interessen junger Menschen in Beratungen einbringen **(richtig)**
+
+**Erklärung:** Ein Jugendbeirat eröffnet einen Beteiligungsweg. Seine konkreten Rechte hängen von den örtlichen Regelungen ab.
+
+### social-071 · Eine Unterschriftensammlung fordert bessere Busverbindungen. Was zeigt sie zunächst?
+
+Thema: beteiligung · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** die Zustimmung aller Einwohner
+- **B:** Unterstützung für das Anliegen **(richtig)**
+- **C:** eine bereits rechtskräftige Fahrplanänderung
+
+**Erklärung:** Unterschriften können Aufmerksamkeit und politischen Druck erzeugen. Sie ersetzen aber nicht automatisch eine zuständige Entscheidung.
+
+### social-072 · Was ist eine Interessengruppe?
+
+Thema: interessen · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** ein Zusammenschluss, der gemeinsame Anliegen vertritt **(richtig)**
+- **B:** immer das gesamte Staatsvolk
+- **C:** ein Gericht mit Strafbefugnissen
+
+**Erklärung:** Verbände oder Initiativen bündeln gemeinsame Anliegen und versuchen, politische Entscheidungen zu beeinflussen.
+
+### social-073 · Warum sollten Kontakte zwischen Politik und Interessenvertretungen transparent sein?
+
+Thema: lobbyismus · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** Damit nur finanzstarke Gruppen Zugang erhalten.
+- **B:** Damit mögliche Einflüsse und Interessen nachvollziehbar werden. **(richtig)**
+- **C:** Damit keine Person mehr ihre Meinung äußern darf.
+
+**Erklärung:** Transparenz hilft, politische Entscheidungen kritisch einzuordnen. Interessenvertretung kann Informationen liefern, aber auch einseitig wirken.
+
+### social-074 · Warum gibt es bei einem Gerichtsverfahren Regeln für beide Seiten?
+
+Thema: recht · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Sie sollen Urteile durch Lautstärke ersetzen.
+- **B:** Sie sollen Beweise immer verhindern.
+- **C:** Sie sollen ein faires Verfahren ermöglichen. **(richtig)**
+
+**Erklärung:** Verfahrensregeln schützen vor Willkür. Entscheidungen sollen nach Recht und anhand nachvollziehbarer Tatsachen getroffen werden.
+
+### social-075 · Was beschreibt die Unschuldsvermutung?
+
+Thema: recht · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Zeitungsberichte ersetzen jedes Verfahren.
+- **B:** Eine beschuldigte Person gilt bis zum rechtmäßigen Schuldnachweis als unschuldig. **(richtig)**
+- **C:** Jede Beschuldigung beweist bereits die Schuld.
+
+**Erklärung:** Ein Verdacht ist kein Schuldnachweis. Diese Unterscheidung schützt Menschen vor Vorverurteilung.
+
+### social-076 · Was unterscheidet eine Schulregel von einer persönlichen Vorliebe?
+
+Thema: regeln · Schwierigkeit 1 · Lehrplan 3.2 · foundation
+
+- **A:** Eine Schulregel darf niemals erklärt werden.
+- **B:** Jede Vorliebe ist automatisch ein staatliches Gesetz.
+- **C:** Die Schulregel legt ein gemeinsames Verhalten fest. **(richtig)**
+
+**Erklärung:** Gemeinsame Regeln ordnen das Zusammenleben. Persönliche Vorlieben können unterschiedlich sein und gelten nicht automatisch für alle.
+
+### social-077 · Warum werden öffentliche Bildungsangebote finanziert?
+
+Thema: sozialstaat · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Sie machen eigenes Lernen überflüssig.
+- **B:** Sie ermöglichen Bildung auch unabhängig vom Einkommen der Eltern. **(richtig)**
+- **C:** Sie sollen ausschließlich Reiche fördern.
+
+**Erklärung:** Öffentliche Bildung unterstützt Teilhabe und faire Chancen. Sie ersetzt weder eigenes Lernen noch individuelle Unterstützung.
+
+### social-078 · Welche Situation zeigt einen ungleichen Zugang zu Bildung?
+
+Thema: soziale-ungleichheit · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Eine Person kann wegen fehlender Geräte am Onlineunterricht kaum teilnehmen. **(richtig)**
+- **B:** Zwei Personen wohnen in gleich großen Zimmern.
+- **C:** Zwei Personen wählen unterschiedliche Lieblingsfarben.
+
+**Erklärung:** Fehlende technische Ausstattung kann Lernmöglichkeiten einschränken. Hier geht es um Teilhabe, nicht nur um unterschiedliche Vorlieben.
+
+### social-079 · Warum reicht das Durchschnittseinkommen allein nicht zur Beurteilung sozialer Ungleichheit?
+
+Thema: soziale-ungleichheit · Schwierigkeit 3 · Lehrplan 3.2 · foundation
+
+- **A:** Es beweist, dass niemand wenig verdient.
+- **B:** Es nennt automatisch jedes einzelne Einkommen.
+- **C:** Es zeigt nicht, wie das Einkommen verteilt ist. **(richtig)**
+
+**Erklärung:** Ein hoher Durchschnitt kann neben sehr niedrigen Einkommen bestehen. Für Ungleichheit braucht man auch Informationen zur Verteilung.
+
+### social-080 · Welches Beispiel zeigt solidarisches Handeln in einer Klasse?
+
+Thema: solidaritaet · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** nur die eigenen Vorteile berücksichtigen
+- **B:** Material teilen, damit alle an einer Aufgabe teilnehmen können **(richtig)**
+- **C:** eine Person wegen fehlender Ausrüstung auslachen
+
+**Erklärung:** Solidarisches Handeln bezieht andere ein und unterstützt gemeinsame Teilhabe, etwa durch das Teilen vorhandener Mittel.
+
+### social-081 · Warum ist „Alle Menschen aus dieser Region sind faul“ ein Vorurteil?
+
+Thema: vorurteile · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Es beschreibt jede einzelne Person anhand überprüfter Daten.
+- **B:** Es schreibt einer ganzen Gruppe pauschal eine Eigenschaft zu. **(richtig)**
+- **C:** Es ist allein wegen des Wortes „Region“ wissenschaftlich.
+
+**Erklärung:** Pauschale Zuschreibungen übergehen Unterschiede zwischen Menschen und ersetzen keine sachliche Prüfung.
+
+### social-082 · Eine geeignete Bewerberin wird nur wegen ihrer Religion abgelehnt. Was beschreibt diesen Fall?
+
+Thema: diskriminierung · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Benachteiligung wegen einer persönlichen Zugehörigkeit **(richtig)**
+- **B:** eine fachliche Bewertung ihrer Qualifikation
+- **C:** eine zufällige Auswahl ohne Bezug zur Person
+
+**Erklärung:** Die Entscheidung knüpft hier an die Religion statt an die Eignung an. Das Beispiel zeigt eine diskriminierende Benachteiligung.
+
+### social-083 · Welche Maßnahme erleichtert gesellschaftliche Teilhabe?
+
+Thema: inklusion · Schwierigkeit 1 · Lehrplan 3.3 · grade9
+
+- **A:** ein barrierefreier Zugang zu einem öffentlichen Gebäude **(richtig)**
+- **B:** Menschen mit Behinderungen grundsätzlich ausschließen
+- **C:** Informationen absichtlich unlesbar machen
+
+**Erklärung:** Barrieren können Menschen an der Teilnahme hindern. Ein zugänglicher Eingang ermöglicht mehr Selbstständigkeit und Teilhabe.
+
+### social-084 · In einem Gruppenchat wird jemand beleidigt. Was ist eine hilfreiche Reaktion?
+
+Thema: zivilcourage · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Die Beleidigungen zur Unterhaltung weiterverbreiten.
+- **B:** Weitere Personen zum Mitbeleidigen einladen.
+- **C:** Der Person Unterstützung anbieten und die Angriffe melden. **(richtig)**
+
+**Erklärung:** Unterstützung und das Melden von Angriffen können Betroffene schützen. Weiterverbreitung vergrößert den Schaden.
+
+### social-085 · Was ist der Unterschied zwischen einem Interesse und einer Position?
+
+Thema: konflikte · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Interessen und Positionen sind immer wortgleich.
+- **B:** Das Interesse erklärt das Bedürfnis hinter einer Forderung. **(richtig)**
+- **C:** Eine Position ist immer ein Gesetz.
+
+**Erklärung:** „Wir wollen den Raum“ ist eine Position. Das dahinterliegende Interesse könnte ein ruhiger Ort zum Lernen sein.
+
+### social-086 · Zwei Gruppen möchten denselben Raum nutzen. Welche Lösung berücksichtigt beide Interessen?
+
+Thema: konflikte · Schwierigkeit 3 · Lehrplan 3.2 · foundation
+
+- **A:** Nutzungszeiten gemeinsam aufteilen und später überprüfen **(richtig)**
+- **B:** den Raum aus Ärger unbrauchbar machen
+- **C:** eine Gruppe ohne Gespräch dauerhaft ausschließen
+
+**Erklärung:** Eine ausgehandelte Aufteilung kann beiden Gruppen Zugang geben. Eine spätere Überprüfung zeigt, ob sie im Alltag funktioniert.
+
+### social-087 · Was ist eine Quelle einer Nachricht?
+
+Thema: medienkompetenz · Schwierigkeit 1 · Lehrplan 3.2 · foundation
+
+- **A:** der Ursprung der Information **(richtig)**
+- **B:** die Zahl der Emojis im Titel
+- **C:** immer die Person mit den meisten Followern
+
+**Erklärung:** Die Quelle zeigt, woher eine Information stammt. Ihre Nähe zum Geschehen und ihre Belege helfen beim Prüfen.
+
+### social-088 · Ein Beitrag hat viele Aufrufe. Was beweist das?
+
+Thema: medienkompetenz · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Dass alle Aussagen wahr sind.
+- **B:** Dass er häufig angesehen wurde. **(richtig)**
+- **C:** Dass er amtlich geprüft wurde.
+
+**Erklärung:** Reichweite beschreibt Aufmerksamkeit. Sie ist kein Beleg für die Richtigkeit oder Vollständigkeit eines Inhalts.
+
+### social-089 · Warum solltest du bei einer Meldung das Datum prüfen?
+
+Thema: medienkompetenz · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Das Datum ersetzt alle weiteren Quellen.
+- **B:** Alte Informationen können in einem neuen Zusammenhang irreführen. **(richtig)**
+- **C:** Alte Texte sind grundsätzlich immer falsch.
+
+**Erklärung:** Eine früher zutreffende Meldung kann heute überholt sein. Auch ein aktuelles Datum garantiert jedoch keine Richtigkeit.
+
+### social-090 · Zwei Webseiten verwenden wortgleich denselben unbelegten Text. Sind das zwei unabhängige Belege?
+
+Thema: medienkompetenz · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** Nein, beide können dieselbe ungeprüfte Quelle übernommen haben. **(richtig)**
+- **B:** Ja, gleiche Wörter beweisen unabhängige Forschung.
+- **C:** Ja, zweimaliges Teilen ersetzt jede Prüfung.
+
+**Erklärung:** Mehrere Fundstellen können auf eine einzige Quelle zurückgehen. Unabhängige Belege müssen eigenständig nachvollziehbar sein.
+
+### social-091 · Welche Aussage trennt Nachricht und Kommentar am klarsten?
+
+Thema: medienkompetenz · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Ein Kommentar bewertet, eine Nachricht informiert vorrangig über das Geschehen. **(richtig)**
+- **B:** Eine Nachricht darf niemals überprüft werden.
+- **C:** Ein Kommentar ist immer ein Gesetz.
+
+**Erklärung:** Kommentare vertreten und begründen eine Sichtweise. Nachrichten sollen vor allem sachlich über überprüfbare Ereignisse informieren.
+
+### social-092 · Warum sollte eine App nur notwendige persönliche Daten verlangen?
+
+Thema: datenschutz · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Alle Daten sind nach dem Hochladen öffentliches Eigentum.
+- **B:** Weniger gespeicherte Daten verringern mögliche Missbrauchsfolgen. **(richtig)**
+- **C:** Jede zusätzliche Datensammlung macht sie automatisch sicherer.
+
+**Erklärung:** Datensparsamkeit begrenzt die Menge persönlicher Informationen, die verloren gehen oder zweckfremd genutzt werden könnten.
+
+### social-093 · Warum sollte bezahlte Werbung als solche erkennbar sein?
+
+Thema: werbung · Schwierigkeit 2 · Lehrplan 3.2 · foundation
+
+- **A:** Damit Quellen grundsätzlich entfallen können.
+- **B:** Damit man die kommerzielle Absicht einordnen kann. **(richtig)**
+- **C:** Damit jede Werbeaussage automatisch wahr wird.
+
+**Erklärung:** Eine erkennbare Werbekennzeichnung hilft, Verkaufsinteressen von unabhängiger Information zu unterscheiden.
+
+### social-094 · Eine Onlineabstimmung ist offen für alle und wird in einer Fangruppe geteilt. Was ist bei der Auswertung wichtig?
+
+Thema: statistik · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** Das Ergebnis gilt sicher für alle Einwohner.
+- **B:** Jede offene Onlineabstimmung ist automatisch repräsentativ.
+- **C:** Die Teilnehmenden vertreten möglicherweise nicht die Gesamtbevölkerung. **(richtig)**
+
+**Erklärung:** Wer freiwillig teilnimmt und wo geworben wird, beeinflusst das Ergebnis. Eine große Zahl allein sichert keine Repräsentativität.
+
+### social-095 · 40 von 50 befragten Personen wünschen einen Jugendtreff. Was ist eine passende Aussage?
+
+Thema: statistik · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** 80 % aller Menschen der Welt wünschen ihn.
+- **B:** 80 % der Befragten wünschen einen Jugendtreff. **(richtig)**
+- **C:** Genau 40 % der Befragten wünschen ihn.
+
+**Erklärung:** 40 geteilt durch 50 sind 80 Prozent. Die Aussage darf zunächst nur auf die tatsächlich befragte Gruppe bezogen werden.
+
+### social-096 · Welche Begründung wägt ein politisches Vorhaben ab?
+
+Thema: urteil · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** „Wer zweifelt, darf nicht mitreden.“
+- **B:** „Meine Gruppe will es, also gibt es keine Nachteile.“
+- **C:** „Es schafft Treffpunkte, kostet aber Geld; beides muss berücksichtigt werden.“ **(richtig)**
+
+**Erklärung:** Ein begründetes Urteil berücksichtigt verschiedene Folgen und Interessen. Es kann trotzdem zu einer klaren Entscheidung kommen.
+
+### social-097 · Was bedeutet Pluralismus in einer Demokratie?
+
+Thema: pluralismus · Schwierigkeit 2 · Lehrplan 3.3 · grade9
+
+- **A:** Alle Konflikte müssen verborgen bleiben.
+- **B:** Es darf nur eine einzige Meinung geben.
+- **C:** Unterschiedliche Interessen und Ansichten dürfen öffentlich vertreten werden. **(richtig)**
+
+**Erklärung:** Pluralismus erkennt gesellschaftliche Vielfalt an. Unterschiede werden innerhalb demokratischer Regeln öffentlich ausgetragen.
+
+### social-098 · Warum braucht eine Demokratie Minderheitenschutz?
+
+Thema: minderheitenschutz · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** Damit keine Wahlen mehr stattfinden.
+- **B:** Damit Minderheiten immer allein regieren.
+- **C:** Auch Mehrheitsentscheidungen müssen die Rechte anderer achten. **(richtig)**
+
+**Erklärung:** Demokratie umfasst mehr als die Mehrheit. Grundrechte setzen Grenzen und schützen auch Menschen mit anderen Ansichten oder Zugehörigkeiten.
+
+### social-099 · Welches Beispiel zeigt ehrenamtliches Engagement?
+
+Thema: engagement · Schwierigkeit 1 · Lehrplan 3.2 · foundation
+
+- **A:** andere an freiwilliger Hilfe hindern
+- **B:** nur gegen den eigenen Willen teilnehmen
+- **C:** freiwillig bei einer gemeinnützigen Initiative mithelfen **(richtig)**
+
+**Erklärung:** Ehrenamtliches Engagement geschieht freiwillig für andere oder für ein gemeinsames Anliegen und ist nicht auf Gewinn ausgerichtet.
+
+### social-100 · Woran lässt sich ein fair ausgehandelter Kompromiss erkennen?
+
+Thema: kompromiss · Schwierigkeit 3 · Lehrplan 3.3 · grade9
+
+- **A:** Nur eine Seite durfte sprechen.
+- **B:** Alle Einwände wurden ohne Anhörung gelöscht.
+- **C:** Die Beteiligten können ihre Zugeständnisse und Vorteile benennen. **(richtig)**
+
+**Erklärung:** Ein fairer Kompromiss entsteht durch Austausch. Die Beteiligten verstehen, worauf sie verzichten und was sie dafür erreichen.
+
 ## Biologie
 
-Lehrplan: [Fachlehrplan Sekundarschule Biologie](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_biologie_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-16.
+Lehrplan: [Fachlehrplan Sekundarschule Biologie](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_biologie_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-17.
 
 ### biology-001 · Welches Merkmal gehört zu Lebewesen?
 
@@ -2028,9 +3528,509 @@ Thema: anpassung · Schwierigkeit 3 · Lehrplan 3.2; 3.3 · foundation
 
 **Erklärung:** Mit der größeren wirksamen Fläche können Wasservögel beim Schwimmen mehr Wasser nach hinten drücken.
 
+### biology-051 · Welche Aufgabe hat die Zellmembran?
+
+Thema: zellen · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Sie ist immer eine starre Mauer aus Holz.
+- **B:** Sie grenzt die Zelle ab und regelt den Stoffaustausch. **(richtig)**
+- **C:** Sie ersetzt bei Menschen das ganze Skelett.
+
+**Erklärung:** Die Zellmembran bildet eine Grenze und lässt bestimmte Stoffe passieren. So bleibt das Zellinnere ein eigener Reaktionsraum.
+
+### biology-052 · Wo liegt bei einer typischen menschlichen Körperzelle der größte Teil der Erbinformation?
+
+Thema: zellen · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** im Zellkern **(richtig)**
+- **B:** in der Zellwand
+- **C:** außerhalb der Zelle im Magen
+
+**Erklärung:** Der Zellkern enthält den größten Teil der DNA. Menschliche Zellen haben keine Zellwand.
+
+### biology-053 · In welchen Zellbestandteilen findet die Fotosynthese statt?
+
+Thema: pflanzenzellen · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** in den Lungenbläschen
+- **B:** in den Chloroplasten **(richtig)**
+- **C:** in den Knochen
+
+**Erklärung:** Chloroplasten enthalten unter anderem Chlorophyll. Dort kann Lichtenergie für den Aufbau energiereicher Stoffe genutzt werden.
+
+### biology-054 · Was geschieht bei der Zellatmung vereinfacht?
+
+Thema: stoffwechsel · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Nur Pflanzenzellen stellen dabei Holz her.
+- **B:** Zellen erzeugen Sonnenlicht.
+- **C:** Zellen setzen nutzbare Energie aus energiereichen Stoffen frei. **(richtig)**
+
+**Erklärung:** Bei der Zellatmung werden energiereiche Stoffe abgebaut. Bei der aeroben Zellatmung wird dafür Sauerstoff benötigt.
+
+### biology-055 · Wozu dienen Spaltöffnungen an Blättern?
+
+Thema: pflanzen · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Sie nehmen feste Erde auf.
+- **B:** Sie erzeugen Pollen für jede Blüte.
+- **C:** Sie ermöglichen Gasaustausch und beeinflussen die Wasserabgabe. **(richtig)**
+
+**Erklärung:** Durch Spaltöffnungen tauschen Blätter Gase aus. Ihre Öffnung beeinflusst auch, wie viel Wasser verdunstet.
+
+### biology-056 · Was braucht ein gewöhnlicher Bohnensamen zum Keimen vor allem?
+
+Thema: pflanzen · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** ständige Dunkelheit bei Frost
+- **B:** nur einen großen Blumentopf ohne Wasser
+- **C:** Wasser, Sauerstoff und eine geeignete Temperatur **(richtig)**
+
+**Erklärung:** Wasser aktiviert Vorgänge im Samen. Sauerstoff und eine passende Temperatur ermöglichen den Stoffwechsel beim Keimen.
+
+### biology-057 · Was entsteht bei Blütenpflanzen nach der Befruchtung aus der Samenanlage?
+
+Thema: pflanzen · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** ein Samen **(richtig)**
+- **B:** eine Wurzelhaube am Blatt
+- **C:** ein Pollenkorn im Boden
+
+**Erklärung:** Aus der befruchteten Samenanlage entwickelt sich der Samen. Der Fruchtknoten kann sich zur Frucht entwickeln.
+
+### biology-058 · Welche Körperbedeckung ist typisch für Vögel?
+
+Thema: tiergruppen · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Haare wie bei Säugetieren
+- **B:** eine Schale aus Kalk um den ganzen Körper
+- **C:** Federn **(richtig)**
+
+**Erklärung:** Federn sind ein kennzeichnendes Merkmal der Vögel. Sie dienen unter anderem dem Schutz, der Wärmeisolierung und oft dem Fliegen.
+
+### biology-059 · Womit atmen die meisten Fische im Wasser?
+
+Thema: tiergruppen · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** mit Federn
+- **B:** mit Kiemen **(richtig)**
+- **C:** mit Blüten
+
+**Erklärung:** Kiemen nehmen gelösten Sauerstoff aus dem Wasser auf. Die meisten Fische besitzen keine Lungenatmung wie der Mensch.
+
+### biology-060 · Warum gehören Spinnen nicht zu den Insekten?
+
+Thema: tiergruppen · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Alle Tiere mit Beinen sind Insekten.
+- **B:** Spinnen haben acht Beine, Insekten normalerweise sechs. **(richtig)**
+- **C:** Spinnen haben grundsätzlich keine Körperglieder.
+
+**Erklärung:** Spinnen gehören zu den Spinnentieren. Die Zahl der Beine hilft, sie von erwachsenen Insekten zu unterscheiden.
+
+### biology-061 · Welche Eigenschaft hilft einem Kaktus in trockenen Lebensräumen?
+
+Thema: angepasstheit · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** nur unter Wasser wachsen
+- **B:** ständig große Mengen Wasser über breite Blätter abgeben
+- **C:** Wasser im verdickten Spross speichern **(richtig)**
+
+**Erklärung:** Ein wasserspeichernder Spross hilft, Trockenzeiten zu überstehen. Weitere Merkmale können die Verdunstung begrenzen.
+
+### biology-062 · Welche Aufgabe hat das Skelett unter anderem?
+
+Thema: organe · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** das Blut durch den Körper pumpen
+- **B:** den Körper stützen und innere Organe schützen **(richtig)**
+- **C:** die gesamte Verdauung übernehmen
+
+**Erklärung:** Knochen geben dem Körper Halt. Zum Beispiel schützt der Brustkorb Herz und Lunge.
+
+### biology-063 · Warum braucht ein bewegliches Gelenk häufig zwei gegensätzlich wirkende Muskeln?
+
+Thema: muskeln · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Muskeln können aktiv ziehen, aber nicht aktiv schieben. **(richtig)**
+- **B:** Muskeln können nur Knochen verlängern.
+- **C:** Ein Muskel kann niemals kürzer werden.
+
+**Erklärung:** Ein Muskel verkürzt sich bei der Kontraktion. Ein Gegenspieler ermöglicht die Bewegung in die andere Richtung.
+
+### biology-064 · Was unterscheidet Arterien von Venen grundsätzlich?
+
+Thema: blutkreislauf · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Venen kommen nur in den Beinen vor.
+- **B:** Arterien enthalten immer Luft statt Blut.
+- **C:** Arterien führen Blut vom Herzen weg, Venen zum Herzen hin. **(richtig)**
+
+**Erklärung:** Die Richtung zum Herzen definiert die Gefäßart. Der Sauerstoffgehalt allein ist dafür kein sicheres Unterscheidungsmerkmal.
+
+### biology-065 · Welche Aufgabe haben Blutplättchen vor allem?
+
+Thema: blut · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** an der Blutgerinnung mitwirken **(richtig)**
+- **B:** Nahrung mechanisch zerkleinern
+- **C:** Lichtreize wahrnehmen
+
+**Erklärung:** Blutplättchen helfen beim Verschließen einer verletzten Gefäßstelle. Sie sind damit ein wichtiger Teil der Blutstillung.
+
+### biology-066 · Wo beginnt die mechanische Zerkleinerung der Nahrung?
+
+Thema: verdauung · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** in der Lunge
+- **B:** erst im Dickdarm
+- **C:** im Mund durch die Zähne **(richtig)**
+
+**Erklärung:** Beim Kauen zerkleinern die Zähne die Nahrung. Dadurch vergrößert sich auch die Oberfläche für die weitere Verdauung.
+
+### biology-067 · Warum besitzt der Dünndarm viele Falten und Zotten?
+
+Thema: verdauung · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Sie verhindern jede Aufnahme von Nährstoffen.
+- **B:** Sie vergrößern die Oberfläche zur Stoffaufnahme. **(richtig)**
+- **C:** Sie produzieren eingeatmete Luft.
+
+**Erklärung:** Eine große Oberfläche ermöglicht mehr Kontakt zwischen Darminhalt und Darmwand und unterstützt die Nährstoffaufnahme.
+
+### biology-068 · Welche Aufgabe haben die Nieren unter anderem?
+
+Thema: organe · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Knochen beim Gehen zusammenziehen
+- **B:** Bilder auf der Netzhaut erzeugen
+- **C:** Blut filtern und an der Bildung von Urin mitwirken **(richtig)**
+
+**Erklärung:** Die Nieren scheiden Stoffwechselprodukte aus und wirken bei der Regelung des Wasser- und Salzhaushalts mit.
+
+### biology-069 · Welche Funktion haben Eiweiße im Körper unter anderem?
+
+Thema: ernaehrung · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Sie bestehen nur aus unverdaulichen Steinen.
+- **B:** Sie dienen als Baustoffe und Bestandteile von Enzymen. **(richtig)**
+- **C:** Sie ersetzen jedes benötigte Wasser.
+
+**Erklärung:** Eiweiße erfüllen viele Aufgaben, etwa beim Aufbau von Zellen und als Enzyme. Eine einzige Nährstoffgruppe deckt nicht alle Bedürfnisse.
+
+### biology-070 · Was unterscheidet Viren grundsätzlich von Bakterien?
+
+Thema: mikroorganismen · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Viren besitzen keinen eigenen Zellaufbau und vermehren sich nur mithilfe von Wirtszellen. **(richtig)**
+- **B:** Bakterien bestehen nie aus Zellen.
+- **C:** Viren sind immer größer als Menschen.
+
+**Erklärung:** Bakterien sind Zellen. Viren sind keine Zellen und benötigen für ihre Vermehrung die Vorgänge einer Wirtszelle.
+
+### biology-071 · Warum zählen Pilze nicht zu den grünen Pflanzen?
+
+Thema: pilze · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Sie besitzen immer Federn.
+- **B:** Sie haben grundsätzlich keine Zellen.
+- **C:** Sie betreiben keine Fotosynthese und nehmen organische Stoffe auf. **(richtig)**
+
+**Erklärung:** Pilze bilden eine eigene Organismengruppe. Sie gewinnen ihre Nährstoffe aus organischen Stoffen statt durch Fotosynthese.
+
+### biology-072 · Welche Aufgabe haben Sinneszellen?
+
+Thema: nervensystem · Schwierigkeit 1 · Lehrplan 3.4 · grade9
+
+- **A:** nur Knochen härter machen
+- **B:** Nahrung im Magen umrühren
+- **C:** bestimmte Reize aufnehmen und in Signale umwandeln **(richtig)**
+
+**Erklärung:** Sinneszellen reagieren auf geeignete Reize. Ihre Signale können im Nervensystem weitergeleitet und verarbeitet werden.
+
+### biology-073 · Welche Funktion haben Nerven?
+
+Thema: nervensystem · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Sauerstoff wie Lungenbläschen austauschen
+- **B:** Blut wie das Herz pumpen
+- **C:** Signale zwischen Körperteilen und Nervensystem weiterleiten **(richtig)**
+
+**Erklärung:** Nerven enthalten Nervenfasern, die Informationen übertragen. Sie verbinden unter anderem Sinnesorgane, Muskeln und zentrale Bereiche.
+
+### biology-074 · Welche Aufgabe hat die Augenlinse?
+
+Thema: auge · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Schallwellen verstärken
+- **B:** die Augenfarbe durch Blut festlegen
+- **C:** Licht so brechen, dass ein scharfes Bild auf der Netzhaut entstehen kann **(richtig)**
+
+**Erklärung:** Die Linse verändert ihre Form zur Scharfstellung. Gemeinsam mit anderen lichtbrechenden Teilen ermöglicht sie das Sehen.
+
+### biology-075 · Was geschieht mit der Pupille bei hellem Licht normalerweise?
+
+Thema: auge · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Sie wird kleiner. **(richtig)**
+- **B:** Sie wird zum Augenlid.
+- **C:** Sie wird immer größer.
+
+**Erklärung:** Die Iris verkleinert bei Helligkeit die Pupille. Dadurch gelangt weniger Licht in das Auge.
+
+### biology-076 · Welches Sinnesorgan liefert wichtige Informationen über das Gleichgewicht?
+
+Thema: sinne · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** das Gleichgewichtsorgan im Innenohr **(richtig)**
+- **B:** die Zunge
+- **C:** die Hornhaut des Fingernagels
+
+**Erklärung:** Im Innenohr liegen Sinnesorgane, die Lage und Bewegung des Kopfes erfassen. Das Gehirn verbindet diese mit weiteren Informationen.
+
+### biology-077 · Warum kann ein schneller Rückziehreflex nützlich sein?
+
+Thema: reflexe · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Er kann den Kontakt mit einer schädigenden Einwirkung verkürzen. **(richtig)**
+- **B:** Er verhindert, dass Nerven Signale leiten.
+- **C:** Er ersetzt dauerhaft alle bewussten Bewegungen.
+
+**Erklärung:** Ein Reflex läuft rasch und unwillkürlich ab. Beim Rückziehen kann dadurch die Dauer eines schädlichen Kontakts sinken.
+
+### biology-078 · Ein Hund hört vor dem Füttern wiederholt einen Ton und reagiert später schon auf den Ton. Was zeigt das?
+
+Thema: lernen · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** eine Veränderung des Futters in Licht
+- **B:** eine gelernte Verknüpfung zweier Reize **(richtig)**
+- **C:** dass Hunde keine Sinnesorgane brauchen
+
+**Erklärung:** Ein zunächst bedeutungsloser Reiz kann durch wiederholte Kopplung eine Reaktion auslösen. Das ist eine Form des Lernens.
+
+### biology-079 · Vögel fliegen bei Gefahr gemeinsam auf. Welche mögliche Funktion hat dieses Verhalten?
+
+Thema: verhalten · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** das Risiko für einzelne Tiere verringern **(richtig)**
+- **B:** alle Fressfeinde sicher abschaffen
+- **C:** die Fotosynthese beschleunigen
+
+**Erklärung:** Gemeinsames Fluchtverhalten kann die Entdeckung und den Fang einzelner Tiere erschweren. Es bietet aber keinen vollständigen Schutz.
+
+### biology-080 · Welche Aussage ist eine Beobachtung statt einer Deutung?
+
+Thema: beobachten · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** „Die Maus war bestimmt gelangweilt.“
+- **B:** „Die Maus wollte uns ärgern.“
+- **C:** „Die Maus lief dreimal zur linken Ecke.“ **(richtig)**
+
+**Erklärung:** Die Laufbewegung lässt sich zählen und beschreiben. Gefühle oder Absichten sind hier Deutungen, die zusätzliche Belege brauchen.
+
+### biology-081 · Was ist ein Biotop?
+
+Thema: oekologie · Schwierigkeit 1 · Lehrplan 3.4 · grade9
+
+- **A:** nur der größte Baum im Wald
+- **B:** nur eine einzelne Tierart
+- **C:** der Lebensraum mit seinen unbelebten Bedingungen **(richtig)**
+
+**Erklärung:** Zum Biotop gehören etwa Boden, Wasser, Licht und Temperatur eines Lebensraums. Die Lebensgemeinschaft heißt Biozönose.
+
+### biology-082 · Was bezeichnet man als Population?
+
+Thema: oekologie · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** nur die unbelebten Umweltfaktoren
+- **B:** alle Arten auf der Erde zusammen
+- **C:** Individuen derselben Art in einem Gebiet zu einer bestimmten Zeit **(richtig)**
+
+**Erklärung:** Eine Population umfasst Angehörige einer Art, die räumlich und zeitlich zusammenleben. Verschiedene Arten bilden eine Lebensgemeinschaft.
+
+### biology-083 · Welcher Umweltfaktor ist biotisch, also durch Lebewesen bedingt?
+
+Thema: umweltfaktoren · Schwierigkeit 1 · Lehrplan 3.4 · grade9
+
+- **A:** Konkurrenz durch andere Pflanzen **(richtig)**
+- **B:** die Lufttemperatur
+- **C:** die Lichtstärke
+
+**Erklärung:** Konkurrenz entsteht durch andere Lebewesen und ist deshalb biotisch. Temperatur und Licht gehören zu den abiotischen Faktoren.
+
+### biology-084 · In der Kette Gras → Heuschrecke → Frosch: Was ist die Heuschrecke?
+
+Thema: nahrungsbeziehungen · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** ein unbelebter Umweltfaktor
+- **B:** ein Pflanzenfresser und Konsument **(richtig)**
+- **C:** ein Produzent durch Fotosynthese
+
+**Erklärung:** Die Heuschrecke nimmt organische Stoffe mit der Nahrung auf. Sie ist ein Konsument und in dieser Kette ein Pflanzenfresser.
+
+### biology-085 · In einem vereinfachten Nahrungsnetz nimmt die Zahl der Mäuse stark ab. Was ist eine mögliche Folge für ihre Fressfeinde?
+
+Thema: nahrungsnetze · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Ihre Nahrung ist davon grundsätzlich unabhängig.
+- **B:** Alle Fressfeinde werden sofort zu Pflanzen.
+- **C:** Sie finden weniger Mäuse als Nahrung. **(richtig)**
+
+**Erklärung:** Weniger Beutetiere können das Nahrungsangebot verringern. Die tatsächliche Folge hängt auch von alternativer Nahrung ab.
+
+### biology-086 · Warum wird nicht die gesamte Energie einer Nahrungsebene an die nächste weitergegeben?
+
+Thema: energiefluss · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Organismen nutzen Energie selbst, und ein Teil wird als Wärme abgegeben. **(richtig)**
+- **B:** Energie wird bei jeder Weitergabe beliebig vermehrt.
+- **C:** Alle aufgenommenen Stoffe werden vollständig zu Körpermasse.
+
+**Erklärung:** Nur ein Teil der aufgenommenen Energie wird in neuer Biomasse gespeichert. Stoffwechsel und Wärmeabgabe begrenzen die Weitergabe.
+
+### biology-087 · Warum sind Zersetzer für einen Wald wichtig?
+
+Thema: stoffkreislauf · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Sie führen Mineralstoffe aus abgestorbenem Material in den Kreislauf zurück. **(richtig)**
+- **B:** Sie verhindern jeden Abbau von Laub.
+- **C:** Sie erzeugen neue Mineralstoffe aus dem Nichts.
+
+**Erklärung:** Pilze, Bakterien und andere Zersetzer bauen organisches Material ab. Dabei werden Stoffe für andere Organismen wieder verfügbar.
+
+### biology-088 · Bienen erhalten Nektar und übertragen dabei Pollen. Wie profitieren die Blütenpflanzen?
+
+Thema: symbiose · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Ihre Bestäubung wird unterstützt. **(richtig)**
+- **B:** Sie werden dadurch zu Tieren.
+- **C:** Sie müssen keine Samen mehr bilden.
+
+**Erklärung:** Beim Blütenbesuch können Bienen Pollen übertragen. So kann eine wechselseitig vorteilhafte Beziehung entstehen.
+
+### biology-089 · Eine Zecke saugt Blut an einem Säugetier. Welche Beziehung liegt vor?
+
+Thema: parasitismus · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** eine Nahrungskette mit der Zecke als Pflanze
+- **B:** Parasitismus **(richtig)**
+- **C:** Fotosynthese
+
+**Erklärung:** Die Zecke gewinnt Nahrung auf Kosten ihres Wirts. Bei einer parasitischen Beziehung wird der Wirt geschädigt.
+
+### biology-090 · Zwei Tierarten fressen dieselbe begrenzte Nahrung. Was kann die Konkurrenz verringern?
+
+Thema: konkurrenz · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Alle anderen Umweltfaktoren abschaffen.
+- **B:** Immer exakt am selben Ort zur selben Zeit fressen.
+- **C:** Unterschiedliche Nahrung oder unterschiedliche Aktivitätszeiten nutzen. **(richtig)**
+
+**Erklärung:** Eine unterschiedliche Nutzung von Ressourcen kann die Überschneidung der Ansprüche und damit Konkurrenz verringern.
+
+### biology-091 · Warum wächst eine Tierpopulation in der Natur nicht unbegrenzt?
+
+Thema: populationen · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Fortpflanzung erzeugt immer unbegrenzt neue Nahrung.
+- **B:** Jedes Tier lebt unter allen Bedingungen gleich gut.
+- **C:** Nahrung, Raum und andere Faktoren sind begrenzt. **(richtig)**
+
+**Erklärung:** Begrenzte Ressourcen, Krankheiten und Fressfeinde können Wachstum bremsen. Die Bedingungen eines Lebensraums setzen Grenzen.
+
+### biology-092 · Warum kann eine vielfältige Wiese für Insekten günstiger sein als ein häufig gemähter Rasen?
+
+Thema: artenvielfalt · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Alle Insekten benötigen ausschließlich kurz geschnittenes Gras.
+- **B:** Sie enthält grundsätzlich keine Pflanzen.
+- **C:** Sie bietet oft mehr Nahrung und unterschiedliche Lebensräume. **(richtig)**
+
+**Erklärung:** Unterschiedliche Pflanzen und Strukturen schaffen verschiedene Nahrungsangebote und Rückzugsorte für unterschiedliche Arten.
+
+### biology-093 · Warum kann starker Algenabbau nach einer Algenblüte den Sauerstoffgehalt senken?
+
+Thema: gewaesser · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Abbauende Organismen verbrauchen bei ihrer Zellatmung Sauerstoff. **(richtig)**
+- **B:** Abgestorbene Algen verwandeln allen Sauerstoff in Sand.
+- **C:** Wasser kann grundsätzlich keinen Sauerstoff enthalten.
+
+**Erklärung:** Beim Abbau großer Mengen organischer Stoffe kann viel Sauerstoff verbraucht werden. Das kann andere Wasserorganismen belasten.
+
+### biology-094 · Was ist eine überprüfbare Hypothese?
+
+Thema: versuchsplanung · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** „Pflanzen sind irgendwie schön.“
+- **B:** „Bei mehr Licht wächst diese Pflanzenart unter sonst gleichen Bedingungen schneller.“ **(richtig)**
+- **C:** „Jeder Versuch wird schon stimmen.“
+
+**Erklärung:** Eine Hypothese formuliert eine prüfbare Vermutung über einen Zusammenhang. Die Bedingungen müssen für den Vergleich festgelegt werden.
+
+### biology-095 · Du prüfst die Wirkung von Dünger. Warum brauchen die Vergleichspflanzen dieselbe Wassermenge?
+
+Thema: versuchsplanung · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Damit kein Vergleich mehr möglich ist.
+- **B:** Damit Unterschiede möglichst auf die Düngermenge zurückzuführen sind. **(richtig)**
+- **C:** Damit alle Pflanzen unabhängig vom Dünger sicher gleich groß werden.
+
+**Erklärung:** Konstante übrige Bedingungen vermindern alternative Erklärungen. Die gezielt veränderte Größe ist hier die Düngermenge.
+
+### biology-096 · Drei Pflanzen wachsen 4, 5 und 6 cm. Wie groß ist das mittlere Wachstum?
+
+Thema: versuchsauswertung · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** 5 cm **(richtig)**
+- **B:** 15 cm
+- **C:** 6 cm
+
+**Erklärung:** Addiere die drei Werte und teile durch ihre Anzahl: (4 + 5 + 6) ÷ 3 = 5 cm.
+
+### biology-097 · Ein Versuch mit nur einer Pflanze liefert ein unerwartetes Ergebnis. Was ist sinnvoll?
+
+Thema: versuchsauswertung · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Das Ergebnis ohne Prüfung zum Naturgesetz erklären.
+- **B:** Alle abweichenden Werte heimlich löschen.
+- **C:** Den Versuch mit mehreren Pflanzen wiederholen und Bedingungen prüfen. **(richtig)**
+
+**Erklärung:** Einzelne Ergebnisse können zufällig oder durch besondere Bedingungen entstehen. Wiederholungen machen Aussagen belastbarer.
+
+### biology-098 · Okular 10-fach, Objektiv 40-fach: Wie groß ist die Gesamtvergrößerung?
+
+Thema: mikroskopieren · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** 400-fach **(richtig)**
+- **B:** 4-fach
+- **C:** 50-fach
+
+**Erklärung:** Die Gesamtvergrößerung ergibt sich aus dem Produkt von Okular- und Objektivvergrößerung: 10 × 40 = 400.
+
+### biology-099 · Was hilft beim Bestimmen einer unbekannten Pflanzenart?
+
+Thema: bestimmen · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** nur nach der eigenen Lieblingsfarbe entscheiden
+- **B:** jede grüne Pflanze derselben Art zuordnen
+- **C:** mehrere Merkmale mit einem Bestimmungsschlüssel vergleichen **(richtig)**
+
+**Erklärung:** Blattform, Blütenbau und weitere Merkmale helfen gemeinsam bei der Bestimmung. Ein einzelnes allgemeines Merkmal reicht oft nicht.
+
+### biology-100 · Eine Fläche soll bebaut werden, auf der viele Arten leben. Was gehört zu einer biologisch begründeten Bewertung?
+
+Thema: bewerten · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** nur die Farbe des Bauzauns betrachten
+- **B:** Lebensraumverlust, betroffene Arten und mögliche Alternativen untersuchen **(richtig)**
+- **C:** ohne Untersuchung behaupten, es gebe keine Folgen
+
+**Erklärung:** Eine Bewertung braucht Informationen über die Lebensgemeinschaft und die Folgen des Eingriffs. Auch Alternativen gehören zur Abwägung.
+
 ## Geografie
 
-Lehrplan: [Fachlehrplan Sekundarschule Geographie](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_geo_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-16.
+Lehrplan: [Fachlehrplan Sekundarschule Geographie](https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_geo_01_08_2019.pdf), Dokumentstand 2019-08-01, abgerufen 2026-10-17.
 
 ### geography-001 · Welche Himmelsrichtung liegt auf einer üblichen nach Norden ausgerichteten Karte oben?
 
@@ -2531,3 +4531,503 @@ Thema: raumplanung · Schwierigkeit 3 · Lehrplan 3.4 · grade9
 - **C:** Fuß- und Radwege grundsätzlich trennen, indem man sie abschafft.
 
 **Erklärung:** Gut erreichbare Einrichtungen und die Nutzung vorhandener Flächen können Wege und zusätzlichen Flächenverbrauch verringern.
+
+### geography-051 · Was zeigt ein Kartenmaßstab an?
+
+Thema: karten · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** die Temperatur am Kartenrand
+- **B:** das Verhältnis zwischen Kartenstrecke und wirklicher Strecke **(richtig)**
+- **C:** die Einwohnerzahl jedes Ortes
+
+**Erklärung:** Der Maßstab beschreibt die Verkleinerung der Wirklichkeit. Damit lassen sich Kartenstrecken in reale Entfernungen umrechnen.
+
+### geography-052 · Auf einer Karte mit Maßstab 1 : 200.000 misst eine Strecke 3 cm. Wie lang ist sie in Wirklichkeit?
+
+Thema: karten · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** 60 km
+- **B:** 6 km **(richtig)**
+- **C:** 600 m
+
+**Erklärung:** Ein Zentimeter entspricht 200.000 cm = 2 km. Drei Zentimeter entsprechen deshalb 6 km.
+
+### geography-053 · Welche Karte zeigt bei gleicher Blattgröße mehr Einzelheiten?
+
+Thema: karten · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** eine Karte im Maßstab 1 : 1.000.000
+- **B:** eine Karte im Maßstab 1 : 10.000 **(richtig)**
+- **C:** eine Karte im Maßstab 1 : 10.000.000
+
+**Erklärung:** Bei 1 : 10.000 ist die Verkleinerung geringer. Ein kleinerer Raumausschnitt kann deshalb genauer dargestellt werden.
+
+### geography-054 · Was bedeuten eng beieinanderliegende Höhenlinien meist?
+
+Thema: hoehenlinien · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** ein steiles Gelände **(richtig)**
+- **B:** ein völlig ebenes Gelände
+- **C:** immer einen breiten Fluss
+
+**Erklärung:** Wenn sich die Höhe auf kurzer waagerechter Entfernung stark ändert, liegen die Höhenlinien dicht zusammen.
+
+### geography-055 · Was bezeichnet der Nullmeridian?
+
+Thema: gradnetz · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** den Ausgangsmeridian für die geografische Länge **(richtig)**
+- **B:** den höchsten Berg der Erde
+- **C:** die Grenze zwischen Nord- und Südhalbkugel
+
+**Erklärung:** Der Nullmeridian verläuft durch Greenwich. Von dort werden geografische Längen nach Osten oder Westen gezählt.
+
+### geography-056 · Ein Ort liegt bei 30° südlicher Breite. Auf welcher Halbkugel liegt er?
+
+Thema: gradnetz · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** auf der Südhalbkugel **(richtig)**
+- **B:** genau auf dem Äquator
+- **C:** auf der Nordhalbkugel
+
+**Erklärung:** Die geografische Breite gibt den Winkelabstand zum Äquator an. „Südlich“ ordnet den Ort der Südhalbkugel zu.
+
+### geography-057 · Warum gibt es Tag und Nacht?
+
+Thema: erde · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Die Erde dreht sich um ihre eigene Achse. **(richtig)**
+- **B:** Die Sonne wird jeden Abend ausgeschaltet.
+- **C:** Der Mond verdeckt täglich die ganze Erde.
+
+**Erklärung:** Durch die Erdrotation wird ein Ort abwechselnd von der Sonne beleuchtet und von ihr abgewandt.
+
+### geography-058 · Was verursacht zusammen mit dem Umlauf der Erde die Jahreszeiten?
+
+Thema: erde · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** die Neigung der Erdachse **(richtig)**
+- **B:** das tägliche Wechseln der Kontinente
+- **C:** nur die Entfernung zum Mond
+
+**Erklärung:** Die geneigte Erdachse bewirkt im Jahreslauf unterschiedliche Sonnenstände und Tageslängen auf den Halbkugeln.
+
+### geography-059 · Welche Stadt liegt an der Saale und in Sachsen-Anhalt?
+
+Thema: deutschland · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** München
+- **B:** Kiel
+- **C:** Halle **(richtig)**
+
+**Erklärung:** Halle liegt im Süden Sachsen-Anhalts an der Saale. Kiel und München liegen in anderen Bundesländern.
+
+### geography-060 · Welches Gebirge liegt am südlichen Rand Deutschlands?
+
+Thema: deutschland · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** der Himalaya
+- **B:** die Anden
+- **C:** die Alpen **(richtig)**
+
+**Erklärung:** Deutschland hat im Süden Anteil an den Alpen. Himalaya und Anden liegen auf anderen Kontinenten.
+
+### geography-061 · Welcher Staat liegt südlich von Deutschland und grenzt direkt daran?
+
+Thema: europa · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Schweden
+- **B:** Portugal
+- **C:** Österreich **(richtig)**
+
+**Erklärung:** Österreich grenzt im Süden an Deutschland. Schweden und Portugal haben keine gemeinsame Landgrenze mit Deutschland.
+
+### geography-062 · Was unterscheidet Europa von der Europäischen Union?
+
+Thema: europa · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Europa ist ein einzelner Staat.
+- **B:** Beide Begriffe meinen immer genau dieselben Staaten.
+- **C:** Europa ist ein geografischer Raum; die EU ist ein politisch-wirtschaftlicher Zusammenschluss von Staaten. **(richtig)**
+
+**Erklärung:** Nicht jeder europäische Staat gehört zur EU. Geografische Zugehörigkeit und politische Mitgliedschaft sind verschiedene Dinge.
+
+### geography-063 · Was ist eine Flussmündung?
+
+Thema: landschaft · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** der Beginn jedes Gletschers
+- **B:** die Stelle, an der ein Fluss in ein anderes Gewässer fließt **(richtig)**
+- **C:** immer der höchste Punkt eines Gebirges
+
+**Erklärung:** Ein Fluss kann in einen anderen Fluss, einen See oder das Meer münden. Das unterscheidet die Mündung von der Quelle.
+
+### geography-064 · Warum lagert ein Fluss bei sinkender Fließgeschwindigkeit oft Material ab?
+
+Thema: landschaft · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Seine Transportkraft nimmt ab. **(richtig)**
+- **B:** Er verwandelt Wasser in Gestein.
+- **C:** Er fließt dann grundsätzlich bergauf.
+
+**Erklärung:** Bei geringerer Geschwindigkeit kann das Wasser weniger Material mitführen. Ein Teil der mitgeführten Teilchen wird abgelagert.
+
+### geography-065 · Was bezeichnet man als Gezeiten?
+
+Thema: kueste · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** die tägliche Drehung des Windrades
+- **B:** den regelmäßigen Wechsel von Ebbe und Flut **(richtig)**
+- **C:** den Wechsel von Sommer und Winter
+
+**Erklärung:** Gezeiten sind Wasserstandsänderungen, die vor allem durch die Anziehung von Mond und Sonne entstehen.
+
+### geography-066 · Mit welchem Gerät misst man die Lufttemperatur?
+
+Thema: wetter · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** mit einem Kompass
+- **B:** mit einem Thermometer **(richtig)**
+- **C:** mit einem Kilometerzähler
+
+**Erklärung:** Ein Thermometer misst die Temperatur. Ein Kompass dient der Richtungsbestimmung und ein Kilometerzähler misst Strecken.
+
+### geography-067 · Was zeigt die Niederschlagssäule eines Monats in einem Klimadiagramm gewöhnlich?
+
+Thema: klimadiagramme · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** die höchste Bergspitze des Monats
+- **B:** die tägliche Bevölkerungszahl
+- **C:** die mittlere monatliche Niederschlagssumme **(richtig)**
+
+**Erklärung:** Klimadiagramme stellen meist langjährige Monatsmittel dar. Niederschlag und Temperatur werden dabei getrennt abgelesen.
+
+### geography-068 · Ein Ort hat 12 Monatsmittel von je 10 °C. Wie groß ist das Jahresmittel dieser Monatswerte?
+
+Thema: klimadiagramme · Schwierigkeit 3 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** 120 °C
+- **B:** 0,83 °C
+- **C:** 10 °C **(richtig)**
+
+**Erklärung:** Für das Mittel addierst du die zwölf Monatswerte und teilst durch zwölf. Bei gleichen Werten bleibt das Mittel 10 °C.
+
+### geography-069 · Was kennzeichnet ozeanisch geprägtes Klima im Vergleich zu kontinentalem Klima meist?
+
+Thema: klima · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** geringere Temperaturunterschiede zwischen Sommer und Winter **(richtig)**
+- **B:** jeden Tag dieselbe Temperatur
+- **C:** grundsätzlich keinen Niederschlag
+
+**Erklärung:** Das Meer erwärmt und kühlt sich langsamer als Land. Dadurch gleicht es jahreszeitliche Temperaturunterschiede oft aus.
+
+### geography-070 · Warum findet man im Hochgebirge verschiedene Vegetationsstufen?
+
+Thema: vegetation · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Mit zunehmender Höhe ändern sich unter anderem Temperatur und Wachstumsbedingungen. **(richtig)**
+- **B:** Alle Pflanzen brauchen unabhängig vom Standort dieselben Bedingungen.
+- **C:** Die geografische Breite springt an jedem Hang um 90 Grad.
+
+**Erklärung:** Mit der Höhe sinkt im Allgemeinen die Temperatur. Unterschiedliche Bedingungen begünstigen unterschiedliche Pflanzengesellschaften.
+
+### geography-071 · Was versteht man unter Bewässerung?
+
+Thema: landwirtschaft · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** ausschließlich die Ernte von Getreide
+- **B:** das Entfernen aller Pflanzen von einem Feld
+- **C:** das gezielte Zuführen von Wasser zu Nutzpflanzen **(richtig)**
+
+**Erklärung:** Bewässerung ergänzt fehlenden Niederschlag. Dabei muss die Verfügbarkeit der Wasserressourcen berücksichtigt werden.
+
+### geography-072 · Welches Risiko kann dauerhafte Bewässerung in trockenen Gebieten bei schlechter Entwässerung erhöhen?
+
+Thema: landwirtschaft · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** das vollständige Verschwinden aller gelösten Salze
+- **B:** Versalzung des Bodens **(richtig)**
+- **C:** die sofortige Entstehung eines Gletschers
+
+**Erklärung:** Mit dem Wasser gelangen Salze in den Boden. Verdunstet viel Wasser und werden die Salze nicht abgeführt, können sie sich anreichern.
+
+### geography-073 · Warum schützt eine geschlossene Pflanzendecke den Boden häufig vor Erosion?
+
+Thema: boden · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Boden wird unter Pflanzen grundsätzlich zu Beton.
+- **B:** Pflanzen verhindern jede Form von Wind.
+- **C:** Wurzeln stabilisieren ihn und Blätter bremsen auftreffenden Regen. **(richtig)**
+
+**Erklärung:** Pflanzen vermindern den direkten Aufprall von Regentropfen. Wurzeln halten Boden fest und bremsen so den Abtrag.
+
+### geography-074 · Was ist ein nachwachsender Rohstoff?
+
+Thema: ressourcen · Schwierigkeit 1 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** jedes beliebige Metall im Boden
+- **B:** ein Rohstoff, der nie neu entstehen kann, etwa Erdöl
+- **C:** ein Rohstoff aus sich erneuernder Biomasse, etwa Holz **(richtig)**
+
+**Erklärung:** Holz kann durch Pflanzenwachstum neu entstehen. Nachhaltigkeit setzt voraus, dass die Nutzung die Erneuerung nicht überfordert.
+
+### geography-075 · Was ist eine Herausforderung bei Wind- und Solarstrom?
+
+Thema: energie · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Sie erzeugen nur unterirdisch Strom.
+- **B:** Sie benötigen immer Erdöl als direkten Brennstoff.
+- **C:** Die Erzeugung schwankt mit Wetter und Tageszeit. **(richtig)**
+
+**Erklärung:** Schwankende Erzeugung erfordert passende Netze, Speicher, flexible Nutzung und ergänzende Versorgungslösungen.
+
+### geography-076 · Was unterscheidet Grundwasser von Oberflächenwasser?
+
+Thema: wasser · Schwierigkeit 2 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Grundwasser liegt grundsätzlich über allen Bergen.
+- **B:** Grundwasser füllt Hohlräume unterhalb der Erdoberfläche aus. **(richtig)**
+- **C:** Oberflächenwasser existiert nur in Wolken.
+
+**Erklärung:** Grundwasser befindet sich im Untergrund. Flüsse und Seen sind Beispiele für Wasser an der Erdoberfläche.
+
+### geography-077 · Welche Wirkung können natürliche Auen bei Hochwasser haben?
+
+Thema: hochwasser · Schwierigkeit 3 · Lehrplan 3.2; 3.3 · foundation
+
+- **A:** Sie verhindern, dass es überhaupt regnet.
+- **B:** Sie machen jeden Deich überflüssig.
+- **C:** Sie können Wasser zeitweise aufnehmen und den Abfluss verzögern. **(richtig)**
+
+**Erklärung:** Auen bieten Raum für Überflutungen und können Abflussspitzen mindern. Ihre Wirkung hängt von Größe und örtlichen Bedingungen ab.
+
+### geography-078 · Ein Betrieb verarbeitet Milch zu Käse. Zu welchem Wirtschaftssektor gehört diese Verarbeitung?
+
+Thema: wirtschaft · Schwierigkeit 1 · Lehrplan 3.4 · grade9
+
+- **A:** zum tertiären Sektor als reine Beratung
+- **B:** zum sekundären Sektor **(richtig)**
+- **C:** zum primären Sektor als Rohstoffgewinnung
+
+**Erklärung:** Die industrielle oder handwerkliche Verarbeitung gehört zum sekundären Sektor. Die Milchgewinnung auf dem Hof zählt dagegen zum primären.
+
+### geography-079 · Ein Logistikzentrum benötigt schnelle überregionale Warenverbindungen. Welcher Faktor passt besonders?
+
+Thema: standortfaktoren · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** möglichst weite Entfernung zu jedem Verkehrsweg
+- **B:** gute Anbindung an wichtige Verkehrswege **(richtig)**
+- **C:** ausschließlich eine schöne Aussicht
+
+**Erklärung:** Für Logistik ist Erreichbarkeit zentral. Straßen-, Schienen- oder Hafenanschlüsse beeinflussen Transportzeiten und Kosten.
+
+### geography-080 · Warum ist ein billiges Grundstück allein kein ausreichendes Argument für einen Fabrikstandort?
+
+Thema: standortfaktoren · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Andere Standortfaktoren spielen grundsätzlich keine Rolle.
+- **B:** Auch Arbeitskräfte, Verkehr, Energie und Umweltfolgen sind wichtig. **(richtig)**
+- **C:** Ein niedriger Grundstückspreis garantiert immer Gewinn.
+
+**Erklärung:** Standortentscheidungen beruhen auf mehreren Faktoren. Ein Vorteil kann durch hohe Kosten oder Probleme an anderer Stelle aufgehoben werden.
+
+### geography-081 · In einer Region schließen Bergwerke, während Dienstleistungen wachsen. Was ist das?
+
+Thema: strukturwandel · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** eine Verschiebung des Äquators
+- **B:** wirtschaftlicher Strukturwandel **(richtig)**
+- **C:** nur ein täglicher Wetterwechsel
+
+**Erklärung:** Die Bedeutung der Branchen und Arbeitsplätze verändert sich. Das kann neue Chancen schaffen, aber auch Anpassungsprobleme verursachen.
+
+### geography-082 · Was bedeutet Suburbanisierung?
+
+Thema: siedlung · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Bevölkerung oder Betriebe verlagern sich aus der Kernstadt ins Umland. **(richtig)**
+- **B:** Alle Städte werden zu Ozeanen.
+- **C:** Ein Gebirge verschiebt sich ins Stadtzentrum.
+
+**Erklärung:** Beim Wachstum des Umlands verändern sich Siedlungsflächen und Verkehrsbeziehungen zwischen Kernstadt und Umgebung.
+
+### geography-083 · Was kann lange tägliche Pendelwege verringern?
+
+Thema: verkehr · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** neue Wohngebiete nur fern jeder Anbindung bauen
+- **B:** Wohnungen, Arbeitsplätze und Versorgung besser räumlich verbinden **(richtig)**
+- **C:** jede Nahversorgung schließen
+
+**Erklärung:** Eine gute räumliche Zuordnung und erreichbare Angebote können Wege verkürzen. Auch öffentliche Verkehrsverbindungen spielen eine Rolle.
+
+### geography-084 · Ein neues Wohngebiet soll geplant werden. Welche Frage gehört zur nachhaltigen Planung?
+
+Thema: stadtplanung · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Wie sind Schule, Einkauf und öffentlicher Verkehr erreichbar? **(richtig)**
+- **B:** Welche Grundstücke lassen sich ohne jede Prüfung versiegeln?
+- **C:** Wie können alle Wege möglichst lang werden?
+
+**Erklärung:** Nachhaltige Planung berücksichtigt Mobilität, Versorgung, Flächenverbrauch und Umwelt. Die Erreichbarkeit prägt den Alltag der Bewohner.
+
+### geography-085 · Eine Gemeinde hat 8.000 Einwohner auf 40 km². Wie groß ist die Bevölkerungsdichte?
+
+Thema: bevoelkerung · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** 20 Einwohner je km²
+- **B:** 320.000 Einwohner je km²
+- **C:** 200 Einwohner je km² **(richtig)**
+
+**Erklärung:** Bevölkerungsdichte ist Einwohnerzahl geteilt durch Fläche: 8.000 ÷ 40 = 200 Einwohner je Quadratkilometer.
+
+### geography-086 · Es werden 100 Menschen geboren, 140 sterben; Zu- und Fortzüge sind gleich groß. Wie verändert sich die Einwohnerzahl?
+
+Thema: bevoelkerung · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Sie sinkt um 40. **(richtig)**
+- **B:** Sie steigt um 40.
+- **C:** Sie bleibt unverändert.
+
+**Erklärung:** Ohne Wanderungsüberschuss entscheidet hier die Differenz von Geburten und Sterbefällen: 100 − 140 = −40.
+
+### geography-087 · Was ist ein möglicher Push-Faktor für Abwanderung?
+
+Thema: migration · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** eine neue Arbeitsstelle am Zielort
+- **B:** fehlende Arbeitsmöglichkeiten am Herkunftsort **(richtig)**
+- **C:** ein attraktives Ausbildungsangebot am Zielort
+
+**Erklärung:** Push-Faktoren wirken am Herkunftsort und können Menschen zum Weggehen bewegen. Vorteile am Zielort heißen Pull-Faktoren.
+
+### geography-088 · Welche Angaben helfen beim Vergleich der Lebensbedingungen zweier Regionen?
+
+Thema: disparitaeten · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** nur die Farbe auf einer politischen Karte
+- **B:** Bildungszugang, Versorgung, Einkommen und weitere Indikatoren zusammen **(richtig)**
+- **C:** nur die Reihenfolge ihrer Namen im Alphabet
+
+**Erklärung:** Lebensbedingungen haben mehrere Seiten. Ein Bündel verschiedener Indikatoren ermöglicht einen aussagekräftigeren Vergleich.
+
+### geography-089 · Warum kann das Einkommen je Einwohner regionale Armut verdecken?
+
+Thema: disparitaeten · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Es nennt das Einkommen jeder einzelnen Person.
+- **B:** Es ist ein Durchschnitt und zeigt die Verteilung nicht. **(richtig)**
+- **C:** Es ist automatisch überall gleich hoch.
+
+**Erklärung:** Auch bei hohem Durchschnitt können viele Menschen wenig Einkommen haben. Verteilung und weitere Lebensbedingungen müssen mitbetrachtet werden.
+
+### geography-090 · Was ist eine globale Lieferkette?
+
+Thema: globalisierung · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** ausschließlich ein Verkauf im selben Haus
+- **B:** mehrere über Länder verteilte Schritte von Rohstoffgewinnung bis Verkauf **(richtig)**
+- **C:** eine Kette, die nur auf Landkarten gezeichnet wird
+
+**Erklärung:** Produktion, Verarbeitung, Transport und Handel können in verschiedenen Staaten stattfinden und wirtschaftlich miteinander verbunden sein.
+
+### geography-091 · Ein wichtiges Bauteil kommt nur aus einer weit entfernten Fabrik. Was ist ein mögliches Risiko?
+
+Thema: globalisierung · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Ein Ausfall dort kann die Produktion an anderen Orten stoppen. **(richtig)**
+- **B:** Die Entfernung verhindert grundsätzlich jede Abhängigkeit.
+- **C:** Die Fabrik kann deshalb niemals ausfallen.
+
+**Erklärung:** Internationale Verflechtung kann Vorteile bringen, aber auch Abhängigkeiten. Störungen eines Glieds können weitere Glieder treffen.
+
+### geography-092 · Was bedeutet Export?
+
+Thema: handel · Schwierigkeit 1 · Lehrplan 3.4 · grade9
+
+- **A:** immer nur Waren aus dem Ausland einkaufen
+- **B:** Waren ausschließlich im eigenen Haushalt verbrauchen
+- **C:** Waren oder Dienstleistungen ins Ausland verkaufen **(richtig)**
+
+**Erklärung:** Export bezeichnet die Ausfuhr beziehungsweise den Verkauf ins Ausland. Der Bezug aus dem Ausland heißt Import.
+
+### geography-093 · Welche Folge von Tourismus kann für eine Region positiv sein?
+
+Thema: tourismus · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** Jeder Verkehr verschwindet dauerhaft.
+- **B:** Naturräume bleiben unter allen Umständen unverändert.
+- **C:** Einkommen und Arbeitsplätze entstehen. **(richtig)**
+
+**Erklärung:** Tourismus kann wirtschaftlich nützen. Für eine Gesamtbewertung müssen auch Belastungen für Natur und Bevölkerung betrachtet werden.
+
+### geography-094 · Warum kann eine Begrenzung der Besucherzahl in einem empfindlichen Naturraum sinnvoll sein?
+
+Thema: tourismus · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Sie erhöht automatisch jede Besucherzahl.
+- **B:** Sie macht alle Lebewesen unnötig.
+- **C:** Sie kann Überlastung und Schäden verringern. **(richtig)**
+
+**Erklärung:** Viele Besucher können Wege, Tiere und Pflanzen belasten. Eine Begrenzung kann Schutz und Nutzung besser vereinbaren.
+
+### geography-095 · Windräder sollen nahe einem Wohngebiet entstehen. Welche Abwägung ist sachgerecht?
+
+Thema: raumnutzung · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Energieertrag, Abstände, Naturschutz und Belastungen prüfen **(richtig)**
+- **B:** alle Auswirkungen ungeprüft als gleich annehmen
+- **C:** nur die lauteste Einzelmeinung beachten
+
+**Erklärung:** Raumplanung muss verschiedene Interessen berücksichtigen. Eine begründete Entscheidung braucht Informationen zu Nutzen und Belastungen.
+
+### geography-096 · Zwei Karten zeigen Arbeitslosigkeit, nutzen aber unterschiedliche Farbgrenzen. Was ist beim Vergleich nötig?
+
+Thema: kartenkritik · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Werteklassen und Legenden beider Karten prüfen **(richtig)**
+- **B:** die Zahlen absichtlich ignorieren
+- **C:** nur gleich gefärbte Flächen als gleich ansehen
+
+**Erklärung:** Dieselbe Farbe kann je nach Legende unterschiedliche Werte bedeuten. Vergleichbar werden Karten erst durch Prüfung ihrer Einteilung.
+
+### geography-097 · Eine Karte von 2005 zeigt die damalige Industrie einer Region. Wofür reicht sie allein nicht?
+
+Thema: datenkritik · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** die dargestellte Legende lesen
+- **B:** die heutige Branchenstruktur sicher beurteilen **(richtig)**
+- **C:** die damalige Darstellung beschreiben
+
+**Erklärung:** Wirtschaftsräume verändern sich. Für Aussagen zur Gegenwart brauchst du aktuelle und passend erhobene Daten.
+
+### geography-098 · Welche drei Perspektiven gehören zu einer umfassenden Nachhaltigkeitsbewertung?
+
+Thema: nachhaltigkeit · Schwierigkeit 2 · Lehrplan 3.4 · grade9
+
+- **A:** nur der kurzfristige Preis
+- **B:** nur die Entfernung zum Äquator
+- **C:** Umwelt, Wirtschaft und soziale Belange **(richtig)**
+
+**Erklärung:** Nachhaltigkeit verbindet ökologische, wirtschaftliche und soziale Gesichtspunkte und berücksichtigt Folgen für die Zukunft.
+
+### geography-099 · Warum kann der Verlust heller Eisflächen die Erwärmung verstärken?
+
+Thema: klimawandel · Schwierigkeit 2 · Lehrplan 3.4 · extension
+
+- **A:** Dunklere Flächen nehmen mehr Sonnenenergie auf. **(richtig)**
+- **B:** Eis erzeugt ständig neuen Brennstoff.
+- **C:** Dunkles Meer reflektiert grundsätzlich alles Sonnenlicht.
+
+**Erklärung:** Helles Eis reflektiert viel Sonnenlicht. Wird es durch dunklere Flächen ersetzt, kann mehr Energie aufgenommen werden: eine Rückkopplung.
+
+### geography-100 · Du vergleichst zwei mögliche Schulstandorte. Welches Vorgehen ist sinnvoll?
+
+Thema: raumuntersuchung · Schwierigkeit 3 · Lehrplan 3.4 · grade9
+
+- **A:** Kriterien festlegen, Daten vergleichen und die Entscheidung begründen **(richtig)**
+- **B:** zuerst entscheiden und alle widersprechenden Daten löschen
+- **C:** ausschließlich nach der längeren Ortsbezeichnung wählen
+
+**Erklärung:** Eine Raumanalyse verbindet nachvollziehbare Kriterien mit passenden Daten. Dazu können Erreichbarkeit, Platz, Kosten und Umweltbelastung gehören.

@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.16.1",
+  "revision": "2026.10.17.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "title": "Fachlehrplan Sekundarschule Biologie",
       "url": "https://www.bildung-lsa.de/files/164f3f97e3adf65ff6f44685dd9e1ced/lp_sks_biologie_01_08_2019.pdf",
       "documentDate": "2019-08-01",
-      "accessedAt": "2026-10-16"
+      "accessedAt": "2026-10-17"
     }
   ],
   "questions": [
@@ -1011,6 +1011,1006 @@
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
         "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-051",
+      "subject": "biology",
+      "topic": "zellen",
+      "competency": "zellen",
+      "difficulty": 1,
+      "prompt": "Welche Aufgabe hat die Zellmembran?",
+      "options": [
+        "Sie ist immer eine starre Mauer aus Holz.",
+        "Sie grenzt die Zelle ab und regelt den Stoffaustausch.",
+        "Sie ersetzt bei Menschen das ganze Skelett."
+      ],
+      "correct": 1,
+      "explanation": "Die Zellmembran bildet eine Grenze und lässt bestimmte Stoffe passieren. So bleibt das Zellinnere ein eigener Reaktionsraum.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-052",
+      "subject": "biology",
+      "topic": "zellen",
+      "competency": "zellen",
+      "difficulty": 2,
+      "prompt": "Wo liegt bei einer typischen menschlichen Körperzelle der größte Teil der Erbinformation?",
+      "options": [
+        "im Zellkern",
+        "in der Zellwand",
+        "außerhalb der Zelle im Magen"
+      ],
+      "correct": 0,
+      "explanation": "Der Zellkern enthält den größten Teil der DNA. Menschliche Zellen haben keine Zellwand.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-053",
+      "subject": "biology",
+      "topic": "pflanzenzellen",
+      "competency": "pflanzenzellen",
+      "difficulty": 1,
+      "prompt": "In welchen Zellbestandteilen findet die Fotosynthese statt?",
+      "options": [
+        "in den Lungenbläschen",
+        "in den Chloroplasten",
+        "in den Knochen"
+      ],
+      "correct": 1,
+      "explanation": "Chloroplasten enthalten unter anderem Chlorophyll. Dort kann Lichtenergie für den Aufbau energiereicher Stoffe genutzt werden.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-054",
+      "subject": "biology",
+      "topic": "stoffwechsel",
+      "competency": "stoffwechsel",
+      "difficulty": 2,
+      "prompt": "Was geschieht bei der Zellatmung vereinfacht?",
+      "options": [
+        "Nur Pflanzenzellen stellen dabei Holz her.",
+        "Zellen erzeugen Sonnenlicht.",
+        "Zellen setzen nutzbare Energie aus energiereichen Stoffen frei."
+      ],
+      "correct": 2,
+      "explanation": "Bei der Zellatmung werden energiereiche Stoffe abgebaut. Bei der aeroben Zellatmung wird dafür Sauerstoff benötigt.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-055",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 2,
+      "prompt": "Wozu dienen Spaltöffnungen an Blättern?",
+      "options": [
+        "Sie nehmen feste Erde auf.",
+        "Sie erzeugen Pollen für jede Blüte.",
+        "Sie ermöglichen Gasaustausch und beeinflussen die Wasserabgabe."
+      ],
+      "correct": 2,
+      "explanation": "Durch Spaltöffnungen tauschen Blätter Gase aus. Ihre Öffnung beeinflusst auch, wie viel Wasser verdunstet.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-056",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 1,
+      "prompt": "Was braucht ein gewöhnlicher Bohnensamen zum Keimen vor allem?",
+      "options": [
+        "ständige Dunkelheit bei Frost",
+        "nur einen großen Blumentopf ohne Wasser",
+        "Wasser, Sauerstoff und eine geeignete Temperatur"
+      ],
+      "correct": 2,
+      "explanation": "Wasser aktiviert Vorgänge im Samen. Sauerstoff und eine passende Temperatur ermöglichen den Stoffwechsel beim Keimen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-057",
+      "subject": "biology",
+      "topic": "pflanzen",
+      "competency": "pflanzen",
+      "difficulty": 2,
+      "prompt": "Was entsteht bei Blütenpflanzen nach der Befruchtung aus der Samenanlage?",
+      "options": [
+        "ein Samen",
+        "eine Wurzelhaube am Blatt",
+        "ein Pollenkorn im Boden"
+      ],
+      "correct": 0,
+      "explanation": "Aus der befruchteten Samenanlage entwickelt sich der Samen. Der Fruchtknoten kann sich zur Frucht entwickeln.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-058",
+      "subject": "biology",
+      "topic": "tiergruppen",
+      "competency": "tiergruppen",
+      "difficulty": 1,
+      "prompt": "Welche Körperbedeckung ist typisch für Vögel?",
+      "options": [
+        "Haare wie bei Säugetieren",
+        "eine Schale aus Kalk um den ganzen Körper",
+        "Federn"
+      ],
+      "correct": 2,
+      "explanation": "Federn sind ein kennzeichnendes Merkmal der Vögel. Sie dienen unter anderem dem Schutz, der Wärmeisolierung und oft dem Fliegen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-059",
+      "subject": "biology",
+      "topic": "tiergruppen",
+      "competency": "tiergruppen",
+      "difficulty": 1,
+      "prompt": "Womit atmen die meisten Fische im Wasser?",
+      "options": [
+        "mit Federn",
+        "mit Kiemen",
+        "mit Blüten"
+      ],
+      "correct": 1,
+      "explanation": "Kiemen nehmen gelösten Sauerstoff aus dem Wasser auf. Die meisten Fische besitzen keine Lungenatmung wie der Mensch.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-060",
+      "subject": "biology",
+      "topic": "tiergruppen",
+      "competency": "tiergruppen",
+      "difficulty": 2,
+      "prompt": "Warum gehören Spinnen nicht zu den Insekten?",
+      "options": [
+        "Alle Tiere mit Beinen sind Insekten.",
+        "Spinnen haben acht Beine, Insekten normalerweise sechs.",
+        "Spinnen haben grundsätzlich keine Körperglieder."
+      ],
+      "correct": 1,
+      "explanation": "Spinnen gehören zu den Spinnentieren. Die Zahl der Beine hilft, sie von erwachsenen Insekten zu unterscheiden.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-061",
+      "subject": "biology",
+      "topic": "angepasstheit",
+      "competency": "angepasstheit",
+      "difficulty": 2,
+      "prompt": "Welche Eigenschaft hilft einem Kaktus in trockenen Lebensräumen?",
+      "options": [
+        "nur unter Wasser wachsen",
+        "ständig große Mengen Wasser über breite Blätter abgeben",
+        "Wasser im verdickten Spross speichern"
+      ],
+      "correct": 2,
+      "explanation": "Ein wasserspeichernder Spross hilft, Trockenzeiten zu überstehen. Weitere Merkmale können die Verdunstung begrenzen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-062",
+      "subject": "biology",
+      "topic": "organe",
+      "competency": "organe",
+      "difficulty": 1,
+      "prompt": "Welche Aufgabe hat das Skelett unter anderem?",
+      "options": [
+        "das Blut durch den Körper pumpen",
+        "den Körper stützen und innere Organe schützen",
+        "die gesamte Verdauung übernehmen"
+      ],
+      "correct": 1,
+      "explanation": "Knochen geben dem Körper Halt. Zum Beispiel schützt der Brustkorb Herz und Lunge.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-063",
+      "subject": "biology",
+      "topic": "muskeln",
+      "competency": "muskeln",
+      "difficulty": 2,
+      "prompt": "Warum braucht ein bewegliches Gelenk häufig zwei gegensätzlich wirkende Muskeln?",
+      "options": [
+        "Muskeln können aktiv ziehen, aber nicht aktiv schieben.",
+        "Muskeln können nur Knochen verlängern.",
+        "Ein Muskel kann niemals kürzer werden."
+      ],
+      "correct": 0,
+      "explanation": "Ein Muskel verkürzt sich bei der Kontraktion. Ein Gegenspieler ermöglicht die Bewegung in die andere Richtung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-064",
+      "subject": "biology",
+      "topic": "blutkreislauf",
+      "competency": "blutkreislauf",
+      "difficulty": 2,
+      "prompt": "Was unterscheidet Arterien von Venen grundsätzlich?",
+      "options": [
+        "Venen kommen nur in den Beinen vor.",
+        "Arterien enthalten immer Luft statt Blut.",
+        "Arterien führen Blut vom Herzen weg, Venen zum Herzen hin."
+      ],
+      "correct": 2,
+      "explanation": "Die Richtung zum Herzen definiert die Gefäßart. Der Sauerstoffgehalt allein ist dafür kein sicheres Unterscheidungsmerkmal.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-065",
+      "subject": "biology",
+      "topic": "blut",
+      "competency": "blut",
+      "difficulty": 2,
+      "prompt": "Welche Aufgabe haben Blutplättchen vor allem?",
+      "options": [
+        "an der Blutgerinnung mitwirken",
+        "Nahrung mechanisch zerkleinern",
+        "Lichtreize wahrnehmen"
+      ],
+      "correct": 0,
+      "explanation": "Blutplättchen helfen beim Verschließen einer verletzten Gefäßstelle. Sie sind damit ein wichtiger Teil der Blutstillung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-066",
+      "subject": "biology",
+      "topic": "verdauung",
+      "competency": "verdauung",
+      "difficulty": 1,
+      "prompt": "Wo beginnt die mechanische Zerkleinerung der Nahrung?",
+      "options": [
+        "in der Lunge",
+        "erst im Dickdarm",
+        "im Mund durch die Zähne"
+      ],
+      "correct": 2,
+      "explanation": "Beim Kauen zerkleinern die Zähne die Nahrung. Dadurch vergrößert sich auch die Oberfläche für die weitere Verdauung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-067",
+      "subject": "biology",
+      "topic": "verdauung",
+      "competency": "verdauung",
+      "difficulty": 2,
+      "prompt": "Warum besitzt der Dünndarm viele Falten und Zotten?",
+      "options": [
+        "Sie verhindern jede Aufnahme von Nährstoffen.",
+        "Sie vergrößern die Oberfläche zur Stoffaufnahme.",
+        "Sie produzieren eingeatmete Luft."
+      ],
+      "correct": 1,
+      "explanation": "Eine große Oberfläche ermöglicht mehr Kontakt zwischen Darminhalt und Darmwand und unterstützt die Nährstoffaufnahme.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-068",
+      "subject": "biology",
+      "topic": "organe",
+      "competency": "organe",
+      "difficulty": 2,
+      "prompt": "Welche Aufgabe haben die Nieren unter anderem?",
+      "options": [
+        "Knochen beim Gehen zusammenziehen",
+        "Bilder auf der Netzhaut erzeugen",
+        "Blut filtern und an der Bildung von Urin mitwirken"
+      ],
+      "correct": 2,
+      "explanation": "Die Nieren scheiden Stoffwechselprodukte aus und wirken bei der Regelung des Wasser- und Salzhaushalts mit.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-069",
+      "subject": "biology",
+      "topic": "ernaehrung",
+      "competency": "ernaehrung",
+      "difficulty": 1,
+      "prompt": "Welche Funktion haben Eiweiße im Körper unter anderem?",
+      "options": [
+        "Sie bestehen nur aus unverdaulichen Steinen.",
+        "Sie dienen als Baustoffe und Bestandteile von Enzymen.",
+        "Sie ersetzen jedes benötigte Wasser."
+      ],
+      "correct": 1,
+      "explanation": "Eiweiße erfüllen viele Aufgaben, etwa beim Aufbau von Zellen und als Enzyme. Eine einzige Nährstoffgruppe deckt nicht alle Bedürfnisse.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-070",
+      "subject": "biology",
+      "topic": "mikroorganismen",
+      "competency": "mikroorganismen",
+      "difficulty": 2,
+      "prompt": "Was unterscheidet Viren grundsätzlich von Bakterien?",
+      "options": [
+        "Viren besitzen keinen eigenen Zellaufbau und vermehren sich nur mithilfe von Wirtszellen.",
+        "Bakterien bestehen nie aus Zellen.",
+        "Viren sind immer größer als Menschen."
+      ],
+      "correct": 0,
+      "explanation": "Bakterien sind Zellen. Viren sind keine Zellen und benötigen für ihre Vermehrung die Vorgänge einer Wirtszelle.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-071",
+      "subject": "biology",
+      "topic": "pilze",
+      "competency": "pilze",
+      "difficulty": 2,
+      "prompt": "Warum zählen Pilze nicht zu den grünen Pflanzen?",
+      "options": [
+        "Sie besitzen immer Federn.",
+        "Sie haben grundsätzlich keine Zellen.",
+        "Sie betreiben keine Fotosynthese und nehmen organische Stoffe auf."
+      ],
+      "correct": 2,
+      "explanation": "Pilze bilden eine eigene Organismengruppe. Sie gewinnen ihre Nährstoffe aus organischen Stoffen statt durch Fotosynthese.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-072",
+      "subject": "biology",
+      "topic": "nervensystem",
+      "competency": "nervensystem",
+      "difficulty": 1,
+      "prompt": "Welche Aufgabe haben Sinneszellen?",
+      "options": [
+        "nur Knochen härter machen",
+        "Nahrung im Magen umrühren",
+        "bestimmte Reize aufnehmen und in Signale umwandeln"
+      ],
+      "correct": 2,
+      "explanation": "Sinneszellen reagieren auf geeignete Reize. Ihre Signale können im Nervensystem weitergeleitet und verarbeitet werden.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-073",
+      "subject": "biology",
+      "topic": "nervensystem",
+      "competency": "nervensystem",
+      "difficulty": 2,
+      "prompt": "Welche Funktion haben Nerven?",
+      "options": [
+        "Sauerstoff wie Lungenbläschen austauschen",
+        "Blut wie das Herz pumpen",
+        "Signale zwischen Körperteilen und Nervensystem weiterleiten"
+      ],
+      "correct": 2,
+      "explanation": "Nerven enthalten Nervenfasern, die Informationen übertragen. Sie verbinden unter anderem Sinnesorgane, Muskeln und zentrale Bereiche.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-074",
+      "subject": "biology",
+      "topic": "auge",
+      "competency": "auge",
+      "difficulty": 2,
+      "prompt": "Welche Aufgabe hat die Augenlinse?",
+      "options": [
+        "Schallwellen verstärken",
+        "die Augenfarbe durch Blut festlegen",
+        "Licht so brechen, dass ein scharfes Bild auf der Netzhaut entstehen kann"
+      ],
+      "correct": 2,
+      "explanation": "Die Linse verändert ihre Form zur Scharfstellung. Gemeinsam mit anderen lichtbrechenden Teilen ermöglicht sie das Sehen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-075",
+      "subject": "biology",
+      "topic": "auge",
+      "competency": "auge",
+      "difficulty": 2,
+      "prompt": "Was geschieht mit der Pupille bei hellem Licht normalerweise?",
+      "options": [
+        "Sie wird kleiner.",
+        "Sie wird zum Augenlid.",
+        "Sie wird immer größer."
+      ],
+      "correct": 0,
+      "explanation": "Die Iris verkleinert bei Helligkeit die Pupille. Dadurch gelangt weniger Licht in das Auge.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-076",
+      "subject": "biology",
+      "topic": "sinne",
+      "competency": "sinne",
+      "difficulty": 2,
+      "prompt": "Welches Sinnesorgan liefert wichtige Informationen über das Gleichgewicht?",
+      "options": [
+        "das Gleichgewichtsorgan im Innenohr",
+        "die Zunge",
+        "die Hornhaut des Fingernagels"
+      ],
+      "correct": 0,
+      "explanation": "Im Innenohr liegen Sinnesorgane, die Lage und Bewegung des Kopfes erfassen. Das Gehirn verbindet diese mit weiteren Informationen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-077",
+      "subject": "biology",
+      "topic": "reflexe",
+      "competency": "reflexe",
+      "difficulty": 2,
+      "prompt": "Warum kann ein schneller Rückziehreflex nützlich sein?",
+      "options": [
+        "Er kann den Kontakt mit einer schädigenden Einwirkung verkürzen.",
+        "Er verhindert, dass Nerven Signale leiten.",
+        "Er ersetzt dauerhaft alle bewussten Bewegungen."
+      ],
+      "correct": 0,
+      "explanation": "Ein Reflex läuft rasch und unwillkürlich ab. Beim Rückziehen kann dadurch die Dauer eines schädlichen Kontakts sinken.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-078",
+      "subject": "biology",
+      "topic": "lernen",
+      "competency": "lernen",
+      "difficulty": 2,
+      "prompt": "Ein Hund hört vor dem Füttern wiederholt einen Ton und reagiert später schon auf den Ton. Was zeigt das?",
+      "options": [
+        "eine Veränderung des Futters in Licht",
+        "eine gelernte Verknüpfung zweier Reize",
+        "dass Hunde keine Sinnesorgane brauchen"
+      ],
+      "correct": 1,
+      "explanation": "Ein zunächst bedeutungsloser Reiz kann durch wiederholte Kopplung eine Reaktion auslösen. Das ist eine Form des Lernens.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-079",
+      "subject": "biology",
+      "topic": "verhalten",
+      "competency": "verhalten",
+      "difficulty": 2,
+      "prompt": "Vögel fliegen bei Gefahr gemeinsam auf. Welche mögliche Funktion hat dieses Verhalten?",
+      "options": [
+        "das Risiko für einzelne Tiere verringern",
+        "alle Fressfeinde sicher abschaffen",
+        "die Fotosynthese beschleunigen"
+      ],
+      "correct": 0,
+      "explanation": "Gemeinsames Fluchtverhalten kann die Entdeckung und den Fang einzelner Tiere erschweren. Es bietet aber keinen vollständigen Schutz.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-080",
+      "subject": "biology",
+      "topic": "beobachten",
+      "competency": "beobachten",
+      "difficulty": 3,
+      "prompt": "Welche Aussage ist eine Beobachtung statt einer Deutung?",
+      "options": [
+        "„Die Maus war bestimmt gelangweilt.“",
+        "„Die Maus wollte uns ärgern.“",
+        "„Die Maus lief dreimal zur linken Ecke.“"
+      ],
+      "correct": 2,
+      "explanation": "Die Laufbewegung lässt sich zählen und beschreiben. Gefühle oder Absichten sind hier Deutungen, die zusätzliche Belege brauchen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-081",
+      "subject": "biology",
+      "topic": "oekologie",
+      "competency": "oekologie",
+      "difficulty": 1,
+      "prompt": "Was ist ein Biotop?",
+      "options": [
+        "nur der größte Baum im Wald",
+        "nur eine einzelne Tierart",
+        "der Lebensraum mit seinen unbelebten Bedingungen"
+      ],
+      "correct": 2,
+      "explanation": "Zum Biotop gehören etwa Boden, Wasser, Licht und Temperatur eines Lebensraums. Die Lebensgemeinschaft heißt Biozönose.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-082",
+      "subject": "biology",
+      "topic": "oekologie",
+      "competency": "oekologie",
+      "difficulty": 2,
+      "prompt": "Was bezeichnet man als Population?",
+      "options": [
+        "nur die unbelebten Umweltfaktoren",
+        "alle Arten auf der Erde zusammen",
+        "Individuen derselben Art in einem Gebiet zu einer bestimmten Zeit"
+      ],
+      "correct": 2,
+      "explanation": "Eine Population umfasst Angehörige einer Art, die räumlich und zeitlich zusammenleben. Verschiedene Arten bilden eine Lebensgemeinschaft.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-083",
+      "subject": "biology",
+      "topic": "umweltfaktoren",
+      "competency": "umweltfaktoren",
+      "difficulty": 1,
+      "prompt": "Welcher Umweltfaktor ist biotisch, also durch Lebewesen bedingt?",
+      "options": [
+        "Konkurrenz durch andere Pflanzen",
+        "die Lufttemperatur",
+        "die Lichtstärke"
+      ],
+      "correct": 0,
+      "explanation": "Konkurrenz entsteht durch andere Lebewesen und ist deshalb biotisch. Temperatur und Licht gehören zu den abiotischen Faktoren.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-084",
+      "subject": "biology",
+      "topic": "nahrungsbeziehungen",
+      "competency": "nahrungsbeziehungen",
+      "difficulty": 2,
+      "prompt": "In der Kette Gras → Heuschrecke → Frosch: Was ist die Heuschrecke?",
+      "options": [
+        "ein unbelebter Umweltfaktor",
+        "ein Pflanzenfresser und Konsument",
+        "ein Produzent durch Fotosynthese"
+      ],
+      "correct": 1,
+      "explanation": "Die Heuschrecke nimmt organische Stoffe mit der Nahrung auf. Sie ist ein Konsument und in dieser Kette ein Pflanzenfresser.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-085",
+      "subject": "biology",
+      "topic": "nahrungsnetze",
+      "competency": "nahrungsnetze",
+      "difficulty": 3,
+      "prompt": "In einem vereinfachten Nahrungsnetz nimmt die Zahl der Mäuse stark ab. Was ist eine mögliche Folge für ihre Fressfeinde?",
+      "options": [
+        "Ihre Nahrung ist davon grundsätzlich unabhängig.",
+        "Alle Fressfeinde werden sofort zu Pflanzen.",
+        "Sie finden weniger Mäuse als Nahrung."
+      ],
+      "correct": 2,
+      "explanation": "Weniger Beutetiere können das Nahrungsangebot verringern. Die tatsächliche Folge hängt auch von alternativer Nahrung ab.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-086",
+      "subject": "biology",
+      "topic": "energiefluss",
+      "competency": "energiefluss",
+      "difficulty": 3,
+      "prompt": "Warum wird nicht die gesamte Energie einer Nahrungsebene an die nächste weitergegeben?",
+      "options": [
+        "Organismen nutzen Energie selbst, und ein Teil wird als Wärme abgegeben.",
+        "Energie wird bei jeder Weitergabe beliebig vermehrt.",
+        "Alle aufgenommenen Stoffe werden vollständig zu Körpermasse."
+      ],
+      "correct": 0,
+      "explanation": "Nur ein Teil der aufgenommenen Energie wird in neuer Biomasse gespeichert. Stoffwechsel und Wärmeabgabe begrenzen die Weitergabe.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-087",
+      "subject": "biology",
+      "topic": "stoffkreislauf",
+      "competency": "stoffkreislauf",
+      "difficulty": 2,
+      "prompt": "Warum sind Zersetzer für einen Wald wichtig?",
+      "options": [
+        "Sie führen Mineralstoffe aus abgestorbenem Material in den Kreislauf zurück.",
+        "Sie verhindern jeden Abbau von Laub.",
+        "Sie erzeugen neue Mineralstoffe aus dem Nichts."
+      ],
+      "correct": 0,
+      "explanation": "Pilze, Bakterien und andere Zersetzer bauen organisches Material ab. Dabei werden Stoffe für andere Organismen wieder verfügbar.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-088",
+      "subject": "biology",
+      "topic": "symbiose",
+      "competency": "symbiose",
+      "difficulty": 2,
+      "prompt": "Bienen erhalten Nektar und übertragen dabei Pollen. Wie profitieren die Blütenpflanzen?",
+      "options": [
+        "Ihre Bestäubung wird unterstützt.",
+        "Sie werden dadurch zu Tieren.",
+        "Sie müssen keine Samen mehr bilden."
+      ],
+      "correct": 0,
+      "explanation": "Beim Blütenbesuch können Bienen Pollen übertragen. So kann eine wechselseitig vorteilhafte Beziehung entstehen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-089",
+      "subject": "biology",
+      "topic": "parasitismus",
+      "competency": "parasitismus",
+      "difficulty": 2,
+      "prompt": "Eine Zecke saugt Blut an einem Säugetier. Welche Beziehung liegt vor?",
+      "options": [
+        "eine Nahrungskette mit der Zecke als Pflanze",
+        "Parasitismus",
+        "Fotosynthese"
+      ],
+      "correct": 1,
+      "explanation": "Die Zecke gewinnt Nahrung auf Kosten ihres Wirts. Bei einer parasitischen Beziehung wird der Wirt geschädigt.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-090",
+      "subject": "biology",
+      "topic": "konkurrenz",
+      "competency": "konkurrenz",
+      "difficulty": 3,
+      "prompt": "Zwei Tierarten fressen dieselbe begrenzte Nahrung. Was kann die Konkurrenz verringern?",
+      "options": [
+        "Alle anderen Umweltfaktoren abschaffen.",
+        "Immer exakt am selben Ort zur selben Zeit fressen.",
+        "Unterschiedliche Nahrung oder unterschiedliche Aktivitätszeiten nutzen."
+      ],
+      "correct": 2,
+      "explanation": "Eine unterschiedliche Nutzung von Ressourcen kann die Überschneidung der Ansprüche und damit Konkurrenz verringern.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-091",
+      "subject": "biology",
+      "topic": "populationen",
+      "competency": "populationen",
+      "difficulty": 3,
+      "prompt": "Warum wächst eine Tierpopulation in der Natur nicht unbegrenzt?",
+      "options": [
+        "Fortpflanzung erzeugt immer unbegrenzt neue Nahrung.",
+        "Jedes Tier lebt unter allen Bedingungen gleich gut.",
+        "Nahrung, Raum und andere Faktoren sind begrenzt."
+      ],
+      "correct": 2,
+      "explanation": "Begrenzte Ressourcen, Krankheiten und Fressfeinde können Wachstum bremsen. Die Bedingungen eines Lebensraums setzen Grenzen.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-092",
+      "subject": "biology",
+      "topic": "artenvielfalt",
+      "competency": "artenvielfalt",
+      "difficulty": 2,
+      "prompt": "Warum kann eine vielfältige Wiese für Insekten günstiger sein als ein häufig gemähter Rasen?",
+      "options": [
+        "Alle Insekten benötigen ausschließlich kurz geschnittenes Gras.",
+        "Sie enthält grundsätzlich keine Pflanzen.",
+        "Sie bietet oft mehr Nahrung und unterschiedliche Lebensräume."
+      ],
+      "correct": 2,
+      "explanation": "Unterschiedliche Pflanzen und Strukturen schaffen verschiedene Nahrungsangebote und Rückzugsorte für unterschiedliche Arten.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-093",
+      "subject": "biology",
+      "topic": "gewaesser",
+      "competency": "gewaesser",
+      "difficulty": 3,
+      "prompt": "Warum kann starker Algenabbau nach einer Algenblüte den Sauerstoffgehalt senken?",
+      "options": [
+        "Abbauende Organismen verbrauchen bei ihrer Zellatmung Sauerstoff.",
+        "Abgestorbene Algen verwandeln allen Sauerstoff in Sand.",
+        "Wasser kann grundsätzlich keinen Sauerstoff enthalten."
+      ],
+      "correct": 0,
+      "explanation": "Beim Abbau großer Mengen organischer Stoffe kann viel Sauerstoff verbraucht werden. Das kann andere Wasserorganismen belasten.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-094",
+      "subject": "biology",
+      "topic": "versuchsplanung",
+      "competency": "versuchsplanung",
+      "difficulty": 2,
+      "prompt": "Was ist eine überprüfbare Hypothese?",
+      "options": [
+        "„Pflanzen sind irgendwie schön.“",
+        "„Bei mehr Licht wächst diese Pflanzenart unter sonst gleichen Bedingungen schneller.“",
+        "„Jeder Versuch wird schon stimmen.“"
+      ],
+      "correct": 1,
+      "explanation": "Eine Hypothese formuliert eine prüfbare Vermutung über einen Zusammenhang. Die Bedingungen müssen für den Vergleich festgelegt werden.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-095",
+      "subject": "biology",
+      "topic": "versuchsplanung",
+      "competency": "versuchsplanung",
+      "difficulty": 3,
+      "prompt": "Du prüfst die Wirkung von Dünger. Warum brauchen die Vergleichspflanzen dieselbe Wassermenge?",
+      "options": [
+        "Damit kein Vergleich mehr möglich ist.",
+        "Damit Unterschiede möglichst auf die Düngermenge zurückzuführen sind.",
+        "Damit alle Pflanzen unabhängig vom Dünger sicher gleich groß werden."
+      ],
+      "correct": 1,
+      "explanation": "Konstante übrige Bedingungen vermindern alternative Erklärungen. Die gezielt veränderte Größe ist hier die Düngermenge.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-096",
+      "subject": "biology",
+      "topic": "versuchsauswertung",
+      "competency": "versuchsauswertung",
+      "difficulty": 2,
+      "prompt": "Drei Pflanzen wachsen 4, 5 und 6 cm. Wie groß ist das mittlere Wachstum?",
+      "options": [
+        "5 cm",
+        "15 cm",
+        "6 cm"
+      ],
+      "correct": 0,
+      "explanation": "Addiere die drei Werte und teile durch ihre Anzahl: (4 + 5 + 6) ÷ 3 = 5 cm.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-097",
+      "subject": "biology",
+      "topic": "versuchsauswertung",
+      "competency": "versuchsauswertung",
+      "difficulty": 3,
+      "prompt": "Ein Versuch mit nur einer Pflanze liefert ein unerwartetes Ergebnis. Was ist sinnvoll?",
+      "options": [
+        "Das Ergebnis ohne Prüfung zum Naturgesetz erklären.",
+        "Alle abweichenden Werte heimlich löschen.",
+        "Den Versuch mit mehreren Pflanzen wiederholen und Bedingungen prüfen."
+      ],
+      "correct": 2,
+      "explanation": "Einzelne Ergebnisse können zufällig oder durch besondere Bedingungen entstehen. Wiederholungen machen Aussagen belastbarer.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
+      }
+    },
+    {
+      "id": "biology-098",
+      "subject": "biology",
+      "topic": "mikroskopieren",
+      "competency": "mikroskopieren",
+      "difficulty": 2,
+      "prompt": "Okular 10-fach, Objektiv 40-fach: Wie groß ist die Gesamtvergrößerung?",
+      "options": [
+        "400-fach",
+        "4-fach",
+        "50-fach"
+      ],
+      "correct": 0,
+      "explanation": "Die Gesamtvergrößerung ergibt sich aus dem Produkt von Okular- und Objektivvergrößerung: 10 × 40 = 400.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-099",
+      "subject": "biology",
+      "topic": "bestimmen",
+      "competency": "bestimmen",
+      "difficulty": 2,
+      "prompt": "Was hilft beim Bestimmen einer unbekannten Pflanzenart?",
+      "options": [
+        "nur nach der eigenen Lieblingsfarbe entscheiden",
+        "jede grüne Pflanze derselben Art zuordnen",
+        "mehrere Merkmale mit einem Bestimmungsschlüssel vergleichen"
+      ],
+      "correct": 2,
+      "explanation": "Blattform, Blütenbau und weitere Merkmale helfen gemeinsam bei der Bestimmung. Ein einzelnes allgemeines Merkmal reicht oft nicht.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.2; 3.3",
+        "stage": "foundation"
+      }
+    },
+    {
+      "id": "biology-100",
+      "subject": "biology",
+      "topic": "bewerten",
+      "competency": "bewerten",
+      "difficulty": 3,
+      "prompt": "Eine Fläche soll bebaut werden, auf der viele Arten leben. Was gehört zu einer biologisch begründeten Bewertung?",
+      "options": [
+        "nur die Farbe des Bauzauns betrachten",
+        "Lebensraumverlust, betroffene Arten und mögliche Alternativen untersuchen",
+        "ohne Untersuchung behaupten, es gebe keine Folgen"
+      ],
+      "correct": 1,
+      "explanation": "Eine Bewertung braucht Informationen über die Lebensgemeinschaft und die Folgen des Eingriffs. Auch Alternativen gehören zur Abwägung.",
+      "curriculum": {
+        "sourceId": "lsa-biology-2019",
+        "section": "3.4",
+        "stage": "grade9"
       }
     }
   ]
