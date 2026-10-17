@@ -72,7 +72,7 @@ test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten'
     await Promise.all([page.waitForEvent('load'),page.getByRole('button',{name:'App aktualisieren',exact:true}).click()]);
     const currentVersion=()=>page.evaluate(()=>new Promise<number>(resolve=>{const channel=new MessageChannel();channel.port1.onmessage=event=>resolve(event.data);navigator.serviceWorker.controller!.postMessage({type:'TEST_VERSION'},[channel.port2]);}));
     await expect.poll(currentVersion).toBe(2);
-    await page.getByRole('button',{name:'Meine Karten',exact:true}).click();await expect(page.getByRole('button',{name:/Bleibt meine Karte.*Wiederholen/})).toBeVisible();
+    await page.getByRole('navigation',{name:'Hauptnavigation'}).getByRole('button',{name:'Meine Karten',exact:true}).click();await expect(page.getByRole('button',{name:/Bleibt meine Karte.*Wiederholen/})).toBeVisible();
     const stored=await page.evaluate(()=>new Promise(resolve=>{const request=indexedDB.open('lernkick',1);request.onsuccess=()=>{const db=request.result;const get=db.transaction('user').objectStore('user').get('data');get.onsuccess=()=>{resolve(get.result);db.close();};};}));expect(stored).toEqual(data);
   }finally{await new Promise<void>(resolve=>server.close(()=>resolve()));}
 });

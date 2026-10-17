@@ -29,13 +29,23 @@ export const competencyStateSchema = z.object({ baseline:z.object({attempts:z.nu
 export const preferenceSchema = z.object({pace:z.enum(['easier','fit','challenge']),explanation:z.enum(['plain','alternate'])});
 export const learningSchema = z.object({
   competencies:z.record(z.string(),competencyStateSchema), preferences:z.record(z.string(),preferenceSchema),
-  unlocks:z.record(z.string(),z.object({at:z.number().nonnegative(),subject:subjectSchema,skillId:z.string(),milestone:z.enum(['growing','secure'])})),
+  unlocks:z.record(z.string(),z.object({at:z.number().nonnegative(),subject:subjectSchema,skillId:z.string(),milestone:z.enum(['growing','secure','practice80'])})),
   recovery:z.record(z.string(),z.object({skillId:z.string(),originalLevel:z.number().int().min(1).max(3),supportLeft:z.number().int().min(0).max(2),failures:z.number().int().nonnegative(),returnTo:z.object({skillId:z.string(),originalLevel:z.number().int().min(1).max(3)}).optional()})),
-  awards:z.record(z.string(),z.number().nonnegative())
+  awards:z.record(z.string(),z.number().nonnegative()),
+  evidence:z.record(z.string(),z.object({window:z.array(z.object({signature:z.string(),correct:z.boolean(),at:z.number().nonnegative()})).max(5),seen:z.record(z.string(),z.number().nonnegative())})).default({})
 });
-export const dataSchema = z.object({version:z.literal(2),...commonData,learning:learningSchema}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
+export const vocabularyEntrySchema=z.object({id:z.string().min(1).max(100).regex(/^vocabulary\./),word:z.string().trim().min(1).max(100),meaning:z.string().trim().min(1).max(500),distractors:z.array(z.string().trim().min(1).max(500)).min(2).max(3)}).refine(entry=>new Set([entry.meaning,...entry.distractors].map(s=>s.toLocaleLowerCase('de'))).size===entry.distractors.length+1,'Antwortmöglichkeiten müssen verschieden sein');
+export type VocabularyEntry=z.infer<typeof vocabularyEntrySchema>;
+export const cardReviewSchema=z.object({box:z.number().int().min(0).max(5),due:z.number().nonnegative(),attempts:z.number().int().nonnegative(),known:z.number().int().nonnegative(),lastRated:z.number().nonnegative()}).refine(p=>p.known<=p.attempts);
+export const studySchema=z.object({hiddenDefaults:z.array(z.string()).max(5000),defaultEdits:z.record(z.string(),cardSchema),reviews:z.record(z.string(),cardReviewSchema),vocabulary:z.array(vocabularyEntrySchema).max(1000),hiddenVocabulary:z.array(z.string()).max(5000),vocabularyEdits:z.record(z.string(),vocabularyEntrySchema)}).superRefine((study,ctx)=>{
+  for(const entries of [study.defaultEdits,study.vocabularyEdits])for(const [id,entry] of Object.entries(entries))if(id!==entry.id)ctx.addIssue({code:'custom',message:'Bearbeitungs-ID stimmt nicht überein'});
+  if(new Set(study.vocabulary.map(entry=>entry.id)).size!==study.vocabulary.length)ctx.addIssue({code:'custom',message:'Wortschatz-IDs müssen eindeutig sein'});
+});
+export const previousDataSchema=z.object({version:z.literal(2),...commonData,learning:learningSchema}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
+export const dataSchema=z.object({version:z.literal(3),...commonData,learning:learningSchema,study:studySchema}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
 export type UserData = z.infer<typeof dataSchema>;
 export type CompetencyState = z.infer<typeof competencyStateSchema>;
 export type Observation = z.infer<typeof observationSchema>;
-export const emptyLearning = (): UserData['learning'] => ({competencies:{},preferences:{},unlocks:{},recovery:{},awards:{}});
-export const emptyData = (): UserData => ({version:2,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false},learning:emptyLearning()});
+export const emptyLearning = (): UserData['learning'] => ({competencies:{},preferences:{},unlocks:{},recovery:{},awards:{},evidence:{}});
+export const emptyStudy = (): UserData['study'] => ({hiddenDefaults:[],defaultEdits:{},reviews:{},vocabulary:[],hiddenVocabulary:[],vocabularyEdits:{}});
+export const emptyData = (): UserData => ({version:3,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false},learning:emptyLearning(),study:emptyStudy()});

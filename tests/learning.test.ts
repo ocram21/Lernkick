@@ -120,17 +120,17 @@ describe('Lernpfad',()=>{
 });
 describe('Dauerhafte Freischaltungen und Migration',()=>{
   it('sichert über Zeit gefestigte Erfolge dauerhaft, auch nach Rückfall oder anderem Motiv',()=>{
-    let data=emptyData();for(const [i,seed] of [1,42,1111].entries())data=correctTask(data,'math.number.compare',seed,1000+i*DAY);
+    let data=emptyData();for(const [i,seed] of [1,42,1111,5000,9000].entries())data=correctTask(data,'math.number.compare',seed,1000+i*DAY);
     expect(confidence(data.learning.competencies['math.number.compare'])).toBe('secure');
-    const unlocked=data.learning.unlocks['math.number.compare:secure'];expect(unlocked).toBeDefined();
+    const unlocked=data.learning.unlocks['math.practice80:step-1'];expect(unlocked).toBeDefined();
     data=recordLearningAnswer(data,generateTask('math.number.compare',2,seededRandom(9))!,false,0,4*DAY).data;
-    expect(confidence(data.learning.competencies['math.number.compare'])).not.toBe('secure');expect(data.learning.unlocks['math.number.compare:secure']).toEqual(unlocked);
+    expect(confidence(data.learning.competencies['math.number.compare'])).not.toBe('secure');expect(data.learning.unlocks['math.practice80:step-1']).toEqual(unlocked);
     const segment=mosaicWorlds[0].segments[0];expect(segmentVisible(data,{...segment,id:'neues-motiv'})).toBe(true);
     expect(readBackup(JSON.stringify(data))).toEqual(data);
   });
   it('übernimmt alte Sicherungen vollständig, ohne Sicherheit oder Zeitpunkte zu erfinden',()=>{
     const old=legacyFixture(),next=migrateData(old);
-    expect(next.version).toBe(2);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards);expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual(old.settings);
+    expect(next.version).toBe(3);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards);expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual(old.settings);
     const skill=next.learning.competencies['math.add.carry'];expect(skill.baseline).toEqual({attempts:9,correct:7});expect(skill.observations).toEqual([]);expect(confidence(skill)).toBe('new');expect(next.learning.unlocks).toEqual({});
     expect(readBackup(JSON.stringify(old))).toEqual(next);expect(migrateData(next)).toEqual(next);
   });
@@ -142,12 +142,12 @@ describe('Dauerhafte Freischaltungen und Migration',()=>{
   it('erhält unbekannte stabile IDs, weist beschädigte und künftige Sicherungen zurück',()=>{
     const data=emptyData();data.learning.unlocks['future.art:secure']={at:1,subject:'math',skillId:'future.art',milestone:'secure'};data.progress['old-unknown']={box:5,due:100,attempts:8,correct:7,lastAward:10};
     expect(readBackup(JSON.stringify(data))).toEqual(data);
-    expect(()=>migrateData({...data,version:3})).toThrow();expect(()=>readBackup(JSON.stringify({...legacyFixture(),progress:{bad:{box:99}}}))).toThrow();expect(()=>dataSchema.parse({...data,learning:{}})).toThrow();
+    expect(()=>migrateData({...data,version:4})).toThrow();expect(()=>readBackup(JSON.stringify({...legacyFixture(),progress:{bad:{box:99}}}))).toThrow();expect(()=>dataSchema.parse({...data,learning:{}})).toThrow();
   });
   it('bietet für andere Fächer getrennte austauschbare Welten ohne Änderung ihrer Auswahl',()=>{
     expect(new Set(mosaicWorlds.map(w=>w.subject)).size).toBe(5);
-    let data=emptyData();for(const q of questions.filter(q=>q.subject==='german').slice(0,3))data=recordLearningAnswer(data,asTask(q),true,0,1000).data;
-    expect(data.learning.unlocks['german.practice:step-1']).toBeDefined();expect(data.learning.recovery.german).toBeUndefined();
+    let data=emptyData();for(const q of questions.filter(q=>q.subject==='german').slice(0,5))data=recordLearningAnswer(data,asTask(q),true,0,1000).data;
+    expect(data.learning.unlocks['german.practice80:step-1']).toBeDefined();expect(data.learning.recovery.german).toBeUndefined();
     expect(mosaicWorlds.find(w=>w.subject==='german')!.segments.some(s=>segmentVisible(data,s))).toBe(true);
   });
 });

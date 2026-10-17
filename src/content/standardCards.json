@@ -1,0 +1,456 @@
+{
+  "revision": "2026.10.17.1",
+  "reviewStatus": "teacher-review-pending",
+  "cards": [
+    {
+      "id": "standard.math.v1.001",
+      "subject": "math",
+      "front": "Was ist eine Summe?",
+      "back": "Das Ergebnis einer Addition, zum Beispiel 3 + 4 = 7."
+    },
+    {
+      "id": "standard.math.v1.002",
+      "subject": "math",
+      "front": "Was ist eine Differenz?",
+      "back": "Das Ergebnis einer Subtraktion, zum Beispiel 9 − 2 = 7."
+    },
+    {
+      "id": "standard.math.v1.003",
+      "subject": "math",
+      "front": "Was ist ein Produkt?",
+      "back": "Das Ergebnis einer Multiplikation, zum Beispiel 3 × 4 = 12."
+    },
+    {
+      "id": "standard.math.v1.004",
+      "subject": "math",
+      "front": "Was ist ein Quotient?",
+      "back": "Das Ergebnis einer Division, zum Beispiel 12 ÷ 3 = 4."
+    },
+    {
+      "id": "standard.math.v1.005",
+      "subject": "math",
+      "front": "Was ist eine Primzahl?",
+      "back": "Eine natürliche Zahl größer als 1, die genau zwei positive Teiler hat: 1 und sich selbst."
+    },
+    {
+      "id": "standard.math.v1.006",
+      "subject": "math",
+      "front": "Was bedeuten Zähler und Nenner?",
+      "back": "Beim Bruch steht der Zähler oben und der Nenner unten. Der Nenner nennt die Anzahl gleich großer Teile."
+    },
+    {
+      "id": "standard.math.v1.007",
+      "subject": "math",
+      "front": "Was bedeutet Prozent?",
+      "back": "Prozent heißt „von hundert“. 25 % sind 25 von 100, also ein Viertel."
+    },
+    {
+      "id": "standard.math.v1.008",
+      "subject": "math",
+      "front": "Was ist der Grundwert?",
+      "back": "Das Ganze, auf das sich eine Prozentangabe bezieht. Der Grundwert entspricht 100 %."
+    },
+    {
+      "id": "standard.math.v1.009",
+      "subject": "math",
+      "front": "Was ist eine Variable?",
+      "back": "Ein Zeichen für eine Zahl, etwa x. Ihr Wert kann unbekannt sein oder sich ändern."
+    },
+    {
+      "id": "standard.math.v1.010",
+      "subject": "math",
+      "front": "Was ist eine Gleichung?",
+      "back": "Eine Aussage, dass zwei Terme gleich sind. Eine Lösung macht diese Aussage wahr."
+    },
+    {
+      "id": "standard.math.v1.011",
+      "subject": "math",
+      "front": "Was ist der Umfang?",
+      "back": "Die Länge des Randes einer ebenen Figur. Beim Rechteck werden alle vier Seiten addiert."
+    },
+    {
+      "id": "standard.math.v1.012",
+      "subject": "math",
+      "front": "Was ist der Flächeninhalt?",
+      "back": "Die Größe einer Fläche. Er wird zum Beispiel in cm² oder m² angegeben."
+    },
+    {
+      "id": "standard.math.v1.013",
+      "subject": "math",
+      "front": "Was ist das Volumen?",
+      "back": "Der Rauminhalt eines Körpers, zum Beispiel in cm³, m³ oder Litern."
+    },
+    {
+      "id": "standard.math.v1.014",
+      "subject": "math",
+      "front": "Was ist der Mittelwert?",
+      "back": "Die Summe aller Werte geteilt durch die Anzahl der Werte."
+    },
+    {
+      "id": "standard.math.v1.015",
+      "subject": "math",
+      "front": "Was ist der Median?",
+      "back": "Der mittlere Wert einer geordneten Liste. Bei gerader Anzahl ist es der Mittelwert der beiden mittleren Werte."
+    },
+    {
+      "id": "standard.german.v1.001",
+      "subject": "german",
+      "front": "Was ist ein Nomen?",
+      "back": "Ein Wort für Menschen, Tiere, Dinge oder Vorstellungen. Nomen werden großgeschrieben, zum Beispiel „Hoffnung“."
+    },
+    {
+      "id": "standard.german.v1.002",
+      "subject": "german",
+      "front": "Was ist ein Verb?",
+      "back": "Ein Wort, das eine Tätigkeit, einen Vorgang oder einen Zustand ausdrückt, etwa „laufen“ oder „sein“."
+    },
+    {
+      "id": "standard.german.v1.003",
+      "subject": "german",
+      "front": "Was ist ein Adjektiv?",
+      "back": "Ein Wort, das Eigenschaften beschreibt, zum Beispiel „ruhig“ oder „groß“."
+    },
+    {
+      "id": "standard.german.v1.004",
+      "subject": "german",
+      "front": "Was ist ein Pronomen?",
+      "back": "Ein Wort, das etwa ein Nomen ersetzt oder begleitet, zum Beispiel „ich“, „sie“ oder „mein“."
+    },
+    {
+      "id": "standard.german.v1.005",
+      "subject": "german",
+      "front": "Was ist das Subjekt?",
+      "back": "Das Satzglied, nach dem du mit „Wer oder was?“ fragst: „Die Katze schläft.“ – die Katze."
+    },
+    {
+      "id": "standard.german.v1.006",
+      "subject": "german",
+      "front": "Was ist das Prädikat?",
+      "back": "Das Verb oder die zusammengehörenden Verbteile im Satz: „Sie hat gelesen.“ – hat gelesen."
+    },
+    {
+      "id": "standard.german.v1.007",
+      "subject": "german",
+      "front": "Was ist ein Akkusativobjekt?",
+      "back": "Eine Ergänzung, nach der du mit „Wen oder was?“ fragst: „Ich sehe den Bus.“ – den Bus."
+    },
+    {
+      "id": "standard.german.v1.008",
+      "subject": "german",
+      "front": "Was ist ein Dativobjekt?",
+      "back": "Eine Ergänzung, nach der du mit „Wem?“ fragst: „Ich helfe dem Freund.“ – dem Freund."
+    },
+    {
+      "id": "standard.german.v1.009",
+      "subject": "german",
+      "front": "Was ist das Präteritum?",
+      "back": "Eine Zeitform der Vergangenheit, zum Beispiel „ich ging“ oder „ich lernte“."
+    },
+    {
+      "id": "standard.german.v1.010",
+      "subject": "german",
+      "front": "Was ist das Perfekt?",
+      "back": "Eine Vergangenheitsform mit „haben“ oder „sein“ und einem Partizip: „Ich habe gelernt.“"
+    },
+    {
+      "id": "standard.german.v1.011",
+      "subject": "german",
+      "front": "Was ist ein sachlicher Bericht?",
+      "back": "Ein Text, der möglichst genau informiert, was wann, wo und mit wem geschehen ist."
+    },
+    {
+      "id": "standard.german.v1.012",
+      "subject": "german",
+      "front": "Was ist eine Inhaltsangabe?",
+      "back": "Eine kurze sachliche Wiedergabe des Wesentlichen eines Textes, meist im Präsens."
+    },
+    {
+      "id": "standard.german.v1.013",
+      "subject": "german",
+      "front": "Was ist ein Argument?",
+      "back": "Eine begründende Aussage, die eine Behauptung oder einen Standpunkt stützt."
+    },
+    {
+      "id": "standard.german.v1.014",
+      "subject": "german",
+      "front": "Was ist ein direktes Zitat?",
+      "back": "Wörtlich übernommener Text, der als Übernahme gekennzeichnet und mit seiner Quelle angegeben wird."
+    },
+    {
+      "id": "standard.german.v1.015",
+      "subject": "german",
+      "front": "Was ist eine Metapher?",
+      "back": "Ein bildlicher Ausdruck mit übertragener Bedeutung, zum Beispiel „ein Meer von Blumen“."
+    },
+    {
+      "id": "standard.social.v1.001",
+      "subject": "social",
+      "front": "Was bedeutet Demokratie?",
+      "back": "Politische Macht geht vom Volk aus und wird unter anderem durch freie Wahlen und Beteiligung legitimiert."
+    },
+    {
+      "id": "standard.social.v1.002",
+      "subject": "social",
+      "front": "Was sind Grundrechte?",
+      "back": "Grundlegende Rechte, die Menschen vor ungerechtfertigten Eingriffen des Staates schützen."
+    },
+    {
+      "id": "standard.social.v1.003",
+      "subject": "social",
+      "front": "Was ist das Grundgesetz?",
+      "back": "Die Verfassung Deutschlands. Sie regelt Grundrechte und die grundlegende Ordnung des Staates."
+    },
+    {
+      "id": "standard.social.v1.004",
+      "subject": "social",
+      "front": "Was bedeutet Gewaltenteilung?",
+      "back": "Staatliche Macht verteilt sich auf Gesetzgebung, ausführende Gewalt und Rechtsprechung."
+    },
+    {
+      "id": "standard.social.v1.005",
+      "subject": "social",
+      "front": "Was ist ein Rechtsstaat?",
+      "back": "Ein Staat, in dem staatliches Handeln an Recht und Gesetz gebunden und gerichtlich überprüfbar ist."
+    },
+    {
+      "id": "standard.social.v1.006",
+      "subject": "social",
+      "front": "Was ist Föderalismus?",
+      "back": "Die Verteilung staatlicher Aufgaben zwischen Bund und Ländern."
+    },
+    {
+      "id": "standard.social.v1.007",
+      "subject": "social",
+      "front": "Was ist der Bundestag?",
+      "back": "Das vom Volk gewählte Parlament auf Bundesebene. Er beschließt unter anderem Gesetze und kontrolliert die Regierung."
+    },
+    {
+      "id": "standard.social.v1.008",
+      "subject": "social",
+      "front": "Was ist der Bundesrat?",
+      "back": "Das Organ, durch das die Länder an der Gesetzgebung und Verwaltung des Bundes mitwirken."
+    },
+    {
+      "id": "standard.social.v1.009",
+      "subject": "social",
+      "front": "Was ist eine Kommune?",
+      "back": "Eine Gemeinde oder Stadt als örtliche Ebene der Politik und Verwaltung."
+    },
+    {
+      "id": "standard.social.v1.010",
+      "subject": "social",
+      "front": "Was ist eine Koalition?",
+      "back": "Ein Bündnis mehrerer Parteien, oft zur gemeinsamen Regierungsbildung."
+    },
+    {
+      "id": "standard.social.v1.011",
+      "subject": "social",
+      "front": "Was ist die Opposition?",
+      "back": "Die parlamentarischen Kräfte, die nicht die Regierung tragen und Alternativen sowie Kritik vertreten."
+    },
+    {
+      "id": "standard.social.v1.012",
+      "subject": "social",
+      "front": "Was ist ein Kompromiss?",
+      "back": "Eine ausgehandelte Lösung, bei der Beteiligte einen Teil ihrer Forderungen zurücknehmen."
+    },
+    {
+      "id": "standard.social.v1.013",
+      "subject": "social",
+      "front": "Was ist Diskriminierung?",
+      "back": "Die Benachteiligung von Menschen wegen zugeschriebener oder tatsächlicher Zugehörigkeiten oder Merkmale."
+    },
+    {
+      "id": "standard.social.v1.014",
+      "subject": "social",
+      "front": "Was ist Solidarität?",
+      "back": "Sich für andere und gemeinsame Anliegen einsetzen, besonders wenn jemand Unterstützung braucht."
+    },
+    {
+      "id": "standard.social.v1.015",
+      "subject": "social",
+      "front": "Was ist eine Petition?",
+      "back": "Eine Bitte oder Beschwerde an eine zuständige staatliche Stelle oder Volksvertretung."
+    },
+    {
+      "id": "standard.biology.v1.001",
+      "subject": "biology",
+      "front": "Was ist eine Zelle?",
+      "back": "Die kleinste lebende Baueinheit eines Organismus."
+    },
+    {
+      "id": "standard.biology.v1.002",
+      "subject": "biology",
+      "front": "Was ist ein Organ?",
+      "back": "Ein Körperteil aus verschiedenen Geweben mit bestimmten Aufgaben, zum Beispiel das Herz."
+    },
+    {
+      "id": "standard.biology.v1.003",
+      "subject": "biology",
+      "front": "Was ist Fotosynthese?",
+      "back": "Grüne Pflanzen bauen mithilfe von Licht aus Wasser und Kohlenstoffdioxid energiereiche Stoffe auf; dabei entsteht Sauerstoff."
+    },
+    {
+      "id": "standard.biology.v1.004",
+      "subject": "biology",
+      "front": "Was ist Zellatmung?",
+      "back": "Der Abbau energiereicher Stoffe zur Freisetzung nutzbarer Energie. Bei aerober Zellatmung wird Sauerstoff benötigt."
+    },
+    {
+      "id": "standard.biology.v1.005",
+      "subject": "biology",
+      "front": "Was ist Bestäubung?",
+      "back": "Die Übertragung von Pollen auf die Narbe einer Blüte derselben Pflanzenart."
+    },
+    {
+      "id": "standard.biology.v1.006",
+      "subject": "biology",
+      "front": "Was ist Befruchtung?",
+      "back": "Die Verschmelzung einer männlichen und einer weiblichen Geschlechtszelle."
+    },
+    {
+      "id": "standard.biology.v1.007",
+      "subject": "biology",
+      "front": "Was ist ein Ökosystem?",
+      "back": "Ein Ökosystem besteht aus Lebewesen und ihrer unbelebten Umwelt, die miteinander in Wechselwirkung stehen."
+    },
+    {
+      "id": "standard.biology.v1.008",
+      "subject": "biology",
+      "front": "Was ist ein Biotop?",
+      "back": "Der Lebensraum mit seinen unbelebten Bedingungen, zum Beispiel Boden, Wasser, Licht und Temperatur."
+    },
+    {
+      "id": "standard.biology.v1.009",
+      "subject": "biology",
+      "front": "Was ist eine Population?",
+      "back": "Individuen derselben Art, die zu einer bestimmten Zeit in einem Gebiet leben."
+    },
+    {
+      "id": "standard.biology.v1.010",
+      "subject": "biology",
+      "front": "Was ist ein abiotischer Umweltfaktor?",
+      "back": "Ein Einfluss der unbelebten Umwelt, zum Beispiel Licht, Temperatur oder Wasser."
+    },
+    {
+      "id": "standard.biology.v1.011",
+      "subject": "biology",
+      "front": "Was ist ein Produzent im Ökosystem?",
+      "back": "Ein Lebewesen, das organische Stoffe aus anorganischen Stoffen aufbaut, zum Beispiel eine grüne Pflanze durch Fotosynthese."
+    },
+    {
+      "id": "standard.biology.v1.012",
+      "subject": "biology",
+      "front": "Was ist ein Konsument?",
+      "back": "Ein Lebewesen, das organische Stoffe mit der Nahrung aufnimmt, zum Beispiel ein Pflanzenfresser."
+    },
+    {
+      "id": "standard.biology.v1.013",
+      "subject": "biology",
+      "front": "Was ist ein Zersetzer?",
+      "back": "Ein Organismus, der abgestorbenes organisches Material abbaut, etwa viele Pilze oder Bakterien."
+    },
+    {
+      "id": "standard.biology.v1.014",
+      "subject": "biology",
+      "front": "Was ist ein Reflex?",
+      "back": "Eine schnelle, unwillkürliche Reaktion auf einen bestimmten Reiz."
+    },
+    {
+      "id": "standard.biology.v1.015",
+      "subject": "biology",
+      "front": "Was ist eine Hypothese?",
+      "back": "Eine begründete, überprüfbare Vermutung über einen Zusammenhang."
+    },
+    {
+      "id": "standard.geography.v1.001",
+      "subject": "geography",
+      "front": "Was zeigt ein Kartenmaßstab?",
+      "back": "Das Verhältnis zwischen einer Strecke auf der Karte und der entsprechenden Strecke in Wirklichkeit."
+    },
+    {
+      "id": "standard.geography.v1.002",
+      "subject": "geography",
+      "front": "Was ist eine Kartenlegende?",
+      "back": "Eine Erklärung der auf einer Karte verwendeten Zeichen und Farben."
+    },
+    {
+      "id": "standard.geography.v1.003",
+      "subject": "geography",
+      "front": "Was ist der Äquator?",
+      "back": "Der gedachte Breitenkreis bei 0°, der die Erde in Nord- und Südhalbkugel teilt."
+    },
+    {
+      "id": "standard.geography.v1.004",
+      "subject": "geography",
+      "front": "Was ist geografische Breite?",
+      "back": "Der Winkelabstand eines Ortes vom Äquator nach Norden oder Süden."
+    },
+    {
+      "id": "standard.geography.v1.005",
+      "subject": "geography",
+      "front": "Was beschreibt das Wetter?",
+      "back": "Den Zustand der Atmosphäre an einem Ort zu einer bestimmten Zeit, etwa Temperatur, Wind und Niederschlag."
+    },
+    {
+      "id": "standard.geography.v1.006",
+      "subject": "geography",
+      "front": "Was beschreibt das Klima?",
+      "back": "Die typischen Wetterverhältnisse und ihre Schwankungen in einer Region über einen langen Zeitraum."
+    },
+    {
+      "id": "standard.geography.v1.007",
+      "subject": "geography",
+      "front": "Was ist Verdunstung?",
+      "back": "Der Übergang von flüssigem Wasser zu Wasserdampf."
+    },
+    {
+      "id": "standard.geography.v1.008",
+      "subject": "geography",
+      "front": "Was ist Kondensation?",
+      "back": "Der Übergang von Wasserdampf zu flüssigem Wasser, zum Beispiel zu kleinen Wolkentröpfchen."
+    },
+    {
+      "id": "standard.geography.v1.009",
+      "subject": "geography",
+      "front": "Was ist Erosion?",
+      "back": "Der Abtrag von Boden oder Gestein, etwa durch fließendes Wasser oder Wind."
+    },
+    {
+      "id": "standard.geography.v1.010",
+      "subject": "geography",
+      "front": "Was ist eine Ressource?",
+      "back": "Ein nutzbares Mittel oder ein natürlicher Vorrat, zum Beispiel Wasser, Boden oder Rohstoffe."
+    },
+    {
+      "id": "standard.geography.v1.011",
+      "subject": "geography",
+      "front": "Was ist ein erneuerbarer Energieträger?",
+      "back": "Eine sich erneuernde Energiequelle, zum Beispiel Wind oder Sonnenstrahlung."
+    },
+    {
+      "id": "standard.geography.v1.012",
+      "subject": "geography",
+      "front": "Was ist ein Standortfaktor?",
+      "back": "Eine Bedingung, die die Wahl eines Standorts beeinflusst, etwa Verkehrsanbindung oder verfügbare Arbeitskräfte."
+    },
+    {
+      "id": "standard.geography.v1.013",
+      "subject": "geography",
+      "front": "Was ist Infrastruktur?",
+      "back": "Grundlegende Einrichtungen und Netze, zum Beispiel Straßen, Wasserleitungen, Schulen und Internetverbindungen."
+    },
+    {
+      "id": "standard.geography.v1.014",
+      "subject": "geography",
+      "front": "Was ist Globalisierung?",
+      "back": "Die zunehmende weltweite Verflechtung, etwa durch Handel, Produktion, Kommunikation und Verkehr."
+    },
+    {
+      "id": "standard.geography.v1.015",
+      "subject": "geography",
+      "front": "Was sind räumliche Disparitäten?",
+      "back": "Unterschiede zwischen Regionen, zum Beispiel bei Einkommen, Versorgung oder Bildungsmöglichkeiten."
+    }
+  ]
+}

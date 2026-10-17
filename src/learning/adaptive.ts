@@ -5,6 +5,7 @@ import { generateTask, seededRandom } from './generator';
 import { asTask, skillFor } from './tasks';
 import { confidence, prerequisiteReady, updateCompetency, DAY } from './mastery';
 import type { HelpLevel, LearningTask } from './types';
+import { recordProgressEvidence } from './progressRules';
 export const preferenceFor=(data:UserData,subject:Subject)=>data.learning.preferences[subject]??{pace:'fit' as const,explanation:'plain' as const};
 export type SelectionContext={used:string[];signatures:string[];now?:number;random?:()=>number};
 export function nextMathTask(pool:Question[],data:UserData,context:SelectionContext):LearningTask|undefined {
@@ -57,15 +58,6 @@ export function recordLearningAnswer(data:UserData,task:LearningTask,correct:boo
   const recorded=recordAnswer(data,task,correct,now);const learning={...data.learning,competencies:{...data.learning.competencies},unlocks:{...data.learning.unlocks},recovery:{...data.learning.recovery},awards:{...data.learning.awards}};
   const state=updateCompetency(learning.competencies[task.skillId],{taskId:task.id,signature:task.signature,at:now,correct,help,level:task.difficulty});
   learning.competencies[task.skillId]=state;
-  const newMilestones:string[]=[];const status=confidence(state);
-  for(const milestone of task.subject==='math'?['growing','secure'] as const:[]) {
-    const id=`${task.skillId}:${milestone}`;
-    if((status==='secure'||status===milestone)&&!learning.unlocks[id]) {learning.unlocks[id]={at:now,subject:task.subject,skillId:task.skillId,milestone};newMilestones.push(id);}
-  }
-  if(task.subject!=='math') {
-    const practiced=new Set(Object.entries(learning.competencies).filter(([id])=>id.startsWith(task.subject+'.')).flatMap(([,s])=>s.observations.filter(o=>o.correct&&o.help===0).map(o=>o.taskId))).size;
-    for(let i=1;i<=12;i++){const id=`${task.subject}.practice:step-${i}`;if(practiced>=i*3&&!learning.unlocks[id]){learning.unlocks[id]={at:now,subject:task.subject,skillId:`${task.subject}.practice`,milestone:'growing'};newMilestones.push(id);}}
-  }
   if(task.subject==='math') {
     const pending=learning.recovery.math;
     if(!correct)learning.recovery.math={skillId:task.skillId,originalLevel:pending?.skillId===task.skillId?pending.originalLevel:task.difficulty,supportLeft:2,failures:pending?.skillId===task.skillId?pending.failures+1:1,...(pending?{returnTo:pending.skillId===task.skillId?pending.returnTo:pending.returnTo??{skillId:pending.skillId,originalLevel:pending.originalLevel}}:{})};
@@ -82,5 +74,6 @@ export function recordLearningAnswer(data:UserData,task:LearningTask,correct:boo
     if(points)learning.awards[task.skillId]=now;
     else recorded.data.progress[task.id].lastAward=data.progress[task.id]?.lastAward??0;
   }
-  return {data:{...recorded.data,learning},points,newMilestones};
+  const progress=recordProgressEvidence({...recorded.data,learning},task.subject,task.signature,correct,help,now);
+  return {...progress,points};
 }

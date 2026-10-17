@@ -1,0 +1,231 @@
+{
+  "revision": "2026.10.17.1",
+  "reviewStatus": "teacher-review-pending",
+  "entries": [
+    {
+      "id": "vocabulary.standard.v1.001",
+      "word": "Universität",
+      "meaning": "Eine Hochschule, an der Menschen studieren und forschen.",
+      "distractors": [
+        "Eine Arztpraxis für Tiere.",
+        "Ein Geschäft für Lebensmittel."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.002",
+      "word": "Termin",
+      "meaning": "Ein vereinbarter Zeitpunkt für ein Treffen oder eine Aufgabe.",
+      "distractors": [
+        "Ein Ort zum Übernachten.",
+        "Ein Gegenstand zum Messen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.003",
+      "word": "Frist",
+      "meaning": "Ein Zeitraum oder Endtermin, bis zu dem etwas erledigt sein muss.",
+      "distractors": [
+        "Eine beliebige Pause ohne Ende.",
+        "Eine kurze Wegbeschreibung."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.004",
+      "word": "Antrag",
+      "meaning": "Eine Bitte an eine zuständige Stelle, über etwas zu entscheiden.",
+      "distractors": [
+        "Ein Bericht über das gestrige Wetter.",
+        "Ein Werkzeug zum Schrauben."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.005",
+      "word": "Bescheinigung",
+      "meaning": "Ein schriftlicher Nachweis über einen bestimmten Sachverhalt.",
+      "distractors": [
+        "Ein Versprechen ohne jede Angabe.",
+        "Ein Behälter für Werkzeuge."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.006",
+      "word": "Voraussetzung",
+      "meaning": "Etwas, das erfüllt sein muss, damit etwas anderes möglich ist.",
+      "distractors": [
+        "Das zufällige Ende einer Geschichte.",
+        "Eine Einladung zum Essen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.007",
+      "word": "zuständig",
+      "meaning": "Für eine bestimmte Aufgabe verantwortlich.",
+      "distractors": [
+        "Gerade sehr müde.",
+        "Besonders weit entfernt."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.008",
+      "word": "zuverlässig",
+      "meaning": "So, dass man sich auf die Person oder Sache verlassen kann.",
+      "distractors": [
+        "Immer unvorhersehbar und unpünktlich.",
+        "Nur für einen einzigen Tag geöffnet."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.009",
+      "word": "verschieben",
+      "meaning": "Einen Termin auf einen anderen Zeitpunkt legen oder etwas an eine andere Stelle bewegen.",
+      "distractors": [
+        "Etwas endgültig beweisen.",
+        "Eine Rechnung immer halbieren."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.010",
+      "word": "vereinbaren",
+      "meaning": "Sich gemeinsam auf etwas einigen.",
+      "distractors": [
+        "Etwas heimlich verschwinden lassen.",
+        "Eine Sache ohne Grund zerbrechen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.011",
+      "word": "Unterlagen",
+      "meaning": "Dokumente, die für eine Aufgabe oder einen Vorgang gebraucht werden.",
+      "distractors": [
+        "Nur die Füße eines Tisches.",
+        "Ausschließlich kurze Musikstücke."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.012",
+      "word": "Gebühr",
+      "meaning": "Ein Geldbetrag, der für eine bestimmte Leistung verlangt wird.",
+      "distractors": [
+        "Ein kostenloses Geschenk.",
+        "Die Länge einer Strecke."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.013",
+      "word": "Quittung",
+      "meaning": "Ein Beleg, der bestätigt, dass eine Zahlung empfangen wurde.",
+      "distractors": [
+        "Ein Fahrplan ohne Uhrzeiten.",
+        "Ein Hinweis auf die nächste Haltestelle."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.014",
+      "word": "Umtausch",
+      "meaning": "Eine Ware zurückgeben und dafür eine andere erhalten.",
+      "distractors": [
+        "Eine Ware ohne Veränderung behalten.",
+        "Einen Raum gründlich reinigen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.015",
+      "word": "Rücksicht",
+      "meaning": "Die Bedürfnisse und Gefühle anderer mitbedenken.",
+      "distractors": [
+        "Nur die eigenen Wünsche beachten.",
+        "Immer rückwärts gehen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.016",
+      "word": "vereinfachen",
+      "meaning": "Etwas leichter verständlich oder leichter ausführbar machen.",
+      "distractors": [
+        "Etwas absichtlich komplizierter machen.",
+        "Etwas mit Sicherheit verdoppeln."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.017",
+      "word": "ergänzen",
+      "meaning": "Etwas Fehlendes hinzufügen.",
+      "distractors": [
+        "Alles Vorhandene entfernen.",
+        "Eine Aussage ohne Prüfung ablehnen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.018",
+      "word": "begründen",
+      "meaning": "Sagen, warum eine Aussage oder Entscheidung sinnvoll ist.",
+      "distractors": [
+        "Eine Behauptung nur lauter wiederholen.",
+        "Einen Text ohne Erklärung löschen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.019",
+      "word": "vergleichen",
+      "meaning": "Gemeinsamkeiten und Unterschiede untersuchen.",
+      "distractors": [
+        "Zwei Dinge grundsätzlich gleich nennen.",
+        "Etwas ohne Hinsehen auswählen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.020",
+      "word": "vermutlich",
+      "meaning": "Wahrscheinlich, aber noch nicht sicher.",
+      "distractors": [
+        "Mit vollständiger Sicherheit.",
+        "Unter keinen Umständen möglich."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.021",
+      "word": "verbindlich",
+      "meaning": "So zugesagt oder festgelegt, dass man sich daran halten soll.",
+      "distractors": [
+        "Völlig beliebig und ohne Zusage.",
+        "Nur in einer Fantasiegeschichte vorhanden."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.022",
+      "word": "freiwillig",
+      "meaning": "Aus eigener Entscheidung, ohne dazu gezwungen zu werden.",
+      "distractors": [
+        "Nur unter Zwang.",
+        "Ganz ohne eigenes Wissen."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.023",
+      "word": "geeignet",
+      "meaning": "Für einen bestimmten Zweck passend.",
+      "distractors": [
+        "Für jeden Zweck grundsätzlich unbrauchbar.",
+        "Immer besonders teuer."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.024",
+      "word": "Gelegenheit",
+      "meaning": "Eine passende Möglichkeit oder ein günstiger Zeitpunkt.",
+      "distractors": [
+        "Ein fest verschlossener Gegenstand.",
+        "Ein Fehler in jeder Rechnung."
+      ]
+    },
+    {
+      "id": "vocabulary.standard.v1.025",
+      "word": "Missverständnis",
+      "meaning": "Eine Situation, in der etwas anders verstanden wird, als es gemeint war.",
+      "distractors": [
+        "Eine von allen gleich verstandene Aussage.",
+        "Eine absichtlich leere Schublade."
+      ]
+    }
+  ]
+}

@@ -38,7 +38,7 @@ test('Fehler führen zu neuen unterstützten Aufgaben; Hilfen und Weiter-Button 
 
 test('eigener Lernfortschritt legt Mosaikteile frei, alle fünf Fachwelten sind verfügbar',async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:'Mathematik 100 Fragen'}).click();
-  for(let i=0;i<3;i++){await answerCorrect(page);await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();}
+  for(let i=0;i<5;i++){await answerCorrect(page);await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();}
   await expect(page.locator('.question-topic')).toHaveText('Addieren ohne Zehnerübergang');
   await leaveRound(page);await expect(page.getByRole('group',{name:'Zahlenwerkstatt: 1 von 12 Teilen sichtbar'})).toBeVisible();
   for(const subject of ['Deutsch','Sozialkunde','Biologie','Geografie','Mathematik'])await page.getByRole('group',{name:'Fach für den Fortschritt'}).getByRole('button',{name:new RegExp('^'+subject+' ')}).click();
@@ -49,8 +49,8 @@ test('eigener Lernfortschritt legt Mosaikteile frei, alle fünf Fachwelten sind 
 
 test('IndexedDB-Version 1 migriert ohne Verlust und exportiert eine importierbare neue Sicherung',async({page})=>{
   const {learning:_,...fields}=emptyData();const legacy={...fields,version:1,progress:{'math-002':{box:4,due:123456,attempts:9,correct:7,lastAward:123},'unknown-old-id':{box:2,due:42,attempts:2,correct:1,lastAward:1}},scores:{...fields.scores,math:90},cards:[{id:'old-card',front:'Meine alte Karte',back:'Bleibt erhalten.',subject:'math'}],settings:{reducedMotion:true}};
-  await seed(page,legacy);const migrated=await stored(page);expect(migrated.version).toBe(2);expect(migrated.progress).toEqual(legacy.progress);expect(migrated.scores).toEqual(legacy.scores);expect(migrated.cards).toEqual(legacy.cards);expect(migrated.settings).toEqual(legacy.settings);expect(migrated.learning.competencies['math.add.carry'].baseline).toEqual({attempts:9,correct:7});expect(migrated.learning.unlocks).toEqual({});
-  await page.getByRole('button',{name:'Meine Karten',exact:true}).click();await expect(page.getByRole('button',{name:/Meine alte Karte.*Wiederholen/})).toBeVisible();
+  await seed(page,legacy);const migrated=await stored(page);expect(migrated.version).toBe(3);expect(migrated.progress).toEqual(legacy.progress);expect(migrated.scores).toEqual(legacy.scores);expect(migrated.cards).toEqual(legacy.cards);expect(migrated.settings).toEqual(legacy.settings);expect(migrated.learning.competencies['math.add.carry'].baseline).toEqual({attempts:9,correct:7});expect(migrated.learning.unlocks).toEqual({});
+  await page.getByRole('navigation',{name:'Hauptnavigation'}).getByRole('button',{name:'Meine Karten',exact:true}).click();await expect(page.getByRole('button',{name:/Meine alte Karte.*Wiederholen/})).toBeVisible();
   await page.getByRole('button',{name:'Einstellungen',exact:true}).click();const downloadEvent=page.waitForEvent('download');await page.getByRole('button',{name:'Sicherung exportieren',exact:true}).click();const download=await downloadEvent;const exported=JSON.parse(readFileSync((await download.path())!,'utf8'));expect(exported).toEqual(migrated);
   await importData(page,legacy);await expect.poll(()=>stored(page)).toEqual(migrated);
   await importData(page,exported);await expect.poll(()=>stored(page)).toEqual(migrated);
