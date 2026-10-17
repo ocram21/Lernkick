@@ -41,9 +41,9 @@ Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle
 
 Für ein neues Fortschrittsfeld werden je Fach mindestens vier von fünf verschiedenen Aufgaben ohne Hilfe richtig beantwortet. Dieselbe Aufgabensignatur zählt innerhalb von 24 Stunden nicht erneut; nach Freigabe beginnt ein neues Fenster. Alte Freischaltungen bleiben erhalten. Langfristige Kompetenzfestigung wird separat bewertet. Details: [Überarbeitung vom 17.10.2026](docs/UEBERARBEITUNG-2026-10-17.md). Lesbarer Anfangsbestand: [Lernkarten und Wortschatz](docs/LERNKARTEN-UND-WORTSCHATZ.md).
 
-## Spiele und Kartensuche
+## Galgenraten und Kartensuche
 
-„Lernspiele“ ergänzt Kreuzworträtsel, Wortsalat, Zahlenrätsel und Galgenraten. Die Spiele verwenden vorhandene Karten, Alltagswörter und Mathefragen und sind offline nutzbar. Die Kartenverwaltung zeigt zunächst zehn Karten, mit Suche, Sortierung und „Weitere anzeigen“. Der untere Schriftzug wurde entfernt. Details und Prüfung: [Erweiterungsstand](docs/ERWEITERUNG-SPIELE-KARTEN.md).
+„Galgenraten“ startet direkt über einen eigenen Button mit Galgensymbol auf der Startseite. Begriffe stammen aus den vorhandenen Karten und dem Wortschatz; das Spiel ist offline nutzbar. Ä, Ö, Ü und ß sind eigene Buchstaben. Zehn Fehlversuche bauen die anfangs leere Zeichnung Schritt für Schritt auf. Die Kartenverwaltung zeigt zunächst zehn Karten, mit Suche, Sortierung und „Weitere anzeigen“. Details und Prüfung: [Erweiterungsstand](docs/ERWEITERUNG-SPIELE-KARTEN.md).
 
 
 ## Architektur und Inhalte pflegen

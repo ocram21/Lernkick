@@ -8,19 +8,36 @@ Suche in Frage und Antwort, bestehender Fachfilter, Sortierung Neueste zuerst / 
 
 Kein Wechsel der Datenbank oder Sicherungsversion nötig: `createdAt` ist eine optionale Ergänzung der bestehenden Kartenstruktur. Sicherungen der Versionen 1–3 bleiben lesbar, persönliche Änderungen und Ausblendungen erhalten.
 
-## Lernspiele
+## Galgenraten
 
-Ein eigener Einstieg „Lernspiele“ unter den sechs bestehenden Bereichen führt zu vier getrennt auswählbaren Spielen:
+Der eigene quadratische Button „Galgenraten“ mit schlichtem Galgensymbol steht direkt neben den bisherigen Bereichen auf der Startseite. Es gibt keine zusätzliche Spielauswahlseite. Alle anderen Fächer und Lernformen bleiben erhalten. Die bisherigen weiteren Spiele samt Auswahl-, Spiel- und Darstellungscode sind entfernt.
 
-- Kreuzworträtsel: zwei tatsächlich gekreuzte Begriffe; gewählter Hinweis und Bildschirmbuchstaben. Kleine Rätsel halten die komplette Ansicht auf dem Handy erreichbar.
-- Wortsalat: Buchstaben zu einem vorhandenen Begriff ordnen, korrigieren und prüfen.
-- Zahlenrätsel: kurze Aufgaben direkt aus dem bestehenden Mathe-Fragenkatalog; Rückmeldung mit vorhandener Erklärung, anschließend eine neue Aufgabe.
-- Galgenraten: klassischer Galgen und Strichmännchen als SVG-Linien, sechs Fehlversuche, Buchstabentasten, Auflösung.
+Begriffe und Hinweise stammen weiter aus den persönlichen Karten und dem Wortschatz: vier bis zwölf Buchstaben und Hinweise bis 180 Zeichen. Ausgeblendete und bearbeitete Karten bleiben berücksichtigt. Es gibt keine zweite Definitionensammlung und keine Änderungen am gespeicherten Lernstand durch Spielrunden.
 
-Begriffe und Hinweise stammen aus den persönlichen Karten und dem Wortschatz. Fragen nach einzelnen Begriffen werden erkannt; unbekannte, zu lange oder ungeeignete Karten werden nicht als Wörter geraten. Begriffe vier bis zwölf normalisierte Buchstaben, Hinweise höchstens 180 Zeichen; fürs kompakte Kreuzworträtsel höchstens sieben Buchstaben und 100 Zeichen Hinweis. Keine zweite Definitionensammlung. Entfernte oder persönlich geänderte Inhalte werden berücksichtigt; unpassende Änderungen ergeben keine automatische neue Wortantwort. Umlaute werden als AE/OE/UE, ß als SS gesetzt und bei Wortspielen erklärt.
+Ä, Ö, Ü und ß sind eigene Buchstaben und eigene Bildschirmtasten. Klein- und Großbuchstaben werden gleich behandelt; ß und ẞ gehören zusammen, ß bleibt aber von S und SS getrennt. Wiederholte Eingaben kosten keinen weiteren Versuch. Hardwaretastatur und Touch sind nutzbar; die Bildschirmtasten öffnen keine zusätzliche OS-Tastatur.
 
-Bildschirmtasten lösen keine zusätzliche Betriebssystem-Tastatur aus; eine Hardwaretastatur ist optional möglich. Responsive Anordnung hält auch bei reduzierter Ansichtshöhe Bedienelemente sichtbar. Die Spiele sind nach dem ersten vollständigen Laden offline verfügbar. Es gibt keine Spielzeit, Strafen, Konten oder zusätzlichen Fächer. Spielrunden verändern keine Kompetenznachweise oder Fortschrittsfelder. Laufende Spiele lassen sich mit bestehender Abbruchbestätigung verlassen; abgeschlossene Spiele direkt.
+Zehn Fehlversuche, anfangs leere Zeichnung. Pro Fehler erscheint genau ein Element:
 
-## Prüfung
+1. Fuß
+2. Stütze
+3. Querbalken
+4. Seil
+5. Kopf
+6. Körper
+7. Linker Arm
+8. Rechter Arm
+9. Linkes Bein
+10. Rechtes Bein
 
-52 Logiktests bestehen einschließlich Wortquellen, echter Kreuzungen, Buchstabenmischung, Kartenreihenfolge, Datenverträglichkeit. TypeScript-Prüfung umfasst das Frontend. Browserprüfungen decken die vorhandenen Lernfunktionen, Kartenfilter, vier Spiele bis zum Abschluss, falsche Antworten und Auflösung, Abbruch, Offline-Nutzung und Layouts 320×568, 390×420, 844×390 und 1440×900 ab. Installation auf echten Geräten bleibt ein Praxisschritt.
+Verbleibende Versuche und Zeichnung nutzen denselben Fehlerzähler. Vollständiges Erraten gewinnt, der zehnte unterschiedliche Fehler beendet die Runde mit Auflösung. Nach Ende sind Eingaben gesperrt, auch bei sehr schnellen Eingaben. Neustart setzt Buchstaben, Zähler, Zeichnung und Auflösung zurück. „Lösung zeigen“ bleibt als freiwillige Hilfe erhalten. Offline nutzbar. Feedback- und Issuefunktion bleiben vollständig entfernt.
+
+## Geänderte Dateien und Prüfung
+
+- `src/components/Hangman.tsx`: vereinfachte Spielansicht, Galgensymbol, zehn Zeichnungsstufen und Eingaben; ersetzt die bisherige Komponente für mehrere Spiele.
+- `src/games/engine.ts`: nur noch Begriffe, Normalisierung und Galgenraten-Zustand; ungenutzte Spielfunktionen entfernt.
+- `src/App.tsx`: direkter Startbutton, keine Auswahlseite, Rückkehr zur Startseite.
+- `src/style.css`: nur noch benötigte Spielstile und responsive Darstellung.
+- `tests/extensions.test.ts` und `tests/extensions.spec.ts`: Sonderzeichen, wiederholte Eingaben, zehn einzelne Zeichnungsschritte, Sieg, Niederlage, Neustart, schnelle Eingaben, Maus/Touch, Offline-Nutzung und Kartenfilter.
+- README, Produkt- und Designkontext auf den aktuellen Umfang gebracht.
+
+53 Logiktests und 49 Browserprüfungen bestehen; Produktionsbuild und TypeScript-Prüfung erfolgreich. Browserprüfung auf 320×568, 390×844, 390×420, 844×390 und 1440×900. Startseite und aktive Spielansicht ohne Scrollen auf diesen Größen geprüft. Die zehn Zeichnungsschritte werden einzeln geprüft, nicht nur als fertiges Bild. Datenstruktur und Sicherungen bleiben unverändert. Eine Prüfung auf echten Mobilgeräten wird dadurch nicht behauptet.
