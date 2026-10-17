@@ -41,6 +41,12 @@ Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle
 
 Für ein neues Fortschrittsfeld werden je Fach mindestens vier von fünf verschiedenen Aufgaben ohne Hilfe richtig beantwortet. Dieselbe Aufgabensignatur zählt innerhalb von 24 Stunden nicht erneut; nach Freigabe beginnt ein neues Fenster. Alte Freischaltungen bleiben erhalten. Langfristige Kompetenzfestigung wird separat bewertet. Details: [Überarbeitung vom 17.10.2026](docs/UEBERARBEITUNG-2026-10-17.md). Lesbarer Anfangsbestand: [Lernkarten und Wortschatz](docs/LERNKARTEN-UND-WORTSCHATZ.md).
 
+## Spiele, Kartensuche und Feedback
+
+„Lernspiele“ ergänzt Kreuzworträtsel, Wortsalat, Zahlenrätsel und Galgenraten. Die Spiele verwenden vorhandene Karten, Alltagswörter und Mathefragen und sind offline nutzbar. Die Kartenverwaltung zeigt zunächst zehn Karten, mit Suche, Sortierung und „Weitere anzeigen“. Der untere Schriftzug wurde entfernt. Details und Prüfung: [Erweiterungsstand](docs/ERWEITERUNG-SPIELE-KARTEN-FEEDBACK.md).
+
+Das Feedbackformular steht unter Einstellungen. Der sichere Server-Endpunkt ist vorbereitet; bis zur externen Einrichtung ist Senden sichtbar deaktiviert. [Feedback einrichten](docs/FEEDBACK-EINRICHTEN.md). Keine GitHub-Tokens in VITE-Variablen oder Browsercode hinterlegen. Der normale Pages-Workflow liest ausschließlich die öffentliche URL aus der Repository-Variable `VITE_FEEDBACK_ENDPOINT`.
+
 ## Architektur und Inhalte pflegen
 
 Die fünf JSON-Dateien unter `src/content/` enthalten je 100 versionierte Fragen samt Lehrplanquellen. `src/lib/schema.ts` validiert Fragen und Sicherungen. `engine.ts` hält die bestehende Leitner- und Punkte-Logik. `src/learning/` kapselt Kompetenzgraph, Generatoren, adaptive Auswahl, Beobachtungen, Migration und Mosaik-Konfiguration getrennt von React; UI-Bausteine liegen in `src/components/`. `src/App.tsx` enthält die Oberflächen, `style.css` die gemeinsamen Tokens und Styles.

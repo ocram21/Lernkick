@@ -16,7 +16,7 @@ export const contentSchema = z.discriminatedUnion('version', [
   });
 });
 export const progressSchema = z.object({ box: z.number().int().min(0).max(5), due: z.number().nonnegative(), attempts: z.number().int().nonnegative(), correct: z.number().int().nonnegative(), lastAward: z.number().nonnegative() }).refine(p => p.correct <= p.attempts, 'Mehr richtige Antworten als Versuche');
-export const cardSchema = z.object({ id: z.string().min(1).max(100), front: z.string().trim().min(1).max(500), back: z.string().trim().min(1).max(1000), subject: subjectSchema });
+export const cardSchema = z.object({ id: z.string().min(1).max(100), front: z.string().trim().min(1).max(500), back: z.string().trim().min(1).max(1000), subject: subjectSchema, createdAt:z.number().nonnegative().optional() });
 export type Card = z.infer<typeof cardSchema>;
 const commonData = {
   progress: z.record(z.string(), progressSchema), scores: z.record(subjectSchema, z.number().int().nonnegative()),
