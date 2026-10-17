@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowUpRight, ArrowRight, ArrowLeft, Zap, BookOpen, ChartNoAxesColumnIncreasing, Settings, WifiOff, Check, X, Plus, Download, Upload, Trash2, Pencil, RotateCcw, CircleHelp, RefreshCw, Calculator, Languages, Leaf, Globe2, Users } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Zap, BookOpen, ChartNoAxesColumnIncreasing, Settings, WifiOff, Check, X, Plus, Download, Upload, Trash2, Pencil, RotateCcw, CircleHelp, RefreshCw } from 'lucide-react';
 import { useRegisterSW } from 'virtual:pwa-register/react';
 import { contentPacks, questions } from './content';
 import { emptyData, cardSchema, type Card, type Subject, type UserData } from './lib/schema';
@@ -15,12 +15,13 @@ import { emptyCompetency } from './learning/mastery';
 import type { LearningTask, HelpLevel, Pace } from './learning/types';
 import { LearningTools } from './components/LearningTools';
 import { CompetencyMosaic } from './components/CompetencyMosaic';
+import { LeaveRoundDialog } from './components/LeaveRoundDialog';
 const subjects = [
-  { id: 'math', title: 'Mathematik', label: 'Zahlen? Kriegst du hin.', color: '#d5f463', icon: Calculator },
-  { id: 'german', title: 'Deutsch', label: 'Finde die richtigen Worte.', color: '#c4b4f5', icon: Languages },
-  { id: 'social', title: 'Sozialkunde', label: 'Versteh, was uns verbindet.', color: '#f5b28d', icon: Users },
-  { id: 'biology', title: 'Biologie', label: 'Dem Leben auf der Spur.', color: '#8fd6ad', icon: Leaf },
-  { id: 'geography', title: 'Geografie', label: 'Deine Welt. Dein Wissen.', color: '#91c8e9', icon: Globe2 },
+  { id: 'math', title: 'Mathematik', short: 'MA', label: 'Zahlen? Kriegst du hin.', color: '#d5f463' },
+  { id: 'german', title: 'Deutsch', short: 'D', label: 'Finde die richtigen Worte.', color: '#c4b4f5' },
+  { id: 'social', title: 'Sozialkunde', short: 'SK', label: 'Versteh, was uns verbindet.', color: '#f5b28d' },
+  { id: 'biology', title: 'Biologie', short: 'Bio', label: 'Dem Leben auf der Spur.', color: '#8fd6ad' },
+  { id: 'geography', title: 'Geografie', short: 'Geo', label: 'Deine Welt. Dein Wissen.', color: '#91c8e9' },
 ] as const;
 type View = 'home' | 'progress' | 'cards' | 'settings' | 'help';
 type Round = { subject: Subject; mode: 'adaptive' | 'free'; current: LearningTask; options: number[]; used: string[]; signatures: string[]; helpLevel: HelpLevel; panel: 'help' | 'pace' | null; milestones: string[]; answer: number | null; correct: number; points: number; done: boolean };
@@ -31,6 +32,13 @@ export default function App() {
   const [saving, setSaving] = useState(false);
   const [view, setView] = useState<View>('home');
   const [round, setRound] = useState<Round | null>(null);
+  const [exitRequested,setExitRequested]=useState(false);
+  const exitTrigger=useRef<HTMLElement|null>(null);
+  function requestExit() {
+    if(saving)return;
+    if(round&&!round.done){exitTrigger.current=document.activeElement as HTMLElement;setExitRequested(true);return;}
+    setRound(null);setView('home');
+  }
   const [message, setMessage] = useState('');
   const [storageError, setStorageError] = useState('');
   const [offline, setOffline] = useState(!navigator.onLine);
@@ -88,7 +96,7 @@ export default function App() {
     setRound({...round,answer:index,panel:null,correct:round.correct+Number(correct),points:round.points+result.points,milestones:[...round.milestones,...result.newMilestones]});
   }
   async function advance() {
-    if(!round||round.answer===null||saving)return;
+    if(!round||round.answer===null||saving||exitRequested)return;
     const used=[...round.used,round.current.id],signatures=[...round.signatures,round.current.signature];
     if(used.length===10) {
       setSaving(true);await persist({...data,scores:{...data.scores,[round.subject]:Math.max(data.scores[round.subject],round.points)}});setSaving(false);setRound({...round,used,signatures,done:true});
@@ -115,7 +123,7 @@ export default function App() {
     void persist({...data,learning:{...data.learning,preferences:{...data.learning.preferences,[round.subject]:next},competencies:choice==='alternate'&&round.helpLevel===0?{...data.learning.competencies,[round.current.skillId]:{...skill,helpRequests:skill.helpRequests+1}}:data.learning.competencies}});
     setRound({...round,panel:choice==='alternate'?'help':'pace',helpLevel:choice==='alternate'?Math.max(1,round.helpLevel) as HelpLevel:round.helpLevel});
   }
-  const seconds=useAutoAdvance(Boolean(round&&!round.done&&round.answer===round.current.correct&&!round.panel&&autoAdvance),round?.current.id,()=>{void advance();});
+  const seconds=useAutoAdvance(Boolean(round&&!round.done&&round.answer===round.current.correct&&!round.panel&&!exitRequested&&autoAdvance),round?.current.id,()=>{void advance();});
   function exportData() { const blob = new Blob([JSON.stringify(data,null,2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `lernkick-sicherung-${new Date().toISOString().slice(0,10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url),1000); }
   async function importData(file?: File) { if (!file) return; try { if(file.size > 5_000_000) throw new Error(); const next = readBackup(await file.text()); if (window.confirm('Die Sicherung ersetzt die Lernstände und eigenen Karten auf diesem Gerät. Freigelegte Bildteile bleiben erhalten. Vorher bei Bedarf exportieren. Jetzt importieren?')) { persist(prepareImport(data,next)); setMessage('Sicherung übernommen. Deine Lernstände sind wieder da.'); } } catch { setMessage('Diese Sicherung ist ungültig oder hat eine nicht unterstützte Version. Bitte wähle eine LernKick-JSON-Datei bis 5 MB.'); } }
   const totalAttempts = Object.values(data.progress).reduce((n,p) => n+p.attempts,0);
@@ -123,13 +131,13 @@ export default function App() {
   const currentSubject = subjects.find(s => s.id === round?.subject);
   const compactHome = !round && view === 'home';
   return <div className={`app-shell ${round && !round.done ? 'learning' : ''} ${compactHome ? 'home-screen' : ''}`}>
-    <header className="header"><button className="wordmark" onClick={() => { if (round && !round.done && !confirm('Runde verlassen? Beantwortete Fragen bleiben gespeichert.')) return; setRound(null); setView('home'); }} aria-label="LernKick Startseite"><Zap size={27} fill="currentColor"/>LERN<span>KICK</span></button><>{!round && view === 'home' ? <button className="header-update" disabled={!ready || updating} aria-busy={updating} onClick={manualUpdate}><RefreshCw size={17}/>{updating ? 'Prüfe …' : 'App aktualisieren'}</button> : <span className="local-status">{offline ? <WifiOff size={15}/> : <span className="status-dot"/>}{offline ? 'Du bist offline' : 'Dein Tempo. Dein Gerät.'}</span>}</></header>
+    <header className="header"><button className="wordmark" disabled={Boolean(round&&!round.done&&saving)} onClick={requestExit} aria-label="LernKick Startseite"><Zap size={27} fill="currentColor"/>LERN<span>KICK</span></button><>{!round && view === 'home' ? <button className="header-update" disabled={!ready || updating} aria-busy={updating} onClick={manualUpdate}><RefreshCw size={17}/>{updating ? 'Prüfe …' : 'App aktualisieren'}</button> : <span className="local-status">{offline ? <WifiOff size={15}/> : <span className="status-dot"/>}{offline ? 'Du bist offline' : 'Dein Tempo. Dein Gerät.'}</span>}</></header>
     {storageError && <div role="alert" className="notice error">{storageError}</div>}
     {message && <div role="status" className="notice">{message}<button aria-label="Hinweis schließen" onClick={() => setMessage('')}><X size={20}/></button></div>}
     {needRefresh && !round && !edit && view !== 'home' && <div className="notice">Eine neue Version ist bereit. Deine Lernstände bleiben erhalten.<button className="small-button" disabled={updating} onClick={manualUpdate}>Jetzt aktualisieren</button></div>}
     {!ready ? <main><h1>Gleich geht’s los.</h1><p>{storageError ? 'Der Speicher muss zuerst wieder verfügbar sein.' : 'Deine Lernstände werden geladen …'}</p></main> : round ? <main className="round-view" style={{ '--subject': currentSubject?.color } as React.CSSProperties}>
       {round.done ? <section className="result"><div className="result-icon"><Check size={48}/></div><h1>Runde geschafft.</h1><p>Jede Frage bringt dich weiter. Auch die, die noch nicht sitzt.</p><div className="result-numbers"><span><strong>{round.correct}/10</strong>richtig beantwortet</span><span><strong>{round.points}</strong>Punkte</span></div><p>Was noch Übung braucht, kommt später wieder dran.</p>{round.milestones.length>0&&<p className="milestone-message">Ein neuer Lernschritt ist sichtbar. Schau dir dein Wimmelbild unter „Fortschritt“ an.</p>}<button className="primary" onClick={() => start(round.subject)}>Noch eine Runde <RotateCcw size={18}/></button><button className="text-button" onClick={() => { setRound(null); setView('home'); }}>Zur Fächerauswahl</button></section> : <>
-      <div className="round-top"><button className="icon-button" aria-label="Runde verlassen" onClick={() => { if(confirm('Runde verlassen? Beantwortete Fragen bleiben gespeichert.')) setRound(null); }}><ArrowLeft/></button><strong>{currentSubject?.title}</strong><span>Frage {round.used.length+1} von 10</span></div>
+      <div className="round-top"><button className="icon-button" aria-label="Runde verlassen" disabled={saving} onClick={requestExit}><ArrowLeft/></button><strong>{currentSubject?.title}</strong><span>Frage {round.used.length+1} von 10</span></div>
       <div className="round-track" aria-label={`Frage ${round.used.length+1} von 10`}>{Array.from({length:10},(_,i) => <span key={i} className={i < round.used.length ? 'filled' : i === round.used.length ? 'current' : ''}/>)}</div>
       <div className="round-scroll" key={round.current.id}><section className="question"><span className="question-topic">{round.subject==='math' ? mathById.get(round.current.skillId)?.title??'Mathe üben' : `${round.mode==='adaptive'?'Deine Lernrunde':'Freies Üben'} · Stufe ${round.current.difficulty}`}</span><h1 key={round.current.id}>{round.current.prompt}</h1></section>
       {round.subject==='math'&&<LearningTools task={round.current} helpLevel={round.helpLevel} panel={round.panel} pace={preferenceFor(data,round.subject).pace} alternate={preferenceFor(data,round.subject).explanation==='alternate'} onPanel={panel=>setRound({...round,panel})} onHelp={showHelp} onChoice={chooseLearningWay} disabled={saving}/>}
@@ -141,12 +149,15 @@ export default function App() {
     <main>
       {view === 'home' && <>
         <section id="subjects" className="subjects-section"><div className="section-heading"><h1>Was geht heute?</h1><button className="help-button" onClick={() => setView('help')}><CircleHelp size={18}/>Hilfe</button></div><div className="mode-switch" role="group" aria-label="Lernmodus"><button aria-pressed={mode==='adaptive'} onClick={() => setMode('adaptive')}>Deine Lernrunde</button><button aria-pressed={mode==='free'} onClick={() => setMode('free')}>Freies Üben</button></div>
-        <div className="subject-list">{subjects.map(s => { const count = questions.filter(q => q.subject===s.id).length; return <button key={s.id} className={`subject ${count ? '' : 'coming'}`} style={{'--subject':s.color} as React.CSSProperties} disabled={updating} onClick={() => start(s.id)}><span className="subject-icon"><s.icon size={27}/></span><span className="subject-description"><strong>{s.title}</strong></span><span className="subject-meta">{count ? <>{count} Fragen</> : 'Kommt bald'}</span>{count ? <ArrowUpRight className="subject-arrow"/> : <span className="soon-dot"/>}</button>; })}</div></section>
+        <div className="subject-tile-grid">{subjects.map(s=>{
+          const count=questions.filter(q=>q.subject===s.id).length;
+          return <button key={s.id} className="subject-tile" style={{'--subject':s.color} as React.CSSProperties} disabled={updating} aria-label={`${s.title} ${count} Fragen (${s.short})`} title={s.title} onClick={()=>start(s.id)}><span aria-hidden="true">{s.short}</span></button>;
+        })}</div></section>
 
       </>}
       {view === 'help' && <section className="help-page"><button className="text-button" onClick={()=>setView('home')}><ArrowLeft size={18}/>Zur Fächerauswahl</button><h1>So geht LernKick.</h1>
         <p>Mit LernKick übst du für deinen Schulabschluss. Du lernst in kleinen Schritten und in deinem Tempo.</p>
-        <h2>Loslegen</h2><p>Wähle ein Fach. „Deine Lernrunde“ sucht passende Aufgaben aus. „Freies Üben“ mischt die Fragen. Eine Runde hat zehn Aufgaben.</p>
+        <h2>Loslegen</h2><p>Wähle ein Fach: MA für Mathe, D für Deutsch, SK für Sozialkunde, Bio für Biologie und Geo für Geografie. „Deine Lernrunde“ sucht passende Aufgaben aus. „Freies Üben“ mischt die Fragen. Eine Runde hat zehn Aufgaben.</p>
         <h2>Antworten und Hilfe</h2><p>Tippe auf eine Antwort. Danach siehst du die Lösung und eine Erklärung. Bei einem Fehler entscheidest du selbst, wann du weitergehst. Mit „Anhalten“ kannst du jede Erklärung länger lesen.</p><p>In Mathe öffnet „Hilfe“ einen Hinweis, dann ein Beispiel und bei Bedarf die Lösung. Hilfe zu nutzen ist okay.</p>
         <h2>Deinen Lernweg wählen</h2><p>Tippe in Mathe auf „Lernweg“. Wähle „Mach’s leichter“, „Passt genau“, „Mehr Herausforderung“ oder „Erklär’s anders“. Du kannst deine Wahl jederzeit ändern.</p>
         <h2>Deinen Fortschritt sehen</h2><p>Unter „Fortschritt“ findest du dein Wimmelbild. Beim Üben kommen Bildteile dazu. Was du freigelegt hast, bleibt. Unter „Meine Karten“ kannst du eigene Fragen anlegen.</p>
@@ -161,6 +172,7 @@ export default function App() {
       <div className="own-cards">{data.cards.map(c=><article key={c.id}><button className="card-front" onClick={()=>{setReview(c);setFlipped(false);setEdit(null);}}>{c.front}<span>{subjects.find(s=>s.id===c.subject)?.title} · Wiederholen</span></button><button className="icon-button" aria-label={`Karte bearbeiten: ${c.front}`} onClick={()=>{setEdit(c);setReview(null);}}><Pencil size={18}/></button><button className="icon-button" aria-label={`Karte löschen: ${c.front}`} onClick={()=>{if(confirm('Diese eigene Karte löschen?')){persist({...data,cards:data.cards.filter(x=>x.id!==c.id)});if(review?.id===c.id)setReview(null);}}}><Trash2 size={18}/></button></article>)}</div></>}
       {view === 'settings' && <><h1>Alles bei dir.</h1><p>Deine Daten gehören auf dein Gerät. Du entscheidest, wann du sie sicherst.</p><section className="settings-section"><h2>Deine Daten sichern</h2><p>Ein Export enthält deine Lernstände, Bestleistungen, Einstellungen und eigenen Karten. Beim Geräte- oder Domainwechsel brauchst du diese Datei.</p><div className="actions"><button className="primary" onClick={exportData}><Download size={20}/>Sicherung exportieren</button><label className="small-button import-button"><Upload size={20}/>Sicherung importieren<input type="file" accept="application/json,.json" onChange={e=>{importData(e.target.files?.[0]);e.target.value='';}}/></label></div></section><section className="settings-section"><h2>Angenehm lernen</h2><label className="checkbox"><input type="checkbox" checked={data.settings.reducedMotion} onChange={e=>persist({...data,settings:{reducedMotion:e.target.checked}})}/>Weniger Bewegung</label></section><section className="settings-section"><h2>App installieren & offline lernen</h2><p>{offlineReady?'Die App ist für die Offline-Nutzung bereit.':'Beim ersten vollständigen Online-Aufruf wird die App für die Offline-Nutzung gespeichert.'}</p>{install?<button className="small-button" onClick={async()=>{await install.prompt();setInstall(null);}}>LernKick installieren <Download size={18}/></button>:<p>Öffne das Browser-Menü und wähle „App installieren“ oder „Zum Home-Bildschirm“. Auf iPhone und iPad findest du die Option im Teilen-Menü von Safari.</p>}</section><section className="settings-section"><h2>Über LernKick</h2><p>500 Übungsfragen · 100 je Fach. Die Aufgaben orientieren sich an den Fachlehrplänen der Sekundarschule in Sachsen-Anhalt. Sie sind selbst erstellt und keine offiziellen Prüfungsfragen. Die Freigabe durch Fachlehrkräfte steht noch aus.</p><h3>Lehrplanquellen</h3><p>Recherche: 17. Oktober 2026. Die aktuell verlinkten Fachlehrpläne tragen den Stand 1. August 2019. Auswahlfragen ergänzen das Üben von Rechenwegen, Schreiben, Experimenten und mündlichen Begründungen.</p><ul className="curriculum-sources">{contentPacks.flatMap(pack => pack.version === 2 ? pack.sources : []).map(source => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title} (PDF)</a></li>)}</ul><p>Keine Accounts, keine Analyse-Tracker, keine Übertragung von Lernständen. Beim Online-Abruf erhält der Hosting-Anbieter technisch notwendige Verbindungsdaten. Betreiberangaben und rechtliche Prüfung müssen vor einem öffentlichen Pilotbetrieb ergänzt werden.</p></section></>}
     </main><nav className="bottom-nav" aria-label="Hauptnavigation">{([{id:'home',label:'Lernen',icon:Zap},{id:'progress',label:'Fortschritt',icon:ChartNoAxesColumnIncreasing},{id:'cards',label:'Meine Karten',icon:BookOpen},{id:'settings',label:'Einstellungen',icon:Settings}] as const).map(item=><button key={item.id} disabled={updating} aria-current={view===item.id?'page':undefined} onClick={()=>{setView(item.id);setEdit(null);setReview(null);setMessage('');window.scrollTo(0,0);}}><item.icon size={21}/><span>{item.label}</span></button>)}</nav></>}
+    {exitRequested&&<LeaveRoundDialog returnFocusTo={exitTrigger.current} onStay={()=>setExitRequested(false)} onLeave={()=>{setExitRequested(false);setRound(null);setView('home');window.scrollTo(0,0);}}/>}
     <footer className="footer"><span>LERNKICK</span><span>Ein Schritt zählt.</span></footer>
   </div>;
 }

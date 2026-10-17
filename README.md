@@ -25,7 +25,7 @@ App-Icons können nach Änderungen an `public/icon.svg` mit `node scripts/icons.
 
 ## Funktionen
 
-Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle fünf Fächer, Lernmodus und Hauptnavigation bleiben sichtbar. Eine kurze Bedienhilfe erklärt Start, Antworten, Hilfen, Lernweg, Wimmelbild und Sicherung. Technische Hintergründe stehen in dieser README und im [Pilotkonzept](docs/MATHE-PILOT.md).
+Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle fünf Fächer als quadratische Buttons (MA, D, SK, Bio, Geo), Lernmodus und Hauptnavigation bleiben sichtbar. Zurückpfeil und Logo fragen während einer Runde mit „Weiterlernen“ / „Runde verlassen“ nach; die Automatik pausiert im Dialog. Eine kurze Bedienhilfe erklärt Start, Antworten, Hilfen, Lernweg, Wimmelbild und Sicherung. Technische Hintergründe stehen in dieser README und im [Pilotkonzept](docs/MATHE-PILOT.md).
 
 - Je 100 Fragen für Mathematik, Deutsch, Sozialkunde, Biologie und Geografie; zehn unterschiedliche Fragen pro Runde, zwei bis vier gemischte Antworten.
 - Adaptive Lernrunde oder zufälliges freies Üben. Alle fünf Fächer sind spielbar.

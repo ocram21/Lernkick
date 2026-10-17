@@ -17,3 +17,5 @@ Bestätigte Nutzervorgabe für die Startseite: auf eine Handy-Bildschirmhöhe re
 Bei falschen Antworten bleibt die Erklärung ohne Zeitlimit stehen; weiter geht es ausschließlich manuell. Richtige Antworten wechseln nach drei Sekunden, mit weiterhin verfügbarer Pause. Das gilt auch für die letzte Frage einer Runde.
 
 Mathe-Pilot laut Entwicklungsauftrag: kleine veränderliche Kompetenzen, deterministische Aufgabenvarianten, freiwillige Hilfestufen und Lernweg-Wahl. Kein Zeitdruck bei der Antwort, keine Interpretation von Antwortgeschwindigkeit. Mosaik-Meilensteine bleiben dauerhaft erhalten. Fünf getrennte neutrale Bildplatzhalter; aufwendige finale Bildwelten und neue Kompetenzbäume der anderen Fächer folgen später.
+
+Fachauswahl auf ausdrücklichen Nutzerwunsch als abgerundete quadratische Buttons mit MA, D, SK, Bio und Geo. Vollständige Fachnamen bleiben zugänglich. Verlassen einer laufenden Runde über Zurückpfeil oder Logo erst nach eigener Bestätigung; die Automatik pausiert während der Abfrage.
