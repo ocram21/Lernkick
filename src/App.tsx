@@ -10,6 +10,7 @@ import { useAutoAdvance } from './lib/useAutoAdvance';
 import { nextMathTask, recordLearningAnswer, preferenceFor } from './learning/adaptive';
 import { asTask } from './learning/tasks';
 import { mathById } from './learning/mathCompetencies';
+import { prepareImport } from './learning/migration';
 import { emptyCompetency } from './learning/mastery';
 import type { LearningTask, HelpLevel, Pace } from './learning/types';
 import { LearningTools } from './components/LearningTools';
@@ -116,7 +117,7 @@ export default function App() {
   }
   const seconds=useAutoAdvance(Boolean(round&&!round.done&&round.answer===round.current.correct&&!round.panel&&autoAdvance),round?.current.id,()=>{void advance();});
   function exportData() { const blob = new Blob([JSON.stringify(data,null,2)], { type: 'application/json' }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = `lernkick-sicherung-${new Date().toISOString().slice(0,10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(url),1000); }
-  async function importData(file?: File) { if (!file) return; try { if(file.size > 5_000_000) throw new Error(); const next = readBackup(await file.text()); if (window.confirm('Die Sicherung ersetzt die Lernstände und eigenen Karten auf diesem Gerät. Vorher bei Bedarf exportieren. Jetzt importieren?')) { persist(next); setMessage('Sicherung übernommen. Deine Lernstände sind wieder da.'); } } catch { setMessage('Diese Sicherung ist ungültig oder hat eine nicht unterstützte Version. Bitte wähle eine LernKick-JSON-Datei bis 5 MB.'); } }
+  async function importData(file?: File) { if (!file) return; try { if(file.size > 5_000_000) throw new Error(); const next = readBackup(await file.text()); if (window.confirm('Die Sicherung ersetzt die Lernstände und eigenen Karten auf diesem Gerät. Freigelegte Bildteile bleiben erhalten. Vorher bei Bedarf exportieren. Jetzt importieren?')) { persist(prepareImport(data,next)); setMessage('Sicherung übernommen. Deine Lernstände sind wieder da.'); } } catch { setMessage('Diese Sicherung ist ungültig oder hat eine nicht unterstützte Version. Bitte wähle eine LernKick-JSON-Datei bis 5 MB.'); } }
   const totalAttempts = Object.values(data.progress).reduce((n,p) => n+p.attempts,0);
   const due = Object.values(data.progress).filter(p => p.due <= Date.now()).length;
   const currentSubject = subjects.find(s => s.id === round?.subject);

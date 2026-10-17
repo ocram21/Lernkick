@@ -13,3 +13,8 @@ export function migrateData(value: unknown): UserData {
   }
   return dataSchema.parse({...legacy,version:2,learning});
 }
+
+/** Restoring an older backup replaces learning data, but never takes earned picture pieces away. */
+export function prepareImport(current:UserData,incoming:UserData):UserData {
+  return {...incoming,learning:{...incoming.learning,unlocks:{...current.learning.unlocks,...incoming.learning.unlocks}}};
+}

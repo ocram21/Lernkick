@@ -6,7 +6,7 @@ import { mathAssignments, asTask } from '../src/learning/tasks';
 import { generateTask, seededRandom } from '../src/learning/generator';
 import { nextMathTask, recordLearningAnswer } from '../src/learning/adaptive';
 import { confidence, DAY, emptyCompetency, updateCompetency } from '../src/learning/mastery';
-import { migrateData } from '../src/learning/migration';
+import { migrateData, prepareImport } from '../src/learning/migration';
 import { mosaicWorlds, segmentVisible } from '../src/learning/mosaics';
 import { readBackup } from '../src/lib/storage';
 const pool=questions.filter(q=>q.subject==='math');
@@ -133,6 +133,11 @@ describe('Dauerhafte Freischaltungen und Migration',()=>{
     expect(next.version).toBe(2);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards);expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual(old.settings);
     const skill=next.learning.competencies['math.add.carry'];expect(skill.baseline).toEqual({attempts:9,correct:7});expect(skill.observations).toEqual([]);expect(confidence(skill)).toBe('new');expect(next.learning.unlocks).toEqual({});
     expect(readBackup(JSON.stringify(old))).toEqual(next);expect(migrateData(next)).toEqual(next);
+  });
+  it('behält dauerhafte Erfolge auch beim Wiederherstellen einer alten Sicherung',()=>{
+    const current=emptyData();current.learning.unlocks['math.number.compare:growing']={at:1000,subject:'math',skillId:'math.number.compare',milestone:'growing'};
+    const incoming=migrateData(legacyFixture()),restored=prepareImport(current,incoming);
+    expect(restored.progress).toEqual(incoming.progress);expect(restored.cards).toEqual(incoming.cards);expect(restored.learning.unlocks).toEqual(current.learning.unlocks);
   });
   it('erhält unbekannte stabile IDs, weist beschädigte und künftige Sicherungen zurück',()=>{
     const data=emptyData();data.learning.unlocks['future.art:secure']={at:1,subject:'math',skillId:'future.art',milestone:'secure'};data.progress['old-unknown']={box:5,due:100,attempts:8,correct:7,lastAward:10};
