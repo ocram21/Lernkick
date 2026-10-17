@@ -25,13 +25,15 @@ App-Icons können nach Änderungen an `public/icon.svg` mit `node scripts/icons.
 
 ## Funktionen
 
+Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle fünf Fächer, Lernmodus und Hauptnavigation bleiben sichtbar. Erklärungen zu Runden, Automatik, Punkten, Karten, Aktualisierung, Offline-Nutzung und Datensicherung stehen hinter „Hilfe“.
+
 - Je 50 Fragen für Mathematik, Deutsch, Sozialkunde, Biologie und Geografie; zehn unterschiedliche Fragen pro Runde, zwei bis vier gemischte Antworten.
 - Adaptive Lernrunde oder zufälliges freies Üben. Alle fünf Fächer sind spielbar.
 - Leitner-Boxen: richtig beantwortete Fragen nach 1, 3, 7, 14, 30 Tagen; falsche nach 10 Minuten. Fällige Fragen haben Vorrang. Nach mindestens fünf Antworten wird die Schwierigkeit anhand der bisherigen Trefferquote eingeschätzt; das ist eine einfache Heuristik, kein diagnostisches Kompetenzmodell.
 - Punkte pro Frage maximal einmal in 24 Stunden. Bestleistung pro Fach ist die höchste Rundenpunktzahl. Level wächst pro fünf gefestigten Fragen (Box 3 oder höher).
 - IndexedDB für Fortschritt, Bestleistungen, Einstellungen und eigene Karten. Eigene Karten erstellen, bearbeiten, löschen und manuell umdrehen/wiederholen. Eigene Karten haben in dieser Version noch keine adaptive Terminplanung.
 - Versionierter, validierter JSON-Export/Import. Import ersetzt nach Bestätigung den vorhandenen Stand und ist auf 5 MB / 2.000 eigene Karten begrenzt.
-- Oben auf der Fächerauswahl steht ein großer Button „App aktualisieren“. Er prüft online auf eine neue Version, wartet auf den vollständigen Download und lädt die App nach dem Versionswechsel neu. Meldungen unterscheiden aktuell, offline und Fehler. Während der Prüfung kann keine Lernrunde gestartet werden. Nutzerdaten bleiben unabhängig vom Service-Worker-Cache erhalten.
+- Rechts neben dem Logo auf der Fächerauswahl steht „App aktualisieren“. Er prüft online auf eine neue Version, wartet auf den vollständigen Download und lädt die App nach dem Versionswechsel neu. Meldungen unterscheiden aktuell, offline und Fehler. Während der Prüfung kann keine Lernrunde gestartet werden. Nutzerdaten bleiben unabhängig vom Service-Worker-Cache erhalten.
 - Nach jeder Antwort sind Lösung und Erklärung drei Sekunden sichtbar; danach geht die Runde automatisch weiter. „Anhalten“ gibt mehr Lesezeit, „Automatisch weiter“ startet die drei Sekunden neu. Manuelles Weitergehen ist ebenfalls möglich.
 
 ## Architektur und Inhalte pflegen

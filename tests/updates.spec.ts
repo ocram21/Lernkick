@@ -4,10 +4,10 @@ import { readFileSync } from 'node:fs';
 import { resolve, sep, extname } from 'node:path';
 import { emptyData } from '../src/lib/schema';
 
-test('großer Update-Button ist oben sichtbar und erklärt den Offline-Fall',async({page,context})=>{
+test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async({page,context})=>{
   await page.setViewportSize({width:320,height:568});await page.goto('/');
   const button=page.getByRole('button',{name:'App aktualisieren',exact:true});await expect(button).toBeVisible();
-  const rect=await button.boundingBox();expect(rect!.y+rect!.height).toBeLessThan(568);expect(rect!.height).toBeGreaterThanOrEqual(60);
+  const rect=await button.boundingBox();expect(rect!.y+rect!.height).toBeLessThan(568);expect(rect!.height).toBeGreaterThanOrEqual(44);
   await context.setOffline(true);await button.click();await expect(page.getByRole('status')).toContainText('Zum Aktualisieren brauchst du Internet');
   await page.screenshot({path:'test-results/update-mobile.png',fullPage:false});
 });
