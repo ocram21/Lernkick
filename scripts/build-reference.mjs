@@ -1,4 +1,5 @@
 import { readFileSync,writeFileSync } from 'node:fs';
+const requested=new Set(process.argv.slice(2));
 const boards=JSON.parse(readFileSync('src/reference/catalog.json','utf8'));
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const wrap=(s,max)=>{const lines=[];let line='';for(const word of String(s).split(/\s+/)){if(line&&line.length+word.length+1>max){lines.push(line);line=word;}else line+=(line?' ':'')+word;}if(line)lines.push(line);return lines;};
@@ -24,7 +25,7 @@ function special(kind){
  if(kind==='fractions')return `<circle cx="160" cy="205" r="80" fill="#d6e8e4" stroke="#27745a" stroke-width="3"/><path d="M160 125A80 80 0 0 1 240 205H160Z" fill="#27745a"/>${line(80,205,240,205,'#fff',3)}${line(160,125,160,285,'#fff',3)}${text('1 von 4 Teilen = 1/4',300,190,28)}${text('Vier gleich große Viertel bilden ein Ganzes.',300,238,23,'#263440',32)}`;
  if(kind==='percent'){let squares='';for(let i=0;i<100;i++)squares+=`<rect x="${40+(i%10)*18}" y="${125+Math.floor(i/10)*18}" width="16" height="16" fill="${i<20?'#27745a':'#dfebe5'}"/>`;return squares+text('20 von 100 = 20 %',300,190,30,'#196246',27,700)+text('Ein Prozent ist ein Hundertstel.',300,238,23);}
  if(kind==='charts'){let bars='';for(let i=0;i<3;i++){bars+=`<rect x="${110+i*100}" y="${300-[80,160,80][i]}" width="50" height="${[80,160,80][i]}" fill="${i===1?'#27745a':'#32627c'}"/>`+text(['A','B','C'][i],125+i*100,330,22)+text([10,20,10][i],115+i*100,290-[80,160,80][i],20);}return line(75,110,75,300)+line(75,300,380,300)+text('Anzahl',35,100,20)+bars+`<circle cx="590" cy="215" r="90" fill="#32627c"/><path d="M590 125A90 90 0 0 1 590 305V215Z" fill="#27745a"/><path d="M590 215V305A90 90 0 0 1 500 215Z" fill="#e3b26c"/>`+text('B: 50 %',550,345,22);}
- if(kind==='words'||kind==='sentence')return `<rect x="40" y="145" width="290" height="62" rx="8" fill="#e0e9f4"/><rect x="345" y="145" width="130" height="62" rx="8" fill="#d8ebe1"/><rect x="490" y="145" width="270" height="62" rx="8" fill="#f3e3d1"/>${text('Die Schülerin',62,186,29)}${text('liest',373,186,29)}${text('das Buch.',530,186,29)}${text('Subjekt',62,240,23,'#214d7c')}${text('Prädikat',343,240,23,'#196246')}${text('Akkusativobjekt',515,240,23,'#865021')}`;
+ if(kind==='words'||kind==='sentence')return `<rect x="40" y="145" width="290" height="62" rx="8" fill="#e0e9f4"/><rect x="345" y="145" width="130" height="62" rx="8" fill="#d8ebe1"/><rect x="490" y="145" width="270" height="62" rx="8" fill="#f3e3d1"/>${text('Die Schülerin',62,186,29)}${text('liest',373,186,29)}${text('das Buch.',530,186,29)}${text('Subjekt',62,240,23,'#214d7c')}${text('Prädikat',343,240,23,'#196246')}${text('Objekt',515,240,23,'#865021')}`;
  if(kind==='timeline')return line(80,200,720,200)+`<path d="M720 200L700 190V210Z" fill="#32627c"/>${[140,400,650].map((x,i)=>`<circle cx="${x}" cy="200" r="9" fill="#27745a"/>`+text(['Vergangenheit','Gegenwart','Zukunft'][i],x-80,250,23)).join('')}`;
  if(kind==='letter')return `<rect x="245" y="110" width="300" height="230" fill="#fff" stroke="#32627c" stroke-width="2"/>${text('Kontakt · Datum',265,145,18)}${text('Bewerbung um …',265,190,20,'#263440',24,700)}${[215,235,255,275].map(y=>line(265,y,520,y,'#a8b9c2',2)).join('')}${text('Gruß · Name',265,316,18)}`;
  if(kind==='reading')return flow(['Auftrag lesen','Textstelle finden','Antwort prüfen']);
@@ -43,6 +44,8 @@ function special(kind){
 }
 function flow(labels){return labels.map((label,i)=>`<rect x="${35+i*255}" y="150" width="220" height="85" rx="9" fill="${['#dfe9f3','#dcece3','#f3e6d5'][i]}"/>`+text(label,50+i*255,185,25,'#263440',15,700)+(i<2?text('→',260+i*255,200,28):'')).join('');}
 for(const board of boards){
+ if(requested.size&&!requested.has(board.id))continue;
+ if(['math-written','math-fractions','social-system','social-powers','social-elections'].includes(board.id))continue;
  if(['anatomy','world','europe','americas','germany-physical'].includes(board.visual))continue;
  const cols=board.sections.some(s=>s.shape)?2:1;const hasSpecial=board.visual!=='panels';const top=hasSpecial?440:150;const gap=18;const panelW=cols===2?351:720;const panels=[];let y=top;
  for(let i=0;i<board.sections.length;i++){

@@ -183,9 +183,15 @@
     "reviewedAt": "2026-10-18",
     "figures": [
       {
-        "title": "Schriftlich malnehmen und teilen",
+        "title": "Schriftlich multiplizieren",
         "src": "math-written.svg",
-        "ratio": 0.8008008008008008,
+        "ratio": 0.6896551724137931,
+        "hotspots": []
+      },
+      {
+        "title": "Schriftlich dividieren",
+        "src": "math-written-division.svg",
+        "ratio": 0.6504065040650406,
         "hotspots": []
       }
     ]
@@ -226,7 +232,7 @@
       {
         "title": "Brüche verstehen und rechnen",
         "src": "math-fractions.svg",
-        "ratio": 0.691323885240235,
+        "ratio": 0.6666666666666666,
         "hotspots": []
       }
     ]
@@ -316,8 +322,8 @@
     "sections": [
       {
         "title": "Länge",
-        "text": "Je benachbarter Stufe mal 10 nach rechts, geteilt durch 10 nach links.",
-        "formula": "km → hm → dam → m → dm → cm → mm"
+        "text": "Von km zu m: mal 1000. Von m zu dm, dm zu cm und cm zu mm jeweils mal 10. Zurück teilst du durch denselben Faktor.",
+        "formula": "1 km = 1000 m · 1 m = 10 dm = 100 cm = 1000 mm"
       },
       {
         "title": "Fläche",
@@ -349,7 +355,7 @@
       {
         "title": "Maßeinheiten umrechnen",
         "src": "math-units.svg",
-        "ratio": 0.7801833430856252,
+        "ratio": 0.7571455612341473,
         "hotspots": []
       }
     ]
@@ -501,8 +507,8 @@
       },
       {
         "title": "Prädikat und Objekt",
-        "text": "Das Prädikat nennt das Geschehen: liest. Nach dem Akkusativobjekt fragst du Wen oder was?: das Buch.",
-        "formula": "Wer? → Die Schülerin · Was tut sie? → liest"
+        "text": "Das Prädikat nennt das Geschehen: liest. Das Objekt ergänzt es: das Buch. Frage hier: Wen oder was liest sie?",
+        "formula": "Subjekt → Die Schülerin · Prädikat → liest · Objekt → das Buch"
       },
       {
         "title": "Hauptsatz",
@@ -530,7 +536,7 @@
       {
         "title": "Satzbau, Satzglieder und Nebensätze",
         "src": "german-sentence.svg",
-        "ratio": 0.5806357961968355,
+        "ratio": 0.556328233657858,
         "hotspots": []
       }
     ]
@@ -870,44 +876,25 @@
     ],
     "visual": "anatomy",
     "sources": [
-      "anatomy"
+      "anatomy",
+      "smell"
     ],
     "reviewedAt": "2026-10-18",
     "figures": [
       {
+        "title": "Nase: So entsteht ein Geruch",
         "src": "nose.svg",
-        "title": "Riechsystem – nummeriertes Detail",
-        "ratio": 1.8566145745337321,
+        "ratio": 1.1428571428571428,
         "hotspots": [
           {
             "id": "1",
-            "label": "1 · Riechkolben",
-            "text": "Hier werden Signale der Riechzellen zuerst weiterverarbeitet."
+            "label": "Riechzellen",
+            "text": "Duftstoffe lösen sich im Schleim und binden an passende Rezeptoren der Riechzellen. Daraus entstehen Nervensignale."
           },
           {
             "id": "2",
-            "label": "2 · Mitralzellen",
-            "text": "Nervenzellen, die Signale aus dem Riechkolben weiterleiten."
-          },
-          {
-            "id": "3",
-            "label": "3 · Siebbein",
-            "text": "Knochen mit kleinen Öffnungen, durch die Nervenfasern ziehen."
-          },
-          {
-            "id": "4",
-            "label": "4 · Riechschleimhaut",
-            "text": "Der Bereich mit spezialisierten Sinneszellen zum Riechen."
-          },
-          {
-            "id": "5",
-            "label": "5 · Glomeruli",
-            "text": "Hier treffen Nervenfasern von Riechzellen auf nachgeschaltete Nervenzellen."
-          },
-          {
-            "id": "6",
-            "label": "6 · Riechzellen",
-            "text": "Diese Sinneszellen reagieren auf Duftstoffe und erzeugen elektrische Signale."
+            "label": "Riechkolben und Gehirn",
+            "text": "Nervenfasern leiten die Signale zum Riechkolben. Weitere Gehirnbereiche verarbeiten sie und erkennen Gerüche."
           }
         ]
       }
@@ -920,15 +907,15 @@
     "summary": "Die Haut schützt, nimmt Reize wahr und hilft bei der Temperaturregelung.",
     "sections": [
       {
-        "title": "A · Oberhaut",
+        "title": "Oberhaut",
         "text": "Die äußerste Schicht bildet eine Schutzbarriere; neue Zellen entstehen in ihrer unteren Schicht."
       },
       {
-        "title": "B · Lederhaut",
+        "title": "Lederhaut",
         "text": "Enthält unter anderem Blutgefäße, Nerven und Drüsen."
       },
       {
-        "title": "C · Unterhaut",
+        "title": "Unterhaut",
         "text": "Darunterliegendes Gewebe mit Fettpolstern: dämpft, speichert Energie und isoliert."
       },
       {
@@ -938,49 +925,45 @@
     ],
     "visual": "anatomy",
     "sources": [
-      "anatomy"
+      "anatomy",
+      "skin"
     ],
     "reviewedAt": "2026-10-18",
     "figures": [
       {
+        "title": "Haut: Schichten und Aufgaben",
         "src": "skin.svg",
-        "title": "Hautquerschnitt – Buchstaben und Nummern",
-        "ratio": 1,
+        "ratio": 1.1111111111111112,
         "hotspots": [
           {
             "id": "1",
-            "label": "A · Oberhaut",
-            "text": "Eine schützende äußere Barriere. Ihre Hornschicht begrenzt Wasserverlust."
+            "label": "Oberhaut",
+            "text": "Äußere Schutzbarriere. Sie begrenzt Wasserverlust und erneuert sich ständig."
           },
           {
             "id": "2",
-            "label": "B · Lederhaut",
-            "text": "Feste, elastische Schicht mit Gefäßen, Nerven und Drüsen."
+            "label": "Lederhaut",
+            "text": "Elastisches Gewebe mit Blutgefäßen, Nerven und Drüsen."
           },
           {
             "id": "3",
-            "label": "C · Unterhaut",
-            "text": "Fett- und Bindegewebe unter der Haut polstern und isolieren."
+            "label": "Unterhaut",
+            "text": "Fett und Bindegewebe polstern und isolieren."
           },
           {
             "id": "4",
-            "label": "7 · Talgdrüse",
-            "text": "Bildet Talg, der Haut und Haare geschmeidig hält."
+            "label": "Haar",
+            "text": "Ein Haar wächst aus einer Haarwurzel in der Haut."
           },
           {
             "id": "5",
-            "label": "10 · Nervenfaser",
-            "text": "Leitet Informationen über Berührung, Temperatur oder andere Reize weiter."
+            "label": "Schweißdrüse",
+            "text": "Gibt Schweiß über einen Gang nach außen ab. Verdunstender Schweiß kühlt."
           },
           {
             "id": "6",
-            "label": "11 · Schweißdrüse",
-            "text": "Bildet Schweiß. Seine Verdunstung unterstützt die Kühlung."
-          },
-          {
-            "id": "7",
-            "label": "13 und 14 · Blutgefäße",
-            "text": "Versorgen Gewebe und wirken bei der Wärmeabgabe mit."
+            "label": "Nerven",
+            "text": "Leiten unter anderem Informationen über Berührung, Wärme und Schmerz weiter."
           }
         ]
       }
@@ -1011,39 +994,25 @@
     ],
     "visual": "anatomy",
     "sources": [
-      "anatomy"
+      "anatomy",
+      "circulation"
     ],
     "reviewedAt": "2026-10-18",
     "figures": [
       {
+        "title": "Herz: Lungen- und Körperkreislauf",
         "src": "circulation.svg",
-        "title": "Blutgefäße und Herz",
-        "ratio": 0.4518903657856687,
+        "ratio": 0.9090909090909091,
         "hotspots": [
           {
             "id": "1",
-            "label": "Herz",
-            "text": "Ein Muskelorgan mit zwei Vorhöfen und zwei Kammern. Es hält den Blutstrom in Gang."
+            "label": "Lungenkreislauf",
+            "text": "Rechte Herzkammer → Lungenarterie → Lunge → Lungenvenen → linker Vorhof. In der Lunge gibt das Blut Kohlendioxid ab und nimmt Sauerstoff auf."
           },
           {
             "id": "2",
-            "label": "Arterien",
-            "text": "Führen Blut vom Herzen weg. Im Körperkreislauf ist es meist sauerstoffreich."
-          },
-          {
-            "id": "3",
-            "label": "Venen",
-            "text": "Führen Blut zum Herzen zurück. Im Körperkreislauf ist es meist sauerstoffarm."
-          },
-          {
-            "id": "4",
-            "label": "Kapillaren",
-            "text": "Dünnwandige Austauschgefäße zwischen kleinsten Arterien und Venen."
-          },
-          {
-            "id": "5",
-            "label": "Herzklappen",
-            "text": "Wirken wie Ventile und verhindern weitgehend den Rückfluss des Blutes."
+            "label": "Körperkreislauf",
+            "text": "Linke Herzkammer → Aorta → Körper → Hohlvenen → rechter Vorhof. Der Körper nimmt Sauerstoff aus dem Blut auf."
           }
         ]
       }
@@ -1305,7 +1274,7 @@
       {
         "title": "Nord- und Südamerika",
         "src": "geography-americas.svg",
-        "ratio": 1.0666666666666667,
+        "ratio": 0.6451612903225806,
         "hotspots": []
       }
     ]
@@ -1543,9 +1512,9 @@
     "reviewedAt": "2026-10-18",
     "figures": [
       {
-        "title": "Gewaltenteilung",
+        "title": "Gewaltenteilung: Macht verteilen",
         "src": "social-powers.svg",
-        "ratio": 0.6559527714004593,
+        "ratio": 0.975609756097561,
         "hotspots": []
       }
     ]
@@ -1580,14 +1549,16 @@
     "visual": "system",
     "sources": [
       "powers",
-      "government"
+      "government",
+      "bundestag",
+      "bundesrat"
     ],
     "reviewedAt": "2026-10-18",
     "figures": [
       {
-        "title": "Das politische System Deutschlands",
+        "title": "Bundestag und Bundesrat",
         "src": "social-system.svg",
-        "ratio": 0.6031363088057901,
+        "ratio": 0.8743169398907104,
         "hotspots": []
       }
     ]
@@ -1626,9 +1597,9 @@
     "reviewedAt": "2026-10-18",
     "figures": [
       {
-        "title": "Demokratie und Bundestagswahl",
+        "title": "Bundestagswahl: zwei Stimmen",
         "src": "social-elections.svg",
-        "ratio": 0.5892751915144373,
+        "ratio": 0.975609756097561,
         "hotspots": []
       }
     ]

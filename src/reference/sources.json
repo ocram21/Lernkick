@@ -66,5 +66,25 @@
   "pay": {
     "title": "Bundesfinanzministerium: Lohnsteuer; BMAS ergänzt die Sozialversicherungsbeiträge",
     "url": "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerarten/Lohnsteuer/lohnsteuer.html"
+  },
+  "smell": {
+    "title": "NIDCD: How does your sense of smell work?",
+    "url": "https://www.nidcd.nih.gov/health/smell-disorders"
+  },
+  "skin": {
+    "title": "IQWiG: Wie funktioniert die Haut?",
+    "url": "https://www.gesundheitsinformation.de/wie-funktioniert-die-haut.html"
+  },
+  "circulation": {
+    "title": "IQWiG: Wie funktioniert der Kreislauf?",
+    "url": "https://www.gesundheitsinformation.de/wie-funktioniert-der-kreislauf.html"
+  },
+  "bundestag": {
+    "title": "Deutscher Bundestag: Funktion und Aufgabe",
+    "url": "https://www.bundestag.de/parlament/aufgaben-197186"
+  },
+  "bundesrat": {
+    "title": "Bundesrat: Vertretung der Landesregierungen und Aufgaben",
+    "url": "https://bundesrat.de/"
   }
 }

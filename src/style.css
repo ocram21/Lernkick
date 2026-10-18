@@ -82,7 +82,7 @@ button:disabled{opacity:.75}.answer.correct:disabled,.answer.incorrect:disabled{
 .progress-screen .mosaic-subjects{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;width:100%;max-width:420px;margin:0 0 12px;flex-shrink:0}
 .progress-screen .mosaic-subjects button{padding:8px 4px;min-width:44px;min-height:44px;font-weight:600}
 .progress-art{display:flex;justify-content:center;align-items:flex-start;flex:1;min-height:0}
-.progress-screen .competency-mosaic{width:min(100%,520px,calc(max(96px,100dvh - 260px - env(safe-area-inset-top) - env(safe-area-inset-bottom))*4/3));flex-shrink:0}
+.progress-screen .competency-mosaic{width:min(100%,520px,calc(max(96px,100dvh - 310px - env(safe-area-inset-top) - env(safe-area-inset-bottom))*4/3));flex-shrink:0}
 .progress-screen .bottom-nav{position:static;flex-shrink:0;width:100%;margin:6px auto 0;min-height:64px;box-shadow:none}
 .progress-screen .bottom-nav button{min-height:52px}
 .progress-screen .footer{display:none}
@@ -151,3 +151,6 @@ button:disabled{opacity:.75}.answer.correct:disabled,.answer.incorrect:disabled{
 .vocabulary-practice .skip-sentence{display:block;margin:4px auto 0;min-height:44px;font-size:14px;padding:8px}
 /* Status messages must never cover the fixed practice action. */
 .vocabulary-screen .notice{position:static;flex-shrink:0;max-height:25dvh;overflow:auto;margin:8px 0 0;padding:10px 12px;font-size:14px}
+/* Direct progress navigation: five subjects and five additional learning areas. */
+.progress-choices{flex-shrink:0;margin:0 0 12px;display:grid;gap:6px}.progress-choices>div{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px}.progress-choices button{font-family:'Barlow Condensed',sans-serif;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;min-height:44px;min-width:0;padding:6px 2px;font-size:clamp(12px,3.5vw,16px);line-height:1.15;overflow-wrap:anywhere}.progress-choices button[aria-pressed=true]{background:var(--accent);color:var(--ground);border-color:var(--accent)}.progress-screen .progress-title{flex-shrink:0}.difficulty-switch .practice-switch{gap:0}.board-fraction{display:inline-flex;flex-direction:column;align-items:stretch;vertical-align:middle;line-height:1.15;text-align:center;margin:0 .18em}.board-fraction>span:first-child{border-bottom:1.5px solid currentColor;padding:0 .18em .1em}.board-fraction>span:last-child{padding:.1em .18em 0}.board-formula{line-height:2.5}
+@media(max-height:500px){.progress-choices{gap:4px;margin-bottom:6px}.progress-choices button{font-family:'Barlow Condensed',sans-serif;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;min-height:44px;padding:3px}.progress-screen .progress-title h1{margin:0 0 6px}}

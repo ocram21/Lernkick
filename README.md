@@ -43,7 +43,7 @@ Für ein neues Fortschrittsfeld werden je Fach mindestens vier von fünf verschi
 
 ## Galgenraten und Kartensuche
 
-„Galgenraten“ startet direkt über einen eigenen Button mit Galgensymbol auf der Startseite. 80 redaktionelle Begriffe mit einfachen Alltagshinweisen verteilen sich auf „Normal“ und „Für Streber“; das Spiel ist offline nutzbar. Beide Stufen haben freiwillige zusätzliche Hilfe; die laufende Runde und Ergebnisse bleiben lokal gespeichert. Ä, Ö, Ü und ß sind eigene Buchstaben. Zehn Fehlversuche bauen die anfangs leere Zeichnung Schritt für Schritt auf. Die Kartenverwaltung zeigt zunächst zehn Karten, mit Suche, Sortierung und „Weitere anzeigen“. Details und Prüfung: [Erweiterungsstand](docs/ERWEITERUNG-SPIELE-KARTEN.md).
+„Galgenraten“ startet direkt über einen eigenen Button mit Galgensymbol auf der Startseite. 80 redaktionelle Begriffe mit einfachen Alltagshinweisen verteilen sich auf „Normal“ und „Streber“; das Spiel ist offline nutzbar. Beide Stufen haben freiwillige zusätzliche Hilfe; die laufende Runde und Ergebnisse bleiben lokal gespeichert. Ä, Ö, Ü und ß sind eigene Buchstaben. Zehn Fehlversuche bauen die anfangs leere Zeichnung Schritt für Schritt auf. Die Kartenverwaltung zeigt zunächst zehn Karten, mit Suche, Sortierung und „Weitere anzeigen“. Details und Prüfung: [Erweiterungsstand](docs/ERWEITERUNG-SPIELE-KARTEN.md).
 
 
 ## Architektur und Inhalte pflegen
@@ -101,6 +101,8 @@ Die erste Runde ordnet die 16 Bundesländer auf amtlichen Landesumrissen zu. In 
 
 Satzbau nutzt einzelne Wort- und Satzzeichenbausteine mit Maus-/Touch-Ziehen und Antipp-Alternative. Erst „Überprüfen“ bewertet; Fehler erlauben Korrektur und „Später üben“, ohne die vollständige Lösung einzublenden. Auf unterstützten Geräten wird bei einer falschen Prüfung einmal kurz vibriert. Satzbau wechselt immer manuell; die freiwillige Wörter-Automatik bleibt erhalten. Keine akustischen Signale oder Vorlesefunktion. Groß-/Kleinschreibung wird mit korrekten Bausteinen dargestellt und bleibt als eigenständige spätere Übung offen.
 
-Unter „Fortschritt“ wählt „Lernangebot“ zwischen den bisherigen Fachbildern und Einzelständen für Deutschlandquiz, Galgenraten, Wortschatz, Satzbau sowie Leitner-Karten. „Einstellungen“ bietet einen Fortschritts-Reset mit Dialog und zusätzlicher Checkbox; Karten, Favoriten, Inhalte und Präferenzen bleiben dabei erhalten. Es gibt keine geräteübergreifende Synchronisierung. Browserdaten-Löschung und Gerätewechsel können lokale Daten entfernen; Sicherungsexport/-import dient zur Übertragung.
+Unter „Fortschritt“ führen zwei Reihen mit je fünf Buttons direkt zu den fünf Fachbildern sowie zu Länderquiz, Galgenraten, Wortschatz, Satzbau und Lernkarten. „Einstellungen“ bietet einen Fortschritts-Reset mit Dialog und zusätzlicher Checkbox; Karten, Favoriten, Inhalte und Präferenzen bleiben dabei erhalten. Es gibt keine geräteübergreifende Synchronisierung. Browserdaten-Löschung und Gerätewechsel können lokale Daten entfernen; Sicherungsexport/-import dient zur Übertragung.
 
 [Änderungsbericht und Datenübernahme](docs/AENDERUNGEN-2026-10-18.md). Historische Beschreibungen der früheren bearbeitbaren Standardkarten und eigenen Wortlisten sind durch diesen Auftrag abgelöst; deren gespeicherte Inhalte werden nicht still gelöscht.
+
+Die weitere Überarbeitung der Lerntafeln und die adaptive Normal-Stufe im Satzbau sind im [Änderungsauftrag und Abnahmebericht vom 18.10.2026](docs/AENDERUNGSAUFTRAG-2026-10-18.md) dokumentiert.

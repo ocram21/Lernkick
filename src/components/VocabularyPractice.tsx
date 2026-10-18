@@ -2,7 +2,7 @@ import {useEffect,useRef,useState}from'react';
 import {ArrowLeft,ArrowRight,RotateCcw,Check}from'lucide-react';
 import type {UserData}from'../lib/schema';
 import {addResult}from'../activities/schema';
-import {checkSentence,practiceQueue,sentenceById,wordById,optionOrder}from'../activities/content';
+import {checkSentence,practiceQueue,adaptNormal,normalSentenceQueue,sentenceById,wordById,optionOrder}from'../activities/content';
 import {wordQuestion}from'../study/cards';
 import {useAutoAdvance}from'../lib/useAutoAdvance';
 import {SentenceBuilder}from'./SentenceBuilder';
@@ -10,7 +10,7 @@ export function VocabularyPractice({data,onChange,onExit,onFinished,onRunning,pa
  const [auto,setAuto]=useState(false);
  const config=data.activities.vocabulary,session=config.session,busy=useRef(false),latest=useRef(data);latest.current=data;
  function change(next:UserData['activities']['vocabulary']){return onChange({...latest.current,activities:{...latest.current.activities,vocabulary:next}});}
- function next(){if(!session||busy.current)return;void change({...config,session:{...session,index:session.index+1,answer:null,draft:[],solved:false}});}
+ function next(){if(!session||busy.current)return;const ids=[...session.ids],pool=normalSentenceQueue(config,ids.slice(0,session.index+1));let candidate=0;for(let i=session.index+1;i<ids.length;i++)if(ids[session.index].startsWith('sentence.normal')&&ids[i].startsWith('sentence.normal'))ids[i]=pool[candidate++]??ids[i];void change({...config,session:{...session,ids,index:session.index+1,answer:null,draft:[],solved:false}});}
  const seconds=useAutoAdvance(Boolean(auto&&!paused&&session&&wordById.has(session.ids[session.index])&&session.answer===0),session?.ids[session.index],next);
  function restart(){onRunning();void change({...config,session:{ids:practiceQueue(config),index:0,answer:null,draft:[],solved:false}});}
  useEffect(()=>{if(!session)restart();},[Boolean(session)]);
@@ -21,7 +21,7 @@ export function VocabularyPractice({data,onChange,onExit,onFinished,onRunning,pa
  const id=session.ids[session.index],word=wordById.get(id),task=sentenceById.get(id),question=word?wordQuestion(word):null;
  if(!word&&!task)return <main className="round-view"><h1>Diese Aufgabe wurde ersetzt.</h1><button className="primary" onClick={restart}>Neue Runde starten</button></main>;
  async function answer(index:number){if(busy.current||session!.answer!==null)return;busy.current=true;await change({...config,session:{...session!,answer:index,solved:index===0},words:{...config.words,[id]:addResult(config.words[id],index===0)}});busy.current=false;}
- async function check(){if(!task||busy.current||session!.solved)return;const correct=checkSentence(task,session!.draft);busy.current=true;if(!correct)try{navigator.vibrate?.(20);}catch{/* Visual feedback is always available. */}await change({...config,session:{...session!,answer:correct?0:1,solved:correct},sentences:{...config.sentences,[id]:addResult(config.sentences[id],correct)}});busy.current=false;}
+ async function check(){if(!task||busy.current||session!.solved)return;const correct=checkSentence(task,session!.draft);busy.current=true;if(!correct)try{navigator.vibrate?.(20);}catch{/* Visual feedback is always available. */}await change({...config,adaptive:adaptNormal(config,id,correct),session:{...session!,answer:correct?0:1,solved:correct},sentences:{...config.sentences,[id]:addResult(config.sentences[id],correct)}});busy.current=false;}
  return <main className="round-view vocabulary-practice"><div className="round-top"><button className="icon-button" aria-label="Runde verlassen" onClick={onExit}><ArrowLeft/></button><strong>{task?'Satzbau':word?.category==='work'?'Wortschatz · Beruf':'Wortschatz · Alltag'}</strong><span>Aufgabe {session.index+1} von {session.ids.length}</span></div><div className="round-scroll" data-drag-scroll key={id}><section className="question"><h1>{task?'Baue einen richtigen Satz.':question!.prompt}</h1></section>
  {task?<SentenceBuilder task={task} draft={session.draft} disabled={session.solved} paused={paused} onDraft={draft=>void change({...config,session:{...session,draft,answer:null}})}/>:<section className={`answers ${session.answer!==null?'answered':''}`} aria-label="Antwortmöglichkeiten">{optionOrder(id).map((index,i)=><button className={`answer ${session.answer!==null&&index===0?'correct':session.answer===index?'incorrect':''}`} disabled={session.answer!==null} key={index} onClick={()=>void answer(index)}><span className="answer-letter">{String.fromCharCode(65+i)}</span><span>{question!.options[index]}</span></button>)}</section>}
  {session.answer!==null&&<section className="feedback" aria-live="polite"><h2>{session.solved?'Richtig gelöst.':task?'Prüfe deinen Satz noch einmal.':'Noch üben.'}</h2><p>{task?(session.solved?'Der Satz ist vollständig und richtig aufgebaut.':session.draft.length<task.tokens.length?'Es fehlen noch Bausteine. Jedes Wort und jedes Satzzeichen gehört in den Satz.':task.hint):question!.explanation}</p></section>}
