@@ -1,0 +1,14 @@
+import { z } from 'zod';
+import { subjectSchema } from '../lib/schema';
+import catalog from './catalog.json';
+import credits from './assetCredits.json';
+import sources from './sources.json';
+const hotspot=z.object({id:z.string(),label:z.string(),text:z.string(),x:z.number().min(0).max(100).optional(),y:z.number().min(0).max(100).optional()});
+export const boardSchema=z.object({id:z.string().min(1),subject:subjectSchema,title:z.string().min(1),summary:z.string(),sections:z.array(z.object({title:z.string(),text:z.string(),formula:z.string().optional(),shape:z.string().optional()})).min(1),visual:z.string(),sources:z.array(z.string()),reviewedAt:z.string(),figures:z.array(z.object({title:z.string(),src:z.string().regex(/^[a-z0-9-]+\.svg$/),ratio:z.number().positive(),hotspots:z.array(hotspot)})).min(1)});
+export type Board=z.infer<typeof boardSchema>;
+export const boards=catalog.map(board=>boardSchema.parse(board));
+export const assetCredits=credits as Record<string,{author:string;license:string;licenseUrl:string;sourceUrl:string;changes:string;ratio:number}>;
+export const referenceSources=sources as Record<string,{title:string;url:string}>;
+export const categories=[{id:'math',title:'Mathematik',short:'MA'},{id:'german',title:'Deutsch',short:'D'},{id:'biology',title:'Biologie',short:'Bio'},{id:'geography',title:'Geografie',short:'Geo'},{id:'social',title:'Sozialkunde',short:'SK'}] as const;
+if(new Set(boards.map(board=>board.id)).size!==boards.length)throw new Error('Doppelte Lerntafel-ID');
+for(const board of boards)for(const source of board.sources)if(!referenceSources[source])throw new Error('Unbekannte Lerntafelquelle: '+source);

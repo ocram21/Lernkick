@@ -19,7 +19,7 @@ test('Antwort bleibt drei Sekunden sichtbar; Automatik lässt sich anhalten und 
   await answer();await expect(page.locator('.feedback')).toBeVisible();
   await page.clock.install();
   // Re-arm via the accessible pause control so the mocked clock owns both timers.
-  await page.getByRole('button',{name:'Anhalten',exact:true}).click();await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
+  await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
   await page.clock.runFor(2999);await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
   await page.clock.runFor(1);await expect(page.getByText('Frage 2 von 10',{exact:true})).toBeVisible();
   await answer();await page.getByRole('button',{name:'Anhalten',exact:true}).click();

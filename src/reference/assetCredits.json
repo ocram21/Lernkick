@@ -1,0 +1,74 @@
+{
+  "digestive.svg": {
+    "author": "eingedeutscht User:BMK / Mariana Ruiz, Jmarchn",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_de.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 0.7660386709509008
+  },
+  "eye.svg": {
+    "author": "Talos, colorized by Jakov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eye_scheme.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 1.210727969348659
+  },
+  "ear.svg": {
+    "author": "Lars Chittka; Axel Brockmann",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear_de.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 1.3173076923076923
+  },
+  "skin.svg": {
+    "author": "US-Gov",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skin.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 1.0
+  },
+  "skeleton.svg": {
+    "author": "Furfur",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_skeleton_front_de.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 0.5175106011474183
+  },
+  "muscles.svg": {
+    "author": "OpenStax & Tomáš Kebert & umimeto.org",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muscles_front_and_back.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 1.1482818626006397
+  },
+  "nose.svg": {
+    "author": "Chabacano",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olfactory_system.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 1.8566145745337321
+  },
+  "circulation.svg": {
+    "author": "LadyofHats",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circulatory_System_no_tags.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 0.4518903657856687
+  },
+  "respiratory.svg": {
+    "author": "LadyofHats, translated by Martiny, corrections by Uwe Gille, Jmarchn",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Respiratory_system_complete_de.svg",
+    "changes": "Metadaten bereinigt; deutsche Sprachfassung gewählt, soweit vorhanden.",
+    "ratio": 0.8798309172103539
+  }
+}

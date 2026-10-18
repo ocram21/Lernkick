@@ -37,7 +37,7 @@ Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle
 - IndexedDB für Fortschritt, Bestleistungen, Einstellungen und eigene Karten. 75 Standardkarten (15 je Fach) und eigene Karten erstellen, bearbeiten, löschen und wiederholen. Nach dem Aufdecken steuern „Gewusst“ / „Noch üben“ die Wiederholungsfristen (1/3/7/14/30 Tage bzw. zehn Minuten). Wiederherstellen blendet entfernte Standardkarten wieder ein und bewahrt persönliche Bearbeitungen und eigene Karten. Selbstbewertungen schalten keine Bildteile frei.
 - Versionierter, validierter JSON-Export/Import. Import ersetzt nach Bestätigung den vorhandenen Lernstand und die Karten; bereits freigelegte Bildteile bleiben erhalten. Der Import ist auf 5 MB / 2.000 eigene Karten begrenzt.
 - Rechts neben dem Logo auf der Fächerauswahl steht „App aktualisieren“. Er prüft online auf eine neue Version, wartet auf den vollständigen Download und lädt die App nach dem Versionswechsel neu. Meldungen unterscheiden aktuell, offline und Fehler. Während der Prüfung kann keine Lernrunde gestartet werden. Nutzerdaten bleiben unabhängig vom Service-Worker-Cache erhalten.
-- Nach einer richtigen Antwort sind Lösung und Erklärung drei Sekunden sichtbar; danach geht die Runde automatisch weiter. Nach einer falschen Antwort bleibt die Erklärung ohne Timer stehen und die nächste Frage wird ausschließlich manuell geöffnet. „Anhalten“ gibt mehr Lesezeit, „Automatisch weiter“ startet die drei Sekunden neu. Manuelles Weitergehen ist ebenfalls möglich.
+- Lösung und Erklärung bleiben standardmäßig bis zum manuellen Weitergehen sichtbar. Auf Wunsch startet „Automatisch weiter“ bei richtigen Antworten einen Dreisekunden-Timer; „Anhalten“ stoppt ihn. Falsche Antworten wechseln immer nur manuell. Tafelwerk und Abbruchdialog pausieren die Automatik.
 
 Für ein neues Fortschrittsfeld werden je Fach mindestens vier von fünf verschiedenen Aufgaben ohne Hilfe richtig beantwortet. Dieselbe Aufgabensignatur zählt innerhalb von 24 Stunden nicht erneut; nach Freigabe beginnt ein neues Fenster. Alte Freischaltungen bleiben erhalten. Langfristige Kompetenzfestigung wird separat bewertet. Details: [Überarbeitung vom 17.10.2026](docs/UEBERARBEITUNG-2026-10-17.md). Lesbarer Anfangsbestand: [Lernkarten und Wortschatz](docs/LERNKARTEN-UND-WORTSCHATZ.md).
 
@@ -88,3 +88,11 @@ Die Browserprüfungen liegen in `tests/*.spec.ts`, der Pilot in `tests/learning.
 - Keine Konten, Tracker oder zentralen Schülerdaten. Hosting-Logs sowie Betreiber-/Datenschutzhinweise vor öffentlichem Einsatz gesondert prüfen.
 - Browserdaten sind an Origin und Browserprofil gebunden; bei Domainwechsel exportieren/importieren. Entfernte Browserdaten können nur aus einer vorherigen Sicherung wiederhergestellt werden. Andere Apps derselben Origin teilen deren Speicherumgebung; eigene Domain empfohlen.
 - App-interne Navigation verwendet keine Serverrouten; Deep Links sind nicht implementiert. Angebrochene Runden werden nach Neuladen nicht fortgesetzt, bereits beantwortete Fragen bleiben gespeichert.
+
+## Deutschlandquiz und Lerntafeln
+
+Zwei Runden ordnen alle 16 Bundesländer und anschließend ihre Hauptstädte auf amtlichen Landesumrissen zu. Ziehen, Antippen und Tastatur sind gleichwertig, falsche Versuche unbegrenzt. Kleine Länder haben vergrößerte Ziele. Kein Zeitlimit.
+
+35 Lerntafeln in genau fünf Kategorien, mit lokalen SVG-Vorschaubildern, Zoom/Pinch/Verschieben und dauerhaften Erklärungen. Sternchen-Favoriten stehen oben und werden lokal sowie in Sicherungen gespeichert. Das modale Tafelwerk lässt laufende Aufgaben, Spiele und ungespeicherte Eingaben montiert und stellt Fokus/Scrollposition wieder her. Nachschlagen vor einer Antwort zählt im adaptiven Lernen als Hilfe. Alle 38 Grafiken und Inhalte werden gemeinsam offline gespeichert.
+
+[Änderungsbericht](docs/ERWEITERUNGSKONZEPT-2026-10-18.md) · [Quellen, Grafikrechte und Erweiterungsanleitung](docs/LERNTAFELN-QUELLEN.md). Redaktionelle Inhaltsprüfung durchgeführt; lehrkräfteseitige Abnahme und reale Geräteprüfung bleiben offen.

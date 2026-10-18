@@ -42,10 +42,10 @@ export const studySchema=z.object({hiddenDefaults:z.array(z.string()).max(5000),
   if(new Set(study.vocabulary.map(entry=>entry.id)).size!==study.vocabulary.length)ctx.addIssue({code:'custom',message:'Wortschatz-IDs müssen eindeutig sein'});
 });
 export const previousDataSchema=z.object({version:z.literal(2),...commonData,learning:learningSchema}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
-export const dataSchema=z.object({version:z.literal(3),...commonData,learning:learningSchema,study:studySchema}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
+export const dataSchema=z.object({version:z.literal(3),...commonData,learning:learningSchema,study:studySchema,reference:z.object({favorites:z.array(z.string().min(1)).max(200)}).default({favorites:[]})}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
 export type UserData = z.infer<typeof dataSchema>;
 export type CompetencyState = z.infer<typeof competencyStateSchema>;
 export type Observation = z.infer<typeof observationSchema>;
 export const emptyLearning = (): UserData['learning'] => ({competencies:{},preferences:{},unlocks:{},recovery:{},awards:{},evidence:{}});
 export const emptyStudy = (): UserData['study'] => ({hiddenDefaults:[],defaultEdits:{},reviews:{},vocabulary:[],hiddenVocabulary:[],vocabularyEdits:{}});
-export const emptyData = (): UserData => ({version:3,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false},learning:emptyLearning(),study:emptyStudy()});
+export const emptyData = (): UserData => ({version:3,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false},learning:emptyLearning(),study:emptyStudy(),reference:{favorites:[]}});

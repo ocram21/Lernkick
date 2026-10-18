@@ -1,0 +1,70 @@
+{
+  "math": {
+    "title": "Mathematik: Lehrplanbezug Sachsen-Anhalt; Formeln und Beispiele redaktionell nachgerechnet",
+    "url": "https://www.bildung-lsa.de/informationsportal/unterricht/sekundarschule/mathematik/lernbibliothek/niveaubestimmende_aufgaben_.html"
+  },
+  "spelling": {
+    "title": "Rat für deutsche Rechtschreibung: Amtliches Regelwerk 2024",
+    "url": "https://www.rechtschreibrat.com/regeln-und-woerterverzeichnis/"
+  },
+  "grammar": {
+    "title": "Leibniz-Institut für Deutsche Sprache: grammis",
+    "url": "https://grammis.ids-mannheim.de/"
+  },
+  "application": {
+    "title": "Bundesagentur für Arbeit: Bewerbungsanschreiben",
+    "url": "https://web.arbeitsagentur.de/bildung/bewerbung/anschreiben"
+  },
+  "anatomy": {
+    "title": "OpenStax: Anatomy and Physiology, Kapitel zu Organen und Bewegung",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+  },
+  "natural-earth": {
+    "title": "Natural Earth: Karten- und Flussgeometrien, Public Domain; Grenzen vereinfacht",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  "bkg": {
+    "title": "BKG: Verwaltungsgebiete VG250, © BKG 2026, dl-de/by-2-0",
+    "url": "https://gdz.bkg.bund.de/index.php/default/wfs-verwaltungsgebiete-1-250-000-stand-01-01-wfs-vg250.html"
+  },
+  "water": {
+    "title": "USGS Water Science School: Wasserkreislauf",
+    "url": "https://www.usgs.gov/water-science-school/science/follow-a-drip-through-water-cycle"
+  },
+  "climate": {
+    "title": "NOAA: Climate zones",
+    "url": "https://www.noaa.gov/jetstream/global/climate-zones"
+  },
+  "earth": {
+    "title": "USGS: This Dynamic Earth – Plattentektonik",
+    "url": "https://pubs.usgs.gov/gip/dynamic/dynamic.html"
+  },
+  "seasons": {
+    "title": "NASA Space Place: Jahreszeiten und Achsneigung",
+    "url": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  "powers": {
+    "title": "Deutscher Bundestag: Gewaltenteilung",
+    "url": "https://www.bundestag.de/parlament/aufgaben/rechtsgrundlagen/gewaltenteilung-246408"
+  },
+  "government": {
+    "title": "Bundesregierung: Aufbau und Aufgaben der Verfassungsorgane",
+    "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/aufbau-und-aufgaben-390552"
+  },
+  "elections": {
+    "title": "Bundeswahlleiterin: Wahlsystem und Zweitstimmendeckung",
+    "url": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/informationen-waehler/wahlsystem.html"
+  },
+  "rights": {
+    "title": "Grundgesetz: Artikel 1–5",
+    "url": "https://www.gesetze-im-internet.de/gg/"
+  },
+  "insurance": {
+    "title": "BMAS: Soziale Sicherung im Überblick",
+    "url": "https://www.bmas.de/DE/Service/Publikationen/Broschueren/a721-soziale-sicherung-ueberblick.html"
+  },
+  "pay": {
+    "title": "Bundesfinanzministerium: Lohnsteuer; BMAS ergänzt die Sozialversicherungsbeiträge",
+    "url": "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerarten/Lohnsteuer/lohnsteuer.html"
+  }
+}

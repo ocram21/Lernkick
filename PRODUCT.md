@@ -14,7 +14,7 @@ Aktueller Umfang auf Nutzerwunsch: 100 Fragen je Fach, insgesamt 500. Quellen un
 
 Bestätigte Nutzervorgabe für die Startseite: auf eine Handy-Bildschirmhöhe reduzieren, Update rechts neben dem Logo, alle fünf Fächer und Navigation ohne Scrollen erreichbar. Werbe-Einstieg, große Grafik und verzichtbare Erklärungstexte entfernen; die Bedienung über einen kleinen Hilfe-Button erklären.
 
-Bei falschen Antworten bleibt die Erklärung ohne Zeitlimit stehen; weiter geht es ausschließlich manuell. Richtige Antworten wechseln nach drei Sekunden, mit weiterhin verfügbarer Pause. Das gilt auch für die letzte Frage einer Runde.
+Bei falschen Antworten bleibt die Erklärung ohne Zeitlimit stehen; weiter geht es ausschließlich manuell. Richtige Antworten bleiben ebenfalls standardmäßig stehen. Die bestehende Dreisekunden-Automatik bleibt freiwillig zuschaltbar und pausiert im Tafelwerk. Das gilt auch für die letzte Frage einer Runde.
 
 Mathe-Pilot laut Entwicklungsauftrag: kleine veränderliche Kompetenzen, deterministische Aufgabenvarianten, freiwillige Hilfestufen und Lernweg-Wahl. Kein Zeitdruck bei der Antwort, keine Interpretation von Antwortgeschwindigkeit. Mosaik-Meilensteine bleiben dauerhaft erhalten. Fünf getrennte neutrale Bildplatzhalter; aufwendige finale Bildwelten und neue Kompetenzbäume der anderen Fächer folgen später.
 
@@ -27,3 +27,5 @@ Bestätigte Überarbeitung vom 17.10.2026: Lernform zuerst (Lernrunde, Freies Ü
 Erweiterungsauftrag: Unteren Schriftzug entfernen, Kartensuche und Sortierung mit zehn Einträgen pro Schritt, Galgenraten aus bestehendem Lernstoff direkt auf der Startseite. Keine neuen Fächer. Aktive Spielansicht kompakt ohne Scrollen auf typischen Handys; Bildschirmtasten vermeiden eine zusätzliche OS-Tastatur.
 
 Galgenraten ist das einzige Spiel, ohne gesonderte Auswahlseite. Eigene Tasten für Ä, Ö, Ü und ß, keine Umschrift; Groß-/Kleinschreibung wird ohne Zusammenführen verschiedener Buchstaben vereinheitlicht. Zehn Fehlversuche; Zeichnung beginnt leer und wächst mit jedem Fehler um ein Element. Feedbackfunktion bleibt entfernt.
+
+35 offline verfügbare Lerntafeln und das zweistufige Deutschlandquiz ergänzen die bestehenden Lernformen. Details und offene Abnahme: [Erweiterungsbericht](docs/ERWEITERUNGSKONZEPT-2026-10-18.md).

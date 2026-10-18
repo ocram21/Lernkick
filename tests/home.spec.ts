@@ -32,7 +32,7 @@ for(const exit of ['Pfeil','Logo'])test(`Rundenabbruch über ${exit} fragt nach 
   await page.goto('/');await page.getByRole('button',{name:/Mathematik 100 Fragen/}).click();
   const {answerCorrect,storedAttempts}=await import('./helpers');await answerCorrect(page);
   await page.clock.install();
-  await page.getByRole('button',{name:'Anhalten',exact:true}).click();await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
+  await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
   const trigger=page.getByRole('button',{name:exit==='Logo'?'LernKick Startseite':'Runde verlassen',exact:true});
   await trigger.click();const dialog=page.getByRole('dialog',{name:'Runde verlassen?'});await expect(dialog).toBeVisible();
   await expect(dialog.getByRole('button',{name:'Weiterlernen',exact:true})).toBeFocused();
