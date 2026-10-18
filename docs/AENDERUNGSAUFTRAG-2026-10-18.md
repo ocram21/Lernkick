@@ -46,3 +46,9 @@ Touch-Prüfungen laufen mit Chromium-Touch-Emulation. Physische iPhones/Android-
 ## Diagramme neu erzeugen
 
 `python3 scripts/revise-reference-2026-10-18.py` erzeugt ausschließlich die neuen Mathe-/Biologie-/Politikgrafiken. Danach aktualisiert `node scripts/build-reference.mjs math-units german-sentence` nur die beiden Texttafeln. `python3 scripts/revise-americas-map.py` benötigt die im Skript genannten lokalen Natural-Earth-Eingaben und setzt die Amerika-Karte und ihr Seitenverhältnis. Die App benötigt diese Quelldownloads zur Laufzeit nicht.
+
+## Veröffentlichung
+
+Beim Live-Aufruf wurde die inzwischen konfigurierte Pages-Domain `lernkick.eu` erkannt. Der bisherige Build-Unterpfad `/Lernkick/` führte dort zu fehlenden Ressourcen. Die bestehende Repository-Variable `BASE_PATH` wurde deshalb auf `/` gesetzt und die Version neu veröffentlicht. Das bereits freigegebene Zertifikat wird durch aktiviertes HTTPS auch bei Weiterleitungen verwendet. Öffentliche Adresse: [LernKick](https://lernkick.eu/).
+
+Live-Prüfung auf der HTTPS-Domain bestanden: zehn direkte Fortschrittsbuttons, reduzierte Wortschatzauswahl, Kommas ab der ersten Normal-Aufgabe, gespeicherter Satzentwurf und Offline-Neustart. Keine JavaScript-Laufzeitfehler.

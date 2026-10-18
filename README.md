@@ -1,6 +1,6 @@
 # LernKick
 
-**Live-PWA:** [LernKick öffnen](https://ocram21.github.io/Lernkick/)
+**Live-PWA:** [LernKick öffnen](https://lernkick.eu/)
 
 Mobile Lern-PWA für einen BvB-Reha-Piloten. Lernangebot mit 500 redaktionellen Fragen und einem adaptiven Mathe-Piloten mit zusätzlichen generierten Aufgaben zur Vorbereitung auf den qualifizierten Hauptschulabschluss in Sachsen-Anhalt. **Keine offiziellen Prüfungsfragen, keine fachliche Freigabe.** Das Originalbriefing liegt in `docs/CODEX_BRIEF_LERN_PWA.md`.
 
@@ -64,7 +64,7 @@ Aktuell sichern Tests exakt 100 Fragen pro Fach. Bei bewusstem Ausbau die Sollza
 
 Die Workflow-Datei `.github/workflows/pages.yml` prüft Pull Requests und baut bei Push auf `main`. Veröffentlichen erfolgt ausdrücklich manuell über **Actions → Build, test and deploy LernKick → Run workflow → publish**. Im Ziel-Repository unter **Settings → Pages → Source → GitHub Actions** aktivieren. Ziel-Repository: [ocram21/Lernkick](https://github.com/ocram21/Lernkick), auf ausdrückliche Bestätigung des Nutzers öffentlich gestellt. GitHub Pages muss für Repository-Sichtbarkeit und Kontotarif verfügbar sein.
 
-Der Workflow setzt automatisch `BASE_PATH=/<Repositoryname>/`; bei `<Owner>.github.io` wird `/` verwendet. Für eine eigene Domain die Repository-Variable `BASE_PATH=/` setzen und die Domain in Pages konfigurieren. Manifest, Assets und Service-Worker-Scope folgen diesem Pfad. Lokal einen Unterpfad prüfen:
+Der Workflow setzt automatisch `BASE_PATH=/<Repositoryname>/`; bei `<Owner>.github.io` wird `/` verwendet. Für eine eigene Domain die Repository-Variable `BASE_PATH=/` setzen und die Domain in Pages konfigurieren. Aktuell ist `lernkick.eu` eingerichtet, `BASE_PATH=/` gesetzt und HTTPS aktiviert. Manifest, Assets und Service-Worker-Scope folgen diesem Pfad. Lokal einen Unterpfad prüfen:
 
 ```sh
 BASE_PATH=/Lernkick/ npm run build
@@ -83,7 +83,7 @@ Die Browserprüfungen liegen in `tests/*.spec.ts`, der Pilot in `tests/learning.
 
 ## Offene Entscheidungen und Grenzen
 
-- Betreiberangaben fehlen noch. Die PWA ist unter https://ocram21.github.io/Lernkick/ veröffentlicht.
+- Betreiberangaben fehlen noch. Die PWA ist unter https://lernkick.eu/ veröffentlicht.
 - Offizielle Lehrplanquellen und Fachhinweise wurden recherchiert; siehe [Recherche Sachsen-Anhalt](docs/ANFORDERUNGEN-SACHSEN-ANHALT.md). Der konkrete Prüfungsweg der BvB-Reha-Gruppe und die Freigabe durch Fachlehrkräfte bleiben offen. Alle 500 Aufgaben mit Lösungen: [Fragenkatalog](docs/FRAGENKATALOG.md).
 - Keine Konten, Tracker oder zentralen Schülerdaten. Hosting-Logs sowie Betreiber-/Datenschutzhinweise vor öffentlichem Einsatz gesondert prüfen.
 - Browserdaten sind an Origin und Browserprofil gebunden; bei Domainwechsel exportieren/importieren. Entfernte Browserdaten können nur aus einer vorherigen Sicherung wiederhergestellt werden. Andere Apps derselben Origin teilen deren Speicherumgebung; eigene Domain empfohlen.
