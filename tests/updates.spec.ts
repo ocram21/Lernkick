@@ -65,7 +65,7 @@ test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten'
     await page.goto(`http://127.0.0.1:${address.port}/`);await expect(page.getByRole('button',{name:'App aktualisieren',exact:true})).toBeVisible();
     await page.evaluate(async()=>{await navigator.serviceWorker.ready;});await page.reload();
     await expect.poll(()=>page.evaluate(()=>Boolean(navigator.serviceWorker.controller))).toBe(true);
-    const data=emptyData();data.cards=[{id:'update-test',front:'Bleibt meine Karte?',back:'Ja.',subject:'math'}];data.progress['math-001']={box:2,due:123456,attempts:3,correct:2,lastAward:123};data.scores.math=30;
+    const data=emptyData();data.cards=[{id:'update-test',front:'Bleibt meine Karte?',back:'Ja.',subject:'math'}];data.progress['math-001']={box:2,due:123456,attempts:3,correct:2,lastAward:123};data.scores.math=30;data.activities.germany.states['15']={attempts:2,correct:1,lastCorrect:true,at:123};data.activities.vocabulary.session={ids:['sentence.normal.v1.001'],index:0,answer:null,draft:[2,0],solved:false};data.activities.hangman.session={termId:'hangman.normal.001',guessed:['K'],hinted:true,revealed:false,recorded:false};data.study.reviews['update-test']={box:4,due:999999,attempts:5,known:4,lastRated:123};
     await page.evaluate(async data=>{const db=await new Promise<IDBDatabase>(resolve=>{const request=indexedDB.open('lernkick',1);request.onsuccess=()=>resolve(request.result);});await new Promise<void>(resolve=>{const tx=db.transaction('user','readwrite');tx.objectStore('user').put(data,'data');tx.oncomplete=()=>resolve();});db.close();},data);
     await page.getByRole('button',{name:'App aktualisieren',exact:true}).click();await expect(page.getByRole('status')).toContainText('Alles aktuell');
     version=2;

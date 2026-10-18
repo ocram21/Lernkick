@@ -1,0 +1,4406 @@
+{
+  "revision": "2026.10.18.2",
+  "reviewStatus": "editorial-reviewed-teacher-review-pending",
+  "entries": [
+    {
+      "word": "Haushalt",
+      "meaning": "Alle Arbeiten und Dinge, die zum Leben in einer Wohnung gehören.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.001",
+      "category": "everyday",
+      "distractors": [
+        "Eine Übersicht, wann Verkehrsmittel abfahren oder ankommen.",
+        "Ein Umgang, der andere Menschen und ihre Grenzen achtet."
+      ]
+    },
+    {
+      "word": "Wohnung",
+      "meaning": "Mehrere Räume, in denen Menschen leben.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.002",
+      "category": "everyday",
+      "distractors": [
+        "Ein Nachweis, dass man eine Fahrt mit einem Verkehrsmittel nutzen darf.",
+        "Das Beachten der Bedürfnisse anderer Menschen."
+      ]
+    },
+    {
+      "word": "Miete",
+      "meaning": "Geld, das man regelmäßig für die Nutzung einer Wohnung bezahlt.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.003",
+      "category": "everyday",
+      "distractors": [
+        "Der Bereich am Gleis, an dem man in einen Zug einsteigt.",
+        "Eine Auseinandersetzung, bei der Menschen unterschiedliche Ansichten heftig vertreten."
+      ]
+    },
+    {
+      "word": "Nebenkosten",
+      "meaning": "Zusätzliche Kosten für die Wohnung, zum Beispiel für Wasser.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.004",
+      "category": "everyday",
+      "distractors": [
+        "Zwei Schienen, auf denen Züge fahren.",
+        "Eine Einigung, bei der beide Seiten einen Teil ihrer Wünsche aufgeben."
+      ]
+    },
+    {
+      "word": "Kaution",
+      "meaning": "Geld, das als Sicherheit hinterlegt und später abgerechnet wird.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.005",
+      "category": "everyday",
+      "distractors": [
+        "Der Wechsel von einem Verkehrsmittel in ein anderes.",
+        "Eine Äußerung, mit der man einen Fehler oder eine Verletzung bedauert."
+      ]
+    },
+    {
+      "word": "Schlüssel",
+      "meaning": "Ein Gegenstand, mit dem man ein passendes Schloss öffnet.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.006",
+      "category": "everyday",
+      "distractors": [
+        "Das spätere Eintreffen im Vergleich zur geplanten Zeit.",
+        "Eine Situation, in der etwas anders verstanden wurde, als es gemeint war."
+      ]
+    },
+    {
+      "word": "Türschloss",
+      "meaning": "Die Vorrichtung in einer Tür, die mit einem Schlüssel geschlossen wird.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.007",
+      "category": "everyday",
+      "distractors": [
+        "Der Zeitpunkt, an dem ein Fahrzeug seine Fahrt beginnt.",
+        "Eine nicht sicher bestätigte Nachricht, die weitererzählt wird."
+      ]
+    },
+    {
+      "word": "Klingel",
+      "meaning": "Ein Gerät, mit dem Besucher an der Tür auf sich aufmerksam machen.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.008",
+      "category": "everyday",
+      "distractors": [
+        "Der Zeitpunkt, an dem jemand ein Ziel erreicht.",
+        "Was jemand über eine Sache denkt oder wie jemand sie beurteilt."
+      ]
+    },
+    {
+      "word": "Briefkasten",
+      "meaning": "Ein Behälter, in den die Post Briefe einwirft.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.009",
+      "category": "everyday",
+      "distractors": [
+        "Die Richtung, in die ein Fahrzeug fährt.",
+        "Etwas, das sich überprüfen lässt und tatsächlich so ist."
+      ]
+    },
+    {
+      "word": "Treppenhaus",
+      "meaning": "Der gemeinsame Bereich eines Hauses, in dem die Treppen liegen.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.010",
+      "category": "everyday",
+      "distractors": [
+        "Eine Stelle, an der sich Straßen treffen oder kreuzen.",
+        "Eine Aussage, die jemand als richtig darstellt."
+      ]
+    },
+    {
+      "word": "Keller",
+      "meaning": "Ein Raum oder ein Geschoss unter der Erde.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.011",
+      "category": "everyday",
+      "distractors": [
+        "Ein Verkehrszeichen mit Lichtern, das den Verkehr regelt.",
+        "Sagen, warum eine Aussage oder Entscheidung sinnvoll ist."
+      ]
+    },
+    {
+      "word": "Universität",
+      "meaning": "Eine Hochschule, an der Menschen studieren und forschen.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.012",
+      "category": "everyday",
+      "distractors": [
+        "Markierte Streifen auf einer Straße, an denen Fußgänger sie überqueren.",
+        "Eine Idee, wie man etwas machen könnte."
+      ]
+    },
+    {
+      "word": "Heizung",
+      "meaning": "Eine Anlage, die Räume warm macht.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.013",
+      "category": "everyday",
+      "distractors": [
+        "Der Teil einer Straße, der für Fußgänger bestimmt ist.",
+        "Eine höfliche Äußerung, mit der man sich etwas wünscht."
+      ]
+    },
+    {
+      "word": "Steckdose",
+      "meaning": "Ein Anschluss in der Wand, aus dem ein Gerät Strom bekommt.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.014",
+      "category": "everyday",
+      "distractors": [
+        "Ein Weg oder Straßenbereich, der für Fahrräder bestimmt ist.",
+        "Die Mitteilung, dass man etwas nicht annimmt oder nicht möchte."
+      ]
+    },
+    {
+      "word": "Lichtschalter",
+      "meaning": "Ein Schalter, mit dem man eine Lampe ein- und ausschaltet.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.015",
+      "category": "everyday",
+      "distractors": [
+        "Ein anderer Weg, weil der übliche Weg nicht benutzt werden kann.",
+        "Eine Linie oder Regel, die zeigt, wie weit etwas gehen darf."
+      ]
+    },
+    {
+      "word": "Wasserhahn",
+      "meaning": "Eine Vorrichtung, aus der man Wasser laufen lassen kann.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.016",
+      "category": "everyday",
+      "distractors": [
+        "Ein Ort, an dem gebaut oder etwas repariert wird.",
+        "Die Aufgabe, für etwas zu sorgen und für Folgen einzustehen."
+      ]
+    },
+    {
+      "word": "Abfluss",
+      "meaning": "Eine Öffnung, durch die benutztes Wasser abläuft.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.017",
+      "category": "everyday",
+      "distractors": [
+        "Der Teil einer Straße, auf dem Fahrzeuge fahren.",
+        "Hilfe, durch die eine Aufgabe oder eine schwierige Lage leichter wird."
+      ]
+    },
+    {
+      "word": "Kühlschrank",
+      "meaning": "Ein Gerät, das Lebensmittel kühl hält.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.018",
+      "category": "everyday",
+      "distractors": [
+        "Eine runde Straßenführung, durch die Fahrzeuge um eine Mitte fahren.",
+        "Eine Gruppe von Menschen, die zusammengehören oder etwas gemeinsam tun."
+      ]
+    },
+    {
+      "word": "Gefrierfach",
+      "meaning": "Ein sehr kalter Bereich, in dem Lebensmittel gefrieren.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.019",
+      "category": "everyday",
+      "distractors": [
+        "Mehrere Menschen nutzen gemeinsam ein Fahrzeug für eine Strecke.",
+        "Ein Austausch, bei dem Menschen miteinander sprechen und zuhören."
+      ]
+    },
+    {
+      "word": "Herd",
+      "meaning": "Ein Gerät, auf dem man Speisen in Töpfen oder Pfannen kocht.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.020",
+      "category": "everyday",
+      "distractors": [
+        "Ein Band im Fahrzeug, das Menschen bei starkem Bremsen festhält.",
+        "Aufmerksam verfolgen, was ein anderer Mensch sagt."
+      ]
+    },
+    {
+      "word": "Backofen",
+      "meaning": "Ein Gerät, in dessen heißem Innenraum man Speisen backt.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.021",
+      "category": "everyday",
+      "distractors": [
+        "Ein Schutz für den Kopf beim Fahrradfahren.",
+        "Um eine weitere Erklärung bitten, wenn etwas noch unklar ist."
+      ]
+    },
+    {
+      "word": "Spülmittel",
+      "meaning": "Eine Flüssigkeit zum Reinigen von Geschirr.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.022",
+      "category": "everyday",
+      "distractors": [
+        "Taschen und andere Sachen, die man auf einer Reise mitnimmt.",
+        "So, dass man sich auf die Person oder Sache verlassen kann."
+      ]
+    },
+    {
+      "word": "Waschmittel",
+      "meaning": "Ein Mittel zum Reinigen von Kleidung in der Wäsche.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.023",
+      "category": "everyday",
+      "distractors": [
+        "Angaben, mit denen man einen Wohnort oder ein Gebäude findet.",
+        "Das Gefühl, dass es einem körperlich und seelisch gut geht."
+      ]
+    },
+    {
+      "word": "Besen",
+      "meaning": "Ein Gerät mit Borsten, mit dem man den Boden fegt.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.024",
+      "category": "everyday",
+      "distractors": [
+        "Eine Karte, auf der Straßen und wichtige Orte einer Stadt stehen.",
+        "Eine Zeit, in der man neue Kraft bekommt."
+      ]
+    },
+    {
+      "word": "Mülltrennung",
+      "meaning": "Das getrennte Sammeln verschiedener Abfälle.",
+      "topic": "Zu Hause",
+      "id": "vocabulary.everyday.v1.025",
+      "category": "everyday",
+      "distractors": [
+        "Ein vereinbarter Zeitpunkt für ein Treffen oder eine Aufgabe.",
+        "Das Verändern der Körperhaltung oder des Ortes durch eigene Aktivität."
+      ]
+    },
+    {
+      "word": "Einkaufszettel",
+      "meaning": "Eine Liste mit Dingen, die man kaufen möchte.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.026",
+      "category": "everyday",
+      "distractors": [
+        "Eine Übersicht über Tage, Wochen und Monate.",
+        "Alles, was mit dem Essen und Trinken eines Menschen zusammenhängt."
+      ]
+    },
+    {
+      "word": "Supermarkt",
+      "meaning": "Ein Geschäft mit Lebensmitteln und weiteren Waren für den Alltag.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.027",
+      "category": "everyday",
+      "distractors": [
+        "Eine Angabe, welcher Zeitpunkt an einem Tag gemeint ist.",
+        "Das körperliche Bedürfnis, etwas zu trinken."
+      ]
+    },
+    {
+      "word": "Bäckerei",
+      "meaning": "Ein Geschäft, in dem Brot und andere Backwaren verkauft werden.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.028",
+      "category": "everyday",
+      "distractors": [
+        "Ein Zeitraum, bis zu dessen Ende etwas erledigt sein soll.",
+        "Das körperliche Bedürfnis, etwas zu essen."
+      ]
+    },
+    {
+      "word": "Apotheke",
+      "meaning": "Ein Geschäft, in dem man Arzneimittel bekommt.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.029",
+      "category": "everyday",
+      "distractors": [
+        "Eine Absprache, sich zu einer bestimmten Zeit zu treffen.",
+        "Der Zustand, in dem man Ruhe oder Schlaf braucht."
+      ]
+    },
+    {
+      "word": "Kasse",
+      "meaning": "Der Platz im Geschäft, an dem man bezahlt.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.030",
+      "category": "everyday",
+      "distractors": [
+        "Eine Bitte, bei einem Treffen oder einer Veranstaltung dabei zu sein.",
+        "Der Einsatz von Kraft oder Aufmerksamkeit für eine Tätigkeit."
+      ]
+    },
+    {
+      "word": "Kassenbon",
+      "meaning": "Ein Beleg, auf dem ein Einkauf und seine Preise stehen.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.031",
+      "category": "everyday",
+      "distractors": [
+        "Eine Nachricht, dass ein geplantes Treffen nicht stattfindet oder jemand nicht kommt.",
+        "Maßnahmen, mit denen man sich und seine Umgebung sauber hält."
+      ]
+    },
+    {
+      "word": "Preisschild",
+      "meaning": "Ein Schild, das zeigt, wie viel eine Ware kostet.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.032",
+      "category": "everyday",
+      "distractors": [
+        "Eine Nachricht, dass eine Angabe oder Absprache stimmt.",
+        "Material, das eine Wunde abdeckt und schützt."
+      ]
+    },
+    {
+      "word": "Angebot",
+      "meaning": "Eine Ware oder Leistung, die zu bestimmten Bedingungen angeboten wird.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.033",
+      "category": "everyday",
+      "distractors": [
+        "Ein Hinweis, durch den man an etwas denkt, das man nicht vergessen soll.",
+        "Ein kleiner selbstklebender Schutz für eine Wunde."
+      ]
+    },
+    {
+      "word": "Rabatt",
+      "meaning": "Ein Abzug vom üblichen Preis.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.034",
+      "category": "everyday",
+      "distractors": [
+        "Die Ordnung, in der Dinge nacheinander kommen.",
+        "Ein Raum, in dem Menschen vor einer Behandlung warten."
+      ]
+    },
+    {
+      "word": "Pfand",
+      "meaning": "Geld, das man etwa für eine Flasche bezahlt und bei Rückgabe zurückbekommt.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.035",
+      "category": "everyday",
+      "distractors": [
+        "Eine Übersicht, wann einzelne Aufgaben erledigt werden sollen.",
+        "Eine festgelegte Zeit, in der eine Praxis Menschen empfängt."
+      ]
+    },
+    {
+      "word": "Wechselgeld",
+      "meaning": "Geld, das man nach dem Bezahlen mit einem größeren Betrag zurückbekommt.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.036",
+      "category": "everyday",
+      "distractors": [
+        "Eine Unterbrechung einer Tätigkeit, in der man sich erholen kann.",
+        "Das genaue Prüfen eines Zustands, zum Beispiel in einer Arztpraxis."
+      ]
+    },
+    {
+      "word": "Bargeld",
+      "meaning": "Geld in Form von Münzen und Scheinen.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.037",
+      "category": "everyday",
+      "distractors": [
+        "Das Einhalten einer vereinbarten Zeit.",
+        "Eine schriftliche Anweisung, etwa für ein Medikament oder die Zubereitung einer Speise."
+      ]
+    },
+    {
+      "word": "Geldbeutel",
+      "meaning": "Eine kleine Tasche für Geld und Karten.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.038",
+      "category": "everyday",
+      "distractors": [
+        "Die Fähigkeit, ruhig zu warten oder bei einer Sache zu bleiben.",
+        "Eine organisierte Gemeinschaft von Menschen mit gemeinsamen Interessen."
+      ]
+    },
+    {
+      "word": "Konto",
+      "meaning": "Eine bei einer Bank geführte Übersicht über Einzahlungen und Auszahlungen.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.039",
+      "category": "everyday",
+      "distractors": [
+        "Eine Handlung, die man oft auf ähnliche Weise macht.",
+        "Regelmäßiges Üben, um eine Fähigkeit zu verbessern."
+      ]
+    },
+    {
+      "word": "Geldautomat",
+      "meaning": "Ein Gerät, an dem man mit einer passenden Karte Bargeld abheben kann.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.040",
+      "category": "everyday",
+      "distractors": [
+        "Wahrscheinlich, aber noch nicht sicher.",
+        "Eine Gruppe von Menschen, die gemeinsam Sport treibt oder antritt."
+      ]
+    },
+    {
+      "word": "Überweisung",
+      "meaning": "Das Übertragen von Geld von einem Konto auf ein anderes.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.041",
+      "category": "everyday",
+      "distractors": [
+        "Der Vorrang, den eine Aufgabe vor einer anderen hat.",
+        "Eine Vereinbarung darüber, was in einem Spiel erlaubt ist."
+      ]
+    },
+    {
+      "word": "Dauerauftrag",
+      "meaning": "Ein Auftrag an die Bank, regelmäßig einen festen Betrag zu überweisen.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.042",
+      "category": "everyday",
+      "distractors": [
+        "Eine verbindliche Nachricht, dass man etwas tun oder annehmen wird.",
+        "Eine kurze Reise zu einem Ziel in der Umgebung."
+      ]
+    },
+    {
+      "word": "Rechnung",
+      "meaning": "Eine schriftliche Aufstellung über einen zu zahlenden Betrag.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.043",
+      "category": "everyday",
+      "distractors": [
+        "So zugesagt oder festgelegt, dass man sich daran halten soll.",
+        "Ein Nachweis, mit dem man eine Veranstaltung oder einen Ort besuchen darf."
+      ]
+    },
+    {
+      "word": "Quittung",
+      "meaning": "Eine Bestätigung, dass Geld oder eine Sache empfangen wurde.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.044",
+      "category": "everyday",
+      "distractors": [
+        "Einen Termin auf einen anderen Zeitpunkt legen oder etwas an eine andere Stelle bewegen.",
+        "Ein Ort, an dem man Bücher und andere Medien ausleihen kann."
+      ]
+    },
+    {
+      "word": "Rückgabe",
+      "meaning": "Das Zurückbringen einer zuvor erhaltenen oder gekauften Sache.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.045",
+      "category": "everyday",
+      "distractors": [
+        "Die Zeit zwischen dem Ankommen und dem Beginn einer Sache.",
+        "Das zeitweise Überlassen einer Sache, die später zurückgegeben wird."
+      ]
+    },
+    {
+      "word": "Umtausch",
+      "meaning": "Das Austauschen einer gekauften Ware gegen eine andere.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.046",
+      "category": "everyday",
+      "distractors": [
+        "Die Länge der Zeit, die etwas braucht.",
+        "Eine Tätigkeit, die man in der Freizeit gern macht."
+      ]
+    },
+    {
+      "word": "Verpackung",
+      "meaning": "Eine Hülle, die eine Ware schützt oder zusammenhält.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.047",
+      "category": "everyday",
+      "distractors": [
+        "Ein Geldbetrag, der für eine bestimmte Leistung verlangt wird.",
+        "Ein Gang zu Fuß, bei dem Bewegung und Erholung im Vordergrund stehen."
+      ]
+    },
+    {
+      "word": "Portion",
+      "meaning": "Eine abgemessene Menge einer Speise für eine Person.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.048",
+      "category": "everyday",
+      "distractors": [
+        "Der Zeitpunkt, an dem etwas aufhört.",
+        "Eine Mitteilung, die jemand an eine andere Person sendet."
+      ]
+    },
+    {
+      "word": "Haltbarkeit",
+      "meaning": "Die Zeit, in der etwas bei passender Lagerung verwendbar bleibt.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.049",
+      "category": "everyday",
+      "distractors": [
+        "Die Tage Samstag und Sonntag.",
+        "Eine geheime Zeichenfolge, mit der man den Zugang zu einem Konto schützt."
+      ]
+    },
+    {
+      "word": "Vorrat",
+      "meaning": "Dinge, die man für einen späteren Bedarf aufbewahrt.",
+      "topic": "Einkaufen und Geld",
+      "id": "vocabulary.everyday.v1.050",
+      "category": "everyday",
+      "distractors": [
+        "Ein Mensch, der in der Nähe wohnt.",
+        "Ein Name, mit dem ein Konto in einem digitalen Dienst bezeichnet wird."
+      ]
+    },
+    {
+      "word": "Haltestelle",
+      "meaning": "Ein festgelegter Ort, an dem Bus oder Bahn halten.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.051",
+      "category": "everyday",
+      "distractors": [
+        "Eine persönliche Verbindung von Menschen, die einander mögen und vertrauen.",
+        "Eine Fläche, auf der ein Gerät Texte und Bilder zeigt."
+      ]
+    },
+    {
+      "word": "Fahrplan",
+      "meaning": "Eine Übersicht, wann Verkehrsmittel abfahren oder ankommen.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.052",
+      "category": "everyday",
+      "distractors": [
+        "Die Überzeugung, sich auf jemanden oder etwas verlassen zu können.",
+        "Ein Eingabegerät mit Tasten für Buchstaben, Zahlen und Zeichen."
+      ]
+    },
+    {
+      "word": "Fahrkarte",
+      "meaning": "Ein Nachweis, dass man eine Fahrt mit einem Verkehrsmittel nutzen darf.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.053",
+      "category": "everyday",
+      "distractors": [
+        "Ein Umgang, der andere Menschen und ihre Grenzen achtet.",
+        "Gespeicherte digitale Informationen, zum Beispiel ein Foto oder ein Text."
+      ]
+    },
+    {
+      "word": "Bahnsteig",
+      "meaning": "Der Bereich am Gleis, an dem man in einen Zug einsteigt.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.054",
+      "category": "everyday",
+      "distractors": [
+        "Das Beachten der Bedürfnisse anderer Menschen.",
+        "Ein digitaler oder körperlicher Sammelplatz für zusammengehörige Unterlagen."
+      ]
+    },
+    {
+      "word": "Gleis",
+      "meaning": "Zwei Schienen, auf denen Züge fahren.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.055",
+      "category": "everyday",
+      "distractors": [
+        "Eine Auseinandersetzung, bei der Menschen unterschiedliche Ansichten heftig vertreten.",
+        "Eine Datei, die zusammen mit einer Nachricht verschickt wird."
+      ]
+    },
+    {
+      "word": "Umstieg",
+      "meaning": "Der Wechsel von einem Verkehrsmittel in ein anderes.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.056",
+      "category": "everyday",
+      "distractors": [
+        "Eine Einigung, bei der beide Seiten einen Teil ihrer Wünsche aufgeben.",
+        "Das Übertragen einer Datei aus dem Internet auf das eigene Gerät."
+      ]
+    },
+    {
+      "word": "Verspätung",
+      "meaning": "Das spätere Eintreffen im Vergleich zur geplanten Zeit.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.057",
+      "category": "everyday",
+      "distractors": [
+        "Eine Äußerung, mit der man einen Fehler oder eine Verletzung bedauert.",
+        "Das Ersetzen einer älteren Fassung durch eine neuere."
+      ]
+    },
+    {
+      "word": "Abfahrt",
+      "meaning": "Der Zeitpunkt, an dem ein Fahrzeug seine Fahrt beginnt.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.058",
+      "category": "everyday",
+      "distractors": [
+        "Eine Situation, in der etwas anders verstanden wurde, als es gemeint war.",
+        "Eine zusätzliche Kopie von Daten, die vor Verlust schützen soll."
+      ]
+    },
+    {
+      "word": "Ankunft",
+      "meaning": "Der Zeitpunkt, an dem jemand ein Ziel erreicht.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.059",
+      "category": "everyday",
+      "distractors": [
+        "Eine nicht sicher bestätigte Nachricht, die weitererzählt wird.",
+        "Der Schutz persönlicher Daten vor unzulässiger Nutzung."
+      ]
+    },
+    {
+      "word": "Fahrtrichtung",
+      "meaning": "Die Richtung, in die ein Fahrzeug fährt.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.060",
+      "category": "everyday",
+      "distractors": [
+        "Was jemand über eine Sache denkt oder wie jemand sie beurteilt.",
+        "Eine freiwillige Zustimmung zu einer bestimmten Handlung."
+      ]
+    },
+    {
+      "word": "Kreuzung",
+      "meaning": "Eine Stelle, an der sich Straßen treffen oder kreuzen.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.061",
+      "category": "everyday",
+      "distractors": [
+        "Etwas, das sich überprüfen lässt und tatsächlich so ist.",
+        "Eine Mitteilung, die Interesse an einer Ware oder Leistung wecken soll."
+      ]
+    },
+    {
+      "word": "Ampel",
+      "meaning": "Ein Verkehrszeichen mit Lichtern, das den Verkehr regelt.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.062",
+      "category": "everyday",
+      "distractors": [
+        "Eine Aussage, die jemand als richtig darstellt.",
+        "Die Herkunft einer Information."
+      ]
+    },
+    {
+      "word": "Zebrastreifen",
+      "meaning": "Markierte Streifen auf einer Straße, an denen Fußgänger sie überqueren.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.063",
+      "category": "everyday",
+      "distractors": [
+        "Sagen, warum eine Aussage oder Entscheidung sinnvoll ist.",
+        "Ein Wort oder mehrere Wörter, mit denen man nach Informationen sucht."
+      ]
+    },
+    {
+      "word": "Bürgersteig",
+      "meaning": "Der Teil einer Straße, der für Fußgänger bestimmt ist.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.064",
+      "category": "everyday",
+      "distractors": [
+        "Eine Idee, wie man etwas machen könnte.",
+        "Ein Verweis, den man antippen kann, um eine andere Seite oder Datei zu öffnen."
+      ]
+    },
+    {
+      "word": "Radweg",
+      "meaning": "Ein Weg oder Straßenbereich, der für Fahrräder bestimmt ist.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.065",
+      "category": "everyday",
+      "distractors": [
+        "Eine höfliche Äußerung, mit der man sich etwas wünscht.",
+        "Eine drahtlose Verbindung zwischen Geräten und einem örtlichen Netzwerk."
+      ]
+    },
+    {
+      "word": "Umleitung",
+      "meaning": "Ein anderer Weg, weil der übliche Weg nicht benutzt werden kann.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.066",
+      "category": "everyday",
+      "distractors": [
+        "Die Mitteilung, dass man etwas nicht annimmt oder nicht möchte.",
+        "Eine Funkverbindung, die ein Handy auch unterwegs nutzen kann."
+      ]
+    },
+    {
+      "word": "Baustelle",
+      "meaning": "Ein Ort, an dem gebaut oder etwas repariert wird.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.067",
+      "category": "everyday",
+      "distractors": [
+        "Eine Linie oder Regel, die zeigt, wie weit etwas gehen darf.",
+        "Ein Kabel, durch das ein Gerät elektrische Energie zum Aufladen erhält."
+      ]
+    },
+    {
+      "word": "Fahrbahn",
+      "meaning": "Der Teil einer Straße, auf dem Fahrzeuge fahren.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.068",
+      "category": "everyday",
+      "distractors": [
+        "Die Aufgabe, für etwas zu sorgen und für Folgen einzustehen.",
+        "Ein wiederaufladbarer Speicher für elektrische Energie."
+      ]
+    },
+    {
+      "word": "Kreisverkehr",
+      "meaning": "Eine runde Straßenführung, durch die Fahrzeuge um eine Mitte fahren.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.069",
+      "category": "everyday",
+      "distractors": [
+        "Hilfe, durch die eine Aufgabe oder eine schwierige Lage leichter wird.",
+        "Gespeicherte Angaben, mit denen man einen Menschen erreichen kann."
+      ]
+    },
+    {
+      "word": "Fahrgemeinschaft",
+      "meaning": "Mehrere Menschen nutzen gemeinsam ein Fahrzeug für eine Strecke.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.070",
+      "category": "everyday",
+      "distractors": [
+        "Eine Gruppe von Menschen, die zusammengehören oder etwas gemeinsam tun.",
+        "Eine Zusammenstellung von Angaben zu einer Person in einem Dienst."
+      ]
+    },
+    {
+      "word": "Sicherheitsgurt",
+      "meaning": "Ein Band im Fahrzeug, das Menschen bei starkem Bremsen festhält.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.071",
+      "category": "everyday",
+      "distractors": [
+        "Ein Austausch, bei dem Menschen miteinander sprechen und zuhören.",
+        "Eine kurze Äußerung zu einem Beitrag oder einer Sache."
+      ]
+    },
+    {
+      "word": "Fahrradhelm",
+      "meaning": "Ein Schutz für den Kopf beim Fahrradfahren.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.072",
+      "category": "everyday",
+      "distractors": [
+        "Aufmerksam verfolgen, was ein anderer Mensch sagt.",
+        "Dokumente, die für eine Aufgabe oder einen Vorgang gebraucht werden."
+      ]
+    },
+    {
+      "word": "Gepäck",
+      "meaning": "Taschen und andere Sachen, die man auf einer Reise mitnimmt.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.073",
+      "category": "everyday",
+      "distractors": [
+        "Um eine weitere Erklärung bitten, wenn etwas noch unklar ist.",
+        "Eine Bitte an eine zuständige Stelle, eine Leistung oder Entscheidung zu erhalten."
+      ]
+    },
+    {
+      "word": "Adresse",
+      "meaning": "Angaben, mit denen man einen Wohnort oder ein Gebäude findet.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.074",
+      "category": "everyday",
+      "distractors": [
+        "So, dass man sich auf die Person oder Sache verlassen kann.",
+        "Ein vorbereiteter Bogen oder eine digitale Seite mit Feldern zum Ausfüllen."
+      ]
+    },
+    {
+      "word": "Stadtplan",
+      "meaning": "Eine Karte, auf der Straßen und wichtige Orte einer Stadt stehen.",
+      "topic": "Unterwegs",
+      "id": "vocabulary.everyday.v1.075",
+      "category": "everyday",
+      "distractors": [
+        "Das Gefühl, dass es einem körperlich und seelisch gut geht.",
+        "Der eigenhändig geschriebene Name zur Bestätigung eines Dokuments."
+      ]
+    },
+    {
+      "word": "Termin",
+      "meaning": "Ein vereinbarter Zeitpunkt für ein Treffen oder eine Aufgabe.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.076",
+      "category": "everyday",
+      "distractors": [
+        "Eine Zeit, in der man neue Kraft bekommt.",
+        "Ein Dokument oder eine Angabe, die etwas belegt."
+      ]
+    },
+    {
+      "word": "Kalender",
+      "meaning": "Eine Übersicht über Tage, Wochen und Monate.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.077",
+      "category": "everyday",
+      "distractors": [
+        "Das Verändern der Körperhaltung oder des Ortes durch eigene Aktivität.",
+        "Ein Dokument, mit dem man seine Person oder eine Berechtigung nachweist."
+      ]
+    },
+    {
+      "word": "Uhrzeit",
+      "meaning": "Eine Angabe, welcher Zeitpunkt an einem Tag gemeint ist.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.078",
+      "category": "everyday",
+      "distractors": [
+        "Alles, was mit dem Essen und Trinken eines Menschen zusammenhängt.",
+        "Eine schriftliche Bestätigung über einen bestimmten Sachverhalt."
+      ]
+    },
+    {
+      "word": "Frist",
+      "meaning": "Ein Zeitraum, bis zu dessen Ende etwas erledigt sein soll.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.079",
+      "category": "everyday",
+      "distractors": [
+        "Das körperliche Bedürfnis, etwas zu trinken.",
+        "Ein Gespräch, in dem man Informationen und Unterstützung für eine Entscheidung bekommt."
+      ]
+    },
+    {
+      "word": "Verabredung",
+      "meaning": "Eine Absprache, sich zu einer bestimmten Zeit zu treffen.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.080",
+      "category": "everyday",
+      "distractors": [
+        "Das körperliche Bedürfnis, etwas zu essen.",
+        "Ein Mensch, an den man sich mit einer bestimmten Frage wenden kann."
+      ]
+    },
+    {
+      "word": "Einladung",
+      "meaning": "Eine Bitte, bei einem Treffen oder einer Veranstaltung dabei zu sein.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.081",
+      "category": "everyday",
+      "distractors": [
+        "Der Zustand, in dem man Ruhe oder Schlaf braucht.",
+        "Eine Erklärung, wie man zu einem Ziel kommt."
+      ]
+    },
+    {
+      "word": "Absage",
+      "meaning": "Eine Nachricht, dass ein geplantes Treffen nicht stattfindet oder jemand nicht kommt.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.082",
+      "category": "everyday",
+      "distractors": [
+        "Der Einsatz von Kraft oder Aufmerksamkeit für eine Tätigkeit.",
+        "Eine Erklärung, wie man ein Gerät richtig benutzt."
+      ]
+    },
+    {
+      "word": "Bestätigung",
+      "meaning": "Eine Nachricht, dass eine Angabe oder Absprache stimmt.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.083",
+      "category": "everyday",
+      "distractors": [
+        "Maßnahmen, mit denen man sich und seine Umgebung sauber hält.",
+        "Ein Hinweis auf eine mögliche Gefahr."
+      ]
+    },
+    {
+      "word": "Erinnerung",
+      "meaning": "Ein Hinweis, durch den man an etwas denkt, das man nicht vergessen soll.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.084",
+      "category": "everyday",
+      "distractors": [
+        "Material, das eine Wunde abdeckt und schützt.",
+        "Eine Regel, die eine Handlung nicht erlaubt."
+      ]
+    },
+    {
+      "word": "Reihenfolge",
+      "meaning": "Die Ordnung, in der Dinge nacheinander kommen.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.085",
+      "category": "everyday",
+      "distractors": [
+        "Ein kleiner selbstklebender Schutz für eine Wunde.",
+        "Eine Zustimmung, dass jemand etwas tun darf."
+      ]
+    },
+    {
+      "word": "Zeitplan",
+      "meaning": "Eine Übersicht, wann einzelne Aufgaben erledigt werden sollen.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.086",
+      "category": "everyday",
+      "distractors": [
+        "Ein Raum, in dem Menschen vor einer Behandlung warten.",
+        "Etwas, das man aufgrund einer Regel oder Zusage tun muss."
+      ]
+    },
+    {
+      "word": "Pause",
+      "meaning": "Eine Unterbrechung einer Tätigkeit, in der man sich erholen kann.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.087",
+      "category": "everyday",
+      "distractors": [
+        "Eine festgelegte Zeit, in der eine Praxis Menschen empfängt.",
+        "Eine Mitteilung, dass man mit einer Sache oder Behandlung unzufrieden ist."
+      ]
+    },
+    {
+      "word": "Pünktlichkeit",
+      "meaning": "Das Einhalten einer vereinbarten Zeit.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.088",
+      "category": "everyday",
+      "distractors": [
+        "Das genaue Prüfen eines Zustands, zum Beispiel in einer Arztpraxis.",
+        "Eine Antwort oder ein Weg, durch den ein Problem bewältigt wird."
+      ]
+    },
+    {
+      "word": "Geduld",
+      "meaning": "Die Fähigkeit, ruhig zu warten oder bei einer Sache zu bleiben.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.089",
+      "category": "everyday",
+      "distractors": [
+        "Eine schriftliche Anweisung, etwa für ein Medikament oder die Zubereitung einer Speise.",
+        "Die Wahl zwischen mehreren Möglichkeiten."
+      ]
+    },
+    {
+      "word": "Gewohnheit",
+      "meaning": "Eine Handlung, die man oft auf ähnliche Weise macht.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.090",
+      "category": "everyday",
+      "distractors": [
+        "Eine organisierte Gemeinschaft von Menschen mit gemeinsamen Interessen.",
+        "Aus eigener Entscheidung, ohne dazu gezwungen zu werden."
+      ]
+    },
+    {
+      "word": "vermutlich",
+      "meaning": "Wahrscheinlich, aber noch nicht sicher.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.091",
+      "category": "everyday",
+      "distractors": [
+        "Regelmäßiges Üben, um eine Fähigkeit zu verbessern.",
+        "Eine ungünstige Eigenschaft oder eine Belastung durch eine Sache."
+      ]
+    },
+    {
+      "word": "Priorität",
+      "meaning": "Der Vorrang, den eine Aufgabe vor einer anderen hat.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.092",
+      "category": "everyday",
+      "distractors": [
+        "Eine Gruppe von Menschen, die gemeinsam Sport treibt oder antritt.",
+        "Etwas leichter verständlich oder leichter ausführbar machen."
+      ]
+    },
+    {
+      "word": "Zusage",
+      "meaning": "Eine verbindliche Nachricht, dass man etwas tun oder annehmen wird.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.093",
+      "category": "everyday",
+      "distractors": [
+        "Eine Vereinbarung darüber, was in einem Spiel erlaubt ist.",
+        "Gemeinsamkeiten und Unterschiede untersuchen."
+      ]
+    },
+    {
+      "word": "verbindlich",
+      "meaning": "So zugesagt oder festgelegt, dass man sich daran halten soll.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.094",
+      "category": "everyday",
+      "distractors": [
+        "Eine kurze Reise zu einem Ziel in der Umgebung.",
+        "Etwas, das erfüllt sein muss, damit etwas anderes möglich ist."
+      ]
+    },
+    {
+      "word": "verschieben",
+      "meaning": "Einen Termin auf einen anderen Zeitpunkt legen oder etwas an eine andere Stelle bewegen.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.095",
+      "category": "everyday",
+      "distractors": [
+        "Ein Nachweis, mit dem man eine Veranstaltung oder einen Ort besuchen darf.",
+        "Eine Verbindung zwischen mehreren Dingen oder Ereignissen."
+      ]
+    },
+    {
+      "word": "Wartezeit",
+      "meaning": "Die Zeit zwischen dem Ankommen und dem Beginn einer Sache.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.096",
+      "category": "everyday",
+      "distractors": [
+        "Ein Ort, an dem man Bücher und andere Medien ausleihen kann.",
+        "Der Vorgang, bei dem etwas anders wird als vorher."
+      ]
+    },
+    {
+      "word": "Dauer",
+      "meaning": "Die Länge der Zeit, die etwas braucht.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.097",
+      "category": "everyday",
+      "distractors": [
+        "Das zeitweise Überlassen einer Sache, die später zurückgegeben wird.",
+        "Etwas Fehlendes hinzufügen."
+      ]
+    },
+    {
+      "word": "Gebühr",
+      "meaning": "Ein Geldbetrag, der für eine bestimmte Leistung verlangt wird.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.098",
+      "category": "everyday",
+      "distractors": [
+        "Eine Tätigkeit, die man in der Freizeit gern macht.",
+        "Alle Arbeiten und Dinge, die zum Leben in einer Wohnung gehören."
+      ]
+    },
+    {
+      "word": "Ende",
+      "meaning": "Der Zeitpunkt, an dem etwas aufhört.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.099",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gang zu Fuß, bei dem Bewegung und Erholung im Vordergrund stehen.",
+        "Mehrere Räume, in denen Menschen leben."
+      ]
+    },
+    {
+      "word": "Wochenende",
+      "meaning": "Die Tage Samstag und Sonntag.",
+      "topic": "Zeit und Absprachen",
+      "id": "vocabulary.everyday.v1.100",
+      "category": "everyday",
+      "distractors": [
+        "Eine Mitteilung, die jemand an eine andere Person sendet.",
+        "Geld, das man regelmäßig für die Nutzung einer Wohnung bezahlt."
+      ]
+    },
+    {
+      "word": "Nachbar",
+      "meaning": "Ein Mensch, der in der Nähe wohnt.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.101",
+      "category": "everyday",
+      "distractors": [
+        "Eine geheime Zeichenfolge, mit der man den Zugang zu einem Konto schützt.",
+        "Zusätzliche Kosten für die Wohnung, zum Beispiel für Wasser."
+      ]
+    },
+    {
+      "word": "Freundschaft",
+      "meaning": "Eine persönliche Verbindung von Menschen, die einander mögen und vertrauen.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.102",
+      "category": "everyday",
+      "distractors": [
+        "Ein Name, mit dem ein Konto in einem digitalen Dienst bezeichnet wird.",
+        "Geld, das als Sicherheit hinterlegt und später abgerechnet wird."
+      ]
+    },
+    {
+      "word": "Vertrauen",
+      "meaning": "Die Überzeugung, sich auf jemanden oder etwas verlassen zu können.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.103",
+      "category": "everyday",
+      "distractors": [
+        "Eine Fläche, auf der ein Gerät Texte und Bilder zeigt.",
+        "Ein Gegenstand, mit dem man ein passendes Schloss öffnet."
+      ]
+    },
+    {
+      "word": "Respekt",
+      "meaning": "Ein Umgang, der andere Menschen und ihre Grenzen achtet.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.104",
+      "category": "everyday",
+      "distractors": [
+        "Ein Eingabegerät mit Tasten für Buchstaben, Zahlen und Zeichen.",
+        "Die Vorrichtung in einer Tür, die mit einem Schlüssel geschlossen wird."
+      ]
+    },
+    {
+      "word": "Rücksicht",
+      "meaning": "Das Beachten der Bedürfnisse anderer Menschen.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.105",
+      "category": "everyday",
+      "distractors": [
+        "Gespeicherte digitale Informationen, zum Beispiel ein Foto oder ein Text.",
+        "Ein Gerät, mit dem Besucher an der Tür auf sich aufmerksam machen."
+      ]
+    },
+    {
+      "word": "Streit",
+      "meaning": "Eine Auseinandersetzung, bei der Menschen unterschiedliche Ansichten heftig vertreten.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.106",
+      "category": "everyday",
+      "distractors": [
+        "Ein digitaler oder körperlicher Sammelplatz für zusammengehörige Unterlagen.",
+        "Ein Behälter, in den die Post Briefe einwirft."
+      ]
+    },
+    {
+      "word": "Kompromiss",
+      "meaning": "Eine Einigung, bei der beide Seiten einen Teil ihrer Wünsche aufgeben.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.107",
+      "category": "everyday",
+      "distractors": [
+        "Eine Datei, die zusammen mit einer Nachricht verschickt wird.",
+        "Der gemeinsame Bereich eines Hauses, in dem die Treppen liegen."
+      ]
+    },
+    {
+      "word": "Entschuldigung",
+      "meaning": "Eine Äußerung, mit der man einen Fehler oder eine Verletzung bedauert.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.108",
+      "category": "everyday",
+      "distractors": [
+        "Das Übertragen einer Datei aus dem Internet auf das eigene Gerät.",
+        "Ein Raum oder ein Geschoss unter der Erde."
+      ]
+    },
+    {
+      "word": "Missverständnis",
+      "meaning": "Eine Situation, in der etwas anders verstanden wurde, als es gemeint war.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.109",
+      "category": "everyday",
+      "distractors": [
+        "Das Ersetzen einer älteren Fassung durch eine neuere.",
+        "Eine Hochschule, an der Menschen studieren und forschen."
+      ]
+    },
+    {
+      "word": "Gerücht",
+      "meaning": "Eine nicht sicher bestätigte Nachricht, die weitererzählt wird.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.110",
+      "category": "everyday",
+      "distractors": [
+        "Eine zusätzliche Kopie von Daten, die vor Verlust schützen soll.",
+        "Eine Anlage, die Räume warm macht."
+      ]
+    },
+    {
+      "word": "Meinung",
+      "meaning": "Was jemand über eine Sache denkt oder wie jemand sie beurteilt.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.111",
+      "category": "everyday",
+      "distractors": [
+        "Der Schutz persönlicher Daten vor unzulässiger Nutzung.",
+        "Ein Anschluss in der Wand, aus dem ein Gerät Strom bekommt."
+      ]
+    },
+    {
+      "word": "Tatsache",
+      "meaning": "Etwas, das sich überprüfen lässt und tatsächlich so ist.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.112",
+      "category": "everyday",
+      "distractors": [
+        "Eine freiwillige Zustimmung zu einer bestimmten Handlung.",
+        "Ein Schalter, mit dem man eine Lampe ein- und ausschaltet."
+      ]
+    },
+    {
+      "word": "Behauptung",
+      "meaning": "Eine Aussage, die jemand als richtig darstellt.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.113",
+      "category": "everyday",
+      "distractors": [
+        "Eine Mitteilung, die Interesse an einer Ware oder Leistung wecken soll.",
+        "Eine Vorrichtung, aus der man Wasser laufen lassen kann."
+      ]
+    },
+    {
+      "word": "begründen",
+      "meaning": "Sagen, warum eine Aussage oder Entscheidung sinnvoll ist.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.114",
+      "category": "everyday",
+      "distractors": [
+        "Die Herkunft einer Information.",
+        "Eine Öffnung, durch die benutztes Wasser abläuft."
+      ]
+    },
+    {
+      "word": "Vorschlag",
+      "meaning": "Eine Idee, wie man etwas machen könnte.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.115",
+      "category": "everyday",
+      "distractors": [
+        "Ein Wort oder mehrere Wörter, mit denen man nach Informationen sucht.",
+        "Ein Gerät, das Lebensmittel kühl hält."
+      ]
+    },
+    {
+      "word": "Bitte",
+      "meaning": "Eine höfliche Äußerung, mit der man sich etwas wünscht.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.116",
+      "category": "everyday",
+      "distractors": [
+        "Ein Verweis, den man antippen kann, um eine andere Seite oder Datei zu öffnen.",
+        "Ein sehr kalter Bereich, in dem Lebensmittel gefrieren."
+      ]
+    },
+    {
+      "word": "Ablehnung",
+      "meaning": "Die Mitteilung, dass man etwas nicht annimmt oder nicht möchte.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.117",
+      "category": "everyday",
+      "distractors": [
+        "Eine drahtlose Verbindung zwischen Geräten und einem örtlichen Netzwerk.",
+        "Ein Gerät, auf dem man Speisen in Töpfen oder Pfannen kocht."
+      ]
+    },
+    {
+      "word": "Grenze",
+      "meaning": "Eine Linie oder Regel, die zeigt, wie weit etwas gehen darf.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.118",
+      "category": "everyday",
+      "distractors": [
+        "Eine Funkverbindung, die ein Handy auch unterwegs nutzen kann.",
+        "Ein Gerät, in dessen heißem Innenraum man Speisen backt."
+      ]
+    },
+    {
+      "word": "Verantwortung",
+      "meaning": "Die Aufgabe, für etwas zu sorgen und für Folgen einzustehen.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.119",
+      "category": "everyday",
+      "distractors": [
+        "Ein Kabel, durch das ein Gerät elektrische Energie zum Aufladen erhält.",
+        "Eine Flüssigkeit zum Reinigen von Geschirr."
+      ]
+    },
+    {
+      "word": "Unterstützung",
+      "meaning": "Hilfe, durch die eine Aufgabe oder eine schwierige Lage leichter wird.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.120",
+      "category": "everyday",
+      "distractors": [
+        "Ein wiederaufladbarer Speicher für elektrische Energie.",
+        "Ein Mittel zum Reinigen von Kleidung in der Wäsche."
+      ]
+    },
+    {
+      "word": "Gemeinschaft",
+      "meaning": "Eine Gruppe von Menschen, die zusammengehören oder etwas gemeinsam tun.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.121",
+      "category": "everyday",
+      "distractors": [
+        "Gespeicherte Angaben, mit denen man einen Menschen erreichen kann.",
+        "Ein Gerät mit Borsten, mit dem man den Boden fegt."
+      ]
+    },
+    {
+      "word": "Gespräch",
+      "meaning": "Ein Austausch, bei dem Menschen miteinander sprechen und zuhören.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.122",
+      "category": "everyday",
+      "distractors": [
+        "Eine Zusammenstellung von Angaben zu einer Person in einem Dienst.",
+        "Das getrennte Sammeln verschiedener Abfälle."
+      ]
+    },
+    {
+      "word": "Zuhören",
+      "meaning": "Aufmerksam verfolgen, was ein anderer Mensch sagt.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.123",
+      "category": "everyday",
+      "distractors": [
+        "Eine kurze Äußerung zu einem Beitrag oder einer Sache.",
+        "Eine Liste mit Dingen, die man kaufen möchte."
+      ]
+    },
+    {
+      "word": "Nachfragen",
+      "meaning": "Um eine weitere Erklärung bitten, wenn etwas noch unklar ist.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.124",
+      "category": "everyday",
+      "distractors": [
+        "Dokumente, die für eine Aufgabe oder einen Vorgang gebraucht werden.",
+        "Ein Geschäft mit Lebensmitteln und weiteren Waren für den Alltag."
+      ]
+    },
+    {
+      "word": "zuverlässig",
+      "meaning": "So, dass man sich auf die Person oder Sache verlassen kann.",
+      "topic": "Miteinander",
+      "id": "vocabulary.everyday.v1.125",
+      "category": "everyday",
+      "distractors": [
+        "Eine Bitte an eine zuständige Stelle, eine Leistung oder Entscheidung zu erhalten.",
+        "Ein Geschäft, in dem Brot und andere Backwaren verkauft werden."
+      ]
+    },
+    {
+      "word": "Wohlbefinden",
+      "meaning": "Das Gefühl, dass es einem körperlich und seelisch gut geht.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.126",
+      "category": "everyday",
+      "distractors": [
+        "Ein vorbereiteter Bogen oder eine digitale Seite mit Feldern zum Ausfüllen.",
+        "Ein Geschäft, in dem man Arzneimittel bekommt."
+      ]
+    },
+    {
+      "word": "Erholung",
+      "meaning": "Eine Zeit, in der man neue Kraft bekommt.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.127",
+      "category": "everyday",
+      "distractors": [
+        "Der eigenhändig geschriebene Name zur Bestätigung eines Dokuments.",
+        "Der Platz im Geschäft, an dem man bezahlt."
+      ]
+    },
+    {
+      "word": "Bewegung",
+      "meaning": "Das Verändern der Körperhaltung oder des Ortes durch eigene Aktivität.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.128",
+      "category": "everyday",
+      "distractors": [
+        "Ein Dokument oder eine Angabe, die etwas belegt.",
+        "Ein Beleg, auf dem ein Einkauf und seine Preise stehen."
+      ]
+    },
+    {
+      "word": "Ernährung",
+      "meaning": "Alles, was mit dem Essen und Trinken eines Menschen zusammenhängt.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.129",
+      "category": "everyday",
+      "distractors": [
+        "Ein Dokument, mit dem man seine Person oder eine Berechtigung nachweist.",
+        "Ein Schild, das zeigt, wie viel eine Ware kostet."
+      ]
+    },
+    {
+      "word": "Durst",
+      "meaning": "Das körperliche Bedürfnis, etwas zu trinken.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.130",
+      "category": "everyday",
+      "distractors": [
+        "Eine schriftliche Bestätigung über einen bestimmten Sachverhalt.",
+        "Eine Ware oder Leistung, die zu bestimmten Bedingungen angeboten wird."
+      ]
+    },
+    {
+      "word": "Hunger",
+      "meaning": "Das körperliche Bedürfnis, etwas zu essen.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.131",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gespräch, in dem man Informationen und Unterstützung für eine Entscheidung bekommt.",
+        "Ein Abzug vom üblichen Preis."
+      ]
+    },
+    {
+      "word": "Müdigkeit",
+      "meaning": "Der Zustand, in dem man Ruhe oder Schlaf braucht.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.132",
+      "category": "everyday",
+      "distractors": [
+        "Ein Mensch, an den man sich mit einer bestimmten Frage wenden kann.",
+        "Geld, das man etwa für eine Flasche bezahlt und bei Rückgabe zurückbekommt."
+      ]
+    },
+    {
+      "word": "Anstrengung",
+      "meaning": "Der Einsatz von Kraft oder Aufmerksamkeit für eine Tätigkeit.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.133",
+      "category": "everyday",
+      "distractors": [
+        "Eine Erklärung, wie man zu einem Ziel kommt.",
+        "Geld, das man nach dem Bezahlen mit einem größeren Betrag zurückbekommt."
+      ]
+    },
+    {
+      "word": "Hygiene",
+      "meaning": "Maßnahmen, mit denen man sich und seine Umgebung sauber hält.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.134",
+      "category": "everyday",
+      "distractors": [
+        "Eine Erklärung, wie man ein Gerät richtig benutzt.",
+        "Geld in Form von Münzen und Scheinen."
+      ]
+    },
+    {
+      "word": "Verband",
+      "meaning": "Material, das eine Wunde abdeckt und schützt.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.135",
+      "category": "everyday",
+      "distractors": [
+        "Ein Hinweis auf eine mögliche Gefahr.",
+        "Eine kleine Tasche für Geld und Karten."
+      ]
+    },
+    {
+      "word": "Pflaster",
+      "meaning": "Ein kleiner selbstklebender Schutz für eine Wunde.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.136",
+      "category": "everyday",
+      "distractors": [
+        "Eine Regel, die eine Handlung nicht erlaubt.",
+        "Eine bei einer Bank geführte Übersicht über Einzahlungen und Auszahlungen."
+      ]
+    },
+    {
+      "word": "Wartezimmer",
+      "meaning": "Ein Raum, in dem Menschen vor einer Behandlung warten.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.137",
+      "category": "everyday",
+      "distractors": [
+        "Eine Zustimmung, dass jemand etwas tun darf.",
+        "Ein Gerät, an dem man mit einer passenden Karte Bargeld abheben kann."
+      ]
+    },
+    {
+      "word": "Sprechstunde",
+      "meaning": "Eine festgelegte Zeit, in der eine Praxis Menschen empfängt.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.138",
+      "category": "everyday",
+      "distractors": [
+        "Etwas, das man aufgrund einer Regel oder Zusage tun muss.",
+        "Das Übertragen von Geld von einem Konto auf ein anderes."
+      ]
+    },
+    {
+      "word": "Untersuchung",
+      "meaning": "Das genaue Prüfen eines Zustands, zum Beispiel in einer Arztpraxis.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.139",
+      "category": "everyday",
+      "distractors": [
+        "Eine Mitteilung, dass man mit einer Sache oder Behandlung unzufrieden ist.",
+        "Ein Auftrag an die Bank, regelmäßig einen festen Betrag zu überweisen."
+      ]
+    },
+    {
+      "word": "Rezept",
+      "meaning": "Eine schriftliche Anweisung, etwa für ein Medikament oder die Zubereitung einer Speise.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.140",
+      "category": "everyday",
+      "distractors": [
+        "Eine Antwort oder ein Weg, durch den ein Problem bewältigt wird.",
+        "Eine schriftliche Aufstellung über einen zu zahlenden Betrag."
+      ]
+    },
+    {
+      "word": "Verein",
+      "meaning": "Eine organisierte Gemeinschaft von Menschen mit gemeinsamen Interessen.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.141",
+      "category": "everyday",
+      "distractors": [
+        "Die Wahl zwischen mehreren Möglichkeiten.",
+        "Eine Bestätigung, dass Geld oder eine Sache empfangen wurde."
+      ]
+    },
+    {
+      "word": "Training",
+      "meaning": "Regelmäßiges Üben, um eine Fähigkeit zu verbessern.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.142",
+      "category": "everyday",
+      "distractors": [
+        "Aus eigener Entscheidung, ohne dazu gezwungen zu werden.",
+        "Das Zurückbringen einer zuvor erhaltenen oder gekauften Sache."
+      ]
+    },
+    {
+      "word": "Mannschaft",
+      "meaning": "Eine Gruppe von Menschen, die gemeinsam Sport treibt oder antritt.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.143",
+      "category": "everyday",
+      "distractors": [
+        "Eine ungünstige Eigenschaft oder eine Belastung durch eine Sache.",
+        "Das Austauschen einer gekauften Ware gegen eine andere."
+      ]
+    },
+    {
+      "word": "Spielregel",
+      "meaning": "Eine Vereinbarung darüber, was in einem Spiel erlaubt ist.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.144",
+      "category": "everyday",
+      "distractors": [
+        "Etwas leichter verständlich oder leichter ausführbar machen.",
+        "Eine Hülle, die eine Ware schützt oder zusammenhält."
+      ]
+    },
+    {
+      "word": "Ausflug",
+      "meaning": "Eine kurze Reise zu einem Ziel in der Umgebung.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.145",
+      "category": "everyday",
+      "distractors": [
+        "Gemeinsamkeiten und Unterschiede untersuchen.",
+        "Eine abgemessene Menge einer Speise für eine Person."
+      ]
+    },
+    {
+      "word": "Eintrittskarte",
+      "meaning": "Ein Nachweis, mit dem man eine Veranstaltung oder einen Ort besuchen darf.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.146",
+      "category": "everyday",
+      "distractors": [
+        "Etwas, das erfüllt sein muss, damit etwas anderes möglich ist.",
+        "Die Zeit, in der etwas bei passender Lagerung verwendbar bleibt."
+      ]
+    },
+    {
+      "word": "Bücherei",
+      "meaning": "Ein Ort, an dem man Bücher und andere Medien ausleihen kann.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.147",
+      "category": "everyday",
+      "distractors": [
+        "Eine Verbindung zwischen mehreren Dingen oder Ereignissen.",
+        "Dinge, die man für einen späteren Bedarf aufbewahrt."
+      ]
+    },
+    {
+      "word": "Ausleihe",
+      "meaning": "Das zeitweise Überlassen einer Sache, die später zurückgegeben wird.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.148",
+      "category": "everyday",
+      "distractors": [
+        "Der Vorgang, bei dem etwas anders wird als vorher.",
+        "Ein festgelegter Ort, an dem Bus oder Bahn halten."
+      ]
+    },
+    {
+      "word": "Hobby",
+      "meaning": "Eine Tätigkeit, die man in der Freizeit gern macht.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.149",
+      "category": "everyday",
+      "distractors": [
+        "Etwas Fehlendes hinzufügen.",
+        "Eine Übersicht, wann Verkehrsmittel abfahren oder ankommen."
+      ]
+    },
+    {
+      "word": "Spaziergang",
+      "meaning": "Ein Gang zu Fuß, bei dem Bewegung und Erholung im Vordergrund stehen.",
+      "topic": "Gesundheit und Freizeit",
+      "id": "vocabulary.everyday.v1.150",
+      "category": "everyday",
+      "distractors": [
+        "Alle Arbeiten und Dinge, die zum Leben in einer Wohnung gehören.",
+        "Ein Nachweis, dass man eine Fahrt mit einem Verkehrsmittel nutzen darf."
+      ]
+    },
+    {
+      "word": "Nachricht",
+      "meaning": "Eine Mitteilung, die jemand an eine andere Person sendet.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.151",
+      "category": "everyday",
+      "distractors": [
+        "Mehrere Räume, in denen Menschen leben.",
+        "Der Bereich am Gleis, an dem man in einen Zug einsteigt."
+      ]
+    },
+    {
+      "word": "Passwort",
+      "meaning": "Eine geheime Zeichenfolge, mit der man den Zugang zu einem Konto schützt.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.152",
+      "category": "everyday",
+      "distractors": [
+        "Geld, das man regelmäßig für die Nutzung einer Wohnung bezahlt.",
+        "Zwei Schienen, auf denen Züge fahren."
+      ]
+    },
+    {
+      "word": "Benutzername",
+      "meaning": "Ein Name, mit dem ein Konto in einem digitalen Dienst bezeichnet wird.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.153",
+      "category": "everyday",
+      "distractors": [
+        "Zusätzliche Kosten für die Wohnung, zum Beispiel für Wasser.",
+        "Der Wechsel von einem Verkehrsmittel in ein anderes."
+      ]
+    },
+    {
+      "word": "Bildschirm",
+      "meaning": "Eine Fläche, auf der ein Gerät Texte und Bilder zeigt.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.154",
+      "category": "everyday",
+      "distractors": [
+        "Geld, das als Sicherheit hinterlegt und später abgerechnet wird.",
+        "Das spätere Eintreffen im Vergleich zur geplanten Zeit."
+      ]
+    },
+    {
+      "word": "Tastatur",
+      "meaning": "Ein Eingabegerät mit Tasten für Buchstaben, Zahlen und Zeichen.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.155",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gegenstand, mit dem man ein passendes Schloss öffnet.",
+        "Der Zeitpunkt, an dem ein Fahrzeug seine Fahrt beginnt."
+      ]
+    },
+    {
+      "word": "Datei",
+      "meaning": "Gespeicherte digitale Informationen, zum Beispiel ein Foto oder ein Text.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.156",
+      "category": "everyday",
+      "distractors": [
+        "Die Vorrichtung in einer Tür, die mit einem Schlüssel geschlossen wird.",
+        "Der Zeitpunkt, an dem jemand ein Ziel erreicht."
+      ]
+    },
+    {
+      "word": "Ordner",
+      "meaning": "Ein digitaler oder körperlicher Sammelplatz für zusammengehörige Unterlagen.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.157",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gerät, mit dem Besucher an der Tür auf sich aufmerksam machen.",
+        "Die Richtung, in die ein Fahrzeug fährt."
+      ]
+    },
+    {
+      "word": "Anhang",
+      "meaning": "Eine Datei, die zusammen mit einer Nachricht verschickt wird.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.158",
+      "category": "everyday",
+      "distractors": [
+        "Ein Behälter, in den die Post Briefe einwirft.",
+        "Eine Stelle, an der sich Straßen treffen oder kreuzen."
+      ]
+    },
+    {
+      "word": "Download",
+      "meaning": "Das Übertragen einer Datei aus dem Internet auf das eigene Gerät.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.159",
+      "category": "everyday",
+      "distractors": [
+        "Der gemeinsame Bereich eines Hauses, in dem die Treppen liegen.",
+        "Ein Verkehrszeichen mit Lichtern, das den Verkehr regelt."
+      ]
+    },
+    {
+      "word": "Aktualisierung",
+      "meaning": "Das Ersetzen einer älteren Fassung durch eine neuere.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.160",
+      "category": "everyday",
+      "distractors": [
+        "Ein Raum oder ein Geschoss unter der Erde.",
+        "Markierte Streifen auf einer Straße, an denen Fußgänger sie überqueren."
+      ]
+    },
+    {
+      "word": "Sicherung",
+      "meaning": "Eine zusätzliche Kopie von Daten, die vor Verlust schützen soll.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.161",
+      "category": "everyday",
+      "distractors": [
+        "Eine Hochschule, an der Menschen studieren und forschen.",
+        "Der Teil einer Straße, der für Fußgänger bestimmt ist."
+      ]
+    },
+    {
+      "word": "Datenschutz",
+      "meaning": "Der Schutz persönlicher Daten vor unzulässiger Nutzung.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.162",
+      "category": "everyday",
+      "distractors": [
+        "Eine Anlage, die Räume warm macht.",
+        "Ein Weg oder Straßenbereich, der für Fahrräder bestimmt ist."
+      ]
+    },
+    {
+      "word": "Einwilligung",
+      "meaning": "Eine freiwillige Zustimmung zu einer bestimmten Handlung.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.163",
+      "category": "everyday",
+      "distractors": [
+        "Ein Anschluss in der Wand, aus dem ein Gerät Strom bekommt.",
+        "Ein anderer Weg, weil der übliche Weg nicht benutzt werden kann."
+      ]
+    },
+    {
+      "word": "Werbung",
+      "meaning": "Eine Mitteilung, die Interesse an einer Ware oder Leistung wecken soll.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.164",
+      "category": "everyday",
+      "distractors": [
+        "Ein Schalter, mit dem man eine Lampe ein- und ausschaltet.",
+        "Ein Ort, an dem gebaut oder etwas repariert wird."
+      ]
+    },
+    {
+      "word": "Quelle",
+      "meaning": "Die Herkunft einer Information.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.165",
+      "category": "everyday",
+      "distractors": [
+        "Eine Vorrichtung, aus der man Wasser laufen lassen kann.",
+        "Der Teil einer Straße, auf dem Fahrzeuge fahren."
+      ]
+    },
+    {
+      "word": "Suchbegriff",
+      "meaning": "Ein Wort oder mehrere Wörter, mit denen man nach Informationen sucht.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.166",
+      "category": "everyday",
+      "distractors": [
+        "Eine Öffnung, durch die benutztes Wasser abläuft.",
+        "Eine runde Straßenführung, durch die Fahrzeuge um eine Mitte fahren."
+      ]
+    },
+    {
+      "word": "Link",
+      "meaning": "Ein Verweis, den man antippen kann, um eine andere Seite oder Datei zu öffnen.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.167",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gerät, das Lebensmittel kühl hält.",
+        "Mehrere Menschen nutzen gemeinsam ein Fahrzeug für eine Strecke."
+      ]
+    },
+    {
+      "word": "WLAN",
+      "meaning": "Eine drahtlose Verbindung zwischen Geräten und einem örtlichen Netzwerk.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.168",
+      "category": "everyday",
+      "distractors": [
+        "Ein sehr kalter Bereich, in dem Lebensmittel gefrieren.",
+        "Ein Band im Fahrzeug, das Menschen bei starkem Bremsen festhält."
+      ]
+    },
+    {
+      "word": "Mobilfunk",
+      "meaning": "Eine Funkverbindung, die ein Handy auch unterwegs nutzen kann.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.169",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gerät, auf dem man Speisen in Töpfen oder Pfannen kocht.",
+        "Ein Schutz für den Kopf beim Fahrradfahren."
+      ]
+    },
+    {
+      "word": "Ladekabel",
+      "meaning": "Ein Kabel, durch das ein Gerät elektrische Energie zum Aufladen erhält.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.170",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gerät, in dessen heißem Innenraum man Speisen backt.",
+        "Taschen und andere Sachen, die man auf einer Reise mitnimmt."
+      ]
+    },
+    {
+      "word": "Akku",
+      "meaning": "Ein wiederaufladbarer Speicher für elektrische Energie.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.171",
+      "category": "everyday",
+      "distractors": [
+        "Eine Flüssigkeit zum Reinigen von Geschirr.",
+        "Angaben, mit denen man einen Wohnort oder ein Gebäude findet."
+      ]
+    },
+    {
+      "word": "Kontakt",
+      "meaning": "Gespeicherte Angaben, mit denen man einen Menschen erreichen kann.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.172",
+      "category": "everyday",
+      "distractors": [
+        "Ein Mittel zum Reinigen von Kleidung in der Wäsche.",
+        "Eine Karte, auf der Straßen und wichtige Orte einer Stadt stehen."
+      ]
+    },
+    {
+      "word": "Profil",
+      "meaning": "Eine Zusammenstellung von Angaben zu einer Person in einem Dienst.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.173",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gerät mit Borsten, mit dem man den Boden fegt.",
+        "Ein vereinbarter Zeitpunkt für ein Treffen oder eine Aufgabe."
+      ]
+    },
+    {
+      "word": "Kommentar",
+      "meaning": "Eine kurze Äußerung zu einem Beitrag oder einer Sache.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.174",
+      "category": "everyday",
+      "distractors": [
+        "Das getrennte Sammeln verschiedener Abfälle.",
+        "Eine Übersicht über Tage, Wochen und Monate."
+      ]
+    },
+    {
+      "word": "Unterlagen",
+      "meaning": "Dokumente, die für eine Aufgabe oder einen Vorgang gebraucht werden.",
+      "topic": "Digital und Medien",
+      "id": "vocabulary.everyday.v1.175",
+      "category": "everyday",
+      "distractors": [
+        "Eine Liste mit Dingen, die man kaufen möchte.",
+        "Eine Angabe, welcher Zeitpunkt an einem Tag gemeint ist."
+      ]
+    },
+    {
+      "word": "Antrag",
+      "meaning": "Eine Bitte an eine zuständige Stelle, eine Leistung oder Entscheidung zu erhalten.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.176",
+      "category": "everyday",
+      "distractors": [
+        "Ein Geschäft mit Lebensmitteln und weiteren Waren für den Alltag.",
+        "Ein Zeitraum, bis zu dessen Ende etwas erledigt sein soll."
+      ]
+    },
+    {
+      "word": "Formular",
+      "meaning": "Ein vorbereiteter Bogen oder eine digitale Seite mit Feldern zum Ausfüllen.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.177",
+      "category": "everyday",
+      "distractors": [
+        "Ein Geschäft, in dem Brot und andere Backwaren verkauft werden.",
+        "Eine Absprache, sich zu einer bestimmten Zeit zu treffen."
+      ]
+    },
+    {
+      "word": "Unterschrift",
+      "meaning": "Der eigenhändig geschriebene Name zur Bestätigung eines Dokuments.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.178",
+      "category": "everyday",
+      "distractors": [
+        "Ein Geschäft, in dem man Arzneimittel bekommt.",
+        "Eine Bitte, bei einem Treffen oder einer Veranstaltung dabei zu sein."
+      ]
+    },
+    {
+      "word": "Nachweis",
+      "meaning": "Ein Dokument oder eine Angabe, die etwas belegt.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.179",
+      "category": "everyday",
+      "distractors": [
+        "Der Platz im Geschäft, an dem man bezahlt.",
+        "Eine Nachricht, dass ein geplantes Treffen nicht stattfindet oder jemand nicht kommt."
+      ]
+    },
+    {
+      "word": "Ausweis",
+      "meaning": "Ein Dokument, mit dem man seine Person oder eine Berechtigung nachweist.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.180",
+      "category": "everyday",
+      "distractors": [
+        "Ein Beleg, auf dem ein Einkauf und seine Preise stehen.",
+        "Eine Nachricht, dass eine Angabe oder Absprache stimmt."
+      ]
+    },
+    {
+      "word": "Bescheinigung",
+      "meaning": "Eine schriftliche Bestätigung über einen bestimmten Sachverhalt.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.181",
+      "category": "everyday",
+      "distractors": [
+        "Ein Schild, das zeigt, wie viel eine Ware kostet.",
+        "Ein Hinweis, durch den man an etwas denkt, das man nicht vergessen soll."
+      ]
+    },
+    {
+      "word": "Beratung",
+      "meaning": "Ein Gespräch, in dem man Informationen und Unterstützung für eine Entscheidung bekommt.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.182",
+      "category": "everyday",
+      "distractors": [
+        "Eine Ware oder Leistung, die zu bestimmten Bedingungen angeboten wird.",
+        "Die Ordnung, in der Dinge nacheinander kommen."
+      ]
+    },
+    {
+      "word": "Ansprechpartner",
+      "meaning": "Ein Mensch, an den man sich mit einer bestimmten Frage wenden kann.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.183",
+      "category": "everyday",
+      "distractors": [
+        "Ein Abzug vom üblichen Preis.",
+        "Eine Übersicht, wann einzelne Aufgaben erledigt werden sollen."
+      ]
+    },
+    {
+      "word": "Wegbeschreibung",
+      "meaning": "Eine Erklärung, wie man zu einem Ziel kommt.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.184",
+      "category": "everyday",
+      "distractors": [
+        "Geld, das man etwa für eine Flasche bezahlt und bei Rückgabe zurückbekommt.",
+        "Eine Unterbrechung einer Tätigkeit, in der man sich erholen kann."
+      ]
+    },
+    {
+      "word": "Bedienungsanleitung",
+      "meaning": "Eine Erklärung, wie man ein Gerät richtig benutzt.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.185",
+      "category": "everyday",
+      "distractors": [
+        "Geld, das man nach dem Bezahlen mit einem größeren Betrag zurückbekommt.",
+        "Das Einhalten einer vereinbarten Zeit."
+      ]
+    },
+    {
+      "word": "Warnung",
+      "meaning": "Ein Hinweis auf eine mögliche Gefahr.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.186",
+      "category": "everyday",
+      "distractors": [
+        "Geld in Form von Münzen und Scheinen.",
+        "Die Fähigkeit, ruhig zu warten oder bei einer Sache zu bleiben."
+      ]
+    },
+    {
+      "word": "Verbot",
+      "meaning": "Eine Regel, die eine Handlung nicht erlaubt.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.187",
+      "category": "everyday",
+      "distractors": [
+        "Eine kleine Tasche für Geld und Karten.",
+        "Eine Handlung, die man oft auf ähnliche Weise macht."
+      ]
+    },
+    {
+      "word": "Erlaubnis",
+      "meaning": "Eine Zustimmung, dass jemand etwas tun darf.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.188",
+      "category": "everyday",
+      "distractors": [
+        "Eine bei einer Bank geführte Übersicht über Einzahlungen und Auszahlungen.",
+        "Wahrscheinlich, aber noch nicht sicher."
+      ]
+    },
+    {
+      "word": "Verpflichtung",
+      "meaning": "Etwas, das man aufgrund einer Regel oder Zusage tun muss.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.189",
+      "category": "everyday",
+      "distractors": [
+        "Ein Gerät, an dem man mit einer passenden Karte Bargeld abheben kann.",
+        "Der Vorrang, den eine Aufgabe vor einer anderen hat."
+      ]
+    },
+    {
+      "word": "Beschwerde",
+      "meaning": "Eine Mitteilung, dass man mit einer Sache oder Behandlung unzufrieden ist.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.190",
+      "category": "everyday",
+      "distractors": [
+        "Das Übertragen von Geld von einem Konto auf ein anderes.",
+        "Eine verbindliche Nachricht, dass man etwas tun oder annehmen wird."
+      ]
+    },
+    {
+      "word": "Lösung",
+      "meaning": "Eine Antwort oder ein Weg, durch den ein Problem bewältigt wird.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.191",
+      "category": "everyday",
+      "distractors": [
+        "Ein Auftrag an die Bank, regelmäßig einen festen Betrag zu überweisen.",
+        "So zugesagt oder festgelegt, dass man sich daran halten soll."
+      ]
+    },
+    {
+      "word": "Entscheidung",
+      "meaning": "Die Wahl zwischen mehreren Möglichkeiten.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.192",
+      "category": "everyday",
+      "distractors": [
+        "Eine schriftliche Aufstellung über einen zu zahlenden Betrag.",
+        "Einen Termin auf einen anderen Zeitpunkt legen oder etwas an eine andere Stelle bewegen."
+      ]
+    },
+    {
+      "word": "freiwillig",
+      "meaning": "Aus eigener Entscheidung, ohne dazu gezwungen zu werden.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.193",
+      "category": "everyday",
+      "distractors": [
+        "Eine Bestätigung, dass Geld oder eine Sache empfangen wurde.",
+        "Die Zeit zwischen dem Ankommen und dem Beginn einer Sache."
+      ]
+    },
+    {
+      "word": "Nachteil",
+      "meaning": "Eine ungünstige Eigenschaft oder eine Belastung durch eine Sache.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.194",
+      "category": "everyday",
+      "distractors": [
+        "Das Zurückbringen einer zuvor erhaltenen oder gekauften Sache.",
+        "Die Länge der Zeit, die etwas braucht."
+      ]
+    },
+    {
+      "word": "vereinfachen",
+      "meaning": "Etwas leichter verständlich oder leichter ausführbar machen.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.195",
+      "category": "everyday",
+      "distractors": [
+        "Das Austauschen einer gekauften Ware gegen eine andere.",
+        "Ein Geldbetrag, der für eine bestimmte Leistung verlangt wird."
+      ]
+    },
+    {
+      "word": "vergleichen",
+      "meaning": "Gemeinsamkeiten und Unterschiede untersuchen.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.196",
+      "category": "everyday",
+      "distractors": [
+        "Eine Hülle, die eine Ware schützt oder zusammenhält.",
+        "Der Zeitpunkt, an dem etwas aufhört."
+      ]
+    },
+    {
+      "word": "Voraussetzung",
+      "meaning": "Etwas, das erfüllt sein muss, damit etwas anderes möglich ist.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.197",
+      "category": "everyday",
+      "distractors": [
+        "Eine abgemessene Menge einer Speise für eine Person.",
+        "Die Tage Samstag und Sonntag."
+      ]
+    },
+    {
+      "word": "Zusammenhang",
+      "meaning": "Eine Verbindung zwischen mehreren Dingen oder Ereignissen.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.198",
+      "category": "everyday",
+      "distractors": [
+        "Die Zeit, in der etwas bei passender Lagerung verwendbar bleibt.",
+        "Ein Mensch, der in der Nähe wohnt."
+      ]
+    },
+    {
+      "word": "Gelegenheit",
+      "meaning": "Eine passende Möglichkeit oder ein günstiger Zeitpunkt.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.199",
+      "category": "everyday",
+      "distractors": [
+        "Dinge, die man für einen späteren Bedarf aufbewahrt.",
+        "Eine persönliche Verbindung von Menschen, die einander mögen und vertrauen."
+      ]
+    },
+    {
+      "word": "ergänzen",
+      "meaning": "Etwas Fehlendes hinzufügen.",
+      "topic": "Alltag verstehen",
+      "id": "vocabulary.everyday.v1.200",
+      "category": "everyday",
+      "distractors": [
+        "Ein festgelegter Ort, an dem Bus oder Bahn halten.",
+        "Die Überzeugung, sich auf jemanden oder etwas verlassen zu können."
+      ]
+    },
+    {
+      "word": "Betrieb",
+      "meaning": "Ein Unternehmen oder eine Arbeitsstätte, in der Waren hergestellt oder Leistungen erbracht werden.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.001",
+      "category": "work",
+      "distractors": [
+        "Die Zeit, in der jemand seine beruflichen Aufgaben erledigt.",
+        "Ein Werkzeug zum Greifen, Halten oder Trennen von Material."
+      ]
+    },
+    {
+      "word": "Abteilung",
+      "meaning": "Ein Bereich eines Betriebs mit bestimmten Aufgaben.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.002",
+      "category": "work",
+      "distractors": [
+        "Ein festgelegter Arbeitsabschnitt in einem wechselnden Zeitplan.",
+        "Ein Werkzeug mit gezähntem Blatt zum Trennen von Material."
+      ]
+    },
+    {
+      "word": "Werkstatt",
+      "meaning": "Ein Arbeitsraum, in dem Dinge hergestellt oder repariert werden.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.003",
+      "category": "work",
+      "distractors": [
+        "Eine Übersicht, wer wann arbeiten soll.",
+        "Ein Werkzeug mit rauer Oberfläche zum Abtragen und Glätten von Material."
+      ]
+    },
+    {
+      "word": "Lager",
+      "meaning": "Ein Bereich, in dem Waren oder Material aufbewahrt werden.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.004",
+      "category": "work",
+      "distractors": [
+        "Das Aufschreiben oder Speichern von Beginn und Ende der Arbeitszeit.",
+        "Ein Gerät, mit dem man Löcher in ein Material bohren kann."
+      ]
+    },
+    {
+      "word": "Verkaufsraum",
+      "meaning": "Ein Raum, in dem Kunden Waren ansehen und kaufen können.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.005",
+      "category": "work",
+      "distractors": [
+        "Eine Arbeitsstunde über die vereinbarte Arbeitszeit hinaus.",
+        "Eine Vorrichtung, die ein Werkstück beim Bearbeiten festhält."
+      ]
+    },
+    {
+      "word": "Büro",
+      "meaning": "Ein Raum für Arbeiten wie Schreiben, Planen und Verwalten.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.006",
+      "category": "work",
+      "distractors": [
+        "Eine Arbeitszeitregelung mit Spielraum bei Beginn und Ende.",
+        "Ein zusammenklappbares Messgerät für Längen."
+      ]
+    },
+    {
+      "word": "Empfang",
+      "meaning": "Die Stelle eines Betriebs, an der Besucher begrüßt und weitergeleitet werden.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.007",
+      "category": "work",
+      "distractors": [
+        "Eine Beschäftigung mit weniger Stunden als die übliche volle Arbeitszeit.",
+        "Ein Messgerät, mit dem man waagerechte und senkrechte Ausrichtung prüft."
+      ]
+    },
+    {
+      "word": "Kantine",
+      "meaning": "Ein Ort in einem Betrieb, an dem Beschäftigte essen können.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.008",
+      "category": "work",
+      "distractors": [
+        "Eine vereinbarte arbeitsfreie Zeit zur Erholung.",
+        "Ein Messgerät für genaue Außen-, Innen- und Tiefenmaße."
+      ]
+    },
+    {
+      "word": "Umkleide",
+      "meaning": "Ein Raum, in dem man seine Kleidung wechselt.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.009",
+      "category": "work",
+      "distractors": [
+        "Ein gesetzlich besonders festgelegter Tag, an dem viele Menschen nicht arbeiten.",
+        "Ein Gegenstand, der gerade bearbeitet wird."
+      ]
+    },
+    {
+      "word": "Personal",
+      "meaning": "Die Menschen, die in einem Betrieb arbeiten.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.010",
+      "category": "work",
+      "distractors": [
+        "Die Nachricht an den Betrieb, dass man wegen Krankheit nicht arbeiten kann.",
+        "Ein Verbindungsteil mit Gewinde, das durch Drehen befestigt wird."
+      ]
+    },
+    {
+      "word": "Kollege",
+      "meaning": "Ein Mensch, mit dem man im selben Betrieb oder Beruf arbeitet.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.011",
+      "category": "work",
+      "distractors": [
+        "Ein Zustand, in dem eine Person ihre Arbeit aus gesundheitlichen Gründen nicht ausüben kann.",
+        "Ein Verbindungsteil mit Innengewinde, das auf eine passende Schraube gedreht wird."
+      ]
+    },
+    {
+      "word": "Vorgesetzter",
+      "meaning": "Ein Mensch, der bei der Arbeit Aufgaben verteilt und Entscheidungen treffen darf.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.012",
+      "category": "work",
+      "distractors": [
+        "Eine Zeit, in der jemand bei einer vorgesehenen Arbeit oder Maßnahme fehlt.",
+        "Ein flacher Ring, der die Kraft einer Schraubverbindung verteilt."
+      ]
+    },
+    {
+      "word": "Ausbilder",
+      "meaning": "Eine Person, die Auszubildende im Betrieb anleitet.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.013",
+      "category": "work",
+      "distractors": [
+        "Die Befreiung von der Arbeitspflicht für einen bestimmten Zeitraum.",
+        "Ein Einsatz in einem Bohrloch, der einer passenden Schraube Halt gibt."
+      ]
+    },
+    {
+      "word": "Auszubildender",
+      "meaning": "Eine Person, die einen Beruf in einer geregelten Ausbildung lernt.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.014",
+      "category": "work",
+      "distractors": [
+        "Eine Nummer, mit der ein Betrieb einen Beschäftigten in seinen Unterlagen zuordnet.",
+        "Papier mit einer rauen Körnung zum Glätten von Oberflächen."
+      ]
+    },
+    {
+      "word": "Praktikum",
+      "meaning": "Eine begrenzte Zeit, in der man Arbeit in einem Betrieb kennenlernt.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.015",
+      "category": "work",
+      "distractors": [
+        "Eine Übersicht über Arbeitsentgelt, Abzüge und den auszuzahlenden Betrag.",
+        "Ein Stoff, der Teile dauerhaft oder vorübergehend miteinander verbindet."
+      ]
+    },
+    {
+      "word": "Teamarbeit",
+      "meaning": "Das gemeinsame Erledigen einer Aufgabe durch mehrere Menschen.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.016",
+      "category": "work",
+      "distractors": [
+        "Ein Betrag vor dem Abzug von Steuern und Beiträgen.",
+        "Ein Teil, das den unerwünschten Durchtritt von Flüssigkeit oder Gas verhindert."
+      ]
+    },
+    {
+      "word": "Vertretung",
+      "meaning": "Eine Person oder Regelung, die Aufgaben eines abwesenden Menschen übernimmt.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.017",
+      "category": "work",
+      "distractors": [
+        "Ein Betrag nach den vorgesehenen Abzügen.",
+        "Ein Band mit Verschluss zum Bündeln oder Befestigen von Leitungen."
+      ]
+    },
+    {
+      "word": "zuständig",
+      "meaning": "Für eine bestimmte Aufgabe verantwortlich.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.018",
+      "category": "work",
+      "distractors": [
+        "Ein gesetzliches System zur Absicherung wichtiger Lebensrisiken.",
+        "Ein natürlicher Werkstoff aus dem Stamm und den Ästen von Bäumen."
+      ]
+    },
+    {
+      "word": "Besprechung",
+      "meaning": "Ein Treffen, bei dem Arbeitsfragen gemeinsam geklärt werden.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.019",
+      "category": "work",
+      "distractors": [
+        "Ein Versicherungszweig, der unter anderem die Absicherung im Alter unterstützt.",
+        "Eine Werkstoffgruppe, die meist gut Wärme und Strom leitet."
+      ]
+    },
+    {
+      "word": "Rückmeldung",
+      "meaning": "Eine Information darüber, wie etwas angekommen ist oder ausgeführt wurde.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.020",
+      "category": "work",
+      "distractors": [
+        "Ein Versicherungszweig für versicherte Unfälle und Berufskrankheiten.",
+        "Ein künstlich hergestellter Werkstoff, der sich vielfältig formen lässt."
+      ]
+    },
+    {
+      "word": "Einarbeitung",
+      "meaning": "Die Zeit, in der man Aufgaben und Abläufe einer neuen Arbeit kennenlernt.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.021",
+      "category": "work",
+      "distractors": [
+        "Eine Einordnung, die bei der Berechnung der Lohnsteuer berücksichtigt wird.",
+        "Ein einzelner Teil eines größeren technischen Gegenstands."
+      ]
+    },
+    {
+      "word": "Arbeitsplatz",
+      "meaning": "Der Ort oder Bereich, an dem jemand seine Arbeit erledigt.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.022",
+      "category": "work",
+      "distractors": [
+        "Eine Erklärung, durch die ein Vertrag beendet werden soll.",
+        "Ein Teil, mit dem ein beschädigtes oder verschlissenes Teil ausgetauscht wird."
+      ]
+    },
+    {
+      "word": "Kundenservice",
+      "meaning": "Die Unterstützung von Kunden bei Fragen und Problemen.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.023",
+      "category": "work",
+      "distractors": [
+        "Eine Bescheinigung eines Arbeitgebers über Angaben zu einer Beschäftigung.",
+        "Ein Gegenstand, der verkauft oder gehandelt wird."
+      ]
+    },
+    {
+      "word": "Lieferant",
+      "meaning": "Ein Unternehmen oder Mensch, der Waren an einen Betrieb liefert.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.024",
+      "category": "work",
+      "distractors": [
+        "Eine gewählte Interessenvertretung der Beschäftigten eines Betriebs.",
+        "Die Menge an Waren oder Material, die gerade vorhanden ist."
+      ]
+    },
+    {
+      "word": "Auftraggeber",
+      "meaning": "Eine Person oder Firma, die eine Arbeit bestellt.",
+      "topic": "Betrieb und Team",
+      "id": "vocabulary.work.v1.025",
+      "category": "work",
+      "distractors": [
+        "Maßnahmen, die Menschen bei der Arbeit vor Gefahren schützen sollen.",
+        "Das genaue Zählen und Erfassen vorhandener Bestände."
+      ]
+    },
+    {
+      "word": "Bewerbung",
+      "meaning": "Unterlagen oder Angaben, mit denen man sich um eine Stelle bemüht.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.026",
+      "category": "work",
+      "distractors": [
+        "Eine Brille, die die Augen vor gefährlichen Einwirkungen schützt.",
+        "Ein Auftrag, bestimmte Waren oder Leistungen zu liefern."
+      ]
+    },
+    {
+      "word": "Lebenslauf",
+      "meaning": "Eine Übersicht über wichtige Stationen in Schule, Ausbildung und Arbeit.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.027",
+      "category": "work",
+      "distractors": [
+        "Ein Schutzmittel, das laute Geräusche am Ohr dämpft.",
+        "Ein Dokument, das die mit einer Lieferung übergebenen Waren aufzählt."
+      ]
+    },
+    {
+      "word": "Anschreiben",
+      "meaning": "Ein Brief, in dem man sein Interesse an einer Stelle und seine Eignung erklärt.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.028",
+      "category": "work",
+      "distractors": [
+        "Ein Handschuh zum Schutz der Hand vor bestimmten Gefahren.",
+        "Der Bereich oder Vorgang, bei dem gelieferte Waren angenommen werden."
+      ]
+    },
+    {
+      "word": "Zeugnis",
+      "meaning": "Ein Dokument, das Leistungen oder eine Tätigkeit beurteilt.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.029",
+      "category": "work",
+      "distractors": [
+        "Ein Schuh, der den Fuß bei der Arbeit besonders schützt.",
+        "Der Bereich oder Vorgang, bei dem Waren den Betrieb verlassen."
+      ]
+    },
+    {
+      "word": "Vorstellungsgespräch",
+      "meaning": "Ein Gespräch, in dem sich Bewerber und Betrieb kennenlernen.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.030",
+      "category": "work",
+      "distractors": [
+        "Eine auffällige Weste, durch die man besser gesehen wird.",
+        "Das Vorbereiten und Abschicken von Waren an einen Empfänger."
+      ]
+    },
+    {
+      "word": "Stellenanzeige",
+      "meaning": "Eine Veröffentlichung, in der ein Betrieb eine Arbeits- oder Ausbildungsstelle anbietet.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.031",
+      "category": "work",
+      "distractors": [
+        "Ein Helm, der den Kopf bei bestimmten Arbeiten schützt.",
+        "Eine flache Ladefläche, auf der Waren transportiert oder gelagert werden."
+      ]
+    },
+    {
+      "word": "Ausbildungsberuf",
+      "meaning": "Ein Beruf, den man in einer geregelten Ausbildung erlernt.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.032",
+      "category": "work",
+      "distractors": [
+        "Eine geeignete Schutzausrüstung gegen gefährliche Stoffe in der Atemluft.",
+        "Ein Gerät zum Anheben und Bewegen von Paletten über kurze Strecken."
+      ]
+    },
+    {
+      "word": "Berufsschule",
+      "meaning": "Die Schule, die den betrieblichen Teil einer dualen Ausbildung ergänzt.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.033",
+      "category": "work",
+      "distractors": [
+        "Ein gekennzeichneter Weg, auf dem man bei Gefahr einen Bereich verlassen kann.",
+        "Ein Möbel oder Gestell mit mehreren Ablageflächen."
+      ]
+    },
+    {
+      "word": "Ausbildungsplan",
+      "meaning": "Eine Übersicht, welche Inhalte wann in einer Ausbildung vermittelt werden.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.034",
+      "category": "work",
+      "distractors": [
+        "Ein besonders gekennzeichneter Ausgang für den Gefahrenfall.",
+        "Ein aufgeklebtes oder angehängtes Schild mit Angaben zu einer Sache."
+      ]
+    },
+    {
+      "word": "Berichtsheft",
+      "meaning": "Ein Nachweis, in dem Auszubildende ihre Tätigkeiten und Lerninhalte festhalten.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.035",
+      "category": "work",
+      "distractors": [
+        "Ein vereinbarter Ort, an dem Menschen sich nach dem Verlassen eines Gefahrenbereichs treffen.",
+        "Eine Kennzeichnung, mit der ein bestimmter Artikel zugeordnet wird."
+      ]
+    },
+    {
+      "word": "Probezeit",
+      "meaning": "Die erste vereinbarte Zeit eines Arbeits- oder Ausbildungsverhältnisses zum Kennenlernen.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.036",
+      "category": "work",
+      "distractors": [
+        "Ein Gerät zum Bekämpfen eines beginnenden Brandes.",
+        "Ein maschinenlesbares Muster aus Strichen oder Flächen."
+      ]
+    },
+    {
+      "word": "Abschlussprüfung",
+      "meaning": "Eine Prüfung am Ende eines Bildungsgangs oder einer Ausbildung.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.037",
+      "category": "work",
+      "distractors": [
+        "Ein Gerät, das einen möglichen Brand erkennt und meldet.",
+        "Eine zusammen hergestellte oder verarbeitete Menge eines Produkts."
+      ]
+    },
+    {
+      "word": "Qualifikation",
+      "meaning": "Kenntnisse und Fähigkeiten, die für eine Tätigkeit wichtig sind.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.038",
+      "category": "work",
+      "distractors": [
+        "Eine ausgebildete Person, die bei einem Unfall erste Hilfe leisten kann.",
+        "Ein festgelegter Ort für eine Ware im Lager."
+      ]
+    },
+    {
+      "word": "Fertigkeit",
+      "meaning": "Eine eingeübte Fähigkeit, eine praktische Handlung auszuführen.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.039",
+      "category": "work",
+      "distractors": [
+        "Ein Behälter mit Material für die erste Hilfe.",
+        "Das Zusammenstellen von Waren für eine bestimmte Bestellung."
+      ]
+    },
+    {
+      "word": "Berufserfahrung",
+      "meaning": "Kenntnisse, die man durch tatsächliche Arbeit in einem Beruf gesammelt hat.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.040",
+      "category": "work",
+      "distractors": [
+        "Ein Stoff, von dem Gefahren für Menschen oder Umwelt ausgehen können.",
+        "Das Befördern von Menschen oder Sachen von einem Ort zu einem anderen."
+      ]
+    },
+    {
+      "word": "Fortbildung",
+      "meaning": "Eine Bildungsmaßnahme, mit der man berufliche Kenntnisse erweitert.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.041",
+      "category": "work",
+      "distractors": [
+        "Ein Bildzeichen, das auf eine bestimmte Gefahr hinweist.",
+        "Waren, die mit einem Transportmittel befördert werden."
+      ]
+    },
+    {
+      "word": "Umschulung",
+      "meaning": "Eine Ausbildung für einen anderen Beruf als den bisher erlernten.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.042",
+      "category": "work",
+      "distractors": [
+        "Eine schriftliche Anweisung zum sicheren Umgang mit einer Arbeit oder einem Stoff.",
+        "Eine Angabe darüber, wie schwer etwas ist."
+      ]
+    },
+    {
+      "word": "Teilnahme",
+      "meaning": "Das Mitmachen bei einer Veranstaltung oder Maßnahme.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.043",
+      "category": "work",
+      "distractors": [
+        "Eine Erklärung und Anleitung zu richtigem und sicherem Verhalten bei der Arbeit.",
+        "Die Last, die ein Gegenstand oder Gerät sicher tragen kann."
+      ]
+    },
+    {
+      "word": "Lernziel",
+      "meaning": "Eine Beschreibung dessen, was man nach dem Lernen können soll.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.044",
+      "category": "work",
+      "distractors": [
+        "Eine Stelle, an der man mit dem Fuß hängen bleiben und stürzen kann.",
+        "Waren, die an den Verkäufer oder Versender zurückgeschickt werden."
+      ]
+    },
+    {
+      "word": "Arbeitsprobe",
+      "meaning": "Eine praktische Aufgabe, mit der jemand seine Fähigkeiten zeigt.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.045",
+      "category": "work",
+      "distractors": [
+        "Die Gefahr, auf einem glatten Boden auszurutschen.",
+        "Eine Beanstandung wegen eines Mangels an einer Ware oder Leistung."
+      ]
+    },
+    {
+      "word": "Eignung",
+      "meaning": "Die Passung von Fähigkeiten und Voraussetzungen zu einer Aufgabe.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.046",
+      "category": "work",
+      "distractors": [
+        "Eine Begrenzung, die den Zugang zu einem Bereich verhindert.",
+        "Eine Hilfeleistung für Kunden, etwa bei Wartung oder Reparatur eines Produkts."
+      ]
+    },
+    {
+      "word": "Motivation",
+      "meaning": "Der Antrieb, sich mit einer Aufgabe oder einem Ziel zu beschäftigen.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.047",
+      "category": "work",
+      "distractors": [
+        "Eine feste Regel, nach der Dinge aufbewahrt und gefunden werden.",
+        "Das Berechnen von Kosten oder Preisen."
+      ]
+    },
+    {
+      "word": "Selbstständigkeit",
+      "meaning": "Die Fähigkeit, Aufgaben mit eigener Planung zu erledigen.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.048",
+      "category": "work",
+      "distractors": [
+        "Eine Übersicht, was wann und wie gereinigt werden soll.",
+        "Eine Beschreibung dessen, was bei einer Arbeit erledigt werden soll."
+      ]
+    },
+    {
+      "word": "Sorgfalt",
+      "meaning": "Genaues und überlegtes Arbeiten, bei dem man Fehler vermeiden möchte.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.049",
+      "category": "work",
+      "distractors": [
+        "Das richtige Abgeben oder Beseitigen von Abfällen.",
+        "Die aufeinanderfolgenden Schritte einer Tätigkeit."
+      ]
+    },
+    {
+      "word": "geeignet",
+      "meaning": "Für einen bestimmten Zweck passend.",
+      "topic": "Ausbildung und Bewerbung",
+      "id": "vocabulary.work.v1.050",
+      "category": "work",
+      "distractors": [
+        "Ein Hilfsmittel, mit dem man eine praktische Arbeit ausführt.",
+        "Das Bereitlegen und Planen, bevor die eigentliche Tätigkeit beginnt."
+      ]
+    },
+    {
+      "word": "Arbeitsvertrag",
+      "meaning": "Eine Vereinbarung über die Bedingungen einer Beschäftigung.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.051",
+      "category": "work",
+      "distractors": [
+        "Ein Werkzeug zum Schlagen, zum Beispiel auf einen Nagel.",
+        "Das tatsächliche Ausführen einer geplanten Tätigkeit."
+      ]
+    },
+    {
+      "word": "Arbeitszeit",
+      "meaning": "Die Zeit, in der jemand seine beruflichen Aufgaben erledigt.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.052",
+      "category": "work",
+      "distractors": [
+        "Ein Werkzeug, mit dem man Schrauben dreht.",
+        "Das Prüfen, ob etwas den Vorgaben entspricht."
+      ]
+    },
+    {
+      "word": "Schicht",
+      "meaning": "Ein festgelegter Arbeitsabschnitt in einem wechselnden Zeitplan.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.053",
+      "category": "work",
+      "distractors": [
+        "Ein Werkzeug zum Greifen, Halten oder Trennen von Material.",
+        "Die Eigenschaften einer Arbeit oder Ware im Vergleich zu den Anforderungen."
+      ]
+    },
+    {
+      "word": "Dienstplan",
+      "meaning": "Eine Übersicht, wer wann arbeiten soll.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.054",
+      "category": "work",
+      "distractors": [
+        "Ein Werkzeug mit gezähntem Blatt zum Trennen von Material.",
+        "Eine Eigenschaft, durch die etwas eine geforderte Leistung nicht erfüllt."
+      ]
+    },
+    {
+      "word": "Zeiterfassung",
+      "meaning": "Das Aufschreiben oder Speichern von Beginn und Ende der Arbeitszeit.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.055",
+      "category": "work",
+      "distractors": [
+        "Ein Werkzeug mit rauer Oberfläche zum Abtragen und Glätten von Material.",
+        "Eine erneute Bearbeitung, durch die ein Mangel behoben werden soll."
+      ]
+    },
+    {
+      "word": "Überstunde",
+      "meaning": "Eine Arbeitsstunde über die vereinbarte Arbeitszeit hinaus.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.056",
+      "category": "work",
+      "distractors": [
+        "Ein Gerät, mit dem man Löcher in ein Material bohren kann.",
+        "Regelmäßige Maßnahmen, die ein Gerät funktionsfähig halten sollen."
+      ]
+    },
+    {
+      "word": "Gleitzeit",
+      "meaning": "Eine Arbeitszeitregelung mit Spielraum bei Beginn und Ende.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.057",
+      "category": "work",
+      "distractors": [
+        "Eine Vorrichtung, die ein Werkstück beim Bearbeiten festhält.",
+        "Das Beheben eines Schadens, damit etwas wieder funktioniert."
+      ]
+    },
+    {
+      "word": "Teilzeit",
+      "meaning": "Eine Beschäftigung mit weniger Stunden als die übliche volle Arbeitszeit.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.058",
+      "category": "work",
+      "distractors": [
+        "Ein zusammenklappbares Messgerät für Längen.",
+        "Eine Unterbrechung oder Beeinträchtigung eines üblichen Ablaufs."
+      ]
+    },
+    {
+      "word": "Urlaub",
+      "meaning": "Eine vereinbarte arbeitsfreie Zeit zur Erholung.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.059",
+      "category": "work",
+      "distractors": [
+        "Ein Messgerät, mit dem man waagerechte und senkrechte Ausrichtung prüft.",
+        "Ein Zustand, in dem eine Maschine oder ein Ablauf nicht weiterläuft."
+      ]
+    },
+    {
+      "word": "Feiertag",
+      "meaning": "Ein gesetzlich besonders festgelegter Tag, an dem viele Menschen nicht arbeiten.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.060",
+      "category": "work",
+      "distractors": [
+        "Ein Messgerät für genaue Außen-, Innen- und Tiefenmaße.",
+        "Das Zusammenbauen einzelner Teile."
+      ]
+    },
+    {
+      "word": "Krankmeldung",
+      "meaning": "Die Nachricht an den Betrieb, dass man wegen Krankheit nicht arbeiten kann.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.061",
+      "category": "work",
+      "distractors": [
+        "Ein Gegenstand, der gerade bearbeitet wird.",
+        "Das Auseinanderbauen eines Gegenstands in seine Teile."
+      ]
+    },
+    {
+      "word": "Arbeitsunfähigkeit",
+      "meaning": "Ein Zustand, in dem eine Person ihre Arbeit aus gesundheitlichen Gründen nicht ausüben kann.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.062",
+      "category": "work",
+      "distractors": [
+        "Ein Verbindungsteil mit Gewinde, das durch Drehen befestigt wird.",
+        "Die Herstellung von Gegenständen oder Bauteilen."
+      ]
+    },
+    {
+      "word": "Fehlzeit",
+      "meaning": "Eine Zeit, in der jemand bei einer vorgesehenen Arbeit oder Maßnahme fehlt.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.063",
+      "category": "work",
+      "distractors": [
+        "Ein Verbindungsteil mit Innengewinde, das auf eine passende Schraube gedreht wird.",
+        "Das organisierte Herstellen von Waren in einem Betrieb."
+      ]
+    },
+    {
+      "word": "Freistellung",
+      "meaning": "Die Befreiung von der Arbeitspflicht für einen bestimmten Zeitraum.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.064",
+      "category": "work",
+      "distractors": [
+        "Ein flacher Ring, der die Kraft einer Schraubverbindung verteilt.",
+        "Eine Arbeit, deren Ergebnis vor allem eine Leistung für andere Menschen ist."
+      ]
+    },
+    {
+      "word": "Personalnummer",
+      "meaning": "Eine Nummer, mit der ein Betrieb einen Beschäftigten in seinen Unterlagen zuordnet.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.065",
+      "category": "work",
+      "distractors": [
+        "Ein Einsatz in einem Bohrloch, der einer passenden Schraube Halt gibt.",
+        "Das nachvollziehbare Festhalten von Ergebnissen, Schritten oder Angaben."
+      ]
+    },
+    {
+      "word": "Gehaltsabrechnung",
+      "meaning": "Eine Übersicht über Arbeitsentgelt, Abzüge und den auszuzahlenden Betrag.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.066",
+      "category": "work",
+      "distractors": [
+        "Papier mit einer rauen Körnung zum Glätten von Oberflächen.",
+        "Eine geordnete schriftliche Aufzeichnung eines Ablaufs oder Gesprächs."
+      ]
+    },
+    {
+      "word": "Brutto",
+      "meaning": "Ein Betrag vor dem Abzug von Steuern und Beiträgen.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.067",
+      "category": "work",
+      "distractors": [
+        "Ein Stoff, der Teile dauerhaft oder vorübergehend miteinander verbindet.",
+        "Das Weitergeben einer Sache oder Aufgabe an eine andere Person."
+      ]
+    },
+    {
+      "word": "Netto",
+      "meaning": "Ein Betrag nach den vorgesehenen Abzügen.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.068",
+      "category": "work",
+      "distractors": [
+        "Ein Teil, das den unerwünschten Durchtritt von Flüssigkeit oder Gas verhindert.",
+        "Eine Frage, mit der man eine unklare Angabe genauer klärt."
+      ]
+    },
+    {
+      "word": "Sozialversicherung",
+      "meaning": "Ein gesetzliches System zur Absicherung wichtiger Lebensrisiken.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.069",
+      "category": "work",
+      "distractors": [
+        "Ein Band mit Verschluss zum Bündeln oder Befestigen von Leitungen.",
+        "Die Zustimmung, dass etwas benutzt oder weiterbearbeitet werden darf."
+      ]
+    },
+    {
+      "word": "Rentenversicherung",
+      "meaning": "Ein Versicherungszweig, der unter anderem die Absicherung im Alter unterstützt.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.070",
+      "category": "work",
+      "distractors": [
+        "Ein natürlicher Werkstoff aus dem Stamm und den Ästen von Bäumen.",
+        "Das Prüfen und Annehmen einer fertiggestellten Arbeit."
+      ]
+    },
+    {
+      "word": "Unfallversicherung",
+      "meaning": "Ein Versicherungszweig für versicherte Unfälle und Berufskrankheiten.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.071",
+      "category": "work",
+      "distractors": [
+        "Eine Werkstoffgruppe, die meist gut Wärme und Strom leitet.",
+        "Eine festgelegte Anforderung, an der sich die Arbeit orientieren soll."
+      ]
+    },
+    {
+      "word": "Steuerklasse",
+      "meaning": "Eine Einordnung, die bei der Berechnung der Lohnsteuer berücksichtigt wird.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.072",
+      "category": "work",
+      "distractors": [
+        "Ein künstlich hergestellter Werkstoff, der sich vielfältig formen lässt.",
+        "Eine Änderung, durch die etwas besser funktioniert oder eine höhere Qualität erreicht."
+      ]
+    },
+    {
+      "word": "Kündigung",
+      "meaning": "Eine Erklärung, durch die ein Vertrag beendet werden soll.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.073",
+      "category": "work",
+      "distractors": [
+        "Ein einzelner Teil eines größeren technischen Gegenstands.",
+        "Vorher überlegen, welche Schritte für ein Ziel nötig sind."
+      ]
+    },
+    {
+      "word": "Arbeitsbescheinigung",
+      "meaning": "Eine Bescheinigung eines Arbeitgebers über Angaben zu einer Beschäftigung.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.074",
+      "category": "work",
+      "distractors": [
+        "Ein Teil, mit dem ein beschädigtes oder verschlissenes Teil ausgetauscht wird.",
+        "Genau ansehen oder testen, ob etwas richtig oder funktionsfähig ist."
+      ]
+    },
+    {
+      "word": "Betriebsrat",
+      "meaning": "Eine gewählte Interessenvertretung der Beschäftigten eines Betriebs.",
+      "topic": "Arbeitszeit und Unterlagen",
+      "id": "vocabulary.work.v1.075",
+      "category": "work",
+      "distractors": [
+        "Ein Gegenstand, der verkauft oder gehandelt wird.",
+        "Dinge nach bestimmten Merkmalen in Gruppen oder eine Reihenfolge bringen."
+      ]
+    },
+    {
+      "word": "Arbeitsschutz",
+      "meaning": "Maßnahmen, die Menschen bei der Arbeit vor Gefahren schützen sollen.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.076",
+      "category": "work",
+      "distractors": [
+        "Die Menge an Waren oder Material, die gerade vorhanden ist.",
+        "Mit einem Messgerät eine bestimmte Größe ermitteln oder festlegen."
+      ]
+    },
+    {
+      "word": "Schutzbrille",
+      "meaning": "Eine Brille, die die Augen vor gefährlichen Einwirkungen schützt.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.077",
+      "category": "work",
+      "distractors": [
+        "Das genaue Zählen und Erfassen vorhandener Bestände.",
+        "Eine Stelle oder eine Angabe sichtbar kennzeichnen."
+      ]
+    },
+    {
+      "word": "Gehörschutz",
+      "meaning": "Ein Schutzmittel, das laute Geräusche am Ohr dämpft.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.078",
+      "category": "work",
+      "distractors": [
+        "Ein Auftrag, bestimmte Waren oder Leistungen zu liefern.",
+        "Etwas so anbringen, dass es an seinem Platz bleibt."
+      ]
+    },
+    {
+      "word": "Schutzhandschuh",
+      "meaning": "Ein Handschuh zum Schutz der Hand vor bestimmten Gefahren.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.079",
+      "category": "work",
+      "distractors": [
+        "Ein Dokument, das die mit einer Lieferung übergebenen Waren aufzählt.",
+        "Eine Verbindung lockern oder aufheben."
+      ]
+    },
+    {
+      "word": "Sicherheitsschuh",
+      "meaning": "Ein Schuh, der den Fuß bei der Arbeit besonders schützt.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.080",
+      "category": "work",
+      "distractors": [
+        "Der Bereich oder Vorgang, bei dem gelieferte Waren angenommen werden.",
+        "Ein Material mit einer scharfen Kante trennen."
+      ]
+    },
+    {
+      "word": "Warnweste",
+      "meaning": "Eine auffällige Weste, durch die man besser gesehen wird.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.081",
+      "category": "work",
+      "distractors": [
+        "Der Bereich oder Vorgang, bei dem Waren den Betrieb verlassen.",
+        "Eine Oberfläche mit einem rauen Werkzeug abtragen oder glätten."
+      ]
+    },
+    {
+      "word": "Schutzhelm",
+      "meaning": "Ein Helm, der den Kopf bei bestimmten Arbeiten schützt.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.082",
+      "category": "work",
+      "distractors": [
+        "Das Vorbereiten und Abschicken von Waren an einen Empfänger.",
+        "Mit einem drehenden Werkzeug ein Loch herstellen."
+      ]
+    },
+    {
+      "word": "Atemschutz",
+      "meaning": "Eine geeignete Schutzausrüstung gegen gefährliche Stoffe in der Atemluft.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.083",
+      "category": "work",
+      "distractors": [
+        "Eine flache Ladefläche, auf der Waren transportiert oder gelagert werden.",
+        "Schmutz von einer Sache entfernen."
+      ]
+    },
+    {
+      "word": "Fluchtweg",
+      "meaning": "Ein gekennzeichneter Weg, auf dem man bei Gefahr einen Bereich verlassen kann.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.084",
+      "category": "work",
+      "distractors": [
+        "Ein Gerät zum Anheben und Bewegen von Paletten über kurze Strecken.",
+        "Die Zahl bestimmter Krankheitserreger auf geeignete Weise stark verringern."
+      ]
+    },
+    {
+      "word": "Notausgang",
+      "meaning": "Ein besonders gekennzeichneter Ausgang für den Gefahrenfall.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.085",
+      "category": "work",
+      "distractors": [
+        "Ein Möbel oder Gestell mit mehreren Ablageflächen.",
+        "Eine Ware in eine schützende Hülle legen oder einwickeln."
+      ]
+    },
+    {
+      "word": "Sammelstelle",
+      "meaning": "Ein vereinbarter Ort, an dem Menschen sich nach dem Verlassen eines Gefahrenbereichs treffen.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.086",
+      "category": "work",
+      "distractors": [
+        "Ein aufgeklebtes oder angehängtes Schild mit Angaben zu einer Sache.",
+        "Schriftliche Angaben auf einer Sache anbringen."
+      ]
+    },
+    {
+      "word": "Feuerlöscher",
+      "meaning": "Ein Gerät zum Bekämpfen eines beginnenden Brandes.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.087",
+      "category": "work",
+      "distractors": [
+        "Eine Kennzeichnung, mit der ein bestimmter Artikel zugeordnet wird.",
+        "Einen Vorgang verbindlich eintragen, zum Beispiel eine Warenbewegung."
+      ]
+    },
+    {
+      "word": "Brandmelder",
+      "meaning": "Ein Gerät, das einen möglichen Brand erkennt und meldet.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.088",
+      "category": "work",
+      "distractors": [
+        "Ein maschinenlesbares Muster aus Strichen oder Flächen.",
+        "Zwei Angaben vergleichen und auf Übereinstimmung prüfen."
+      ]
+    },
+    {
+      "word": "Ersthelfer",
+      "meaning": "Eine ausgebildete Person, die bei einem Unfall erste Hilfe leisten kann.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.089",
+      "category": "work",
+      "distractors": [
+        "Eine zusammen hergestellte oder verarbeitete Menge eines Produkts.",
+        "Fehlendes Material oder fehlende Ware ergänzen."
+      ]
+    },
+    {
+      "word": "Verbandkasten",
+      "meaning": "Ein Behälter mit Material für die erste Hilfe.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.090",
+      "category": "work",
+      "distractors": [
+        "Ein festgelegter Ort für eine Ware im Lager.",
+        "Nicht passende oder beschädigte Dinge aus einer Menge herausnehmen."
+      ]
+    },
+    {
+      "word": "Gefahrstoff",
+      "meaning": "Ein Stoff, von dem Gefahren für Menschen oder Umwelt ausgehen können.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.091",
+      "category": "work",
+      "distractors": [
+        "Das Zusammenstellen von Waren für eine bestimmte Bestellung.",
+        "Waren oder Material für einen späteren Zeitpunkt aufbewahren."
+      ]
+    },
+    {
+      "word": "Gefahrzeichen",
+      "meaning": "Ein Bildzeichen, das auf eine bestimmte Gefahr hinweist.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.092",
+      "category": "work",
+      "distractors": [
+        "Das Befördern von Menschen oder Sachen von einem Ort zu einem anderen.",
+        "Bestellte Waren zum Empfänger bringen."
+      ]
+    },
+    {
+      "word": "Betriebsanweisung",
+      "meaning": "Eine schriftliche Anweisung zum sicheren Umgang mit einer Arbeit oder einem Stoff.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.093",
+      "category": "work",
+      "distractors": [
+        "Waren, die mit einem Transportmittel befördert werden.",
+        "Jemandem Informationen geben, die bei einer Entscheidung helfen."
+      ]
+    },
+    {
+      "word": "Unterweisung",
+      "meaning": "Eine Erklärung und Anleitung zu richtigem und sicherem Verhalten bei der Arbeit.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.094",
+      "category": "work",
+      "distractors": [
+        "Eine Angabe darüber, wie schwer etwas ist.",
+        "Gemeinsam eine verbindliche Absprache treffen."
+      ]
+    },
+    {
+      "word": "Stolperstelle",
+      "meaning": "Eine Stelle, an der man mit dem Fuß hängen bleiben und stürzen kann.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.095",
+      "category": "work",
+      "distractors": [
+        "Die Last, die ein Gegenstand oder Gerät sicher tragen kann.",
+        "Eine Information oder Sache an die zuständige Stelle geben."
+      ]
+    },
+    {
+      "word": "Rutschgefahr",
+      "meaning": "Die Gefahr, auf einem glatten Boden auszurutschen.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.096",
+      "category": "work",
+      "distractors": [
+        "Waren, die an den Verkäufer oder Versender zurückgeschickt werden.",
+        "Auf einen Fehler oder Mangel aufmerksam machen."
+      ]
+    },
+    {
+      "word": "Absperrung",
+      "meaning": "Eine Begrenzung, die den Zugang zu einem Bereich verhindert.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.097",
+      "category": "work",
+      "distractors": [
+        "Eine Beanstandung wegen eines Mangels an einer Ware oder Leistung.",
+        "Mit anderen Menschen gemeinsam an einer Aufgabe arbeiten."
+      ]
+    },
+    {
+      "word": "Ordnungssystem",
+      "meaning": "Eine feste Regel, nach der Dinge aufbewahrt und gefunden werden.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.098",
+      "category": "work",
+      "distractors": [
+        "Eine Hilfeleistung für Kunden, etwa bei Wartung oder Reparatur eines Produkts.",
+        "Ein Unternehmen oder eine Arbeitsstätte, in der Waren hergestellt oder Leistungen erbracht werden."
+      ]
+    },
+    {
+      "word": "Reinigungsplan",
+      "meaning": "Eine Übersicht, was wann und wie gereinigt werden soll.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.099",
+      "category": "work",
+      "distractors": [
+        "Das Berechnen von Kosten oder Preisen.",
+        "Ein Bereich eines Betriebs mit bestimmten Aufgaben."
+      ]
+    },
+    {
+      "word": "Entsorgung",
+      "meaning": "Das richtige Abgeben oder Beseitigen von Abfällen.",
+      "topic": "Sicherheit und Ordnung",
+      "id": "vocabulary.work.v1.100",
+      "category": "work",
+      "distractors": [
+        "Eine Beschreibung dessen, was bei einer Arbeit erledigt werden soll.",
+        "Ein Arbeitsraum, in dem Dinge hergestellt oder repariert werden."
+      ]
+    },
+    {
+      "word": "Werkzeug",
+      "meaning": "Ein Hilfsmittel, mit dem man eine praktische Arbeit ausführt.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.101",
+      "category": "work",
+      "distractors": [
+        "Die aufeinanderfolgenden Schritte einer Tätigkeit.",
+        "Ein Bereich, in dem Waren oder Material aufbewahrt werden."
+      ]
+    },
+    {
+      "word": "Hammer",
+      "meaning": "Ein Werkzeug zum Schlagen, zum Beispiel auf einen Nagel.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.102",
+      "category": "work",
+      "distractors": [
+        "Das Bereitlegen und Planen, bevor die eigentliche Tätigkeit beginnt.",
+        "Ein Raum, in dem Kunden Waren ansehen und kaufen können."
+      ]
+    },
+    {
+      "word": "Schraubendreher",
+      "meaning": "Ein Werkzeug, mit dem man Schrauben dreht.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.103",
+      "category": "work",
+      "distractors": [
+        "Das tatsächliche Ausführen einer geplanten Tätigkeit.",
+        "Ein Raum für Arbeiten wie Schreiben, Planen und Verwalten."
+      ]
+    },
+    {
+      "word": "Zange",
+      "meaning": "Ein Werkzeug zum Greifen, Halten oder Trennen von Material.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.104",
+      "category": "work",
+      "distractors": [
+        "Das Prüfen, ob etwas den Vorgaben entspricht.",
+        "Die Stelle eines Betriebs, an der Besucher begrüßt und weitergeleitet werden."
+      ]
+    },
+    {
+      "word": "Säge",
+      "meaning": "Ein Werkzeug mit gezähntem Blatt zum Trennen von Material.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.105",
+      "category": "work",
+      "distractors": [
+        "Die Eigenschaften einer Arbeit oder Ware im Vergleich zu den Anforderungen.",
+        "Ein Ort in einem Betrieb, an dem Beschäftigte essen können."
+      ]
+    },
+    {
+      "word": "Feile",
+      "meaning": "Ein Werkzeug mit rauer Oberfläche zum Abtragen und Glätten von Material.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.106",
+      "category": "work",
+      "distractors": [
+        "Eine Eigenschaft, durch die etwas eine geforderte Leistung nicht erfüllt.",
+        "Ein Raum, in dem man seine Kleidung wechselt."
+      ]
+    },
+    {
+      "word": "Bohrmaschine",
+      "meaning": "Ein Gerät, mit dem man Löcher in ein Material bohren kann.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.107",
+      "category": "work",
+      "distractors": [
+        "Eine erneute Bearbeitung, durch die ein Mangel behoben werden soll.",
+        "Die Menschen, die in einem Betrieb arbeiten."
+      ]
+    },
+    {
+      "word": "Schraubstock",
+      "meaning": "Eine Vorrichtung, die ein Werkstück beim Bearbeiten festhält.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.108",
+      "category": "work",
+      "distractors": [
+        "Regelmäßige Maßnahmen, die ein Gerät funktionsfähig halten sollen.",
+        "Ein Mensch, mit dem man im selben Betrieb oder Beruf arbeitet."
+      ]
+    },
+    {
+      "word": "Zollstock",
+      "meaning": "Ein zusammenklappbares Messgerät für Längen.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.109",
+      "category": "work",
+      "distractors": [
+        "Das Beheben eines Schadens, damit etwas wieder funktioniert.",
+        "Ein Mensch, der bei der Arbeit Aufgaben verteilt und Entscheidungen treffen darf."
+      ]
+    },
+    {
+      "word": "Wasserwaage",
+      "meaning": "Ein Messgerät, mit dem man waagerechte und senkrechte Ausrichtung prüft.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.110",
+      "category": "work",
+      "distractors": [
+        "Eine Unterbrechung oder Beeinträchtigung eines üblichen Ablaufs.",
+        "Eine Person, die Auszubildende im Betrieb anleitet."
+      ]
+    },
+    {
+      "word": "Messschieber",
+      "meaning": "Ein Messgerät für genaue Außen-, Innen- und Tiefenmaße.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.111",
+      "category": "work",
+      "distractors": [
+        "Ein Zustand, in dem eine Maschine oder ein Ablauf nicht weiterläuft.",
+        "Eine Person, die einen Beruf in einer geregelten Ausbildung lernt."
+      ]
+    },
+    {
+      "word": "Werkstück",
+      "meaning": "Ein Gegenstand, der gerade bearbeitet wird.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.112",
+      "category": "work",
+      "distractors": [
+        "Das Zusammenbauen einzelner Teile.",
+        "Eine begrenzte Zeit, in der man Arbeit in einem Betrieb kennenlernt."
+      ]
+    },
+    {
+      "word": "Schraube",
+      "meaning": "Ein Verbindungsteil mit Gewinde, das durch Drehen befestigt wird.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.113",
+      "category": "work",
+      "distractors": [
+        "Das Auseinanderbauen eines Gegenstands in seine Teile.",
+        "Das gemeinsame Erledigen einer Aufgabe durch mehrere Menschen."
+      ]
+    },
+    {
+      "word": "Mutter",
+      "meaning": "Ein Verbindungsteil mit Innengewinde, das auf eine passende Schraube gedreht wird.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.114",
+      "category": "work",
+      "distractors": [
+        "Die Herstellung von Gegenständen oder Bauteilen.",
+        "Eine Person oder Regelung, die Aufgaben eines abwesenden Menschen übernimmt."
+      ]
+    },
+    {
+      "word": "Unterlegscheibe",
+      "meaning": "Ein flacher Ring, der die Kraft einer Schraubverbindung verteilt.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.115",
+      "category": "work",
+      "distractors": [
+        "Das organisierte Herstellen von Waren in einem Betrieb.",
+        "Für eine bestimmte Aufgabe verantwortlich."
+      ]
+    },
+    {
+      "word": "Dübel",
+      "meaning": "Ein Einsatz in einem Bohrloch, der einer passenden Schraube Halt gibt.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.116",
+      "category": "work",
+      "distractors": [
+        "Eine Arbeit, deren Ergebnis vor allem eine Leistung für andere Menschen ist.",
+        "Ein Treffen, bei dem Arbeitsfragen gemeinsam geklärt werden."
+      ]
+    },
+    {
+      "word": "Schleifpapier",
+      "meaning": "Papier mit einer rauen Körnung zum Glätten von Oberflächen.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.117",
+      "category": "work",
+      "distractors": [
+        "Das nachvollziehbare Festhalten von Ergebnissen, Schritten oder Angaben.",
+        "Eine Information darüber, wie etwas angekommen ist oder ausgeführt wurde."
+      ]
+    },
+    {
+      "word": "Klebstoff",
+      "meaning": "Ein Stoff, der Teile dauerhaft oder vorübergehend miteinander verbindet.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.118",
+      "category": "work",
+      "distractors": [
+        "Eine geordnete schriftliche Aufzeichnung eines Ablaufs oder Gesprächs.",
+        "Die Zeit, in der man Aufgaben und Abläufe einer neuen Arbeit kennenlernt."
+      ]
+    },
+    {
+      "word": "Dichtung",
+      "meaning": "Ein Teil, das den unerwünschten Durchtritt von Flüssigkeit oder Gas verhindert.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.119",
+      "category": "work",
+      "distractors": [
+        "Das Weitergeben einer Sache oder Aufgabe an eine andere Person.",
+        "Der Ort oder Bereich, an dem jemand seine Arbeit erledigt."
+      ]
+    },
+    {
+      "word": "Kabelbinder",
+      "meaning": "Ein Band mit Verschluss zum Bündeln oder Befestigen von Leitungen.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.120",
+      "category": "work",
+      "distractors": [
+        "Eine Frage, mit der man eine unklare Angabe genauer klärt.",
+        "Die Unterstützung von Kunden bei Fragen und Problemen."
+      ]
+    },
+    {
+      "word": "Holz",
+      "meaning": "Ein natürlicher Werkstoff aus dem Stamm und den Ästen von Bäumen.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.121",
+      "category": "work",
+      "distractors": [
+        "Die Zustimmung, dass etwas benutzt oder weiterbearbeitet werden darf.",
+        "Ein Unternehmen oder Mensch, der Waren an einen Betrieb liefert."
+      ]
+    },
+    {
+      "word": "Metall",
+      "meaning": "Eine Werkstoffgruppe, die meist gut Wärme und Strom leitet.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.122",
+      "category": "work",
+      "distractors": [
+        "Das Prüfen und Annehmen einer fertiggestellten Arbeit.",
+        "Eine Person oder Firma, die eine Arbeit bestellt."
+      ]
+    },
+    {
+      "word": "Kunststoff",
+      "meaning": "Ein künstlich hergestellter Werkstoff, der sich vielfältig formen lässt.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.123",
+      "category": "work",
+      "distractors": [
+        "Eine festgelegte Anforderung, an der sich die Arbeit orientieren soll.",
+        "Unterlagen oder Angaben, mit denen man sich um eine Stelle bemüht."
+      ]
+    },
+    {
+      "word": "Bauteil",
+      "meaning": "Ein einzelner Teil eines größeren technischen Gegenstands.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.124",
+      "category": "work",
+      "distractors": [
+        "Eine Änderung, durch die etwas besser funktioniert oder eine höhere Qualität erreicht.",
+        "Eine Übersicht über wichtige Stationen in Schule, Ausbildung und Arbeit."
+      ]
+    },
+    {
+      "word": "Ersatzteil",
+      "meaning": "Ein Teil, mit dem ein beschädigtes oder verschlissenes Teil ausgetauscht wird.",
+      "topic": "Werkzeug und Material",
+      "id": "vocabulary.work.v1.125",
+      "category": "work",
+      "distractors": [
+        "Vorher überlegen, welche Schritte für ein Ziel nötig sind.",
+        "Ein Brief, in dem man sein Interesse an einer Stelle und seine Eignung erklärt."
+      ]
+    },
+    {
+      "word": "Ware",
+      "meaning": "Ein Gegenstand, der verkauft oder gehandelt wird.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.126",
+      "category": "work",
+      "distractors": [
+        "Genau ansehen oder testen, ob etwas richtig oder funktionsfähig ist.",
+        "Ein Dokument, das Leistungen oder eine Tätigkeit beurteilt."
+      ]
+    },
+    {
+      "word": "Bestand",
+      "meaning": "Die Menge an Waren oder Material, die gerade vorhanden ist.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.127",
+      "category": "work",
+      "distractors": [
+        "Dinge nach bestimmten Merkmalen in Gruppen oder eine Reihenfolge bringen.",
+        "Ein Gespräch, in dem sich Bewerber und Betrieb kennenlernen."
+      ]
+    },
+    {
+      "word": "Inventur",
+      "meaning": "Das genaue Zählen und Erfassen vorhandener Bestände.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.128",
+      "category": "work",
+      "distractors": [
+        "Mit einem Messgerät eine bestimmte Größe ermitteln oder festlegen.",
+        "Eine Veröffentlichung, in der ein Betrieb eine Arbeits- oder Ausbildungsstelle anbietet."
+      ]
+    },
+    {
+      "word": "Bestellung",
+      "meaning": "Ein Auftrag, bestimmte Waren oder Leistungen zu liefern.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.129",
+      "category": "work",
+      "distractors": [
+        "Eine Stelle oder eine Angabe sichtbar kennzeichnen.",
+        "Ein Beruf, den man in einer geregelten Ausbildung erlernt."
+      ]
+    },
+    {
+      "word": "Lieferschein",
+      "meaning": "Ein Dokument, das die mit einer Lieferung übergebenen Waren aufzählt.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.130",
+      "category": "work",
+      "distractors": [
+        "Etwas so anbringen, dass es an seinem Platz bleibt.",
+        "Die Schule, die den betrieblichen Teil einer dualen Ausbildung ergänzt."
+      ]
+    },
+    {
+      "word": "Wareneingang",
+      "meaning": "Der Bereich oder Vorgang, bei dem gelieferte Waren angenommen werden.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.131",
+      "category": "work",
+      "distractors": [
+        "Eine Verbindung lockern oder aufheben.",
+        "Eine Übersicht, welche Inhalte wann in einer Ausbildung vermittelt werden."
+      ]
+    },
+    {
+      "word": "Warenausgang",
+      "meaning": "Der Bereich oder Vorgang, bei dem Waren den Betrieb verlassen.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.132",
+      "category": "work",
+      "distractors": [
+        "Ein Material mit einer scharfen Kante trennen.",
+        "Ein Nachweis, in dem Auszubildende ihre Tätigkeiten und Lerninhalte festhalten."
+      ]
+    },
+    {
+      "word": "Versand",
+      "meaning": "Das Vorbereiten und Abschicken von Waren an einen Empfänger.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.133",
+      "category": "work",
+      "distractors": [
+        "Eine Oberfläche mit einem rauen Werkzeug abtragen oder glätten.",
+        "Die erste vereinbarte Zeit eines Arbeits- oder Ausbildungsverhältnisses zum Kennenlernen."
+      ]
+    },
+    {
+      "word": "Palette",
+      "meaning": "Eine flache Ladefläche, auf der Waren transportiert oder gelagert werden.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.134",
+      "category": "work",
+      "distractors": [
+        "Mit einem drehenden Werkzeug ein Loch herstellen.",
+        "Eine Prüfung am Ende eines Bildungsgangs oder einer Ausbildung."
+      ]
+    },
+    {
+      "word": "Hubwagen",
+      "meaning": "Ein Gerät zum Anheben und Bewegen von Paletten über kurze Strecken.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.135",
+      "category": "work",
+      "distractors": [
+        "Schmutz von einer Sache entfernen.",
+        "Kenntnisse und Fähigkeiten, die für eine Tätigkeit wichtig sind."
+      ]
+    },
+    {
+      "word": "Regal",
+      "meaning": "Ein Möbel oder Gestell mit mehreren Ablageflächen.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.136",
+      "category": "work",
+      "distractors": [
+        "Die Zahl bestimmter Krankheitserreger auf geeignete Weise stark verringern.",
+        "Eine eingeübte Fähigkeit, eine praktische Handlung auszuführen."
+      ]
+    },
+    {
+      "word": "Etikett",
+      "meaning": "Ein aufgeklebtes oder angehängtes Schild mit Angaben zu einer Sache.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.137",
+      "category": "work",
+      "distractors": [
+        "Eine Ware in eine schützende Hülle legen oder einwickeln.",
+        "Kenntnisse, die man durch tatsächliche Arbeit in einem Beruf gesammelt hat."
+      ]
+    },
+    {
+      "word": "Artikelnummer",
+      "meaning": "Eine Kennzeichnung, mit der ein bestimmter Artikel zugeordnet wird.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.138",
+      "category": "work",
+      "distractors": [
+        "Schriftliche Angaben auf einer Sache anbringen.",
+        "Eine Bildungsmaßnahme, mit der man berufliche Kenntnisse erweitert."
+      ]
+    },
+    {
+      "word": "Barcode",
+      "meaning": "Ein maschinenlesbares Muster aus Strichen oder Flächen.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.139",
+      "category": "work",
+      "distractors": [
+        "Einen Vorgang verbindlich eintragen, zum Beispiel eine Warenbewegung.",
+        "Eine Ausbildung für einen anderen Beruf als den bisher erlernten."
+      ]
+    },
+    {
+      "word": "Charge",
+      "meaning": "Eine zusammen hergestellte oder verarbeitete Menge eines Produkts.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.140",
+      "category": "work",
+      "distractors": [
+        "Zwei Angaben vergleichen und auf Übereinstimmung prüfen.",
+        "Das Mitmachen bei einer Veranstaltung oder Maßnahme."
+      ]
+    },
+    {
+      "word": "Lagerplatz",
+      "meaning": "Ein festgelegter Ort für eine Ware im Lager.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.141",
+      "category": "work",
+      "distractors": [
+        "Fehlendes Material oder fehlende Ware ergänzen.",
+        "Eine Beschreibung dessen, was man nach dem Lernen können soll."
+      ]
+    },
+    {
+      "word": "Kommissionierung",
+      "meaning": "Das Zusammenstellen von Waren für eine bestimmte Bestellung.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.142",
+      "category": "work",
+      "distractors": [
+        "Nicht passende oder beschädigte Dinge aus einer Menge herausnehmen.",
+        "Eine praktische Aufgabe, mit der jemand seine Fähigkeiten zeigt."
+      ]
+    },
+    {
+      "word": "Transport",
+      "meaning": "Das Befördern von Menschen oder Sachen von einem Ort zu einem anderen.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.143",
+      "category": "work",
+      "distractors": [
+        "Waren oder Material für einen späteren Zeitpunkt aufbewahren.",
+        "Die Passung von Fähigkeiten und Voraussetzungen zu einer Aufgabe."
+      ]
+    },
+    {
+      "word": "Fracht",
+      "meaning": "Waren, die mit einem Transportmittel befördert werden.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.144",
+      "category": "work",
+      "distractors": [
+        "Bestellte Waren zum Empfänger bringen.",
+        "Der Antrieb, sich mit einer Aufgabe oder einem Ziel zu beschäftigen."
+      ]
+    },
+    {
+      "word": "Gewicht",
+      "meaning": "Eine Angabe darüber, wie schwer etwas ist.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.145",
+      "category": "work",
+      "distractors": [
+        "Jemandem Informationen geben, die bei einer Entscheidung helfen.",
+        "Die Fähigkeit, Aufgaben mit eigener Planung zu erledigen."
+      ]
+    },
+    {
+      "word": "Tragfähigkeit",
+      "meaning": "Die Last, die ein Gegenstand oder Gerät sicher tragen kann.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.146",
+      "category": "work",
+      "distractors": [
+        "Gemeinsam eine verbindliche Absprache treffen.",
+        "Genaues und überlegtes Arbeiten, bei dem man Fehler vermeiden möchte."
+      ]
+    },
+    {
+      "word": "Retouren",
+      "meaning": "Waren, die an den Verkäufer oder Versender zurückgeschickt werden.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.147",
+      "category": "work",
+      "distractors": [
+        "Eine Information oder Sache an die zuständige Stelle geben.",
+        "Für einen bestimmten Zweck passend."
+      ]
+    },
+    {
+      "word": "Reklamation",
+      "meaning": "Eine Beanstandung wegen eines Mangels an einer Ware oder Leistung.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.148",
+      "category": "work",
+      "distractors": [
+        "Auf einen Fehler oder Mangel aufmerksam machen.",
+        "Eine Vereinbarung über die Bedingungen einer Beschäftigung."
+      ]
+    },
+    {
+      "word": "Kundendienst",
+      "meaning": "Eine Hilfeleistung für Kunden, etwa bei Wartung oder Reparatur eines Produkts.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.149",
+      "category": "work",
+      "distractors": [
+        "Mit anderen Menschen gemeinsam an einer Aufgabe arbeiten.",
+        "Die Zeit, in der jemand seine beruflichen Aufgaben erledigt."
+      ]
+    },
+    {
+      "word": "Kalkulation",
+      "meaning": "Das Berechnen von Kosten oder Preisen.",
+      "topic": "Lager und Verkauf",
+      "id": "vocabulary.work.v1.150",
+      "category": "work",
+      "distractors": [
+        "Ein Unternehmen oder eine Arbeitsstätte, in der Waren hergestellt oder Leistungen erbracht werden.",
+        "Ein festgelegter Arbeitsabschnitt in einem wechselnden Zeitplan."
+      ]
+    },
+    {
+      "word": "Arbeitsauftrag",
+      "meaning": "Eine Beschreibung dessen, was bei einer Arbeit erledigt werden soll.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.151",
+      "category": "work",
+      "distractors": [
+        "Ein Bereich eines Betriebs mit bestimmten Aufgaben.",
+        "Eine Übersicht, wer wann arbeiten soll."
+      ]
+    },
+    {
+      "word": "Arbeitsablauf",
+      "meaning": "Die aufeinanderfolgenden Schritte einer Tätigkeit.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.152",
+      "category": "work",
+      "distractors": [
+        "Ein Arbeitsraum, in dem Dinge hergestellt oder repariert werden.",
+        "Das Aufschreiben oder Speichern von Beginn und Ende der Arbeitszeit."
+      ]
+    },
+    {
+      "word": "Vorbereitung",
+      "meaning": "Das Bereitlegen und Planen, bevor die eigentliche Tätigkeit beginnt.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.153",
+      "category": "work",
+      "distractors": [
+        "Ein Bereich, in dem Waren oder Material aufbewahrt werden.",
+        "Eine Arbeitsstunde über die vereinbarte Arbeitszeit hinaus."
+      ]
+    },
+    {
+      "word": "Durchführung",
+      "meaning": "Das tatsächliche Ausführen einer geplanten Tätigkeit.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.154",
+      "category": "work",
+      "distractors": [
+        "Ein Raum, in dem Kunden Waren ansehen und kaufen können.",
+        "Eine Arbeitszeitregelung mit Spielraum bei Beginn und Ende."
+      ]
+    },
+    {
+      "word": "Kontrolle",
+      "meaning": "Das Prüfen, ob etwas den Vorgaben entspricht.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.155",
+      "category": "work",
+      "distractors": [
+        "Ein Raum für Arbeiten wie Schreiben, Planen und Verwalten.",
+        "Eine Beschäftigung mit weniger Stunden als die übliche volle Arbeitszeit."
+      ]
+    },
+    {
+      "word": "Qualität",
+      "meaning": "Die Eigenschaften einer Arbeit oder Ware im Vergleich zu den Anforderungen.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.156",
+      "category": "work",
+      "distractors": [
+        "Die Stelle eines Betriebs, an der Besucher begrüßt und weitergeleitet werden.",
+        "Eine vereinbarte arbeitsfreie Zeit zur Erholung."
+      ]
+    },
+    {
+      "word": "Mangel",
+      "meaning": "Eine Eigenschaft, durch die etwas eine geforderte Leistung nicht erfüllt.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.157",
+      "category": "work",
+      "distractors": [
+        "Ein Ort in einem Betrieb, an dem Beschäftigte essen können.",
+        "Ein gesetzlich besonders festgelegter Tag, an dem viele Menschen nicht arbeiten."
+      ]
+    },
+    {
+      "word": "Nachbesserung",
+      "meaning": "Eine erneute Bearbeitung, durch die ein Mangel behoben werden soll.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.158",
+      "category": "work",
+      "distractors": [
+        "Ein Raum, in dem man seine Kleidung wechselt.",
+        "Die Nachricht an den Betrieb, dass man wegen Krankheit nicht arbeiten kann."
+      ]
+    },
+    {
+      "word": "Wartung",
+      "meaning": "Regelmäßige Maßnahmen, die ein Gerät funktionsfähig halten sollen.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.159",
+      "category": "work",
+      "distractors": [
+        "Die Menschen, die in einem Betrieb arbeiten.",
+        "Ein Zustand, in dem eine Person ihre Arbeit aus gesundheitlichen Gründen nicht ausüben kann."
+      ]
+    },
+    {
+      "word": "Reparatur",
+      "meaning": "Das Beheben eines Schadens, damit etwas wieder funktioniert.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.160",
+      "category": "work",
+      "distractors": [
+        "Ein Mensch, mit dem man im selben Betrieb oder Beruf arbeitet.",
+        "Eine Zeit, in der jemand bei einer vorgesehenen Arbeit oder Maßnahme fehlt."
+      ]
+    },
+    {
+      "word": "Störung",
+      "meaning": "Eine Unterbrechung oder Beeinträchtigung eines üblichen Ablaufs.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.161",
+      "category": "work",
+      "distractors": [
+        "Ein Mensch, der bei der Arbeit Aufgaben verteilt und Entscheidungen treffen darf.",
+        "Die Befreiung von der Arbeitspflicht für einen bestimmten Zeitraum."
+      ]
+    },
+    {
+      "word": "Stillstand",
+      "meaning": "Ein Zustand, in dem eine Maschine oder ein Ablauf nicht weiterläuft.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.162",
+      "category": "work",
+      "distractors": [
+        "Eine Person, die Auszubildende im Betrieb anleitet.",
+        "Eine Nummer, mit der ein Betrieb einen Beschäftigten in seinen Unterlagen zuordnet."
+      ]
+    },
+    {
+      "word": "Montage",
+      "meaning": "Das Zusammenbauen einzelner Teile.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.163",
+      "category": "work",
+      "distractors": [
+        "Eine Person, die einen Beruf in einer geregelten Ausbildung lernt.",
+        "Eine Übersicht über Arbeitsentgelt, Abzüge und den auszuzahlenden Betrag."
+      ]
+    },
+    {
+      "word": "Demontage",
+      "meaning": "Das Auseinanderbauen eines Gegenstands in seine Teile.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.164",
+      "category": "work",
+      "distractors": [
+        "Eine begrenzte Zeit, in der man Arbeit in einem Betrieb kennenlernt.",
+        "Ein Betrag vor dem Abzug von Steuern und Beiträgen."
+      ]
+    },
+    {
+      "word": "Fertigung",
+      "meaning": "Die Herstellung von Gegenständen oder Bauteilen.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.165",
+      "category": "work",
+      "distractors": [
+        "Das gemeinsame Erledigen einer Aufgabe durch mehrere Menschen.",
+        "Ein Betrag nach den vorgesehenen Abzügen."
+      ]
+    },
+    {
+      "word": "Produktion",
+      "meaning": "Das organisierte Herstellen von Waren in einem Betrieb.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.166",
+      "category": "work",
+      "distractors": [
+        "Eine Person oder Regelung, die Aufgaben eines abwesenden Menschen übernimmt.",
+        "Ein gesetzliches System zur Absicherung wichtiger Lebensrisiken."
+      ]
+    },
+    {
+      "word": "Dienstleistung",
+      "meaning": "Eine Arbeit, deren Ergebnis vor allem eine Leistung für andere Menschen ist.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.167",
+      "category": "work",
+      "distractors": [
+        "Für eine bestimmte Aufgabe verantwortlich.",
+        "Ein Versicherungszweig, der unter anderem die Absicherung im Alter unterstützt."
+      ]
+    },
+    {
+      "word": "Dokumentation",
+      "meaning": "Das nachvollziehbare Festhalten von Ergebnissen, Schritten oder Angaben.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.168",
+      "category": "work",
+      "distractors": [
+        "Ein Treffen, bei dem Arbeitsfragen gemeinsam geklärt werden.",
+        "Ein Versicherungszweig für versicherte Unfälle und Berufskrankheiten."
+      ]
+    },
+    {
+      "word": "Protokoll",
+      "meaning": "Eine geordnete schriftliche Aufzeichnung eines Ablaufs oder Gesprächs.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.169",
+      "category": "work",
+      "distractors": [
+        "Eine Information darüber, wie etwas angekommen ist oder ausgeführt wurde.",
+        "Eine Einordnung, die bei der Berechnung der Lohnsteuer berücksichtigt wird."
+      ]
+    },
+    {
+      "word": "Übergabe",
+      "meaning": "Das Weitergeben einer Sache oder Aufgabe an eine andere Person.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.170",
+      "category": "work",
+      "distractors": [
+        "Die Zeit, in der man Aufgaben und Abläufe einer neuen Arbeit kennenlernt.",
+        "Eine Erklärung, durch die ein Vertrag beendet werden soll."
+      ]
+    },
+    {
+      "word": "Rückfrage",
+      "meaning": "Eine Frage, mit der man eine unklare Angabe genauer klärt.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.171",
+      "category": "work",
+      "distractors": [
+        "Der Ort oder Bereich, an dem jemand seine Arbeit erledigt.",
+        "Eine Bescheinigung eines Arbeitgebers über Angaben zu einer Beschäftigung."
+      ]
+    },
+    {
+      "word": "Freigabe",
+      "meaning": "Die Zustimmung, dass etwas benutzt oder weiterbearbeitet werden darf.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.172",
+      "category": "work",
+      "distractors": [
+        "Die Unterstützung von Kunden bei Fragen und Problemen.",
+        "Eine gewählte Interessenvertretung der Beschäftigten eines Betriebs."
+      ]
+    },
+    {
+      "word": "Abnahme",
+      "meaning": "Das Prüfen und Annehmen einer fertiggestellten Arbeit.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.173",
+      "category": "work",
+      "distractors": [
+        "Ein Unternehmen oder Mensch, der Waren an einen Betrieb liefert.",
+        "Maßnahmen, die Menschen bei der Arbeit vor Gefahren schützen sollen."
+      ]
+    },
+    {
+      "word": "Vorgabe",
+      "meaning": "Eine festgelegte Anforderung, an der sich die Arbeit orientieren soll.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.174",
+      "category": "work",
+      "distractors": [
+        "Eine Person oder Firma, die eine Arbeit bestellt.",
+        "Eine Brille, die die Augen vor gefährlichen Einwirkungen schützt."
+      ]
+    },
+    {
+      "word": "Verbesserung",
+      "meaning": "Eine Änderung, durch die etwas besser funktioniert oder eine höhere Qualität erreicht.",
+      "topic": "Arbeitsabläufe",
+      "id": "vocabulary.work.v1.175",
+      "category": "work",
+      "distractors": [
+        "Unterlagen oder Angaben, mit denen man sich um eine Stelle bemüht.",
+        "Ein Schutzmittel, das laute Geräusche am Ohr dämpft."
+      ]
+    },
+    {
+      "word": "planen",
+      "meaning": "Vorher überlegen, welche Schritte für ein Ziel nötig sind.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.176",
+      "category": "work",
+      "distractors": [
+        "Eine Übersicht über wichtige Stationen in Schule, Ausbildung und Arbeit.",
+        "Ein Handschuh zum Schutz der Hand vor bestimmten Gefahren."
+      ]
+    },
+    {
+      "word": "prüfen",
+      "meaning": "Genau ansehen oder testen, ob etwas richtig oder funktionsfähig ist.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.177",
+      "category": "work",
+      "distractors": [
+        "Ein Brief, in dem man sein Interesse an einer Stelle und seine Eignung erklärt.",
+        "Ein Schuh, der den Fuß bei der Arbeit besonders schützt."
+      ]
+    },
+    {
+      "word": "sortieren",
+      "meaning": "Dinge nach bestimmten Merkmalen in Gruppen oder eine Reihenfolge bringen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.178",
+      "category": "work",
+      "distractors": [
+        "Ein Dokument, das Leistungen oder eine Tätigkeit beurteilt.",
+        "Eine auffällige Weste, durch die man besser gesehen wird."
+      ]
+    },
+    {
+      "word": "abmessen",
+      "meaning": "Mit einem Messgerät eine bestimmte Größe ermitteln oder festlegen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.179",
+      "category": "work",
+      "distractors": [
+        "Ein Gespräch, in dem sich Bewerber und Betrieb kennenlernen.",
+        "Ein Helm, der den Kopf bei bestimmten Arbeiten schützt."
+      ]
+    },
+    {
+      "word": "markieren",
+      "meaning": "Eine Stelle oder eine Angabe sichtbar kennzeichnen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.180",
+      "category": "work",
+      "distractors": [
+        "Eine Veröffentlichung, in der ein Betrieb eine Arbeits- oder Ausbildungsstelle anbietet.",
+        "Eine geeignete Schutzausrüstung gegen gefährliche Stoffe in der Atemluft."
+      ]
+    },
+    {
+      "word": "befestigen",
+      "meaning": "Etwas so anbringen, dass es an seinem Platz bleibt.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.181",
+      "category": "work",
+      "distractors": [
+        "Ein Beruf, den man in einer geregelten Ausbildung erlernt.",
+        "Ein gekennzeichneter Weg, auf dem man bei Gefahr einen Bereich verlassen kann."
+      ]
+    },
+    {
+      "word": "lösen",
+      "meaning": "Eine Verbindung lockern oder aufheben.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.182",
+      "category": "work",
+      "distractors": [
+        "Die Schule, die den betrieblichen Teil einer dualen Ausbildung ergänzt.",
+        "Ein besonders gekennzeichneter Ausgang für den Gefahrenfall."
+      ]
+    },
+    {
+      "word": "schneiden",
+      "meaning": "Ein Material mit einer scharfen Kante trennen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.183",
+      "category": "work",
+      "distractors": [
+        "Eine Übersicht, welche Inhalte wann in einer Ausbildung vermittelt werden.",
+        "Ein vereinbarter Ort, an dem Menschen sich nach dem Verlassen eines Gefahrenbereichs treffen."
+      ]
+    },
+    {
+      "word": "schleifen",
+      "meaning": "Eine Oberfläche mit einem rauen Werkzeug abtragen oder glätten.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.184",
+      "category": "work",
+      "distractors": [
+        "Ein Nachweis, in dem Auszubildende ihre Tätigkeiten und Lerninhalte festhalten.",
+        "Ein Gerät zum Bekämpfen eines beginnenden Brandes."
+      ]
+    },
+    {
+      "word": "bohren",
+      "meaning": "Mit einem drehenden Werkzeug ein Loch herstellen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.185",
+      "category": "work",
+      "distractors": [
+        "Die erste vereinbarte Zeit eines Arbeits- oder Ausbildungsverhältnisses zum Kennenlernen.",
+        "Ein Gerät, das einen möglichen Brand erkennt und meldet."
+      ]
+    },
+    {
+      "word": "reinigen",
+      "meaning": "Schmutz von einer Sache entfernen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.186",
+      "category": "work",
+      "distractors": [
+        "Eine Prüfung am Ende eines Bildungsgangs oder einer Ausbildung.",
+        "Eine ausgebildete Person, die bei einem Unfall erste Hilfe leisten kann."
+      ]
+    },
+    {
+      "word": "desinfizieren",
+      "meaning": "Die Zahl bestimmter Krankheitserreger auf geeignete Weise stark verringern.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.187",
+      "category": "work",
+      "distractors": [
+        "Kenntnisse und Fähigkeiten, die für eine Tätigkeit wichtig sind.",
+        "Ein Behälter mit Material für die erste Hilfe."
+      ]
+    },
+    {
+      "word": "verpacken",
+      "meaning": "Eine Ware in eine schützende Hülle legen oder einwickeln.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.188",
+      "category": "work",
+      "distractors": [
+        "Eine eingeübte Fähigkeit, eine praktische Handlung auszuführen.",
+        "Ein Stoff, von dem Gefahren für Menschen oder Umwelt ausgehen können."
+      ]
+    },
+    {
+      "word": "beschriften",
+      "meaning": "Schriftliche Angaben auf einer Sache anbringen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.189",
+      "category": "work",
+      "distractors": [
+        "Kenntnisse, die man durch tatsächliche Arbeit in einem Beruf gesammelt hat.",
+        "Ein Bildzeichen, das auf eine bestimmte Gefahr hinweist."
+      ]
+    },
+    {
+      "word": "buchen",
+      "meaning": "Einen Vorgang verbindlich eintragen, zum Beispiel eine Warenbewegung.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.190",
+      "category": "work",
+      "distractors": [
+        "Eine Bildungsmaßnahme, mit der man berufliche Kenntnisse erweitert.",
+        "Eine schriftliche Anweisung zum sicheren Umgang mit einer Arbeit oder einem Stoff."
+      ]
+    },
+    {
+      "word": "abgleichen",
+      "meaning": "Zwei Angaben vergleichen und auf Übereinstimmung prüfen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.191",
+      "category": "work",
+      "distractors": [
+        "Eine Ausbildung für einen anderen Beruf als den bisher erlernten.",
+        "Eine Erklärung und Anleitung zu richtigem und sicherem Verhalten bei der Arbeit."
+      ]
+    },
+    {
+      "word": "nachfüllen",
+      "meaning": "Fehlendes Material oder fehlende Ware ergänzen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.192",
+      "category": "work",
+      "distractors": [
+        "Das Mitmachen bei einer Veranstaltung oder Maßnahme.",
+        "Eine Stelle, an der man mit dem Fuß hängen bleiben und stürzen kann."
+      ]
+    },
+    {
+      "word": "aussortieren",
+      "meaning": "Nicht passende oder beschädigte Dinge aus einer Menge herausnehmen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.193",
+      "category": "work",
+      "distractors": [
+        "Eine Beschreibung dessen, was man nach dem Lernen können soll.",
+        "Die Gefahr, auf einem glatten Boden auszurutschen."
+      ]
+    },
+    {
+      "word": "lagern",
+      "meaning": "Waren oder Material für einen späteren Zeitpunkt aufbewahren.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.194",
+      "category": "work",
+      "distractors": [
+        "Eine praktische Aufgabe, mit der jemand seine Fähigkeiten zeigt.",
+        "Eine Begrenzung, die den Zugang zu einem Bereich verhindert."
+      ]
+    },
+    {
+      "word": "ausliefern",
+      "meaning": "Bestellte Waren zum Empfänger bringen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.195",
+      "category": "work",
+      "distractors": [
+        "Die Passung von Fähigkeiten und Voraussetzungen zu einer Aufgabe.",
+        "Eine feste Regel, nach der Dinge aufbewahrt und gefunden werden."
+      ]
+    },
+    {
+      "word": "beraten",
+      "meaning": "Jemandem Informationen geben, die bei einer Entscheidung helfen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.196",
+      "category": "work",
+      "distractors": [
+        "Der Antrieb, sich mit einer Aufgabe oder einem Ziel zu beschäftigen.",
+        "Eine Übersicht, was wann und wie gereinigt werden soll."
+      ]
+    },
+    {
+      "word": "vereinbaren",
+      "meaning": "Gemeinsam eine verbindliche Absprache treffen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.197",
+      "category": "work",
+      "distractors": [
+        "Die Fähigkeit, Aufgaben mit eigener Planung zu erledigen.",
+        "Das richtige Abgeben oder Beseitigen von Abfällen."
+      ]
+    },
+    {
+      "word": "weiterleiten",
+      "meaning": "Eine Information oder Sache an die zuständige Stelle geben.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.198",
+      "category": "work",
+      "distractors": [
+        "Genaues und überlegtes Arbeiten, bei dem man Fehler vermeiden möchte.",
+        "Ein Hilfsmittel, mit dem man eine praktische Arbeit ausführt."
+      ]
+    },
+    {
+      "word": "beanstanden",
+      "meaning": "Auf einen Fehler oder Mangel aufmerksam machen.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.199",
+      "category": "work",
+      "distractors": [
+        "Für einen bestimmten Zweck passend.",
+        "Ein Werkzeug zum Schlagen, zum Beispiel auf einen Nagel."
+      ]
+    },
+    {
+      "word": "zusammenarbeiten",
+      "meaning": "Mit anderen Menschen gemeinsam an einer Aufgabe arbeiten.",
+      "topic": "Beruflich handeln",
+      "id": "vocabulary.work.v1.200",
+      "category": "work",
+      "distractors": [
+        "Eine Vereinbarung über die Bedingungen einer Beschäftigung.",
+        "Ein Werkzeug, mit dem man Schrauben dreht."
+      ]
+    }
+  ]
+}

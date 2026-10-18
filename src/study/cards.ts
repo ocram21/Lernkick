@@ -8,19 +8,19 @@ const vocabularyIds=new Set(standardVocabulary.map(entry=>entry.id));
 export const isStandardCard=(id:string)=>defaultIds.has(id);
 export const isStandardWord=(id:string)=>vocabularyIds.has(id);
 export function personalCards(data:UserData,subject?:Subject):Card[] {
-  const ownIds=new Set(data.cards.map(card=>card.id));
-  return [...standardCards.filter(card=>!data.study.hiddenDefaults.includes(card.id)&&!ownIds.has(card.id)).map(card=>data.study.defaultEdits[card.id]??card),...data.cards].filter(card=>!subject||card.subject===subject);
+  return [...standardCards,...data.cards.filter(card=>!isStandardCard(card.id))].filter(card=>!subject||card.subject===subject);
 }
 export function savePersonalCard(data:UserData,card:Card):UserData {
   const parsed=cardSchema.parse(card);
-  return isStandardCard(parsed.id)&&!data.cards.some(c=>c.id===parsed.id)?{...data,study:{...data.study,defaultEdits:{...data.study.defaultEdits,[parsed.id]:parsed}}}:{...data,cards:[...data.cards.filter(c=>c.id!==parsed.id),parsed]};
+  if(isStandardCard(parsed.id))return data;
+  return {...data,cards:[...data.cards.filter(c=>c.id!==parsed.id),parsed]};
 }
 export function deletePersonalCard(data:UserData,id:string):UserData {
-  return {...data,cards:data.cards.filter(card=>card.id!==id),study:{...data.study,hiddenDefaults:isStandardCard(id)?[...new Set([...data.study.hiddenDefaults,id])]:data.study.hiddenDefaults}};
+  return isStandardCard(id)?data:{...data,cards:data.cards.filter(card=>card.id!==id)};
 }
 export const restoreStandardCards=(data:UserData):UserData=>({...data,study:{...data.study,hiddenDefaults:[]}});
 export function cardQueue(data:UserData,cards:Card[],now=Date.now()):Card[] {
-  return [...cards].sort((a,b)=>{const priority=(card:Card)=>{const review=data.study.reviews[card.id];return !review?0:review.due<=now?-1:1;};return priority(a)-priority(b)||(data.study.reviews[a.id]?.due??0)-(data.study.reviews[b.id]?.due??0);}).slice(0,10);
+  return cards.filter(card=>!data.study.reviews[card.id]||data.study.reviews[card.id].due<=now).sort((a,b)=>{const priority=(card:Card)=>{const review=data.study.reviews[card.id];return !review?0:review.due<=now?-1:1;};return priority(a)-priority(b)||(data.study.reviews[a.id]?.due??0)-(data.study.reviews[b.id]?.due??0);}).slice(0,10);
 }
 export function rateCard(data:UserData,id:string,known:boolean,now=Date.now()):UserData {
   const old=data.study.reviews[id]??{box:0,due:0,attempts:0,known:0,lastRated:0};

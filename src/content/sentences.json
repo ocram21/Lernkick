@@ -1,0 +1,7094 @@
+{
+  "revision": "2026.10.18.1",
+  "reviewStatus": "editorial-reviewed-teacher-review-pending",
+  "tasks": [
+    {
+      "id": "sentence.normal.v1.001",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Bus",
+        "hält",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Bus",
+          "hält",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Bus“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.002",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Sonne",
+        "scheint",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Sonne",
+          "scheint",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Sonne“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.003",
+      "level": "normal",
+      "tokens": [
+        "Das",
+        "Kind",
+        "lacht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Kind",
+          "lacht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Kind“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.004",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Hund",
+        "bellt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Hund",
+          "bellt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Hund“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.005",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Uhr",
+        "tickt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Uhr",
+          "tickt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Uhr“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.006",
+      "level": "normal",
+      "tokens": [
+        "Das",
+        "Wasser",
+        "kocht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Wasser",
+          "kocht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Wasser“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.007",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Lampe",
+        "leuchtet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Lampe",
+          "leuchtet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Lampe“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.008",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Regen",
+        "fällt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Regen",
+          "fällt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Regen“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.009",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Tür",
+        "klemmt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Tür",
+          "klemmt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Tür“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.010",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Zug",
+        "kommt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Zug",
+          "kommt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Zug“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.011",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "lese",
+        "ein",
+        "Buch",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "lese",
+          "ein",
+          "Buch",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.012",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "öffnest",
+        "das",
+        "Fenster",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "öffnest",
+          "das",
+          "Fenster",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.013",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "kochen",
+        "eine",
+        "Suppe",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "kochen",
+          "eine",
+          "Suppe",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.014",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "schreibt",
+        "einen",
+        "Brief",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "schreibt",
+          "einen",
+          "Brief",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.015",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "trinkt",
+        "ein",
+        "Glas",
+        "Wasser",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "trinkt",
+          "ein",
+          "Glas",
+          "Wasser",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.016",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Katze",
+        "sucht",
+        "ihr",
+        "Futter",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Katze",
+          "sucht",
+          "ihr",
+          "Futter",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Katze“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.017",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Junge",
+        "trägt",
+        "eine",
+        "Tasche",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Junge",
+          "trägt",
+          "eine",
+          "Tasche",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Junge“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.018",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Frau",
+        "kauft",
+        "frisches",
+        "Brot",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Frau",
+          "kauft",
+          "frisches",
+          "Brot",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Frau“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.019",
+      "level": "normal",
+      "tokens": [
+        "Das",
+        "Mädchen",
+        "zeichnet",
+        "einen",
+        "Baum",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Mädchen",
+          "zeichnet",
+          "einen",
+          "Baum",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Mädchen“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.020",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Mann",
+        "schließt",
+        "die",
+        "Tür",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Mann",
+          "schließt",
+          "die",
+          "Tür",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Mann“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.021",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "wasche",
+        "meine",
+        "Hände",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "wasche",
+          "meine",
+          "Hände",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.022",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "findest",
+        "den",
+        "Schlüssel",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "findest",
+          "den",
+          "Schlüssel",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.023",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "teilen",
+        "die",
+        "Pizza",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "teilen",
+          "die",
+          "Pizza",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.024",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "holt",
+        "ihre",
+        "Jacke",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "holt",
+          "ihre",
+          "Jacke",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.025",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "bindet",
+        "seine",
+        "Schuhe",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "bindet",
+          "seine",
+          "Schuhe",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.026",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Lehrerin",
+        "erklärt",
+        "die",
+        "Aufgabe",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Lehrerin",
+          "erklärt",
+          "die",
+          "Aufgabe",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Lehrerin“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.027",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Fahrer",
+        "prüft",
+        "die",
+        "Bremse",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Fahrer",
+          "prüft",
+          "die",
+          "Bremse",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Fahrer“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.028",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Gärtnerin",
+        "gießt",
+        "die",
+        "Blumen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Gärtnerin",
+          "gießt",
+          "die",
+          "Blumen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Gärtnerin“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.029",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Koch",
+        "schält",
+        "die",
+        "Kartoffeln",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Koch",
+          "schält",
+          "die",
+          "Kartoffeln",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Koch“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.030",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Verkäuferin",
+        "zählt",
+        "das",
+        "Wechselgeld",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Verkäuferin",
+          "zählt",
+          "das",
+          "Wechselgeld",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Verkäuferin“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.031",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "warte",
+        "auf",
+        "den",
+        "Bus",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "warte",
+          "auf",
+          "den",
+          "Bus",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.032",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "hilfst",
+        "deinem",
+        "Bruder",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "hilfst",
+          "deinem",
+          "Bruder",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.033",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "fahren",
+        "mit",
+        "der",
+        "Bahn",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "fahren",
+          "mit",
+          "der",
+          "Bahn",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.034",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "geht",
+        "zur",
+        "Schule",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "geht",
+          "zur",
+          "Schule",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.035",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "spielt",
+        "mit",
+        "dem",
+        "Hund",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "spielt",
+          "mit",
+          "dem",
+          "Hund",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.036",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Kinder",
+        "bauen",
+        "einen",
+        "Turm",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Kinder",
+          "bauen",
+          "einen",
+          "Turm",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Kinder“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.037",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Bäcker",
+        "formt",
+        "die",
+        "Brötchen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Bäcker",
+          "formt",
+          "die",
+          "Brötchen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Bäcker“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.038",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Kollegin",
+        "sortiert",
+        "die",
+        "Briefe",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Kollegin",
+          "sortiert",
+          "die",
+          "Briefe",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Kollegin“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.039",
+      "level": "normal",
+      "tokens": [
+        "Das",
+        "Team",
+        "packt",
+        "die",
+        "Kisten",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Team",
+          "packt",
+          "die",
+          "Kisten",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Team“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.040",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Nachbar",
+        "repariert",
+        "sein",
+        "Fahrrad",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Nachbar",
+          "repariert",
+          "sein",
+          "Fahrrad",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Nachbar“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.041",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "suche",
+        "meine",
+        "Fahrkarte",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "suche",
+          "meine",
+          "Fahrkarte",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.042",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "räumst",
+        "deinen",
+        "Schreibtisch",
+        "auf",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "räumst",
+          "deinen",
+          "Schreibtisch",
+          "auf",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.043",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "bringen",
+        "die",
+        "Bücher",
+        "zurück",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "bringen",
+          "die",
+          "Bücher",
+          "zurück",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.044",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "hängt",
+        "ihre",
+        "Jacke",
+        "auf",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "hängt",
+          "ihre",
+          "Jacke",
+          "auf",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.045",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "stellt",
+        "die",
+        "Tasse",
+        "ab",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "stellt",
+          "die",
+          "Tasse",
+          "ab",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.046",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Reinigungskraft",
+        "wischt",
+        "den",
+        "Boden",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Reinigungskraft",
+          "wischt",
+          "den",
+          "Boden",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Reinigungskraft“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.047",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Hausmeister",
+        "wechselt",
+        "die",
+        "Lampe",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Hausmeister",
+          "wechselt",
+          "die",
+          "Lampe",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Hausmeister“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.048",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Kundin",
+        "bezahlt",
+        "den",
+        "Einkauf",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Kundin",
+          "bezahlt",
+          "den",
+          "Einkauf",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Kundin“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.049",
+      "level": "normal",
+      "tokens": [
+        "Das",
+        "Pferd",
+        "frisst",
+        "frisches",
+        "Heu",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Pferd",
+          "frisst",
+          "frisches",
+          "Heu",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Pferd“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.050",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Vogel",
+        "baut",
+        "ein",
+        "Nest",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Vogel",
+          "baut",
+          "ein",
+          "Nest",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Vogel“.",
+      "hint": "Prüfe zuerst den Satzanfang. Im Aussagesatz steht das gebeugte Verb an zweiter Stelle."
+    },
+    {
+      "id": "sentence.normal.v1.051",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "trinke",
+        "Wasser",
+        ",",
+        "weil",
+        "ich",
+        "Durst",
+        "habe",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "trinke",
+          "Wasser",
+          ",",
+          "weil",
+          "ich",
+          "Durst",
+          "habe",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.052",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "ziehst",
+        "eine",
+        "Jacke",
+        "an",
+        ",",
+        "weil",
+        "es",
+        "kalt",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "ziehst",
+          "eine",
+          "Jacke",
+          "an",
+          ",",
+          "weil",
+          "es",
+          "kalt",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.053",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "bleiben",
+        "im",
+        "Haus",
+        ",",
+        "weil",
+        "es",
+        "regnet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "bleiben",
+          "im",
+          "Haus",
+          ",",
+          "weil",
+          "es",
+          "regnet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.054",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "nimmt",
+        "den",
+        "Bus",
+        ",",
+        "weil",
+        "ihr",
+        "Fahrrad",
+        "kaputt",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "nimmt",
+          "den",
+          "Bus",
+          ",",
+          "weil",
+          "ihr",
+          "Fahrrad",
+          "kaputt",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.055",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "macht",
+        "eine",
+        "Pause",
+        ",",
+        "weil",
+        "er",
+        "müde",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "macht",
+          "eine",
+          "Pause",
+          ",",
+          "weil",
+          "er",
+          "müde",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.056",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "öffne",
+        "das",
+        "Fenster",
+        ",",
+        "weil",
+        "es",
+        "warm",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "öffne",
+          "das",
+          "Fenster",
+          ",",
+          "weil",
+          "es",
+          "warm",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.057",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "kaufst",
+        "Brot",
+        ",",
+        "weil",
+        "der",
+        "Vorrat",
+        "leer",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "kaufst",
+          "Brot",
+          ",",
+          "weil",
+          "der",
+          "Vorrat",
+          "leer",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.058",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "gehen",
+        "zur",
+        "Haltestelle",
+        ",",
+        "weil",
+        "die",
+        "Bahn",
+        "ausfällt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "gehen",
+          "zur",
+          "Haltestelle",
+          ",",
+          "weil",
+          "die",
+          "Bahn",
+          "ausfällt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.059",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "fragt",
+        "nach",
+        ",",
+        "weil",
+        "sie",
+        "die",
+        "Aufgabe",
+        "nicht",
+        "versteht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "fragt",
+          "nach",
+          ",",
+          "weil",
+          "sie",
+          "die",
+          "Aufgabe",
+          "nicht",
+          "versteht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.060",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "ruft",
+        "an",
+        ",",
+        "weil",
+        "er",
+        "sich",
+        "verspätet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "ruft",
+          "an",
+          ",",
+          "weil",
+          "er",
+          "sich",
+          "verspätet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.061",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "freue",
+        "mich",
+        ",",
+        "wenn",
+        "du",
+        "kommst",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "freue",
+          "mich",
+          ",",
+          "wenn",
+          "du",
+          "kommst",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.062",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "drückst",
+        "den",
+        "Schalter",
+        ",",
+        "wenn",
+        "die",
+        "Lampe",
+        "aus",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "drückst",
+          "den",
+          "Schalter",
+          ",",
+          "wenn",
+          "die",
+          "Lampe",
+          "aus",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.063",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "warten",
+        ",",
+        "bis",
+        "der",
+        "Zug",
+        "hält",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "warten",
+          ",",
+          "bis",
+          "der",
+          "Zug",
+          "hält",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.064",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "liest",
+        ",",
+        "während",
+        "Ali",
+        "kocht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "liest",
+          ",",
+          "während",
+          "Ali",
+          "kocht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.065",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "winkt",
+        ",",
+        "als",
+        "der",
+        "Bus",
+        "ankommt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "winkt",
+          ",",
+          "als",
+          "der",
+          "Bus",
+          "ankommt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.066",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "hoffe",
+        ",",
+        "dass",
+        "die",
+        "Sonne",
+        "scheint",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "hoffe",
+          ",",
+          "dass",
+          "die",
+          "Sonne",
+          "scheint",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.067",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "weißt",
+        ",",
+        "dass",
+        "die",
+        "Tür",
+        "offen",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "weißt",
+          ",",
+          "dass",
+          "die",
+          "Tür",
+          "offen",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.068",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "sehen",
+        ",",
+        "dass",
+        "das",
+        "Licht",
+        "brennt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "sehen",
+          ",",
+          "dass",
+          "das",
+          "Licht",
+          "brennt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.069",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "sagt",
+        ",",
+        "dass",
+        "sie",
+        "Hunger",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "sagt",
+          ",",
+          "dass",
+          "sie",
+          "Hunger",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.070",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "merkt",
+        ",",
+        "dass",
+        "sein",
+        "Schlüssel",
+        "fehlt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "merkt",
+          ",",
+          "dass",
+          "sein",
+          "Schlüssel",
+          "fehlt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.071",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "nehme",
+        "Brot",
+        ",",
+        "Käse",
+        "und",
+        "Obst",
+        "mit",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "nehme",
+          "Brot",
+          ",",
+          "Käse",
+          "und",
+          "Obst",
+          "mit",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Zähle in dieser Reihenfolge auf: „Brot“, „Käse“, „Obst“.",
+      "hint": "Trenne die Teile der Aufzählung mit Kommas. Vor und steht hier kein Komma."
+    },
+    {
+      "id": "sentence.normal.v1.072",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "kaufst",
+        "Milch",
+        ",",
+        "Reis",
+        "und",
+        "Eier",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "kaufst",
+          "Milch",
+          ",",
+          "Reis",
+          "und",
+          "Eier",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Zähle in dieser Reihenfolge auf: „Milch“, „Reis“, „Eier“.",
+      "hint": "Trenne die Teile der Aufzählung mit Kommas. Vor und steht hier kein Komma."
+    },
+    {
+      "id": "sentence.normal.v1.073",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "brauchen",
+        "Papier",
+        ",",
+        "Stifte",
+        "und",
+        "Kleber",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "brauchen",
+          "Papier",
+          ",",
+          "Stifte",
+          "und",
+          "Kleber",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Zähle in dieser Reihenfolge auf: „Papier“, „Stifte“, „Kleber“.",
+      "hint": "Trenne die Teile der Aufzählung mit Kommas. Vor und steht hier kein Komma."
+    },
+    {
+      "id": "sentence.normal.v1.074",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "wäscht",
+        "Äpfel",
+        ",",
+        "Birnen",
+        "und",
+        "Trauben",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "wäscht",
+          "Äpfel",
+          ",",
+          "Birnen",
+          "und",
+          "Trauben",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Zähle in dieser Reihenfolge auf: „Äpfel“, „Birnen“, „Trauben“.",
+      "hint": "Trenne die Teile der Aufzählung mit Kommas. Vor und steht hier kein Komma."
+    },
+    {
+      "id": "sentence.normal.v1.075",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "sortiert",
+        "Schrauben",
+        ",",
+        "Muttern",
+        "und",
+        "Scheiben",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "sortiert",
+          "Schrauben",
+          ",",
+          "Muttern",
+          "und",
+          "Scheiben",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Zähle in dieser Reihenfolge auf: „Schrauben“, „Muttern“, „Scheiben“.",
+      "hint": "Trenne die Teile der Aufzählung mit Kommas. Vor und steht hier kein Komma."
+    },
+    {
+      "id": "sentence.normal.v1.076",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "lerne",
+        ",",
+        "aber",
+        "mein",
+        "Bruder",
+        "schläft",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "lerne",
+          ",",
+          "aber",
+          "mein",
+          "Bruder",
+          "schläft",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Vor aber steht ein Komma. Beide Satzteile sind Hauptsätze."
+    },
+    {
+      "id": "sentence.normal.v1.077",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "wartest",
+        ",",
+        "aber",
+        "der",
+        "Bus",
+        "kommt",
+        "nicht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "wartest",
+          ",",
+          "aber",
+          "der",
+          "Bus",
+          "kommt",
+          "nicht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Vor aber steht ein Komma. Beide Satzteile sind Hauptsätze."
+    },
+    {
+      "id": "sentence.normal.v1.078",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "suchen",
+        "den",
+        "Weg",
+        ",",
+        "aber",
+        "die",
+        "Karte",
+        "fehlt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "suchen",
+          "den",
+          "Weg",
+          ",",
+          "aber",
+          "die",
+          "Karte",
+          "fehlt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Vor aber steht ein Komma. Beide Satzteile sind Hauptsätze."
+    },
+    {
+      "id": "sentence.normal.v1.079",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "schreibt",
+        ",",
+        "aber",
+        "ihr",
+        "Stift",
+        "kratzt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "schreibt",
+          ",",
+          "aber",
+          "ihr",
+          "Stift",
+          "kratzt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Vor aber steht ein Komma. Beide Satzteile sind Hauptsätze."
+    },
+    {
+      "id": "sentence.normal.v1.080",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "lacht",
+        ",",
+        "aber",
+        "sein",
+        "Freund",
+        "bleibt",
+        "ernst",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "lacht",
+          ",",
+          "aber",
+          "sein",
+          "Freund",
+          "bleibt",
+          "ernst",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Vor aber steht ein Komma. Beide Satzteile sind Hauptsätze."
+    },
+    {
+      "id": "sentence.normal.v1.081",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Mann",
+        ",",
+        "der",
+        "dort",
+        "wartet",
+        ",",
+        "ist",
+        "mein",
+        "Nachbar",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Mann",
+          ",",
+          "der",
+          "dort",
+          "wartet",
+          ",",
+          "ist",
+          "mein",
+          "Nachbar",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Mann“. Der Relativsatz folgt direkt darauf.",
+      "hint": "Der eingeschobene Relativsatz steht zwischen zwei Kommas. Sein gebeugtes Verb steht am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.082",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Frau",
+        ",",
+        "die",
+        "hier",
+        "arbeitet",
+        ",",
+        "kennt",
+        "den",
+        "Weg",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Frau",
+          ",",
+          "die",
+          "hier",
+          "arbeitet",
+          ",",
+          "kennt",
+          "den",
+          "Weg",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Frau“. Der Relativsatz folgt direkt darauf.",
+      "hint": "Der eingeschobene Relativsatz steht zwischen zwei Kommas. Sein gebeugtes Verb steht am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.083",
+      "level": "normal",
+      "tokens": [
+        "Das",
+        "Kind",
+        ",",
+        "das",
+        "dort",
+        "spielt",
+        ",",
+        "heißt",
+        "Leo",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Kind",
+          ",",
+          "das",
+          "dort",
+          "spielt",
+          ",",
+          "heißt",
+          "Leo",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Kind“. Der Relativsatz folgt direkt darauf.",
+      "hint": "Der eingeschobene Relativsatz steht zwischen zwei Kommas. Sein gebeugtes Verb steht am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.084",
+      "level": "normal",
+      "tokens": [
+        "Der",
+        "Hund",
+        ",",
+        "der",
+        "laut",
+        "bellt",
+        ",",
+        "gehört",
+        "Mila",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Hund",
+          ",",
+          "der",
+          "laut",
+          "bellt",
+          ",",
+          "gehört",
+          "Mila",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Hund“. Der Relativsatz folgt direkt darauf.",
+      "hint": "Der eingeschobene Relativsatz steht zwischen zwei Kommas. Sein gebeugtes Verb steht am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.085",
+      "level": "normal",
+      "tokens": [
+        "Die",
+        "Tasche",
+        ",",
+        "die",
+        "hier",
+        "liegt",
+        ",",
+        "gehört",
+        "Ali",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Tasche",
+          ",",
+          "die",
+          "hier",
+          "liegt",
+          ",",
+          "gehört",
+          "Ali",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Tasche“. Der Relativsatz folgt direkt darauf.",
+      "hint": "Der eingeschobene Relativsatz steht zwischen zwei Kommas. Sein gebeugtes Verb steht am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.086",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "ziehe",
+        "die",
+        "Schuhe",
+        "aus",
+        ",",
+        "bevor",
+        "ich",
+        "eintrete",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "ziehe",
+          "die",
+          "Schuhe",
+          "aus",
+          ",",
+          "bevor",
+          "ich",
+          "eintrete",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.087",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "deckst",
+        "den",
+        "Tisch",
+        ",",
+        "bevor",
+        "die",
+        "Gäste",
+        "kommen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "deckst",
+          "den",
+          "Tisch",
+          ",",
+          "bevor",
+          "die",
+          "Gäste",
+          "kommen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.088",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "schließen",
+        "die",
+        "Fenster",
+        ",",
+        "bevor",
+        "wir",
+        "gehen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "schließen",
+          "die",
+          "Fenster",
+          ",",
+          "bevor",
+          "wir",
+          "gehen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.089",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "wäscht",
+        "das",
+        "Gemüse",
+        ",",
+        "bevor",
+        "sie",
+        "es",
+        "schneidet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "wäscht",
+          "das",
+          "Gemüse",
+          ",",
+          "bevor",
+          "sie",
+          "es",
+          "schneidet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.090",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "liest",
+        "die",
+        "Anleitung",
+        ",",
+        "bevor",
+        "er",
+        "beginnt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "liest",
+          "die",
+          "Anleitung",
+          ",",
+          "bevor",
+          "er",
+          "beginnt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.091",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "räume",
+        "auf",
+        ",",
+        "nachdem",
+        "ich",
+        "gegessen",
+        "habe",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "räume",
+          "auf",
+          ",",
+          "nachdem",
+          "ich",
+          "gegessen",
+          "habe",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.092",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "meldest",
+        "dich",
+        ",",
+        "sobald",
+        "du",
+        "fertig",
+        "bist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "meldest",
+          "dich",
+          ",",
+          "sobald",
+          "du",
+          "fertig",
+          "bist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.093",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "ziehen",
+        "uns",
+        "um",
+        ",",
+        "nachdem",
+        "die",
+        "Arbeit",
+        "endet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "ziehen",
+          "uns",
+          "um",
+          ",",
+          "nachdem",
+          "die",
+          "Arbeit",
+          "endet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.094",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "öffnet",
+        "die",
+        "Tür",
+        ",",
+        "sobald",
+        "es",
+        "klingelt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "öffnet",
+          "die",
+          "Tür",
+          ",",
+          "sobald",
+          "es",
+          "klingelt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.095",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "stellt",
+        "sich",
+        "unter",
+        ",",
+        "sobald",
+        "es",
+        "regnet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "stellt",
+          "sich",
+          "unter",
+          ",",
+          "sobald",
+          "es",
+          "regnet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.096",
+      "level": "normal",
+      "tokens": [
+        "Ich",
+        "frage",
+        ",",
+        "wo",
+        "der",
+        "Ausgang",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ich",
+          "frage",
+          ",",
+          "wo",
+          "der",
+          "Ausgang",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ich“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.097",
+      "level": "normal",
+      "tokens": [
+        "Du",
+        "erklärst",
+        ",",
+        "wie",
+        "das",
+        "Gerät",
+        "funktioniert",
+        "."
+      ],
+      "solutions": [
+        [
+          "Du",
+          "erklärst",
+          ",",
+          "wie",
+          "das",
+          "Gerät",
+          "funktioniert",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Du“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.098",
+      "level": "normal",
+      "tokens": [
+        "Wir",
+        "wissen",
+        ",",
+        "wann",
+        "die",
+        "Pause",
+        "beginnt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wir",
+          "wissen",
+          ",",
+          "wann",
+          "die",
+          "Pause",
+          "beginnt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Wir“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.099",
+      "level": "normal",
+      "tokens": [
+        "Mila",
+        "zeigt",
+        ",",
+        "was",
+        "sie",
+        "gebaut",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Mila",
+          "zeigt",
+          ",",
+          "was",
+          "sie",
+          "gebaut",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Mila“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.normal.v1.100",
+      "level": "normal",
+      "tokens": [
+        "Ali",
+        "fragt",
+        ",",
+        "ob",
+        "der",
+        "Platz",
+        "frei",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Ali",
+          "fragt",
+          ",",
+          "ob",
+          "der",
+          "Platz",
+          "frei",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Ali“. Der Nebensatz oder zweite Satzteil steht hinten.",
+      "hint": "Ein Nebensatz wird mit Kommas abgetrennt. Bei weil, dass, wenn und ob steht das gebeugte Verb am Ende."
+    },
+    {
+      "id": "sentence.hard.v1.001",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Frau",
+        ",",
+        "die",
+        "am",
+        "Empfang",
+        "arbeitet",
+        ",",
+        "erklärt",
+        ",",
+        "wo",
+        "wir",
+        "warten",
+        "sollen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Frau",
+          ",",
+          "die",
+          "am",
+          "Empfang",
+          "arbeitet",
+          ",",
+          "erklärt",
+          ",",
+          "wo",
+          "wir",
+          "warten",
+          "sollen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Frau“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.002",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Mann",
+        ",",
+        "der",
+        "den",
+        "Bus",
+        "fährt",
+        ",",
+        "weiß",
+        ",",
+        "wann",
+        "die",
+        "Fahrt",
+        "beginnt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Mann",
+          ",",
+          "der",
+          "den",
+          "Bus",
+          "fährt",
+          ",",
+          "weiß",
+          ",",
+          "wann",
+          "die",
+          "Fahrt",
+          "beginnt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Mann“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.003",
+      "level": "hard",
+      "tokens": [
+        "Das",
+        "Kind",
+        ",",
+        "das",
+        "ein",
+        "Bild",
+        "malt",
+        ",",
+        "zeigt",
+        ",",
+        "welche",
+        "Farbe",
+        "es",
+        "mag",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Kind",
+          ",",
+          "das",
+          "ein",
+          "Bild",
+          "malt",
+          ",",
+          "zeigt",
+          ",",
+          "welche",
+          "Farbe",
+          "es",
+          "mag",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Kind“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.004",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Kollegin",
+        ",",
+        "die",
+        "den",
+        "Plan",
+        "schreibt",
+        ",",
+        "fragt",
+        ",",
+        "wer",
+        "morgen",
+        "hilft",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Kollegin",
+          ",",
+          "die",
+          "den",
+          "Plan",
+          "schreibt",
+          ",",
+          "fragt",
+          ",",
+          "wer",
+          "morgen",
+          "hilft",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Kollegin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.005",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Nachbar",
+        ",",
+        "der",
+        "im",
+        "Garten",
+        "steht",
+        ",",
+        "erzählt",
+        ",",
+        "was",
+        "er",
+        "pflanzen",
+        "möchte",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Nachbar",
+          ",",
+          "der",
+          "im",
+          "Garten",
+          "steht",
+          ",",
+          "erzählt",
+          ",",
+          "was",
+          "er",
+          "pflanzen",
+          "möchte",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Nachbar“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.006",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Lehrerin",
+        ",",
+        "die",
+        "den",
+        "Text",
+        "vorliest",
+        ",",
+        "erklärt",
+        ",",
+        "warum",
+        "der",
+        "Junge",
+        "lacht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Lehrerin",
+          ",",
+          "die",
+          "den",
+          "Text",
+          "vorliest",
+          ",",
+          "erklärt",
+          ",",
+          "warum",
+          "der",
+          "Junge",
+          "lacht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Lehrerin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.007",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Koch",
+        ",",
+        "der",
+        "die",
+        "Suppe",
+        "rührt",
+        ",",
+        "prüft",
+        ",",
+        "ob",
+        "das",
+        "Gemüse",
+        "gar",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Koch",
+          ",",
+          "der",
+          "die",
+          "Suppe",
+          "rührt",
+          ",",
+          "prüft",
+          ",",
+          "ob",
+          "das",
+          "Gemüse",
+          "gar",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Koch“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.008",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Verkäuferin",
+        ",",
+        "die",
+        "an",
+        "der",
+        "Kasse",
+        "sitzt",
+        ",",
+        "sieht",
+        ",",
+        "dass",
+        "der",
+        "Bon",
+        "fehlt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Verkäuferin",
+          ",",
+          "die",
+          "an",
+          "der",
+          "Kasse",
+          "sitzt",
+          ",",
+          "sieht",
+          ",",
+          "dass",
+          "der",
+          "Bon",
+          "fehlt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Verkäuferin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.009",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Fahrer",
+        ",",
+        "der",
+        "die",
+        "Ware",
+        "bringt",
+        ",",
+        "fragt",
+        ",",
+        "wo",
+        "das",
+        "Lager",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Fahrer",
+          ",",
+          "der",
+          "die",
+          "Ware",
+          "bringt",
+          ",",
+          "fragt",
+          ",",
+          "wo",
+          "das",
+          "Lager",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Fahrer“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.010",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Kundin",
+        ",",
+        "die",
+        "einen",
+        "Mantel",
+        "sucht",
+        ",",
+        "sagt",
+        ",",
+        "welche",
+        "Größe",
+        "sie",
+        "braucht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Kundin",
+          ",",
+          "die",
+          "einen",
+          "Mantel",
+          "sucht",
+          ",",
+          "sagt",
+          ",",
+          "welche",
+          "Größe",
+          "sie",
+          "braucht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Kundin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.011",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Bäcker",
+        ",",
+        "der",
+        "den",
+        "Teig",
+        "knetet",
+        ",",
+        "weiß",
+        ",",
+        "wann",
+        "das",
+        "Brot",
+        "fertig",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Bäcker",
+          ",",
+          "der",
+          "den",
+          "Teig",
+          "knetet",
+          ",",
+          "weiß",
+          ",",
+          "wann",
+          "das",
+          "Brot",
+          "fertig",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Bäcker“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.012",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Gärtnerin",
+        ",",
+        "die",
+        "den",
+        "Baum",
+        "pflanzt",
+        ",",
+        "erklärt",
+        ",",
+        "wie",
+        "tief",
+        "das",
+        "Loch",
+        "sein",
+        "muss",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Gärtnerin",
+          ",",
+          "die",
+          "den",
+          "Baum",
+          "pflanzt",
+          ",",
+          "erklärt",
+          ",",
+          "wie",
+          "tief",
+          "das",
+          "Loch",
+          "sein",
+          "muss",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Gärtnerin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.013",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Hausmeister",
+        ",",
+        "der",
+        "die",
+        "Tür",
+        "prüft",
+        ",",
+        "merkt",
+        ",",
+        "dass",
+        "das",
+        "Schloss",
+        "klemmt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Hausmeister",
+          ",",
+          "der",
+          "die",
+          "Tür",
+          "prüft",
+          ",",
+          "merkt",
+          ",",
+          "dass",
+          "das",
+          "Schloss",
+          "klemmt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Hausmeister“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.014",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Ärztin",
+        ",",
+        "die",
+        "den",
+        "Arm",
+        "untersucht",
+        ",",
+        "fragt",
+        ",",
+        "wo",
+        "es",
+        "weh",
+        "tut",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Ärztin",
+          ",",
+          "die",
+          "den",
+          "Arm",
+          "untersucht",
+          ",",
+          "fragt",
+          ",",
+          "wo",
+          "es",
+          "weh",
+          "tut",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Ärztin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.015",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Schüler",
+        ",",
+        "der",
+        "das",
+        "Buch",
+        "liest",
+        ",",
+        "erklärt",
+        ",",
+        "warum",
+        "die",
+        "Figur",
+        "traurig",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Schüler",
+          ",",
+          "der",
+          "das",
+          "Buch",
+          "liest",
+          ",",
+          "erklärt",
+          ",",
+          "warum",
+          "die",
+          "Figur",
+          "traurig",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Schüler“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.016",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Freundin",
+        ",",
+        "die",
+        "auf",
+        "den",
+        "Bus",
+        "wartet",
+        ",",
+        "fragt",
+        ",",
+        "ob",
+        "die",
+        "Linie",
+        "noch",
+        "fährt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Freundin",
+          ",",
+          "die",
+          "auf",
+          "den",
+          "Bus",
+          "wartet",
+          ",",
+          "fragt",
+          ",",
+          "ob",
+          "die",
+          "Linie",
+          "noch",
+          "fährt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Freundin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.017",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Bruder",
+        ",",
+        "der",
+        "das",
+        "Rad",
+        "repariert",
+        ",",
+        "zeigt",
+        ",",
+        "wie",
+        "die",
+        "Bremse",
+        "funktioniert",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Bruder",
+          ",",
+          "der",
+          "das",
+          "Rad",
+          "repariert",
+          ",",
+          "zeigt",
+          ",",
+          "wie",
+          "die",
+          "Bremse",
+          "funktioniert",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Bruder“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.018",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Trainerin",
+        ",",
+        "die",
+        "das",
+        "Spiel",
+        "leitet",
+        ",",
+        "erklärt",
+        ",",
+        "wann",
+        "die",
+        "Pause",
+        "beginnt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Trainerin",
+          ",",
+          "die",
+          "das",
+          "Spiel",
+          "leitet",
+          ",",
+          "erklärt",
+          ",",
+          "wann",
+          "die",
+          "Pause",
+          "beginnt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Trainerin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.019",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Gast",
+        ",",
+        "der",
+        "einen",
+        "Tee",
+        "bestellt",
+        ",",
+        "sagt",
+        ",",
+        "dass",
+        "er",
+        "keinen",
+        "Zucker",
+        "möchte",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Gast",
+          ",",
+          "der",
+          "einen",
+          "Tee",
+          "bestellt",
+          ",",
+          "sagt",
+          ",",
+          "dass",
+          "er",
+          "keinen",
+          "Zucker",
+          "möchte",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Gast“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.020",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Fahrerin",
+        ",",
+        "die",
+        "an",
+        "der",
+        "Ampel",
+        "hält",
+        ",",
+        "sieht",
+        ",",
+        "dass",
+        "ein",
+        "Kind",
+        "wartet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Fahrerin",
+          ",",
+          "die",
+          "an",
+          "der",
+          "Ampel",
+          "hält",
+          ",",
+          "sieht",
+          ",",
+          "dass",
+          "ein",
+          "Kind",
+          "wartet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Fahrerin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.021",
+      "level": "hard",
+      "tokens": [
+        "Das",
+        "Mädchen",
+        ",",
+        "das",
+        "die",
+        "Kisten",
+        "zählt",
+        ",",
+        "meldet",
+        ",",
+        "wie",
+        "viele",
+        "fehlen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Das",
+          "Mädchen",
+          ",",
+          "das",
+          "die",
+          "Kisten",
+          "zählt",
+          ",",
+          "meldet",
+          ",",
+          "wie",
+          "viele",
+          "fehlen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Das Mädchen“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.022",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Junge",
+        ",",
+        "der",
+        "die",
+        "Pflanze",
+        "gießt",
+        ",",
+        "fragt",
+        ",",
+        "wie",
+        "viel",
+        "Wasser",
+        "sie",
+        "braucht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Junge",
+          ",",
+          "der",
+          "die",
+          "Pflanze",
+          "gießt",
+          ",",
+          "fragt",
+          ",",
+          "wie",
+          "viel",
+          "Wasser",
+          "sie",
+          "braucht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Junge“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.023",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Ausbilderin",
+        ",",
+        "die",
+        "den",
+        "Ablauf",
+        "zeigt",
+        ",",
+        "erklärt",
+        ",",
+        "warum",
+        "die",
+        "Prüfung",
+        "wichtig",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Ausbilderin",
+          ",",
+          "die",
+          "den",
+          "Ablauf",
+          "zeigt",
+          ",",
+          "erklärt",
+          ",",
+          "warum",
+          "die",
+          "Prüfung",
+          "wichtig",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Ausbilderin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.024",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Pfleger",
+        ",",
+        "der",
+        "das",
+        "Essen",
+        "bringt",
+        ",",
+        "fragt",
+        ",",
+        "ob",
+        "die",
+        "Portion",
+        "reicht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Pfleger",
+          ",",
+          "der",
+          "das",
+          "Essen",
+          "bringt",
+          ",",
+          "fragt",
+          ",",
+          "ob",
+          "die",
+          "Portion",
+          "reicht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Pfleger“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.025",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Besucherin",
+        ",",
+        "die",
+        "vor",
+        "der",
+        "Tür",
+        "steht",
+        ",",
+        "weiß",
+        ",",
+        "wen",
+        "sie",
+        "sprechen",
+        "möchte",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Besucherin",
+          ",",
+          "die",
+          "vor",
+          "der",
+          "Tür",
+          "steht",
+          ",",
+          "weiß",
+          ",",
+          "wen",
+          "sie",
+          "sprechen",
+          "möchte",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Besucherin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.026",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Mechaniker",
+        ",",
+        "der",
+        "das",
+        "Auto",
+        "prüft",
+        ",",
+        "zeigt",
+        ",",
+        "wo",
+        "die",
+        "Sicherung",
+        "sitzt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Mechaniker",
+          ",",
+          "der",
+          "das",
+          "Auto",
+          "prüft",
+          ",",
+          "zeigt",
+          ",",
+          "wo",
+          "die",
+          "Sicherung",
+          "sitzt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Mechaniker“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.027",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Tischlerin",
+        ",",
+        "die",
+        "das",
+        "Brett",
+        "sägt",
+        ",",
+        "erklärt",
+        ",",
+        "warum",
+        "sie",
+        "die",
+        "Brille",
+        "trägt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Tischlerin",
+          ",",
+          "die",
+          "das",
+          "Brett",
+          "sägt",
+          ",",
+          "erklärt",
+          ",",
+          "warum",
+          "sie",
+          "die",
+          "Brille",
+          "trägt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Tischlerin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.028",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Elektriker",
+        ",",
+        "der",
+        "die",
+        "Anlage",
+        "wartet",
+        ",",
+        "meldet",
+        ",",
+        "dass",
+        "die",
+        "Arbeit",
+        "beendet",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Elektriker",
+          ",",
+          "der",
+          "die",
+          "Anlage",
+          "wartet",
+          ",",
+          "meldet",
+          ",",
+          "dass",
+          "die",
+          "Arbeit",
+          "beendet",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Elektriker“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.029",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Reinigungskraft",
+        ",",
+        "die",
+        "den",
+        "Flur",
+        "wischt",
+        ",",
+        "prüft",
+        ",",
+        "ob",
+        "der",
+        "Boden",
+        "trocken",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Reinigungskraft",
+          ",",
+          "die",
+          "den",
+          "Flur",
+          "wischt",
+          ",",
+          "prüft",
+          ",",
+          "ob",
+          "der",
+          "Boden",
+          "trocken",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Reinigungskraft“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.030",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Lagerist",
+        ",",
+        "der",
+        "die",
+        "Palette",
+        "zählt",
+        ",",
+        "sieht",
+        ",",
+        "dass",
+        "ein",
+        "Karton",
+        "beschädigt",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Lagerist",
+          ",",
+          "der",
+          "die",
+          "Palette",
+          "zählt",
+          ",",
+          "sieht",
+          ",",
+          "dass",
+          "ein",
+          "Karton",
+          "beschädigt",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Lagerist“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.031",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Bäuerin",
+        ",",
+        "die",
+        "die",
+        "Tiere",
+        "füttert",
+        ",",
+        "erklärt",
+        ",",
+        "welches",
+        "Futter",
+        "sie",
+        "brauchen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Bäuerin",
+          ",",
+          "die",
+          "die",
+          "Tiere",
+          "füttert",
+          ",",
+          "erklärt",
+          ",",
+          "welches",
+          "Futter",
+          "sie",
+          "brauchen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Bäuerin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.032",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Kellner",
+        ",",
+        "der",
+        "das",
+        "Tablett",
+        "trägt",
+        ",",
+        "fragt",
+        ",",
+        "wem",
+        "das",
+        "Wasser",
+        "gehört",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Kellner",
+          ",",
+          "der",
+          "das",
+          "Tablett",
+          "trägt",
+          ",",
+          "fragt",
+          ",",
+          "wem",
+          "das",
+          "Wasser",
+          "gehört",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Kellner“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.033",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Köchin",
+        ",",
+        "die",
+        "das",
+        "Gemüse",
+        "schneidet",
+        ",",
+        "zeigt",
+        ",",
+        "wie",
+        "sie",
+        "das",
+        "Messer",
+        "hält",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Köchin",
+          ",",
+          "die",
+          "das",
+          "Gemüse",
+          "schneidet",
+          ",",
+          "zeigt",
+          ",",
+          "wie",
+          "sie",
+          "das",
+          "Messer",
+          "hält",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Köchin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.034",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Gärtner",
+        ",",
+        "der",
+        "den",
+        "Rasen",
+        "mäht",
+        ",",
+        "merkt",
+        ",",
+        "dass",
+        "der",
+        "Korb",
+        "voll",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Gärtner",
+          ",",
+          "der",
+          "den",
+          "Rasen",
+          "mäht",
+          ",",
+          "merkt",
+          ",",
+          "dass",
+          "der",
+          "Korb",
+          "voll",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Gärtner“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.035",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Mitarbeiterin",
+        ",",
+        "die",
+        "den",
+        "Brief",
+        "öffnet",
+        ",",
+        "erkennt",
+        ",",
+        "dass",
+        "die",
+        "Unterschrift",
+        "fehlt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Mitarbeiterin",
+          ",",
+          "die",
+          "den",
+          "Brief",
+          "öffnet",
+          ",",
+          "erkennt",
+          ",",
+          "dass",
+          "die",
+          "Unterschrift",
+          "fehlt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Mitarbeiterin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.036",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Kunde",
+        ",",
+        "der",
+        "die",
+        "Ware",
+        "abholt",
+        ",",
+        "fragt",
+        ",",
+        "ob",
+        "die",
+        "Rechnung",
+        "beiliegt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Kunde",
+          ",",
+          "der",
+          "die",
+          "Ware",
+          "abholt",
+          ",",
+          "fragt",
+          ",",
+          "ob",
+          "die",
+          "Rechnung",
+          "beiliegt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Kunde“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.037",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Leiterin",
+        ",",
+        "die",
+        "das",
+        "Team",
+        "begrüßt",
+        ",",
+        "erklärt",
+        ",",
+        "was",
+        "heute",
+        "ansteht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Leiterin",
+          ",",
+          "die",
+          "das",
+          "Team",
+          "begrüßt",
+          ",",
+          "erklärt",
+          ",",
+          "was",
+          "heute",
+          "ansteht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Leiterin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.038",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Helfer",
+        ",",
+        "der",
+        "die",
+        "Stühle",
+        "stellt",
+        ",",
+        "fragt",
+        ",",
+        "wie",
+        "viele",
+        "Gäste",
+        "kommen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Helfer",
+          ",",
+          "der",
+          "die",
+          "Stühle",
+          "stellt",
+          ",",
+          "fragt",
+          ",",
+          "wie",
+          "viele",
+          "Gäste",
+          "kommen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Helfer“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.039",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Nachbarin",
+        ",",
+        "die",
+        "den",
+        "Schlüssel",
+        "findet",
+        ",",
+        "weiß",
+        ",",
+        "wem",
+        "er",
+        "gehört",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Nachbarin",
+          ",",
+          "die",
+          "den",
+          "Schlüssel",
+          "findet",
+          ",",
+          "weiß",
+          ",",
+          "wem",
+          "er",
+          "gehört",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Nachbarin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.040",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Musiker",
+        ",",
+        "der",
+        "die",
+        "Gitarre",
+        "stimmt",
+        ",",
+        "hört",
+        ",",
+        "dass",
+        "eine",
+        "Saite",
+        "zu",
+        "tief",
+        "klingt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Musiker",
+          ",",
+          "der",
+          "die",
+          "Gitarre",
+          "stimmt",
+          ",",
+          "hört",
+          ",",
+          "dass",
+          "eine",
+          "Saite",
+          "zu",
+          "tief",
+          "klingt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Musiker“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.041",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Schülerin",
+        ",",
+        "die",
+        "die",
+        "Tabelle",
+        "liest",
+        ",",
+        "erkennt",
+        ",",
+        "welcher",
+        "Wert",
+        "am",
+        "größten",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Schülerin",
+          ",",
+          "die",
+          "die",
+          "Tabelle",
+          "liest",
+          ",",
+          "erkennt",
+          ",",
+          "welcher",
+          "Wert",
+          "am",
+          "größten",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Schülerin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.042",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Freund",
+        ",",
+        "der",
+        "den",
+        "Weg",
+        "kennt",
+        ",",
+        "zeigt",
+        ",",
+        "wo",
+        "wir",
+        "abbiegen",
+        "müssen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Freund",
+          ",",
+          "der",
+          "den",
+          "Weg",
+          "kennt",
+          ",",
+          "zeigt",
+          ",",
+          "wo",
+          "wir",
+          "abbiegen",
+          "müssen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Freund“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.043",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Mutter",
+        ",",
+        "die",
+        "das",
+        "Fenster",
+        "schließt",
+        ",",
+        "merkt",
+        ",",
+        "dass",
+        "es",
+        "zieht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Mutter",
+          ",",
+          "die",
+          "das",
+          "Fenster",
+          "schließt",
+          ",",
+          "merkt",
+          ",",
+          "dass",
+          "es",
+          "zieht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Mutter“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.044",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Vater",
+        ",",
+        "der",
+        "den",
+        "Einkauf",
+        "trägt",
+        ",",
+        "fragt",
+        ",",
+        "ob",
+        "die",
+        "Tür",
+        "offen",
+        "bleibt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Vater",
+          ",",
+          "der",
+          "den",
+          "Einkauf",
+          "trägt",
+          ",",
+          "fragt",
+          ",",
+          "ob",
+          "die",
+          "Tür",
+          "offen",
+          "bleibt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Vater“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.045",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Schwester",
+        ",",
+        "die",
+        "das",
+        "Paket",
+        "annimmt",
+        ",",
+        "sieht",
+        ",",
+        "dass",
+        "es",
+        "für",
+        "Ali",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Schwester",
+          ",",
+          "die",
+          "das",
+          "Paket",
+          "annimmt",
+          ",",
+          "sieht",
+          ",",
+          "dass",
+          "es",
+          "für",
+          "Ali",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Schwester“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.046",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Verkäufer",
+        ",",
+        "der",
+        "das",
+        "Regal",
+        "füllt",
+        ",",
+        "prüft",
+        ",",
+        "welches",
+        "Produkt",
+        "fehlt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Verkäufer",
+          ",",
+          "der",
+          "das",
+          "Regal",
+          "füllt",
+          ",",
+          "prüft",
+          ",",
+          "welches",
+          "Produkt",
+          "fehlt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Verkäufer“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.047",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Besucherin",
+        ",",
+        "die",
+        "den",
+        "Ausweis",
+        "zeigt",
+        ",",
+        "erfährt",
+        ",",
+        "in",
+        "welchem",
+        "Raum",
+        "der",
+        "Kurs",
+        "stattfindet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Besucherin",
+          ",",
+          "die",
+          "den",
+          "Ausweis",
+          "zeigt",
+          ",",
+          "erfährt",
+          ",",
+          "in",
+          "welchem",
+          "Raum",
+          "der",
+          "Kurs",
+          "stattfindet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Besucherin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.048",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Auszubildende",
+        ",",
+        "der",
+        "das",
+        "Maß",
+        "abliest",
+        ",",
+        "meldet",
+        ",",
+        "dass",
+        "das",
+        "Brett",
+        "zu",
+        "kurz",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Auszubildende",
+          ",",
+          "der",
+          "das",
+          "Maß",
+          "abliest",
+          ",",
+          "meldet",
+          ",",
+          "dass",
+          "das",
+          "Brett",
+          "zu",
+          "kurz",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Auszubildende“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.049",
+      "level": "hard",
+      "tokens": [
+        "Die",
+        "Kollegin",
+        ",",
+        "die",
+        "das",
+        "Werkzeug",
+        "reinigt",
+        ",",
+        "erklärt",
+        ",",
+        "wo",
+        "es",
+        "aufbewahrt",
+        "wird",
+        "."
+      ],
+      "solutions": [
+        [
+          "Die",
+          "Kollegin",
+          ",",
+          "die",
+          "das",
+          "Werkzeug",
+          "reinigt",
+          ",",
+          "erklärt",
+          ",",
+          "wo",
+          "es",
+          "aufbewahrt",
+          "wird",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Die Kollegin“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.050",
+      "level": "hard",
+      "tokens": [
+        "Der",
+        "Teilnehmer",
+        ",",
+        "der",
+        "eine",
+        "Frage",
+        "hat",
+        ",",
+        "sagt",
+        ",",
+        "dass",
+        "er",
+        "den",
+        "Auftrag",
+        "nicht",
+        "versteht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Der",
+          "Teilnehmer",
+          ",",
+          "der",
+          "eine",
+          "Frage",
+          "hat",
+          ",",
+          "sagt",
+          ",",
+          "dass",
+          "er",
+          "den",
+          "Auftrag",
+          "nicht",
+          "versteht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit „Der Teilnehmer“. Der Relativsatz folgt direkt darauf. Die Erklärung oder Frage folgt am Ende.",
+      "hint": "Der Relativsatz folgt direkt auf das Nomen und steht zwischen zwei Kommas. Die anschließende Frage oder Erklärung wird ebenfalls mit einem Komma abgetrennt."
+    },
+    {
+      "id": "sentence.hard.v1.051",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Bus",
+        "ausfällt",
+        ",",
+        "fährt",
+        "Mila",
+        "mit",
+        "dem",
+        "Rad",
+        ",",
+        "obwohl",
+        "es",
+        "regnet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Bus",
+          "ausfällt",
+          ",",
+          "fährt",
+          "Mila",
+          "mit",
+          "dem",
+          "Rad",
+          ",",
+          "obwohl",
+          "es",
+          "regnet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „obwohl“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.052",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Suppe",
+        "heiß",
+        "ist",
+        ",",
+        "wartet",
+        "Ali",
+        ",",
+        "bis",
+        "sie",
+        "abgekühlt",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Suppe",
+          "heiß",
+          "ist",
+          ",",
+          "wartet",
+          "Ali",
+          ",",
+          "bis",
+          "sie",
+          "abgekühlt",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bis“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.053",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "das",
+        "Licht",
+        "fehlt",
+        ",",
+        "öffnet",
+        "die",
+        "Kollegin",
+        "den",
+        "Vorhang",
+        ",",
+        "bevor",
+        "sie",
+        "weiterliest",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "das",
+          "Licht",
+          "fehlt",
+          ",",
+          "öffnet",
+          "die",
+          "Kollegin",
+          "den",
+          "Vorhang",
+          ",",
+          "bevor",
+          "sie",
+          "weiterliest",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.054",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Boden",
+        "nass",
+        "ist",
+        ",",
+        "stellt",
+        "der",
+        "Hausmeister",
+        "ein",
+        "Schild",
+        "auf",
+        ",",
+        "damit",
+        "niemand",
+        "ausrutscht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Boden",
+          "nass",
+          "ist",
+          ",",
+          "stellt",
+          "der",
+          "Hausmeister",
+          "ein",
+          "Schild",
+          "auf",
+          ",",
+          "damit",
+          "niemand",
+          "ausrutscht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.055",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Kiste",
+        "schwer",
+        "ist",
+        ",",
+        "fragt",
+        "der",
+        "Helfer",
+        "nach",
+        "Unterstützung",
+        ",",
+        "bevor",
+        "er",
+        "sie",
+        "hebt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Kiste",
+          "schwer",
+          "ist",
+          ",",
+          "fragt",
+          "der",
+          "Helfer",
+          "nach",
+          "Unterstützung",
+          ",",
+          "bevor",
+          "er",
+          "sie",
+          "hebt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.056",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Zug",
+        "spät",
+        "kommt",
+        ",",
+        "ruft",
+        "die",
+        "Schülerin",
+        "an",
+        ",",
+        "damit",
+        "niemand",
+        "auf",
+        "sie",
+        "wartet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Zug",
+          "spät",
+          "kommt",
+          ",",
+          "ruft",
+          "die",
+          "Schülerin",
+          "an",
+          ",",
+          "damit",
+          "niemand",
+          "auf",
+          "sie",
+          "wartet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.057",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Tür",
+        "klemmt",
+        ",",
+        "holt",
+        "der",
+        "Nachbar",
+        "Werkzeug",
+        ",",
+        "nachdem",
+        "er",
+        "das",
+        "Schloss",
+        "geprüft",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Tür",
+          "klemmt",
+          ",",
+          "holt",
+          "der",
+          "Nachbar",
+          "Werkzeug",
+          ",",
+          "nachdem",
+          "er",
+          "das",
+          "Schloss",
+          "geprüft",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „nachdem“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.058",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "das",
+        "Gemüse",
+        "frisch",
+        "ist",
+        ",",
+        "kauft",
+        "die",
+        "Köchin",
+        "mehr",
+        ",",
+        "als",
+        "sie",
+        "geplant",
+        "hatte",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "das",
+          "Gemüse",
+          "frisch",
+          "ist",
+          ",",
+          "kauft",
+          "die",
+          "Köchin",
+          "mehr",
+          ",",
+          "als",
+          "sie",
+          "geplant",
+          "hatte",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „als“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.059",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "das",
+        "Handy",
+        "leer",
+        "ist",
+        ",",
+        "sucht",
+        "Ali",
+        "sein",
+        "Ladekabel",
+        ",",
+        "bevor",
+        "er",
+        "ausgeht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "das",
+          "Handy",
+          "leer",
+          "ist",
+          ",",
+          "sucht",
+          "Ali",
+          "sein",
+          "Ladekabel",
+          ",",
+          "bevor",
+          "er",
+          "ausgeht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.060",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Strecke",
+        "lang",
+        "ist",
+        ",",
+        "packt",
+        "Mila",
+        "Wasser",
+        "ein",
+        ",",
+        "damit",
+        "sie",
+        "unterwegs",
+        "trinken",
+        "kann",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Strecke",
+          "lang",
+          "ist",
+          ",",
+          "packt",
+          "Mila",
+          "Wasser",
+          "ein",
+          ",",
+          "damit",
+          "sie",
+          "unterwegs",
+          "trinken",
+          "kann",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.061",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Farbe",
+        "noch",
+        "nass",
+        "ist",
+        ",",
+        "wartet",
+        "der",
+        "Maler",
+        ",",
+        "bis",
+        "sie",
+        "getrocknet",
+        "ist",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Farbe",
+          "noch",
+          "nass",
+          "ist",
+          ",",
+          "wartet",
+          "der",
+          "Maler",
+          ",",
+          "bis",
+          "sie",
+          "getrocknet",
+          "ist",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bis“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.062",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "ein",
+        "Teil",
+        "fehlt",
+        ",",
+        "unterbricht",
+        "die",
+        "Mechanikerin",
+        "die",
+        "Arbeit",
+        ",",
+        "bis",
+        "die",
+        "Lieferung",
+        "kommt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "ein",
+          "Teil",
+          "fehlt",
+          ",",
+          "unterbricht",
+          "die",
+          "Mechanikerin",
+          "die",
+          "Arbeit",
+          ",",
+          "bis",
+          "die",
+          "Lieferung",
+          "kommt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bis“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.063",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Gast",
+        "eine",
+        "Frage",
+        "hat",
+        ",",
+        "erklärt",
+        "der",
+        "Kellner",
+        "die",
+        "Karte",
+        ",",
+        "bevor",
+        "er",
+        "die",
+        "Bestellung",
+        "aufnimmt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Gast",
+          "eine",
+          "Frage",
+          "hat",
+          ",",
+          "erklärt",
+          "der",
+          "Kellner",
+          "die",
+          "Karte",
+          ",",
+          "bevor",
+          "er",
+          "die",
+          "Bestellung",
+          "aufnimmt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.064",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Aufgabe",
+        "neu",
+        "ist",
+        ",",
+        "hört",
+        "der",
+        "Schüler",
+        "zu",
+        ",",
+        "während",
+        "die",
+        "Lehrerin",
+        "sie",
+        "erklärt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Aufgabe",
+          "neu",
+          "ist",
+          ",",
+          "hört",
+          "der",
+          "Schüler",
+          "zu",
+          ",",
+          "während",
+          "die",
+          "Lehrerin",
+          "sie",
+          "erklärt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „während“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.065",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Termin",
+        "früh",
+        "ist",
+        ",",
+        "stellt",
+        "Mila",
+        "den",
+        "Wecker",
+        ",",
+        "bevor",
+        "sie",
+        "schlafen",
+        "geht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Termin",
+          "früh",
+          "ist",
+          ",",
+          "stellt",
+          "Mila",
+          "den",
+          "Wecker",
+          ",",
+          "bevor",
+          "sie",
+          "schlafen",
+          "geht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.066",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "das",
+        "Fenster",
+        "offen",
+        "ist",
+        ",",
+        "zieht",
+        "die",
+        "Mitarbeiterin",
+        "eine",
+        "Jacke",
+        "an",
+        ",",
+        "obwohl",
+        "die",
+        "Heizung",
+        "läuft",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "das",
+          "Fenster",
+          "offen",
+          "ist",
+          ",",
+          "zieht",
+          "die",
+          "Mitarbeiterin",
+          "eine",
+          "Jacke",
+          "an",
+          ",",
+          "obwohl",
+          "die",
+          "Heizung",
+          "läuft",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „obwohl“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.067",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Pause",
+        "beginnt",
+        ",",
+        "legt",
+        "der",
+        "Tischler",
+        "das",
+        "Werkzeug",
+        "ab",
+        ",",
+        "nachdem",
+        "er",
+        "die",
+        "Maschine",
+        "gestoppt",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Pause",
+          "beginnt",
+          ",",
+          "legt",
+          "der",
+          "Tischler",
+          "das",
+          "Werkzeug",
+          "ab",
+          ",",
+          "nachdem",
+          "er",
+          "die",
+          "Maschine",
+          "gestoppt",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „nachdem“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.068",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Hund",
+        "müde",
+        "ist",
+        ",",
+        "geht",
+        "der",
+        "Nachbar",
+        "langsam",
+        ",",
+        "obwohl",
+        "er",
+        "wenig",
+        "Zeit",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Hund",
+          "müde",
+          "ist",
+          ",",
+          "geht",
+          "der",
+          "Nachbar",
+          "langsam",
+          ",",
+          "obwohl",
+          "er",
+          "wenig",
+          "Zeit",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „obwohl“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.069",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Karte",
+        "fehlt",
+        ",",
+        "fragt",
+        "die",
+        "Besucherin",
+        "nach",
+        "dem",
+        "Weg",
+        ",",
+        "bevor",
+        "sie",
+        "weitergeht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Karte",
+          "fehlt",
+          ",",
+          "fragt",
+          "die",
+          "Besucherin",
+          "nach",
+          "dem",
+          "Weg",
+          ",",
+          "bevor",
+          "sie",
+          "weitergeht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.070",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Karton",
+        "offen",
+        "ist",
+        ",",
+        "prüft",
+        "die",
+        "Lageristin",
+        "den",
+        "Inhalt",
+        ",",
+        "bevor",
+        "sie",
+        "unterschreibt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Karton",
+          "offen",
+          "ist",
+          ",",
+          "prüft",
+          "die",
+          "Lageristin",
+          "den",
+          "Inhalt",
+          ",",
+          "bevor",
+          "sie",
+          "unterschreibt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.071",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "das",
+        "Regal",
+        "leer",
+        "ist",
+        ",",
+        "füllt",
+        "der",
+        "Verkäufer",
+        "Ware",
+        "nach",
+        ",",
+        "sobald",
+        "die",
+        "Lieferung",
+        "eintrifft",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "das",
+          "Regal",
+          "leer",
+          "ist",
+          ",",
+          "füllt",
+          "der",
+          "Verkäufer",
+          "Ware",
+          "nach",
+          ",",
+          "sobald",
+          "die",
+          "Lieferung",
+          "eintrifft",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „sobald“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.072",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Musik",
+        "laut",
+        "ist",
+        ",",
+        "schließt",
+        "der",
+        "Junge",
+        "die",
+        "Tür",
+        ",",
+        "damit",
+        "er",
+        "lesen",
+        "kann",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Musik",
+          "laut",
+          "ist",
+          ",",
+          "schließt",
+          "der",
+          "Junge",
+          "die",
+          "Tür",
+          ",",
+          "damit",
+          "er",
+          "lesen",
+          "kann",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.073",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Prüfung",
+        "näher",
+        "kommt",
+        ",",
+        "übt",
+        "die",
+        "Teilnehmerin",
+        "jeden",
+        "Tag",
+        ",",
+        "obwohl",
+        "sie",
+        "schon",
+        "viel",
+        "kann",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Prüfung",
+          "näher",
+          "kommt",
+          ",",
+          "übt",
+          "die",
+          "Teilnehmerin",
+          "jeden",
+          "Tag",
+          ",",
+          "obwohl",
+          "sie",
+          "schon",
+          "viel",
+          "kann",
+          "."
+        ],
+        [
+          "Weil",
+          "die",
+          "Prüfung",
+          "näher",
+          "kommt",
+          ",",
+          "übt",
+          "jeden",
+          "Tag",
+          "die",
+          "Teilnehmerin",
+          ",",
+          "obwohl",
+          "sie",
+          "schon",
+          "viel",
+          "kann",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „obwohl“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.074",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "der",
+        "Drucker",
+        "streikt",
+        ",",
+        "schreibt",
+        "der",
+        "Mitarbeiter",
+        "die",
+        "Nummer",
+        "auf",
+        ",",
+        "damit",
+        "sie",
+        "erhalten",
+        "bleibt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "der",
+          "Drucker",
+          "streikt",
+          ",",
+          "schreibt",
+          "der",
+          "Mitarbeiter",
+          "die",
+          "Nummer",
+          "auf",
+          ",",
+          "damit",
+          "sie",
+          "erhalten",
+          "bleibt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.075",
+      "level": "hard",
+      "tokens": [
+        "Weil",
+        "die",
+        "Tasche",
+        "beschädigt",
+        "ist",
+        ",",
+        "verpackt",
+        "die",
+        "Kundin",
+        "die",
+        "Bücher",
+        "neu",
+        ",",
+        "bevor",
+        "sie",
+        "losgeht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Weil",
+          "die",
+          "Tasche",
+          "beschädigt",
+          "ist",
+          ",",
+          "verpackt",
+          "die",
+          "Kundin",
+          "die",
+          "Bücher",
+          "neu",
+          ",",
+          "bevor",
+          "sie",
+          "losgeht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem weil-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.076",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "der",
+        "Bus",
+        "hält",
+        ",",
+        "steigt",
+        "Ali",
+        "ein",
+        ",",
+        "nachdem",
+        "die",
+        "anderen",
+        "ausgestiegen",
+        "sind",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "der",
+          "Bus",
+          "hält",
+          ",",
+          "steigt",
+          "Ali",
+          "ein",
+          ",",
+          "nachdem",
+          "die",
+          "anderen",
+          "ausgestiegen",
+          "sind",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „nachdem“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.077",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "Mila",
+        "einkauft",
+        ",",
+        "nimmt",
+        "sie",
+        "einen",
+        "Beutel",
+        "mit",
+        ",",
+        "damit",
+        "sie",
+        "keine",
+        "Tüte",
+        "braucht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "Mila",
+          "einkauft",
+          ",",
+          "nimmt",
+          "sie",
+          "einen",
+          "Beutel",
+          "mit",
+          ",",
+          "damit",
+          "sie",
+          "keine",
+          "Tüte",
+          "braucht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.078",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Maschine",
+        "stillsteht",
+        ",",
+        "wartet",
+        "der",
+        "Helfer",
+        ",",
+        "bis",
+        "die",
+        "Fachkraft",
+        "sie",
+        "freigibt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Maschine",
+          "stillsteht",
+          ",",
+          "wartet",
+          "der",
+          "Helfer",
+          ",",
+          "bis",
+          "die",
+          "Fachkraft",
+          "sie",
+          "freigibt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bis“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.079",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Sonne",
+        "scheint",
+        ",",
+        "öffnet",
+        "die",
+        "Gärtnerin",
+        "das",
+        "Gewächshaus",
+        ",",
+        "damit",
+        "es",
+        "nicht",
+        "zu",
+        "warm",
+        "wird",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Sonne",
+          "scheint",
+          ",",
+          "öffnet",
+          "die",
+          "Gärtnerin",
+          "das",
+          "Gewächshaus",
+          ",",
+          "damit",
+          "es",
+          "nicht",
+          "zu",
+          "warm",
+          "wird",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.080",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Pause",
+        "endet",
+        ",",
+        "räumt",
+        "das",
+        "Team",
+        "auf",
+        ",",
+        "bevor",
+        "die",
+        "Arbeit",
+        "weitergeht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Pause",
+          "endet",
+          ",",
+          "räumt",
+          "das",
+          "Team",
+          "auf",
+          ",",
+          "bevor",
+          "die",
+          "Arbeit",
+          "weitergeht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.081",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "das",
+        "Telefon",
+        "klingelt",
+        ",",
+        "meldet",
+        "sich",
+        "die",
+        "Kollegin",
+        ",",
+        "sofern",
+        "sie",
+        "gerade",
+        "Zeit",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "das",
+          "Telefon",
+          "klingelt",
+          ",",
+          "meldet",
+          "sich",
+          "die",
+          "Kollegin",
+          ",",
+          "sofern",
+          "sie",
+          "gerade",
+          "Zeit",
+          "hat",
+          "."
+        ],
+        [
+          "Wenn",
+          "das",
+          "Telefon",
+          "klingelt",
+          ",",
+          "meldet",
+          "die",
+          "Kollegin",
+          "sich",
+          ",",
+          "sofern",
+          "sie",
+          "gerade",
+          "Zeit",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „sofern“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.082",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "ein",
+        "Kunde",
+        "fragt",
+        ",",
+        "hört",
+        "der",
+        "Verkäufer",
+        "zu",
+        ",",
+        "bevor",
+        "er",
+        "antwortet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "ein",
+          "Kunde",
+          "fragt",
+          ",",
+          "hört",
+          "der",
+          "Verkäufer",
+          "zu",
+          ",",
+          "bevor",
+          "er",
+          "antwortet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.083",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "der",
+        "Regen",
+        "aufhört",
+        ",",
+        "gehen",
+        "die",
+        "Kinder",
+        "hinaus",
+        ",",
+        "obwohl",
+        "die",
+        "Wege",
+        "noch",
+        "nass",
+        "sind",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "der",
+          "Regen",
+          "aufhört",
+          ",",
+          "gehen",
+          "die",
+          "Kinder",
+          "hinaus",
+          ",",
+          "obwohl",
+          "die",
+          "Wege",
+          "noch",
+          "nass",
+          "sind",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „obwohl“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.084",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Post",
+        "kommt",
+        ",",
+        "sortiert",
+        "der",
+        "Mitarbeiter",
+        "die",
+        "Briefe",
+        ",",
+        "bevor",
+        "er",
+        "sie",
+        "verteilt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Post",
+          "kommt",
+          ",",
+          "sortiert",
+          "der",
+          "Mitarbeiter",
+          "die",
+          "Briefe",
+          ",",
+          "bevor",
+          "er",
+          "sie",
+          "verteilt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.085",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Suppe",
+        "kocht",
+        ",",
+        "dreht",
+        "die",
+        "Köchin",
+        "die",
+        "Hitze",
+        "herunter",
+        ",",
+        "damit",
+        "nichts",
+        "überläuft",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Suppe",
+          "kocht",
+          ",",
+          "dreht",
+          "die",
+          "Köchin",
+          "die",
+          "Hitze",
+          "herunter",
+          ",",
+          "damit",
+          "nichts",
+          "überläuft",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.086",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Tür",
+        "verriegelt",
+        "ist",
+        ",",
+        "fragt",
+        "die",
+        "Besucherin",
+        "nach",
+        "Hilfe",
+        ",",
+        "statt",
+        "am",
+        "Griff",
+        "zu",
+        "reißen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Tür",
+          "verriegelt",
+          "ist",
+          ",",
+          "fragt",
+          "die",
+          "Besucherin",
+          "nach",
+          "Hilfe",
+          ",",
+          "statt",
+          "am",
+          "Griff",
+          "zu",
+          "reißen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „statt“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.087",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "das",
+        "Paket",
+        "ankommt",
+        ",",
+        "prüft",
+        "die",
+        "Kundin",
+        "die",
+        "Ware",
+        ",",
+        "bevor",
+        "sie",
+        "den",
+        "Karton",
+        "entsorgt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "das",
+          "Paket",
+          "ankommt",
+          ",",
+          "prüft",
+          "die",
+          "Kundin",
+          "die",
+          "Ware",
+          ",",
+          "bevor",
+          "sie",
+          "den",
+          "Karton",
+          "entsorgt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.088",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "der",
+        "Unterricht",
+        "beginnt",
+        ",",
+        "legt",
+        "Ali",
+        "das",
+        "Handy",
+        "weg",
+        ",",
+        "damit",
+        "er",
+        "sich",
+        "konzentrieren",
+        "kann",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "der",
+          "Unterricht",
+          "beginnt",
+          ",",
+          "legt",
+          "Ali",
+          "das",
+          "Handy",
+          "weg",
+          ",",
+          "damit",
+          "er",
+          "sich",
+          "konzentrieren",
+          "kann",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.089",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Arbeit",
+        "schwierig",
+        "ist",
+        ",",
+        "bittet",
+        "Mila",
+        "um",
+        "Hilfe",
+        ",",
+        "bevor",
+        "sie",
+        "einen",
+        "Fehler",
+        "macht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Arbeit",
+          "schwierig",
+          "ist",
+          ",",
+          "bittet",
+          "Mila",
+          "um",
+          "Hilfe",
+          ",",
+          "bevor",
+          "sie",
+          "einen",
+          "Fehler",
+          "macht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.090",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "der",
+        "Raum",
+        "leer",
+        "ist",
+        ",",
+        "schließt",
+        "der",
+        "Hausmeister",
+        "ab",
+        ",",
+        "nachdem",
+        "er",
+        "das",
+        "Licht",
+        "gelöscht",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "der",
+          "Raum",
+          "leer",
+          "ist",
+          ",",
+          "schließt",
+          "der",
+          "Hausmeister",
+          "ab",
+          ",",
+          "nachdem",
+          "er",
+          "das",
+          "Licht",
+          "gelöscht",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „nachdem“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.091",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "das",
+        "Brett",
+        "zu",
+        "lang",
+        "ist",
+        ",",
+        "misst",
+        "der",
+        "Tischler",
+        "nach",
+        ",",
+        "bevor",
+        "er",
+        "es",
+        "kürzt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "das",
+          "Brett",
+          "zu",
+          "lang",
+          "ist",
+          ",",
+          "misst",
+          "der",
+          "Tischler",
+          "nach",
+          ",",
+          "bevor",
+          "er",
+          "es",
+          "kürzt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.092",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Handschuhe",
+        "beschädigt",
+        "sind",
+        ",",
+        "wechselt",
+        "die",
+        "Gärtnerin",
+        "sie",
+        ",",
+        "bevor",
+        "sie",
+        "weiterarbeitet",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Handschuhe",
+          "beschädigt",
+          "sind",
+          ",",
+          "wechselt",
+          "die",
+          "Gärtnerin",
+          "sie",
+          ",",
+          "bevor",
+          "sie",
+          "weiterarbeitet",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.093",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "der",
+        "Kunde",
+        "warten",
+        "muss",
+        ",",
+        "erklärt",
+        "die",
+        "Mitarbeiterin",
+        "den",
+        "Grund",
+        ",",
+        "damit",
+        "er",
+        "Bescheid",
+        "weiß",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "der",
+          "Kunde",
+          "warten",
+          "muss",
+          ",",
+          "erklärt",
+          "die",
+          "Mitarbeiterin",
+          "den",
+          "Grund",
+          ",",
+          "damit",
+          "er",
+          "Bescheid",
+          "weiß",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.094",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "das",
+        "Werkzeug",
+        "fehlt",
+        ",",
+        "fragt",
+        "der",
+        "Helfer",
+        "nach",
+        ",",
+        "statt",
+        "einfach",
+        "ein",
+        "anderes",
+        "zu",
+        "nehmen",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "das",
+          "Werkzeug",
+          "fehlt",
+          ",",
+          "fragt",
+          "der",
+          "Helfer",
+          "nach",
+          ",",
+          "statt",
+          "einfach",
+          "ein",
+          "anderes",
+          "zu",
+          "nehmen",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „statt“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.095",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "der",
+        "Vorrat",
+        "knapp",
+        "wird",
+        ",",
+        "schreibt",
+        "die",
+        "Köchin",
+        "eine",
+        "Liste",
+        ",",
+        "bevor",
+        "sie",
+        "bestellt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "der",
+          "Vorrat",
+          "knapp",
+          "wird",
+          ",",
+          "schreibt",
+          "die",
+          "Köchin",
+          "eine",
+          "Liste",
+          ",",
+          "bevor",
+          "sie",
+          "bestellt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.096",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "der",
+        "Zug",
+        "einfährt",
+        ",",
+        "bleibt",
+        "Mila",
+        "hinter",
+        "der",
+        "Linie",
+        ",",
+        "bis",
+        "er",
+        "steht",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "der",
+          "Zug",
+          "einfährt",
+          ",",
+          "bleibt",
+          "Mila",
+          "hinter",
+          "der",
+          "Linie",
+          ",",
+          "bis",
+          "er",
+          "steht",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bis“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.097",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Wäsche",
+        "trocken",
+        "ist",
+        ",",
+        "faltet",
+        "Ali",
+        "sie",
+        ",",
+        "bevor",
+        "er",
+        "sie",
+        "in",
+        "den",
+        "Schrank",
+        "legt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Wäsche",
+          "trocken",
+          "ist",
+          ",",
+          "faltet",
+          "Ali",
+          "sie",
+          ",",
+          "bevor",
+          "er",
+          "sie",
+          "in",
+          "den",
+          "Schrank",
+          "legt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.098",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Gäste",
+        "kommen",
+        ",",
+        "zeigt",
+        "die",
+        "Kollegin",
+        "die",
+        "Plätze",
+        ",",
+        "nachdem",
+        "sie",
+        "sie",
+        "begrüßt",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Gäste",
+          "kommen",
+          ",",
+          "zeigt",
+          "die",
+          "Kollegin",
+          "die",
+          "Plätze",
+          ",",
+          "nachdem",
+          "sie",
+          "sie",
+          "begrüßt",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „nachdem“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.099",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Aufgabe",
+        "fertig",
+        "ist",
+        ",",
+        "prüft",
+        "der",
+        "Teilnehmer",
+        "sein",
+        "Ergebnis",
+        ",",
+        "bevor",
+        "er",
+        "es",
+        "abgibt",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Aufgabe",
+          "fertig",
+          "ist",
+          ",",
+          "prüft",
+          "der",
+          "Teilnehmer",
+          "sein",
+          "Ergebnis",
+          ",",
+          "bevor",
+          "er",
+          "es",
+          "abgibt",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „bevor“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    },
+    {
+      "id": "sentence.hard.v1.100",
+      "level": "hard",
+      "tokens": [
+        "Wenn",
+        "die",
+        "Flasche",
+        "leer",
+        "ist",
+        ",",
+        "füllt",
+        "Mila",
+        "Wasser",
+        "nach",
+        ",",
+        "damit",
+        "sie",
+        "genug",
+        "zu",
+        "trinken",
+        "hat",
+        "."
+      ],
+      "solutions": [
+        [
+          "Wenn",
+          "die",
+          "Flasche",
+          "leer",
+          "ist",
+          ",",
+          "füllt",
+          "Mila",
+          "Wasser",
+          "nach",
+          ",",
+          "damit",
+          "sie",
+          "genug",
+          "zu",
+          "trinken",
+          "hat",
+          "."
+        ]
+      ],
+      "instruction": "Beginne mit dem wenn-Satz. Der Teil mit „damit“ steht am Ende.",
+      "hint": "Der erste Nebensatz endet mit einem Komma. Danach beginnt der Hauptsatz mit seinem gebeugten Verb. Trenne auch den letzten Satzteil mit einem Komma ab."
+    }
+  ]
+}

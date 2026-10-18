@@ -1,11 +1,13 @@
 import { dataSchema, previousDataSchema, legacyDataSchema, emptyLearning, emptyStudy, type UserData } from '../lib/schema';
+import {standardCards,standardVocabulary} from '../study/cards';
+import {words} from '../activities/content';
 import { questions } from '../content';
 import { skillFor } from './tasks';
 import { emptyCompetency } from './mastery';
 export function migrateData(value: unknown): UserData {
   if(typeof value==='object'&&value!==null&&'version' in value){
-    if(value.version===3)return dataSchema.parse(value);
-    if(value.version===2)return dataSchema.parse({...previousDataSchema.parse(value),version:3,study:emptyStudy()});
+    if(value.version===3)return migrateActivities(dataSchema.parse(value));
+    if(value.version===2)return migrateActivities(dataSchema.parse({...previousDataSchema.parse(value),version:3,study:emptyStudy()}));
   }
   const legacy=legacyDataSchema.parse(value);const learning=emptyLearning();
   for(const question of questions) {
@@ -14,10 +16,20 @@ export function migrateData(value: unknown): UserData {
     skill.baseline.attempts+=progress.attempts;skill.baseline.correct+=progress.correct;
     learning.competencies[skillId]=skill;
   }
-  return dataSchema.parse({...legacy,version:3,learning,study:emptyStudy()});
+  return migrateActivities(dataSchema.parse({...legacy,version:3,learning,study:emptyStudy()}));
 }
 
 /** Restoring an older backup replaces learning data, but never takes earned picture pieces away. */
 export function prepareImport(current:UserData,incoming:UserData):UserData {
   return {...incoming,learning:{...incoming.learning,unlocks:{...current.learning.unlocks,...incoming.learning.unlocks}}};
+}
+
+/** One-time, lossless transition: edited defaults become personal copies. */
+export function migrateActivities(data:UserData):UserData {
+ if(data.activities.migrated&&!data.cards.some(card=>standardCards.some(standard=>standard.id===card.id)))return data;
+ const cards=[...data.cards],reviews={...data.study.reviews};
+ for(const card of standardCards){const edited=data.activities.migrated?undefined:data.study.defaultEdits[card.id],collision=cards.find(c=>c.id===card.id);const copy=collision??edited;if(!copy)continue;let id=`recovered.${card.id}`,suffix=2;while(cards.some(c=>c.id===id&&(c.front!==copy.front||c.back!==copy.back||c.subject!==copy.subject)))id=`recovered.${card.id}.${suffix++}`;if(!cards.some(c=>c.id===id)){cards.push({...copy,id});if(reviews[card.id])reviews[id]={...reviews[card.id]};}if(collision)cards.splice(cards.indexOf(collision),1);}
+ const results={...data.activities.vocabulary.words};
+ for(const old of standardVocabulary){const progress=data.progress[old.id],entry=words.find(w=>w.word.toLocaleLowerCase('de')===old.word.toLocaleLowerCase('de'));if(entry&&progress?.attempts&&!results[entry.id])results[entry.id]={attempts:progress.attempts,correct:progress.correct,lastCorrect:progress.correct===progress.attempts,at:progress.lastAward};}
+ return dataSchema.parse({...data,cards,study:{...data.study,reviews},activities:{...data.activities,migrated:true,vocabulary:{...data.activities.vocabulary,words:results}}});
 }

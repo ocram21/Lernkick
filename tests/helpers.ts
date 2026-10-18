@@ -2,9 +2,10 @@ import { readFileSync } from 'node:fs';
 import type { Page } from '@playwright/test';
 import type { Question } from '../src/lib/schema';
 export const catalog:Question[]=['math','german','social','biology','geography'].flatMap(subject=>JSON.parse(readFileSync(new URL(`../src/content/${subject}.json`,import.meta.url),'utf8')).questions);
+const topicVocabulary=JSON.parse(readFileSync(new URL('../src/content/vocabularyTopics.json',import.meta.url),'utf8')).entries as {word:string;meaning:string}[];
 const vocabulary=JSON.parse(readFileSync(new URL('../src/content/vocabulary.json',import.meta.url),'utf8')).entries as {word:string;meaning:string}[];
 export function solution(prompt:string,available:string[]=[]):string {
-  const word=vocabulary.find(entry=>prompt===`Was bedeutet „${entry.word}“?`);if(word&&available.includes(word.meaning))return word.meaning;
+  const word=[...topicVocabulary,...vocabulary].find(entry=>prompt===`Was bedeutet „${entry.word}“?`&&available.includes(entry.meaning));if(word&&available.includes(word.meaning))return word.meaning;
   const question=catalog.find(q=>q.prompt===prompt);if(question)return question.options[question.correct];
   let match=prompt.match(/^Welche Zahl ist größer: (\d+) oder (\d+)\?$/);if(match)return String(Math.max(+match[1],+match[2]));
   match=prompt.match(/^Wie viel ist (\d+) ([+−×÷]) (\d+)\?$/);
@@ -14,6 +15,7 @@ export function solution(prompt:string,available:string[]=[]):string {
   throw new Error('Keine Testlösung für: '+prompt);
 }
 export async function answerCorrect(page:Page) {
+  await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').first().waitFor({state:'visible'});
   const available=await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').locator('span:nth-child(2)').allTextContents();
   const value=solution(await page.locator('.question h1').innerText(),available);
   await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').filter({has:page.getByText(value,{exact:true})}).click();

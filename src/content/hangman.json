@@ -1,0 +1,562 @@
+[
+  {
+    "id": "hangman.normal.001",
+    "level": "normal",
+    "word": "Kuh",
+    "hint": "Dieses Tier gibt Milch.",
+    "extra": "Es lebt oft auf einem Bauernhof."
+  },
+  {
+    "id": "hangman.normal.002",
+    "level": "normal",
+    "word": "Hund",
+    "hint": "Dieses Tier bellt.",
+    "extra": "Viele Menschen gehen mit ihm spazieren."
+  },
+  {
+    "id": "hangman.normal.003",
+    "level": "normal",
+    "word": "Katze",
+    "hint": "Dieses Tier miaut.",
+    "extra": "Es hat weiche Pfoten und Krallen."
+  },
+  {
+    "id": "hangman.normal.004",
+    "level": "normal",
+    "word": "Brot",
+    "hint": "Du schneidest davon eine Scheibe ab und belegst sie.",
+    "extra": "Du kaufst es oft beim Bäcker."
+  },
+  {
+    "id": "hangman.normal.005",
+    "level": "normal",
+    "word": "Apfel",
+    "hint": "Dieses Obst wächst am Baum und hat ein Kerngehäuse.",
+    "extra": "Die Schale kann rot oder grün sein."
+  },
+  {
+    "id": "hangman.normal.006",
+    "level": "normal",
+    "word": "Banane",
+    "hint": "Dieses Obst ist lang und meist gelb.",
+    "extra": "Du schälst es vor dem Essen."
+  },
+  {
+    "id": "hangman.normal.007",
+    "level": "normal",
+    "word": "Milch",
+    "hint": "Dieses Getränk kommt zum Beispiel von Kühen.",
+    "extra": "Es steht gekühlt im Supermarkt."
+  },
+  {
+    "id": "hangman.normal.008",
+    "level": "normal",
+    "word": "Wasser",
+    "hint": "Du trinkst es gegen Durst.",
+    "extra": "Es kommt auch aus dem Hahn."
+  },
+  {
+    "id": "hangman.normal.009",
+    "level": "normal",
+    "word": "Suppe",
+    "hint": "Dieses Essen löffelst du aus einem Teller.",
+    "extra": "Man kocht sie in einem Topf."
+  },
+  {
+    "id": "hangman.normal.010",
+    "level": "normal",
+    "word": "Tasse",
+    "hint": "Daraus trinkst du Tee oder Kaffee.",
+    "extra": "Sie hat oft einen Henkel."
+  },
+  {
+    "id": "hangman.normal.011",
+    "level": "normal",
+    "word": "Teller",
+    "hint": "Darauf liegt dein Essen.",
+    "extra": "Nach dem Essen wird er gespült."
+  },
+  {
+    "id": "hangman.normal.012",
+    "level": "normal",
+    "word": "Löffel",
+    "hint": "Damit isst du Suppe.",
+    "extra": "Er gehört zum Besteck."
+  },
+  {
+    "id": "hangman.normal.013",
+    "level": "normal",
+    "word": "Gabel",
+    "hint": "Damit spießt du Essen auf.",
+    "extra": "Sie hat mehrere Zinken."
+  },
+  {
+    "id": "hangman.normal.014",
+    "level": "normal",
+    "word": "Messer",
+    "hint": "Damit schneidest du Brot.",
+    "extra": "Die Klinge ist scharf."
+  },
+  {
+    "id": "hangman.normal.015",
+    "level": "normal",
+    "word": "Tisch",
+    "hint": "Daran kannst du sitzen und essen.",
+    "extra": "Er hat eine Platte und Beine."
+  },
+  {
+    "id": "hangman.normal.016",
+    "level": "normal",
+    "word": "Stuhl",
+    "hint": "Darauf sitzt eine Person.",
+    "extra": "Er hat meist eine Rückenlehne."
+  },
+  {
+    "id": "hangman.normal.017",
+    "level": "normal",
+    "word": "Lampe",
+    "hint": "Du schaltest sie ein, wenn es dunkel ist.",
+    "extra": "Sie macht Licht."
+  },
+  {
+    "id": "hangman.normal.018",
+    "level": "normal",
+    "word": "Fenster",
+    "hint": "Du öffnest es zum Lüften.",
+    "extra": "Du kannst durch das Glas schauen."
+  },
+  {
+    "id": "hangman.normal.019",
+    "level": "normal",
+    "word": "Schuh",
+    "hint": "Du ziehst ihn an deinen Fuß.",
+    "extra": "Es gibt ihn für links und rechts."
+  },
+  {
+    "id": "hangman.normal.020",
+    "level": "normal",
+    "word": "Jacke",
+    "hint": "Du ziehst sie über, wenn dir kalt ist.",
+    "extra": "Sie hat meistens Ärmel und Taschen."
+  },
+  {
+    "id": "hangman.normal.021",
+    "level": "normal",
+    "word": "Hose",
+    "hint": "Du ziehst sie über deine Beine.",
+    "extra": "Jeans sind ein Beispiel dafür."
+  },
+  {
+    "id": "hangman.normal.022",
+    "level": "normal",
+    "word": "Mütze",
+    "hint": "Du setzt sie auf den Kopf, wenn es kalt ist.",
+    "extra": "Sie hält oft auch die Ohren warm."
+  },
+  {
+    "id": "hangman.normal.023",
+    "level": "normal",
+    "word": "Besen",
+    "hint": "Damit fegst du den Boden.",
+    "extra": "Unten sitzen viele Borsten."
+  },
+  {
+    "id": "hangman.normal.024",
+    "level": "normal",
+    "word": "Eimer",
+    "hint": "Darin trägst du Wasser.",
+    "extra": "Er hat einen Griff zum Tragen."
+  },
+  {
+    "id": "hangman.normal.025",
+    "level": "normal",
+    "word": "Seife",
+    "hint": "Damit wäschst du deine Hände.",
+    "extra": "Mit Wasser entsteht oft Schaum."
+  },
+  {
+    "id": "hangman.normal.026",
+    "level": "normal",
+    "word": "Handtuch",
+    "hint": "Damit trocknest du deine Hände ab.",
+    "extra": "Du findest es im Bad."
+  },
+  {
+    "id": "hangman.normal.027",
+    "level": "normal",
+    "word": "Bus",
+    "hint": "Dieses Fahrzeug bringt viele Menschen zur Haltestelle.",
+    "extra": "Du brauchst meist eine Fahrkarte."
+  },
+  {
+    "id": "hangman.normal.028",
+    "level": "normal",
+    "word": "Zug",
+    "hint": "Dieses Fahrzeug fährt auf Schienen.",
+    "extra": "Du steigst am Bahnsteig ein."
+  },
+  {
+    "id": "hangman.normal.029",
+    "level": "normal",
+    "word": "Fahrrad",
+    "hint": "Du trittst in die Pedale, damit es fährt.",
+    "extra": "Es hat normalerweise zwei Räder."
+  },
+  {
+    "id": "hangman.normal.030",
+    "level": "normal",
+    "word": "Ampel",
+    "hint": "Sie zeigt im Verkehr rotes, gelbes oder grünes Licht.",
+    "extra": "Du findest sie oft an einer Kreuzung."
+  },
+  {
+    "id": "hangman.normal.031",
+    "level": "normal",
+    "word": "Brief",
+    "hint": "Diese Nachricht schickst du in einem Umschlag.",
+    "extra": "Du kannst eine Briefmarke darauf kleben."
+  },
+  {
+    "id": "hangman.normal.032",
+    "level": "normal",
+    "word": "Handy",
+    "hint": "Damit kannst du unterwegs anrufen.",
+    "extra": "Du lädst seinen Akku auf."
+  },
+  {
+    "id": "hangman.normal.033",
+    "level": "normal",
+    "word": "Heft",
+    "hint": "Darin schreibst du im Unterricht.",
+    "extra": "Es hat zusammengeheftete Seiten."
+  },
+  {
+    "id": "hangman.normal.034",
+    "level": "normal",
+    "word": "Stift",
+    "hint": "Damit schreibst oder zeichnest du.",
+    "extra": "Du hältst ihn in der Hand."
+  },
+  {
+    "id": "hangman.normal.035",
+    "level": "normal",
+    "word": "Buch",
+    "hint": "Darin kannst du eine Geschichte lesen.",
+    "extra": "Es besteht aus vielen Seiten."
+  },
+  {
+    "id": "hangman.normal.036",
+    "level": "normal",
+    "word": "Blume",
+    "hint": "Diese Pflanze hat oft bunte Blüten.",
+    "extra": "Du stellst sie manchmal in eine Vase."
+  },
+  {
+    "id": "hangman.normal.037",
+    "level": "normal",
+    "word": "Baum",
+    "hint": "Diese Pflanze hat einen Stamm und Äste.",
+    "extra": "Viele davon haben Blätter."
+  },
+  {
+    "id": "hangman.normal.038",
+    "level": "normal",
+    "word": "Vogel",
+    "hint": "Dieses Tier hat Federn und einen Schnabel.",
+    "extra": "Viele Arten können fliegen."
+  },
+  {
+    "id": "hangman.normal.039",
+    "level": "normal",
+    "word": "Straße",
+    "hint": "Hier fahren Autos und Busse.",
+    "extra": "Du überquerst sie vorsichtig."
+  },
+  {
+    "id": "hangman.normal.040",
+    "level": "normal",
+    "word": "Schlüssel",
+    "hint": "Damit schließt du eine passende Tür auf.",
+    "extra": "Er passt in ein bestimmtes Schloss."
+  },
+  {
+    "id": "hangman.hard.001",
+    "level": "hard",
+    "word": "Schraubendreher",
+    "hint": "Damit drehst du eine Schraube fest oder locker.",
+    "extra": "Das Werkzeug hat einen Griff und eine Spitze."
+  },
+  {
+    "id": "hangman.hard.002",
+    "level": "hard",
+    "word": "Wasserwaage",
+    "hint": "Damit prüfst du, ob etwas gerade hängt.",
+    "extra": "Im Werkzeug zeigt eine kleine Blase die Lage."
+  },
+  {
+    "id": "hangman.hard.003",
+    "level": "hard",
+    "word": "Schutzbrille",
+    "hint": "Du trägst sie bei Arbeiten zum Schutz der Augen.",
+    "extra": "Sie sitzt wie eine Brille vor deinem Gesicht."
+  },
+  {
+    "id": "hangman.hard.004",
+    "level": "hard",
+    "word": "Gehörschutz",
+    "hint": "Du trägst ihn bei lautem Lärm an den Ohren.",
+    "extra": "Er dämpft Geräusche."
+  },
+  {
+    "id": "hangman.hard.005",
+    "level": "hard",
+    "word": "Handschuh",
+    "hint": "Du ziehst ihn über die Hand, um sie zu schützen.",
+    "extra": "Für eine rechte und linke Hand gibt es ein Paar."
+  },
+  {
+    "id": "hangman.hard.006",
+    "level": "hard",
+    "word": "Zollstock",
+    "hint": "Du klappst ihn auf, um eine Länge zu messen.",
+    "extra": "Er wird oft in der Werkstatt benutzt."
+  },
+  {
+    "id": "hangman.hard.007",
+    "level": "hard",
+    "word": "Bohrmaschine",
+    "hint": "Damit machst du ein rundes Loch in ein Brett.",
+    "extra": "Vorne dreht sich ein Bohrer."
+  },
+  {
+    "id": "hangman.hard.008",
+    "level": "hard",
+    "word": "Schraubstock",
+    "hint": "Darin spannst du ein Werkstück fest.",
+    "extra": "So kannst du mit beiden Händen arbeiten."
+  },
+  {
+    "id": "hangman.hard.009",
+    "level": "hard",
+    "word": "Mülltrennung",
+    "hint": "Du sortierst dabei Papier, Glas und andere Abfälle.",
+    "extra": "Nicht alles kommt in dieselbe Tonne."
+  },
+  {
+    "id": "hangman.hard.010",
+    "level": "hard",
+    "word": "Kühlschrank",
+    "hint": "Hier bleibt dein Essen kühl.",
+    "extra": "Du findest ihn meist in der Küche."
+  },
+  {
+    "id": "hangman.hard.011",
+    "level": "hard",
+    "word": "Waschmaschine",
+    "hint": "Dieses Gerät wäscht schmutzige Kleidung.",
+    "extra": "Du gibst Waschmittel hinein."
+  },
+  {
+    "id": "hangman.hard.012",
+    "level": "hard",
+    "word": "Spülmittel",
+    "hint": "Damit reinigst du Teller und Tassen.",
+    "extra": "Ein kleiner Spritzer kommt ins Spülwasser."
+  },
+  {
+    "id": "hangman.hard.013",
+    "level": "hard",
+    "word": "Feuerlöscher",
+    "hint": "Damit kann ein kleiner beginnender Brand bekämpft werden.",
+    "extra": "Das Gerät hängt oft gut sichtbar an der Wand."
+  },
+  {
+    "id": "hangman.hard.014",
+    "level": "hard",
+    "word": "Notausgang",
+    "hint": "Hier kannst du bei Gefahr aus einem Gebäude hinaus.",
+    "extra": "Er ist deutlich gekennzeichnet."
+  },
+  {
+    "id": "hangman.hard.015",
+    "level": "hard",
+    "word": "Haltestelle",
+    "hint": "Hier wartest du auf den Bus.",
+    "extra": "Der Fahrplan zeigt die Abfahrtszeiten."
+  },
+  {
+    "id": "hangman.hard.016",
+    "level": "hard",
+    "word": "Bahnsteig",
+    "hint": "Hier wartest du direkt am Gleis auf den Zug.",
+    "extra": "Du bleibst hinter der Sicherheitslinie."
+  },
+  {
+    "id": "hangman.hard.017",
+    "level": "hard",
+    "word": "Fahrkarte",
+    "hint": "Du brauchst sie für eine Fahrt mit Bus oder Bahn.",
+    "extra": "Sie kann aus Papier oder digital sein."
+  },
+  {
+    "id": "hangman.hard.018",
+    "level": "hard",
+    "word": "Fahrplan",
+    "hint": "Hier liest du, wann dein Bus fährt.",
+    "extra": "Er zeigt Zeiten und oft auch Haltestellen."
+  },
+  {
+    "id": "hangman.hard.019",
+    "level": "hard",
+    "word": "Bewerbung",
+    "hint": "Damit zeigst du einem Betrieb, dass du eine Stelle möchtest.",
+    "extra": "Dazu gehören oft Lebenslauf und Anschreiben."
+  },
+  {
+    "id": "hangman.hard.020",
+    "level": "hard",
+    "word": "Lebenslauf",
+    "hint": "Hier stehen deine Schulzeiten und bisherigen Tätigkeiten.",
+    "extra": "Er gehört meistens zu einer Bewerbung."
+  },
+  {
+    "id": "hangman.hard.021",
+    "level": "hard",
+    "word": "Praktikum",
+    "hint": "Dabei lernst du die Arbeit in einem Betrieb kennen.",
+    "extra": "Es dauert nur eine begrenzte Zeit."
+  },
+  {
+    "id": "hangman.hard.022",
+    "level": "hard",
+    "word": "Werkstatt",
+    "hint": "Hier werden Dinge gebaut oder repariert.",
+    "extra": "Hier liegen oft viele Werkzeuge."
+  },
+  {
+    "id": "hangman.hard.023",
+    "level": "hard",
+    "word": "Lieferung",
+    "hint": "Ein Fahrer bringt dabei bestellte Waren.",
+    "extra": "Dazu kann ein Lieferschein gehören."
+  },
+  {
+    "id": "hangman.hard.024",
+    "level": "hard",
+    "word": "Rechnung",
+    "hint": "Hier steht, welchen Betrag du bezahlen sollst.",
+    "extra": "Du findest darauf oft einzelne Preise."
+  },
+  {
+    "id": "hangman.hard.025",
+    "level": "hard",
+    "word": "Quittung",
+    "hint": "Sie bestätigt, dass du etwas bezahlt hast.",
+    "extra": "Bewahre den Beleg gut auf."
+  },
+  {
+    "id": "hangman.hard.026",
+    "level": "hard",
+    "word": "Terminkalender",
+    "hint": "Hier trägst du ein, wann du verabredet bist.",
+    "extra": "Er hilft dir, keine Treffen zu vergessen."
+  },
+  {
+    "id": "hangman.hard.027",
+    "level": "hard",
+    "word": "Unterschrift",
+    "hint": "Du schreibst deinen Namen zur Bestätigung unter ein Dokument.",
+    "extra": "Du setzt sie meist mit der Hand darunter."
+  },
+  {
+    "id": "hangman.hard.028",
+    "level": "hard",
+    "word": "Ausbildung",
+    "hint": "Dabei lernst du einen Beruf.",
+    "extra": "Oft gehören Betrieb und Berufsschule dazu."
+  },
+  {
+    "id": "hangman.hard.029",
+    "level": "hard",
+    "word": "Berufsschule",
+    "hint": "Hier lernst du zusätzlich zur Arbeit im Ausbildungsbetrieb.",
+    "extra": "Es ist Unterricht für deinen Beruf."
+  },
+  {
+    "id": "hangman.hard.030",
+    "level": "hard",
+    "word": "Arbeitsplatz",
+    "hint": "Hier erledigst du deine beruflichen Aufgaben.",
+    "extra": "Das kann zum Beispiel eine Werkbank oder ein Schreibtisch sein."
+  },
+  {
+    "id": "hangman.hard.031",
+    "level": "hard",
+    "word": "Pausenraum",
+    "hint": "Hier kannst du dich bei der Arbeit kurz ausruhen.",
+    "extra": "Oft stehen dort Tische und Stühle."
+  },
+  {
+    "id": "hangman.hard.032",
+    "level": "hard",
+    "word": "Stundenplan",
+    "hint": "Hier steht, welches Unterrichtsfach wann stattfindet.",
+    "extra": "Er ist nach Wochentagen geordnet."
+  },
+  {
+    "id": "hangman.hard.033",
+    "level": "hard",
+    "word": "Ladekabel",
+    "hint": "Damit verbindest du dein Handy zum Aufladen.",
+    "extra": "Ein Ende kommt an das Gerät."
+  },
+  {
+    "id": "hangman.hard.034",
+    "level": "hard",
+    "word": "Datenschutz",
+    "hint": "Dabei sollen persönliche Angaben geschützt werden.",
+    "extra": "Fremde sollen deine Daten nicht einfach nutzen können."
+  },
+  {
+    "id": "hangman.hard.035",
+    "level": "hard",
+    "word": "Passwort",
+    "hint": "Damit schützt du den Zugang zu deinem Konto.",
+    "extra": "Du hältst es geheim."
+  },
+  {
+    "id": "hangman.hard.036",
+    "level": "hard",
+    "word": "Briefkasten",
+    "hint": "Hier wirft der Zusteller deine Briefe hinein.",
+    "extra": "Du leerst ihn regelmäßig."
+  },
+  {
+    "id": "hangman.hard.037",
+    "level": "hard",
+    "word": "Treppenhaus",
+    "hint": "Durch diesen gemeinsamen Bereich gehst du zu den Wohnungen.",
+    "extra": "Hier führen Stufen von einem Stockwerk zum nächsten."
+  },
+  {
+    "id": "hangman.hard.038",
+    "level": "hard",
+    "word": "Wasserhahn",
+    "hint": "Du drehst ihn auf, damit Wasser läuft.",
+    "extra": "Du findest ihn am Waschbecken."
+  },
+  {
+    "id": "hangman.hard.039",
+    "level": "hard",
+    "word": "Pünktlichkeit",
+    "hint": "Du zeigst sie, wenn du zur vereinbarten Zeit da bist.",
+    "extra": "Du kommst dann nicht zu spät."
+  },
+  {
+    "id": "hangman.hard.040",
+    "level": "hard",
+    "word": "Teamarbeit",
+    "hint": "Dabei lösen mehrere Menschen gemeinsam eine Aufgabe.",
+    "extra": "Gute Absprachen helfen dabei."
+  }
+]

@@ -1,6 +1,6 @@
 # LernKick
 
-Produktkontext aus dem vom Nutzer zur Umsetzung übergebenen Briefing, Stand 17.10.2026.
+Produktkontext aus dem vom Nutzer zur Umsetzung übergebenen Briefing, Stand 18.10.2026.
 
 Mobile installierbare Lern-PWA für Jugendliche einer BvB-Reha-Klasse. Ziel ist die Vorbereitung auf den qualifizierten Hauptschulabschluss in Sachsen-Anhalt. Kurze, verständliche Runden fördern Erfolgserlebnisse; Fehler führen zu Erklärungen und späteren Wiederholungen. Keine Bestrafung und keine Badges.
 
@@ -8,7 +8,7 @@ React, TypeScript, Vite, Workbox und IndexedDB. Statisches Hosting auf GitHub Pa
 
 Umsetzung: zehn Fragen je Runde in allen fünf Fächern, je 100 Fragen im Bestand. Die Aufgaben sind selbst erstelltes Übungsmaterial und keine offiziellen Prüfungsfragen. Die Recherche offizieller Lehrplanquellen liegt vor; der konkrete Prüfungsweg und die Freigabe durch Fachlehrkräfte bleiben abzugleichen.
 
-Gestaltung laut Brief: Streetstyle/Skater/Arcade, kräftige Akzente, klare Kontraste, große Touchflächen, zurückhaltende Animationen. Annahme zur ersten Demo: dunkle neutrale Fläche, Limettengrün, kräftige kondensierte Überschriften, Fachfarben. Diese konkrete Ausgestaltung ist eine vorläufige Annahme bis zur Rückmeldung.
+Gestaltung laut Brief: Streetstyle/Skater/Arcade, kräftige Akzente, klare Kontraste, große Touchflächen, zurückhaltende Animationen. Annahme zur ersten Demo: dunkle neutrale Fläche, Limettengrün, kräftige kondensierte Überschriften, Fachfarben. Diese Oberfläche wurde vom Nutzer im Änderungsauftrag vom 18.10.2026 bestätigt und bleibt erhalten.
 
 Aktueller Umfang auf Nutzerwunsch: 100 Fragen je Fach, insgesamt 500. Quellen und Anforderungen wurden am 17.10.2026 recherchiert; Fachlehrpläne Sekundarschule (Dokumentstand 01.08.2019) und aktuelle verlinkte bLf-Fachhinweise bilden die Orientierung. Alle fünf Fächer spielbar. Die Oberfläche trägt keine Demo-Kennzeichnung; die offene Freigabe durch Fachlehrkräfte wird in den Einstellungen erklärt. Inhaltsrevision und Lehrplanbezüge sind im Format 2 dokumentiert; Nutzerdaten werden aus Format 1 und 2 verlustfrei in Format 3 übernommen.
 
@@ -20,12 +20,14 @@ Mathe-Pilot laut Entwicklungsauftrag: kleine veränderliche Kompetenzen, determi
 
 Fachauswahl auf ausdrücklichen Nutzerwunsch als abgerundete quadratische Buttons mit MA, D, SK, Bio und Geo. Vollständige Fachnamen bleiben zugänglich. Verlassen einer laufenden Runde über Zurückpfeil oder Logo erst nach eigener Bestätigung; die Automatik pausiert während der Abfrage.
 
-Fortschritt auf ausdrücklichen Nutzerwunsch: nur Überschrift „Fortschritt“, Fachkürzel und das jeweilige Bild auf einer Bildschirmhöhe. Keine sichtbaren Erklärtexte, Zähler, Kompetenzlisten oder Bestleistungen. Die Bezeichnung „Wimmelbild“ entfällt in der Oberfläche. Bestleistungen und Kompetenzdaten bleiben gespeichert.
+Fachbilder unter „Fortschritt“ auf ausdrücklichen Nutzerwunsch: nur Überschrift „Fortschritt“, Fachkürzel und das jeweilige Bild auf einer Bildschirmhöhe. Keine sichtbaren Erklärtexte, Zähler, Kompetenzlisten oder Bestleistungen. Die Bezeichnung „Wimmelbild“ entfällt in der Oberfläche. Der neue Lernangebot-Schalter ergänzt individuelle Detailstände für Spiele, Wortschatz, Satzbau und Karten. Bestleistungen und Kompetenzdaten bleiben gespeichert.
 
-Bestätigte Überarbeitung vom 17.10.2026: Lernform zuerst (Lernrunde, Freies Üben, Karten), Fach danach. Eigener Alltagswortschatz mit Auswahlantworten und eigenen Einträgen. 75 bearbeitbare Standardkarten; persönliche Löschungen und Bearbeitungen bleiben von Updates getrennt. Selbstbewertung „Gewusst“ / „Noch üben“ plant Kartenwiederholungen. Zwölf Fortschrittsfelder je Fach: vier richtige von fünf verschiedenen selbstständig gelösten Aufgaben, Wiederholungssperre 24 Stunden; alte Felder bleiben erhalten. Hilfe stark gekürzt, Sicherungen in Einstellungen oben kompakt erreichbar.
+Bestätigte Überarbeitung vom 17.10.2026: Lernform zuerst (Lernrunde, Freies Üben, Karten), Fach danach. Alltag und Beruf mit je 200 festen Auswahlfragen, Satzbau mit 200 Aufgaben. Drei unabhängige Bereichsschalter ermöglichen gemischte Runden. Eigene Wortverwaltung entfällt; vorhandene Wortdaten bleiben im Backup. 75 Standardkarten sind unveränderlich. Nur eigene Karten werden unter „Meine Karten“ verwaltet; frühere Standard-Bearbeitungen werden als eigene Fassungen übernommen. Selbstbewertung „Gewusst“ / „Noch üben“ plant Kartenwiederholungen. Zwölf Fortschrittsfelder je Fach: vier richtige von fünf verschiedenen selbstständig gelösten Aufgaben, Wiederholungssperre 24 Stunden; alte Felder bleiben erhalten. Hilfe stark gekürzt, Sicherungen in Einstellungen oben kompakt erreichbar.
 
 Erweiterungsauftrag: Unteren Schriftzug entfernen, Kartensuche und Sortierung mit zehn Einträgen pro Schritt, Galgenraten aus bestehendem Lernstoff direkt auf der Startseite. Keine neuen Fächer. Aktive Spielansicht kompakt ohne Scrollen auf typischen Handys; Bildschirmtasten vermeiden eine zusätzliche OS-Tastatur.
 
-Galgenraten ist das einzige Spiel, ohne gesonderte Auswahlseite. Eigene Tasten für Ä, Ö, Ü und ß, keine Umschrift; Groß-/Kleinschreibung wird ohne Zusammenführen verschiedener Buchstaben vereinheitlicht. Zehn Fehlversuche; Zeichnung beginnt leer und wächst mit jedem Fehler um ein Element. Feedbackfunktion bleibt entfernt.
+Galgenraten und Deutschlandquiz haben direkte Einstiege ohne gesonderte Spielauswahl. Eigene Tasten für Ä, Ö, Ü und ß, keine Umschrift; Groß-/Kleinschreibung wird ohne Zusammenführen verschiedener Buchstaben vereinheitlicht. Zehn Fehlversuche; Zeichnung beginnt leer und wächst mit jedem Fehler um ein Element. Feedbackfunktion bleibt entfernt.
 
 35 offline verfügbare Lerntafeln und das zweistufige Deutschlandquiz ergänzen die bestehenden Lernformen. Details und offene Abnahme: [Erweiterungsbericht](docs/ERWEITERUNGSKONZEPT-2026-10-18.md).
+
+Bestätigte Änderung vom 18.10.2026: Hauptstädte in feste Länderzeilen statt auf die Karte zuordnen. Einzelne Spiel-/Übungsstände inklusive Satzentwürfen speichern. Galgenraten und Satzbau zeigen exakt „Normal“ und „Für Streber“; freiwillige Zusatzhilfe in beiden Galgenraten-Stufen. Satzbau bewertet nur auf „Überprüfen“ und erlaubt Korrektur, Überspringen und optionale kurze Vibration. Fachbilder, Lerntafeln und untere Navigation erhalten. Fortschritts-Reset ausschließlich in Einstellungen und erst nach ausdrücklicher Zusatzbestätigung; eigene Inhalte bleiben. Leitner-Runden enthalten nur neue und fällige Karten. Details: [Änderungsbericht](docs/AENDERUNGEN-2026-10-18.md).
