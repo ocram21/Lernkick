@@ -49,4 +49,3 @@ export async function backupBeforeImport() { const database = await db(), tx = d
     await tx.store.put(value, `backup.import.${Date.now()}`); await tx.done; }
 export function readBackup(text: string): UserData { if (text.length > 5000000)
     throw new Error('Die Datei ist zu groß (maximal 5 MB).'); return migrateData(JSON.parse(text)); }
-export async function previousBackup(): Promise<string | null> { const database = await db(), keys = await database.getAllKeys('user'); const key = keys.filter(k => String(k).startsWith('backup.import.')).sort().at(-1) ?? keys.find(k => k === 'backup.before-journey'); return key ? JSON.stringify(await database.get('user', key), null, 2) : null; }

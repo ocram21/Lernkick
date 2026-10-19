@@ -21,6 +21,12 @@ try{
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
  mkdirSync('.impeccable/review',{recursive:true});
  await page.screenshot({path:'.impeccable/review/live-mobile.png',fullPage:true});
+ await page.getByRole('button',{name:'Einstellungen',exact:true}).click();
+ assert.equal(await page.getByRole('button',{name:'Vorher-Sicherung exportieren',exact:true}).count(),0);
+ assert.equal((await page.locator('.settings-page').innerText()).includes('Darstellung: Retro Tech'),false);
+ assert.equal(await page.getByRole('button',{name:'Sicherung exportieren',exact:true}).count(),1);
+ assert.equal(await page.locator('.import-button').count(),1);
+ await page.getByRole('button',{name:'Lernen',exact:true}).click();
  await page.getByRole('button',{name:'Mathematik, Level 1',exact:true}).click();
  await page.locator('.answer').first().click();await page.locator('.feedback').waitFor();
  const attempts=()=>page.evaluate(()=>new Promise(resolve=>{const r=indexedDB.open('lernkick',1);r.onsuccess=()=>{const db=r.result,g=db.transaction('user').objectStore('user').get('data');g.onsuccess=()=>{resolve(Object.values(g.result.progress).reduce((n,p)=>n+p.attempts,0));db.close();};};}));
@@ -41,5 +47,5 @@ try{
  await context.setOffline(false);await page.setViewportSize({width:1440,height:900});
  await page.screenshot({path:'.impeccable/review/live-desktop.png',fullPage:true});
  assert.deepEqual(errors,[]);
- console.log(JSON.stringify({url,release:expected.release,httpStatus:200,keys:9,palette:'verified',math:'answer saved',nback:'loaded online and offline',offlineReload:'passed',preservedAttempts:1,runtimeErrors:errors},null,2));
+ console.log(JSON.stringify({url,release:expected.release,httpStatus:200,keys:9,palette:'verified',settings:'only regular export and import',math:'answer saved',nback:'loaded online and offline',offlineReload:'passed',preservedAttempts:1,runtimeErrors:errors},null,2));
 }finally{await browser.close();}
