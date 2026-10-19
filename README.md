@@ -1,5 +1,7 @@
 # LernKick
 
+**Aktueller Änderungsstand:** Lerntafeln durch Dual N-Back ersetzt. 70 Tests und Produktionsbuild erfolgreich; Browserabnahme und Vergleich mit der externen Spielquelle bleiben offen. [Prüfstand](docs/DUAL-N-BACK-2026-10-19.md).
+
 **Live-PWA:** [LernKick öffnen](https://lernkick.eu/)
 
 Mobile Lern-PWA für einen BvB-Reha-Piloten. Lernangebot mit 500 redaktionellen Fragen und einem adaptiven Mathe-Piloten mit zusätzlichen generierten Aufgaben zur Vorbereitung auf den qualifizierten Hauptschulabschluss in Sachsen-Anhalt. **Keine offiziellen Prüfungsfragen, keine fachliche Freigabe.** Das Originalbriefing liegt in `docs/CODEX_BRIEF_LERN_PWA.md`.

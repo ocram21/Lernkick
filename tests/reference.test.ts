@@ -1,11 +1,7 @@
-import { describe,expect,it } from 'vitest';
-import { readFileSync } from 'node:fs';
-import { boards,categories,assetCredits,referenceSources } from '../src/reference/catalog';
-import { dataSchema,emptyData } from '../src/lib/schema';
-import { states,labelFor,placeRegion } from '../src/maps/quiz';
-describe('Lerntafeln und mitgelieferte Grafiken',()=>{
- it('deckt den vereinbarten Katalog in genau fünf Fächern ab',()=>{expect(boards).toHaveLength(34);expect(categories.map(c=>c.id)).toEqual(['math','german','biology','geography','social']);expect(Object.fromEntries(categories.map(c=>[c.id,boards.filter(b=>b.subject===c.id).length]))).toEqual({math:9,german:5,biology:7,geography:8,social:5});});
- it('liefert jede Grafik lokal und ohne externe Bild-/Script-Abhängigkeit',()=>{for(const b of boards){expect(b.sources.length).toBeGreaterThan(0);for(const source of b.sources)expect(referenceSources[source].url).toMatch(/^https:/);for(const f of b.figures){const svg=readFileSync(new URL(`../public/boards/${f.src}`,import.meta.url),'utf8');expect(svg).toContain('<svg');expect(svg).toMatch(/viewBox=/);expect(svg).not.toMatch(/<(?:script|foreignObject)\b|(?:href|src)=["'](?:https?:|\/\/)|url\(["']?https?:/i);if(b.visual==='anatomy'){if(assetCredits[f.src])expect(assetCredits[f.src].sourceUrl).toContain('commons.wikimedia.org');else expect(svg).toContain('eigenes, vereinfachtes Lernschema');expect(f.hotspots.length).toBeGreaterThan(0);}}}});
+import{describe,expect,it}from'vitest';
+import{dataSchema,emptyData}from'../src/lib/schema';
+import{states,labelFor,placeRegion}from'../src/maps/quiz';
+describe('Archivierte Favoriten in vorhandenen Sicherungen',()=>{
  it('liest ältere v3-Daten ohne Favoriten und bewahrt bestehende Lernstände',()=>{const old=emptyData();old.scores.math=70;old.cards=[{id:'own',front:'Frage',back:'Antwort',subject:'math'}];const {reference:_,...legacy}=old;const parsed=dataSchema.parse(legacy);expect(parsed.reference.favorites).toEqual([]);expect(parsed.scores).toEqual(old.scores);expect(parsed.cards).toEqual(old.cards);parsed.reference.favorites=['biology-digestion','math-plane'];expect(dataSchema.parse(JSON.parse(JSON.stringify(parsed)))).toEqual(parsed);});
 });
 describe('Deutschlandkarte',()=>{
