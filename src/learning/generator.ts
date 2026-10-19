@@ -8,7 +8,7 @@ export function generateTask(skillId: string, level: number, random: ()=>number 
   let a=0,b=0,result=0,explanation='',prompt='';const operation=skill.generator;
   const example=skill.example;
   if(operation==='compare') {
-    a=integer(0,difficulty===1?9:difficulty===2?19:99);b=(a+integer(1,difficulty===1?9:difficulty===2?19:99))%(difficulty===1?10:difficulty===2?20:100);
+    a=integer(difficulty===1?24:difficulty===2?80:180,difficulty===1?89:difficulty===2?199:999);b=a+integer(1,difficulty===1?9:difficulty===2?15:25)*(random()<.5?-1:1);
     result=Math.max(a,b);prompt=`Welche Zahl ist größer: ${a} oder ${b}?`;
     explanation=`${result} ist größer. Auf dem Zahlenstrahl liegt ${result} rechts von ${Math.min(a,b)}.`;
   } else if(operation==='add') {
@@ -16,7 +16,7 @@ export function generateTask(skillId: string, level: number, random: ()=>number 
       const ones=integer(2,9);a=(difficulty===1?0:integer(1,difficulty===2?3:7))*10+ones;b=integer(10-ones,9)+(difficulty===3?10:0);result=a+b;
       const toTen=10-ones;explanation=`Ergänze ${a} zuerst mit ${toTen} zum nächsten Zehner. Von ${b} bleiben ${b-toTen}. Rechne ${a+toTen} + ${b-toTen} = ${result}.`;
     } else {
-      const ones=integer(1,7), tens=difficulty===1?0:integer(1,difficulty===2?4:7);a=tens*10+ones;b=integer(1,9-ones)+(difficulty===3?10:0);result=a+b;
+      const ones=integer(1,7), tens=difficulty===1?integer(1,2):integer(1,difficulty===2?4:7);a=tens*10+ones;b=integer(1,9-ones)+(difficulty===3?10:0);result=a+b;
       explanation=`Addiere die Zehner und die Einer getrennt: ${Math.floor(a/10)*10} + ${Math.floor(b/10)*10} und ${a%10} + ${b%10}. Zusammen ergibt das ${result}.`;
     }
     prompt=`Wie viel ist ${a} + ${b}?`;
@@ -25,7 +25,7 @@ export function generateTask(skillId: string, level: number, random: ()=>number 
       const ones=integer(0,7);a=integer(1,difficulty===1?1:difficulty===2?4:8)*10+ones;b=integer(ones+1,9)+(difficulty===3&&a>=30?10:0);
       result=a-b;explanation=`Ziehe zuerst ${ones} ab, bis ${a-ones} erreicht ist. Dann noch ${b-ones} zurück: ${a-ones} − ${b-ones} = ${result}.`;
     } else {
-      const ones=integer(2,9);a=(difficulty===1?0:integer(1,difficulty===2?4:8))*10+ones;b=integer(1,ones)+(difficulty===3?10:0);result=a-b;
+      const ones=integer(2,9);a=(difficulty===1?integer(1,2):integer(1,difficulty===2?4:8))*10+ones;b=integer(1,ones)+(difficulty===3?10:0);result=a-b;
       explanation=`Ziehe Zehner und Einer getrennt ab. ${a} − ${b} ergibt ${result}. Die Probe ist ${result} + ${b} = ${a}.`;
     }
     prompt=`Wie viel ist ${a} − ${b}?`;

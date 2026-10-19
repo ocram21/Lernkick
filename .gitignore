@@ -6,4 +6,5 @@ dist/
 playwright-report/
 test-results/
 *.tsbuildinfo
-.impeccable/
+.impeccable/*
+!.impeccable/design.json

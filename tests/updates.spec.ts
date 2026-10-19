@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { resolve, sep, extname } from 'node:path';
 import { answerCorrect, answerWrong } from './helpers';
 import { emptyData } from '../src/lib/schema';
+import {newJourney} from '../src/learning/journey';
 
 test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async({page,context})=>{
   await page.setViewportSize({width:320,height:568});await page.goto('/');
@@ -14,7 +15,7 @@ test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async(
 });
 
 test('Antwort bleibt drei Sekunden sichtbar; Automatik lässt sich anhalten und fortsetzen',async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:/Mathematik .*100 Fragen/}).click();
+  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();
   const answer=()=>answerCorrect(page);
   await answer();await expect(page.locator('.feedback')).toBeVisible();
   await page.clock.install();
@@ -31,7 +32,7 @@ test('Antwort bleibt drei Sekunden sichtbar; Automatik lässt sich anhalten und 
 
 
 test('Falsche Antworten bleiben ohne Timer stehen, auch bei der letzten Frage',async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:/Mathematik .*100 Fragen/}).click();
+  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();
   await page.clock.install();
   for(let i=0;i<10;i++) {
     const prompt=await page.locator('.question h1').innerText();
@@ -46,7 +47,7 @@ test('Falsche Antworten bleiben ohne Timer stehen, auch bei der letzten Frage',a
     if(i===0) await page.screenshot({path:'test-results/wrong-answer-mobile.png'});
     await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage',exact:true}).click();
   }
-  await expect(page.getByRole('heading',{name:'Runde geschafft.'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Weiter üben.'})).toBeVisible();
   await expect(page.locator('.result-numbers')).toContainText('0/10');
 });
 
@@ -65,7 +66,7 @@ test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten'
     await page.goto(`http://127.0.0.1:${address.port}/`);await expect(page.getByRole('button',{name:'App aktualisieren',exact:true})).toBeVisible();
     await page.evaluate(async()=>{await navigator.serviceWorker.ready;});await page.reload();
     await expect.poll(()=>page.evaluate(()=>Boolean(navigator.serviceWorker.controller))).toBe(true);
-    const data=emptyData();data.cards=[{id:'update-test',front:'Bleibt meine Karte?',back:'Ja.',subject:'math'}];data.progress['math-001']={box:2,due:123456,attempts:3,correct:2,lastAward:123};data.scores.math=30;data.activities.germany.states['15']={attempts:2,correct:1,lastCorrect:true,at:123};data.activities.vocabulary.session={ids:['sentence.normal.v1.001'],index:0,answer:null,draft:[2,0],solved:false};data.activities.hangman.session={termId:'hangman.normal.001',guessed:['K'],hinted:true,revealed:false,recorded:false};data.study.reviews['update-test']={box:4,due:999999,attempts:5,known:4,lastRated:123};
+    const data=emptyData();data.cards=[{id:'update-test',front:'Bleibt meine Karte?',back:'Ja.',subject:'math'}];data.progress['math-001']={box:2,due:123456,attempts:3,correct:2,lastAward:123};data.scores.math=30;data.journey=newJourney({},Date.now());data.journey.totalPoints=1145;data.journey.modules.math={level:11,progress:2,completed:[1,2,3,4,5,6,7,8,9,10],bossWins:[5,10],bossAttempts:[5,10],lastActivity:1};data.activities.germany.states['15']={attempts:2,correct:1,lastCorrect:true,at:123};data.activities.vocabulary.session={ids:['sentence.normal.v1.001'],index:0,answer:null,draft:[2,0],solved:false};data.activities.hangman.session={termId:'hangman.normal.001',guessed:['K'],hinted:true,revealed:false,recorded:false};data.study.reviews['update-test']={box:4,due:999999,attempts:5,known:4,lastRated:123};
     await page.evaluate(async data=>{const db=await new Promise<IDBDatabase>(resolve=>{const request=indexedDB.open('lernkick',1);request.onsuccess=()=>resolve(request.result);});await new Promise<void>(resolve=>{const tx=db.transaction('user','readwrite');tx.objectStore('user').put(data,'data');tx.oncomplete=()=>resolve();});db.close();},data);
     await page.getByRole('button',{name:'App aktualisieren',exact:true}).click();await expect(page.getByRole('status')).toContainText('Alles aktuell');
     version=2;
@@ -73,6 +74,6 @@ test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten'
     const currentVersion=()=>page.evaluate(()=>new Promise<number>(resolve=>{const channel=new MessageChannel();channel.port1.onmessage=event=>resolve(event.data);navigator.serviceWorker.controller!.postMessage({type:'TEST_VERSION'},[channel.port2]);}));
     await expect.poll(currentVersion).toBe(2);
     await page.getByRole('navigation',{name:'Hauptnavigation'}).getByRole('button',{name:'Meine Karten',exact:true}).click();await expect(page.getByRole('button',{name:/Bleibt meine Karte.*Wiederholen/})).toBeVisible();
-    const stored=await page.evaluate(()=>new Promise(resolve=>{const request=indexedDB.open('lernkick',1);request.onsuccess=()=>{const db=request.result;const get=db.transaction('user').objectStore('user').get('data');get.onsuccess=()=>{resolve(get.result);db.close();};};}));expect(stored).toEqual(data);
+    const stored=await page.evaluate(()=>new Promise(resolve=>{const request=indexedDB.open('lernkick',1);request.onsuccess=()=>{const db=request.result;const get=db.transaction('user').objectStore('user').get('data');get.onsuccess=()=>{resolve(get.result);db.close();};};}));expect(stored).toMatchObject(data);expect((stored as any).journey.totalPoints).toBe(1145);
   }finally{await new Promise<void>(resolve=>server.close(()=>resolve()));}
 });

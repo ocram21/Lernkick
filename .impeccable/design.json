@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19",
+  "title": "Design System: LernKick",
+  "extensions": {
+    "colorMeta": {
+      "housing": {
+        "role": "neutral",
+        "displayName": "housing",
+        "source": "#494b57"
+      },
+      "display": {
+        "role": "neutral",
+        "displayName": "display",
+        "source": "#2b2d39"
+      },
+      "number": {
+        "role": "neutral",
+        "displayName": "number",
+        "source": "#2a303c"
+      },
+      "petrol": {
+        "role": "accent",
+        "displayName": "petrol",
+        "source": "#00789a"
+      },
+      "teal": {
+        "role": "accent",
+        "displayName": "teal",
+        "source": "#12a49a"
+      },
+      "red": {
+        "role": "accent",
+        "displayName": "red",
+        "source": "#ce4454"
+      },
+      "orange": {
+        "role": "accent",
+        "displayName": "orange",
+        "source": "#e79e35"
+      },
+      "violet": {
+        "role": "accent",
+        "displayName": "violet",
+        "source": "#86509b"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "ink",
+        "source": "#ecedf1"
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Kondensierte Überschrift",
+        "purpose": "Globale Überschriftenbasis; Start und Aufgaben besitzen kompakte responsive Varianten."
+      },
+      "body": {
+        "displayName": "Lesetext",
+        "purpose": "Aufgaben, Hilfen und Fließtext."
+      },
+      "key-label": {
+        "displayName": "Bereichsname",
+        "purpose": "Kompakte Namen der neun Einstiegstasten."
+      },
+      "total": {
+        "displayName": "Gesamtpunkte",
+        "purpose": "Tabellarische Punkteanzeige ohne Zielwert."
+      }
+    },
+    "shadows": [
+      {
+        "name": "key-rest",
+        "value": "inset 0 2px 1px #ffffff42,inset 0 -1px 2px #0002,0 7px 3px var(--key-shadow),0 9px 7px #0002",
+        "purpose": "Ruhende Taschenrechnertaste."
+      },
+      {
+        "name": "key-pressed",
+        "value": "inset 0 1px 2px #0004,0 1px 2px var(--key-shadow)",
+        "purpose": "Gedrückte Taste mit 6px Druckweg."
+      },
+      {
+        "name": "navigation",
+        "value": "0 -2px 12px #0002",
+        "purpose": "Feste untere Navigation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "key-press",
+        "value": "100ms ease-out",
+        "purpose": "6px Druckweg."
+      },
+      {
+        "name": "key-release",
+        "value": "165ms ease-out",
+        "purpose": "Zurück in Ruhestellung."
+      },
+      {
+        "name": "button-transition",
+        "value": "160ms ease-out",
+        "purpose": "Kleinere Aktionsknöpfe."
+      },
+      {
+        "name": "text-input-blur-grace",
+        "value": "200ms",
+        "purpose": "Navigation erst nach Prüfung des aktiven Eingabefeldes zurückbringen."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "System- und App-Präferenz deaktivieren Übergänge."
+      },
+      {
+        "name": "Calculator key",
+        "press": "100ms",
+        "release": "165ms",
+        "travel": "6px"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-phone",
+        "value": "350px"
+      },
+      {
+        "name": "mobile",
+        "value": "700px"
+      },
+      {
+        "name": "short-landscape-width",
+        "value": "600px"
+      },
+      {
+        "name": "short-landscape-height",
+        "value": "600px"
+      }
+    ],
+    "approvedPalette": {
+      "name": "LernKick – verbindliche Taschenrechner-Palette",
+      "source": "docs/design/calculator-reference.jpeg",
+      "approvedAt": "2026-10-19",
+      "scope": "Gesamte App; spätere anatomische und andere Schautafeln dürfen abweichen.",
+      "colors": {
+        "housing": "#494b57",
+        "display": "#2b2d39",
+        "number": "#2a303c",
+        "petrol": "#00789a",
+        "teal": "#12a49a",
+        "red": "#ce4454",
+        "orange": "#e79e35",
+        "violet": "#86509b",
+        "ink": "#ecedf1"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Hauptaktion",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Hauptaktion aus der implementierten Retro-Tech-Oberfläche.",
+      "html": "<button class=\"ds-button-primary\">Weiterlernen</button>",
+      "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-button-primary{font-family:var(--font-family,'Barlow',sans-serif);background:var(--accent,#86509b);color:var(--button-ink,#2b2d39);border:0;border-radius:9px;min-height:52px;padding:14px 22px;font-weight:700;box-shadow:inset 0 1px 0 #ecedf138,0 3px 3px var(--key-shadow,#2b2d39);transition:transform 160ms ease-out,box-shadow 160ms ease-out}.ds-button-primary:hover{filter:brightness(1.08)}.ds-button-primary:focus-visible{outline:3px solid var(--accent,#86509b);outline-offset:5px}.ds-button-primary:active{transform:translateY(2px);box-shadow:0 1px 2px var(--key-shadow,#2b2d39)}"
+    },
+    {
+      "name": "Nebenaktion",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Nebenaktion aus der implementierten Retro-Tech-Oberfläche.",
+      "html": "<button class=\"ds-button-secondary\">Weiterlernen</button>",
+      "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-button-secondary{font-family:var(--font-family,'Barlow',sans-serif);background:var(--panel,#494b57);color:var(--ink,#ecedf1);border:0;border-radius:9px;min-height:52px;padding:14px 22px;font-weight:700;box-shadow:inset 0 1px 0 #ecedf138,0 3px 3px var(--key-shadow,#2b2d39);transition:transform 160ms ease-out,box-shadow 160ms ease-out}.ds-button-secondary:hover{filter:brightness(1.08)}.ds-button-secondary:focus-visible{outline:3px solid var(--accent,#86509b);outline-offset:5px}.ds-button-secondary:active{transform:translateY(2px);box-shadow:0 1px 2px var(--key-shadow,#2b2d39)}"
+    },
+    {
+      "name": "Bereichstaste",
+      "kind": "custom",
+      "refersTo": "calculator-key",
+      "description": "Bereichstaste aus der implementierten Retro-Tech-Oberfläche.",
+      "html": "<button class=\"ds-key\"><strong>Mathematik</strong><span>Level 1 <small>☆</small></span><progress value=\"1\" max=\"3\" aria-label=\"Levelfortschritt\"></progress></button>",
+      "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-key{font-family:var(--font-family,'Barlow',sans-serif);display:flex;flex-direction:column;gap:10px;justify-content:space-between;text-align:left;width:180px;min-height:130px;padding:14px 12px 12px;border:0;border-radius:10px;background:color-mix(in srgb,var(--key-sand,#e79e35) 20%,var(--key-face,#494b57));color:var(--ink,#ecedf1);box-shadow:inset 0 2px 1px #ecedf142,inset 0 -1px 2px #2b2d3922,0 7px 3px var(--key-shadow,#2b2d39),0 9px 7px #2b2d3922;transition:transform 165ms ease-out,box-shadow 165ms ease-out,filter 165ms ease-out}.ds-key strong{font-size:19px;font-weight:600}.ds-key span{font-size:14px;color:var(--muted,#ecedf1);font-variant-numeric:tabular-nums}.ds-key small{float:right;opacity:.55}.ds-key progress{width:100%;height:5px;accent-color:var(--accent,#86509b)}.ds-key:hover{filter:brightness(1.03)}.ds-key:focus-visible{outline:3px solid var(--accent,#86509b);outline-offset:5px}.ds-key:active{transform:translateY(6px);box-shadow:inset 0 1px 2px #2b2d3944,0 1px 2px var(--key-shadow,#2b2d39);filter:brightness(.91);transition-duration:100ms}@media(prefers-reduced-motion:reduce){.ds-key{transition:none}}"
+    },
+    {
+      "name": "Textfeld",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Textfeld aus der implementierten Retro-Tech-Oberfläche.",
+      "html": "<label class=\"ds-field\">Frage<textarea placeholder=\"Deine Frage\"></textarea></label>",
+      "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-field{font-family:var(--font-family,'Barlow',sans-serif);display:grid;gap:9px;color:var(--ink,#ecedf1)}.ds-field textarea{font:inherit;background:var(--ground,#2b2d39);color:var(--ink,#ecedf1);caret-color:var(--accent,#86509b);padding:13px;border:1px solid var(--line,#494b57);border-radius:7px;min-height:105px}.ds-field textarea:hover{border-color:var(--muted,#ecedf1)}.ds-field textarea:focus-visible{outline:3px solid var(--accent,#86509b);outline-offset:5px}"
+    },
+    {
+      "name": "Inhaltscontainer",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Inhaltscontainer aus der implementierten Retro-Tech-Oberfläche.",
+      "html": "<section class=\"ds-card\"><h2>Eigene Karten</h2><p>Deine Inhalte bearbeiten.</p></section>",
+      "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-card{font-family:var(--font-family,'Barlow',sans-serif);background:var(--panel,#494b57);color:var(--ink,#ecedf1);padding:24px;border-radius:12px}.ds-card h2{font-family:\"Barlow Condensed\",sans-serif;font-size:30px;margin:0 0 20px}.ds-card p{color:var(--muted,#ecedf1);line-height:1.55}"
+    },
+    {
+      "name": "Untere Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Untere Navigation aus der implementierten Retro-Tech-Oberfläche.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Hauptnavigation\"><button aria-current=\"page\">Start</button><button>Eigene Karten</button><button>Einstellungen</button></nav>",
+      "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-nav{font-family:var(--font-family,'Barlow',sans-serif);display:flex;gap:4px;padding:6px 8px;background:var(--panel,#494b57);border-radius:12px 12px 0 0;max-width:680px;box-shadow:0 -2px 12px #2b2d3922}.ds-nav button{font:inherit;flex:1;min-height:52px;padding:14px 16px;border:0;border-radius:8px;background:transparent;color:var(--muted,#ecedf1);font-size:14px}.ds-nav button[aria-current]{background:color-mix(in srgb,var(--accent,#86509b) 13%,var(--panel,#494b57));color:var(--ink,#ecedf1)}.ds-nav button:hover{background:var(--key-face,#494b57)}.ds-nav button:focus-visible{outline:3px solid var(--accent,#86509b);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "overview": "Verbindlicher Retro-Taschenrechner nach Nutzerfoto vom 19.10.2026.",
+    "colorRule": "Nur approvedPalette.colors; abgeleitete Licht- und Schattenwerte zulässig.",
+    "exception": "Spätere anatomische und andere Schautafeln dürfen andere Inhaltsfarben verwenden."
+  }
+}

@@ -1,3 +1,7 @@
+> Verbindliche Farbvorlage: [Nutzerfoto](docs/design/calculator-reference.jpeg), [Palette](src/design/palette.json) und [Designregeln](DESIGN.md). Die UI verwendet nur diese Palette; spaetere Schautafelinhalte duerfen davon abweichen.
+
+> Aktueller Stand 19.10.2026: Der konsolidierte Änderungsauftrag ersetzt frühere Oberflächenvorgaben in diesem Dokument. Startseite mit neun Retro-Tech-Tasten, kumulierten Punkten, unabhängigen Leveln und einer Lernstärke; keine separate Fortschrittsseite und kein freier Lernmodus. Datenmigration, Sicherungen, Modulregeln und Abnahme: [Umsetzungsbericht](docs/UMSETZUNG-2026-10-19.md).
+
 # LernKick
 
 **Aktueller Änderungsstand:** Lerntafeln durch Dual N-Back ersetzt. 70 Tests und Produktionsbuild erfolgreich; Browserabnahme und Vergleich mit der externen Spielquelle bleiben offen. [Prüfstand](docs/DUAL-N-BACK-2026-10-19.md).

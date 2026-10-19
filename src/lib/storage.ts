@@ -1,7 +1,52 @@
 import { openDB } from 'idb';
 import { dataSchema, emptyData, type UserData } from './schema';
+import { journeySchema, newJourney } from '../learning/journey';
 import { migrateData } from '../learning/migration';
+function snapshot(value: unknown): string | undefined { return JSON.stringify(value, (_key, item) => item && typeof item === 'object' && !Array.isArray(item) ? Object.fromEntries(Object.keys(item).sort().map(key => [key, item[key]])) : item); }
+let expectedSnapshot: string | undefined;
+let loaded = false;
 const db = () => openDB('lernkick', 1, { upgrade(database) { database.createObjectStore('user'); } });
-export async function loadData(): Promise<UserData> { const database=await db(); const value=await database.get('user','data'); if(value===undefined)return emptyData(); const migrated=migrateData(value); if(JSON.stringify(value)!==JSON.stringify(migrated))await database.put('user',migrated,'data'); return migrated; }
-export async function saveData(data: UserData) { await (await db()).put('user', dataSchema.parse(data), 'data'); }
-export function readBackup(text: string): UserData { if (text.length > 5_000_000) throw new Error('Die Datei ist zu groß (maximal 5 MB).'); return migrateData(JSON.parse(text)); }
+export async function loadData(): Promise<UserData> {
+    const database = await db(), tx = database.transaction('user', 'readwrite'), value = await tx.store.get('data');
+    if (value === undefined) {
+        const next = { ...emptyData(), journey: newJourney(emptyData().scores) };
+        await tx.store.put(next, 'data');
+        await tx.store.put(next.journey, 'journey.current');
+        await tx.done;
+        expectedSnapshot = snapshot(next);
+        loaded = true;
+        return next;
+    }
+    const migrated = migrateData(value), sidecar = await tx.store.get('journey.current');
+    const recovered = migrated.journey ?? (sidecar === undefined ? newJourney(migrated.scores) : journeySchema.parse(sidecar));
+    const next = { ...migrated, journey: { ...recovered, totalPoints: Math.max(recovered.totalPoints, Object.values(migrated.scores).reduce((a, b) => a + b, 0)) } };
+    dataSchema.parse(next);
+    if (snapshot(value) !== snapshot(next)) {
+        if (await tx.store.get('backup.before-journey') === undefined)
+            await tx.store.put(value, 'backup.before-journey');
+        await tx.store.put(next, 'data');
+    }
+    await tx.store.put(next.journey, 'journey.current');
+    await tx.done;
+    expectedSnapshot = snapshot(next);
+    loaded = true;
+    return next;
+}
+export async function saveData(data: UserData) {
+    const next = dataSchema.parse(data), database = await db(), tx = database.transaction('user', 'readwrite'), current = await tx.store.get('data');
+    if (loaded && snapshot(current) !== expectedSnapshot) {
+        tx.abort();
+        await tx.done.catch(() => { });
+        throw new Error('Der Lernstand wurde in einem anderen Fenster geändert. Bitte sichere deine Daten und lade neu.');
+    }
+    await tx.store.put(next, 'data');
+    if(next.journey) await tx.store.put(next.journey, 'journey.current');
+    await tx.done;
+    expectedSnapshot = snapshot(next);
+    loaded = true;
+}
+export async function backupBeforeImport() { const database = await db(), tx = database.transaction('user', 'readwrite'); const value = await tx.store.get('data'); if (value !== undefined)
+    await tx.store.put(value, `backup.import.${Date.now()}`); await tx.done; }
+export function readBackup(text: string): UserData { if (text.length > 5000000)
+    throw new Error('Die Datei ist zu groß (maximal 5 MB).'); return migrateData(JSON.parse(text)); }
+export async function previousBackup(): Promise<string | null> { const database = await db(), keys = await database.getAllKeys('user'); const key = keys.filter(k => String(k).startsWith('backup.import.')).sort().at(-1) ?? keys.find(k => k === 'backup.before-journey'); return key ? JSON.stringify(await database.get('user', key), null, 2) : null; }

@@ -1,31 +1,106 @@
-# LernKick design
+---
+name: LernKick
+description: Plastischer Retro-Taschenrechner nach verbindlicher Nutzervorlage
+colors:
+  housing: "#494b57"
+  display: "#2b2d39"
+  number: "#2a303c"
+  petrol: "#00789a"
+  teal: "#12a49a"
+  red: "#ce4454"
+  orange: "#e79e35"
+  violet: "#86509b"
+  ink: "#ecedf1"
+typography:
+  body:
+    fontFamily: "Barlow, sans-serif"
+    fontSize: "17px"
+    lineHeight: 1.55
+  subject-key:
+    fontFamily: "Barlow Condensed, sans-serif"
+    fontSize: "clamp(35px, 9vw, 49px)"
+    fontWeight: 700
+    lineHeight: 1
+  game-key:
+    fontFamily: "Barlow, sans-serif"
+    fontSize: "clamp(14px, 3.6vw, 19px)"
+    fontWeight: 700
+rounded:
+  key: "9px"
+  housing: "15px"
+  display: "7px"
+spacing:
+  mobile-gutter: "16px"
+  key-row-gap: "20px"
+  key-column-gap: "14px"
+components:
+  button-primary:
+    backgroundColor: "{colors.orange}"
+    textColor: "{colors.number}"
+    rounded: "{rounded.key}"
+    padding: "14px 22px"
+  calculator-key:
+    textColor: "{colors.ink}"
+    rounded: "{rounded.key}"
+    padding: "13px 12px 12px"
+---
 
-Vorläufige Umsetzung der ausdrücklich vorgegebenen Streetstyle-/Arcade-Richtung. App-Modus: Operate; Fach auswählen und eine kurze Lernrunde abschließen.
+# Design System: LernKick
 
-Dunkles, leicht grünliches Neutral als ruhige Fläche; Limettengrün für Aktionen und Erfolg. Barlow als Leseschrift, Barlow Condensed für prägnante Überschriften, selbst gehostet. Fachfarben: Mathematik Limette, Deutsch Flieder, Sozialkunde Apricot, Biologie Grün, Geografie Blau. Aufgaben und Antwortflächen bleiben klar getrennt. Navigation verwendet vertraute Buttons und eindeutige Beschriftungen. Der Blitz im Logo ist das wiederkehrende Arcade-Motiv, keine Abzeichen oder Belohnungssammlung.
+## Overview
 
-Touchflächen mindestens 44px, Antworten in Lernrunden mindestens 52px; sichtbarer Tastaturfokus, Statusmeldungen, bewegungsreduzierte Alternative und Systempräferenz. Schriftgrößen und Layout reagieren auf 320px bis Desktop. Eigene Karten sind bearbeitbarer Text und werden von der Quiz-Datenbasis getrennt gehalten.
+Verbindliche Nutzervorgabe vom 19.10.2026: ausschließlich die Farben des Taschenrechner-Referenzfotos verwenden und dieses Design konsistent fortführen. Kräftige, plastische rechteckige Tasten, große Fachkürzel und eine eingelassene dunkle Anzeige. Der Nutzer hat den vorherigen Pastell-Entwurf und die grüne LCD-Fläche ersetzt.
 
-Lernrunden nutzen die verfügbare Bildschirmhöhe (100dvh). Der nächste Schritt sitzt in einem eigenen unteren Aktionsbereich, unabhängig vom bei Bedarf scrollbar bleibenden Inhalt. Nach einer Antwort bleiben die gewählte und die richtige Antwort sichtbar; die übrigen Optionen weichen der Erklärung. Header und Abstände sind in Lernrunden kompakt. Keine Demo-Kennzeichnung in der Oberfläche; der Hinweis auf den offenen fachlichen Abgleich bleibt unter Einstellungen.
+Das Original liegt unter `docs/design/calculator-reference.jpeg`. Die aus ruhigen Bildflächen abgenommenen Farben stehen in `src/design/palette.json`; JPEG-Kompression verursacht kleine lokale Abweichungen. `src/design/palette.css` stellt die verbindlichen Variablen bereit und wird nach den allgemeinen Styles geladen.
 
-Auf Nutzerwunsch steht „App aktualisieren“ rechts neben dem Logo im Header der Startseite, mit mindestens 44px hoher Touchfläche. Ein klarer Ladezustand und verständliche Offline-/Fehlermeldungen begleiten den Vorgang. Rückmeldungen bleiben standardmäßig bis zum manuellen Weitergehen sichtbar. Die Dreisekunden-Automatik bei richtigen Antworten ist freiwillig zuschaltbar. Bei einer falschen Antwort bleibt die Erklärung ohne Timer stehen; nur der manuelle Weiter-Button führt zur nächsten Frage oder zum Rundenabschluss. Ein unterer Countdown mit „Anhalten“ hält die Erklärung bei Bedarf offen, ohne den Weiter-Button aus dem sichtbaren Bereich zu schieben.
+## Colors
 
-Die Startseite ist ein kompakter Einstieg auf einer Bildschirmhöhe (100dvh): Header mit Logo und Update, Überschrift mit kleinem Hilfe-Button, Lernmodus, fünf kompakte Fachbuttons und untere Navigation. Einstiegsspruch, große Blitzgrafik, Fach-Untertitel und wiederholte Hinweise entfallen. Eine eigene Hilfe-Seite erklärt alle Funktionen; sie darf bei Bedarf scrollen. Auf kurzen Querformat-Displays stehen die Fächer in zwei Spalten. Für vergrößerte Schriften bleibt der Inhalt zugänglich, statt ihn mit pauschalem overflow:hidden abzuschneiden.
+- `housing`: **#494b57**.
+- `display`: **#2b2d39**.
+- `number`: **#2a303c**.
+- `petrol`: **#00789a**.
+- `teal`: **#12a49a**.
+- `red`: **#ce4454**.
+- `orange`: **#e79e35**.
+- `violet`: **#86509b**.
+- `ink`: **#ecedf1**.
 
-Der Mathe-Pilot ergänzt im bestehenden Rundenbereich zwei kompakte Bedienelemente: „Hilfe“ und „Lernweg“. Ausführliche Hilfen werden nur bei Bedarf geöffnet; der Weiter-Button bleibt unten erreichbar. Antworten werden ohne rote Strafmarkierungen gezeigt; die eigene Auswahl wird neutral benannt. Die kurze Alltagshilfe enthält keine Algorithmus- oder Speichertechnik. „Fortschritt“ enthält fünf austauschbare, zunächst abstrakte Kompetenz-Mosaike mit dauerhaften Freischaltungen. Die Kompetenzliste wird in der kompakten Fortschrittsansicht nicht angezeigt; keine Ranglisten und kein starres Personen-Level.
+Keine weiteren Grundfarben, keine Pastellpalette und kein grüner LCD-Hintergrund. Lichtkanten, Schatten und Zwischenflächen werden ausschließlich aus diesen Grundfarben gemischt; sie sind keine zusätzlichen Farbfamilien. Auf Weiß oder Schwarz als neue Grundfarbe verzichten: hellster Ton ist `ink`, dunkelste Töne sind `display`/`number`.
 
-Die Fachauswahl verwendet quadratische, 16px abgerundete Buttons mit den Kürzeln MA, D, SK, Bio und Geo. Drei Spalten auf Handys, fünf bei ausreichender Breite; die Fläche wächst nicht mit dem freien Bildschirmraum. Fachfarben und vollständige zugängliche Namen bleiben erhalten. Die Abbruchbestätigung ist ein fokussierter nativer Dialog mit „Weiterlernen“ als Standardaktion, Escape zum Abbrechen und ausdrücklich bestätigtem Verlassen.
+Gehäuse: `housing`. Dunkle Anzeige: `display`. Mathematik: `number`. Deutsch, Sozialkunde, Biologie, Geographie und Wortschatz: `petrol`. Galgenraten: `red`. Deutschlandquiz und Hauptaktionen: `orange` mit dunkler Schrift. Dual N-Back: `violet`. Türkis dient als Fortschrittsakzent. Kleine weiße Beschriftung auf farbigen Tasten erhält eine aus derselben Palette abgeleitete dunklere Tastenfläche für besseren Kontrast.
 
-Die Fortschrittsseite ist ein ruhiger Bildbereich auf einer Bildschirmhöhe: nur „Fortschritt“, fünf kompakte Fachkürzel und das ausgewählte Bild. Keine Bildunterschriften, Erklärtexte, Zahlenübersichten oder Bestleistungen. Die Bildfläche erhält ihr Seitenverhältnis und passt sich auch kurzen Querformat-Displays an; Hauptnavigation bleibt sichtbar. Fachnamen und die freigelegten Segmente bleiben für Vorlesefunktionen benannt.
+**Ausdrückliche Ausnahme:** Spätere anatomische und andere Schautafeln dürfen fachlich notwendige andere Farben verwenden. Diese Ausnahme gilt für den Inhalt der Schautafeln, nicht für ihre umgebenden Bedienelemente oder die restliche App.
 
-Überarbeitung vom 17.10.2026: drei gleichberechtigte Lernformen über den Fachbuttons; Wortschatz als sechster kompakter Einstieg. Auf Handys drei Spalten, bei ausreichender Breite sechs; kurze Querformate verwenden eine kompakte Reihe. Kartenlernen nutzt denselben Bildschirmrahmen wie das Quiz, mit Aufdecken und anschließender Selbstbewertung unten. Kurze Antwortoptionen stehen auch bei zwei oder drei Antworten in zwei Spalten, längere bleiben untereinander. Einstellungen beginnen mit zwei kleinen Sicherungsaktionen; Quellen sind darunter einklappbar. Die kurze Hilfe enthält wenige Sätze und eine aufklappbare Installationsanleitung.
+## Typography
 
-Aktuell kommt Galgenraten als siebter quadratischer Einstieg direkt zur Startseite, mit schlichtem Galgensymbol und eindeutiger Beschriftung. Drei Spalten auf Handys; weitere Zeilen bleiben innerhalb der Bildschirmhöhe. Das einzelne Spiel behält den vorhandenen Rundenrahmen, klare Buchstabentasten einschließlich Ä, Ö, Ü und ß und eine anfangs leere Linienzeichnung mit zehn Schritten. Keine eigene Spielauswahlseite.
+Barlow und Barlow Condensed, lokal mitgeliefert. Fachtasten zeigen ausschließlich **MA, D, SK, Bio, Geo** in 35–52 px, abhängig vom Viewport. Vollständige zugängliche Namen: Mathematik, Deutsch, Sozialkunde, Biologie, Geographie. Spielnamen bleiben ausgeschrieben; Deutschlandquiz darf gezielt zwischen Deutschland und quiz umbrechen.
 
-Das Tafelwerk ist ein modaler Nachschlagebereich mit fünf Kategorien, Vorschaukacheln, Sternchen und weißer zoombarer Grafikfläche innerhalb der bestehenden dunklen App. Erklärungen bleiben bis zum Schließen offen. Deutschland nutzt tatsächliche Landesgrenzen, neutrale Hoverfarbe und vergrößerte kleine Regionen; Tastatur und Antippen ergänzen Pointer-Drag.
+Kleine Levelzahlen bleiben 12 px und ergänzen die großen Kürzel. Keine zusätzlichen Statistikspalten auf den Tasten. Die Punkteanzeige hat 27–38 px; die normale Leseschrift 17 px.
 
-Änderung 18.10.2026: Keine neue Gestaltungsrichtung. Große Schiebeschalter mit sichtbarem An/Aus für Alltag, Beruf und Satzbau; die Stufen heißen „Normal“ und „Für Streber“. Wortschatz nutzt den bestehenden festen App-Rahmen mit eigenem Scrollbereich und stets erreichbarem Startknopf. Hauptstädte nutzen beschriftete Länderzeilen und klar umrissene Zielfelder. Satzbausteine lassen sich ziehen, antippen, verschieben und zurücklegen; die Prüfung bleibt eine ausdrückliche Aktion. Fortschritt ergänzt die Fachbilder über eine kompakte Lernangebot-Auswahl in der vorhandenen Überschriftenzeile. Keine neue Kartenverwaltung unter der Fachauswahl.
+## Layout
 
-Weitere gezielte Änderung vom 18.10.2026: Fortschritt verwendet zwei Fünferreihen statt einer Dropdown-Auswahl. Die erste Reihe zeigt die fünf Fächer, die zweite Länderquiz, Galgenraten, Wortschatz, Satzbau und Lernkarten. Kondensierte Schrift, bestehende Oberflächenfarben und 44px-Touchflächen halten die Navigation auch bei 320px Breite kompakt. Das Fachbild berücksichtigt die zusätzliche Reihe bei seiner Höhenbegrenzung. Stufenschalter zeigen ausschließlich Normal und Streber; An/Aus bleibt nur an den Bereichsschaltern. Lehrgrafiken verwenden dauerhaft gedruckte Beschriftungen, klare Pfeile, ein festes Ziffernraster sowie horizontale Bruchstriche. Amerika nutzt eine flächentreue Projektion mit gemeinsamem Achsenmaßstab. Keine neue Gestaltungsrichtung.
+Neun Tasten in einem Raster aus drei Spalten. Zentraler Inhaltsbereich bis 640 px, dunkel eingelassenes Tastenbett. Auf kleinen Smartphones kompaktere Tasten und Abstände; alle neun Tasten bleiben bei 320×568 über der Navigation sichtbar. Kurze Querformate dürfen scrollen. Die zentrale Navigation sitzt fest am nutzbaren unteren Viewportrand mit einmaligem Safe-Area-Padding. Inhalt erhält entsprechenden Platz nach unten.
 
-Änderung 19.10.2026: Die Nachschlageoberfläche und ihre Grafiken entfallen. Dual N-Back ersetzt die bisherige Kachel an derselben Stelle. Ein mitgeliefertes, eigenständiges HTML-Spiel läuft in einem eigenen iframe, damit seine helle, ruhige Originaldarstellung und LernKicks Oberfläche sich nicht gegenseitig beeinflussen. LernKicks Header und die feste Zeile „Zurück zu LernKick“ bleiben außerhalb des Spiel-Scrollbereichs sichtbar. Pause friert den laufenden Durchgang ein, eine Verlassen-Abfrage verhindert versehentlichen Abbruch. Der Spielbereich passt Raster und Antwortknöpfe an Handy-Hoch- und Querformat an. Visuelle Browserabnahme ist aufgrund der blockierten automatischen Freigabeprüfung noch offen.
+Bei Texteingabe wird die untere Navigation kontrolliert verborgen. Nach Fokusverlust verhindert eine 200-ms-Frist, dass sie den gerade ausgelösten Speichern-Klick abfängt.
+
+## Elevation & Depth
+
+Ruhestellung: obere Lichtkante, seitliche Formung, circa 7 px optische Tiefe und weicher darunterliegender Schatten. Druck: komplette Taste um 6 px absenken, Schatten zusammenziehen und Fläche leicht abdunkeln. 100 ms hinein, 165 ms zurück. Keine Layoutverschiebung, Bewegungsreduktion respektieren. Tasten und dunkles Tastenbett verwenden ausschließlich paletteigene Licht-/Schattenmischungen.
+
+## Shapes
+
+Rechteckige Tastenkappen mit 9 px Radius, Tastenbett mit 15 px, vertiefte Anzeige mit 7 px. Keine Puzzleformen und keine dekorativen Bildwelten. Icons stammen aus der bestehenden Lucide-Bibliothek.
+
+## Components
+
+`CalculatorKey` ist die zentrale Komponente. CSS-Farbzuordnung erfolgt über `data-module`; keine abweichenden Inline-Farben. Punkte und ein globaler Lernstärkebalken stehen gemeinsam im dunklen Anzeigefeld. Kleine Levelzahl, Fortschrittsbalken und unaufdringliches Endgegner-Symbol je Taste.
+
+Andere Aktionsbuttons folgen derselben Palette mit weniger ausgeprägter Tiefe. Dual N-Back erhält die aufgelösten Palettevariablen über die auf das eigene iframe und die eigene Origin beschränkte Nachrichtenbrücke. PWA-Symbole verwenden `number` und `orange`.
+
+## Do's and Don'ts
+
+- Die gespeicherte Nutzervorlage und `palette.json` sind die Farbreferenz für spätere Änderungen.
+- Farben nicht je Komponente neu erfinden; gemeinsame Variablen verwenden.
+- Vollständige zugängliche Fachnamen und deutlich erkennbare Fokuszustände erhalten.
+- Keine Pastellfarben, keinen grünen LCD-Stil und keine zusätzlichen Themes einführen.
+- Lernstand, Punkte und Speicherformat werden durch Designänderungen nicht verändert.

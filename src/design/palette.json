@@ -1,0 +1,17 @@
+{
+  "name": "LernKick – verbindliche Taschenrechner-Palette",
+  "source": "docs/design/calculator-reference.jpeg",
+  "approvedAt": "2026-10-19",
+  "scope": "Gesamte App; spätere anatomische und andere Schautafeln dürfen abweichen.",
+  "colors": {
+    "housing": "#494b57",
+    "display": "#2b2d39",
+    "number": "#2a303c",
+    "petrol": "#00789a",
+    "teal": "#12a49a",
+    "red": "#ce4454",
+    "orange": "#e79e35",
+    "violet": "#86509b",
+    "ink": "#ecedf1"
+  }
+}

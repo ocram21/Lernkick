@@ -3,9 +3,9 @@ export const levelSchema=z.enum(['normal','hard']);
 export const resultSchema=z.object({attempts:z.number().int().nonnegative(),correct:z.number().int().nonnegative(),lastCorrect:z.boolean(),at:z.number().nonnegative()}).refine(r=>r.correct<=r.attempts);
 const results=z.record(z.string(),resultSchema);
 const stateIds=z.array(z.string().regex(/^(0[1-9]|1[0-6])$/)).max(16).refine(ids=>new Set(ids).size===ids.length);
-export const quizSessionSchema=z.object({order:stateIds.refine(ids=>ids.length===16),round:z.enum(['states','capitals']),placed:stateIds});
+export const quizSessionSchema=z.object({runId:z.string().optional(),first:z.record(z.string(),z.boolean()).optional(),order:stateIds.refine(ids=>ids.length===16),round:z.enum(['states','capitals']),placed:stateIds});
 const hangmanSession=z.object({termId:z.string(),guessed:z.array(z.string()).max(40),hinted:z.boolean(),revealed:z.boolean(),recorded:z.boolean()});
-export const vocabularySessionSchema=z.object({ids:z.array(z.string()).max(10),index:z.number().int().min(0).max(10),answer:z.number().int().min(0).max(3).nullable(),draft:z.array(z.number().int().nonnegative()).max(80),solved:z.boolean()});
+export const vocabularySessionSchema=z.object({runId:z.string().optional(),first:z.record(z.string(),z.boolean()).optional(),ids:z.array(z.string()).max(10),index:z.number().int().min(0).max(10),answer:z.number().int().min(0).max(3).nullable(),draft:z.array(z.number().int().nonnegative()).max(80),solved:z.boolean()});
 export const adaptiveSchema=z.object({tier:z.number().int().min(0).max(2),successes:z.number().int().min(0).max(3),errors:z.number().int().min(0).max(1),lastTask:z.string().nullable()});
 export const emptyAdaptive=()=>({tier:0,successes:0,errors:0,lastTask:null});
 export const activitiesSchema=z.object({

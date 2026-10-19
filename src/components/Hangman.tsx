@@ -1,3 +1,4 @@
+import {completeTraining} from '../learning/journey';
 import { useEffect,useRef } from 'react';
 import { ArrowLeft, RotateCcw } from 'lucide-react';
 import type { UserData } from '../lib/schema';
@@ -21,7 +22,7 @@ export function GallowsIcon(){return <svg width="26" height="26" viewBox="0 0 26
 export function Hangman({data,onChange,onExit,onFinished,onRunning}:{data:UserData;onChange:(data:UserData)=>Promise<boolean>;onExit:()=>void;onFinished:()=>void;onRunning:()=>void}){
  const latest=useRef(data);latest.current=data;
  const activity=data.activities.hangman,session=activity.session,term=gameTerms(data,activity.level).find(term=>term.id===session?.termId),word=term?.answer??'',guessed=session?.guessed??[],state=hangmanState(word,guessed),ended=Boolean(session&&(session.revealed||state.won||state.lost));
- function change(next:UserData['activities']['hangman']){const value={...latest.current,activities:{...latest.current.activities,hangman:next}};latest.current=value;void onChange(value);}
+ function change(next:UserData['activities']['hangman']){let value={...latest.current,activities:{...latest.current.activities,hangman:next}};if(next.session?.recorded&&!latest.current.activities.hangman.session?.recorded&&value.journey){const run=next.session;value={...value,journey:completeTraining(value.journey,{id:`hangman:${run.termId}:${next.results[run.termId]?.at}`,module:'hangman',correct:Number(next.results[run.termId]?.lastCorrect),total:1,tasks:[run.termId]})};}latest.current=value;void onChange(value);}
  function restart(level=activity.level){const pool=gameTerms(data,level).filter(value=>value.id!==session?.termId);const next=shuffle(pool)[0];onRunning();change({...activity,level,session:{termId:next.id,guessed:[],hinted:false,revealed:false,recorded:false}});}
  useEffect(()=>{if(!session||!term)restart();},[Boolean(session),Boolean(term)]);
  useEffect(()=>{if(ended)onFinished();},[ended,onFinished]);

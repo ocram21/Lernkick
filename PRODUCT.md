@@ -1,3 +1,5 @@
+> Verbindliche Gestaltung ab 19.10.2026: plastischer Retro-Taschenrechner nach `docs/design/calculator-reference.jpeg`. Nur die Farben in `src/design/palette.json` verwenden; `DESIGN.md` regelt die Anwendung. Diese Vorgabe ersetzt alle vorherigen Farben. Fachtasten: MA, D, SK, Bio, Geo; das Fach heisst Sozialkunde. Andere Farben sind nur fuer spaetere anatomische und sonstige Schautafelinhalte erlaubt.
+
 # LernKick
 
 Produktkontext aus dem vom Nutzer zur Umsetzung übergebenen Briefing, Stand 18.10.2026.
