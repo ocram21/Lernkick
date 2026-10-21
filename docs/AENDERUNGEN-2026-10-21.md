@@ -50,3 +50,7 @@ Am 21.10.2026 wurde Commit `25d8e28cb2a8941f5fb63b93e20836c08340dbfd` auf `main`
 Der Live-Browsercheck bestand: Zugang erst nach PIN und erneut nach vollständigem Reload, neun Starttasten, Pink, Kartenverwaltung, Mathematik-Antwort und Rückblick, beide Original-Tafelbilder mit Check, N-Back-Einstieg sowie Offline-Neuladen einschließlich gecachtem Tafelbild. Der gespeicherte Testversuch blieb erhalten; keine JavaScript-Laufzeitfehler. Alle Schritte liefen in einem frischen isolierten Browserprofil und veränderten keine vorhandenen Nutzerdaten. Im Prüfskript wurde das Warten auf die Bilddekodierung ergänzt, damit langsamerer Netzwerkabruf nicht fälschlich als fehlendes Bild gilt. Dieser abschließende Protokoll-/Prüfskript-Commit verändert keine ausgelieferten App-Dateien.
 
 Die unabhängige Designprüfung bewertete die beiden angeforderten Korrekturen (mindestens 44 px große Tafel-Touchflächen und widerspruchsfreie aktuelle Designregeln) als behoben; Disposition `ship` für diesen Korrekturumfang. Fachfreigabe und physische Geräteabnahme bleiben wie oben beschrieben offen.
+
+## Nachtrag: reduzierte N-Back-Menütaste
+
+Auf Nutzerwunsch zeigt die Menütaste nur N1, N2 und N3. Gemeisterte Stufen sind ausgefüllt; die Zeilen „Aktuell“ und „Bestes“ entfallen. Die bestehenden gespeicherten N-Stufen und Ergebnisse bleiben erhalten. Release: `2026-10-21-nback-menu`.

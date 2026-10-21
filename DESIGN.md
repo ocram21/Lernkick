@@ -135,3 +135,7 @@ Der Wortschatz-Auswahlcontainer bündelt die Schalter mit 15 px Rundung und 22 p
 ## Ergänzung vom 20.10.2026
 
 Auf ausdrücklichen Nutzerauftrag sind korrekt belegte Hauptstadtfelder weiß (`#fff`) mit dunkler Schrift. Offene Felder verwenden Orange. Diese eng begrenzte Ausnahme gilt nur für die Hauptstadtzuordnung. Zitierte Deutsch-Beispiele verwenden den vorhandenen Orange-Akzent. QWERTZ-Reihen und die sichtbare Beschriftung „Ausgang“ übernehmen die bestehenden Tastenformen.
+
+## Menütaste Dual N-Back, 21.10.2026
+
+Nur N1, N2 und N3 als kleine Stufenmarkierungen. Gemeisterte Stufen erhalten die bestehende ausgefüllte, kontrastreiche Darstellung. Keine aktuelle Stufe und keine Bestleistungszeile auf der Taste; gespeicherte Trainingsdaten bleiben erhalten.
