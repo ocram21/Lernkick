@@ -42,3 +42,11 @@ Die bereits freigeschaltete PWA kann nach vollständigem Online-Laden offline st
 - PIN-Prüfungen: Browser-Reload, falsche Eingabe, Tastatur, gespeichertes Pink, geteilter Speicher, Mitternacht sowie emulierte Standalone- und iOS-Erkennung einschließlich Offline-Start. Datums-Unit-Tests prüfen Monatsgrenzen und Zeitumstellung.
 - Echte Installationen auf Android, iOS, Windows/Edge und macOS müssen noch auf physischen Geräten abgenommen werden. Eine emulierte Moduserkennung ist kein Nachweis für alle Betriebssysteme. Die fachliche Abnahme der Lerninhalte bleibt offen.
 - Veröffentlichung erfolgt über GitHub Actions mit explizitem Pages-Deploy; `scripts/check-live.mjs` prüft anschließend die tatsächlich ausgelieferte Releasekennung, PIN, beide Tafeln, Einstellungen, Pause, N-Back und Offline-Neuladen in einem frischen isolierten Browserprofil.
+
+## Veröffentlichung und Live-Abnahme
+
+Am 21.10.2026 wurde Commit `25d8e28cb2a8941f5fb63b93e20836c08340dbfd` auf `main` gepusht und über [Pages-Lauf 39530733260](https://github.com/ocram21/Lernkick/actions/runs/39530733260) erfolgreich gebaut und veröffentlicht. Die Domain lieferte HTTP 200 und exakt `2026-10-21-access-boards-pause-pink` aus.
+
+Der Live-Browsercheck bestand: Zugang erst nach PIN und erneut nach vollständigem Reload, neun Starttasten, Pink, Kartenverwaltung, Mathematik-Antwort und Rückblick, beide Original-Tafelbilder mit Check, N-Back-Einstieg sowie Offline-Neuladen einschließlich gecachtem Tafelbild. Der gespeicherte Testversuch blieb erhalten; keine JavaScript-Laufzeitfehler. Alle Schritte liefen in einem frischen isolierten Browserprofil und veränderten keine vorhandenen Nutzerdaten. Im Prüfskript wurde das Warten auf die Bilddekodierung ergänzt, damit langsamerer Netzwerkabruf nicht fälschlich als fehlendes Bild gilt. Dieser abschließende Protokoll-/Prüfskript-Commit verändert keine ausgelieferten App-Dateien.
+
+Die unabhängige Designprüfung bewertete die beiden angeforderten Korrekturen (mindestens 44 px große Tafel-Touchflächen und widerspruchsfreie aktuelle Designregeln) als behoben; Disposition `ship` für diesen Korrekturumfang. Fachfreigabe und physische Geräteabnahme bleiben wie oben beschrieben offen.
