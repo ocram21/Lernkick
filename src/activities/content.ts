@@ -1,3 +1,5 @@
+import {grammarTasks} from './grammar';
+import {shuffle} from '../lib/engine';
 import {z}from'zod';
 import topicWords from '../content/vocabularyTopics.json';
 import sentencePack from '../content/sentences.json';
@@ -83,19 +85,21 @@ export function adaptNormal(activity:Activities['vocabulary'],id:string,correct:
 export function sentenceBand(task:SentenceTask){const commas=task.tokens.filter(t=>t===',').length;return commas>1||task.tokens.length>12?2:commas&&task.tokens.length>10?1:0;}
 export function normalSentenceQueue(activity:Activities['vocabulary'],exclude:string[]=[]){
  const tier=activity.adaptive.tier;
- return sentences.filter(s=>s.level==='normal'&&sentenceBand(s)<=tier&&!exclude.includes(s.id)).sort((a,b)=>{
+ return shuffle(sentences.filter(s=>s.level==='normal'&&sentenceBand(s)<=tier&&!exclude.includes(s.id))).sort((a,b)=>{
   const ra=activity.sentences[a.id],rb=activity.sentences[b.id];
   // Failed tasks return only when they fit the current band; no difficult repeat lock.
   const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;
-  return Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb)||Math.abs(sentenceBand(a)-tier)-Math.abs(sentenceBand(b)-tier)||(ra?.at??0)-(rb?.at??0)||Number(b.tokens.includes(','))-Number(a.tokens.includes(','))||Number(b.instruction.includes('Zähle'))-Number(a.instruction.includes('Zähle'));
+  return Number(activity.recent.includes(a.id))-Number(activity.recent.includes(b.id))||Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb)||Math.abs(sentenceBand(a)-tier)-Math.abs(sentenceBand(b)-tier)||(ra?.at??0)-(rb?.at??0)||Number(b.tokens.includes(','))-Number(a.tokens.includes(','))||Number(b.instruction.includes('Zähle'))-Number(a.instruction.includes('Zähle'));
  }).map(s=>s.id);
 }
 /** Due mistakes first, then unseen tasks; learned tasks remain available for practice. */
 export function practiceQueue(activity:Activities['vocabulary']):string[]{
- const groups=[activity.enabled.everyday?words.filter(w=>w.category==='everyday'&&w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.work?words.filter(w=>w.category==='work'&&w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>s.level==='hard').map(s=>s.id)):[]].filter(group=>group.length);
- const result=(id:string)=>activity.words[id]??activity.sentences[id];
- for(const group of groups)if(!group[0]?.startsWith('sentence.normal'))group.sort((a,b)=>{const ra=result(a),rb=result(b);const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;return Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb)||(ra?.at??0)-(rb?.at??0);});
- const queue:string[]=[];for(let i=0;queue.length<10;i++){let added=false;for(const group of groups)if(group[i]&&queue.length<10){queue.push(group[i]);added=true;}if(!added)break;}return queue;
+ const terms=activity.enabled.everyday||activity.enabled.work;
+ const groups=[terms?words.filter(w=>w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>s.level==='hard').map(s=>s.id)):[],activity.enabled.grammar?grammarTasks.filter(t=>t.level===activity.level).map(t=>t.id):[]].filter(group=>group.length);
+ const result=(id:string)=>activity.words[id]??activity.sentences[id]??activity.grammar[id];
+ const ranked=groups.map(group=>shuffle(group).sort((a,b)=>{const ra=result(a),rb=result(b);const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;return Number(activity.recent.includes(a))-Number(activity.recent.includes(b))||Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb);}));
+ const queue:string[]=[];for(let i=0;queue.length<10;i++){let added=false;for(const group of shuffle(ranked))if(group[i]&&queue.length<10){queue.push(group[i]);added=true;}if(!added)break;}return shuffle(queue);
 }
+
 export function optionOrder(id:string){const options=[0,1,2],seed=[...id].reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,7);const start=seed%3;return [...options.slice(start),...options.slice(0,start)];}
 export function stableShuffle<T>(items:T[],seedText:string):T[]{let seed=[...seedText].reduce((n,c)=>Math.imul(n^c.charCodeAt(0),16777619)>>>0,2166136261);const next=[...items];for(let i=next.length-1;i>0;i--){seed=(Math.imul(seed,1664525)+1013904223)>>>0;const j=seed%(i+1);[next[i],next[j]]=[next[j],next[i]];}if(next.length>1&&next.every((item,i)=>item===items[i]))next.push(next.shift()!);return next;}

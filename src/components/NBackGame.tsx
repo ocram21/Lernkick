@@ -1,3 +1,4 @@
+import {ExitButton} from './ExitButton';
 import type {NBackProgress} from '../learning/nback';
 import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, RefreshCw } from 'lucide-react';
@@ -36,5 +37,5 @@ export function NBackGame({ paused, theme, onExit, onRunningChange, onResult, on
         window.addEventListener('message', receive);
         return () => window.removeEventListener('message', receive);
     }, []);
-    return <main className="nback-view"><div className="nback-toolbar"><button className="icon-button nback-back" aria-label="Ausgang" onClick={onExit}><ArrowLeft size={30}/>Ausgang</button><strong>Dual N-Back</strong></div>{!loaded && <p className="nback-loading" role="status">Spiel wird geladen … <button className="text-button" onClick={() => setAttempt(n => n + 1)}><RefreshCw size={16}/>Erneut laden</button></p>}<iframe key={attempt} ref={frame} src={`${import.meta.env.BASE_URL}games/dual-n-back/index.html`} title="Dual N-Back Training" className="nback-frame" onLoad={() => { setLoaded(true); configure(); }} allow="autoplay"/></main>;
+    return <main className="nback-view"><div className="nback-toolbar"><ExitButton onClick={onExit}/><strong>Dual N-Back</strong></div>{!loaded && <p className="nback-loading" role="status">Spiel wird geladen … <button className="text-button" onClick={() => setAttempt(n => n + 1)}><RefreshCw size={16}/>Erneut laden</button></p>}<iframe key={attempt} ref={frame} src={`${import.meta.env.BASE_URL}games/dual-n-back/index.html`} title="Dual N-Back Training" className="nback-frame" onLoad={() => { setLoaded(true); configure(); }} allow="autoplay"/></main>;
 }

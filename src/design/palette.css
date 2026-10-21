@@ -23,3 +23,7 @@
 
 /* Functional green, explicitly requested for board correctness feedback. */
 :root{--board-success:#237647}
+
+/* Keep vendor pseudo-elements separate: an unsupported selector invalidates a combined rule. */
+.home-status progress::-webkit-progress-value{background:var(--accent)}
+.home-status progress::-moz-progress-bar{background:var(--accent)}

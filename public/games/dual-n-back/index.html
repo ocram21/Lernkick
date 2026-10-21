@@ -287,6 +287,7 @@
     }
 
     function saveRound(){if(state.running&&state.currentRound)try{localStorage.setItem('lernkick.nback.round.v1',JSON.stringify({...state.currentRound,remaining:pendingWait?Math.max(0,pendingWait.remaining-(paused?0:performance.now()-pendingWait.started)):undefined}));}catch{}}
+    window.lernkickEndRound=()=>{state.running=false;state.roundToken++;clearTimeout(pendingWait?.timer);Object.values(letterAudio).forEach(audio=>audio.pause());if('speechSynthesis' in window)speechSynthesis.cancel();try{localStorage.removeItem('lernkick.nback.round.v1');}catch{}};
     window.addEventListener('pagehide',saveRound);
     let paused = false, parentPaused = false, pendingWait = null;
     const pauseOverlay = document.createElement('div');

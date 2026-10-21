@@ -43,3 +43,7 @@ Weiterer Änderungsauftrag vom 18.10.2026: Mengen-Unterzeilen in der Wortschatza
 ## Ergänzung 21.10.2026
 
 PIN-Gate vor der Lernoberfläche: Browser entsperrt nur bis zum Reload, erkannte installierte PWA speichert eine getrennte lokale Freigabe. Kein Serverzugangsschutz; Assets bleiben öffentlich. Navigation: Lernen, Tafeln, Einstellungen; eigene Karten in Einstellungen. Auge/Ohr sind originale, fachlich noch nicht freigegebene Sortier-Testtafeln. Pause und gespeicherter Rückblick ohne Neubewertung; optionaler Pink-Schalter. Wortschatz-Container mit mehr Innenabstand und kontrastreiche Linien für kleine Bundesländer. Details und Grenzen: docs/AENDERUNGEN-2026-10-21.md.
+
+## Maßgebliche Ergänzung: Grammatik und Touch-Tafeln, 21.10.2026
+
+Lernstärkebalken zeigt den Prozentwert sichtbar im Akzent. Ausgang ist ein einheitlicher Button links oben. Eine über Ausgang verlassene N-Back-Zeitfolge wird beendet; dauerhafte Erfolge bleiben. Tafeln haben Bild links, unabhängig scrollbare Begriffe rechts, Bild-Pan/Pinch und direkte Zuordnung auf Nummern; die volle Tafelansicht vermeidet überdeckende Navigation. Wortschatz: Begriffe (sämtliche bisherigen Alltag-/Berufsinhalte), Satzbau, Grammatik; Normal/Streber. 60 Grammatikaufgaben, zehn Aufgaben pro Runde. Neue Runden zufällig und ohne Duplikate, kürzlich ausgewählte Aufgaben zurückstellen. Begonnene Runden und bisherige Daten bleiben erhalten. Details: docs/AENDERUNGEN-2026-10-21-GRAMMATIK-TAFELN.md. Diese Ergänzung hat Vorrang vor abweichenden historischen Angaben.

@@ -13,10 +13,10 @@ export const activitiesSchema=z.object({
  migrated:z.boolean().default(false),
  germany:z.object({session:quizSessionSchema.nullable(),states:results,capitals:results,completed:z.number().int().nonnegative()}),
  hangman:z.object({level:levelSchema,session:hangmanSession.nullable(),results:results}),
- vocabulary:z.object({adaptive:adaptiveSchema.default(emptyAdaptive),enabled:z.object({everyday:z.boolean(),work:z.boolean(),sentences:z.boolean()}),level:levelSchema,session:vocabularySessionSchema.nullable(),words:results,sentences:results})
+ vocabulary:z.object({adaptive:adaptiveSchema.default(emptyAdaptive),enabled:z.object({everyday:z.boolean(),work:z.boolean(),sentences:z.boolean(),grammar:z.boolean().default(false)}),level:levelSchema,session:vocabularySessionSchema.nullable(),words:results,sentences:results,grammar:results.default({}),recent:z.array(z.string()).max(60).default([])})
 });
 export type Activities=z.infer<typeof activitiesSchema>;
 export type ActivityResult=z.infer<typeof resultSchema>;
 export type Difficulty=z.infer<typeof levelSchema>;
-export const emptyActivities=():Activities=>({migrated:false,germany:{session:null,states:{},capitals:{},completed:0},hangman:{level:'normal',session:null,results:{}},vocabulary:{adaptive:emptyAdaptive(),enabled:{everyday:true,work:false,sentences:false},level:'normal',session:null,words:{},sentences:{}}});
+export const emptyActivities=():Activities=>({migrated:false,germany:{session:null,states:{},capitals:{},completed:0},hangman:{level:'normal',session:null,results:{}},vocabulary:{adaptive:emptyAdaptive(),enabled:{everyday:true,work:false,sentences:false,grammar:false},level:'normal',session:null,words:{},sentences:{},grammar:{},recent:[]}});
 export function addResult(previous:ActivityResult|undefined,correct:boolean,now=Date.now()):ActivityResult{return{attempts:(previous?.attempts??0)+1,correct:(previous?.correct??0)+Number(correct),lastCorrect:correct,at:now};}

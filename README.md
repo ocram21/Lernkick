@@ -4,7 +4,7 @@
 
 # LernKick
 
-**Aktueller Änderungsstand 21.10.2026:** PIN-Zugang für Browser/PWA, Testtafeln Auge/Ohr, Pause mit Rückblick, gespeicherter N-Back-Fortschritt und optional „Mit Pink“. [Umsetzungs- und Prüfbericht](docs/AENDERUNGEN-2026-10-21.md). Ältere Abschnitte beschreiben teilweise historische Zwischenstände; der aktuelle Bericht hat Vorrang.
+**Aktueller Änderungsstand 21.10.2026:** Grammatikübungen, zufällige Wortschatzrunden und Touch-Tafeln mit Bildzuordnung; [aktueller Bericht](docs/AENDERUNGEN-2026-10-21-GRAMMATIK-TAFELN.md). Frühere Lieferung: PIN-Zugang für Browser/PWA, Testtafeln Auge/Ohr, Pause mit Rückblick, gespeicherter N-Back-Fortschritt und optional „Mit Pink“. [Umsetzungs- und Prüfbericht](docs/AENDERUNGEN-2026-10-21.md). Ältere Abschnitte beschreiben teilweise historische Zwischenstände; der aktuelle Bericht hat Vorrang.
 
 **Live-PWA:** [LernKick öffnen](https://lernkick.eu/)
 

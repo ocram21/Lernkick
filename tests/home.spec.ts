@@ -6,7 +6,7 @@ test('Hilfe erklärt die Funktionen und führt zurück zur Fächerauswahl',async
   expect((await page.locator('.help-page').innerText()).split(/\s+/).length).toBeLessThan(180);
   await expect(page.locator('.help-page')).not.toContainText(/IndexedDB|Algorithmus|24 Stunden|drei Sekunden/);
   await page.getByText('App installieren',{exact:true}).click();await expect(page.locator('.install-help')).toContainText('Android');await expect(page.locator('.install-help')).toContainText('iPhone');
-  await page.getByRole('button',{name:'Zur Fächerauswahl',exact:true}).click();await expect(page.getByRole('heading',{name:'Dein Lern-Kick'})).toBeVisible();
+  await page.getByRole('button',{name:'Ausgang',exact:true}).click();await expect(page.getByRole('heading',{name:'Dein Lern-Kick'})).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+1)).toBe(true);
   await page.getByRole('button',{name:'Mathematik, Level 1'}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
 });

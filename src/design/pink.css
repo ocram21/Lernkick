@@ -11,7 +11,8 @@
 :root[data-pink="true"] .quoted-example{color:var(--pink-accent)}
 :root[data-pink="true"] .header-update{background:var(--pink-panel);color:var(--pink-accent);border-color:var(--pink-line)}
 :root[data-pink="true"] .letter-keyboard button:disabled{color:var(--pink-ink)}
-:root[data-pink="true"] .home-status progress::-webkit-progress-value,:root[data-pink="true"] .home-status progress::-moz-progress-bar{background:var(--pink-accent)}
+:root[data-pink="true"] .home-status progress::-webkit-progress-value{background:var(--pink-accent)}
+:root[data-pink="true"] .home-status progress::-moz-progress-bar{background:var(--pink-accent)}
 :root[data-pink="true"] .board-sort-list .sort-correct,:root[data-pink="true"] .board-sort-list .sort-incorrect{color:var(--calc-ink)}
 
 :root[data-pink="true"] .app-shell .answer.correct{background:color-mix(in srgb,var(--calc-orange) 15%,var(--pink-panel));border-color:var(--calc-orange);color:var(--pink-ink)}

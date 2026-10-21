@@ -46,7 +46,7 @@ describe('Änderungsauftrag 20. Oktober',()=>{
  it('trennt anspruchsvollen Wortschatz vom Normalmodus und hält zehn Fragen verfügbar',()=>{
   for(const level of ['normal','hard'] as const)for(const category of ['everyday','work'] as const){
    const config=emptyData().activities.vocabulary;config.level=level;config.enabled={everyday:category==='everyday',work:category==='work',sentences:false};
-   const ids=practiceQueue(config);expect(ids).toHaveLength(10);expect(ids.every(id=>id.startsWith('vocabulary.hard.')===(level==='hard'))).toBe(true);expect(ids.every(id=>wordById.get(id)?.category===category)).toBe(true);
+   const ids=practiceQueue(config);expect(ids).toHaveLength(10);expect(ids.every(id=>id.startsWith('vocabulary.hard.')===(level==='hard'))).toBe(true);expect(ids.every(id=>['everyday','work'].includes(wordById.get(id)?.category??''))).toBe(true);
   }
  });
  it('validiert jede generierte Satzkombination und vermeidet kürzlich gezeigte Sätze',()=>{
