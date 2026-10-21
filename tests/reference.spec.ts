@@ -1,4 +1,4 @@
-import {test,expect}from'@playwright/test';
+import {test,expect}from'./appTest';
 import{readFileSync}from'node:fs';
 const states=JSON.parse(readFileSync(new URL('../src/maps/germany.json',import.meta.url),'utf8')).states as {id:string;name:string;capital:string}[];
 for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440,height:900}])test(`Deutschlandquiz ohne Seiten-Scrollen, zwei vollständige Runden: ${viewport.width}`,async({page})=>{

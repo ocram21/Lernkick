@@ -20,3 +20,6 @@
 .primary:hover{background:var(--calc-orange);filter:brightness(1.04)}
 .answer.correct,.letter-keyboard button:disabled{color:var(--ink)}
 .bottom-nav button[aria-current]{background:var(--calc-petrol);color:var(--calc-ink)}
+
+/* Functional green, explicitly requested for board correctness feedback. */
+:root{--board-success:#237647}

@@ -73,7 +73,7 @@
     .cell { border-radius: 9px; background: var(--cell); }
     .cell.active { background: var(--stimulus); }
     .answers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .answer { padding: 12px 10px; border: 1px solid var(--line); background: var(--calc-ink); color: var(--ink); }
+    .answer { min-height:clamp(72px,15vh,140px); font-size:24px; padding: 12px 10px; border: 1px solid var(--line); background: var(--calc-ink); color: var(--ink); }
     .answer:enabled:hover { border-color: var(--accent); background: var(--calc-ink); }
     .answer small { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; font-weight: 500; }
     .result-lead { margin-bottom: 24px; color: var(--muted); }
@@ -102,7 +102,7 @@
     body{padding:12px;min-width:0}.site-title{display:none}.panel{padding:clamp(12px,3vw,26px)}
     .game-head{display:flex;align-items:center;margin-bottom:12px;gap:8px}.game-head h1{margin:0;flex:1}.game-head .counter{font-size:13px;margin:0}.game-head .secondary{min-height:44px;padding:8px 12px}
     .grid{width:min(100%,390px,calc(100dvh - 185px));margin-bottom:12px;gap:7px}
-    .answers{grid-template-columns:1fr 1fr;gap:8px}.answer{min-height:52px;font-size:15px;padding:10px 4px}
+    .answers{grid-template-columns:1fr 1fr;gap:8px}.answer{min-height:clamp(72px,16dvh,140px);font-size:24px;padding:10px 4px}
     .intro{margin-bottom:18px}.level-choice{margin-bottom:14px}#soundTest{min-height:44px}#audioNotice{font-size:14px;line-height:1.4}
     .pause-overlay{position:fixed;inset:0;z-index:10;background:color-mix(in srgb,var(--page) 95%,transparent);display:grid;place-items:center;padding:16px}.pause-overlay .panel{width:min(100%,420px)}
     @media(max-height:380px) and (min-width:500px){#gameView{display:grid;grid-template-columns:1fr 1fr;gap:8px}.game-head{grid-column:1/-1}.grid{grid-column:1;grid-row:2;width:min(100%,calc(100dvh - 110px));margin:0 auto}.answers{grid-column:2;align-content:center;grid-template-columns:1fr}.answer{min-height:52px}}
@@ -112,7 +112,8 @@
     .primary{color:var(--page)}.outcome,.next-step{color:var(--ink)}
     :root[data-theme="retro-tech"]{--page:var(--calc-display);--surface:var(--calc-housing);--ink:var(--calc-ink);--muted:var(--calc-ink);--accent:var(--calc-violet);--line:var(--calc-housing);--cell:var(--calc-number);--stimulus:var(--calc-violet);color-scheme:dark}
     .primary:hover{background:var(--accent);filter:brightness(1.1)}.panel{padding:20px}
-    .primary{color:var(--calc-number)}.outcome.fail{color:var(--ink)}
+    .primary{color:var(--calc-ink)}.outcome.fail{color:var(--ink)}
+:root[data-theme="pink"]{color-scheme:light}.primary{margin-top:8px}:root[data-theme="pink"] .primary{color:var(--calc-ink)}:root[data-theme="pink"] .answer{background:var(--surface);color:var(--ink)}
 </style>
 </head>
 <body>
@@ -141,8 +142,8 @@
         <div class="cell"></div><div class="cell"></div><div class="cell"></div>
       </div>
       <div class="answers">
-        <button class="answer" id="audioButton" type="button">Audio-Match<small>Taste A</small></button>
-        <button class="answer" id="positionButton" type="button">Positions-Match<small>Taste L</small></button>
+        <button class="answer" id="positionButton" type="button">Position</button>
+        <button class="answer" id="audioButton" type="button">Audio</button>
       </div>
     </section>
 
@@ -282,17 +283,21 @@
       const trial = round && round.sequence[round.index];
       if (!trial || !trial.scored || trial.answers[kind]) return;
       trial.answers[kind] = true;
+      saveRound();
     }
 
+    function saveRound(){if(state.running&&state.currentRound)try{localStorage.setItem('lernkick.nback.round.v1',JSON.stringify({...state.currentRound,remaining:pendingWait?Math.max(0,pendingWait.remaining-(paused?0:performance.now()-pendingWait.started)):undefined}));}catch{}}
+    window.addEventListener('pagehide',saveRound);
     let paused = false, parentPaused = false, pendingWait = null;
     const pauseOverlay = document.createElement('div');
     pauseOverlay.className='pause-overlay hidden';
     pauseOverlay.innerHTML='<section class="panel"><h2>Pause</h2><p>Deine laufende Runde bleibt stehen.</p><button class="primary" type="button">Weiter spielen</button></section>';
     document.body.append(pauseOverlay);
-    function announceRunning(running){if(parent!==window)parent.postMessage({type:'lernkick:nback-state',running},location.origin);}
+    function announceRunning(running){if(parent!==window)parent.postMessage({type:'lernkick:nback-state',level:state.level,running},location.origin);}
     function resumeWait(){if(!pendingWait||paused)return;const w=pendingWait;w.started=performance.now();w.timer=setTimeout(()=>{pendingWait=null;w.resolve();},w.remaining);}
     function pauseGame(value){
       if(value===paused)return;
+      if(value)saveRound();
       paused=value;
       if(paused){
         if(pendingWait){clearTimeout(pendingWait.timer);pendingWait.remaining=Math.max(0,pendingWait.remaining-(performance.now()-pendingWait.started));}
@@ -311,10 +316,10 @@
     function wait(ms){return new Promise(resolve=>{pendingWait={resolve,remaining:ms,started:performance.now(),timer:null};resumeWait();});}
 
 
-    async function playRound(level) {
+    async function playRound(level, saved=null) {
       state.roundToken += 1;
       const token = state.roundToken;
-      const round = { level, sequence: generateSequence(level), index: 0, startedAt: Date.now() };
+      const round = saved || { resultId:crypto.randomUUID(), level, sequence: generateSequence(level), index: 0, startedAt: Date.now() };
       state.currentRound = round;
       state.level = level;
       state.running = true;
@@ -322,22 +327,29 @@
       document.getElementById("gameLevel").textContent = `${level}-Back`;
       showView(gameView);
 
-      for (let index = 0; index < round.sequence.length; index += 1) {
+      const resumeIndex=round.index,resumePhase=saved?.phase,resumeRemaining=saved?.remaining;
+      for (let index = round.index; index < round.sequence.length; index += 1) {
         if (token !== state.roundToken) return;
         round.index = index;
         const trial = round.sequence[index];
         counter.textContent = `Durchgang ${Math.max(0, index - level + 1)} / ${CONFIG.scoredTrials}`;
         setAnswerButtons(trial.scored);
-        gridCells.forEach((cell, cellIndex) => cell.classList.toggle("active", cellIndex === trial.position));
-        speakLetter(trial.letter);
-        await wait(CONFIG.stimulusDuration);
-        if (token !== state.roundToken) return;
+        const resuming=Boolean(saved)&&index===resumeIndex;
+        if(!resuming||resumePhase!=='gap') {
+          round.phase='stimulus';saveRound();
+          gridCells.forEach((cell, cellIndex) => cell.classList.toggle("active", cellIndex === trial.position));
+          speakLetter(trial.letter);
+          await wait(resuming&&resumePhase==='stimulus'&&Number.isFinite(resumeRemaining)?resumeRemaining:CONFIG.stimulusDuration);
+          if (token !== state.roundToken) return;
+        }
         gridCells.forEach(cell => cell.classList.remove("active"));
-        await wait(Math.max(0, CONFIG.trialDuration - CONFIG.stimulusDuration));
+        round.phase='gap';saveRound();
+        await wait(resuming&&resumePhase==='gap'&&Number.isFinite(resumeRemaining)?resumeRemaining:Math.max(0, CONFIG.trialDuration - CONFIG.stimulusDuration));
       }
 
       if (token !== state.roundToken) return;
       state.running = false;
+      try{localStorage.removeItem("lernkick.nback.round.v1");}catch{}
       announceRunning(false);
       setAnswerButtons(false);
       if ("speechSynthesis" in window) window.speechSynthesis.cancel();
@@ -369,7 +381,7 @@
       state.highestLevel = highestLevel;
       const record = { level: round.level, ...outcome, nextLevel, highestLevel, date: new Date() };
       state.history.push(record);
-      if(parent!==window)parent.postMessage({type:'lernkick:nback-result',id:round.resultId||(round.resultId=crypto.randomUUID()),errors:outcome.errors,hits:outcome.stats.audio.hits+outcome.stats.position.hits,missed:outcome.stats.audio.missed+outcome.stats.position.missed,falseAlarms:outcome.stats.audio.falseAlarms+outcome.stats.position.falseAlarms,responses:round.sequence.reduce((n,t)=>n+Number(t.answers.audio)+Number(t.answers.position),0)},location.origin);
+      if(parent!==window)parent.postMessage({type:'lernkick:nback-result',level:round.level,id:round.resultId||(round.resultId=crypto.randomUUID()),errors:outcome.errors,hits:outcome.stats.audio.hits+outcome.stats.position.hits,missed:outcome.stats.audio.missed+outcome.stats.position.missed,falseAlarms:outcome.stats.audio.falseAlarms+outcome.stats.position.falseAlarms,responses:round.sequence.reduce((n,t)=>n+Number(t.answers.audio)+Number(t.answers.position),0)},location.origin);
       resultView.innerHTML = "";
 
       const title = document.createElement("h1");
@@ -410,6 +422,11 @@
       showView(resultView);
     }
 
+    const resumeLevelButton=document.createElement('button');resumeLevelButton.className='secondary hidden';resumeLevelButton.type='button';
+    document.getElementById('startButton').before(resumeLevelButton);
+    let resumeLevel=null;
+    resumeLevelButton.addEventListener('click',()=>{if(resumeLevel)playRound(resumeLevel);});
+    window.addEventListener('message',event=>{if(event.origin===location.origin&&event.source===parent&&event.data?.type==='lernkick:nback-progress'&&Number.isInteger(event.data.current)&&event.data.current>=1&&event.data.current<=4){resumeLevel=event.data.current;resumeLevelButton.textContent=`Auf N${resumeLevel} fortsetzen`;resumeLevelButton.classList.remove('hidden');}});
     document.getElementById("startButton").addEventListener("click", () => {
       const selected = Number(document.querySelector('input[name="startLevel"]:checked').value);
       state.started = true;
@@ -425,6 +442,12 @@
       if (event.key.toLowerCase() === "a") { event.preventDefault(); registerAnswer("audio"); }
       if (event.key.toLowerCase() === "l") { event.preventDefault(); registerAnswer("position"); }
     });
+    try {
+      const saved=JSON.parse(localStorage.getItem('lernkick.nback.round.v1')||'null');
+      if(saved&&Number.isInteger(saved.level)&&saved.level>=1&&saved.level<=4&&Array.isArray(saved.sequence)&&saved.sequence.length===24+saved.level&&Number.isInteger(saved.index)&&saved.index>=0&&saved.index<saved.sequence.length&&saved.sequence.every(t=>CONFIG.letters.includes(t.letter)&&Number.isInteger(t.position)&&t.position>=0&&t.position<9&&typeof t.answers?.audio==='boolean'&&typeof t.answers?.position==='boolean')) {
+        pauseGame(true);playRound(saved.level,saved);
+      }
+    } catch {}
   </script>
 </body>
 </html>

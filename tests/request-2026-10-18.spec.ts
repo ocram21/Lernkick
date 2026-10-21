@@ -1,4 +1,4 @@
-import {test,expect} from '@playwright/test';
+import {test,expect} from './appTest';
 import {emptyData} from '../src/lib/schema';
 import {readFileSync} from 'node:fs';
 const sentences=JSON.parse(readFileSync(new URL('../src/content/sentences.json',import.meta.url),'utf8')).tasks as {id:string;tokens:string[]}[];

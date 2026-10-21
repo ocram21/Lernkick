@@ -29,8 +29,8 @@ describe('Deterministische Generatoren',()=>{
     for(const skill of mathCompetencies.filter(s=>s.generator))for(const level of [1,2,3])for(let seed=0;seed<150;seed++) {
       const task=generateTask(skill.id,level,seededRandom(seed))!;questionSchema.parse(task);
       const [a,b]=task.generated!.operands;const op=task.generated!.operation;
-      const result=op==='compare'?Math.max(a,b):op==='add'?a+b:op==='subtract'?a-b:op==='multiply'?a*b:a/b;
-      expect(Number(task.options[task.correct])).toBe(result);expect(Number.isInteger(result)).toBe(true);expect(result).toBeGreaterThanOrEqual(0);
+      const result=op==='compare'?Math.max(a,b):op==='add'?a+b:op==='subtract'?a-b:op==='multiply'?a*b:op==='estimate'?Math.round(a/10)*10*Math.round(b):op==='percent'?a*b/100:a/b;
+      expect(Number(task.options[task.correct])).toBe(result);expect(Number.isInteger(result)).toBe(true);if(skill.id!=='math.number.negative')expect(result).toBeGreaterThanOrEqual(0);else expect(result).toBeLessThan(0);
       expect(task).toEqual(generateTask(skill.id,level,seededRandom(seed)));
       if(skill.id==='math.add.no-carry')expect(a%10+b%10).toBeLessThan(10);
       if(skill.id==='math.add.carry')expect(a%10+b%10).toBeGreaterThanOrEqual(10);
@@ -45,21 +45,21 @@ describe('Deterministische Generatoren',()=>{
   });
 });
 describe('Lernpfad',()=>{
-  it('beginnt bei Zahlvergleich und verändert nur die geübte Einzelkompetenz',()=>{
+  it('beginnt mit Zehnerübergang und verändert nur die geübte Einzelkompetenz',()=>{
     let data=emptyData();const first=nextMathTask(pool,data,{used:[],signatures:[],random:seededRandom(3)})!;
-    expect(first.skillId).toBe('math.number.compare');expect(first.difficulty).toBe(1);
+    expect(first.skillId).toBe('math.add.carry');expect(first.difficulty).toBe(2);
     data=correctTask(data,'math.number.compare',1,1000);expect(data.learning.competencies['math.number.compare'].level).toBe(1);
     expect(data.learning.competencies['math.add.carry']).toBeUndefined();
-    expect(nextMathTask(pool,data,{used:[first.id],signatures:[first.signature]})!.skillId).toBe('math.number.compare');
+    expect(nextMathTask(pool,data,{used:[first.id],signatures:[first.signature]})!.skillId).toBe('math.add.carry');
   });
   it('steigert erst nach mehreren unabhängigen Beobachtungen und beachtet Voraussetzungen',()=>{
     let data=emptyData();for(const [index,seed] of [1,42,1111].entries())data=correctTask(data,'math.number.compare',seed,1000+index*1000);
     expect(data.learning.competencies['math.number.compare'].level).toBe(2);
     expect(confidence(data.learning.competencies['math.number.compare'])).toBe('growing');
-    const next=nextMathTask(pool,data,{used:[],signatures:[],now:4000})!;expect(next.skillId).toBe('math.add.no-carry');
+    const next=nextMathTask(pool,data,{used:[],signatures:[],now:4000})!;expect(next.skillId).toBe('math.add.carry');
     const challenge=emptyData();challenge.learning.preferences.math={pace:'challenge',explanation:'plain'};
-    expect(nextMathTask(pool,challenge,{used:[],signatures:[]})!.skillId).toBe('math.number.compare');
-    expect(nextMathTask(pool,challenge,{used:[],signatures:[]})!.difficulty).toBe(2);
+    expect(nextMathTask(pool,challenge,{used:[],signatures:[]})!.skillId).toBe('math.add.carry');
+    expect(nextMathTask(pool,challenge,{used:[],signatures:[]})!.difficulty).toBe(3);
     expect(challenge.learning.competencies).toEqual({});
   });
   it('bietet nach Fehlern leichtere neue Varianten und prüft danach die ursprüngliche Stufe',()=>{
@@ -67,7 +67,7 @@ describe('Lernpfad',()=>{
     let data=recordLearningAnswer(emptyData(),original,false,0,1000).data;
     const used=[original.id],signatures=[original.signature];
     for(let i=0;i<2;i++){const support=nextMathTask(pool,data,{used,signatures,now:2000+i*1000})!;expect(support.skillId).toBe(original.skillId);expect(support.difficulty).toBe(2);expect(support.support).toBe(true);used.push(support.id);signatures.push(support.signature);data=recordLearningAnswer(data,support,true,1,2000+i*1000).data;}
-    const retry=nextMathTask(pool,data,{used,signatures,now:5000})!;expect(retry.difficulty).toBe(3);expect(retry.support).toBe(false);expect(signatures).not.toContain(retry.signature);
+    const retry=nextMathTask(pool,data,{used,signatures,now:5000})!;expect(retry.difficulty).toBe(2);expect(retry.support).toBe(false);expect(signatures).not.toContain(retry.signature);
     data=recordLearningAnswer(data,retry,true,0,6000).data;expect(data.learning.recovery.math).toBeUndefined();
   });
   it('fängt wiederholte Fehler mit variierenden Aufgaben und einem Grundlagenschritt ab',()=>{
@@ -87,7 +87,7 @@ describe('Lernpfad',()=>{
     for(let i=0;i<3;i++){const task=generateTask('math.add.no-carry',1,seededRandom(1000+i*1000))!;data=recordLearningAnswer(data,task,true,i===2?0:1,6000+i*1000).data;}
     expect(data.learning.recovery.math.skillId).toBe('math.add.carry');
     const support=nextMathTask(pool,data,{used:[],signatures:[],now:10000})!;data=recordLearningAnswer(data,support,true,1,11000).data;
-    expect(nextMathTask(pool,data,{used:[support.id],signatures:[support.signature],now:12000})!.difficulty).toBe(3);
+    expect(nextMathTask(pool,data,{used:[support.id],signatures:[support.signature],now:12000})!.difficulty).toBe(2);
   });
   it('macht eine Unterstützung aus dem Katalog nicht schwerer als die Ausgangsaufgabe',()=>{
     const task=asTask(pool.find(q=>q.id==='math-090')!);
@@ -106,7 +106,8 @@ describe('Lernpfad',()=>{
   });
   it('holt fällige Fähigkeiten in neuen Varianten und bestehende Leitnerfragen zurück',()=>{
     let data=correctTask(emptyData(),'math.number.compare',1,1000);
-    expect(nextMathTask(pool,data,{used:[],signatures:[],now:1000+DAY})!.skillId).toBe('math.number.compare');
+    expect(nextMathTask(pool,data,{used:[],signatures:[],now:1000+DAY})!.skillId).toBe('math.add.carry');
+    data.learning.competencies['math.add.carry']={...emptyCompetency(),attempts:3};data.learning.competencies['math.number.negative']={...emptyCompetency(),attempts:4};
     data.progress['math-031']={box:0,due:1000,attempts:2,correct:0,lastAward:0};
     expect(nextMathTask(pool,data,{used:[],signatures:[],now:2000})!.id).toBe('math-031');
   });
@@ -130,7 +131,7 @@ describe('Dauerhafte Freischaltungen und Migration',()=>{
   });
   it('übernimmt alte Sicherungen vollständig, ohne Sicherheit oder Zeitpunkte zu erfinden',()=>{
     const old=legacyFixture(),next=migrateData(old);
-    expect(next.version).toBe(3);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards);expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual(old.settings);
+    expect(next.version).toBe(3);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards);expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual({...old.settings,pink:false});
     const skill=next.learning.competencies['math.add.carry'];expect(skill.baseline).toEqual({attempts:9,correct:7});expect(skill.observations).toEqual([]);expect(confidence(skill)).toBe('new');expect(next.learning.unlocks).toEqual({});
     expect(readBackup(JSON.stringify(old))).toEqual(next);expect(migrateData(next)).toEqual(next);
   });

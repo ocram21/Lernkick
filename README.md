@@ -1,10 +1,10 @@
-> Verbindliche Farbvorlage: [Nutzerfoto](docs/design/calculator-reference.jpeg), [Palette](src/design/palette.json) und [Designregeln](DESIGN.md). Die UI verwendet nur diese Palette; spaetere Schautafelinhalte duerfen davon abweichen.
+> Verbindliche Farbvorlage: [Nutzerfoto](docs/design/calculator-reference.jpeg), [Palette](src/design/palette.json) und [Designregeln](DESIGN.md). Die Standard-UI folgt dieser Palette; optionales Pink, funktionales Tafeln-Grün und Original-Schautafelinhalte ergänzen sie gemäß aktuellem Nutzerauftrag.
 
 > Aktueller Stand 19.10.2026: Der konsolidierte Änderungsauftrag ersetzt frühere Oberflächenvorgaben in diesem Dokument. Startseite mit neun Retro-Tech-Tasten, kumulierten Punkten, unabhängigen Leveln und einer Lernstärke; keine separate Fortschrittsseite und kein freier Lernmodus. Datenmigration, Sicherungen, Modulregeln und Abnahme: [Umsetzungsbericht](docs/UMSETZUNG-2026-10-19.md).
 
 # LernKick
 
-**Aktueller Änderungsstand:** Lerntafeln durch Dual N-Back ersetzt. 70 Tests und Produktionsbuild erfolgreich; Browserabnahme und Vergleich mit der externen Spielquelle bleiben offen. [Prüfstand](docs/DUAL-N-BACK-2026-10-19.md).
+**Aktueller Änderungsstand 21.10.2026:** PIN-Zugang für Browser/PWA, Testtafeln Auge/Ohr, Pause mit Rückblick, gespeicherter N-Back-Fortschritt und optional „Mit Pink“. [Umsetzungs- und Prüfbericht](docs/AENDERUNGEN-2026-10-21.md). Ältere Abschnitte beschreiben teilweise historische Zwischenstände; der aktuelle Bericht hat Vorrang.
 
 **Live-PWA:** [LernKick öffnen](https://lernkick.eu/)
 
@@ -31,7 +31,7 @@ App-Icons können nach Änderungen an `public/icon.svg` mit `node scripts/icons.
 
 ## Funktionen
 
-Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle fünf Fächer als quadratische Buttons (MA, D, SK, Bio, Geo), Lernmodus und Hauptnavigation bleiben sichtbar. Zurückpfeil und Logo fragen während einer Runde mit „Weiterlernen“ / „Runde verlassen“ nach; die Automatik pausiert im Dialog. Eine kurze Bedienhilfe erklärt Lernformen und Installation. Technische Hintergründe stehen in dieser README und im [Pilotkonzept](docs/MATHE-PILOT.md).
+Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle fünf Fächer als quadratische Buttons (MA, D, SK, Bio, Geo), Lernmodus und Hauptnavigation bleiben sichtbar. Ausgang und Logo verlassen eine Runde ohne Rückfrage; der laufende Stand bleibt erhalten. Pause hält Automatik und Lernzeit an. Eine kurze Bedienhilfe erklärt Lernformen und Installation. Technische Hintergründe stehen in dieser README und im [Pilotkonzept](docs/MATHE-PILOT.md).
 
 - Je 100 Fragen für Mathematik, Deutsch, Sozialkunde, Biologie und Geografie; zehn unterschiedliche Fragen pro Runde, zwei bis vier gemischte Antworten.
 - Drei Lernformen auf der Startseite: Lernrunde, Freies Üben und Karten. Danach startet ein Fachbutton die gewählte Lernform. Der Wortschatz bietet Alltag (200 Wörter), Beruf (200 Wörter) und Satzbau (200 Aufgaben, 100 je Stufe). Bereiche sind einzeln und gemeinsam aktivierbar; die Auswahl und laufende Runde werden gespeichert.
@@ -93,7 +93,7 @@ Die Browserprüfungen liegen in `tests/*.spec.ts`, der Pilot in `tests/learning.
 - Offizielle Lehrplanquellen und Fachhinweise wurden recherchiert; siehe [Recherche Sachsen-Anhalt](docs/ANFORDERUNGEN-SACHSEN-ANHALT.md). Der konkrete Prüfungsweg der BvB-Reha-Gruppe und die Freigabe durch Fachlehrkräfte bleiben offen. Alle 500 Aufgaben mit Lösungen: [Fragenkatalog](docs/FRAGENKATALOG.md).
 - Keine Konten, Tracker oder zentralen Schülerdaten. Hosting-Logs sowie Betreiber-/Datenschutzhinweise vor öffentlichem Einsatz gesondert prüfen.
 - Browserdaten sind an Origin und Browserprofil gebunden; bei Domainwechsel exportieren/importieren. Entfernte Browserdaten können nur aus einer vorherigen Sicherung wiederhergestellt werden. Andere Apps derselben Origin teilen deren Speicherumgebung; eigene Domain empfohlen.
-- App-interne Navigation verwendet keine Serverrouten; Deep Links sind nicht implementiert. Angebrochene Runden werden nach Neuladen nicht fortgesetzt, bereits beantwortete Fragen bleiben gespeichert.
+- App-interne Navigation verwendet keine Serverrouten; Deep Links sind nicht implementiert. Laufende Fachrunden, Spiele und Entwürfe bleiben lokal erhalten und können wiederaufgenommen werden.
 
 ## Deutschlandquiz und Lerntafeln
 

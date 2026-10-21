@@ -3,10 +3,42 @@ import topicWords from '../content/vocabularyTopics.json';
 import sentencePack from '../content/sentences.json';
 import {vocabularyEntrySchema}from'../lib/schema';
 import {levelSchema,type Activities}from'./schema';
-export const words=topicWords.entries.map(value=>vocabularyEntrySchema.and(z.object({category:z.enum(['everyday','work']),topic:z.string()})).parse(value));
+const advancedWords=[
+{id:'vocabulary.hard.ambivalent',category:'everyday',topic:'Streber',word:'ambivalent',meaning:'Zwiespältig; mit widersprüchlichen Gefühlen oder Bewertungen',distractors:['Besonders eindeutig','Völlig gleichgültig']},
+{id:'vocabulary.hard.implizit',category:'everyday',topic:'Streber',word:'implizit',meaning:'Mitgemeint, ohne ausdrücklich ausgesprochen zu werden',distractors:['Wörtlich ausgesprochen','Offensichtlich falsch']},
+{id:'vocabulary.hard.resilienz',category:'everyday',topic:'Streber',word:'Resilienz',meaning:'Die Fähigkeit, Belastungen zu bewältigen und sich davon zu erholen',distractors:['Die Vermeidung aller Veränderungen','Ein besonders gutes Gedächtnis']},
+{id:'vocabulary.hard.diskrepanz',category:'everyday',topic:'Streber',word:'Diskrepanz',meaning:'Eine Abweichung oder ein Widerspruch zwischen zwei Dingen',distractors:['Eine vollständige Übereinstimmung','Eine zufällige Begegnung']},
+{id:'vocabulary.hard.differenziert',category:'everyday',topic:'Streber',word:'differenziert',meaning:'Mit genauer Unterscheidung verschiedener Aspekte',distractors:['Ohne Einzelheiten zu beachten','Unverständlich formuliert']},
+{id:'vocabulary.hard.plausibel',category:'everyday',topic:'Streber',word:'plausibel',meaning:'Nachvollziehbar und einleuchtend',distractors:['Sicher bewiesen','Grundsätzlich unmöglich']},
+{id:'vocabulary.hard.antizipieren',category:'everyday',topic:'Streber',word:'antizipieren',meaning:'Eine mögliche Entwicklung gedanklich vorwegnehmen',distractors:['Eine Entwicklung rückgängig machen','Eine Entscheidung aufschieben']},
+{id:'vocabulary.hard.redundant',category:'everyday',topic:'Streber',word:'redundant',meaning:'Mehrfach vorhanden oder inhaltlich überflüssig',distractors:['Besonders knapp','Noch nicht vorhanden']},
+{id:'vocabulary.hard.subjektiv',category:'everyday',topic:'Streber',word:'subjektiv',meaning:'Von der persönlichen Sichtweise geprägt',distractors:['Unabhängig von jeder Person','Wissenschaftlich bewiesen']},
+{id:'vocabulary.hard.konsens',category:'everyday',topic:'Streber',word:'Konsens',meaning:'Eine gemeinsame Übereinstimmung in einer Frage',distractors:['Eine verbindliche Einzelanweisung','Eine anhaltende Meinungsverschiedenheit']},
+{id:'vocabulary.hard.deckungsbeitrag',category:'work',topic:'Streber',word:'Deckungsbeitrag',meaning:'Umsatzerlös abzüglich variabler Kosten; trägt zur Deckung fixer Kosten bei',distractors:['Umsatz einschließlich aller Steuern','Gewinn nach Abzug sämtlicher Kosten']},
+{id:'vocabulary.hard.liquiditaet',category:'work',topic:'Streber',word:'Liquidität',meaning:'Die Fähigkeit, fällige Zahlungen rechtzeitig zu leisten',distractors:['Die Höhe des Lagerbestands','Die Anzahl abgeschlossener Aufträge']},
+{id:'vocabulary.hard.gewährleistung',category:'work',topic:'Streber',word:'Gewährleistung',meaning:'Gesetzliche Rechte bei einer mangelhaften Leistung',distractors:['Eine freiwillige Zusatzleistung ohne gesetzliche Grundlage','Eine Versicherung gegen alle Schäden']},
+{id:'vocabulary.hard.ergonomie',category:'work',topic:'Streber',word:'Ergonomie',meaning:'Anpassung von Arbeitsmitteln und Abläufen an den Menschen',distractors:['Maximierung der Arbeitszeit','Ausschließliche Gestaltung von Pausenräumen']},
+{id:'vocabulary.hard.disposition',category:'work',topic:'Streber',word:'Disposition',meaning:'Planung und Einteilung von Personal, Material oder Aufträgen',distractors:['Abschluss einer Buchhaltung','Reinigung eines Arbeitsplatzes']},
+{id:'vocabulary.hard.brutto',category:'work',topic:'Streber',word:'Bruttowertschöpfung',meaning:'Wert der produzierten Leistungen abzüglich der Vorleistungen',distractors:['Summe aller Gehaltszahlungen','Verkaufspreis einschließlich Umsatzsteuer']},
+{id:'vocabulary.hard.amortisation',category:'work',topic:'Streber',word:'Amortisation',meaning:'Rückfluss einer Investitionssumme durch erwirtschaftete Überschüsse',distractors:['Erhöhung des Kaufpreises','Vollständiger Ausfall einer Maschine']},
+{id:'vocabulary.hard.skonto',category:'work',topic:'Streber',word:'Skonto',meaning:'Preisnachlass bei Zahlung innerhalb einer vereinbarten kurzen Frist',distractors:['Eine zusätzliche Liefergebühr','Ein Zuschlag bei verspäteter Zahlung']},
+{id:'vocabulary.hard.tarifbindung',category:'work',topic:'Streber',word:'Tarifbindung',meaning:'Verbindliche Geltung eines Tarifvertrags für die Tarifgebundenen',distractors:['Freie Wahl aller Arbeitsbedingungen ohne Regeln','Ein staatlich festgesetzter Preis']},
+{id:'vocabulary.hard.gefaehrdung',category:'work',topic:'Streber',word:'Gefährdungsbeurteilung',meaning:'Systematische Ermittlung und Bewertung von Gefährdungen bei der Arbeit',distractors:['Beurteilung nur nach einem Arbeitsunfall','Eine freiwillige Befragung zur Zufriedenheit']},
+] as const;
+export const words=[...topicWords.entries,...advancedWords.map(w=>({...w,distractors:[...w.distractors]}))].map(value=>vocabularyEntrySchema.and(z.object({category:z.enum(['everyday','work']),topic:z.string()})).parse(value));
 export const sentenceSchema=z.object({id:z.string(),level:levelSchema,tokens:z.array(z.string()).min(3),solutions:z.array(z.array(z.string())).min(1),instruction:z.string(),hint:z.string()});
-export const sentences=sentencePack.tasks.map(value=>sentenceSchema.parse({...value,instruction:value.instruction.replace(/Zähle in dieser Reihenfolge auf:/g,'Verwende in deiner Aufzählung:')}));
+const fixedSentences=sentencePack.tasks.map(value=>sentenceSchema.parse({...value,instruction:value.instruction.replace(/Zähle in dieser Reihenfolge auf:/g,'Verwende in deiner Aufzählung:')}));
 export type SentenceTask=z.infer<typeof sentenceSchema>;
+const people=['Mia','Ali','Lena','Ben','Nora','Emil','Sara','Tim','Lea','Omar'];
+const actions=[['liest','ein Buch'],['schreibt','einen Brief'],['zeichnet','ein Bild'],['plant','einen Ausflug'],['kauft','frisches Obst'],['prüft','die Rechnung'],['repariert','das Fahrrad'],['sortiert','die Unterlagen']];
+const generatedSentences:SentenceTask[]=people.flatMap((person,p)=>actions.flatMap(([verb,object],a)=>['heute','morgen','am Nachmittag'].map((_time,t)=>{
+ const infinitives=['lesen','schreiben','zeichnen','planen','kaufen','prüfen','reparieren','sortieren'];
+ const tokens=t===0?[person,verb,'heute',object,',','weil','das','wichtig','ist','.']:t===1?['Morgen',verb,person,object,'.']:[person,'möchte',object,infinitives[a],',','bevor','der Unterricht','beginnt','.'];
+ const start=t===1?'„Morgen“':'dem Namen';
+ return sentenceSchema.parse({id:`sentence.generated.v1.${p}.${a}.${t}`,level:'normal',tokens,solutions:[[...tokens]],instruction:`Bilde einen Satz. Beginne mit ${start}.`,hint:t===1?'Nach der Zeitangabe folgt das Verb.':'Im Hauptsatz steht das Verb an zweiter Stelle; im Nebensatz steht es am Ende.'});
+})));
+export const sentences=[...fixedSentences,...generatedSentences];
+
 export const wordById=new Map(words.map(word=>[word.id,word]));
 export const sentenceById=new Map(sentences.map(task=>[task.id,task]));
 export function sentenceText(tokens:string[]){return tokens.join(' ').replace(/\s+([,.;:!?])/g,'$1');}
@@ -55,14 +87,14 @@ export function normalSentenceQueue(activity:Activities['vocabulary'],exclude:st
   const ra=activity.sentences[a.id],rb=activity.sentences[b.id];
   // Failed tasks return only when they fit the current band; no difficult repeat lock.
   const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;
-  return priority(ra)-priority(rb)||Math.abs(sentenceBand(a)-tier)-Math.abs(sentenceBand(b)-tier)||(ra?.at??0)-(rb?.at??0)||Number(b.tokens.includes(','))-Number(a.tokens.includes(','))||Number(b.instruction.includes('Zähle'))-Number(a.instruction.includes('Zähle'));
+  return Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb)||Math.abs(sentenceBand(a)-tier)-Math.abs(sentenceBand(b)-tier)||(ra?.at??0)-(rb?.at??0)||Number(b.tokens.includes(','))-Number(a.tokens.includes(','))||Number(b.instruction.includes('Zähle'))-Number(a.instruction.includes('Zähle'));
  }).map(s=>s.id);
 }
 /** Due mistakes first, then unseen tasks; learned tasks remain available for practice. */
 export function practiceQueue(activity:Activities['vocabulary']):string[]{
- const groups=[activity.enabled.everyday?words.filter(w=>w.category==='everyday').map(w=>w.id):[],activity.enabled.work?words.filter(w=>w.category==='work').map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>s.level==='hard').map(s=>s.id)):[]].filter(group=>group.length);
+ const groups=[activity.enabled.everyday?words.filter(w=>w.category==='everyday'&&w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.work?words.filter(w=>w.category==='work'&&w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>s.level==='hard').map(s=>s.id)):[]].filter(group=>group.length);
  const result=(id:string)=>activity.words[id]??activity.sentences[id];
- for(const group of groups)if(!group[0]?.startsWith('sentence.normal'))group.sort((a,b)=>{const ra=result(a),rb=result(b);const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;return priority(ra)-priority(rb)||(ra?.at??0)-(rb?.at??0);});
+ for(const group of groups)if(!group[0]?.startsWith('sentence.normal'))group.sort((a,b)=>{const ra=result(a),rb=result(b);const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;return Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb)||(ra?.at??0)-(rb?.at??0);});
  const queue:string[]=[];for(let i=0;queue.length<10;i++){let added=false;for(const group of groups)if(group[i]&&queue.length<10){queue.push(group[i]);added=true;}if(!added)break;}return queue;
 }
 export function optionOrder(id:string){const options=[0,1,2],seed=[...id].reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,7);const start=seed%3;return [...options.slice(start),...options.slice(0,start)];}

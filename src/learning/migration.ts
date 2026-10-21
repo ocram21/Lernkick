@@ -1,3 +1,4 @@
+import {mergeNBack} from './nback';
 import { moduleIds } from './journey';
 import { dataSchema, previousDataSchema, legacyDataSchema, emptyLearning, emptyStudy, type UserData } from '../lib/schema';
 import { standardCards, standardVocabulary } from '../study/cards';
@@ -31,7 +32,7 @@ export function prepareImport(current: UserData, incoming: UserData): UserData {
     if (current.journey && incoming.journey && current.journey.profileId !== incoming.journey.profileId)
         return incoming;
     const journey = incoming.journey && current.journey ? { ...incoming.journey, profileId: current.journey.profileId, totalPoints: Math.max(current.journey.totalPoints, incoming.journey.totalPoints), modules: Object.fromEntries(moduleIds.map(id => { const a = current.journey!.modules[id], b = incoming.journey!.modules[id]; return [id, { ...(a.level > b.level || (a.level === b.level && a.progress > b.progress) ? a : b), completed: [...new Set([...a.completed, ...b.completed])], bossWins: [...new Set([...a.bossWins, ...b.bossWins])], bossAttempts: [...new Set([...a.bossAttempts, ...b.bossAttempts])] }]; })) as NonNullable<UserData['journey']>['modules'], events: { ...current.journey.events, ...incoming.journey.events }, tasks: { ...current.journey.tasks, ...incoming.journey.tasks } } : current.journey ? { ...current.journey, totalPoints: Math.max(current.journey.totalPoints, Object.values(incoming.scores).reduce((a, b) => a + b, 0)) } : incoming.journey;
-    return { ...incoming, journey, learning: { ...incoming.learning, unlocks: { ...current.learning.unlocks, ...incoming.learning.unlocks } } };
+    return { ...incoming, nback:mergeNBack(current.nback,incoming.nback), journey, learning: { ...incoming.learning, unlocks: { ...current.learning.unlocks, ...incoming.learning.unlocks } } };
 }
 /** One-time, lossless transition: edited defaults become personal copies. */
 export function migrateActivities(data: UserData): UserData {

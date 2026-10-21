@@ -1,0 +1,17 @@
+/* Optional palette; reference illustrations and semantic feedback keep their colors. */
+:root[data-pink="true"]{color-scheme:light;background:var(--pink-ground);--ground:var(--pink-ground);--panel:var(--pink-panel);--ink:var(--pink-ink);--muted:var(--pink-muted);--accent:var(--pink-accent);--line:var(--pink-line);--lcd:var(--pink-lcd);--lcd-ink:var(--pink-ink);--key-ink:var(--pink-white);--button-ink:var(--pink-white)}
+:root[data-pink="true"] .calculator-grid{background:var(--pink-recess)}
+:root[data-pink="true"] .calculator-key[data-module="german"],:root[data-pink="true"] .calculator-key[data-module="vocabulary"]{--key-color:var(--pink-accent)}
+:root[data-pink="true"] .primary{background:var(--pink-accent);color:var(--pink-white)}
+:root[data-pink="true"] .bottom-nav{background:var(--pink-panel)}
+:root[data-pink="true"] .bottom-nav button[aria-current]{background:var(--pink-accent);color:var(--pink-white)}
+:root[data-pink="true"] .answer,:root[data-pink="true"] .tool-panel,:root[data-pink="true"] .notice,:root[data-pink="true"] .board-draft,:root[data-pink="true"] .round-review{background:var(--pink-panel);color:var(--pink-ink)}
+:root[data-pink="true"] .answers{background:var(--pink-recess)}
+:root[data-pink="true"] .learning .answer.incorrect{background:var(--calc-number);color:var(--calc-ink)}
+:root[data-pink="true"] .quoted-example{color:var(--pink-accent)}
+:root[data-pink="true"] .header-update{background:var(--pink-panel);color:var(--pink-accent);border-color:var(--pink-line)}
+:root[data-pink="true"] .letter-keyboard button:disabled{color:var(--pink-ink)}
+:root[data-pink="true"] .home-status progress::-webkit-progress-value,:root[data-pink="true"] .home-status progress::-moz-progress-bar{background:var(--pink-accent)}
+:root[data-pink="true"] .board-sort-list .sort-correct,:root[data-pink="true"] .board-sort-list .sort-incorrect{color:var(--calc-ink)}
+
+:root[data-pink="true"] .app-shell .answer.correct{background:color-mix(in srgb,var(--calc-orange) 15%,var(--pink-panel));border-color:var(--calc-orange);color:var(--pink-ink)}

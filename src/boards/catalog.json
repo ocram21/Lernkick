@@ -1,0 +1,142 @@
+[
+  {
+    "id": "anatomie-auge-01",
+    "title": "Das menschliche Auge",
+    "subject": "Biologie",
+    "image": "boards/original/LernKick_Tafel_Auge.png",
+    "width": 1536,
+    "height": 676,
+    "entries": [
+      {
+        "number": 1,
+        "term": "Augenbraue"
+      },
+      {
+        "number": 2,
+        "term": "Oberes Augenlid"
+      },
+      {
+        "number": 3,
+        "term": "Wimpern"
+      },
+      {
+        "number": 4,
+        "term": "Iris (Regenbogenhaut)"
+      },
+      {
+        "number": 5,
+        "term": "Pupille"
+      },
+      {
+        "number": 6,
+        "term": "Lederhaut (Sklera)"
+      },
+      {
+        "number": 7,
+        "term": "Unteres Augenlid"
+      },
+      {
+        "number": 8,
+        "term": "Innerer Augenwinkel"
+      },
+      {
+        "number": 9,
+        "term": "Hornhaut (Kornea)"
+      },
+      {
+        "number": 10,
+        "term": "Linse"
+      },
+      {
+        "number": 11,
+        "term": "Glaskörper"
+      },
+      {
+        "number": 12,
+        "term": "Netzhaut (Retina)"
+      },
+      {
+        "number": 13,
+        "term": "Aderhaut (Choroidea)"
+      },
+      {
+        "number": 14,
+        "term": "Sehnervenkopf (blinder Fleck)"
+      },
+      {
+        "number": 15,
+        "term": "Sehnerv"
+      },
+      {
+        "number": 16,
+        "term": "Äußerer Augenmuskel"
+      }
+    ],
+    "instructions": "Sortiere die Begriffe passend zu den Bildnummern. Tippe auf Check.",
+    "status": "draft",
+    "approvedForTeaching": false,
+    "hints": [
+      "KI-generierte Grafik. Vor Freigabe Pfeile und Anatomie einzeln prüfen. Markierung 4 zeigt nicht eindeutig die Iris; Markierung 14 entspricht eher dem Sehnervenkopf als der Makula. 8 zeigt den inneren Augenwinkel, nicht eindeutig den Tränenpunkt. Die frühere doppelte 14 wurde oben zu 16 korrigiert."
+    ],
+    "source": "LernKick_Tafel_Auge_Paket.zip",
+    "sha256": "443eee71338f5198474d3bf8b7b75bcb33903963feeb8dac522cd904f8aeab35"
+  },
+  {
+    "id": "biologie-ohr-01",
+    "title": "Das menschliche Ohr",
+    "subject": "Biologie",
+    "image": "boards/original/LernKick_Tafel_Ohr.png",
+    "width": 1536,
+    "height": 680,
+    "entries": [
+      {
+        "number": 1,
+        "term": "Ohrmuschel"
+      },
+      {
+        "number": 2,
+        "term": "Äußerer Gehörgang"
+      },
+      {
+        "number": 3,
+        "term": "Trommelfell"
+      },
+      {
+        "number": 4,
+        "term": "Hammer"
+      },
+      {
+        "number": 5,
+        "term": "Amboss"
+      },
+      {
+        "number": 6,
+        "term": "Steigbügel"
+      },
+      {
+        "number": 7,
+        "term": "Ohrtrompete (Eustachische Röhre)"
+      },
+      {
+        "number": 8,
+        "term": "Hörschnecke (Cochlea)"
+      },
+      {
+        "number": 9,
+        "term": "Bogengänge"
+      },
+      {
+        "number": 10,
+        "term": "Hörnerv"
+      }
+    ],
+    "instructions": "Bringe die Begriffe in die Reihenfolge der Zahlen auf dem Bild. Tippe anschließend auf Check.",
+    "status": "draft",
+    "approvedForTeaching": false,
+    "hints": [
+      "Vor Freigabe alle Führungslinien und anatomischen Strukturen fachlich kontrollieren. Bild ist KI-generiert."
+    ],
+    "source": "LernKick_Tafel_Ohr_Paket.zip",
+    "sha256": "8c06f97468350d55450d751940fd70fae8f96f6e9f5d727f70aa9c1da255d72d"
+  }
+]

@@ -5,15 +5,33 @@ export function generateTask(skillId: string, level: number, random: ()=>number 
   const skill=mathById.get(skillId);if(!skill?.generator)return;
   const difficulty=Math.max(1,Math.min(3,Math.round(level)));
   const integer=(min:number,max:number)=>{const r=random();if(!Number.isFinite(r)||r<0||r>=1)throw new Error('Zufallswert muss zwischen 0 (inklusive) und 1 (exklusive) liegen.');return min+Math.floor(r*(max-min+1));};
-  let a=0,b=0,result=0,explanation='',prompt='';const operation=skill.generator;
+  let a=0,b=0,result=0,explanation='',prompt='';const operation=skill.generator==='negative'?'subtract':skill.generator==='fraction'?'divide':skill.generator;
   const example=skill.example;
-  if(operation==='compare') {
+  if(skill.generator==='fraction') {
+    b=difficulty===1?[2,4][integer(0,1)]:integer(3,difficulty===2?10:20);
+    const numerator=difficulty===1?1:integer(1,b-1),total=b*integer(2,difficulty===1?12:difficulty===2?25:60);
+    a=total*numerator;result=a/b;
+    prompt=`Wie viel sind ${numerator}/${b} von ${total}?`;
+    explanation=`Teile ${total} durch den Nenner ${b}: ${total/b}. Multipliziere mit dem Zähler ${numerator}: ${total/b} × ${numerator} = ${result}.`;
+  } else if(skill.generator==='percent') {
+    a=integer(2,difficulty===1?15:difficulty===2?50:150)*20;
+    b=difficulty===1?[10,50][integer(0,1)]:integer(1,difficulty===2?10:19)*5;result=a*b/100;
+    prompt=`Wie viel sind ${b} % von ${a}${skillId==='math.percent.change'?' € Rabatt':''}?`;
+    explanation=`${b} % bedeutet ${b} von 100. Rechne ${a} ÷ 100 × ${b} = ${result}${skillId==='math.percent.change'?' € Rabatt':''}.`;
+  } else if(skill.generator==='negative') {
+    a=integer(1,difficulty===1?8:difficulty===2?20:60);b=a+integer(1,difficulty===1?9:difficulty===2?20:60);result=a-b;
+    prompt=`Wie viel ist ${a} − ${b}?`;explanation=`Starte auf dem Zahlenstrahl bei ${a}. Gehe ${b} Schritte nach links: erst ${a} Schritte bis 0, dann noch ${b-a} Schritte. Du landest bei ${result}.`;
+  } else if(skill.generator==='estimate') {
+    const base=integer(2,difficulty===1?9:30)*10, multiplier=integer(2,9);a=base+integer(1,4);b=multiplier+.1;result=base*multiplier;
+    prompt=`Überschlage ${a} × ${b.toLocaleString('de-DE')}. Runde beide Faktoren auf ganze Zehner beziehungsweise Einer.`;
+    explanation=`${a} wird auf ${base} gerundet, ${b.toLocaleString('de-DE')} auf ${multiplier}. ${base} × ${multiplier} = ${result}.`;
+  } else if(operation==='compare') {
     a=integer(difficulty===1?24:difficulty===2?80:180,difficulty===1?89:difficulty===2?199:999);b=a+integer(1,difficulty===1?9:difficulty===2?15:25)*(random()<.5?-1:1);
     result=Math.max(a,b);prompt=`Welche Zahl ist größer: ${a} oder ${b}?`;
     explanation=`${result} ist größer. Auf dem Zahlenstrahl liegt ${result} rechts von ${Math.min(a,b)}.`;
   } else if(operation==='add') {
     if(skillId==='math.add.carry') {
-      const ones=integer(2,9);a=(difficulty===1?0:integer(1,difficulty===2?3:7))*10+ones;b=integer(10-ones,9)+(difficulty===3?10:0);result=a+b;
+      const ones=integer(2,9);a=(difficulty===1?0:integer(1,difficulty===2?3:7))*10+ones;b=integer(11-ones,9)+(difficulty===3?10:0);result=a+b;
       const toTen=10-ones;explanation=`Ergänze ${a} zuerst mit ${toTen} zum nächsten Zehner. Von ${b} bleiben ${b-toTen}. Rechne ${a+toTen} + ${b-toTen} = ${result}.`;
     } else {
       const ones=integer(1,7), tens=difficulty===1?integer(1,2):integer(1,difficulty===2?4:7);a=tens*10+ones;b=integer(1,9-ones)+(difficulty===3?10:0);result=a+b;

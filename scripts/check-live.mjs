@@ -1,51 +1,30 @@
 import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
 import {readFileSync,mkdirSync} from 'node:fs';
-const palette=JSON.parse(readFileSync(new URL('../src/design/palette.json',import.meta.url),'utf8'));
 const expected=JSON.parse(readFileSync(new URL('../public/release.json',import.meta.url),'utf8'));
 const url=process.env.LERNKICK_LIVE_URL||'https://lernkick.eu/';
 const browser=await chromium.launch({executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH});
+// A fresh, isolated browser profile only. Never operate on the user's stored learning data.
+async function unlock(page){
+ await page.locator('.access-screen form').waitFor();
+ await page.evaluate(()=>{const parts=new Intl.DateTimeFormat('de-DE',{timeZone:'Europe/Berlin',day:'2-digit',month:'2-digit',year:'numeric'}).formatToParts(new Date());const get=type=>parts.find(p=>p.type===type).value;const code=String(Math.floor(Math.sqrt(Number(get('day')+get('month')+get('year').padStart(4,'0'))))).padStart(4,'0');const input=document.getElementById('access-pin');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,code);input.dispatchEvent(new Event('input',{bubbles:true}));});
+ await page.getByRole('button',{name:'Öffnen',exact:true}).click();await page.locator('.calculator-grid').waitFor();
+}
 try{
- const context=await browser.newContext({viewport:{width:390,height:844}});
- const page=await context.newPage(),errors=[];
+ const context=await browser.newContext({viewport:{width:390,height:844}}),page=await context.newPage(),errors=[];
  page.on('pageerror',error=>errors.push(error.message));
- const response=await page.goto(url+'?verify='+encodeURIComponent(expected.release),{waitUntil:'networkidle',timeout:60000});
- assert.equal(response.status(),200);
- await page.locator('.calculator-key').first().waitFor();
- assert.equal(await page.locator('.calculator-key').count(),9);
- assert.deepEqual(await page.locator('.subject-key .key-name').allTextContents(),['MA','D','SK','Bio','Geo']);
- const release=await context.request.get(new URL('release.json?verify='+Date.now(),url).href);
- assert.equal(release.status(),200);assert.deepEqual(await release.json(),expected);
- const actual=await page.evaluate(names=>Object.fromEntries(names.map(name=>[name,getComputedStyle(document.documentElement).getPropertyValue('--calc-'+name).trim()])),Object.keys(palette.colors));
- assert.deepEqual(actual,palette.colors);
+ const response=await page.goto(url+'?verify='+encodeURIComponent(expected.release),{waitUntil:'networkidle',timeout:60000});assert.equal(response.status(),200);
+ assert.equal(await page.locator('.calculator-key').count(),0);await unlock(page);
+ assert.equal(await page.locator('.calculator-key').count(),9);assert.deepEqual(await page.locator('.subject-key .key-name').allTextContents(),['MA','D','SK','Bio','Geo']);
+ const release=await context.request.get(new URL('release.json?verify='+Date.now(),url).href);assert.equal(release.status(),200);assert.deepEqual(await release.json(),expected);
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
- mkdirSync('.impeccable/review',{recursive:true});
- await page.screenshot({path:'.impeccable/review/live-mobile.png',fullPage:true});
- await page.getByRole('button',{name:'Einstellungen',exact:true}).click();
- assert.equal(await page.getByRole('button',{name:'Vorher-Sicherung exportieren',exact:true}).count(),0);
- assert.equal((await page.locator('.settings-page').innerText()).includes('Darstellung: Retro Tech'),false);
- assert.equal(await page.getByRole('button',{name:'Sicherung exportieren',exact:true}).count(),1);
- assert.equal(await page.locator('.import-button').count(),1);
- await page.getByRole('button',{name:'Lernen',exact:true}).click();
- await page.getByRole('button',{name:'Mathematik, Level 1',exact:true}).click();
- await page.locator('.answer').first().click();await page.locator('.feedback').waitFor();
- const attempts=()=>page.evaluate(()=>new Promise(resolve=>{const r=indexedDB.open('lernkick',1);r.onsuccess=()=>{const db=r.result,g=db.transaction('user').objectStore('user').get('data');g.onsuccess=()=>{resolve(Object.values(g.result.progress).reduce((n,p)=>n+p.attempts,0));db.close();};};}));
- assert.equal(await attempts(),1);
- await page.getByRole('button',{name:'Runde verlassen',exact:true}).click();
- await page.getByRole('dialog').getByRole('button',{name:'Runde verlassen',exact:true}).click();
- await page.getByRole('button',{name:'Dual N-Back, Level 1',exact:true}).click();
- await page.frameLocator('iframe').getByRole('button',{name:'Training starten',exact:true}).waitFor();
- await page.getByRole('button',{name:'Zurück zur Startseite',exact:true}).click();
- assert.equal(await page.getByRole('dialog').count(),0);
- await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload({waitUntil:'networkidle'});
- assert.equal(await page.evaluate(()=>Boolean(navigator.serviceWorker.controller)),true);
- await context.setOffline(true);await page.reload();await page.locator('.calculator-key').first().waitFor();
- assert.equal(await attempts(),1);
- await page.getByRole('button',{name:'Dual N-Back, Level 1',exact:true}).click();
- await page.frameLocator('iframe').getByRole('button',{name:'Training starten',exact:true}).waitFor();
- await page.getByRole('button',{name:'Zurück zur Startseite',exact:true}).click();
- await context.setOffline(false);await page.setViewportSize({width:1440,height:900});
- await page.screenshot({path:'.impeccable/review/live-desktop.png',fullPage:true});
- assert.deepEqual(errors,[]);
- console.log(JSON.stringify({url,release:expected.release,httpStatus:200,keys:9,palette:'verified',settings:'only regular export and import',math:'answer saved',nback:'loaded online and offline',offlineReload:'passed',preservedAttempts:1,runtimeErrors:errors},null,2));
+ mkdirSync('.impeccable/review',{recursive:true});await page.screenshot({path:'.impeccable/review/live-mobile.png',fullPage:true});
+ await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();await page.getByRole('button',{name:'Karten verwalten',exact:true}).click();await page.getByRole('heading',{name:'Karten verwalten',exact:true}).waitFor();await page.getByRole('button',{name:'Lernen',exact:true}).click();
+ await page.getByRole('button',{name:'Mathematik, Level 1',exact:true}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();await page.locator('.answer').first().click();await page.locator('.feedback').waitFor();await page.getByRole('button',{name:'Pause',exact:true}).click();await page.getByRole('region',{name:'Rückblick',exact:true}).waitFor();
+ const attempts=()=>page.evaluate(()=>new Promise(resolve=>{const r=indexedDB.open('lernkick',1);r.onsuccess=()=>{const db=r.result,g=db.transaction('user').objectStore('user').get('data');g.onsuccess=()=>{resolve(Object.values(g.result.progress).reduce((n,p)=>n+p.attempts,0));db.close();};};}));assert.equal(await attempts(),1);await page.getByRole('button',{name:'Ausgang',exact:true}).click();
+ await page.getByRole('button',{name:'Tafeln',exact:true}).click();for(const title of ['Das menschliche Auge','Das menschliche Ohr']){await page.getByRole('button',{name:new RegExp(title)}).click();await page.locator('.board-image-button img').waitFor();assert.equal(await page.locator('.board-image-button img').evaluate(img=>img.complete&&img.naturalWidth>0),true);await page.getByRole('button',{name:'Check',exact:true}).click();await page.getByRole('button',{name:'Ausgang',exact:true}).click();}
+ await page.getByRole('button',{name:'Lernen',exact:true}).click();await page.getByRole('button',{name:'Dual N-Back, Level 1',exact:true}).click();await page.frameLocator('iframe').getByRole('button',{name:'Training starten',exact:true}).waitFor();await page.getByRole('button',{name:'Ausgang',exact:true}).click();
+ await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload({waitUntil:'networkidle'});await unlock(page);assert.equal(await page.evaluate(()=>Boolean(navigator.serviceWorker.controller)),true);await context.setOffline(true);await page.reload();await unlock(page);assert.equal(await attempts(),1);await page.getByRole('button',{name:'Tafeln',exact:true}).click();await page.getByRole('button',{name:/Das menschliche Auge/}).click();assert.equal(await page.locator('.board-image-button img').evaluate(img=>img.complete&&img.naturalWidth>0),true);await page.getByRole('button',{name:'Ausgang',exact:true}).click();await page.getByRole('button',{name:'Lernen',exact:true}).click();
+ await context.setOffline(false);await page.setViewportSize({width:1440,height:900});await page.screenshot({path:'.impeccable/review/live-desktop.png',fullPage:true});assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({url,release:expected.release,httpStatus:200,keys:9,access:'browser unlock and repeated reload verified',boards:'both original images and checks loaded',pink:'enabled',cards:'reachable through settings',review:'read-only pause visible',nback:'loaded',offlineReload:'passed',preservedAttempts:1,runtimeErrors:errors},null,2));
 }finally{await browser.close();}

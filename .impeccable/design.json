@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-21T00:00:00Z",
   "title": "Design System: LernKick",
   "extensions": {
     "colorMeta": {
@@ -48,6 +48,56 @@
         "role": "neutral",
         "displayName": "ink",
         "source": "#ecedf1"
+      },
+      "board-success": {
+        "role": "semantic",
+        "displayName": "Tafel richtig",
+        "purpose": "Funktionales Grün für korrekte Sortierplätze; zusätzlich Textfeedback."
+      },
+      "pink-ground": {
+        "role": "neutral",
+        "displayName": "Pink ground",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-panel": {
+        "role": "neutral",
+        "displayName": "Pink panel",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-ink": {
+        "role": "neutral",
+        "displayName": "Pink ink",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-muted": {
+        "role": "neutral",
+        "displayName": "Pink muted",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-accent": {
+        "role": "accent",
+        "displayName": "Pink accent",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-line": {
+        "role": "neutral",
+        "displayName": "Pink line",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-lcd": {
+        "role": "neutral",
+        "displayName": "Pink lcd",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-recess": {
+        "role": "neutral",
+        "displayName": "Pink recess",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
+      },
+      "pink-white": {
+        "role": "neutral",
+        "displayName": "Pink white",
+        "purpose": "Optionaler gespeicherter Pink-Modus; Quelle src/design/pink.json."
       }
     },
     "typographyMeta": {
@@ -140,7 +190,7 @@
       "name": "LernKick – verbindliche Taschenrechner-Palette",
       "source": "docs/design/calculator-reference.jpeg",
       "approvedAt": "2026-10-19",
-      "scope": "Gesamte App; spätere anatomische und andere Schautafeln dürfen abweichen.",
+      "scope": "Standardansicht; Original-Schautafelinhalte, weißes korrektes Hauptstadtfeld, optionales Pink und funktionales Tafel-Grün sind ausdrücklich freigegebene Ausnahmen.",
       "colors": {
         "housing": "#494b57",
         "display": "#2b2d39",
@@ -152,6 +202,15 @@
         "violet": "#86509b",
         "ink": "#ecedf1"
       }
+    },
+    "approvedExtensions": {
+      "pinkSource": "src/design/pink.json",
+      "pinkActivation": "data-pink=\"true\"",
+      "boardFeedbackToken": "--board-success",
+      "originalImages": "unverändert",
+      "boardControls": "Pfeile mindestens 44 × 44 px; Griff mindestens 44 × 46 px",
+      "pin": "Vier maskierte Positionen; dreispaltige Zifferntasten; mindestens 50 px hoch in kurzen Viewports",
+      "feedback": "Fachfragen und Wort-Multiple-Choice: richtig/falsch zwei Sekunden; Pause stoppt, Fortsetzen startet volle zwei Sekunden. Satzbaufehler bleiben bearbeitbar."
     }
   },
   "components": [
@@ -206,7 +265,14 @@
   ],
   "narrative": {
     "overview": "Verbindlicher Retro-Taschenrechner nach Nutzerfoto vom 19.10.2026.",
-    "colorRule": "Nur approvedPalette.colors; abgeleitete Licht- und Schattenwerte zulässig.",
-    "exception": "Spätere anatomische und andere Schautafeln dürfen andere Inhaltsfarben verwenden."
+    "colorRule": "Standardfarben aus palette.json; optionales Pink ausschließlich aus pink.json; funktionales Tafel-Grün aus --board-success; abgeleitete Licht- und Schattenwerte zulässig.",
+    "exception": "Original-Schautafelinhalte, korrektes weißes Hauptstadtfeld, optionales Pink und funktionales Tafel-Grün sind ausdrücklich freigegeben.",
+    "rules": [
+      {
+        "name": "The Central Palette Rule",
+        "body": "Standardfarben kommen aus `src/design/palette.json`/`palette.css`; die optionale Pink-Palette ausschließlich aus `src/design/pink.json`. `pink.ts` stellt daraus die `--pink-*`-Variablen bereit, `pink.css` ordnet sie den bestehenden Rollen zu. Keine lokalen Pink-Abwandlungen erfinden. Der gespeicherte Schalter `data-pink=\"true\"` aktiviert helle Flächen, dunkle Leseschrift und den Pink-Akzent. Er färbt weder Originalbilder noch semantische Tafelzustände um.",
+        "section": "colors"
+      }
+    ]
   }
 }

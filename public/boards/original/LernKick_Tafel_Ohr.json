@@ -1,0 +1,58 @@
+{
+  "id": "biologie-ohr-01",
+  "title": "Das menschliche Ohr",
+  "subject": "Biologie",
+  "image": "LernKick_Tafel_Ohr.png",
+  "style": "handgezeichnet, vereinfacht; festgelegte Lern-Kick-Farbpalette",
+  "instructions": "Bringe die Begriffe in die Reihenfolge der Zahlen auf dem Bild. Tippe anschließend auf Check.",
+  "items": [
+    {
+      "number": 1,
+      "term": "Ohrmuschel"
+    },
+    {
+      "number": 2,
+      "term": "Äußerer Gehörgang"
+    },
+    {
+      "number": 3,
+      "term": "Trommelfell"
+    },
+    {
+      "number": 4,
+      "term": "Hammer"
+    },
+    {
+      "number": 5,
+      "term": "Amboss"
+    },
+    {
+      "number": 6,
+      "term": "Steigbügel"
+    },
+    {
+      "number": 7,
+      "term": "Ohrtrompete (Eustachische Röhre)"
+    },
+    {
+      "number": 8,
+      "term": "Hörschnecke (Cochlea)"
+    },
+    {
+      "number": 9,
+      "term": "Bogengänge"
+    },
+    {
+      "number": 10,
+      "term": "Hörnerv"
+    }
+  ],
+  "interaction": {
+    "type": "reorder",
+    "checkButton": "Check",
+    "feedback": "all-at-once",
+    "retry": true,
+    "shuffleOnRestart": true
+  },
+  "qualityNote": "Vor Freigabe alle Führungslinien und anatomischen Strukturen fachlich kontrollieren. Bild ist KI-generiert."
+}

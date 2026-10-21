@@ -1,3 +1,5 @@
+import {nbackSchema,emptyNBack} from '../learning/nback';
+import {reviewEntrySchema} from './roundReview';
 import {journeySchema} from '../learning/journey';
 import {activitiesSchema,emptyActivities} from '../activities/schema';
 import { z } from 'zod';
@@ -22,7 +24,7 @@ export const cardSchema = z.object({ id: z.string().min(1).max(100), front: z.st
 export type Card = z.infer<typeof cardSchema>;
 const commonData = {
   progress: z.record(z.string(), progressSchema), scores: z.record(subjectSchema, z.number().int().nonnegative()),
-  cards: z.array(cardSchema).max(2075), settings: z.object({ reducedMotion: z.boolean(), theme:z.enum(['soft-dark','soft-light','classic-dark','retro-tech']).optional() })
+  cards: z.array(cardSchema).max(2075), settings: z.object({ reducedMotion: z.boolean(), pink:z.boolean().default(false), theme:z.enum(['soft-dark','soft-light','classic-dark','retro-tech']).optional() })
 };
 const uniqueCards = (d: {cards: Card[]}) => new Set(d.cards.map(c=>c.id)).size === d.cards.length;
 export const legacyDataSchema = z.object({version:z.literal(1),...commonData}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
@@ -30,6 +32,7 @@ const observationSchema = z.object({ taskId:z.string(), signature:z.string(), at
 export const competencyStateSchema = z.object({ baseline:z.object({attempts:z.number().int().nonnegative(),correct:z.number().int().nonnegative()}).refine(b=>b.correct<=b.attempts), observations:z.array(observationSchema).max(12), helpRequests:z.number().int().nonnegative().default(0), attempts:z.number().int().nonnegative(), correct:z.number().int().nonnegative(), due:z.number().nonnegative(), level:z.number().int().min(1).max(3) }).refine(s=>s.correct<=s.attempts);
 export const preferenceSchema = z.object({pace:z.enum(['easier','fit','challenge']),explanation:z.enum(['plain','alternate'])});
 export const learningSchema = z.object({
+  variants:z.record(z.string(),z.object({correct:z.number().int().nonnegative(),at:z.number().nonnegative()})).default({}),
   competencies:z.record(z.string(),competencyStateSchema), preferences:z.record(z.string(),preferenceSchema),
   unlocks:z.record(z.string(),z.object({at:z.number().nonnegative(),subject:subjectSchema,skillId:z.string(),milestone:z.enum(['growing','secure','practice80'])})),
   recovery:z.record(z.string(),z.object({skillId:z.string(),originalLevel:z.number().int().min(1).max(3),supportLeft:z.number().int().min(0).max(2),failures:z.number().int().nonnegative(),returnTo:z.object({skillId:z.string(),originalLevel:z.number().int().min(1).max(3)}).optional()})),
@@ -44,10 +47,14 @@ export const studySchema=z.object({hiddenDefaults:z.array(z.string()).max(5000),
   if(new Set(study.vocabulary.map(entry=>entry.id)).size!==study.vocabulary.length)ctx.addIssue({code:'custom',message:'Wortschatz-IDs müssen eindeutig sein'});
 });
 export const previousDataSchema=z.object({version:z.literal(2),...commonData,learning:learningSchema}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
-export const dataSchema=z.object({version:z.literal(3),journey:journeySchema.optional(),...commonData,learning:learningSchema,study:studySchema,activities:activitiesSchema.default(emptyActivities),reference:z.object({favorites:z.array(z.string().min(1)).max(200)}).default({favorites:[]})}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
+export const roundSessionSchema=z.object({id:z.string(),kind:z.enum(['subject','vocabulary']),length:z.number().int().min(1).max(100),subject:subjectSchema,mode:z.enum(['adaptive','free']),current:questionSchema.and(z.object({skillId:z.string(),signature:z.string(),help:z.object({hint:z.string(),example:z.string(),alternate:z.string(),visual:z.object({kind:z.enum(['number-line','groups']),start:z.number(),change:z.number()}).optional()}),generated:z.object({version:z.literal(1),operands:z.tuple([z.number(),z.number()]),operation:z.enum(['compare','add','subtract','multiply','divide','estimate','percent'])}).optional(),support:z.boolean().optional()})),options:z.array(z.number().int()),used:z.array(z.string()),signatures:z.array(z.string()),correctSignatures:z.array(z.string()),helpLevel:z.union([z.literal(0),z.literal(1),z.literal(2),z.literal(3)]),panel:z.enum(['help','pace']).nullable(),milestones:z.array(z.string()),answer:z.number().nullable(),correct:z.number().int().nonnegative(),points:z.number().int().nonnegative(),done:z.boolean(),category:z.string().optional(),history:z.array(reviewEntrySchema).max(40).default([])}).superRefine((run,ctx)=>{
+ const count=run.current.options.length;
+ if(run.subject!==run.current.subject||run.options.length!==count||new Set(run.options).size!==count||run.options.some(i=>i<0||i>=count)||run.answer!==null&&(!Number.isInteger(run.answer)||run.answer<0||run.answer>=count)||run.used.length!==run.signatures.length||new Set(run.used).size!==run.used.length||run.correctSignatures.length!==run.correct||run.correct>run.used.length+Number(run.answer!==null&&!run.done)||(run.done?run.used.length!==run.length:run.used.length>=run.length))ctx.addIssue({code:'custom',message:'Der gespeicherte Rundenstand ist unvollständig oder widersprüchlich.'});
+});
+export const dataSchema=z.object({version:z.literal(3),nback:nbackSchema.default(emptyNBack),boards:z.record(z.string(),z.object({order:z.array(z.number().int().nonnegative()).max(100),checked:z.boolean()})).default({}),rounds:z.record(z.string(),roundSessionSchema).default({}),cardSession:z.object({id:z.string(),subject:subjectSchema,cards:z.array(cardSchema),done:z.boolean(),returnView:z.enum(['home','cards','settings','help','vocabulary','boards']),index:z.number().int().nonnegative().default(0),flipped:z.boolean().default(false),known:z.number().int().nonnegative().default(0)}).nullable().default(null),journey:journeySchema.optional(),...commonData,learning:learningSchema,study:studySchema,activities:activitiesSchema.default(emptyActivities),reference:z.object({favorites:z.array(z.string().min(1)).max(200)}).default({favorites:[]})}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
 export type UserData = z.infer<typeof dataSchema>;
 export type CompetencyState = z.infer<typeof competencyStateSchema>;
 export type Observation = z.infer<typeof observationSchema>;
-export const emptyLearning = (): UserData['learning'] => ({competencies:{},preferences:{},unlocks:{},recovery:{},awards:{},evidence:{}});
+export const emptyLearning = (): UserData['learning'] => ({variants:{},competencies:{},preferences:{},unlocks:{},recovery:{},awards:{},evidence:{}});
 export const emptyStudy = (): UserData['study'] => ({hiddenDefaults:[],defaultEdits:{},reviews:{},vocabulary:[],hiddenVocabulary:[],vocabularyEdits:{}});
-export const emptyData = (): UserData => ({version:3,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false,theme:'retro-tech'},learning:emptyLearning(),study:emptyStudy(),reference:{favorites:[]},activities:{...emptyActivities(),migrated:true}});
+export const emptyData = (): UserData => ({version:3,nback:emptyNBack(),boards:{},rounds:{},cardSession:null,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false,pink:false,theme:'retro-tech'},learning:emptyLearning(),study:emptyStudy(),reference:{favorites:[]},activities:{...emptyActivities(),migrated:true}});

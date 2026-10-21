@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './appTest';
 import { createServer } from 'node:http';
 import { readFileSync } from 'node:fs';
 import { resolve, sep, extname } from 'node:path';
@@ -14,14 +14,15 @@ test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async(
   await page.screenshot({path:'test-results/update-mobile.png',fullPage:false});
 });
 
-test('Antwort bleibt drei Sekunden sichtbar; Automatik lässt sich anhalten und fortsetzen',async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();
+test('Antwort bleibt zwei Sekunden sichtbar; Automatik lässt sich anhalten und fortsetzen',async({page})=>{
+  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
   const answer=()=>answerCorrect(page);
   await answer();await expect(page.locator('.feedback')).toBeVisible();
   await page.clock.install();
-  // Re-arm via the accessible pause control so the mocked clock owns both timers.
+  // Re-arm via pause so the mocked clock owns both timers.
+  await page.getByRole('button',{name:'Anhalten',exact:true}).click();
   await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
-  await page.clock.runFor(2999);await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
+  await page.clock.runFor(1999);await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
   await page.clock.runFor(1);await expect(page.getByText('Frage 2 von 10',{exact:true})).toBeVisible();
   await answer();await page.getByRole('button',{name:'Anhalten',exact:true}).click();
   await page.clock.runFor(5000);await expect(page.getByText('Frage 2 von 10',{exact:true})).toBeVisible();await expect(page.locator('.feedback')).toBeVisible();
@@ -31,24 +32,13 @@ test('Antwort bleibt drei Sekunden sichtbar; Automatik lässt sich anhalten und 
 });
 
 
-test('Falsche Antworten bleiben ohne Timer stehen, auch bei der letzten Frage',async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();
-  await page.clock.install();
+test('Falsche Antworten zeigen die Lösung zwei Sekunden und wechseln einschließlich der letzten Frage automatisch',async({page})=>{
+  await page.clock.install();await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
   for(let i=0;i<10;i++) {
-    const prompt=await page.locator('.question h1').innerText();
-    await answerWrong(page);
-    await expect(page.locator('.feedback p')).not.toBeEmpty();
-    await expect(page.getByRole('button',{name:'Anhalten',exact:true})).toHaveCount(0);
-    await expect(page.getByRole('button',{name:'Automatisch weiter',exact:true})).toHaveCount(0);
-    await page.clock.runFor(30_000);
-    await expect(page.locator('.question h1')).toHaveText(prompt);
-    await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible();
-    await expect(page.locator('.feedback')).toBeVisible();
-    if(i===0) await page.screenshot({path:'test-results/wrong-answer-mobile.png'});
-    await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage',exact:true}).click();
+    await answerWrong(page);await expect(page.locator('.feedback p')).not.toBeEmpty();await expect(page.getByRole('button',{name:'Anhalten',exact:true})).toBeVisible();
+    await page.clock.runFor(1900);await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible();await page.clock.runFor(150);
   }
-  await expect(page.getByRole('heading',{name:'Weiter üben.'})).toBeVisible();
-  await expect(page.locator('.result-numbers')).toContainText('0/10');
+  await expect(page.getByRole('heading',{name:'Weiter üben.'})).toBeVisible();await expect(page.locator('.result-numbers')).toContainText('0/10');
 });
 
 test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten',async({page})=>{
@@ -73,7 +63,7 @@ test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten'
     await Promise.all([page.waitForEvent('load'),page.getByRole('button',{name:'App aktualisieren',exact:true}).click()]);
     const currentVersion=()=>page.evaluate(()=>new Promise<number>(resolve=>{const channel=new MessageChannel();channel.port1.onmessage=event=>resolve(event.data);navigator.serviceWorker.controller!.postMessage({type:'TEST_VERSION'},[channel.port2]);}));
     await expect.poll(currentVersion).toBe(2);
-    await page.getByRole('navigation',{name:'Hauptnavigation'}).getByRole('button',{name:'Meine Karten',exact:true}).click();await expect(page.getByRole('button',{name:/Bleibt meine Karte.*Wiederholen/})).toBeVisible();
+    await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('button',{name:'Karten verwalten',exact:true}).click();await expect(page.getByRole('button',{name:/Bleibt meine Karte.*Wiederholen/})).toBeVisible();
     const stored=await page.evaluate(()=>new Promise(resolve=>{const request=indexedDB.open('lernkick',1);request.onsuccess=()=>{const db=request.result;const get=db.transaction('user').objectStore('user').get('data');get.onsuccess=()=>{resolve(get.result);db.close();};};}));expect(stored).toMatchObject(data);expect((stored as any).journey.totalPoints).toBe(1145);
   }finally{await new Promise<void>(resolve=>server.close(()=>resolve()));}
 });
