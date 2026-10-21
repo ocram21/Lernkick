@@ -1,456 +1,1477 @@
 {
-  "revision": "2026.10.17.1",
+  "revision": "2026.10.21.2",
   "reviewStatus": "teacher-review-pending",
   "cards": [
     {
       "id": "standard.math.v1.001",
       "subject": "math",
       "front": "Was ist eine Summe?",
-      "back": "Das Ergebnis einer Addition, zum Beispiel 3 + 4 = 7."
+      "back": "Das Ergebnis einer Addition, zum Beispiel 3 + 4 = 7.",
+      "rubric": "arithmetic"
     },
     {
       "id": "standard.math.v1.002",
       "subject": "math",
       "front": "Was ist eine Differenz?",
-      "back": "Das Ergebnis einer Subtraktion, zum Beispiel 9 − 2 = 7."
+      "back": "Das Ergebnis einer Subtraktion, zum Beispiel 9 − 2 = 7.",
+      "rubric": "arithmetic"
     },
     {
       "id": "standard.math.v1.003",
       "subject": "math",
       "front": "Was ist ein Produkt?",
-      "back": "Das Ergebnis einer Multiplikation, zum Beispiel 3 × 4 = 12."
+      "back": "Das Ergebnis einer Multiplikation, zum Beispiel 3 × 4 = 12.",
+      "rubric": "arithmetic"
     },
     {
       "id": "standard.math.v1.004",
       "subject": "math",
       "front": "Was ist ein Quotient?",
-      "back": "Das Ergebnis einer Division, zum Beispiel 12 ÷ 3 = 4."
+      "back": "Das Ergebnis einer Division, zum Beispiel 12 ÷ 3 = 4.",
+      "rubric": "arithmetic"
     },
     {
       "id": "standard.math.v1.005",
       "subject": "math",
       "front": "Was ist eine Primzahl?",
-      "back": "Eine natürliche Zahl größer als 1, die genau zwei positive Teiler hat: 1 und sich selbst."
+      "back": "Eine natürliche Zahl größer als 1, die genau zwei positive Teiler hat: 1 und sich selbst.",
+      "rubric": "arithmetic"
     },
     {
       "id": "standard.math.v1.006",
       "subject": "math",
       "front": "Was bedeuten Zähler und Nenner?",
-      "back": "Beim Bruch steht der Zähler oben und der Nenner unten. Der Nenner nennt die Anzahl gleich großer Teile."
+      "back": "Beim Bruch steht der Zähler oben und der Nenner unten. Der Nenner nennt die Anzahl gleich großer Teile.",
+      "rubric": "fractions"
     },
     {
       "id": "standard.math.v1.007",
       "subject": "math",
       "front": "Was bedeutet Prozent?",
-      "back": "Prozent heißt „von hundert“. 25 % sind 25 von 100, also ein Viertel."
+      "back": "Prozent heißt „von hundert“. 25 % sind 25 von 100, also ein Viertel.",
+      "rubric": "percent"
     },
     {
       "id": "standard.math.v1.008",
       "subject": "math",
       "front": "Was ist der Grundwert?",
-      "back": "Das Ganze, auf das sich eine Prozentangabe bezieht. Der Grundwert entspricht 100 %."
+      "back": "Das Ganze, auf das sich eine Prozentangabe bezieht. Der Grundwert entspricht 100 %.",
+      "rubric": "percent"
     },
     {
       "id": "standard.math.v1.009",
       "subject": "math",
       "front": "Was ist eine Variable?",
-      "back": "Ein Zeichen für eine Zahl, etwa x. Ihr Wert kann unbekannt sein oder sich ändern."
+      "back": "Ein Zeichen für eine Zahl, etwa x. Ihr Wert kann unbekannt sein oder sich ändern.",
+      "rubric": "arithmetic"
     },
     {
       "id": "standard.math.v1.010",
       "subject": "math",
       "front": "Was ist eine Gleichung?",
-      "back": "Eine Aussage, dass zwei Terme gleich sind. Eine Lösung macht diese Aussage wahr."
+      "back": "Eine Aussage, dass zwei Terme gleich sind. Eine Lösung macht diese Aussage wahr.",
+      "rubric": "arithmetic"
     },
     {
       "id": "standard.math.v1.011",
       "subject": "math",
       "front": "Was ist der Umfang?",
-      "back": "Die Länge des Randes einer ebenen Figur. Beim Rechteck werden alle vier Seiten addiert."
+      "back": "Die Länge des Randes einer ebenen Figur. Beim Rechteck werden alle vier Seiten addiert.",
+      "rubric": "geometry"
     },
     {
       "id": "standard.math.v1.012",
       "subject": "math",
       "front": "Was ist der Flächeninhalt?",
-      "back": "Die Größe einer Fläche. Er wird zum Beispiel in cm² oder m² angegeben."
+      "back": "Die Größe einer Fläche. Er wird zum Beispiel in cm² oder m² angegeben.",
+      "rubric": "geometry"
     },
     {
       "id": "standard.math.v1.013",
       "subject": "math",
       "front": "Was ist das Volumen?",
-      "back": "Der Rauminhalt eines Körpers, zum Beispiel in cm³, m³ oder Litern."
+      "back": "Der Rauminhalt eines Körpers, zum Beispiel in cm³, m³ oder Litern.",
+      "rubric": "geometry"
     },
     {
       "id": "standard.math.v1.014",
       "subject": "math",
       "front": "Was ist der Mittelwert?",
-      "back": "Die Summe aller Werte geteilt durch die Anzahl der Werte."
+      "back": "Die Summe aller Werte geteilt durch die Anzahl der Werte.",
+      "rubric": "data"
     },
     {
       "id": "standard.math.v1.015",
       "subject": "math",
       "front": "Was ist der Median?",
-      "back": "Der mittlere Wert einer geordneten Liste. Bei gerader Anzahl ist es der Mittelwert der beiden mittleren Werte."
+      "back": "Der mittlere Wert einer geordneten Liste. Bei gerader Anzahl ist es der Mittelwert der beiden mittleren Werte.",
+      "rubric": "data"
     },
     {
       "id": "standard.german.v1.001",
       "subject": "german",
       "front": "Was ist ein Nomen?",
-      "back": "Ein Wort für Menschen, Tiere, Dinge oder Vorstellungen. Nomen werden großgeschrieben, zum Beispiel „Hoffnung“."
+      "back": "Ein Wort für Menschen, Tiere, Dinge oder Vorstellungen. Nomen werden großgeschrieben, zum Beispiel „Hoffnung“.",
+      "rubric": "word-types"
     },
     {
       "id": "standard.german.v1.002",
       "subject": "german",
       "front": "Was ist ein Verb?",
-      "back": "Ein Wort, das eine Tätigkeit, einen Vorgang oder einen Zustand ausdrückt, etwa „laufen“ oder „sein“."
+      "back": "Ein Wort, das eine Tätigkeit, einen Vorgang oder einen Zustand ausdrückt, etwa „laufen“ oder „sein“.",
+      "rubric": "word-types"
     },
     {
       "id": "standard.german.v1.003",
       "subject": "german",
       "front": "Was ist ein Adjektiv?",
-      "back": "Ein Wort, das Eigenschaften beschreibt, zum Beispiel „ruhig“ oder „groß“."
+      "back": "Ein Wort, das Eigenschaften beschreibt, zum Beispiel „ruhig“ oder „groß“.",
+      "rubric": "word-types"
     },
     {
       "id": "standard.german.v1.004",
       "subject": "german",
       "front": "Was ist ein Pronomen?",
-      "back": "Ein Wort, das etwa ein Nomen ersetzt oder begleitet, zum Beispiel „ich“, „sie“ oder „mein“."
+      "back": "Ein Wort, das etwa ein Nomen ersetzt oder begleitet, zum Beispiel „ich“, „sie“ oder „mein“.",
+      "rubric": "word-types"
     },
     {
       "id": "standard.german.v1.005",
       "subject": "german",
       "front": "Was ist das Subjekt?",
-      "back": "Das Satzglied, nach dem du mit „Wer oder was?“ fragst: „Die Katze schläft.“ – die Katze."
+      "back": "Das Satzglied, nach dem du mit „Wer oder was?“ fragst: „Die Katze schläft.“ – die Katze.",
+      "rubric": "syntax"
     },
     {
       "id": "standard.german.v1.006",
       "subject": "german",
       "front": "Was ist das Prädikat?",
-      "back": "Das Verb oder die zusammengehörenden Verbteile im Satz: „Sie hat gelesen.“ – hat gelesen."
+      "back": "Das Verb oder die zusammengehörenden Verbteile im Satz: „Sie hat gelesen.“ – hat gelesen.",
+      "rubric": "syntax"
     },
     {
       "id": "standard.german.v1.007",
       "subject": "german",
       "front": "Was ist ein Akkusativobjekt?",
-      "back": "Eine Ergänzung, nach der du mit „Wen oder was?“ fragst: „Ich sehe den Bus.“ – den Bus."
+      "back": "Eine Ergänzung, nach der du mit „Wen oder was?“ fragst: „Ich sehe den Bus.“ – den Bus.",
+      "rubric": "syntax"
     },
     {
       "id": "standard.german.v1.008",
       "subject": "german",
       "front": "Was ist ein Dativobjekt?",
-      "back": "Eine Ergänzung, nach der du mit „Wem?“ fragst: „Ich helfe dem Freund.“ – dem Freund."
+      "back": "Eine Ergänzung, nach der du mit „Wem?“ fragst: „Ich helfe dem Freund.“ – dem Freund.",
+      "rubric": "syntax"
     },
     {
       "id": "standard.german.v1.009",
       "subject": "german",
       "front": "Was ist das Präteritum?",
-      "back": "Eine Zeitform der Vergangenheit, zum Beispiel „ich ging“ oder „ich lernte“."
+      "back": "Eine Zeitform der Vergangenheit, zum Beispiel „ich ging“ oder „ich lernte“.",
+      "rubric": "tenses"
     },
     {
       "id": "standard.german.v1.010",
       "subject": "german",
       "front": "Was ist das Perfekt?",
-      "back": "Eine Vergangenheitsform mit „haben“ oder „sein“ und einem Partizip: „Ich habe gelernt.“"
+      "back": "Eine Vergangenheitsform mit „haben“ oder „sein“ und einem Partizip: „Ich habe gelernt.“",
+      "rubric": "tenses"
     },
     {
       "id": "standard.german.v1.011",
       "subject": "german",
       "front": "Was ist ein sachlicher Bericht?",
-      "back": "Ein Text, der möglichst genau informiert, was wann, wo und mit wem geschehen ist."
+      "back": "Ein Text, der möglichst genau informiert, was wann, wo und mit wem geschehen ist.",
+      "rubric": "texts"
     },
     {
       "id": "standard.german.v1.012",
       "subject": "german",
       "front": "Was ist eine Inhaltsangabe?",
-      "back": "Eine kurze sachliche Wiedergabe des Wesentlichen eines Textes, meist im Präsens."
+      "back": "Eine kurze sachliche Wiedergabe des Wesentlichen eines Textes, meist im Präsens.",
+      "rubric": "texts"
     },
     {
       "id": "standard.german.v1.013",
       "subject": "german",
       "front": "Was ist ein Argument?",
-      "back": "Eine begründende Aussage, die eine Behauptung oder einen Standpunkt stützt."
+      "back": "Eine begründende Aussage, die eine Behauptung oder einen Standpunkt stützt.",
+      "rubric": "texts"
     },
     {
       "id": "standard.german.v1.014",
       "subject": "german",
       "front": "Was ist ein direktes Zitat?",
-      "back": "Wörtlich übernommener Text, der als Übernahme gekennzeichnet und mit seiner Quelle angegeben wird."
+      "back": "Wörtlich übernommener Text, der als Übernahme gekennzeichnet und mit seiner Quelle angegeben wird.",
+      "rubric": "texts"
     },
     {
       "id": "standard.german.v1.015",
       "subject": "german",
       "front": "Was ist eine Metapher?",
-      "back": "Ein bildlicher Ausdruck mit übertragener Bedeutung, zum Beispiel „ein Meer von Blumen“."
+      "back": "Ein bildlicher Ausdruck mit übertragener Bedeutung, zum Beispiel „ein Meer von Blumen“.",
+      "rubric": "texts"
     },
     {
       "id": "standard.social.v1.001",
       "subject": "social",
       "front": "Was bedeutet Demokratie?",
-      "back": "Politische Macht geht vom Volk aus und wird unter anderem durch freie Wahlen und Beteiligung legitimiert."
+      "back": "Politische Macht geht vom Volk aus und wird unter anderem durch freie Wahlen und Beteiligung legitimiert.",
+      "rubric": "democracy"
     },
     {
       "id": "standard.social.v1.002",
       "subject": "social",
       "front": "Was sind Grundrechte?",
-      "back": "Grundlegende Rechte, die Menschen vor ungerechtfertigten Eingriffen des Staates schützen."
+      "back": "Grundlegende Rechte, die Menschen vor ungerechtfertigten Eingriffen des Staates schützen.",
+      "rubric": "rights"
     },
     {
       "id": "standard.social.v1.003",
       "subject": "social",
       "front": "Was ist das Grundgesetz?",
-      "back": "Die Verfassung Deutschlands. Sie regelt Grundrechte und die grundlegende Ordnung des Staates."
+      "back": "Die Verfassung Deutschlands. Sie regelt Grundrechte und die grundlegende Ordnung des Staates.",
+      "rubric": "rights"
     },
     {
       "id": "standard.social.v1.004",
       "subject": "social",
       "front": "Was bedeutet Gewaltenteilung?",
-      "back": "Staatliche Macht verteilt sich auf Gesetzgebung, ausführende Gewalt und Rechtsprechung."
+      "back": "Staatliche Macht verteilt sich auf Gesetzgebung, ausführende Gewalt und Rechtsprechung.",
+      "rubric": "democracy"
     },
     {
       "id": "standard.social.v1.005",
       "subject": "social",
       "front": "Was ist ein Rechtsstaat?",
-      "back": "Ein Staat, in dem staatliches Handeln an Recht und Gesetz gebunden und gerichtlich überprüfbar ist."
+      "back": "Ein Staat, in dem staatliches Handeln an Recht und Gesetz gebunden und gerichtlich überprüfbar ist.",
+      "rubric": "rights"
     },
     {
       "id": "standard.social.v1.006",
       "subject": "social",
       "front": "Was ist Föderalismus?",
-      "back": "Die Verteilung staatlicher Aufgaben zwischen Bund und Ländern."
+      "back": "Die Verteilung staatlicher Aufgaben zwischen Bund und Ländern.",
+      "rubric": "democracy"
     },
     {
       "id": "standard.social.v1.007",
       "subject": "social",
       "front": "Was ist der Bundestag?",
-      "back": "Das vom Volk gewählte Parlament auf Bundesebene. Er beschließt unter anderem Gesetze und kontrolliert die Regierung."
+      "back": "Das vom Volk gewählte Parlament auf Bundesebene. Er beschließt unter anderem Gesetze und kontrolliert die Regierung.",
+      "rubric": "democracy"
     },
     {
       "id": "standard.social.v1.008",
       "subject": "social",
       "front": "Was ist der Bundesrat?",
-      "back": "Das Organ, durch das die Länder an der Gesetzgebung und Verwaltung des Bundes mitwirken."
+      "back": "Das Organ, durch das die Länder an der Gesetzgebung und Verwaltung des Bundes mitwirken.",
+      "rubric": "democracy"
     },
     {
       "id": "standard.social.v1.009",
       "subject": "social",
       "front": "Was ist eine Kommune?",
-      "back": "Eine Gemeinde oder Stadt als örtliche Ebene der Politik und Verwaltung."
+      "back": "Eine Gemeinde oder Stadt als örtliche Ebene der Politik und Verwaltung.",
+      "rubric": "democracy"
     },
     {
       "id": "standard.social.v1.010",
       "subject": "social",
       "front": "Was ist eine Koalition?",
-      "back": "Ein Bündnis mehrerer Parteien, oft zur gemeinsamen Regierungsbildung."
+      "back": "Ein Bündnis mehrerer Parteien, oft zur gemeinsamen Regierungsbildung.",
+      "rubric": "elections"
     },
     {
       "id": "standard.social.v1.011",
       "subject": "social",
       "front": "Was ist die Opposition?",
-      "back": "Die parlamentarischen Kräfte, die nicht die Regierung tragen und Alternativen sowie Kritik vertreten."
+      "back": "Die parlamentarischen Kräfte, die nicht die Regierung tragen und Alternativen sowie Kritik vertreten.",
+      "rubric": "elections"
     },
     {
       "id": "standard.social.v1.012",
       "subject": "social",
       "front": "Was ist ein Kompromiss?",
-      "back": "Eine ausgehandelte Lösung, bei der Beteiligte einen Teil ihrer Forderungen zurücknehmen."
+      "back": "Eine ausgehandelte Lösung, bei der Beteiligte einen Teil ihrer Forderungen zurücknehmen.",
+      "rubric": "society"
     },
     {
       "id": "standard.social.v1.013",
       "subject": "social",
       "front": "Was ist Diskriminierung?",
-      "back": "Die Benachteiligung von Menschen wegen zugeschriebener oder tatsächlicher Zugehörigkeiten oder Merkmale."
+      "back": "Die Benachteiligung von Menschen wegen zugeschriebener oder tatsächlicher Zugehörigkeiten oder Merkmale.",
+      "rubric": "society"
     },
     {
       "id": "standard.social.v1.014",
       "subject": "social",
       "front": "Was ist Solidarität?",
-      "back": "Sich für andere und gemeinsame Anliegen einsetzen, besonders wenn jemand Unterstützung braucht."
+      "back": "Sich für andere und gemeinsame Anliegen einsetzen, besonders wenn jemand Unterstützung braucht.",
+      "rubric": "society"
     },
     {
       "id": "standard.social.v1.015",
       "subject": "social",
       "front": "Was ist eine Petition?",
-      "back": "Eine Bitte oder Beschwerde an eine zuständige staatliche Stelle oder Volksvertretung."
+      "back": "Eine Bitte oder Beschwerde an eine zuständige staatliche Stelle oder Volksvertretung.",
+      "rubric": "rights"
     },
     {
       "id": "standard.biology.v1.001",
       "subject": "biology",
       "front": "Was ist eine Zelle?",
-      "back": "Die kleinste lebende Baueinheit eines Organismus."
+      "back": "Die kleinste lebende Baueinheit eines Organismus.",
+      "rubric": "cells"
     },
     {
       "id": "standard.biology.v1.002",
       "subject": "biology",
       "front": "Was ist ein Organ?",
-      "back": "Ein Körperteil aus verschiedenen Geweben mit bestimmten Aufgaben, zum Beispiel das Herz."
+      "back": "Ein Körperteil aus verschiedenen Geweben mit bestimmten Aufgaben, zum Beispiel das Herz.",
+      "rubric": "body"
     },
     {
       "id": "standard.biology.v1.003",
       "subject": "biology",
       "front": "Was ist Fotosynthese?",
-      "back": "Grüne Pflanzen bauen mithilfe von Licht aus Wasser und Kohlenstoffdioxid energiereiche Stoffe auf; dabei entsteht Sauerstoff."
+      "back": "Grüne Pflanzen bauen mithilfe von Licht aus Wasser und Kohlenstoffdioxid energiereiche Stoffe auf; dabei entsteht Sauerstoff.",
+      "rubric": "organisms"
     },
     {
       "id": "standard.biology.v1.004",
       "subject": "biology",
       "front": "Was ist Zellatmung?",
-      "back": "Der Abbau energiereicher Stoffe zur Freisetzung nutzbarer Energie. Bei aerober Zellatmung wird Sauerstoff benötigt."
+      "back": "Der Abbau energiereicher Stoffe zur Freisetzung nutzbarer Energie. Bei aerober Zellatmung wird Sauerstoff benötigt.",
+      "rubric": "cells"
     },
     {
       "id": "standard.biology.v1.005",
       "subject": "biology",
       "front": "Was ist Bestäubung?",
-      "back": "Die Übertragung von Pollen auf die Narbe einer Blüte derselben Pflanzenart."
+      "back": "Die Übertragung von Pollen auf die Narbe einer Blüte derselben Pflanzenart.",
+      "rubric": "organisms"
     },
     {
       "id": "standard.biology.v1.006",
       "subject": "biology",
       "front": "Was ist Befruchtung?",
-      "back": "Die Verschmelzung einer männlichen und einer weiblichen Geschlechtszelle."
+      "back": "Die Verschmelzung einer männlichen und einer weiblichen Geschlechtszelle.",
+      "rubric": "organisms"
     },
     {
       "id": "standard.biology.v1.007",
       "subject": "biology",
       "front": "Was ist ein Ökosystem?",
-      "back": "Ein Ökosystem besteht aus Lebewesen und ihrer unbelebten Umwelt, die miteinander in Wechselwirkung stehen."
+      "back": "Ein Ökosystem besteht aus Lebewesen und ihrer unbelebten Umwelt, die miteinander in Wechselwirkung stehen.",
+      "rubric": "ecosystems"
     },
     {
       "id": "standard.biology.v1.008",
       "subject": "biology",
       "front": "Was ist ein Biotop?",
-      "back": "Der Lebensraum mit seinen unbelebten Bedingungen, zum Beispiel Boden, Wasser, Licht und Temperatur."
+      "back": "Der Lebensraum mit seinen unbelebten Bedingungen, zum Beispiel Boden, Wasser, Licht und Temperatur.",
+      "rubric": "ecosystems"
     },
     {
       "id": "standard.biology.v1.009",
       "subject": "biology",
       "front": "Was ist eine Population?",
-      "back": "Individuen derselben Art, die zu einer bestimmten Zeit in einem Gebiet leben."
+      "back": "Individuen derselben Art, die zu einer bestimmten Zeit in einem Gebiet leben.",
+      "rubric": "ecosystems"
     },
     {
       "id": "standard.biology.v1.010",
       "subject": "biology",
       "front": "Was ist ein abiotischer Umweltfaktor?",
-      "back": "Ein Einfluss der unbelebten Umwelt, zum Beispiel Licht, Temperatur oder Wasser."
+      "back": "Ein Einfluss der unbelebten Umwelt, zum Beispiel Licht, Temperatur oder Wasser.",
+      "rubric": "ecosystems"
     },
     {
       "id": "standard.biology.v1.011",
       "subject": "biology",
       "front": "Was ist ein Produzent im Ökosystem?",
-      "back": "Ein Lebewesen, das organische Stoffe aus anorganischen Stoffen aufbaut, zum Beispiel eine grüne Pflanze durch Fotosynthese."
+      "back": "Ein Lebewesen, das organische Stoffe aus anorganischen Stoffen aufbaut, zum Beispiel eine grüne Pflanze durch Fotosynthese.",
+      "rubric": "ecosystems"
     },
     {
       "id": "standard.biology.v1.012",
       "subject": "biology",
       "front": "Was ist ein Konsument?",
-      "back": "Ein Lebewesen, das organische Stoffe mit der Nahrung aufnimmt, zum Beispiel ein Pflanzenfresser."
+      "back": "Ein Lebewesen, das organische Stoffe mit der Nahrung aufnimmt, zum Beispiel ein Pflanzenfresser.",
+      "rubric": "ecosystems"
     },
     {
       "id": "standard.biology.v1.013",
       "subject": "biology",
       "front": "Was ist ein Zersetzer?",
-      "back": "Ein Organismus, der abgestorbenes organisches Material abbaut, etwa viele Pilze oder Bakterien."
+      "back": "Ein Organismus, der abgestorbenes organisches Material abbaut, etwa viele Pilze oder Bakterien.",
+      "rubric": "ecosystems"
     },
     {
       "id": "standard.biology.v1.014",
       "subject": "biology",
       "front": "Was ist ein Reflex?",
-      "back": "Eine schnelle, unwillkürliche Reaktion auf einen bestimmten Reiz."
+      "back": "Eine schnelle, unwillkürliche Reaktion auf einen bestimmten Reiz.",
+      "rubric": "body"
     },
     {
       "id": "standard.biology.v1.015",
       "subject": "biology",
       "front": "Was ist eine Hypothese?",
-      "back": "Eine begründete, überprüfbare Vermutung über einen Zusammenhang."
+      "back": "Eine begründete, überprüfbare Vermutung über einen Zusammenhang.",
+      "rubric": "cells"
     },
     {
       "id": "standard.geography.v1.001",
       "subject": "geography",
       "front": "Was zeigt ein Kartenmaßstab?",
-      "back": "Das Verhältnis zwischen einer Strecke auf der Karte und der entsprechenden Strecke in Wirklichkeit."
+      "back": "Das Verhältnis zwischen einer Strecke auf der Karte und der entsprechenden Strecke in Wirklichkeit.",
+      "rubric": "orientation"
     },
     {
       "id": "standard.geography.v1.002",
       "subject": "geography",
       "front": "Was ist eine Kartenlegende?",
-      "back": "Eine Erklärung der auf einer Karte verwendeten Zeichen und Farben."
+      "back": "Eine Erklärung der auf einer Karte verwendeten Zeichen und Farben.",
+      "rubric": "orientation"
     },
     {
       "id": "standard.geography.v1.003",
       "subject": "geography",
       "front": "Was ist der Äquator?",
-      "back": "Der gedachte Breitenkreis bei 0°, der die Erde in Nord- und Südhalbkugel teilt."
+      "back": "Der gedachte Breitenkreis bei 0°, der die Erde in Nord- und Südhalbkugel teilt.",
+      "rubric": "orientation"
     },
     {
       "id": "standard.geography.v1.004",
       "subject": "geography",
       "front": "Was ist geografische Breite?",
-      "back": "Der Winkelabstand eines Ortes vom Äquator nach Norden oder Süden."
+      "back": "Der Winkelabstand eines Ortes vom Äquator nach Norden oder Süden.",
+      "rubric": "orientation"
     },
     {
       "id": "standard.geography.v1.005",
       "subject": "geography",
       "front": "Was beschreibt das Wetter?",
-      "back": "Den Zustand der Atmosphäre an einem Ort zu einer bestimmten Zeit, etwa Temperatur, Wind und Niederschlag."
+      "back": "Den Zustand der Atmosphäre an einem Ort zu einer bestimmten Zeit, etwa Temperatur, Wind und Niederschlag.",
+      "rubric": "climate"
     },
     {
       "id": "standard.geography.v1.006",
       "subject": "geography",
       "front": "Was beschreibt das Klima?",
-      "back": "Die typischen Wetterverhältnisse und ihre Schwankungen in einer Region über einen langen Zeitraum."
+      "back": "Die typischen Wetterverhältnisse und ihre Schwankungen in einer Region über einen langen Zeitraum.",
+      "rubric": "climate"
     },
     {
       "id": "standard.geography.v1.007",
       "subject": "geography",
       "front": "Was ist Verdunstung?",
-      "back": "Der Übergang von flüssigem Wasser zu Wasserdampf."
+      "back": "Der Übergang von flüssigem Wasser zu Wasserdampf.",
+      "rubric": "climate"
     },
     {
       "id": "standard.geography.v1.008",
       "subject": "geography",
       "front": "Was ist Kondensation?",
-      "back": "Der Übergang von Wasserdampf zu flüssigem Wasser, zum Beispiel zu kleinen Wolkentröpfchen."
+      "back": "Der Übergang von Wasserdampf zu flüssigem Wasser, zum Beispiel zu kleinen Wolkentröpfchen.",
+      "rubric": "climate"
     },
     {
       "id": "standard.geography.v1.009",
       "subject": "geography",
       "front": "Was ist Erosion?",
-      "back": "Der Abtrag von Boden oder Gestein, etwa durch fließendes Wasser oder Wind."
+      "back": "Der Abtrag von Boden oder Gestein, etwa durch fließendes Wasser oder Wind.",
+      "rubric": "environment"
     },
     {
       "id": "standard.geography.v1.010",
       "subject": "geography",
       "front": "Was ist eine Ressource?",
-      "back": "Ein nutzbares Mittel oder ein natürlicher Vorrat, zum Beispiel Wasser, Boden oder Rohstoffe."
+      "back": "Ein nutzbares Mittel oder ein natürlicher Vorrat, zum Beispiel Wasser, Boden oder Rohstoffe.",
+      "rubric": "environment"
     },
     {
       "id": "standard.geography.v1.011",
       "subject": "geography",
       "front": "Was ist ein erneuerbarer Energieträger?",
-      "back": "Eine sich erneuernde Energiequelle, zum Beispiel Wind oder Sonnenstrahlung."
+      "back": "Eine sich erneuernde Energiequelle, zum Beispiel Wind oder Sonnenstrahlung.",
+      "rubric": "environment"
     },
     {
       "id": "standard.geography.v1.012",
       "subject": "geography",
       "front": "Was ist ein Standortfaktor?",
-      "back": "Eine Bedingung, die die Wahl eines Standorts beeinflusst, etwa Verkehrsanbindung oder verfügbare Arbeitskräfte."
+      "back": "Eine Bedingung, die die Wahl eines Standorts beeinflusst, etwa Verkehrsanbindung oder verfügbare Arbeitskräfte.",
+      "rubric": "globalization"
     },
     {
       "id": "standard.geography.v1.013",
       "subject": "geography",
       "front": "Was ist Infrastruktur?",
-      "back": "Grundlegende Einrichtungen und Netze, zum Beispiel Straßen, Wasserleitungen, Schulen und Internetverbindungen."
+      "back": "Grundlegende Einrichtungen und Netze, zum Beispiel Straßen, Wasserleitungen, Schulen und Internetverbindungen.",
+      "rubric": "globalization"
     },
     {
       "id": "standard.geography.v1.014",
       "subject": "geography",
       "front": "Was ist Globalisierung?",
-      "back": "Die zunehmende weltweite Verflechtung, etwa durch Handel, Produktion, Kommunikation und Verkehr."
+      "back": "Die zunehmende weltweite Verflechtung, etwa durch Handel, Produktion, Kommunikation und Verkehr.",
+      "rubric": "globalization"
     },
     {
       "id": "standard.geography.v1.015",
       "subject": "geography",
       "front": "Was sind räumliche Disparitäten?",
-      "back": "Unterschiede zwischen Regionen, zum Beispiel bei Einkommen, Versorgung oder Bildungsmöglichkeiten."
+      "back": "Unterschiede zwischen Regionen, zum Beispiel bei Einkommen, Versorgung oder Bildungsmöglichkeiten.",
+      "rubric": "globalization"
+    },
+    {
+      "id": "standard.math.v2.001",
+      "subject": "math",
+      "rubric": "arithmetic",
+      "front": "Was ist ein Term?",
+      "back": "Ein Rechenausdruck aus Zahlen, Zeichen und gegebenenfalls Variablen, zum Beispiel 3 · x + 2. Anders als eine Gleichung enthält er kein Gleichheitszeichen."
+    },
+    {
+      "id": "standard.math.v2.002",
+      "subject": "math",
+      "rubric": "arithmetic",
+      "front": "Was bedeutet „Punkt vor Strich“?",
+      "back": "Multiplikation und Division werden vor Addition und Subtraktion berechnet. Bei 2 + 3 · 4 rechnest du zuerst 3 · 4; das Ergebnis ist 14."
+    },
+    {
+      "id": "standard.math.v2.003",
+      "subject": "math",
+      "rubric": "arithmetic",
+      "front": "Was sind negative Zahlen?",
+      "back": "Zahlen kleiner als null. Sie können zum Beispiel Temperaturen unter 0 °C oder Schulden beschreiben."
+    },
+    {
+      "id": "standard.math.v2.004",
+      "subject": "math",
+      "rubric": "fractions",
+      "front": "Was ist eine Dezimalzahl?",
+      "back": "Eine Zahl mit Stellen hinter dem Komma. Bei 2,35 stehen dort drei Zehntel und fünf Hundertstel."
+    },
+    {
+      "id": "standard.math.v2.005",
+      "subject": "math",
+      "rubric": "fractions",
+      "front": "Was bedeutet einen Bruch kürzen?",
+      "back": "Zähler und Nenner werden durch dieselbe von null verschiedene Zahl geteilt. Der Wert bleibt gleich: 6/8 = 3/4."
+    },
+    {
+      "id": "standard.math.v2.006",
+      "subject": "math",
+      "rubric": "fractions",
+      "front": "Was bedeutet einen Bruch erweitern?",
+      "back": "Zähler und Nenner werden mit derselben von null verschiedenen Zahl multipliziert. Der Wert bleibt gleich: 1/2 = 3/6."
+    },
+    {
+      "id": "standard.math.v2.007",
+      "subject": "math",
+      "rubric": "percent",
+      "front": "Was ist der Prozentwert?",
+      "back": "Der Anteil am Grundwert. 20 % von 80 Euro sind 16 Euro; die 16 Euro sind der Prozentwert."
+    },
+    {
+      "id": "standard.math.v2.008",
+      "subject": "math",
+      "rubric": "percent",
+      "front": "Was ist der Prozentsatz?",
+      "back": "Er gibt den Anteil in Hundertsteln an. Bei 15 % sind es 15 von 100."
+    },
+    {
+      "id": "standard.math.v2.009",
+      "subject": "math",
+      "rubric": "percent",
+      "front": "Was sind Zinsen?",
+      "back": "Ein Preis für geliehenes Geld beziehungsweise ein Ertrag für angelegtes Geld. Die Höhe hängt unter anderem von Geldbetrag, Zinssatz und Zeit ab."
+    },
+    {
+      "id": "standard.math.v2.010",
+      "subject": "math",
+      "rubric": "geometry",
+      "front": "Was ist ein rechter Winkel?",
+      "back": "Ein Winkel von 90 Grad. Bei einem Rechteck sind alle vier Innenwinkel rechte Winkel."
+    },
+    {
+      "id": "standard.math.v2.011",
+      "subject": "math",
+      "rubric": "geometry",
+      "front": "Was ist der Radius eines Kreises?",
+      "back": "Der Abstand vom Mittelpunkt zur Kreislinie. Der Durchmesser ist doppelt so lang wie der Radius."
+    },
+    {
+      "id": "standard.math.v2.012",
+      "subject": "math",
+      "rubric": "geometry",
+      "front": "Was ist eine Flächenformel?",
+      "back": "Eine Rechenregel für den Flächeninhalt. Für ein Rechteck gilt zum Beispiel A = Länge · Breite; die Einheit ist etwa cm²."
+    },
+    {
+      "id": "standard.math.v2.013",
+      "subject": "math",
+      "rubric": "units",
+      "front": "Was ist eine Maßeinheit?",
+      "back": "Ein festgelegter Vergleichsmaßstab für eine Größe, zum Beispiel Meter für Länge oder Kilogramm für Masse. Zu einem Messwert gehört die Einheit."
+    },
+    {
+      "id": "standard.math.v2.014",
+      "subject": "math",
+      "rubric": "units",
+      "front": "Wie hängen Meter und Zentimeter zusammen?",
+      "back": "Ein Meter hat 100 Zentimeter. Deshalb sind 2,5 Meter gleich 250 Zentimeter."
+    },
+    {
+      "id": "standard.math.v2.015",
+      "subject": "math",
+      "rubric": "data",
+      "front": "Was zeigt ein Säulendiagramm?",
+      "back": "Es vergleicht Werte durch die Höhe von Säulen. Beschriftungen, Einheit und die Skala der Achse helfen beim richtigen Lesen."
+    },
+    {
+      "id": "standard.german.v2.001",
+      "subject": "german",
+      "rubric": "word-types",
+      "front": "Was ist ein Artikel?",
+      "back": "Ein Begleiter des Nomens, zum Beispiel der, die, das oder ein, eine. Er hilft, Geschlecht, Zahl und Fall zu erkennen."
+    },
+    {
+      "id": "standard.german.v2.002",
+      "subject": "german",
+      "rubric": "word-types",
+      "front": "Was ist eine Präposition?",
+      "back": "Ein Verhältniswort wie auf, unter, mit oder wegen. Es verbindet Angaben, etwa einen Ort oder Grund, mit einem Nomen oder Pronomen."
+    },
+    {
+      "id": "standard.german.v2.003",
+      "subject": "german",
+      "rubric": "word-types",
+      "front": "Was ist eine Konjunktion?",
+      "back": "Ein Bindewort, das Wörter oder Sätze verknüpft, zum Beispiel und, aber, weil oder obwohl."
+    },
+    {
+      "id": "standard.german.v2.004",
+      "subject": "german",
+      "rubric": "syntax",
+      "front": "Was ist ein Hauptsatz?",
+      "back": "Ein Satz, der als selbstständige Aussage stehen kann. In einem normalen Aussagesatz steht das gebeugte Verb an zweiter Stelle: Heute lerne ich."
+    },
+    {
+      "id": "standard.german.v2.005",
+      "subject": "german",
+      "rubric": "syntax",
+      "front": "Was ist ein Nebensatz?",
+      "back": "Ein Satz, der von einem anderen Satz abhängt. Bei einem mit weil oder dass eingeleiteten Nebensatz steht das gebeugte Verb normalerweise am Ende."
+    },
+    {
+      "id": "standard.german.v2.006",
+      "subject": "german",
+      "rubric": "syntax",
+      "front": "Was sind die vier Fälle?",
+      "back": "Nominativ, Genitiv, Dativ und Akkusativ. Sie zeigen die Rolle eines Nomens oder Pronomens im Satz und beeinflussen zum Beispiel den Artikel."
+    },
+    {
+      "id": "standard.german.v2.007",
+      "subject": "german",
+      "rubric": "spelling",
+      "front": "Wozu dienen Satzzeichen?",
+      "back": "Sie gliedern Texte und machen Beziehungen deutlich. Ein Punkt beendet einen Aussagesatz; ein Komma trennt zum Beispiel Haupt- und Nebensatz."
+    },
+    {
+      "id": "standard.german.v2.008",
+      "subject": "german",
+      "rubric": "spelling",
+      "front": "Wann schreibt man Nomen groß?",
+      "back": "Nomen und als Nomen verwendete Wörter werden großgeschrieben, zum Beispiel das Haus und das Lernen. Auch der Satzanfang beginnt groß."
+    },
+    {
+      "id": "standard.german.v2.009",
+      "subject": "german",
+      "rubric": "spelling",
+      "front": "Was unterscheidet „das“ und „dass“?",
+      "back": "Das kann ein Artikel oder Pronomen sein und lässt sich oft durch dieses oder welches ersetzen. Dass ist eine Konjunktion und leitet einen Nebensatz ein."
+    },
+    {
+      "id": "standard.german.v2.010",
+      "subject": "german",
+      "rubric": "tenses",
+      "front": "Was ist das Präsens?",
+      "back": "Eine Zeitform für Gegenwärtiges, Allgemeingültiges und häufig auch Zukünftiges: Ich lerne. Morgen komme ich."
+    },
+    {
+      "id": "standard.german.v2.011",
+      "subject": "german",
+      "rubric": "tenses",
+      "front": "Was ist das Plusquamperfekt?",
+      "back": "Eine Zeitform für etwas, das vor einem anderen vergangenen Ereignis lag: Ich hatte gegessen, bevor ich losging."
+    },
+    {
+      "id": "standard.german.v2.012",
+      "subject": "german",
+      "rubric": "tenses",
+      "front": "Was ist das Futur I?",
+      "back": "Eine Zeitform mit werden und Infinitiv, etwa ich werde lernen. Sie kann Zukünftiges oder eine Vermutung ausdrücken."
+    },
+    {
+      "id": "standard.german.v2.013",
+      "subject": "german",
+      "rubric": "texts",
+      "front": "Was unterscheidet eine Tatsache von einer Meinung?",
+      "back": "Eine Tatsachenbehauptung lässt sich grundsätzlich überprüfen. Eine Meinung enthält eine persönliche Bewertung, zum Beispiel „Dieser Film ist spannend“. Beide sollten erkennbar getrennt werden."
+    },
+    {
+      "id": "standard.german.v2.014",
+      "subject": "german",
+      "rubric": "texts",
+      "front": "Was ist eine Erörterung?",
+      "back": "Ein Text, der eine Frage mit begründeten Argumenten untersucht und zu einem nachvollziehbaren Urteil kommt. Beispiele und Gegenargumente unterstützen die Überlegung."
+    },
+    {
+      "id": "standard.german.v2.015",
+      "subject": "german",
+      "rubric": "texts",
+      "front": "Was ist ein Vergleich als sprachliches Mittel?",
+      "back": "Zwei Dinge werden ausdrücklich verbunden, oft mit wie oder als: stark wie ein Löwe. Das kann eine Eigenschaft anschaulich machen."
+    },
+    {
+      "id": "standard.social.v2.001",
+      "subject": "social",
+      "rubric": "democracy",
+      "front": "Was ist eine Verfassung?",
+      "back": "Die grundlegende Ordnung eines Staates. Sie legt unter anderem fest, wie staatliche Macht verteilt und begrenzt wird. In Deutschland heißt sie Grundgesetz."
+    },
+    {
+      "id": "standard.social.v2.002",
+      "subject": "social",
+      "rubric": "democracy",
+      "front": "Was ist eine parlamentarische Demokratie?",
+      "back": "Eine Demokratie, in der ein gewähltes Parlament eine zentrale Rolle spielt. Auf Bundesebene wählt der Bundestag den Bundeskanzler oder die Bundeskanzlerin und kontrolliert die Regierung."
+    },
+    {
+      "id": "standard.social.v2.003",
+      "subject": "social",
+      "rubric": "democracy",
+      "front": "Was ist eine Regierung?",
+      "back": "Sie leitet die Politik und führt staatliche Aufgaben aus. Die Bundesregierung besteht aus dem Bundeskanzler oder der Bundeskanzlerin und den Bundesministerinnen und Bundesministern."
+    },
+    {
+      "id": "standard.social.v2.004",
+      "subject": "social",
+      "rubric": "democracy",
+      "front": "Was ist ein Parlament?",
+      "back": "Eine gewählte Volksvertretung, die unter anderem Gesetze beschließt und die Regierung kontrolliert. Beispiele sind der Bundestag und die Landtage."
+    },
+    {
+      "id": "standard.social.v2.005",
+      "subject": "social",
+      "rubric": "democracy",
+      "front": "Was ist ein Bundesland?",
+      "back": "Ein Gliedstaat der Bundesrepublik mit eigener Verfassung, Regierung und eigenem Parlament. Deutschland besteht aus 16 Ländern."
+    },
+    {
+      "id": "standard.social.v2.006",
+      "subject": "social",
+      "rubric": "democracy",
+      "front": "Was ist eine politische Partei?",
+      "back": "Eine Vereinigung von Menschen mit gemeinsamen politischen Vorstellungen. Parteien wirken an der politischen Willensbildung mit und stellen Kandidierende für Wahlen auf."
+    },
+    {
+      "id": "standard.social.v2.007",
+      "subject": "social",
+      "rubric": "democracy",
+      "front": "Was bedeutet Mehrheitsentscheidung?",
+      "back": "Ein Vorschlag wird angenommen, wenn er die vorgeschriebene Zahl an Stimmen erreicht. Auch eine Mehrheit ist an Grundrechte und geltendes Recht gebunden."
+    },
+    {
+      "id": "standard.social.v2.008",
+      "subject": "social",
+      "rubric": "rights",
+      "front": "Was bedeutet Menschenwürde?",
+      "back": "Jeder Mensch hat einen eigenen Wert und darf nicht zum bloßen Objekt gemacht oder erniedrigt werden. Die Menschenwürde ist unantastbar; der Staat muss sie achten und schützen."
+    },
+    {
+      "id": "standard.social.v2.009",
+      "subject": "social",
+      "rubric": "rights",
+      "front": "Was bedeutet Gleichberechtigung?",
+      "back": "Menschen sollen gleiche Rechte haben. Zum Beispiel sind Männer und Frauen nach dem Grundgesetz gleichberechtigt; der Staat soll bestehende Nachteile abbauen."
+    },
+    {
+      "id": "standard.social.v2.010",
+      "subject": "social",
+      "rubric": "rights",
+      "front": "Was ist Meinungsfreiheit?",
+      "back": "Das Recht, eigene Meinungen zu äußern und sich zu informieren. Sie hat gesetzliche Grenzen, zum Beispiel beim Schutz der persönlichen Ehre."
+    },
+    {
+      "id": "standard.social.v2.011",
+      "subject": "social",
+      "rubric": "rights",
+      "front": "Was ist Religionsfreiheit?",
+      "back": "Das Recht, einen Glauben zu haben, zu wechseln oder keinen Glauben zu haben und ihn grundsätzlich frei auszuüben. Niemand darf zu einem religiösen Bekenntnis gezwungen werden."
+    },
+    {
+      "id": "standard.social.v2.012",
+      "subject": "social",
+      "rubric": "rights",
+      "front": "Was ist ein Gesetz?",
+      "back": "Eine allgemein verbindliche rechtliche Regel, die in einem dafür vorgesehenen Verfahren beschlossen wird. Gesetze legen Rechte und Pflichten fest."
+    },
+    {
+      "id": "standard.social.v2.013",
+      "subject": "social",
+      "rubric": "rights",
+      "front": "Was bedeutet Unschuldsvermutung?",
+      "back": "Eine beschuldigte Person gilt bis zum rechtskräftigen Nachweis ihrer Schuld als unschuldig. Eine bloße Verdächtigung ist keine Verurteilung."
+    },
+    {
+      "id": "standard.social.v2.014",
+      "subject": "social",
+      "rubric": "rights",
+      "front": "Was ist Datenschutz?",
+      "back": "Der Schutz personenbezogener Daten und der Rechte der betroffenen Menschen. Es geht unter anderem darum, wer welche Daten zu welchem Zweck verarbeiten darf."
+    },
+    {
+      "id": "standard.social.v2.015",
+      "subject": "social",
+      "rubric": "elections",
+      "front": "Was bedeutet allgemeine Wahl?",
+      "back": "Alle Bürgerinnen und Bürger, die die gesetzlichen Wahlvoraussetzungen erfüllen, dürfen wählen. Niemand darf etwa wegen seines Einkommens ausgeschlossen werden."
+    },
+    {
+      "id": "standard.social.v2.016",
+      "subject": "social",
+      "rubric": "elections",
+      "front": "Was bedeutet geheime Wahl?",
+      "back": "Die Wahlentscheidung muss unbeobachtet getroffen werden können. Niemand muss offenlegen, wem er oder sie die Stimme gegeben hat."
+    },
+    {
+      "id": "standard.social.v2.017",
+      "subject": "social",
+      "rubric": "elections",
+      "front": "Was bedeutet gleiche Wahl?",
+      "back": "Bei derselben Wahl haben die Stimmen grundsätzlich das gleiche Gewicht. Eine wohlhabende Person erhält nicht mehr Stimmen als eine andere."
+    },
+    {
+      "id": "standard.social.v2.018",
+      "subject": "social",
+      "rubric": "elections",
+      "front": "Was ist eine Kandidatin oder ein Kandidat?",
+      "back": "Eine Person, die sich um ein gewähltes Amt oder Mandat bewirbt. Die Wahlberechtigten entscheiden im vorgesehenen Wahlverfahren."
+    },
+    {
+      "id": "standard.social.v2.019",
+      "subject": "social",
+      "rubric": "elections",
+      "front": "Was ist ein Mandat?",
+      "back": "Ein durch eine Wahl übertragener Auftrag, zum Beispiel als Abgeordneter im Parlament. Abgeordnete vertreten die Bevölkerung."
+    },
+    {
+      "id": "standard.social.v2.020",
+      "subject": "social",
+      "rubric": "elections",
+      "front": "Was ist eine Bürgerinitiative?",
+      "back": "Eine Gruppe, die sich für ein konkretes gemeinsames Anliegen einsetzt, etwa sichere Schulwege. Sie muss keine politische Partei sein."
+    },
+    {
+      "id": "standard.social.v2.021",
+      "subject": "social",
+      "rubric": "elections",
+      "front": "Was bedeutet Mitbestimmung im Betrieb?",
+      "back": "Beschäftigte können bei bestimmten betrieblichen Fragen über gewählte Vertretungen mitwirken. Ein Betriebsrat hat gesetzlich geregelte Beteiligungsrechte."
+    },
+    {
+      "id": "standard.social.v2.022",
+      "subject": "social",
+      "rubric": "economy",
+      "front": "Was ist ein Arbeitsvertrag?",
+      "back": "Eine Vereinbarung zwischen Arbeitgeber und Arbeitnehmer über die Arbeit. Sie regelt zum Beispiel Tätigkeit, Arbeitszeit und Vergütung; gesetzliche und tarifliche Vorgaben gelten zusätzlich."
+    },
+    {
+      "id": "standard.social.v2.023",
+      "subject": "social",
+      "rubric": "economy",
+      "front": "Was ist ein Tarifvertrag?",
+      "back": "Eine Vereinbarung zwischen Gewerkschaften und Arbeitgeberverbänden oder einzelnen Arbeitgebern. Sie kann etwa Lohn und Arbeitszeit regeln und gilt unter bestimmten Voraussetzungen verbindlich."
+    },
+    {
+      "id": "standard.social.v2.024",
+      "subject": "social",
+      "rubric": "economy",
+      "front": "Was ist eine Gewerkschaft?",
+      "back": "Eine Vereinigung von Beschäftigten, die gemeinsame berufliche und soziale Interessen vertritt. Sie kann zum Beispiel Tarifverträge aushandeln."
+    },
+    {
+      "id": "standard.social.v2.025",
+      "subject": "social",
+      "rubric": "economy",
+      "front": "Was unterscheidet Brutto- und Nettolohn?",
+      "back": "Brutto ist der Lohn vor Abzügen. Netto ist der ausgezahlte Betrag nach den jeweiligen Steuern und Sozialabgaben."
+    },
+    {
+      "id": "standard.social.v2.026",
+      "subject": "social",
+      "rubric": "economy",
+      "front": "Was ist Sozialversicherung?",
+      "back": "Eine gesetzlich geregelte Absicherung wichtiger Lebensrisiken, etwa Krankheit, Arbeitslosigkeit oder Alter. In Deutschland gehören fünf Zweige dazu."
+    },
+    {
+      "id": "standard.social.v2.027",
+      "subject": "social",
+      "rubric": "economy",
+      "front": "Was ist ein privater Haushalt?",
+      "back": "Eine Person oder mehrere Personen, die gemeinsam wirtschaften. Einnahmen und Ausgaben werden geplant, damit das Geld für notwendige Dinge reicht."
+    },
+    {
+      "id": "standard.social.v2.028",
+      "subject": "social",
+      "rubric": "economy",
+      "front": "Was ist ein Bedürfnis?",
+      "back": "Der Wunsch, einen empfundenen Mangel zu beseitigen. Dazu gehören grundlegende Dinge wie Nahrung und Sicherheit sowie weitere persönliche Wünsche."
+    },
+    {
+      "id": "standard.social.v2.029",
+      "subject": "social",
+      "rubric": "society",
+      "front": "Was ist ein Vorurteil?",
+      "back": "Eine vorschnelle Bewertung ohne ausreichende Kenntnis einer Person oder Sache. Vorurteile können zu unfairer Behandlung führen."
+    },
+    {
+      "id": "standard.social.v2.030",
+      "subject": "social",
+      "rubric": "society",
+      "front": "Was ist ein Stereotyp?",
+      "back": "Eine vereinfachende Vorstellung über eine Gruppe. Sie berücksichtigt Unterschiede zwischen einzelnen Menschen oft nicht."
+    },
+    {
+      "id": "standard.social.v2.031",
+      "subject": "social",
+      "rubric": "society",
+      "front": "Was bedeutet Integration?",
+      "back": "Die gleichberechtigte Teilhabe am gesellschaftlichen Leben und das Zusammenleben in Vielfalt. Dazu gehören Chancen auf Bildung, Arbeit und Mitwirkung."
+    },
+    {
+      "id": "standard.social.v2.032",
+      "subject": "social",
+      "rubric": "society",
+      "front": "Was ist ein sozialer Konflikt?",
+      "back": "Ein Gegensatz zwischen Interessen oder Zielen von Menschen oder Gruppen. Zuhören und Verhandeln können helfen, eine faire Lösung zu finden."
+    },
+    {
+      "id": "standard.social.v2.033",
+      "subject": "social",
+      "rubric": "society",
+      "front": "Was ist Zivilcourage?",
+      "back": "Sich für andere einsetzen, wenn sie bedroht oder ungerecht behandelt werden, ohne sich unnötig selbst zu gefährden. Hilfe holen kann dazu gehören."
+    },
+    {
+      "id": "standard.social.v2.034",
+      "subject": "social",
+      "rubric": "society",
+      "front": "Was ist eine soziale Norm?",
+      "back": "Eine gesellschaftliche Erwartung darüber, wie Menschen sich verhalten sollen. Manche Normen sind Gesetze, andere ungeschriebene Regeln."
+    },
+    {
+      "id": "standard.social.v2.035",
+      "subject": "social",
+      "rubric": "society",
+      "front": "Was bedeutet Medienkompetenz?",
+      "back": "Medien bewusst nutzen, Informationen prüfen und eigene Beiträge verantwortungsvoll gestalten. Dazu gehört, Quellen und mögliche Interessen zu erkennen."
+    },
+    {
+      "id": "standard.biology.v2.001",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Was ist ein Gewebe?",
+      "back": "Ein Verband von Zellen, die ähnliche Aufgaben erfüllen. Muskelgewebe kann sich zum Beispiel zusammenziehen und Bewegung ermöglichen."
+    },
+    {
+      "id": "standard.biology.v2.002",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Was ist ein Organsystem?",
+      "back": "Mehrere Organe, die gemeinsam eine größere Aufgabe erfüllen. Zum Verdauungssystem gehören zum Beispiel Magen und Darm."
+    },
+    {
+      "id": "standard.biology.v2.003",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Welche Aufgabe hat das Herz?",
+      "back": "Es pumpt Blut durch den Körper. So werden unter anderem Sauerstoff und Nährstoffe transportiert."
+    },
+    {
+      "id": "standard.biology.v2.004",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Wozu dienen rote Blutkörperchen?",
+      "back": "Sie transportieren vor allem Sauerstoff mithilfe des Blutfarbstoffs Hämoglobin. So gelangt Sauerstoff von der Lunge zu den Körperzellen."
+    },
+    {
+      "id": "standard.biology.v2.005",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Was geschieht in den Lungenbläschen?",
+      "back": "Sauerstoff gelangt aus der eingeatmeten Luft ins Blut. Kohlenstoffdioxid geht aus dem Blut in die Luft über und wird ausgeatmet."
+    },
+    {
+      "id": "standard.biology.v2.006",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Welche Aufgabe hat der Dünndarm?",
+      "back": "Er zerlegt Nahrung weiter und nimmt viele Nährstoffe über seine Wand in den Körper auf. Seine große innere Oberfläche erleichtert die Aufnahme."
+    },
+    {
+      "id": "standard.biology.v2.007",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Welche Aufgabe haben die Nieren?",
+      "back": "Sie reinigen das Blut von bestimmten Abfallstoffen und bilden Urin. Außerdem helfen sie, den Wasser- und Salzhaushalt zu regeln."
+    },
+    {
+      "id": "standard.biology.v2.008",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Was ist ein Gelenk?",
+      "back": "Eine bewegliche Verbindung zwischen Knochen. Knorpel und Gelenkflüssigkeit verringern die Reibung, zum Beispiel im Knie."
+    },
+    {
+      "id": "standard.biology.v2.009",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Was ist ein Hormon?",
+      "back": "Ein chemischer Botenstoff des Körpers. Er gelangt zu bestimmten Zielzellen und beeinflusst dort Vorgänge, etwa den Blutzuckerspiegel."
+    },
+    {
+      "id": "standard.biology.v2.010",
+      "subject": "biology",
+      "rubric": "body",
+      "front": "Was ist eine Nervenzelle?",
+      "back": "Eine spezialisierte Zelle, die Informationen aufnimmt und weiterleitet. Nervenzellen ermöglichen zum Beispiel Wahrnehmung und Bewegung."
+    },
+    {
+      "id": "standard.biology.v2.011",
+      "subject": "biology",
+      "rubric": "health",
+      "front": "Was ist eine ausgewogene Ernährung?",
+      "back": "Eine abwechslungsreiche Auswahl von Lebensmitteln, die den Körper passend mit Energie und Nährstoffen versorgt. Einzelne Lebensmittel allein decken nicht alle Bedürfnisse."
+    },
+    {
+      "id": "standard.biology.v2.012",
+      "subject": "biology",
+      "rubric": "health",
+      "front": "Wozu braucht der Körper Eiweiß?",
+      "back": "Eiweiße sind unter anderem Baustoffe für Zellen und Bestandteile vieler Enzyme. Sie werden aus Aminosäuren aufgebaut."
+    },
+    {
+      "id": "standard.biology.v2.013",
+      "subject": "biology",
+      "rubric": "health",
+      "front": "Was sind Ballaststoffe?",
+      "back": "Überwiegend unverdauliche Bestandteile pflanzlicher Nahrung. Sie unterstützen unter anderem die Verdauung und sind etwa in Vollkorn, Gemüse und Hülsenfrüchten enthalten."
+    },
+    {
+      "id": "standard.biology.v2.014",
+      "subject": "biology",
+      "rubric": "health",
+      "front": "Was ist eine Infektion?",
+      "back": "Krankheitserreger dringen in den Körper ein und vermehren sich. Eine Infektion führt nicht immer zu spürbaren Krankheitszeichen."
+    },
+    {
+      "id": "standard.biology.v2.015",
+      "subject": "biology",
+      "rubric": "health",
+      "front": "Was ist das Immunsystem?",
+      "back": "Die körpereigene Abwehr. Verschiedene Zellen und Stoffe erkennen und bekämpfen unter anderem Krankheitserreger."
+    },
+    {
+      "id": "standard.biology.v2.016",
+      "subject": "biology",
+      "rubric": "health",
+      "front": "Was ist eine Impfung?",
+      "back": "Sie bereitet die Abwehr gezielt auf einen Erreger oder bestimmte Bestandteile vor. So kann der Körper bei einem späteren Kontakt schneller reagieren."
+    },
+    {
+      "id": "standard.biology.v2.017",
+      "subject": "biology",
+      "rubric": "health",
+      "front": "Warum sind Antibiotika keine Mittel gegen Viren?",
+      "back": "Antibiotika greifen bestimmte Strukturen oder Vorgänge von Bakterien an. Viren besitzen diese Angriffspunkte nicht."
+    },
+    {
+      "id": "standard.biology.v2.018",
+      "subject": "biology",
+      "rubric": "cells",
+      "front": "Was ist eine Zellmembran?",
+      "back": "Eine dünne Abgrenzung der Zelle. Sie regelt den Stoffaustausch mit der Umgebung und ist an der Verständigung zwischen Zellen beteiligt."
+    },
+    {
+      "id": "standard.biology.v2.019",
+      "subject": "biology",
+      "rubric": "cells",
+      "front": "Welche Aufgabe hat der Zellkern?",
+      "back": "Er enthält bei Zellen mit Zellkern den größten Teil der Erbinformation und ist an der Steuerung vieler Zellvorgänge beteiligt."
+    },
+    {
+      "id": "standard.biology.v2.020",
+      "subject": "biology",
+      "rubric": "cells",
+      "front": "Was ist DNA?",
+      "back": "Ein Molekül, das Erbinformation speichert. Abschnitte der DNA enthalten unter anderem Bauanleitungen für Zellbestandteile."
+    },
+    {
+      "id": "standard.biology.v2.021",
+      "subject": "biology",
+      "rubric": "cells",
+      "front": "Was ist ein Gen?",
+      "back": "Ein Abschnitt der Erbinformation mit einer bestimmten Funktion. Gene können etwa Informationen für den Aufbau eines Eiweißes enthalten."
+    },
+    {
+      "id": "standard.biology.v2.022",
+      "subject": "biology",
+      "rubric": "cells",
+      "front": "Was ist ein Chromosom?",
+      "back": "Eine organisierte Struktur aus DNA und zugehörigen Proteinen. Sie trägt Erbinformation und wird bei der Zellteilung verteilt."
+    },
+    {
+      "id": "standard.biology.v2.023",
+      "subject": "biology",
+      "rubric": "cells",
+      "front": "Was ist ein Bakterium?",
+      "back": "Ein einzelliges Lebewesen ohne echten Zellkern. Viele Bakterien sind nützlich; manche können Krankheiten auslösen."
+    },
+    {
+      "id": "standard.biology.v2.024",
+      "subject": "biology",
+      "rubric": "cells",
+      "front": "Was ist ein Virus?",
+      "back": "Ein Erreger aus Erbmaterial und einer Hülle aus Proteinen, manchmal mit zusätzlicher Hülle. Zur Vermehrung braucht es lebende Wirtszellen und hat keinen eigenen Stoffwechsel."
+    },
+    {
+      "id": "standard.biology.v2.025",
+      "subject": "biology",
+      "rubric": "organisms",
+      "front": "Welche Aufgabe haben Pflanzenwurzeln?",
+      "back": "Sie verankern die Pflanze und nehmen Wasser sowie gelöste Mineralstoffe aus dem Boden auf. Manche Wurzeln speichern zusätzlich Nährstoffe."
+    },
+    {
+      "id": "standard.biology.v2.026",
+      "subject": "biology",
+      "rubric": "organisms",
+      "front": "Was sind Chloroplasten?",
+      "back": "Zellbestandteile grüner Pflanzen und vieler Algen, in denen Fotosynthese stattfindet. Sie enthalten den grünen Farbstoff Chlorophyll."
+    },
+    {
+      "id": "standard.biology.v2.027",
+      "subject": "biology",
+      "rubric": "organisms",
+      "front": "Was ist Keimung?",
+      "back": "Der Beginn des Wachstums eines Pflanzenembryos aus einem Samen. Dafür braucht ein Samen passende Bedingungen, meist Wasser, Sauerstoff und eine geeignete Temperatur."
+    },
+    {
+      "id": "standard.biology.v2.028",
+      "subject": "biology",
+      "rubric": "organisms",
+      "front": "Was unterscheidet Wirbeltiere von Wirbellosen?",
+      "back": "Wirbeltiere besitzen eine Wirbelsäule. Zu ihnen gehören zum Beispiel Fische und Säugetiere; Insekten gehören zu den Wirbellosen."
+    },
+    {
+      "id": "standard.biology.v2.029",
+      "subject": "biology",
+      "rubric": "organisms",
+      "front": "Was kennzeichnet Säugetiere?",
+      "back": "Sie ernähren ihre Jungen mit Milch aus Milchdrüsen. Die meisten haben Haare und bringen lebende Junge zur Welt; es gibt Ausnahmen wie das eierlegende Schnabeltier."
+    },
+    {
+      "id": "standard.biology.v2.030",
+      "subject": "biology",
+      "rubric": "organisms",
+      "front": "Was ist Angepasstheit?",
+      "back": "Merkmale passen zu bestimmten Umweltbedingungen und können Überleben und Fortpflanzung erleichtern. Sie entstehen über Generationen, nicht durch bloßen Wunsch eines Lebewesens."
+    },
+    {
+      "id": "standard.biology.v2.031",
+      "subject": "biology",
+      "rubric": "ecosystems",
+      "front": "Was ist eine Nahrungskette?",
+      "back": "Eine vereinfachte Folge von Nahrungsbeziehungen: zum Beispiel Gras, Heuschrecke, Frosch. Sie zeigt, wer von wem gefressen wird."
+    },
+    {
+      "id": "standard.biology.v2.032",
+      "subject": "biology",
+      "rubric": "ecosystems",
+      "front": "Was ist ein Nahrungsnetz?",
+      "back": "Mehrere verbundene Nahrungsketten. Es zeigt, dass viele Arten verschiedene Nahrung und mehrere Fressfeinde haben."
+    },
+    {
+      "id": "standard.biology.v2.033",
+      "subject": "biology",
+      "rubric": "ecosystems",
+      "front": "Was ist Biodiversität?",
+      "back": "Die Vielfalt des Lebens: unterschiedliche Arten, genetische Unterschiede und verschiedene Lebensräume. Diese Ebenen hängen miteinander zusammen."
+    },
+    {
+      "id": "standard.biology.v2.034",
+      "subject": "biology",
+      "rubric": "ecosystems",
+      "front": "Was ist ein biotischer Umweltfaktor?",
+      "back": "Ein Einfluss der belebten Umwelt, etwa Nahrung, Konkurrenten oder Fressfeinde. Temperatur und Licht sind dagegen abiotische Faktoren."
+    },
+    {
+      "id": "standard.biology.v2.035",
+      "subject": "biology",
+      "rubric": "ecosystems",
+      "front": "Was ist ein Stoffkreislauf?",
+      "back": "Stoffe werden zwischen Lebewesen und unbelebter Umwelt umgesetzt und weitergegeben. Zersetzer machen dabei Nährstoffe wieder verfügbar; Energie kreist nicht in gleicher Weise."
+    },
+    {
+      "id": "standard.geography.v2.001",
+      "subject": "geography",
+      "rubric": "europe",
+      "front": "Was ist eine Landeshauptstadt?",
+      "back": "Die Hauptstadt eines Bundeslandes und normalerweise Sitz seiner Regierung und seines Landtags. Die Hauptstadt von Sachsen-Anhalt ist Magdeburg."
+    },
+    {
+      "id": "standard.geography.v2.002",
+      "subject": "geography",
+      "rubric": "europe",
+      "front": "Was ist die Europäische Union?",
+      "back": "Ein Zusammenschluss europäischer Staaten, die in vereinbarten Bereichen zusammenarbeiten und gemeinsame Regeln beschließen. Europa als Kontinent ist größer als die EU."
+    },
+    {
+      "id": "standard.geography.v2.003",
+      "subject": "geography",
+      "rubric": "europe",
+      "front": "Was ist eine politische Grenze?",
+      "back": "Eine festgelegte Trennlinie zwischen Zuständigkeitsgebieten, zum Beispiel zwischen Staaten oder Bundesländern. Sie ist nicht immer durch ein natürliches Hindernis erkennbar."
+    },
+    {
+      "id": "standard.geography.v2.004",
+      "subject": "geography",
+      "rubric": "europe",
+      "front": "Was ist ein Ballungsraum?",
+      "back": "Ein Gebiet mit dicht beieinanderliegenden Städten, vielen Menschen und Arbeitsplätzen. Ein Beispiel ist das Ruhrgebiet."
+    },
+    {
+      "id": "standard.geography.v2.005",
+      "subject": "geography",
+      "rubric": "europe",
+      "front": "Was ist ein ländlicher Raum?",
+      "back": "Ein Gebiet außerhalb dichter städtischer Ballungsräume, häufig mit Dörfern, kleineren Orten und größeren Freiflächen. Ländliche Räume können sehr unterschiedlich sein."
+    },
+    {
+      "id": "standard.geography.v2.006",
+      "subject": "geography",
+      "rubric": "europe",
+      "front": "Was ist eine Großlandschaft?",
+      "back": "Ein großes Gebiet mit ähnlichen Landschaftsmerkmalen. In Deutschland gehören etwa Norddeutsches Tiefland, Mittelgebirge, Alpenvorland und Alpen dazu."
+    },
+    {
+      "id": "standard.geography.v2.007",
+      "subject": "geography",
+      "rubric": "orientation",
+      "front": "Was sind die Himmelsrichtungen?",
+      "back": "Norden, Osten, Süden und Westen. Sie helfen beim Beschreiben von Lagen und Wegen; auf vielen Karten ist Norden oben angegeben."
+    },
+    {
+      "id": "standard.geography.v2.008",
+      "subject": "geography",
+      "rubric": "orientation",
+      "front": "Was ist geografische Länge?",
+      "back": "Der Winkelabstand eines Ortes vom Nullmeridian nach Osten oder Westen. Zusammen mit der geografischen Breite lässt sich eine Lage auf der Erde beschreiben."
+    },
+    {
+      "id": "standard.geography.v2.009",
+      "subject": "geography",
+      "rubric": "orientation",
+      "front": "Was ist ein Meridian?",
+      "back": "Eine gedachte Linie zwischen Nord- und Südpol. Orte auf demselben Meridian haben dieselbe geografische Länge."
+    },
+    {
+      "id": "standard.geography.v2.010",
+      "subject": "geography",
+      "rubric": "orientation",
+      "front": "Was ist ein Globus?",
+      "back": "Ein verkleinertes kugelförmiges Modell der Erde. Anders als eine flache Weltkarte kann er die Erdoberfläche ohne flächenbedingte Kartenverzerrung darstellen."
+    },
+    {
+      "id": "standard.geography.v2.011",
+      "subject": "geography",
+      "rubric": "orientation",
+      "front": "Was ist eine Zeitzone?",
+      "back": "Ein Gebiet, in dem grundsätzlich dieselbe gesetzliche Standardzeit gilt. Die Grenzen folgen oft politischen Regeln und nicht genau den Längengraden."
+    },
+    {
+      "id": "standard.geography.v2.012",
+      "subject": "geography",
+      "rubric": "orientation",
+      "front": "Was ist eine Höhenlinie?",
+      "back": "Eine Linie auf einer Karte, die Punkte gleicher Höhe verbindet. Eng benachbarte Höhenlinien zeigen meist einen steilen Hang."
+    },
+    {
+      "id": "standard.geography.v2.013",
+      "subject": "geography",
+      "rubric": "orientation",
+      "front": "Was bedeuten Rotation und Umlauf der Erde?",
+      "back": "Rotation ist die Drehung der Erde um ihre Achse und erklärt Tag und Nacht. Der Umlauf um die Sonne dauert ungefähr ein Jahr."
+    },
+    {
+      "id": "standard.geography.v2.014",
+      "subject": "geography",
+      "rubric": "climate",
+      "front": "Wie entstehen die Jahreszeiten?",
+      "back": "Die Erdachse ist gegenüber der Umlaufbahn geneigt. Dadurch ändern sich im Jahreslauf Sonnenstand und Tageslänge auf den Halbkugeln; die Entfernung zur Sonne ist nicht die Ursache."
+    },
+    {
+      "id": "standard.geography.v2.015",
+      "subject": "geography",
+      "rubric": "climate",
+      "front": "Was ist Niederschlag?",
+      "back": "Wasser, das aus Wolken auf die Erdoberfläche gelangt, zum Beispiel als Regen, Schnee oder Hagel. Es gehört zum Wasserkreislauf."
+    },
+    {
+      "id": "standard.geography.v2.016",
+      "subject": "geography",
+      "rubric": "climate",
+      "front": "Was ist Luftdruck?",
+      "back": "Die Kraft der Luftsäule pro Fläche. Unterschiede im Luftdruck tragen dazu bei, dass Luft sich bewegt und Wind entsteht."
+    },
+    {
+      "id": "standard.geography.v2.017",
+      "subject": "geography",
+      "rubric": "climate",
+      "front": "Was ist Wind?",
+      "back": "Eine gerichtete Bewegung der Luft. Sie entsteht durch Luftdruckunterschiede und wird unter anderem von der Erdrotation und dem Gelände beeinflusst."
+    },
+    {
+      "id": "standard.geography.v2.018",
+      "subject": "geography",
+      "rubric": "climate",
+      "front": "Was ist der natürliche Treibhauseffekt?",
+      "back": "Bestimmte Gase in der Atmosphäre nehmen einen Teil der Wärmestrahlung auf und geben sie wieder ab. Dadurch ist die Erdoberfläche wärmer, als sie ohne diesen Effekt wäre."
+    },
+    {
+      "id": "standard.geography.v2.019",
+      "subject": "geography",
+      "rubric": "climate",
+      "front": "Was bedeutet menschengemachter Klimawandel?",
+      "back": "Die langfristige Veränderung des Klimas durch menschliche Einflüsse, besonders zusätzliche Treibhausgase. Die heutige globale Erwärmung hat vor allem diese Ursache."
+    },
+    {
+      "id": "standard.geography.v2.020",
+      "subject": "geography",
+      "rubric": "climate",
+      "front": "Was ist ein Klimadiagramm?",
+      "back": "Eine Darstellung typischer Temperatur- und Niederschlagswerte eines Ortes im Jahreslauf. Es hilft beim Vergleichen von Klimabedingungen."
+    },
+    {
+      "id": "standard.geography.v2.021",
+      "subject": "geography",
+      "rubric": "environment",
+      "front": "Was bedeutet Nachhaltigkeit?",
+      "back": "Heute so handeln, dass auch künftige Generationen gut leben können. Ökologische, soziale und wirtschaftliche Folgen müssen gemeinsam berücksichtigt werden."
+    },
+    {
+      "id": "standard.geography.v2.022",
+      "subject": "geography",
+      "rubric": "environment",
+      "front": "Was ist Recycling?",
+      "back": "Abfälle werden aufbereitet und als Rohstoff für neue Produkte genutzt. Vermeiden und Wiederverwenden können trotzdem wichtiger sein, als erst Abfall entstehen zu lassen."
+    },
+    {
+      "id": "standard.geography.v2.023",
+      "subject": "geography",
+      "rubric": "environment",
+      "front": "Was ist ein nicht erneuerbarer Rohstoff?",
+      "back": "Ein Rohstoff, der sich in menschlichen Zeiträumen nicht ausreichend neu bildet, zum Beispiel Erdöl. Seine Vorräte sind begrenzt."
+    },
+    {
+      "id": "standard.geography.v2.024",
+      "subject": "geography",
+      "rubric": "environment",
+      "front": "Was bedeutet Flächenversiegelung?",
+      "back": "Boden wird etwa durch Straßen oder Gebäude bedeckt. Wasser kann dort schlechter versickern und Lebensraum geht verloren."
+    },
+    {
+      "id": "standard.geography.v2.025",
+      "subject": "geography",
+      "rubric": "environment",
+      "front": "Was ist ein Naturraum?",
+      "back": "Ein Gebiet, das durch natürliche Merkmale wie Relief, Klima, Böden und Gewässer geprägt ist. Menschen können diesen Raum zusätzlich verändern."
+    },
+    {
+      "id": "standard.geography.v2.026",
+      "subject": "geography",
+      "rubric": "environment",
+      "front": "Was ist Hochwasser?",
+      "back": "Ein Wasserstand, der deutlich über dem normalen Stand liegt. Starker Niederschlag und Schneeschmelze können dazu beitragen; Auen bieten natürliche Rückhalteräume."
+    },
+    {
+      "id": "standard.geography.v2.027",
+      "subject": "geography",
+      "rubric": "environment",
+      "front": "Was ist die Kreislaufwirtschaft?",
+      "back": "Produkte und Materialien sollen möglichst lange genutzt, repariert und wiederverwendet werden. Ziel ist, weniger neue Rohstoffe zu brauchen und Abfälle zu vermeiden."
+    },
+    {
+      "id": "standard.geography.v2.028",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was ist eine Lieferkette?",
+      "back": "Die Folge von Schritten und Beteiligten vom Rohstoff bis zum fertigen Produkt bei den Nutzenden. Diese Schritte können auf viele Länder verteilt sein."
+    },
+    {
+      "id": "standard.geography.v2.029",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was ist Import?",
+      "back": "Waren oder Dienstleistungen werden aus dem Ausland bezogen. Deutschland importiert zum Beispiel bestimmte Rohstoffe."
+    },
+    {
+      "id": "standard.geography.v2.030",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was ist Export?",
+      "back": "Waren oder Dienstleistungen werden ins Ausland verkauft. Derselbe Handel ist für das verkaufende Land Export und für das kaufende Land Import."
+    },
+    {
+      "id": "standard.geography.v2.031",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was ist Urbanisierung?",
+      "back": "Der Anteil der städtischen Bevölkerung wächst und städtische Lebensweisen breiten sich aus. Neue Wohnungen, Verkehr und Versorgung werden dadurch wichtige Aufgaben."
+    },
+    {
+      "id": "standard.geography.v2.032",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was bedeutet Migration?",
+      "back": "Menschen verlegen ihren Lebensmittelpunkt innerhalb eines Landes oder über Staatsgrenzen hinweg. Gründe können zum Beispiel Arbeit, Familie, Krieg oder Verfolgung sein."
+    },
+    {
+      "id": "standard.geography.v2.033",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was ist ein Wirtschaftssektor?",
+      "back": "Ein Bereich der Wirtschaft. Häufig unterscheidet man Rohstoffgewinnung und Landwirtschaft, Herstellung und Verarbeitung sowie Dienstleistungen."
+    },
+    {
+      "id": "standard.geography.v2.034",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was ist Tourismus?",
+      "back": "Menschen reisen vorübergehend an Orte außerhalb ihrer gewohnten Umgebung. Das kann Einkommen schaffen, aber auch Verkehr, Wasserverbrauch und andere Belastungen erhöhen."
+    },
+    {
+      "id": "standard.geography.v2.035",
+      "subject": "geography",
+      "rubric": "globalization",
+      "front": "Was ist der Strukturwandel?",
+      "back": "Die längerfristige Veränderung einer Wirtschaft oder Region, zum Beispiel von Industrie zu Dienstleistungen. Dabei entstehen neue Arbeitsplätze, während andere verschwinden können."
     }
-  ]
+  ],
+  "sourcesDocument": "docs/LERNKASTEN-2026-10-21.md"
 }

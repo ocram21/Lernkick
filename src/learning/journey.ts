@@ -3,7 +3,7 @@ export const moduleIds = ['math', 'german', 'social', 'biology', 'geography', 'v
 export type ModuleId = typeof moduleIds[number];
 const count = z.number().int().nonnegative();
 const moduleSchema = z.object({ level: count.min(1), progress: count, completed: z.array(count), bossWins: z.array(count), bossAttempts: z.array(count), lastActivity: z.number().nonnegative() });
-export const journeySchema = z.object({ schemaVersion: z.literal(1), profileId: z.string().min(1), totalPoints: count, modules: z.record(z.enum(moduleIds), moduleSchema), events: z.record(z.string(), z.number().nonnegative()), tasks: z.record(z.string(), z.number().nonnegative()), strength: z.number().min(0).max(100), strengthAt: z.number().nonnegative(), lastActivity: z.number().nonnegative() }).superRefine((journey,context)=>{
+export const journeySchema = z.object({ schemaVersion: z.literal(1), strengthModel:z.literal(2).optional(),activeLearningMs:z.number().nonnegative().optional(),profileId: z.string().min(1), totalPoints: count, modules: z.record(z.enum(moduleIds), moduleSchema), events: z.record(z.string(), z.number().nonnegative()), tasks: z.record(z.string(), z.number().nonnegative()), strength: z.number().min(0).max(100), strengthAt: z.number().nonnegative(), lastActivity: z.number().nonnegative() }).superRefine((journey,context)=>{
     for(const id of moduleIds){
         const module=journey.modules[id];
         const invalid=module.progress>=moduleRules[id].passes||module.completed.some(level=>level<1||level>=module.level)||[module.completed,module.bossWins,module.bossAttempts].some(list=>new Set(list).size!==list.length)||module.bossAttempts.some(level=>level%5!==0||!module.completed.includes(level))||module.bossWins.some(level=>!module.bossAttempts.includes(level));
@@ -22,11 +22,13 @@ export const moduleRules: Record<ModuleId, {
 }> = {
     math: { passes: 3, points: 10, minimum: 10, boss: 'Zahlenroboter' }, german: { passes: 3, points: 10, minimum: 10, boss: 'Buchmonster' }, social: { passes: 3, points: 10, minimum: 10, boss: 'Alltagsdetektiv' }, biology: { passes: 3, points: 10, minimum: 10, boss: 'Zellwächter' }, geography: { passes: 3, points: 10, minimum: 10, boss: 'Weltentdecker' }, vocabulary: { passes: 3, points: 10, minimum: 10, boss: 'Wortdrache' }, hangman: { passes: 5, points: 10, minimum: 1, boss: 'Buchstabenfuchs' }, germany: { passes: 2, points: 10, minimum: 32, boss: 'Länderwächter' }, nback: { passes: 3, points: 10, minimum: 48, boss: 'Gedächtnisbot' }
 };
-export function newJourney(scores: Record<string, number>, now = Date.now()): Journey { return { schemaVersion: 1, profileId: crypto.randomUUID(), totalPoints: Object.values(scores).reduce((a, b) => a + b, 0), modules: Object.fromEntries(moduleIds.map(id => [id, { level: 1, progress: 0, completed: [], bossWins: [], bossAttempts: [], lastActivity: 0 }])) as unknown as Journey['modules'], events: {}, tasks: {}, strength: 0, strengthAt: now, lastActivity: 0 }; }
+export function newJourney(scores: Record<string, number>, now = Date.now()): Journey { return { schemaVersion: 1, strengthModel:2,activeLearningMs:0,profileId: crypto.randomUUID(), totalPoints: Object.values(scores).reduce((a, b) => a + b, 0), modules: Object.fromEntries(moduleIds.map(id => [id, { level: 1, progress: 0, completed: [], bossWins: [], bossAttempts: [], lastActivity: 0 }])) as unknown as Journey['modules'], events: {}, tasks: {}, strength: 0, strengthAt: now, lastActivity: 0 }; }
 const day = 86400000;
-export function strengthAt(j: Journey, now = Date.now()) { const elapsed = Math.max(0, Math.floor((now - j.lastActivity) / day) - rules.graceDays), previous = Math.max(0, Math.floor((j.strengthAt - j.lastActivity) / day) - rules.graceDays); return Math.max(0, j.strength - Math.max(0, elapsed - previous) * rules.decayPerDay); }
+export const strengthTargetMinutes=300;
+export function upgradeStrength(j:Journey):Journey{return j.strengthModel===2?j:{...j,strengthModel:2,activeLearningMs:0};}
+export function strengthAt(j: Journey, now = Date.now()) { if(j.strengthModel===2)return j.strength; const elapsed = Math.max(0, Math.floor((now - j.lastActivity) / day) - rules.graceDays), previous = Math.max(0, Math.floor((j.strengthAt - j.lastActivity) / day) - rules.graceDays); return Math.max(0, j.strength - Math.max(0, elapsed - previous) * rules.decayPerDay); }
 export function activeTime(j: Journey, milliseconds: number, now = Date.now()): Journey { if (!Number.isFinite(milliseconds) || milliseconds <= 0 || milliseconds > rules.maxInteractionGap || now < j.strengthAt)
-    return j; return { ...j, strength: Math.min(100, strengthAt(j, now) + milliseconds / 60000 * rules.strengthPerMinute), strengthAt: now, lastActivity: now }; }
+    return j; return { ...upgradeStrength(j),activeLearningMs:(j.activeLearningMs??0)+milliseconds, strength: Math.min(100, strengthAt(j, now) + milliseconds / 60000 * (100/strengthTargetMinutes)), strengthAt: now, lastActivity: now }; }
 export type TrainingResult = {
     id: string;
     module: ModuleId;

@@ -12,6 +12,9 @@ export function solution(prompt:string,available:string[]=[]):string {
   if(match){const a=+match[1],b=+match[3];return String(match[2]==='+'?a+b:match[2]==='−'?a-b:match[2]==='×'?a*b:a/b);}
   match=prompt.match(/^(\d+) Kisten enthalten je (\d+) Flaschen/);if(match)return String(+match[1]*+match[2]);
   match=prompt.match(/^(\d+) Stifte werden gleichmäßig auf (\d+) Personen/);if(match)return String(+match[1]/+match[2]);
+  match=prompt.match(/^Wie viel sind (\d+)\/(\d+) von (\d+)\?$/);if(match)return String(+match[3]*+match[1]/+match[2]);
+  match=prompt.match(/^Wie viel sind (\d+) % von (\d+)/);if(match)return String(+match[1]*+match[2]/100);
+  match=prompt.match(/^Überschlage (\d+) × ([\d,]+)/);if(match)return String(Math.round(+match[1]/10)*10*Math.round(Number(match[2].replace(',','.'))));
   throw new Error('Keine Testlösung für: '+prompt);
 }
 export async function answerCorrect(page:Page) {

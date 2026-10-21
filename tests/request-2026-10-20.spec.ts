@@ -4,7 +4,7 @@ async function home(page:import('@playwright/test').Page){await page.goto('/');a
 for(const viewport of [{width:390,height:844},{width:1440,height:900}]){
  test(`Mathe: Auswahl, automatischer Wechsel, Ausgang und Wiederaufnahme ${viewport.width}`,async({page})=>{
   await page.setViewportSize(viewport);await home(page);await page.getByRole('button',{name:'Mathematik, Level 1',exact:true}).click();
-  await page.getByLabel('Kategorie',{exact:true}).selectOption('negative');await page.getByRole('button',{name:'Schwer',exact:true}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
+  await page.getByRole('button',{name:'Alle',exact:true}).click();await page.getByRole('button',{name:'Negative Zahlen',exact:true}).click();await page.getByRole('button',{name:'Schwer',exact:true}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
   const prompt=await page.locator('.question h1').innerText();expect(prompt).toContain('−');
   await answerWrong(page);await page.getByRole('button',{name:'Ausgang',exact:true}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.locator('.calculator-grid')).toBeVisible();
   await page.reload();await page.getByRole('button',{name:'Mathematik, Level 1',exact:true}).click();await expect(page.locator('.question h1')).toHaveText(prompt);await expect(page.locator('.feedback')).toBeVisible();

@@ -1,3 +1,4 @@
+import {shuffle} from '../lib/engine';
 import catalog from '../content/standardCards.json';
 import words from '../content/vocabulary.json';
 import { cardSchema, vocabularyEntrySchema, type Card, type Subject, type UserData, type VocabularyEntry, type Question } from '../lib/schema';
@@ -13,14 +14,14 @@ export function personalCards(data:UserData,subject?:Subject):Card[] {
 export function savePersonalCard(data:UserData,card:Card):UserData {
   const parsed=cardSchema.parse(card);
   if(isStandardCard(parsed.id))return data;
-  return {...data,cards:[...data.cards.filter(c=>c.id!==parsed.id),parsed]};
+  return {...data,cardSession:data.cardSession?.cards.some(c=>c.id===parsed.id)?null:data.cardSession,cards:[...data.cards.filter(c=>c.id!==parsed.id),parsed]};
 }
 export function deletePersonalCard(data:UserData,id:string):UserData {
-  return isStandardCard(id)?data:{...data,cards:data.cards.filter(card=>card.id!==id)};
+  return isStandardCard(id)?data:{...data,cardSession:data.cardSession?.cards.some(c=>c.id===id)?null:data.cardSession,cards:data.cards.filter(card=>card.id!==id)};
 }
 export const restoreStandardCards=(data:UserData):UserData=>({...data,study:{...data.study,hiddenDefaults:[]}});
 export function cardQueue(data:UserData,cards:Card[],now=Date.now()):Card[] {
-  return cards.filter(card=>!data.study.reviews[card.id]||data.study.reviews[card.id].due<=now).sort((a,b)=>{const priority=(card:Card)=>{const review=data.study.reviews[card.id];return !review?0:review.due<=now?-1:1;};return priority(a)-priority(b)||(data.study.reviews[a.id]?.due??0)-(data.study.reviews[b.id]?.due??0);}).slice(0,10);
+  return shuffle(cards.filter(card=>!data.study.reviews[card.id]||data.study.reviews[card.id].due<=now)).sort((a,b)=>{const priority=(card:Card)=>{const review=data.study.reviews[card.id];return !review?0:review.due<=now?-1:1;};return priority(a)-priority(b)||(data.study.reviews[a.id]?.due??0)-(data.study.reviews[b.id]?.due??0);}).slice(0,10);
 }
 export function rateCard(data:UserData,id:string,known:boolean,now=Date.now()):UserData {
   const old=data.study.reviews[id]??{box:0,due:0,attempts:0,known:0,lastRated:0};

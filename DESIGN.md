@@ -95,6 +95,8 @@ Kleine Levelzahlen bleiben 12 px und ergänzen die großen Kürzel. Keine zusät
 
 Neun Tasten in einem Raster aus drei Spalten. Zentraler Inhaltsbereich bis 640 px, dunkel eingelassenes Tastenbett. Auf kleinen Smartphones kompaktere Tasten und Abstände; alle neun Tasten bleiben bei 320×568 über der Navigation sichtbar. Kurze Querformate dürfen scrollen. Die zentrale Navigation sitzt fest am nutzbaren unteren Viewportrand mit einmaligem Safe-Area-Padding. Inhalt erhält entsprechenden Platz nach unten.
 
+Die Hauptnavigation lautet **Training | Lernkasten | Einstellungen**. Tafeln sind archiviert; ihre nachstehenden Regeln bleiben als Archivdokumentation erhalten. Der Lernkasten nutzt die volle nutzbare Viewporthöhe: Kopf und fünf direkte Fachwahlen bleiben oben, nur die Auswahl-/Kartenfläche scrollt, die Navigation bleibt unten im Flexlayout. Quellen und Unterrubriken sind bei laufenden Karten über „Auswahl ändern“ ausklappbar. Mathematik verwendet drei Stufentasten nebeneinander und ein zweispaltiges Kategorienraster mit Mehrfachwahl und „Alle“. Die Hauptstadtrunde ordnet 16 Länder in zwei Spalten zu je acht Zeilen; jede Antwortfläche bleibt mindestens 44 px hoch.
+
 Der PIN-Einstieg passt ab 320 px Breite: vier maskierte Positionen, darunter ein dreispaltiger Ziffernblock. Zifferntasten sind mindestens 58 px hoch, bei höchstens 650 px Viewporthöhe 50 px. Die Tafelauswahl darf bis 920 px breit sein. Eine aktive Tafel nutzt die volle Bildschirmhöhe und verfügbare Inhaltsbreite; Kopfzeile und untere Hauptnavigation sind dabei ausgeblendet. Links liegt das Bild, rechts eine eigenständig scrollbar bedienbare Begriffsliste. Die rechte Spalte belegt 32 %, mindestens 140 px; unter 400 px bleibt sie 140 px breit. Beide Arbeitsbereiche erhalten die verbleibende Höhe; die Verschiebepfeile stehen auch auf schmalen Displays nebeneinander.
 
 Bei Texteingabe wird die untere Navigation kontrolliert verborgen. Nach Fokusverlust verhindert eine 200-ms-Frist, dass sie den gerade ausgelösten Speichern-Klick abfängt.
@@ -121,9 +123,19 @@ Zuordnungs-Testtafeln zeigen unveränderte Originalbilder und den sichtbaren Fac
 
 Pause/Fortsetzen und Rückblick bleiben in der bestehenden Aufgabenstruktur. Der Rückblick trennt eigene Antwort, richtige Lösung und Erklärung ohne neue Bewertung. Bei Fachfragen sowie Begriffe- und Grammatik-Multiple-Choice stehen richtiges wie falsches Feedback zwei Sekunden; Pause hält den Wechsel an, Fortsetzen startet wieder volle zwei Sekunden. Fehlerhafte Satzbau-Entwürfe bleiben bearbeitbar; laufende Zuordnungs-/Buchstabenspiele und N-Back behalten ihre modulspezifische Pause. „Ausgang“ verlässt unmittelbar und erhält gespeicherte Lernstände. Bei Dual N-Back endet die temporäre Zeitfolge einschließlich Audio; das nächste Öffnen zeigt den Startbildschirm. Dauerhafte N-Stufen, Erfolge und Punkte bleiben erhalten.
 
-Der gemeinsame „Ausgang“-Button steht als erste Aktion links oben: mindestens 44 px hoch, 94 px breit, mit 9 px Radius, 9 × 12 px Innenabstand, Barlow in 15 px/600 und bestehendem Pfeil-Icon. Die Startseite benötigt keinen Ausgang aus der App. Das Mathematik-Kategorielabel steht separat mit 12 px Abstand; der Fokusrahmen des Auswahlfelds besitzt 3 px Außenabstand.
+Der gemeinsame „Ausgang“-Button steht als erste Aktion links oben: mindestens 44 px hoch, 94 px breit, mit 9 px Radius, 9 × 12 px Innenabstand, Barlow in 15 px/600 und bestehendem Pfeil-Icon. Die Startseite benötigt keinen Ausgang aus der App. Mathematik trennt Stufen- und Kategorieüberschriften von den profilierten Auswahlknöpfen.
 
-Der Wortschatz-Auswahlcontainer bündelt „Begriffe“, „Satzbau“ und „Grammatik“ mit 15 px Rundung und 22 px seitlichem Innenabstand. Die Schwierigkeit bleibt „Normal“/„Streber“. Grammatik übernimmt die vorhandene Aufgaben-, Antwort-, Feedback-, Pause- und Rückblickdarstellung; eine Runde enthält zehn Aufgaben. Kleine Bundesländer erhalten Verbindungslinien im aktuellen Akzent mit 2,5 px Strichbreite.
+Der Wortschatz-Auswahlcontainer bündelt „Begriffe“, „Satzbau“, „Grammatik“ und „Sprichwörter“ mit 15 px Rundung und 22 px seitlichem Innenabstand. Die Schwierigkeit bleibt „Normal“/„Streber“. Grammatik übernimmt die vorhandene Aufgaben-, Antwort-, Feedback-, Pause- und Rückblickdarstellung; eine Runde enthält zehn Aufgaben. Kleine Bundesländer erhalten Verbindungslinien im aktuellen Akzent mit 2,5 px Strichbreite.
+
+### Lernkasten und kompakte Auswahl
+
+Profilierte Auswahlknöpfe führen die vorhandene Tastenkappe kompakt weiter: 9 px Radius, mindestens 44 px Höhe, 9 × 12 px Innenabstand und Barlow (15 px/600). Eine innere Lichtkante und 3 px Sockeltiefe formen die Ruhelage; Druck senkt sie um 2 px ab. Auswahl verwendet den bestehenden Akzent mit dunkler Aktionsschrift und `aria-pressed`. Rubriken dürfen umbrechen. Neue Tastenfarben entstehen dabei nicht.
+
+Die Lernkarte ist eine ruhige Fläche mit 12 px Radius, 18 px Innenabstand und vorhandener Konturlinie. Metadaten (12 px), Frage (27 px) und Antwort (18 px, Zeilenhöhe 1,45) bilden die Hierarchie. „Antwort zeigen“ und „Karten lernen“ sind breite Hauptaktionen; „Nicht gewusst“ und „Gewusst“ stehen nach Aufdecken in zwei gleich breiten Spalten mit mindestens 52 px Höhe; auf schmalen Ansichten werden sie untereinander mit mindestens 48 px Höhe angezeigt. Fach, Unterrubriken und voreingestellte/eigene Quellen verwenden vorhandene Daten und dieselben Auswahlzustände.
+
+Die Lernstärke zeigt denselben Prozentwert in Text und Balken; die sichtbare Skalenhilfe lautet „100 % = 5 Stunden aktive Lernzeit“ (300 Minuten). Der Lernkasten zählt aktive Lernzeit ohne Leistungspunkte.
+
+Die Bildschirmtastatur bleibt QWERTZ mit eingerückter zweiter (3 %) und letzter Reihe (9 %), 6 px Tastenradius und 2 px Sockeltiefe. Dual N-Back bietet 1-/2-/3-Back nebeneinander; freigeschaltetes 4-Back erhält eine zusätzliche volle Zeile. Der aktive Rasterreiz trägt einen sichtbaren runden Mittelpunkt aus der vorhandenen Palette.
 
 ## Do's and Don'ts
 

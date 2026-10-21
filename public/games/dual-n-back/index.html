@@ -47,9 +47,10 @@
     .intro, .muted { color: var(--muted); }
     .intro { max-width: 470px; margin-bottom: 30px; line-height: 1.55; }
     .field-label { display: block; margin-bottom: 10px; font-weight: 650; }
-    .level-choice { display: flex; gap: 10px; margin: 0 0 26px; }
-    .level-choice label { position: relative; flex: 1; cursor: pointer; }
+    .level-choice { display: flex;flex-wrap:wrap; gap: 10px; margin: 0 0 26px; }
+    .level-choice label { position: relative; flex: 1;min-width:0; cursor: pointer; }
     .level-choice input { position: absolute; opacity: 0; inset: 0; }
+    .level-choice .level-extra{flex:0 0 100%}
     .level-choice span {
       display: block; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px;
       text-align: center; font-weight: 600;
@@ -71,7 +72,9 @@
       width: min(100%, 390px); margin: 0 auto 25px; aspect-ratio: 1;
     }
     .cell { border-radius: 9px; background: var(--cell); }
-    .cell.active { background: var(--stimulus); }
+    .cell.active { background: var(--stimulus);position:relative;box-shadow:inset 0 0 0 3px var(--calc-ink); }
+    .cell.active::after{content:"";position:absolute;inset:33%;border-radius:50%;background:var(--calc-number)}:root[data-theme="pink"] .cell.active::after{background:var(--calc-ink)}
+    .level-choice .mastered{box-shadow:inset 0 -3px 0 var(--accent)}
     .answers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     .answer { min-height:clamp(72px,15vh,140px); font-size:24px; padding: 12px 10px; border: 1px solid var(--line); background: var(--calc-ink); color: var(--ink); }
     .answer:enabled:hover { border-color: var(--accent); background: var(--calc-ink); }
@@ -126,7 +129,7 @@
       <span class="field-label" id="levelLabel">Anfangsstufe</span>
       <div class="level-choice" role="radiogroup" aria-labelledby="levelLabel">
         <label><input type="radio" name="startLevel" value="1" checked><span>1-Back</span></label>
-        <label><input type="radio" name="startLevel" value="2"><span>2-Back</span></label>
+        <label><input type="radio" name="startLevel" value="2"><span>2-Back</span></label><label><input type="radio" name="startLevel" value="3"><span>3-Back</span></label><label class="level-extra hidden"><input type="radio" name="startLevel" value="4"><span>4-Back</span></label>
       </div>
       <button class="secondary" id="soundTest" type="button">Ton testen</button><p id="audioNotice" role="status"></p><button class="primary" id="startButton" type="button">Training starten</button>
     </section>
@@ -423,11 +426,7 @@
       showView(resultView);
     }
 
-    const resumeLevelButton=document.createElement('button');resumeLevelButton.className='secondary hidden';resumeLevelButton.type='button';
-    document.getElementById('startButton').before(resumeLevelButton);
-    let resumeLevel=null;
-    resumeLevelButton.addEventListener('click',()=>{if(resumeLevel)playRound(resumeLevel);});
-    window.addEventListener('message',event=>{if(event.origin===location.origin&&event.source===parent&&event.data?.type==='lernkick:nback-progress'&&Number.isInteger(event.data.current)&&event.data.current>=1&&event.data.current<=4){resumeLevel=event.data.current;resumeLevelButton.textContent=`Auf N${resumeLevel} fortsetzen`;resumeLevelButton.classList.remove('hidden');}});
+    window.addEventListener('message',event=>{if(event.origin!==location.origin||event.source!==parent||event.data?.type!=='lernkick:nback-progress')return;const mastered=Array.isArray(event.data.mastered)?event.data.mastered:[];const extra=mastered.includes(3)||event.data.current===4;document.querySelector('.level-extra').classList.toggle('hidden',!extra);document.querySelectorAll('input[name="startLevel"]').forEach(input=>{input.nextElementSibling.classList.toggle('mastered',mastered.includes(Number(input.value)));if(!state.running&&Number(input.value)===event.data.current&&(Number(input.value)<=3||extra))input.checked=true;});});
     document.getElementById("startButton").addEventListener("click", () => {
       const selected = Number(document.querySelector('input[name="startLevel"]:checked').value);
       state.started = true;

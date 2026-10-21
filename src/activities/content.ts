@@ -1,3 +1,4 @@
+import {proverbTasks} from './proverbs';
 import {grammarTasks} from './grammar';
 import {shuffle} from '../lib/engine';
 import {z}from'zod';
@@ -95,8 +96,8 @@ export function normalSentenceQueue(activity:Activities['vocabulary'],exclude:st
 /** Due mistakes first, then unseen tasks; learned tasks remain available for practice. */
 export function practiceQueue(activity:Activities['vocabulary']):string[]{
  const terms=activity.enabled.everyday||activity.enabled.work;
- const groups=[terms?words.filter(w=>w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>s.level==='hard').map(s=>s.id)):[],activity.enabled.grammar?grammarTasks.filter(t=>t.level===activity.level).map(t=>t.id):[]].filter(group=>group.length);
- const result=(id:string)=>activity.words[id]??activity.sentences[id]??activity.grammar[id];
+ const groups=[terms?words.filter(w=>w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>s.level==='hard').map(s=>s.id)):[],activity.enabled.grammar?grammarTasks.filter(t=>t.level===activity.level).map(t=>t.id):[],activity.enabled.proverbs?proverbTasks.filter(t=>t.level===activity.level).map(t=>t.id):[]].filter(group=>group.length);
+ const result=(id:string)=>activity.words[id]??activity.sentences[id]??activity.grammar[id]??activity.proverbs[id];
  const ranked=groups.map(group=>shuffle(group).sort((a,b)=>{const ra=result(a),rb=result(b);const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;return Number(activity.recent.includes(a))-Number(activity.recent.includes(b))||Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb);}));
  const queue:string[]=[];for(let i=0;queue.length<10;i++){let added=false;for(const group of shuffle(ranked))if(group[i]&&queue.length<10){queue.push(group[i]);added=true;}if(!added)break;}return shuffle(queue);
 }
