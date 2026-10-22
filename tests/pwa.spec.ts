@@ -8,7 +8,7 @@ for (const subject of ['Mathematik','Deutsch','Sozialkunde','Biologie','Geograph
   await page.goto('/');
   await expect(page.getByRole('heading',{name:'Dein Lern-Kick'})).toBeVisible();
   await page.getByRole('button',{name:new RegExp(subject+', Level ')}).click();if(subject==='Mathematik')await page.getByRole('button',{name:'Runde starten',exact:true}).click();
-  for(let i=0;i<10;i++) { await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible(); await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').first().click(); await expect(page.locator('.feedback')).toBeVisible(); await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'}).click(); }
+  for(let i=0;i<10;i++) { await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible(); await answerCorrect(page); await expect(page.locator('.feedback')).toBeVisible(); await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'}).click(); }
   await expect(page.getByRole('heading',{name:/Durchlauf bestanden\.|Weiter üben\./})).toBeVisible();
   await page.getByRole('button',{name:'Zur Fächerauswahl'}).click();
   expect(await storedAttempts(page)).toBe(10);
@@ -35,7 +35,7 @@ for (const viewport of [{width:375,height:667},{width:320,height:568},{width:844
       for (let i=0;i<10;i++) {
         const helpClose=page.getByRole('button',{name:'Hilfe schließen',exact:true});if(await helpClose.isVisible())await helpClose.click();
         if(viewport.width===375) expect(await page.locator('.round-scroll').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
-        await page.getByRole('region',{name:'Antwortmöglichkeiten'}).getByRole('button').first().click();
+        await answerCorrect(page);
         const next=page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'});
         await expect(next).toBeEnabled();
         const rect=await next.boundingBox();
@@ -72,7 +72,7 @@ for (const [subject, title] of [['math','Mathematik'],['german','Deutsch'],['soc
     for(let round=0;round<10;round++) {
       await page.getByRole('button',{name:new RegExp(title+', Level ')}).click();if(subject==='math')await page.getByRole('button',{name:'Runde starten',exact:true}).click();
       for(let i=0;i<10;i++) {
-        const prompt=await page.locator('.question h1').innerText();expect(seen.has(prompt)).toBe(false);seen.add(prompt);
+        const prompt=await page.locator('.question h1,.equation-lines h1').innerText();expect(seen.has(prompt)).toBe(false);seen.add(prompt);
         await answerCorrect(page);
         const next=page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'});await expect(next).toBeEnabled();
         const rect=await next.boundingBox();expect(rect!.y+rect!.height).toBeLessThanOrEqual(667);

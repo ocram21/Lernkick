@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.17.1",
+  "revision": "2026.10.22.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -18,15 +18,15 @@
       "subject": "geography",
       "topic": "orientierung",
       "competency": "orientierung",
-      "difficulty": 1,
-      "prompt": "Welche Himmelsrichtung liegt auf einer üblichen nach Norden ausgerichteten Karte oben?",
+      "difficulty": 2,
+      "prompt": "Du stehst auf einer nach Norden ausgerichteten Karte südlich des Bahnhofs. In welche Kartenrichtung führt der direkte Weg zum Bahnhof?",
       "options": [
-        "Süden.",
-        "Westen.",
-        "Norden."
+        "Nach oben.",
+        "Nach unten.",
+        "Immer nach rechts."
       ],
-      "correct": 2,
-      "explanation": "Ist eine Karte nach Norden ausgerichtet, liegt Norden oben. Prüfe bei anderen Karten den Nordpfeil.",
+      "correct": 0,
+      "explanation": "Bei einer nach Norden ausgerichteten Karte liegt Norden oben. Von Süden aus führt der Weg zum Bahnhof nach Norden.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -38,12 +38,12 @@
       "subject": "geography",
       "topic": "orientierung",
       "competency": "orientierung",
-      "difficulty": 1,
-      "prompt": "Welche Himmelsrichtung liegt zwischen Norden und Osten?",
+      "difficulty": 2,
+      "prompt": "Ein Ziel liegt gleich weit nördlich und östlich vom Ausgangspunkt. Welche Richtung beschreibt den direkten Weg?",
       "options": [
         "Nordosten.",
-        "Südwesten.",
-        "Nordwesten."
+        "Nordwesten.",
+        "Südosten."
       ],
       "correct": 0,
       "explanation": "Die Zwischenrichtung zwischen Norden und Osten heißt Nordosten.",
@@ -58,15 +58,15 @@
       "subject": "geography",
       "topic": "karten",
       "competency": "karten",
-      "difficulty": 1,
-      "prompt": "Wozu dient die Legende einer Karte?",
+      "difficulty": 2,
+      "prompt": "Auf einer Karte markiert eine gestrichelte Linie einen Weg. Wo prüfst du, welche Art von Weg gemeint ist?",
       "options": [
-        "Sie gibt immer das Wetter von morgen an.",
-        "Sie ersetzt alle Entfernungsangaben.",
-        "Sie erklärt Zeichen und Farben."
+        "In der Legende dieser Karte.",
+        "Allein an der Entfernung zum Kartenrand.",
+        "Nur am Namen der nächstgelegenen Stadt."
       ],
-      "correct": 2,
-      "explanation": "In der Legende werden die verwendeten Kartensymbole und Farbbedeutungen erklärt.",
+      "correct": 0,
+      "explanation": "Zeichen können je nach Karte unterschiedlich verwendet werden. Die jeweilige Legende erklärt ihre Bedeutung.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -79,14 +79,14 @@
       "topic": "massstab",
       "competency": "massstab",
       "difficulty": 2,
-      "prompt": "Eine Karte hat den Maßstab 1 : 100.000. Wie viel sind 1 cm auf der Karte in Wirklichkeit?",
+      "prompt": "Auf einer Karte im Maßstab 1 : 100.000 misst ein Schulweg 2,5 cm. Wie lang ist er in Wirklichkeit?",
       "options": [
-        "1 km.",
-        "100 m.",
-        "10 km."
+        "2,5 km.",
+        "250 m.",
+        "25 km."
       ],
       "correct": 0,
-      "explanation": "1 cm entspricht 100.000 cm. Das sind 1.000 m oder 1 km.",
+      "explanation": "Ein Zentimeter entspricht 100.000 cm, also einem Kilometer. 2,5 cm entsprechen deshalb 2,5 km.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -99,14 +99,14 @@
       "topic": "massstab",
       "competency": "massstab",
       "difficulty": 2,
-      "prompt": "Auf einer Karte im Maßstab 1 : 50.000 liegen zwei Orte 4 cm auseinander. Wie groß ist die Luftlinie?",
+      "prompt": "Eine Strecke ist auf einer Karte 4 cm lang; der Maßstab lautet 1 : 50.000. Welche Rechnung liefert die Luftlinie?",
       "options": [
-        "20 km.",
-        "200 m.",
-        "2 km."
+        "4 × 50.000 cm = 2 km.",
+        "4 × 50.000 m = 200 km.",
+        "50.000 : 4 cm = 125 m."
       ],
-      "correct": 2,
-      "explanation": "Ein Zentimeter entspricht 500 m. Vier Zentimeter sind 4 × 500 m = 2.000 m oder 2 km.",
+      "correct": 0,
+      "explanation": "Der Maßstab bezieht sich zunächst auf dieselbe Einheit: 200.000 cm sind 2.000 m oder 2 km.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -118,15 +118,15 @@
       "subject": "geography",
       "topic": "gradnetz",
       "competency": "gradnetz",
-      "difficulty": 1,
-      "prompt": "Was ist der Äquator?",
+      "difficulty": 2,
+      "prompt": "Zwei Orte liegen bei 5° nördlicher und 5° südlicher Breite. Auf welche gemeinsame Bezugslinie beziehen sich diese Angaben?",
       "options": [
-        "Eine gedachte Linie zwischen Nord- und Südhalbkugel.",
-        "Eine Linie durch beide Pole.",
-        "Die Grenze zwischen Europa und Asien."
+        "Auf den Äquator bei 0° Breite.",
+        "Auf den Nullmeridian als Linie gleicher Temperatur.",
+        "Auf den nördlichen Polarkreis bei 0° Breite."
       ],
       "correct": 0,
-      "explanation": "Der Äquator verläuft in der Mitte zwischen den Polen und teilt die Erde in Nord- und Südhalbkugel.",
+      "explanation": "Die geografische Breite beschreibt den Winkelabstand nördlich oder südlich des Äquators.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -139,14 +139,14 @@
       "topic": "gradnetz",
       "competency": "gradnetz",
       "difficulty": 2,
-      "prompt": "Was gibt die geografische Breite an?",
+      "prompt": "Zwei Orte haben dieselbe geografische Breite, aber verschiedene Längen. Was folgt daraus?",
       "options": [
-        "Die Lage nördlich oder südlich des Äquators.",
-        "Die Tiefe eines Meeres.",
-        "Die Entfernung zum nächsten Bahnhof."
+        "Sie liegen gleich weit nördlich oder südlich des Äquators, aber nicht zwingend am selben Ort.",
+        "Sie müssen dieselbe Ortszeit und denselben Staat haben.",
+        "Sie liegen beide auf dem Nullmeridian."
       ],
       "correct": 0,
-      "explanation": "Breitengrade beschreiben die Lage relativ zum Äquator. Längengrade beziehen sich auf den Nullmeridian.",
+      "explanation": "Breite und Länge sind verschiedene Koordinaten. Erst gemeinsam bestimmen sie eine Lage eindeutig.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -158,15 +158,15 @@
       "subject": "geography",
       "topic": "kontinente",
       "competency": "kontinente",
-      "difficulty": 1,
-      "prompt": "Auf welchem Kontinent liegt Deutschland?",
+      "difficulty": 2,
+      "prompt": "Deutschland liegt geografisch in Europa. Welche Folgerung ist zulässig?",
       "options": [
-        "Südamerika.",
-        "Australien.",
-        "Europa."
+        "Es gehört zum Kontinent Europa; das allein erklärt noch keine Mitgliedschaft in einer Organisation.",
+        "Jeder europäische Staat muss denselben politischen Zusammenschluss bilden.",
+        "Europa ist eine einzelne deutsche Verwaltungsebene."
       ],
-      "correct": 2,
-      "explanation": "Deutschland liegt in Mitteleuropa. Sachsen-Anhalt ist ein Bundesland Deutschlands.",
+      "correct": 0,
+      "explanation": "Ein Kontinent ist eine geografische Gliederung. Politische Mitgliedschaften sind davon zu unterscheiden.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -178,15 +178,15 @@
       "subject": "geography",
       "topic": "deutschland",
       "competency": "deutschland",
-      "difficulty": 1,
-      "prompt": "Wie heißt die Landeshauptstadt von Sachsen-Anhalt?",
+      "difficulty": 2,
+      "prompt": "Eine Karte zeigt den Sitz der Landesregierung Sachsen-Anhalts. Welche Stadt muss dafür markiert werden?",
       "options": [
-        "Dessau-Roßlau.",
         "Magdeburg.",
-        "Halle (Saale)."
+        "Halle als automatisch größte Hauptstadt jedes Landes.",
+        "Berlin als Hauptstadt aller Bundesländer."
       ],
-      "correct": 1,
-      "explanation": "Magdeburg ist die Landeshauptstadt. Halle und Dessau-Roßlau sind ebenfalls Städte in Sachsen-Anhalt.",
+      "correct": 0,
+      "explanation": "Magdeburg ist die Landeshauptstadt Sachsen-Anhalts. Landes- und Bundeshauptstadt sind unterschiedliche Funktionen.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -198,15 +198,15 @@
       "subject": "geography",
       "topic": "deutschland",
       "competency": "deutschland",
-      "difficulty": 1,
-      "prompt": "Welcher große Fluss fließt durch Magdeburg?",
+      "difficulty": 2,
+      "prompt": "In Magdeburg wird Hochwasserschutz an einem großen Strom geplant. Welcher Fluss ist örtlich betroffen?",
       "options": [
         "Die Elbe.",
         "Der Rhein.",
         "Die Donau."
       ],
       "correct": 0,
-      "explanation": "Magdeburg liegt an der Elbe. Der Fluss prägt Verkehr, Landschaft und Hochwasserschutz der Stadt.",
+      "explanation": "Magdeburg liegt an der Elbe. Örtliche Planungen müssen zum richtigen Flusssystem passen.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -218,15 +218,15 @@
       "subject": "geography",
       "topic": "deutschland",
       "competency": "deutschland",
-      "difficulty": 1,
-      "prompt": "Welches Mittelgebirge liegt teilweise in Sachsen-Anhalt?",
+      "difficulty": 2,
+      "prompt": "Für eine Exkursion innerhalb Sachsen-Anhalts wird ein Mittelgebirge gesucht. Welche Wahl passt?",
       "options": [
-        "Der Schwarzwald.",
         "Der Harz.",
-        "Die Alpen."
+        "Die Alpen.",
+        "Der Schwarzwald."
       ],
-      "correct": 1,
-      "explanation": "Der Harz erstreckt sich über Teile von Sachsen-Anhalt, Niedersachsen und Thüringen.",
+      "correct": 0,
+      "explanation": "Der Harz liegt teilweise in Sachsen-Anhalt. Die beiden anderen Gebirge liegen in anderen Teilen Deutschlands.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -238,15 +238,15 @@
       "subject": "geography",
       "topic": "europa",
       "competency": "europa",
-      "difficulty": 1,
-      "prompt": "Welcher Staat grenzt direkt an Deutschland?",
+      "difficulty": 2,
+      "prompt": "Ein Lkw soll Deutschland ohne Durchfahrt durch einen weiteren Staat direkt nach Polen verlassen. Warum ist das möglich?",
       "options": [
-        "Portugal.",
-        "Polen.",
-        "Griechenland."
+        "Deutschland und Polen besitzen eine gemeinsame Grenze.",
+        "Alle europäischen Staaten grenzen unmittelbar aneinander.",
+        "Polen ist ein deutsches Bundesland."
       ],
-      "correct": 1,
-      "explanation": "Polen ist ein östliches Nachbarland Deutschlands. Portugal und Griechenland haben keine gemeinsame Grenze mit Deutschland.",
+      "correct": 0,
+      "explanation": "Eine direkte Nachbarschaft ermöglicht den Grenzübertritt ohne ein dazwischenliegendes Staatsgebiet.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.4",
@@ -259,14 +259,14 @@
       "topic": "europa",
       "competency": "europa",
       "difficulty": 2,
-      "prompt": "Was ist die Europäische Union?",
+      "prompt": "Ein Staat liegt in Europa, ist aber kein EU-Mitglied. Warum ist das kein Widerspruch?",
       "options": [
-        "Ein anderer Name für alle Kontinente.",
-        "Ein Zusammenschluss europäischer Staaten.",
-        "Ein einzelner Staat mit nur einer Hauptstadt."
+        "Die EU ist ein politischer und wirtschaftlicher Zusammenschluss nur eines Teils der europäischen Staaten.",
+        "Europa und EU bezeichnen genau dieselbe Mitgliederliste.",
+        "Alle Staaten eines Kontinents müssen dieselben Verträge unterschreiben."
       ],
-      "correct": 1,
-      "explanation": "In der EU arbeiten Mitgliedstaaten in vielen Bereichen zusammen. Europa und EU bezeichnen nicht dasselbe.",
+      "correct": 0,
+      "explanation": "Geografische Lage und Mitgliedschaft in einem vertraglichen Zusammenschluss sind unterschiedliche Merkmale.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.4",
@@ -278,15 +278,15 @@
       "subject": "geography",
       "topic": "meere",
       "competency": "meere",
-      "difficulty": 1,
-      "prompt": "Welche zwei Meere grenzen an Deutschland?",
+      "difficulty": 2,
+      "prompt": "Eine Schulklasse vergleicht deutsche Küstenräume. Welche beiden Meere muss sie berücksichtigen?",
       "options": [
-        "Mittelmeer und Rotes Meer.",
         "Nordsee und Ostsee.",
-        "Schwarzes Meer und Kaspisches Meer."
+        "Mittelmeer und Ostsee.",
+        "Nordsee und Schwarzes Meer."
       ],
-      "correct": 1,
-      "explanation": "Deutschlands Küsten liegen an der Nordsee und an der Ostsee.",
+      "correct": 0,
+      "explanation": "Deutschland hat Küsten an Nord- und Ostsee. Unterschiede etwa bei Gezeiten und Salzgehalt machen den Vergleich interessant.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -299,14 +299,14 @@
       "topic": "landschaften",
       "competency": "landschaften",
       "difficulty": 2,
-      "prompt": "Was ist typisch für ein Tiefland?",
+      "prompt": "Eine Region liegt überwiegend niedrig und besitzt geringe Höhenunterschiede. Welche Landschaftsbezeichnung passt?",
       "options": [
-        "Nur Gipfel über 3.000 Metern.",
-        "Ausschließlich Vulkankegel.",
-        "Überwiegend geringe Höhenlage und oft wenig Relief."
+        "Tiefland.",
+        "Hochgebirge.",
+        "Vulkankegel."
       ],
-      "correct": 2,
-      "explanation": "Ein Tiefland liegt relativ niedrig. Das Relief beschreibt unter anderem Höhenunterschiede und Geländeformen.",
+      "correct": 0,
+      "explanation": "Tiefländer liegen vergleichsweise niedrig. Das schließt örtliche Hügel nicht aus.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -318,15 +318,15 @@
       "subject": "geography",
       "topic": "wetter-klima",
       "competency": "wetter-klima",
-      "difficulty": 1,
-      "prompt": "Was beschreibt das Wetter?",
+      "difficulty": 2,
+      "prompt": "Für morgen werden Regen und 12 °C vorhergesagt. Welche Art von Aussage ist das?",
       "options": [
-        "Den Zustand der Atmosphäre an einem Ort zu einer bestimmten Zeit.",
-        "Den durchschnittlichen Zustand über viele Jahrzehnte.",
-        "Nur den Aufbau des Erdkerns."
+        "Eine Aussage über kurzfristiges Wetter.",
+        "Ein vollständiger Nachweis eines langfristigen Klimatrends.",
+        "Eine Aussage über die geografische Länge."
       ],
       "correct": 0,
-      "explanation": "Wetter beschreibt zum Beispiel Temperatur, Niederschlag und Wind zu einer bestimmten Zeit.",
+      "explanation": "Wetter beschreibt den aktuellen oder kurzfristigen Zustand der Atmosphäre. Klima erfordert lange Beobachtungszeiträume.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -339,14 +339,14 @@
       "topic": "wetter-klima",
       "competency": "wetter-klima",
       "difficulty": 2,
-      "prompt": "Was ist der Unterschied zwischen Wetter und Klima?",
+      "prompt": "Ein sehr kalter Tag tritt in einer langfristig wärmer werdenden Region auf. Welche Schlussfolgerung passt?",
       "options": [
-        "Wetter und Klima sind immer genau dasselbe.",
-        "Klima gilt nur für einen einzigen Nachmittag.",
-        "Klima beschreibt langfristige typische Wetterverhältnisse."
+        "Ein einzelner Wettertag widerlegt den langfristigen Klimatrend nicht.",
+        "Ein kalter Tag beweist, dass jedes Klima unverändert bleibt.",
+        "Klima lässt sich vollständig an einem Tag bestimmen."
       ],
-      "correct": 2,
-      "explanation": "Ein Regentag beschreibt Wetter. Klima wird über längere Zeiträume mithilfe vieler Wetterbeobachtungen beschrieben.",
+      "correct": 0,
+      "explanation": "Kurzfristige Schwankungen können trotz einer langfristigen Veränderung auftreten. Wetter und Klima haben verschiedene Zeitbezüge.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -358,15 +358,15 @@
       "subject": "geography",
       "topic": "wasserkreislauf",
       "competency": "wasserkreislauf",
-      "difficulty": 1,
-      "prompt": "Was bedeutet Verdunstung?",
+      "difficulty": 2,
+      "prompt": "Nach einem warmen, trockenen Tag ist eine Pfütze kleiner, ohne dass Wasser abgeflossen ist. Welche Erklärung passt?",
       "options": [
-        "Wasserdampf wird zu Eis im Erdkern.",
-        "Flüssiges Wasser wird zu Wasserdampf.",
-        "Wasser verschwindet endgültig von der Erde."
+        "Flüssiges Wasser ist teilweise als Wasserdampf in die Luft gelangt.",
+        "Das Wasser ist vollständig zu Gestein geworden.",
+        "Verdunstung erzeugt zusätzliches flüssiges Wasser in der Pfütze."
       ],
-      "correct": 1,
-      "explanation": "Bei der Verdunstung geht Wasser vom flüssigen in den gasförmigen Zustand über.",
+      "correct": 0,
+      "explanation": "Bei Verdunstung geht Wasser vom flüssigen in den gasförmigen Zustand über.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -379,14 +379,14 @@
       "topic": "wasserkreislauf",
       "competency": "wasserkreislauf",
       "difficulty": 2,
-      "prompt": "Was geschieht bei der Kondensation von Wasserdampf?",
+      "prompt": "An einer kalten Fensterscheibe entstehen innen Wassertropfen. Welcher Vorgang erklärt das?",
       "options": [
-        "Wasser wird zu Salz.",
-        "Es bilden sich flüssige Wassertröpfchen.",
-        "Gestein schmilzt."
+        "Wasserdampf aus der Luft kondensiert zu flüssigem Wasser.",
+        "Glas bildet ohne Wasser neue Wassermoleküle.",
+        "Flüssiges Wasser verdunstet dort zu Eis."
       ],
-      "correct": 1,
-      "explanation": "Kühlt feuchte Luft ausreichend ab, kann Wasserdampf zu kleinen Tröpfchen kondensieren, etwa in Wolken.",
+      "correct": 0,
+      "explanation": "Wird feuchte Luft ausreichend abgekühlt, kann Wasserdampf an der Oberfläche kondensieren.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -399,14 +399,14 @@
       "topic": "klimazonen",
       "competency": "klimazonen",
       "difficulty": 2,
-      "prompt": "Wo liegen die Tropen?",
+      "prompt": "Eine Karte zeigt einen Ort zwischen den beiden Wendekreisen. Welcher Großraum wird damit beschrieben?",
       "options": [
-        "Im Bereich um den Äquator zwischen den Wendekreisen.",
-        "Nur im Norden Europas.",
-        "Ausschließlich am Nordpol."
+        "Die Tropen.",
+        "Ausschließlich die Polarzone.",
+        "Nur das Gebiet nördlich des nördlichen Polarkreises."
       ],
       "correct": 0,
-      "explanation": "Die Tropen liegen zwischen dem nördlichen und dem südlichen Wendekreis. Dort steht die Sonne zeitweise sehr hoch.",
+      "explanation": "Die Tropen liegen zwischen nördlichem und südlichem Wendekreis. Innerhalb dieses Raums sind unterschiedliche Klimate möglich.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -419,14 +419,14 @@
       "topic": "vegetation",
       "competency": "vegetation",
       "difficulty": 2,
-      "prompt": "Was ist ein Merkmal tropischer Regenwälder?",
+      "prompt": "Ein tropischer Regenwald wird gerodet. Warum kann das den regionalen Wasserkreislauf beeinflussen?",
       "options": [
-        "Hohe Artenvielfalt bei meist ganzjährig warm-feuchtem Klima.",
-        "Dauerhaft gefrorener Boden ohne Pflanzen.",
-        "Ausschließlich winterkahle Nadelbäume."
+        "Mit der Vegetation geht auch ein Teil der Wasserabgabe an die Luft verloren.",
+        "Bäume haben grundsätzlich keinen Bezug zum Wasserhaushalt.",
+        "Rodung erzeugt überall dieselbe Niederschlagsmenge."
       ],
       "correct": 0,
-      "explanation": "Viele tropische Regenwälder sind warm und feucht. Diese Bedingungen ermöglichen eine große Vielfalt an Lebewesen.",
+      "explanation": "Pflanzen nehmen Wasser auf und geben es über Verdunstung ab. Vegetationsänderungen können den Wasserhaushalt beeinflussen.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -439,14 +439,14 @@
       "topic": "wuesten",
       "competency": "wuesten",
       "difficulty": 2,
-      "prompt": "Warum wachsen in vielen Wüsten nur wenige Pflanzen?",
+      "prompt": "In einer warmen Wüste ist viel Licht vorhanden, trotzdem wachsen nur wenige Pflanzen. Was begrenzt das Wachstum besonders?",
       "options": [
-        "Wasser ist häufig sehr knapp.",
-        "Pflanzen benötigen dort keinen Stoffwechsel.",
-        "Es gibt dort grundsätzlich keinen Boden."
+        "Das geringe verfügbare Wasser.",
+        "Ein grundsätzliches Fehlen von Sonnenenergie.",
+        "Die fehlende Erdanziehung."
       ],
       "correct": 0,
-      "explanation": "Wassermangel begrenzt das Pflanzenwachstum. Wüsten können heiß oder kalt sein.",
+      "explanation": "Wachstum hängt nicht nur von Licht ab. Wassermangel begrenzt in vielen Wüsten die Vegetation.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -459,14 +459,14 @@
       "topic": "plattentektonik",
       "competency": "plattentektonik",
       "difficulty": 2,
-      "prompt": "Wie entstehen viele Erdbeben?",
+      "prompt": "An einer Plattengrenze lösen sich lange aufgebaute Spannungen plötzlich. Welche Folge ist naheliegend?",
       "options": [
-        "Durch die tägliche Verdunstung über Seen.",
-        "Nur durch den Wechsel von Tag und Nacht.",
-        "Durch ruckartige Bewegungen entlang von Störungen der Erdkruste."
+        "Ein Erdbeben.",
+        "Eine regelmäßige Meeresgezeit.",
+        "Die vollständige Auflösung der Erdkruste."
       ],
-      "correct": 2,
-      "explanation": "Spannungen im Gestein können sich plötzlich lösen. Besonders häufig geschieht das an Plattengrenzen.",
+      "correct": 0,
+      "explanation": "Ruckartige Bewegungen entlang von Störungen setzen Energie frei. Sie kann sich als Erdbeben ausbreiten.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -479,14 +479,14 @@
       "topic": "vulkane",
       "competency": "vulkane",
       "difficulty": 2,
-      "prompt": "Wie nennt man Magma, das an die Erdoberfläche gelangt?",
+      "prompt": "Bei einem Vulkanausbruch gelangt geschmolzenes Gestein an die Oberfläche. Warum spricht man dort von Lava?",
       "options": [
-        "Lava.",
-        "Granitstaub.",
-        "Grundwasser."
+        "Magma wird an der Erdoberfläche als Lava bezeichnet.",
+        "Lava ist ausschließlich kaltes Grundwasser.",
+        "Magma entsteht erst nach dem vollständigen Erkalten."
       ],
       "correct": 0,
-      "explanation": "Geschmolzenes Gestein im Erdinneren heißt Magma. An der Oberfläche wird es Lava genannt.",
+      "explanation": "Für geschmolzenes Gestein wird je nach Ort die Bezeichnung Magma im Untergrund oder Lava an der Oberfläche verwendet.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -499,14 +499,14 @@
       "topic": "erosion",
       "competency": "erosion",
       "difficulty": 2,
-      "prompt": "Was bedeutet Erosion?",
+      "prompt": "Nach starkem Regen fehlt an einem unbewachsenen Hang ein Teil des Oberbodens. Welcher Vorgang passt?",
       "options": [
-        "Abtragung von Material durch Wasser, Wind oder Eis.",
-        "Die Herstellung neuer Kontinente durch Menschen.",
-        "Nur das Verdunsten von Meerwasser."
+        "Erosion durch abfließendes Wasser.",
+        "Ausschließlich die Neubildung von Boden ohne Abtrag.",
+        "Die tägliche Drehung der Erde als unmittelbarer Bodenabtransport."
       ],
       "correct": 0,
-      "explanation": "Erosion trägt Boden und Gestein ab und verändert dadurch Landschaften.",
+      "explanation": "Wasser kann Boden lösen und abtragen. Pflanzenbewuchs kann diesen Abtrag häufig vermindern.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -518,15 +518,15 @@
       "subject": "geography",
       "topic": "ressourcen",
       "competency": "ressourcen",
-      "difficulty": 1,
-      "prompt": "Welche Energiequelle ist erneuerbar?",
+      "difficulty": 2,
+      "prompt": "Eine Gemeinde möchte eine erneuerbare Stromquelle nutzen. Welche Wahl passt?",
       "options": [
-        "Wind.",
-        "Erdöl.",
-        "Steinkohle."
+        "Windenergie.",
+        "Kohleverbrennung.",
+        "Erdölverbrennung."
       ],
       "correct": 0,
-      "explanation": "Wind wird durch natürliche Prozesse fortlaufend neu bereitgestellt. Erdöl und Kohle sind endliche fossile Energieträger.",
+      "explanation": "Wind wird durch atmosphärische Vorgänge immer wieder angetrieben. Kohle und Erdöl sind endliche fossile Energieträger.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -539,14 +539,14 @@
       "topic": "ressourcen",
       "competency": "ressourcen",
       "difficulty": 2,
-      "prompt": "Was ist ein fossiler Energieträger?",
+      "prompt": "Kohle entsteht über sehr lange geologische Zeiträume. Warum gilt ihre Nutzung nicht als erneuerbar im menschlichen Zeitmaßstab?",
       "options": [
-        "Sonnenlicht.",
-        "Wind.",
-        "Erdgas."
+        "Sie wird viel schneller verbraucht, als sich neue Lagerstätten bilden.",
+        "Jede verbrannte Menge entsteht am nächsten Tag neu.",
+        "Kohle enthält grundsätzlich keine gespeicherte Energie."
       ],
-      "correct": 2,
-      "explanation": "Erdgas, Erdöl und Kohle sind über sehr lange Zeiträume aus organischem Material entstanden.",
+      "correct": 0,
+      "explanation": "Die Neubildung fossiler Energieträger ist im Verhältnis zum Verbrauch extrem langsam.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -559,14 +559,14 @@
       "topic": "wasser",
       "competency": "wasser",
       "difficulty": 2,
-      "prompt": "Warum ist Trinkwasser eine wichtige Ressource?",
+      "prompt": "Eine Stadt hat genügend Wasser, aber ein Teil ist verunreinigt. Warum kann trotzdem ein Versorgungsproblem bestehen?",
       "options": [
-        "Es wird nur zum Autowaschen gebraucht.",
-        "Es lässt sich überall unbegrenzt ohne Aufwand gewinnen.",
-        "Es ist lebensnotwendig und nicht überall ausreichend verfügbar."
+        "Für Trinkwasser zählen geeignete Qualität und verfügbare Menge.",
+        "Jedes Wasser ist ohne Aufbereitung als Trinkwasser geeignet.",
+        "Nur die Farbe einer Verpackung entscheidet über die Wasserqualität."
       ],
-      "correct": 2,
-      "explanation": "Sauberes Trinkwasser ist für Menschen unverzichtbar. Verfügbarkeit und Zugang unterscheiden sich regional stark.",
+      "correct": 0,
+      "explanation": "Vorhandenes Wasser ist nicht automatisch nutzbares Trinkwasser. Schutz und gegebenenfalls Aufbereitung sind notwendig.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -579,14 +579,14 @@
       "topic": "nachhaltigkeit",
       "competency": "nachhaltigkeit",
       "difficulty": 2,
-      "prompt": "Was bedeutet nachhaltige Nutzung einer Ressource?",
+      "prompt": "Ein Wald wird genutzt. Welche Planung berücksichtigt seine langfristige Erneuerung?",
       "options": [
-        "Auch die Möglichkeiten künftiger Generationen berücksichtigen.",
-        "Möglichst alles sofort verbrauchen.",
-        "Jede Nutzung unabhängig von Folgen ausweiten."
+        "Entnahme und Erholung des Bestands werden aufeinander abgestimmt.",
+        "Der gesamte Bestand wird unabhängig vom Nachwuchs verbraucht.",
+        "Kurzfristige Gewinne ersetzen dauerhaft die Regeneration."
       ],
       "correct": 0,
-      "explanation": "Nachhaltiges Handeln bezieht ökologische, soziale und wirtschaftliche Folgen heute und in Zukunft ein.",
+      "explanation": "Nachhaltige Nutzung berücksichtigt, dass die Ressource auch künftig verfügbar bleiben soll.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.2; 3.3",
@@ -599,14 +599,14 @@
       "topic": "klimawandel",
       "competency": "klimawandel",
       "difficulty": 2,
-      "prompt": "Welches Gas trägt zum menschengemachten Treibhauseffekt bei?",
+      "prompt": "Bei gleicher Energiedienstleistung werden weniger fossile Brennstoffe verbrannt. Welche Wirkung ist naheliegend?",
       "options": [
-        "Kohlenstoffdioxid.",
-        "Helium.",
-        "Neon."
+        "Es wird dabei weniger zusätzliches Kohlenstoffdioxid freigesetzt.",
+        "Jede Nutzung fossiler Brennstoffe entfernt Kohlenstoffdioxid aus der Luft.",
+        "Der Kohlendioxidausstoß ist grundsätzlich unabhängig von der verbrannten Menge."
       ],
       "correct": 0,
-      "explanation": "Mehr Kohlenstoffdioxid in der Atmosphäre verstärkt den Treibhauseffekt. Es entsteht unter anderem beim Verbrennen fossiler Brennstoffe.",
+      "explanation": "Fossile Verbrennung setzt gebundenen Kohlenstoff als CO₂ frei. Weniger Verbrauch kann diese Emissionen vermindern.",
       "curriculum": {
         "sourceId": "lsa-geography-2019",
         "section": "3.4",

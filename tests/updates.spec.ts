@@ -33,7 +33,7 @@ test('Antwort bleibt zwei Sekunden sichtbar; Automatik lässt sich anhalten und 
 
 
 test('Falsche Antworten zeigen die Lösung zwei Sekunden und wechseln einschließlich der letzten Frage automatisch',async({page})=>{
-  await page.clock.install();await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
+  await page.clock.install();await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();await page.getByRole('button',{name:'Alle',exact:true}).click();await page.getByRole('button',{name:'Grundrechenarten',exact:true}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
   for(let i=0;i<10;i++) {
     await answerWrong(page);await expect(page.locator('.feedback p')).not.toBeEmpty();await expect(page.getByRole('button',{name:'Anhalten',exact:true})).toBeVisible();
     await page.clock.runFor(1900);await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible();await page.clock.runFor(150);

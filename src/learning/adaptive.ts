@@ -1,3 +1,4 @@
+import {equationTask} from './equations';
 import {inMathCategory} from './categories';
 import type { Question, Subject, UserData } from '../lib/schema';
 import { recordAnswer } from '../lib/engine';
@@ -11,6 +12,7 @@ export const preferenceFor=(data:UserData,subject:Subject)=>data.learning.prefer
 export type SelectionContext={used:string[];signatures:string[];now?:number;random?:()=>number;category?:string};
 export function nextMathTask(pool:Question[],data:UserData,context:SelectionContext):LearningTask|undefined {
   const now=context.now??Date.now(),random=context.random??Math.random;const preference=preferenceFor(data,'math');
+  if(context.category==='equation'){for(let i=0;i<100;i++){const task=equationTask(preference.pace==='easier'?1:preference.pace==='challenge'?3:2,i<20?random:seededRandom(i*7919));if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
   pool=pool.filter(q=>inMathCategory(skillFor(q),context.category));
   const available=pool.filter(q=>!context.used.includes(q.id));
   const fresh=(task:LearningTask)=>!(data.progress[task.id]?.correct>=2&&now-data.progress[task.id].lastAward<7*DAY)&&inMathCategory(task.skillId,context.category)&&!(data.learning.variants[task.signature]&&(data.learning.variants[task.signature].correct>=2?now-data.learning.variants[task.signature].at<7*DAY:now-data.learning.variants[task.signature].at<DAY))&&!context.used.includes(task.id)&&!context.signatures.includes(task.signature)&&!pool.some(q=>context.used.includes(q.id)&&q.prompt===task.prompt);
@@ -18,7 +20,7 @@ export function nextMathTask(pool:Question[],data:UserData,context:SelectionCont
     if(!support)level=preference.pace==='easier'?1:preference.pace==='challenge'?3:2;
     // Finite attempts plus deterministic fallback: even a constant RNG cannot loop forever.
     for(let i=0;i<80;i++) {
-      const task=generateTask(skillId,level,i<24?random:seededRandom(i*7919));
+      const task=generateTask(skillId,level,i<24?random:seededRandom(i*7919),context.category==='times');
       if(!task)break;
       if(fresh(task))return {...task,support};
     }

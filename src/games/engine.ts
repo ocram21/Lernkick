@@ -14,6 +14,6 @@ export function hangmanState(answer:string,guessed:string[]){
  const misses=Math.min(maxMisses,unique.filter(letter=>!word.includes(letter)).length);
  return {misses,remaining:maxMisses-misses,won:misses<maxMisses&&Boolean(word)&&[...word].every(letter=>unique.includes(letter)),lost:misses===maxMisses};
 }
-export function gameTerms(_data:UserData,level:Difficulty='normal'):Term[]{
- return terms.filter(term=>term.level===level).map(term=>({...term,level:term.level as Difficulty,answer:letters(term.word)}));
+export function gameTerms(_data:UserData,level:Difficulty='normal',includeArchived=false):Term[]{
+ return terms.filter(term=>term.level===level&&(includeArchived||!term.archived)).map(term=>({...term,level:term.level as Difficulty,answer:letters(term.word)}));
 }

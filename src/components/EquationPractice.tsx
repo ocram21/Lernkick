@@ -1,0 +1,7 @@
+import {useState} from 'react';
+import {applyOperation,replayEquation,solvedEquation,type Equation} from '../learning/equations';
+export function EquationPractice({initial,steps,disabled,onStep}:{initial:Equation;steps:readonly string[];disabled:boolean;onStep:(operation:string,solved:boolean)=>Promise<void>}){
+ const [input,setInput]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false);const work=replayEquation(initial,steps);
+ async function submit(){if(disabled||busy)return;const result=applyOperation(work.equation,input);if('error'in result){setError(result.error);return;}if(steps.length>=100){setError('Beende diese Übung und starte eine neue Runde.');return;}setBusy(true);setError('');await onStep(result.operation,solvedEquation(result.equation));setInput('');setBusy(false);}
+ return <section className="equation-work" aria-label="Gleichungsumformungen"><div className="equation-lines" aria-live="polite">{work.lines.map((line,i)=>i===0?<h1 key={i}>{line}</h1>:<p key={i}>{line}</p>)}</div>{!disabled&&<form onSubmit={e=>{e.preventDefault();void submit();}}><label htmlFor="equation-operation">Operation</label><div className="equation-input"><span aria-hidden="true">|</span><input id="equation-operation" autoComplete="off" autoCapitalize="off" spellCheck={false} maxLength={120} value={input} disabled={busy} placeholder="−4 oder :3" onChange={e=>{setInput(e.target.value);setError('');}}/><button className="primary" disabled={busy||!input.trim()}>Prüfen</button></div>{error&&<p role="alert">{error}</p>}</form>}</section>;
+}

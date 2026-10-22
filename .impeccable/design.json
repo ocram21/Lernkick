@@ -237,7 +237,7 @@
       "name": "Nebenaktion",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Nebenaktion aus der implementierten Retro-Tech-Oberfläche.",
+      "description": "Nebenaktion aus der implementierten Retro-Tech-Oberfläche; „Übung beenden“ ist bei pausierten Übungen sowie offenen Runden in Wortschatz-Auswahl und Lernkasten erreichbar und erhält mindestens 44 px Höhe.",
       "html": "<button class=\"ds-button-secondary\">Weiterlernen</button>",
       "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-button-secondary{font-family:var(--font-family,'Barlow',sans-serif);background:var(--panel,#494b57);color:var(--ink,#ecedf1);border:0;border-radius:9px;min-height:52px;padding:14px 22px;font-weight:700;box-shadow:inset 0 1px 0 #ecedf138,0 3px 3px var(--key-shadow,#2b2d39);transition:transform 160ms ease-out,box-shadow 160ms ease-out}.ds-button-secondary:hover{filter:brightness(1.08)}.ds-button-secondary:focus-visible{outline:3px solid var(--accent,#86509b);outline-offset:5px}.ds-button-secondary:active{transform:translateY(2px);box-shadow:0 1px 2px var(--key-shadow,#2b2d39)}"
     },
@@ -253,7 +253,7 @@
       "name": "Textfeld",
       "kind": "input",
       "refersTo": "input",
-      "description": "Textfeld aus der implementierten Retro-Tech-Oberfläche.",
+      "description": "Textfeld aus der implementierten Retro-Tech-Oberfläche. Die Gleichungseingabe verwendet ein einzelnes Operationsfeld (mindestens 48 px hoch, 18 px Schrift, 10 px Innenabstand) neben „|“ und „Prüfen“; sie übernimmt die bestehende Palette und Fokusbehandlung.",
       "html": "<label class=\"ds-field\">Frage<textarea placeholder=\"Deine Frage\"></textarea></label>",
       "css": ":root{--ground:#494b57;--panel:#2a303c;--ink:#ecedf1;--muted:#ecedf1;--accent:#e79e35;--button-ink:#2a303c;--key-shadow:#2b2d39;--key-face:#00789a;--line:#494b57}.ds-field{font-family:var(--font-family,'Barlow',sans-serif);display:grid;gap:9px;color:var(--ink,#ecedf1)}.ds-field textarea{font:inherit;background:var(--ground,#2b2d39);color:var(--ink,#ecedf1);caret-color:var(--accent,#86509b);padding:13px;border:1px solid var(--line,#494b57);border-radius:7px;min-height:105px}.ds-field textarea:hover{border-color:var(--muted,#ecedf1)}.ds-field textarea:focus-visible{outline:3px solid var(--accent,#86509b);outline-offset:5px}"
     },
@@ -283,7 +283,7 @@
     {
       "name": "Profilierte Auswahl",
       "kind": "chip",
-      "description": "Kompakte Fach-, Stufen- und Rubrikauswahl im bestehenden Tastensystem.",
+      "description": "Kompakte Fach-, Stufen- und Rubrikauswahl im bestehenden Tastensystem. Mathematik verwendet drei Stufen und acht Kategorien einschließlich Kleines Einmaleins und Gleichungen; Kleines Einmaleins ist den Grundrechenarten zugänglich zugeordnet.",
       "html": "<button class=\"ds-profiled\" aria-pressed=\"true\">Mathematik</button>",
       "css": ".ds-profiled{min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);font:600 15px Barlow,sans-serif;box-shadow:inset 0 1px 1px color-mix(in srgb,var(--ink) 20%,transparent),0 3px 0 var(--calc-display)}.ds-profiled[aria-pressed=true]{background:var(--accent);color:var(--button-ink);border-color:var(--accent)}.ds-profiled:hover{filter:brightness(1.08)}.ds-profiled:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-profiled:active{transform:translateY(2px);box-shadow:inset 0 1px 1px color-mix(in srgb,var(--ink) 15%,transparent),0 1px 0 var(--calc-display)}"
     }

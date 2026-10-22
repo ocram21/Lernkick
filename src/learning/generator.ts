@@ -1,7 +1,7 @@
 import { mathById } from './mathCompetencies';
 import type { LearningTask } from './types';
 export function seededRandom(seed: number) { let state=seed>>>0; return ()=>{state=(Math.imul(state,1664525)+1013904223)>>>0;return state/4294967296;}; }
-export function generateTask(skillId: string, level: number, random: ()=>number = Math.random): LearningTask | undefined {
+export function generateTask(skillId: string, level: number, random: ()=>number = Math.random,smallFacts=false): LearningTask | undefined {
   const skill=mathById.get(skillId);if(!skill?.generator)return;
   const difficulty=Math.max(1,Math.min(3,Math.round(level)));
   const integer=(min:number,max:number)=>{const r=random();if(!Number.isFinite(r)||r<0||r>=1)throw new Error('Zufallswert muss zwischen 0 (inklusive) und 1 (exklusive) liegen.');return min+Math.floor(r*(max-min+1));};
@@ -31,16 +31,16 @@ export function generateTask(skillId: string, level: number, random: ()=>number 
     explanation=`${result} ist größer. Auf dem Zahlenstrahl liegt ${result} rechts von ${Math.min(a,b)}.`;
   } else if(operation==='add') {
     if(skillId==='math.add.carry') {
-      const ones=integer(2,9);a=(difficulty===1?0:integer(1,difficulty===2?3:7))*10+ones;b=integer(11-ones,9)+(difficulty===3?10:0);result=a+b;
+      const ones=integer(2,9);a=integer(difficulty===1?1:difficulty===2?3:10,difficulty===1?3:difficulty===2?9:30)*10+ones;b=integer(11-ones,9)+(difficulty===1?0:integer(1,difficulty===2?3:8)*10);result=a+b;
       const toTen=10-ones;explanation=`Ergänze ${a} zuerst mit ${toTen} zum nächsten Zehner. Von ${b} bleiben ${b-toTen}. Rechne ${a+toTen} + ${b-toTen} = ${result}.`;
     } else {
-      const ones=integer(1,7), tens=difficulty===1?integer(1,2):integer(1,difficulty===2?4:7);a=tens*10+ones;b=integer(1,9-ones)+(difficulty===3?10:0);result=a+b;
+      const ones=integer(1,7), tens=difficulty===1?integer(1,2):integer(1,difficulty===2?4:7);a=tens*10+ones;b=integer(1,9-ones)+(difficulty===1?0:integer(1,difficulty===2?3:8)*10);result=a+b;
       explanation=`Addiere die Zehner und die Einer getrennt: ${Math.floor(a/10)*10} + ${Math.floor(b/10)*10} und ${a%10} + ${b%10}. Zusammen ergibt das ${result}.`;
     }
     prompt=`Wie viel ist ${a} + ${b}?`;
   } else if(operation==='subtract') {
     if(skillId==='math.subtract.borrow') {
-      const ones=integer(0,7);a=integer(1,difficulty===1?1:difficulty===2?4:8)*10+ones;b=integer(ones+1,9)+(difficulty===3&&a>=30?10:0);
+      const ones=integer(0,7);a=integer(difficulty===1?2:5,difficulty===1?4:difficulty===2?12:40)*10+ones;b=integer(ones+1,9)+(difficulty===3&&a>=30?10:0);
       result=a-b;explanation=`Ziehe zuerst ${ones} ab, bis ${a-ones} erreicht ist. Dann noch ${b-ones} zurück: ${a-ones} − ${b-ones} = ${result}.`;
     } else {
       const ones=integer(2,9);a=(difficulty===1?integer(1,2):integer(1,difficulty===2?4:8))*10+ones;b=integer(1,ones)+(difficulty===3?10:0);result=a-b;
@@ -48,11 +48,11 @@ export function generateTask(skillId: string, level: number, random: ()=>number 
     }
     prompt=`Wie viel ist ${a} − ${b}?`;
   } else if(operation==='multiply') {
-    a=difficulty===1?[2,5,10][integer(0,2)]:integer(2,10);b=integer(1,difficulty===1?5:10);result=a*b;
+    a=smallFacts?integer(difficulty===1?2:3,10):integer(difficulty===1?3:difficulty===2?6:12,difficulty===1?10:difficulty===2?15:25);b=integer(difficulty===1?2:3,smallFacts?10:difficulty===1?10:difficulty===2?12:18);result=a*b;
     prompt=difficulty===3?`${a} Kisten enthalten je ${b} Flaschen. Wie viele Flaschen sind es zusammen?`:`Wie viel ist ${a} × ${b}?`;
     explanation=`${a} gleich große Gruppen mit je ${b} ergeben ${result}. Die passende Rechnung ist ${a} × ${b} = ${result}.`;
   } else {
-    b=difficulty===1?[2,5,10][integer(0,2)]:integer(2,10);result=integer(1,difficulty===1?5:10);a=b*result;
+    b=difficulty===1?[2,5,10][integer(0,2)]:integer(2,10);result=integer(difficulty===1?3:6,difficulty===1?10:difficulty===2?20:40);a=b*result;
     prompt=difficulty===3?`${a} Stifte werden gleichmäßig auf ${b} Personen verteilt. Wie viele bekommt jede Person?`:`Wie viel ist ${a} ÷ ${b}?`;
     explanation=`Suche die passende Malaufgabe: ${b} × ${result} = ${a}. Daher ist ${a} ÷ ${b} = ${result}; es bleibt kein Rest.`;
   }

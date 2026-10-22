@@ -4,559 +4,1199 @@
     "level": "normal",
     "word": "Kuh",
     "hint": "Dieses Tier gibt Milch.",
-    "extra": "Es lebt oft auf einem Bauernhof."
+    "extra": "Es lebt oft auf einem Bauernhof.",
+    "archived": true
   },
   {
     "id": "hangman.normal.002",
     "level": "normal",
     "word": "Hund",
     "hint": "Dieses Tier bellt.",
-    "extra": "Viele Menschen gehen mit ihm spazieren."
+    "extra": "Viele Menschen gehen mit ihm spazieren.",
+    "archived": true
   },
   {
     "id": "hangman.normal.003",
     "level": "normal",
     "word": "Katze",
     "hint": "Dieses Tier miaut.",
-    "extra": "Es hat weiche Pfoten und Krallen."
+    "extra": "Es hat weiche Pfoten und Krallen.",
+    "archived": true
   },
   {
     "id": "hangman.normal.004",
     "level": "normal",
     "word": "Brot",
     "hint": "Du schneidest davon eine Scheibe ab und belegst sie.",
-    "extra": "Du kaufst es oft beim Bäcker."
+    "extra": "Du kaufst es oft beim Bäcker.",
+    "archived": true
   },
   {
     "id": "hangman.normal.005",
     "level": "normal",
     "word": "Apfel",
     "hint": "Dieses Obst wächst am Baum und hat ein Kerngehäuse.",
-    "extra": "Die Schale kann rot oder grün sein."
+    "extra": "Die Schale kann rot oder grün sein.",
+    "archived": true
   },
   {
     "id": "hangman.normal.006",
     "level": "normal",
     "word": "Banane",
     "hint": "Dieses Obst ist lang und meist gelb.",
-    "extra": "Du schälst es vor dem Essen."
+    "extra": "Du schälst es vor dem Essen.",
+    "archived": true
   },
   {
     "id": "hangman.normal.007",
     "level": "normal",
     "word": "Milch",
     "hint": "Dieses Getränk kommt zum Beispiel von Kühen.",
-    "extra": "Es steht gekühlt im Supermarkt."
+    "extra": "Es steht gekühlt im Supermarkt.",
+    "archived": true
   },
   {
     "id": "hangman.normal.008",
     "level": "normal",
     "word": "Wasser",
     "hint": "Du trinkst es gegen Durst.",
-    "extra": "Es kommt auch aus dem Hahn."
+    "extra": "Es kommt auch aus dem Hahn.",
+    "archived": true
   },
   {
     "id": "hangman.normal.009",
     "level": "normal",
     "word": "Suppe",
     "hint": "Dieses Essen löffelst du aus einem Teller.",
-    "extra": "Man kocht sie in einem Topf."
+    "extra": "Man kocht sie in einem Topf.",
+    "archived": true
   },
   {
     "id": "hangman.normal.010",
     "level": "normal",
     "word": "Tasse",
     "hint": "Daraus trinkst du Tee oder Kaffee.",
-    "extra": "Sie hat oft einen Henkel."
+    "extra": "Sie hat oft einen Henkel.",
+    "archived": true
   },
   {
     "id": "hangman.normal.011",
     "level": "normal",
     "word": "Teller",
     "hint": "Darauf liegt dein Essen.",
-    "extra": "Nach dem Essen wird er gespült."
+    "extra": "Nach dem Essen wird er gespült.",
+    "archived": true
   },
   {
     "id": "hangman.normal.012",
     "level": "normal",
     "word": "Löffel",
     "hint": "Damit isst du Suppe.",
-    "extra": "Er gehört zum Besteck."
+    "extra": "Er gehört zum Besteck.",
+    "archived": true
   },
   {
     "id": "hangman.normal.013",
     "level": "normal",
     "word": "Gabel",
     "hint": "Damit spießt du Essen auf.",
-    "extra": "Sie hat mehrere Zinken."
+    "extra": "Sie hat mehrere Zinken.",
+    "archived": true
   },
   {
     "id": "hangman.normal.014",
     "level": "normal",
     "word": "Messer",
     "hint": "Damit schneidest du Brot.",
-    "extra": "Die Klinge ist scharf."
+    "extra": "Die Klinge ist scharf.",
+    "archived": true
   },
   {
     "id": "hangman.normal.015",
     "level": "normal",
     "word": "Tisch",
     "hint": "Daran kannst du sitzen und essen.",
-    "extra": "Er hat eine Platte und Beine."
+    "extra": "Er hat eine Platte und Beine.",
+    "archived": true
   },
   {
     "id": "hangman.normal.016",
     "level": "normal",
     "word": "Stuhl",
     "hint": "Darauf sitzt eine Person.",
-    "extra": "Er hat meist eine Rückenlehne."
+    "extra": "Er hat meist eine Rückenlehne.",
+    "archived": true
   },
   {
     "id": "hangman.normal.017",
     "level": "normal",
     "word": "Lampe",
     "hint": "Du schaltest sie ein, wenn es dunkel ist.",
-    "extra": "Sie macht Licht."
+    "extra": "Sie macht Licht.",
+    "archived": true
   },
   {
     "id": "hangman.normal.018",
     "level": "normal",
     "word": "Fenster",
     "hint": "Du öffnest es zum Lüften.",
-    "extra": "Du kannst durch das Glas schauen."
+    "extra": "Du kannst durch das Glas schauen.",
+    "archived": true
   },
   {
     "id": "hangman.normal.019",
     "level": "normal",
     "word": "Schuh",
     "hint": "Du ziehst ihn an deinen Fuß.",
-    "extra": "Es gibt ihn für links und rechts."
+    "extra": "Es gibt ihn für links und rechts.",
+    "archived": true
   },
   {
     "id": "hangman.normal.020",
     "level": "normal",
     "word": "Jacke",
     "hint": "Du ziehst sie über, wenn dir kalt ist.",
-    "extra": "Sie hat meistens Ärmel und Taschen."
+    "extra": "Sie hat meistens Ärmel und Taschen.",
+    "archived": true
   },
   {
     "id": "hangman.normal.021",
     "level": "normal",
     "word": "Hose",
     "hint": "Du ziehst sie über deine Beine.",
-    "extra": "Jeans sind ein Beispiel dafür."
+    "extra": "Jeans sind ein Beispiel dafür.",
+    "archived": true
   },
   {
     "id": "hangman.normal.022",
     "level": "normal",
     "word": "Mütze",
     "hint": "Du setzt sie auf den Kopf, wenn es kalt ist.",
-    "extra": "Sie hält oft auch die Ohren warm."
+    "extra": "Sie hält oft auch die Ohren warm.",
+    "archived": true
   },
   {
     "id": "hangman.normal.023",
     "level": "normal",
     "word": "Besen",
     "hint": "Damit fegst du den Boden.",
-    "extra": "Unten sitzen viele Borsten."
+    "extra": "Unten sitzen viele Borsten.",
+    "archived": true
   },
   {
     "id": "hangman.normal.024",
     "level": "normal",
     "word": "Eimer",
     "hint": "Darin trägst du Wasser.",
-    "extra": "Er hat einen Griff zum Tragen."
+    "extra": "Er hat einen Griff zum Tragen.",
+    "archived": true
   },
   {
     "id": "hangman.normal.025",
     "level": "normal",
     "word": "Seife",
     "hint": "Damit wäschst du deine Hände.",
-    "extra": "Mit Wasser entsteht oft Schaum."
+    "extra": "Mit Wasser entsteht oft Schaum.",
+    "archived": true
   },
   {
     "id": "hangman.normal.026",
     "level": "normal",
     "word": "Handtuch",
     "hint": "Damit trocknest du deine Hände ab.",
-    "extra": "Du findest es im Bad."
+    "extra": "Du findest es im Bad.",
+    "archived": true
   },
   {
     "id": "hangman.normal.027",
     "level": "normal",
     "word": "Bus",
     "hint": "Dieses Fahrzeug bringt viele Menschen zur Haltestelle.",
-    "extra": "Du brauchst meist eine Fahrkarte."
+    "extra": "Du brauchst meist eine Fahrkarte.",
+    "archived": true
   },
   {
     "id": "hangman.normal.028",
     "level": "normal",
     "word": "Zug",
     "hint": "Dieses Fahrzeug fährt auf Schienen.",
-    "extra": "Du steigst am Bahnsteig ein."
+    "extra": "Du steigst am Bahnsteig ein.",
+    "archived": true
   },
   {
     "id": "hangman.normal.029",
     "level": "normal",
     "word": "Fahrrad",
     "hint": "Du trittst in die Pedale, damit es fährt.",
-    "extra": "Es hat normalerweise zwei Räder."
+    "extra": "Es hat normalerweise zwei Räder.",
+    "archived": true
   },
   {
     "id": "hangman.normal.030",
     "level": "normal",
     "word": "Ampel",
     "hint": "Sie zeigt im Verkehr rotes, gelbes oder grünes Licht.",
-    "extra": "Du findest sie oft an einer Kreuzung."
+    "extra": "Du findest sie oft an einer Kreuzung.",
+    "archived": true
   },
   {
     "id": "hangman.normal.031",
     "level": "normal",
     "word": "Brief",
     "hint": "Diese Nachricht schickst du in einem Umschlag.",
-    "extra": "Du kannst eine Briefmarke darauf kleben."
+    "extra": "Du kannst eine Briefmarke darauf kleben.",
+    "archived": true
   },
   {
     "id": "hangman.normal.032",
     "level": "normal",
     "word": "Handy",
     "hint": "Damit kannst du unterwegs anrufen.",
-    "extra": "Du lädst seinen Akku auf."
+    "extra": "Du lädst seinen Akku auf.",
+    "archived": true
   },
   {
     "id": "hangman.normal.033",
     "level": "normal",
     "word": "Heft",
     "hint": "Darin schreibst du im Unterricht.",
-    "extra": "Es hat zusammengeheftete Seiten."
+    "extra": "Es hat zusammengeheftete Seiten.",
+    "archived": true
   },
   {
     "id": "hangman.normal.034",
     "level": "normal",
     "word": "Stift",
     "hint": "Damit schreibst oder zeichnest du.",
-    "extra": "Du hältst ihn in der Hand."
+    "extra": "Du hältst ihn in der Hand.",
+    "archived": true
   },
   {
     "id": "hangman.normal.035",
     "level": "normal",
     "word": "Buch",
     "hint": "Darin kannst du eine Geschichte lesen.",
-    "extra": "Es besteht aus vielen Seiten."
+    "extra": "Es besteht aus vielen Seiten.",
+    "archived": true
   },
   {
     "id": "hangman.normal.036",
     "level": "normal",
     "word": "Blume",
     "hint": "Diese Pflanze hat oft bunte Blüten.",
-    "extra": "Du stellst sie manchmal in eine Vase."
+    "extra": "Du stellst sie manchmal in eine Vase.",
+    "archived": true
   },
   {
     "id": "hangman.normal.037",
     "level": "normal",
     "word": "Baum",
     "hint": "Diese Pflanze hat einen Stamm und Äste.",
-    "extra": "Viele davon haben Blätter."
+    "extra": "Viele davon haben Blätter.",
+    "archived": true
   },
   {
     "id": "hangman.normal.038",
     "level": "normal",
     "word": "Vogel",
     "hint": "Dieses Tier hat Federn und einen Schnabel.",
-    "extra": "Viele Arten können fliegen."
+    "extra": "Viele Arten können fliegen.",
+    "archived": true
   },
   {
     "id": "hangman.normal.039",
     "level": "normal",
     "word": "Straße",
     "hint": "Hier fahren Autos und Busse.",
-    "extra": "Du überquerst sie vorsichtig."
+    "extra": "Du überquerst sie vorsichtig.",
+    "archived": true
   },
   {
     "id": "hangman.normal.040",
     "level": "normal",
     "word": "Schlüssel",
     "hint": "Damit schließt du eine passende Tür auf.",
-    "extra": "Er passt in ein bestimmtes Schloss."
+    "extra": "Er passt in ein bestimmtes Schloss.",
+    "archived": true
   },
   {
     "id": "hangman.hard.001",
     "level": "hard",
     "word": "Schraubendreher",
     "hint": "Damit drehst du eine Schraube fest oder locker.",
-    "extra": "Das Werkzeug hat einen Griff und eine Spitze."
+    "extra": "Das Werkzeug hat einen Griff und eine Spitze.",
+    "archived": true
   },
   {
     "id": "hangman.hard.002",
     "level": "hard",
     "word": "Wasserwaage",
     "hint": "Damit prüfst du, ob etwas gerade hängt.",
-    "extra": "Im Werkzeug zeigt eine kleine Blase die Lage."
+    "extra": "Im Werkzeug zeigt eine kleine Blase die Lage.",
+    "archived": true
   },
   {
     "id": "hangman.hard.003",
     "level": "hard",
     "word": "Schutzbrille",
     "hint": "Du trägst sie bei Arbeiten zum Schutz der Augen.",
-    "extra": "Sie sitzt wie eine Brille vor deinem Gesicht."
+    "extra": "Sie sitzt wie eine Brille vor deinem Gesicht.",
+    "archived": true
   },
   {
     "id": "hangman.hard.004",
     "level": "hard",
     "word": "Gehörschutz",
     "hint": "Du trägst ihn bei lautem Lärm an den Ohren.",
-    "extra": "Er dämpft Geräusche."
+    "extra": "Er dämpft Geräusche.",
+    "archived": true
   },
   {
     "id": "hangman.hard.005",
     "level": "hard",
     "word": "Handschuh",
     "hint": "Du ziehst ihn über die Hand, um sie zu schützen.",
-    "extra": "Für eine rechte und linke Hand gibt es ein Paar."
+    "extra": "Für eine rechte und linke Hand gibt es ein Paar.",
+    "archived": true
   },
   {
     "id": "hangman.hard.006",
     "level": "hard",
     "word": "Zollstock",
     "hint": "Du klappst ihn auf, um eine Länge zu messen.",
-    "extra": "Er wird oft in der Werkstatt benutzt."
+    "extra": "Er wird oft in der Werkstatt benutzt.",
+    "archived": true
   },
   {
     "id": "hangman.hard.007",
     "level": "hard",
     "word": "Bohrmaschine",
     "hint": "Damit machst du ein rundes Loch in ein Brett.",
-    "extra": "Vorne dreht sich ein Bohrer."
+    "extra": "Vorne dreht sich ein Bohrer.",
+    "archived": true
   },
   {
     "id": "hangman.hard.008",
     "level": "hard",
     "word": "Schraubstock",
     "hint": "Darin spannst du ein Werkstück fest.",
-    "extra": "So kannst du mit beiden Händen arbeiten."
+    "extra": "So kannst du mit beiden Händen arbeiten.",
+    "archived": true
   },
   {
     "id": "hangman.hard.009",
     "level": "hard",
     "word": "Mülltrennung",
     "hint": "Du sortierst dabei Papier, Glas und andere Abfälle.",
-    "extra": "Nicht alles kommt in dieselbe Tonne."
+    "extra": "Nicht alles kommt in dieselbe Tonne.",
+    "archived": true
   },
   {
     "id": "hangman.hard.010",
     "level": "hard",
     "word": "Kühlschrank",
     "hint": "Hier bleibt dein Essen kühl.",
-    "extra": "Du findest ihn meist in der Küche."
+    "extra": "Du findest ihn meist in der Küche.",
+    "archived": true
   },
   {
     "id": "hangman.hard.011",
     "level": "hard",
     "word": "Waschmaschine",
     "hint": "Dieses Gerät wäscht schmutzige Kleidung.",
-    "extra": "Du gibst Waschmittel hinein."
+    "extra": "Du gibst Waschmittel hinein.",
+    "archived": true
   },
   {
     "id": "hangman.hard.012",
     "level": "hard",
     "word": "Spülmittel",
     "hint": "Damit reinigst du Teller und Tassen.",
-    "extra": "Ein kleiner Spritzer kommt ins Spülwasser."
+    "extra": "Ein kleiner Spritzer kommt ins Spülwasser.",
+    "archived": true
   },
   {
     "id": "hangman.hard.013",
     "level": "hard",
     "word": "Feuerlöscher",
     "hint": "Damit kann ein kleiner beginnender Brand bekämpft werden.",
-    "extra": "Das Gerät hängt oft gut sichtbar an der Wand."
+    "extra": "Das Gerät hängt oft gut sichtbar an der Wand.",
+    "archived": true
   },
   {
     "id": "hangman.hard.014",
     "level": "hard",
     "word": "Notausgang",
     "hint": "Hier kannst du bei Gefahr aus einem Gebäude hinaus.",
-    "extra": "Er ist deutlich gekennzeichnet."
+    "extra": "Er ist deutlich gekennzeichnet.",
+    "archived": true
   },
   {
     "id": "hangman.hard.015",
     "level": "hard",
     "word": "Haltestelle",
     "hint": "Hier wartest du auf den Bus.",
-    "extra": "Der Fahrplan zeigt die Abfahrtszeiten."
+    "extra": "Der Fahrplan zeigt die Abfahrtszeiten.",
+    "archived": true
   },
   {
     "id": "hangman.hard.016",
     "level": "hard",
     "word": "Bahnsteig",
     "hint": "Hier wartest du direkt am Gleis auf den Zug.",
-    "extra": "Du bleibst hinter der Sicherheitslinie."
+    "extra": "Du bleibst hinter der Sicherheitslinie.",
+    "archived": true
   },
   {
     "id": "hangman.hard.017",
     "level": "hard",
     "word": "Fahrkarte",
     "hint": "Du brauchst sie für eine Fahrt mit Bus oder Bahn.",
-    "extra": "Sie kann aus Papier oder digital sein."
+    "extra": "Sie kann aus Papier oder digital sein.",
+    "archived": true
   },
   {
     "id": "hangman.hard.018",
     "level": "hard",
     "word": "Fahrplan",
     "hint": "Hier liest du, wann dein Bus fährt.",
-    "extra": "Er zeigt Zeiten und oft auch Haltestellen."
+    "extra": "Er zeigt Zeiten und oft auch Haltestellen.",
+    "archived": true
   },
   {
     "id": "hangman.hard.019",
     "level": "hard",
     "word": "Bewerbung",
     "hint": "Damit zeigst du einem Betrieb, dass du eine Stelle möchtest.",
-    "extra": "Dazu gehören oft Lebenslauf und Anschreiben."
+    "extra": "Dazu gehören oft Lebenslauf und Anschreiben.",
+    "archived": true
   },
   {
     "id": "hangman.hard.020",
     "level": "hard",
     "word": "Lebenslauf",
     "hint": "Hier stehen deine Schulzeiten und bisherigen Tätigkeiten.",
-    "extra": "Er gehört meistens zu einer Bewerbung."
+    "extra": "Er gehört meistens zu einer Bewerbung.",
+    "archived": true
   },
   {
     "id": "hangman.hard.021",
     "level": "hard",
     "word": "Praktikum",
     "hint": "Dabei lernst du die Arbeit in einem Betrieb kennen.",
-    "extra": "Es dauert nur eine begrenzte Zeit."
+    "extra": "Es dauert nur eine begrenzte Zeit.",
+    "archived": true
   },
   {
     "id": "hangman.hard.022",
     "level": "hard",
     "word": "Werkstatt",
     "hint": "Hier werden Dinge gebaut oder repariert.",
-    "extra": "Hier liegen oft viele Werkzeuge."
+    "extra": "Hier liegen oft viele Werkzeuge.",
+    "archived": true
   },
   {
     "id": "hangman.hard.023",
     "level": "hard",
     "word": "Lieferung",
     "hint": "Ein Fahrer bringt dabei bestellte Waren.",
-    "extra": "Dazu kann ein Lieferschein gehören."
+    "extra": "Dazu kann ein Lieferschein gehören.",
+    "archived": true
   },
   {
     "id": "hangman.hard.024",
     "level": "hard",
     "word": "Rechnung",
     "hint": "Hier steht, welchen Betrag du bezahlen sollst.",
-    "extra": "Du findest darauf oft einzelne Preise."
+    "extra": "Du findest darauf oft einzelne Preise.",
+    "archived": true
   },
   {
     "id": "hangman.hard.025",
     "level": "hard",
     "word": "Quittung",
     "hint": "Sie bestätigt, dass du etwas bezahlt hast.",
-    "extra": "Bewahre den Beleg gut auf."
+    "extra": "Bewahre den Beleg gut auf.",
+    "archived": true
   },
   {
     "id": "hangman.hard.026",
     "level": "hard",
     "word": "Terminkalender",
     "hint": "Hier trägst du ein, wann du verabredet bist.",
-    "extra": "Er hilft dir, keine Treffen zu vergessen."
+    "extra": "Er hilft dir, keine Treffen zu vergessen.",
+    "archived": true
   },
   {
     "id": "hangman.hard.027",
     "level": "hard",
     "word": "Unterschrift",
     "hint": "Du schreibst deinen Namen zur Bestätigung unter ein Dokument.",
-    "extra": "Du setzt sie meist mit der Hand darunter."
+    "extra": "Du setzt sie meist mit der Hand darunter.",
+    "archived": true
   },
   {
     "id": "hangman.hard.028",
     "level": "hard",
     "word": "Ausbildung",
     "hint": "Dabei lernst du einen Beruf.",
-    "extra": "Oft gehören Betrieb und Berufsschule dazu."
+    "extra": "Oft gehören Betrieb und Berufsschule dazu.",
+    "archived": true
   },
   {
     "id": "hangman.hard.029",
     "level": "hard",
     "word": "Berufsschule",
     "hint": "Hier lernst du zusätzlich zur Arbeit im Ausbildungsbetrieb.",
-    "extra": "Es ist Unterricht für deinen Beruf."
+    "extra": "Es ist Unterricht für deinen Beruf.",
+    "archived": true
   },
   {
     "id": "hangman.hard.030",
     "level": "hard",
     "word": "Arbeitsplatz",
     "hint": "Hier erledigst du deine beruflichen Aufgaben.",
-    "extra": "Das kann zum Beispiel eine Werkbank oder ein Schreibtisch sein."
+    "extra": "Das kann zum Beispiel eine Werkbank oder ein Schreibtisch sein.",
+    "archived": true
   },
   {
     "id": "hangman.hard.031",
     "level": "hard",
     "word": "Pausenraum",
     "hint": "Hier kannst du dich bei der Arbeit kurz ausruhen.",
-    "extra": "Oft stehen dort Tische und Stühle."
+    "extra": "Oft stehen dort Tische und Stühle.",
+    "archived": true
   },
   {
     "id": "hangman.hard.032",
     "level": "hard",
     "word": "Stundenplan",
     "hint": "Hier steht, welches Unterrichtsfach wann stattfindet.",
-    "extra": "Er ist nach Wochentagen geordnet."
+    "extra": "Er ist nach Wochentagen geordnet.",
+    "archived": true
   },
   {
     "id": "hangman.hard.033",
     "level": "hard",
     "word": "Ladekabel",
     "hint": "Damit verbindest du dein Handy zum Aufladen.",
-    "extra": "Ein Ende kommt an das Gerät."
+    "extra": "Ein Ende kommt an das Gerät.",
+    "archived": true
   },
   {
     "id": "hangman.hard.034",
     "level": "hard",
     "word": "Datenschutz",
     "hint": "Dabei sollen persönliche Angaben geschützt werden.",
-    "extra": "Fremde sollen deine Daten nicht einfach nutzen können."
+    "extra": "Fremde sollen deine Daten nicht einfach nutzen können.",
+    "archived": true
   },
   {
     "id": "hangman.hard.035",
     "level": "hard",
     "word": "Passwort",
     "hint": "Damit schützt du den Zugang zu deinem Konto.",
-    "extra": "Du hältst es geheim."
+    "extra": "Du hältst es geheim.",
+    "archived": true
   },
   {
     "id": "hangman.hard.036",
     "level": "hard",
     "word": "Briefkasten",
     "hint": "Hier wirft der Zusteller deine Briefe hinein.",
-    "extra": "Du leerst ihn regelmäßig."
+    "extra": "Du leerst ihn regelmäßig.",
+    "archived": true
   },
   {
     "id": "hangman.hard.037",
     "level": "hard",
     "word": "Treppenhaus",
     "hint": "Durch diesen gemeinsamen Bereich gehst du zu den Wohnungen.",
-    "extra": "Hier führen Stufen von einem Stockwerk zum nächsten."
+    "extra": "Hier führen Stufen von einem Stockwerk zum nächsten.",
+    "archived": true
   },
   {
     "id": "hangman.hard.038",
     "level": "hard",
     "word": "Wasserhahn",
     "hint": "Du drehst ihn auf, damit Wasser läuft.",
-    "extra": "Du findest ihn am Waschbecken."
+    "extra": "Du findest ihn am Waschbecken.",
+    "archived": true
   },
   {
     "id": "hangman.hard.039",
     "level": "hard",
     "word": "Pünktlichkeit",
     "hint": "Du zeigst sie, wenn du zur vereinbarten Zeit da bist.",
-    "extra": "Du kommst dann nicht zu spät."
+    "extra": "Du kommst dann nicht zu spät.",
+    "archived": true
   },
   {
     "id": "hangman.hard.040",
     "level": "hard",
     "word": "Teamarbeit",
     "hint": "Dabei lösen mehrere Menschen gemeinsam eine Aufgabe.",
-    "extra": "Gute Absprachen helfen dabei."
+    "extra": "Gute Absprachen helfen dabei.",
+    "archived": true
+  },
+  {
+    "id": "hangman.v2.normal.001",
+    "level": "normal",
+    "word": "Umleitung",
+    "hint": "Ein gewohnter Weg ist vorübergehend gesperrt.",
+    "extra": "Schilder weisen einen anderen Verlauf aus."
+  },
+  {
+    "id": "hangman.v2.normal.002",
+    "level": "normal",
+    "word": "Werkstatt",
+    "hint": "Hier werden Gegenstände instand gesetzt.",
+    "extra": "Dort findet man häufig Werkzeuge und Maschinen."
+  },
+  {
+    "id": "hangman.v2.normal.003",
+    "level": "normal",
+    "word": "Vorrat",
+    "hint": "Etwas wird für einen späteren Bedarf aufbewahrt.",
+    "extra": "Auch Lebensmittel können dazu gehören."
+  },
+  {
+    "id": "hangman.v2.normal.004",
+    "level": "normal",
+    "word": "Abstand",
+    "hint": "Eine messbare Lücke trennt zwei Dinge.",
+    "extra": "Im Verkehr kann sie Unfälle verhindern."
+  },
+  {
+    "id": "hangman.v2.normal.005",
+    "level": "normal",
+    "word": "Gewürz",
+    "hint": "Eine kleine Menge verändert den Geschmack.",
+    "extra": "Es wird beim Zubereiten von Speisen genutzt."
+  },
+  {
+    "id": "hangman.v2.normal.006",
+    "level": "normal",
+    "word": "Behälter",
+    "hint": "Ein Gegenstand nimmt anderes auf.",
+    "extra": "Er kann zum Lagern oder Transportieren dienen."
+  },
+  {
+    "id": "hangman.v2.normal.007",
+    "level": "normal",
+    "word": "Bündel",
+    "hint": "Mehrere Dinge sind zusammengefasst.",
+    "extra": "Sie werden oft mit einer Schnur gehalten."
+  },
+  {
+    "id": "hangman.v2.normal.008",
+    "level": "normal",
+    "word": "Rücksicht",
+    "hint": "Man beachtet die Bedürfnisse anderer.",
+    "extra": "Das erleichtert das Zusammenleben."
+  },
+  {
+    "id": "hangman.v2.normal.009",
+    "level": "normal",
+    "word": "Vorschrift",
+    "hint": "Eine verbindliche Regel legt ein Vorgehen fest.",
+    "extra": "Sie kann zum Schutz von Menschen dienen."
+  },
+  {
+    "id": "hangman.v2.normal.010",
+    "level": "normal",
+    "word": "Vergleich",
+    "hint": "Zwei Dinge werden auf Gemeinsamkeiten untersucht.",
+    "extra": "Dabei fallen auch Unterschiede auf."
+  },
+  {
+    "id": "hangman.v2.normal.011",
+    "level": "normal",
+    "word": "Schwelle",
+    "hint": "Hier beginnt ein neuer Bereich.",
+    "extra": "Sie liegt auch am unteren Rand eines Eingangs."
+  },
+  {
+    "id": "hangman.v2.normal.012",
+    "level": "normal",
+    "word": "Rückgabe",
+    "hint": "Etwas Geliehenes gelangt zum Besitzer zurück.",
+    "extra": "Dafür kann eine Frist gelten."
+  },
+  {
+    "id": "hangman.v2.normal.013",
+    "level": "normal",
+    "word": "Nachweis",
+    "hint": "Eine Behauptung wird damit belegt.",
+    "extra": "Auch eine Bescheinigung kann dafür dienen."
+  },
+  {
+    "id": "hangman.v2.normal.014",
+    "level": "normal",
+    "word": "Einwand",
+    "hint": "Jemand nennt einen Grund gegen einen Vorschlag.",
+    "extra": "Er kann eine Diskussion verbessern."
+  },
+  {
+    "id": "hangman.v2.normal.015",
+    "level": "normal",
+    "word": "Ursache",
+    "hint": "Sie erklärt, wodurch etwas entsteht.",
+    "extra": "Man sucht sie oft hinter einer beobachteten Wirkung."
+  },
+  {
+    "id": "hangman.v2.normal.016",
+    "level": "normal",
+    "word": "Wirkung",
+    "hint": "Eine Handlung hat eine beobachtbare Folge.",
+    "extra": "Sie kann beabsichtigt oder unerwartet sein."
+  },
+  {
+    "id": "hangman.v2.normal.017",
+    "level": "normal",
+    "word": "Aufwand",
+    "hint": "Ein Ziel erfordert Zeit und Mittel.",
+    "extra": "Er sollte zum erwarteten Nutzen passen."
+  },
+  {
+    "id": "hangman.v2.normal.018",
+    "level": "normal",
+    "word": "Vermutung",
+    "hint": "Eine Erklärung ist noch nicht sicher belegt.",
+    "extra": "Weitere Beobachtungen können sie prüfen."
+  },
+  {
+    "id": "hangman.v2.normal.019",
+    "level": "normal",
+    "word": "Entwurf",
+    "hint": "Eine erste Fassung wird noch überarbeitet.",
+    "extra": "Vor dem fertigen Produkt steht oft dieser Schritt."
+  },
+  {
+    "id": "hangman.v2.normal.020",
+    "level": "normal",
+    "word": "Eindruck",
+    "hint": "Eine Begegnung hinterlässt eine persönliche Wahrnehmung.",
+    "extra": "Sie muss nicht mit allen Tatsachen übereinstimmen."
+  },
+  {
+    "id": "hangman.v2.normal.021",
+    "level": "normal",
+    "word": "Begründung",
+    "hint": "Sie nennt nachvollziehbare Argumente für eine Aussage.",
+    "extra": "Ein bloßes Behaupten reicht dafür nicht."
+  },
+  {
+    "id": "hangman.v2.normal.022",
+    "level": "normal",
+    "word": "Hindernis",
+    "hint": "Etwas erschwert das Erreichen eines Ziels.",
+    "extra": "Es kann umgangen oder beseitigt werden."
+  },
+  {
+    "id": "hangman.v2.normal.023",
+    "level": "normal",
+    "word": "Ausgleich",
+    "hint": "Ein Unterschied wird dadurch verringert.",
+    "extra": "Er kann auch nach einer Benachteiligung erfolgen."
+  },
+  {
+    "id": "hangman.v2.normal.024",
+    "level": "normal",
+    "word": "Schätzung",
+    "hint": "Eine Größe wird näherungsweise bestimmt.",
+    "extra": "Eine genaue Messung liegt noch nicht vor."
+  },
+  {
+    "id": "hangman.v2.normal.025",
+    "level": "normal",
+    "word": "Übergang",
+    "hint": "Zwei Zustände sind miteinander verbunden.",
+    "extra": "Es ist die Phase dazwischen."
+  },
+  {
+    "id": "hangman.v2.normal.026",
+    "level": "normal",
+    "word": "Zweifel",
+    "hint": "Eine Aussage erscheint nicht völlig sicher.",
+    "extra": "Man sucht nach zusätzlichen Belegen."
+  },
+  {
+    "id": "hangman.v2.normal.027",
+    "level": "normal",
+    "word": "Anschluss",
+    "hint": "Eine Verbindung ermöglicht die weitere Nutzung.",
+    "extra": "Er kann elektrisch oder im Verkehr wichtig sein."
+  },
+  {
+    "id": "hangman.v2.normal.028",
+    "level": "normal",
+    "word": "Verzicht",
+    "hint": "Man entscheidet sich gegen etwas Gewünschtes.",
+    "extra": "Das kann einem anderen Ziel dienen."
+  },
+  {
+    "id": "hangman.v2.normal.029",
+    "level": "normal",
+    "word": "Geduld",
+    "hint": "Man hält eine längere Wartezeit aus.",
+    "extra": "Nicht jedes Ergebnis entsteht sofort."
+  },
+  {
+    "id": "hangman.v2.normal.030",
+    "level": "normal",
+    "word": "Fähigkeit",
+    "hint": "Jemand kann eine bestimmte Aufgabe bewältigen.",
+    "extra": "Sie lässt sich häufig durch Übung entwickeln."
+  },
+  {
+    "id": "hangman.v2.normal.031",
+    "level": "normal",
+    "word": "Bedürfnis",
+    "hint": "Etwas wird für das eigene Wohlbefinden gebraucht.",
+    "extra": "Essen und Ruhe sind Beispiele."
+  },
+  {
+    "id": "hangman.v2.normal.032",
+    "level": "normal",
+    "word": "Vorschlag",
+    "hint": "Eine mögliche Lösung wird zur Diskussion gestellt.",
+    "extra": "Andere können sie prüfen und verändern."
+  },
+  {
+    "id": "hangman.v2.normal.033",
+    "level": "normal",
+    "word": "Rückstand",
+    "hint": "Etwas bleibt hinter einem vorgesehenen Stand.",
+    "extra": "Er kann bei Arbeit oder im Sport entstehen."
+  },
+  {
+    "id": "hangman.v2.normal.034",
+    "level": "normal",
+    "word": "Vorteil",
+    "hint": "Ein Umstand erleichtert eine Aufgabe.",
+    "extra": "Er kann bei einer Entscheidung eine Rolle spielen."
+  },
+  {
+    "id": "hangman.v2.normal.035",
+    "level": "normal",
+    "word": "Anteil",
+    "hint": "Ein Ganzes wird in Teile gegliedert.",
+    "extra": "Die Größe lässt sich etwa in Prozent angeben."
+  },
+  {
+    "id": "hangman.v2.normal.036",
+    "level": "normal",
+    "word": "Kreislauf",
+    "hint": "Ein Vorgang kehrt zu seinem Ausgangspunkt zurück.",
+    "extra": "Stoffe können so mehrfach genutzt werden."
+  },
+  {
+    "id": "hangman.v2.normal.037",
+    "level": "normal",
+    "word": "Ergänzung",
+    "hint": "Etwas Fehlendes wird hinzugefügt.",
+    "extra": "Der bestehende Inhalt bleibt dabei erhalten."
+  },
+  {
+    "id": "hangman.v2.normal.038",
+    "level": "normal",
+    "word": "Maßstab",
+    "hint": "Ein Verhältnis hilft beim Übertragen von Größen.",
+    "extra": "Man findet ihn häufig auf Karten."
+  },
+  {
+    "id": "hangman.v2.normal.039",
+    "level": "normal",
+    "word": "Schlussfolgerung",
+    "hint": "Aus Beobachtungen wird eine begründete Aussage abgeleitet.",
+    "extra": "Sie sollte zu den vorhandenen Belegen passen."
+  },
+  {
+    "id": "hangman.v2.normal.040",
+    "level": "normal",
+    "word": "Vereinbarung",
+    "hint": "Mehrere Beteiligte legen gemeinsam etwas fest.",
+    "extra": "Danach sollen sich alle daran halten."
+  },
+  {
+    "id": "hangman.v2.hard.001",
+    "level": "hard",
+    "word": "Verhältnismäßigkeit",
+    "hint": "Eine Maßnahme darf nicht weiter gehen als nötig.",
+    "extra": "Nutzen und Eingriff werden gegeneinander abgewogen."
+  },
+  {
+    "id": "hangman.v2.hard.002",
+    "level": "hard",
+    "word": "Gewährleistung",
+    "hint": "Für bestimmte Mängel bestehen gesetzliche Ansprüche.",
+    "extra": "Sie betrifft die Verantwortung beim Verkauf."
+  },
+  {
+    "id": "hangman.v2.hard.003",
+    "level": "hard",
+    "word": "Zuverlässigkeit",
+    "hint": "Zusagen und Aufgaben werden verlässlich erfüllt.",
+    "extra": "Andere können sich darauf verlassen."
+  },
+  {
+    "id": "hangman.v2.hard.004",
+    "level": "hard",
+    "word": "Widersprüchlichkeit",
+    "hint": "Mehrere Aussagen passen logisch nicht zusammen.",
+    "extra": "Mindestens eine Annahme muss geprüft werden."
+  },
+  {
+    "id": "hangman.v2.hard.005",
+    "level": "hard",
+    "word": "Verständigung",
+    "hint": "Beteiligte schaffen eine gemeinsame Grundlage.",
+    "extra": "Dafür müssen sie einander zuhören."
+  },
+  {
+    "id": "hangman.v2.hard.006",
+    "level": "hard",
+    "word": "Interessenkonflikt",
+    "hint": "Verschiedene Ziele stehen miteinander im Widerstreit.",
+    "extra": "Ein eigener Vorteil kann eine Entscheidung beeinflussen."
+  },
+  {
+    "id": "hangman.v2.hard.007",
+    "level": "hard",
+    "word": "Wechselwirkung",
+    "hint": "Zwei Vorgänge beeinflussen sich gegenseitig.",
+    "extra": "Die Wirkung läuft in beide Richtungen."
+  },
+  {
+    "id": "hangman.v2.hard.008",
+    "level": "hard",
+    "word": "Verantwortungsbewusstsein",
+    "hint": "Jemand bedenkt die Folgen des eigenen Handelns.",
+    "extra": "Auch Auswirkungen auf andere werden berücksichtigt."
+  },
+  {
+    "id": "hangman.v2.hard.009",
+    "level": "hard",
+    "word": "Schlüsselbegriff",
+    "hint": "Ein wichtiges Wort erschließt einen Zusammenhang.",
+    "extra": "Seine Bedeutung hilft beim Verstehen eines Themas."
+  },
+  {
+    "id": "hangman.v2.hard.010",
+    "level": "hard",
+    "word": "Veranschaulichung",
+    "hint": "Ein schwieriger Zusammenhang wird greifbarer gemacht.",
+    "extra": "Eine Skizze oder ein Beispiel kann dazu dienen."
+  },
+  {
+    "id": "hangman.v2.hard.011",
+    "level": "hard",
+    "word": "Unvoreingenommenheit",
+    "hint": "Ein Urteil wird nicht vorschnell festgelegt.",
+    "extra": "Neue Hinweise werden offen geprüft."
+  },
+  {
+    "id": "hangman.v2.hard.012",
+    "level": "hard",
+    "word": "Zweckmäßigkeit",
+    "hint": "Ein Vorgehen passt zum angestrebten Ziel.",
+    "extra": "Es ist in der konkreten Situation nützlich."
+  },
+  {
+    "id": "hangman.v2.hard.013",
+    "level": "hard",
+    "word": "Ressourcenschonung",
+    "hint": "Verfügbare Rohstoffe werden sparsam eingesetzt.",
+    "extra": "Wiederverwendung kann dazu beitragen."
+  },
+  {
+    "id": "hangman.v2.hard.014",
+    "level": "hard",
+    "word": "Niederschlagsmenge",
+    "hint": "Ein Wetterwert erfasst gefallenes Wasser.",
+    "extra": "Er wird häufig in Millimetern angegeben."
+  },
+  {
+    "id": "hangman.v2.hard.015",
+    "level": "hard",
+    "word": "Oberflächenspannung",
+    "hint": "Eine Flüssigkeitsgrenze verhält sich wie eine gespannte Haut.",
+    "extra": "Sie hängt mit Kräften zwischen Teilchen zusammen."
+  },
+  {
+    "id": "hangman.v2.hard.016",
+    "level": "hard",
+    "word": "Gleichgewichtssinn",
+    "hint": "Ein Sinn liefert Informationen über die Körperlage.",
+    "extra": "Ein wichtiger Teil sitzt im Innenohr."
+  },
+  {
+    "id": "hangman.v2.hard.017",
+    "level": "hard",
+    "word": "Stoffwechsel",
+    "hint": "In Lebewesen werden Stoffe aufgenommen und umgewandelt.",
+    "extra": "Dabei wird auch Energie bereitgestellt."
+  },
+  {
+    "id": "hangman.v2.hard.018",
+    "level": "hard",
+    "word": "Wiederaufbereitung",
+    "hint": "Ein benutztes Material wird erneut nutzbar gemacht.",
+    "extra": "Das erfordert oft technische Verfahren."
+  },
+  {
+    "id": "hangman.v2.hard.019",
+    "level": "hard",
+    "word": "Übertragungsweg",
+    "hint": "Ein Erreger gelangt auf einem bestimmten Weg zum nächsten Wirt.",
+    "extra": "Das Wissen darüber kann Schutzmaßnahmen erklären."
+  },
+  {
+    "id": "hangman.v2.hard.020",
+    "level": "hard",
+    "word": "Beschleunigung",
+    "hint": "Die Geschwindigkeit ändert sich mit der Zeit.",
+    "extra": "Auch Abbremsen ist physikalisch eine solche Änderung."
+  },
+  {
+    "id": "hangman.v2.hard.021",
+    "level": "hard",
+    "word": "Beobachtungsgabe",
+    "hint": "Jemand erkennt Einzelheiten besonders aufmerksam.",
+    "extra": "Sie hilft, Veränderungen früh zu bemerken."
+  },
+  {
+    "id": "hangman.v2.hard.022",
+    "level": "hard",
+    "word": "Entscheidungsspielraum",
+    "hint": "Mehrere zulässige Handlungsmöglichkeiten stehen offen.",
+    "extra": "Er ist durch Regeln und Mittel begrenzt."
+  },
+  {
+    "id": "hangman.v2.hard.023",
+    "level": "hard",
+    "word": "Ausgleichsfläche",
+    "hint": "Eine andere Fläche soll Eingriffe in die Natur abmildern.",
+    "extra": "Sie ersetzt nicht automatisch jeden verlorenen Lebensraum."
+  },
+  {
+    "id": "hangman.v2.hard.024",
+    "level": "hard",
+    "word": "Verhältniszahlen",
+    "hint": "Größen werden auf eine Bezugsgröße bezogen.",
+    "extra": "So lassen sich verschieden große Gruppen besser vergleichen."
+  },
+  {
+    "id": "hangman.v2.hard.025",
+    "level": "hard",
+    "word": "Mehrheitsentscheidung",
+    "hint": "Die größere Zahl der Stimmen bestimmt das Ergebnis.",
+    "extra": "Grundrechte setzen ihr Grenzen."
+  },
+  {
+    "id": "hangman.v2.hard.026",
+    "level": "hard",
+    "word": "Gewaltenteilung",
+    "hint": "Staatliche Macht wird auf verschiedene Bereiche verteilt.",
+    "extra": "Gegenseitige Kontrolle soll Machtmissbrauch erschweren."
+  },
+  {
+    "id": "hangman.v2.hard.027",
+    "level": "hard",
+    "word": "Unschuldsvermutung",
+    "hint": "Eine beschuldigte Person gilt nicht schon als schuldig.",
+    "extra": "Ein rechtsstaatliches Verfahren muss den Vorwurf prüfen."
+  },
+  {
+    "id": "hangman.v2.hard.028",
+    "level": "hard",
+    "word": "Unabhängigkeit",
+    "hint": "Entscheidungen sind nicht an fremde Weisungen gebunden.",
+    "extra": "Sie ist etwa für Gerichte wichtig."
+  },
+  {
+    "id": "hangman.v2.hard.029",
+    "level": "hard",
+    "word": "Nachvollziehbarkeit",
+    "hint": "Andere können einen Gedankengang prüfen.",
+    "extra": "Dafür müssen Gründe und Schritte erkennbar sein."
+  },
+  {
+    "id": "hangman.v2.hard.030",
+    "level": "hard",
+    "word": "Verhältnisse",
+    "hint": "Mehrere Größen werden zueinander in Beziehung gesetzt.",
+    "extra": "Ein Rezept kann ihre passenden Anteile festlegen."
+  },
+  {
+    "id": "hangman.v2.hard.031",
+    "level": "hard",
+    "word": "Kompromissbereitschaft",
+    "hint": "Man ist zu Zugeständnissen für eine gemeinsame Lösung bereit.",
+    "extra": "Eigene Interessen müssen dabei nicht vollständig entfallen."
+  },
+  {
+    "id": "hangman.v2.hard.032",
+    "level": "hard",
+    "word": "Empfindlichkeit",
+    "hint": "Schon kleine Einwirkungen lösen eine Reaktion aus.",
+    "extra": "Der Begriff wird auch für Messgeräte verwendet."
+  },
+  {
+    "id": "hangman.v2.hard.033",
+    "level": "hard",
+    "word": "Wahrscheinlichkeit",
+    "hint": "Sie beschreibt, wie stark mit einem Ereignis zu rechnen ist.",
+    "extra": "Eine sichere Vorhersage ist damit nicht immer möglich."
+  },
+  {
+    "id": "hangman.v2.hard.034",
+    "level": "hard",
+    "word": "Verallgemeinerung",
+    "hint": "Eine Aussage wird auf mehr Fälle ausgedehnt.",
+    "extra": "Dafür braucht es eine ausreichende Grundlage."
+  },
+  {
+    "id": "hangman.v2.hard.035",
+    "level": "hard",
+    "word": "Unverhältnismäßigkeit",
+    "hint": "Ein Eingriff geht über das Erforderliche hinaus.",
+    "extra": "Seine Belastung passt nicht zum verfolgten Ziel."
+  },
+  {
+    "id": "hangman.v2.hard.036",
+    "level": "hard",
+    "word": "Unterscheidungsmerkmal",
+    "hint": "Eine Eigenschaft trennt ähnliche Dinge voneinander.",
+    "extra": "Es hilft etwa beim Bestimmen von Arten."
+  },
+  {
+    "id": "hangman.v2.hard.037",
+    "level": "hard",
+    "word": "Übereinstimmung",
+    "hint": "Mehrere Angaben passen in einem Punkt zusammen.",
+    "extra": "Sie kann beim Quellenvergleich festgestellt werden."
+  },
+  {
+    "id": "hangman.v2.hard.038",
+    "level": "hard",
+    "word": "Selbstständigkeit",
+    "hint": "Jemand bewältigt Aufgaben weitgehend ohne fremde Anleitung.",
+    "extra": "Hilfe anzunehmen schließt sie nicht aus."
+  },
+  {
+    "id": "hangman.v2.hard.039",
+    "level": "hard",
+    "word": "Wertschöpfung",
+    "hint": "Durch Verarbeitung oder Leistung entsteht zusätzlicher wirtschaftlicher Wert.",
+    "extra": "Daran können mehrere Betriebe beteiligt sein."
+  },
+  {
+    "id": "hangman.v2.hard.040",
+    "level": "hard",
+    "word": "Schlussbemerkung",
+    "hint": "Ein Text endet mit einem abschließenden Gedanken.",
+    "extra": "Sie kann das wichtigste Ergebnis festhalten."
   }
 ]

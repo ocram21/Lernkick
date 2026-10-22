@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.17.1",
+  "revision": "2026.10.22.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -18,15 +18,15 @@
       "subject": "biology",
       "topic": "lebewesen",
       "competency": "lebewesen",
-      "difficulty": 1,
-      "prompt": "Welches Merkmal gehört zu Lebewesen?",
+      "difficulty": 2,
+      "prompt": "Ein Kristall wächst, eine Bohnenpflanze ebenfalls. Woran lässt sich die Pflanze zusätzlich als Lebewesen erkennen?",
       "options": [
-        "Sie können grundsätzlich nicht wachsen.",
-        "Sie besitzen einen Stoffwechsel.",
-        "Sie bestehen immer aus Metall."
+        "Sie nimmt Stoffe auf und wandelt sie für Lebensvorgänge um.",
+        "Alle wachsenden Gegenstände sind Lebewesen.",
+        "Nur die sichtbare Größe entscheidet."
       ],
-      "correct": 1,
-      "explanation": "Lebewesen nehmen Stoffe auf, wandeln sie um und geben Stoffe ab. Das nennt man Stoffwechsel.",
+      "correct": 0,
+      "explanation": "Wachstum allein genügt nicht. Stoffwechsel und weitere Lebensmerkmale kennzeichnen die Pflanze.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -38,15 +38,15 @@
       "subject": "biology",
       "topic": "zellen",
       "competency": "zellen",
-      "difficulty": 1,
-      "prompt": "Was ist die kleinste lebende Baueinheit eines Organismus?",
+      "difficulty": 2,
+      "prompt": "Ein Stück Haut wird immer stärker vergrößert. Auf welcher Ebene findet man die kleinsten lebenden Einheiten?",
       "options": [
-        "Die Zelle.",
-        "Das Organ.",
-        "Das Organsystem."
+        "Bei den Zellen.",
+        "Erst bei einem vollständigen Organ.",
+        "Bei einzelnen Wassermolekülen."
       ],
       "correct": 0,
-      "explanation": "Zellen sind die grundlegenden lebenden Baueinheiten. Mehrere Zellen können Gewebe und Organe bilden.",
+      "explanation": "Zellen sind die kleinsten lebenden Baueinheiten; Organe bestehen aus vielen Zellen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -58,15 +58,15 @@
       "subject": "biology",
       "topic": "zellen",
       "competency": "zellen",
-      "difficulty": 1,
-      "prompt": "Welche Struktur besitzen Pflanzenzellen zusätzlich zur Zellmembran?",
+      "difficulty": 2,
+      "prompt": "Eine Pflanzenzelle bleibt auch durch eine feste äußere Hülle gestützt. Welche Struktur erklärt das?",
       "options": [
-        "Ein Herz.",
-        "Eine Zellwand.",
-        "Eine Wirbelsäule."
+        "Die Zellwand außerhalb der Zellmembran.",
+        "Eine zweite Membran im Zellkern.",
+        "Die Augenlinse in der Zelle."
       ],
-      "correct": 1,
-      "explanation": "Pflanzenzellen haben außen eine stabilisierende Zellwand. Tierische Zellen besitzen keine solche Zellwand.",
+      "correct": 0,
+      "explanation": "Die Zellwand gibt Pflanzenzellen Halt. Die Zellmembran regelt dagegen vor allem den Stoffaustausch.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -78,15 +78,15 @@
       "subject": "biology",
       "topic": "pflanzen",
       "competency": "pflanzen",
-      "difficulty": 1,
-      "prompt": "Was brauchen grüne Pflanzen für die Fotosynthese?",
+      "difficulty": 2,
+      "prompt": "Eine grüne Pflanze erhält Wasser und Licht, aber dauerhaft kein Kohlenstoffdioxid. Was begrenzt dann ihre Zuckerbildung?",
       "options": [
-        "Nur Sand und Dunkelheit.",
-        "Fertige Nahrung aus Fleisch.",
-        "Licht, Wasser und Kohlenstoffdioxid."
+        "Ein Ausgangsstoff der Fotosynthese fehlt.",
+        "Licht ersetzt das fehlende Kohlenstoffdioxid vollständig.",
+        "Die Pflanze kann Zucker allein aus Wasser aufbauen."
       ],
-      "correct": 2,
-      "explanation": "Grüne Pflanzen bauen mithilfe von Licht aus Wasser und Kohlenstoffdioxid energiereiche Stoffe auf.",
+      "correct": 0,
+      "explanation": "Für Fotosynthese werden Wasser und Kohlenstoffdioxid benötigt. Licht liefert die Energie, ersetzt aber keinen Ausgangsstoff.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -99,14 +99,14 @@
       "topic": "pflanzen",
       "competency": "pflanzen",
       "difficulty": 2,
-      "prompt": "Welches Gas entsteht bei der Fotosynthese grüner Pflanzen?",
+      "prompt": "Eine Wasserpflanze gibt bei Beleuchtung mehr Gasbläschen ab. Welches Produkt der Fotosynthese passt dazu?",
       "options": [
-        "Helium.",
         "Sauerstoff.",
-        "Stickstoff."
+        "Stickstoff aus neu gebildeten Zellkernen.",
+        "Wasserstoff aus der Atmung aller Tiere."
       ],
-      "correct": 1,
-      "explanation": "Bei der Fotosynthese wird unter anderem Sauerstoff freigesetzt.",
+      "correct": 0,
+      "explanation": "Bei der Fotosynthese kann Sauerstoff entstehen und an das umgebende Wasser abgegeben werden.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -118,15 +118,15 @@
       "subject": "biology",
       "topic": "pflanzen",
       "competency": "pflanzen",
-      "difficulty": 1,
-      "prompt": "Welche Aufgabe haben die Wurzeln einer Pflanze?",
+      "difficulty": 2,
+      "prompt": "Nach einer starken Beschädigung der Wurzeln welkt eine Pflanze trotz feuchter Erde. Welche Erklärung passt?",
       "options": [
-        "Wasser und Mineralsalze aufnehmen.",
-        "Samen durch Flügelschläge verbreiten.",
-        "Sonnenlicht mit Augen erkennen."
+        "Die Aufnahme von Wasser ist beeinträchtigt.",
+        "Die Blätter erhalten nun unbegrenzt Wasser.",
+        "Die Wurzeln stellen normalerweise das gesamte Licht her."
       ],
       "correct": 0,
-      "explanation": "Wurzeln nehmen Wasser und gelöste Mineralsalze auf und verankern die Pflanze im Boden.",
+      "explanation": "Beschädigte Wurzeln können weniger Wasser aufnehmen. Feuchter Boden allein garantiert keine ausreichende Versorgung.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -139,14 +139,14 @@
       "topic": "pflanzen",
       "competency": "pflanzen",
       "difficulty": 2,
-      "prompt": "Was ist Bestäubung bei Blütenpflanzen?",
+      "prompt": "Auf einer Blüte liegen passende Pollenkörner, aber noch keine Samen vor. Welcher Vorgang ist damit zunächst erfolgt?",
       "options": [
-        "Die Aufnahme von Wasser durch Wurzeln.",
-        "Die Übertragung von Pollen auf die Narbe.",
-        "Das Abwerfen aller Blätter."
+        "Bestäubung; die Befruchtung kann erst danach folgen.",
+        "Befruchtung und vollständige Samenreife zugleich.",
+        "Keimung eines neuen Samens."
       ],
-      "correct": 1,
-      "explanation": "Bei der Bestäubung gelangt Pollen auf die Narbe einer Blüte. Sie ist eine Voraussetzung für die anschließende Befruchtung vieler Blütenpflanzen.",
+      "correct": 0,
+      "explanation": "Bestäubung bezeichnet die Übertragung von Pollen auf die Narbe. Sie ist nicht mit der späteren Befruchtung gleichzusetzen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -159,14 +159,14 @@
       "topic": "pflanzen",
       "competency": "pflanzen",
       "difficulty": 2,
-      "prompt": "Warum sind viele Insekten für Blütenpflanzen wichtig?",
+      "prompt": "In einem Obstgarten besuchen deutlich weniger bestäubende Insekten die Blüten. Was kann bei insektenbestäubten Arten folgen?",
       "options": [
-        "Sie übertragen beim Blütenbesuch Pollen.",
-        "Sie ersetzen bei allen Pflanzen die Wurzeln.",
-        "Sie verhindern grundsätzlich jede Fortpflanzung."
+        "Es können weniger Früchte entstehen.",
+        "Alle Blüten werden dadurch automatisch befruchtet.",
+        "Die Wurzeln übernehmen dann die Pollenübertragung."
       ],
       "correct": 0,
-      "explanation": "Bestäubende Insekten übertragen Pollen. Damit helfen sie vielen Pflanzen bei der geschlechtlichen Fortpflanzung.",
+      "explanation": "Weniger Pollenübertragung kann zu weniger Befruchtungen führen. Daraus können geringere Fruchtansätze folgen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -178,15 +178,15 @@
       "subject": "biology",
       "topic": "wirbeltiere",
       "competency": "wirbeltiere",
-      "difficulty": 1,
-      "prompt": "Was haben alle Wirbeltiere gemeinsam?",
+      "difficulty": 2,
+      "prompt": "Wal und Forelle leben im Wasser, sehen aber sehr verschieden aus. Welche gemeinsame Struktur ordnet beide den Wirbeltieren zu?",
       "options": [
-        "Ein Fell.",
-        "Federn.",
-        "Eine Wirbelsäule."
+        "Eine Wirbelsäule mit innerem Skelett.",
+        "Kiemen in allen Lebensphasen.",
+        "Sechs gegliederte Beine."
       ],
-      "correct": 2,
-      "explanation": "Zu den Wirbeltieren zählen zum Beispiel Fische, Amphibien, Reptilien, Vögel und Säugetiere. Ihr gemeinsames Merkmal ist die Wirbelsäule.",
+      "correct": 0,
+      "explanation": "Der Lebensraum allein entscheidet nicht über die Tiergruppe. Beide besitzen eine Wirbelsäule.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -198,15 +198,15 @@
       "subject": "biology",
       "topic": "saeugetiere",
       "competency": "saeugetiere",
-      "difficulty": 1,
-      "prompt": "Welches Merkmal kennzeichnet Säugetiere?",
+      "difficulty": 2,
+      "prompt": "Ein Wal wird nicht zu den Fischen, sondern zu den Säugetieren gezählt. Welches Merkmal begründet das besonders?",
       "options": [
-        "Junge erhalten Milch aus Milchdrüsen.",
-        "Alle legen viele Eier in Gewässer.",
-        "Alle leben ausschließlich an Land."
+        "Seine Jungen werden mit Milch ernährt.",
+        "Er kann sich im Wasser fortbewegen.",
+        "Sein Körper besitzt eine stromlinienförmige Gestalt."
       ],
       "correct": 0,
-      "explanation": "Säugetiere ernähren ihre Jungen mit Milch. Manche, etwa Wale, leben im Wasser.",
+      "explanation": "Wasserleben und Körperform kommen bei verschiedenen Tiergruppen vor. Das Säugen der Jungen kennzeichnet Säugetiere.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -218,15 +218,15 @@
       "subject": "biology",
       "topic": "insekten",
       "competency": "insekten",
-      "difficulty": 1,
-      "prompt": "Wie viele Beine hat ein erwachsenes Insekt normalerweise?",
+      "difficulty": 2,
+      "prompt": "Ein kleines Tier besitzt acht Beine und keinen Insektenkörper aus Kopf, Brust und Hinterleib. Welche Folgerung ist begründet?",
       "options": [
-        "Acht.",
-        "Sechs.",
-        "Zehn."
+        "Die Beinzahl spricht gegen ein erwachsenes Insekt.",
+        "Jedes kleine Tier mit Beinen ist ein Insekt.",
+        "Acht Beine beweisen, dass es ein Säugetier ist."
       ],
-      "correct": 1,
-      "explanation": "Insekten besitzen drei Beinpaare am Brustabschnitt, also sechs Beine.",
+      "correct": 0,
+      "explanation": "Erwachsene Insekten haben normalerweise sechs Beine. Acht Beine sind beispielsweise typisch für Spinnen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -239,14 +239,14 @@
       "topic": "fortpflanzung",
       "competency": "fortpflanzung",
       "difficulty": 2,
-      "prompt": "Was geschieht bei einer geschlechtlichen Befruchtung?",
+      "prompt": "Ein Samen entsteht nach der Vereinigung zweier Geschlechtszellen. Warum trägt der neue Organismus Merkmale beider Eltern?",
       "options": [
-        "Ein Tier wechselt seinen Lebensraum.",
-        "Zwei Keimzellen verschmelzen.",
-        "Ein Organismus verdoppelt nur seine Körpergröße."
+        "Bei der Befruchtung wird Erbinformation beider Geschlechtszellen zusammengeführt.",
+        "Nur die Umgebung erzeugt sämtliche vererbten Merkmale.",
+        "Eine Geschlechtszelle entfernt die gesamte Erbinformation der anderen."
       ],
-      "correct": 1,
-      "explanation": "Bei der Befruchtung verschmelzen die Keimzellen. So entsteht die erste Zelle eines neuen Organismus.",
+      "correct": 0,
+      "explanation": "Die Befruchtung verbindet Erbinformation beider Eltern. Dadurch entstehen neue Merkmalskombinationen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -259,14 +259,14 @@
       "topic": "entwicklung",
       "competency": "entwicklung",
       "difficulty": 2,
-      "prompt": "Welche Reihenfolge beschreibt die vollständige Verwandlung eines Schmetterlings?",
+      "prompt": "Eine Raupe frisst viel, eine Puppe dagegen nicht. Wie hängen diese Stadien beim Schmetterling zusammen?",
       "options": [
-        "Ei, Raupe, Puppe, Falter.",
-        "Puppe, Ei, Falter, Raupe.",
-        "Ei, Falter, Raupe, Puppe."
+        "Auf die Larve folgt die Puppe, aus der das erwachsene Tier hervorgeht.",
+        "Die Puppe ist das Ei einer anderen Tierart.",
+        "Jede Raupe bleibt ihr Leben lang eine Larve."
       ],
       "correct": 0,
-      "explanation": "Aus dem Ei schlüpft die Raupe. Über das Puppenstadium entwickelt sich der erwachsene Falter.",
+      "explanation": "Die vollständige Verwandlung verläuft über Ei, Larve, Puppe und erwachsenes Tier. Die Stadien erfüllen unterschiedliche Aufgaben.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -279,14 +279,14 @@
       "topic": "systemebenen",
       "competency": "systemebenen",
       "difficulty": 2,
-      "prompt": "Welche Reihenfolge führt vom Kleinen zum Größeren?",
+      "prompt": "Viele Muskelzellen arbeiten gemeinsam; mehrere Gewebe bilden das Herz. Welche Ordnung passt dazu?",
       "options": [
-        "Organsystem, Gewebe, Zelle, Organ.",
-        "Zelle, Gewebe, Organ, Organsystem.",
-        "Organ, Zelle, Organsystem, Gewebe."
+        "Zelle → Gewebe → Organ → Organismus.",
+        "Organ → Zelle → Organismus → Gewebe.",
+        "Gewebe → Organismus → Zelle → Organ."
       ],
-      "correct": 1,
-      "explanation": "Ähnliche Zellen bilden Gewebe. Verschiedene Gewebe bilden Organe, die in Organsystemen zusammenarbeiten.",
+      "correct": 0,
+      "explanation": "Ähnliche Zellen bilden Gewebe. Mehrere Gewebe wirken in Organen zusammen, Organe im Organismus.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -298,15 +298,15 @@
       "subject": "biology",
       "topic": "atmung",
       "competency": "atmung",
-      "difficulty": 1,
-      "prompt": "Welches Organ ist beim Menschen hauptsächlich für den Gasaustausch zuständig?",
+      "difficulty": 2,
+      "prompt": "Ein Mensch atmet ausreichend Luft ein, doch die Fläche seiner Lungenbläschen ist stark vermindert. Welcher Vorgang kann beeinträchtigt sein?",
       "options": [
-        "Die Harnblase.",
-        "Die Lunge.",
-        "Der Magen."
+        "Der Austausch von Sauerstoff und Kohlenstoffdioxid.",
+        "Die Zerkleinerung der Nahrung im Mund.",
+        "Die Bildung von Knochen im Magen."
       ],
-      "correct": 1,
-      "explanation": "In der Lunge gelangt Sauerstoff ins Blut und Kohlenstoffdioxid wird aus dem Blut an die Atemluft abgegeben.",
+      "correct": 0,
+      "explanation": "Die große Oberfläche der Lungenbläschen ermöglicht den Gasaustausch. Weniger nutzbare Fläche kann ihn erschweren.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -319,14 +319,14 @@
       "topic": "atmung",
       "competency": "atmung",
       "difficulty": 2,
-      "prompt": "Was passiert beim Gasaustausch in den Lungenbläschen?",
+      "prompt": "An den Lungenbläschen treffen sauerstoffarme Blutgefäße auf eingeatmete Luft. Welche Richtung ist typisch?",
       "options": [
-        "Blut wird vollständig durch Luft ersetzt.",
-        "Nahrung wird in Knochen umgewandelt.",
-        "Sauerstoff gelangt ins Blut, Kohlenstoffdioxid in die Atemluft."
+        "Sauerstoff gelangt ins Blut, Kohlenstoffdioxid aus dem Blut in die Atemluft.",
+        "Beide Gase gelangen ausschließlich aus der Luft ins Blut.",
+        "Sauerstoff wird dort in Kohlenstoffdioxid umgewandelt."
       ],
-      "correct": 2,
-      "explanation": "Die dünnen Wände der Lungenbläschen ermöglichen den Austausch der Atemgase zwischen Luft und Blut.",
+      "correct": 0,
+      "explanation": "Die Gase diffundieren entlang ihrer Konzentrationsunterschiede durch die dünnen Austauschflächen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -338,15 +338,15 @@
       "subject": "biology",
       "topic": "kreislauf",
       "competency": "kreislauf",
-      "difficulty": 1,
-      "prompt": "Welche Aufgabe hat das Herz?",
+      "difficulty": 2,
+      "prompt": "Beim Laufen benötigen Muskeln mehr Sauerstoff. Wie unterstützt das Herz die Versorgung?",
       "options": [
-        "Es bildet den größten Teil der Atemluft.",
-        "Es pumpt Blut durch den Körper.",
-        "Es verdaut die Nahrung im Darm."
+        "Es kann mehr Blut pro Minute durch den Kreislauf pumpen.",
+        "Es erzeugt den Sauerstoff selbst aus Blut.",
+        "Es transportiert Luft direkt durch die Knochen."
       ],
-      "correct": 1,
-      "explanation": "Das Herz ist eine Muskelpumpe. Es hält den Blutkreislauf in Bewegung.",
+      "correct": 0,
+      "explanation": "Das Herz hält den Blutstrom aufrecht. Eine erhöhte Pumpleistung kann den Sauerstofftransport zu arbeitenden Muskeln steigern.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -359,14 +359,14 @@
       "topic": "kreislauf",
       "competency": "kreislauf",
       "difficulty": 2,
-      "prompt": "Welche Blutbestandteile transportieren vor allem Sauerstoff?",
+      "prompt": "Zwei gleich große Blutproben enthalten unterschiedlich viele rote Blutkörperchen. Warum ist das für den Sauerstofftransport wichtig?",
       "options": [
-        "Rote Blutkörperchen.",
-        "Verdauungsenzyme.",
-        "Blutplättchen."
+        "Rote Blutkörperchen enthalten Hämoglobin, das Sauerstoff bindet.",
+        "Nur Blutplättchen binden den gesamten Sauerstoff.",
+        "Die Anzahl roter Blutkörperchen hat grundsätzlich keinen Bezug zum Transport."
       ],
       "correct": 0,
-      "explanation": "Rote Blutkörperchen enthalten Hämoglobin. Dieser rote Blutfarbstoff bindet Sauerstoff.",
+      "explanation": "Hämoglobin in roten Blutkörperchen trägt den größten Teil des Sauerstoffs im Blut.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -378,15 +378,15 @@
       "subject": "biology",
       "topic": "verdauung",
       "competency": "verdauung",
-      "difficulty": 1,
-      "prompt": "Wo werden die meisten Nährstoffe ins Blut oder in die Lymphe aufgenommen?",
+      "difficulty": 2,
+      "prompt": "Nahrung ist verdaut, doch die Dünndarmoberfläche ist geschädigt. Welcher nächste Schritt kann erschwert sein?",
       "options": [
-        "Im Dünndarm.",
-        "In der Speiseröhre.",
-        "In der Harnblase."
+        "Die Aufnahme vieler Nährstoffe in Blut oder Lymphe.",
+        "Das erste Kauen der Nahrung.",
+        "Die Einatmung in die Lungenbläschen."
       ],
       "correct": 0,
-      "explanation": "Der Dünndarm besitzt eine große Oberfläche. Dort werden die meisten verdauten Nährstoffe aufgenommen.",
+      "explanation": "Verdauung zerlegt Nahrung; Aufnahme über die Dünndarmwand bringt viele Nährstoffe in den Körperkreislauf.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -399,14 +399,14 @@
       "topic": "verdauung",
       "competency": "verdauung",
       "difficulty": 2,
-      "prompt": "Was ist eine wichtige Aufgabe von Verdauungsenzymen?",
+      "prompt": "Stärke kann nicht in unveränderter Form in großen Mengen aufgenommen werden. Welche Aufgabe übernehmen Verdauungsenzyme?",
       "options": [
-        "Knochen miteinander verschweißen.",
-        "Sauerstoff in Licht umwandeln.",
-        "Nährstoffe in kleinere Bausteine zerlegen."
+        "Sie zerlegen große Nährstoffmoleküle in kleinere Bausteine.",
+        "Sie ersetzen die Aufnahme der Bausteine ins Blut.",
+        "Sie erzeugen Nahrung ausschließlich aus Luft."
       ],
-      "correct": 2,
-      "explanation": "Enzyme ermöglichen die Zerlegung großer Nährstoffmoleküle, damit ihre Bausteine aufgenommen werden können.",
+      "correct": 0,
+      "explanation": "Enzyme beschleunigen bestimmte Reaktionen. In der Verdauung helfen sie, verwertbare Bausteine freizusetzen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -418,15 +418,15 @@
       "subject": "biology",
       "topic": "ernaehrung",
       "competency": "ernaehrung",
-      "difficulty": 1,
-      "prompt": "Welcher Nährstoff liefert dem Körper Energie?",
+      "difficulty": 2,
+      "prompt": "Vor einer längeren Bewegung benötigt der Körper Energie. Welche Aussage zu Nährstoffen ist richtig?",
       "options": [
-        "Kohlenhydrate.",
-        "Kochsalz.",
-        "Wasser."
+        "Kohlenhydrate und Fette können Energie liefern.",
+        "Vitamine liefern den größten Teil der täglichen Energie.",
+        "Wasser liefert dieselbe Energie wie Zucker."
       ],
       "correct": 0,
-      "explanation": "Kohlenhydrate können zur Energiegewinnung genutzt werden. Wasser und Mineralsalze sind wichtig, liefern aber keine Energie.",
+      "explanation": "Kohlenhydrate und Fette sind Energieträger. Wasser, Mineralstoffe und Vitamine erfüllen andere wichtige Aufgaben.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -439,14 +439,14 @@
       "topic": "bewegung",
       "competency": "bewegung",
       "difficulty": 2,
-      "prompt": "Warum arbeiten viele Muskeln als Gegenspieler zusammen?",
+      "prompt": "Ein Muskel kann sich zusammenziehen, aber nicht aktiv in die Gegenrichtung drücken. Wie wird ein Arm trotzdem gebeugt und gestreckt?",
       "options": [
-        "Muskeln können aktiv ziehen, aber nicht aktiv schieben.",
-        "Ein einzelner Muskel kann jede Bewegung ausführen.",
-        "Jeder Muskel kann Knochen beliebig verlängern."
+        "Gegenspieler ziehen abwechselnd in unterschiedliche Richtungen.",
+        "Derselbe Muskel drückt den Knochen in beide Richtungen.",
+        "Knochen ziehen sich selbst wie Muskeln zusammen."
       ],
       "correct": 0,
-      "explanation": "Beim Beugen und Strecken ziehen verschiedene Muskeln in entgegengesetzte Richtungen, etwa Bizeps und Trizeps.",
+      "explanation": "Beuger und Strecker wirken zusammen. Für die Gegenbewegung wird jeweils der Gegenspieler aktiv.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -459,14 +459,14 @@
       "topic": "mikrobiologie",
       "competency": "mikrobiologie",
       "difficulty": 2,
-      "prompt": "Was unterscheidet Bakterienzellen von den meisten menschlichen Körperzellen?",
+      "prompt": "Unter dem Mikroskop fehlt einer Zelle ein abgegrenzter Zellkern. Welche Zuordnung passt am ehesten?",
       "options": [
-        "Bakterien besitzen immer viele Organe.",
-        "Menschliche Körperzellen besitzen keine Zellmembran.",
-        "Bakterienzellen haben keinen Zellkern."
+        "Eine Bakterienzelle.",
+        "Eine typische menschliche Muskelzelle.",
+        "Eine gewöhnliche Blattzelle."
       ],
-      "correct": 2,
-      "explanation": "Bakterien besitzen keinen abgegrenzten Zellkern. Die meisten menschlichen Körperzellen besitzen dagegen einen Zellkern; reife rote Blutkörperchen sind eine Ausnahme.",
+      "correct": 0,
+      "explanation": "Bakterien besitzen keinen von einer Kernhülle umgebenen Zellkern. Ihre Erbinformation liegt anders organisiert vor.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -479,14 +479,14 @@
       "topic": "mikrobiologie",
       "competency": "mikrobiologie",
       "difficulty": 2,
-      "prompt": "Warum sind nicht alle Bakterien schädlich?",
+      "prompt": "Nicht jede Bakterienart soll aus dem Darm entfernt werden. Welche Begründung passt?",
       "options": [
-        "Bakterien können grundsätzlich nicht leben.",
-        "Alle Bakterien sind Pflanzen.",
-        "Viele übernehmen nützliche Aufgaben, etwa im Darm oder beim Zersetzen."
+        "Bestimmte Bakterien unterstützen nützliche Vorgänge im Darm.",
+        "Alle Bakterien lösen dieselben Krankheiten aus.",
+        "Bakterien besitzen grundsätzlich keinen Stoffwechsel."
       ],
-      "correct": 2,
-      "explanation": "Bakterien erfüllen viele wichtige Funktionen. Nur ein Teil kann Krankheiten verursachen.",
+      "correct": 0,
+      "explanation": "Bakterien haben unterschiedliche Eigenschaften. Viele schaden nicht und einige unterstützen etwa die Verdauung.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -499,14 +499,14 @@
       "topic": "abwehr",
       "competency": "abwehr",
       "difficulty": 2,
-      "prompt": "Welche Aufgabe hat das Immunsystem?",
+      "prompt": "Nach Kontakt mit einem Erreger reagiert der Körper mit Abwehrvorgängen. Welche Aufgabe hat dabei das Immunsystem?",
       "options": [
-        "Krankheitserreger und andere Gefahren abwehren.",
-        "Die Knochenlänge direkt messen.",
-        "Licht für die Fotosynthese sammeln."
+        "Es erkennt und bekämpft unter anderem Krankheitserreger.",
+        "Es schützt allein durch das Pumpen des Herzens.",
+        "Es verhindert jede Erkrankung mit vollständiger Sicherheit."
       ],
       "correct": 0,
-      "explanation": "Das Immunsystem erkennt und bekämpft unter anderem Krankheitserreger. Verschiedene Zellen und Stoffe wirken dabei zusammen.",
+      "explanation": "Verschiedene Zellen und Abwehrmechanismen wirken zusammen. Die Abwehr kann schützen, garantiert aber keine vollständige Unverletzbarkeit.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.2; 3.3",
@@ -518,15 +518,15 @@
       "subject": "biology",
       "topic": "nervensystem",
       "competency": "nervensystem",
-      "difficulty": 1,
-      "prompt": "Was gehört zum zentralen Nervensystem des Menschen?",
+      "difficulty": 2,
+      "prompt": "Eine Verletzung des Rückenmarks kann Bewegungen beeinträchtigen. Warum betrifft sie einen Teil des zentralen Nervensystems?",
       "options": [
-        "Gehirn und Rückenmark.",
-        "Herz und Lunge.",
-        "Magen und Darm."
+        "Gehirn und Rückenmark bilden gemeinsam das zentrale Nervensystem.",
+        "Nur Nerven in den Fingern gehören dazu.",
+        "Das Rückenmark ist ausschließlich ein Knochen."
       ],
       "correct": 0,
-      "explanation": "Gehirn und Rückenmark bilden das zentrale Nervensystem. Dort werden viele Informationen verarbeitet.",
+      "explanation": "Das zentrale Nervensystem verarbeitet Informationen und steuert viele Körpervorgänge; Rückenmark und Gehirn gehören dazu.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.4",
@@ -558,15 +558,15 @@
       "subject": "biology",
       "topic": "sinnesorgane",
       "competency": "sinnesorgane",
-      "difficulty": 1,
-      "prompt": "Welches Sinnesorgan nimmt Lichtreize auf?",
+      "difficulty": 2,
+      "prompt": "Licht fällt ins Auge, aber die Sinneszellen der Netzhaut reagieren nicht. Welcher Schritt des Sehens ist unmittelbar gestört?",
       "options": [
-        "Das Ohr.",
-        "Das Auge.",
-        "Die Zunge."
+        "Die Umwandlung des Lichtreizes in Nervensignale.",
+        "Die Aufnahme von Schall durch das Trommelfell.",
+        "Die Zerlegung von Nährstoffen durch Enzyme."
       ],
-      "correct": 1,
-      "explanation": "Lichtreizaufnahme ermöglicht das Sehen. Dafür besitzt das Auge spezialisierte Sinneszellen.",
+      "correct": 0,
+      "explanation": "Lichtempfindliche Sinneszellen wandeln den Reiz in Signale um, die im Nervensystem weiterverarbeitet werden.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.4",
@@ -579,14 +579,14 @@
       "topic": "sinnesorgane",
       "competency": "sinnesorgane",
       "difficulty": 2,
-      "prompt": "Welche Aufgabe hat die Pupille im Zusammenspiel mit der Iris?",
+      "prompt": "Beim Wechsel von Dunkelheit ins Sonnenlicht wird die Pupille kleiner. Wozu dient diese Reaktion?",
       "options": [
-        "Die eintretende Lichtmenge mitregeln.",
-        "Schallwellen in Luft erzeugen.",
-        "Die Nahrung zerkleinern."
+        "Sie begrenzt die Lichtmenge, die ins Auge gelangt.",
+        "Sie vergrößert die Netzhaut dauerhaft.",
+        "Sie verhindert, dass überhaupt noch Licht ins Auge fällt."
       ],
       "correct": 0,
-      "explanation": "Die Pupille ist die Öffnung in der Iris. Ihre Größe verändert, wie viel Licht ins Auge gelangt.",
+      "explanation": "Die Iris verändert die Pupillenweite. Bei starkem Licht wird der Lichteinfall normalerweise vermindert.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.4",
@@ -599,14 +599,14 @@
       "topic": "sinnesorgane",
       "competency": "sinnesorgane",
       "difficulty": 2,
-      "prompt": "Wo im Auge sitzen die lichtempfindlichen Sinneszellen?",
+      "prompt": "Die Linse bildet ein Bild auf der Netzhaut ab. Warum reicht eine intakte Linse allein für das Sehen nicht?",
       "options": [
-        "In der Augenbraue.",
-        "Im Augenlid.",
-        "In der Netzhaut."
+        "Sinneszellen und Nervensystem müssen das Bild in Signale umsetzen und verarbeiten.",
+        "Das Bild muss zuerst in die Lunge gelangen.",
+        "Die Iris muss das Bild aus Nährstoffen zusammensetzen."
       ],
-      "correct": 2,
-      "explanation": "Die Netzhaut enthält unter anderem Stäbchen und Zapfen. Sie wandeln Lichtreize in elektrische Signale um.",
+      "correct": 0,
+      "explanation": "Die Linse bündelt Licht; das eigentliche Wahrnehmen erfordert Sinneszellen und die Verarbeitung im Gehirn.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.4",
@@ -698,15 +698,15 @@
       "subject": "biology",
       "topic": "oekosystem",
       "competency": "oekosystem",
-      "difficulty": 1,
-      "prompt": "Was umfasst ein Ökosystem?",
+      "difficulty": 2,
+      "prompt": "Ein Teich wird untersucht. Warum müssen neben Fischen und Pflanzen auch Wasser, Licht und Temperatur erfasst werden?",
       "options": [
-        "Lebensraum und die darin lebenden Organismen mit ihren Beziehungen.",
-        "Nur die unbelebten Steine eines Gebiets.",
-        "Nur die Tiere eines Zoos."
+        "Ein Ökosystem umfasst Lebewesen und ihre unbelebte Umwelt mit Wechselwirkungen.",
+        "Unbelebte Faktoren wirken grundsätzlich nicht auf Lebewesen.",
+        "Ein Ökosystem besteht nur aus der häufigsten Tierart."
       ],
       "correct": 0,
-      "explanation": "Ein Ökosystem verbindet den Lebensraum, seine Lebensgemeinschaft und ihre Wechselwirkungen.",
+      "explanation": "Lebensgemeinschaft und Lebensraum sind miteinander verbunden. Umweltfaktoren beeinflussen die Lebensbedingungen.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.4",
@@ -738,15 +738,15 @@
       "subject": "biology",
       "topic": "nahrungskette",
       "competency": "nahrungskette",
-      "difficulty": 1,
-      "prompt": "Welche Nahrungskette ist sinnvoll?",
+      "difficulty": 2,
+      "prompt": "Auf einer Wiese frisst eine Raupe Blätter und wird von einer Meise gefressen. Welcher Zusammenhang passt?",
       "options": [
-        "Kaninchen → Fuchs → Gras.",
-        "Gras → Kaninchen → Fuchs.",
-        "Fuchs → Gras → Kaninchen."
+        "Pflanze → Raupe → Meise.",
+        "Meise → Pflanze → Raupe.",
+        "Raupe → Meise → Pflanze."
       ],
-      "correct": 1,
-      "explanation": "Der Pfeil bedeutet hier „wird gefressen von“. Das Kaninchen frisst Gras, der Fuchs kann Kaninchen fressen.",
+      "correct": 0,
+      "explanation": "Die Pfeile zeigen die Weitergabe von Nahrung und darin gebundener Energie vom gefressenen zum fressenden Organismus.",
       "curriculum": {
         "sourceId": "lsa-biology-2019",
         "section": "3.4",

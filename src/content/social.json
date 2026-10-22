@@ -1,7 +1,7 @@
 {
   "version": 2,
   "status": "practice",
-  "revision": "2026.10.17.1",
+  "revision": "2026.10.22.1",
   "reviewStatus": "teacher-review-pending",
   "sources": [
     {
@@ -18,15 +18,15 @@
       "subject": "social",
       "topic": "demokratie",
       "competency": "demokratie",
-      "difficulty": 1,
-      "prompt": "Was bedeutet Demokratie im Kern?",
+      "difficulty": 2,
+      "prompt": "Eine gewählte Mehrheit möchte dauerhaft alle weiteren Wahlen abschaffen. Warum ist das demokratisch problematisch?",
       "options": [
-        "Eine Person entscheidet ohne Kontrolle.",
-        "Nur sehr reiche Menschen dürfen mitbestimmen.",
-        "Die Bevölkerung bestimmt politisch mit."
+        "Politische Macht muss weiterhin kontrollierbar und durch Wahlen ablösbar bleiben.",
+        "Ein einziger Wahlsieg erlaubt unbegrenzte Herrschaft.",
+        "Demokratie verlangt nur eine anfängliche Zustimmung."
       ],
-      "correct": 2,
-      "explanation": "In einer Demokratie geht die Staatsgewalt vom Volk aus. Mitbestimmung erfolgt unter anderem durch Wahlen.",
+      "correct": 0,
+      "explanation": "Demokratie braucht fortdauernde Beteiligung, Kontrolle und die Möglichkeit eines Machtwechsels.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -38,15 +38,15 @@
       "subject": "social",
       "topic": "grundrechte",
       "competency": "grundrechte",
-      "difficulty": 1,
-      "prompt": "Für wen gilt die Menschenwürde?",
+      "difficulty": 2,
+      "prompt": "Eine Person hat eine Straftat begangen. Welche Aussage über ihre Menschenwürde bleibt richtig?",
       "options": [
-        "Nur für Menschen mit Arbeit.",
-        "Nur für deutsche Staatsangehörige.",
-        "Für jeden Menschen."
+        "Auch diese Person besitzt Menschenwürde.",
+        "Menschenwürde wird erst nach einer Strafe wieder erworben.",
+        "Nur die Mehrheit entscheidet, wer Menschenwürde besitzt."
       ],
-      "correct": 2,
-      "explanation": "Die Menschenwürde steht jedem Menschen zu. Sie hängt weder von Herkunft noch von Leistung ab.",
+      "correct": 0,
+      "explanation": "Die Menschenwürde kommt jedem Menschen zu. Rechtmäßige Strafen heben sie nicht auf.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -58,15 +58,15 @@
       "subject": "social",
       "topic": "grundrechte",
       "competency": "grundrechte",
-      "difficulty": 1,
-      "prompt": "Was bedeutet Gleichberechtigung?",
+      "difficulty": 2,
+      "prompt": "Zwei Bewerber sind gleich geeignet. Eine Person wird allein wegen ihres Geschlechts ausgeschlossen. Welcher Grundsatz wird verletzt?",
       "options": [
-        "Menschen haben gleiche Rechte.",
-        "Alle müssen denselben Beruf wählen.",
-        "Alle müssen dieselbe Meinung haben."
+        "Gleichberechtigung.",
+        "Das Gebot, stets dieselbe Person einzustellen.",
+        "Die Verpflichtung zu unterschiedlichen Rechten nach Geschlecht."
       ],
       "correct": 0,
-      "explanation": "Gleichberechtigung bedeutet gleiche Rechte. Verschiedene Meinungen und Lebenswege bleiben möglich.",
+      "explanation": "Eine Benachteiligung allein wegen des Geschlechts widerspricht dem Grundsatz gleicher Rechte.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -78,15 +78,15 @@
       "subject": "social",
       "topic": "parlament",
       "competency": "parlament",
-      "difficulty": 1,
-      "prompt": "Wie heißt das Parlament auf Bundesebene in Deutschland?",
+      "difficulty": 2,
+      "prompt": "Ein neues Bundesgesetz wird parlamentarisch beraten. Welche Institution ist dafür auf Bundesebene zentral?",
       "options": [
-        "Bundespolizei",
-        "Bundestag",
-        "Bundeskabinett"
+        "Der Deutsche Bundestag.",
+        "Ausschließlich ein kommunaler Sportverein.",
+        "Nur der Rat einer einzelnen Gemeinde."
       ],
-      "correct": 1,
-      "explanation": "Der Bundestag ist das gewählte Parlament des Bundes. Das Bundeskabinett gehört zur Regierung.",
+      "correct": 0,
+      "explanation": "Der Bundestag ist das Parlament auf Bundesebene und wirkt zentral an der Bundesgesetzgebung mit.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -99,14 +99,14 @@
       "topic": "parlament",
       "competency": "parlament",
       "difficulty": 2,
-      "prompt": "Welche Aufgabe hat der Bundestag?",
+      "prompt": "Abgeordnete verlangen von der Bundesregierung Auskunft zu einem Vorhaben. Welche Aufgabe des Bundestages wird deutlich?",
       "options": [
-        "Gesetze beschließen und die Regierung kontrollieren.",
-        "Alle Gerichtsverfahren selbst entscheiden.",
-        "Alle Schulen persönlich leiten."
+        "Die parlamentarische Kontrolle der Regierung.",
+        "Die Entscheidung sämtlicher einzelner Gerichtsurteile.",
+        "Die unmittelbare Leitung jedes kommunalen Vereins."
       ],
       "correct": 0,
-      "explanation": "Der Bundestag ist an der Gesetzgebung beteiligt und kontrolliert die Bundesregierung.",
+      "explanation": "Neben Gesetzgebung gehört Regierungskontrolle zu den Aufgaben des Parlaments.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -119,14 +119,14 @@
       "topic": "regierung",
       "competency": "regierung",
       "difficulty": 2,
-      "prompt": "Wer wählt die Bundeskanzlerin oder den Bundeskanzler?",
+      "prompt": "Nach einer Bundestagswahl steht die Wahl des Regierungschefs an. Wer wählt die Bundeskanzlerin oder den Bundeskanzler?",
       "options": [
-        "Der Bundesrat allein.",
         "Der Bundestag.",
-        "Alle Gerichte gemeinsam."
+        "Alle Bürgermeister gemeinsam.",
+        "Der Bundesrat allein."
       ],
-      "correct": 1,
-      "explanation": "Die Mitglieder des Bundestages wählen die Bundeskanzlerin oder den Bundeskanzler.",
+      "correct": 0,
+      "explanation": "Die Bundeskanzlerin oder der Bundeskanzler wird vom Bundestag gewählt. Die Bundestagswahl ist keine direkte Kanzlerwahl.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -138,15 +138,15 @@
       "subject": "social",
       "topic": "foederalismus",
       "competency": "foederalismus",
-      "difficulty": 1,
-      "prompt": "Was ist Sachsen-Anhalt?",
+      "difficulty": 2,
+      "prompt": "Eine Frage betrifft Schulen in Sachsen-Anhalt. Welche staatliche Ebene ist Sachsen-Anhalt?",
       "options": [
-        "Eine Stadt in Bayern.",
-        "Ein selbstständiger Kontinent.",
-        "Ein Bundesland Deutschlands."
+        "Ein Bundesland mit eigenen Zuständigkeiten.",
+        "Eine einzelne Kommune ohne Landesebene.",
+        "Ein anderer souveräner Mitgliedstaat innerhalb Deutschlands."
       ],
-      "correct": 2,
-      "explanation": "Deutschland ist ein Bundesstaat. Sachsen-Anhalt ist eines seiner Bundesländer.",
+      "correct": 0,
+      "explanation": "Deutschland ist föderal aufgebaut. Sachsen-Anhalt gehört als Land dazu und besitzt eigene staatliche Aufgaben.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.2",
@@ -159,14 +159,14 @@
       "topic": "foederalismus",
       "competency": "foederalismus",
       "difficulty": 2,
-      "prompt": "Was bedeutet Föderalismus?",
+      "prompt": "Eine politische Aufgabe wird vom Bund, eine andere von Ländern wahrgenommen. Welches Prinzip erklärt die Verteilung?",
       "options": [
-        "Alle Entscheidungen fallen in einer einzigen Gemeinde.",
-        "Es gibt keine Bundesländer.",
-        "Aufgaben sind zwischen Bund und Ländern verteilt."
+        "Föderalismus.",
+        "Eine einzige zuständige Gemeinde für ganz Deutschland.",
+        "Die Abschaffung aller Landesparlamente."
       ],
-      "correct": 2,
-      "explanation": "Im Bundesstaat teilen sich Bund und Länder staatliche Aufgaben und Befugnisse.",
+      "correct": 0,
+      "explanation": "Im Bundesstaat sind Zuständigkeiten zwischen Bund und Ländern verteilt.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.2",
@@ -179,14 +179,14 @@
       "topic": "foederalismus",
       "competency": "foederalismus",
       "difficulty": 2,
-      "prompt": "Wer wirkt im Bundesrat an der Bundespolitik mit?",
+      "prompt": "Ein Bundesgesetz berührt Interessen der Länder. Über welche Institution wirken deren Regierungen an der Bundespolitik mit?",
       "options": [
-        "Ausschließlich Richter des Bundesverfassungsgerichts.",
-        "Mitglieder der Landesregierungen.",
-        "Nur direkt gewählte Klassensprecher."
+        "Über den Bundesrat.",
+        "Über eine gemeinsame Redaktion aller Zeitungen.",
+        "Ausschließlich über den Europäischen Gerichtshof."
       ],
-      "correct": 1,
-      "explanation": "Im Bundesrat vertreten Mitglieder der Landesregierungen die Länder.",
+      "correct": 0,
+      "explanation": "Im Bundesrat wirken die Länder durch Mitglieder ihrer Regierungen an Gesetzgebung und Verwaltung des Bundes mit.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.2",
@@ -198,15 +198,15 @@
       "subject": "social",
       "topic": "landespolitik",
       "competency": "landespolitik",
-      "difficulty": 1,
-      "prompt": "Wie heißt das Parlament von Sachsen-Anhalt?",
+      "difficulty": 2,
+      "prompt": "Die Regierung Sachsen-Anhalts soll parlamentarisch kontrolliert werden. Welche Institution erfüllt diese Aufgabe auf Landesebene?",
       "options": [
-        "Bundeskabinett",
-        "Landtag",
-        "Stadtrat von Berlin"
+        "Der Landtag von Sachsen-Anhalt.",
+        "Ausschließlich der Rat einer einzelnen Stadt.",
+        "Der Bundespräsident als Landesparlament."
       ],
-      "correct": 1,
-      "explanation": "Der Landtag ist das gewählte Parlament des Landes Sachsen-Anhalt.",
+      "correct": 0,
+      "explanation": "Der Landtag ist das gewählte Parlament des Landes. Er beschließt Landesgesetze und kontrolliert die Landesregierung.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.2",
@@ -218,15 +218,15 @@
       "subject": "social",
       "topic": "kommunalpolitik",
       "competency": "kommunalpolitik",
-      "difficulty": 1,
-      "prompt": "Was ist eine Kommune?",
+      "difficulty": 2,
+      "prompt": "Ein örtlicher Spielplatz soll erneuert werden. Welche Ebene ist für ein solches Anliegen zunächst besonders naheliegend?",
       "options": [
-        "Eine Gemeinde, Stadt oder ein Landkreis.",
-        "Ein Ministerium der Bundesregierung.",
-        "Eine Fraktion im Bundestag."
+        "Die zuständige Kommune.",
+        "Unmittelbar die Vollversammlung der Vereinten Nationen.",
+        "Ausschließlich ein ausländisches Parlament."
       ],
       "correct": 0,
-      "explanation": "Kommunen sind örtliche Gebietskörperschaften, etwa Gemeinden, Städte und Landkreise.",
+      "explanation": "Städte und Gemeinden kümmern sich um viele örtliche Angelegenheiten. Zuständigkeiten müssen im Einzelfall geprüft werden.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.2",
@@ -258,15 +258,15 @@
       "subject": "social",
       "topic": "wahlen",
       "competency": "wahlen",
-      "difficulty": 1,
-      "prompt": "Was bedeutet „geheime Wahl“?",
+      "difficulty": 2,
+      "prompt": "Ein Arbeitgeber verlangt ein Foto des ausgefüllten Stimmzettels. Warum widerspricht das dem Wahlgrundsatz?",
       "options": [
-        "Niemand muss offenlegen, wie er gewählt hat.",
-        "Niemand erfährt das Wahlergebnis.",
-        "Nur heimliche Kandidaten treten an."
+        "Die geheime Wahl soll verhindern, dass andere die Stimmabgabe kontrollieren.",
+        "Arbeitgeber dürfen grundsätzlich jede Stimme vorschreiben.",
+        "Geheim bedeutet nur, dass Wahltermine unbekannt bleiben."
       ],
       "correct": 0,
-      "explanation": "Die einzelne Wahlentscheidung bleibt geschützt. Das Gesamtergebnis wird dagegen veröffentlicht.",
+      "explanation": "Wählerinnen und Wähler müssen ihre Entscheidung nicht gegenüber anderen offenlegen.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -279,14 +279,14 @@
       "topic": "wahlen",
       "competency": "wahlen",
       "difficulty": 2,
-      "prompt": "Was bedeutet „freie Wahl“?",
+      "prompt": "Eine Person wird mit Nachteilen bedroht, falls sie eine bestimmte Partei wählt. Welcher Wahlgrundsatz ist betroffen?",
       "options": [
-        "Die Wahlentscheidung erfolgt ohne unzulässigen Zwang.",
-        "Man muss die stärkste Partei wählen.",
-        "Die Regierung füllt alle Stimmzettel aus."
+        "Die Freiheit der Wahlentscheidung.",
+        "Das Recht, Wahlentscheidungen anderer zu erzwingen.",
+        "Die Pflicht, nur öffentlich zu wählen."
       ],
       "correct": 0,
-      "explanation": "Wahlfreiheit schützt die eigene Entscheidung. Drohung oder Zwang widersprechen ihr.",
+      "explanation": "Eine freie Wahl setzt voraus, dass die Entscheidung ohne unzulässigen Druck getroffen werden kann.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -299,14 +299,14 @@
       "topic": "wahlen",
       "competency": "wahlen",
       "difficulty": 2,
-      "prompt": "Wozu dienen regelmäßige Wahlen?",
+      "prompt": "Warum werden Parlamente in einer Demokratie nicht für unbegrenzte Zeit gewählt?",
       "options": [
-        "Politische Macht wird zeitlich begrenzt und neu vergeben.",
-        "Ein einmal gewähltes Parlament bleibt für immer.",
-        "Gerichte werden dadurch überflüssig."
+        "Regelmäßige Wahlen ermöglichen Kontrolle und einen friedlichen Machtwechsel.",
+        "Weil jedes Gesetz nach jeder Wahl automatisch ungültig wird.",
+        "Weil Wahlversprechen dadurch rechtlich alle erfüllt sein müssen."
       ],
       "correct": 0,
-      "explanation": "Durch Wahlen können Menschen ihre Vertretung bestätigen oder wechseln. Macht bleibt auf Zeit verliehen.",
+      "explanation": "Befristete Mandate geben den Wahlberechtigten wiederholt Gelegenheit, Zustimmung oder Ablehnung auszudrücken.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -319,13 +319,13 @@
       "topic": "parteien",
       "competency": "parteien",
       "difficulty": 2,
-      "prompt": "Was ist eine politische Partei?",
+      "prompt": "Mehrere Menschen wollen dauerhaft gemeinsame politische Ziele verfolgen und an Wahlen teilnehmen. Welche Organisationsform passt?",
       "options": [
-        "Ein Gericht für Verkehrsdelikte.",
-        "Eine Vereinigung mit politischen Zielen.",
-        "Jede beliebige Chatgruppe."
+        "Eine politische Partei.",
+        "Eine unabhängige Gerichtsverhandlung.",
+        "Ein einzelner privater Kaufvertrag."
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": "Parteien bündeln politische Vorstellungen und wirken an der politischen Willensbildung mit.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
@@ -339,14 +339,14 @@
       "topic": "koalition",
       "competency": "koalition",
       "difficulty": 2,
-      "prompt": "Was bedeutet Koalition im Parlament?",
+      "prompt": "Keine Partei erreicht allein eine Mehrheit. Zwei Parteien vereinbaren eine gemeinsame Regierung. Was entsteht?",
       "options": [
-        "Ein Gericht übernimmt die Regierung.",
-        "Parteien arbeiten zur Regierungsbildung zusammen.",
-        "Alle Parteien werden automatisch verboten."
+        "Eine Koalition.",
+        "Ein neues unabhängiges Gericht.",
+        "Die automatische Auflösung aller Wählerstimmen."
       ],
-      "correct": 1,
-      "explanation": "Eine Koalition ist ein Bündnis mehrerer Parteien, häufig um gemeinsam eine Regierung zu tragen.",
+      "correct": 0,
+      "explanation": "Parteien können zusammenarbeiten, um eine parlamentarische Mehrheit und eine gemeinsame Regierung zu bilden.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -359,14 +359,14 @@
       "topic": "opposition",
       "competency": "opposition",
       "difficulty": 2,
-      "prompt": "Was ist die parlamentarische Opposition?",
+      "prompt": "Eine Fraktion gehört nicht zur Regierung und prüft deren Vorschläge kritisch. Welche Rolle erfüllt sie?",
       "options": [
-        "Abgeordnete oder Fraktionen, die die Regierung nicht tragen.",
-        "Alle Mitglieder der Bundesregierung.",
-        "Alle Menschen ohne Wahlrecht."
+        "Die parlamentarische Opposition.",
+        "Die weisungsgebundene Leitung aller Gerichte.",
+        "Die Abschaffung parlamentarischer Kontrolle."
       ],
       "correct": 0,
-      "explanation": "Die Opposition bietet politische Alternativen und kontrolliert das Regierungshandeln.",
+      "explanation": "Opposition kontrolliert Regierungshandeln und bringt eigene politische Alternativen ein.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -379,14 +379,14 @@
       "topic": "gewaltenteilung",
       "competency": "gewaltenteilung",
       "difficulty": 2,
-      "prompt": "Welche drei staatlichen Gewalten werden unterschieden?",
+      "prompt": "Ein Parlament beschließt Gesetze, eine Regierung führt sie aus, Gerichte entscheiden Rechtsstreitigkeiten. Welches Prinzip zeigt das?",
       "options": [
-        "Presse, Werbung und Handel.",
-        "Gesetzgebung, vollziehende Gewalt und Rechtsprechung.",
-        "Schule, Sport und Freizeit."
+        "Die Verteilung staatlicher Macht auf verschiedene Gewalten.",
+        "Die vollständige Zusammenlegung sämtlicher Entscheidungen.",
+        "Die Abschaffung gegenseitiger Kontrolle."
       ],
-      "correct": 1,
-      "explanation": "Legislative, Exekutive und Judikative teilen staatliche Aufgaben und begrenzen Macht.",
+      "correct": 0,
+      "explanation": "Gesetzgebung, vollziehende Gewalt und Rechtsprechung sind verschiedene staatliche Funktionen.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -399,14 +399,14 @@
       "topic": "rechtsstaat",
       "competency": "rechtsstaat",
       "difficulty": 2,
-      "prompt": "Was kennzeichnet einen Rechtsstaat?",
+      "prompt": "Eine Behörde handelt gegen ein Gesetz. Was muss in einem Rechtsstaat grundsätzlich möglich sein?",
       "options": [
-        "Nur Privatpersonen müssen Gesetze beachten.",
-        "Auch staatliches Handeln ist an Recht und Gesetz gebunden.",
-        "Die Regierung darf jedes Urteil ignorieren."
+        "Ihr Handeln rechtlich überprüfen zu lassen.",
+        "Jede behördliche Entscheidung ist automatisch unangreifbar.",
+        "Nur die Behörde selbst darf bestimmen, welche Gesetze gelten."
       ],
-      "correct": 1,
-      "explanation": "Im Rechtsstaat gelten rechtliche Bindungen auch für den Staat. Gerichte prüfen staatliches Handeln.",
+      "correct": 0,
+      "explanation": "Auch staatliche Stellen sind an Recht und Gesetz gebunden. Rechtsschutz ermöglicht Kontrolle.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -419,14 +419,14 @@
       "topic": "justiz",
       "competency": "justiz",
       "difficulty": 2,
-      "prompt": "Was bedeutet die Unabhängigkeit von Gerichten?",
+      "prompt": "Eine Ministerin möchte einem Gericht das gewünschte Urteil vorschreiben. Welcher Grundsatz steht dem entgegen?",
       "options": [
-        "Richter entscheiden nach Recht, nicht nach Regierungsanweisung.",
-        "Richter dürfen beliebige Regeln erfinden.",
-        "Gerichte brauchen keine Gesetze."
+        "Die Unabhängigkeit der Rechtsprechung.",
+        "Die Pflicht der Gerichte, politische Wünsche zu erfüllen.",
+        "Der Vorrang persönlicher Beziehungen vor Gesetzen."
       ],
       "correct": 0,
-      "explanation": "Die Unabhängigkeit soll Entscheidungen nach Recht und Gesetz sichern, ohne politische Weisungen.",
+      "explanation": "Richterliche Entscheidungen dürfen nicht durch politische Einzelweisungen gesteuert werden.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -439,14 +439,14 @@
       "topic": "grundrechte",
       "competency": "grundrechte",
       "difficulty": 2,
-      "prompt": "Welches Beispiel zeigt Religionsfreiheit?",
+      "prompt": "Zwei Personen entscheiden unterschiedlich über ihre Religion. Welche Regel passt zur Religionsfreiheit?",
       "options": [
-        "Alle müssen dieselbe Religion annehmen.",
-        "Nur der Staat darf religiöse Fragen stellen.",
-        "Menschen dürfen ihren Glauben wählen oder keinen haben."
+        "Beide dürfen im geschützten Rahmen eine Religion ausüben oder ohne Religion leben.",
+        "Nur die häufigste Religion darf frei gewählt werden.",
+        "Der Staat muss allen Menschen dieselbe Überzeugung vorschreiben."
       ],
-      "correct": 2,
-      "explanation": "Religionsfreiheit schützt auch die Entscheidung, keiner Religion anzugehören.",
+      "correct": 0,
+      "explanation": "Religionsfreiheit schützt religiöse Überzeugungen und auch die Entscheidung, keiner Religion anzugehören.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -459,14 +459,14 @@
       "topic": "meinungsfreiheit",
       "competency": "meinungsfreiheit",
       "difficulty": 2,
-      "prompt": "Was passt zur Meinungsfreiheit?",
+      "prompt": "Jemand kritisiert eine politische Entscheidung scharf. Welche Beurteilung ist sachgerecht?",
       "options": [
-        "Politische Entscheidungen öffentlich kritisieren dürfen.",
-        "Andere Menschen uneingeschränkt bedrohen dürfen.",
-        "Jede fremde Meinung verbieten dürfen."
+        "Kritik ist grundsätzlich geschützt; gesetzliche Grenzen bleiben zu beachten.",
+        "Politische Kritik ist immer verboten.",
+        "Meinungsfreiheit hebt die Rechte anderer grundsätzlich auf."
       ],
       "correct": 0,
-      "explanation": "Meinungsfreiheit schützt Kritik und unterschiedliche Auffassungen. Sie hebt andere Rechte und gesetzliche Grenzen nicht auf.",
+      "explanation": "Meinungsfreiheit schützt politische Auseinandersetzung. Sie gilt nicht grenzenlos, etwa gegenüber anderen geschützten Rechten.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -479,14 +479,14 @@
       "topic": "presse",
       "competency": "presse",
       "difficulty": 2,
-      "prompt": "Welche Aufgabe hat eine freie Presse in der Demokratie?",
+      "prompt": "Eine Zeitung veröffentlicht belegte Kritik an der Regierung. Warum ist das für eine Demokratie wichtig?",
       "options": [
-        "Nur Regierungswerbung veröffentlichen.",
-        "Recherchieren, informieren und Macht kritisch begleiten.",
-        "Gerichte durch Schlagzeilen ersetzen."
+        "Unabhängige Informationen ermöglichen öffentliche Kontrolle.",
+        "Nur die Regierung darf politische Vorgänge bewerten.",
+        "Jede kritische Veröffentlichung ersetzt unmittelbar ein Gerichtsurteil."
       ],
-      "correct": 1,
-      "explanation": "Freie Medien können Missstände aufdecken und Informationen für die Meinungsbildung liefern.",
+      "correct": 0,
+      "explanation": "Freie Medien können Missstände aufdecken und verschiedene Perspektiven zugänglich machen.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -498,15 +498,15 @@
       "subject": "social",
       "topic": "beteiligung",
       "competency": "beteiligung",
-      "difficulty": 1,
-      "prompt": "Wie kannst du dich in der Schule demokratisch beteiligen?",
+      "difficulty": 2,
+      "prompt": "Eine Schulregel soll geändert werden. Welches Vorgehen stärkt demokratische Beteiligung?",
       "options": [
-        "Andere am Reden hindern.",
-        "Stimmen heimlich verändern.",
-        "In der Schülervertretung mitarbeiten."
+        "Argumente sammeln und das Anliegen in der Schülervertretung einbringen.",
+        "Andere durch Drohungen zur Zustimmung zwingen.",
+        "Nur eine unbelegte Behauptung als fertige Mehrheitsentscheidung ausgeben."
       ],
-      "correct": 2,
-      "explanation": "Die Schülervertretung bietet eine Möglichkeit, Anliegen einzubringen und Interessen gemeinsam zu vertreten.",
+      "correct": 0,
+      "explanation": "Demokratische Beteiligung verbindet sachliche Argumente mit den vorgesehenen Verfahren und Vertretungen.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -519,14 +519,14 @@
       "topic": "beteiligung",
       "competency": "beteiligung",
       "difficulty": 2,
-      "prompt": "Was ist eine Petition?",
+      "prompt": "Viele Menschen möchten eine staatliche Stelle auf ein Problem aufmerksam machen. Welcher Weg passt?",
       "options": [
-        "Eine geheime Parteimitgliedschaft.",
-        "Ein Urteil eines Strafgerichts.",
-        "Eine Bitte oder Beschwerde an eine zuständige Stelle."
+        "Eine Bitte oder Beschwerde als Petition einreichen.",
+        "Allein durch eine Petition jedes gewünschte Ergebnis erzwingen.",
+        "Die Prüfung von Zuständigkeiten vollständig ausschließen."
       ],
-      "correct": 2,
-      "explanation": "Mit einer Petition kann ein Anliegen an eine zuständige Stelle oder Volksvertretung herangetragen werden.",
+      "correct": 0,
+      "explanation": "Petitionen ermöglichen, Bitten oder Beschwerden vorzubringen. Eine bestimmte Entscheidung ist damit nicht garantiert.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -539,14 +539,14 @@
       "topic": "konflikte",
       "competency": "konflikte",
       "difficulty": 2,
-      "prompt": "Eine Gruppe streitet über die Nutzung eines Raums. Was hilft zuerst?",
+      "prompt": "Zwei Gruppen beanspruchen denselben Raum zu derselben Zeit. Was hilft zunächst, eine tragfähige Lösung zu finden?",
       "options": [
-        "Sofort die lauteste Person bestimmen lassen.",
-        "Andere Positionen verschweigen.",
-        "Interessen aller Beteiligten klären."
+        "Die jeweiligen Bedürfnisse und zeitlichen Möglichkeiten klären.",
+        "Nur die lautere Gruppe anhören.",
+        "Sofort jede weitere Nutzung verbieten, ohne Gründe zu prüfen."
       ],
-      "correct": 2,
-      "explanation": "Wer die Interessen kennt, kann Lösungen suchen. Lautstärke zeigt nicht, welche Lösung gerecht oder sinnvoll ist.",
+      "correct": 0,
+      "explanation": "Wenn die zugrunde liegenden Interessen bekannt sind, lassen sich Alternativen und mögliche Vereinbarungen prüfen.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -559,14 +559,14 @@
       "topic": "konflikte",
       "competency": "konflikte",
       "difficulty": 2,
-      "prompt": "Was ist ein Kompromiss?",
+      "prompt": "Zwei Gruppen ändern ihre ursprünglichen Forderungen, damit beide den Raum nutzen können. Was kennzeichnet den Kompromiss?",
       "options": [
-        "Eine Einigung, bei der Seiten teilweise nachgeben.",
-        "Immer die Forderung einer einzigen Seite.",
-        "Ein vollständiges Verbot jeder Diskussion."
+        "Beide machen Zugeständnisse für eine gemeinsame Lösung.",
+        "Nur eine Seite muss grundsätzlich auf alles verzichten.",
+        "Alle Interessen werden vollständig ignoriert."
       ],
       "correct": 0,
-      "explanation": "Ein Kompromiss verbindet Interessen. Beteiligte verzichten dabei meist auf einen Teil ihrer Forderungen.",
+      "explanation": "Ein Kompromiss berücksichtigt unterschiedliche Interessen durch gegenseitiges Entgegenkommen.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -618,15 +618,15 @@
       "subject": "social",
       "topic": "diskriminierung",
       "competency": "diskriminierung",
-      "difficulty": 1,
-      "prompt": "Was ist Diskriminierung?",
+      "difficulty": 2,
+      "prompt": "Eine qualifizierte Person wird allein wegen ihrer Herkunft ausgeschlossen. Welche Beurteilung trifft zu?",
       "options": [
-        "Benachteiligung etwa wegen Herkunft oder Behinderung.",
-        "Jede höflich geäußerte andere Meinung.",
-        "Das freiwillige Wählen verschiedener Hobbys."
+        "Es liegt eine Benachteiligung aufgrund eines persönlichen Merkmals vor.",
+        "Es ist automatisch eine sachliche Leistungsbewertung.",
+        "Die Herkunft beweist eine fehlende Eignung."
       ],
       "correct": 0,
-      "explanation": "Diskriminierung benachteiligt Menschen aufgrund bestimmter Merkmale statt nach sachlichen Gründen.",
+      "explanation": "Eine pauschale Benachteiligung wegen Herkunft ist keine Bewertung der tatsächlichen Fähigkeiten.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",
@@ -798,15 +798,15 @@
       "subject": "social",
       "topic": "privatsphaere",
       "competency": "privatsphaere",
-      "difficulty": 1,
-      "prompt": "Was schützt deine Privatsphäre im Netz?",
+      "difficulty": 2,
+      "prompt": "Eine App verlangt für eine einfache Rechenfunktion Zugriff auf deine Kontakte. Welche Reaktion schützt die Privatsphäre?",
       "options": [
-        "Persönliche Daten nur bewusst und sparsam teilen.",
-        "Fremden automatisch alle Kontodaten senden.",
-        "Dein Passwort öffentlich posten."
+        "Prüfen, ob der Zugriff nötig ist, und unnötige Berechtigungen verweigern.",
+        "Jede verlangte Berechtigung ungeprüft freigeben.",
+        "Kontaktlisten grundsätzlich öffentlich veröffentlichen."
       ],
       "correct": 0,
-      "explanation": "Persönliche Daten können weiterverbreitet und missbraucht werden. Bewusstes Teilen verringert unnötige Risiken.",
+      "explanation": "Datensparsamkeit begrenzt unnötige Weitergabe persönlicher Informationen. Eine Funktion rechtfertigt nicht jeden Datenzugriff.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.2",
