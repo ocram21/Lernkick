@@ -6,7 +6,7 @@ import { answerCorrect, storedAttempts } from './helpers';
 import { test, expect } from './appTest';
 for (const subject of ['Mathematik','Deutsch','Sozialkunde','Biologie','Geographie']) test(`${subject}: vollständige Runde, Speicherung, offline`,async({page,context})=>{
   await page.goto('/');
-  await expect(page.getByRole('heading',{name:'Dein Lern-Kick'})).toBeVisible();
+  await expect(page.locator('.calculator-grid')).toBeVisible();
   await page.getByRole('button',{name:new RegExp(subject+', Level ')}).click();if(subject==='Mathematik')await page.getByRole('button',{name:'Runde starten',exact:true}).click();
   for(let i=0;i<10;i++) { await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible(); await answerCorrect(page); await expect(page.locator('.feedback')).toBeVisible(); await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'}).click(); }
   await expect(page.getByRole('heading',{name:/Durchlauf bestanden\.|Weiter üben\./})).toBeVisible();
@@ -18,7 +18,7 @@ for (const subject of ['Mathematik','Deutsch','Sozialkunde','Biologie','Geograph
   await page.reload();
   await expect.poll(()=>page.evaluate(()=>!!navigator.serviceWorker.controller)).toBe(true);
   await context.setOffline(true);await page.reload();
-  await expect(page.getByRole('heading',{name:'Dein Lern-Kick'})).toBeVisible();
+  await expect(page.locator('.calculator-grid')).toBeVisible();
   await page.getByRole('button',{name:new RegExp(subject+', Level ')}).click();if(subject==='Mathematik')await page.getByRole('button',{name:'Runde starten',exact:true}).click();
   await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
 });
@@ -28,7 +28,7 @@ for (const viewport of [{width:375,height:667},{width:320,height:568},{width:844
   test(`Nächste Frage bleibt erreichbar bei ${viewport.width}×${viewport.height}`, async ({page}) => {
     await page.setViewportSize(viewport);
     await page.goto('/');
-    await expect(page.getByRole('heading',{name:'Dein Lern-Kick'})).toBeVisible();
+    await expect(page.locator('.calculator-grid')).toBeVisible();
     await expect(page.getByText(/Demo/i)).toHaveCount(0);
     for (const subject of ['Mathematik','Deutsch']) {
       await page.getByRole('button',{name:new RegExp(subject+', Level ')}).click();if(subject==='Mathematik')await page.getByRole('button',{name:'Runde starten',exact:true}).click();
@@ -59,7 +59,7 @@ for (const [subject, title] of [['math','Mathematik'],['german','Deutsch'],['soc
     test.setTimeout(60000);page.setDefaultTimeout(5000);
     await page.setViewportSize({width:375,height:667});
     await page.goto('/');
-    await expect(page.getByRole('heading',{name:'Dein Lern-Kick'})).toBeVisible();
+    await expect(page.locator('.calculator-grid')).toBeVisible();
     const data=emptyData();
     for (const q of questions.filter(q=>q.subject===subject)) data.progress[q.id]={box:0,due:0,attempts:1,correct:0,lastAward:0};
     await page.evaluate(async value=>{
