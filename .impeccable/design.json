@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T00:00:00Z",
+  "generatedAt": "2026-10-22T00:00:00Z",
   "title": "Design System: LernKick",
   "extensions": {
     "colorMeta": {
@@ -218,7 +218,10 @@
       "vocabulary": "Begriffe, Satzbau, Grammatik, Sprichwörter; Normal/Streber. Grammatik nutzt bestehende Runden-, Antwort-, Feedback-, Pause- und Rückblickdarstellung mit zehn Aufgaben.",
       "nbackExit": "Ausgang beendet nur temporäre Zeitfolge und Audio; nächstes Öffnen zeigt Startbildschirm. Dauerhafte N-Stufen, Erfolge und Punkte bleiben erhalten.",
       "learningBox": "Training | Lernkasten | Einstellungen. Fünf direkte Fachwahlen; ausklappbare Unterrubriken und getrennte Quellen; scrollbar begrenzte Kartenfläche; Navigation im unteren Flexlayout. Tafeln archiviert.",
-      "compactLayouts": "Hauptstädte: zwei Spalten mit acht Zeilen und mindestens 44 px Antwortfläche. QWERTZ: zweite Reihe 3 %, letzte 9 % eingerückt. N-Back: drei feste Startwahlen, optional 4-Back in voller Zusatzzeile; runder aktiver Reiz."
+      "compactLayouts": "Hauptstädte: zwei Spalten mit acht Zeilen und mindestens 44 px Antwortfläche. QWERTZ: zweite Reihe 3 %, letzte 9 % eingerückt. N-Back: drei feste Startwahlen, optional 4-Back in voller Zusatzzeile; runder aktiver Reiz.",
+      "cardCreation": "Karten hinzufügen unmittelbar bei den Lernkasten-Quellen, bei Platz rechts und unter 400 px in voller Zeile darunter; ohne aktive Unterrubrik deaktiviert. Nativer modaler Dialog übernimmt Fach und aktive Unterrubriken; einzelne Unterrubrik vorausgewählt, mehrere mit expliziter Auswahl. Sichtbares Allgemein entfällt; Einstellungen bearbeiten/löschen vorhandene Karten.",
+      "cardCreationDialog": "Vorhandene Panel-/Schrift-/Konturfarben; 12 px Radius, 22 px Padding (unter 400 px: 16 px), Breite min(540px,calc(100vw - 24px)), maximale Höhe calc(100dvh - 24px), intern scrollbar. Backdrop color-mix(in srgb,var(--calc-display) 66.67%,transparent). Formularabstand 12 px, Labelabstand 6 px, Textflächen mindestens 85 px und vertikal vergrößerbar; Aktionen mindestens 48 px hoch, unter 400 px untereinander in voller Breite.",
+      "cardCreationFeedback": "Erfolgreiches Speichern hält den Dialog offen, leert Frage/Antwort, erhält die Unterrubrik, fokussiert Frage und bestätigt über Statusmeldung. Fehler erhalten die Eingaben. Während Speichern sind Felder und Abschluss gesperrt. Fertig oder Escape schließen danach mit Fokusrückgabe an den Auslöser."
     }
   },
   "components": [

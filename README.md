@@ -112,3 +112,5 @@ Unter „Fortschritt“ führen zwei Reihen mit je fünf Buttons direkt zu den f
 [Änderungsbericht und Datenübernahme](docs/AENDERUNGEN-2026-10-18.md). Historische Beschreibungen der früheren bearbeitbaren Standardkarten und eigenen Wortlisten sind durch diesen Auftrag abgelöst; deren gespeicherte Inhalte werden nicht still gelöscht.
 
 Die weitere Überarbeitung der Lerntafeln und die adaptive Normal-Stufe im Satzbau sind im [Änderungsauftrag und Abnahmebericht vom 18.10.2026](docs/AENDERUNGSAUFTRAG-2026-10-18.md) dokumentiert.
+
+Aktuelle Ergänzung: [Karten direkt im Lernkasten (22.10.2026)](docs/KARTEN-HINZUFUEGEN-2026-10-22.md).
