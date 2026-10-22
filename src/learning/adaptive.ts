@@ -1,3 +1,4 @@
+import {appliedMathTask} from './appliedMath';
 import {equationTask} from './equations';
 import {inMathCategory} from './categories';
 import type { Question, Subject, UserData } from '../lib/schema';
@@ -12,6 +13,7 @@ export const preferenceFor=(data:UserData,subject:Subject)=>data.learning.prefer
 export type SelectionContext={used:string[];signatures:string[];now?:number;random?:()=>number;category?:string};
 export function nextMathTask(pool:Question[],data:UserData,context:SelectionContext):LearningTask|undefined {
   const now=context.now??Date.now(),random=context.random??Math.random;const preference=preferenceFor(data,'math');
+  if(['ratio','geometry','units'].includes(context.category??'')){for(let i=0;i<100;i++){const task=appliedMathTask(context.category!,preference.pace==='easier'?1:preference.pace==='challenge'?3:2,i<20?random:seededRandom(i*7919))!;if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
   if(context.category==='equation'){for(let i=0;i<100;i++){const task=equationTask(preference.pace==='easier'?1:preference.pace==='challenge'?3:2,i<20?random:seededRandom(i*7919));if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
   pool=pool.filter(q=>inMathCategory(skillFor(q),context.category));
   const available=pool.filter(q=>!context.used.includes(q.id));

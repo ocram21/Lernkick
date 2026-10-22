@@ -1,0 +1,522 @@
+[
+  {
+    "id": "vocabulary.hard.v2.001",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "prägnant",
+    "context": "Die Zusammenfassung ist prägnant, obwohl sie nur drei Sätze umfasst.",
+    "meaning": "Kurz und treffend auf das Wesentliche konzentriert",
+    "distractors": [
+      "Besonders ausführlich mit vielen Einzelheiten",
+      "Sprachlich schön, aber ohne klare Aussage"
+    ],
+    "explanation": "Prägnanz verbindet Kürze mit Aussagekraft; Kürze allein genügt nicht."
+  },
+  {
+    "id": "vocabulary.hard.v2.002",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "konzise",
+    "context": "Die Anleitung soll konzise bleiben und Wiederholungen vermeiden.",
+    "meaning": "Knapp und inhaltlich dicht formuliert",
+    "distractors": [
+      "Nur für einen kleinen Leserkreis bestimmt",
+      "Absichtlich offen für viele Deutungen"
+    ],
+    "explanation": "„Konzise“ beschreibt eine knappe, verdichtete Darstellung, nicht ihren Leserkreis."
+  },
+  {
+    "id": "vocabulary.hard.v2.003",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "kohärent",
+    "context": "Die einzelnen Absätze ergeben eine kohärente Argumentation.",
+    "meaning": "Inhaltlich sinnvoll miteinander verbunden",
+    "distractors": [
+      "In allen Sätzen gleich lang",
+      "Nur durch dieselben Fachwörter verbunden"
+    ],
+    "explanation": "Kohärenz betrifft den nachvollziehbaren Zusammenhang zwischen Aussagen."
+  },
+  {
+    "id": "vocabulary.hard.v2.004",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "stringent",
+    "context": "Die Begründung führt stringent von den Belegen zum Ergebnis.",
+    "meaning": "Folgerichtig und ohne gedankliche Brüche",
+    "distractors": [
+      "Besonders streng im Umgang mit Personen",
+      "Mit möglichst vielen Wiederholungen"
+    ],
+    "explanation": "Hier beschreibt „stringent“ die logische Führung des Gedankengangs."
+  },
+  {
+    "id": "vocabulary.hard.v2.005",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "sukzessive",
+    "context": "Der Betrieb stellt die Abläufe sukzessive um.",
+    "meaning": "Schrittweise nacheinander",
+    "distractors": [
+      "Alle gleichzeitig in einem Schritt",
+      "Nur vorläufig ohne feste Reihenfolge"
+    ],
+    "explanation": "Eine sukzessive Veränderung erfolgt in aufeinanderfolgenden Schritten."
+  },
+  {
+    "id": "vocabulary.hard.v2.006",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "latent",
+    "context": "Der Konflikt bleibt zunächst latent, obwohl Spannungen vorhanden sind.",
+    "meaning": "Vorhanden, aber noch nicht offen hervorgetreten",
+    "distractors": [
+      "Bereits für alle deutlich sichtbar",
+      "Vollständig gelöst und abgeschlossen"
+    ],
+    "explanation": "„Latent“ bedeutet verborgen vorhanden; es bedeutet nicht abwesend."
+  },
+  {
+    "id": "vocabulary.hard.v2.007",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "evident",
+    "context": "Nach dem Vergleich der Messwerte ist die Abweichung evident.",
+    "meaning": "Klar erkennbar und einleuchtend",
+    "distractors": [
+      "Nur als Möglichkeit denkbar",
+      "Von mehreren Personen gemeinsam beschlossen"
+    ],
+    "explanation": "„Evident“ hebt die deutliche Erkennbarkeit hervor, nicht die Zahl zustimmender Personen."
+  },
+  {
+    "id": "vocabulary.hard.v2.008",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "implizieren",
+    "context": "Die Zusage impliziert, dass die nötigen Mittel bereitgestellt werden.",
+    "meaning": "Als Folgerung mit einschließen",
+    "distractors": [
+      "Ausdrücklich und wörtlich aussprechen",
+      "Als unwichtig aus der Zusage entfernen"
+    ],
+    "explanation": "Eine Aussage kann etwas einschließen, ohne es ausdrücklich zu nennen."
+  },
+  {
+    "id": "vocabulary.hard.v2.009",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "relativieren",
+    "context": "Der Vergleich mit früheren Werten relativiert den ersten Eindruck.",
+    "meaning": "In einen Zusammenhang setzen und dadurch seine Geltung begrenzen",
+    "distractors": [
+      "Vollständig als falsch zurücknehmen",
+      "Durch häufiges Wiederholen verstärken"
+    ],
+    "explanation": "Relativieren ordnet eine Aussage ein; es muss sie nicht vollständig widerlegen."
+  },
+  {
+    "id": "vocabulary.hard.v2.010",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "differenzieren",
+    "context": "Sie differenziert zwischen Ursache, Auslöser und Folge.",
+    "meaning": "Sachlich relevante Unterschiede herausarbeiten",
+    "distractors": [
+      "Die Begriffe ohne Prüfung gleichsetzen",
+      "Nur die Reihenfolge der Wörter verändern"
+    ],
+    "explanation": "Differenzieren heißt, verschiedene Aspekte genauer zu unterscheiden."
+  },
+  {
+    "id": "vocabulary.hard.v2.011",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "ambig",
+    "context": "Das Wort ist in diesem Satz ambig; zwei Lesarten sind möglich.",
+    "meaning": "Mehrdeutig",
+    "distractors": [
+      "In jedem Zusammenhang widersprüchlich",
+      "Sprachlich besonders förmlich"
+    ],
+    "explanation": "Mehrdeutigkeit erlaubt mehrere Lesarten. Das ist nicht dasselbe wie ein innerer Widerspruch."
+  },
+  {
+    "id": "vocabulary.hard.v2.012",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "konsistent",
+    "context": "Die Angaben in beiden Tabellen sind konsistent.",
+    "meaning": "Sie passen ohne Widerspruch zueinander",
+    "distractors": [
+      "Sie enthalten zwingend dieselben Zahlen",
+      "Sie wurden zur selben Zeit erfasst"
+    ],
+    "explanation": "Übereinstimmende Zusammenhänge können konsistent sein, auch wenn die Tabellen unterschiedliche Größen zeigen."
+  },
+  {
+    "id": "vocabulary.hard.v2.013",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "kontingent",
+    "context": "Das Ergebnis ist kontingent: Unter anderen Bedingungen hätte es anders ausfallen können.",
+    "meaning": "Nicht notwendig, sondern von Umständen abhängig",
+    "distractors": [
+      "Durch die Ausgangslage zwingend festgelegt",
+      "Schon deshalb ohne jede Ursache"
+    ],
+    "explanation": "Kontingenz bedeutet, dass etwas auch anders möglich gewesen wäre, nicht dass es ursachenlos ist."
+  },
+  {
+    "id": "vocabulary.hard.v2.014",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "adäquat",
+    "context": "Die vorgeschlagene Maßnahme ist der Situation adäquat.",
+    "meaning": "Der Sache und den Umständen angemessen",
+    "distractors": [
+      "Unabhängig von den Umständen immer wirksam",
+      "In jeder Hinsicht mit einer anderen Maßnahme identisch"
+    ],
+    "explanation": "Angemessenheit bezieht die konkrete Situation ein."
+  },
+  {
+    "id": "vocabulary.hard.v2.015",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "obsolet",
+    "context": "Nach der technischen Umstellung ist dieses Verfahren obsolet.",
+    "meaning": "Überholt und nicht mehr benötigt",
+    "distractors": [
+      "Nur vorübergehend unterbrochen",
+      "Noch nicht vollständig entwickelt"
+    ],
+    "explanation": "„Obsolet“ bezeichnet etwas, das durch Entwicklungen seine bisherige Bedeutung verloren hat."
+  },
+  {
+    "id": "vocabulary.hard.v2.016",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "Prämissen",
+    "context": "Die Schlussfolgerung gilt nur, wenn ihre Prämissen stimmen.",
+    "meaning": "Vorausgesetzte Ausgangsaussagen",
+    "distractors": [
+      "Die am Ende errechneten Ergebnisse",
+      "Nachträglich hinzugefügte Ausnahmen"
+    ],
+    "explanation": "Prämissen sind die Voraussetzungen eines Schlusses; ihre Wahrheit muss gegebenenfalls geprüft werden."
+  },
+  {
+    "id": "vocabulary.hard.v2.017",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "Korrelation",
+    "context": "Die Studie zeigt eine Korrelation zwischen den beiden Messgrößen.",
+    "meaning": "Einen statistischen Zusammenhang, der allein keine Ursache beweist",
+    "distractors": [
+      "Den sicheren Nachweis, dass die erste Größe die zweite verursacht",
+      "Die vollständige Gleichheit beider Messgrößen"
+    ],
+    "explanation": "Ein gemeinsames Auftreten kann mehrere Erklärungen haben. Korrelation allein belegt keine Kausalität."
+  },
+  {
+    "id": "vocabulary.hard.v2.018",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "Kausalität",
+    "context": "Die Untersuchung fragt nach Kausalität statt nur nach gleichzeitigem Auftreten.",
+    "meaning": "Einem Ursache-Wirkungs-Zusammenhang",
+    "distractors": [
+      "Einer bloßen Ähnlichkeit der Bezeichnungen",
+      "Einer Reihenfolge ohne Wirkungsbeziehung"
+    ],
+    "explanation": "Kausalität bedeutet, dass ein Vorgang einen anderen verursacht oder beeinflusst."
+  },
+  {
+    "id": "vocabulary.hard.v2.019",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "plausibilisieren",
+    "context": "Das Beispiel soll die Vermutung plausibilisieren, nicht beweisen.",
+    "meaning": "Sie nachvollziehbar erscheinen lassen",
+    "distractors": [
+      "Sie abschließend und zwingend belegen",
+      "Sie absichtlich in ihr Gegenteil verkehren"
+    ],
+    "explanation": "Ein plausibles Argument kann einleuchten, ohne bereits ein vollständiger Beweis zu sein."
+  },
+  {
+    "id": "vocabulary.hard.v2.020",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "subtil",
+    "context": "Die Kritik wird durch eine subtile Veränderung der Wortwahl vermittelt.",
+    "meaning": "Fein und nicht unmittelbar auffällig",
+    "distractors": [
+      "Besonders scharf und ausdrücklich",
+      "So ungenau, dass jede Bedeutung fehlt"
+    ],
+    "explanation": "Subtile Unterschiede können klein wirken und trotzdem eine klare Wirkung haben."
+  },
+  {
+    "id": "vocabulary.hard.v2.021",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "distanziert",
+    "context": "Die Nachricht gibt die Behauptung in distanzierter Form wieder.",
+    "meaning": "Ohne sie sich als eigene gesicherte Aussage zu eigen zu machen",
+    "distractors": [
+      "Mit ausdrücklich feindseliger Bewertung",
+      "Ohne die Behauptung überhaupt zu nennen"
+    ],
+    "explanation": "Sprachliche Distanz kann eine fremde Aussage kennzeichnen, ohne sie abzuwerten."
+  },
+  {
+    "id": "vocabulary.hard.v2.022",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "nuancieren",
+    "context": "Sie nuanciert ihr Urteil, nachdem sie weitere Fälle geprüft hat.",
+    "meaning": "Es feiner abstufen und ergänzen",
+    "distractors": [
+      "Es unabhängig von den Fällen verschärfen",
+      "Es vollständig durch ein anderes Thema ersetzen"
+    ],
+    "explanation": "Ein nuanciertes Urteil berücksichtigt zusätzliche Unterschiede und Abstufungen."
+  },
+  {
+    "id": "vocabulary.hard.v2.023",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "konzedieren",
+    "context": "Er konzediert den Einwand, hält seine Schlussfolgerung aber aufrecht.",
+    "meaning": "Den berechtigten Punkt einräumen",
+    "distractors": [
+      "Den Einwand als persönlichen Angriff zurückweisen",
+      "Die gesamte eigene Position ohne Einschränkung aufgeben"
+    ],
+    "explanation": "Ein Zugeständnis in einem Punkt muss nicht die vollständige Aufgabe der eigenen Position bedeuten."
+  },
+  {
+    "id": "vocabulary.hard.v2.024",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "antizipieren",
+    "context": "Die Planung antizipiert mögliche Lieferprobleme.",
+    "meaning": "Sie gedanklich vorwegnehmen und berücksichtigen",
+    "distractors": [
+      "Sie nach ihrem Eintritt nur beschreiben",
+      "Ihr Eintreten durch die Beschreibung sicher verursachen"
+    ],
+    "explanation": "Antizipation berücksichtigt eine mögliche Zukunft, ohne sie sicher vorhersagen zu müssen."
+  },
+  {
+    "id": "vocabulary.hard.v2.025",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "provisorisch",
+    "context": "Die Reparatur ist provisorisch und wird später ersetzt.",
+    "meaning": "Als vorläufige Lösung gedacht",
+    "distractors": [
+      "Ohne jeden praktischen Nutzen",
+      "Schon als endgültiger Zustand beschlossen"
+    ],
+    "explanation": "Ein Provisorium kann funktionieren, ist aber nicht als dauerhafte Lösung vorgesehen."
+  },
+  {
+    "id": "vocabulary.hard.v2.026",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "redundant",
+    "context": "Der zweite Absatz ist hier redundant, weil er nur Bekanntes wiederholt.",
+    "meaning": "Für den Inhalt zusätzlich, aber ohne neue Information",
+    "distractors": [
+      "Im Zusammenhang zwingend widersprüchlich",
+      "Nur wegen schwieriger Wörter unverständlich"
+    ],
+    "explanation": "In diesem Kontext bezeichnet Redundanz eine inhaltliche Wiederholung."
+  },
+  {
+    "id": "vocabulary.hard.v2.027",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "deduktiv",
+    "context": "Die Begründung ist deduktiv: Aus der allgemeinen Regel wird der Einzelfall abgeleitet.",
+    "meaning": "Vom Allgemeinen zum besonderen Fall schließend",
+    "distractors": [
+      "Aus einzelnen Fällen eine allgemeine Regel vermutend",
+      "Nur die zeitliche Reihenfolge wiedergebend"
+    ],
+    "explanation": "Ein deduktiver Schluss wendet allgemeine Voraussetzungen auf einen konkreten Fall an."
+  },
+  {
+    "id": "vocabulary.hard.v2.028",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "induktiv",
+    "context": "Aus mehreren beobachteten Einzelfällen wird eine allgemeine Regel vorgeschlagen. Das Vorgehen ist induktiv.",
+    "meaning": "Vom Besonderen auf eine allgemeine Aussage schließend",
+    "distractors": [
+      "Eine bekannte allgemeine Regel nur auf einen Fall anwendend",
+      "Unabhängig von Beobachtungen rein zufällig entscheidend"
+    ],
+    "explanation": "Induktive Verallgemeinerungen benötigen ausreichende Beobachtungen und bleiben prüfbar."
+  },
+  {
+    "id": "vocabulary.hard.v2.029",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "insofern",
+    "context": "Die Lösung ist insofern geeignet, als sie den Materialverbrauch senkt.",
+    "meaning": "In dem ausdrücklich genannten Gesichtspunkt",
+    "distractors": [
+      "Ohne Einschränkung in jeder Hinsicht",
+      "Nur unter einer nicht genannten zukünftigen Bedingung"
+    ],
+    "explanation": "„Insofern …, als …“ grenzt hier ein, worauf sich die Bewertung bezieht."
+  },
+  {
+    "id": "vocabulary.hard.v2.030",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "gleichwohl",
+    "context": "Die Frist war knapp; gleichwohl wurde die Aufgabe sorgfältig erledigt.",
+    "meaning": "Trotz dieses Umstands",
+    "distractors": [
+      "Genau wegen dieses Umstands",
+      "Erst nachdem dieser Umstand weggefallen war"
+    ],
+    "explanation": "„Gleichwohl“ drückt hier einen Gegensatz zur naheliegenden Erwartung aus."
+  },
+  {
+    "id": "vocabulary.hard.v2.031",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "vermeintlich",
+    "context": "Der vermeintliche Fehler erwies sich bei genauer Prüfung als richtige Angabe.",
+    "meaning": "Für einen Fehler gehalten, ohne tatsächlich einer zu sein",
+    "distractors": [
+      "Als Fehler eindeutig nachgewiesen",
+      "Absichtlich von der Prüfung ausgenommen"
+    ],
+    "explanation": "„Vermeintlich“ stellt die erste Annahme in Frage; der Folgesatz korrigiert sie hier ausdrücklich."
+  },
+  {
+    "id": "vocabulary.hard.v2.032",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "mutmaßlich",
+    "context": "Als mutmaßliche Ursache wird ein defekter Sensor genannt.",
+    "meaning": "Vermutet, aber noch nicht abschließend belegt",
+    "distractors": [
+      "Mit Sicherheit ausgeschlossen",
+      "Bereits durch vollständige Belege bewiesen"
+    ],
+    "explanation": "„Mutmaßlich“ markiert einen noch nicht gesicherten Befund."
+  },
+  {
+    "id": "vocabulary.hard.v2.033",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "maßgeblich",
+    "context": "Für die Entscheidung ist dieser Unterschied maßgeblich.",
+    "meaning": "Von entscheidender Bedeutung",
+    "distractors": [
+      "Nur beiläufig erwähnenswert",
+      "Bloß auf die Größe eines Gegenstands bezogen"
+    ],
+    "explanation": "Hier beschreibt „maßgeblich“ das Gewicht eines Arguments für eine Entscheidung."
+  },
+  {
+    "id": "vocabulary.hard.v2.034",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "verbindlich",
+    "context": "Die Zusage ist verbindlich und nicht nur unverbindlich in Aussicht gestellt.",
+    "meaning": "Als einzuhaltende Verpflichtung gemeint",
+    "distractors": [
+      "Nur eine freundliche Möglichkeit ohne Zusage",
+      "Ausdrücklich auf eine andere Person bezogen"
+    ],
+    "explanation": "Im gegebenen Gegensatz bezeichnet „verbindlich“ den verpflichtenden Charakter der Zusage."
+  },
+  {
+    "id": "vocabulary.hard.v2.035",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "verhalten",
+    "context": "Die Reaktion fällt verhalten aus, obwohl viel Zustimmung erwartet wurde.",
+    "meaning": "Zurückhaltend und wenig lebhaft",
+    "distractors": [
+      "Offen ablehnend und laut",
+      "Von Anfang an vollständig ausgeblieben"
+    ],
+    "explanation": "Eine verhaltene Reaktion kann vorhanden sein, ohne stark auszufallen."
+  },
+  {
+    "id": "vocabulary.hard.v2.036",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "schlüssig",
+    "context": "Die Erklärung ist schlüssig, sofern die Ausgangsannahmen gelten.",
+    "meaning": "In ihrem Gedankengang folgerichtig",
+    "distractors": [
+      "Unabhängig von allen Annahmen sicher wahr",
+      "Nur wegen ihrer Kürze überzeugend"
+    ],
+    "explanation": "Schlüssigkeit betrifft das Verhältnis von Voraussetzungen und Schluss, nicht automatisch die Wahrheit jeder Voraussetzung."
+  },
+  {
+    "id": "vocabulary.hard.v2.037",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "infrage stellen",
+    "context": "Die neuen Messwerte stellen die erste Deutung infrage.",
+    "meaning": "An ihrer Gültigkeit begründete Zweifel wecken",
+    "distractors": [
+      "Sie durch die Frage schon endgültig widerlegen",
+      "Sie ohne jede Prüfung vollständig bestätigen"
+    ],
+    "explanation": "Etwas infrage zu stellen eröffnet eine Prüfung; es ersetzt nicht schon deren Ergebnis."
+  },
+  {
+    "id": "vocabulary.hard.v2.038",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "einräumen",
+    "context": "Sie räumt ein, dass die Daten noch unvollständig sind.",
+    "meaning": "Einen Punkt zugestehen oder anerkennen",
+    "distractors": [
+      "Einen Punkt als bedeutungslos verwerfen",
+      "Eine Aussage durch Wiederholung bestreiten"
+    ],
+    "explanation": "„Einräumen“ bezeichnet hier ein sprachliches Zugeständnis, keinen räumlichen Vorgang."
+  },
+  {
+    "id": "vocabulary.hard.v2.039",
+    "category": "everyday",
+    "topic": "Bedeutungsnuancen",
+    "word": "abwägen",
+    "context": "Vor der Entscheidung werden Nutzen und Belastung abgewogen.",
+    "meaning": "Unterschiedliche Gesichtspunkte vergleichend gewichten",
+    "distractors": [
+      "Alle Gesichtspunkte ohne Vergleich gleichsetzen",
+      "Nur die zuerst genannte Möglichkeit prüfen"
+    ],
+    "explanation": "Abwägen berücksichtigt mehrere relevante Gesichtspunkte und ihr jeweiliges Gewicht."
+  },
+  {
+    "id": "vocabulary.hard.v2.040",
+    "category": "work",
+    "topic": "Bedeutungsnuancen",
+    "word": "präzisieren",
+    "context": "Die Angabe wird von „bald“ auf „bis Freitag um zwölf Uhr“ präzisiert.",
+    "meaning": "Genauer und eindeutiger fassen",
+    "distractors": [
+      "Vorsichtiger und unbestimmter formulieren",
+      "Nur in eine kürzere Form übertragen"
+    ],
+    "explanation": "Die zweite Formulierung grenzt den Zeitpunkt genauer ein, auch wenn sie länger ist."
+  }
+]

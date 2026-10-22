@@ -1,0 +1,906 @@
+[
+  {
+    "id": "sentence.advanced.v2.001",
+    "level": "hard",
+    "tokens": [
+      "Die Werkstatt",
+      ",",
+      "deren Eingang",
+      "gestern",
+      "gesperrt war",
+      ",",
+      "ist",
+      "heute",
+      "wieder geöffnet",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die Werkstatt",
+        ",",
+        "deren Eingang",
+        "gestern",
+        "gesperrt war",
+        ",",
+        "ist",
+        "heute",
+        "wieder geöffnet",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Die Werkstatt“. Der Relativsatz folgt direkt darauf; „heute“ steht unmittelbar nach „ist“.",
+    "hint": "Der Relativsatz wird eingeschoben; das Hauptsatzverb folgt nach dem schließenden Komma."
+  },
+  {
+    "id": "sentence.advanced.v2.002",
+    "level": "hard",
+    "tokens": [
+      "Obwohl",
+      "die Lieferung",
+      "verspätet eingetroffen ist",
+      ",",
+      "kann",
+      "die Montage",
+      "heute",
+      "beginnen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Obwohl",
+        "die Lieferung",
+        "verspätet eingetroffen ist",
+        ",",
+        "kann",
+        "die Montage",
+        "heute",
+        "beginnen",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Obwohl“. Im Hauptsatz folgt „heute“ auf „die Montage“.",
+    "hint": "Nach dem vorangestellten Nebensatz beginnt der Hauptsatz mit dem finiten Verb."
+  },
+  {
+    "id": "sentence.advanced.v2.003",
+    "level": "hard",
+    "tokens": [
+      "Wenn",
+      "die Prüfung",
+      "abgeschlossen ist",
+      ",",
+      "werden",
+      "die freigegebenen Teile",
+      "morgen",
+      "verpackt",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wenn",
+        "die Prüfung",
+        "abgeschlossen ist",
+        ",",
+        "werden",
+        "die freigegebenen Teile",
+        "morgen",
+        "verpackt",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Wenn“. Setze „morgen“ unmittelbar vor „verpackt“.",
+    "hint": "Der Nebensatz endet mit dem Verbteil; danach steht das Hauptsatzverb vor dem Subjekt."
+  },
+  {
+    "id": "sentence.advanced.v2.004",
+    "level": "hard",
+    "tokens": [
+      "Die Leiterin",
+      "erklärt",
+      ",",
+      "die Maschine",
+      "sei",
+      "bereits",
+      "kontrolliert worden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die Leiterin",
+        "erklärt",
+        ",",
+        "die Maschine",
+        "sei",
+        "bereits",
+        "kontrolliert worden",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Die Leiterin“. Setze „bereits“ direkt hinter „sei“.",
+    "hint": "Die indirekte Wiedergabe nutzt „sei“; „kontrolliert worden“ steht am Ende."
+  },
+  {
+    "id": "sentence.advanced.v2.005",
+    "level": "hard",
+    "tokens": [
+      "Nachdem",
+      "sie",
+      "die Angaben",
+      "überprüft hatte",
+      ",",
+      "korrigierte",
+      "sie",
+      "den Bericht",
+      "."
+    ],
+    "solutions": [
+      [
+        "Nachdem",
+        "sie",
+        "die Angaben",
+        "überprüft hatte",
+        ",",
+        "korrigierte",
+        "sie",
+        "den Bericht",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Nachdem“. Im Nebensatz folgt „die Angaben“ unmittelbar auf „sie“.",
+    "hint": "Das Plusquamperfekt steht im vorangestellten Nebensatz, der erzählende Hauptsatz folgt danach."
+  },
+  {
+    "id": "sentence.advanced.v2.006",
+    "level": "hard",
+    "tokens": [
+      "Von dem Ergebnis",
+      "überrascht",
+      ",",
+      "überprüfte",
+      "Nora",
+      "zuerst",
+      "die Messgeräte",
+      "."
+    ],
+    "solutions": [
+      [
+        "Von dem Ergebnis",
+        "überrascht",
+        ",",
+        "überprüfte",
+        "Nora",
+        "zuerst",
+        "die Messgeräte",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Von dem Ergebnis“. Setze „zuerst“ unmittelbar nach „Nora“.",
+    "hint": "Die Partizipgruppe bezieht sich auf Nora; das finite Verb eröffnet den anschließenden Hauptsatz."
+  },
+  {
+    "id": "sentence.advanced.v2.007",
+    "level": "hard",
+    "tokens": [
+      "Er",
+      "fragt",
+      ",",
+      "ob",
+      "wir",
+      "die Bauteile",
+      "prüfen können",
+      ",",
+      "bevor",
+      "der Transport",
+      "beginnt",
+      "."
+    ],
+    "solutions": [
+      [
+        "Er",
+        "fragt",
+        ",",
+        "ob",
+        "wir",
+        "die Bauteile",
+        "prüfen können",
+        ",",
+        "bevor",
+        "der Transport",
+        "beginnt",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Er“. Der mit „bevor“ eingeleitete Nebensatz steht am Ende.",
+    "hint": "Die indirekte Frage und der nachgestellte Zeitsatz werden mit Kommas abgegrenzt."
+  },
+  {
+    "id": "sentence.advanced.v2.008",
+    "level": "hard",
+    "tokens": [
+      "Je",
+      "genauer",
+      "die Anleitung",
+      "ist",
+      ",",
+      "desto",
+      "leichter",
+      "lässt sich",
+      "der Ablauf",
+      "nachvollziehen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Je",
+        "genauer",
+        "die Anleitung",
+        "ist",
+        ",",
+        "desto",
+        "leichter",
+        "lässt sich",
+        "der Ablauf",
+        "nachvollziehen",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Je“. Ordne beide Vergleichsteile mit ihren passenden Steigerungen.",
+    "hint": "„Je …, desto …“ verbindet die beiden vergleichenden Teile; im zweiten folgt das Verb vor dem Subjekt."
+  },
+  {
+    "id": "sentence.advanced.v2.009",
+    "level": "hard",
+    "tokens": [
+      "Sowohl",
+      "die neue Kollegin",
+      "als auch",
+      "der erfahrene Meister",
+      "haben",
+      "den Fehler",
+      "bemerkt",
+      "."
+    ],
+    "solutions": [
+      [
+        "Sowohl",
+        "die neue Kollegin",
+        "als auch",
+        "der erfahrene Meister",
+        "haben",
+        "den Fehler",
+        "bemerkt",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Sowohl“. Nenne zuerst die Kollegin, danach den Meister.",
+    "hint": "Die gleichrangigen Subjektteile werden mit „sowohl … als auch“ verbunden; das Verb steht im Plural."
+  },
+  {
+    "id": "sentence.advanced.v2.010",
+    "level": "hard",
+    "tokens": [
+      "Nur",
+      "die zweite Messung",
+      "wurde",
+      "gestern",
+      "wiederholt",
+      "."
+    ],
+    "solutions": [
+      [
+        "Nur",
+        "die zweite Messung",
+        "wurde",
+        "gestern",
+        "wiederholt",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Nur“. Die Einschränkung betrifft die Messung; „gestern“ folgt auf „wurde“.",
+    "hint": "Die Stellung von „nur“ grenzt hier ein, welche Messung wiederholt wurde."
+  },
+  {
+    "id": "sentence.advanced.v2.011",
+    "level": "hard",
+    "tokens": [
+      "Die Unterlagen",
+      ",",
+      "die",
+      "bis gestern",
+      "gefehlt hatten",
+      ",",
+      "liegen",
+      "jetzt",
+      "vollständig vor",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die Unterlagen",
+        ",",
+        "die",
+        "bis gestern",
+        "gefehlt hatten",
+        ",",
+        "liegen",
+        "jetzt",
+        "vollständig vor",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Die Unterlagen“. Der Relativsatz folgt direkt darauf; „jetzt“ steht nach „liegen“.",
+    "hint": "Der Relativsatz unterbricht den Hauptsatz. Beide Grenzen benötigen ein Komma."
+  },
+  {
+    "id": "sentence.advanced.v2.012",
+    "level": "hard",
+    "tokens": [
+      "Falls",
+      "der Termin",
+      "verschoben werden muss",
+      ",",
+      "informieren",
+      "wir",
+      "alle Beteiligten",
+      "rechtzeitig",
+      "."
+    ],
+    "solutions": [
+      [
+        "Falls",
+        "der Termin",
+        "verschoben werden muss",
+        ",",
+        "informieren",
+        "wir",
+        "alle Beteiligten",
+        "rechtzeitig",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Falls“. Stelle „rechtzeitig“ ans Ende des Hauptsatzes.",
+    "hint": "Im Bedingungssatz steht der Verbkomplex am Ende; nach dem Komma beginnt der Hauptsatz mit „informieren“."
+  },
+  {
+    "id": "sentence.advanced.v2.013",
+    "level": "hard",
+    "tokens": [
+      "Sie",
+      "hätte",
+      "gestern",
+      "den Bericht",
+      "abgeben müssen",
+      ",",
+      "wenn",
+      "die Daten",
+      "vollständig gewesen wären",
+      "."
+    ],
+    "solutions": [
+      [
+        "Sie",
+        "hätte",
+        "gestern",
+        "den Bericht",
+        "abgeben müssen",
+        ",",
+        "wenn",
+        "die Daten",
+        "vollständig gewesen wären",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Sie“. Setze „gestern“ vor das Objekt; der Wenn-Satz folgt am Ende.",
+    "hint": "Der irreale Hauptsatz enthält den Ersatzinfinitiv; der Bedingungssatz bezeichnet die nicht erfüllte Voraussetzung."
+  },
+  {
+    "id": "sentence.advanced.v2.014",
+    "level": "hard",
+    "tokens": [
+      "Ohne",
+      "die Messwerte",
+      "zu verändern",
+      ",",
+      "ergänzte",
+      "Ali",
+      "eine kurze Erklärung",
+      "."
+    ],
+    "solutions": [
+      [
+        "Ohne",
+        "die Messwerte",
+        "zu verändern",
+        ",",
+        "ergänzte",
+        "Ali",
+        "eine kurze Erklärung",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Ohne“. Die Infinitivgruppe steht vor dem Hauptsatz.",
+    "hint": "Die mit „ohne“ eingeleitete Infinitivgruppe wird durch ein Komma abgegrenzt."
+  },
+  {
+    "id": "sentence.advanced.v2.015",
+    "level": "hard",
+    "tokens": [
+      "Die Mitarbeiterin",
+      ",",
+      "deren Vorschlag",
+      "wir",
+      "übernommen haben",
+      ",",
+      "stellt",
+      "heute",
+      "den Plan vor",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die Mitarbeiterin",
+        ",",
+        "deren Vorschlag",
+        "wir",
+        "übernommen haben",
+        ",",
+        "stellt",
+        "heute",
+        "den Plan vor",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Die Mitarbeiterin“. „Heute“ folgt auf „stellt“.",
+    "hint": "„Deren“ bezieht sich auf die Mitarbeiterin; der Relativsatz steht zwischen zwei Kommas."
+  },
+  {
+    "id": "sentence.advanced.v2.016",
+    "level": "hard",
+    "tokens": [
+      "Ob",
+      "die Reparatur",
+      "rechtzeitig",
+      "gelingt",
+      ",",
+      "hängt",
+      "von der Ersatzteillieferung",
+      "ab",
+      "."
+    ],
+    "solutions": [
+      [
+        "Ob",
+        "die Reparatur",
+        "rechtzeitig",
+        "gelingt",
+        ",",
+        "hängt",
+        "von der Ersatzteillieferung",
+        "ab",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Ob“. Setze „rechtzeitig“ vor das Verb im Nebensatz.",
+    "hint": "Der vorangestellte Inhaltssatz nimmt die erste Position ein; „hängt“ folgt unmittelbar nach dem Komma."
+  },
+  {
+    "id": "sentence.advanced.v2.017",
+    "level": "hard",
+    "tokens": [
+      "Der Bericht",
+      "ist",
+      "zwar",
+      "knapp formuliert",
+      ",",
+      "aber",
+      "inhaltlich",
+      "vollständig",
+      "."
+    ],
+    "solutions": [
+      [
+        "Der Bericht",
+        "ist",
+        "zwar",
+        "knapp formuliert",
+        ",",
+        "aber",
+        "inhaltlich",
+        "vollständig",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Der Bericht“. Im ersten Teil steht „zwar“ nach „ist“, im zweiten „inhaltlich“ vor „vollständig“.",
+    "hint": "„Zwar …, aber …“ verbindet zwei unterschiedlich bewertete Merkmale."
+  },
+  {
+    "id": "sentence.advanced.v2.018",
+    "level": "hard",
+    "tokens": [
+      "Die Prüfung",
+      "wird",
+      "nicht deshalb",
+      "wiederholt",
+      ",",
+      "weil",
+      "das Ergebnis",
+      "unerwünscht ist",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die Prüfung",
+        "wird",
+        "nicht deshalb",
+        "wiederholt",
+        ",",
+        "weil",
+        "das Ergebnis",
+        "unerwünscht ist",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Die Prüfung“. Stelle „nicht deshalb“ vor „wiederholt“.",
+    "hint": "Der Satz verneint diesen Grund, nicht zwingend jede Wiederholung."
+  },
+  {
+    "id": "sentence.advanced.v2.019",
+    "level": "hard",
+    "tokens": [
+      "Mira",
+      "schließt",
+      "das Fenster",
+      ",",
+      "damit",
+      "das Gespräch",
+      "nicht gestört wird",
+      "."
+    ],
+    "solutions": [
+      [
+        "Mira",
+        "schließt",
+        "das Fenster",
+        ",",
+        "damit",
+        "das Gespräch",
+        "nicht gestört wird",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Mira“. Der Zwecksatz folgt auf den vollständigen Hauptsatz.",
+    "hint": "Im Zwecksatz steht ein eigenes Subjekt; darum passt die finite Verbindung mit „damit“."
+  },
+  {
+    "id": "sentence.advanced.v2.020",
+    "level": "hard",
+    "tokens": [
+      "Die gestern",
+      "geprüften",
+      "Teile",
+      "dürfen",
+      "heute",
+      "ausgeliefert werden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die gestern",
+        "geprüften",
+        "Teile",
+        "dürfen",
+        "heute",
+        "ausgeliefert werden",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Die gestern“. Setze „heute“ nach „dürfen“.",
+    "hint": "Die Partizipgruppe gehört zum Nomen; der Hauptsatz enthält Modalverb und Passivinfinitiv."
+  },
+  {
+    "id": "sentence.advanced.v2.021",
+    "level": "hard",
+    "tokens": [
+      "Er",
+      "verspricht",
+      ",",
+      "er",
+      "werde",
+      "die offenen Fragen",
+      "morgen",
+      "beantworten",
+      "."
+    ],
+    "solutions": [
+      [
+        "Er",
+        "verspricht",
+        ",",
+        "er",
+        "werde",
+        "die offenen Fragen",
+        "morgen",
+        "beantworten",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Er“. In der indirekten Rede steht „morgen“ direkt vor „beantworten“.",
+    "hint": "„Werde“ markiert hier Konjunktiv I der angekündigten Handlung."
+  },
+  {
+    "id": "sentence.advanced.v2.022",
+    "level": "hard",
+    "tokens": [
+      "Wenn",
+      "ich",
+      "den Hinweis",
+      "früher",
+      "gelesen hätte",
+      ",",
+      "wäre",
+      "der Fehler",
+      "vermeidbar gewesen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wenn",
+        "ich",
+        "den Hinweis",
+        "früher",
+        "gelesen hätte",
+        ",",
+        "wäre",
+        "der Fehler",
+        "vermeidbar gewesen",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Wenn“. Setze „früher“ nach „den Hinweis“.",
+    "hint": "Die nicht erfüllte vergangene Bedingung steht im Konjunktiv II der Vergangenheit."
+  },
+  {
+    "id": "sentence.advanced.v2.023",
+    "level": "hard",
+    "tokens": [
+      "Der Vorschlag",
+      "ist",
+      ",",
+      "wie",
+      "die Fachkraft",
+      "erläutert",
+      ",",
+      "bereits",
+      "umsetzbar",
+      "."
+    ],
+    "solutions": [
+      [
+        "Der Vorschlag",
+        "ist",
+        ",",
+        "wie",
+        "die Fachkraft",
+        "erläutert",
+        ",",
+        "bereits",
+        "umsetzbar",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Der Vorschlag“. Der Einschub folgt auf „ist“; „bereits“ folgt nach dem Einschub.",
+    "hint": "Der eingeschobene Nebensatz wird auf beiden Seiten durch Kommas begrenzt."
+  },
+  {
+    "id": "sentence.advanced.v2.024",
+    "level": "hard",
+    "tokens": [
+      "Nicht",
+      "die Länge",
+      ",",
+      "sondern",
+      "die Genauigkeit",
+      "der Angaben",
+      "ist",
+      "entscheidend",
+      "."
+    ],
+    "solutions": [
+      [
+        "Nicht",
+        "die Länge",
+        ",",
+        "sondern",
+        "die Genauigkeit",
+        "der Angaben",
+        "ist",
+        "entscheidend",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Nicht“. Die Gegenüberstellung lautet zuerst Länge, dann Genauigkeit der Angaben.",
+    "hint": "Der erste Begriff wird zurückgewiesen; der zweite wird als entscheidend hervorgehoben."
+  },
+  {
+    "id": "sentence.advanced.v2.025",
+    "level": "hard",
+    "tokens": [
+      "Sie",
+      "prüft",
+      "den Ablauf",
+      "nicht nur",
+      "gründlich",
+      ",",
+      "sondern auch",
+      "unabhängig",
+      "."
+    ],
+    "solutions": [
+      [
+        "Sie",
+        "prüft",
+        "den Ablauf",
+        "nicht nur",
+        "gründlich",
+        ",",
+        "sondern auch",
+        "unabhängig",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Sie“. Nenne nach „nicht nur“ zuerst „gründlich“.",
+    "hint": "Zwei gleichrangige Eigenschaften werden durch „nicht nur …, sondern auch“ verbunden."
+  },
+  {
+    "id": "sentence.advanced.v2.026",
+    "level": "hard",
+    "tokens": [
+      "Sobald",
+      "alle Daten",
+      "vorliegen",
+      ",",
+      "kann",
+      "die abschließende Bewertung",
+      "erstellt werden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Sobald",
+        "alle Daten",
+        "vorliegen",
+        ",",
+        "kann",
+        "die abschließende Bewertung",
+        "erstellt werden",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Sobald“. Der Zeitsatz steht vor dem Hauptsatz.",
+    "hint": "Nach dem vorangestellten Zeitsatz folgt das Modalverb des Hauptsatzes."
+  },
+  {
+    "id": "sentence.advanced.v2.027",
+    "level": "hard",
+    "tokens": [
+      "Die Frage",
+      ",",
+      "für wen",
+      "die Regel",
+      "gilt",
+      ",",
+      "muss",
+      "zuerst",
+      "geklärt werden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die Frage",
+        ",",
+        "für wen",
+        "die Regel",
+        "gilt",
+        ",",
+        "muss",
+        "zuerst",
+        "geklärt werden",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Die Frage“. Der indirekte Fragesatz folgt direkt darauf; „zuerst“ steht nach „muss“.",
+    "hint": "Der eingeschobene Fragesatz erläutert das Nomen und endet vor dem Hauptsatzverb."
+  },
+  {
+    "id": "sentence.advanced.v2.028",
+    "level": "hard",
+    "tokens": [
+      "Anstatt",
+      "die Angaben",
+      "ungeprüft",
+      "zu übernehmen",
+      ",",
+      "vergleicht",
+      "sie",
+      "die Quellen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Anstatt",
+        "die Angaben",
+        "ungeprüft",
+        "zu übernehmen",
+        ",",
+        "vergleicht",
+        "sie",
+        "die Quellen",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Anstatt“. Setze „ungeprüft“ nach „die Angaben“.",
+    "hint": "Die Infinitivgruppe und der Hauptsatz werden durch ein Komma getrennt."
+  },
+  {
+    "id": "sentence.advanced.v2.029",
+    "level": "hard",
+    "tokens": [
+      "Weil",
+      "der Bericht",
+      "noch überarbeitet werden musste",
+      ",",
+      "wurde",
+      "die Besprechung",
+      "verschoben",
+      "."
+    ],
+    "solutions": [
+      [
+        "Weil",
+        "der Bericht",
+        "noch überarbeitet werden musste",
+        ",",
+        "wurde",
+        "die Besprechung",
+        "verschoben",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Weil“. Stelle den vollständigen Grund vor die Folge.",
+    "hint": "Die Modal-Passiv-Konstruktion steht im Nebensatz; die Folge wird im Hauptsatz ausgedrückt."
+  },
+  {
+    "id": "sentence.advanced.v2.030",
+    "level": "hard",
+    "tokens": [
+      "Hätte",
+      "sie",
+      "die Unterlagen",
+      "vollständig",
+      "gelesen",
+      ",",
+      "wäre",
+      "ihr",
+      "der Widerspruch",
+      "aufgefallen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Hätte",
+        "sie",
+        "die Unterlagen",
+        "vollständig",
+        "gelesen",
+        ",",
+        "wäre",
+        "ihr",
+        "der Widerspruch",
+        "aufgefallen",
+        "."
+      ]
+    ],
+    "instruction": "Beginne mit „Hätte“. Setze „vollständig“ nach „die Unterlagen“ und „ihr“ vor „der Widerspruch“.",
+    "hint": "Ein uneingeleiteter irrealer Bedingungssatz kann mit dem finiten Verb beginnen."
+  }
+]

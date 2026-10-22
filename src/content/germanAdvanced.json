@@ -1,0 +1,102 @@
+[
+  {
+    "id": "german.advanced.reading.001",
+    "prompt": "„Einige der geprüften Geräte waren fehlerhaft.“ Welche Aussage folgt daraus sicher?",
+    "options": [
+      "Mindestens ein geprüftes Gerät war fehlerhaft.",
+      "Die Mehrheit der geprüften Geräte war fehlerhaft.",
+      "Keines der nicht geprüften Geräte war fehlerhaft."
+    ],
+    "explanation": "„Einige“ belegt eine Teilmenge, aber weder eine Mehrheit noch den Zustand ungeprüfter Geräte."
+  },
+  {
+    "id": "german.advanced.reading.002",
+    "prompt": "„Die Leiterin erklärt, die Lieferung sei vollständig.“ Was kennzeichnet „sei“ hier?",
+    "options": [
+      "Die Aussage wird als Äußerung der Leiterin wiedergegeben.",
+      "Die Vollständigkeit wird damit unabhängig bewiesen.",
+      "Der Verfasser erklärt die Aussage damit sicher für falsch."
+    ],
+    "explanation": "Konjunktiv I kennzeichnet die indirekte Wiedergabe. Er beweist weder Wahrheit noch Unwahrheit."
+  },
+  {
+    "id": "german.advanced.reading.003",
+    "prompt": "„Ein späterer Beginn ist nicht ausgeschlossen.“ Welche Lesart trifft zu?",
+    "options": [
+      "Ein späterer Beginn bleibt möglich.",
+      "Ein späterer Beginn steht bereits fest.",
+      "Ein späterer Beginn ist sicher unmöglich."
+    ],
+    "explanation": "Die Verneinung eines Ausschlusses öffnet eine Möglichkeit; sie macht sie nicht zur Gewissheit."
+  },
+  {
+    "id": "german.advanced.reading.004",
+    "prompt": "„Der Entwurf ist zwar aufwendig, aber überzeugend.“ Worauf liegt das abschließende Gewicht?",
+    "options": [
+      "Die positive Bewertung wird trotz des genannten Aufwands hervorgehoben.",
+      "Der Aufwand hebt die positive Bewertung vollständig auf.",
+      "Beide Eigenschaften werden ausdrücklich bestritten."
+    ],
+    "explanation": "„Zwar …, aber …“ räumt zunächst einen Punkt ein und hebt anschließend den anderen hervor."
+  },
+  {
+    "id": "german.advanced.reading.005",
+    "prompt": "„Die Werte stiegen nach der Umstellung.“ Was ist damit allein noch nicht belegt?",
+    "options": [
+      "Dass die Umstellung den Anstieg verursacht hat.",
+      "Dass der genannte Anstieg zeitlich nach der Umstellung lag.",
+      "Dass der Text einen zeitlichen Zusammenhang behauptet."
+    ],
+    "explanation": "Eine zeitliche Abfolge belegt allein keine Ursache. Dafür sind zusätzliche Hinweise nötig."
+  },
+  {
+    "id": "german.advanced.reading.006",
+    "prompt": "Die Straße ist gesperrt. Der Fahrer umfährt die Absperrung auf einer Seitenstraße. Was bedeutet „umfährt“ hier?",
+    "options": [
+      "Er fährt auf einem anderen Weg um das Hindernis herum.",
+      "Er stößt das Hindernis durch Anfahren um.",
+      "Er hält vor dem Hindernis an und wartet dort."
+    ],
+    "explanation": "Die angegebene Seitenstraße legt die Bedeutung des untrennbaren Verbs „umfahren“ als Ausweichen fest."
+  },
+  {
+    "id": "german.advanced.reading.007",
+    "prompt": "„Sie kritisiert nicht den Vorschlag, sondern seine Begründung.“ Welche Zusammenfassung ist genau?",
+    "options": [
+      "Die Kritik richtet sich gegen die Begründung; der Vorschlag selbst wird hier nicht kritisiert.",
+      "Die Begründung wird gelobt und der Vorschlag abgelehnt.",
+      "Vorschlag und Begründung werden gleichermaßen verworfen."
+    ],
+    "explanation": "Die Gegenüberstellung grenzt den Gegenstand der Kritik ausdrücklich ein."
+  },
+  {
+    "id": "german.advanced.reading.008",
+    "prompt": "Welche Aussage gibt „Die Angaben sind nur teilweise überprüft“ präzise wieder?",
+    "options": [
+      "Ein Teil der Angaben wurde überprüft; eine vollständige Prüfung liegt nicht vor.",
+      "Alle Angaben sind überprüft, aber nur manche sind richtig.",
+      "Keine Angabe wurde bisher überprüft."
+    ],
+    "explanation": "„Teilweise“ begrenzt den Umfang der Prüfung. Es bewertet noch nicht den Wahrheitsgehalt aller Angaben."
+  },
+  {
+    "id": "german.advanced.reading.009",
+    "prompt": "„Nora sagt Mira, dass sie den Bericht vorbereitet.“ Welche Überarbeitung macht eindeutig, dass Mira den Bericht vorbereitet?",
+    "options": [
+      "Nora sagt Mira: „Du bereitest den Bericht vor.“",
+      "Nora sagt Mira: „Ich bereite den Bericht vor.“",
+      "Nora teilt Mira mit, dass sie den Bericht vorbereitet."
+    ],
+    "explanation": "Die direkte Anrede „du“ bezeichnet hier eindeutig Mira. „Ich“ bezeichnet Nora; „sie“ lässt den ursprünglichen Bezug offen."
+  },
+  {
+    "id": "german.advanced.reading.010",
+    "prompt": "Welche Überarbeitung bewahrt die vorsichtige Aussage „Die Daten deuten auf eine Verbesserung hin“?",
+    "options": [
+      "Die Daten sprechen für eine mögliche Verbesserung.",
+      "Die Daten beweisen zweifelsfrei eine Verbesserung.",
+      "Die Daten schließen jede andere Erklärung aus."
+    ],
+    "explanation": "„Deuten hin“ signalisiert Hinweise statt abschließender Gewissheit. Nur die erste Formulierung erhält diese Vorsicht."
+  }
+]

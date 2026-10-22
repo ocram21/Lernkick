@@ -55,7 +55,7 @@ for (const viewport of [{width:375,height:667},{width:320,height:568},{width:844
 }
 
 for (const [subject, title] of [['math','Mathematik'],['german','Deutsch'],['social','Sozialkunde'],['biology','Biologie'],['geography','Geographie']]) {
-  test(`${subject==='math'?'100 verschiedene Aufgaben':'alle 100 Fragen erreichbar'}: ${title}`, async ({page}) => {
+  test(`${subject==='math'?'100 verschiedene Aufgaben':subject==='german'?'100 normale Fragen erreichbar':'zwei Niveaus erreichbar'}: ${title}`, async ({page}) => {
     test.setTimeout(60000);page.setDefaultTimeout(5000);
     await page.setViewportSize({width:375,height:667});
     await page.goto('/');
@@ -69,10 +69,10 @@ for (const [subject, title] of [['math','Mathematik'],['german','Deutsch'],['soc
     },data);
     await page.reload();
     const seen=new Set<string>();
-    for(let round=0;round<10;round++) {
-      await page.getByRole('button',{name:new RegExp(title+', Level ')}).click();if(subject==='math')await page.getByRole('button',{name:'Runde starten',exact:true}).click();
+    for(let round=0;round<(subject==='math'||subject==='german'?10:2);round++) {
+      if(round===1&&!['math','german'].includes(subject))await page.getByRole('switch',{name:'Streber',exact:true}).click();await page.getByRole('button',{name:new RegExp(title+', Level ')}).click();if(subject==='math')await page.getByRole('button',{name:'Runde starten',exact:true}).click();
       for(let i=0;i<10;i++) {
-        const prompt=await page.locator('.question h1,.equation-lines h1').innerText();expect(seen.has(prompt)).toBe(false);seen.add(prompt);
+        const prompt=(await page.locator('.question h1,.equation-lines h1').innerText())+(await page.locator('.geometry-figure svg').count()?await page.locator('.geometry-figure svg').getAttribute('aria-label'):'');expect(seen.has(prompt)).toBe(false);seen.add(prompt);
         await answerCorrect(page);
         const next=page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage'});await expect(next).toBeEnabled();
         const rect=await next.boundingBox();expect(rect!.y+rect!.height).toBeLessThanOrEqual(667);
@@ -81,6 +81,6 @@ for (const [subject, title] of [['math','Mathematik'],['german','Deutsch'],['soc
       }
       await page.getByRole('button',{name:'Zur Fächerauswahl'}).click();
     }
-    expect(seen.size).toBe(100);
+    expect(seen.size).toBe(subject==='math'||subject==='german'?100:20);
   });
 }

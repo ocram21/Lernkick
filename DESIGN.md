@@ -163,3 +163,7 @@ Auf ausdrücklichen Nutzerauftrag sind korrekt belegte Hauptstadtfelder weiß (`
 ## Menütaste Dual N-Back, 21.10.2026
 
 Nur N1, N2 und N3 als kleine Stufenmarkierungen. Gemeisterte Stufen erhalten die bestehende ausgefüllte, kontrastreiche Darstellung. Keine aktuelle Stufe und keine Bestleistungszeile auf der Taste; gespeicherte Trainingsdaten bleiben erhalten.
+
+## Globaler Modus und mobile Geometrie, 22.10.2026
+
+Ein zentraler Normal-/Streber-Schalter steht direkt unter „Dein Lern-Kick“; Untermenüs haben keine weiteren Niveauschalter. Ausgang verwendet appweit das vorhandene Türkis mit heller Schrift; „Zu den Kategorien“ verwendet Orange mit dunkler Schrift. Beschriftungen ergänzen die Farborientierung. Mathe bietet zehn auswählbare Kategorien bei unverändert drei Stufen. Geometrie verwendet proportional skalierte SVG-Rechtecke bzw. rechtwinklige Dreiecke mit sichtbaren Seitenlängen, kompakte Antworttasten und zwei Navigationszeilen. Aufgaben, Figur, Erklärung und nächste Aktion sind auf 320×568 in allen drei Stufen ohne Scrollen erreichbar. Der kleine Hauptbildschirm verdichtet Abstände, damit der globale Schalter und alle neun Menütasten sichtbar bleiben. Bestehende Palette, Schrift und Tastentiefe bleiben maßgeblich.

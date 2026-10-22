@@ -18,7 +18,7 @@ export async function loadData(): Promise<UserData> {
         loaded = true;
         return next;
     }
-    if(value.version!==4&&await tx.store.get('backup.before-v4')===undefined)await tx.store.put(value,'backup.before-v4');
+    if(value.version!==5&&await tx.store.get('backup.before-v5')===undefined)await tx.store.put(value,'backup.before-v5');
     const migrated = migrateData(value), sidecar = await tx.store.get('journey.current');
     const recovered = migrated.journey ?? (sidecar === undefined ? newJourney(migrated.scores) : journeySchema.parse(sidecar));
     let savedNBack:unknown;try{savedNBack=JSON.parse(localStorage.getItem('lernkick.nback.round.v1')??'null');}catch{/* Keep the canonical progress if the old session is unavailable. */}

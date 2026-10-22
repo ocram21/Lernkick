@@ -1,3 +1,5 @@
+import advancedWordsV2 from '../content/vocabularyAdvanced.json';
+import advancedSentences from '../content/sentencesAdvanced.json';
 import {proverbTasks} from './proverbs';
 import {grammarTasks} from './grammar';
 import {shuffle} from '../lib/engine';
@@ -28,9 +30,9 @@ const advancedWords=[
 {id:'vocabulary.hard.tarifbindung',category:'work',topic:'Streber',word:'Tarifbindung',meaning:'Verbindliche Geltung eines Tarifvertrags für die Tarifgebundenen',distractors:['Freie Wahl aller Arbeitsbedingungen ohne Regeln','Ein staatlich festgesetzter Preis']},
 {id:'vocabulary.hard.gefaehrdung',category:'work',topic:'Streber',word:'Gefährdungsbeurteilung',meaning:'Systematische Ermittlung und Bewertung von Gefährdungen bei der Arbeit',distractors:['Beurteilung nur nach einem Arbeitsunfall','Eine freiwillige Befragung zur Zufriedenheit']},
 ] as const;
-export const words=[...topicWords.entries,...advancedWords.map(w=>({...w,distractors:[...w.distractors]}))].map(value=>vocabularyEntrySchema.and(z.object({category:z.enum(['everyday','work']),topic:z.string()})).parse(value));
-export const sentenceSchema=z.object({id:z.string(),level:levelSchema,tokens:z.array(z.string()).min(3),solutions:z.array(z.array(z.string())).min(1),instruction:z.string(),hint:z.string()});
-const fixedSentences=sentencePack.tasks.map(value=>sentenceSchema.parse({...value,instruction:value.instruction.replace(/Zähle in dieser Reihenfolge auf:/g,'Verwende in deiner Aufzählung:')}));
+export const words=[...topicWords.entries,...advancedWords.map(w=>({...w,archived:true,distractors:[...w.distractors]})),...advancedWordsV2].map(value=>vocabularyEntrySchema.and(z.object({category:z.enum(['everyday','work']),topic:z.string(),context:z.string().optional(),explanation:z.string().optional(),archived:z.boolean().optional()})).parse(value));
+export const sentenceSchema=z.object({id:z.string(),level:levelSchema,archived:z.boolean().optional(),tokens:z.array(z.string()).min(3),solutions:z.array(z.array(z.string())).min(1),instruction:z.string(),hint:z.string()});
+const fixedSentences=sentencePack.tasks.map(value=>sentenceSchema.parse({...value,...(value.level==='hard'?{archived:true}:{}),instruction:value.instruction.replace(/Zähle in dieser Reihenfolge auf:/g,'Verwende in deiner Aufzählung:')}));
 export type SentenceTask=z.infer<typeof sentenceSchema>;
 const people=['Mia','Ali','Lena','Ben','Nora','Emil','Sara','Tim','Lea','Omar'];
 const actions=[['liest','ein Buch'],['schreibt','einen Brief'],['zeichnet','ein Bild'],['plant','einen Ausflug'],['kauft','frisches Obst'],['prüft','die Rechnung'],['repariert','das Fahrrad'],['sortiert','die Unterlagen']];
@@ -40,7 +42,7 @@ const generatedSentences:SentenceTask[]=people.flatMap((person,p)=>actions.flatM
  const start=t===1?'„Morgen“':'dem Namen';
  return sentenceSchema.parse({id:`sentence.generated.v1.${p}.${a}.${t}`,level:'normal',tokens,solutions:[[...tokens]],instruction:`Bilde einen Satz. Beginne mit ${start}.`,hint:t===1?'Nach der Zeitangabe folgt das Verb.':'Im Hauptsatz steht das Verb an zweiter Stelle; im Nebensatz steht es am Ende.'});
 })));
-export const sentences=[...fixedSentences,...generatedSentences];
+export const sentences=[...fixedSentences,...generatedSentences,...advancedSentences.map(value=>sentenceSchema.parse(value))];
 
 export const wordById=new Map(words.map(word=>[word.id,word]));
 export const sentenceById=new Map(sentences.map(task=>[task.id,task]));
@@ -86,7 +88,7 @@ export function adaptNormal(activity:Activities['vocabulary'],id:string,correct:
 export function sentenceBand(task:SentenceTask){const commas=task.tokens.filter(t=>t===',').length;return commas>1||task.tokens.length>12?2:commas&&task.tokens.length>10?1:0;}
 export function normalSentenceQueue(activity:Activities['vocabulary'],exclude:string[]=[]){
  const tier=activity.adaptive.tier;
- return shuffle(sentences.filter(s=>s.level==='normal'&&sentenceBand(s)<=tier&&!exclude.includes(s.id))).sort((a,b)=>{
+ return shuffle(sentences.filter(s=>!s.archived&&s.level==='normal'&&sentenceBand(s)<=tier&&!exclude.includes(s.id))).sort((a,b)=>{
   const ra=activity.sentences[a.id],rb=activity.sentences[b.id];
   // Failed tasks return only when they fit the current band; no difficult repeat lock.
   const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;
@@ -94,9 +96,9 @@ export function normalSentenceQueue(activity:Activities['vocabulary'],exclude:st
  }).map(s=>s.id);
 }
 /** Due mistakes first, then unseen tasks; learned tasks remain available for practice. */
-export function practiceQueue(activity:Activities['vocabulary']):string[]{
+export function practiceQueue(activity:Activities['vocabulary'],exclude:readonly string[]=[]):string[]{
  const terms=activity.enabled.everyday||activity.enabled.work;
- const groups=[terms?words.filter(w=>w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>s.level==='hard').map(s=>s.id)):[],activity.enabled.grammar?grammarTasks.filter(t=>t.level===activity.level).map(t=>t.id):[],activity.enabled.proverbs?proverbTasks.filter(t=>t.level===activity.level).map(t=>t.id):[]].filter(group=>group.length);
+ const groups=[terms?words.filter(w=>!w.archived&&w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>!s.archived&&s.level==='hard').map(s=>s.id)):[],activity.enabled.grammar?grammarTasks.filter(t=>!t.archived&&t.level===activity.level).map(t=>t.id):[],activity.enabled.proverbs?proverbTasks.filter(t=>t.level===activity.level).map(t=>t.id):[]].map(group=>group.filter(id=>!exclude.includes(id))).filter(group=>group.length);
  const result=(id:string)=>activity.words[id]??activity.sentences[id]??activity.grammar[id]??activity.proverbs[id];
  const ranked=groups.map(group=>shuffle(group).sort((a,b)=>{const ra=result(a),rb=result(b);const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;return Number(activity.recent.includes(a))-Number(activity.recent.includes(b))||Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb);}));
  const queue:string[]=[];for(let i=0;queue.length<10;i++){let added=false;for(const group of shuffle(ranked))if(group[i]&&queue.length<10){queue.push(group[i]);added=true;}if(!added)break;}return shuffle(queue);

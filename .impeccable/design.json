@@ -212,7 +212,7 @@
       "pin": "Vier maskierte Positionen; dreispaltige Zifferntasten; mindestens 50 px hoch in kurzen Viewports",
       "feedback": "Fachfragen, Begriffe- und Grammatik-Multiple-Choice: richtig/falsch zwei Sekunden; Pause stoppt, Fortsetzen startet volle zwei Sekunden. Satzbaufehler bleiben bearbeitbar.",
       "boardWorkspace": "Aktive Tafel volle Viewporthöhe ohne überdeckende Kopf-/Hauptnavigation; Bild links, unabhängig scrollbar bedienbare Begriffe rechts (32 %, mindestens 140 px). Ein Finger verschiebt, zwei Finger zoomen; eigene Zoom-/Resetbuttons.",
-      "exit": "Gemeinsamer ExitButton links oben als erste Aktion: mindestens 44 px hoch und 94 px breit, 9 px Radius, 9px 12px Padding, Barlow 15px/600, ArrowLeft. Startseite ausgenommen.",
+      "exit": "Gemeinsamer türkiser ExitButton mit heller Schrift links oben als erste Aktion: mindestens 44 px hoch und 94 px breit, 9 px Radius, 9px 12px Padding, Barlow 15px/600, ArrowLeft. Startseite ausgenommen.",
       "categoryLabel": "Drei Mathematik-Stufen nebeneinander; zweispaltige Mehrfachkategorien mit Alle-Aktion; profilierte Auswahlknöpfe.",
       "learningStrength": "Identischer Prozentwert und native Progress-Füllung ohne Mindestfüllung; aktueller Orange-/Pink-Akzent, getrennte WebKit-/Gecko-Füllregeln. Sichtbare Skalenhilfe: 100 % = 5 Stunden aktive Lernzeit (300 Minuten).",
       "vocabulary": "Begriffe, Satzbau, Grammatik, Sprichwörter; Normal/Streber. Grammatik nutzt bestehende Runden-, Antwort-, Feedback-, Pause- und Rückblickdarstellung mit zehn Aufgaben.",
@@ -278,7 +278,7 @@
       "kind": "button",
       "description": "Gemeinsame erste Aktion links oben auf Unterseiten und in Runden.",
       "html": "<button class=\"ds-exit\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 19-7-7 7-7M5 12h14\"/></svg>Ausgang</button>",
-      "css": ".ds-exit{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:94px;min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);font:600 15px Barlow,sans-serif;cursor:pointer;box-shadow:inset 0 1px 1px color-mix(in srgb,var(--ink) 16%,transparent),0 3px 0 var(--calc-display)}.ds-exit:focus-visible{outline:3px solid var(--accent);outline-offset:5px}"
+      "css": ".ds-exit{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:94px;min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;background:color-mix(in srgb,var(--calc-petrol) 85%,var(--calc-display));color:var(--calc-ink);font:600 15px Barlow,sans-serif;cursor:pointer;box-shadow:inset 0 1px 1px color-mix(in srgb,var(--ink) 16%,transparent),0 3px 0 var(--calc-display)}.ds-exit:focus-visible{outline:3px solid var(--accent);outline-offset:5px}"
     },
     {
       "name": "Profilierte Auswahl",

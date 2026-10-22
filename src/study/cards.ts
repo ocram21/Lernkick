@@ -41,4 +41,4 @@ export function saveWord(data:UserData,entry:VocabularyEntry):UserData {
 export function deleteWord(data:UserData,id:string):UserData {
   return {...data,study:{...data.study,vocabulary:data.study.vocabulary.filter(entry=>entry.id!==id),hiddenVocabulary:isStandardWord(id)?[...new Set([...data.study.hiddenVocabulary,id])]:data.study.hiddenVocabulary}};
 }
-export const wordQuestion=(entry:VocabularyEntry):Question=>({id:entry.id,subject:'german',topic:'Alltagswortschatz',competency:'alltagswortschatz',difficulty:1,prompt:`Was bedeutet „${entry.word}“?`,options:[entry.meaning,...entry.distractors],correct:0,explanation:entry.meaning});
+export const wordQuestion=(entry:VocabularyEntry&{context?:string;explanation?:string}):Question=>({id:entry.id,subject:'german',topic:'Alltagswortschatz',competency:'alltagswortschatz',difficulty:1,prompt:`${entry.context?entry.context+'\n':''}Was bedeutet „${entry.word}“?`,options:[entry.meaning,...entry.distractors],correct:0,explanation:entry.explanation??entry.meaning});
