@@ -1,7 +1,7 @@
 import {recoverNBack} from '../learning/nback';
 import { openDB } from 'idb';
 import { dataSchema, emptyData, type UserData } from './schema';
-import { journeySchema, newJourney } from '../learning/journey';
+import { journeySchema, newJourney,upgradeStrength } from '../learning/journey';
 import { migrateData } from '../learning/migration';
 function snapshot(value: unknown): string | undefined { return JSON.stringify(value, (_key, item) => item && typeof item === 'object' && !Array.isArray(item) ? Object.fromEntries(Object.keys(item).sort().map(key => [key, item[key]])) : item); }
 let expectedSnapshot: string | undefined;
@@ -18,9 +18,9 @@ export async function loadData(): Promise<UserData> {
         loaded = true;
         return next;
     }
-    if(value.version!==6&&await tx.store.get('backup.before-v6')===undefined)await tx.store.put(value,'backup.before-v6');
+    if(value.version!==7&&await tx.store.get('backup.before-v7')===undefined)await tx.store.put(value,'backup.before-v7');
     const migrated = migrateData(value), sidecar = await tx.store.get('journey.current');
-    const recovered = migrated.journey ?? (sidecar === undefined ? newJourney(migrated.scores) : journeySchema.parse(sidecar));
+    const recovered = upgradeStrength(migrated.journey ?? (sidecar === undefined ? newJourney(migrated.scores) : journeySchema.parse(sidecar)));
     let savedNBack:unknown;try{savedNBack=JSON.parse(localStorage.getItem('lernkick.nback.round.v1')??'null');}catch{/* Keep the canonical progress if the old session is unavailable. */}
     const next = { ...migrated,nback:recoverNBack(migrated.nback,savedNBack), journey: { ...recovered, totalPoints: Math.max(recovered.totalPoints, Object.values(migrated.scores).reduce((a, b) => a + b, 0)) } };
     dataSchema.parse(next);

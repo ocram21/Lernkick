@@ -1,5 +1,5 @@
 import {mergeNBack} from './nback';
-import { moduleIds,upgradeStrength } from './journey';
+import { moduleIds,upgradeStrength,mergeStrength } from './journey';
 import { dataSchema, previousDataSchema, legacyDataSchema, emptyLearning, emptyStudy, type UserData } from '../lib/schema';
 import { standardCards, standardVocabulary } from '../study/cards';
 import { words } from '../activities/content';
@@ -8,10 +8,10 @@ import { skillFor } from './tasks';
 import { emptyCompetency } from './mastery';
 export function migrateData(value: unknown): UserData {
     if (typeof value === 'object' && value !== null && 'version' in value) {
-        if (value.version === 3||value.version===4||value.version===5||value.version===6)
-            return migrateActivities(dataSchema.parse({...value,version:6,rounds:'rounds' in value&&value.rounds&&typeof value.rounds==='object'&&!Array.isArray(value.rounds)?Object.fromEntries(Object.entries(value.rounds).map(([id,round])=>[id,round&&typeof round==='object'&&'panel' in round&&round.panel==='pace'?{...round,panel:null}:round])):('rounds' in value?value.rounds:{})}));
+        if (value.version === 3||value.version===4||value.version===5||value.version===6||value.version===7)
+            return migrateActivities(dataSchema.parse({...value,version:7,rounds:'rounds' in value&&value.rounds&&typeof value.rounds==='object'&&!Array.isArray(value.rounds)?Object.fromEntries(Object.entries(value.rounds).map(([id,round])=>[id,round&&typeof round==='object'&&'panel' in round&&round.panel==='pace'?{...round,panel:null}:round])):('rounds' in value?value.rounds:{})}));
         if (value.version === 2)
-            return migrateActivities(dataSchema.parse({ ...previousDataSchema.parse(value), version: 6, study: emptyStudy() }));
+            return migrateActivities(dataSchema.parse({ ...previousDataSchema.parse(value), version: 7, study: emptyStudy() }));
     }
     const legacy = legacyDataSchema.parse(value);
     const learning = emptyLearning();
@@ -24,14 +24,14 @@ export function migrateData(value: unknown): UserData {
         skill.baseline.correct += progress.correct;
         learning.competencies[skillId] = skill;
     }
-    return migrateActivities(dataSchema.parse({ ...legacy, version: 6, learning, study: emptyStudy() }));
+    return migrateActivities(dataSchema.parse({ ...legacy, version: 7, learning, study: emptyStudy() }));
 }
 /** Restoring an older backup replaces learning data, but never takes earned picture pieces away. */
 export function prepareImport(current: UserData, incoming: UserData): UserData {
     // A confirmed import of another profile replaces it; never mix two learners.
     if (current.journey && incoming.journey && current.journey.profileId !== incoming.journey.profileId)
         return incoming;
-    const journey = incoming.journey && current.journey ? { ...incoming.journey, profileId: current.journey.profileId,strengthModel:2 as const,strength:Math.max(current.journey.strength,incoming.journey.strength),activeLearningMs:Math.max(current.journey.activeLearningMs??0,incoming.journey.activeLearningMs??0), totalPoints: Math.max(current.journey.totalPoints, incoming.journey.totalPoints), modules: Object.fromEntries(moduleIds.map(id => { const a = current.journey!.modules[id], b = incoming.journey!.modules[id]; return [id, { ...(a.level > b.level || (a.level === b.level && a.progress > b.progress) ? a : b), completed: [...new Set([...a.completed, ...b.completed])], bossWins: [...new Set([...a.bossWins, ...b.bossWins])], bossAttempts: [...new Set([...a.bossAttempts, ...b.bossAttempts])] }]; })) as NonNullable<UserData['journey']>['modules'], events: { ...current.journey.events, ...incoming.journey.events }, tasks: { ...current.journey.tasks, ...incoming.journey.tasks } } : current.journey ? { ...current.journey, totalPoints: Math.max(current.journey.totalPoints, Object.values(incoming.scores).reduce((a, b) => a + b, 0)) } : incoming.journey;
+    const journey = incoming.journey && current.journey ? { ...incoming.journey, profileId: current.journey.profileId,...mergeStrength(current.journey,incoming.journey), totalPoints: Math.max(current.journey.totalPoints, incoming.journey.totalPoints), modules: Object.fromEntries(moduleIds.map(id => { const a = current.journey!.modules[id], b = incoming.journey!.modules[id]; return [id, { ...(a.level > b.level || (a.level === b.level && a.progress > b.progress) ? a : b), completed: [...new Set([...a.completed, ...b.completed])], bossWins: [...new Set([...a.bossWins, ...b.bossWins])], bossAttempts: [...new Set([...a.bossAttempts, ...b.bossAttempts])] }]; })) as NonNullable<UserData['journey']>['modules'], events: { ...current.journey.events, ...incoming.journey.events }, tasks: { ...current.journey.tasks, ...incoming.journey.tasks } } : current.journey ? { ...current.journey, totalPoints: Math.max(current.journey.totalPoints, Object.values(incoming.scores).reduce((a, b) => a + b, 0)) } : incoming.journey;
     return { ...incoming, nback:mergeNBack(current.nback,incoming.nback), journey, learning: { ...incoming.learning, unlocks: { ...current.learning.unlocks, ...incoming.learning.unlocks } } };
 }
 /** One-time, lossless transition: edited defaults become personal copies. */

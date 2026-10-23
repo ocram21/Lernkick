@@ -143,7 +143,7 @@ Das native modale Eingabefenster übernimmt das gewählte Fach und beschränkt d
 
 Nach erfolgreichem „Karte speichern“ bleibt das Fenster offen, leert Frage und Antwort, erhält die Unterrubrik und fokussiert die Frage für die nächste Karte. Eine Statusmeldung bestätigt das Speichern. Fehler erhalten die Eingaben; während des Speicherns sind Eingabe und Abschluss gesperrt. „Fertig“ oder Escape schließen außerhalb des Speicherns und geben den Fokus an den Auslöser zurück. Diese Regeln beschreiben die Kartenerstellung, keine neue allgemeine Dialogwelt.
 
-Die Lernstärke zeigt denselben Prozentwert in Text und Balken. Im Hauptmenü entfällt der Zusatz „100 % = 5 Stunden aktive Lernzeit“; die Erklärung der fünf Stunden bleibt in der Hilfe. Der Lernkasten zählt aktive Lernzeit ohne Leistungspunkte.
+Die Lernstärke zeigt denselben Prozentwert in Text und Balken. Im Hauptmenü entfällt der Zusatz „100 % = 5 Stunden aktive Lernzeit“; die Hilfe erklärt das Tagesziel von 30 aktiven Minuten, sieben erfüllte Ziele von 0 auf 100 % und 10 % relativen Abzug bei verfehlten Tagen. Der Lernkasten zählt aktive Lernzeit ohne Leistungspunkte.
 
 Die Bildschirmtastatur bleibt QWERTZ mit eingerückter zweiter (3 %) und letzter Reihe (9 %), 6 px Tastenradius und 2 px Sockeltiefe. Dual N-Back bietet 1-/2-/3-Back nebeneinander; freigeschaltetes 4-Back erhält eine zusätzliche volle Zeile. Der aktive Rasterreiz trägt einen sichtbaren runden Mittelpunkt aus der vorhandenen Palette.
 

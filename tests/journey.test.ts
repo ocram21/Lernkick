@@ -23,9 +23,9 @@ describe('Unabhängige Level und dauerhafte Punkte', () => {
 describe('Lernstärke mit aktiver Zeit und Offline-Zeitstempeln', () => {
     function train(j = newJourney({}, now), at = now) { for (let i = 1; i <= 60; i++)
         j = activeTime(j, 30000, at + i * 30000); return j; }
-    it('gewinnt bei 30 Minuten täglich zehn Punkte und klemmt bei 100', () => { let j = newJourney({}, now); for (let d = 0; d < 12; d++)
+    it('erreicht nach sieben vollen Tageszielen 100 Prozent', () => { let j = newJourney({}, now); for (let d = 0; d < 12; d++)
         j = train(j, now + d * day); expect(j.strength).toBe(100); });
-    it('bewahrt die aktive Lernzeit auch nach Pausen und wächst bei Rückkehr weiter', () => { let j = train(); const last = j.lastActivity; expect(strengthAt(j, last + 2 * day)).toBeCloseTo(10); expect(strengthAt(j, last + 3 * day)).toBeCloseTo(10); expect(strengthAt(j, last + 7 * day)).toBeCloseTo(10); expect(strengthAt(j, last + 14 * day)).toBeCloseTo(10); j = train(j, last + 14 * day); expect(j.strength).toBeCloseTo(20); });
+    it('verliert pro verfehltem Kalendertag zehn Prozent des bestehenden Werts',()=>{let j=train();const last=j.lastActivity;expect(strengthAt(j,last+2*day)).toBeCloseTo((100/7)*.9);expect(strengthAt(j,last+3*day)).toBeCloseTo((100/7)*.9**2);j=train(j,last+3*day);expect(j.strength).toBeCloseTo((100/7)*(.9**2+1));});
     it('belohnt keine geöffnete App, langen Pausen oder rückwärts laufende Uhr', () => { const j = newJourney({}, now); expect(activeTime(j, 60000, now + 60000)).toEqual(j); expect(activeTime(j, 1000, now - 1)).toEqual(j); expect(strengthAt(j, now + day)).toBe(0); expect(activeTime(j, NaN, now)).toEqual(j); });
 });
 describe('Sicherung und Import', () => {

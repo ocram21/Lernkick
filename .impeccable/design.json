@@ -214,7 +214,7 @@
       "boardWorkspace": "Aktive Tafel volle Viewporthöhe ohne überdeckende Kopf-/Hauptnavigation; Bild links, unabhängig scrollbar bedienbare Begriffe rechts (32 %, mindestens 140 px). Ein Finger verschiebt, zwei Finger zoomen; eigene Zoom-/Resetbuttons.",
       "exit": "Gemeinsamer türkiser ExitButton mit dunkler Schrift links oben als erste Aktion: mindestens 44 px hoch und 94 px breit, 9 px Radius, 9px 12px Padding, Barlow 15px/600, ArrowLeft. Startseite ausgenommen.",
       "categoryLabel": "Drei Mathematik-Stufen nebeneinander; zweispaltige Mehrfachkategorien mit Alle-Aktion; profilierte Auswahlknöpfe.",
-      "learningStrength": "Identischer Prozentwert und native Progress-Füllung ohne Mindestfüllung; aktueller Orange-/Pink-Akzent, getrennte WebKit-/Gecko-Füllregeln. Sichtbare Skalenhilfe: 100 % = 5 Stunden aktive Lernzeit (300 Minuten).",
+      "learningStrength": "Identischer Prozentwert und native Progress-Füllung ohne Mindestfüllung; aktueller Orange-/Pink-Akzent, getrennte WebKit-/Gecko-Füllregeln. Hilfe: 30 aktive Minuten erfüllen ein Tagesziel; sieben volle Tagesziele von 0 auf 100 %, verfehlte Tage kosten jeweils 10 % des bestehenden Werts.",
       "vocabulary": "Begriffe, Satzbau, Grammatik, Sprichwörter; Normal/Streber. Grammatik nutzt bestehende Runden-, Antwort-, Feedback-, Pause- und Rückblickdarstellung mit zehn Aufgaben.",
       "nbackExit": "Ausgang beendet nur temporäre Zeitfolge und Audio; nächstes Öffnen zeigt Startbildschirm. Dauerhafte N-Stufen, Erfolge und Punkte bleiben erhalten.",
       "learningBox": "Training | Lernkasten | Einstellungen. Fünf direkte Fachwahlen; ausklappbare Unterrubriken und getrennte Quellen; scrollbar begrenzte Kartenfläche; Navigation im unteren Flexlayout. Tafeln archiviert.",

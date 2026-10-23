@@ -26,5 +26,5 @@ test('N-Back: echte gemeisterte N-Stufen und Score überleben Reload',async({pag
 test('Lernstärke: mehrere Runden, Reload und späterer Beginn erfassen aktive Zeit',async({page})=>{
  await page.clock.install();await page.goto('/');await page.clock.runFor(90000);
  for(let r=0;r<2;r++){await page.getByRole('button',{name:/^Deutsch, Level /}).click();for(let i=0;i<10;i++){await page.clock.runFor(3500);await answerCorrect(page);await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage',exact:true}).click();}await page.getByRole('button',{name:'Zur Fächerauswahl',exact:true}).click();}
- const before=await store(page);expect(before.journey.strength).toBeGreaterThan(.25);expect(before.journey.totalPoints).toBeGreaterThan(0);await page.reload();const after=await store(page);expect(after.journey.strength).toBe(before.journey.strength);expect(after.journey.totalPoints).toBe(before.journey.totalPoints);
+ const before=await store(page);expect(before.journey.dayLearningMs).toBeGreaterThan(30000);expect(before.journey.strength).toBe(0);expect(before.journey.totalPoints).toBeGreaterThan(0);await page.reload();const after=await store(page);expect(after.journey.strength).toBe(before.journey.strength);expect(after.journey.totalPoints).toBe(before.journey.totalPoints);
 });
