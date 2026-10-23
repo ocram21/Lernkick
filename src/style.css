@@ -328,3 +328,18 @@ progress{appearance:none;-webkit-appearance:none;border:0;border-radius:3px;over
 .settings-screen .settings-about{margin-top:8px}
 .settings-screen .settings-about summary{font-size:.88rem;line-height:1.3;min-height:44px;padding:10px 0}
 .settings-screen .settings-about p,.settings-screen .settings-about .curriculum-sources{font-size:.88rem;line-height:1.4;overflow-wrap:anywhere}
+
+/* Requested learning-box actions, using the existing calculator palette. */
+:root .app-shell.box-screen .box-subjects .calculator-key{--key-color:var(--calc-petrol);display:flex;align-items:center;justify-content:center;text-align:center}
+.box-subjects .calculator-key::before{content:none}
+.box-subjects .key-name{width:100%;text-align:center}
+.box-actions{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);align-items:center;gap:18px;max-width:500px;margin:22px 0 16px}
+:root .app-shell .box-actions .box-add{width:100%;margin:0;min-width:0;min-height:64px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px;padding:10px 6px;text-align:center;font-size:.82rem;line-height:1.25;background:var(--calc-petrol);color:var(--calc-ink)}
+:root .app-shell .box-actions .box-begin{width:100%;min-width:0;aspect-ratio:1;min-height:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;padding:12px;text-align:center;background:var(--calc-orange);color:var(--calc-number);font-size:clamp(1.1rem,4vw,1.55rem);line-height:1.2}
+.box-begin small{font-size:.75em;font-weight:400}
+/* Training uses the incumbent box/settings logo geometry at every viewport. */
+.app-shell:is(.home-screen,.box-screen,.settings-screen) .header{height:56px;gap:16px;flex-shrink:0}
+.app-shell:is(.home-screen,.box-screen,.settings-screen) .wordmark{font-size:30px;gap:5px;min-width:0;min-height:44px}
+.app-shell:is(.home-screen,.box-screen,.settings-screen) .wordmark>svg{width:27px;height:27px;margin-right:5px}
+.app-shell.box-screen{padding-top:env(safe-area-inset-top)}
+@media(max-width:700px){.app-shell:is(.home-screen,.box-screen,.settings-screen) .wordmark{font-size:27px}}

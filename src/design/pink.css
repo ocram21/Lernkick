@@ -1,7 +1,7 @@
 /* Optional palette; reference illustrations and semantic feedback keep their colors. */
 :root[data-pink="true"]{color-scheme:light;background:var(--pink-ground);--ground:var(--pink-ground);--panel:var(--pink-panel);--ink:var(--pink-ink);--muted:var(--pink-muted);--accent:var(--pink-accent);--line:var(--pink-line);--lcd:var(--pink-lcd);--lcd-ink:var(--pink-ink);--key-ink:var(--pink-white);--button-ink:var(--pink-white)}
 :root[data-pink="true"] .calculator-grid{background:var(--pink-recess)}
-:root[data-pink="true"] .calculator-key[data-module="german"],:root[data-pink="true"] .calculator-key[data-module="vocabulary"]{--key-color:var(--pink-accent)}
+:root[data-pink="true"] .calculator-key[data-module="german"]{--key-color:var(--pink-accent)}
 :root[data-pink="true"] .primary{background:var(--pink-accent);color:var(--pink-white)}
 :root[data-pink="true"] .bottom-nav{background:var(--pink-panel)}
 :root[data-pink="true"] .bottom-nav button[aria-current]{background:var(--pink-accent);color:var(--pink-white)}
