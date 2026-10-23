@@ -26,4 +26,19 @@ export function applyOperation(q:Equation,raw:string):{equation:Equation;operati
  }catch(error){return {error:error instanceof z.ZodError?'Die Zahlen werden zu groß. Wähle einen einfacheren Schritt.':error instanceof Error?error.message:'Prüfe deine Eingabe.'};}}
 export function solvedEquation(q:Equation){return q.a.n===q.a.d&&q.b.n===0&&q.c.n===0||q.c.n===q.c.d&&q.d.n===0&&q.a.n===0;}
 export function replayEquation(initial:Equation,operations:readonly string[]){let equation=initial;const lines=[equationText(initial)];for(const operation of operations){const result=applyOperation(equation,operation);if('error'in result)break;lines[lines.length-1]+=` | ${result.operation}`;equation=result.equation;lines.push(equationText(equation));}return {equation,lines};}
-export function equationTask(level:number,random= Math.random):LearningTask{const int=(a:number,b:number)=>a+Math.floor(random()*(b-a+1)),difficulty=Math.max(1,Math.min(3,level)),solution=int(difficulty===1?1:-9,12),a=difficulty===1?1:int(2,7),c=difficulty===3?int(1,a-1):0,b=int(2,15),d=(a-c)*solution+b,equation={a:rational(a),b:rational(b),c:rational(c),d:rational(d)},prompt=equationText(equation),signature=`equation:${a}:${b}:${c}:${d}`;return{id:`practice.math.v2:${signature}`,subject:'math',topic:'Gleichungen',competency:'equation.linear',difficulty,prompt,options:[String(solution),String(solution+1)],correct:0,explanation:`Die Gleichung ist für x = ${solution} erfüllt. Beide Seiten ergeben ${a*solution+b}.`,skillId:'math.equation.linear',signature,generated:{version:1,operands:[a,solution],operation:'equation'},equation,help:{hint:'Führe auf beiden Seiten dieselbe Operation aus.',example:'3x + 4 = 19 | −4 ergibt 3x = 15.',alternate:'Sammle die x-Terme auf einer Seite und die Zahlen auf der anderen.'}};}
+export function equationTask(level:number,random=Math.random):LearningTask{
+ const int=(a:number,b:number)=>a+Math.floor(random()*(b-a+1)),difficulty=Math.max(1,Math.min(3,level));
+ const kind=difficulty===3?int(0,3):0,solution=difficulty===3?int(-16,16):int(difficulty===1?1:-9,12);
+ let a=rational(difficulty===1?1:int(2,9)),c=rational(0),b=rational(int(2,15));
+ if(difficulty===3){
+  // Four exact families: signed coefficients, fractional coefficients, fractional
+  // constants, and negative coefficients. All retain x on both sides.
+  const denominator=[2,3,4,5][int(0,3)];
+  a=kind===1?rational(int(7,15),denominator):rational(kind===3?-int(3,9):int(3,9));
+  c=kind===1?rational(-int(1,5),denominator):rational(kind===3?int(1,5):-int(1,5));
+  b=rational((random()<.5?-1:1)*int(3,19),kind===2?denominator:1);
+ }
+ const d=add(mul(add(a,negate(c)),rational(solution)),b),equation={a,b,c,d},prompt=equationText(equation);
+ const signature=`equation:${[a,b,c,d].map(numberText).join(':')}`;
+ return{id:`practice.math.v4:${signature}`,subject:'math',topic:'Gleichungen',competency:'equation.linear',difficulty,prompt,options:[String(solution),String(solution+1)],correct:0,explanation:`Die Gleichung ist für x = ${solution} erfüllt. Beide Seiten ergeben ${numberText(add(mul(a,rational(solution)),b))}.`,skillId:'math.equation.linear',signature,generated:{version:1,operands:[a.n/a.d,solution],operation:'equation'},equation,help:{hint:'Sammle zuerst die x-Terme auf einer Seite. Bei Brüchen kannst du beide Seiten mit dem gemeinsamen Nenner multiplizieren.',example:'3x + 4 = 19 | −4 ergibt 3x = 15.',alternate:'Führe auf beiden Seiten dieselbe Operation aus. Sammle dann die Zahlen und teile durch den Koeffizienten von x.'}};
+}

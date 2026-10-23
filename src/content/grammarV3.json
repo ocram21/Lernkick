@@ -1,0 +1,486 @@
+[
+  {
+    "id": "grammar.v3.normal.1",
+    "level": "normal",
+    "prompt": "Ergänze den Dativ: Die Auszubildende hilft ___ neuen Kollegen.",
+    "options": [
+      "dem",
+      "den",
+      "des"
+    ],
+    "explanation": "„Helfen“ verlangt den Dativ: dem Kollegen."
+  },
+  {
+    "id": "grammar.v3.normal.2",
+    "level": "normal",
+    "prompt": "Ergänze den Akkusativ: Der Meister begrüßt ___ neuen Kollegen.",
+    "options": [
+      "den",
+      "dem",
+      "des"
+    ],
+    "explanation": "„Begrüßen“ verlangt den Akkusativ: den Kollegen."
+  },
+  {
+    "id": "grammar.v3.normal.3",
+    "level": "normal",
+    "prompt": "Einmaliges Ereignis in der Vergangenheit: ___ ich gestern ankam, war die Tür verschlossen.",
+    "options": [
+      "Als",
+      "Wenn",
+      "Wann"
+    ],
+    "explanation": "Für das einmalige vergangene Ereignis steht „als“."
+  },
+  {
+    "id": "grammar.v3.normal.4",
+    "level": "normal",
+    "prompt": "Wiederholung in der Gegenwart: Immer ___ es regnet, nehmen wir den Bus.",
+    "options": [
+      "wenn",
+      "als",
+      "wann"
+    ],
+    "explanation": "Wiederholte Bedingungen werden mit „wenn“ eingeleitet."
+  },
+  {
+    "id": "grammar.v3.normal.5",
+    "level": "normal",
+    "prompt": "Vergleich: Dieser Weg ist kürzer ___ der andere.",
+    "options": [
+      "als",
+      "wie",
+      "denn"
+    ],
+    "explanation": "Nach dem Komparativ „kürzer“ steht „als“."
+  },
+  {
+    "id": "grammar.v3.normal.6",
+    "level": "normal",
+    "prompt": "Gleichheit: Dieser Weg ist genauso lang ___ der andere.",
+    "options": [
+      "wie",
+      "als",
+      "denn"
+    ],
+    "explanation": "Bei Gleichheit heißt es „genauso … wie“."
+  },
+  {
+    "id": "grammar.v3.normal.7",
+    "level": "normal",
+    "prompt": "Welcher Satz steht im Perfekt?",
+    "options": [
+      "Sie hat den Bericht gelesen.",
+      "Sie hatte den Bericht gelesen.",
+      "Sie las den Bericht."
+    ],
+    "explanation": "„Hat gelesen“ ist Perfekt, „hatte gelesen“ Plusquamperfekt, „las“ Präteritum."
+  },
+  {
+    "id": "grammar.v3.normal.8",
+    "level": "normal",
+    "prompt": "Welcher Satz steht im Präteritum?",
+    "options": [
+      "Er schrieb eine Nachricht.",
+      "Er hat eine Nachricht geschrieben.",
+      "Er hatte eine Nachricht geschrieben."
+    ],
+    "explanation": "„Schrieb“ ist die einfache Vergangenheitsform."
+  },
+  {
+    "id": "grammar.v3.normal.9",
+    "level": "normal",
+    "prompt": "Ergänze die Endung: Mit einem neu___ Fahrrad fährt sie zur Schule.",
+    "options": [
+      "en",
+      "em",
+      "er"
+    ],
+    "explanation": "Nach „einem“ erhält das Adjektiv die schwache Endung -en."
+  },
+  {
+    "id": "grammar.v3.normal.10",
+    "level": "normal",
+    "prompt": "Ergänze die Endung: Sie kauft ein neu___ Fahrrad.",
+    "options": [
+      "es",
+      "en",
+      "em"
+    ],
+    "explanation": "Im Akkusativ Neutrum heißt es „ein neues Fahrrad“."
+  },
+  {
+    "id": "grammar.v3.normal.11",
+    "level": "normal",
+    "prompt": "Ortsangabe: Die Unterlagen liegen auf ___ Tisch.",
+    "options": [
+      "dem",
+      "den",
+      "des"
+    ],
+    "explanation": "Die Frage „wo?“ verlangt hier den Dativ."
+  },
+  {
+    "id": "grammar.v3.normal.12",
+    "level": "normal",
+    "prompt": "Richtungsangabe: Sie legt die Unterlagen auf ___ Tisch.",
+    "options": [
+      "den",
+      "dem",
+      "des"
+    ],
+    "explanation": "Die Frage „wohin?“ verlangt hier den Akkusativ."
+  },
+  {
+    "id": "grammar.v3.normal.13",
+    "level": "normal",
+    "prompt": "Der Kollege, ___ du geholfen hast, bedankt sich.",
+    "options": [
+      "dem",
+      "den",
+      "dessen"
+    ],
+    "explanation": "„Helfen“ verlangt Dativ, auch im Relativsatz."
+  },
+  {
+    "id": "grammar.v3.normal.14",
+    "level": "normal",
+    "prompt": "Der Kollege, ___ du gesehen hast, wartet draußen.",
+    "options": [
+      "den",
+      "dem",
+      "dessen"
+    ],
+    "explanation": "„Sehen“ verlangt den Akkusativ."
+  },
+  {
+    "id": "grammar.v3.normal.15",
+    "level": "normal",
+    "prompt": "Feste Verbindung: Sie nimmt ___ einem Kurs teil.",
+    "options": [
+      "an",
+      "in",
+      "bei"
+    ],
+    "explanation": "Es heißt „an einem Kurs teilnehmen“."
+  },
+  {
+    "id": "grammar.v3.normal.16",
+    "level": "normal",
+    "prompt": "Feste Verbindung: Er bewirbt sich ___ eine Ausbildungsstelle.",
+    "options": [
+      "um",
+      "für",
+      "auf"
+    ],
+    "explanation": "Die standardsprachliche Verbindung lautet „sich um eine Stelle bewerben“."
+  },
+  {
+    "id": "grammar.v3.normal.17",
+    "level": "normal",
+    "prompt": "Drücke ein Ziel aus: Sie lernt, ___ sie die Prüfung besteht.",
+    "options": [
+      "damit",
+      "obwohl",
+      "sobald"
+    ],
+    "explanation": "„Damit“ drückt die beabsichtigte Wirkung aus."
+  },
+  {
+    "id": "grammar.v3.normal.18",
+    "level": "normal",
+    "prompt": "Drücke einen Gegensatz aus: ___ sie viel geübt hat, ist sie noch unsicher.",
+    "options": [
+      "Obwohl",
+      "Weil",
+      "Sobald"
+    ],
+    "explanation": "„Obwohl“ stellt Vorbereitung und Unsicherheit gegenüber."
+  },
+  {
+    "id": "grammar.v3.normal.19",
+    "level": "normal",
+    "prompt": "Welches Wort ist das Subjekt? „Der Trainer erklärt den Jugendlichen die Aufgabe.“",
+    "options": [
+      "Der Trainer",
+      "den Jugendlichen",
+      "die Aufgabe"
+    ],
+    "explanation": "Das Subjekt beantwortet „Wer erklärt?“."
+  },
+  {
+    "id": "grammar.v3.normal.20",
+    "level": "normal",
+    "prompt": "Welcher Satz verwendet den Infinitiv mit „zu“ korrekt?",
+    "options": [
+      "Sie versucht, früh aufzustehen.",
+      "Sie versucht, früh zu aufstehen.",
+      "Sie versucht, früh aufstehen zu."
+    ],
+    "explanation": "Bei „aufstehen“ wird „zu“ eingeschoben: aufzustehen."
+  },
+  {
+    "id": "grammar.v3.hard.1",
+    "level": "hard",
+    "prompt": "Ausdrücklich Konjunktiv I: Die Fachkraft sagt, sie ___ zuständig.",
+    "options": [
+      "sei",
+      "wäre",
+      "ist"
+    ],
+    "explanation": "„Sei“ ist Konjunktiv I; „wäre“ Konjunktiv II; „ist“ Indikativ."
+  },
+  {
+    "id": "grammar.v3.hard.2",
+    "level": "hard",
+    "prompt": "Konjunktiv I der Vergangenheit: Er berichtet, er ___ die Ware geprüft.",
+    "options": [
+      "habe",
+      "hätte",
+      "hatte"
+    ],
+    "explanation": "Die Vergangenheitsform lautet „er habe geprüft“."
+  },
+  {
+    "id": "grammar.v3.hard.3",
+    "level": "hard",
+    "prompt": "Konjunktiv II der Vergangenheit: Ohne die Hilfe ___ sie die Aufgabe nicht geschafft.",
+    "options": [
+      "hätte",
+      "habe",
+      "hatte"
+    ],
+    "explanation": "Die irreale Vergangenheit lautet „hätte geschafft“."
+  },
+  {
+    "id": "grammar.v3.hard.4",
+    "level": "hard",
+    "prompt": "Konjunktiv I der Zukunft: Er sagt, er ___ morgen kommen.",
+    "options": [
+      "werde",
+      "würde",
+      "wird"
+    ],
+    "explanation": "Der ausdrücklich verlangte Konjunktiv I lautet „werde kommen“."
+  },
+  {
+    "id": "grammar.v3.hard.5",
+    "level": "hard",
+    "prompt": "Welcher Satz steht im Vorgangspassiv Präsens?",
+    "options": [
+      "Die Maschine wird geprüft.",
+      "Die Maschine ist geprüft.",
+      "Die Maschine wurde geprüft."
+    ],
+    "explanation": "„Wird geprüft“ beschreibt den Vorgang im Präsens."
+  },
+  {
+    "id": "grammar.v3.hard.6",
+    "level": "hard",
+    "prompt": "Welcher Satz steht im Zustandspassiv Präsens?",
+    "options": [
+      "Die Tür ist geschlossen.",
+      "Die Tür wird geschlossen.",
+      "Die Tür war geschlossen."
+    ],
+    "explanation": "„Ist geschlossen“ beschreibt den Zustand in der Gegenwart."
+  },
+  {
+    "id": "grammar.v3.hard.7",
+    "level": "hard",
+    "prompt": "Vorgangspassiv Perfekt: Die Unterlagen ___ kontrolliert ___.",
+    "options": [
+      "sind … worden",
+      "sind … geworden",
+      "waren … worden"
+    ],
+    "explanation": "Das Perfekt des Vorgangspassivs lautet „sind kontrolliert worden“."
+  },
+  {
+    "id": "grammar.v3.hard.8",
+    "level": "hard",
+    "prompt": "Plusquamperfekt: Bevor sie abfuhr, ___ sie die Tür abgeschlossen.",
+    "options": [
+      "hatte",
+      "hat",
+      "hätte"
+    ],
+    "explanation": "Die vorzeitige Handlung zur Vergangenheit steht hier im Plusquamperfekt."
+  },
+  {
+    "id": "grammar.v3.hard.9",
+    "level": "hard",
+    "prompt": "Ergänze ausdrücklich den Genitiv: Wegen ___ starken Regens fiel der Ausflug aus.",
+    "options": [
+      "des",
+      "dem",
+      "den"
+    ],
+    "explanation": "Der verlangte Genitiv lautet „des starken Regens“."
+  },
+  {
+    "id": "grammar.v3.hard.10",
+    "level": "hard",
+    "prompt": "Die Frau, ___ Bruder hier arbeitet, kommt später.",
+    "options": [
+      "deren",
+      "dessen",
+      "denen"
+    ],
+    "explanation": "Der Besitz bezieht sich auf „die Frau“: deren Bruder."
+  },
+  {
+    "id": "grammar.v3.hard.11",
+    "level": "hard",
+    "prompt": "Der Mann, ___ Tochter hier lernt, wartet draußen.",
+    "options": [
+      "dessen",
+      "deren",
+      "denen"
+    ],
+    "explanation": "Der Genitiv bezieht sich auf den männlichen Singular: dessen Tochter."
+  },
+  {
+    "id": "grammar.v3.hard.12",
+    "level": "hard",
+    "prompt": "Dativ Plural: Mit ___ sorgfältig geprüften Angaben können wir arbeiten.",
+    "options": [
+      "diesen",
+      "dieser",
+      "diese"
+    ],
+    "explanation": "„Mit“ verlangt den Dativ, hier Plural: diesen Angaben."
+  },
+  {
+    "id": "grammar.v3.hard.13",
+    "level": "hard",
+    "prompt": "Ergänze die zum Subjekt passende Präsensform: Der Bericht, den die Prüfer lesen, ___ einen Fehler.",
+    "options": [
+      "enthält",
+      "enthalten",
+      "enthaltet"
+    ],
+    "explanation": "Das Subjekt des Hauptsatzes ist „der Bericht“ im Singular."
+  },
+  {
+    "id": "grammar.v3.hard.14",
+    "level": "hard",
+    "prompt": "Welcher Satz steht im Futur II?",
+    "options": [
+      "Bis morgen wird sie den Bericht geschrieben haben.",
+      "Bis morgen wird sie den Bericht schreiben.",
+      "Bis morgen würde sie den Bericht geschrieben haben."
+    ],
+    "explanation": "Futur II: wird … geschrieben haben. Die anderen Formen sind Futur I und eine würde-Form."
+  },
+  {
+    "id": "grammar.v3.hard.15",
+    "level": "hard",
+    "prompt": "Verknüpfung zweier Hauptsätze: Sie bleibt zu Hause, ___ sie ist krank.",
+    "options": [
+      "denn",
+      "weil",
+      "obwohl"
+    ],
+    "explanation": "„Denn“ verbindet Hauptsätze. „Weil“ und „obwohl“ verlangen hier Verbendstellung."
+  },
+  {
+    "id": "grammar.v3.hard.16",
+    "level": "hard",
+    "prompt": "Welche indirekte Frage hat die korrekte Wortstellung?",
+    "options": [
+      "Sie fragt, ob er morgen kommen kann.",
+      "Sie fragt, ob kann er morgen kommen.",
+      "Sie fragt, ob er kann morgen kommen."
+    ],
+    "explanation": "Im indirekten Fragesatz steht das finite Verb „kann“ am Ende."
+  },
+  {
+    "id": "grammar.v3.hard.17",
+    "level": "hard",
+    "prompt": "Welche Form zeigt im Perfekt den korrekten Ersatzinfinitiv?",
+    "options": [
+      "Sie hat den Fehler bemerken können.",
+      "Sie hat den Fehler bemerken gekonnt.",
+      "Sie hat den Fehler bemerkt können."
+    ],
+    "explanation": "Beim Modalverb mit weiterem Infinitiv wird „können“ als Ersatzinfinitiv verwendet."
+  },
+  {
+    "id": "grammar.v3.hard.18",
+    "level": "hard",
+    "prompt": "Welche Form des unpersönlichen Passivs ist korrekt?",
+    "options": [
+      "Den Kindern wird geholfen.",
+      "Den Kindern werden geholfen.",
+      "Die Kinder werden geholfen."
+    ],
+    "explanation": "Der Dativ bleibt erhalten; ohne Nominativ-Subjekt steht „wird“ im Singular."
+  },
+  {
+    "id": "grammar.v3.hard.19",
+    "level": "hard",
+    "prompt": "Irreale Gegenwart: Wenn ich mehr Zeit ___, würde ich mitkommen.",
+    "options": [
+      "hätte",
+      "hatte",
+      "habe"
+    ],
+    "explanation": "„Hätte“ kennzeichnet die nicht erfüllte Bedingung."
+  },
+  {
+    "id": "grammar.v3.hard.20",
+    "level": "hard",
+    "prompt": "Welche Endung passt? „Die von der Fachkraft geprüft___ Teile sind vollständig.“",
+    "options": [
+      "en",
+      "e",
+      "er"
+    ],
+    "explanation": "Nach dem bestimmten Artikel im Nominativ Plural lautet die Endung -en."
+  },
+  {
+    "id": "grammar.v3.hard.21",
+    "level": "hard",
+    "prompt": "Welche Form steht im Konjunktiv II Präsens?",
+    "options": [
+      "Er käme später.",
+      "Er komme später.",
+      "Er kam später."
+    ],
+    "explanation": "„Käme“ ist Konjunktiv II; „komme“ Konjunktiv I, „kam“ Präteritum."
+  },
+  {
+    "id": "grammar.v3.hard.22",
+    "level": "hard",
+    "prompt": "Welche Form steht im Konjunktiv I Präsens?",
+    "options": [
+      "Sie nehme teil.",
+      "Sie nähme teil.",
+      "Sie nahm teil."
+    ],
+    "explanation": "„Nehme“ ist Konjunktiv I; „nähme“ Konjunktiv II, „nahm“ Präteritum."
+  },
+  {
+    "id": "grammar.v3.hard.23",
+    "level": "hard",
+    "prompt": "Ergänze ausdrücklich den Genitiv: Der Inhalt ___ ausführlichen Berichts ist bekannt.",
+    "options": [
+      "des",
+      "dem",
+      "den"
+    ],
+    "explanation": "Der Genitiv bezeichnet hier die Zugehörigkeit: des Berichts."
+  },
+  {
+    "id": "grammar.v3.hard.24",
+    "level": "hard",
+    "prompt": "Welche Form bezeichnet Vorzeitigkeit im vergangenen Erzählrahmen? „Nachdem sie die Zahlen ___, fuhr sie los.“",
+    "options": [
+      "kontrolliert hatte",
+      "kontrolliert hat",
+      "kontrollieren würde"
+    ],
+    "explanation": "Das Plusquamperfekt „kontrolliert hatte“ liegt vor dem Präteritum „fuhr“."
+  }
+]

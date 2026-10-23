@@ -1,4 +1,4 @@
-export const mathCategories=[{id:'mixed',label:'Gemischt'},{id:'arithmetic',label:'Grundrechenarten'},{id:'times',label:'Kleines Einmaleins'},{id:'equation',label:'Gleichungen'},{id:'negative',label:'Negative Zahlen'},{id:'fraction',label:'Brüche'},{id:'percent',label:'Prozentrechnung'},{id:'estimate',label:'Überschlag'},{id:'ratio',label:'Dreisatz'},{id:'geometry',label:'Geometrie'},{id:'units',label:'Einheiten umrechnen'}];
+export const mathCategories=[{id:'mixed',label:'Gemischt'},{id:'arithmetic',label:'Grundrechenarten'},{id:'times',label:'1 × 1'},{id:'equation',label:'Gleichungen'},{id:'negative',label:'Negative Zahlen'},{id:'fraction',label:'Brüche'},{id:'percent',label:'Prozentrechnung'},{id:'estimate',label:'Schätzen'},{id:'ratio',label:'Dreisatz'},{id:'geometry',label:'Geometrie'},{id:'units',label:'Einheiten umrechnen'}];
 export function inMathCategory(skill:string,category='mixed') {
  if(category==='ratio')return skill==='math.ratio.proportion';
  if(category==='geometry')return skill.startsWith('math.geometry.');

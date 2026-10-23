@@ -48,7 +48,7 @@ export function generateTask(skillId: string, level: number, random: ()=>number 
     }
     prompt=`Wie viel ist ${a} − ${b}?`;
   } else if(operation==='multiply') {
-    a=smallFacts?integer(difficulty===1?2:3,10):integer(difficulty===1?3:difficulty===2?6:12,difficulty===1?10:difficulty===2?15:25);b=integer(difficulty===1?2:3,smallFacts?10:difficulty===1?10:difficulty===2?12:18);result=a*b;
+    a=smallFacts?integer(difficulty===3?12:difficulty===1?2:3,difficulty===3?25:10):integer(difficulty===1?3:difficulty===2?6:12,difficulty===1?10:difficulty===2?15:25);b=integer(smallFacts&&difficulty===3?9:difficulty===1?2:3,smallFacts?(difficulty===3?16:10):difficulty===1?10:difficulty===2?12:18);result=a*b;
     prompt=difficulty===3?`${a} Kisten enthalten je ${b} Flaschen. Wie viele Flaschen sind es zusammen?`:`Wie viel ist ${a} × ${b}?`;
     explanation=`${a} gleich große Gruppen mit je ${b} ergeben ${result}. Die passende Rechnung ist ${a} × ${b} = ${result}.`;
   } else {

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "spelling.v1.normal.1",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Pflanzen brauchen licht für die Fotosynthese.“",
+    "options": [
+      "Pflanzen brauchen Licht für die Fotosynthese.",
+      "Pflanzen brauchen licht für die Fotosynthese.",
+      "Pflanzen brauchen Licht für die fotosynthese."
+    ],
+    "explanation": "Nomen wie „Licht“ und „Fotosynthese“ werden großgeschrieben."
+  },
+  {
+    "id": "spelling.v1.normal.2",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die erde dreht sich um ihre eigene Achse.“",
+    "options": [
+      "Die Erde dreht sich um ihre eigene Achse.",
+      "Die erde dreht sich um ihre eigene Achse.",
+      "Die Erde dreht sich um ihre eigene achse."
+    ],
+    "explanation": "„Erde“ und „Achse“ sind Nomen und werden großgeschrieben."
+  },
+  {
+    "id": "spelling.v1.normal.3",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Ein Kompas hilft bei der Orientierung.“",
+    "options": [
+      "Ein Kompass hilft bei der Orientierung.",
+      "Ein Kompas hilft bei der Orientierung.",
+      "Ein Kompass hilft bei der Orientirung."
+    ],
+    "explanation": "„Kompass“ schreibt man mit ss; „Orientierung“ enthält ie."
+  },
+  {
+    "id": "spelling.v1.normal.4",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Das Wasser fließt durch den Fluß.“",
+    "options": [
+      "Das Wasser fließt durch den Fluss.",
+      "Das Wasser fließt durch den Fluß.",
+      "Das Wasser fliest durch den Fluss."
+    ],
+    "explanation": "Nach kurzem u steht ss in „Fluss“, nach langem ie steht ß in „fließt“."
+  },
+  {
+    "id": "spelling.v1.normal.5",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Sonne erwärmt die Oberfleche der Erde.“",
+    "options": [
+      "Die Sonne erwärmt die Oberfläche der Erde.",
+      "Die Sonne erwärmt die Oberfleche der Erde.",
+      "Die Sonne erwärmt die oberfläche der Erde."
+    ],
+    "explanation": "„Oberfläche“ ist ein Nomen und wird mit ä geschrieben."
+  },
+  {
+    "id": "spelling.v1.normal.6",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Das Herz pumpt blut durch den Körper.“",
+    "options": [
+      "Das Herz pumpt Blut durch den Körper.",
+      "Das Herz pumpt blut durch den Körper.",
+      "Das Herz pumpt Blut durch den körper."
+    ],
+    "explanation": "„Blut“ und „Körper“ sind Nomen."
+  },
+  {
+    "id": "spelling.v1.normal.7",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Viele Tiere schüzen ihren Nachwuchs.“",
+    "options": [
+      "Viele Tiere schützen ihren Nachwuchs.",
+      "Viele Tiere schüzen ihren Nachwuchs.",
+      "Viele Tiere schützen ihren Nachwuks."
+    ],
+    "explanation": "„Schützen“ schreibt man mit tz, „Nachwuchs“ mit chs."
+  },
+  {
+    "id": "spelling.v1.normal.8",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Eine Gemeinde sammelt den Abfal getrennt.“",
+    "options": [
+      "Eine Gemeinde sammelt den Abfall getrennt.",
+      "Eine Gemeinde sammelt den Abfal getrennt.",
+      "Eine Gemeinde sammelt den Abfall getrent."
+    ],
+    "explanation": "„Abfall“ und „getrennt“ enthalten Doppelkonsonanten."
+  },
+  {
+    "id": "spelling.v1.normal.9",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Lunge nimmt Sauerstof aus der Luft auf.“",
+    "options": [
+      "Die Lunge nimmt Sauerstoff aus der Luft auf.",
+      "Die Lunge nimmt Sauerstof aus der Luft auf.",
+      "Die Lunge nimmt Sauerstoff aus der luft auf."
+    ],
+    "explanation": "„Sauerstoff“ endet auf ff; „Luft“ wird großgeschrieben."
+  },
+  {
+    "id": "spelling.v1.normal.10",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Auf einer Karte zeigt der Masstab das Verhältnis der Längen.“",
+    "options": [
+      "Auf einer Karte zeigt der Maßstab das Verhältnis der Längen.",
+      "Auf einer Karte zeigt der Masstab das Verhältnis der Längen.",
+      "Auf einer Karte zeigt der Maßstab das verhältnis der Längen."
+    ],
+    "explanation": "Nach dem langen a in „Maß“ steht ß; „Verhältnis“ ist ein Nomen."
+  },
+  {
+    "id": "spelling.v1.normal.11",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Im Wald wachsen verschidene Bäume.“",
+    "options": [
+      "Im Wald wachsen verschiedene Bäume.",
+      "Im Wald wachsen verschidene Bäume.",
+      "Im Wald wachsen verschiedene beume."
+    ],
+    "explanation": "„Verschiedene“ enthält ie; „Bäume“ wird von „Baum“ abgeleitet."
+  },
+  {
+    "id": "spelling.v1.normal.12",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Bei einer Wahl werden Stimen gezählt.“",
+    "options": [
+      "Bei einer Wahl werden Stimmen gezählt.",
+      "Bei einer Wahl werden Stimen gezählt.",
+      "Bei einer Wahl werden Stimmen gezehlt."
+    ],
+    "explanation": "„Stimmen“ enthält mm; „gezählt“ gehört zu „Zahl“."
+  },
+  {
+    "id": "spelling.v1.normal.13",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Wurzeln nehmen wasser aus dem Boden auf.“",
+    "options": [
+      "Die Wurzeln nehmen Wasser aus dem Boden auf.",
+      "Die Wurzeln nehmen wasser aus dem Boden auf.",
+      "Die Wurzeln nehmen Wasser aus dem boden auf."
+    ],
+    "explanation": "„Wasser“ und „Boden“ sind Nomen."
+  },
+  {
+    "id": "spelling.v1.normal.14",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Ein betrieb bildet junge Menschen aus.“",
+    "options": [
+      "Ein Betrieb bildet junge Menschen aus.",
+      "Ein betrieb bildet junge Menschen aus.",
+      "Ein Betrieb bildet junge menschen aus."
+    ],
+    "explanation": "„Betrieb“ und „Menschen“ werden als Nomen großgeschrieben."
+  },
+  {
+    "id": "spelling.v1.normal.15",
+    "level": "normal",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Temperatur wird mit einem Thermometer gemesen.“",
+    "options": [
+      "Die Temperatur wird mit einem Thermometer gemessen.",
+      "Die Temperatur wird mit einem Thermometer gemesen.",
+      "Die Temperatur wird mit einem Termometer gemessen."
+    ],
+    "explanation": "„Gemessen“ enthält ss, „Thermometer“ beginnt mit Th."
+  },
+  {
+    "id": "spelling.v1.hard.1",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Beim verbrennen von Kohle entsteht Kohlenstoffdioxid.“",
+    "options": [
+      "Beim Verbrennen von Kohle entsteht Kohlenstoffdioxid.",
+      "Beim verbrennen von Kohle entsteht Kohlenstoffdioxid.",
+      "Beim Verbrennen von Kohle entsteht Kohlenstoffdioxied."
+    ],
+    "explanation": "Nach „beim“ ist „Verbrennen“ substantiviert; „Dioxid“ endet auf id."
+  },
+  {
+    "id": "spelling.v1.hard.2",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Das Pflanzen Sauerstoff abgeben, ist für viele Lebewesen wichtig.“",
+    "options": [
+      "Dass Pflanzen Sauerstoff abgeben, ist für viele Lebewesen wichtig.",
+      "Das Pflanzen Sauerstoff abgeben, ist für viele Lebewesen wichtig.",
+      "Daß Pflanzen Sauerstoff abgeben, ist für viele Lebewesen wichtig."
+    ],
+    "explanation": "Die Konjunktion „dass“ wird mit ss geschrieben."
+  },
+  {
+    "id": "spelling.v1.hard.3",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Gewässer müßen vor Verschmutzung geschützt werden.“",
+    "options": [
+      "Die Gewässer müssen vor Verschmutzung geschützt werden.",
+      "Die Gewässer müßen vor Verschmutzung geschützt werden.",
+      "Die Gewässer müssen vor Verschmuzung geschützt werden."
+    ],
+    "explanation": "„Müssen“ enthält ss; „Verschmutzung“ enthält tz."
+  },
+  {
+    "id": "spelling.v1.hard.4",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Beim lesen einer Karte hilft eine Legende.“",
+    "options": [
+      "Beim Lesen einer Karte hilft eine Legende.",
+      "Beim lesen einer Karte hilft eine Legende.",
+      "Beim Lesen einer Karte hilft eine legende."
+    ],
+    "explanation": "„Lesen“ ist hier substantiviert; „Legende“ ist ein Nomen."
+  },
+  {
+    "id": "spelling.v1.hard.5",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Bevölkerung einer Stadt kann im laufe der Zeit wachsen.“",
+    "options": [
+      "Die Bevölkerung einer Stadt kann im Laufe der Zeit wachsen.",
+      "Die Bevölkerung einer Stadt kann im laufe der Zeit wachsen.",
+      "Die Bevölckerung einer Stadt kann im Laufe der Zeit wachsen."
+    ],
+    "explanation": "„Im Laufe“ wird großgeschrieben; „Bevölkerung“ enthält kein ck."
+  },
+  {
+    "id": "spelling.v1.hard.6",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Das Ergebniss einer Abstimmung wird anschließend bekannt gegeben.“",
+    "options": [
+      "Das Ergebnis einer Abstimmung wird anschließend bekannt gegeben.",
+      "Das Ergebniss einer Abstimmung wird anschließend bekannt gegeben.",
+      "Das Ergebnis einer Abstimmung wird anschliessend bekannt gegeben."
+    ],
+    "explanation": "„Ergebnis“ endet auf ein s; nach langem ie steht ß in „anschließend“."
+  },
+  {
+    "id": "spelling.v1.hard.7",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Am Equator sind die Tage das ganze Jahr über ungefähr gleich lang.“",
+    "options": [
+      "Am Äquator sind die Tage das ganze Jahr über ungefähr gleich lang.",
+      "Am Equator sind die Tage das ganze Jahr über ungefähr gleich lang.",
+      "Am Äquator sind die Tage das ganze Jahr über ungefehr gleich lang."
+    ],
+    "explanation": "„Äquator“ beginnt mit Ä; „ungefähr“ enthält ä und Dehnungs-h."
+  },
+  {
+    "id": "spelling.v1.hard.8",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Ein Fahradhelm kann bei einem Sturz schwere Verletzungen verhindern.“",
+    "options": [
+      "Ein Fahrradhelm kann bei einem Sturz schwere Verletzungen verhindern.",
+      "Ein Fahradhelm kann bei einem Sturz schwere Verletzungen verhindern.",
+      "Ein Fahrradhelm kann bei einem Sturz schwere Verletzungen verhinndern."
+    ],
+    "explanation": "„Fahrrad“ enthält an der Wortgrenze rr; „verhindern“ nur ein n nach i."
+  },
+  {
+    "id": "spelling.v1.hard.9",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Zellen benötigen regelmässig Nährstoffe.“",
+    "options": [
+      "Die Zellen benötigen regelmäßig Nährstoffe.",
+      "Die Zellen benötigen regelmässig Nährstoffe.",
+      "Die Zellen benötigen regelmäßig Nährstofe."
+    ],
+    "explanation": "„Regelmäßig“ enthält ß; „Nährstoffe“ enthält ff."
+  },
+  {
+    "id": "spelling.v1.hard.10",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Das Grundgesez schützt die Würde des Menschen.“",
+    "options": [
+      "Das Grundgesetz schützt die Würde des Menschen.",
+      "Das Grundgesez schützt die Würde des Menschen.",
+      "Das Grundgesetz schützt die würde des Menschen."
+    ],
+    "explanation": "„Gesetz“ enthält tz; „Würde“ wird großgeschrieben."
+  },
+  {
+    "id": "spelling.v1.hard.11",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Schülerinnen vergleichen das klima verschiedener Regionen.“",
+    "options": [
+      "Die Schülerinnen vergleichen das Klima verschiedener Regionen.",
+      "Die Schülerinnen vergleichen das klima verschiedener Regionen.",
+      "Die Schülerinnen vergleichen das Klima verschidener Regionen."
+    ],
+    "explanation": "„Klima“ ist ein Nomen; „verschiedener“ enthält ie."
+  },
+  {
+    "id": "spelling.v1.hard.12",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Beim Messen müssen alle die selbe Einheit verwenden.“",
+    "options": [
+      "Beim Messen müssen alle dieselbe Einheit verwenden.",
+      "Beim Messen müssen alle die selbe Einheit verwenden.",
+      "Beim messen müssen alle dieselbe Einheit verwenden."
+    ],
+    "explanation": "„Dieselbe“ wird zusammengeschrieben; „Messen“ ist hier substantiviert."
+  },
+  {
+    "id": "spelling.v1.hard.13",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Ausbildung ermöglicht den Einstig in einen Beruf.“",
+    "options": [
+      "Die Ausbildung ermöglicht den Einstieg in einen Beruf.",
+      "Die Ausbildung ermöglicht den Einstig in einen Beruf.",
+      "Die Ausbildung ermöglicht den Einstieg in einen beruf."
+    ],
+    "explanation": "„Einstieg“ enthält ie; „Beruf“ wird großgeschrieben."
+  },
+  {
+    "id": "spelling.v1.hard.14",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Die Blätter geben überschüßiges Wasser an die Luft ab.“",
+    "options": [
+      "Die Blätter geben überschüssiges Wasser an die Luft ab.",
+      "Die Blätter geben überschüßiges Wasser an die Luft ab.",
+      "Die Blätter geben überschüssiges wasser an die Luft ab."
+    ],
+    "explanation": "Nach kurzem ü steht ss in „überschüssig“; „Wasser“ ist ein Nomen."
+  },
+  {
+    "id": "spelling.v1.hard.15",
+    "level": "hard",
+    "prompt": "Korrigiere den Rechtschreibfehler: „Viele Rohstoffe laßen sich wiederverwerten.“",
+    "options": [
+      "Viele Rohstoffe lassen sich wiederverwerten.",
+      "Viele Rohstoffe laßen sich wiederverwerten.",
+      "Viele Rohstoffe lassen sich widerverwerten."
+    ],
+    "explanation": "„Lassen“ enthält ss; „wieder“ bedeutet hier „erneut“ und enthält ie."
+  }
+]

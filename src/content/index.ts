@@ -6,7 +6,7 @@ import social from './social.json';
 import biology from './biology.json';
 import geography from './geography.json';
 import { contentSchema } from '../lib/schema';
-const advancedGermanQuestions=[...grammarTasks.filter(t=>!t.archived&&t.level==='hard').map(t=>({id:'german.advanced.'+t.id,prompt:t.prompt,options:t.options,explanation:t.explanation})),...advancedGerman].map(q=>({...q,subject:'german',topic:'Sprache präzise verstehen',competency:'sprachreflexion',difficulty:3,correct:0,curriculum:{sourceId:german.sources[0].id,section:'Sprachgebrauch reflektieren und Texte verstehen',stage:'extension'}}));
+const advancedGermanQuestions=[...grammarTasks.filter(t=>t.id.startsWith('grammar.v2.hard.')).map(t=>({id:'german.advanced.'+t.id,prompt:t.prompt,options:t.options,explanation:t.explanation})),...advancedGerman].map(q=>({...q,subject:'german',topic:'Sprache präzise verstehen',competency:'sprachreflexion',difficulty:3,correct:0,curriculum:{sourceId:german.sources[0].id,section:'Sprachgebrauch reflektieren und Texte verstehen',stage:'extension'}}));
 export const contentPacks = [math, {...german,revision:'2026.10.22.global',questions:[...german.questions,...advancedGermanQuestions]}, social, biology, geography].map(pack => contentSchema.parse(pack));
 export const questions = contentPacks.flatMap(pack => pack.questions);
 if (new Set(questions.map(q => q.id)).size !== questions.length) throw new Error('Doppelte Fragen-ID');

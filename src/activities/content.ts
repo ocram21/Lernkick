@@ -1,3 +1,5 @@
+import subjectSentences from '../content/subjectSentences.json' with {type:'json'};
+import {spellingTasks} from './spelling';
 import advancedWordsV2 from '../content/vocabularyAdvanced.json';
 import advancedSentences from '../content/sentencesAdvanced.json';
 import {proverbTasks} from './proverbs';
@@ -42,7 +44,7 @@ const generatedSentences:SentenceTask[]=people.flatMap((person,p)=>actions.flatM
  const start=t===1?'„Morgen“':'dem Namen';
  return sentenceSchema.parse({id:`sentence.generated.v1.${p}.${a}.${t}`,level:'normal',tokens,solutions:[[...tokens]],instruction:`Bilde einen Satz. Beginne mit ${start}.`,hint:t===1?'Nach der Zeitangabe folgt das Verb.':'Im Hauptsatz steht das Verb an zweiter Stelle; im Nebensatz steht es am Ende.'});
 })));
-export const sentences=[...fixedSentences,...generatedSentences,...advancedSentences.map(value=>sentenceSchema.parse(value))];
+export const sentences=[...[...fixedSentences,...generatedSentences,...advancedSentences.map(value=>sentenceSchema.parse(value))].map(t=>({...t,archived:true})),...subjectSentences.map(value=>sentenceSchema.parse(value))];
 
 export const wordById=new Map(words.map(word=>[word.id,word]));
 export const sentenceById=new Map(sentences.map(task=>[task.id,task]));
@@ -98,8 +100,8 @@ export function normalSentenceQueue(activity:Activities['vocabulary'],exclude:st
 /** Due mistakes first, then unseen tasks; learned tasks remain available for practice. */
 export function practiceQueue(activity:Activities['vocabulary'],exclude:readonly string[]=[]):string[]{
  const terms=activity.enabled.everyday||activity.enabled.work;
- const groups=[terms?words.filter(w=>!w.archived&&w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>!s.archived&&s.level==='hard').map(s=>s.id)):[],activity.enabled.grammar?grammarTasks.filter(t=>!t.archived&&t.level===activity.level).map(t=>t.id):[],activity.enabled.proverbs?proverbTasks.filter(t=>t.level===activity.level).map(t=>t.id):[]].map(group=>group.filter(id=>!exclude.includes(id))).filter(group=>group.length);
- const result=(id:string)=>activity.words[id]??activity.sentences[id]??activity.grammar[id]??activity.proverbs[id];
+ const groups=[terms?words.filter(w=>!w.archived&&w.id.startsWith('vocabulary.hard.')===(activity.level==='hard')).map(w=>w.id):[],activity.enabled.sentences?(activity.level==='normal'?normalSentenceQueue(activity):sentences.filter(s=>!s.archived&&s.level==='hard').map(s=>s.id)):[],activity.enabled.grammar?grammarTasks.filter(t=>!t.archived&&t.level===activity.level).map(t=>t.id):[],activity.enabled.spelling?spellingTasks.filter(t=>t.level===activity.level).map(t=>t.id):[],activity.enabled.proverbs?proverbTasks.filter(t=>t.level===activity.level).map(t=>t.id):[]].map(group=>group.filter(id=>!exclude.includes(id))).filter(group=>group.length);
+ const result=(id:string)=>activity.words[id]??activity.sentences[id]??activity.grammar[id]??activity.spelling[id]??activity.proverbs[id];
  const ranked=groups.map(group=>shuffle(group).sort((a,b)=>{const ra=result(a),rb=result(b);const priority=(r:typeof ra)=>!r?1:r.lastCorrect?2:0;return Number(activity.recent.includes(a))-Number(activity.recent.includes(b))||Number(Boolean(ra&&Date.now()-ra.at<86400000))-Number(Boolean(rb&&Date.now()-rb.at<86400000))||priority(ra)-priority(rb);}));
  const queue:string[]=[];for(let i=0;queue.length<10;i++){let added=false;for(const group of shuffle(ranked))if(group[i]&&queue.length<10){queue.push(group[i]);added=true;}if(!added)break;}return shuffle(queue);
 }

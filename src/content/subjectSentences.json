@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "sentence.subject.v1.normal.1",
+    "level": "normal",
+    "tokens": [
+      "Pflanzen",
+      "benötigen",
+      "Licht",
+      "für",
+      "die",
+      "Fotosynthese",
+      "."
+    ],
+    "solutions": [
+      [
+        "Pflanzen",
+        "benötigen",
+        "Licht",
+        "für",
+        "die",
+        "Fotosynthese",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Pflanzen“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.2",
+    "level": "normal",
+    "tokens": [
+      "Das",
+      "Herz",
+      "pumpt",
+      "Blut",
+      "durch",
+      "den",
+      "Körper",
+      "."
+    ],
+    "solutions": [
+      [
+        "Das",
+        "Herz",
+        "pumpt",
+        "Blut",
+        "durch",
+        "den",
+        "Körper",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Das“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.3",
+    "level": "normal",
+    "tokens": [
+      "Die",
+      "Lunge",
+      "nimmt",
+      "Sauerstoff",
+      "aus",
+      "der",
+      "Luft",
+      "auf",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die",
+        "Lunge",
+        "nimmt",
+        "Sauerstoff",
+        "aus",
+        "der",
+        "Luft",
+        "auf",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Die“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.4",
+    "level": "normal",
+    "tokens": [
+      "Die",
+      "Wurzeln",
+      "nehmen",
+      "Wasser",
+      "aus",
+      "dem",
+      "Boden",
+      "auf",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die",
+        "Wurzeln",
+        "nehmen",
+        "Wasser",
+        "aus",
+        "dem",
+        "Boden",
+        "auf",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Die“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.5",
+    "level": "normal",
+    "tokens": [
+      "Die",
+      "Erde",
+      "dreht",
+      "sich",
+      "um",
+      "ihre",
+      "eigene",
+      "Achse",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die",
+        "Erde",
+        "dreht",
+        "sich",
+        "um",
+        "ihre",
+        "eigene",
+        "Achse",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Die“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.6",
+    "level": "normal",
+    "tokens": [
+      "Der",
+      "Äquator",
+      "teilt",
+      "die",
+      "Erde",
+      "in",
+      "zwei",
+      "Halbkugeln",
+      "."
+    ],
+    "solutions": [
+      [
+        "Der",
+        "Äquator",
+        "teilt",
+        "die",
+        "Erde",
+        "in",
+        "zwei",
+        "Halbkugeln",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Der“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.7",
+    "level": "normal",
+    "tokens": [
+      "Ein",
+      "Kompass",
+      "zeigt",
+      "die",
+      "Himmelsrichtungen",
+      "an",
+      "."
+    ],
+    "solutions": [
+      [
+        "Ein",
+        "Kompass",
+        "zeigt",
+        "die",
+        "Himmelsrichtungen",
+        "an",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Ein“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.8",
+    "level": "normal",
+    "tokens": [
+      "Der",
+      "Maßstab",
+      "beschreibt",
+      "die",
+      "Verkleinerung",
+      "auf",
+      "einer",
+      "Karte",
+      "."
+    ],
+    "solutions": [
+      [
+        "Der",
+        "Maßstab",
+        "beschreibt",
+        "die",
+        "Verkleinerung",
+        "auf",
+        "einer",
+        "Karte",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Der“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.9",
+    "level": "normal",
+    "tokens": [
+      "Eine",
+      "Legende",
+      "erklärt",
+      "die",
+      "Zeichen",
+      "einer",
+      "Karte",
+      "."
+    ],
+    "solutions": [
+      [
+        "Eine",
+        "Legende",
+        "erklärt",
+        "die",
+        "Zeichen",
+        "einer",
+        "Karte",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Eine“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.10",
+    "level": "normal",
+    "tokens": [
+      "Flüsse",
+      "transportieren",
+      "Wasser",
+      "zum",
+      "Meer",
+      "."
+    ],
+    "solutions": [
+      [
+        "Flüsse",
+        "transportieren",
+        "Wasser",
+        "zum",
+        "Meer",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Flüsse“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.11",
+    "level": "normal",
+    "tokens": [
+      "Wahlen",
+      "ermöglichen",
+      "politische",
+      "Mitbestimmung",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wahlen",
+        "ermöglichen",
+        "politische",
+        "Mitbestimmung",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wahlen“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.12",
+    "level": "normal",
+    "tokens": [
+      "Das",
+      "Grundgesetz",
+      "schützt",
+      "die",
+      "Würde",
+      "des",
+      "Menschen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Das",
+        "Grundgesetz",
+        "schützt",
+        "die",
+        "Würde",
+        "des",
+        "Menschen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Das“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.13",
+    "level": "normal",
+    "tokens": [
+      "Eine",
+      "Gemeinde",
+      "übernimmt",
+      "Aufgaben",
+      "vor",
+      "Ort",
+      "."
+    ],
+    "solutions": [
+      [
+        "Eine",
+        "Gemeinde",
+        "übernimmt",
+        "Aufgaben",
+        "vor",
+        "Ort",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Eine“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.14",
+    "level": "normal",
+    "tokens": [
+      "Der",
+      "Bundestag",
+      "beschließt",
+      "Gesetze",
+      "."
+    ],
+    "solutions": [
+      [
+        "Der",
+        "Bundestag",
+        "beschließt",
+        "Gesetze",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Der“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.15",
+    "level": "normal",
+    "tokens": [
+      "Eine",
+      "Ausbildung",
+      "bereitet",
+      "auf",
+      "einen",
+      "Beruf",
+      "vor",
+      "."
+    ],
+    "solutions": [
+      [
+        "Eine",
+        "Ausbildung",
+        "bereitet",
+        "auf",
+        "einen",
+        "Beruf",
+        "vor",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Eine“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.16",
+    "level": "normal",
+    "tokens": [
+      "Eine",
+      "Rechnung",
+      "nennt",
+      "den",
+      "zu",
+      "zahlenden",
+      "Betrag",
+      "."
+    ],
+    "solutions": [
+      [
+        "Eine",
+        "Rechnung",
+        "nennt",
+        "den",
+        "zu",
+        "zahlenden",
+        "Betrag",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Eine“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.17",
+    "level": "normal",
+    "tokens": [
+      "Im",
+      "Wald",
+      "leben",
+      "viele",
+      "verschiedene",
+      "Tierarten",
+      "."
+    ],
+    "solutions": [
+      [
+        "Im",
+        "Wald",
+        "leben",
+        "viele",
+        "verschiedene",
+        "Tierarten",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Im“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.18",
+    "level": "normal",
+    "tokens": [
+      "Muskeln",
+      "bewegen",
+      "die",
+      "Knochen",
+      "des",
+      "Körpers",
+      "."
+    ],
+    "solutions": [
+      [
+        "Muskeln",
+        "bewegen",
+        "die",
+        "Knochen",
+        "des",
+        "Körpers",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Muskeln“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.19",
+    "level": "normal",
+    "tokens": [
+      "Die",
+      "Haut",
+      "schützt",
+      "den",
+      "Körper",
+      "vor",
+      "äußeren",
+      "Einflüssen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die",
+        "Haut",
+        "schützt",
+        "den",
+        "Körper",
+        "vor",
+        "äußeren",
+        "Einflüssen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Die“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.20",
+    "level": "normal",
+    "tokens": [
+      "Recycling",
+      "spart",
+      "wertvolle",
+      "Rohstoffe",
+      "."
+    ],
+    "solutions": [
+      [
+        "Recycling",
+        "spart",
+        "wertvolle",
+        "Rohstoffe",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Recycling“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.21",
+    "level": "normal",
+    "tokens": [
+      "Pflanzen",
+      "wachsen",
+      ",",
+      "wenn",
+      "sie",
+      "ausreichend",
+      "Wasser",
+      "bekommen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Pflanzen",
+        "wachsen",
+        ",",
+        "wenn",
+        "sie",
+        "ausreichend",
+        "Wasser",
+        "bekommen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Pflanzen“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.22",
+    "level": "normal",
+    "tokens": [
+      "Eine",
+      "Karte",
+      "hilft",
+      ",",
+      "wenn",
+      "wir",
+      "den",
+      "Weg",
+      "suchen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Eine",
+        "Karte",
+        "hilft",
+        ",",
+        "wenn",
+        "wir",
+        "den",
+        "Weg",
+        "suchen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Eine“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.23",
+    "level": "normal",
+    "tokens": [
+      "Wir",
+      "sparen",
+      "Energie",
+      ",",
+      "wenn",
+      "wir",
+      "unnötiges",
+      "Licht",
+      "ausschalten",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wir",
+        "sparen",
+        "Energie",
+        ",",
+        "wenn",
+        "wir",
+        "unnötiges",
+        "Licht",
+        "ausschalten",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wir“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.24",
+    "level": "normal",
+    "tokens": [
+      "Ein",
+      "Thermometer",
+      "zeigt",
+      "an",
+      ",",
+      "wie",
+      "warm",
+      "es",
+      "ist",
+      "."
+    ],
+    "solutions": [
+      [
+        "Ein",
+        "Thermometer",
+        "zeigt",
+        "an",
+        ",",
+        "wie",
+        "warm",
+        "es",
+        "ist",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Ein“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.1",
+    "level": "hard",
+    "tokens": [
+      "Pflanzen",
+      "stellen",
+      "Zucker",
+      "her",
+      ",",
+      "indem",
+      "sie",
+      "Lichtenergie",
+      "nutzen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Pflanzen",
+        "stellen",
+        "Zucker",
+        "her",
+        ",",
+        "indem",
+        "sie",
+        "Lichtenergie",
+        "nutzen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Pflanzen“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.2",
+    "level": "hard",
+    "tokens": [
+      "Wenn",
+      "Wasser",
+      "verdunstet",
+      ",",
+      "geht",
+      "es",
+      "in",
+      "den",
+      "gasförmigen",
+      "Zustand",
+      "über",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wenn",
+        "Wasser",
+        "verdunstet",
+        ",",
+        "geht",
+        "es",
+        "in",
+        "den",
+        "gasförmigen",
+        "Zustand",
+        "über",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wenn“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.3",
+    "level": "hard",
+    "tokens": [
+      "Obwohl",
+      "Wale",
+      "im",
+      "Wasser",
+      "leben",
+      ",",
+      "gehören",
+      "sie",
+      "zu",
+      "den",
+      "Säugetieren",
+      "."
+    ],
+    "solutions": [
+      [
+        "Obwohl",
+        "Wale",
+        "im",
+        "Wasser",
+        "leben",
+        ",",
+        "gehören",
+        "sie",
+        "zu",
+        "den",
+        "Säugetieren",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Obwohl“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.4",
+    "level": "hard",
+    "tokens": [
+      "Die",
+      "Wurzeln",
+      "verankern",
+      "die",
+      "Pflanze",
+      ",",
+      "während",
+      "die",
+      "Blätter",
+      "Licht",
+      "aufnehmen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die",
+        "Wurzeln",
+        "verankern",
+        "die",
+        "Pflanze",
+        ",",
+        "während",
+        "die",
+        "Blätter",
+        "Licht",
+        "aufnehmen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Die“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.5",
+    "level": "hard",
+    "tokens": [
+      "Weil",
+      "die",
+      "Erde",
+      "sich",
+      "dreht",
+      ",",
+      "wechseln",
+      "sich",
+      "Tag",
+      "und",
+      "Nacht",
+      "ab",
+      "."
+    ],
+    "solutions": [
+      [
+        "Weil",
+        "die",
+        "Erde",
+        "sich",
+        "dreht",
+        ",",
+        "wechseln",
+        "sich",
+        "Tag",
+        "und",
+        "Nacht",
+        "ab",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Weil“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.6",
+    "level": "hard",
+    "tokens": [
+      "Je",
+      "näher",
+      "ein",
+      "Ort",
+      "am",
+      "Äquator",
+      "liegt",
+      ",",
+      "desto",
+      "höher",
+      "steht",
+      "die",
+      "Sonne",
+      "dort",
+      "im",
+      "Jahresmittel",
+      "."
+    ],
+    "solutions": [
+      [
+        "Je",
+        "näher",
+        "ein",
+        "Ort",
+        "am",
+        "Äquator",
+        "liegt",
+        ",",
+        "desto",
+        "höher",
+        "steht",
+        "die",
+        "Sonne",
+        "dort",
+        "im",
+        "Jahresmittel",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Je“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.7",
+    "level": "hard",
+    "tokens": [
+      "Eine",
+      "Kartenlegende",
+      "erklärt",
+      "Symbole",
+      ",",
+      "damit",
+      "wir",
+      "die",
+      "Karte",
+      "richtig",
+      "lesen",
+      "können",
+      "."
+    ],
+    "solutions": [
+      [
+        "Eine",
+        "Kartenlegende",
+        "erklärt",
+        "Symbole",
+        ",",
+        "damit",
+        "wir",
+        "die",
+        "Karte",
+        "richtig",
+        "lesen",
+        "können",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Eine“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.8",
+    "level": "hard",
+    "tokens": [
+      "Wenn",
+      "feuchte",
+      "Luft",
+      "abkühlt",
+      ",",
+      "kann",
+      "Wasserdampf",
+      "zu",
+      "kleinen",
+      "Tropfen",
+      "kondensieren",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wenn",
+        "feuchte",
+        "Luft",
+        "abkühlt",
+        ",",
+        "kann",
+        "Wasserdampf",
+        "zu",
+        "kleinen",
+        "Tropfen",
+        "kondensieren",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wenn“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.9",
+    "level": "hard",
+    "tokens": [
+      "Das",
+      "Grundgesetz",
+      "schützt",
+      "Rechte",
+      ",",
+      "die",
+      "für",
+      "das",
+      "Zusammenleben",
+      "wichtig",
+      "sind",
+      "."
+    ],
+    "solutions": [
+      [
+        "Das",
+        "Grundgesetz",
+        "schützt",
+        "Rechte",
+        ",",
+        "die",
+        "für",
+        "das",
+        "Zusammenleben",
+        "wichtig",
+        "sind",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Das“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.10",
+    "level": "hard",
+    "tokens": [
+      "Der",
+      "Bundestag",
+      "beschließt",
+      "Gesetze",
+      ",",
+      "während",
+      "Gerichte",
+      "über",
+      "Rechtsstreitigkeiten",
+      "entscheiden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Der",
+        "Bundestag",
+        "beschließt",
+        "Gesetze",
+        ",",
+        "während",
+        "Gerichte",
+        "über",
+        "Rechtsstreitigkeiten",
+        "entscheiden",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Der“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.11",
+    "level": "hard",
+    "tokens": [
+      "Bei",
+      "einer",
+      "geheimen",
+      "Wahl",
+      "bleibt",
+      "verborgen",
+      ",",
+      "welche",
+      "Person",
+      "wir",
+      "gewählt",
+      "haben",
+      "."
+    ],
+    "solutions": [
+      [
+        "Bei",
+        "einer",
+        "geheimen",
+        "Wahl",
+        "bleibt",
+        "verborgen",
+        ",",
+        "welche",
+        "Person",
+        "wir",
+        "gewählt",
+        "haben",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Bei“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.12",
+    "level": "hard",
+    "tokens": [
+      "Wer",
+      "eine",
+      "Ausbildung",
+      "beginnt",
+      ",",
+      "lernt",
+      "praktische",
+      "und",
+      "theoretische",
+      "Grundlagen",
+      "eines",
+      "Berufs",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wer",
+        "eine",
+        "Ausbildung",
+        "beginnt",
+        ",",
+        "lernt",
+        "praktische",
+        "und",
+        "theoretische",
+        "Grundlagen",
+        "eines",
+        "Berufs",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wer“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.13",
+    "level": "hard",
+    "tokens": [
+      "Bevor",
+      "wir",
+      "einen",
+      "Vertrag",
+      "unterschreiben",
+      ",",
+      "sollten",
+      "wir",
+      "seinen",
+      "Inhalt",
+      "sorgfältig",
+      "lesen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Bevor",
+        "wir",
+        "einen",
+        "Vertrag",
+        "unterschreiben",
+        ",",
+        "sollten",
+        "wir",
+        "seinen",
+        "Inhalt",
+        "sorgfältig",
+        "lesen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Bevor“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.14",
+    "level": "hard",
+    "tokens": [
+      "Nachdem",
+      "das",
+      "Herz",
+      "sich",
+      "zusammengezogen",
+      "hat",
+      ",",
+      "entspannt",
+      "es",
+      "sich",
+      "wieder",
+      "."
+    ],
+    "solutions": [
+      [
+        "Nachdem",
+        "das",
+        "Herz",
+        "sich",
+        "zusammengezogen",
+        "hat",
+        ",",
+        "entspannt",
+        "es",
+        "sich",
+        "wieder",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Nachdem“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.15",
+    "level": "hard",
+    "tokens": [
+      "Damit",
+      "Muskeln",
+      "arbeiten",
+      "können",
+      ",",
+      "benötigen",
+      "sie",
+      "Energie",
+      "."
+    ],
+    "solutions": [
+      [
+        "Damit",
+        "Muskeln",
+        "arbeiten",
+        "können",
+        ",",
+        "benötigen",
+        "sie",
+        "Energie",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Damit“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.16",
+    "level": "hard",
+    "tokens": [
+      "Wenn",
+      "wir",
+      "Rohstoffe",
+      "wiederverwerten",
+      ",",
+      "müssen",
+      "weniger",
+      "neue",
+      "Rohstoffe",
+      "gewonnen",
+      "werden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wenn",
+        "wir",
+        "Rohstoffe",
+        "wiederverwerten",
+        ",",
+        "müssen",
+        "weniger",
+        "neue",
+        "Rohstoffe",
+        "gewonnen",
+        "werden",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wenn“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.17",
+    "level": "hard",
+    "tokens": [
+      "Die",
+      "Windrichtung",
+      "gibt",
+      "an",
+      ",",
+      "aus",
+      "welcher",
+      "Richtung",
+      "der",
+      "Wind",
+      "weht",
+      "."
+    ],
+    "solutions": [
+      [
+        "Die",
+        "Windrichtung",
+        "gibt",
+        "an",
+        ",",
+        "aus",
+        "welcher",
+        "Richtung",
+        "der",
+        "Wind",
+        "weht",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Die“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.18",
+    "level": "hard",
+    "tokens": [
+      "Obwohl",
+      "Wetter",
+      "und",
+      "Klima",
+      "zusammenhängen",
+      ",",
+      "beschreiben",
+      "sie",
+      "unterschiedliche",
+      "Zeiträume",
+      "."
+    ],
+    "solutions": [
+      [
+        "Obwohl",
+        "Wetter",
+        "und",
+        "Klima",
+        "zusammenhängen",
+        ",",
+        "beschreiben",
+        "sie",
+        "unterschiedliche",
+        "Zeiträume",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Obwohl“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.19",
+    "level": "hard",
+    "tokens": [
+      "Weil",
+      "Bienen",
+      "Blüten",
+      "bestäuben",
+      ",",
+      "unterstützen",
+      "sie",
+      "die",
+      "Fortpflanzung",
+      "vieler",
+      "Pflanzen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Weil",
+        "Bienen",
+        "Blüten",
+        "bestäuben",
+        ",",
+        "unterstützen",
+        "sie",
+        "die",
+        "Fortpflanzung",
+        "vieler",
+        "Pflanzen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Weil“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.hard.20",
+    "level": "hard",
+    "tokens": [
+      "Wenn",
+      "die",
+      "Nachfrage",
+      "steigt",
+      ",",
+      "kann",
+      "sich",
+      "der",
+      "Preis",
+      "einer",
+      "Ware",
+      "erhöhen",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wenn",
+        "die",
+        "Nachfrage",
+        "steigt",
+        ",",
+        "kann",
+        "sich",
+        "der",
+        "Preis",
+        "einer",
+        "Ware",
+        "erhöhen",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wenn“.",
+    "hint": "Achte auf das Verb im Hauptsatz und auf die Verbendstellung im Nebensatz."
+  },
+  {
+    "id": "sentence.subject.v1.normal.25",
+    "level": "normal",
+    "tokens": [
+      "Wir",
+      "trennen",
+      "Abfall",
+      ",",
+      "damit",
+      "wertvolle",
+      "Rohstoffe",
+      "erneut",
+      "genutzt",
+      "werden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wir",
+        "trennen",
+        "Abfall",
+        ",",
+        "damit",
+        "wertvolle",
+        "Rohstoffe",
+        "erneut",
+        "genutzt",
+        "werden",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wir“.",
+    "hint": "Im Nebensatz steht das gebeugte Verb am Ende."
+  },
+  {
+    "id": "sentence.subject.v1.normal.26",
+    "level": "normal",
+    "tokens": [
+      "Pflanzen",
+      "benötigen",
+      "Wasser",
+      ",",
+      "weil",
+      "es",
+      "für",
+      "ihren",
+      "Stoffwechsel",
+      "wichtig",
+      "ist",
+      "."
+    ],
+    "solutions": [
+      [
+        "Pflanzen",
+        "benötigen",
+        "Wasser",
+        ",",
+        "weil",
+        "es",
+        "für",
+        "ihren",
+        "Stoffwechsel",
+        "wichtig",
+        "ist",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Pflanzen“.",
+    "hint": "Im Nebensatz steht das gebeugte Verb am Ende."
+  },
+  {
+    "id": "sentence.subject.v1.normal.27",
+    "level": "normal",
+    "tokens": [
+      "Wenn",
+      "wir",
+      "unsere",
+      "Abfälle",
+      "sorgfältig",
+      "trennen",
+      ",",
+      "können",
+      "viele",
+      "Materialien",
+      "wiederverwertet",
+      "werden",
+      "."
+    ],
+    "solutions": [
+      [
+        "Wenn",
+        "wir",
+        "unsere",
+        "Abfälle",
+        "sorgfältig",
+        "trennen",
+        ",",
+        "können",
+        "viele",
+        "Materialien",
+        "wiederverwertet",
+        "werden",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Wenn“.",
+    "hint": "Im Nebensatz steht das gebeugte Verb am Ende."
+  },
+  {
+    "id": "sentence.subject.v1.normal.28",
+    "level": "normal",
+    "tokens": [
+      "Weil",
+      "die",
+      "Erde",
+      "sich",
+      "um",
+      "ihre",
+      "eigene",
+      "Achse",
+      "dreht",
+      ",",
+      "wechseln",
+      "sich",
+      "Tag",
+      "und",
+      "Nacht",
+      "regelmäßig",
+      "ab",
+      "."
+    ],
+    "solutions": [
+      [
+        "Weil",
+        "die",
+        "Erde",
+        "sich",
+        "um",
+        "ihre",
+        "eigene",
+        "Achse",
+        "dreht",
+        ",",
+        "wechseln",
+        "sich",
+        "Tag",
+        "und",
+        "Nacht",
+        "regelmäßig",
+        "ab",
+        "."
+      ]
+    ],
+    "instruction": "Bilde den fachlich richtigen Satz. Beginne mit „Weil“.",
+    "hint": "Im Nebensatz steht das gebeugte Verb am Ende."
+  }
+]

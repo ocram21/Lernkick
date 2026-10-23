@@ -173,3 +173,9 @@ Menükorrektur 22.10.2026: „Dein Lern-Kick“ entfällt. Der globale Normal-/S
 ## Maßgebliche UX-Vereinfachung, 23.10.2026
 
 Zentrale Funktionsfarben in `src/design/actions.css`: Hauptaktion Orange/Pink, Bestätigung/Zurück Petrol, Auswahl Violett, Ausgang Türkis, Abbruch und Warnung Rot, neutral bestehende Fläche. Palettenmischungen sichern Textkontrast. Diese Rollen gelten in beiden Farbmodi und ersetzen frühere abweichende Buttonfarben. Mathematik hat nur den globalen Normal-/Streber-Modus; Kategorien bleiben separat. Aktive Lernkarten zeigen die komplette Auswahl erst auf „Auswahl ändern“, ohne Kartenverlust. „Kompakte Ansicht“ ist eine freiwillige, gespeicherte Dichtewahl mit skalierbarer Schrift und scrollbaren Inhaltsbereichen. Details und Testgrenzen: docs/UX-VEREINFACHUNG-2026-10-23.md.
+
+## Maßgebliche Anpassung vom 23.10.2026
+
+Im Lernkasten stehen fünf kompakte Hauptmenü-Tastenkappen in einer Reihe: MA, D, SK, Bio, Geo mit vollständigen zugänglichen Fachnamen, mindestens 44 px Breite und 52 px Höhe. Die Reihe ist höchstens 420 px breit und nutzt vorhandene Farben und Tiefen; aktive Auswahl hat zusätzlich eine sichtbare Kontur. Unterrubriken bleiben unverändert. Quellen-Schalter entfallen; „Karten hinzufügen“ bleibt direkt unter den Rubriken. Das Formular verwendet die bestehenden Dialogregeln mit den Aktionen „Speichern“ und „Abbrechen“; Escape verhält sich wie Abbrechen und warnt bei ungespeichertem Text.
+
+Wortschatz ergänzt Rechtschreibung als fünften Bereich im bestehenden Auswahlcontainer. Lange Rubriknamen erhalten auf schmalen Displays 18–23 px Schrift, während Abstände und Schalter-Touchflächen erhalten bleiben. Keine Änderung der Pink-Palette oder anderer Gestaltungsbereiche.

@@ -1,0 +1,22 @@
+# Aufgaben und Lernkasten – 23.10.2026
+
+Umgesetzt nach `LernKick_Codex_Aenderungen_2026-10-23.md`, einschließlich des zuvor beauftragten Entfernens von „Karten verwalten“ aus den Einstellungen.
+
+- Mathematik: `categories.ts` ändert ausschließlich die Anzeigenamen auf „1 × 1“ und „Schätzen“. Die Überschlagslogik bleibt unverändert. `generator.ts` erweitert die explizite 1×1-Kategorie für Streber auf 12–25 mal 9–16 (108–400); Normal bleibt bis 100. Kompetenz- und Kategoriekennungen bleiben erhalten.
+- `equations.ts` erzeugt vier Streber-Familien: vorzeichenbehaftete ganzzahlige Terme, gebrochene Koeffizienten, gebrochene Konstanten und negative Koeffizienten, jeweils x auf beiden Seiten. Lösungen sind eindeutig und werden mit exakten rationalen Zahlen gerechnet. Normal bleibt ein- bzw. zweischrittig. Dies ändert keine Aufgaben der Bruchrechnungs-Kategorie.
+- `appliedMath.ts`/`adaptive.ts` verteilen die vorhandenen Typen Rechteckumfang, Rechteckfläche und rechtwinklige Dreiecksfläche zufällig zwischen den jeweils am seltensten verwendeten Typen, ohne direkte Typwiederholung. Schwierigkeitsabhängige Maße bleiben bestehen. Sonstige Rechenarten und vorhandene Katalogfiguren werden nicht geändert.
+- Wortschatz: `spelling.ts`, `schema.ts`, `content.ts`, `difficulty.ts`, `VocabularyPanel.tsx` und `VocabularyPractice.tsx` ergänzen Rechtschreibung inklusive Ergebnis-, Pause-, Rückblick-, Moduswechsel- und Offline-Speicherung. 30 vollständige Sätze (15 je Modus) prüfen typische Rechtschreibfehler, mit jeweils drei vollständigen Auswahlantworten. Freie Texteingabe bleibt optional und ist nicht umgesetzt.
+- `subjectSentences.json` enthält 48 fachbezogene Satzbauaufgaben (28 Normal, 20 Streber); `grammarV3.json` enthält 44 Grammatikaufgaben (20 Normal, 24 Streber). Die Satzinhalte wiederholen vor allem Biologie, Geografie und Sozialkunde, ergänzt um Ausbildung/Alltag. Grammatik prüft nahe Formen, Fälle, Zeitformen, Satzgefüge und Konjunktiv; die Aufgabenstellung begrenzt die Antwort eindeutig. Alle bisherigen Aufgaben bleiben über ihre IDs für gespeicherte Runden auflösbar. Der Deutsch-Fachfragenbestand bleibt über die bisherige Grammatikrevision erhalten.
+- `LearningBox.tsx` und eng begrenzte CSS-Regeln vereinfachen Fachauswahl und Quellen. Voreingestellte und eigene Karten werden gemeinsam gefiltert; historische Quellenwerte werden nicht gelöscht. Bestehende Runden werden nicht ersetzt. Kartenpool und Leitner-Regeln bleiben unverändert, keine Dubletten-Erkennung.
+- `CardCreateDialog.tsx` bietet Speichern/Abbrechen. Speichern bestätigt und leert nur die Eingabetexte, erhält Fach/Rubrik und ermöglicht weitere Karten. Abbrechen/Escape speichern nicht; bei ungespeichertem Text kann Verwerfen abgelehnt werden. Die Bestätigung betrifft nur aktuelle Eingaben.
+- App-Hilfe, Inhaltszählung, Release-Kennung und Prüfscripts sind angepasst. Kein Reset, keine Änderung von Punkten, Lernstärke, eigenen Karten, Einstellungen oder Leitner-Ständen. Rechtschreibfelder ergänzen das vorhandene Datenformat 7 durch sichere Standardwerte.
+
+Bewusst offen: Erweiterung auf etwa 50 Karten je Unterrubrik bis zu den Prüfungs-Themenschwerpunkten, Dubletten-Erkennung, freie Rechtschreibeingabe. Pink-Design, Bruchrechnung und Figurenumfang bleiben unverändert.
+
+## Prüfung
+
+Produktionsbuild und 184 Unit-Tests erfolgreich. Enthalten sind 800 exakt aufgelöste Streber-Gleichungen, je 40 Geometrie-Runden pro Modus mit Prüfung auf Verteilung/Wiederholungen, Multiplikationsgrenzen, Inhaltsvalidierung und verlustfreie Bestandsübernahme.
+
+Browser-Gesamtlauf: 199 von 204 Fällen bestanden. Die fünf gefundenen Abweichungen (zu breiter neuer Rubrikname und veraltete Testannahmen zu Kartenquellen, Dialogstatus und positiven Gleichungskoeffizienten) wurden korrigiert. Alle betroffenen Fälle bestanden anschließend im gezielten Lauf mit 21 Tests; nach endgültiger Tastenbreite bestanden zusätzlich alle fünf neuen Aufgaben-/Lernkastenfälle. Mobile/Desktop: 320, 390 und 1440 px, Kartenformular zusätzlich 768 px; fünf Fachtasten in einer Reihe, mindestens 44×52 px und ohne Überlappung.
+
+Der Veröffentlichungscheck `scripts/check-live.mjs` bestand gegen den fertigen lokalen Produktionsbuild: PIN-Zugang, Karten erstellen/bewerten, Punkteerhalt, Offline-Neustart, Pause/Rückblick, N-Back, freie Gleichungsumformungen, Geometrie sowie gespeicherte Kompakt-/Pink-Einstellung, ohne Laufzeitfehler. Öffentlicher Pages-Status wird nach Push einmal geprüft; dieser lokale Check allein bestätigt keinen Livegang.

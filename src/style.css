@@ -294,3 +294,11 @@ progress{appearance:none;-webkit-appearance:none;border:0;border-radius:3px;over
 .home-screen .section-heading{gap:8px}.global-difficulty .practice-switch{min-width:54px}
 @media(min-height:651px) and (max-height:740px) and (max-width:699px){.home-screen .calculator-key{min-height:92px;padding:8px;gap:5px}.home-screen .subject-key .key-name{font-size:35px}}
 .app-shell.home-screen{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+
+/* Compact subject keys reuse the home keyboard without changing its palette. */
+.box-subjects{width:min(100%,420px);isolation:isolate;grid-template-columns:repeat(5,minmax(44px,1fr));gap:9px;margin:14px 0 18px;padding:0 4px 7px}
+.box-subjects .calculator-key{position:relative;width:100%;min-width:44px;min-height:52px;aspect-ratio:1.25;max-height:64px;padding:8px 3px;display:grid;place-items:center;overflow-wrap:normal}
+.box-subjects .subject-key .key-name{font-size:clamp(22px,6vw,32px)}
+.box-subjects .calculator-key[aria-pressed=true]{outline:2px solid var(--ink);outline-offset:3px}
+
+.vocabulary-choice>div{min-width:0}.vocabulary-choices .vocabulary-choice h2{font-size:clamp(18px,5.5vw,23px)}

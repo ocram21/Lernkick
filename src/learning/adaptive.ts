@@ -14,7 +14,12 @@ export function mathLevel(data:UserData,base=1){return data.settings.difficulty=
 export type SelectionContext={used:string[];signatures:string[];now?:number;random?:()=>number;category?:string};
 export function nextMathTask(pool:Question[],data:UserData,context:SelectionContext):LearningTask|undefined {
   const now=context.now??Date.now(),random=context.random??Math.random;const selectedLevel=mathLevel(data,data.learning.competencies[context.category==='equation'?'math.equation.linear':context.category==='geometry'?'math.geometry.area':context.category==='ratio'?'math.ratio.proportion':'math.measure.convert']?.level??1);
-  if(['ratio','geometry','units'].includes(context.category??'')){for(let i=0;i<100;i++){const task=appliedMathTask(context.category!,selectedLevel,i<20?random:seededRandom(i*7919))!;if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
+  if(['ratio','geometry','units'].includes(context.category??'')){
+   const previous=context.signatures.filter(s=>s.startsWith('geometry:v2:')).map(s=>Number(s.split(':')[2]));
+   const counts=[0,1,2].map(kind=>previous.filter(k=>k===kind).length),least=Math.min(...counts);
+   let kinds=[0,1,2].filter(k=>counts[k]===least&&k!==previous.at(-1));if(!kinds.length)kinds=[0,1,2].filter(k=>counts[k]===least);
+   const kind=context.category==='geometry'?kinds[Math.floor(random()*kinds.length)]:undefined;
+   for(let i=0;i<100;i++){const task=appliedMathTask(context.category!,selectedLevel,i<20?random:seededRandom(i*7919),kind)!;if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
   if(context.category==='equation'){for(let i=0;i<100;i++){const task=equationTask(selectedLevel,i<20?random:seededRandom(i*7919));if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
   pool=pool.filter(q=>inMathCategory(skillFor(q),context.category));
   const available=pool.filter(q=>!context.used.includes(q.id));

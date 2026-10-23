@@ -63,7 +63,7 @@ test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten'
     await Promise.all([page.waitForEvent('load'),page.getByRole('button',{name:'App aktualisieren',exact:true}).click()]);
     const currentVersion=()=>page.evaluate(()=>new Promise<number>(resolve=>{const channel=new MessageChannel();channel.port1.onmessage=event=>resolve(event.data);navigator.serviceWorker.controller!.postMessage({type:'TEST_VERSION'},[channel.port2]);}));
     await expect.poll(currentVersion).toBe(2);
-    await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('button',{name:'Karten verwalten',exact:true}).click();await expect(page.getByRole('button',{name:/Bleibt meine Karte.*Wiederholen/})).toBeVisible();
+    await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await expect(page.getByRole('button',{name:'Karten verwalten',exact:true})).toHaveCount(0);
     const stored=await page.evaluate(()=>new Promise(resolve=>{const request=indexedDB.open('lernkick',1);request.onsuccess=()=>{const db=request.result;const get=db.transaction('user').objectStore('user').get('data');get.onsuccess=()=>{resolve(get.result);db.close();};};}));expect(stored).toMatchObject(data);expect((stored as any).journey.totalPoints).toBe(1145);
   }finally{await new Promise<void>(resolve=>server.close(()=>resolve()));}
 });
