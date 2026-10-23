@@ -195,3 +195,9 @@ Unter den Unterrubriken stehen mit 22 px Abstand zwei Aktionen in einem höchste
 Die bestehende gemeinsame Kopfzeile verwendet für Training, Lernkasten und Einstellungen dieselbe Höhe (56 px) und Logo-Geometrie: 30 px Schrift, mobil 27 px, 27 px Blitz und identische Abstände. Safe Areas werden für diese Bereiche gleich berücksichtigt.
 
 Dual N-Back zeigt keinen Mittelpunkt mehr auf dem aktiven Feld. Antworttasten erhalten nach Eingabe einen gelben 200-ms-Rand, der bei neuer Aufgabe, Pause oder Verlassen entfernt wird. Tastaturfokus verwendet davon unabhängig die Textfarbe und bleibt sichtbar. Spielfeldfarbe und Spielablauf bleiben erhalten.
+
+## Kompakter Lernkasten – nachfolgende Korrektur, 23.10.2026
+
+Die Starttaste „Lernen beginnen“ bleibt quadratisch, ist aber höchstens 168 px breit; das Aktionspaar ist höchstens 326 px breit und nutzt das Verhältnis 1:1,2 mit 18 px Abstand. Die untergeordnete Kartenanzahl entfällt auf ausdrücklichen Nutzerwunsch. Notwendige Meldungen zu leerer Auswahl und abgeschlossenen Runden stehen vor dem Aktionsbereich. Ausgewählte Unterrubriken verwenden die bestehende violette Fläche mit beständigem weißem Rand aus dem vorhandenen Schriftfarbtoken. Tastaturfokus ist separat als gestrichelte äußere Kontur erkennbar; Fokus verändert weder Auswahl noch Hintergrundfarbe. Andere Ansichten, Kartenfilterung, Fälligkeit, Fortschritt und gespeicherte Runden bleiben unverändert.
+
+Validiert: Produktionsbuild und 43 gezielte Browserfälle erfolgreich, einschließlich 320/390/1440 px, Auswahlwechsel per Touch/Tastatur, Karten hinzufügen, unveränderter Rundengröße, Auswahl schließen, Offline-Fortsetzung und Erhalt eigener Karten/Leitner-Stände.
