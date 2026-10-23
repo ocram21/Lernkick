@@ -10,23 +10,24 @@ import { confidence, updateCompetency, DAY } from './mastery';
 import type { HelpLevel, LearningTask } from './types';
 import { recordProgressEvidence } from './progressRules';
 export const preferenceFor=(data:UserData,subject:Subject)=>data.learning.preferences[subject]??{pace:'fit' as const,explanation:'plain' as const};
+export function mathLevel(data:UserData,base=1){return data.settings.difficulty==='hard'?3:Math.max(1,Math.min(2,base));}
 export type SelectionContext={used:string[];signatures:string[];now?:number;random?:()=>number;category?:string};
 export function nextMathTask(pool:Question[],data:UserData,context:SelectionContext):LearningTask|undefined {
-  const now=context.now??Date.now(),random=context.random??Math.random;const preference=preferenceFor(data,'math');
-  if(['ratio','geometry','units'].includes(context.category??'')){for(let i=0;i<100;i++){const task=appliedMathTask(context.category!,preference.pace==='easier'?1:preference.pace==='challenge'?3:2,i<20?random:seededRandom(i*7919))!;if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
-  if(context.category==='equation'){for(let i=0;i<100;i++){const task=equationTask(preference.pace==='easier'?1:preference.pace==='challenge'?3:2,i<20?random:seededRandom(i*7919));if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
+  const now=context.now??Date.now(),random=context.random??Math.random;const selectedLevel=mathLevel(data,data.learning.competencies[context.category==='equation'?'math.equation.linear':context.category==='geometry'?'math.geometry.area':context.category==='ratio'?'math.ratio.proportion':'math.measure.convert']?.level??1);
+  if(['ratio','geometry','units'].includes(context.category??'')){for(let i=0;i<100;i++){const task=appliedMathTask(context.category!,selectedLevel,i<20?random:seededRandom(i*7919))!;if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
+  if(context.category==='equation'){for(let i=0;i<100;i++){const task=equationTask(selectedLevel,i<20?random:seededRandom(i*7919));if(!context.signatures.includes(task.signature)&&!context.used.includes(task.id)&&(!data.learning.variants[task.signature]||now-data.learning.variants[task.signature].at>=DAY))return task;}return;}
   pool=pool.filter(q=>inMathCategory(skillFor(q),context.category));
   const available=pool.filter(q=>!context.used.includes(q.id));
   const fresh=(task:LearningTask)=>!(data.progress[task.id]?.correct>=2&&now-data.progress[task.id].lastAward<7*DAY)&&inMathCategory(task.skillId,context.category)&&!(data.learning.variants[task.signature]&&(data.learning.variants[task.signature].correct>=2?now-data.learning.variants[task.signature].at<7*DAY:now-data.learning.variants[task.signature].at<DAY))&&!context.used.includes(task.id)&&!context.signatures.includes(task.signature)&&!pool.some(q=>context.used.includes(q.id)&&q.prompt===task.prompt);
   const choose=(skillId:string,level:number,support=false,ceiling=support?level:3)=>{
-    if(!support)level=preference.pace==='easier'?1:preference.pace==='challenge'?3:2;
+    level=support?Math.min(level,data.settings.difficulty==='hard'?3:2):mathLevel(data,level);ceiling=data.settings.difficulty==='hard'?3:2;
     // Finite attempts plus deterministic fallback: even a constant RNG cannot loop forever.
     for(let i=0;i<80;i++) {
       const task=generateTask(skillId,level,i<24?random:seededRandom(i*7919),context.category==='times');
       if(!task)break;
       if(fresh(task))return {...task,support};
     }
-    const candidates=available.filter(q=>skillFor(q)===skillId&&q.difficulty<=ceiling).map(asTask).filter(fresh);
+    const candidates=available.filter(q=>skillFor(q)===skillId&&q.difficulty<=ceiling&&(support||data.settings.difficulty!=='hard'||q.difficulty===3)).map(asTask).filter(fresh);
     candidates.sort((a,b)=>Math.abs(a.difficulty-level)-Math.abs(b.difficulty-level));
     return candidates[0]?{...candidates[0],support}:undefined;
   };
@@ -54,7 +55,7 @@ export function nextMathTask(pool:Question[],data:UserData,context:SelectionCont
   }
   // Explicit old Leitner entries remain reachable even when prerequisites were never observed.
   const dueQuestions=available.filter(q=>data.progress[q.id]?.attempts>0&&data.progress[q.id].due<=now).sort((a,b)=>data.progress[a.id].due-data.progress[b.id].due);
-  const review=dueQuestions.map(asTask).find(fresh);if(review)return review;
+  const review=dueQuestions.filter(q=>data.settings.difficulty==='hard'?q.difficulty===3:q.difficulty<=2).map(asTask).find(fresh);if(review)return review;
   const eligible=mathCompetencies.filter(skill=>inMathCategory(skill.id,context.category)&&!['math.number.compare','math.add.no-carry'].includes(skill.id));
   const overdue=eligible.filter(skill=>data.learning.competencies[skill.id]?.observations.length&&data.learning.competencies[skill.id].due<=now).sort((a,b)=>data.learning.competencies[a.id].due-data.learning.competencies[b.id].due);
   const ongoing=eligible.filter(skill=>confidence(data.learning.competencies[skill.id])==='practicing').sort((a,b)=>(data.learning.competencies[b.id].observations.at(-1)?.at??0)-(data.learning.competencies[a.id].observations.at(-1)?.at??0));
@@ -62,11 +63,11 @@ export function nextMathTask(pool:Question[],data:UserData,context:SelectionCont
   const rest=[...eligible].sort((a,b)=>(data.learning.competencies[a.id]?.attempts??0)-(data.learning.competencies[b.id]?.attempts??0));
   for(const skill of [...overdue,...ongoing,...newSkills,...rest]) {
     const base=data.learning.competencies[skill.id]?.level??1;
-    const desired=preference.pace==='easier'?Math.max(1,base-1):preference.pace==='challenge'?Math.min(3,base+1):base;
+    const desired=mathLevel(data,base);
     const task=choose(skill.id,desired);if(task)return task;
   }
   // Catalog fallback keeps a round playable if a future competency pack is incomplete.
-  return available.map(asTask).find(fresh);
+  return available.filter(q=>data.settings.difficulty==='hard'?q.difficulty===3:q.difficulty<=2).map(asTask).find(fresh);
 }
 export function recordLearningAnswer(data:UserData,task:LearningTask,correct:boolean,help:HelpLevel,now=Date.now()):{data:UserData;points:number;newMilestones:string[]} {
   const recorded=recordAnswer(data,task,correct,now);const learning={...data.learning,competencies:{...data.learning.competencies},unlocks:{...data.learning.unlocks},recovery:{...data.learning.recovery},awards:{...data.learning.awards}};

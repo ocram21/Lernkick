@@ -23,7 +23,7 @@ describe('Änderungsauftrag 20. Oktober',()=>{
    const data=emptyData();data.learning.preferences.math={pace,explanation:'plain'};
    const task=nextMathTask(pool,data,{used:[],signatures:[],category,random:seededRandom(12)})!;
    expect(task).toBeDefined();expect(inMathCategory(task.skillId,category)).toBe(true);
-   if(task.generated)expect(task.difficulty).toBe(pace==='easier'?1:pace==='fit'?2:3);
+   if(task.generated)expect(task.difficulty).toBeLessThanOrEqual(2);
   }
  });
  it('sperrt konkrete Varianten nach zwei Erfolgen für sieben Tage und begrenzt die Historie',()=>{

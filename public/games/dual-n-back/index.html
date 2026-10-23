@@ -117,6 +117,8 @@
     .primary:hover{background:var(--accent);filter:brightness(1.1)}.panel{padding:20px}
     .primary{color:var(--calc-ink)}.outcome.fail{color:var(--ink)}
 :root[data-theme="pink"]{color-scheme:light}.primary{margin-top:8px}:root[data-theme="pink"] .primary{color:var(--calc-ink)}:root[data-theme="pink"] .answer{background:var(--surface);color:var(--ink)}
+:root[data-compact=true] .panel{padding:12px}:root[data-compact=true] h1{font-size:1.75rem}:root[data-compact=true] p{margin-block:8px}:root[data-compact=true] button{padding:8px 12px;min-height:44px}
+.primary{background:var(--action-main,var(--accent));color:var(--action-main-ink,var(--ink))}.secondary{background:var(--action-selection,var(--surface));color:var(--action-selection-ink,var(--ink))}#pauseButton{background:var(--action-neutral,var(--surface));color:var(--action-neutral-ink,var(--ink))}
 </style>
 </head>
 <body>
@@ -172,7 +174,7 @@
     let lastInteraction=0;
     function reportActivity(event){if(!event.isTrusted||document.hidden||!state.running||paused)return;const now=Date.now(),gap=now-lastInteraction;lastInteraction=now;if(gap>0&&gap<=30000&&parent!==window)parent.postMessage({type:'lernkick:activity',milliseconds:gap},location.origin);}
     window.addEventListener('pointerdown',reportActivity);window.addEventListener('keydown',reportActivity);document.addEventListener('visibilitychange',()=>lastInteraction=0);
-    window.addEventListener('message',event=>{if(event.origin===location.origin&&event.source===parent&&event.data?.type==='lernkick:theme'){document.documentElement.dataset.theme=event.data.theme;for(const key of ['--page','--surface','--ink','--muted','--accent','--line','--cell','--stimulus','--calc-housing','--calc-display','--calc-number','--calc-petrol','--calc-teal','--calc-red','--calc-orange','--calc-violet','--calc-ink'])if(typeof event.data.palette?.[key]==='string')document.documentElement.style.setProperty(key,event.data.palette[key]);}});
+    window.addEventListener('message',event=>{if(event.origin===location.origin&&event.source===parent&&event.data?.type==='lernkick:theme'){document.documentElement.dataset.theme=event.data.theme;document.documentElement.dataset.compact=String(Boolean(event.data.compact));for(const key of ['--action-main','--action-main-ink','--action-selection','--action-selection-ink','--action-neutral','--action-neutral-ink','--page','--surface','--ink','--muted','--accent','--line','--cell','--stimulus','--calc-housing','--calc-display','--calc-number','--calc-petrol','--calc-teal','--calc-red','--calc-orange','--calc-violet','--calc-ink'])if(typeof event.data.palette?.[key]==='string')document.documentElement.style.setProperty(key,event.data.palette[key]);}});
     const CONFIG = Object.freeze({
       scoredTrials: 24,
       maxErrorsForPromotion: 2,
@@ -257,6 +259,7 @@
     }
 
     function speakLetter(letter) {
+      if(paused){pendingLetter=letter;return;}
       const audio = letterAudio[letter];
       audio.pause();
       audio.currentTime = 0;
@@ -290,9 +293,10 @@
     }
 
     function saveRound(){if(state.running&&state.currentRound)try{localStorage.setItem('lernkick.nback.round.v1',JSON.stringify({...state.currentRound,remaining:pendingWait?Math.max(0,pendingWait.remaining-(paused?0:performance.now()-pendingWait.started)):undefined}));}catch{}}
+    window.lernkickSuspendRound=()=>{if(state.running){pauseGame(true);saveRound();}};
     window.lernkickEndRound=()=>{state.running=false;state.roundToken++;clearTimeout(pendingWait?.timer);Object.values(letterAudio).forEach(audio=>audio.pause());if('speechSynthesis' in window)speechSynthesis.cancel();try{localStorage.removeItem('lernkick.nback.round.v1');}catch{}};
     window.addEventListener('pagehide',saveRound);
-    let paused = false, parentPaused = false, pendingWait = null;
+    let paused = false, parentPaused = false, pendingWait = null, pendingLetter = null;
     const pauseOverlay = document.createElement('div');
     pauseOverlay.className='pause-overlay hidden';
     pauseOverlay.innerHTML='<section class="panel"><h2>Pause</h2><p>Deine laufende Runde bleibt stehen.</p><button class="primary" type="button">Weiter spielen</button></section>';
@@ -307,14 +311,14 @@
         if(pendingWait){clearTimeout(pendingWait.timer);pendingWait.remaining=Math.max(0,pendingWait.remaining-(performance.now()-pendingWait.started));}
         Object.values(letterAudio).forEach(audio=>audio.pause());
         if('speechSynthesis' in window)speechSynthesis.cancel();
-      }else resumeWait();
+      }else{resumeWait();if(pendingLetter){const letter=pendingLetter;pendingLetter=null;speakLetter(letter);}}
       pauseOverlay.classList.toggle('hidden',!paused);
       pauseOverlay.querySelector('button').disabled=parentPaused;
     }
     pauseOverlay.querySelector('button').addEventListener('click',()=>{if(!parentPaused&&!document.hidden)pauseGame(false);});
     document.getElementById('pauseButton').addEventListener('click',()=>pauseGame(true));
     document.addEventListener('visibilitychange',()=>{if(document.hidden&&state.running)pauseGame(true);});
-    window.addEventListener('message',event=>{if(event.source!==parent||event.origin!==location.origin||event.data?.type!=='lernkick:nback-pause')return;parentPaused=Boolean(event.data.paused);if(state.running)pauseGame(parentPaused||document.hidden);});
+    window.addEventListener('message',event=>{if(event.source!==parent||event.origin!==location.origin||event.data?.type!=='lernkick:nback-pause')return;const wasParentPaused=parentPaused;parentPaused=Boolean(event.data.paused);if(state.running&&parentPaused)pauseGame(true);else if(state.running&&wasParentPaused&&!document.hidden)pauseGame(false);});
     window.addEventListener('pagehide',()=>{state.roundToken++;Object.values(letterAudio).forEach(audio=>audio.pause());if('speechSynthesis' in window)speechSynthesis.cancel();clearTimeout(pendingWait?.timer);});
     document.getElementById('soundTest').addEventListener('click',()=>speakLetter('T'));
     function wait(ms){return new Promise(resolve=>{pendingWait={resolve,remaining:ms,started:performance.now(),timer:null};resumeWait();});}

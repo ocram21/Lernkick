@@ -7,7 +7,7 @@ async function seed(page:Page,data:unknown) {await page.goto('/');await expect(p
 async function importData(page:Page,data:unknown) {await page.getByRole('button',{name:'Einstellungen',exact:true}).click();page.once('dialog',dialog=>dialog.accept());await page.locator('.import-button input').setInputFiles({name:'sicherung.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(data))});await expect(page.getByRole('status')).toContainText('Sicherung übernommen');}
 async function leaveRound(page:Page) {await page.getByRole('button',{name:'Ausgang',exact:true}).click();}
 
-test('Mathe beginnt mit Zehnerübergang, Hilfestufen und drei Stufen sind erreichbar',async({page})=>{
+test('Mathe beginnt mit Zehnerübergang, Hilfestufen ohne lokale Stufen sind erreichbar',async({page})=>{
   await page.setViewportSize({width:320,height:568});await page.goto('/');await page.getByRole('button',{name:'Mathematik, Level 1'}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
   await expect(page.locator('.question-topic')).toHaveText('Addieren mit Zehnerübergang');
   await expect(page.locator('.question h1')).toContainText('Wie viel ist');
@@ -16,8 +16,7 @@ test('Mathe beginnt mit Zehnerübergang, Hilfestufen und drei Stufen sind erreic
   await page.getByRole('button',{name:'Lösung erklären',exact:true}).click();await expect(page.getByText('Lösung verstehen',{exact:true})).toBeVisible();
   await page.getByRole('button',{name:'Hilfe schließen',exact:true}).click();await answerCorrect(page);
   await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();
-  await page.getByRole('button',{name:'Stufe',exact:true}).click();
-  for(const choice of ['Leicht','Schwer','Mittel']){await page.getByRole('button',{name:choice,exact:true}).click();await expect(page.getByRole('button',{name:choice,exact:true})).toHaveAttribute('aria-pressed','true');}
+  await expect(page.getByRole('button',{name:'Stufe',exact:true})).toHaveCount(0);
   await page.getByRole('button',{name:'Hilfe',exact:true}).click();await expect(page.getByText('Ein Hinweis',{exact:true})).toBeVisible();
   await page.screenshot({path:'test-results/pilot-help-mobile.png'});
   const data=await stored(page);const state=data.learning.competencies['math.add.carry'];expect(state.observations[0].help).toBe(3);expect(state.helpRequests).toBeGreaterThanOrEqual(3);expect(data.learning.unlocks).toEqual({});
@@ -39,7 +38,7 @@ test('Fehler führen zu neuen unterstützten Aufgaben; Hilfen und Weiter-Button 
 test('Kompetenznachweise bleiben gespeichert ohne eine zweite Fortschrittsseite',async({page})=>{await page.goto('/');await page.getByRole('button',{name:'Mathematik, Level 1'}).click();await page.getByRole('button',{name:'Alle',exact:true}).click();await page.getByRole('button',{name:'Grundrechenarten',exact:true}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();for(let i=0;i<5;i++){await answerCorrect(page);await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();}await leaveRound(page);expect(Object.keys((await stored(page)).learning.unlocks).length).toBeGreaterThan(0);await expect(page.locator('.calculator-key')).toHaveCount(9);await expect(page.locator('.competency-mosaic')).toHaveCount(0);});
 test('IndexedDB-Version 1 migriert ohne Verlust und exportiert eine importierbare neue Sicherung',async({page})=>{
   const {learning:_,...fields}=emptyData();const legacy={...fields,version:1,progress:{'math-002':{box:4,due:123456,attempts:9,correct:7,lastAward:123},'unknown-old-id':{box:2,due:42,attempts:2,correct:1,lastAward:1}},scores:{...fields.scores,math:90},cards:[{id:'old-card',front:'Meine alte Karte',back:'Bleibt erhalten.',subject:'math'}],settings:{reducedMotion:true}};
-  await seed(page,legacy);const migrated=await stored(page);expect(migrated.version).toBe(5);expect(migrated.progress).toEqual(legacy.progress);expect(migrated.scores).toEqual(legacy.scores);expect(migrated.cards).toEqual(legacy.cards.map(card=>({rubric:'general',...card})));expect(migrated.settings).toEqual({...legacy.settings,pink:false,difficulty:'normal'});expect(migrated.learning.competencies['math.add.carry'].baseline).toEqual({attempts:9,correct:7});expect(migrated.learning.unlocks).toEqual({});
+  await seed(page,legacy);const migrated=await stored(page);expect(migrated.version).toBe(6);expect(migrated.progress).toEqual(legacy.progress);expect(migrated.scores).toEqual(legacy.scores);expect(migrated.cards).toEqual(legacy.cards.map(card=>({rubric:'general',...card})));expect(migrated.settings).toEqual({...legacy.settings,pink:false,difficulty:'normal',compact:false});expect(migrated.learning.competencies['math.add.carry'].baseline).toEqual({attempts:9,correct:7});expect(migrated.learning.unlocks).toEqual({});
   await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('button',{name:'Karten verwalten',exact:true}).click();await expect(page.getByRole('button',{name:/Meine alte Karte.*Wiederholen/})).toBeVisible();
   await page.getByRole('button',{name:'Einstellungen',exact:true}).click();const downloadEvent=page.waitForEvent('download');await page.getByRole('button',{name:'Sicherung exportieren',exact:true}).click();const download=await downloadEvent;const exported=JSON.parse(readFileSync((await download.path())!,'utf8'));expect(exported).toEqual(migrated);
   await importData(page,legacy);await expect.poll(()=>stored(page)).toEqual(migrated);

@@ -47,7 +47,7 @@ describe('Deterministische Generatoren',()=>{
 describe('Lernpfad',()=>{
   it('beginnt mit Zehnerübergang und verändert nur die geübte Einzelkompetenz',()=>{
     let data=emptyData();const first=nextMathTask(pool,data,{used:[],signatures:[],random:seededRandom(3)})!;
-    expect(first.skillId).toBe('math.add.carry');expect(first.difficulty).toBe(2);
+    expect(first.skillId).toBe('math.add.carry');expect(first.difficulty).toBe(1);
     data=correctTask(data,'math.number.compare',1,1000);expect(data.learning.competencies['math.number.compare'].level).toBe(1);
     expect(data.learning.competencies['math.add.carry']).toBeUndefined();
     expect(nextMathTask(pool,data,{used:[first.id],signatures:[first.signature]})!.skillId).toBe('math.add.carry');
@@ -57,7 +57,7 @@ describe('Lernpfad',()=>{
     expect(data.learning.competencies['math.number.compare'].level).toBe(2);
     expect(confidence(data.learning.competencies['math.number.compare'])).toBe('growing');
     const next=nextMathTask(pool,data,{used:[],signatures:[],now:4000})!;expect(next.skillId).toBe('math.add.carry');
-    const challenge=emptyData();challenge.learning.preferences.math={pace:'challenge',explanation:'plain'};
+    const challenge=emptyData();challenge.settings.difficulty='hard';challenge.learning.preferences.math={pace:'challenge',explanation:'plain'};
     expect(nextMathTask(pool,challenge,{used:[],signatures:[]})!.skillId).toBe('math.add.carry');
     expect(nextMathTask(pool,challenge,{used:[],signatures:[]})!.difficulty).toBe(3);
     expect(challenge.learning.competencies).toEqual({});
@@ -131,7 +131,7 @@ describe('Dauerhafte Freischaltungen und Migration',()=>{
   });
   it('übernimmt alte Sicherungen vollständig, ohne Sicherheit oder Zeitpunkte zu erfinden',()=>{
     const old=legacyFixture(),next=migrateData(old);
-    expect(next.version).toBe(5);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards.map(card=>({rubric:'general',...card})));expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual({...old.settings,pink:false,difficulty:'normal'});
+    expect(next.version).toBe(6);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards.map(card=>({rubric:'general',...card})));expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual({...old.settings,pink:false,difficulty:'normal',compact:false});
     const skill=next.learning.competencies['math.add.carry'];expect(skill.baseline).toEqual({attempts:9,correct:7});expect(skill.observations).toEqual([]);expect(confidence(skill)).toBe('new');expect(next.learning.unlocks).toEqual({});
     expect(readBackup(JSON.stringify(old))).toEqual(next);expect(migrateData(next)).toEqual(next);
   });
@@ -143,7 +143,7 @@ describe('Dauerhafte Freischaltungen und Migration',()=>{
   it('erhält unbekannte stabile IDs, weist beschädigte und künftige Sicherungen zurück',()=>{
     const data=emptyData();data.learning.unlocks['future.art:secure']={at:1,subject:'math',skillId:'future.art',milestone:'secure'};data.progress['old-unknown']={box:5,due:100,attempts:8,correct:7,lastAward:10};
     expect(readBackup(JSON.stringify(data))).toEqual(data);
-    expect(()=>migrateData({...data,version:6})).toThrow();expect(()=>readBackup(JSON.stringify({...legacyFixture(),progress:{bad:{box:99}}}))).toThrow();expect(()=>dataSchema.parse({...data,learning:{}})).toThrow();
+    expect(()=>migrateData({...data,version:7})).toThrow();expect(()=>readBackup(JSON.stringify({...legacyFixture(),progress:{bad:{box:99}}}))).toThrow();expect(()=>dataSchema.parse({...data,learning:{}})).toThrow();
   });
   it('bietet für andere Fächer getrennte austauschbare Welten ohne Änderung ihrer Auswahl',()=>{
     expect(new Set(mosaicWorlds.map(w=>w.subject)).size).toBe(5);

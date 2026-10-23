@@ -1,9 +1,8 @@
-import { ArrowRight, CircleHelp, SlidersHorizontal } from 'lucide-react';
-import type { HelpLevel, LearningTask, Pace } from '../learning/types';
-export function LearningTools({task,helpLevel,panel,pace,alternate,onPanel,onHelp,onChoice,disabled}:{task:LearningTask;helpLevel:HelpLevel;panel:'help'|'pace'|null;pace:Pace;alternate:boolean;onPanel:(panel:'help'|'pace'|null)=>void;onHelp:(level:HelpLevel)=>void;onChoice:(choice:Pace|'alternate')=>void;disabled:boolean}) {
-  return <section className="learning-tools" aria-label="Hilfe und Stufe">
-    <div className="tool-bar"><button disabled={disabled} aria-expanded={panel==='help'} onClick={()=>{onPanel(panel==='help'?null:'help');if(panel!=='help'&&helpLevel===0)onHelp(1);}}><CircleHelp size={18}/>Hilfe</button><button disabled={disabled} aria-expanded={panel==='pace'} onClick={()=>onPanel(panel==='pace'?null:'pace')}><SlidersHorizontal size={18}/>Stufe</button></div>
-    {panel==='pace'&&<div className="tool-panel"><p>Was brauchst du gerade?</p><div className="pace-choices">{([{id:'easier',label:'Leicht'},{id:'fit',label:'Mittel'},{id:'challenge',label:'Schwer'}] as const).map(choice=><button key={choice.id} disabled={disabled} aria-pressed={pace===choice.id} onClick={()=>onChoice(choice.id)}>{choice.label}</button>)}</div><p className="tool-note">Deine Wahl gilt für die nächsten Aufgaben. Du kannst sie jederzeit ändern.</p></div>}
+import { ArrowRight, CircleHelp } from 'lucide-react';
+import type { HelpLevel, LearningTask } from '../learning/types';
+export function LearningTools({task,helpLevel,panel,alternate,onPanel,onHelp,disabled}:{task:LearningTask;helpLevel:HelpLevel;panel:'help'|'pace'|null;alternate:boolean;onPanel:(panel:'help'|'pace'|null)=>void;onHelp:(level:HelpLevel)=>void;disabled:boolean}) {
+  return <section className="learning-tools" aria-label="Lernhilfe">
+    <div className="tool-bar"><button disabled={disabled} aria-expanded={panel==='help'} onClick={()=>{onPanel(panel==='help'?null:'help');if(panel!=='help'&&helpLevel===0)onHelp(1);}}><CircleHelp size={18}/>Hilfe</button></div>
     {panel==='help'&&<div className="tool-panel" aria-live="polite"><strong>{helpLevel===3?'Lösung verstehen':helpLevel===2?'Ein Beispiel':'Ein Hinweis'}</strong><p>{helpLevel===3?task.explanation:helpLevel===2?task.help.example:alternate?task.help.alternate:task.help.hint}</p>
       {helpLevel<3&&task.help.visual&&<CalculationVisual visual={task.help.visual}/>}
       {helpLevel<3&&<button className="text-button" disabled={disabled} onClick={()=>onHelp((helpLevel+1) as HelpLevel)}>{helpLevel===1?'Beispiel ansehen':'Lösung erklären'}<ArrowRight size={16}/></button>}

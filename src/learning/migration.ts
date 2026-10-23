@@ -8,10 +8,10 @@ import { skillFor } from './tasks';
 import { emptyCompetency } from './mastery';
 export function migrateData(value: unknown): UserData {
     if (typeof value === 'object' && value !== null && 'version' in value) {
-        if (value.version === 3||value.version===4||value.version===5)
-            return migrateActivities(dataSchema.parse({...value,version:5}));
+        if (value.version === 3||value.version===4||value.version===5||value.version===6)
+            return migrateActivities(dataSchema.parse({...value,version:6,rounds:'rounds' in value&&value.rounds&&typeof value.rounds==='object'&&!Array.isArray(value.rounds)?Object.fromEntries(Object.entries(value.rounds).map(([id,round])=>[id,round&&typeof round==='object'&&'panel' in round&&round.panel==='pace'?{...round,panel:null}:round])):('rounds' in value?value.rounds:{})}));
         if (value.version === 2)
-            return migrateActivities(dataSchema.parse({ ...previousDataSchema.parse(value), version: 5, study: emptyStudy() }));
+            return migrateActivities(dataSchema.parse({ ...previousDataSchema.parse(value), version: 6, study: emptyStudy() }));
     }
     const legacy = legacyDataSchema.parse(value);
     const learning = emptyLearning();
@@ -24,7 +24,7 @@ export function migrateData(value: unknown): UserData {
         skill.baseline.correct += progress.correct;
         learning.competencies[skillId] = skill;
     }
-    return migrateActivities(dataSchema.parse({ ...legacy, version: 5, learning, study: emptyStudy() }));
+    return migrateActivities(dataSchema.parse({ ...legacy, version: 6, learning, study: emptyStudy() }));
 }
 /** Restoring an older backup replaces learning data, but never takes earned picture pieces away. */
 export function prepareImport(current: UserData, incoming: UserData): UserData {
