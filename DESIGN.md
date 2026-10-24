@@ -205,3 +205,9 @@ Validiert: Produktionsbuild und 43 gezielte Browserfälle erfolgreich, einschlie
 ## Dual-N-Back-Eingabetasten, 24.10.2026
 
 Position und Audio behalten ihre Grundfarbe auch bei Hover, Fokus und wiederholter Eingabe. Nur der 200-ms-Rand quittiert die Antwort. Pointer-Eingaben werden für jede Taste unabhängig bereits beim Drücken erfasst, auch für sekundäre Touch-Pointer; Tastatur und assistive Klicks bleiben erreichbar. Der nachfolgende Pointer-Klick startet das Feedback nicht erneut. Die vorhandenen getrennten Timer und die Begrenzung auf eine gewertete Antwort je Kanal/Durchgang bleiben erhalten.
+
+## Dual-N-Back-Startbildschirm, 24.10.2026
+
+Die zusätzliche Beschriftung rechts neben Ausgang entfällt. Alle Anfangsstufen erhalten denselben unteren orangefarbenen Schimmer unabhängig vom Meisterungsstand; der vorhandene ausgewählte Zustand bleibt einheitlich. Auf ausdrückliche Rückfrage bestätigt: 3-Back ist gesperrt, bis 2-Back erfolgreich abgeschlossen wurde. Gesperrte Stufen bleiben sichtbar und sind gedimmt; 1-/2-Back bleiben direkt wählbar. Die bestehende 4-Back-Freigabe, Ausgang, Tonprüfung und Spielregeln bleiben erhalten. Vorhandene Daten werden nicht migriert oder zurückgesetzt.
+
+Geprüft: Produktionsbuild, 12 gezielte Unit-Tests und fünf Browserfälle erfolgreich. Ansichten auf 320/390/1440 px, gemeinsame Schimmer-/Auswahlgestaltung, 3-Back vor/nach Freigabe, real abgeschlossene erfolgreiche 2-Back-Runde, Rückweg und pausierte Wiederaufnahme.
