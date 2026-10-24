@@ -57,7 +57,7 @@ describe('Änderungen 23.10.: fachliche Aufgaben und Bestandsschutz',()=>{
  });
  it('ergänzt Rechtschreibung verlustfrei, bewahrt alte Einstellungen und offene Aufgaben',()=>{
   const d=emptyData();d.journey=newJourney(d.scores);d.journey.strength=80;d.journey.totalPoints=1820;d.cards=[{id:'keep',subject:'math',rubric:'arithmetic',front:'Meine Karte',back:'Meine Antwort'}];d.study.box.preset=false;d.study.box.own=false;d.activities.vocabulary.session={ids:['sentence.normal.v1.001'],index:0,draft:[1,0],answer:null,solved:false};d.activities.vocabulary.grammar.old={attempts:4,correct:3,lastCorrect:true,at:1};
-  const raw=JSON.parse(JSON.stringify(d));delete raw.activities.vocabulary.spelling;delete raw.activities.vocabulary.enabled.spelling;
+  d.activities.vocabulary.enabled.spelling=false;const raw=JSON.parse(JSON.stringify(d));delete raw.activities.vocabulary.spelling;delete raw.activities.vocabulary.enabled.spelling;
   const migrated=migrateData(raw);expect(migrated).toEqual(d);expect(migrateData(migrated)).toEqual(migrated);expect(dataSchema.parse(migrated)).toEqual(d);
  });
  it('wechselt Rechtschreibniveau und erhält bereits bewertete Aufgaben und Punkte',()=>{

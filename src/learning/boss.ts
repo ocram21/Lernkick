@@ -14,6 +14,7 @@ import {shuffle} from '../lib/engine';
 import type {LearningTask} from './types';
 export type BossTask={id:string;prompt:string;options:string[];correct:number;explanation:string;task?:LearningTask;sentence?:SentenceTask};
 export function bossTasks(data:UserData,subject:Subject,test=false):BossTask[]{
+ const all=test||subject==='german';
  const level=data.settings.difficulty,hard=level==='hard',known=new Set(questions.filter(q=>data.progress[q.id]?.attempts).map(q=>q.competency));
  const groups:BossTask[][]=[];
  if(subject==='math'){
@@ -28,12 +29,12 @@ export function bossTasks(data:UserData,subject:Subject,test=false):BossTask[]{
   }
   groups.push(shuffle(generated));
  }
- groups.push(shuffle(subjectPool(questions,subject,level).filter(q=>test||data.progress[q.id]?.attempts||known.has(q.competency)).map(q=>({...q,task:asTask(q)}))));
+ groups.push(shuffle(subjectPool(questions,subject,level).filter(q=>all||data.progress[q.id]?.attempts||known.has(q.competency)).map(q=>({...q,task:asTask(q)}))));
  if(subject==='german'){
   const c=data.activities.vocabulary;
-  for(const [tasks,results]of [[grammarTasks,c.grammar],[spellingTasks,c.spelling],[proverbTasks,c.proverbs]] as const)groups.push(shuffle(tasks.filter(t=>!('archived'in t&&t.archived)&&t.level===level&&(test||results[t.id]?.attempts)).map(t=>({...t,correct:0}))));
-  groups.push(shuffle(words.filter(w=>!w.archived&&w.id.startsWith('vocabulary.hard.')===hard&&(test||c.words[w.id]?.attempts)).map(w=>({...wordQuestion(w),correct:0}))));
-  groups.push(shuffle(sentences.filter(t=>!t.archived&&t.level===level&&(test||c.sentences[t.id]?.attempts)).map(sentence=>({id:sentence.id,prompt:sentence.instruction,options:[],correct:0,explanation:sentence.hint,sentence}))));
+  for(const [tasks,results]of [[grammarTasks,c.grammar],[spellingTasks,c.spelling],[proverbTasks,c.proverbs]] as const)groups.push(shuffle(tasks.filter(t=>!('archived'in t&&t.archived)&&t.level===level&&(all||results[t.id]?.attempts)).map(t=>({...t,correct:0}))));
+  groups.push(shuffle(words.filter(w=>!w.archived&&w.id.startsWith('vocabulary.hard.')===hard&&(all||c.words[w.id]?.attempts)).map(w=>({...wordQuestion(w),correct:0}))));
+  groups.push(shuffle(sentences.filter(t=>!t.archived&&t.level===level&&(all||c.sentences[t.id]?.attempts)).map(sentence=>({id:sentence.id,prompt:sentence.instruction,options:[],correct:0,explanation:sentence.hint,sentence}))));
  }
  const result:BossTask[]=[],seen=new Set<string>();for(let i=0;result.length<10;i++){let added=false;for(const group of shuffle(groups)){const candidate=group[i];if(candidate&&!seen.has(candidate.id)&&result.length<10){result.push(candidate);seen.add(candidate.id);added=true;}}if(!added&&groups.every(g=>g.length<=i+1))break;}
  return shuffle(result);

@@ -37,6 +37,7 @@ export function prepareImport(current: UserData, incoming: UserData): UserData {
 }
 /** One-time, lossless transition: edited defaults become personal copies. */
 export function migrateActivities(data: UserData): UserData {
+    if(!data.activities.vocabulary.integrated)data={...data,journey:data.journey?{...data.journey,statistics:{...data.journey.statistics,pending:Object.fromEntries(Object.entries(data.journey.statistics.pending).map(([id,run])=>[id,{...run,area:run.area==='vocabulary'?'german':run.area}]))}}:data.journey,activities:{...data.activities,vocabulary:{...data.activities.vocabulary,integrated:true,enabled:{german:true,everyday:true,work:true,sentences:true,grammar:true,spelling:true,proverbs:true}}}};
     if(data.journey)data={...data,journey:upgradeStrength(data.journey)};
     if (data.activities.migrated && !data.cards.some(card => standardCards.some(standard => standard.id === card.id)))
         return data;
