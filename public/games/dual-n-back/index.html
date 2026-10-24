@@ -174,7 +174,7 @@
     });
 
     let lastInteraction=0;
-    function reportActivity(event){if(!event.isTrusted||document.hidden||!state.running||paused)return;const now=Date.now(),gap=now-lastInteraction;lastInteraction=now;if(gap>0&&gap<=30000&&parent!==window)parent.postMessage({type:'lernkick:activity',milliseconds:gap},location.origin);}
+    function reportActivity(event){if(!event.isTrusted||document.hidden||!state.running||paused)return;const now=Date.now(),gap=now-lastInteraction;lastInteraction=now;if(gap>0&&gap<=30000&&parent!==window)parent.postMessage({type:'lernkick:activity',id:state.currentRound?.resultId,milliseconds:gap},location.origin);}
     window.addEventListener('pointerdown',reportActivity);window.addEventListener('keydown',reportActivity);document.addEventListener('visibilitychange',()=>lastInteraction=0);
     window.addEventListener('message',event=>{if(event.origin===location.origin&&event.source===parent&&event.data?.type==='lernkick:theme'){document.documentElement.dataset.theme=event.data.theme;document.documentElement.dataset.compact=String(Boolean(event.data.compact));for(const key of ['--action-main','--action-main-ink','--action-selection','--action-selection-ink','--action-neutral','--action-neutral-ink','--page','--surface','--ink','--muted','--accent','--line','--cell','--stimulus','--calc-housing','--calc-display','--calc-number','--calc-petrol','--calc-teal','--calc-red','--calc-orange','--calc-violet','--calc-ink'])if(typeof event.data.palette?.[key]==='string')document.documentElement.style.setProperty(key,event.data.palette[key]);}});
     const CONFIG = Object.freeze({
@@ -302,7 +302,7 @@
 
     function saveRound(){if(state.running&&state.currentRound)try{localStorage.setItem('lernkick.nback.round.v1',JSON.stringify({...state.currentRound,remaining:pendingWait?Math.max(0,pendingWait.remaining-(paused?0:performance.now()-pendingWait.started)):undefined}));}catch{}}
     window.lernkickSuspendRound=()=>{if(state.running){pauseGame(true);saveRound();}};
-    window.lernkickEndRound=()=>{clearAnswerFeedback();state.running=false;state.roundToken++;clearTimeout(pendingWait?.timer);Object.values(letterAudio).forEach(audio=>audio.pause());if('speechSynthesis' in window)speechSynthesis.cancel();try{localStorage.removeItem('lernkick.nback.round.v1');}catch{}};
+    window.lernkickEndRound=()=>{if(parent!==window&&state.currentRound?.resultId)parent.postMessage({type:'lernkick:nback-abort',id:state.currentRound.resultId},location.origin);clearAnswerFeedback();state.running=false;state.roundToken++;clearTimeout(pendingWait?.timer);Object.values(letterAudio).forEach(audio=>audio.pause());if('speechSynthesis' in window)speechSynthesis.cancel();try{localStorage.removeItem('lernkick.nback.round.v1');}catch{}};
     window.addEventListener('pagehide',saveRound);
     let paused = false, parentPaused = false, pendingWait = null, pendingLetter = null;
     const pauseOverlay = document.createElement('div');

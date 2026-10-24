@@ -27,7 +27,7 @@ export const cardSchema = z.object({ id: z.string().min(1).max(100), front: z.st
 export type Card = z.infer<typeof cardSchema>;
 const commonData = {
   progress: z.record(z.string(), progressSchema), scores: z.record(subjectSchema, z.number().int().nonnegative()),
-  cards: z.array(cardSchema).max(2075), settings: z.object({ reducedMotion: z.boolean(), pink:z.boolean().default(false), difficulty:levelSchema.default('normal'),compact:z.boolean().default(false),theme:z.enum(['soft-dark','soft-light','classic-dark','retro-tech']).optional() })
+  cards: z.array(cardSchema).max(2075), settings: z.object({ reducedMotion: z.boolean(), pink:z.boolean().default(false), difficulty:levelSchema.default('normal'),compact:z.boolean().default(false),bossMode:z.boolean().default(false),theme:z.enum(['soft-dark','soft-light','classic-dark','retro-tech']).optional() })
 };
 const uniqueCards = (d: {cards: Card[]}) => new Set(d.cards.map(c=>c.id)).size === d.cards.length;
 export const legacyDataSchema = z.object({version:z.literal(1),...commonData}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');
@@ -60,4 +60,4 @@ export type CompetencyState = z.infer<typeof competencyStateSchema>;
 export type Observation = z.infer<typeof observationSchema>;
 export const emptyLearning = (): UserData['learning'] => ({variants:{},competencies:{},preferences:{},unlocks:{},recovery:{},awards:{},evidence:{}});
 export const emptyStudy = (): UserData['study'] => ({box:{subject:'math',preset:true,own:true,rubrics:{}},hiddenDefaults:[],defaultEdits:{},reviews:{},vocabulary:[],hiddenVocabulary:[],vocabularyEdits:{}});
-export const emptyData = (): UserData => ({version:7,nback:emptyNBack(),boards:{},rounds:{},cardSession:null,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false,pink:false,difficulty:'normal',compact:false,theme:'retro-tech'},learning:emptyLearning(),study:emptyStudy(),reference:{favorites:[]},activities:{...emptyActivities(),migrated:true}});
+export const emptyData = (): UserData => ({version:7,nback:emptyNBack(),boards:{},rounds:{},cardSession:null,progress:{},scores:{math:0,german:0,social:0,biology:0,geography:0},cards:[],settings:{reducedMotion:false,pink:false,difficulty:'normal',compact:false,bossMode:false,theme:'retro-tech'},learning:emptyLearning(),study:emptyStudy(),reference:{favorites:[]},activities:{...emptyActivities(),migrated:true}});

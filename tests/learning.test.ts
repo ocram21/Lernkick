@@ -131,7 +131,7 @@ describe('Dauerhafte Freischaltungen und Migration',()=>{
   });
   it('übernimmt alte Sicherungen vollständig, ohne Sicherheit oder Zeitpunkte zu erfinden',()=>{
     const old=legacyFixture(),next=migrateData(old);
-    expect(next.version).toBe(7);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards.map(card=>({rubric:'general',...card})));expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual({...old.settings,pink:false,difficulty:'normal',compact:false});
+    expect(next.version).toBe(7);expect(next.progress).toEqual(old.progress);expect(next.cards).toEqual(old.cards.map(card=>({rubric:'general',...card})));expect(next.scores).toEqual(old.scores);expect(next.settings).toEqual({...old.settings,pink:false,difficulty:'normal',compact:false,bossMode:false});
     const skill=next.learning.competencies['math.add.carry'];expect(skill.baseline).toEqual({attempts:9,correct:7});expect(skill.observations).toEqual([]);expect(confidence(skill)).toBe('new');expect(next.learning.unlocks).toEqual({});
     expect(readBackup(JSON.stringify(old))).toEqual(next);expect(migrateData(next)).toEqual(next);
   });
