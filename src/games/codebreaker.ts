@@ -1,0 +1,12 @@
+import {z} from 'zod';
+export const codeColors=[{name:'Blau',short:'B',token:'--calc-petrol'},{name:'Türkis',short:'T',token:'--calc-teal'},{name:'Rot',short:'R',token:'--calc-red'},{name:'Orange',short:'O',token:'--calc-orange'},{name:'Violett',short:'V',token:'--calc-violet'},{name:'Hell',short:'H',token:'--calc-ink'}] as const;
+const color=z.number().int().min(0).max(5);
+export const codeGuessSchema=z.array(color).length(4).refine(v=>new Set(v).size===4,'Vier unterschiedliche Farben wählen.');
+export const codeRoundSchema=z.object({id:z.string().min(1),secret:codeGuessSchema,guesses:z.array(codeGuessSchema).max(10),draft:z.array(color.nullable()).length(4).refine(v=>new Set(v.filter(c=>c!==null)).size===v.filter(c=>c!==null).length),position:z.number().int().min(0).max(3)}).refine(r=>{const win=r.guesses.findIndex(g=>g.every((c,i)=>c===r.secret[i]));return win<0||win===r.guesses.length-1;},'Nach dem Gewinn endet die Runde.');
+export type CodeRound=z.infer<typeof codeRoundSchema>;
+export function codeFeedback(secret:readonly number[],guess:readonly number[]){const black=guess.filter((c,i)=>c===secret[i]).length;return {black,white:guess.filter(c=>secret.includes(c)).length-black};}
+export function codeWon(round:CodeRound){return round.guesses.some(g=>codeFeedback(round.secret,g).black===4);}
+export function codeFinished(round:CodeRound){return codeWon(round)||round.guesses.length===10;}
+export function newCodeRound(random:()=>number=Math.random,id=crypto.randomUUID()):CodeRound{const colors=[0,1,2,3,4,5];for(let i=colors.length-1;i>0;i--){const r=random();if(!Number.isFinite(r)||r<0||r>=1)throw Error('Ungültige Zufallsquelle');const j=Math.floor(r*(i+1));[colors[i],colors[j]]=[colors[j],colors[i]];}return {id,secret:colors.slice(0,4),guesses:[],draft:[null,null,null,null],position:0};}
+export function setCodeColor(round:CodeRound,color:number):CodeRound{if(codeFinished(round)||!Number.isInteger(color)||color<0||color>5)return round;const draft=[...round.draft],other=draft.indexOf(color),old=draft[round.position];if(other>=0&&other!==round.position)draft[other]=old;draft[round.position]=color;const empty=draft.indexOf(null);return {...round,draft,position:empty>=0?empty:(round.position+1)%4};}
+export function confirmCode(round:CodeRound):CodeRound{const guess=codeGuessSchema.safeParse(round.draft);if(codeFinished(round)||!guess.success)return round;return {...round,guesses:[...round.guesses,guess.data],draft:[null,null,null,null],position:0};}

@@ -1,0 +1,19 @@
+import {useEffect,useRef,useState} from 'react';
+import {CircleHelp} from 'lucide-react';
+import {ExitButton} from './ExitButton';
+import {SlidingPuzzle} from './SlidingPuzzle';
+import {Codebreaker} from './Codebreaker';
+import {arcadeGames,ensureArcade,newArcadeRound,playArcadePuzzle,submitArcadeCode,type ArcadeGame} from '../games/arcade';
+import {setCodeColor} from '../games/codebreaker';
+import type {UserData} from '../lib/schema';
+export function GameHub({data,onChange,onExit}:{data:UserData;onChange:(data:UserData)=>Promise<boolean>;onExit:()=>void}){
+ const latest=useRef(data),saving=useRef(false),[busy,setBusy]=useState(false),[status,setStatus]=useState('');latest.current=data;
+ const game:ArcadeGame=data.puzzle.game??(data.puzzle.level===2?'picture':'numbers');
+ async function update(change:(data:UserData)=>UserData){if(saving.current)return;saving.current=true;setBusy(true);try{const next=change(latest.current);latest.current=next;if(next!==data)await onChange(next);}finally{saving.current=false;setBusy(false);}}
+ useEffect(()=>{if(ensureNeeded())void update(d=>ensureArcade(d,game));function ensureNeeded(){const level=game==='numbers'?1:2;return game==='codebreaker'?!data.puzzle.code:!data.puzzle.boards[level]||!data.puzzle.rounds[level];}},[game,Boolean(data.puzzle.code),Boolean(data.puzzle.boards[1]),Boolean(data.puzzle.boards[2]),Boolean(data.puzzle.rounds[1]),Boolean(data.puzzle.rounds[2])]);
+ const changeCode=(fn:(code:NonNullable<UserData['puzzle']['code']>)=>NonNullable<UserData['puzzle']['code']>)=>void update(d=>d.puzzle.code?{...d,puzzle:{...d.puzzle,code:fn(d.puzzle.code)}}:d);
+ return <main className="game-hub"><div className="game-hub-heading"><ExitButton onClick={onExit}/><h1>Games</h1>{game==='codebreaker'&&<details className="game-help"><summary aria-label="Codeknacker-Hilfe"><CircleHelp size={22}/></summary><div><strong>Vier Farben, zehn Versuche</strong><p>Tippe eine Position und danach eine Farbe an. Vier unterschiedliche Farben ergeben einen Versuch. Erneute Farbwahl tauscht belegte Farben.</p><p>Schwarz: Farbe und Position stimmen. Weiß: Farbe stimmt, Position nicht. Die Markierungen gehören zu keiner bestimmten Position.</p><p>Ein Sieg bringt einmal 100 Punkte. Nur „Neue Runde“ startet neu.</p></div></details>}</div>
+ <div className="game-switcher" aria-label="Spiel wählen">{arcadeGames.map(item=><button className="profiled-button" key={item.id} disabled={busy} aria-pressed={game===item.id} onClick={()=>{setStatus('');void update(d=>ensureArcade({...d,puzzle:{...d.puzzle,game:item.id,...(item.id==='numbers'?{level:1 as const}:item.id==='picture'?{level:2 as const}:{})}},item.id));}}><span className="game-number" aria-hidden="true">{item.number}</span>{item.name}</button>)}</div>
+ {game==='codebreaker'?(data.puzzle.code&&<Codebreaker round={data.puzzle.code} busy={busy} onPosition={position=>changeCode(code=>({...code,position}))} onColor={color=>changeCode(code=>setCodeColor(code,color))} onConfirm={()=>void update(submitArcadeCode)} onNew={()=>void update(d=>newArcadeRound(d,game))}/>):<><SlidingPuzzle status={status} data={data} level={game==='numbers'?1:2} busy={busy} onMove={position=>{const next=playArcadePuzzle(latest.current,game,position);setStatus(next===latest.current?'Nur direkt benachbarte Kacheln passen in die Lücke.':'');void update(()=>next);}} onNew={()=>{setStatus('');void update(d=>newArcadeRound(d,game));}}/></>}
+ </main>;
+}
