@@ -1,7 +1,6 @@
 /* Optional Pink world. Geometry, subject identity and semantic feedback stay shared. */
 :root[data-pink="true"]{color-scheme:light;--pink-background:linear-gradient(color-mix(in srgb,var(--pink-ground) 52%,transparent),color-mix(in srgb,var(--pink-ground) 52%,transparent)),url('./pink-waves.webp');background-color:var(--pink-ground);background-image:var(--pink-background);background-position:center;background-size:cover;background-attachment:fixed;--ground:var(--pink-ground);--panel:var(--pink-panel);--ink:var(--pink-text);--muted:var(--pink-text-muted);--accent:var(--pink-highlight);--line:var(--pink-line);--lcd:var(--pink-lcd);--lcd-ink:var(--pink-ink);--key-ink:var(--pink-white);--button-ink:var(--pink-white);scrollbar-color:var(--pink-line) var(--pink-ground);accent-color:var(--pink-accent)}
 :root[data-pink="true"] ::selection{background:var(--pink-accent);color:var(--pink-white)}
-:root[data-pink="true"] .calculator-grid{background:var(--pink-recess);box-shadow:inset 0 2px 6px var(--pink-shadow)}
 :root[data-pink="true"] .calculator-key[data-module="german"]{--key-color:var(--pink-accent)}
 :root[data-pink="true"] .bottom-nav,:root[data-pink="true"] .round-actions{background:var(--pink-navigation)}
 :root[data-pink="true"] .bottom-nav button[aria-current]{background:var(--pink-accent);color:var(--pink-white)}

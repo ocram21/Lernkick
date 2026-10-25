@@ -227,3 +227,5 @@ Verbindliche Nutzerreferenz: Abstrakte Magenta-Lichtwellen.png. `src/design/pink
 ## Normaler Hintergrund · 25.10.2026
 
 Auf ausdrücklichen Nutzerwunsch ist „Geätzte Doodles auf dunklem Schiefer.png“ als komprimiertes `src/design/slate-doodles.webp` der Hintergrund der normalen Ansicht. `background.css` verwendet ausschließlich die bestehende dunkle Palette zur dezenten Abtönung für Textkontrast. Der Hintergrund wird offline vorgehalten und über die vorhandene Theme-Nachricht an Dual N-Back übertragen. Pink behält seine Wellen. Flächen, Tasten, Geometrie und gespeicherte Daten bleiben unverändert.
+
+Die Hauptmenü-Kacheln liegen seit der Nutzerkorrektur vom 25.10.2026 in beiden Farbvarianten direkt auf dem Bildhintergrund. Die gemeinsame Rasterfläche ist transparent und ohne eigenen Schatten; Tastenplastik, Abstände und Größen bleiben erhalten.
