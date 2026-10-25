@@ -222,6 +222,31 @@
       "cardCreation": "Karten hinzufügen unmittelbar bei den Lernkasten-Quellen, bei Platz rechts und unter 400 px in voller Zeile darunter; ohne aktive Unterrubrik deaktiviert. Nativer modaler Dialog übernimmt Fach und aktive Unterrubriken; einzelne Unterrubrik vorausgewählt, mehrere mit expliziter Auswahl. Sichtbares Allgemein entfällt; Einstellungen bearbeiten/löschen vorhandene Karten.",
       "cardCreationDialog": "Vorhandene Panel-/Schrift-/Konturfarben; 12 px Radius, 22 px Padding (unter 400 px: 16 px), Breite min(540px,calc(100vw - 24px)), maximale Höhe calc(100dvh - 24px), intern scrollbar. Backdrop color-mix(in srgb,var(--calc-display) 66.67%,transparent). Formularabstand 12 px, Labelabstand 6 px, Textflächen mindestens 85 px und vertikal vergrößerbar; Aktionen mindestens 48 px hoch, unter 400 px untereinander in voller Breite.",
       "cardCreationFeedback": "Erfolgreiches Speichern hält den Dialog offen, leert Frage/Antwort, erhält die Unterrubrik, fokussiert Frage und bestätigt über Statusmeldung. Fehler erhalten die Eingaben. Während Speichern sind Felder und Abschluss gesperrt. Fertig oder Escape schließen danach mit Fokusrückgabe an den Auslöser."
+    },
+    "pinkTheme": {
+      "source": "src/design/pink.json",
+      "tokens": {
+        "ground": "#4b0c35",
+        "panel": "#fff1f8",
+        "ink": "#41152e",
+        "muted": "#76536a",
+        "accent": "#ae0969",
+        "highlight": "#ff83cd",
+        "text": "#fff1f8",
+        "text-muted": "#f5d6e9",
+        "line": "#ba809b",
+        "lcd": "#f9d7ea",
+        "recess": "#6e174e",
+        "white": "#ffffff",
+        "navigation": "#541039",
+        "selected-border": "#ffeaf6",
+        "focus": "#ffd3ec",
+        "shadow": "#280c22",
+        "input": "#fffafd"
+      },
+      "background": "src/design/pink-waves.webp",
+      "reference": "Nutzerreferenz Abstrakte Magenta-Lichtwellen.png",
+      "scope": "Optionales Theme; Standard unverändert; Hauptaktion Orange; Auswahl Magenta; helle Karten, dunkler Pflaumenhintergrund."
     }
   },
   "components": [

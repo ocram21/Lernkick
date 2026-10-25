@@ -1,6 +1,6 @@
 /* Shared functional roles; both themes use the same meaning. */
 :root{--action-main:var(--calc-orange);--action-main-ink:var(--calc-number);--action-confirm:color-mix(in srgb,var(--calc-petrol) 85%,var(--calc-display));--action-confirm-ink:var(--calc-ink);--action-selection:var(--calc-violet);--action-selection-ink:var(--calc-ink);--action-exit:color-mix(in srgb,var(--calc-teal) 92%,var(--calc-ink));--action-exit-ink:var(--calc-number);--action-stop:color-mix(in srgb,var(--calc-red) 80%,var(--calc-display));--action-stop-ink:var(--calc-ink);--action-neutral:var(--panel);--action-neutral-ink:var(--ink)}
-:root[data-pink=true]{--action-main:var(--pink-accent);--action-main-ink:var(--pink-white)}
+:root[data-pink=true]{--action-selection:var(--pink-accent);--action-selection-ink:var(--pink-white);--action-neutral:var(--pink-panel);--action-neutral-ink:var(--pink-ink)}
 :root .app-shell :is(.primary,[data-action=main]){background:var(--action-main);color:var(--action-main-ink)}
 :root .app-shell :where(.small-button,.text-button,.pause-button,.tool-bar button){background:var(--action-neutral);color:var(--action-neutral-ink)}
 :root .app-shell :is(.box-change,.box-add,[data-action=selection]){background:var(--action-selection);color:var(--action-selection-ink)}

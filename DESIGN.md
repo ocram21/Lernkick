@@ -12,15 +12,23 @@ colors:
   violet: "#86509b"
   ink: "#ecedf1"
   board-success: "#237647"
-  pink-ground: "#fff4f8"
-  pink-panel: "#fffafd"
-  pink-ink: "#3f2433"
-  pink-muted: "#6b4154"
-  pink-accent: "#ae165c"
+  pink-ground: "#4b0c35"
+  pink-panel: "#fff1f8"
+  pink-ink: "#41152e"
+  pink-muted: "#76536a"
+  pink-accent: "#ae0969"
   pink-line: "#ba809b"
-  pink-lcd: "#ffe1ee"
-  pink-recess: "#ecd0de"
+  pink-lcd: "#f9d7ea"
+  pink-recess: "#6e174e"
   pink-white: "#ffffff"
+  pink-highlight: "#ff83cd"
+  pink-text: "#fff1f8"
+  pink-text-muted: "#f5d6e9"
+  pink-navigation: "#541039"
+  pink-selected-border: "#ffeaf6"
+  pink-focus: "#ffd3ec"
+  pink-shadow: "#280c22"
+  pink-input: "#fffafd"
 typography:
   body:
     fontFamily: "Barlow, sans-serif"
@@ -81,7 +89,7 @@ Gehäuse: `housing`. Dunkle Anzeige: `display`. Mathematik: `number`. Deutsch, S
 
 **Ausdrückliche Ausnahme:** Spätere anatomische und andere Schautafeln dürfen fachlich notwendige andere Farben verwenden. Diese Ausnahme gilt für den Inhalt der Schautafeln, nicht für ihre umgebenden Bedienelemente oder die restliche App.
 
-**The Central Palette Rule.** Standardfarben kommen aus `src/design/palette.json`/`palette.css`; die optionale Pink-Palette ausschließlich aus `src/design/pink.json`. `pink.ts` stellt daraus die `--pink-*`-Variablen bereit, `pink.css` ordnet sie den bestehenden Rollen zu. Keine lokalen Pink-Abwandlungen erfinden. Der gespeicherte Schalter `data-pink="true"` aktiviert helle Flächen, dunkle Leseschrift und den Pink-Akzent. Er färbt weder Originalbilder noch semantische Tafelzustände um.
+**The Central Palette Rule.** Standardfarben kommen aus `src/design/palette.json`/`palette.css`; die optionale Pink-Palette ausschließlich aus `src/design/pink.json`. `pink.ts` stellt daraus die `--pink-*`-Variablen bereit, `pink.css` ordnet sie den bestehenden Rollen zu. Keine lokalen Pink-Abwandlungen erfinden. Der gespeicherte Schalter `data-pink="true"` aktiviert den dunklen Pflaumen-Hintergrund mit der bereitgestellten Wellenreferenz, rosige Karten mit dunkler Leseschrift und Magenta-Auswahlflächen mit heller Kontur. Hauptaktionen bleiben orange. Die zusätzlichen semantischen Pink-Tokens für Text auf Hintergrund, Eingaben, Navigation, Fokus und Schatten stehen ebenfalls in `pink.json`. Er färbt weder Originalbilder noch semantische Tafelzustände um.
 
 `board-success` ist das ausdrücklich freigegebene funktionale Grün für korrekte Tafelplätze. Falsche Plätze verwenden vorhandenes Rot; beide Zustände werden zusätzlich benannt. Diese Ausnahme begründet keinen grünen LCD-Stil. Die Pink-Farben im Frontmatter entsprechen unverändert den Schlüsseln der zentralen `pink.json`.
 
@@ -172,7 +180,7 @@ Menükorrektur 22.10.2026: „Dein Lern-Kick“ entfällt. Der globale Normal-/S
 
 ## Maßgebliche UX-Vereinfachung, 23.10.2026
 
-Zentrale Funktionsfarben in `src/design/actions.css`: Hauptaktion Orange/Pink, Bestätigung/Zurück Petrol, Auswahl Violett, Ausgang Türkis, Abbruch und Warnung Rot, neutral bestehende Fläche. Palettenmischungen sichern Textkontrast. Diese Rollen gelten in beiden Farbmodi und ersetzen frühere abweichende Buttonfarben. Mathematik hat nur den globalen Normal-/Streber-Modus; Kategorien bleiben separat. Aktive Lernkarten zeigen die komplette Auswahl erst auf „Auswahl ändern“, ohne Kartenverlust. „Kompakte Ansicht“ ist eine freiwillige, gespeicherte Dichtewahl mit skalierbarer Schrift und scrollbaren Inhaltsbereichen. Details und Testgrenzen: docs/UX-VEREINFACHUNG-2026-10-23.md.
+Zentrale Funktionsfarben in `src/design/actions.css`: Hauptaktion Orange, Bestätigung/Zurück Petrol, Auswahl Violett, Ausgang Türkis, Abbruch und Warnung Rot, neutral bestehende Fläche. Palettenmischungen sichern Textkontrast. Diese Rollen gelten in beiden Farbmodi und ersetzen frühere abweichende Buttonfarben. Mathematik hat nur den globalen Normal-/Streber-Modus; Kategorien bleiben separat. Aktive Lernkarten zeigen die komplette Auswahl erst auf „Auswahl ändern“, ohne Kartenverlust. „Kompakte Ansicht“ ist eine freiwillige, gespeicherte Dichtewahl mit skalierbarer Schrift und scrollbaren Inhaltsbereichen. Details und Testgrenzen: docs/UX-VEREINFACHUNG-2026-10-23.md.
 
 ## Maßgebliche Anpassung vom 23.10.2026
 
@@ -188,7 +196,7 @@ Die vorhandenen Farben bleiben erhalten; die Warnaktion ist rot und nicht unters
 
 ## Fachfarben, Lernstart und N-Back, 23.10.2026
 
-Auf ausdrücklichen Nutzerwunsch verwendet Mathe dieselbe bestehende Petrol-/Türkis-Tastenkappe wie die übrigen Standard-Fachtasten; Wortschatz übernimmt die dunkle Tastenkappe. Im Lernkasten sind alle ungewählten Fachtasten türkis und die aktive Taste violett, mit horizontal und vertikal mittiger Beschriftung. Die äußere Pseudofläche der kompakten Fachbuttons entfällt, damit Hover und Fokus die aktive Farbe nicht verdecken. Unterrubriken bleiben unverändert. Diese konkret benannten Farben gelten auch bei aktivem Pink; andere Pink-Regeln bleiben erhalten.
+Auf ausdrücklichen Nutzerwunsch verwendet Mathe dieselbe bestehende Petrol-/Türkis-Tastenkappe wie die übrigen Standard-Fachtasten; Wortschatz übernimmt die dunkle Tastenkappe. Im Lernkasten sind alle ungewählten Fachtasten türkis und die aktive Taste violett, mit horizontal und vertikal mittiger Beschriftung. Die äußere Pseudofläche der kompakten Fachbuttons entfällt, damit Hover und Fokus die aktive Farbe nicht verdecken. Unterrubriken bleiben unverändert. Im Standard gelten diese Farben unverändert. Die Pink-Neugestaltung vom 25.10.2026 verwendet für aktive Auswahlen Magenta und eine helle Kontur; der graue Game-Stern bleibt erhalten.
 
 Unter den Unterrubriken stehen mit 22 px Abstand zwei Aktionen in einem höchstens 500 px breiten 1:2-Raster mit 18 px Zwischenraum: links der kleinere türkise Plus-Button „Karten hinzufügen“, rechts ein großer quadratischer Button im bestehenden Gelb/Orange. „Lernen beginnen“ und darunter die aktuelle Rundengröße ersetzen die getrennte Mengenzeile. Bei leerer Auswahl bleibt die bestehende Statushilfe erhalten. Aktive Runden, Kartenauswahl, Fälligkeiten und Speicherung bleiben unverändert.
 
@@ -211,3 +219,7 @@ Position und Audio behalten ihre Grundfarbe auch bei Hover, Fokus und wiederholt
 Die zusätzliche Beschriftung rechts neben Ausgang entfällt. Alle Anfangsstufen erhalten denselben unteren orangefarbenen Schimmer unabhängig vom Meisterungsstand; der vorhandene ausgewählte Zustand bleibt einheitlich. Auf ausdrückliche Rückfrage bestätigt: 3-Back ist gesperrt, bis 2-Back erfolgreich abgeschlossen wurde. Gesperrte Stufen bleiben sichtbar und sind gedimmt; 1-/2-Back bleiben direkt wählbar. Die bestehende 4-Back-Freigabe, Ausgang, Tonprüfung und Spielregeln bleiben erhalten. Vorhandene Daten werden nicht migriert oder zurückgesetzt.
 
 Geprüft: Produktionsbuild, 12 gezielte Unit-Tests und fünf Browserfälle erfolgreich. Ansichten auf 320/390/1440 px, gemeinsame Schimmer-/Auswahlgestaltung, 3-Back vor/nach Freigabe, real abgeschlossene erfolgreiche 2-Back-Runde, Rückweg und pausierte Wiederaufnahme.
+
+## Pink-Neugestaltung · 25.10.2026
+
+Verbindliche Nutzerreferenz: Abstrakte Magenta-Lichtwellen.png. `src/design/pink-waves.webp` übernimmt das Motiv komprimiert; eine dezente Pflaumen-Abtönung schützt helle Texte. Hintergrund und Karten verändern keine Geometrie. `pink.css` ordnet zentrale Tokens den vorhandenen Komponenten zu, `actions.css` bewahrt die Funktionsrollen. Dual N-Back erhält Hintergrund und Kartenrollen über die bestehende Theme-Nachricht. Bilder, Kartenbestand, Lernfortschritt und Offline-Speicherung bleiben unverändert. Prüfumfang: `docs/PINK-THEME-2026-10-25.md`.
