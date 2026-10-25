@@ -223,3 +223,7 @@ Geprüft: Produktionsbuild, 12 gezielte Unit-Tests und fünf Browserfälle erfol
 ## Pink-Neugestaltung · 25.10.2026
 
 Verbindliche Nutzerreferenz: Abstrakte Magenta-Lichtwellen.png. `src/design/pink-waves.webp` übernimmt das Motiv komprimiert; eine dezente Pflaumen-Abtönung schützt helle Texte. Hintergrund und Karten verändern keine Geometrie. `pink.css` ordnet zentrale Tokens den vorhandenen Komponenten zu, `actions.css` bewahrt die Funktionsrollen. Dual N-Back erhält Hintergrund und Kartenrollen über die bestehende Theme-Nachricht. Bilder, Kartenbestand, Lernfortschritt und Offline-Speicherung bleiben unverändert. Prüfumfang: `docs/PINK-THEME-2026-10-25.md`.
+
+## Normaler Hintergrund · 25.10.2026
+
+Auf ausdrücklichen Nutzerwunsch ist „Geätzte Doodles auf dunklem Schiefer.png“ als komprimiertes `src/design/slate-doodles.webp` der Hintergrund der normalen Ansicht. `background.css` verwendet ausschließlich die bestehende dunkle Palette zur dezenten Abtönung für Textkontrast. Der Hintergrund wird offline vorgehalten und über die vorhandene Theme-Nachricht an Dual N-Back übertragen. Pink behält seine Wellen. Flächen, Tasten, Geometrie und gespeicherte Daten bleiben unverändert.

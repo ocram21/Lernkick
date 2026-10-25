@@ -1,0 +1,4 @@
+/* User-supplied slate texture for the normal appearance; Pink owns its background. */
+:root{--normal-background:linear-gradient(color-mix(in srgb,var(--calc-display) 60%,transparent),color-mix(in srgb,var(--calc-display) 60%,transparent)),url('./slate-doodles.webp')}
+:root:not([data-pink="true"]){background-color:var(--ground);background-image:var(--normal-background);background-position:center;background-size:cover;background-attachment:fixed}
+:root:not([data-pink="true"]) body{background:transparent}

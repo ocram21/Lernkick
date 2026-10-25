@@ -12,3 +12,9 @@ test('Pink: helle Texte bleiben auch über dem hellsten Bildpunkt lesbar',async(
  for(let i=0;i<data.length;i+=info.channels)brightest=Math.max(brightest,luminance(ground.map((v,k)=>v*.52+data[i+k]*.48)));
  for(const ink of [tokens.text,tokens['text-muted']])expect((luminance(rgb(ink))+.05)/(brightest+.05)).toBeGreaterThanOrEqual(4.5);
 });
+
+test('Normaler Schieferhintergrund: helle Schrift bleibt über allen Bildpunkten lesbar',async()=>{
+ const {data,info}=await sharp('src/design/slate-doodles.webp').removeAlpha().raw().toBuffer({resolveWithObject:true});const ground=rgb('#2b2d39');let brightest=0;
+ for(let i=0;i<data.length;i+=info.channels)brightest=Math.max(brightest,luminance(ground.map((v,k)=>v*.6+data[i+k]*.4)));
+ expect((luminance(rgb('#ecedf1'))+.05)/(brightest+.05)).toBeGreaterThanOrEqual(4.5);
+});

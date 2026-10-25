@@ -9,6 +9,7 @@ import App from './App';
 import {AccessGate} from './components/AccessGate';
 import './style.css';
 import './design/palette.css';
+import './design/background.css';
 import './design/pink';
 import './design/pink.css';
 import './design/actions.css';

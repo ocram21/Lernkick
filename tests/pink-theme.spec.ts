@@ -15,7 +15,7 @@ for(const viewport of [{width:320,height:568},{width:1440,height:900}])test(`Pin
  await game.getByRole('button',{name:'Training starten',exact:true}).click();await expect(game.locator('#gameView')).toBeVisible();
  await page.getByRole('button',{name:'Ausgang',exact:true}).click();await page.reload();await expect(page.locator('.calculator-grid')).toBeVisible();await expect(page.locator('html')).toHaveAttribute('data-pink','true');
  await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload();await expect(page.locator('.calculator-grid')).toBeVisible();await context.setOffline(true);await page.reload();await expect(page.locator('.calculator-grid')).toBeVisible();expect(await page.evaluate(async url=>(await fetch(url)).ok,waves.match(/url\("?([^"\)]+)"?\)/)![1])).toBe(true);await context.setOffline(false);
- await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();await expect(page.locator('html')).toHaveAttribute('data-pink','false');expect(await page.locator('html').evaluate(el=>getComputedStyle(el).backgroundImage)).toBe('none');
+ await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();await expect(page.locator('html')).toHaveAttribute('data-pink','false');expect(await page.locator('html').evaluate(el=>getComputedStyle(el).backgroundImage)).toContain('slate-doodles');
 });
 
 test('Pink: Übungen, Boss, Statistik und Daten bleiben erhalten',async({page})=>{
