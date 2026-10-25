@@ -14,4 +14,5 @@ import './design/pink';
 import './design/pink.css';
 import './design/actions.css';
 import './design/compact.css';
+import './design/home-status.css';
 createRoot(document.getElementById('root')!).render(<React.StrictMode><AccessGate><App /></AccessGate></React.StrictMode>);

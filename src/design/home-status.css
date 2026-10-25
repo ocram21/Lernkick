@@ -1,0 +1,21 @@
+/* Shared anodised aluminium edging: never a common plate behind the keys. */
+:root{--metal-base:color-mix(in srgb,var(--calc-number) 55%,#000);--metal-edge:color-mix(in srgb,var(--calc-housing) 85%,var(--calc-ink));--metal-wear:color-mix(in srgb,var(--calc-ink) 34%,var(--metal-base));--counter-face:color-mix(in srgb,var(--calc-number) 80%,#000);--counter-ink:var(--calc-ink);--led-off:color-mix(in srgb,var(--calc-number) 78%,#000);--led-0:#30d3c5;--led-1:#62d77a;--led-2:#f3d35a;--led-3:#f5a54d;--led-4:#f07768}
+.home-screen .aluminum-frame{position:relative}
+.home-screen .aluminum-frame::after{content:'';position:absolute;inset:0;padding:2px;border-radius:inherit;pointer-events:none;background:linear-gradient(116deg,transparent 17%,var(--metal-wear) 17.2%,transparent 17.5%,transparent 74%,var(--metal-wear) 74.3%,transparent 74.6%),linear-gradient(174deg,var(--metal-edge),var(--metal-base) 13%,var(--metal-base) 76%,var(--metal-wear));-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask-composite:exclude}
+.home-screen .calculator-key::before{background:linear-gradient(170deg,var(--metal-edge),var(--metal-base) 20%,var(--metal-base) 86%,var(--metal-wear))}
+.home-screen .home-status .points-row{display:flex;align-items:center;gap:10px;height:1.1em;line-height:1.1;min-width:0}
+.counter-digits{display:inline-flex;gap:2px;font-size:calc(1em * var(--counter-scale));font-variant-numeric:tabular-nums;line-height:1;flex-shrink:0}
+.counter-window{display:block;width:.65em;height:1em;overflow:hidden;border-radius:2px;background:var(--counter-face);color:var(--counter-ink);box-shadow:inset 0 1px 3px var(--metal-base),inset 0 -1px 0 var(--metal-edge);text-align:center}
+.counter-track{display:block;line-height:1}.counter-track>span{display:block;height:1em;line-height:1}
+.counter-track.rolling{transform:translateY(-50%);animation:counter-roll 220ms cubic-bezier(.16,1,.3,1)}
+.points-label{font-size:13px;line-height:1.1;font-weight:600}
+.home-screen .home-status .strength-row{gap:12px}.strength-caption{white-space:nowrap}
+.strength-leds{display:grid;grid-template-columns:repeat(80,minmax(0,1fr));gap:2px;min-width:0;height:9px;align-items:stretch}
+.strength-led{display:block;min-width:0;background:var(--led-off);border-radius:1px;box-shadow:inset 0 1px 1px var(--metal-base)}
+.strength-led.lit{background:var(--led-color);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 35%,transparent)}
+.strength-led.newly-lit{animation:led-rise 260ms ease-out}
+@keyframes counter-roll{from{transform:translateY(0)}to{transform:translateY(-50%)}}
+@keyframes led-rise{from{filter:brightness(1.35)}to{filter:brightness(1)}}
+@media(max-width:600px){.strength-leds{grid-template-columns:repeat(40,minmax(0,1fr));gap:1.5px}.strength-led:nth-child(even){display:none}}
+@media(prefers-reduced-motion:reduce){.counter-track.rolling,.strength-led.newly-lit{animation:none}}
+:root[data-motion="reduced"] :is(.counter-track.rolling,.strength-led.newly-lit){animation:none}

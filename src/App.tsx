@@ -1,3 +1,4 @@
+import {HomeStatus,type StatusReading} from './components/HomeStatus';
 import {SlidingPuzzle} from './components/SlidingPuzzle';
 import {GeometryFigure} from './components/GeometryFigure';
 import {subjectPool} from './learning/difficulty';
@@ -65,6 +66,7 @@ export default function App() {
   const [boss,setBoss]=useState<{initial:BossResult;tasks:BossTask[];test:boolean}|null>(null);
   const [bossClock,setBossClock]=useState<HTMLDivElement|null>(null);
   const [bossAbort,setBossAbort]=useState(0),[testMode,setTestMode]=useState(false);
+  const previousHomeStatus=useRef<StatusReading|null>(null);
   const logoTaps=useRef(0),launchingBoss=useRef(false);
   const [boxPracticing,setBoxPracticing]=useState(false);
   const [studySession,setStudySession]=useState<UserData['cardSession']>(null);
@@ -255,7 +257,7 @@ export default function App() {
     <main>
       {view === 'home' && <>
         <section id="subjects" className="subjects-section"><div className="section-heading"><div className="global-difficulty"><DifficultySwitch level={data.settings.difficulty} onChange={difficulty=>void persist({...dataRef.current,settings:{...dataRef.current.settings,difficulty}})}/></div><button className="boss-switch" aria-pressed={data.settings.bossMode} disabled={!testMode&&!data.settings.bossMode&&!Object.values(data.journey?.statistics.charges??{}).some(n=>n===5)} onClick={()=>void persist({...dataRef.current,settings:{...dataRef.current.settings,bossMode:!dataRef.current.settings.bossMode}})}><Bot size={18}/>Bosskampf {data.settings.bossMode?'an':'aus'}</button></div>
-        <button className="home-status" aria-label="Persönliche Statistik öffnen" aria-describedby="home-points home-strength" onClick={()=>setView('statistics')}><strong id="home-points">{(data.journey?.totalPoints??0).toLocaleString('de-DE')} Punkte</strong><span id="home-strength">Lernstärke {strength.toLocaleString('de-DE',{maximumFractionDigits:1})} %<progress max={100} value={strength}/></span></button>
+        <HomeStatus points={data.journey?.totalPoints??0} strength={strength} previous={previousHomeStatus} onOpen={()=>setView('statistics')}/>
         <div className="calculator-grid">{subjects.map(s=><CalculatorKey key={s.id} id={s.id} title={s.title} short={s.short} color={s.color} journey={data.journey??newJourney(data.scores)} disabled={updating} onClick={()=>{if(data.settings.bossMode){void launchBoss(s.id);return;}if(s.id==='german'){const next=prepareVocabularyMode(dataRef.current);if(next!==dataRef.current)void persist(next);setView('vocabulary');return;}start(s.id);}}/>)}{([{id:'vocabulary',title:'Game',color:'var(--calc-violet)'},{id:'hangman',title:'Galgenraten',color:'var(--calc-violet)'},{id:'germany',title:'Deutschlandquiz',color:'var(--calc-orange)'},{id:'nback',title:'Dual N-Back',color:'var(--calc-violet)'}] as const).map(item=><CalculatorKey key={item.id} {...item} journey={data.journey??newJourney(data.scores)} nback={data.nback} puzzleLevel={data.puzzle.level} disabled={updating} onClick={()=>{setPracticePaused(false);if(item.id==='vocabulary'){setGame('puzzle');setGameDone(true);return;}if(item.id==='hangman'){const next=prepareHangmanMode(dataRef.current);if(next!==dataRef.current)void persist(next);}if(item.id==='nback')history.pushState({game:'nback'},'');setGame(item.id);setGameDone(item.id==='nback');setMessage('');window.scrollTo(0,0);}}/>)}</div></section>
 
       </>}
