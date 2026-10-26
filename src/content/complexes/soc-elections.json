@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.soc-elections.001",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was bedeutet allgemeine Wahl?",
+    "options": [
+      "Alle Wahlberechtigten dürfen unabhängig etwa von Vermögen teilnehmen.",
+      "Nur besonders wohlhabende Menschen dürfen wählen.",
+      "Nur Mitglieder der Regierung dürfen wählen."
+    ],
+    "correct": 0,
+    "explanation": "Alle Wahlberechtigten dürfen unabhängig etwa von Vermögen teilnehmen."
+  },
+  {
+    "id": "complex.soc-elections.002",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was bedeutet freie Wahl?",
+    "options": [
+      "Die Entscheidung darf nicht durch unzulässigen Zwang bestimmt werden.",
+      "Andere müssen den Stimmzettel vorschreiben.",
+      "Der Arbeitgeber entscheidet verbindlich für Beschäftigte."
+    ],
+    "correct": 0,
+    "explanation": "Die Entscheidung darf nicht durch unzulässigen Zwang bestimmt werden."
+  },
+  {
+    "id": "complex.soc-elections.003",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was bedeutet geheime Wahl?",
+    "options": [
+      "Die persönliche Stimmabgabe soll unbeobachtet und nicht zuordenbar erfolgen.",
+      "Das Wahlergebnis darf nie veröffentlicht werden.",
+      "Die Namen aller Kandidierenden sind geheim."
+    ],
+    "correct": 0,
+    "explanation": "Die persönliche Stimmabgabe soll unbeobachtet und nicht zuordenbar erfolgen."
+  },
+  {
+    "id": "complex.soc-elections.004",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was bedeutet gleiche Wahl?",
+    "options": [
+      "Stimmen haben grundsätzlich denselben Zählwert.",
+      "Wohlhabende bekommen mehr Stimmen.",
+      "Die Stimme eines Amtsinhabers zählt mehrfach."
+    ],
+    "correct": 0,
+    "explanation": "Stimmen haben grundsätzlich denselben Zählwert."
+  },
+  {
+    "id": "complex.soc-elections.005",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was bedeutet unmittelbare Wahl?",
+    "options": [
+      "Wähler bestimmen die Abgeordneten ohne dazwischengeschaltete Wahlleute.",
+      "Nur der Stadtrat bestimmt den Bundestag.",
+      "Ein Unternehmen wählt die Abgeordneten aus."
+    ],
+    "correct": 0,
+    "explanation": "Wähler bestimmen die Abgeordneten ohne dazwischengeschaltete Wahlleute."
+  },
+  {
+    "id": "complex.soc-elections.006",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was ist ein Wahlprogramm?",
+    "options": [
+      "Eine Darstellung politischer Ziele einer Partei",
+      "Eine Garantie, dass jedes Ziel umgesetzt wird",
+      "Eine amtliche Wettervorhersage"
+    ],
+    "correct": 0,
+    "explanation": "Eine Darstellung politischer Ziele einer Partei"
+  },
+  {
+    "id": "complex.soc-elections.007",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was ist ein Wahlkreis?",
+    "options": [
+      "Ein räumlich abgegrenztes Gebiet für eine Wahl",
+      "Jeder private Freundeskreis",
+      "Der gesamte europäische Kontinent bei jeder Wahl"
+    ],
+    "correct": 0,
+    "explanation": "Ein räumlich abgegrenztes Gebiet für eine Wahl"
+  },
+  {
+    "id": "complex.soc-elections.008",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was ist ein Mandat?",
+    "options": [
+      "Der durch Wahl übertragene Auftrag beziehungsweise Sitz",
+      "Eine private Einkaufsliste",
+      "Ein automatischer Anspruch auf Regierungsführung"
+    ],
+    "correct": 0,
+    "explanation": "Der durch Wahl übertragene Auftrag beziehungsweise Sitz"
+  },
+  {
+    "id": "complex.soc-elections.009",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Wer wählt den Deutschen Bundestag?",
+    "options": [
+      "Die nach den gesetzlichen Regeln wahlberechtigten Personen",
+      "Ausschließlich Mitglieder des Bundesrats",
+      "Nur die Bundesregierung"
+    ],
+    "correct": 0,
+    "explanation": "Die nach den gesetzlichen Regeln wahlberechtigten Personen"
+  },
+  {
+    "id": "complex.soc-elections.010",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Wie viele Stimmen haben Wählende bei der Bundestagswahl grundsätzlich?",
+    "options": [
+      "Zwei Stimmen",
+      "Eine Stimme",
+      "Fünf Stimmen"
+    ],
+    "correct": 0,
+    "explanation": "Bei der Bundestagswahl sind grundsätzlich eine Erststimme und eine Zweitstimme vorgesehen."
+  },
+  {
+    "id": "complex.soc-elections.011",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Wofür ist die Erststimme bei der Bundestagswahl vorgesehen?",
+    "options": [
+      "Für eine Person im Wahlkreis",
+      "Für eine Bürgermeisterwahl auf demselben Zettel",
+      "Für die Wahl der EU-Kommission"
+    ],
+    "correct": 0,
+    "explanation": "Für eine Person im Wahlkreis"
+  },
+  {
+    "id": "complex.soc-elections.012",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Wofür ist die Zweitstimme bei der Bundestagswahl vorgesehen?",
+    "options": [
+      "Für den Landeslistenvorschlag einer Partei",
+      "Für eine zweite Person im selben Wahlkreis",
+      "Für die direkte Wahl des Bundespräsidenten"
+    ],
+    "correct": 0,
+    "explanation": "Für den Landeslistenvorschlag einer Partei"
+  },
+  {
+    "id": "complex.soc-elections.013",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was ist eine Wahlbenachrichtigung?",
+    "options": [
+      "Eine Mitteilung mit wichtigen Angaben zur Teilnahme an der Wahl",
+      "Ein bereits ausgefüllter Stimmzettel",
+      "Eine Pflicht, eine bestimmte Partei zu wählen"
+    ],
+    "correct": 0,
+    "explanation": "Eine Mitteilung mit wichtigen Angaben zur Teilnahme an der Wahl"
+  },
+  {
+    "id": "complex.soc-elections.014",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was ist Briefwahl?",
+    "options": [
+      "Stimmabgabe mit beantragten Wahlunterlagen außerhalb des Wahllokals",
+      "Eine Meinungsumfrage per Werbebrief",
+      "Eine Wahl ohne gültigen Stimmzettel"
+    ],
+    "correct": 0,
+    "explanation": "Stimmabgabe mit beantragten Wahlunterlagen außerhalb des Wahllokals"
+  },
+  {
+    "id": "complex.soc-elections.015",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 1,
+    "prompt": "Was ist ein Wahllokal?",
+    "options": [
+      "Ein Ort zur Stimmabgabe am Wahltag",
+      "Das Parteibüro der jeweiligen Regierungspartei",
+      "Eine Gaststätte ohne Wahlfunktion"
+    ],
+    "correct": 0,
+    "explanation": "Ein Ort zur Stimmabgabe am Wahltag"
+  },
+  {
+    "id": "complex.soc-elections.016",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist eine Wahlurne?",
+    "options": [
+      "Ein Behälter zur Aufnahme von Stimmzetteln",
+      "Ein Gerät zur automatischen Meinungsbildung",
+      "Eine Liste aller Parteispenden"
+    ],
+    "correct": 0,
+    "explanation": "Ein Behälter zur Aufnahme von Stimmzetteln"
+  },
+  {
+    "id": "complex.soc-elections.017",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was tun Wahlhelfende unter anderem?",
+    "options": [
+      "Sie unterstützen den ordnungsgemäßen Ablauf und die Auszählung.",
+      "Sie entscheiden für andere über deren Stimme.",
+      "Sie dürfen Stimmen nach eigener Vorliebe ergänzen."
+    ],
+    "correct": 0,
+    "explanation": "Sie unterstützen den ordnungsgemäßen Ablauf und die Auszählung."
+  },
+  {
+    "id": "complex.soc-elections.018",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist Wahlbeteiligung?",
+    "options": [
+      "Der Anteil der Wahlberechtigten, die an der Wahl teilnehmen",
+      "Der Anteil der Personen, die im Wahlbüro arbeiten",
+      "Die Zahl der Wahlplakate pro Straße"
+    ],
+    "correct": 0,
+    "explanation": "Der Anteil der Wahlberechtigten, die an der Wahl teilnehmen"
+  },
+  {
+    "id": "complex.soc-elections.019",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist eine ungültige Stimme?",
+    "options": [
+      "Eine Stimme, die nach den geltenden Regeln nicht gewertet werden kann",
+      "Jede Stimme für eine kleine Partei",
+      "Jede per Brief abgegebene Stimme"
+    ],
+    "correct": 0,
+    "explanation": "Eine Stimme, die nach den geltenden Regeln nicht gewertet werden kann"
+  },
+  {
+    "id": "complex.soc-elections.020",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was beschreibt eine Mehrheitswahl grundsätzlich?",
+    "options": [
+      "Ein Mandat geht nach den geltenden Regeln an die stärkste Person oder Option.",
+      "Alle Sitze werden immer proportional an Listen verteilt.",
+      "Es wird grundsätzlich ohne Stimmen gezählt."
+    ],
+    "correct": 0,
+    "explanation": "Ein Mandat geht nach den geltenden Regeln an die stärkste Person oder Option."
+  },
+  {
+    "id": "complex.soc-elections.021",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was beschreibt eine Verhältniswahl grundsätzlich?",
+    "options": [
+      "Sitze sollen sich am Stimmenverhältnis orientieren.",
+      "Jede Partei erhält unabhängig von Stimmen gleich viele Sitze.",
+      "Nur die größte Partei erhält sämtliche Sitze."
+    ],
+    "correct": 0,
+    "explanation": "Sitze sollen sich am Stimmenverhältnis orientieren."
+  },
+  {
+    "id": "complex.soc-elections.022",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Warum ist die Zweitstimme bei der Bundestagswahl besonders wichtig?",
+    "options": [
+      "Sie bestimmt wesentlich die Sitzverteilung zwischen den Parteien.",
+      "Sie ist nur eine unverbindliche Zusatzmeinung.",
+      "Sie wählt unmittelbar alle Minister."
+    ],
+    "correct": 0,
+    "explanation": "Sie bestimmt wesentlich die Sitzverteilung zwischen den Parteien."
+  },
+  {
+    "id": "complex.soc-elections.023",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was bedeutet aktives Wahlrecht?",
+    "options": [
+      "Das Recht, selbst zu wählen",
+      "Das Recht, automatisch gewählt zu sein",
+      "Die Pflicht, Wahlplakate aufzuhängen"
+    ],
+    "correct": 0,
+    "explanation": "Das Recht, selbst zu wählen"
+  },
+  {
+    "id": "complex.soc-elections.024",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was bedeutet passives Wahlrecht?",
+    "options": [
+      "Das Recht, sich zur Wahl stellen zu können",
+      "Das Verbot, Wahlprogramme zu lesen",
+      "Die Pflicht, nicht zu wählen"
+    ],
+    "correct": 0,
+    "explanation": "Das Recht, sich zur Wahl stellen zu können"
+  },
+  {
+    "id": "complex.soc-elections.025",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist eine Koalitionsverhandlung?",
+    "options": [
+      "Gespräche über eine gemeinsame politische Zusammenarbeit zur Regierungsbildung",
+      "Die amtliche Auszählung der Briefwahl",
+      "Eine Änderung aller abgegebenen Stimmen"
+    ],
+    "correct": 0,
+    "explanation": "Gespräche über eine gemeinsame politische Zusammenarbeit zur Regierungsbildung"
+  },
+  {
+    "id": "complex.soc-elections.026",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist ein Wahlversprechen?",
+    "options": [
+      "Eine angekündigte politische Absicht",
+      "Bereits ein automatisch geltendes Gesetz",
+      "Eine Garantie ohne parlamentarische Entscheidungen"
+    ],
+    "correct": 0,
+    "explanation": "Eine angekündigte politische Absicht"
+  },
+  {
+    "id": "complex.soc-elections.027",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist eine Wahlprognose im Fernsehen?",
+    "options": [
+      "Eine Schätzung des Ergebnisses anhand von Befragungen",
+      "Bereits das endgültig festgestellte amtliche Ergebnis",
+      "Eine verbindliche Anweisung an Wahlhelfende"
+    ],
+    "correct": 0,
+    "explanation": "Eine Schätzung des Ergebnisses anhand von Befragungen"
+  },
+  {
+    "id": "complex.soc-elections.028",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist eine Hochrechnung?",
+    "options": [
+      "Eine Berechnung aus bereits vorliegenden Teilergebnissen",
+      "Eine zweite Stimmabgabe jedes Wahlberechtigten",
+      "Ein Beschluss über das künftige Wahlprogramm"
+    ],
+    "correct": 0,
+    "explanation": "Eine Berechnung aus bereits vorliegenden Teilergebnissen"
+  },
+  {
+    "id": "complex.soc-elections.029",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was bedeutet demokratische Mitwirkung zwischen Wahlen?",
+    "options": [
+      "Politische Anliegen etwa durch Vereine, Petitionen oder Gespräche einbringen",
+      "Bis zur nächsten Wahl jede Äußerung unterlassen müssen",
+      "Nur Regierungsmitglieder dürfen politische Fragen besprechen."
+    ],
+    "correct": 0,
+    "explanation": "Politische Anliegen etwa durch Vereine, Petitionen oder Gespräche einbringen"
+  },
+  {
+    "id": "complex.soc-elections.030",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 2,
+    "prompt": "Was ist bei Angaben zum Wahlalter wichtig?",
+    "options": [
+      "Wahlart, Ort und aktuellen Rechtsstand unterscheiden",
+      "Für jede Wahl weltweit dieselbe Zahl annehmen",
+      "Das Alter aus einer beliebigen Werbeanzeige übernehmen"
+    ],
+    "correct": 0,
+    "explanation": "Wahlart, Ort und aktuellen Rechtsstand unterscheiden"
+  },
+  {
+    "id": "complex.soc-elections.031",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum darf ein Betrieb Beschäftigte nicht zu einer bestimmten Wahlentscheidung zwingen?",
+    "options": [
+      "Die Freiheit der Wahl schützt die selbstbestimmte Entscheidung.",
+      "Arbeitsverträge ersetzen grundsätzlich das Wahlrecht.",
+      "Eine Firmenleitung besitzt zusätzliche Stimmen aller Beschäftigten."
+    ],
+    "correct": 0,
+    "explanation": "Die Freiheit der Wahl schützt die selbstbestimmte Entscheidung."
+  },
+  {
+    "id": "complex.soc-elections.032",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum ist eine öffentliche Auszählung mit geheimer Stimmabgabe vereinbar?",
+    "options": [
+      "Die Zählung wird kontrollierbar, ohne einzelne Stimmen Personen zuzuordnen.",
+      "Geheim bedeutet, dass niemand Ergebnisse erfahren darf.",
+      "Öffentliche Auszählung erlaubt das Markieren der Namen auf Stimmzetteln."
+    ],
+    "correct": 0,
+    "explanation": "Die Zählung wird kontrollierbar, ohne einzelne Stimmen Personen zuzuordnen."
+  },
+  {
+    "id": "complex.soc-elections.033",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum bedeutet das freie Mandat nicht einen Auftrag einer einzelnen Interessengruppe?",
+    "options": [
+      "Abgeordnete sind dem ganzen Volk und ihrem Gewissen verpflichtet.",
+      "Jeder private Geldgeber darf verbindliche Weisungen erteilen.",
+      "Abgeordnete müssen jede einzelne Wählermeinung gleichzeitig umsetzen."
+    ],
+    "correct": 0,
+    "explanation": "Abgeordnete sind dem ganzen Volk und ihrem Gewissen verpflichtet."
+  },
+  {
+    "id": "complex.soc-elections.034",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum sind Umfragen keine Wahlergebnisse?",
+    "options": [
+      "Sie beruhen auf Stichproben und besitzen Unsicherheit.",
+      "Alle Befragten haben damit bereits rechtsgültig gewählt.",
+      "Umfragen ersetzen nach Veröffentlichung die Wahl."
+    ],
+    "correct": 0,
+    "explanation": "Sie beruhen auf Stichproben und besitzen Unsicherheit."
+  },
+  {
+    "id": "complex.soc-elections.035",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Was sollte beim Vergleich von Umfragen geprüft werden?",
+    "options": [
+      "Zeitraum, Stichprobe, Fragestellung und Unsicherheiten",
+      "Nur die Farbe der Diagrammbalken",
+      "Ob das Ergebnis der eigenen Hoffnung entspricht"
+    ],
+    "correct": 0,
+    "explanation": "Zeitraum, Stichprobe, Fragestellung und Unsicherheiten"
+  },
+  {
+    "id": "complex.soc-elections.036",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum kann ein knapper Abstand in einer Umfrage keine sichere Reihenfolge bedeuten?",
+    "options": [
+      "Der Abstand kann innerhalb der statistischen Unsicherheit liegen.",
+      "Zahlen hinter dem Komma sind immer völlig exakt.",
+      "Jede Stichprobe umfasst automatisch alle Wahlberechtigten."
+    ],
+    "correct": 0,
+    "explanation": "Der Abstand kann innerhalb der statistischen Unsicherheit liegen."
+  },
+  {
+    "id": "complex.soc-elections.037",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Wahlbeteiligung vom Stimmenanteil einer Partei?",
+    "options": [
+      "Die Bezugsgruppen sind unterschiedlich.",
+      "Beide Prozentwerte haben immer denselben Nenner.",
+      "Wahlbeteiligung zählt nur die stärkste Partei."
+    ],
+    "correct": 0,
+    "explanation": "Die Bezugsgruppen sind unterschiedlich."
+  },
+  {
+    "id": "complex.soc-elections.038",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum kann eine niedrige Wahlbeteiligung die Zusammensetzung des Ergebnisses beeinflussen?",
+    "options": [
+      "Nur abgegebene gültige Stimmen fließen entsprechend in die Verteilung ein.",
+      "Nichtwählende Stimmen werden automatisch allen Parteien gleich zugeteilt.",
+      "Nichtwählen löscht automatisch die ganze Wahl."
+    ],
+    "correct": 0,
+    "explanation": "Nur abgegebene gültige Stimmen fließen entsprechend in die Verteilung ein."
+  },
+  {
+    "id": "complex.soc-elections.039",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Was ist bei der Briefwahl für die eigene Stimme wichtig?",
+    "options": [
+      "Fristen und die mitgelieferten Hinweise genau beachten",
+      "Unterlagen erst nach der Auszählung absenden",
+      "Den Stimmzettel ohne weitere Unterlagen beliebig öffentlich hochladen"
+    ],
+    "correct": 0,
+    "explanation": "Fristen und die mitgelieferten Hinweise genau beachten"
+  },
+  {
+    "id": "complex.soc-elections.040",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum ist ein Foto eines ausgefüllten Stimmzettels in der Wahlkabine problematisch?",
+    "options": [
+      "Die geheime Wahlhandlung muss geschützt werden.",
+      "Der Stimmzettel verliert durch jedes Licht seine Farbe.",
+      "Nur Papier im Hochformat darf fotografiert werden."
+    ],
+    "correct": 0,
+    "explanation": "Die geheime Wahlhandlung muss geschützt werden."
+  },
+  {
+    "id": "complex.soc-elections.041",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Was bedeutet Erst- und Zweitstimme auf verschiedene Parteien zu verteilen?",
+    "options": [
+      "Stimmensplitting",
+      "Automatisch ungültig wählen",
+      "Doppelt so viele Stimmen erhalten"
+    ],
+    "correct": 0,
+    "explanation": "Stimmensplitting bedeutet, Erst- und Zweitstimme unterschiedlichen politischen Angeboten zu geben."
+  },
+  {
+    "id": "complex.soc-elections.042",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum heißt Erststimme nicht automatisch „wichtigere Stimme“?",
+    "options": [
+      "Die Namen bezeichnen unterschiedliche Funktionen, keine Rangfolge der Bedeutung.",
+      "Die Zweitstimme wird grundsätzlich nicht ausgezählt.",
+      "Die Erststimme entscheidet unmittelbar über jede Regierungsperson."
+    ],
+    "correct": 0,
+    "explanation": "Die Namen bezeichnen unterschiedliche Funktionen, keine Rangfolge der Bedeutung."
+  },
+  {
+    "id": "complex.soc-elections.043",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum kann ein Wahlkreissieg bei Parteibewerbern nicht allein die Sitzverteilung erklären?",
+    "options": [
+      "Es sind zusätzlich die gesetzlichen Regeln der Zweitstimmendeckung zu beachten.",
+      "Jeder Wahlkreissieg erzeugt unbegrenzt neue Parlamentssitze.",
+      "Die Zweitstimme spielt bei Sitzen keinerlei Rolle."
+    ],
+    "correct": 0,
+    "explanation": "Es sind zusätzlich die gesetzlichen Regeln der Zweitstimmendeckung zu beachten."
+  },
+  {
+    "id": "complex.soc-elections.044",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum sollten Sperrklauseln nur mit aktuellem Rechtsstand erklärt werden?",
+    "options": [
+      "Ausnahmen und verfassungsgerichtliche Entscheidungen können die Anwendung beeinflussen.",
+      "Wahlrecht kann grundsätzlich nie geändert werden.",
+      "Eine beliebige alte Grafik ist immer verbindlich."
+    ],
+    "correct": 0,
+    "explanation": "Ausnahmen und verfassungsgerichtliche Entscheidungen können die Anwendung beeinflussen."
+  },
+  {
+    "id": "complex.soc-elections.045",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Bundestagswahl und direkte Kanzlerwahl?",
+    "options": [
+      "Die Bevölkerung wählt den Bundestag; dieser wählt die Kanzlerin oder den Kanzler.",
+      "Jeder Wahlzettel enthält eine direkte verbindliche Ministerwahl.",
+      "Die Regierung wird grundsätzlich nur vom Bundesrat gewählt."
+    ],
+    "correct": 0,
+    "explanation": "Die Bevölkerung wählt den Bundestag; dieser wählt die Kanzlerin oder den Kanzler."
+  },
+  {
+    "id": "complex.soc-elections.046",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Welche Aussage ermöglicht einen sachlichen Vergleich politischer Angebote?",
+    "options": [
+      "Ziele, Begründungen und mögliche Folgen verschiedener Programme prüfen",
+      "Nur ein einzelnes Plakatfoto als vollständiges Programm ansehen",
+      "Kandidierende ausschließlich nach Kleidung beurteilen"
+    ],
+    "correct": 0,
+    "explanation": "Ziele, Begründungen und mögliche Folgen verschiedener Programme prüfen"
+  },
+  {
+    "id": "complex.soc-elections.047",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum ist ein gemeinsames Regierungsprogramm oft ein Kompromiss?",
+    "options": [
+      "Mehrere Parteien müssen unterschiedliche Ziele miteinander vereinbaren.",
+      "Koalitionsparteien haben grundsätzlich identische Programme.",
+      "Nach der Wahl sind keine parlamentarischen Entscheidungen mehr nötig."
+    ],
+    "correct": 0,
+    "explanation": "Mehrere Parteien müssen unterschiedliche Ziele miteinander vereinbaren."
+  },
+  {
+    "id": "complex.soc-elections.048",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet eine Wahl von einer Abstimmung über eine Sachfrage?",
+    "options": [
+      "Bei Wahlen werden Personen oder Vertretungen bestimmt; Sachabstimmungen entscheiden eine konkrete Frage.",
+      "Beides betrifft grundsätzlich nur private Vereine.",
+      "Eine Sachabstimmung wählt immer automatisch den Bundestag."
+    ],
+    "correct": 0,
+    "explanation": "Bei Wahlen werden Personen oder Vertretungen bestimmt; Sachabstimmungen entscheiden eine konkrete Frage."
+  },
+  {
+    "id": "complex.soc-elections.049",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Warum kann erlaubte Wahlassistenz mit geheimer Wahl vereinbar sein?",
+    "options": [
+      "Sie unterstützt eine selbstbestimmte Entscheidung und unterliegt Schutzregeln.",
+      "Die helfende Person darf die Entscheidung selbst festlegen.",
+      "Assistenz bedeutet, dass alle Stimmen öffentlich bekannt werden müssen."
+    ],
+    "correct": 0,
+    "explanation": "Sie unterstützt eine selbstbestimmte Entscheidung und unterliegt Schutzregeln."
+  },
+  {
+    "id": "complex.soc-elections.050",
+    "subject": "social",
+    "topic": "soc-elections",
+    "complexId": "soc-elections",
+    "competency": "soc-elections",
+    "difficulty": 3,
+    "prompt": "Was macht eine Wahlentscheidung informiert?",
+    "options": [
+      "Informationen prüfen und eigene Prioritäten mit politischen Angeboten vergleichen",
+      "Ungeprüft die lauteste Nachricht übernehmen",
+      "Die Wahlentscheidung an eine Werbung abgeben"
+    ],
+    "correct": 0,
+    "explanation": "Informationen prüfen und eigene Prioritäten mit politischen Angeboten vergleichen"
+  }
+]

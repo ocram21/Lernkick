@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.bio-senses.001",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welches Sinnesorgan nimmt Licht wahr?",
+    "options": [
+      "Das Auge",
+      "Das Ohr",
+      "Die Zunge"
+    ],
+    "correct": 0,
+    "explanation": "Lichtempfindliche Sinneszellen der Netzhaut reagieren auf Licht und geben Signale weiter."
+  },
+  {
+    "id": "complex.bio-senses.002",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welcher Teil des Auges regelt den Lichteinfall durch die Pupille?",
+    "options": [
+      "Die Iris",
+      "Der Sehnerv",
+      "Die Netzhaut"
+    ],
+    "correct": 0,
+    "explanation": "Die Iris verändert die Pupillenweite und damit die Lichtmenge, die ins Auge fällt."
+  },
+  {
+    "id": "complex.bio-senses.003",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Wo liegen die lichtempfindlichen Zellen des Auges?",
+    "options": [
+      "In der Netzhaut",
+      "In der Augenlinse",
+      "In den Wimpern"
+    ],
+    "correct": 0,
+    "explanation": "Die Netzhaut enthält Fotorezeptoren. Die Linse dient vor allem der Lichtbrechung."
+  },
+  {
+    "id": "complex.bio-senses.004",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat die Augenlinse?",
+    "options": [
+      "Licht bündeln und scharfstellen",
+      "Farbstoff für die Iris bilden",
+      "Nervensignale im Gehirn speichern"
+    ],
+    "correct": 0,
+    "explanation": "Licht bündeln und scharfstellen"
+  },
+  {
+    "id": "complex.bio-senses.005",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Wozu dient der Sehnerv?",
+    "options": [
+      "Signale vom Auge zum Gehirn leiten",
+      "Die Pupille mechanisch öffnen",
+      "Tränenflüssigkeit herstellen"
+    ],
+    "correct": 0,
+    "explanation": "Signale vom Auge zum Gehirn leiten"
+  },
+  {
+    "id": "complex.bio-senses.006",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welcher Teil des Ohres gerät durch Schall in Schwingung?",
+    "options": [
+      "Das Trommelfell",
+      "Der Sehnerv",
+      "Die Iris"
+    ],
+    "correct": 0,
+    "explanation": "Schallwellen bringen das Trommelfell in Bewegung; die Schwingungen werden weitergeleitet."
+  },
+  {
+    "id": "complex.bio-senses.007",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Wo werden im Innenohr Schallschwingungen in Nervensignale umgesetzt?",
+    "options": [
+      "In der Hörschnecke",
+      "Im äußeren Ohrläppchen",
+      "In der Ohrmuschel allein"
+    ],
+    "correct": 0,
+    "explanation": "Haarzellen in der Hörschnecke wandeln mechanische Bewegungen in Signale um."
+  },
+  {
+    "id": "complex.bio-senses.008",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat das Gleichgewichtsorgan?",
+    "options": [
+      "Lage und Bewegung des Kopfes erfassen",
+      "Blut mit Sauerstoff versorgen",
+      "Den Blutzucker senken"
+    ],
+    "correct": 0,
+    "explanation": "Lage und Bewegung des Kopfes erfassen"
+  },
+  {
+    "id": "complex.bio-senses.009",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Was nimmt die Nase mit Riechzellen wahr?",
+    "options": [
+      "Bestimmte Duftstoffe in der Luft",
+      "Nur die Lautstärke",
+      "Den Sauerstoffgehalt des Blutes"
+    ],
+    "correct": 0,
+    "explanation": "Bestimmte Duftstoffe in der Luft"
+  },
+  {
+    "id": "complex.bio-senses.010",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welche Geschmacksqualität gibt es neben süß, sauer, salzig und bitter?",
+    "options": [
+      "Umami",
+      "Knusprig",
+      "Warm"
+    ],
+    "correct": 0,
+    "explanation": "Umami beschreibt eine herzhafte Geschmacksqualität. Knusprig betrifft vor allem die Beschaffenheit."
+  },
+  {
+    "id": "complex.bio-senses.011",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welches Organ verarbeitet viele Sinneseindrücke bewusst?",
+    "options": [
+      "Das Gehirn",
+      "Der Dünndarm",
+      "Die Milz"
+    ],
+    "correct": 0,
+    "explanation": "Das Gehirn verarbeitet eingehende Signale und verknüpft sie mit Erfahrungen und Aufmerksamkeit."
+  },
+  {
+    "id": "complex.bio-senses.012",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welche Struktur verbindet das Gehirn mit vielen Nerven des Körpers?",
+    "options": [
+      "Das Rückenmark",
+      "Die Speiseröhre",
+      "Die Kniescheibe"
+    ],
+    "correct": 0,
+    "explanation": "Das Rückenmark gehört zum zentralen Nervensystem und verbindet viele Nervenbahnen mit dem Gehirn."
+  },
+  {
+    "id": "complex.bio-senses.013",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welche Zellen leiten elektrische Signale im Nervensystem?",
+    "options": [
+      "Nervenzellen",
+      "Rote Blutkörperchen",
+      "Fettzellen allein"
+    ],
+    "correct": 0,
+    "explanation": "Nervenzellen sind auf Aufnahme, Verarbeitung und Weiterleitung von Signalen spezialisiert."
+  },
+  {
+    "id": "complex.bio-senses.014",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Was ist ein Reiz?",
+    "options": [
+      "Eine Veränderung, die Sinneszellen erfassen können",
+      "Eine fertige Bewegung des Muskels",
+      "Ein Speicher für Nahrung"
+    ],
+    "correct": 0,
+    "explanation": "Eine Veränderung, die Sinneszellen erfassen können"
+  },
+  {
+    "id": "complex.bio-senses.015",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 1,
+    "prompt": "Welche Funktion hat die Haut als Sinnesorgan?",
+    "options": [
+      "Sie erfasst unter anderem Berührung und Temperatur.",
+      "Sie erkennt Schrift ohne Licht.",
+      "Sie erzeugt ausschließlich Geruchssignale."
+    ],
+    "correct": 0,
+    "explanation": "Sie erfasst unter anderem Berührung und Temperatur."
+  },
+  {
+    "id": "complex.bio-senses.016",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Was verändert sich meist beim Wechsel von heller zu dunkler Umgebung?",
+    "options": [
+      "Die Pupille wird weiter.",
+      "Die Pupille verschwindet.",
+      "Die Netzhaut wird zu Knochen."
+    ],
+    "correct": 0,
+    "explanation": "Bei Dunkelheit wird die Pupille meist weiter, damit mehr Licht ins Auge gelangen kann."
+  },
+  {
+    "id": "complex.bio-senses.017",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Welche Sinneszellen ermöglichen besonders das Farbsehen?",
+    "options": [
+      "Zapfen",
+      "Stäbchen allein",
+      "Haarzellen der Schnecke"
+    ],
+    "correct": 0,
+    "explanation": "Zapfen ermöglichen das Unterscheiden von Farben und arbeiten besonders bei ausreichendem Licht."
+  },
+  {
+    "id": "complex.bio-senses.018",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Welche Sinneszellen helfen beim Sehen in der Dämmerung besonders?",
+    "options": [
+      "Stäbchen",
+      "Geschmacksknospen",
+      "Zapfen allein"
+    ],
+    "correct": 0,
+    "explanation": "Stäbchen sind lichtempfindlich und unterstützen das Sehen bei geringer Helligkeit, aber nicht das Farbsehen."
+  },
+  {
+    "id": "complex.bio-senses.019",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Warum sieht man am blinden Fleck keine Lichtreize?",
+    "options": [
+      "Dort tritt der Sehnerv aus; es fehlen Fotorezeptoren.",
+      "Dort ist die Linse undurchsichtig.",
+      "Dort liegen ausschließlich besonders viele Zapfen."
+    ],
+    "correct": 0,
+    "explanation": "Dort tritt der Sehnerv aus; es fehlen Fotorezeptoren."
+  },
+  {
+    "id": "complex.bio-senses.020",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Wozu dienen Hammer, Amboss und Steigbügel?",
+    "options": [
+      "Sie übertragen Schwingungen zum Innenohr.",
+      "Sie erzeugen Tränenflüssigkeit.",
+      "Sie ordnen Gerüche bestimmten Erinnerungen zu."
+    ],
+    "correct": 0,
+    "explanation": "Sie übertragen Schwingungen zum Innenohr."
+  },
+  {
+    "id": "complex.bio-senses.021",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Was ist eine Synapse?",
+    "options": [
+      "Eine Kontaktstelle zur Signalübertragung zwischen Zellen",
+      "Eine Öffnung im Trommelfell",
+      "Ein Gefäß der Netzhaut"
+    ],
+    "correct": 0,
+    "explanation": "Eine Kontaktstelle zur Signalübertragung zwischen Zellen"
+  },
+  {
+    "id": "complex.bio-senses.022",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Wie übertragen viele Synapsen Signale über den Spalt?",
+    "options": [
+      "Durch chemische Botenstoffe",
+      "Durch Blutgerinnsel",
+      "Durch neu gebildete Knochenstücke"
+    ],
+    "correct": 0,
+    "explanation": "Durch chemische Botenstoffe"
+  },
+  {
+    "id": "complex.bio-senses.023",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Was gehört zum zentralen Nervensystem?",
+    "options": [
+      "Gehirn und Rückenmark",
+      "Alle Muskeln und Sehnen",
+      "Herz und Lunge"
+    ],
+    "correct": 0,
+    "explanation": "Gehirn und Rückenmark bilden das zentrale Nervensystem. Die übrigen Nerven gehören zum peripheren System."
+  },
+  {
+    "id": "complex.bio-senses.024",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Was ist ein Reflex?",
+    "options": [
+      "Eine rasche, weitgehend gleichartige unwillkürliche Reaktion",
+      "Eine absichtlich geplante Urlaubsreise",
+      "Eine dauerhaft gespeicherte Mahlzeit"
+    ],
+    "correct": 0,
+    "explanation": "Eine rasche, weitgehend gleichartige unwillkürliche Reaktion"
+  },
+  {
+    "id": "complex.bio-senses.025",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Welcher Ablauf passt zum Zurückziehen der Hand von einer heißen Fläche?",
+    "options": [
+      "Reizaufnahme – Nervenleitung – Verschaltung – Muskelreaktion",
+      "Muskelreaktion – Verdauung – Sehen",
+      "Blutzuckeranstieg – Knochenwachstum – Hören"
+    ],
+    "correct": 0,
+    "explanation": "Reizaufnahme – Nervenleitung – Verschaltung – Muskelreaktion"
+  },
+  {
+    "id": "complex.bio-senses.026",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Warum ist Schlaf für das Lernen wichtig?",
+    "options": [
+      "Er unterstützt Erholung und Gedächtnisprozesse.",
+      "Er ersetzt jede Übung vollständig.",
+      "Er schaltet alle Gehirnaktivität vollständig aus."
+    ],
+    "correct": 0,
+    "explanation": "Er unterstützt Erholung und Gedächtnisprozesse."
+  },
+  {
+    "id": "complex.bio-senses.027",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Welches Verhalten schützt das Gehör bei lauter Arbeit?",
+    "options": [
+      "Geeigneten Gehörschutz tragen",
+      "Die Lautstärke mit Kopfhörern überdecken",
+      "Nur bei Schmerzen eine Pause erwägen"
+    ],
+    "correct": 0,
+    "explanation": "Geeigneten Gehörschutz tragen"
+  },
+  {
+    "id": "complex.bio-senses.028",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Warum schmeckt Essen bei verstopfter Nase oft weniger vielfältig?",
+    "options": [
+      "Riechen trägt wesentlich zum Geschmackserlebnis bei.",
+      "Die Zunge besitzt dann keine Zellen mehr.",
+      "Die Ohren übernehmen das Schmecken."
+    ],
+    "correct": 0,
+    "explanation": "Riechen trägt wesentlich zum Geschmackserlebnis bei."
+  },
+  {
+    "id": "complex.bio-senses.029",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Was macht der motorische Nerv auf dem Weg zum Muskel?",
+    "options": [
+      "Er leitet ein Bewegungssignal zum Muskel.",
+      "Er bringt Sauerstoff im Blut zum Muskel.",
+      "Er zerlegt Nahrung in Zucker."
+    ],
+    "correct": 0,
+    "explanation": "Er leitet ein Bewegungssignal zum Muskel."
+  },
+  {
+    "id": "complex.bio-senses.030",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 2,
+    "prompt": "Welche Reize können Schmerzrezeptoren melden?",
+    "options": [
+      "Mögliche Gewebeschädigung etwa durch starke Hitze",
+      "Nur sichtbare Farben",
+      "Nur angenehme Gerüche"
+    ],
+    "correct": 0,
+    "explanation": "Mögliche Gewebeschädigung etwa durch starke Hitze"
+  },
+  {
+    "id": "complex.bio-senses.031",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum ist die Reaktionszeit länger als die reine Aufnahme eines Lichtreizes?",
+    "options": [
+      "Verarbeitung, Entscheidung und Bewegung benötigen zusätzlich Zeit.",
+      "Lichtreize müssen erst im Magen verdaut werden.",
+      "Muskeln reagieren immer vor dem Reiz."
+    ],
+    "correct": 0,
+    "explanation": "Verarbeitung, Entscheidung und Bewegung benötigen zusätzlich Zeit."
+  },
+  {
+    "id": "complex.bio-senses.032",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Beim Lesen wechselt der Blick vom Fenster zum nahen Buch. Was muss sich anpassen?",
+    "options": [
+      "Die Brechkraft der Linse",
+      "Die Zahl der Augenlider",
+      "Die Länge der Wimpern"
+    ],
+    "correct": 0,
+    "explanation": "Für nahe Gegenstände muss die Linse stärker brechen. Ihre Form wird dafür angepasst."
+  },
+  {
+    "id": "complex.bio-senses.033",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum ermöglichen zwei Augen räumliches Sehen?",
+    "options": [
+      "Das Gehirn vergleicht leicht unterschiedliche Bilder.",
+      "Beide Augen sehen grundsätzlich dasselbe ohne Unterschied.",
+      "Das zweite Auge ersetzt die Netzhaut des ersten."
+    ],
+    "correct": 0,
+    "explanation": "Das Gehirn vergleicht leicht unterschiedliche Bilder."
+  },
+  {
+    "id": "complex.bio-senses.034",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Was beschreibt Akkommodation?",
+    "options": [
+      "Die Anpassung der Linse an unterschiedliche Entfernungen",
+      "Die Anpassung der Pupille allein an Helligkeit",
+      "Die Umwandlung eines Tons in Licht"
+    ],
+    "correct": 0,
+    "explanation": "Die Anpassung der Linse an unterschiedliche Entfernungen"
+  },
+  {
+    "id": "complex.bio-senses.035",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum kann sehr lauter Schall das Hören dauerhaft schädigen?",
+    "options": [
+      "Empfindliche Haarzellen im Innenohr können beschädigt werden.",
+      "Die Ohrmuschel wird dann automatisch größer.",
+      "Das Trommelfell wandelt sich in Haut ohne Nerven um."
+    ],
+    "correct": 0,
+    "explanation": "Empfindliche Haarzellen im Innenohr können beschädigt werden."
+  },
+  {
+    "id": "complex.bio-senses.036",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Was erklärt, dass man einen gleichbleibenden Geruch nach einer Weile weniger bemerkt?",
+    "options": [
+      "Anpassung der Sinnesverarbeitung an einen dauernden Reiz",
+      "Vollständiger Verbrauch des Sauerstoffs im Raum",
+      "Dauerhafte Zerstörung aller Riechzellen nach jedem Geruch"
+    ],
+    "correct": 0,
+    "explanation": "Anpassung der Sinnesverarbeitung an einen dauernden Reiz"
+  },
+  {
+    "id": "complex.bio-senses.037",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum kann man tasten, obwohl die Augen geschlossen sind?",
+    "options": [
+      "Mechanorezeptoren der Haut arbeiten unabhängig vom Sehen.",
+      "Die Netzhaut erhält dann Signale aus der Kleidung.",
+      "Nur das Gleichgewichtsorgan erfasst Berührungen."
+    ],
+    "correct": 0,
+    "explanation": "Mechanorezeptoren der Haut arbeiten unabhängig vom Sehen."
+  },
+  {
+    "id": "complex.bio-senses.038",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Wie unterscheiden sich sensorische und motorische Nervenbahnen?",
+    "options": [
+      "Sensorische leiten zum zentralen Nervensystem, motorische zu ausführenden Organen.",
+      "Beide leiten nur Nährstoffe.",
+      "Sensorische Bahnen bestehen aus Knochen, motorische aus Blut."
+    ],
+    "correct": 0,
+    "explanation": "Sensorische leiten zum zentralen Nervensystem, motorische zu ausführenden Organen."
+  },
+  {
+    "id": "complex.bio-senses.039",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum bedeutet ein Reflex nicht, dass das Gehirn nie etwas davon erfährt?",
+    "options": [
+      "Die schnelle Verschaltung und die spätere bewusste Wahrnehmung können nebeneinander erfolgen.",
+      "Reflexe benötigen grundsätzlich keine Nervenzellen.",
+      "Reflexe verhindern dauerhaft jede Wahrnehmung."
+    ],
+    "correct": 0,
+    "explanation": "Die schnelle Verschaltung und die spätere bewusste Wahrnehmung können nebeneinander erfolgen."
+  },
+  {
+    "id": "complex.bio-senses.040",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Was ist eine sinnvolle Strategie bei Ablenkung durch das Smartphone beim Lernen?",
+    "options": [
+      "Benachrichtigungen ausschalten und eine ruhige Lernphase planen",
+      "Alle Nachrichten parallel lesen",
+      "Die Schrift auf dem Lernblatt kleiner machen"
+    ],
+    "correct": 0,
+    "explanation": "Benachrichtigungen ausschalten und eine ruhige Lernphase planen"
+  },
+  {
+    "id": "complex.bio-senses.041",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum verbessert wiederholtes Üben häufig eine Fertigkeit?",
+    "options": [
+      "Nervennetzwerke passen sich durch Lernen an.",
+      "Bei jeder Übung entstehen neue Sinnesorgane.",
+      "Einmal gespeicherte Informationen können nie verändert werden."
+    ],
+    "correct": 0,
+    "explanation": "Nervennetzwerke passen sich durch Lernen an."
+  },
+  {
+    "id": "complex.bio-senses.042",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Welche Funktion haben Myelinscheiden an vielen Nervenfasern?",
+    "options": [
+      "Sie isolieren Abschnitte und beschleunigen die Erregungsleitung.",
+      "Sie zerlegen Sauerstoff in Zucker.",
+      "Sie ersetzen die Synapsen durch Blutgefäße."
+    ],
+    "correct": 0,
+    "explanation": "Sie isolieren Abschnitte und beschleunigen die Erregungsleitung."
+  },
+  {
+    "id": "complex.bio-senses.043",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Was erklärt das Zusammenspiel von Sympathikus und Parasympathikus?",
+    "options": [
+      "Sie beeinflussen unbewusste Organfunktionen häufig gegensätzlich.",
+      "Sie bilden gemeinsam die Augenlinse.",
+      "Sie steuern ausschließlich bewusste Fingerbewegungen."
+    ],
+    "correct": 0,
+    "explanation": "Sie beeinflussen unbewusste Organfunktionen häufig gegensätzlich."
+  },
+  {
+    "id": "complex.bio-senses.044",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Welche Reaktion passt besonders zur körperlichen Alarmbereitschaft?",
+    "options": [
+      "Der Herzschlag kann schneller werden.",
+      "Die Pupillen müssen sich vollständig schließen.",
+      "Die Atmung muss dauerhaft aussetzen."
+    ],
+    "correct": 0,
+    "explanation": "Der Herzschlag kann schneller werden."
+  },
+  {
+    "id": "complex.bio-senses.045",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum sollte man aus einem einzelnen Reaktionstest keine allgemeine Aussage über Intelligenz ableiten?",
+    "options": [
+      "Müdigkeit, Übung und viele weitere Faktoren beeinflussen das Ergebnis.",
+      "Reaktionszeiten hängen nur von der Körpergröße ab.",
+      "Ein einziger Messwert beschreibt alle geistigen Fähigkeiten."
+    ],
+    "correct": 0,
+    "explanation": "Müdigkeit, Übung und viele weitere Faktoren beeinflussen das Ergebnis."
+  },
+  {
+    "id": "complex.bio-senses.046",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum ist das Gehirn für Wahrnehmung notwendig, obwohl Sinneszellen Reize erfassen?",
+    "options": [
+      "Erst die Verarbeitung ordnet Signale zu einem Wahrnehmungseindruck.",
+      "Sinneszellen übertragen grundsätzlich keine Informationen.",
+      "Das Gehirn erzeugt dazu erst neue Lichtstrahlen im Auge."
+    ],
+    "correct": 0,
+    "explanation": "Erst die Verarbeitung ordnet Signale zu einem Wahrnehmungseindruck."
+  },
+  {
+    "id": "complex.bio-senses.047",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Was zeigt eine optische Täuschung besonders?",
+    "options": [
+      "Wahrnehmung enthält Verarbeitung und Deutung.",
+      "Die Augen arbeiten bei allen Bildern falsch.",
+      "Das Licht besitzt dabei keine Richtung mehr."
+    ],
+    "correct": 0,
+    "explanation": "Wahrnehmung enthält Verarbeitung und Deutung."
+  },
+  {
+    "id": "complex.bio-senses.048",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum können kurze Lernpausen die Konzentration unterstützen?",
+    "options": [
+      "Aufmerksamkeit ist begrenzt und kann sich erholen.",
+      "Pausen löschen alle zuvor gelernten Inhalte.",
+      "Das Gehirn kann nur während Pausen lernen."
+    ],
+    "correct": 0,
+    "explanation": "Aufmerksamkeit ist begrenzt und kann sich erholen."
+  },
+  {
+    "id": "complex.bio-senses.049",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Was sollte beim Überqueren einer Straße trotz Kopfhörern besonders beachtet werden?",
+    "options": [
+      "Verkehr aufmerksam beobachten und Warnsignale nicht überdecken",
+      "Nur auf das Navigationsgerät schauen",
+      "Die Augen schließen, um besser zu hören"
+    ],
+    "correct": 0,
+    "explanation": "Verkehr aufmerksam beobachten und Warnsignale nicht überdecken"
+  },
+  {
+    "id": "complex.bio-senses.050",
+    "subject": "biology",
+    "topic": "bio-senses",
+    "complexId": "bio-senses",
+    "competency": "bio-senses",
+    "difficulty": 3,
+    "prompt": "Warum ist regelmäßiger Druckausgleich im Mittelohr wichtig?",
+    "options": [
+      "Ähnlicher Luftdruck auf beiden Seiten erleichtert das Schwingen des Trommelfells.",
+      "Er ersetzt die Haarzellen im Innenohr.",
+      "Er stellt die Augen auf Nahsicht ein."
+    ],
+    "correct": 0,
+    "explanation": "Ähnlicher Luftdruck auf beiden Seiten erleichtert das Schwingen des Trommelfells."
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.geo-usa.001",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Auf welchem Kontinent liegen die zusammenhängenden USA?",
+    "options": [
+      "Nordamerika",
+      "Südamerika",
+      "Europa"
+    ],
+    "correct": 0,
+    "explanation": "Die USA gehören zu Nordamerika. Der Doppelkontinent umfasst daneben auch Südamerika."
+  },
+  {
+    "id": "complex.geo-usa.002",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Wie heißt die Hauptstadt der USA?",
+    "options": [
+      "Washington, D.C.",
+      "New York City",
+      "Los Angeles"
+    ],
+    "correct": 0,
+    "explanation": "Washington, D.C. ist die Bundeshauptstadt; New York ist eine große Wirtschaftsmetropole."
+  },
+  {
+    "id": "complex.geo-usa.003",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Welcher Staat gehört zu den USA, liegt aber getrennt im Nordwesten Nordamerikas?",
+    "options": [
+      "Alaska",
+      "Ontario",
+      "Québec"
+    ],
+    "correct": 0,
+    "explanation": "Alaska liegt nordwestlich Kanadas und ist vom zusammenhängenden US-Kerngebiet getrennt."
+  },
+  {
+    "id": "complex.geo-usa.004",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Welcher US-Bundesstaat ist eine Inselgruppe im Pazifik?",
+    "options": [
+      "Hawaii",
+      "Florida",
+      "Texas"
+    ],
+    "correct": 0,
+    "explanation": "Hawaii ist eine Inselgruppe im Pazifik und gehört als Bundesstaat zu den USA."
+  },
+  {
+    "id": "complex.geo-usa.005",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Welche Stadt ist besonders als Finanzzentrum der USA bekannt?",
+    "options": [
+      "New York City",
+      "Las Vegas",
+      "Anchorage"
+    ],
+    "correct": 0,
+    "explanation": "New York besitzt bedeutende Börsen und viele Finanzdienstleister, besonders im Umfeld der Wall Street."
+  },
+  {
+    "id": "complex.geo-usa.006",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Welche Region ist besonders für viele Technologieunternehmen bekannt?",
+    "options": [
+      "Silicon Valley in Kalifornien",
+      "Amazonasbecken",
+      "Norddeutsches Tiefland"
+    ],
+    "correct": 0,
+    "explanation": "Silicon Valley in Kalifornien"
+  },
+  {
+    "id": "complex.geo-usa.007",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Was bezeichnet der Manufacturing Belt historisch?",
+    "options": [
+      "Einen stark industriell geprägten Raum im Nordosten und an den Großen Seen",
+      "Nur ein tropisches Anbaugebiet auf Hawaii",
+      "Eine Gebirgskette in Alaska"
+    ],
+    "correct": 0,
+    "explanation": "Einen stark industriell geprägten Raum im Nordosten und an den Großen Seen"
+  },
+  {
+    "id": "complex.geo-usa.008",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Was bezeichnet Sunbelt grob?",
+    "options": [
+      "Wachstumsräume im Süden und Südwesten der USA",
+      "Die arktische Nordküste Alaskas",
+      "Nur das Zentrum der Stadt New York"
+    ],
+    "correct": 0,
+    "explanation": "Wachstumsräume im Süden und Südwesten der USA"
+  },
+  {
+    "id": "complex.geo-usa.009",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Welche Branche gehört zum Dienstleistungssektor der USA?",
+    "options": [
+      "Softwareentwicklung",
+      "Weizenanbau",
+      "Eisenerzbergbau"
+    ],
+    "correct": 0,
+    "explanation": "Softwareentwicklung ist eine wissensbasierte Dienstleistung und gehört nicht zur Rohstoffgewinnung."
+  },
+  {
+    "id": "complex.geo-usa.010",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Was ist ein typisches Agrarprodukt der Great Plains?",
+    "options": [
+      "Weizen",
+      "Kakao",
+      "Kautschuk"
+    ],
+    "correct": 0,
+    "explanation": "Die Great Plains sind ein bedeutender Raum für Getreideanbau, darunter Weizen."
+  },
+  {
+    "id": "complex.geo-usa.011",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Welches Verkehrsmittel ist für große Gütermengen über Land in den USA wichtig?",
+    "options": [
+      "Güterbahn",
+      "Ausschließlich Fahrradkurier",
+      "Nur Personenseilbahnen"
+    ],
+    "correct": 0,
+    "explanation": "Güterzüge können große Warenmengen über weite Entfernungen transportieren."
+  },
+  {
+    "id": "complex.geo-usa.012",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Warum haben Seehäfen wirtschaftliche Bedeutung?",
+    "options": [
+      "Sie verbinden internationale Warenströme mit dem Hinterland.",
+      "Sie ersetzen alle Fabriken.",
+      "Sie erzeugen allein alle Exportgüter."
+    ],
+    "correct": 0,
+    "explanation": "Sie verbinden internationale Warenströme mit dem Hinterland."
+  },
+  {
+    "id": "complex.geo-usa.013",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Was ist ein Binnenmarkt?",
+    "options": [
+      "Ein zusammenhängender Markt innerhalb eines Wirtschaftsraums",
+      "Ein Markt ausschließlich unter Wasser",
+      "Nur der Handel mit Binnenfischen"
+    ],
+    "correct": 0,
+    "explanation": "Ein zusammenhängender Markt innerhalb eines Wirtschaftsraums"
+  },
+  {
+    "id": "complex.geo-usa.014",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Was sind Rohstoffe?",
+    "options": [
+      "Natürliche Ausgangsstoffe für die Produktion",
+      "Nur fertige Smartphones",
+      "Nur Versicherungsverträge"
+    ],
+    "correct": 0,
+    "explanation": "Natürliche Ausgangsstoffe für die Produktion"
+  },
+  {
+    "id": "complex.geo-usa.015",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 1,
+    "prompt": "Welche Ressource wird in Teilen von Texas wirtschaftlich genutzt?",
+    "options": [
+      "Erdöl und Erdgas",
+      "Nur tropisches Edelholz",
+      "Ausschließlich Gletschereis"
+    ],
+    "correct": 0,
+    "explanation": "Texas besitzt bedeutende Erdöl- und Erdgasvorkommen und eine entsprechende Energiewirtschaft."
+  },
+  {
+    "id": "complex.geo-usa.016",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Warum ist die Landwirtschaft in den USA regional spezialisiert?",
+    "options": [
+      "Klima, Böden, Technik und Absatzmöglichkeiten unterscheiden sich.",
+      "Alle Regionen besitzen identische Bedingungen.",
+      "Spezialisierung entsteht nur durch die Namen der Bundesstaaten."
+    ],
+    "correct": 0,
+    "explanation": "Klima, Böden, Technik und Absatzmöglichkeiten unterscheiden sich."
+  },
+  {
+    "id": "complex.geo-usa.017",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Mechanisierung in der Landwirtschaft?",
+    "options": [
+      "Maschinen übernehmen viele Arbeitsvorgänge.",
+      "Alle Arbeiten werden ausschließlich von Hand erledigt.",
+      "Landwirtschaft wird vollständig aufgegeben."
+    ],
+    "correct": 0,
+    "explanation": "Maschinen übernehmen viele Arbeitsvorgänge."
+  },
+  {
+    "id": "complex.geo-usa.018",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was kann Bewässerungslandwirtschaft ermöglichen?",
+    "options": [
+      "Anbau trotz geringer natürlicher Niederschläge",
+      "Anbau ohne jede Wasserquelle",
+      "Beliebige Ernten ohne Boden und Nährstoffe"
+    ],
+    "correct": 0,
+    "explanation": "Anbau trotz geringer natürlicher Niederschläge"
+  },
+  {
+    "id": "complex.geo-usa.019",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Welche Schwierigkeit kann starke Bewässerung verursachen?",
+    "options": [
+      "Wasserreserven können übernutzt werden.",
+      "Niederschlag wird automatisch unbegrenzt.",
+      "Bewässerung spart grundsätzlich immer sämtliches Wasser."
+    ],
+    "correct": 0,
+    "explanation": "Wasserreserven können übernutzt werden."
+  },
+  {
+    "id": "complex.geo-usa.020",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was ist Agribusiness?",
+    "options": [
+      "Eng verflochtene Unternehmen von Agrarvorleistungen bis Vermarktung",
+      "Nur der private Gemüsegarten",
+      "Ausschließlich die staatliche Wettervorhersage"
+    ],
+    "correct": 0,
+    "explanation": "Eng verflochtene Unternehmen von Agrarvorleistungen bis Vermarktung"
+  },
+  {
+    "id": "complex.geo-usa.021",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Welche Bedeutung haben Hochschulen für manche Wirtschaftsstandorte?",
+    "options": [
+      "Sie fördern Forschung und die Ausbildung von Fachkräften.",
+      "Sie produzieren unmittelbar alle Rohstoffe.",
+      "Sie ersetzen jede betriebliche Investition."
+    ],
+    "correct": 0,
+    "explanation": "Sie fördern Forschung und die Ausbildung von Fachkräften."
+  },
+  {
+    "id": "complex.geo-usa.022",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was beschreibt Suburbanisierung?",
+    "options": [
+      "Bevölkerung und Funktionen verlagern sich ins städtische Umland.",
+      "Alle Vororte werden zu unbewohntem Meer.",
+      "Städte wachsen ausschließlich in ihren historischen Mauern."
+    ],
+    "correct": 0,
+    "explanation": "Bevölkerung und Funktionen verlagern sich ins städtische Umland."
+  },
+  {
+    "id": "complex.geo-usa.023",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was ist ein Pendlerproblem in ausgedehnten Stadtregionen?",
+    "options": [
+      "Lange Wege können Zeitbedarf, Staus und Emissionen erhöhen.",
+      "Verkehrswege werden dadurch grundsätzlich kürzer.",
+      "Alle Menschen können automatisch zu Fuß zur Arbeit gehen."
+    ],
+    "correct": 0,
+    "explanation": "Lange Wege können Zeitbedarf, Staus und Emissionen erhöhen."
+  },
+  {
+    "id": "complex.geo-usa.024",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Wofür ist Detroit historisch besonders bekannt?",
+    "options": [
+      "Automobilindustrie",
+      "Kakaoanbau",
+      "Hochseefischerei im Pazifik"
+    ],
+    "correct": 0,
+    "explanation": "Detroit wurde durch die Automobilindustrie geprägt. Veränderungen dieser Branche beeinflussten die Stadt stark."
+  },
+  {
+    "id": "complex.geo-usa.025",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was meint Rust Belt?",
+    "options": [
+      "Ehemals stark industriell geprägte Räume mit Strukturproblemen",
+      "Ein geschlossener Rostring um das Land",
+      "Nur besonders trockene Wüsten"
+    ],
+    "correct": 0,
+    "explanation": "Ehemals stark industriell geprägte Räume mit Strukturproblemen"
+  },
+  {
+    "id": "complex.geo-usa.026",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was ist Strukturwandel?",
+    "options": [
+      "Eine langfristige Veränderung der Wirtschafts- und Beschäftigungsstruktur",
+      "Nur ein jährlicher Wetterwechsel",
+      "Die tägliche Öffnung eines Geschäfts"
+    ],
+    "correct": 0,
+    "explanation": "Eine langfristige Veränderung der Wirtschafts- und Beschäftigungsstruktur"
+  },
+  {
+    "id": "complex.geo-usa.027",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Welche Rolle spielen Unternehmen aus den USA im Welthandel?",
+    "options": [
+      "Viele sind international in Produktion, Handel oder Dienstleistungen aktiv.",
+      "Alle verkaufen ausschließlich innerhalb ihres Heimatorts.",
+      "Unternehmen dürfen grundsätzlich keine Dienstleistungen exportieren."
+    ],
+    "correct": 0,
+    "explanation": "Viele sind international in Produktion, Handel oder Dienstleistungen aktiv."
+  },
+  {
+    "id": "complex.geo-usa.028",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Warum ist die geografische Lage zwischen zwei Ozeanen ein Handelsvorteil?",
+    "options": [
+      "Pazifik- und Atlantikhäfen erschließen unterschiedliche Weltregionen.",
+      "Ozeane machen jede Inlandverbindung überflüssig.",
+      "Jeder Ort der USA ist ein Seehafen."
+    ],
+    "correct": 0,
+    "explanation": "Pazifik- und Atlantikhäfen erschließen unterschiedliche Weltregionen."
+  },
+  {
+    "id": "complex.geo-usa.029",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Was ist ein wirtschaftlicher Cluster?",
+    "options": [
+      "Räumliche Konzentration vernetzter Betriebe und Einrichtungen einer Branche",
+      "Eine zufällige Liste aller Berggipfel",
+      "Nur ein einzelnes Lager ohne Kontakte"
+    ],
+    "correct": 0,
+    "explanation": "Räumliche Konzentration vernetzter Betriebe und Einrichtungen einer Branche"
+  },
+  {
+    "id": "complex.geo-usa.030",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 2,
+    "prompt": "Welche Aussage über die US-Wirtschaft ist sachlich?",
+    "options": [
+      "Hohe Gesamtleistung schließt soziale und regionale Ungleichheit nicht aus.",
+      "Hohe Gesamtleistung bedeutet gleich hohen Wohlstand für alle.",
+      "Nur die Küsten besitzen wirtschaftliche Tätigkeiten."
+    ],
+    "correct": 0,
+    "explanation": "Hohe Gesamtleistung schließt soziale und regionale Ungleichheit nicht aus."
+  },
+  {
+    "id": "complex.geo-usa.031",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum erklärt ein einzelner Rohstoff nicht den gesamten wirtschaftlichen Erfolg der USA?",
+    "options": [
+      "Auch Marktgröße, Forschung, Infrastruktur und Kapital spielen eine Rolle.",
+      "Rohstoffe haben grundsätzlich nie Bedeutung.",
+      "Wirtschaft hängt allein vom Namen eines Landes ab."
+    ],
+    "correct": 0,
+    "explanation": "Auch Marktgröße, Forschung, Infrastruktur und Kapital spielen eine Rolle."
+  },
+  {
+    "id": "complex.geo-usa.032",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum können alte Industriestandorte trotz Werksschließungen neue Chancen haben?",
+    "options": [
+      "Infrastruktur, Fachwissen und Flächen lassen sich teilweise neu nutzen.",
+      "Jede ehemalige Fabrikfläche ist dauerhaft unbenutzbar.",
+      "Mit einer Werksschließung verschwinden alle Verkehrswege."
+    ],
+    "correct": 0,
+    "explanation": "Infrastruktur, Fachwissen und Flächen lassen sich teilweise neu nutzen."
+  },
+  {
+    "id": "complex.geo-usa.033",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Welche Kombination begünstigt ein Technologiecluster?",
+    "options": [
+      "Forschung, qualifizierte Beschäftigte, Kapital und Unternehmensnetzwerke",
+      "Nur möglichst große Entfernung zu allen Hochschulen",
+      "Allein eine hohe Durchschnittstemperatur"
+    ],
+    "correct": 0,
+    "explanation": "Forschung, qualifizierte Beschäftigte, Kapital und Unternehmensnetzwerke"
+  },
+  {
+    "id": "complex.geo-usa.034",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum profitieren nicht alle Regionen gleichermaßen von digitaler Wirtschaft?",
+    "options": [
+      "Ausbildung, Netze und Kapitalzugang sind ungleich verteilt.",
+      "Digitale Firmen benötigen grundsätzlich keine Infrastruktur.",
+      "Jeder neue Computer schafft automatisch überall gleiche Chancen."
+    ],
+    "correct": 0,
+    "explanation": "Ausbildung, Netze und Kapitalzugang sind ungleich verteilt."
+  },
+  {
+    "id": "complex.geo-usa.035",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum kann ein starker Dollar US-Exporte erschweren?",
+    "options": [
+      "Für Käufer mit anderen Währungen können US-Waren teurer werden.",
+      "US-Waren werden dadurch für alle zwangsläufig billiger.",
+      "Wechselkurse betreffen nur Landkarten."
+    ],
+    "correct": 0,
+    "explanation": "Für Käufer mit anderen Währungen können US-Waren teurer werden."
+  },
+  {
+    "id": "complex.geo-usa.036",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Wie kann eine weltweite Lieferkettenstörung auch US-Unternehmen treffen?",
+    "options": [
+      "Fehlende Bauteile können die Produktion unterbrechen.",
+      "Ein großer Binnenmarkt schließt jede Importabhängigkeit aus.",
+      "Alle US-Unternehmen produzieren sämtliche Bauteile selbst."
+    ],
+    "correct": 0,
+    "explanation": "Fehlende Bauteile können die Produktion unterbrechen."
+  },
+  {
+    "id": "complex.geo-usa.037",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum ist die Wasserfrage im trockenen Westen der USA ein Nutzungskonflikt?",
+    "options": [
+      "Landwirtschaft, Städte und Ökosysteme benötigen begrenztes Wasser.",
+      "Wasser hat dort keinerlei wirtschaftliche Funktion.",
+      "Nur ein einziger Haushalt nutzt das gesamte Wasser."
+    ],
+    "correct": 0,
+    "explanation": "Landwirtschaft, Städte und Ökosysteme benötigen begrenztes Wasser."
+  },
+  {
+    "id": "complex.geo-usa.038",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Welche Umweltfolge kann großflächige Monokultur verstärken?",
+    "options": [
+      "Anfälligkeit für Schädlinge und Verlust von Vielfalt",
+      "Automatische Zunahme aller Wildarten",
+      "Vollständigen Wegfall jedes Pflanzenschutzbedarfs"
+    ],
+    "correct": 0,
+    "explanation": "Anfälligkeit für Schädlinge und Verlust von Vielfalt"
+  },
+  {
+    "id": "complex.geo-usa.039",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum ist der Begriff „Belt“ für Agrarräume nur eine Vereinfachung?",
+    "options": [
+      "Anbaugrenzen sind unscharf und verändern sich.",
+      "Alle Anbauzonen sind scharf mit Mauern getrennt.",
+      "Innerhalb eines Belts wächst überall nur eine einzige Pflanze."
+    ],
+    "correct": 0,
+    "explanation": "Anbaugrenzen sind unscharf und verändern sich."
+  },
+  {
+    "id": "complex.geo-usa.040",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Welche Folge kann Automatisierung für Beschäftigung haben?",
+    "options": [
+      "Tätigkeiten verändern sich; manche entfallen, andere entstehen.",
+      "Jeder Arbeitsplatz bleibt inhaltlich unverändert.",
+      "Maschinen schaffen grundsätzlich nur mehr Handarbeit."
+    ],
+    "correct": 0,
+    "explanation": "Tätigkeiten verändern sich; manche entfallen, andere entstehen."
+  },
+  {
+    "id": "complex.geo-usa.041",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum kann Wirtschaftswachstum mit steigenden Wohnkosten verbunden sein?",
+    "options": [
+      "Zuzug und begrenzter Wohnraum können die Nachfrage erhöhen.",
+      "Wachsende Nachfrage senkt bei gleichem Angebot immer den Preis.",
+      "Wohnkosten hängen ausschließlich vom Breitengrad ab."
+    ],
+    "correct": 0,
+    "explanation": "Zuzug und begrenzter Wohnraum können die Nachfrage erhöhen."
+  },
+  {
+    "id": "complex.geo-usa.042",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Was zeigt der Vergleich zwischen Gesamt-BIP und BIP pro Kopf?",
+    "options": [
+      "Große Bevölkerung und durchschnittliche Wirtschaftsleistung sind zu unterscheiden.",
+      "Beide Kennzahlen sind immer exakt dieselbe Zahl.",
+      "BIP pro Kopf ist das persönliche Bankguthaben aller Menschen."
+    ],
+    "correct": 0,
+    "explanation": "Große Bevölkerung und durchschnittliche Wirtschaftsleistung sind zu unterscheiden."
+  },
+  {
+    "id": "complex.geo-usa.043",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum sind Dienstleistungen nicht auf örtlichen Einzelhandel beschränkt?",
+    "options": [
+      "Auch Forschung, Finanzdienste und digitale Leistungen können international sein.",
+      "Dienstleistungen können grundsätzlich nicht exportiert werden.",
+      "Jede Dienstleistung besteht aus einem physischen Container."
+    ],
+    "correct": 0,
+    "explanation": "Auch Forschung, Finanzdienste und digitale Leistungen können international sein."
+  },
+  {
+    "id": "complex.geo-usa.044",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Welche Gefahr birgt eine Stadtökonomie mit nur einem großen Arbeitgeber?",
+    "options": [
+      "Betriebliche Krisen können viele Haushalte gleichzeitig treffen.",
+      "Ein großer Arbeitgeber schließt jede Krise aus.",
+      "Andere Arbeitsplätze entstehen dann grundsätzlich nicht."
+    ],
+    "correct": 0,
+    "explanation": "Betriebliche Krisen können viele Haushalte gleichzeitig treffen."
+  },
+  {
+    "id": "complex.geo-usa.045",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum verändern sich Containerhäfen durch große Umschlagmengen?",
+    "options": [
+      "Lager, Verkehrsanbindung und Logistik gewinnen an Bedeutung.",
+      "Container machen Straßen und Bahnen nutzlos.",
+      "Jeder Container wird am Hafen vollständig verbraucht."
+    ],
+    "correct": 0,
+    "explanation": "Lager, Verkehrsanbindung und Logistik gewinnen an Bedeutung."
+  },
+  {
+    "id": "complex.geo-usa.046",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Was ist ein möglicher Zielkonflikt bei neuen Industrieansiedlungen?",
+    "options": [
+      "Arbeitsplätze und Einnahmen können mit Flächen- und Wasserbedarf kollidieren.",
+      "Neue Betriebe haben grundsätzlich keine Umweltwirkung.",
+      "Wirtschaftliche Ziele und Umweltfragen können nie zusammen auftreten."
+    ],
+    "correct": 0,
+    "explanation": "Arbeitsplätze und Einnahmen können mit Flächen- und Wasserbedarf kollidieren."
+  },
+  {
+    "id": "complex.geo-usa.047",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum gilt eine schnell wachsende Region nicht automatisch als sozial ausgeglichen?",
+    "options": [
+      "Einkommen, Wohnraum und Teilhabe können ungleich verteilt sein.",
+      "Wachstum beseitigt zwangsläufig jede Armut.",
+      "Städte können grundsätzlich keine Ungleichheit aufweisen."
+    ],
+    "correct": 0,
+    "explanation": "Einkommen, Wohnraum und Teilhabe können ungleich verteilt sein."
+  },
+  {
+    "id": "complex.geo-usa.048",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Wie kann Forschung wirtschaftliche Wertschöpfung unterstützen?",
+    "options": [
+      "Neue Verfahren und Produkte können entstehen.",
+      "Forschung ersetzt alle natürlichen Ressourcen vollständig.",
+      "Forschung wirkt ausschließlich auf die Einwohnerzahl."
+    ],
+    "correct": 0,
+    "explanation": "Neue Verfahren und Produkte können entstehen."
+  },
+  {
+    "id": "complex.geo-usa.049",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Was sollte man bei einer Karte US-amerikanischer Wirtschaftsräume beachten?",
+    "options": [
+      "Stand, Maßstab und unterschiedliche regionale Schwerpunkte",
+      "Nur ob jeder Bundesstaat dieselbe Farbe hat",
+      "Ob die Karte möglichst keine Legende besitzt"
+    ],
+    "correct": 0,
+    "explanation": "Stand, Maßstab und unterschiedliche regionale Schwerpunkte"
+  },
+  {
+    "id": "complex.geo-usa.050",
+    "subject": "geography",
+    "topic": "geo-usa",
+    "complexId": "geo-usa",
+    "competency": "geo-usa",
+    "difficulty": 3,
+    "prompt": "Warum ist „Weltwirtschaftsmacht“ keine Aussage über jedes einzelne Unternehmen?",
+    "options": [
+      "Der Begriff beschreibt die internationale Bedeutung der gesamten Wirtschaft.",
+      "Jede US-Firma ist dadurch automatisch Weltmarktführer.",
+      "Kleine Betriebe können in einer großen Volkswirtschaft nicht existieren."
+    ],
+    "correct": 0,
+    "explanation": "Der Begriff beschreibt die internationale Bedeutung der gesamten Wirtschaft."
+  }
+]

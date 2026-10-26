@@ -2,7 +2,9 @@ import {replayEquation,numberText,equationText} from '../src/learning/equations'
 import { readFileSync } from 'node:fs';
 import type { Page } from '@playwright/test';
 import type { Question } from '../src/lib/schema';
-export const catalog:Question[]=['math','german','social','biology','geography'].flatMap(subject=>JSON.parse(readFileSync(new URL(`../src/content/${subject}.json`,import.meta.url),'utf8')).questions);
+const complexCatalog=JSON.parse(readFileSync(new URL('../src/content/complexes/catalog.json',import.meta.url),'utf8')) as {id:string}[];
+const newQuestions:Question[]=complexCatalog.flatMap(c=>JSON.parse(readFileSync(new URL(`../src/content/complexes/${c.id}.json`,import.meta.url),'utf8')));
+export const catalog:Question[]=[...newQuestions,...['math','german','social','biology','geography'].flatMap(subject=>JSON.parse(readFileSync(new URL(`../src/content/${subject}.json`,import.meta.url),'utf8')).questions)];
 const topicVocabulary=JSON.parse(readFileSync(new URL('../src/content/vocabularyTopics.json',import.meta.url),'utf8')).entries as {word:string;meaning:string}[];
 const advancedVocabulary=JSON.parse(readFileSync(new URL('../src/content/vocabularyAdvanced.json',import.meta.url),'utf8')) as {word:string;meaning:string}[];
 const vocabulary=JSON.parse(readFileSync(new URL('../src/content/vocabulary.json',import.meta.url),'utf8')).entries as {word:string;meaning:string}[];

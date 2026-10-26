@@ -1,0 +1,14 @@
+/* Same controls and active colors as Deutsch; long curriculum titles wrap. */
+.complex-page .vocabulary-options{padding-bottom:0}
+.complex-page .vocabulary-choice{gap:8px;padding:7px 0;min-height:48px}
+.complex-page .vocabulary-choice h2{font-size:clamp(16px,4.8vw,22px);line-height:1.1;overflow-wrap:anywhere;margin:0}
+.complex-page .vocabulary-choice .practice-switch{min-width:66px;min-height:44px;padding:2px;gap:4px;font-size:12px}
+.complex-page .vocabulary-options h1{margin:0 0 4px;font-size:30px}
+.complex-page .vocabulary-options>p{font-size:14px;line-height:1.2;margin:4px 0}
+.complex-page .vocabulary-choices{margin:6px 0}
+.complex-page>.exit-button{min-height:44px;margin:0 4px 4px}
+.complex-page .vocabulary-start{display:grid;gap:4px;padding:5px 0}
+.complex-page .vocabulary-start button{min-height:44px;padding:8px}
+.complex-page .vocabulary-start p{margin:0;font-size:12px}
+.learning-box:is([data-subject=biology],[data-subject=geography],[data-subject=social]) .rubric-buttons button{white-space:normal;overflow-wrap:anywhere;line-height:1.15}
+@media(max-height:620px){.complex-setup-screen>main{padding-top:4px}.complex-page .vocabulary-choice{padding:3px 0}.complex-page .vocabulary-choice h2{font-size:16px}.complex-page .vocabulary-options h1{font-size:26px}.complex-page .vocabulary-choices{margin:2px 0}.complex-page .vocabulary-options>p{font-size:12px}.complex-setup-screen .header{height:44px}}

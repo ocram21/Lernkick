@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.soc-leisure.001",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Wozu kann Freizeit beitragen?",
+    "options": [
+      "Erholung, Kontakte und persönliche Interessen fördern",
+      "Schlaf grundsätzlich ersetzen",
+      "Jede Belastung im Leben vollständig beseitigen"
+    ],
+    "correct": 0,
+    "explanation": "Erholung, Kontakte und persönliche Interessen fördern"
+  },
+  {
+    "id": "complex.soc-leisure.002",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Welche Freizeitgestaltung fördert körperliche Bewegung?",
+    "options": [
+      "Spazierengehen oder Sport nach eigenen Möglichkeiten",
+      "Dauerhaft stillsitzen ohne Unterbrechung",
+      "Nur Sportvideos ansehen"
+    ],
+    "correct": 0,
+    "explanation": "Spazierengehen oder Sport nach eigenen Möglichkeiten"
+  },
+  {
+    "id": "complex.soc-leisure.003",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was kann ein Verein bieten?",
+    "options": [
+      "Gemeinsame Aktivitäten und soziale Kontakte",
+      "Eine Garantie auf ein bestimmtes Einkommen",
+      "Die Pflicht, persönliche Grenzen aufzugeben"
+    ],
+    "correct": 0,
+    "explanation": "Gemeinsame Aktivitäten und soziale Kontakte"
+  },
+  {
+    "id": "complex.soc-leisure.004",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Gruppendruck?",
+    "options": [
+      "Andere erwarten ein Verhalten, dem man sich schwer entziehen kann.",
+      "Eine Gruppe misst gemeinsam den Luftdruck.",
+      "Alle Gruppenmitglieder entscheiden immer völlig unabhängig."
+    ],
+    "correct": 0,
+    "explanation": "Andere erwarten ein Verhalten, dem man sich schwer entziehen kann."
+  },
+  {
+    "id": "complex.soc-leisure.005",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Welche Reaktion auf ein angebotenes Suchtmittel ist möglich?",
+    "options": [
+      "Klar ablehnen und Unterstützung suchen, wenn nötig",
+      "Mitmachen müssen, um höflich zu sein",
+      "Zustimmen müssen, sobald Freunde zuschauen"
+    ],
+    "correct": 0,
+    "explanation": "Klar ablehnen und Unterstützung suchen, wenn nötig"
+  },
+  {
+    "id": "complex.soc-leisure.006",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was ist eine psychoaktive Substanz?",
+    "options": [
+      "Ein Stoff, der Wahrnehmung, Stimmung oder Verhalten beeinflussen kann",
+      "Ein Stoff, der ausschließlich Metall färbt",
+      "Jedes beliebige Möbelstück"
+    ],
+    "correct": 0,
+    "explanation": "Ein Stoff, der Wahrnehmung, Stimmung oder Verhalten beeinflussen kann"
+  },
+  {
+    "id": "complex.soc-leisure.007",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Welche Substanz ist in Tabakprodukten häufig für Abhängigkeit verantwortlich?",
+    "options": [
+      "Nikotin",
+      "Kochsalz",
+      "Ballaststoff"
+    ],
+    "correct": 0,
+    "explanation": "Nikotin wirkt auf das Nervensystem und kann eine starke Abhängigkeit hervorrufen."
+  },
+  {
+    "id": "complex.soc-leisure.008",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Ist Alkohol eine psychoaktive Substanz?",
+    "options": [
+      "Ja, er beeinflusst unter anderem das Nervensystem.",
+      "Nein, Getränke können das Gehirn nicht beeinflussen.",
+      "Nur wenn er warm getrunken wird."
+    ],
+    "correct": 0,
+    "explanation": "Ja, er beeinflusst unter anderem das Nervensystem."
+  },
+  {
+    "id": "complex.soc-leisure.009",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was kann Alkohol im Straßenverkehr beeinträchtigen?",
+    "options": [
+      "Reaktion, Aufmerksamkeit und Einschätzung",
+      "Nur die Haarfarbe",
+      "Ausschließlich die Körpergröße"
+    ],
+    "correct": 0,
+    "explanation": "Reaktion, Aufmerksamkeit und Einschätzung"
+  },
+  {
+    "id": "complex.soc-leisure.010",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Welche Aussage über E-Zigaretten ist richtig?",
+    "options": [
+      "Sie sind nicht harmlos und können abhängig machendes Nikotin enthalten.",
+      "Sie enthalten grundsätzlich nur saubere Luft.",
+      "Sie sind für Jugendliche automatisch risikofrei."
+    ],
+    "correct": 0,
+    "explanation": "Sie sind nicht harmlos und können abhängig machendes Nikotin enthalten."
+  },
+  {
+    "id": "complex.soc-leisure.011",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was ist eine Suchtberatungsstelle?",
+    "options": [
+      "Eine Anlaufstelle bei Fragen zu Konsum und Abhängigkeit",
+      "Eine Stelle, die Konsum erzwingt",
+      "Nur ein Laden für Freizeitgeräte"
+    ],
+    "correct": 0,
+    "explanation": "Eine Anlaufstelle bei Fragen zu Konsum und Abhängigkeit"
+  },
+  {
+    "id": "complex.soc-leisure.012",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Abstinenz?",
+    "options": [
+      "Auf einen bestimmten Stoff oder ein bestimmtes Verhalten verzichten",
+      "Die Dosis grundsätzlich ständig erhöhen",
+      "Jeden Konsum verheimlichen"
+    ],
+    "correct": 0,
+    "explanation": "Auf einen bestimmten Stoff oder ein bestimmtes Verhalten verzichten"
+  },
+  {
+    "id": "complex.soc-leisure.013",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was kann ein Warnzeichen für problematischen Konsum sein?",
+    "options": [
+      "Wichtige Pflichten und Kontakte werden zunehmend vernachlässigt.",
+      "Ein einzelnes Hobby macht Freude.",
+      "Jemand lehnt Alkohol ab."
+    ],
+    "correct": 0,
+    "explanation": "Wichtige Pflichten und Kontakte werden zunehmend vernachlässigt."
+  },
+  {
+    "id": "complex.soc-leisure.014",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was ist ein Glücksspiel?",
+    "options": [
+      "Ein Spiel um einen Einsatz, dessen Gewinn wesentlich vom Zufall abhängt",
+      "Jedes gemeinsame Brettspiel ohne Einsatz",
+      "Jede sportliche Übung"
+    ],
+    "correct": 0,
+    "explanation": "Ein Spiel um einen Einsatz, dessen Gewinn wesentlich vom Zufall abhängt"
+  },
+  {
+    "id": "complex.soc-leisure.015",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 1,
+    "prompt": "Was ist eine gesunde Grenze in der Freizeitplanung?",
+    "options": [
+      "Zeit für Erholung und Verpflichtungen berücksichtigen",
+      "Jede Nacht möglichst wenig schlafen",
+      "Alle Kontakte zugunsten einer einzigen Aktivität aufgeben"
+    ],
+    "correct": 0,
+    "explanation": "Zeit für Erholung und Verpflichtungen berücksichtigen"
+  },
+  {
+    "id": "complex.soc-leisure.016",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Warum ist „legal“ nicht gleich „gesund“?",
+    "options": [
+      "Auch erlaubte Stoffe können schaden und abhängig machen.",
+      "Gesetze machen jeden erlaubten Stoff ungefährlich.",
+      "Gesundheitsrisiken betreffen nur verbotene Substanzen."
+    ],
+    "correct": 0,
+    "explanation": "Auch erlaubte Stoffe können schaden und abhängig machen."
+  },
+  {
+    "id": "complex.soc-leisure.017",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Kontrollverlust bei einer Abhängigkeit?",
+    "options": [
+      "Beginn, Menge oder Ende des Konsums lassen sich schwer steuern.",
+      "Die Person hat nur ihre Hausschlüssel verloren.",
+      "Jeder Konsum wird dadurch automatisch selten."
+    ],
+    "correct": 0,
+    "explanation": "Beginn, Menge oder Ende des Konsums lassen sich schwer steuern."
+  },
+  {
+    "id": "complex.soc-leisure.018",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was beschreibt Toleranzentwicklung bei einem Suchtmittel?",
+    "options": [
+      "Für eine ähnliche Wirkung wird teils mehr vom Stoff benötigt.",
+      "Der Körper wird gegen jede Schädigung immun.",
+      "Die Person verträgt danach unbegrenzt große Mengen sicher."
+    ],
+    "correct": 0,
+    "explanation": "Für eine ähnliche Wirkung wird teils mehr vom Stoff benötigt."
+  },
+  {
+    "id": "complex.soc-leisure.019",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was sind Entzugssymptome?",
+    "options": [
+      "Beschwerden, die bei Absetzen oder Verringerung eines gewohnten Stoffes auftreten können",
+      "Ein Beweis, dass eine höhere Dosis ungefährlich wäre",
+      "Immer nur freiwillig gespielte Gefühle"
+    ],
+    "correct": 0,
+    "explanation": "Beschwerden, die bei Absetzen oder Verringerung eines gewohnten Stoffes auftreten können"
+  },
+  {
+    "id": "complex.soc-leisure.020",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Warum ist Abhängigkeit keine Frage von „schwachem Charakter“ allein?",
+    "options": [
+      "Biologische, psychische und soziale Faktoren wirken zusammen.",
+      "Abhängigkeit ist immer eine bewusste Wahl ohne weitere Einflüsse.",
+      "Betroffene können grundsätzlich nicht unterstützt werden."
+    ],
+    "correct": 0,
+    "explanation": "Biologische, psychische und soziale Faktoren wirken zusammen."
+  },
+  {
+    "id": "complex.soc-leisure.021",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Warum sind Jugendliche gegenüber manchen Suchtmittelwirkungen besonders verletzlich?",
+    "options": [
+      "Körper und Gehirn entwickeln sich noch.",
+      "Jugendliche besitzen kein Nervensystem.",
+      "Jeder Jugendliche reagiert auf jeden Stoff genau gleich."
+    ],
+    "correct": 0,
+    "explanation": "Körper und Gehirn entwickeln sich noch."
+  },
+  {
+    "id": "complex.soc-leisure.022",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was kann Cannabis beeinträchtigen?",
+    "options": [
+      "Aufmerksamkeit, Gedächtnis und Reaktionsfähigkeit",
+      "Nur die Farbe der Kleidung",
+      "Ausschließlich das Wachstum von Fingernägeln"
+    ],
+    "correct": 0,
+    "explanation": "Aufmerksamkeit, Gedächtnis und Reaktionsfähigkeit"
+  },
+  {
+    "id": "complex.soc-leisure.023",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was ist eine mögliche Gefahr des Mischkonsums?",
+    "options": [
+      "Wirkungen können sich unvorhersehbar verstärken.",
+      "Alle Stoffe heben ihre Risiken sicher gegenseitig auf.",
+      "Mischen macht Konsum grundsätzlich gesünder."
+    ],
+    "correct": 0,
+    "explanation": "Wirkungen können sich unvorhersehbar verstärken."
+  },
+  {
+    "id": "complex.soc-leisure.024",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was hilft bei Sorgen über den eigenen Konsum?",
+    "options": [
+      "Frühzeitig eine geeignete Beratungsstelle oder Vertrauensperson ansprechen",
+      "Probleme grundsätzlich allein verheimlichen",
+      "Nur auf Werbeversprechen vertrauen"
+    ],
+    "correct": 0,
+    "explanation": "Frühzeitig eine geeignete Beratungsstelle oder Vertrauensperson ansprechen"
+  },
+  {
+    "id": "complex.soc-leisure.025",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was sollte man bei einer bewusstlosen Person nach möglichem Konsum tun?",
+    "options": [
+      "Sofort den Rettungsdienst rufen und den Anweisungen folgen",
+      "Sie allein lassen, bis sie aufwacht",
+      "Ihr weitere Getränke geben"
+    ],
+    "correct": 0,
+    "explanation": "Sofort den Rettungsdienst rufen und den Anweisungen folgen"
+  },
+  {
+    "id": "complex.soc-leisure.026",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Warum sollte niemand nach Suchtmittelkonsum ein Fahrzeug führen?",
+    "options": [
+      "Wahrnehmung und Reaktion können beeinträchtigt sein.",
+      "Erfahrung beseitigt jedes Risiko.",
+      "Kurze Strecken benötigen keine Aufmerksamkeit."
+    ],
+    "correct": 0,
+    "explanation": "Wahrnehmung und Reaktion können beeinträchtigt sein."
+  },
+  {
+    "id": "complex.soc-leisure.027",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Welche Freizeitstrategie kann Stress ohne Suchtmittel abbauen helfen?",
+    "options": [
+      "Bewegung, Entspannung oder Gespräche passend zur Person",
+      "Grundsätzlich jede Pause streichen",
+      "Belastungen mit immer höheren Einsätzen verdrängen"
+    ],
+    "correct": 0,
+    "explanation": "Bewegung, Entspannung oder Gespräche passend zur Person"
+  },
+  {
+    "id": "complex.soc-leisure.028",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was kann bei digitalen Spielen ein Warnsignal sein?",
+    "options": [
+      "Trotz deutlicher Nachteile gelingt es kaum, das Spielen zu begrenzen.",
+      "Gelegentliches gemeinsames Spielen macht Spaß.",
+      "Eine geplante Pause wird eingehalten."
+    ],
+    "correct": 0,
+    "explanation": "Trotz deutlicher Nachteile gelingt es kaum, das Spielen zu begrenzen."
+  },
+  {
+    "id": "complex.soc-leisure.029",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Was kann Werbekompetenz beim Thema Suchtmittel bewirken?",
+    "options": [
+      "Ansprechende Bilder von Gesundheitsrisiken unterscheiden helfen",
+      "Alle beworbenen Produkte als sicher einstufen",
+      "Konsum als Voraussetzung für Freundschaft ansehen"
+    ],
+    "correct": 0,
+    "explanation": "Ansprechende Bilder von Gesundheitsrisiken unterscheiden helfen"
+  },
+  {
+    "id": "complex.soc-leisure.030",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 2,
+    "prompt": "Warum ist ein alkoholfreies Freizeitangebot sinnvoll?",
+    "options": [
+      "Gemeinsame Erlebnisse sind ohne Konsum möglich.",
+      "Es verhindert grundsätzlich jede Form von Spaß.",
+      "Es richtet sich nur an Menschen ohne Freunde."
+    ],
+    "correct": 0,
+    "explanation": "Gemeinsame Erlebnisse sind ohne Konsum möglich."
+  },
+  {
+    "id": "complex.soc-leisure.031",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum schützt die Aussage „ich merke nichts“ nicht zuverlässig vor Beeinträchtigung?",
+    "options": [
+      "Selbsteinschätzung und tatsächliche Reaktionsfähigkeit können auseinanderliegen.",
+      "Nur spürbare Wirkungen können Risiken haben.",
+      "Ohne starkes Gefühl erreicht ein Stoff nie das Gehirn."
+    ],
+    "correct": 0,
+    "explanation": "Selbsteinschätzung und tatsächliche Reaktionsfähigkeit können auseinanderliegen."
+  },
+  {
+    "id": "complex.soc-leisure.032",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Gewohnheit und mögliche Abhängigkeit besonders?",
+    "options": [
+      "Kontrollverlust und Fortsetzung trotz Schäden sind wichtige Warnzeichen.",
+      "Jede regelmäßige Tätigkeit ist automatisch eine Krankheit.",
+      "Eine Abhängigkeit verursacht niemals Nachteile."
+    ],
+    "correct": 0,
+    "explanation": "Kontrollverlust und Fortsetzung trotz Schäden sind wichtige Warnzeichen."
+  },
+  {
+    "id": "complex.soc-leisure.033",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum kann ein Konsumtagebuch bei einer Beratung nützlich sein?",
+    "options": [
+      "Situationen und Muster werden erkennbar.",
+      "Es beweist automatisch, dass kein Problem vorliegt.",
+      "Es ersetzt grundsätzlich jede weitere Unterstützung."
+    ],
+    "correct": 0,
+    "explanation": "Situationen und Muster werden erkennbar."
+  },
+  {
+    "id": "complex.soc-leisure.034",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Wie lässt sich Gruppendruck bei einer Feier verringern?",
+    "options": [
+      "Eine unterstützende Person einbeziehen und eine klare Grenze vereinbaren",
+      "Alle eigenen Grenzen vorab aufgeben",
+      "Andere zwingen, ebenfalls zu konsumieren"
+    ],
+    "correct": 0,
+    "explanation": "Eine unterstützende Person einbeziehen und eine klare Grenze vereinbaren"
+  },
+  {
+    "id": "complex.soc-leisure.035",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum sind Konsumrisiken nicht nur von der Stoffmenge abhängig?",
+    "options": [
+      "Person, Situation, Zusammensetzung und Kombinationen wirken mit.",
+      "Für alle Menschen gilt immer exakt dieselbe Wirkung.",
+      "Die Umgebung hat grundsätzlich nie Einfluss auf Verhalten."
+    ],
+    "correct": 0,
+    "explanation": "Person, Situation, Zusammensetzung und Kombinationen wirken mit."
+  },
+  {
+    "id": "complex.soc-leisure.036",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Was ist ein sinnvoller Umgang mit einem Rückfall während einer Veränderung?",
+    "options": [
+      "Unterstützung nutzen und Auslöser sowie nächste Schritte besprechen",
+      "Jede bisherige Anstrengung als völlig wertlos erklären",
+      "Die betroffene Person beschämen und ausschließen"
+    ],
+    "correct": 0,
+    "explanation": "Unterstützung nutzen und Auslöser sowie nächste Schritte besprechen"
+  },
+  {
+    "id": "complex.soc-leisure.037",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum kann Suchtmittelwerbung ein verzerrtes Bild vermitteln?",
+    "options": [
+      "Sie verbindet Produkte oft mit Erfolg, Freiheit oder Zugehörigkeit.",
+      "Werbung zeigt immer alle Risiken gleich ausführlich.",
+      "Werbung ist grundsätzlich unabhängige Gesundheitsberatung."
+    ],
+    "correct": 0,
+    "explanation": "Sie verbindet Produkte oft mit Erfolg, Freiheit oder Zugehörigkeit."
+  },
+  {
+    "id": "complex.soc-leisure.038",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum ist „natürlich“ kein Beweis für Harmlosigkeit?",
+    "options": [
+      "Auch natürliche Stoffe können stark wirken und schaden.",
+      "Natürliche Stoffe können das Gehirn nicht erreichen.",
+      "Nur künstliche Farben verursachen Gesundheitsrisiken."
+    ],
+    "correct": 0,
+    "explanation": "Auch natürliche Stoffe können stark wirken und schaden."
+  },
+  {
+    "id": "complex.soc-leisure.039",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Was beschreibt eine verhaltensbezogene Abhängigkeit?",
+    "options": [
+      "Problematisches Verhalten kann suchttypische Merkmale ohne Stoffkonsum zeigen.",
+      "Jede Handlung wird dadurch zu einer Substanz.",
+      "Es handelt sich immer nur um zu viel Freizeit."
+    ],
+    "correct": 0,
+    "explanation": "Problematisches Verhalten kann suchttypische Merkmale ohne Stoffkonsum zeigen."
+  },
+  {
+    "id": "complex.soc-leisure.040",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum ist eine hohe Bildschirmzeit allein keine vollständige Diagnose?",
+    "options": [
+      "Kontrolle, Folgen und Lebensumstände müssen mitbetrachtet werden.",
+      "Bildschirmzeit hat grundsätzlich keine Bedeutung.",
+      "Jede Stunde am Bildschirm beweist eine Abhängigkeit."
+    ],
+    "correct": 0,
+    "explanation": "Kontrolle, Folgen und Lebensumstände müssen mitbetrachtet werden."
+  },
+  {
+    "id": "complex.soc-leisure.041",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum helfen ausschließlich Verbote nicht in jeder Präventionssituation?",
+    "options": [
+      "Wissen, Lebenskompetenzen und erreichbare Unterstützung sind ebenfalls wichtig.",
+      "Prävention braucht grundsätzlich keine Regeln.",
+      "Nur Strafen können jeden Menschen dauerhaft schützen."
+    ],
+    "correct": 0,
+    "explanation": "Wissen, Lebenskompetenzen und erreichbare Unterstützung sind ebenfalls wichtig."
+  },
+  {
+    "id": "complex.soc-leisure.042",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Unterstützung von Mitverantwortung für fremden Konsum?",
+    "options": [
+      "Man kann Hilfe anbieten, ohne die Verantwortung der anderen Person zu übernehmen.",
+      "Freunde müssen jeden Konsum kontrollieren und garantieren.",
+      "Unterstützung bedeutet immer, Geld für weitere Suchtmittel zu geben."
+    ],
+    "correct": 0,
+    "explanation": "Man kann Hilfe anbieten, ohne die Verantwortung der anderen Person zu übernehmen."
+  },
+  {
+    "id": "complex.soc-leisure.043",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum sollte über eine problematische Konsumsituation sachlich gesprochen werden?",
+    "options": [
+      "Beschämung kann Hilfe erschweren; konkrete Beobachtungen erleichtern Gespräche.",
+      "Beleidigungen führen automatisch zur Veränderung.",
+      "Probleme dürfen ausschließlich öffentlich in Gruppen besprochen werden."
+    ],
+    "correct": 0,
+    "explanation": "Beschämung kann Hilfe erschweren; konkrete Beobachtungen erleichtern Gespräche."
+  },
+  {
+    "id": "complex.soc-leisure.044",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Welche Freizeitplanung beachtet ein begrenztes Budget?",
+    "options": [
+      "Kosten für Fahrt, Eintritt und Essen vorher prüfen",
+      "Nur den Eintritt beachten und alle übrigen Kosten ignorieren",
+      "Für jede Aktivität ohne Prüfung Schulden aufnehmen"
+    ],
+    "correct": 0,
+    "explanation": "Kosten für Fahrt, Eintritt und Essen vorher prüfen"
+  },
+  {
+    "id": "complex.soc-leisure.045",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum ist eine gemeinsame Aktivität nicht automatisch inklusiv?",
+    "options": [
+      "Zugang, Kosten und individuelle Bedürfnisse müssen passen.",
+      "Gruppenangebote sind grundsätzlich für alle gleich erreichbar.",
+      "Inklusion hängt nur von der Zahl der Teilnehmenden ab."
+    ],
+    "correct": 0,
+    "explanation": "Zugang, Kosten und individuelle Bedürfnisse müssen passen."
+  },
+  {
+    "id": "complex.soc-leisure.046",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Was kann helfen, ein neues Hobby länger auszuprobieren?",
+    "options": [
+      "Ein erreichbares Ziel und passende Unterstützung vereinbaren",
+      "Sofort perfekte Leistungen verlangen",
+      "Jede Anfängerfrage als Scheitern bewerten"
+    ],
+    "correct": 0,
+    "explanation": "Ein erreichbares Ziel und passende Unterstützung vereinbaren"
+  },
+  {
+    "id": "complex.soc-leisure.047",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum ist ausreichender Schlaf Teil sinnvoller Freizeitgestaltung?",
+    "options": [
+      "Er unterstützt Erholung, Konzentration und Leistungsfähigkeit.",
+      "Er kann dauerhaft durch Energydrinks ersetzt werden.",
+      "Er ist nur an Arbeitstagen nötig."
+    ],
+    "correct": 0,
+    "explanation": "Er unterstützt Erholung, Konzentration und Leistungsfähigkeit."
+  },
+  {
+    "id": "complex.soc-leisure.048",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Was macht einen Plan für eine schwierige Konsumsituation hilfreich?",
+    "options": [
+      "Konkrete Alternativen und erreichbare Unterstützung vorher festlegen",
+      "Darauf vertrauen, dass Gruppendruck nie entsteht",
+      "Alle bisherigen Erfahrungen ignorieren"
+    ],
+    "correct": 0,
+    "explanation": "Konkrete Alternativen und erreichbare Unterstützung vorher festlegen"
+  },
+  {
+    "id": "complex.soc-leisure.049",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Warum sollte eine bewusstlose Person nicht zum Trinken gebracht werden?",
+    "options": [
+      "Verschlucken und Atemwegsprobleme sind möglich.",
+      "Getränke machen jede Bewusstlosigkeit sofort rückgängig.",
+      "Flüssigkeit ersetzt den Rettungsdienst."
+    ],
+    "correct": 0,
+    "explanation": "Verschlucken und Atemwegsprobleme sind möglich."
+  },
+  {
+    "id": "complex.soc-leisure.050",
+    "subject": "social",
+    "topic": "soc-leisure",
+    "complexId": "soc-leisure",
+    "competency": "soc-leisure",
+    "difficulty": 3,
+    "prompt": "Welche Aussage ist bei Suchtprävention nicht stigmatisierend?",
+    "options": [
+      "Menschen mit Abhängigkeit verdienen Unterstützung und respektvolle Behandlung.",
+      "Abhängige Menschen sind grundsätzlich selbst wertlos.",
+      "Hilfe steht nur Menschen ohne Rückfälle zu."
+    ],
+    "correct": 0,
+    "explanation": "Menschen mit Abhängigkeit verdienen Unterstützung und respektvolle Behandlung."
+  }
+]

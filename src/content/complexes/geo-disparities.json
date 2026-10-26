@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.geo-disparities.001",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was bedeutet räumliche Disparität?",
+    "options": [
+      "Ein Unterschied zwischen Regionen, etwa bei Einkommen oder Versorgung",
+      "Eine Grenze zwischen zwei Zeitzonen allein",
+      "Eine überall gleiche Lebensbedingung"
+    ],
+    "correct": 0,
+    "explanation": "Ein Unterschied zwischen Regionen, etwa bei Einkommen oder Versorgung"
+  },
+  {
+    "id": "complex.geo-disparities.002",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was ist Infrastruktur?",
+    "options": [
+      "Grundausstattung wie Verkehrswege, Netze und Einrichtungen",
+      "Nur das Wetter eines Ortes",
+      "Nur die Zahl der Berge"
+    ],
+    "correct": 0,
+    "explanation": "Grundausstattung wie Verkehrswege, Netze und Einrichtungen"
+  },
+  {
+    "id": "complex.geo-disparities.003",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Import?",
+    "options": [
+      "Waren oder Dienstleistungen aus dem Ausland beziehen",
+      "Waren ins Ausland verkaufen",
+      "Ausschließlich im eigenen Haushalt produzieren"
+    ],
+    "correct": 0,
+    "explanation": "Waren oder Dienstleistungen aus dem Ausland beziehen"
+  },
+  {
+    "id": "complex.geo-disparities.004",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Export?",
+    "options": [
+      "Waren oder Dienstleistungen ins Ausland verkaufen",
+      "Waren aus dem Ausland beziehen",
+      "Nur Geld im Inland sparen"
+    ],
+    "correct": 0,
+    "explanation": "Waren oder Dienstleistungen ins Ausland verkaufen"
+  },
+  {
+    "id": "complex.geo-disparities.005",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was beschreibt Globalisierung?",
+    "options": [
+      "Zunehmende weltweite Verflechtung von Wirtschaft und Gesellschaft",
+      "Völlige Trennung aller Länder",
+      "Abschaffung jeder regionalen Produktion"
+    ],
+    "correct": 0,
+    "explanation": "Zunehmende weltweite Verflechtung von Wirtschaft und Gesellschaft"
+  },
+  {
+    "id": "complex.geo-disparities.006",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was ist eine Lieferkette?",
+    "options": [
+      "Abfolge von Beschaffung, Herstellung und Lieferung",
+      "Nur die letzte Fahrt zum Supermarkt",
+      "Eine Liste aller Staatsgrenzen"
+    ],
+    "correct": 0,
+    "explanation": "Abfolge von Beschaffung, Herstellung und Lieferung"
+  },
+  {
+    "id": "complex.geo-disparities.007",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was zählt zum primären Wirtschaftssektor?",
+    "options": [
+      "Landwirtschaft",
+      "Maschinenbau",
+      "Versicherung"
+    ],
+    "correct": 0,
+    "explanation": "Landwirtschaft gewinnt pflanzliche oder tierische Erzeugnisse und gehört zum primären Sektor."
+  },
+  {
+    "id": "complex.geo-disparities.008",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was zählt zum sekundären Wirtschaftssektor?",
+    "options": [
+      "Industrielle Verarbeitung",
+      "Fischfang",
+      "Schulunterricht"
+    ],
+    "correct": 0,
+    "explanation": "Der sekundäre Sektor verarbeitet Rohstoffe und stellt daraus Güter her."
+  },
+  {
+    "id": "complex.geo-disparities.009",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was zählt zum tertiären Wirtschaftssektor?",
+    "options": [
+      "Dienstleistungen",
+      "Rohölgewinnung",
+      "Getreideanbau"
+    ],
+    "correct": 0,
+    "explanation": "Dienstleistungen wie Beratung, Unterricht oder Handel gehören zum tertiären Sektor."
+  },
+  {
+    "id": "complex.geo-disparities.010",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was ist ein Ballungsraum?",
+    "options": [
+      "Ein dicht besiedeltes Gebiet mit vielen Verflechtungen",
+      "Eine völlig menschenleere Wüste",
+      "Ein einzelnes unbewohntes Gebäude"
+    ],
+    "correct": 0,
+    "explanation": "Ein dicht besiedeltes Gebiet mit vielen Verflechtungen"
+  },
+  {
+    "id": "complex.geo-disparities.011",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was ist ein ländlicher Raum typischerweise?",
+    "options": [
+      "Ein eher dünn besiedeltes Gebiet mit Dörfern und kleineren Orten",
+      "Ein Gebiet ohne wirtschaftliche Tätigkeit",
+      "Immer ein tropischer Regenwald"
+    ],
+    "correct": 0,
+    "explanation": "Ein eher dünn besiedeltes Gebiet mit Dörfern und kleineren Orten"
+  },
+  {
+    "id": "complex.geo-disparities.012",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Pendeln im Berufsalltag?",
+    "options": [
+      "Regelmäßig zwischen Wohnort und Arbeitsort fahren",
+      "Für immer in ein anderes Land ziehen",
+      "Nur Waren über einen Hafen ausführen"
+    ],
+    "correct": 0,
+    "explanation": "Regelmäßig zwischen Wohnort und Arbeitsort fahren"
+  },
+  {
+    "id": "complex.geo-disparities.013",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was ist ein Standortfaktor?",
+    "options": [
+      "Eine Bedingung, die die Wahl eines Betriebsstandorts beeinflusst",
+      "Nur die Farbe eines Firmenlogos",
+      "Eine beliebige Flugroute"
+    ],
+    "correct": 0,
+    "explanation": "Eine Bedingung, die die Wahl eines Betriebsstandorts beeinflusst"
+  },
+  {
+    "id": "complex.geo-disparities.014",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Migration?",
+    "options": [
+      "Verlagerung des Lebensmittelpunktes in einen anderen Raum",
+      "Jede tägliche Busfahrt zur Arbeit",
+      "Jede Warenlieferung zwischen Geschäften"
+    ],
+    "correct": 0,
+    "explanation": "Verlagerung des Lebensmittelpunktes in einen anderen Raum"
+  },
+  {
+    "id": "complex.geo-disparities.015",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 1,
+    "prompt": "Was ist Urbanisierung?",
+    "options": [
+      "Zunahme städtischer Bevölkerung und Lebensweisen",
+      "Rückgang aller Städte zu Feldern",
+      "Verschiebung der Erdachse"
+    ],
+    "correct": 0,
+    "explanation": "Zunahme städtischer Bevölkerung und Lebensweisen"
+  },
+  {
+    "id": "complex.geo-disparities.016",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Warum siedelt sich eine Fabrik oft nahe guter Verkehrswege an?",
+    "options": [
+      "Material und Produkte lassen sich leichter transportieren.",
+      "Straßen erzeugen ihre Rohstoffe.",
+      "Jede Fabrik braucht einen Flughafen direkt im Gebäude."
+    ],
+    "correct": 0,
+    "explanation": "Material und Produkte lassen sich leichter transportieren."
+  },
+  {
+    "id": "complex.geo-disparities.017",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was kann eine schlechte Internetversorgung in einer Region erschweren?",
+    "options": [
+      "Digitale Arbeit und Zugang zu Onlineangeboten",
+      "Das Entstehen von Niederschlag",
+      "Die Drehung der Erde"
+    ],
+    "correct": 0,
+    "explanation": "Digitale Arbeit und Zugang zu Onlineangeboten"
+  },
+  {
+    "id": "complex.geo-disparities.018",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was beschreibt das Bruttoinlandsprodukt grundsätzlich?",
+    "options": [
+      "Wert der im Inland erzeugten Waren und Dienstleistungen abzüglich Vorleistungen",
+      "Gesamte Fläche aller Wohnhäuser",
+      "Zahl der abgegebenen Wahlzettel"
+    ],
+    "correct": 0,
+    "explanation": "Wert der im Inland erzeugten Waren und Dienstleistungen abzüglich Vorleistungen"
+  },
+  {
+    "id": "complex.geo-disparities.019",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Warum reicht ein hohes Durchschnittseinkommen nicht zur Beschreibung aller Lebenslagen?",
+    "options": [
+      "Einkommen können sehr ungleich verteilt sein.",
+      "Alle Menschen verdienen dann genau gleich viel.",
+      "Ein Durchschnitt misst nur das Klima."
+    ],
+    "correct": 0,
+    "explanation": "Einkommen können sehr ungleich verteilt sein."
+  },
+  {
+    "id": "complex.geo-disparities.020",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was meint Kaufkraft?",
+    "options": [
+      "Welche Waren und Leistungen man mit Geld erwerben kann",
+      "Die Zahl der Banknoten unabhängig von Preisen",
+      "Nur die Größe eines Einkaufszentrums"
+    ],
+    "correct": 0,
+    "explanation": "Welche Waren und Leistungen man mit Geld erwerben kann"
+  },
+  {
+    "id": "complex.geo-disparities.021",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Warum vergleichen Forschende mehrere Entwicklungsindikatoren?",
+    "options": [
+      "Gesundheit, Bildung und Einkommen zeigen verschiedene Lebensbedingungen.",
+      "Ein einziger Messwert bildet immer alles vollständig ab.",
+      "Indikatoren haben grundsätzlich keinen räumlichen Bezug."
+    ],
+    "correct": 0,
+    "explanation": "Gesundheit, Bildung und Einkommen zeigen verschiedene Lebensbedingungen."
+  },
+  {
+    "id": "complex.geo-disparities.022",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was kann ein Pull-Faktor für Zuwanderung sein?",
+    "options": [
+      "Gute Ausbildungs- und Arbeitsmöglichkeiten",
+      "Verfolgung im Herkunftsland",
+      "Eine Naturkatastrophe am Herkunftsort"
+    ],
+    "correct": 0,
+    "explanation": "Gute Ausbildungs- und Arbeitsmöglichkeiten"
+  },
+  {
+    "id": "complex.geo-disparities.023",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was kann ein Push-Faktor für Abwanderung sein?",
+    "options": [
+      "Fehlende Zukunftsperspektiven am Herkunftsort",
+      "Ein attraktiver Studienplatz am Zielort",
+      "Eine gute Bahnverbindung am Zielort"
+    ],
+    "correct": 0,
+    "explanation": "Fehlende Zukunftsperspektiven am Herkunftsort"
+  },
+  {
+    "id": "complex.geo-disparities.024",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Warum entstehen Verkehrsverflechtungen zwischen Stadt und Umland?",
+    "options": [
+      "Menschen nutzen Arbeitsplätze und Angebote an unterschiedlichen Orten.",
+      "Alle Einwohner erledigen alles im eigenen Haus.",
+      "Verkehr entsteht nur zwischen Kontinenten."
+    ],
+    "correct": 0,
+    "explanation": "Menschen nutzen Arbeitsplätze und Angebote an unterschiedlichen Orten."
+  },
+  {
+    "id": "complex.geo-disparities.025",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was ist ein multinationales Unternehmen?",
+    "options": [
+      "Ein Unternehmen mit Aktivitäten in mehreren Staaten",
+      "Ein Betrieb, der nur ein einziges Dorf beliefert",
+      "Jede Firma mit mehr als einem Mitarbeiter"
+    ],
+    "correct": 0,
+    "explanation": "Ein Unternehmen mit Aktivitäten in mehreren Staaten"
+  },
+  {
+    "id": "complex.geo-disparities.026",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Welche Folge kann internationale Arbeitsteilung haben?",
+    "options": [
+      "Ein Produkt wird an mehreren Orten hergestellt.",
+      "Alle Regionen stellen zwangsläufig alles selbst her.",
+      "Transportwege werden grundsätzlich bedeutungslos."
+    ],
+    "correct": 0,
+    "explanation": "Ein Produkt wird an mehreren Orten hergestellt."
+  },
+  {
+    "id": "complex.geo-disparities.027",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Warum kann Rohstoffreichtum allein Wohlstand nicht garantieren?",
+    "options": [
+      "Verarbeitung, Verteilung und politische Bedingungen spielen ebenfalls eine Rolle.",
+      "Rohstoffe besitzen niemals wirtschaftlichen Wert.",
+      "Jede Lagerstätte gehört automatisch allen Bewohnern gleichmäßig."
+    ],
+    "correct": 0,
+    "explanation": "Verarbeitung, Verteilung und politische Bedingungen spielen ebenfalls eine Rolle."
+  },
+  {
+    "id": "complex.geo-disparities.028",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was kann regionale Förderung bewirken?",
+    "options": [
+      "Schwächere Regionen bei Infrastruktur und Entwicklung unterstützen",
+      "Jede regionale Besonderheit sofort abschaffen",
+      "Garantiert alle Unternehmen verlustfrei machen"
+    ],
+    "correct": 0,
+    "explanation": "Schwächere Regionen bei Infrastruktur und Entwicklung unterstützen"
+  },
+  {
+    "id": "complex.geo-disparities.029",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Was bezeichnet Fachkräftemangel?",
+    "options": [
+      "Betriebe finden für bestimmte Aufgaben nicht genügend qualifizierte Menschen.",
+      "Es gibt in einer Region überhaupt keine Einwohner.",
+      "Alle Beschäftigten haben zu viele Abschlüsse."
+    ],
+    "correct": 0,
+    "explanation": "Betriebe finden für bestimmte Aufgaben nicht genügend qualifizierte Menschen."
+  },
+  {
+    "id": "complex.geo-disparities.030",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 2,
+    "prompt": "Welche Aussage beschreibt nachhaltige Entwicklung?",
+    "options": [
+      "Heutige Bedürfnisse erfüllen und zukünftige Lebensgrundlagen erhalten",
+      "Nur möglichst schnell Rohstoffe verbrauchen",
+      "Umwelt grundsätzlich ohne soziale Fragen betrachten"
+    ],
+    "correct": 0,
+    "explanation": "Heutige Bedürfnisse erfüllen und zukünftige Lebensgrundlagen erhalten"
+  },
+  {
+    "id": "complex.geo-disparities.031",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Eine Klinik schließt und die Fahrwege werden länger. Welche Disparität kann zunehmen?",
+    "options": [
+      "Ungleichheit beim Zugang zur Gesundheitsversorgung",
+      "Ungleichheit der Tageslänge",
+      "Ungleichheit des Meeressalzgehalts"
+    ],
+    "correct": 0,
+    "explanation": "Ungleichheit beim Zugang zur Gesundheitsversorgung"
+  },
+  {
+    "id": "complex.geo-disparities.032",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum ist BIP pro Kopf keine Aussage über das persönliche Einkommen jeder Person?",
+    "options": [
+      "Es ist ein rechnerischer Durchschnitt der Wirtschaftsleistung.",
+      "Es wird für jede Person direkt ausgezahlt.",
+      "Es erfasst ausschließlich private Ersparnisse."
+    ],
+    "correct": 0,
+    "explanation": "Es ist ein rechnerischer Durchschnitt der Wirtschaftsleistung."
+  },
+  {
+    "id": "complex.geo-disparities.033",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum können niedrige Löhne als Standortvorteil soziale Probleme verdecken?",
+    "options": [
+      "Arbeitsbedingungen und Existenzsicherung müssen zusätzlich betrachtet werden.",
+      "Niedrige Löhne beweisen immer besonders hohe Lebensqualität.",
+      "Lohnhöhe hat keinerlei Bedeutung für Beschäftigte."
+    ],
+    "correct": 0,
+    "explanation": "Arbeitsbedingungen und Existenzsicherung müssen zusätzlich betrachtet werden."
+  },
+  {
+    "id": "complex.geo-disparities.034",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was macht eine Lieferkette anfällig für eine Hafenschließung?",
+    "options": [
+      "Viele aufeinander angewiesene Produktionsschritte können unterbrochen werden.",
+      "Jeder Betrieb hat unbegrenzte Vorräte.",
+      "Container ersetzen sämtliche Verkehrswege."
+    ],
+    "correct": 0,
+    "explanation": "Viele aufeinander angewiesene Produktionsschritte können unterbrochen werden."
+  },
+  {
+    "id": "complex.geo-disparities.035",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was kann der Vergleich von Stadt und Land bei reinen Einwohnerzahlen übersehen?",
+    "options": [
+      "Die Fläche und damit die Bevölkerungsdichte",
+      "Die Zahl der Kontinente",
+      "Die Lage der Erdumlaufbahn"
+    ],
+    "correct": 0,
+    "explanation": "Die Fläche und damit die Bevölkerungsdichte"
+  },
+  {
+    "id": "complex.geo-disparities.036",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum sind regionale Grenzen bei Statistiken wichtig?",
+    "options": [
+      "Durch andere Gebietsabgrenzungen können sich Durchschnittswerte ändern.",
+      "Grenzen ändern automatisch alle Einkommen.",
+      "Statistische Werte sind unabhängig von ihrer Bezugsgruppe."
+    ],
+    "correct": 0,
+    "explanation": "Durch andere Gebietsabgrenzungen können sich Durchschnittswerte ändern."
+  },
+  {
+    "id": "complex.geo-disparities.037",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was ist eine Agglomerationswirkung?",
+    "options": [
+      "Nähe vieler Betriebe erleichtert Austausch, Zulieferung und Fachkräftesuche.",
+      "Jeder Ballungsraum ist automatisch ohne Verkehrsprobleme.",
+      "Räumliche Nähe verhindert jeden Wettbewerb."
+    ],
+    "correct": 0,
+    "explanation": "Nähe vieler Betriebe erleichtert Austausch, Zulieferung und Fachkräftesuche."
+  },
+  {
+    "id": "complex.geo-disparities.038",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Welche Folge kann Abwanderung junger Menschen für einen Ort haben?",
+    "options": [
+      "Altersstruktur und Nachfrage nach Einrichtungen verändern sich.",
+      "Die Anzahl der Sonnenstunden steigt zwingend.",
+      "Alle verbliebenen Einwohner erhalten automatisch Arbeit."
+    ],
+    "correct": 0,
+    "explanation": "Altersstruktur und Nachfrage nach Einrichtungen verändern sich."
+  },
+  {
+    "id": "complex.geo-disparities.039",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum kann eine neue Autobahn regional unterschiedlich wirken?",
+    "options": [
+      "Erreichbarkeit, Belastungen und wirtschaftliche Chancen verteilen sich ungleich.",
+      "Alle Haushalte gewinnen immer genau gleich viel.",
+      "Verkehrswege beeinflussen ausschließlich das Wetter."
+    ],
+    "correct": 0,
+    "explanation": "Erreichbarkeit, Belastungen und wirtschaftliche Chancen verteilen sich ungleich."
+  },
+  {
+    "id": "complex.geo-disparities.040",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was kann ein Problem der Abhängigkeit von einem einzigen Exportgut sein?",
+    "options": [
+      "Preisschwankungen treffen die Wirtschaft besonders stark.",
+      "Der Preis dieses Gutes kann nie sinken.",
+      "Andere Staaten müssen es unbegrenzt kaufen."
+    ],
+    "correct": 0,
+    "explanation": "Preisschwankungen treffen die Wirtschaft besonders stark."
+  },
+  {
+    "id": "complex.geo-disparities.041",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum kann fairerer Handel Entwicklung unterstützen?",
+    "options": [
+      "Bessere Bedingungen können Einkommen und Planungssicherheit fördern.",
+      "Ein Siegel beseitigt automatisch alle sozialen Probleme.",
+      "Handel funktioniert dann ohne Preise und Verträge."
+    ],
+    "correct": 0,
+    "explanation": "Bessere Bedingungen können Einkommen und Planungssicherheit fördern."
+  },
+  {
+    "id": "complex.geo-disparities.042",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Welche Aussage berücksichtigt globale Umweltfolgen von Konsum?",
+    "options": [
+      "Ein Produkt kann Umweltbelastungen an anderen Produktionsorten verursachen.",
+      "Nur der Verkaufsort hat Umweltwirkungen.",
+      "Importierte Waren benötigen grundsätzlich keine Ressourcen."
+    ],
+    "correct": 0,
+    "explanation": "Ein Produkt kann Umweltbelastungen an anderen Produktionsorten verursachen."
+  },
+  {
+    "id": "complex.geo-disparities.043",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was ist ein Beispiel für eine Rückkopplung in regionaler Entwicklung?",
+    "options": [
+      "Neue Arbeitsplätze ziehen Menschen an, dadurch wächst die Nachfrage vor Ort.",
+      "Die Größe eines Landes legt jede Firmenentscheidung fest.",
+      "Eine neue Straße beendet jede Abwanderung dauerhaft."
+    ],
+    "correct": 0,
+    "explanation": "Neue Arbeitsplätze ziehen Menschen an, dadurch wächst die Nachfrage vor Ort."
+  },
+  {
+    "id": "complex.geo-disparities.044",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum kann Tourismus sowohl Chancen als auch Risiken bringen?",
+    "options": [
+      "Er schafft Einkommen, kann aber Natur und Wohnraum belasten.",
+      "Er hat ausschließlich positive Folgen.",
+      "Er erzeugt grundsätzlich keine Arbeitsplätze."
+    ],
+    "correct": 0,
+    "explanation": "Er schafft Einkommen, kann aber Natur und Wohnraum belasten."
+  },
+  {
+    "id": "complex.geo-disparities.045",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum ist ein Vergleich von Geldbeträgen aus verschiedenen Jahren vorsichtig zu deuten?",
+    "options": [
+      "Preisänderungen verändern die Kaufkraft.",
+      "Ein Euro kauft zu jeder Zeit gleich viel.",
+      "Geldbeträge messen nur Bevölkerungsdichte."
+    ],
+    "correct": 0,
+    "explanation": "Preisänderungen verändern die Kaufkraft."
+  },
+  {
+    "id": "complex.geo-disparities.046",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was spricht gegen die Aussage „alle Menschen eines reichen Landes sind reich“?",
+    "options": [
+      "Landesdurchschnitte verdecken soziale und regionale Unterschiede.",
+      "In reichen Ländern gibt es keine Einkommensunterschiede.",
+      "Jeder Staat verteilt das BIP gleichmäßig an alle Haushalte."
+    ],
+    "correct": 0,
+    "explanation": "Landesdurchschnitte verdecken soziale und regionale Unterschiede."
+  },
+  {
+    "id": "complex.geo-disparities.047",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was kann der Ausbau von Bildung langfristig für eine Region bewirken?",
+    "options": [
+      "Qualifikationen und berufliche Möglichkeiten verbessern",
+      "Sofort sämtliche Verkehrswege ersetzen",
+      "Jede wirtschaftliche Krise für immer verhindern"
+    ],
+    "correct": 0,
+    "explanation": "Qualifikationen und berufliche Möglichkeiten verbessern"
+  },
+  {
+    "id": "complex.geo-disparities.048",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Warum kann ein hoher Exportwert mit importierten Vorleistungen zusammenhängen?",
+    "options": [
+      "Viele Exportprodukte enthalten Bauteile aus anderen Ländern.",
+      "Ein Exportprodukt muss immer vollständig im Inland entstanden sein.",
+      "Import und Export können nie denselben Betrieb betreffen."
+    ],
+    "correct": 0,
+    "explanation": "Viele Exportprodukte enthalten Bauteile aus anderen Ländern."
+  },
+  {
+    "id": "complex.geo-disparities.049",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Welche Untersuchung zeigt Verflechtungen besser als eine einzelne Ortszahl?",
+    "options": [
+      "Karten der Pendler- und Warenströme",
+      "Nur die Farbe des Stadtrathauses",
+      "Nur der Name des größten Berges"
+    ],
+    "correct": 0,
+    "explanation": "Karten der Pendler- und Warenströme"
+  },
+  {
+    "id": "complex.geo-disparities.050",
+    "subject": "geography",
+    "topic": "geo-disparities",
+    "complexId": "geo-disparities",
+    "competency": "geo-disparities",
+    "difficulty": 3,
+    "prompt": "Was ist bei einer Karte regionaler Unterschiede zuerst zu prüfen?",
+    "options": [
+      "Legende, Bezugsgröße, Zeitraum und Gebietsabgrenzung",
+      "Ob die Lieblingsfarbe vorkommt",
+      "Ob alle Gebiete gleich groß gezeichnet sind"
+    ],
+    "correct": 0,
+    "explanation": "Legende, Bezugsgröße, Zeitraum und Gebietsabgrenzung"
+  }
+]

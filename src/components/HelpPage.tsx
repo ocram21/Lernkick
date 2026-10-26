@@ -3,7 +3,7 @@ import {ExitButton} from './ExitButton';
 // Current help content, including expandable sections.
 export const helpSections=[
  {title:'Training und Schwierigkeit',paragraphs:[
-  'Wähle Mathematik, Deutsch, Sozialkunde, Biologie oder Geographie. In Mathematik und Deutsch kannst du Themen auswählen. Deutsch enthält auch Begriffe, Satzbau, Grammatik, Rechtschreibung und Sprichwörter. Lies die Rückmeldung nach deiner Antwort. Pause zeigt dir bisherige Aufgaben; danach kannst du fortsetzen.',
+  'Wähle Mathematik, Deutsch, Sozialkunde, Biologie oder Geographie. In Mathematik und Deutsch kannst du Themen auswählen. In Biologie, Geografie und Sozialkunde wählst du vor jeder neuen Fragenrunde einen oder mehrere Lernkomplexe. Die zehn Fragen werden ausschließlich aus deiner Auswahl gemischt. Mehrere Komplexe kommen möglichst ausgewogen vor. Eine angefangene Runde kannst du mit ihrer bisherigen Auswahl fortsetzen. Die globale Schwierigkeit bleibt wirksam. Deutsch enthält auch Begriffe, Satzbau, Grammatik, Rechtschreibung und Sprichwörter. Lies die Rückmeldung nach deiner Antwort. Pause zeigt dir bisherige Aufgaben; danach kannst du fortsetzen.',
   'Normal und Streber stellen die Schwierigkeit global ein. Streber bietet anspruchsvollere Aufgaben in den Bereichen, die diese Einstellung unterstützen.']},
  {title:'Games',paragraphs:[
   'Wähle Zahlenpuzzle, Bildpuzzle oder Codeknacker direkt aus. Beim Puzzle schiebst du eine benachbarte Kachel in die Lücke. Ordne die Zahlen oder die Berglandschaft; unten rechts bleibt frei.',
@@ -14,7 +14,7 @@ export const helpSections=[
   'Galgenraten: Finde das Wort mit den Buchstabentasten. Im Deutschlandquiz ordnest du zuerst die Bundesländer und dann ihre Hauptstädte zu.',
   'Dual N-Back: Vergleiche Position und Ton mit dem Reiz N Schritte zuvor. Melde passende Positionen und Töne getrennt. 1-Back und 2-Back sind direkt wählbar; 3-Back wird nach bestandenem 2-Back frei. Markierungen auf der Startseite zeigen gemeisterte Stufen.']},
  {title:'Lernkasten',paragraphs:[
-  'Wähle Fach und Unterrubriken. Voreingestellte und eigene Karten lassen sich kombinieren. Starte die Auswahl und zeige die Antwort. Gewusst verschiebt die Karte in ein höheres Wiederholungsfach; Nicht gewusst legt sie ins erste Fach zurück.',
+  'Wähle Fach und Unterrubriken. Biologie, Geografie und Sozialkunde bieten dieselben Lernkomplexe wie die Fragenrunden, aber eine getrennt gespeicherte Auswahl. Zu jedem Komplex sind passende Lernkarten vorbereitet; eigene Karten kannst du weiterhin hinzufügen. Voreingestellte und eigene Karten lassen sich kombinieren. Starte die Auswahl und zeige die Antwort. Gewusst verschiebt die Karte in ein höheres Wiederholungsfach; Nicht gewusst legt sie ins erste Fach zurück.',
   'Auswahl ändern öffnet die Fach- und Kartenauswahl. Bei gleicher Auswahl setzt du die Runde fort. Karten hinzufügen öffnet das Formular für eine eigene Frage und Antwort. Wähle eine aktive Unterrubrik und speichere die Karte. Im Lernkasten gibt es keine Score-Punkte.']},
  {title:'Score und Skill',paragraphs:[
   'Score zählt deine Punkte aus dem Training und den Games. Skill zeigt deine Lernstärke. Für mindestens 30 aktive Lernminuten erhältst du einmal pro Kalendertag ein Siebtel des Höchstwerts. Von null auf 100 Prozent brauchst du sieben erfüllte Tagesziele; an einem Tag geht das nicht.',

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.bio-ecology.001",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was ist ein Ökosystem?",
+    "options": [
+      "Lebensraum und darin lebende Organismen mit ihren Beziehungen",
+      "Nur eine einzelne Tierart",
+      "Eine Sammlung unbelebter Steine ohne Umgebung"
+    ],
+    "correct": 0,
+    "explanation": "Lebensraum und darin lebende Organismen mit ihren Beziehungen"
+  },
+  {
+    "id": "complex.bio-ecology.002",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was bezeichnet ein Lebensraum?",
+    "options": [
+      "Den Bereich mit seinen Umweltbedingungen, in dem Organismen leben",
+      "Nur den Namen eines Tieres",
+      "Nur die Nahrung eines Organismus"
+    ],
+    "correct": 0,
+    "explanation": "Den Bereich mit seinen Umweltbedingungen, in dem Organismen leben"
+  },
+  {
+    "id": "complex.bio-ecology.003",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was ist eine Population?",
+    "options": [
+      "Individuen einer Art in einem Gebiet zur selben Zeit",
+      "Alle Arten auf der Erde",
+      "Alle unbelebten Bestandteile eines Waldes"
+    ],
+    "correct": 0,
+    "explanation": "Individuen einer Art in einem Gebiet zur selben Zeit"
+  },
+  {
+    "id": "complex.bio-ecology.004",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Welche Organismen stellen durch Fotosynthese organische Stoffe her?",
+    "options": [
+      "Produzenten wie grüne Pflanzen",
+      "Nur räuberische Säugetiere",
+      "Nur abgestorbene Blätter"
+    ],
+    "correct": 0,
+    "explanation": "Produzenten wie grüne Pflanzen"
+  },
+  {
+    "id": "complex.bio-ecology.005",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Welche Rolle hat ein Pflanzenfresser in einer Nahrungskette?",
+    "options": [
+      "Er ist Konsument.",
+      "Er ist immer Produzent.",
+      "Er ist ein unbelebter Umweltfaktor."
+    ],
+    "correct": 0,
+    "explanation": "Ein Pflanzenfresser nimmt bereits aufgebaute organische Stoffe auf und gehört damit zu den Konsumenten."
+  },
+  {
+    "id": "complex.bio-ecology.006",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was tun Zersetzer wie viele Pilze und Bakterien?",
+    "options": [
+      "Sie bauen abgestorbenes organisches Material ab.",
+      "Sie erzeugen Sonnenlicht.",
+      "Sie verhindern jeden Stoffkreislauf."
+    ],
+    "correct": 0,
+    "explanation": "Sie bauen abgestorbenes organisches Material ab."
+  },
+  {
+    "id": "complex.bio-ecology.007",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Welche Reihenfolge passt zu einer einfachen Nahrungskette?",
+    "options": [
+      "Gras – Kaninchen – Fuchs",
+      "Fuchs – Gras – Kaninchen",
+      "Kaninchen – Fuchs – Sonnenlicht"
+    ],
+    "correct": 0,
+    "explanation": "Gras wird vom Kaninchen gefressen; das Kaninchen kann dem Fuchs als Nahrung dienen."
+  },
+  {
+    "id": "complex.bio-ecology.008",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was ist ein Nahrungsnetz?",
+    "options": [
+      "Mehrere miteinander verbundene Nahrungsketten",
+      "Eine einzelne gerade Nahrungskette ohne Verbindungen",
+      "Ein Fanggerät für alle Organismen eines Waldes"
+    ],
+    "correct": 0,
+    "explanation": "Mehrere miteinander verbundene Nahrungsketten"
+  },
+  {
+    "id": "complex.bio-ecology.009",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Welcher Faktor ist unbelebt?",
+    "options": [
+      "Temperatur",
+      "Fressfeind",
+      "Konkurrent um Nahrung"
+    ],
+    "correct": 0,
+    "explanation": "Temperatur ist ein abiotischer, also unbelebter Umweltfaktor. Sie beeinflusst dennoch Lebewesen."
+  },
+  {
+    "id": "complex.bio-ecology.010",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Welcher Faktor ist belebt?",
+    "options": [
+      "Ein Krankheitserreger",
+      "Die Lichtstärke",
+      "Der Salzgehalt des Wassers"
+    ],
+    "correct": 0,
+    "explanation": "Ein Krankheitserreger ist Teil einer biologischen Wechselwirkung und damit ein biotischer Faktor."
+  },
+  {
+    "id": "complex.bio-ecology.011",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Artenvielfalt?",
+    "options": [
+      "Verschiedenheit der Arten in einem Gebiet",
+      "Anzahl der Blätter eines einzelnen Baumes",
+      "Körpergröße eines einzigen Tieres"
+    ],
+    "correct": 0,
+    "explanation": "Verschiedenheit der Arten in einem Gebiet"
+  },
+  {
+    "id": "complex.bio-ecology.012",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was ist ein Beispiel für einen Lebensraum?",
+    "options": [
+      "Ein Teich mit seinen Uferbereichen",
+      "Ein einzelner Zahn",
+      "Ein Tiername im Wörterbuch"
+    ],
+    "correct": 0,
+    "explanation": "Ein Teich mit seinen Uferbereichen"
+  },
+  {
+    "id": "complex.bio-ecology.013",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Warum brauchen Pflanzen Licht?",
+    "options": [
+      "Für die Fotosynthese",
+      "Zum Aufnehmen von Schall",
+      "Zum Ersetzen aller Mineralstoffe"
+    ],
+    "correct": 0,
+    "explanation": "Licht liefert die Energie, mit der grüne Pflanzen bei der Fotosynthese energiereiche Stoffe aufbauen."
+  },
+  {
+    "id": "complex.bio-ecology.014",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe haben Wurzeln unter anderem?",
+    "options": [
+      "Wasser und Mineralstoffe aufnehmen",
+      "Blüten bestäuben",
+      "Sauerstoff im Boden erzeugen wie Blätter im Licht"
+    ],
+    "correct": 0,
+    "explanation": "Wasser und Mineralstoffe aufnehmen"
+  },
+  {
+    "id": "complex.bio-ecology.015",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Tarnung?",
+    "options": [
+      "Ähnlichkeit mit der Umgebung erschwert das Entdecken.",
+      "Ein Tier wird für alle Sinne unsichtbar.",
+      "Ein Tier erzeugt immer grelles Warnlicht."
+    ],
+    "correct": 0,
+    "explanation": "Ähnlichkeit mit der Umgebung erschwert das Entdecken."
+  },
+  {
+    "id": "complex.bio-ecology.016",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Was beschreibt Konkurrenz in der Natur?",
+    "options": [
+      "Organismen nutzen begrenzte gleiche Ressourcen.",
+      "Zwei Arten leben ohne jeden Einfluss nebeneinander.",
+      "Jede Begegnung endet mit dem Tod eines Tieres."
+    ],
+    "correct": 0,
+    "explanation": "Organismen nutzen begrenzte gleiche Ressourcen."
+  },
+  {
+    "id": "complex.bio-ecology.017",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Was ist Symbiose?",
+    "options": [
+      "Zusammenleben verschiedener Arten mit gegenseitigem Nutzen",
+      "Einseitiger Nutzen mit Schädigung des Partners",
+      "Jede Beziehung zwischen Räuber und Beute"
+    ],
+    "correct": 0,
+    "explanation": "Zusammenleben verschiedener Arten mit gegenseitigem Nutzen"
+  },
+  {
+    "id": "complex.bio-ecology.018",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Was ist Parasitismus?",
+    "options": [
+      "Ein Organismus nutzt einen Wirt und schädigt ihn.",
+      "Beide Partner profitieren stets gleich stark.",
+      "Nur tote Stoffe werden abgebaut."
+    ],
+    "correct": 0,
+    "explanation": "Ein Organismus nutzt einen Wirt und schädigt ihn."
+  },
+  {
+    "id": "complex.bio-ecology.019",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Warum sind Blütenbesucher für viele Pflanzen wichtig?",
+    "options": [
+      "Sie können Pollen übertragen.",
+      "Sie ersetzen die Wurzeln.",
+      "Sie verhindern jede Samenbildung."
+    ],
+    "correct": 0,
+    "explanation": "Sie können Pollen übertragen."
+  },
+  {
+    "id": "complex.bio-ecology.020",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Was ist Bestäubung?",
+    "options": [
+      "Übertragung von Pollen auf die passende weibliche Blütenstruktur",
+      "Aufnahme von Wasser durch ein Blatt",
+      "Verteilung fertiger Früchte im Boden"
+    ],
+    "correct": 0,
+    "explanation": "Übertragung von Pollen auf die passende weibliche Blütenstruktur"
+  },
+  {
+    "id": "complex.bio-ecology.021",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Wozu dienen Samen einer Pflanze?",
+    "options": [
+      "Zur Vermehrung und Ausbreitung",
+      "Nur zum Transport von Sauerstoff",
+      "Zum sofortigen Abbau der Wurzeln"
+    ],
+    "correct": 0,
+    "explanation": "Zur Vermehrung und Ausbreitung"
+  },
+  {
+    "id": "complex.bio-ecology.022",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Was ist Keimung?",
+    "options": [
+      "Aus dem Samen beginnt eine junge Pflanze zu wachsen.",
+      "Ein ausgewachsener Baum bildet Rinde.",
+      "Ein Blatt verdunstet Wasser."
+    ],
+    "correct": 0,
+    "explanation": "Aus dem Samen beginnt eine junge Pflanze zu wachsen."
+  },
+  {
+    "id": "complex.bio-ecology.023",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Warum verlieren viele Laubbäume im Herbst ihre Blätter?",
+    "options": [
+      "Dadurch wird unter anderem Wasserverlust in ungünstigen Zeiten verringert.",
+      "Damit die Wurzeln kein Wasser mehr erreichen können.",
+      "Weil Bäume im Winter zu Tieren werden."
+    ],
+    "correct": 0,
+    "explanation": "Dadurch wird unter anderem Wasserverlust in ungünstigen Zeiten verringert."
+  },
+  {
+    "id": "complex.bio-ecology.024",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Welche Anpassung hilft einem Kaktus in trockenen Gebieten?",
+    "options": [
+      "Wasserspeicher und geringe verdunstende Blattfläche",
+      "Sehr dünne, ständig nasse Blätter",
+      "Fehlende Wasseraufnahme in jeder Lebensphase"
+    ],
+    "correct": 0,
+    "explanation": "Wasserspeicher und geringe verdunstende Blattfläche"
+  },
+  {
+    "id": "complex.bio-ecology.025",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Was passiert bei einer Versiegelung von Boden?",
+    "options": [
+      "Wasser versickert schlechter und Lebensraum geht verloren.",
+      "Die Bodenorganismen bekommen automatisch mehr Nahrung.",
+      "Der gesamte Niederschlag wird sofort zu Grundwasser."
+    ],
+    "correct": 0,
+    "explanation": "Wasser versickert schlechter und Lebensraum geht verloren."
+  },
+  {
+    "id": "complex.bio-ecology.026",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Warum gehört Totholz zum Waldökosystem?",
+    "options": [
+      "Es bietet Lebensraum und wird im Stoffkreislauf abgebaut.",
+      "Es hat grundsätzlich keine Funktion mehr.",
+      "Es enthält keine organischen Stoffe."
+    ],
+    "correct": 0,
+    "explanation": "Es bietet Lebensraum und wird im Stoffkreislauf abgebaut."
+  },
+  {
+    "id": "complex.bio-ecology.027",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Was unterscheidet Wetter von Klima?",
+    "options": [
+      "Wetter ist kurzfristig; Klima beschreibt typische Verhältnisse über lange Zeit.",
+      "Klima ist der Niederschlag einer einzigen Stunde.",
+      "Wetter beschreibt nur die Meerestiefe."
+    ],
+    "correct": 0,
+    "explanation": "Wetter ist kurzfristig; Klima beschreibt typische Verhältnisse über lange Zeit."
+  },
+  {
+    "id": "complex.bio-ecology.028",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Welche Folge kann Überdüngung eines Gewässers haben?",
+    "options": [
+      "Starkes Algenwachstum mit späterem Sauerstoffmangel",
+      "Dauerhaft mehr Sauerstoff unabhängig von Abbauprozessen",
+      "Vollständiger Wegfall aller Mikroorganismen"
+    ],
+    "correct": 0,
+    "explanation": "Starkes Algenwachstum mit späterem Sauerstoffmangel"
+  },
+  {
+    "id": "complex.bio-ecology.029",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Warum sind viele Wasserorganismen auf gelösten Sauerstoff angewiesen?",
+    "options": [
+      "Sie benötigen ihn für die Zellatmung.",
+      "Sie verwenden ihn ausschließlich als Baustoff für Steine.",
+      "Sie gewinnen daraus direkt Sonnenlicht."
+    ],
+    "correct": 0,
+    "explanation": "Sie benötigen ihn für die Zellatmung."
+  },
+  {
+    "id": "complex.bio-ecology.030",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 2,
+    "prompt": "Welche Maßnahme fördert Insekten im Garten?",
+    "options": [
+      "Heimische Blühpflanzen und unterschiedliche Strukturen erhalten",
+      "Alle Flächen mit Folie abdichten",
+      "Sämtliche Pflanzen vor der Blüte abschneiden"
+    ],
+    "correct": 0,
+    "explanation": "Heimische Blühpflanzen und unterschiedliche Strukturen erhalten"
+  },
+  {
+    "id": "complex.bio-ecology.031",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum nimmt die verfügbare Energie entlang vieler Nahrungsketten ab?",
+    "options": [
+      "Organismen nutzen Energie und geben Wärme ab.",
+      "Jede Stufe erzeugt zusätzliche Sonnenenergie.",
+      "Energie kann nur in Raubtieren gespeichert werden."
+    ],
+    "correct": 0,
+    "explanation": "Organismen nutzen Energie und geben Wärme ab."
+  },
+  {
+    "id": "complex.bio-ecology.032",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum fließt Energie durch ein Ökosystem, während Stoffe kreisen können?",
+    "options": [
+      "Energie wird letztlich als Wärme abgegeben; Stoffe werden wiederverwendet.",
+      "Alle Energie wird von Zersetzern vollständig zurück zur Sonne geschickt.",
+      "Stoffe verschwinden nach jeder Verdauung spurlos."
+    ],
+    "correct": 0,
+    "explanation": "Energie wird letztlich als Wärme abgegeben; Stoffe werden wiederverwendet."
+  },
+  {
+    "id": "complex.bio-ecology.033",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum kann der Ausfall einer Art mehrere andere Arten beeinflussen?",
+    "options": [
+      "Nahrungs- und andere Beziehungen verbinden die Arten.",
+      "Jede Art lebt vollständig unabhängig.",
+      "Nur gleich große Tiere können einander beeinflussen."
+    ],
+    "correct": 0,
+    "explanation": "Nahrungs- und andere Beziehungen verbinden die Arten."
+  },
+  {
+    "id": "complex.bio-ecology.034",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Was bedeutet ökologische Nische?",
+    "options": [
+      "Gesamtheit der Ansprüche und Beziehungen einer Art",
+      "Nur die genaue Schlafstelle eines Tieres",
+      "Eine beliebige kleine Höhle im Gestein"
+    ],
+    "correct": 0,
+    "explanation": "Gesamtheit der Ansprüche und Beziehungen einer Art"
+  },
+  {
+    "id": "complex.bio-ecology.035",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Wie kann sich Konkurrenz zwischen zwei Arten verringern?",
+    "options": [
+      "Durch Nutzung unterschiedlicher Nahrung oder Zeiten",
+      "Durch völlige Gleichheit aller Bedürfnisse",
+      "Durch unbegrenzte Verdoppelung jeder Ressource"
+    ],
+    "correct": 0,
+    "explanation": "Durch Nutzung unterschiedlicher Nahrung oder Zeiten"
+  },
+  {
+    "id": "complex.bio-ecology.036",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum schwanken Räuber- und Beutebestände oft gemeinsam?",
+    "options": [
+      "Nahrungsangebot und Fraßdruck wirken auf beide Bestände.",
+      "Räuber erzeugen ihre Beute aus Wasser.",
+      "Beutezahlen hängen nie von Nahrung ab."
+    ],
+    "correct": 0,
+    "explanation": "Nahrungsangebot und Fraßdruck wirken auf beide Bestände."
+  },
+  {
+    "id": "complex.bio-ecology.037",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum ist eine neu eingeschleppte Art nicht automatisch invasiv?",
+    "options": [
+      "Erst starke Ausbreitung mit negativen Folgen macht sie problematisch.",
+      "Jede fremde Art vernichtet sofort alle heimischen Arten.",
+      "Nur heimische Arten können sich vermehren."
+    ],
+    "correct": 0,
+    "explanation": "Erst starke Ausbreitung mit negativen Folgen macht sie problematisch."
+  },
+  {
+    "id": "complex.bio-ecology.038",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Welche Aussage beschreibt natürliche Selektion?",
+    "options": [
+      "Vorteilhafte erbliche Merkmale können unter bestimmten Bedingungen häufiger werden.",
+      "Einzelne Tiere wählen gezielt neue Gene nach Wunsch.",
+      "Jede Art entwickelt sich zwangsläufig zum Menschen."
+    ],
+    "correct": 0,
+    "explanation": "Vorteilhafte erbliche Merkmale können unter bestimmten Bedingungen häufiger werden."
+  },
+  {
+    "id": "complex.bio-ecology.039",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum ist Angepasstheit immer auf eine Umwelt bezogen?",
+    "options": [
+      "Ein nützliches Merkmal kann unter anderen Bedingungen nachteilig sein.",
+      "Ein Merkmal ist unter allen Bedingungen gleich günstig.",
+      "Umweltbedingungen beeinflussen Überleben grundsätzlich nicht."
+    ],
+    "correct": 0,
+    "explanation": "Ein nützliches Merkmal kann unter anderen Bedingungen nachteilig sein."
+  },
+  {
+    "id": "complex.bio-ecology.040",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum können vielfältige Lebensräume die Widerstandsfähigkeit eines Gebietes fördern?",
+    "options": [
+      "Sie bieten verschiedenen Arten und Funktionen Raum.",
+      "Sie verhindern jede Veränderung der Umwelt.",
+      "Sie machen alle Nahrungsketten identisch."
+    ],
+    "correct": 0,
+    "explanation": "Sie bieten verschiedenen Arten und Funktionen Raum."
+  },
+  {
+    "id": "complex.bio-ecology.041",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum kann warme Luft im Klimawandel indirekt den Wasserhaushalt von Pflanzen belasten?",
+    "options": [
+      "Höhere Verdunstung kann Trockenstress verstärken.",
+      "Wärme erzeugt in jedem Boden unbegrenzt Wasser.",
+      "Blätter nehmen dann grundsätzlich keine Sonnenenergie mehr auf."
+    ],
+    "correct": 0,
+    "explanation": "Höhere Verdunstung kann Trockenstress verstärken."
+  },
+  {
+    "id": "complex.bio-ecology.042",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum sind Moore für den Klimaschutz bedeutsam?",
+    "options": [
+      "Nasse Moorböden können große Mengen Kohlenstoff speichern.",
+      "Sie bestehen ausschließlich aus frischem Sand.",
+      "Trockengelegte Moore speichern immer mehr Kohlenstoff als nasse."
+    ],
+    "correct": 0,
+    "explanation": "Nasse Moorböden können große Mengen Kohlenstoff speichern."
+  },
+  {
+    "id": "complex.bio-ecology.043",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Was ist eine nachhaltige Nutzung eines Waldes?",
+    "options": [
+      "Nutzung, die Regeneration und ökologische Funktionen langfristig erhält",
+      "Möglichst schnelle Entnahme sämtlicher Bäume",
+      "Ersatz jedes Baumes durch eine asphaltierte Fläche"
+    ],
+    "correct": 0,
+    "explanation": "Nutzung, die Regeneration und ökologische Funktionen langfristig erhält"
+  },
+  {
+    "id": "complex.bio-ecology.044",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Wie kann ein Biotopverbund Tieren helfen?",
+    "options": [
+      "Er verbindet Lebensräume und erleichtert Wanderung und Austausch.",
+      "Er trennt jede Population durch zusätzliche Mauern.",
+      "Er garantiert allen Arten identische Nahrung."
+    ],
+    "correct": 0,
+    "explanation": "Er verbindet Lebensräume und erleichtert Wanderung und Austausch."
+  },
+  {
+    "id": "complex.bio-ecology.045",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum kann ein Pestizid auch Nichtzielarten beeinflussen?",
+    "options": [
+      "Wirkstoffe können andere empfindliche Organismen erreichen.",
+      "Jeder Wirkstoff erkennt ausschließlich eine einzige Tierart.",
+      "Chemische Stoffe bleiben stets genau am Aufsprühpunkt."
+    ],
+    "correct": 0,
+    "explanation": "Wirkstoffe können andere empfindliche Organismen erreichen."
+  },
+  {
+    "id": "complex.bio-ecology.046",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum sind Bodenorganismen wichtig für Pflanzen?",
+    "options": [
+      "Sie fördern Abbau, Bodenstruktur und Nährstoffverfügbarkeit.",
+      "Sie ersetzen das Sonnenlicht bei jeder Fotosynthese.",
+      "Sie wandeln alle Bodenpartikel in Plastik um."
+    ],
+    "correct": 0,
+    "explanation": "Sie fördern Abbau, Bodenstruktur und Nährstoffverfügbarkeit."
+  },
+  {
+    "id": "complex.bio-ecology.047",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Welche Beobachtung spricht für einen Stoffkreislauf?",
+    "options": [
+      "Mineralstoffe aus zersetzten Blättern werden von Pflanzen aufgenommen.",
+      "Wärme fließt vollständig zurück in dieselben Blätter.",
+      "Ein Fuchs erzeugt aus Licht neue Mineralstoffe."
+    ],
+    "correct": 0,
+    "explanation": "Mineralstoffe aus zersetzten Blättern werden von Pflanzen aufgenommen."
+  },
+  {
+    "id": "complex.bio-ecology.048",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Warum reicht das Zählen einzelner Tiere nicht für eine vollständige Umweltbewertung?",
+    "options": [
+      "Artenzusammensetzung, Lebensraum und Bedingungen sind ebenfalls wichtig.",
+      "Viele Tiere bedeuten immer unbelastete Umwelt.",
+      "Ein einziges großes Tier beweist ein stabiles Ökosystem."
+    ],
+    "correct": 0,
+    "explanation": "Artenzusammensetzung, Lebensraum und Bedingungen sind ebenfalls wichtig."
+  },
+  {
+    "id": "complex.bio-ecology.049",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Was bewirkt die Entfernung einer Hecke in einer Agrarlandschaft möglicherweise?",
+    "options": [
+      "Nistplätze und Verbindungen zwischen Lebensräumen gehen verloren.",
+      "Die Artenvielfalt steigt zwangsläufig überall.",
+      "Alle Böden können danach mehr Wasser speichern."
+    ],
+    "correct": 0,
+    "explanation": "Nistplätze und Verbindungen zwischen Lebensräumen gehen verloren."
+  },
+  {
+    "id": "complex.bio-ecology.050",
+    "subject": "biology",
+    "topic": "bio-ecology",
+    "complexId": "bio-ecology",
+    "competency": "bio-ecology",
+    "difficulty": 3,
+    "prompt": "Welche Untersuchung hilft, einen Umwelteinfluss besser zu beurteilen?",
+    "options": [
+      "Vergleichbare Flächen mit und ohne Einfluss mehrfach untersuchen",
+      "Nur ein Tier einmal ansehen",
+      "Ergebnisse ohne Messungen allein nach Wunsch festlegen"
+    ],
+    "correct": 0,
+    "explanation": "Vergleichbare Flächen mit und ohne Einfluss mehrfach untersuchen"
+  }
+]

@@ -1,5 +1,6 @@
+import {legacyComplex} from './legacyComplex';
 import type {UserData,Subject} from '../lib/schema';
-import {questions} from '../content';
+import {questions,archivedSubjectQuestions} from '../content';
 import {subjectPool} from './difficulty';
 import {generateTask} from './generator';
 import {equationTask} from './equations';
@@ -16,6 +17,7 @@ export type BossTask={id:string;prompt:string;options:string[];correct:number;ex
 export function bossTasks(data:UserData,subject:Subject,test=false):BossTask[]{
  const all=test||subject==='german';
  const level=data.settings.difficulty,hard=level==='hard',known=new Set(questions.filter(q=>data.progress[q.id]?.attempts).map(q=>q.competency));
+ for(const q of archivedSubjectQuestions){if(q.subject===subject&&data.progress[q.id]?.attempts){const id=legacyComplex(q);if(id)known.add(id);}}
  const groups:BossTask[][]=[];
  if(subject==='math'){
   const skills=Object.entries(data.learning.competencies).filter(([,s])=>s.attempts>0).map(([id])=>id);

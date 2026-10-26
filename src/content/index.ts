@@ -1,3 +1,4 @@
+import {complexQuestions} from './complexes';
 import {grammarTasks} from '../activities/grammar';
 import advancedGerman from './germanAdvanced.json';
 import math from './math.json';
@@ -5,8 +6,9 @@ import german from './german.json';
 import social from './social.json';
 import biology from './biology.json';
 import geography from './geography.json';
-import { contentSchema } from '../lib/schema';
+import { contentSchema,questionSchema } from '../lib/schema';
 const advancedGermanQuestions=[...grammarTasks.filter(t=>t.id.startsWith('grammar.v2.hard.')).map(t=>({id:'german.advanced.'+t.id,prompt:t.prompt,options:t.options,explanation:t.explanation})),...advancedGerman].map(q=>({...q,subject:'german',topic:'Sprache präzise verstehen',competency:'sprachreflexion',difficulty:3,correct:0,curriculum:{sourceId:german.sources[0].id,section:'Sprachgebrauch reflektieren und Texte verstehen',stage:'extension'}}));
-export const contentPacks = [math, {...german,revision:'2026.10.22.global',questions:[...german.questions,...advancedGermanQuestions]}, social, biology, geography].map(pack => contentSchema.parse(pack));
+export const archivedSubjectQuestions=[social,biology,geography].flatMap(p=>p.questions).map(q=>questionSchema.parse(q));
+export const contentPacks = [math, {...german,revision:'2026.10.22.global',questions:[...german.questions,...advancedGermanQuestions]}, ...[social,biology,geography].map(pack=>({...pack,revision:'2026.10.26.complexes',questions:complexQuestions.filter(q=>q.subject===pack.questions[0].subject).map(q=>({...q,curriculum:{sourceId:pack.sources[0].id,section:q.topic,stage:(q.difficulty===3?'extension':q.difficulty===2?'grade9':'foundation')}}))}))].map(pack => contentSchema.parse(pack));
 export const questions = contentPacks.flatMap(pack => pack.questions);
 if (new Set(questions.map(q => q.id)).size !== questions.length) throw new Error('Doppelte Fragen-ID');

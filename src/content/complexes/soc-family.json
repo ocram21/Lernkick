@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.soc-family.001",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was kann eine Familie im Alltag leisten?",
+    "options": [
+      "Fürsorge und Unterstützung bieten",
+      "Alle staatlichen Gesetze ersetzen",
+      "Für alle Mitglieder jede Entscheidung allein treffen"
+    ],
+    "correct": 0,
+    "explanation": "Fürsorge und Unterstützung bieten"
+  },
+  {
+    "id": "complex.soc-family.002",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was bezeichnet eine Einelternfamilie?",
+    "options": [
+      "Ein Elternteil lebt mit einem oder mehreren Kindern zusammen.",
+      "Zwei Erwachsene leben ohne Kinder zusammen.",
+      "Mehrere Firmen teilen ein Büro."
+    ],
+    "correct": 0,
+    "explanation": "Ein Elternteil lebt mit einem oder mehreren Kindern zusammen."
+  },
+  {
+    "id": "complex.soc-family.003",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was ist eine Patchworkfamilie?",
+    "options": [
+      "Eine Familie, in der Partner Kinder aus früheren Beziehungen mitbringen können",
+      "Eine Familie, die nur aus Geschwistern besteht",
+      "Jede Familie mit demselben Beruf"
+    ],
+    "correct": 0,
+    "explanation": "Eine Familie, in der Partner Kinder aus früheren Beziehungen mitbringen können"
+  },
+  {
+    "id": "complex.soc-family.004",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was bedeutet gegenseitiger Respekt?",
+    "options": [
+      "Andere Menschen und ihre Grenzen ernst nehmen",
+      "Nur die eigene Meinung gelten lassen",
+      "Konflikte ausschließlich mit Drohungen lösen"
+    ],
+    "correct": 0,
+    "explanation": "Andere Menschen und ihre Grenzen ernst nehmen"
+  },
+  {
+    "id": "complex.soc-family.005",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was ist eine soziale Rolle?",
+    "options": [
+      "Erwartungen an eine Person in einer bestimmten Stellung",
+      "Eine feste biologische Eigenschaft aller Menschen",
+      "Ein amtlicher Nachname"
+    ],
+    "correct": 0,
+    "explanation": "Erwartungen an eine Person in einer bestimmten Stellung"
+  },
+  {
+    "id": "complex.soc-family.006",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was ist ein Bedürfnis?",
+    "options": [
+      "Etwas, das ein Mensch zum Leben oder Wohlbefinden braucht oder sich wünscht",
+      "Immer ein rechtlicher Anspruch auf ein bestimmtes Produkt",
+      "Nur ein besonders teures Gerät"
+    ],
+    "correct": 0,
+    "explanation": "Etwas, das ein Mensch zum Leben oder Wohlbefinden braucht oder sich wünscht"
+  },
+  {
+    "id": "complex.soc-family.007",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was beschreibt einen Konflikt?",
+    "options": [
+      "Unterschiedliche Interessen oder Bedürfnisse treffen aufeinander.",
+      "Alle sind immer derselben Meinung.",
+      "Es gibt grundsätzlich nur eine beteiligte Person."
+    ],
+    "correct": 0,
+    "explanation": "Unterschiedliche Interessen oder Bedürfnisse treffen aufeinander."
+  },
+  {
+    "id": "complex.soc-family.008",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was hilft in einem Gespräch über einen Streit?",
+    "options": [
+      "Zuhören und eigene Anliegen klar beschreiben",
+      "Den anderen dauerhaft unterbrechen",
+      "Gerüchte über Beteiligte verbreiten"
+    ],
+    "correct": 0,
+    "explanation": "Zuhören und eigene Anliegen klar beschreiben"
+  },
+  {
+    "id": "complex.soc-family.009",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was ist ein Kompromiss?",
+    "options": [
+      "Eine Lösung, bei der Beteiligte einander entgegenkommen",
+      "Ein Sieg durch Gewalt",
+      "Eine Entscheidung ohne jede Rücksicht"
+    ],
+    "correct": 0,
+    "explanation": "Eine Lösung, bei der Beteiligte einander entgegenkommen"
+  },
+  {
+    "id": "complex.soc-family.010",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was ist eine Ich-Botschaft?",
+    "options": [
+      "Die eigene Wahrnehmung und das eigene Bedürfnis ausdrücken",
+      "Dem anderen pauschal schlechte Absichten unterstellen",
+      "Ausschließlich über abwesende Personen reden"
+    ],
+    "correct": 0,
+    "explanation": "Die eigene Wahrnehmung und das eigene Bedürfnis ausdrücken"
+  },
+  {
+    "id": "complex.soc-family.011",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Verantwortung im gemeinsamen Haushalt?",
+    "options": [
+      "Abgesprochene Aufgaben zuverlässig übernehmen",
+      "Jede Aufgabe anderen zuschieben",
+      "Nur Rechte beanspruchen"
+    ],
+    "correct": 0,
+    "explanation": "Abgesprochene Aufgaben zuverlässig übernehmen"
+  },
+  {
+    "id": "complex.soc-family.012",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was ist ein Haushaltsbudget?",
+    "options": [
+      "Ein Überblick über verfügbare Einnahmen und geplante Ausgaben",
+      "Eine Liste aller Nachbarhäuser",
+      "Ein Vertrag für eine politische Partei"
+    ],
+    "correct": 0,
+    "explanation": "Ein Überblick über verfügbare Einnahmen und geplante Ausgaben"
+  },
+  {
+    "id": "complex.soc-family.013",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Welche Ausgabe gehört häufig zu den festen Haushaltskosten?",
+    "options": [
+      "Miete",
+      "Ein einmaliger Kinobesuch",
+      "Ein spontan gekauftes Eis"
+    ],
+    "correct": 0,
+    "explanation": "Miete fällt meist regelmäßig in vereinbarter Höhe an. Freizeitkäufe sind eher veränderliche Ausgaben."
+  },
+  {
+    "id": "complex.soc-family.014",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Privatsphäre?",
+    "options": [
+      "Ein geschützter persönlicher Lebensbereich",
+      "Das Recht, andere ständig zu überwachen",
+      "Die Pflicht, jede Nachricht öffentlich zu zeigen"
+    ],
+    "correct": 0,
+    "explanation": "Ein geschützter persönlicher Lebensbereich"
+  },
+  {
+    "id": "complex.soc-family.015",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 1,
+    "prompt": "Was ist eine Vertrauensperson?",
+    "options": [
+      "Jemand, an den man sich mit Sorgen wenden kann",
+      "Nur eine Person mit besonders vielen Followern",
+      "Jemand, der jedes Geheimnis öffentlich macht"
+    ],
+    "correct": 0,
+    "explanation": "Jemand, an den man sich mit Sorgen wenden kann"
+  },
+  {
+    "id": "complex.soc-family.016",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Warum können Familienformen unterschiedlich aussehen?",
+    "options": [
+      "Zusammenleben und Fürsorge sind auf verschiedene Weise organisiert.",
+      "Nur eine Wohnform kann Unterstützung bieten.",
+      "Alle Haushalte müssen gleich viele Personen haben."
+    ],
+    "correct": 0,
+    "explanation": "Zusammenleben und Fürsorge sind auf verschiedene Weise organisiert."
+  },
+  {
+    "id": "complex.soc-family.017",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was gehört zu gewaltfreier Erziehung?",
+    "options": [
+      "Schutz vor körperlicher Bestrafung und entwürdigender Behandlung",
+      "Schläge als normale Strafe",
+      "Angst als einziges Erziehungsmittel"
+    ],
+    "correct": 0,
+    "explanation": "Schutz vor körperlicher Bestrafung und entwürdigender Behandlung"
+  },
+  {
+    "id": "complex.soc-family.018",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was beschreibt Gleichberechtigung im Zusammenleben?",
+    "options": [
+      "Gleiche Rechte unabhängig vom Geschlecht",
+      "Eine Person darf immer über alle anderen bestimmen.",
+      "Aufgaben sind rechtlich immer nach Haarfarbe verteilt."
+    ],
+    "correct": 0,
+    "explanation": "Gleiche Rechte unabhängig vom Geschlecht"
+  },
+  {
+    "id": "complex.soc-family.019",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Wie lässt sich Hausarbeit fair verteilen?",
+    "options": [
+      "Zeit, Fähigkeiten und Belastungen gemeinsam berücksichtigen",
+      "Sie grundsätzlich einer Person ohne Absprache zuweisen",
+      "Nur sichtbare Arbeit zählen und Pflege ignorieren"
+    ],
+    "correct": 0,
+    "explanation": "Zeit, Fähigkeiten und Belastungen gemeinsam berücksichtigen"
+  },
+  {
+    "id": "complex.soc-family.020",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was kann eine Familienberatungsstelle anbieten?",
+    "options": [
+      "Unterstützung bei Erziehungs- und Zusammenlebensfragen",
+      "Eine Garantie auf konfliktfreies Leben",
+      "Automatisch ein neues Sorgerechtsurteil"
+    ],
+    "correct": 0,
+    "explanation": "Unterstützung bei Erziehungs- und Zusammenlebensfragen"
+  },
+  {
+    "id": "complex.soc-family.021",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Welche Aufgabe hat das Jugendamt unter anderem?",
+    "options": [
+      "Familien unterstützen und Kinder schützen",
+      "Ausschließlich Schulnoten vergeben",
+      "Jede Freizeitaktivität verbieten"
+    ],
+    "correct": 0,
+    "explanation": "Familien unterstützen und Kinder schützen"
+  },
+  {
+    "id": "complex.soc-family.022",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was ist ein Vorurteil?",
+    "options": [
+      "Ein Urteil über Menschen ohne ausreichende Prüfung",
+      "Ein sorgfältig überprüfter persönlicher Vertrag",
+      "Eine neutrale Mengenangabe"
+    ],
+    "correct": 0,
+    "explanation": "Ein Urteil über Menschen ohne ausreichende Prüfung"
+  },
+  {
+    "id": "complex.soc-family.023",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was ist Diskriminierung?",
+    "options": [
+      "Benachteiligung wegen bestimmter persönlicher Merkmale",
+      "Jede sachliche Kritik an einer Handlung",
+      "Jede unterschiedliche private Vorliebe"
+    ],
+    "correct": 0,
+    "explanation": "Benachteiligung wegen bestimmter persönlicher Merkmale"
+  },
+  {
+    "id": "complex.soc-family.024",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Inklusion?",
+    "options": [
+      "Teilhabe ermöglichen und Barrieren abbauen",
+      "Alle Menschen nach denselben Hindernissen beurteilen",
+      "Menschen grundsätzlich voneinander trennen"
+    ],
+    "correct": 0,
+    "explanation": "Teilhabe ermöglichen und Barrieren abbauen"
+  },
+  {
+    "id": "complex.soc-family.025",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was ist Nachbarschaftshilfe?",
+    "options": [
+      "Freiwillige gegenseitige Unterstützung im Wohnumfeld",
+      "Eine Pflicht, jede Wohnung zu kontrollieren",
+      "Ein Ersatz für sämtliche öffentlichen Aufgaben"
+    ],
+    "correct": 0,
+    "explanation": "Freiwillige gegenseitige Unterstützung im Wohnumfeld"
+  },
+  {
+    "id": "complex.soc-family.026",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Warum sind Regeln in einer Wohngemeinschaft hilfreich?",
+    "options": [
+      "Sie machen Erwartungen und Zuständigkeiten klar.",
+      "Sie verhindern jede notwendige Absprache.",
+      "Sie gelten nur, wenn niemand darüber spricht."
+    ],
+    "correct": 0,
+    "explanation": "Sie machen Erwartungen und Zuständigkeiten klar."
+  },
+  {
+    "id": "complex.soc-family.027",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was ist ein Beispiel für eine ökologische Alltagsentscheidung im Haushalt?",
+    "options": [
+      "Energie und Wasser bewusst nutzen",
+      "Abfälle regelmäßig in Gewässer werfen",
+      "Geräte grundsätzlich dauerhaft unnötig laufen lassen"
+    ],
+    "correct": 0,
+    "explanation": "Energie und Wasser bewusst nutzen"
+  },
+  {
+    "id": "complex.soc-family.028",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was gehört zu nachhaltigem Konsum?",
+    "options": [
+      "Bedarf prüfen und langlebige Produkte nutzen",
+      "Alles möglichst schnell ersetzen",
+      "Nur die Verpackungsfarbe beachten"
+    ],
+    "correct": 0,
+    "explanation": "Bedarf prüfen und langlebige Produkte nutzen"
+  },
+  {
+    "id": "complex.soc-family.029",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Was kann bei einer Überforderung im Haushalt helfen?",
+    "options": [
+      "Aufgaben ansprechen und Unterstützung organisieren",
+      "Belastungen dauerhaft verheimlichen müssen",
+      "Jede Hilfe grundsätzlich ablehnen"
+    ],
+    "correct": 0,
+    "explanation": "Aufgaben ansprechen und Unterstützung organisieren"
+  },
+  {
+    "id": "complex.soc-family.030",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 2,
+    "prompt": "Warum ist Einverständnis für persönliche Grenzen wichtig?",
+    "options": [
+      "Nähe und Eingriffe müssen die Selbstbestimmung respektieren.",
+      "Zusammenleben hebt jedes Recht auf Grenzen auf.",
+      "Eine frühere Zustimmung gilt zwingend für immer."
+    ],
+    "correct": 0,
+    "explanation": "Nähe und Eingriffe müssen die Selbstbestimmung respektieren."
+  },
+  {
+    "id": "complex.soc-family.031",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Zwei Geschwister streiten um Ruhe und Musik. Welche Lösung berücksichtigt beide?",
+    "options": [
+      "Zeiten und Lautstärke gemeinsam vereinbaren",
+      "Das lautere Geschwister entscheidet immer.",
+      "Jede Form von Gespräch verbieten"
+    ],
+    "correct": 0,
+    "explanation": "Zeiten und Lautstärke gemeinsam vereinbaren"
+  },
+  {
+    "id": "complex.soc-family.032",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum kann gleiche Aufgabenanzahl trotzdem ungerecht sein?",
+    "options": [
+      "Aufgaben beanspruchen unterschiedlich viel Zeit und Kraft.",
+      "Alle Aufgaben sind grundsätzlich gleich belastend.",
+      "Nur die Zahl der Aufgaben hat Bedeutung."
+    ],
+    "correct": 0,
+    "explanation": "Aufgaben beanspruchen unterschiedlich viel Zeit und Kraft."
+  },
+  {
+    "id": "complex.soc-family.033",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet einen Wunsch von einer notwendigen Ausgabe bei knappem Budget?",
+    "options": [
+      "Eine notwendige Ausgabe sichert etwa Wohnen oder grundlegende Versorgung.",
+      "Jeder Wunsch muss immer vor der Miete erfüllt werden.",
+      "Der höchste Preis entscheidet über Notwendigkeit."
+    ],
+    "correct": 0,
+    "explanation": "Eine notwendige Ausgabe sichert etwa Wohnen oder grundlegende Versorgung."
+  },
+  {
+    "id": "complex.soc-family.034",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum schützt ein gemeinsam vereinbartes Haushaltsbudget nicht vor jedem Problem?",
+    "options": [
+      "Unerwartete Ausgaben und Einkommensänderungen bleiben möglich.",
+      "Ein Budget erzeugt automatisch zusätzliches Geld.",
+      "Mit einem Budget gibt es keine laufenden Kosten mehr."
+    ],
+    "correct": 0,
+    "explanation": "Unerwartete Ausgaben und Einkommensänderungen bleiben möglich."
+  },
+  {
+    "id": "complex.soc-family.035",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Welche Aussage vermeidet ein Klischee über Familien?",
+    "options": [
+      "Verlässlichkeit hängt vom Umgang miteinander ab, nicht allein von der Familienform.",
+      "Eine Familienform garantiert immer gutes Zusammenleben.",
+      "Alle Menschen derselben Familienform sind gleich."
+    ],
+    "correct": 0,
+    "explanation": "Verlässlichkeit hängt vom Umgang miteinander ab, nicht allein von der Familienform."
+  },
+  {
+    "id": "complex.soc-family.036",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum ist Zuhören mehr als still zu bleiben?",
+    "options": [
+      "Nachfragen und Zusammenfassen helfen, das Anliegen zu verstehen.",
+      "Zuhören bedeutet, automatisch jeder Aussage zuzustimmen.",
+      "Wer zuhört, darf keine eigenen Bedürfnisse haben."
+    ],
+    "correct": 0,
+    "explanation": "Nachfragen und Zusammenfassen helfen, das Anliegen zu verstehen."
+  },
+  {
+    "id": "complex.soc-family.037",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Was ist ein Rollenkonflikt?",
+    "options": [
+      "Erwartungen aus verschiedenen Rollen widersprechen sich.",
+      "Eine Person besitzt nur ein einziges Interesse.",
+      "Jeder Streit entsteht durch einen falschen Namen."
+    ],
+    "correct": 0,
+    "explanation": "Erwartungen aus verschiedenen Rollen widersprechen sich."
+  },
+  {
+    "id": "complex.soc-family.038",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Eine Person pflegt Angehörige und arbeitet. Was kann den Konflikt verstärken?",
+    "options": [
+      "Zeitliche Erwartungen beider Aufgaben überschneiden sich.",
+      "Beide Aufgaben benötigen grundsätzlich keine Zeit.",
+      "Pflege ist keine Belastung, sobald sie unbezahlt ist."
+    ],
+    "correct": 0,
+    "explanation": "Zeitliche Erwartungen beider Aufgaben überschneiden sich."
+  },
+  {
+    "id": "complex.soc-family.039",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum ist unbezahlte Sorgearbeit gesellschaftlich wichtig?",
+    "options": [
+      "Sie unterstützt Versorgung und Zusammenleben, auch ohne Lohnzahlung.",
+      "Nur bezahlte Arbeit hat Auswirkungen auf andere.",
+      "Sie ersetzt automatisch alle Sozialleistungen."
+    ],
+    "correct": 0,
+    "explanation": "Sie unterstützt Versorgung und Zusammenleben, auch ohne Lohnzahlung."
+  },
+  {
+    "id": "complex.soc-family.040",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Was kann eine Barriere im Wohnumfeld sein?",
+    "options": [
+      "Eine Treppe ohne geeignete Alternative für Rollstuhlnutzende",
+      "Eine gut erreichbare Rampe",
+      "Ein verständliches Hinweisschild"
+    ],
+    "correct": 0,
+    "explanation": "Eine Treppe ohne geeignete Alternative für Rollstuhlnutzende"
+  },
+  {
+    "id": "complex.soc-family.041",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum ist Hilfe holen bei Gewalt kein Verrat?",
+    "options": [
+      "Schutz und Sicherheit haben Vorrang vor dem Verschweigen von Gewalt.",
+      "Gewalt ist im privaten Raum grundsätzlich erlaubt.",
+      "Betroffene müssen Konflikte immer allein lösen."
+    ],
+    "correct": 0,
+    "explanation": "Schutz und Sicherheit haben Vorrang vor dem Verschweigen von Gewalt."
+  },
+  {
+    "id": "complex.soc-family.042",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Was ist eine sinnvolle Reaktion auf Ausgrenzung in einer Gruppe?",
+    "options": [
+      "Betroffene unterstützen und das Verhalten ansprechen",
+      "Die Ausgrenzung zur Unterhaltung verbreiten",
+      "Betroffene für jedes Verhalten der Gruppe verantwortlich machen"
+    ],
+    "correct": 0,
+    "explanation": "Betroffene unterstützen und das Verhalten ansprechen"
+  },
+  {
+    "id": "complex.soc-family.043",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum können gemeinsam vereinbarte Regeln überprüft werden?",
+    "options": [
+      "Bedürfnisse und Lebenssituationen können sich verändern.",
+      "Absprachen dürfen niemals angepasst werden.",
+      "Regeln haben grundsätzlich keine Ziele."
+    ],
+    "correct": 0,
+    "explanation": "Bedürfnisse und Lebenssituationen können sich verändern."
+  },
+  {
+    "id": "complex.soc-family.044",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Welche Aussage unterscheidet Gleichberechtigung von Gleichheit aller Wünsche?",
+    "options": [
+      "Gleiche Rechte schließen unterschiedliche Bedürfnisse nicht aus.",
+      "Gleiche Rechte verlangen identische Hobbys.",
+      "Unterschiedliche Wünsche erlauben unterschiedliche Menschenwürde."
+    ],
+    "correct": 0,
+    "explanation": "Gleiche Rechte schließen unterschiedliche Bedürfnisse nicht aus."
+  },
+  {
+    "id": "complex.soc-family.045",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Wie lässt sich ein Missverständnis eher klären?",
+    "options": [
+      "Die konkrete Situation und gemeinte Aussage nachfragen",
+      "Sofort eine schlechte Absicht als Tatsache behandeln",
+      "Ungeprüfte Vermutungen an alle Nachbarn senden"
+    ],
+    "correct": 0,
+    "explanation": "Die konkrete Situation und gemeinte Aussage nachfragen"
+  },
+  {
+    "id": "complex.soc-family.046",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum betrifft Umweltschutz auch das soziale Wohnumfeld?",
+    "options": [
+      "Lärm, Luft und Grünflächen beeinflussen Lebensqualität.",
+      "Umwelt besteht ausschließlich aus unbewohnten Wäldern.",
+      "Gesundheit und Wohnbedingungen haben keinen Zusammenhang."
+    ],
+    "correct": 0,
+    "explanation": "Lärm, Luft und Grünflächen beeinflussen Lebensqualität."
+  },
+  {
+    "id": "complex.soc-family.047",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Was kann ein Zielkonflikt bei gemeinsamem Konsum sein?",
+    "options": [
+      "Geringe Kosten können mit Haltbarkeit oder fairen Bedingungen kollidieren.",
+      "Jedes billige Produkt ist automatisch nachhaltig.",
+      "Preis und Herstellungsbedingungen sind immer identisch."
+    ],
+    "correct": 0,
+    "explanation": "Geringe Kosten können mit Haltbarkeit oder fairen Bedingungen kollidieren."
+  },
+  {
+    "id": "complex.soc-family.048",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Warum sollte man eigene Grenzen auch gegenüber Freunden äußern dürfen?",
+    "options": [
+      "Freundschaft beruht auf Respekt und hebt Selbstbestimmung nicht auf.",
+      "Freunde dürfen grundsätzlich alles verlangen.",
+      "Wer Grenzen setzt, verliert jedes Recht auf Unterstützung."
+    ],
+    "correct": 0,
+    "explanation": "Freundschaft beruht auf Respekt und hebt Selbstbestimmung nicht auf."
+  },
+  {
+    "id": "complex.soc-family.049",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet konstruktive Kritik von Abwertung?",
+    "options": [
+      "Sie bezieht sich auf konkretes Verhalten und mögliche Verbesserungen.",
+      "Sie erklärt die ganze Person für wertlos.",
+      "Sie nutzt möglichst viele Beleidigungen."
+    ],
+    "correct": 0,
+    "explanation": "Sie bezieht sich auf konkretes Verhalten und mögliche Verbesserungen."
+  },
+  {
+    "id": "complex.soc-family.050",
+    "subject": "social",
+    "topic": "soc-family",
+    "complexId": "soc-family",
+    "competency": "soc-family",
+    "difficulty": 3,
+    "prompt": "Was hilft einer Gruppe bei gemeinsam getroffenen Entscheidungen?",
+    "options": [
+      "Betroffene anhören, Möglichkeiten prüfen und Absprachen nachvollziehbar machen",
+      "Informationen absichtlich zurückhalten",
+      "Nur die lauteste Person ohne Rückfrage entscheiden lassen"
+    ],
+    "correct": 0,
+    "explanation": "Betroffene anhören, Möglichkeiten prüfen und Absprachen nachvollziehbar machen"
+  }
+]

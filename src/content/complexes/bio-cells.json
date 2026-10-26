@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.bio-cells.001",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Was ist die grundlegende lebende Baueinheit von Pflanzen und Tieren?",
+    "options": [
+      "Die Zelle",
+      "Das Atom allein",
+      "Der Kristall"
+    ],
+    "correct": 0,
+    "explanation": "Die Zelle ist die kleinste grundlegende Einheit, die einen eigenen Stoffwechsel betreiben kann."
+  },
+  {
+    "id": "complex.bio-cells.002",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Welche Struktur begrenzt jede lebende Zelle nach außen?",
+    "options": [
+      "Die Zellmembran",
+      "Eine Zellwand aus Holz",
+      "Eine Knochenplatte"
+    ],
+    "correct": 0,
+    "explanation": "Die Zellmembran grenzt die Zelle ab und regelt den Austausch mit ihrer Umgebung."
+  },
+  {
+    "id": "complex.bio-cells.003",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Welche Hauptaufgabe hat der Zellkern vieler Körperzellen?",
+    "options": [
+      "Er enthält einen großen Teil der Erbinformation.",
+      "Er verdaut Nahrung im Magen.",
+      "Er leitet Luft in die Lunge."
+    ],
+    "correct": 0,
+    "explanation": "Er enthält einen großen Teil der Erbinformation."
+  },
+  {
+    "id": "complex.bio-cells.004",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Wie heißt das Grundmaterial im Inneren einer Zelle?",
+    "options": [
+      "Zellplasma",
+      "Blutplasma",
+      "Speichel"
+    ],
+    "correct": 0,
+    "explanation": "Das Zellplasma füllt den Zellinnenraum und ist Umgebung vieler Zellbestandteile und Reaktionen."
+  },
+  {
+    "id": "complex.bio-cells.005",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Welche Struktur besitzen Pflanzenzellen zusätzlich zur Zellmembran?",
+    "options": [
+      "Eine Zellwand",
+      "Eine Ohrmuschel",
+      "Eine Sehne"
+    ],
+    "correct": 0,
+    "explanation": "Die Zellwand liegt außerhalb der Membran und verleiht Pflanzenzellen zusätzliche Stabilität."
+  },
+  {
+    "id": "complex.bio-cells.006",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Welche Zellbestandteile ermöglichen grünen Pflanzen die Fotosynthese?",
+    "options": [
+      "Chloroplasten",
+      "Ribosomen allein",
+      "Lysosomen allein"
+    ],
+    "correct": 0,
+    "explanation": "Chloroplasten enthalten unter anderem Chlorophyll und ermöglichen die Fotosynthese."
+  },
+  {
+    "id": "complex.bio-cells.007",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Welche Zellbestandteile spielen bei der Zellatmung eine wichtige Rolle?",
+    "options": [
+      "Mitochondrien",
+      "Zellwände",
+      "Wimpern am Augenlid"
+    ],
+    "correct": 0,
+    "explanation": "In Mitochondrien laufen wichtige Schritte der Zellatmung zur Bereitstellung nutzbarer Energie ab."
+  },
+  {
+    "id": "complex.bio-cells.008",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Was speichert eine große Pflanzenvakuole unter anderem?",
+    "options": [
+      "Wasser und gelöste Stoffe",
+      "Nur trockene Luft",
+      "Ausschließlich Erbinformation"
+    ],
+    "correct": 0,
+    "explanation": "Die Vakuole enthält Zellsaft mit Wasser und gelösten Stoffen und unterstützt den Zellinnendruck."
+  },
+  {
+    "id": "complex.bio-cells.009",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Welche Zellen besitzen normalerweise keine Chloroplasten?",
+    "options": [
+      "Menschliche Muskelzellen",
+      "Grüne Blattzellen",
+      "Viele grüne Algenzellen"
+    ],
+    "correct": 0,
+    "explanation": "Menschliche Muskelzellen betreiben keine Fotosynthese und besitzen keine Chloroplasten."
+  },
+  {
+    "id": "complex.bio-cells.010",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Was braucht man meist, um einzelne Tierzellen gut zu erkennen?",
+    "options": [
+      "Ein Mikroskop",
+      "Ein Fernrohr",
+      "Einen Kompass"
+    ],
+    "correct": 0,
+    "explanation": "Ein Mikroskop vergrößert kleine Strukturen. Ein Fernrohr ist für weit entfernte Gegenstände gedacht."
+  },
+  {
+    "id": "complex.bio-cells.011",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Was entsteht aus vielen ähnlich spezialisierten Zellen?",
+    "options": [
+      "Ein Gewebe",
+      "Ein einzelnes Atom",
+      "Ein neues chemisches Element"
+    ],
+    "correct": 0,
+    "explanation": "Ein Gewebe besteht aus zusammenarbeitenden Zellen mit passenden, oft ähnlichen Aufgaben."
+  },
+  {
+    "id": "complex.bio-cells.012",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Was ist ein Beispiel für ein Organ?",
+    "options": [
+      "Das Herz",
+      "Ein Sauerstoffmolekül",
+      "Ein einzelnes Ribosom"
+    ],
+    "correct": 0,
+    "explanation": "Das Herz besteht aus mehreren Geweben, die gemeinsam die Pumpfunktion ermöglichen."
+  },
+  {
+    "id": "complex.bio-cells.013",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Wie vermehren sich viele Einzeller?",
+    "options": [
+      "Durch Zellteilung",
+      "Durch das Abwerfen von Knochen",
+      "Durch Verdampfen"
+    ],
+    "correct": 0,
+    "explanation": "Bei der Teilung entstehen aus einer Zelle neue Zellen; viele Einzeller vermehren sich so."
+  },
+  {
+    "id": "complex.bio-cells.014",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Spezialisierung von Zellen?",
+    "options": [
+      "Zellen besitzen einen für bestimmte Aufgaben passenden Bau.",
+      "Alle Zellen erledigen immer genau dieselbe Aufgabe.",
+      "Zellen bestehen dann nicht mehr aus Stoffen."
+    ],
+    "correct": 0,
+    "explanation": "Zellen besitzen einen für bestimmte Aufgaben passenden Bau."
+  },
+  {
+    "id": "complex.bio-cells.015",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 1,
+    "prompt": "Welche Zellen übertragen Informationen im Körper?",
+    "options": [
+      "Nervenzellen",
+      "Haarzellen ohne Nervenfunktion in einem Haarschaft",
+      "Fetttröpfchen außerhalb einer Zelle"
+    ],
+    "correct": 0,
+    "explanation": "Nervenzellen verbinden über ihre Fortsätze verschiedene Stellen und übertragen Informationen."
+  },
+  {
+    "id": "complex.bio-cells.016",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Was beschreibt die selektive Durchlässigkeit einer Membran?",
+    "options": [
+      "Nicht alle Stoffe können gleich gut hindurchtreten.",
+      "Jeder Stoff passiert sie immer ungehindert.",
+      "Kein Stoff kann sie jemals passieren."
+    ],
+    "correct": 0,
+    "explanation": "Nicht alle Stoffe können gleich gut hindurchtreten."
+  },
+  {
+    "id": "complex.bio-cells.017",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Welche Aufgabe haben Ribosomen?",
+    "options": [
+      "Eiweiße herstellen",
+      "Lichtenergie aufnehmen",
+      "Blut durch Adern pumpen"
+    ],
+    "correct": 0,
+    "explanation": "Ribosomen verknüpfen Aminosäuren nach genetischer Vorlage zu Eiweißen."
+  },
+  {
+    "id": "complex.bio-cells.018",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Welche Stoffklasse bildet einen wesentlichen Teil von Zellmembranen?",
+    "options": [
+      "Lipide",
+      "Reiner Sand",
+      "Metallspäne"
+    ],
+    "correct": 0,
+    "explanation": "Eine Lipid-Doppelschicht bildet die Grundstruktur der Zellmembran; Proteine erfüllen zusätzliche Aufgaben."
+  },
+  {
+    "id": "complex.bio-cells.019",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Wie heißt der Träger der Erbinformation?",
+    "options": [
+      "DNA",
+      "Galle",
+      "Zellulose allein"
+    ],
+    "correct": 0,
+    "explanation": "DNA speichert genetische Information, die unter anderem Bauanleitungen für Eiweiße enthält."
+  },
+  {
+    "id": "complex.bio-cells.020",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Was sind Chromosomen?",
+    "options": [
+      "Strukturen aus DNA und zugehörigen Proteinen",
+      "Kleine Lungenbläschen",
+      "Werkzeuge zum Schneiden von Zellen"
+    ],
+    "correct": 0,
+    "explanation": "Strukturen aus DNA und zugehörigen Proteinen"
+  },
+  {
+    "id": "complex.bio-cells.021",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Was muss vor einer geordneten Zellteilung mit der DNA geschehen?",
+    "options": [
+      "Sie muss verdoppelt werden.",
+      "Sie muss vollständig verschwinden.",
+      "Sie muss zu Zucker verdaut werden."
+    ],
+    "correct": 0,
+    "explanation": "Sie muss verdoppelt werden."
+  },
+  {
+    "id": "complex.bio-cells.022",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Wozu dient die Mitose bei Vielzellern unter anderem?",
+    "options": [
+      "Wachstum und Ersatz von Körperzellen",
+      "Aufnahme von Schall",
+      "Herstellung von Sonnenlicht"
+    ],
+    "correct": 0,
+    "explanation": "Wachstum und Ersatz von Körperzellen"
+  },
+  {
+    "id": "complex.bio-cells.023",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Was unterscheidet Bakterienzellen von typischen Tierzellen?",
+    "options": [
+      "Bakterien besitzen keinen von einer Membran umschlossenen Zellkern.",
+      "Bakterien besitzen grundsätzlich keine Erbinformation.",
+      "Tierzellen besitzen keine Zellmembran."
+    ],
+    "correct": 0,
+    "explanation": "Bakterien besitzen keinen von einer Membran umschlossenen Zellkern."
+  },
+  {
+    "id": "complex.bio-cells.024",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Warum sind Viren keine Zellen?",
+    "options": [
+      "Sie besitzen keinen eigenen Zellaufbau und benötigen Wirtszellen zur Vermehrung.",
+      "Sie bestehen immer aus vielen Organen.",
+      "Sie besitzen dieselben Organellen wie Pflanzenzellen."
+    ],
+    "correct": 0,
+    "explanation": "Sie besitzen keinen eigenen Zellaufbau und benötigen Wirtszellen zur Vermehrung."
+  },
+  {
+    "id": "complex.bio-cells.025",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Was ist Diffusion?",
+    "options": [
+      "Teilchen verteilen sich durch ihre Bewegung entlang eines Konzentrationsgefälles.",
+      "Teilchen werden grundsätzlich zu Licht.",
+      "Jede Membran wird mechanisch zerrissen."
+    ],
+    "correct": 0,
+    "explanation": "Teilchen verteilen sich durch ihre Bewegung entlang eines Konzentrationsgefälles."
+  },
+  {
+    "id": "complex.bio-cells.026",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Was beschreibt Osmose?",
+    "options": [
+      "Wasser bewegt sich durch eine selektiv durchlässige Membran.",
+      "Eiweiß wird an Ribosomen aufgebaut.",
+      "DNA wird vor der Zellteilung kopiert."
+    ],
+    "correct": 0,
+    "explanation": "Wasser bewegt sich durch eine selektiv durchlässige Membran."
+  },
+  {
+    "id": "complex.bio-cells.027",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Warum ist Wasser für Zellen wichtig?",
+    "options": [
+      "Viele Reaktionen und Stofftransporte finden in wässriger Umgebung statt.",
+      "Es ersetzt die gesamte Erbinformation.",
+      "Es verhindert jede chemische Reaktion."
+    ],
+    "correct": 0,
+    "explanation": "Viele Reaktionen und Stofftransporte finden in wässriger Umgebung statt."
+  },
+  {
+    "id": "complex.bio-cells.028",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Worin unterscheiden sich Einzeller von Vielzellern?",
+    "options": [
+      "Einzeller bestehen aus einer einzigen Zelle als Organismus.",
+      "Einzeller besitzen grundsätzlich kein Zellplasma.",
+      "Vielzeller bestehen nur aus Zellwänden."
+    ],
+    "correct": 0,
+    "explanation": "Einzeller bestehen aus einer einzigen Zelle als Organismus."
+  },
+  {
+    "id": "complex.bio-cells.029",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Warum haben Muskelzellen oft viele Mitochondrien?",
+    "options": [
+      "Die Muskelarbeit benötigt viel nutzbare Energie.",
+      "Sie müssen Fotosynthese betreiben.",
+      "Die Mitochondrien ersetzen die Muskelfasern vollständig."
+    ],
+    "correct": 0,
+    "explanation": "Die Muskelarbeit benötigt viel nutzbare Energie."
+  },
+  {
+    "id": "complex.bio-cells.030",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 2,
+    "prompt": "Welche Aussage über tierische und pflanzliche Zellen stimmt?",
+    "options": [
+      "Beide besitzen Zellmembran und Zellplasma.",
+      "Nur Tierzellen besitzen Erbinformation.",
+      "Nur Pflanzenzellen können Stoffwechsel betreiben."
+    ],
+    "correct": 0,
+    "explanation": "Beide besitzen Zellmembran und Zellplasma."
+  },
+  {
+    "id": "complex.bio-cells.031",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum welkt eine Pflanze bei starkem Wassermangel?",
+    "options": [
+      "Der Innendruck vieler Zellen nimmt ab.",
+      "Alle Zellwände lösen sich sofort auf.",
+      "Die DNA verlässt jede Blattzelle."
+    ],
+    "correct": 0,
+    "explanation": "Der Innendruck vieler Zellen nimmt ab."
+  },
+  {
+    "id": "complex.bio-cells.032",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum kann eine hohe Salzkonzentration außen einer Pflanzenzelle Wasser entziehen?",
+    "options": [
+      "Wasser bewegt sich osmotisch zur stärker konzentrierten Lösung.",
+      "Salz schiebt jede Zelle mechanisch nach außen.",
+      "Die Zellwand wandelt Wasser in Salz um."
+    ],
+    "correct": 0,
+    "explanation": "Wasser bewegt sich osmotisch zur stärker konzentrierten Lösung."
+  },
+  {
+    "id": "complex.bio-cells.033",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Welche Reihenfolge beschreibt biologische Organisation?",
+    "options": [
+      "Zelle – Gewebe – Organ – Organsystem",
+      "Organ – Atom – Gewebe – Zelle",
+      "Gewebe – Organismus – Molekül – Organ"
+    ],
+    "correct": 0,
+    "explanation": "Zelle – Gewebe – Organ – Organsystem"
+  },
+  {
+    "id": "complex.bio-cells.034",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum sehen rote Blutkörperchen und Nervenzellen verschieden aus?",
+    "options": [
+      "Ihr Bau passt zu unterschiedlichen Aufgaben.",
+      "Nur eine der beiden Arten besteht aus Zellen.",
+      "Alle sichtbaren Unterschiede sind Mikroskopfehler."
+    ],
+    "correct": 0,
+    "explanation": "Ihr Bau passt zu unterschiedlichen Aufgaben."
+  },
+  {
+    "id": "complex.bio-cells.035",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Was erklärt, dass Wurzelzellen meist keine Chloroplasten besitzen?",
+    "options": [
+      "Sie erhalten normalerweise kaum Licht und sind auf andere Aufgaben spezialisiert.",
+      "Wurzelzellen enthalten überhaupt keine Organellen.",
+      "Fotosynthese ist nur außerhalb von Zellen möglich."
+    ],
+    "correct": 0,
+    "explanation": "Sie erhalten normalerweise kaum Licht und sind auf andere Aufgaben spezialisiert."
+  },
+  {
+    "id": "complex.bio-cells.036",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Zellatmung und Fotosynthese in grünen Pflanzen?",
+    "options": [
+      "Fotosynthese baut energiereiche Stoffe auf; Zellatmung macht deren Energie nutzbar.",
+      "Pflanzen betreiben niemals Zellatmung.",
+      "Beide laufen nur in der Zellwand ab."
+    ],
+    "correct": 0,
+    "explanation": "Fotosynthese baut energiereiche Stoffe auf; Zellatmung macht deren Energie nutzbar."
+  },
+  {
+    "id": "complex.bio-cells.037",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum sind kleine Zellen oft gut für den Stoffaustausch geeignet?",
+    "options": [
+      "Im Verhältnis zum Volumen ist ihre Oberfläche groß.",
+      "Kleine Zellen besitzen grundsätzlich keine Membran.",
+      "Jede kleine Zelle braucht keinen Sauerstoff."
+    ],
+    "correct": 0,
+    "explanation": "Im Verhältnis zum Volumen ist ihre Oberfläche groß."
+  },
+  {
+    "id": "complex.bio-cells.038",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum ist die Membran mehr als eine starre Hülle?",
+    "options": [
+      "Sie enthält bewegliche Bestandteile und Transportproteine.",
+      "Sie ist immer ein unveränderlicher Steinring.",
+      "Sie besteht ausschließlich aus Erbinformation."
+    ],
+    "correct": 0,
+    "explanation": "Sie enthält bewegliche Bestandteile und Transportproteine."
+  },
+  {
+    "id": "complex.bio-cells.039",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Was ist aktiver Membrantransport?",
+    "options": [
+      "Stofftransport unter Energieaufwand, auch gegen ein Konzentrationsgefälle",
+      "Jede zufällige Bewegung ohne Energiebedarf",
+      "Die Zerlegung einer Zelle durch äußeren Druck"
+    ],
+    "correct": 0,
+    "explanation": "Stofftransport unter Energieaufwand, auch gegen ein Konzentrationsgefälle"
+  },
+  {
+    "id": "complex.bio-cells.040",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum verändern hohe Temperaturen die Wirkung vieler Zelleiweiße?",
+    "options": [
+      "Ihre räumliche Struktur kann geschädigt werden.",
+      "Eiweiße werden automatisch zu DNA.",
+      "Alle Eiweiße werden dadurch widerstandsfähiger."
+    ],
+    "correct": 0,
+    "explanation": "Ihre räumliche Struktur kann geschädigt werden."
+  },
+  {
+    "id": "complex.bio-cells.041",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Was kennzeichnet Stammzellen?",
+    "options": [
+      "Sie können sich teilen und zu verschiedenen Zelltypen entwickeln.",
+      "Sie sind immer abgestorbene Holzzellen.",
+      "Sie enthalten grundsätzlich keine DNA."
+    ],
+    "correct": 0,
+    "explanation": "Sie können sich teilen und zu verschiedenen Zelltypen entwickeln."
+  },
+  {
+    "id": "complex.bio-cells.042",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum erhalten Tochterzellen bei der Mitose normalerweise gleiche Erbinformation?",
+    "options": [
+      "Verdoppelte Chromosomen werden geordnet verteilt.",
+      "Jede Tochterzelle wählt ihre Gene neu aus der Luft.",
+      "Nur eine Tochterzelle bekommt die gesamte DNA."
+    ],
+    "correct": 0,
+    "explanation": "Verdoppelte Chromosomen werden geordnet verteilt."
+  },
+  {
+    "id": "complex.bio-cells.043",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum sind Geschlechtszellen beim Menschen bezüglich der Chromosomenzahl besonders?",
+    "options": [
+      "Sie besitzen einen einfachen statt doppelten Chromosomensatz.",
+      "Sie enthalten gar keine Chromosomen.",
+      "Sie besitzen immer die doppelte Zahl aller Körperzellen."
+    ],
+    "correct": 0,
+    "explanation": "Sie besitzen einen einfachen statt doppelten Chromosomensatz."
+  },
+  {
+    "id": "complex.bio-cells.044",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Was ist eine Mutation?",
+    "options": [
+      "Eine dauerhafte Veränderung der Erbinformation",
+      "Jede normale Aufnahme von Wasser",
+      "Der tägliche Wechsel der Körpertemperatur"
+    ],
+    "correct": 0,
+    "explanation": "Eine dauerhafte Veränderung der Erbinformation"
+  },
+  {
+    "id": "complex.bio-cells.045",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum ist eine Mutation nicht automatisch schädlich?",
+    "options": [
+      "Ihre Wirkung hängt von Ort, Art und Umwelt ab.",
+      "Mutationen verändern grundsätzlich nichts an der DNA.",
+      "Jede Mutation verbessert alle Eigenschaften."
+    ],
+    "correct": 0,
+    "explanation": "Ihre Wirkung hängt von Ort, Art und Umwelt ab."
+  },
+  {
+    "id": "complex.bio-cells.046",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Wie kann eine Wunde wieder mit Gewebe geschlossen werden?",
+    "options": [
+      "Zellen teilen sich und bilden neues Gewebe.",
+      "Die Wunde wird nur mit neuer Luft gefüllt.",
+      "Alle benachbarten Zellkerne verlassen ihre Zellen."
+    ],
+    "correct": 0,
+    "explanation": "Zellen teilen sich und bilden neues Gewebe."
+  },
+  {
+    "id": "complex.bio-cells.047",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum sind Antibiotika keine allgemeine Behandlung gegen Virusinfektionen?",
+    "options": [
+      "Sie greifen bakterielle Strukturen oder Vorgänge an, die Viren nicht besitzen.",
+      "Viren sind grundsätzlich große Pflanzenzellen.",
+      "Antibiotika liefern Viren fehlende Mitochondrien."
+    ],
+    "correct": 0,
+    "explanation": "Sie greifen bakterielle Strukturen oder Vorgänge an, die Viren nicht besitzen."
+  },
+  {
+    "id": "complex.bio-cells.048",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Was macht einen Zellverband zu einem Gewebe?",
+    "options": [
+      "Zusammenarbeit spezialisierter Zellen für gemeinsame Aufgaben",
+      "Nur eine zufällige räumliche Nähe verschiedener Gegenstände",
+      "Eine gemeinsame Farbe ohne biologische Funktion"
+    ],
+    "correct": 0,
+    "explanation": "Zusammenarbeit spezialisierter Zellen für gemeinsame Aufgaben"
+  },
+  {
+    "id": "complex.bio-cells.049",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Welche Aussage über den Zellkern ist genauer als „jede menschliche Zelle hat einen“?",
+    "options": [
+      "Reife rote Blutkörperchen besitzen keinen Zellkern.",
+      "Alle menschlichen Zellen haben zwei Zellkerne.",
+      "Nur Knochenzellen besitzen überhaupt einen Zellkern."
+    ],
+    "correct": 0,
+    "explanation": "Reife rote Blutkörperchen besitzen keinen Zellkern."
+  },
+  {
+    "id": "complex.bio-cells.050",
+    "subject": "biology",
+    "topic": "bio-cells",
+    "complexId": "bio-cells",
+    "competency": "bio-cells",
+    "difficulty": 3,
+    "prompt": "Warum braucht die Zelle sowohl Bau- als auch Betriebsstoffe?",
+    "options": [
+      "Sie muss Strukturen erneuern und Energie für Prozesse bereitstellen.",
+      "Betriebsstoffe ersetzen jedes Zellbauteil dauerhaft.",
+      "Baustoffe können in keiner chemischen Reaktion vorkommen."
+    ],
+    "correct": 0,
+    "explanation": "Sie muss Strukturen erneuern und Energie für Prozesse bereitstellen."
+  }
+]

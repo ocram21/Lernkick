@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.bio-metabolism.001",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Wo beginnt die Verdauung von Stärke?",
+    "options": [
+      "Im Mund",
+      "Im Dickdarm",
+      "In der Niere"
+    ],
+    "correct": 0,
+    "explanation": "Speichel enthält Enzyme, die bereits im Mund mit der Spaltung von Stärke beginnen."
+  },
+  {
+    "id": "complex.bio-metabolism.002",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe haben die Zähne bei der Verdauung?",
+    "options": [
+      "Nahrung mechanisch zerkleinern",
+      "Nährstoffe ins Blut pumpen",
+      "Eiweiß ins Blut aufnehmen"
+    ],
+    "correct": 0,
+    "explanation": "Nahrung mechanisch zerkleinern"
+  },
+  {
+    "id": "complex.bio-metabolism.003",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Warum wird Nahrung im Mund mit Speichel vermischt?",
+    "options": [
+      "Sie wird gleitfähig und Enzyme beginnen die Spaltung.",
+      "Sie wird dadurch völlig keimfrei.",
+      "Alle Nährstoffe werden dort aufgenommen."
+    ],
+    "correct": 0,
+    "explanation": "Sie wird gleitfähig und Enzyme beginnen die Spaltung."
+  },
+  {
+    "id": "complex.bio-metabolism.004",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Durch welches Organ gelangt Nahrung vom Mund zum Magen?",
+    "options": [
+      "Durch die Speiseröhre",
+      "Durch die Luftröhre",
+      "Durch die Hauptschlagader"
+    ],
+    "correct": 0,
+    "explanation": "Die Speiseröhre transportiert den Bissen zum Magen. Die Luftröhre gehört zu den Atemwegen."
+  },
+  {
+    "id": "complex.bio-metabolism.005",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat Magensäure?",
+    "options": [
+      "Sie unterstützt die Eiweißverdauung und hemmt viele Keime.",
+      "Sie stellt Blutzellen her.",
+      "Sie nimmt den größten Teil der Nährstoffe auf."
+    ],
+    "correct": 0,
+    "explanation": "Sie unterstützt die Eiweißverdauung und hemmt viele Keime."
+  },
+  {
+    "id": "complex.bio-metabolism.006",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Wo gelangen die meisten verdauten Nährstoffe in den Körper?",
+    "options": [
+      "Über die Dünndarmwand",
+      "Über die Speiseröhrenwand",
+      "Über die Magenzähne"
+    ],
+    "correct": 0,
+    "explanation": "Vor allem im Dünndarm gelangen zerlegte Nährstoffe durch die Darmwand in den Körper."
+  },
+  {
+    "id": "complex.bio-metabolism.007",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Was vergrößert die Aufnahmefläche des Dünndarms?",
+    "options": [
+      "Darmzotten",
+      "Lungenbläschen",
+      "Herzklappen"
+    ],
+    "correct": 0,
+    "explanation": "Darmzotten vergrößern die innere Oberfläche des Dünndarms und damit die Aufnahmefläche."
+  },
+  {
+    "id": "complex.bio-metabolism.008",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat der Dickdarm besonders?",
+    "options": [
+      "Wasser und Salze zurückgewinnen",
+      "Sauerstoff aufnehmen",
+      "Insulin herstellen"
+    ],
+    "correct": 0,
+    "explanation": "Wasser und Salze zurückgewinnen"
+  },
+  {
+    "id": "complex.bio-metabolism.009",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Welcher Nährstoff liefert vor allem schnell verfügbare Energie?",
+    "options": [
+      "Kohlenhydrate",
+      "Mineralstoffe",
+      "Wasser"
+    ],
+    "correct": 0,
+    "explanation": "Kohlenhydrate werden zu kleineren Zuckern zerlegt. Glucose ist ein wichtiger Energieträger der Zellen."
+  },
+  {
+    "id": "complex.bio-metabolism.010",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Wozu benötigt der Körper Eiweiß unter anderem?",
+    "options": [
+      "Zum Aufbau und zur Erneuerung von Gewebe",
+      "Als einzigen Lieferanten von Sauerstoff",
+      "Zum Ersatz jeder Flüssigkeitsaufnahme"
+    ],
+    "correct": 0,
+    "explanation": "Zum Aufbau und zur Erneuerung von Gewebe"
+  },
+  {
+    "id": "complex.bio-metabolism.011",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe haben Nahrungsfette?",
+    "options": [
+      "Sie liefern Energie und unterstützen die Aufnahme bestimmter Vitamine.",
+      "Sie machen jede Verdauung überflüssig.",
+      "Sie sind die wichtigsten Sauerstoffträger im Blut."
+    ],
+    "correct": 0,
+    "explanation": "Sie liefern Energie und unterstützen die Aufnahme bestimmter Vitamine."
+  },
+  {
+    "id": "complex.bio-metabolism.012",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Warum sind Ballaststoffe nützlich?",
+    "options": [
+      "Sie unterstützen die Darmtätigkeit.",
+      "Sie ersetzen alle Vitamine.",
+      "Sie werden vollständig zu Eiweiß umgebaut."
+    ],
+    "correct": 0,
+    "explanation": "Sie unterstützen die Darmtätigkeit."
+  },
+  {
+    "id": "complex.bio-metabolism.013",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Welche Getränkewahl eignet sich im Alltag besonders als Durstlöscher?",
+    "options": [
+      "Wasser",
+      "Energydrink",
+      "Zuckerreiche Limonade"
+    ],
+    "correct": 0,
+    "explanation": "Wasser löscht Durst, ohne dabei Zucker oder anregende Stoffe zuzuführen."
+  },
+  {
+    "id": "complex.bio-metabolism.014",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Was transportieren rote Blutkörperchen besonders?",
+    "options": [
+      "Sauerstoff",
+      "Verdauungsreste im Darm",
+      "Nervensignale zum Gehirn"
+    ],
+    "correct": 0,
+    "explanation": "Der rote Blutfarbstoff Hämoglobin bindet Sauerstoff und ermöglicht seinen Transport."
+  },
+  {
+    "id": "complex.bio-metabolism.015",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat das Herz?",
+    "options": [
+      "Blut durch die Gefäße pumpen",
+      "Harn bilden",
+      "Nahrung zerkleinern"
+    ],
+    "correct": 0,
+    "explanation": "Blut durch die Gefäße pumpen"
+  },
+  {
+    "id": "complex.bio-metabolism.016",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Warum benötigt ein arbeitender Muskel mehr Sauerstoff?",
+    "options": [
+      "Seine Zellen setzen mehr Energie um.",
+      "Seine Zellen hören auf zu atmen.",
+      "Er muss Sauerstoff als Fett speichern."
+    ],
+    "correct": 0,
+    "explanation": "Seine Zellen setzen mehr Energie um."
+  },
+  {
+    "id": "complex.bio-metabolism.017",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Welche Gefäße führen Blut vom Herzen weg?",
+    "options": [
+      "Arterien",
+      "Venen",
+      "Lymphknoten"
+    ],
+    "correct": 0,
+    "explanation": "Arterien führen vom Herzen weg. Die Flussrichtung ist entscheidend, nicht der Sauerstoffgehalt."
+  },
+  {
+    "id": "complex.bio-metabolism.018",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Was verhindern Herzklappen?",
+    "options": [
+      "Den Rückfluss des Blutes",
+      "Jede Änderung des Herzschlags",
+      "Die Aufnahme von Sauerstoff"
+    ],
+    "correct": 0,
+    "explanation": "Herzklappen wirken wie Ventile: Sie unterstützen den gerichteten Blutfluss."
+  },
+  {
+    "id": "complex.bio-metabolism.019",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Wo findet der Gasaustausch in der Lunge statt?",
+    "options": [
+      "An den Lungenbläschen",
+      "Im Kehlkopfknorpel",
+      "In den Bronchienknorpeln"
+    ],
+    "correct": 0,
+    "explanation": "Dünne Wände zwischen Lungenbläschen und Kapillaren ermöglichen den Gasaustausch."
+  },
+  {
+    "id": "complex.bio-metabolism.020",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Was geschieht beim Einatmen mit dem Zwerchfell?",
+    "options": [
+      "Es zieht sich zusammen und senkt sich.",
+      "Es steigt durch Zusammenziehen nach oben.",
+      "Es verschließt die Luftröhre."
+    ],
+    "correct": 0,
+    "explanation": "Es zieht sich zusammen und senkt sich."
+  },
+  {
+    "id": "complex.bio-metabolism.021",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Welches Gas wird bei der Zellatmung verbraucht?",
+    "options": [
+      "Sauerstoff",
+      "Stickstoff",
+      "Kohlenstoffdioxid"
+    ],
+    "correct": 0,
+    "explanation": "Bei der Zellatmung wird Sauerstoff für die Umsetzung energiereicher Stoffe benötigt."
+  },
+  {
+    "id": "complex.bio-metabolism.022",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Welche Stoffe entstehen bei der vollständigen Zellatmung aus Glucose und Sauerstoff?",
+    "options": [
+      "Kohlenstoffdioxid und Wasser",
+      "Stärke und Sauerstoff",
+      "Eiweiß und Stickstoff"
+    ],
+    "correct": 0,
+    "explanation": "Kohlenstoffdioxid und Wasser"
+  },
+  {
+    "id": "complex.bio-metabolism.023",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Welche Aufgabe hat die Leber im Nährstoffhaushalt?",
+    "options": [
+      "Sie verarbeitet und speichert Nährstoffe.",
+      "Sie belüftet die Lungenbläschen.",
+      "Sie erzeugt den Harn in der Blase."
+    ],
+    "correct": 0,
+    "explanation": "Sie verarbeitet und speichert Nährstoffe."
+  },
+  {
+    "id": "complex.bio-metabolism.024",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Wo wird Gallenflüssigkeit gebildet?",
+    "options": [
+      "In der Leber",
+      "In der Gallenblase",
+      "Im Dickdarm"
+    ],
+    "correct": 0,
+    "explanation": "Die Leber bildet Galle; die Gallenblase speichert und konzentriert sie."
+  },
+  {
+    "id": "complex.bio-metabolism.025",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Wie hilft Galle bei der Fettverdauung?",
+    "options": [
+      "Sie verteilt Fett in kleine Tröpfchen.",
+      "Sie spaltet Fett als Enzym vollständig.",
+      "Sie wandelt Fett direkt in Blut um."
+    ],
+    "correct": 0,
+    "explanation": "Sie verteilt Fett in kleine Tröpfchen."
+  },
+  {
+    "id": "complex.bio-metabolism.026",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Welches Organ bildet Insulin und Verdauungsenzyme?",
+    "options": [
+      "Die Bauchspeicheldrüse",
+      "Die Milz",
+      "Die Harnblase"
+    ],
+    "correct": 0,
+    "explanation": "Die Bauchspeicheldrüse bildet Verdauungsenzyme und Hormone wie Insulin."
+  },
+  {
+    "id": "complex.bio-metabolism.027",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Was bewirkt Insulin im Allgemeinen?",
+    "options": [
+      "Der Blutzucker sinkt durch Aufnahme und Speicherung von Glucose.",
+      "Der Sauerstoffgehalt der Atemluft steigt.",
+      "Die Speiseröhre bildet mehr Stärke."
+    ],
+    "correct": 0,
+    "explanation": "Der Blutzucker sinkt durch Aufnahme und Speicherung von Glucose."
+  },
+  {
+    "id": "complex.bio-metabolism.028",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Welche Aufgabe haben Nieren?",
+    "options": [
+      "Blut filtern und den Wasser- sowie Salzhaushalt mitregeln",
+      "Blut mit Sauerstoff anreichern",
+      "Nahrung im Magen zerkleinern"
+    ],
+    "correct": 0,
+    "explanation": "Blut filtern und den Wasser- sowie Salzhaushalt mitregeln"
+  },
+  {
+    "id": "complex.bio-metabolism.029",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Warum enthält Urin Stoffwechselabfälle?",
+    "options": [
+      "Die Nieren scheiden gelöste Abfallstoffe aus.",
+      "Die Blase verdaut die Nahrung.",
+      "Die Lunge gibt feste Reste an die Blase ab."
+    ],
+    "correct": 0,
+    "explanation": "Die Nieren scheiden gelöste Abfallstoffe aus."
+  },
+  {
+    "id": "complex.bio-metabolism.030",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 2,
+    "prompt": "Warum steigt bei körperlicher Belastung meist die Atemfrequenz?",
+    "options": [
+      "Mehr Sauerstoff wird benötigt und mehr Kohlenstoffdioxid abgegeben.",
+      "Die Lunge muss mehr Nahrung aufnehmen.",
+      "Der Körper benötigt keinen Kreislauf mehr."
+    ],
+    "correct": 0,
+    "explanation": "Mehr Sauerstoff wird benötigt und mehr Kohlenstoffdioxid abgegeben."
+  },
+  {
+    "id": "complex.bio-metabolism.031",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Ein Stück Brot schmeckt nach langem Kauen süßer. Was erklärt das?",
+    "options": [
+      "Speichelenzyme spalten Stärke zu kleineren Zuckern.",
+      "Zähne erzeugen Zucker aus Mineralstoffen.",
+      "Wasser wird im Mund zu Zucker."
+    ],
+    "correct": 0,
+    "explanation": "Speichelenzyme spalten Stärke zu kleineren Zuckern."
+  },
+  {
+    "id": "complex.bio-metabolism.032",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum kann eine Schädigung der Dünndarmzotten die Versorgung verschlechtern?",
+    "options": [
+      "Die Fläche zur Aufnahme von Nährstoffen nimmt ab.",
+      "Die Nahrung erreicht den Darm nicht mehr.",
+      "Die Magensäure kann nicht mehr gebildet werden."
+    ],
+    "correct": 0,
+    "explanation": "Die Fläche zur Aufnahme von Nährstoffen nimmt ab."
+  },
+  {
+    "id": "complex.bio-metabolism.033",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum hilft gründliches Kauen auch den Verdauungsenzymen?",
+    "options": [
+      "Kleinere Stücke bieten eine größere Angriffsfläche.",
+      "Die Enzyme werden durch die Zähne ersetzt.",
+      "Die Nährstoffe müssen dann nicht mehr gespalten werden."
+    ],
+    "correct": 0,
+    "explanation": "Kleinere Stücke bieten eine größere Angriffsfläche."
+  },
+  {
+    "id": "complex.bio-metabolism.034",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Verdauung von Zellatmung?",
+    "options": [
+      "Verdauung zerlegt Nahrung; Zellatmung macht chemische Energie nutzbar.",
+      "Beide Vorgänge finden ausschließlich im Magen statt.",
+      "Verdauung benötigt immer Licht; Zellatmung nur Dunkelheit."
+    ],
+    "correct": 0,
+    "explanation": "Verdauung zerlegt Nahrung; Zellatmung macht chemische Energie nutzbar."
+  },
+  {
+    "id": "complex.bio-metabolism.035",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum wird nicht die gesamte Nahrungsenergie als Bewegung sichtbar?",
+    "options": [
+      "Ein Teil wird als Wärme frei oder für andere Lebensvorgänge genutzt.",
+      "Energie verschwindet bei jedem Atemzug vollständig.",
+      "Nur Knochen können Energie umwandeln."
+    ],
+    "correct": 0,
+    "explanation": "Ein Teil wird als Wärme frei oder für andere Lebensvorgänge genutzt."
+  },
+  {
+    "id": "complex.bio-metabolism.036",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Welche Mahlzeit kombiniert verschiedene wichtige Nährstoffgruppen?",
+    "options": [
+      "Vollkornbrot mit Quark und Gemüse",
+      "Nur Traubenzucker mit Limonade",
+      "Nur gesalzene Butter ohne weitere Lebensmittel"
+    ],
+    "correct": 0,
+    "explanation": "Vollkornbrot mit Quark und Gemüse"
+  },
+  {
+    "id": "complex.bio-metabolism.037",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum brauchen auch Menschen in Ruhe Energie?",
+    "options": [
+      "Zellen erhalten Atmung, Kreislauf und andere Lebensvorgänge.",
+      "Ohne Bewegung findet kein Stoffwechsel statt.",
+      "Nur die Verdauung benötigt Energie."
+    ],
+    "correct": 0,
+    "explanation": "Zellen erhalten Atmung, Kreislauf und andere Lebensvorgänge."
+  },
+  {
+    "id": "complex.bio-metabolism.038",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Wie kann Schweiß den Körper kühlen?",
+    "options": [
+      "Beim Verdunsten wird Wärme aufgenommen.",
+      "Wasser bildet auf der Haut Sauerstoff.",
+      "Schweiß schaltet die Muskelzellen ab."
+    ],
+    "correct": 0,
+    "explanation": "Beim Verdunsten wird Wärme aufgenommen."
+  },
+  {
+    "id": "complex.bio-metabolism.039",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum kann starkes Schwitzen ohne Trinken problematisch werden?",
+    "options": [
+      "Der Körper verliert Wasser und Salze.",
+      "Der Körper verliert dadurch sämtliche Eiweiße.",
+      "Das Blut wird dadurch automatisch stärker mit Sauerstoff versorgt."
+    ],
+    "correct": 0,
+    "explanation": "Der Körper verliert Wasser und Salze."
+  },
+  {
+    "id": "complex.bio-metabolism.040",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Welche Strecke gehört zum kleinen Blutkreislauf?",
+    "options": [
+      "Herz – Lunge – Herz",
+      "Herz – Darm – Leber – Niere",
+      "Gehirn – Rückenmark – Muskel"
+    ],
+    "correct": 0,
+    "explanation": "Der kleine Kreislauf führt vom Herzen zur Lunge und zurück. Dort wird das Blut mit Sauerstoff versorgt."
+  },
+  {
+    "id": "complex.bio-metabolism.041",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum ist die Lungenarterie eine Ausnahme bei der Sauerstoffversorgung?",
+    "options": [
+      "Sie führt sauerstoffarmes Blut vom Herzen zur Lunge.",
+      "Sie führt Blut von der Lunge zum Herzen.",
+      "Sie enthält statt Blut ausschließlich Luft."
+    ],
+    "correct": 0,
+    "explanation": "Sie führt sauerstoffarmes Blut vom Herzen zur Lunge."
+  },
+  {
+    "id": "complex.bio-metabolism.042",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Was begünstigt den Gasaustausch an Lungenbläschen?",
+    "options": [
+      "Dünne Wände und eine große Oberfläche",
+      "Dicke Hornschichten und wenig Fläche",
+      "Luftdichte Knochenplatten zwischen Luft und Blut"
+    ],
+    "correct": 0,
+    "explanation": "Dünne Wände und eine große Oberfläche"
+  },
+  {
+    "id": "complex.bio-metabolism.043",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum gelangt Kohlenstoffdioxid aus dem Blut in die Lungenbläschen?",
+    "options": [
+      "Es diffundiert entlang eines Konzentrationsgefälles.",
+      "Es wird dort durch Zähne herausgepresst.",
+      "Es wird von Insulin in Sauerstoff verwandelt."
+    ],
+    "correct": 0,
+    "explanation": "Es diffundiert entlang eines Konzentrationsgefälles."
+  },
+  {
+    "id": "complex.bio-metabolism.044",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum verschließt der Kehldeckel beim Schlucken den Eingang zum Kehlkopf?",
+    "options": [
+      "Er hilft, Nahrung aus den Atemwegen fernzuhalten.",
+      "Er verhindert jede Bewegung der Speiseröhre.",
+      "Er nimmt Nährstoffe direkt ins Blut auf."
+    ],
+    "correct": 0,
+    "explanation": "Er hilft, Nahrung aus den Atemwegen fernzuhalten."
+  },
+  {
+    "id": "complex.bio-metabolism.045",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum können Enzyme nicht beliebig jede Nahrungsart spalten?",
+    "options": [
+      "Ihre Wirkung hängt von passenden Substraten ab.",
+      "Alle Enzyme bestehen nur aus Zucker.",
+      "Enzyme wirken ausschließlich auf Wasser."
+    ],
+    "correct": 0,
+    "explanation": "Ihre Wirkung hängt von passenden Substraten ab."
+  },
+  {
+    "id": "complex.bio-metabolism.046",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Was ist ein Beispiel für chemische Verdauung?",
+    "options": [
+      "Ein Enzym zerlegt Eiweiß in kleinere Bausteine.",
+      "Ein Zahn zerdrückt einen Apfel.",
+      "Die Zunge schiebt einen Bissen nach hinten."
+    ],
+    "correct": 0,
+    "explanation": "Ein Enzym zerlegt Eiweiß in kleinere Bausteine."
+  },
+  {
+    "id": "complex.bio-metabolism.047",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum braucht der Körper trotz Energiereserven weiterhin Vitamine?",
+    "options": [
+      "Vitamine erfüllen Regel- und Hilfsfunktionen und liefern kaum Energie.",
+      "Fettreserven ersetzen alle Vitamine dauerhaft.",
+      "Vitamine bestehen aus gespeichertem Sauerstoff."
+    ],
+    "correct": 0,
+    "explanation": "Vitamine erfüllen Regel- und Hilfsfunktionen und liefern kaum Energie."
+  },
+  {
+    "id": "complex.bio-metabolism.048",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Was passiert bei längerem Energieüberschuss häufig?",
+    "options": [
+      "Ein Teil der überschüssigen Energie wird gespeichert.",
+      "Der Körper kann keinerlei Energie speichern.",
+      "Die Nieren wandeln jede zusätzliche Energie in Sauerstoff um."
+    ],
+    "correct": 0,
+    "explanation": "Ein Teil der überschüssigen Energie wird gespeichert."
+  },
+  {
+    "id": "complex.bio-metabolism.049",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Welche Aussage beschreibt die Arbeit der Kapillaren?",
+    "options": [
+      "Ihre dünnen Wände ermöglichen Stoffaustausch mit dem Gewebe.",
+      "Sie schließen die Speiseröhre beim Atmen.",
+      "Sie erzeugen elektrische Impulse im Gehirn."
+    ],
+    "correct": 0,
+    "explanation": "Ihre dünnen Wände ermöglichen Stoffaustausch mit dem Gewebe."
+  },
+  {
+    "id": "complex.bio-metabolism.050",
+    "subject": "biology",
+    "topic": "bio-metabolism",
+    "complexId": "bio-metabolism",
+    "competency": "bio-metabolism",
+    "difficulty": 3,
+    "prompt": "Warum hängen Atmung, Verdauung und Kreislauf zusammen?",
+    "options": [
+      "Der Kreislauf bringt Sauerstoff und aufgenommene Nährstoffe zu den Zellen.",
+      "Jedes System stellt unabhängig vollständige Nahrung her.",
+      "Die Lunge ersetzt die Verdauung, sobald man sich bewegt."
+    ],
+    "correct": 0,
+    "explanation": "Der Kreislauf bringt Sauerstoff und aufgenommene Nährstoffe zu den Zellen."
+  }
+]

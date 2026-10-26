@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "biology",
+    "id": "bio-metabolism",
+    "title": "Stoff- und Energiewechsel des Menschen"
+  },
+  {
+    "subject": "biology",
+    "id": "bio-senses",
+    "title": "Sinnes- und Nervenfunktionen des Menschen"
+  },
+  {
+    "subject": "biology",
+    "id": "bio-cells",
+    "title": "Zellen"
+  },
+  {
+    "subject": "biology",
+    "id": "bio-ecology",
+    "title": "Lebewesen in ihrer Umwelt"
+  },
+  {
+    "subject": "geography",
+    "id": "geo-disparities",
+    "title": "Räumliche Disparitäten und Verflechtungen"
+  },
+  {
+    "subject": "geography",
+    "id": "geo-americas",
+    "title": "Doppelkontinent Amerika"
+  },
+  {
+    "subject": "geography",
+    "id": "geo-usa",
+    "title": "Weltwirtschaftsmacht USA"
+  },
+  {
+    "subject": "geography",
+    "id": "geo-eu",
+    "title": "Europäische Union"
+  },
+  {
+    "subject": "geography",
+    "id": "geo-germany",
+    "title": "Wirtschaftsraum Deutschland"
+  },
+  {
+    "subject": "social",
+    "id": "soc-family",
+    "title": "Familie und Umwelt"
+  },
+  {
+    "subject": "social",
+    "id": "soc-leisure",
+    "title": "Freizeit und Drogen"
+  },
+  {
+    "subject": "social",
+    "id": "soc-media",
+    "title": "Medien"
+  },
+  {
+    "subject": "social",
+    "id": "soc-state",
+    "title": "Die BRD – ein demokratischer und sozialer Staat"
+  },
+  {
+    "subject": "social",
+    "id": "soc-elections",
+    "title": "Wahlen"
+  }
+]

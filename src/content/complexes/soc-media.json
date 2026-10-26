@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.soc-media.001",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was sind Medien?",
+    "options": [
+      "Mittel zur Vermittlung von Informationen und Inhalten",
+      "Nur gedruckte Schulbücher",
+      "Ausschließlich politische Parteien"
+    ],
+    "correct": 0,
+    "explanation": "Mittel zur Vermittlung von Informationen und Inhalten"
+  },
+  {
+    "id": "complex.soc-media.002",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist eine Nachricht im journalistischen Sinn?",
+    "options": [
+      "Eine sachliche Information über ein Ereignis",
+      "Jede bezahlte Produktwerbung",
+      "Nur eine persönliche Beschimpfung"
+    ],
+    "correct": 0,
+    "explanation": "Eine sachliche Information über ein Ereignis"
+  },
+  {
+    "id": "complex.soc-media.003",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist eine Meinung?",
+    "options": [
+      "Eine persönliche Bewertung oder Haltung",
+      "Immer eine überprüfte Messzahl",
+      "Eine gesetzlich vorgeschriebene Tatsache"
+    ],
+    "correct": 0,
+    "explanation": "Eine persönliche Bewertung oder Haltung"
+  },
+  {
+    "id": "complex.soc-media.004",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist Werbung?",
+    "options": [
+      "Kommunikation, die für Angebote oder Anliegen Aufmerksamkeit und Wirkung erzielen soll",
+      "Immer unabhängige Berichterstattung",
+      "Nur eine private Tagebuchnotiz"
+    ],
+    "correct": 0,
+    "explanation": "Kommunikation, die für Angebote oder Anliegen Aufmerksamkeit und Wirkung erzielen soll"
+  },
+  {
+    "id": "complex.soc-media.005",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist eine Quelle?",
+    "options": [
+      "Der Ursprung einer Information",
+      "Nur die Schriftgröße eines Textes",
+      "Die Farbe eines Bildrahmens"
+    ],
+    "correct": 0,
+    "explanation": "Der Ursprung einer Information"
+  },
+  {
+    "id": "complex.soc-media.006",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was hilft beim Prüfen einer unbekannten Meldung?",
+    "options": [
+      "Absender und weitere verlässliche Quellen prüfen",
+      "Nur die Zahl der Likes ansehen",
+      "Die Überschrift ungeprüft weiterleiten"
+    ],
+    "correct": 0,
+    "explanation": "Absender und weitere verlässliche Quellen prüfen"
+  },
+  {
+    "id": "complex.soc-media.007",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was sind personenbezogene Daten?",
+    "options": [
+      "Informationen, die sich auf eine identifizierbare Person beziehen",
+      "Nur Wetterwerte ohne Personenbezug",
+      "Jede beliebige Fantasiezahl"
+    ],
+    "correct": 0,
+    "explanation": "Informationen, die sich auf eine identifizierbare Person beziehen"
+  },
+  {
+    "id": "complex.soc-media.008",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist ein sicheres Grundprinzip für Passwörter?",
+    "options": [
+      "Lange, einzigartige Passwörter verwenden",
+      "Dasselbe kurze Passwort überall nutzen",
+      "Passwörter öffentlich in Profilen zeigen"
+    ],
+    "correct": 0,
+    "explanation": "Lange, einzigartige Passwörter verwenden"
+  },
+  {
+    "id": "complex.soc-media.009",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ergänzt ein Passwort bei der Zwei-Faktor-Anmeldung?",
+    "options": [
+      "Ein weiterer unabhängiger Nachweis",
+      "Nur eine zweite Schreibweise des Benutzernamens",
+      "Die öffentliche Angabe der Adresse"
+    ],
+    "correct": 0,
+    "explanation": "Ein weiterer unabhängiger Nachweis"
+  },
+  {
+    "id": "complex.soc-media.010",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist Phishing?",
+    "options": [
+      "Ein Täuschungsversuch, um Daten oder Zugänge zu erlangen",
+      "Eine normale Datensicherung auf dem eigenen Gerät",
+      "Ein Verfahren zum Drucken von Fotos"
+    ],
+    "correct": 0,
+    "explanation": "Ein Täuschungsversuch, um Daten oder Zugänge zu erlangen"
+  },
+  {
+    "id": "complex.soc-media.011",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist Cybermobbing?",
+    "options": [
+      "Wiederholtes Bloßstellen oder Bedrängen über digitale Medien",
+      "Jede sachliche Meinungsverschiedenheit",
+      "Jedes Spiel mit mehreren Personen"
+    ],
+    "correct": 0,
+    "explanation": "Wiederholtes Bloßstellen oder Bedrängen über digitale Medien"
+  },
+  {
+    "id": "complex.soc-media.012",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was kann bei digitaler Belästigung helfen?",
+    "options": [
+      "Beweise sichern und Unterstützung suchen",
+      "Sich selbst die Schuld geben müssen",
+      "Alle beleidigenden Nachrichten weiterverbreiten"
+    ],
+    "correct": 0,
+    "explanation": "Beweise sichern und Unterstützung suchen"
+  },
+  {
+    "id": "complex.soc-media.013",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was sollte vor dem Veröffentlichen eines erkennbaren Personenfotos geprüft werden?",
+    "options": [
+      "Ob die Veröffentlichung erlaubt ist und die Person einverstanden sein muss",
+      "Nur ob das Foto viele Likes bringen könnte",
+      "Nur ob genug Speicherplatz frei ist"
+    ],
+    "correct": 0,
+    "explanation": "Ob die Veröffentlichung erlaubt ist und die Person einverstanden sein muss"
+  },
+  {
+    "id": "complex.soc-media.014",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Urheberrecht?",
+    "options": [
+      "Es schützt schöpferische Werke und regelt ihre Nutzung.",
+      "Alles im Internet darf ohne Rücksicht kopiert werden.",
+      "Nur gedruckte Bücher können geschützt sein."
+    ],
+    "correct": 0,
+    "explanation": "Es schützt schöpferische Werke und regelt ihre Nutzung."
+  },
+  {
+    "id": "complex.soc-media.015",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 1,
+    "prompt": "Was ist eine Datenschutzeinstellung?",
+    "options": [
+      "Eine Möglichkeit, den Umgang mit eigenen Daten mitzubestimmen",
+      "Eine Garantie, dass nie Daten verarbeitet werden",
+      "Ein Ersatz für jedes Passwort"
+    ],
+    "correct": 0,
+    "explanation": "Eine Möglichkeit, den Umgang mit eigenen Daten mitzubestimmen"
+  },
+  {
+    "id": "complex.soc-media.016",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was unterscheidet Desinformation von einem bloßen Irrtum?",
+    "options": [
+      "Desinformation wird absichtlich zur Täuschung verbreitet.",
+      "Ein Irrtum ist immer eine Straftat.",
+      "Beide Begriffe bedeuten ausschließlich Satire."
+    ],
+    "correct": 0,
+    "explanation": "Desinformation wird absichtlich zur Täuschung verbreitet."
+  },
+  {
+    "id": "complex.soc-media.017",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist Clickbait?",
+    "options": [
+      "Eine zugespitzte Überschrift soll vor allem Klicks auslösen.",
+      "Eine unabhängige wissenschaftliche Prüfmethode",
+      "Ein gesetzlich vorgeschriebener Quellenbeleg"
+    ],
+    "correct": 0,
+    "explanation": "Eine zugespitzte Überschrift soll vor allem Klicks auslösen."
+  },
+  {
+    "id": "complex.soc-media.018",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist ein Algorithmus in einem Empfehlungsdienst?",
+    "options": [
+      "Ein Verfahren, das unter anderem auswählt, welche Inhalte angezeigt werden",
+      "Eine Person, die jede Nachricht von Hand schreibt",
+      "Eine Garantie für neutrale und vollständige Informationen"
+    ],
+    "correct": 0,
+    "explanation": "Ein Verfahren, das unter anderem auswählt, welche Inhalte angezeigt werden"
+  },
+  {
+    "id": "complex.soc-media.019",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Warum werden im Feed oft ähnliche Inhalte angezeigt?",
+    "options": [
+      "Empfehlungen können bisheriges Verhalten berücksichtigen.",
+      "Alle Menschen sehen immer genau dieselbe Auswahl.",
+      "Ähnliche Beiträge beweisen automatisch ihre Richtigkeit."
+    ],
+    "correct": 0,
+    "explanation": "Empfehlungen können bisheriges Verhalten berücksichtigen."
+  },
+  {
+    "id": "complex.soc-media.020",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist ein Deepfake?",
+    "options": [
+      "Künstlich veränderter oder erzeugter Medieninhalt, der echt wirken kann",
+      "Jedes unscharfe Foto",
+      "Ausschließlich eine handgeschriebene Meinung"
+    ],
+    "correct": 0,
+    "explanation": "Künstlich veränderter oder erzeugter Medieninhalt, der echt wirken kann"
+  },
+  {
+    "id": "complex.soc-media.021",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist ein Impressum auf einer Website?",
+    "options": [
+      "Angaben zur verantwortlichen Stelle nach den geltenden Regeln",
+      "Eine Garantie für die Wahrheit jedes Inhalts",
+      "Nur das Bild auf der Startseite"
+    ],
+    "correct": 0,
+    "explanation": "Angaben zur verantwortlichen Stelle nach den geltenden Regeln"
+  },
+  {
+    "id": "complex.soc-media.022",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was sollte man bei einer unerwarteten Nachricht mit Login-Link tun?",
+    "options": [
+      "Die echte Dienstadresse unabhängig aufrufen und die Nachricht prüfen",
+      "Zugangsdaten sofort über den Link eingeben",
+      "Den Link an alle Kontakte weiterleiten"
+    ],
+    "correct": 0,
+    "explanation": "Die echte Dienstadresse unabhängig aufrufen und die Nachricht prüfen"
+  },
+  {
+    "id": "complex.soc-media.023",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Warum sind Softwareupdates wichtig?",
+    "options": [
+      "Sie können Sicherheitslücken schließen.",
+      "Sie ersetzen jedes sichere Verhalten.",
+      "Sie machen jedes Gerät dauerhaft unverwundbar."
+    ],
+    "correct": 0,
+    "explanation": "Sie können Sicherheitslücken schließen."
+  },
+  {
+    "id": "complex.soc-media.024",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist eine Datensicherung?",
+    "options": [
+      "Eine zusätzliche Kopie wichtiger Daten",
+      "Das Löschen sämtlicher Originale ohne Ersatz",
+      "Nur das Ändern der Bildschirmhelligkeit"
+    ],
+    "correct": 0,
+    "explanation": "Eine zusätzliche Kopie wichtiger Daten"
+  },
+  {
+    "id": "complex.soc-media.025",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Ende-zu-Ende-Verschlüsselung grundsätzlich?",
+    "options": [
+      "Inhalte werden so geschützt, dass nur die beteiligten Endgeräte sie entschlüsseln sollen.",
+      "Jede Person im WLAN darf Inhalte mitlesen.",
+      "Sie macht jedes betrügerische Gegenüber vertrauenswürdig."
+    ],
+    "correct": 0,
+    "explanation": "Inhalte werden so geschützt, dass nur die beteiligten Endgeräte sie entschlüsseln sollen."
+  },
+  {
+    "id": "complex.soc-media.026",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist eine Filterblase als mögliches Medienphänomen?",
+    "options": [
+      "Personalisierte Auswahl kann die sichtbare Vielfalt von Perspektiven begrenzen.",
+      "Ein technisches Verbot jeder anderen Website",
+      "Ein Beweis, dass alle Nutzer dieselbe Meinung haben"
+    ],
+    "correct": 0,
+    "explanation": "Personalisierte Auswahl kann die sichtbare Vielfalt von Perspektiven begrenzen."
+  },
+  {
+    "id": "complex.soc-media.027",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Quellenvergleich?",
+    "options": [
+      "Unabhängige Darstellungen und Belege gegenüberstellen",
+      "Denselben Text auf zehn kopierten Seiten zählen",
+      "Nur Überschriften derselben Meldung lesen"
+    ],
+    "correct": 0,
+    "explanation": "Unabhängige Darstellungen und Belege gegenüberstellen"
+  },
+  {
+    "id": "complex.soc-media.028",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist eine Bildrückwärtssuche hilfreich zu prüfen?",
+    "options": [
+      "Ob ein Bild bereits in anderem Zusammenhang veröffentlicht wurde",
+      "Ob jede Person im Bild ehrlich ist",
+      "Ob ein Ereignis allein durch das Foto vollständig erklärt wird"
+    ],
+    "correct": 0,
+    "explanation": "Ob ein Bild bereits in anderem Zusammenhang veröffentlicht wurde"
+  },
+  {
+    "id": "complex.soc-media.029",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Was ist ein Unterschied zwischen Kommentar und Nachricht?",
+    "options": [
+      "Ein Kommentar bewertet ausdrücklich; eine Nachricht soll vor allem informieren.",
+      "Ein Kommentar darf grundsätzlich keine Fakten enthalten.",
+      "Eine Nachricht besteht ausschließlich aus Werbung."
+    ],
+    "correct": 0,
+    "explanation": "Ein Kommentar bewertet ausdrücklich; eine Nachricht soll vor allem informieren."
+  },
+  {
+    "id": "complex.soc-media.030",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 2,
+    "prompt": "Warum sollten KI-Antworten überprüft werden?",
+    "options": [
+      "Sie können plausibel klingende Fehler enthalten.",
+      "Sie sind automatisch amtliche Quellen.",
+      "Sie besitzen immer Zugang zu allen aktuellen Tatsachen."
+    ],
+    "correct": 0,
+    "explanation": "Sie können plausibel klingende Fehler enthalten."
+  },
+  {
+    "id": "complex.soc-media.031",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum beweisen viele Likes keine Wahrheit?",
+    "options": [
+      "Aufmerksamkeit und überprüfbare Richtigkeit sind verschieden.",
+      "Likes werden ausschließlich von Fachleuten vergeben.",
+      "Eine falsche Behauptung kann nie beliebt sein."
+    ],
+    "correct": 0,
+    "explanation": "Aufmerksamkeit und überprüfbare Richtigkeit sind verschieden."
+  },
+  {
+    "id": "complex.soc-media.032",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Ein echtes altes Foto wird als aktuelles Ereignis geteilt. Was ist das Problem?",
+    "options": [
+      "Der falsche Kontext kann täuschen, obwohl das Bild echt ist.",
+      "Echte Fotos können nie irreführen.",
+      "Nur die Bildauflösung entscheidet über den Wahrheitsgehalt."
+    ],
+    "correct": 0,
+    "explanation": "Der falsche Kontext kann täuschen, obwohl das Bild echt ist."
+  },
+  {
+    "id": "complex.soc-media.033",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum reicht ein bekanntes Logo nicht zur Prüfung einer Login-Seite?",
+    "options": [
+      "Logos lassen sich kopieren; Adresse und Zugangspfad müssen geprüft werden.",
+      "Ein Logo kann nur der echte Anbieter anzeigen.",
+      "Jede Seite mit Schlosszeichen gehört automatisch zum behaupteten Unternehmen."
+    ],
+    "correct": 0,
+    "explanation": "Logos lassen sich kopieren; Adresse und Zugangspfad müssen geprüft werden."
+  },
+  {
+    "id": "complex.soc-media.034",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet unabhängige Quellen von bloßen Kopien?",
+    "options": [
+      "Sie beruhen auf eigener Recherche oder unterschiedlichen Belegen.",
+      "Sie besitzen nur eine andere Schriftart.",
+      "Jede neue Internetadresse ist automatisch unabhängig."
+    ],
+    "correct": 0,
+    "explanation": "Sie beruhen auf eigener Recherche oder unterschiedlichen Belegen."
+  },
+  {
+    "id": "complex.soc-media.035",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum ist eine Korrektur in einem seriösen Medium kein automatischer Beweis für Unzuverlässigkeit?",
+    "options": [
+      "Transparente Fehlerkorrektur kann zur Qualitätssicherung gehören.",
+      "Gute Medien können niemals Fehler machen.",
+      "Jede Korrektur löscht automatisch alle früheren Belege."
+    ],
+    "correct": 0,
+    "explanation": "Transparente Fehlerkorrektur kann zur Qualitätssicherung gehören."
+  },
+  {
+    "id": "complex.soc-media.036",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Was kann eine aus dem Zusammenhang gerissene Statistik verschleiern?",
+    "options": [
+      "Bezugsgröße, Zeitraum und Auswahl der Daten",
+      "Nur die Farbe der Schrift",
+      "Die Tatsache, dass Zahlen grundsätzlich keine Bedeutung haben"
+    ],
+    "correct": 0,
+    "explanation": "Bezugsgröße, Zeitraum und Auswahl der Daten"
+  },
+  {
+    "id": "complex.soc-media.037",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum sollte eine stark verkürzte Videoaufnahme kritisch geprüft werden?",
+    "options": [
+      "Wichtige Vorgeschichte oder anschließende Aussagen können fehlen.",
+      "Kurze Videos sind grundsätzlich immer gefälscht.",
+      "Die Länge allein beweist die politische Absicht."
+    ],
+    "correct": 0,
+    "explanation": "Wichtige Vorgeschichte oder anschließende Aussagen können fehlen."
+  },
+  {
+    "id": "complex.soc-media.038",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Was ist ein Interessenkonflikt bei Produktempfehlungen?",
+    "options": [
+      "Bezahlung kann die Unabhängigkeit der Empfehlung beeinflussen.",
+      "Eine bezahlte Empfehlung ist automatisch fachlich geprüft.",
+      "Werbung und unabhängige Beratung sind immer identisch."
+    ],
+    "correct": 0,
+    "explanation": "Bezahlung kann die Unabhängigkeit der Empfehlung beeinflussen."
+  },
+  {
+    "id": "complex.soc-media.039",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum ist „kostenlos“ bei Onlineangeboten nicht gleich „ohne Gegenleistung“?",
+    "options": [
+      "Daten und Aufmerksamkeit können wirtschaftlich genutzt werden.",
+      "Kostenlose Angebote verarbeiten grundsätzlich keine Daten.",
+      "Ohne Geldzahlung gibt es niemals Werbung."
+    ],
+    "correct": 0,
+    "explanation": "Daten und Aufmerksamkeit können wirtschaftlich genutzt werden."
+  },
+  {
+    "id": "complex.soc-media.040",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Was hilft gegen unbeabsichtigte öffentliche Weitergabe privater Inhalte?",
+    "options": [
+      "Zielgruppe und Freigaben vor dem Teilen prüfen",
+      "Immer die größte öffentliche Gruppe wählen",
+      "Auf jede Einstellung und Nachfrage verzichten"
+    ],
+    "correct": 0,
+    "explanation": "Zielgruppe und Freigaben vor dem Teilen prüfen"
+  },
+  {
+    "id": "complex.soc-media.041",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum kann eine gelöschte Veröffentlichung weiterhin Folgen haben?",
+    "options": [
+      "Andere können Kopien oder Screenshots besitzen.",
+      "Löschen entfernt garantiert jede Kopie weltweit.",
+      "Digitale Inhalte können grundsätzlich nicht kopiert werden."
+    ],
+    "correct": 0,
+    "explanation": "Andere können Kopien oder Screenshots besitzen."
+  },
+  {
+    "id": "complex.soc-media.042",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Wie sollte eine sachliche Online-Diskussion mit einer anderen Meinung umgehen?",
+    "options": [
+      "Argumente prüfen und Personen respektvoll behandeln",
+      "Die Person statt des Arguments angreifen",
+      "Private Daten als Druckmittel veröffentlichen"
+    ],
+    "correct": 0,
+    "explanation": "Argumente prüfen und Personen respektvoll behandeln"
+  },
+  {
+    "id": "complex.soc-media.043",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum kann auch ein anonymes Profil glaubwürdige Hinweise liefern?",
+    "options": [
+      "Glaubwürdigkeit hängt von überprüfbaren Belegen ab, nicht nur vom Namen.",
+      "Anonymität beweist automatisch Wahrheit.",
+      "Ein Klarname macht jede Aussage richtig."
+    ],
+    "correct": 0,
+    "explanation": "Glaubwürdigkeit hängt von überprüfbaren Belegen ab, nicht nur vom Namen."
+  },
+  {
+    "id": "complex.soc-media.044",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Was ist bei einer angeblichen Studie besonders zu prüfen?",
+    "options": [
+      "Wer untersucht hat, wie untersucht wurde und was tatsächlich folgt",
+      "Nur die Anzahl der Ausrufezeichen",
+      "Ob das Ergebnis der eigenen Meinung entspricht"
+    ],
+    "correct": 0,
+    "explanation": "Wer untersucht hat, wie untersucht wurde und was tatsächlich folgt"
+  },
+  {
+    "id": "complex.soc-media.045",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum schützt Verschlüsselung nicht vor jeder Form von Betrug?",
+    "options": [
+      "Ein berechtigter Nachrichtenempfänger kann trotzdem täuschen.",
+      "Verschlüsselte Kontakte können grundsätzlich keine falschen Angaben machen.",
+      "Verschlüsselung überprüft automatisch alle Behauptungen."
+    ],
+    "correct": 0,
+    "explanation": "Ein berechtigter Nachrichtenempfänger kann trotzdem täuschen."
+  },
+  {
+    "id": "complex.soc-media.046",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Welche Reaktion passt bei einer unsicheren alarmierenden Meldung?",
+    "options": [
+      "Erst prüfen und bis dahin nicht als Tatsache verbreiten",
+      "Schnell teilen, weil Aufregung Richtigkeit beweist",
+      "Die Quelle entfernen, damit niemand nachfragt"
+    ],
+    "correct": 0,
+    "explanation": "Erst prüfen und bis dahin nicht als Tatsache verbreiten"
+  },
+  {
+    "id": "complex.soc-media.047",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum ist ein Werbehinweis in sozialen Medien wichtig?",
+    "options": [
+      "Er macht kommerzielle Interessen leichter erkennbar.",
+      "Er garantiert, dass das Produkt für alle geeignet ist.",
+      "Er ersetzt jeden sachlichen Produktvergleich."
+    ],
+    "correct": 0,
+    "explanation": "Er macht kommerzielle Interessen leichter erkennbar."
+  },
+  {
+    "id": "complex.soc-media.048",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet ein persönliches Erlebnis von einem allgemeinen Beweis?",
+    "options": [
+      "Ein Einzelfall zeigt nicht automatisch, was für alle gilt.",
+      "Persönliche Erfahrungen sind grundsätzlich unmöglich.",
+      "Jeder Einzelfall ersetzt jede systematische Untersuchung."
+    ],
+    "correct": 0,
+    "explanation": "Ein Einzelfall zeigt nicht automatisch, was für alle gilt."
+  },
+  {
+    "id": "complex.soc-media.049",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Was ist bei einer App-Berechtigung sinnvoll?",
+    "options": [
+      "Prüfen, ob der Zugriff für die genutzte Funktion notwendig ist",
+      "Jeden Zugriff ohne Bezug zur Funktion erlauben",
+      "Berechtigungen als reine Dekoration ansehen"
+    ],
+    "correct": 0,
+    "explanation": "Prüfen, ob der Zugriff für die genutzte Funktion notwendig ist"
+  },
+  {
+    "id": "complex.soc-media.050",
+    "subject": "social",
+    "topic": "soc-media",
+    "complexId": "soc-media",
+    "competency": "soc-media",
+    "difficulty": 3,
+    "prompt": "Warum ist ein respektvoller Hinweis auf eine Falschmeldung oft sinnvoll?",
+    "options": [
+      "Er ermöglicht Korrektur, ohne Menschen unnötig bloßzustellen.",
+      "Beschämung beweist automatisch die eigene Richtigkeit.",
+      "Eine verbreitete Falschmeldung darf nie korrigiert werden."
+    ],
+    "correct": 0,
+    "explanation": "Er ermöglicht Korrektur, ohne Menschen unnötig bloßzustellen."
+  }
+]

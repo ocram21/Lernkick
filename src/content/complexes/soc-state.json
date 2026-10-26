@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.soc-state.001",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Wofür steht BRD?",
+    "options": [
+      "Bundesrepublik Deutschland",
+      "Bundesrat der Dörfer",
+      "Bürgerrechtlicher Dienst"
+    ],
+    "correct": 0,
+    "explanation": "Bundesrepublik Deutschland"
+  },
+  {
+    "id": "complex.soc-state.002",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was ist das Grundgesetz?",
+    "options": [
+      "Die Verfassung Deutschlands",
+      "Eine Hausordnung aller Betriebe",
+      "Nur ein Wörterbuch politischer Begriffe"
+    ],
+    "correct": 0,
+    "explanation": "Die Verfassung Deutschlands"
+  },
+  {
+    "id": "complex.soc-state.003",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Menschenwürde?",
+    "options": [
+      "Jeder Mensch besitzt einen zu achtenden und zu schützenden Eigenwert.",
+      "Der Wert eines Menschen hängt vom Einkommen ab.",
+      "Würde gilt nur für Menschen mit einem Amt."
+    ],
+    "correct": 0,
+    "explanation": "Jeder Mensch besitzt einen zu achtenden und zu schützenden Eigenwert."
+  },
+  {
+    "id": "complex.soc-state.004",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Demokratie?",
+    "options": [
+      "Staatliche Herrschaft wird durch das Volk legitimiert.",
+      "Eine einzelne Person herrscht ohne Kontrolle.",
+      "Alle Entscheidungen werden vom Militär getroffen."
+    ],
+    "correct": 0,
+    "explanation": "Staatliche Herrschaft wird durch das Volk legitimiert."
+  },
+  {
+    "id": "complex.soc-state.005",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Rechtsstaat?",
+    "options": [
+      "Staatliches Handeln ist an Recht und Gesetz gebunden.",
+      "Behörden dürfen ohne jede Grundlage handeln.",
+      "Nur private Personen müssen Gesetze beachten."
+    ],
+    "correct": 0,
+    "explanation": "Staatliches Handeln ist an Recht und Gesetz gebunden."
+  },
+  {
+    "id": "complex.soc-state.006",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Sozialstaat?",
+    "options": [
+      "Der Staat trägt Verantwortung für soziale Sicherheit und Gerechtigkeit.",
+      "Alle Menschen erhalten zwingend genau dasselbe Einkommen.",
+      "Private Hilfe ist grundsätzlich verboten."
+    ],
+    "correct": 0,
+    "explanation": "Der Staat trägt Verantwortung für soziale Sicherheit und Gerechtigkeit."
+  },
+  {
+    "id": "complex.soc-state.007",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Bundesstaat?",
+    "options": [
+      "Bund und Länder teilen staatliche Aufgaben und Zuständigkeiten.",
+      "Alle Gemeinden sind eigene unabhängige Staaten.",
+      "Es gibt keine Landesparlamente."
+    ],
+    "correct": 0,
+    "explanation": "Bund und Länder teilen staatliche Aufgaben und Zuständigkeiten."
+  },
+  {
+    "id": "complex.soc-state.008",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Welche drei Bereiche unterscheidet die Gewaltenteilung?",
+    "options": [
+      "Gesetzgebung, vollziehende Gewalt und Rechtsprechung",
+      "Handel, Freizeit und Sport",
+      "Nur Polizei, Feuerwehr und Rettungsdienst"
+    ],
+    "correct": 0,
+    "explanation": "Gesetzgebung, vollziehende Gewalt und Rechtsprechung"
+  },
+  {
+    "id": "complex.soc-state.009",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat ein Parlament besonders?",
+    "options": [
+      "Gesetze beraten und beschließen sowie Regierung kontrollieren",
+      "Jedes Gerichtsurteil persönlich aussprechen",
+      "Jede private Kaufentscheidung genehmigen"
+    ],
+    "correct": 0,
+    "explanation": "Gesetze beraten und beschließen sowie Regierung kontrollieren"
+  },
+  {
+    "id": "complex.soc-state.010",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat eine Regierung grundsätzlich?",
+    "options": [
+      "Politik gestalten und beschlossene Gesetze umsetzen",
+      "Unabhängige Gerichte vollständig ersetzen",
+      "Jede öffentliche Kritik verbieten"
+    ],
+    "correct": 0,
+    "explanation": "Politik gestalten und beschlossene Gesetze umsetzen"
+  },
+  {
+    "id": "complex.soc-state.011",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe haben Gerichte?",
+    "options": [
+      "Rechtsstreitigkeiten nach geltendem Recht entscheiden",
+      "Parteiprogramme schreiben",
+      "Den Wetterbericht festlegen"
+    ],
+    "correct": 0,
+    "explanation": "Rechtsstreitigkeiten nach geltendem Recht entscheiden"
+  },
+  {
+    "id": "complex.soc-state.012",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was ist eine Kommune?",
+    "options": [
+      "Eine Gemeinde oder Stadt als örtliche Verwaltungseinheit",
+      "Immer ein eigener Kontinent",
+      "Nur eine politische Partei"
+    ],
+    "correct": 0,
+    "explanation": "Eine Gemeinde oder Stadt als örtliche Verwaltungseinheit"
+  },
+  {
+    "id": "complex.soc-state.013",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was ist eine politische Partei?",
+    "options": [
+      "Ein Zusammenschluss, der an politischer Willensbildung mitwirkt",
+      "Jeder beliebige private Freundeskreis",
+      "Ein Gericht für Arbeitsrecht"
+    ],
+    "correct": 0,
+    "explanation": "Ein Zusammenschluss, der an politischer Willensbildung mitwirkt"
+  },
+  {
+    "id": "complex.soc-state.014",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was ist die Opposition im Parlament?",
+    "options": [
+      "Die parlamentarischen Kräfte, die nicht die Regierung tragen",
+      "Alle Beschäftigten einer Verwaltung",
+      "Nur Menschen, die nicht wählen dürfen"
+    ],
+    "correct": 0,
+    "explanation": "Die parlamentarischen Kräfte, die nicht die Regierung tragen"
+  },
+  {
+    "id": "complex.soc-state.015",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 1,
+    "prompt": "Was ist eine Petition?",
+    "options": [
+      "Eine Bitte oder Beschwerde an zuständige öffentliche Stellen",
+      "Ein automatisch bindendes Gerichtsurteil",
+      "Ein privater Kaufvertrag"
+    ],
+    "correct": 0,
+    "explanation": "Eine Bitte oder Beschwerde an zuständige öffentliche Stellen"
+  },
+  {
+    "id": "complex.soc-state.016",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was schützt die Meinungsfreiheit grundsätzlich?",
+    "options": [
+      "Eigene Ansichten äußern und sich informieren",
+      "Jede Form von Bedrohung ohne rechtliche Grenzen",
+      "Das Recht, anderen jede Äußerung zu verbieten"
+    ],
+    "correct": 0,
+    "explanation": "Eigene Ansichten äußern und sich informieren"
+  },
+  {
+    "id": "complex.soc-state.017",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was schützt die Religionsfreiheit?",
+    "options": [
+      "Glauben, Nichtglauben und religiöse Betätigung im rechtlichen Rahmen",
+      "Nur eine vom Staat bevorzugte Religion",
+      "Eine Pflicht zur Mitgliedschaft in einer Kirche"
+    ],
+    "correct": 0,
+    "explanation": "Glauben, Nichtglauben und religiöse Betätigung im rechtlichen Rahmen"
+  },
+  {
+    "id": "complex.soc-state.018",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Gleichheit vor dem Gesetz?",
+    "options": [
+      "Recht darf Menschen nicht willkürlich unterschiedlich behandeln.",
+      "Alle müssen denselben Beruf wählen.",
+      "Jede unterschiedliche Lebenssituation ist verboten."
+    ],
+    "correct": 0,
+    "explanation": "Recht darf Menschen nicht willkürlich unterschiedlich behandeln."
+  },
+  {
+    "id": "complex.soc-state.019",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Welche Aufgabe hat der Bundestag unter anderem?",
+    "options": [
+      "Die Bundesregierung kontrollieren",
+      "Alle Bürgermeister direkt ernennen",
+      "Jede Unterrichtsstunde planen"
+    ],
+    "correct": 0,
+    "explanation": "Die Bundesregierung kontrollieren"
+  },
+  {
+    "id": "complex.soc-state.020",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Wodurch wirken die Länder an vielen Bundesangelegenheiten mit?",
+    "options": [
+      "Durch den Bundesrat",
+      "Durch ein gemeinsames Sportgericht",
+      "Durch die Europäische Zentralbank"
+    ],
+    "correct": 0,
+    "explanation": "Im Bundesrat wirken Mitglieder der Landesregierungen an Gesetzgebung und Verwaltung des Bundes mit."
+  },
+  {
+    "id": "complex.soc-state.021",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was ist eine Koalition?",
+    "options": [
+      "Ein Bündnis mehrerer politischer Kräfte, oft zur Regierungsbildung",
+      "Ein Gericht mit nur einer Richterperson",
+      "Eine freiwillige Müllsammelaktion allein"
+    ],
+    "correct": 0,
+    "explanation": "Ein Bündnis mehrerer politischer Kräfte, oft zur Regierungsbildung"
+  },
+  {
+    "id": "complex.soc-state.022",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Welche Aufgabe hat das Bundesverfassungsgericht besonders?",
+    "options": [
+      "Über die Einhaltung des Grundgesetzes entscheiden",
+      "Jede Steuererklärung zuerst bearbeiten",
+      "Alle Gemeinden verwalten"
+    ],
+    "correct": 0,
+    "explanation": "Über die Einhaltung des Grundgesetzes entscheiden"
+  },
+  {
+    "id": "complex.soc-state.023",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was ist Sozialversicherung?",
+    "options": [
+      "Gesetzlich geregelte Absicherung bestimmter Lebensrisiken",
+      "Nur eine freiwillige Sparbüchse",
+      "Eine Garantie auf ein Luxusgut"
+    ],
+    "correct": 0,
+    "explanation": "Gesetzlich geregelte Absicherung bestimmter Lebensrisiken"
+  },
+  {
+    "id": "complex.soc-state.024",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Welcher Bereich gehört zur gesetzlichen Sozialversicherung?",
+    "options": [
+      "Pflegeversicherung",
+      "Kfz-Haftpflichtversicherung",
+      "Private Reisegepäckversicherung"
+    ],
+    "correct": 0,
+    "explanation": "Die gesetzliche Pflegeversicherung gehört zur Sozialversicherung; Kfz- und Reiseversicherungen nicht."
+  },
+  {
+    "id": "complex.soc-state.025",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Wodurch werden viele öffentliche Aufgaben finanziert?",
+    "options": [
+      "Unter anderem durch Steuern",
+      "Ausschließlich durch freiwillige Trinkgelder",
+      "Nur durch Gewinne privater Sportvereine"
+    ],
+    "correct": 0,
+    "explanation": "Unter anderem durch Steuern"
+  },
+  {
+    "id": "complex.soc-state.026",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was beschreibt Solidarität im Sozialstaat?",
+    "options": [
+      "Menschen tragen gemeinsam zur Absicherung von Risiken bei.",
+      "Jeder darf Unterstützung anderer grundsätzlich verhindern.",
+      "Nur aktuell Erkrankte finanzieren die gesamte Versorgung."
+    ],
+    "correct": 0,
+    "explanation": "Menschen tragen gemeinsam zur Absicherung von Risiken bei."
+  },
+  {
+    "id": "complex.soc-state.027",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was ist ein Tarifvertrag?",
+    "options": [
+      "Eine Vereinbarung zwischen Tarifparteien über Arbeitsbedingungen",
+      "Ein Gesetz ausschließlich über Telefontarife",
+      "Ein Urteil über einen Nachbarschaftsstreit"
+    ],
+    "correct": 0,
+    "explanation": "Eine Vereinbarung zwischen Tarifparteien über Arbeitsbedingungen"
+  },
+  {
+    "id": "complex.soc-state.028",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Welche Aufgabe kann ein Betriebsrat haben?",
+    "options": [
+      "Beschäftigte im Betrieb vertreten und mitbestimmen",
+      "Den Bundestag ersetzen",
+      "Jede private Meinung der Beschäftigten festlegen"
+    ],
+    "correct": 0,
+    "explanation": "Beschäftigte im Betrieb vertreten und mitbestimmen"
+  },
+  {
+    "id": "complex.soc-state.029",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Gewaltmonopol des Staates im Rechtsstaat?",
+    "options": [
+      "Staatlicher Zwang ist grundsätzlich staatlichen Stellen im gesetzlichen Rahmen vorbehalten.",
+      "Jede Amtsperson darf unbegrenzt Gewalt anwenden.",
+      "Privatpersonen müssen Konflikte mit Gewalt entscheiden."
+    ],
+    "correct": 0,
+    "explanation": "Staatlicher Zwang ist grundsätzlich staatlichen Stellen im gesetzlichen Rahmen vorbehalten."
+  },
+  {
+    "id": "complex.soc-state.030",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 2,
+    "prompt": "Was gehört zu demokratischer Beteiligung außerhalb von Wahlen?",
+    "options": [
+      "Petitionen, Vereinigungen und friedliche Versammlungen nutzen",
+      "Andere mit Gewalt von ihrer Meinung abbringen",
+      "Wahlzettel anderer Menschen ausfüllen"
+    ],
+    "correct": 0,
+    "explanation": "Petitionen, Vereinigungen und friedliche Versammlungen nutzen"
+  },
+  {
+    "id": "complex.soc-state.031",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum begrenzen Grundrechte auch Mehrheitsentscheidungen?",
+    "options": [
+      "Mehrheiten dürfen die geschützten Rechte von Menschen nicht beliebig verletzen.",
+      "Eine Mehrheit darf grundsätzlich alles ohne Grenze.",
+      "Grundrechte gelten nur bei einstimmigen Entscheidungen."
+    ],
+    "correct": 0,
+    "explanation": "Mehrheiten dürfen die geschützten Rechte von Menschen nicht beliebig verletzen."
+  },
+  {
+    "id": "complex.soc-state.032",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum ist eine unabhängige Justiz wichtig?",
+    "options": [
+      "Auch staatliche Entscheidungen können rechtlich überprüft werden.",
+      "Regierungen sollen jedes Urteil vorher genehmigen.",
+      "Gerichte sollen ausschließlich nach Umfragewerten entscheiden."
+    ],
+    "correct": 0,
+    "explanation": "Auch staatliche Entscheidungen können rechtlich überprüft werden."
+  },
+  {
+    "id": "complex.soc-state.033",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Rechtsgleichheit von identischen Lebenslagen?",
+    "options": [
+      "Gleiche Rechte bedeuten nicht, dass Einkommen und Chancen bereits gleich verteilt sind.",
+      "Gleiche Rechte garantieren identische private Lebenswege.",
+      "Unterschiedliche Einkommen beweisen das Fehlen aller Gesetze."
+    ],
+    "correct": 0,
+    "explanation": "Gleiche Rechte bedeuten nicht, dass Einkommen und Chancen bereits gleich verteilt sind."
+  },
+  {
+    "id": "complex.soc-state.034",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum kann Gewaltenteilung Machtmissbrauch erschweren?",
+    "options": [
+      "Verschiedene Organe kontrollieren und begrenzen einander.",
+      "Ein einziges Organ entscheidet dann alles allein.",
+      "Kontrolle ist danach grundsätzlich nicht mehr nötig."
+    ],
+    "correct": 0,
+    "explanation": "Verschiedene Organe kontrollieren und begrenzen einander."
+  },
+  {
+    "id": "complex.soc-state.035",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was beschreibt ein konstruktives Misstrauensvotum im Bundestag?",
+    "options": [
+      "Eine neue Kanzlerin oder ein neuer Kanzler wird statt der bisherigen Person gewählt.",
+      "Die Regierung wird nur durch eine Onlineumfrage ersetzt.",
+      "Das Bundesverfassungsgericht wählt sämtliche Minister neu."
+    ],
+    "correct": 0,
+    "explanation": "Eine neue Kanzlerin oder ein neuer Kanzler wird statt der bisherigen Person gewählt."
+  },
+  {
+    "id": "complex.soc-state.036",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum kann Pressefreiheit die Demokratie stärken?",
+    "options": [
+      "Unabhängige Berichterstattung macht Macht und Entscheidungen überprüfbar.",
+      "Medien müssen jede Regierungsentscheidung loben.",
+      "Pressefreiheit ersetzt alle Wahlen."
+    ],
+    "correct": 0,
+    "explanation": "Unabhängige Berichterstattung macht Macht und Entscheidungen überprüfbar."
+  },
+  {
+    "id": "complex.soc-state.037",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was ist ein Zielkonflikt öffentlicher Politik?",
+    "options": [
+      "Mehrere berechtigte Ziele lassen sich nicht immer gleichzeitig vollständig erreichen.",
+      "Eine Entscheidung hat grundsätzlich nie mehrere Folgen.",
+      "Nur rechtswidrige Ziele können miteinander konkurrieren."
+    ],
+    "correct": 0,
+    "explanation": "Mehrere berechtigte Ziele lassen sich nicht immer gleichzeitig vollständig erreichen."
+  },
+  {
+    "id": "complex.soc-state.038",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum sind Gesetz und persönliches Gerechtigkeitsgefühl zu unterscheiden?",
+    "options": [
+      "Rechtliche Regeln gelten nicht allein nach individuellen Vorstellungen.",
+      "Jede private Meinung ist automatisch Gesetz.",
+      "Gerichte dürfen ausschließlich nach persönlicher Sympathie urteilen."
+    ],
+    "correct": 0,
+    "explanation": "Rechtliche Regeln gelten nicht allein nach individuellen Vorstellungen."
+  },
+  {
+    "id": "complex.soc-state.039",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was bedeutet Verhältnismäßigkeit staatlicher Maßnahmen grundsätzlich?",
+    "options": [
+      "Eingriffe müssen für ihr rechtmäßiges Ziel geeignet, erforderlich und angemessen sein.",
+      "Jeder Zweck rechtfertigt jedes Mittel.",
+      "Ein Eingriff darf nie überprüft werden."
+    ],
+    "correct": 0,
+    "explanation": "Eingriffe müssen für ihr rechtmäßiges Ziel geeignet, erforderlich und angemessen sein."
+  },
+  {
+    "id": "complex.soc-state.040",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum kann ein Sozialstaat verschiedene Leistungen brauchen?",
+    "options": [
+      "Krankheit, Alter, Arbeitslosigkeit und andere Risiken unterscheiden sich.",
+      "Alle Menschen haben zu jeder Zeit dasselbe Risiko.",
+      "Eine einzige private Spende löst jede soziale Frage dauerhaft."
+    ],
+    "correct": 0,
+    "explanation": "Krankheit, Alter, Arbeitslosigkeit und andere Risiken unterscheiden sich."
+  },
+  {
+    "id": "complex.soc-state.041",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Steuern von Versicherungsbeiträgen grundsätzlich?",
+    "options": [
+      "Beiträge stehen im Zusammenhang mit einem Versicherungssystem; Steuern finanzieren allgemeine Aufgaben.",
+      "Jede Steuer erzeugt automatisch einen persönlichen Versicherungsanspruch.",
+      "Beide werden ausschließlich freiwillig gezahlt."
+    ],
+    "correct": 0,
+    "explanation": "Beiträge stehen im Zusammenhang mit einem Versicherungssystem; Steuern finanzieren allgemeine Aufgaben."
+  },
+  {
+    "id": "complex.soc-state.042",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum muss eine Verwaltung ihre Zuständigkeit beachten?",
+    "options": [
+      "Nicht jede Behörde darf jede Entscheidung treffen.",
+      "Alle Behörden besitzen immer dieselben Befugnisse.",
+      "Zuständigkeit ist nur eine unverbindliche Empfehlung."
+    ],
+    "correct": 0,
+    "explanation": "Nicht jede Behörde darf jede Entscheidung treffen."
+  },
+  {
+    "id": "complex.soc-state.043",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was schützt die Unschuldsvermutung im Strafverfahren?",
+    "options": [
+      "Eine beschuldigte Person gilt bis zum rechtmäßigen Schuldnachweis nicht als schuldig.",
+      "Jeder Verdacht beweist bereits eine Straftat.",
+      "Gerüchte ersetzen grundsätzlich eine Beweisaufnahme."
+    ],
+    "correct": 0,
+    "explanation": "Eine beschuldigte Person gilt bis zum rechtmäßigen Schuldnachweis nicht als schuldig."
+  },
+  {
+    "id": "complex.soc-state.044",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Welche Aussage über Meinungsfreiheit und Kritik ist richtig?",
+    "options": [
+      "Auch scharfe Kritik ist möglich, aber rechtliche Grenzen bleiben bestehen.",
+      "Nur regierungsfreundliche Meinungen sind geschützt.",
+      "Jede Drohung ist automatisch geschützte politische Kritik."
+    ],
+    "correct": 0,
+    "explanation": "Auch scharfe Kritik ist möglich, aber rechtliche Grenzen bleiben bestehen."
+  },
+  {
+    "id": "complex.soc-state.045",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum sind Minderheitenrechte in einer Demokratie wichtig?",
+    "options": [
+      "Gleiche Freiheit und Würde gelten auch ohne Mehrheit.",
+      "Nur die größte Gruppe besitzt Grundrechte.",
+      "Minderheiten müssen vor jeder Äußerung eine Wahl gewinnen."
+    ],
+    "correct": 0,
+    "explanation": "Gleiche Freiheit und Würde gelten auch ohne Mehrheit."
+  },
+  {
+    "id": "complex.soc-state.046",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet eine staatliche Aufgabe von einer privaten Entscheidung?",
+    "options": [
+      "Staatliches Handeln benötigt Zuständigkeit und rechtliche Grundlage.",
+      "Jede private Urlaubsplanung ist ein Gesetzgebungsverfahren.",
+      "Behörden dürfen nur nach persönlichem Geschmack handeln."
+    ],
+    "correct": 0,
+    "explanation": "Staatliches Handeln benötigt Zuständigkeit und rechtliche Grundlage."
+  },
+  {
+    "id": "complex.soc-state.047",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was kann ein Interessenkonflikt bei einer Amtsperson sein?",
+    "options": [
+      "Private Vorteile könnten eine dienstliche Entscheidung beeinflussen.",
+      "Die Person liest unterschiedliche Zeitungen.",
+      "Die Person hat neben Arbeit auch Freizeit."
+    ],
+    "correct": 0,
+    "explanation": "Private Vorteile könnten eine dienstliche Entscheidung beeinflussen."
+  },
+  {
+    "id": "complex.soc-state.048",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum braucht demokratische Kontrolle Informationen?",
+    "options": [
+      "Entscheidungen und ihre Folgen müssen nachvollziehbar sein.",
+      "Kontrolle gelingt am besten ohne Kenntnis der Vorgänge.",
+      "Informationen sind nur für Behörden wichtig."
+    ],
+    "correct": 0,
+    "explanation": "Entscheidungen und ihre Folgen müssen nachvollziehbar sein."
+  },
+  {
+    "id": "complex.soc-state.049",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Was ist ein Beispiel föderaler Aufgabenverteilung?",
+    "options": [
+      "Bildungspolitik wird wesentlich durch die Länder gestaltet.",
+      "Jede Schule bestimmt das Grundgesetz neu.",
+      "Der Bund ist eine einzelne Gemeinde."
+    ],
+    "correct": 0,
+    "explanation": "Bildungspolitik wird wesentlich durch die Länder gestaltet."
+  },
+  {
+    "id": "complex.soc-state.050",
+    "subject": "social",
+    "topic": "soc-state",
+    "complexId": "soc-state",
+    "competency": "soc-state",
+    "difficulty": 3,
+    "prompt": "Warum bedeutet Sozialstaat nicht die vollständige Abschaffung eigener Verantwortung?",
+    "options": [
+      "Gemeinsame Absicherung und persönliche Mitwirkung können nebeneinander bestehen.",
+      "Sozialstaat verbietet jede Erwerbsarbeit.",
+      "Staatliche Hilfe macht alle Entscheidungen anderer Menschen bedeutungslos."
+    ],
+    "correct": 0,
+    "explanation": "Gemeinsame Absicherung und persönliche Mitwirkung können nebeneinander bestehen."
+  }
+]

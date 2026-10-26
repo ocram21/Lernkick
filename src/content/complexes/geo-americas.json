@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.geo-americas.001",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Aus welchen beiden großen Teilen besteht der Doppelkontinent Amerika?",
+    "options": [
+      "Nordamerika und Südamerika",
+      "Europa und Südamerika",
+      "Asien und Nordamerika"
+    ],
+    "correct": 0,
+    "explanation": "Nordamerika und Südamerika"
+  },
+  {
+    "id": "complex.geo-americas.002",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welcher Ozean liegt westlich des amerikanischen Doppelkontinents?",
+    "options": [
+      "Pazifischer Ozean",
+      "Atlantischer Ozean",
+      "Indischer Ozean"
+    ],
+    "correct": 0,
+    "explanation": "Der Pazifik begrenzt die Westseiten Nord- und Südamerikas."
+  },
+  {
+    "id": "complex.geo-americas.003",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welcher Ozean liegt östlich großer Teile Amerikas?",
+    "options": [
+      "Atlantischer Ozean",
+      "Indischer Ozean",
+      "Südchinesisches Meer"
+    ],
+    "correct": 0,
+    "explanation": "Der Atlantik liegt zwischen Amerika im Westen und Europa sowie Afrika im Osten."
+  },
+  {
+    "id": "complex.geo-americas.004",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welcher Staat liegt nördlich der zusammenhängenden USA?",
+    "options": [
+      "Kanada",
+      "Brasilien",
+      "Argentinien"
+    ],
+    "correct": 0,
+    "explanation": "Kanada grenzt im Norden an das zusammenhängende Staatsgebiet der USA."
+  },
+  {
+    "id": "complex.geo-americas.005",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welcher Staat grenzt südlich an die zusammenhängenden USA?",
+    "options": [
+      "Mexiko",
+      "Chile",
+      "Peru"
+    ],
+    "correct": 0,
+    "explanation": "Mexiko liegt südlich der zusammenhängenden USA und bildet mit ihnen eine Landgrenze."
+  },
+  {
+    "id": "complex.geo-americas.006",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "In welchem Teil Amerikas liegt Brasilien?",
+    "options": [
+      "In Südamerika",
+      "In Nordamerika",
+      "In der Arktis"
+    ],
+    "correct": 0,
+    "explanation": "Brasilien ist ein südamerikanischer Staat und umfasst einen großen Teil des östlichen Südamerikas."
+  },
+  {
+    "id": "complex.geo-americas.007",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Wie heißt das lange Gebirge an der Westseite Südamerikas?",
+    "options": [
+      "Anden",
+      "Alpen",
+      "Himalaya"
+    ],
+    "correct": 0,
+    "explanation": "Die Anden ziehen sich entlang der westlichen Seite Südamerikas über mehrere Staaten."
+  },
+  {
+    "id": "complex.geo-americas.008",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Wie heißt ein großes Gebirge im Westen Nordamerikas?",
+    "options": [
+      "Rocky Mountains",
+      "Ural",
+      "Karpaten"
+    ],
+    "correct": 0,
+    "explanation": "Die Rocky Mountains sind Teil der westlichen Gebirgssysteme Nordamerikas."
+  },
+  {
+    "id": "complex.geo-americas.009",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welcher Fluss gehört zum großen Regenwaldgebiet Südamerikas?",
+    "options": [
+      "Amazonas",
+      "Nil",
+      "Rhein"
+    ],
+    "correct": 0,
+    "explanation": "Der Amazonas und seine Nebenflüsse durchziehen große Teile des tropischen Regenwaldraums."
+  },
+  {
+    "id": "complex.geo-americas.010",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welcher Staat liegt langgestreckt an der Westküste Südamerikas?",
+    "options": [
+      "Chile",
+      "Uruguay",
+      "Paraguay"
+    ],
+    "correct": 0,
+    "explanation": "Chile erstreckt sich als schmaler, langer Staat zwischen den Anden und dem Pazifik."
+  },
+  {
+    "id": "complex.geo-americas.011",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Was bezeichnet Mittelamerika?",
+    "options": [
+      "Den Raum zwischen dem nördlichen und südlichen Hauptteil Amerikas",
+      "Den Mittelpunkt Afrikas",
+      "Nur den Norden Kanadas"
+    ],
+    "correct": 0,
+    "explanation": "Den Raum zwischen dem nördlichen und südlichen Hauptteil Amerikas"
+  },
+  {
+    "id": "complex.geo-americas.012",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Was ist die Karibik?",
+    "options": [
+      "Ein Raum mit Meer und Inseln zwischen Nord- und Südamerika",
+      "Ein Gebirge im Inneren Brasiliens",
+      "Ein Fluss in Alaska"
+    ],
+    "correct": 0,
+    "explanation": "Ein Raum mit Meer und Inseln zwischen Nord- und Südamerika"
+  },
+  {
+    "id": "complex.geo-americas.013",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welche Sprache wird in Brasilien überwiegend gesprochen?",
+    "options": [
+      "Portugiesisch",
+      "Spanisch",
+      "Französisch"
+    ],
+    "correct": 0,
+    "explanation": "Die portugiesische Kolonialgeschichte prägt die vorherrschende Sprache Brasiliens."
+  },
+  {
+    "id": "complex.geo-americas.014",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welche Sprache prägt viele Staaten Lateinamerikas?",
+    "options": [
+      "Spanisch",
+      "Japanisch",
+      "Finnisch"
+    ],
+    "correct": 0,
+    "explanation": "In vielen lateinamerikanischen Staaten wird Spanisch gesprochen; Brasilien ist eine wichtige Ausnahme."
+  },
+  {
+    "id": "complex.geo-americas.015",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 1,
+    "prompt": "Welche Insel gehört zur Karibik?",
+    "options": [
+      "Kuba",
+      "Island",
+      "Madagaskar"
+    ],
+    "correct": 0,
+    "explanation": "Kuba liegt im karibischen Inselraum südlich der USA und östlich Mexikos."
+  },
+  {
+    "id": "complex.geo-americas.016",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Warum gibt es in Amerika sehr unterschiedliche Klimazonen?",
+    "options": [
+      "Der Doppelkontinent erstreckt sich über viele Breiten und Höhenlagen.",
+      "Alle Gebiete liegen gleich weit vom Äquator entfernt.",
+      "Jedes Land besitzt nur eine Klimazone."
+    ],
+    "correct": 0,
+    "explanation": "Der Doppelkontinent erstreckt sich über viele Breiten und Höhenlagen."
+  },
+  {
+    "id": "complex.geo-americas.017",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Welche Landschaft findet man im hohen Norden Kanadas?",
+    "options": [
+      "Tundra und arktische Räume",
+      "Tropischen Regenwald",
+      "Mediterrane Olivenhaine"
+    ],
+    "correct": 0,
+    "explanation": "Tundra und arktische Räume"
+  },
+  {
+    "id": "complex.geo-americas.018",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Warum ist es im Hochgebirge oft kühler als im Tiefland gleicher Breite?",
+    "options": [
+      "Die Lufttemperatur nimmt mit der Höhe meist ab.",
+      "Die Sonne erreicht Berge grundsätzlich nicht.",
+      "Berge bestehen nur aus Eis."
+    ],
+    "correct": 0,
+    "explanation": "Die Lufttemperatur nimmt mit der Höhe meist ab."
+  },
+  {
+    "id": "complex.geo-americas.019",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Welche natürliche Vegetation ist für große Teile des Amazonasbeckens typisch?",
+    "options": [
+      "Tropischer Regenwald",
+      "Tundra",
+      "Borealer Nadelwald"
+    ],
+    "correct": 0,
+    "explanation": "Im feuchtwarmen Amazonasraum ist tropischer Regenwald die typische natürliche Vegetation."
+  },
+  {
+    "id": "complex.geo-americas.020",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Was sind die Pampas?",
+    "options": [
+      "Weite Graslandschaften im südlichen Südamerika",
+      "Eisflächen im Norden Kanadas",
+      "Vulkane der Karibik"
+    ],
+    "correct": 0,
+    "explanation": "Weite Graslandschaften im südlichen Südamerika"
+  },
+  {
+    "id": "complex.geo-americas.021",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Was ist die Prärie?",
+    "options": [
+      "Eine Graslandschaft Nordamerikas",
+      "Ein tropisches Korallenriff",
+      "Ein Flussdelta in Brasilien"
+    ],
+    "correct": 0,
+    "explanation": "Eine Graslandschaft Nordamerikas"
+  },
+  {
+    "id": "complex.geo-americas.022",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Wozu dient der Panamakanal?",
+    "options": [
+      "Er verbindet Atlantik und Pazifik für die Schifffahrt.",
+      "Er verbindet Nordamerika mit Europa durch eine Straße.",
+      "Er transportiert ausschließlich Trinkwasser."
+    ],
+    "correct": 0,
+    "explanation": "Er verbindet Atlantik und Pazifik für die Schifffahrt."
+  },
+  {
+    "id": "complex.geo-americas.023",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Warum liegen an Amerikas Westseite viele aktive Vulkane?",
+    "options": [
+      "Dort treffen tektonische Platten aufeinander.",
+      "Dort ist die Erdkruste überall unbeweglich.",
+      "Jeder hohe Berg wird durch Wind zum Vulkan."
+    ],
+    "correct": 0,
+    "explanation": "Dort treffen tektonische Platten aufeinander."
+  },
+  {
+    "id": "complex.geo-americas.024",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Welcher Prozess führt häufig zu Erdbeben?",
+    "options": [
+      "Spannungen lösen sich an Bewegungsflächen der Erdkruste.",
+      "Wolken drücken das Meer in den Boden.",
+      "Flüsse wechseln ihre Farbe."
+    ],
+    "correct": 0,
+    "explanation": "Spannungen lösen sich an Bewegungsflächen der Erdkruste."
+  },
+  {
+    "id": "complex.geo-americas.025",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Was beschreibt eine Megastadt?",
+    "options": [
+      "Eine Stadtregion mit besonders vielen Millionen Einwohnern",
+      "Eine Hauptstadt mit genau tausend Einwohnern",
+      "Ein unbewohntes Industriegebiet"
+    ],
+    "correct": 0,
+    "explanation": "Eine Stadtregion mit besonders vielen Millionen Einwohnern"
+  },
+  {
+    "id": "complex.geo-americas.026",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Warum ist der Amazonasregenwald global bedeutsam?",
+    "options": [
+      "Er beherbergt große Artenvielfalt und beeinflusst Kohlenstoff- und Wasserkreisläufe.",
+      "Er produziert allein den gesamten Sauerstoff der Erde.",
+      "Er hat außerhalb Brasiliens keinerlei Bedeutung."
+    ],
+    "correct": 0,
+    "explanation": "Er beherbergt große Artenvielfalt und beeinflusst Kohlenstoff- und Wasserkreisläufe."
+  },
+  {
+    "id": "complex.geo-americas.027",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Welche Tätigkeit kann Regenwaldverlust fördern?",
+    "options": [
+      "Ausweitung von Weiden und Anbauflächen",
+      "Schutz bereits bestehender Wälder",
+      "Wiederherstellung zerstörter Waldflächen"
+    ],
+    "correct": 0,
+    "explanation": "Ausweitung von Weiden und Anbauflächen"
+  },
+  {
+    "id": "complex.geo-americas.028",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Welche Wirtschaftsform ist in den Pampas verbreitet?",
+    "options": [
+      "Viehzucht und Ackerbau",
+      "Ausschließlich Tiefseebergbau",
+      "Nur Rentierhaltung"
+    ],
+    "correct": 0,
+    "explanation": "Die Grasländer und günstigen Böden der Pampas werden unter anderem für Viehzucht und Ackerbau genutzt."
+  },
+  {
+    "id": "complex.geo-americas.029",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Warum wird Südamerikas Bevölkerung häufig als kulturell vielfältig beschrieben?",
+    "options": [
+      "Indigene, europäische, afrikanische und weitere Einflüsse treffen zusammen.",
+      "Alle Menschen haben dieselbe Herkunft und Sprache.",
+      "Migration hat dort nie stattgefunden."
+    ],
+    "correct": 0,
+    "explanation": "Indigene, europäische, afrikanische und weitere Einflüsse treffen zusammen."
+  },
+  {
+    "id": "complex.geo-americas.030",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 2,
+    "prompt": "Was bedeutet der Begriff indigene Bevölkerung hier?",
+    "options": [
+      "Nachfahren von Gemeinschaften, die vor der Kolonisierung dort lebten",
+      "Alle neu eingewanderten Europäer unabhängig von ihrer Geschichte",
+      "Ausschließlich Menschen in Hauptstädten"
+    ],
+    "correct": 0,
+    "explanation": "Nachfahren von Gemeinschaften, die vor der Kolonisierung dort lebten"
+  },
+  {
+    "id": "complex.geo-americas.031",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum ist „Lateinamerika“ keine reine Himmelsrichtungsangabe?",
+    "options": [
+      "Der Begriff bezieht sich vor allem auf sprachlich-kulturelle Prägung.",
+      "Er meint immer ausschließlich alle Staaten südlich des Äquators.",
+      "Er ist der Name einer einzigen Gebirgskette."
+    ],
+    "correct": 0,
+    "explanation": "Der Begriff bezieht sich vor allem auf sprachlich-kulturelle Prägung."
+  },
+  {
+    "id": "complex.geo-americas.032",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum können die Anden räumliche Verflechtungen erschweren?",
+    "options": [
+      "Höhe und Relief erschweren Verkehrsverbindungen.",
+      "Gebirge verhindern grundsätzlich jede Besiedlung.",
+      "Alle Übergänge sind gleich niedrig und eben."
+    ],
+    "correct": 0,
+    "explanation": "Höhe und Relief erschweren Verkehrsverbindungen."
+  },
+  {
+    "id": "complex.geo-americas.033",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Was erklärt Trockenheit in einem Regenschattengebiet?",
+    "options": [
+      "Feuchte Luft regnet sich an der Gebirgsseite zuvor ab.",
+      "Jeder Ort hinter einem Berg liegt am Äquator.",
+      "Berge entfernen sämtliche Ozeane aus der Nähe."
+    ],
+    "correct": 0,
+    "explanation": "Feuchte Luft regnet sich an der Gebirgsseite zuvor ab."
+  },
+  {
+    "id": "complex.geo-americas.034",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum ist die Atacama trotz ihrer Küstenlage extrem trocken?",
+    "options": [
+      "Kalte Meeresströmung und atmosphärische Bedingungen begrenzen Niederschläge.",
+      "Küsten erhalten grundsätzlich keinen Niederschlag.",
+      "Dort gibt es keine Luft."
+    ],
+    "correct": 0,
+    "explanation": "Kalte Meeresströmung und atmosphärische Bedingungen begrenzen Niederschläge."
+  },
+  {
+    "id": "complex.geo-americas.035",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Welche Folge kann die kalte Humboldtströmung haben?",
+    "options": [
+      "Sie begünstigt nährstoffreiches Auftriebswasser und Fischreichtum.",
+      "Sie erwärmt ganz Südamerika gleichmäßig.",
+      "Sie erzeugt ausschließlich Süßwasser im Pazifik."
+    ],
+    "correct": 0,
+    "explanation": "Sie begünstigt nährstoffreiches Auftriebswasser und Fischreichtum."
+  },
+  {
+    "id": "complex.geo-americas.036",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Wie kann El Niño an der Pazifikküste Südamerikas wirken?",
+    "options": [
+      "Veränderte Meerestemperaturen können Niederschläge und Fischbestände beeinflussen.",
+      "Es handelt sich nur um einen täglichen Gezeitenwechsel.",
+      "Es betrifft ausschließlich die Erdrotation."
+    ],
+    "correct": 0,
+    "explanation": "Veränderte Meerestemperaturen können Niederschläge und Fischbestände beeinflussen."
+  },
+  {
+    "id": "complex.geo-americas.037",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum lässt sich das Klima Amerikas nicht allein aus der Breitenlage ablesen?",
+    "options": [
+      "Auch Höhenlage, Meeresströmungen und Relief wirken mit.",
+      "Die Breitenlage beeinflusst Klima überhaupt nicht.",
+      "Alle Küsten haben unabhängig von Strömungen dasselbe Klima."
+    ],
+    "correct": 0,
+    "explanation": "Auch Höhenlage, Meeresströmungen und Relief wirken mit."
+  },
+  {
+    "id": "complex.geo-americas.038",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Welche Aussage über Amazonasgebiet und Brasilien stimmt?",
+    "options": [
+      "Das Amazonasgebiet reicht auch in andere südamerikanische Staaten.",
+      "Das gesamte Amazonasgebiet liegt nur in Brasilien.",
+      "Brasilien liegt vollständig im Amazonasbecken."
+    ],
+    "correct": 0,
+    "explanation": "Das Amazonasgebiet reicht auch in andere südamerikanische Staaten."
+  },
+  {
+    "id": "complex.geo-americas.039",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum liegen viele große südamerikanische Städte nahe Küsten?",
+    "options": [
+      "Historische Verkehrs- und Handelsbeziehungen förderten solche Standorte.",
+      "Im Landesinneren ist Atmung grundsätzlich unmöglich.",
+      "Alle Küsten besitzen automatisch fruchtbarste Böden."
+    ],
+    "correct": 0,
+    "explanation": "Historische Verkehrs- und Handelsbeziehungen förderten solche Standorte."
+  },
+  {
+    "id": "complex.geo-americas.040",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Welche Herausforderung kann schnelles Stadtwachstum schaffen?",
+    "options": [
+      "Wohnraum und Versorgung wachsen nicht immer schnell genug mit.",
+      "Jede neue Einwohnerin erhält automatisch eine fertige Wohnung.",
+      "Städtische Infrastruktur wird dadurch überflüssig."
+    ],
+    "correct": 0,
+    "explanation": "Wohnraum und Versorgung wachsen nicht immer schnell genug mit."
+  },
+  {
+    "id": "complex.geo-americas.041",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum ist eine informelle Siedlung nicht einfach mit Kriminalität gleichzusetzen?",
+    "options": [
+      "Der Begriff beschreibt vor allem ungesicherte Planung, Rechte oder Versorgung.",
+      "Alle dort lebenden Menschen handeln grundsätzlich rechtswidrig.",
+      "Eine Siedlungsform bestimmt zwingend das Verhalten jedes Menschen."
+    ],
+    "correct": 0,
+    "explanation": "Der Begriff beschreibt vor allem ungesicherte Planung, Rechte oder Versorgung."
+  },
+  {
+    "id": "complex.geo-americas.042",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Welche Folge kann der Abbau von Rohstoffen in empfindlichen Räumen haben?",
+    "options": [
+      "Landschaften und Gewässer können stark belastet werden.",
+      "Jeder Bergbau erhält grundsätzlich alle Lebensräume.",
+      "Rohstoffabbau benötigt nie Verkehrswege."
+    ],
+    "correct": 0,
+    "explanation": "Landschaften und Gewässer können stark belastet werden."
+  },
+  {
+    "id": "complex.geo-americas.043",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum kann eine starke Ausrichtung auf Agrarausfuhren problematisch sein?",
+    "options": [
+      "Weltmarktpreise und Flächenkonflikte schaffen Abhängigkeiten.",
+      "Alle Exportpreise bleiben dauerhaft gleich.",
+      "Exportlandwirtschaft benötigt keinerlei Wasser."
+    ],
+    "correct": 0,
+    "explanation": "Weltmarktpreise und Flächenkonflikte schaffen Abhängigkeiten."
+  },
+  {
+    "id": "complex.geo-americas.044",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Welche Aussage verbindet Naturraum und Wirtschaft sinnvoll?",
+    "options": [
+      "Anbauformen hängen unter anderem von Klima, Boden und Höhenlage ab.",
+      "Politische Grenzen bestimmen allein alle Pflanzenarten.",
+      "Jeder Raum eignet sich für jede Kulturpflanze gleich gut."
+    ],
+    "correct": 0,
+    "explanation": "Anbauformen hängen unter anderem von Klima, Boden und Höhenlage ab."
+  },
+  {
+    "id": "complex.geo-americas.045",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Hurrikane von Tornados?",
+    "options": [
+      "Hurrikane sind großräumige tropische Wirbelstürme, Tornados kleinräumige Luftwirbel.",
+      "Beide sind Bezeichnungen für dasselbe Gebirge.",
+      "Tornados entstehen ausschließlich unter dem Meer."
+    ],
+    "correct": 0,
+    "explanation": "Hurrikane sind großräumige tropische Wirbelstürme, Tornados kleinräumige Luftwirbel."
+  },
+  {
+    "id": "complex.geo-americas.046",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum können tropische Wirbelstürme an Küsten besonders gefährlich sein?",
+    "options": [
+      "Sturmfluten, Wind und starker Regen können zusammenwirken.",
+      "Nur die Lufttemperatur verändert sich.",
+      "Küsten sind vor Wind und Wasser grundsätzlich geschützt."
+    ],
+    "correct": 0,
+    "explanation": "Sturmfluten, Wind und starker Regen können zusammenwirken."
+  },
+  {
+    "id": "complex.geo-americas.047",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum kann der Ausbau einer Straße durch Regenwald weitere Folgen auslösen?",
+    "options": [
+      "Er erleichtert Zugang und damit zusätzliche Rodung und Besiedlung.",
+      "Er beeinflusst nur die Fahrzeit ohne jede andere Wirkung.",
+      "Asphalt erzeugt automatisch neuen Regenwald."
+    ],
+    "correct": 0,
+    "explanation": "Er erleichtert Zugang und damit zusätzliche Rodung und Besiedlung."
+  },
+  {
+    "id": "complex.geo-americas.048",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Was ist beim Vergleich der USA mit dem gesamten Amerika wichtig?",
+    "options": [
+      "Die USA sind nur ein Staat des Doppelkontinents.",
+      "Die USA und Amerika sind geografisch vollständig identisch.",
+      "Südamerika gehört politisch vollständig zu den USA."
+    ],
+    "correct": 0,
+    "explanation": "Die USA sind nur ein Staat des Doppelkontinents."
+  },
+  {
+    "id": "complex.geo-americas.049",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Welche Aussage beschreibt die Nord-Süd-Ausdehnung Amerikas?",
+    "options": [
+      "Sie reicht von arktischen Breiten bis weit in die südliche gemäßigte Zone.",
+      "Sie liegt vollständig in den Tropen.",
+      "Sie umfasst ausschließlich die Nordhalbkugel."
+    ],
+    "correct": 0,
+    "explanation": "Sie reicht von arktischen Breiten bis weit in die südliche gemäßigte Zone."
+  },
+  {
+    "id": "complex.geo-americas.050",
+    "subject": "geography",
+    "topic": "geo-americas",
+    "complexId": "geo-americas",
+    "competency": "geo-americas",
+    "difficulty": 3,
+    "prompt": "Warum sind Aussagen über „das eine Leben in Amerika“ ungenau?",
+    "options": [
+      "Natur, Wirtschaft und Lebenslagen unterscheiden sich stark zwischen Regionen.",
+      "Alle Menschen des Doppelkontinents haben denselben Alltag.",
+      "Zwischen Stadt und Land bestehen dort keine Unterschiede."
+    ],
+    "correct": 0,
+    "explanation": "Natur, Wirtschaft und Lebenslagen unterscheiden sich stark zwischen Regionen."
+  }
+]

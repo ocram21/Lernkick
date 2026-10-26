@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.geo-germany.001",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "In welchem Teil Europas liegt Deutschland?",
+    "options": [
+      "In Mitteleuropa",
+      "In Südamerika",
+      "In Ostasien"
+    ],
+    "correct": 0,
+    "explanation": "Deutschland liegt in Mitteleuropa und ist mit mehreren europäischen Nachbarstaaten verbunden."
+  },
+  {
+    "id": "complex.geo-germany.002",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welches Meer liegt an Deutschlands nordwestlicher Küste?",
+    "options": [
+      "Die Nordsee",
+      "Das Mittelmeer",
+      "Das Schwarze Meer"
+    ],
+    "correct": 0,
+    "explanation": "Die Nordsee liegt an Deutschlands nordwestlicher Küste, unter anderem vor Ostfriesland."
+  },
+  {
+    "id": "complex.geo-germany.003",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welches Meer liegt an Deutschlands nordöstlicher Küste?",
+    "options": [
+      "Die Ostsee",
+      "Das Rote Meer",
+      "Das Kaspische Meer"
+    ],
+    "correct": 0,
+    "explanation": "Die Ostsee liegt an Deutschlands nordöstlicher Küste, unter anderem vor Mecklenburg-Vorpommern."
+  },
+  {
+    "id": "complex.geo-germany.004",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welcher Fluss ist eine wichtige deutsche Wasserstraße?",
+    "options": [
+      "Der Rhein",
+      "Der Amazonas",
+      "Der Mississippi"
+    ],
+    "correct": 0,
+    "explanation": "Der Rhein verbindet bedeutende Wirtschafts- und Hafenräume und wird stark für Güterverkehr genutzt."
+  },
+  {
+    "id": "complex.geo-germany.005",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welche Landschaft liegt im Norden Deutschlands?",
+    "options": [
+      "Das Norddeutsche Tiefland",
+      "Das Himalaya-Hochland",
+      "Die Anden"
+    ],
+    "correct": 0,
+    "explanation": "Das Norddeutsche Tiefland liegt zwischen den Küsten und den südlich anschließenden Mittelgebirgen."
+  },
+  {
+    "id": "complex.geo-germany.006",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welches Gebirge liegt am südlichen Rand Deutschlands?",
+    "options": [
+      "Die Alpen",
+      "Die Pyrenäen",
+      "Der Ural"
+    ],
+    "correct": 0,
+    "explanation": "An Deutschlands südlichem Rand liegt ein Teil der Alpen als Hochgebirge."
+  },
+  {
+    "id": "complex.geo-germany.007",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Was bezeichnet das Ruhrgebiet wirtschaftsgeschichtlich besonders?",
+    "options": [
+      "Einen früher stark von Kohle und Stahl geprägten Industrieraum",
+      "Ein ausschließlich tropisches Anbaugebiet",
+      "Eine Hochseeregion ohne Städte"
+    ],
+    "correct": 0,
+    "explanation": "Einen früher stark von Kohle und Stahl geprägten Industrieraum"
+  },
+  {
+    "id": "complex.geo-germany.008",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welche Stadt ist ein wichtiger deutscher Seehafen?",
+    "options": [
+      "Hamburg",
+      "München",
+      "Erfurt"
+    ],
+    "correct": 0,
+    "explanation": "Hamburgs Hafen verbindet über die Elbe den Seeverkehr mit Binnenverkehr und Logistik."
+  },
+  {
+    "id": "complex.geo-germany.009",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welche Stadt ist besonders als Finanzzentrum bekannt?",
+    "options": [
+      "Frankfurt am Main",
+      "Garmisch-Partenkirchen",
+      "Wernigerode"
+    ],
+    "correct": 0,
+    "explanation": "Frankfurt am Main ist ein bedeutender Standort für Banken, Börse und Finanzdienstleistungen."
+  },
+  {
+    "id": "complex.geo-germany.010",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Was ist ein Mittelgebirge?",
+    "options": [
+      "Ein Gebirge mit geringeren Höhen und meist gerundeteren Formen als Hochgebirge",
+      "Eine Ebene auf Meereshöhe",
+      "Eine Senke unter dem Meeresboden"
+    ],
+    "correct": 0,
+    "explanation": "Ein Gebirge mit geringeren Höhen und meist gerundeteren Formen als Hochgebirge"
+  },
+  {
+    "id": "complex.geo-germany.011",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Was ist eine Dienstleistung?",
+    "options": [
+      "Eine Leistung wie Pflege, Beratung oder Transport",
+      "Nur ein unverarbeiteter Rohstoff",
+      "Nur eine geerntete Kartoffel"
+    ],
+    "correct": 0,
+    "explanation": "Eine Leistung wie Pflege, Beratung oder Transport"
+  },
+  {
+    "id": "complex.geo-germany.012",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Was bezeichnet Industrie?",
+    "options": [
+      "Die meist arbeitsteilige Herstellung und Verarbeitung von Gütern",
+      "Ausschließlich den Verkauf gebrauchter Bücher",
+      "Nur die Versorgung privater Haushalte mit Freizeit"
+    ],
+    "correct": 0,
+    "explanation": "Die meist arbeitsteilige Herstellung und Verarbeitung von Gütern"
+  },
+  {
+    "id": "complex.geo-germany.013",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Welche Branche ist in Deutschland bedeutend?",
+    "options": [
+      "Maschinenbau",
+      "Tropischer Kautschukanbau im Freiland",
+      "Arktische Rentierjagd"
+    ],
+    "correct": 0,
+    "explanation": "Maschinenbau verbindet industrielle Fertigung mit technischem Wissen und vielen Zulieferbeziehungen."
+  },
+  {
+    "id": "complex.geo-germany.014",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Was ist ein Verkehrsnetz?",
+    "options": [
+      "Miteinander verbundene Wege und Knoten des Verkehrs",
+      "Nur ein einzelnes Verkehrsschild",
+      "Eine Liste aller Regenmengen"
+    ],
+    "correct": 0,
+    "explanation": "Miteinander verbundene Wege und Knoten des Verkehrs"
+  },
+  {
+    "id": "complex.geo-germany.015",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Exportorientierung?",
+    "options": [
+      "Ein wichtiger Teil der Produktion wird im Ausland verkauft.",
+      "Alle Produkte werden nur im Betrieb verbraucht.",
+      "Ein Land darf nichts importieren."
+    ],
+    "correct": 0,
+    "explanation": "Ein wichtiger Teil der Produktion wird im Ausland verkauft."
+  },
+  {
+    "id": "complex.geo-germany.016",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Warum sind gute Bahn- und Straßenanschlüsse für Betriebe wichtig?",
+    "options": [
+      "Sie erleichtern Transporte und Erreichbarkeit.",
+      "Sie erzeugen automatisch Rohstoffe.",
+      "Sie ersetzen sämtliche Fachkräfte."
+    ],
+    "correct": 0,
+    "explanation": "Sie erleichtern Transporte und Erreichbarkeit."
+  },
+  {
+    "id": "complex.geo-germany.017",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Welcher Standortfaktor ist für ein Forschungsunternehmen besonders wichtig?",
+    "options": [
+      "Qualifizierte Beschäftigte und Wissenseinrichtungen",
+      "Nur möglichst viel unbebauter Sand",
+      "Ausschließlich die Entfernung zum Äquator"
+    ],
+    "correct": 0,
+    "explanation": "Qualifizierte Beschäftigte und Wissenseinrichtungen"
+  },
+  {
+    "id": "complex.geo-germany.018",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Was bedeutet Strukturwandel im Ruhrgebiet?",
+    "options": [
+      "Andere Branchen gewinnen gegenüber Kohle und Stahl an Bedeutung.",
+      "Die Region verschwindet von der Landkarte.",
+      "Die Bevölkerung arbeitet danach nur noch im Bergbau."
+    ],
+    "correct": 0,
+    "explanation": "Andere Branchen gewinnen gegenüber Kohle und Stahl an Bedeutung."
+  },
+  {
+    "id": "complex.geo-germany.019",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Warum sind viele deutsche Betriebe auf Importe angewiesen?",
+    "options": [
+      "Sie benötigen Rohstoffe, Energie oder Vorprodukte aus anderen Ländern.",
+      "Deutschland verfügt über jede Ressource unbegrenzt.",
+      "Importe sind nur für Urlaubsreisen notwendig."
+    ],
+    "correct": 0,
+    "explanation": "Sie benötigen Rohstoffe, Energie oder Vorprodukte aus anderen Ländern."
+  },
+  {
+    "id": "complex.geo-germany.020",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Welche erneuerbare Energie wird an Nord- und Ostsee stark genutzt?",
+    "options": [
+      "Windenergie",
+      "Uranenergie",
+      "Braunkohlenenergie"
+    ],
+    "correct": 0,
+    "explanation": "An den Küsten und auf See sind Windverhältnisse für die Nutzung durch Windkraftanlagen günstig."
+  },
+  {
+    "id": "complex.geo-germany.021",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Was ist ein Braunkohletagebau?",
+    "options": [
+      "Rohstoffabbau in einer offenen Grube",
+      "Eine Windkraftanlage im Meer",
+      "Ein Kanal nur für Personenschiffe"
+    ],
+    "correct": 0,
+    "explanation": "Rohstoffabbau in einer offenen Grube"
+  },
+  {
+    "id": "complex.geo-germany.022",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Was ist Flächenversiegelung?",
+    "options": [
+      "Boden wird durch Gebäude oder dichte Beläge bedeckt.",
+      "Boden wird ausschließlich mit Pflanzen bewachsen.",
+      "Ein Fluss bildet ein neues Delta."
+    ],
+    "correct": 0,
+    "explanation": "Boden wird durch Gebäude oder dichte Beläge bedeckt."
+  },
+  {
+    "id": "complex.geo-germany.023",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Warum ist fruchtbarer Boden ein Standortfaktor der Landwirtschaft?",
+    "options": [
+      "Er erleichtert gute Erträge bei passenden weiteren Bedingungen.",
+      "Er ersetzt jede Witterung und Pflege.",
+      "Er macht alle Pflanzen unabhängig von Wasser."
+    ],
+    "correct": 0,
+    "explanation": "Er erleichtert gute Erträge bei passenden weiteren Bedingungen."
+  },
+  {
+    "id": "complex.geo-germany.024",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Was beschreibt ein Logistikzentrum?",
+    "options": [
+      "Einen Ort zur Bündelung, Lagerung und Verteilung von Waren",
+      "Nur eine Schule für Meteorologie",
+      "Eine reine Rohstofflagerstätte im Gebirge"
+    ],
+    "correct": 0,
+    "explanation": "Einen Ort zur Bündelung, Lagerung und Verteilung von Waren"
+  },
+  {
+    "id": "complex.geo-germany.025",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Was ist ein regionaler Wirtschaftskreislauf?",
+    "options": [
+      "Verflechtung von Produktion, Einkommen und Nachfrage innerhalb einer Region",
+      "Der jährliche Umlauf der Erde",
+      "Eine einzige Lieferung ohne weitere Beziehungen"
+    ],
+    "correct": 0,
+    "explanation": "Verflechtung von Produktion, Einkommen und Nachfrage innerhalb einer Region"
+  },
+  {
+    "id": "complex.geo-germany.026",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Warum ziehen manche Menschen in Großstädte?",
+    "options": [
+      "Ausbildung, Arbeit und vielfältige Angebote können attraktiv sein.",
+      "Dort sind Wohnungen grundsätzlich immer kostenlos.",
+      "Alle ländlichen Räume besitzen keinerlei Arbeitsplätze."
+    ],
+    "correct": 0,
+    "explanation": "Ausbildung, Arbeit und vielfältige Angebote können attraktiv sein."
+  },
+  {
+    "id": "complex.geo-germany.027",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Welche Herausforderung betrifft manche dünn besiedelten Regionen?",
+    "options": [
+      "Weite Wege zu Versorgung, Ausbildung oder medizinischen Angeboten",
+      "Dauerhafte Überfüllung jeder U-Bahn",
+      "Unmöglichkeit jeder digitalen Verbindung unabhängig vom Ausbau"
+    ],
+    "correct": 0,
+    "explanation": "Weite Wege zu Versorgung, Ausbildung oder medizinischen Angeboten"
+  },
+  {
+    "id": "complex.geo-germany.028",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Was ist Rekultivierung?",
+    "options": [
+      "Eine vom Abbau veränderte Fläche wieder nutzbar und ökologisch gestaltbar machen",
+      "Alle Pflanzen dauerhaft entfernen",
+      "Einen bestehenden Wald vollständig versiegeln"
+    ],
+    "correct": 0,
+    "explanation": "Eine vom Abbau veränderte Fläche wieder nutzbar und ökologisch gestaltbar machen"
+  },
+  {
+    "id": "complex.geo-germany.029",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Welche Bedeutung haben kleine und mittlere Unternehmen?",
+    "options": [
+      "Sie tragen wesentlich zu Beschäftigung und Wertschöpfung bei.",
+      "Sie sind grundsätzlich wirtschaftlich bedeutungslos.",
+      "Sie dürfen nicht ausbilden."
+    ],
+    "correct": 0,
+    "explanation": "Sie tragen wesentlich zu Beschäftigung und Wertschöpfung bei."
+  },
+  {
+    "id": "complex.geo-germany.030",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 2,
+    "prompt": "Warum hat Tourismus regional unterschiedliche Schwerpunkte?",
+    "options": [
+      "Natur, Kultur und Erreichbarkeit unterscheiden sich.",
+      "Alle Regionen haben identische Angebote.",
+      "Tourismus ist nur an einer Meeresküste möglich."
+    ],
+    "correct": 0,
+    "explanation": "Natur, Kultur und Erreichbarkeit unterscheiden sich."
+  },
+  {
+    "id": "complex.geo-germany.031",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum ist die zentrale Lage Deutschlands zugleich Chance und Belastung?",
+    "options": [
+      "Sie erleichtert Verbindungen, führt aber auch zu viel Transitverkehr.",
+      "Sie verhindert grundsätzlich jeden Außenhandel.",
+      "Sie macht Verkehrsplanung überflüssig."
+    ],
+    "correct": 0,
+    "explanation": "Sie erleichtert Verbindungen, führt aber auch zu viel Transitverkehr."
+  },
+  {
+    "id": "complex.geo-germany.032",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Was kann der Wegfall eines großen Industriebetriebs für eine Region bedeuten?",
+    "options": [
+      "Zulieferer, Handel und kommunale Einnahmen können ebenfalls betroffen sein.",
+      "Nur das Firmenlogo ändert sich.",
+      "Alle anderen Betriebe gewinnen automatisch Umsatz."
+    ],
+    "correct": 0,
+    "explanation": "Zulieferer, Handel und kommunale Einnahmen können ebenfalls betroffen sein."
+  },
+  {
+    "id": "complex.geo-germany.033",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum genügt niedriger Grundstückspreis allein nicht für die Standortwahl?",
+    "options": [
+      "Verkehr, Fachkräfte, Energie und Absatz müssen ebenfalls passen.",
+      "Andere Standortfaktoren haben keinerlei Wirkung.",
+      "Der billigste Standort ist für jede Branche immer der beste."
+    ],
+    "correct": 0,
+    "explanation": "Verkehr, Fachkräfte, Energie und Absatz müssen ebenfalls passen."
+  },
+  {
+    "id": "complex.geo-germany.034",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Welche Aussage beschreibt die Energiewende räumlich?",
+    "options": [
+      "Erzeugung, Netze und Verbrauch müssen über Regionen verbunden werden.",
+      "Jeder Haushalt muss völlig ohne Netze auskommen.",
+      "Wind- und Sonnenenergie entstehen überall zu jeder Zeit gleich stark."
+    ],
+    "correct": 0,
+    "explanation": "Erzeugung, Netze und Verbrauch müssen über Regionen verbunden werden."
+  },
+  {
+    "id": "complex.geo-germany.035",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum kann ein neuer Windpark einen Zielkonflikt auslösen?",
+    "options": [
+      "Klimaschutz, Landschaft, Artenschutz und Anwohnerinteressen sind abzuwägen.",
+      "Erneuerbare Energie hat grundsätzlich keine räumlichen Auswirkungen.",
+      "Alle Beteiligten haben immer genau dasselbe Interesse."
+    ],
+    "correct": 0,
+    "explanation": "Klimaschutz, Landschaft, Artenschutz und Anwohnerinteressen sind abzuwägen."
+  },
+  {
+    "id": "complex.geo-germany.036",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Wie kann der Ausbau von Schienenwegen den Güterverkehr verändern?",
+    "options": [
+      "Ein Teil der Transporte kann von der Straße auf die Bahn wechseln.",
+      "Jede Lkw-Fahrt wird dadurch automatisch verboten.",
+      "Schienen können grundsätzlich keine Container tragen."
+    ],
+    "correct": 0,
+    "explanation": "Ein Teil der Transporte kann von der Straße auf die Bahn wechseln."
+  },
+  {
+    "id": "complex.geo-germany.037",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Was zeigt ein Hafen mit guter Hinterlandanbindung?",
+    "options": [
+      "Seeverkehr und Landverkehr sind wirtschaftlich verknüpft.",
+      "Ein Hafen funktioniert unabhängig von jedem übrigen Netz.",
+      "Nur Schiffe beeinflussen die Verteilung von Waren."
+    ],
+    "correct": 0,
+    "explanation": "Seeverkehr und Landverkehr sind wirtschaftlich verknüpft."
+  },
+  {
+    "id": "complex.geo-germany.038",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum kann demografischer Wandel die Wirtschaft einer Region beeinflussen?",
+    "options": [
+      "Arbeitskräfteangebot und Nachfrage nach Leistungen verändern sich.",
+      "Die Altersstruktur hat keine wirtschaftlichen Folgen.",
+      "Alle älteren Menschen haben identische Bedürfnisse."
+    ],
+    "correct": 0,
+    "explanation": "Arbeitskräfteangebot und Nachfrage nach Leistungen verändern sich."
+  },
+  {
+    "id": "complex.geo-germany.039",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Was kann digitale Infrastruktur einem ländlichen Betrieb ermöglichen?",
+    "options": [
+      "Kundenkontakte und bestimmte Arbeiten über größere Entfernungen organisieren",
+      "Jede physische Lieferung vollständig ersetzen",
+      "Standortfaktoren wie Strom und Beschäftigte abschaffen"
+    ],
+    "correct": 0,
+    "explanation": "Kundenkontakte und bestimmte Arbeiten über größere Entfernungen organisieren"
+  },
+  {
+    "id": "complex.geo-germany.040",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum sind Ost-West-Durchschnittsvergleiche allein unzureichend?",
+    "options": [
+      "Auch innerhalb dieser Großräume gibt es große Unterschiede.",
+      "Alle Orte im Osten sind gleich und alle im Westen ebenfalls.",
+      "Regionale Daten dürfen grundsätzlich nicht verglichen werden."
+    ],
+    "correct": 0,
+    "explanation": "Auch innerhalb dieser Großräume gibt es große Unterschiede."
+  },
+  {
+    "id": "complex.geo-germany.041",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Welche Folge kann steigende Wohnraumnachfrage in Ballungsräumen haben?",
+    "options": [
+      "Mieten und Pendeldistanzen können steigen.",
+      "Alle Wohnkosten sinken bei gleichbleibendem Angebot automatisch.",
+      "Arbeitswege spielen danach keine Rolle mehr."
+    ],
+    "correct": 0,
+    "explanation": "Mieten und Pendeldistanzen können steigen."
+  },
+  {
+    "id": "complex.geo-germany.042",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Wie kann Flächenrecycling helfen?",
+    "options": [
+      "Bereits genutzte Flächen werden neu genutzt, statt zusätzliche freie Flächen zu bebauen.",
+      "Jede alte Fabrik wird nur mit Erde zugeschüttet.",
+      "Neue Nutzung ist auf bestehenden Flächen grundsätzlich unmöglich."
+    ],
+    "correct": 0,
+    "explanation": "Bereits genutzte Flächen werden neu genutzt, statt zusätzliche freie Flächen zu bebauen."
+  },
+  {
+    "id": "complex.geo-germany.043",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum benötigen Hochwasserschutz und Wirtschaft gemeinsame Planung?",
+    "options": [
+      "Siedlungen und Verkehrswege können in Überschwemmungsräumen liegen.",
+      "Flüsse haben keine Bedeutung für Standorte.",
+      "Eine Mauer an einem Ort beseitigt jedes Hochwasserrisiko überall."
+    ],
+    "correct": 0,
+    "explanation": "Siedlungen und Verkehrswege können in Überschwemmungsräumen liegen."
+  },
+  {
+    "id": "complex.geo-germany.044",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Was ist ein Beispiel für einen weichen Standortfaktor?",
+    "options": [
+      "Kultur- und Freizeitangebote für Beschäftigte",
+      "Der Preis einer Kilowattstunde",
+      "Die Tragfähigkeit einer Güterbrücke"
+    ],
+    "correct": 0,
+    "explanation": "Kultur- und Freizeitangebote für Beschäftigte"
+  },
+  {
+    "id": "complex.geo-germany.045",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum ist industrielle Wertschöpfung nicht mit der gesamten Wirtschaftsleistung gleichzusetzen?",
+    "options": [
+      "Dienstleistungen und andere Sektoren tragen ebenfalls bei.",
+      "Deutschland hat keine Dienstleistungen.",
+      "Industrie umfasst automatisch sämtliche private Haushaltsarbeit."
+    ],
+    "correct": 0,
+    "explanation": "Dienstleistungen und andere Sektoren tragen ebenfalls bei."
+  },
+  {
+    "id": "complex.geo-germany.046",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Wie kann eine Region auf den Rückgang alter Branchen reagieren?",
+    "options": [
+      "Weiterbildung, neue Betriebe und passende Infrastruktur fördern",
+      "Nur auf die unveränderte Rückkehr aller früheren Arbeitsplätze warten",
+      "Sämtliche Schulen schließen, um Flächen zu gewinnen"
+    ],
+    "correct": 0,
+    "explanation": "Weiterbildung, neue Betriebe und passende Infrastruktur fördern"
+  },
+  {
+    "id": "complex.geo-germany.047",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Was bedeutet „Made in Germany“ nicht automatisch?",
+    "options": [
+      "Dass alle Vorprodukte ausschließlich aus Deutschland stammen",
+      "Dass es einen Bezug zur Herstellung in Deutschland gibt",
+      "Dass Produktionsschritte in Deutschland stattgefunden haben können"
+    ],
+    "correct": 0,
+    "explanation": "Dass alle Vorprodukte ausschließlich aus Deutschland stammen"
+  },
+  {
+    "id": "complex.geo-germany.048",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Warum kann Wasserverfügbarkeit für Industrie ein Standortthema sein?",
+    "options": [
+      "Einige Prozesse benötigen Kühl- oder Prozesswasser.",
+      "Industrie kann grundsätzlich ohne jedes Wasser arbeiten.",
+      "Wasser dient immer nur der Gebäudereinigung."
+    ],
+    "correct": 0,
+    "explanation": "Einige Prozesse benötigen Kühl- oder Prozesswasser."
+  },
+  {
+    "id": "complex.geo-germany.049",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Was macht Wirtschaftsregionen jenseits von Landesgrenzen aus?",
+    "options": [
+      "Pendler, Lieferbeziehungen und gemeinsame Infrastruktur verbinden sie.",
+      "Sie enden immer an jeder Gemeindegrenze.",
+      "Sie sind nur durch identische Wappen verbunden."
+    ],
+    "correct": 0,
+    "explanation": "Pendler, Lieferbeziehungen und gemeinsame Infrastruktur verbinden sie."
+  },
+  {
+    "id": "complex.geo-germany.050",
+    "subject": "geography",
+    "topic": "geo-germany",
+    "complexId": "geo-germany",
+    "competency": "geo-germany",
+    "difficulty": 3,
+    "prompt": "Welche Kombination beschreibt nachhaltige Regionalentwicklung?",
+    "options": [
+      "Beschäftigung fördern und Umwelt sowie soziale Teilhabe berücksichtigen",
+      "Nur kurzfristigen Umsatz ohne weitere Folgen betrachten",
+      "Wirtschaft grundsätzlich ohne Menschen und Natur planen"
+    ],
+    "correct": 0,
+    "explanation": "Beschäftigung fördern und Umwelt sowie soziale Teilhabe berücksichtigen"
+  }
+]

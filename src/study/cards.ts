@@ -1,8 +1,18 @@
+import complexCards from '../content/complexCards.json' with {type:'json'};
+import {visibleRubric} from './topics';
 import {shuffle} from '../lib/engine';
-import catalog from '../content/standardCards.json';
-import words from '../content/vocabulary.json';
+import catalog from '../content/standardCards.json' with {type:'json'};
+import words from '../content/vocabulary.json' with {type:'json'};
 import { cardSchema, vocabularyEntrySchema, type Card, type Subject, type UserData, type VocabularyEntry, type Question } from '../lib/schema';
-export const standardCards:Card[]=catalog.cards.map(card=>cardSchema.parse(card));
+export const standardCards:Card[]=[...catalog.cards,...complexCards].map(card=>cardSchema.parse({...card,rubric:legacyCardRubric(card)}));
+function legacyCardRubric(card:{id:string;subject:string;rubric:string;front:string}){
+ if(card.id.startsWith('standard.complex.'))return card.rubric;
+ if(card.subject==='biology'&&/Reflex|Nervenzelle/.test(card.front))return 'bio-senses';
+ if(card.subject==='biology'&&/Gewebe|Chloroplasten|Virus|Bakterium|Antibiotika/.test(card.front))return 'bio-cells';
+ if(card.subject==='social'&&/Medienkompetenz|Datenschutz|Meinungsfreiheit/.test(card.front))return 'soc-media';
+ if(card.subject==='geography'&&/Landeshauptstadt|Ballungsraum|ländlicher Raum|Großlandschaft/.test(card.front))return 'geo-germany';
+ return visibleRubric(card.subject as Subject,card.rubric);
+}
 export const standardVocabulary:VocabularyEntry[]=words.entries.map(entry=>vocabularyEntrySchema.parse(entry));
 const defaultIds=new Set(standardCards.map(card=>card.id));
 const vocabularyIds=new Set(standardVocabulary.map(entry=>entry.id));

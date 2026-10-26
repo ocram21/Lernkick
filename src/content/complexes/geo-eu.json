@@ -1,0 +1,802 @@
+[
+  {
+    "id": "complex.geo-eu.001",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Was ist die Europäische Union?",
+    "options": [
+      "Ein Zusammenschluss europäischer Staaten auf Grundlage gemeinsamer Verträge",
+      "Ein einzelner Bundesstaat wie Deutschland",
+      "Ein anderer Name für ganz Europa"
+    ],
+    "correct": 0,
+    "explanation": "Ein Zusammenschluss europäischer Staaten auf Grundlage gemeinsamer Verträge"
+  },
+  {
+    "id": "complex.geo-eu.002",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Was unterscheidet Europa und EU?",
+    "options": [
+      "Europa ist ein geografischer Raum; nicht alle europäischen Staaten gehören zur EU.",
+      "Beide Begriffe bezeichnen genau dieselben Staaten.",
+      "Die EU ist ein Ozean innerhalb Europas."
+    ],
+    "correct": 0,
+    "explanation": "Europa ist ein geografischer Raum; nicht alle europäischen Staaten gehören zur EU."
+  },
+  {
+    "id": "complex.geo-eu.003",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Welches Ziel gehört zur europäischen Zusammenarbeit?",
+    "options": [
+      "Frieden und Zusammenarbeit fördern",
+      "Alle Sprachen durch eine einzige ersetzen",
+      "Jeden Handel zwischen Nachbarn verbieten"
+    ],
+    "correct": 0,
+    "explanation": "Frieden und Zusammenarbeit fördern"
+  },
+  {
+    "id": "complex.geo-eu.004",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Welche Währung verwenden die Staaten des Euroraums?",
+    "options": [
+      "Euro",
+      "US-Dollar",
+      "Britisches Pfund"
+    ],
+    "correct": 0,
+    "explanation": "Der Euro ist die gemeinsame Währung des Euroraums. Nicht alle EU-Mitglieder gehören dazu."
+  },
+  {
+    "id": "complex.geo-eu.005",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Gilt der Euro automatisch in jedem EU-Mitgliedstaat?",
+    "options": [
+      "Nein, EU-Mitgliedschaft und Euroraum sind zu unterscheiden.",
+      "Ja, beide Gruppen sind immer identisch.",
+      "Nein, der Euro wird nur außerhalb der EU verwendet."
+    ],
+    "correct": 0,
+    "explanation": "Nein, EU-Mitgliedschaft und Euroraum sind zu unterscheiden."
+  },
+  {
+    "id": "complex.geo-eu.006",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Was ist der EU-Binnenmarkt?",
+    "options": [
+      "Ein Raum mit weitgehend freiem Verkehr von Waren, Personen, Dienstleistungen und Kapital",
+      "Ein einzelner großer Wochenmarkt",
+      "Ein Markt ausschließlich für Lebensmittel"
+    ],
+    "correct": 0,
+    "explanation": "Ein Raum mit weitgehend freiem Verkehr von Waren, Personen, Dienstleistungen und Kapital"
+  },
+  {
+    "id": "complex.geo-eu.007",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Was erleichtert der freie Warenverkehr?",
+    "options": [
+      "Handel innerhalb der EU ohne reguläre Binnenzölle",
+      "Den Wegfall aller Produktsicherheitsregeln",
+      "Ausschließlich den Handel zwischen Städten eines Landes"
+    ],
+    "correct": 0,
+    "explanation": "Handel innerhalb der EU ohne reguläre Binnenzölle"
+  },
+  {
+    "id": "complex.geo-eu.008",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Was bedeutet Freizügigkeit für EU-Bürger grundsätzlich?",
+    "options": [
+      "Unter rechtlichen Voraussetzungen in anderen EU-Staaten leben und arbeiten können",
+      "Überall ohne Gesetze handeln dürfen",
+      "Ohne jede Qualifikation jeden Beruf ausüben dürfen"
+    ],
+    "correct": 0,
+    "explanation": "Unter rechtlichen Voraussetzungen in anderen EU-Staaten leben und arbeiten können"
+  },
+  {
+    "id": "complex.geo-eu.009",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Welches EU-Organ wird direkt von den Wahlberechtigten gewählt?",
+    "options": [
+      "Das Europäische Parlament",
+      "Die Europäische Kommission",
+      "Der Europäische Gerichtshof"
+    ],
+    "correct": 0,
+    "explanation": "Die Mitglieder des Europäischen Parlaments werden direkt durch die Wahlberechtigten gewählt."
+  },
+  {
+    "id": "complex.geo-eu.010",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Welche Institution schlägt viele EU-Gesetze vor?",
+    "options": [
+      "Die Europäische Kommission",
+      "Jeder Sportverein allein",
+      "Das Bundesverfassungsgericht"
+    ],
+    "correct": 0,
+    "explanation": "Die Europäische Kommission"
+  },
+  {
+    "id": "complex.geo-eu.011",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Wer sitzt im Rat der Europäischen Union?",
+    "options": [
+      "Fachministerinnen und Fachminister der Mitgliedstaaten",
+      "Ausschließlich die Staatsoberhäupter",
+      "Nur Mitglieder des Europäischen Parlaments"
+    ],
+    "correct": 0,
+    "explanation": "Fachministerinnen und Fachminister der Mitgliedstaaten"
+  },
+  {
+    "id": "complex.geo-eu.012",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Wer kommt im Europäischen Rat zusammen?",
+    "options": [
+      "Staats- und Regierungschefs mit den zuständigen EU-Spitzen",
+      "Nur Kommunalpolitiker",
+      "Ausschließlich Richter aus den Mitgliedstaaten"
+    ],
+    "correct": 0,
+    "explanation": "Staats- und Regierungschefs mit den zuständigen EU-Spitzen"
+  },
+  {
+    "id": "complex.geo-eu.013",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Welche Aufgabe hat der Gerichtshof der Europäischen Union?",
+    "options": [
+      "Über die einheitliche Anwendung des EU-Rechts wachen",
+      "Alle kommunalen Busfahrpläne schreiben",
+      "Die jährliche Ernte jedes Staates festlegen"
+    ],
+    "correct": 0,
+    "explanation": "Über die einheitliche Anwendung des EU-Rechts wachen"
+  },
+  {
+    "id": "complex.geo-eu.014",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Was beschreibt das Schengen-System vor allem?",
+    "options": [
+      "Den grundsätzlichen Wegfall regulärer Personenkontrollen an vielen Binnengrenzen",
+      "Eine gemeinsame Sprache aller europäischen Staaten",
+      "Eine Pflicht zur Nutzung des Euro in ganz Europa"
+    ],
+    "correct": 0,
+    "explanation": "Den grundsätzlichen Wegfall regulärer Personenkontrollen an vielen Binnengrenzen"
+  },
+  {
+    "id": "complex.geo-eu.015",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 1,
+    "prompt": "Sind Schengen-Raum und EU deckungsgleich?",
+    "options": [
+      "Nein, sie beruhen auf unterschiedlichen Mitgliedschaften und Regeln.",
+      "Ja, es gibt keinerlei Unterschiede.",
+      "Schengen ist nur eine Bezeichnung für EU-Agrarpolitik."
+    ],
+    "correct": 0,
+    "explanation": "Nein, sie beruhen auf unterschiedlichen Mitgliedschaften und Regeln."
+  },
+  {
+    "id": "complex.geo-eu.016",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Warum ist Deutschland wirtschaftlich eng mit EU-Nachbarn verflochten?",
+    "options": [
+      "Waren, Dienstleistungen und Beschäftigte überschreiten Grenzen.",
+      "EU-Staaten dürfen nicht miteinander handeln.",
+      "Jeder Staat stellt grundsätzlich alle Produkte allein her."
+    ],
+    "correct": 0,
+    "explanation": "Waren, Dienstleistungen und Beschäftigte überschreiten Grenzen."
+  },
+  {
+    "id": "complex.geo-eu.017",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Was fördert EU-Regionalpolitik?",
+    "options": [
+      "Den wirtschaftlichen und sozialen Zusammenhalt zwischen Regionen",
+      "Nur identische Landschaften in allen Staaten",
+      "Die Abschaffung jeder regionalen Verwaltung"
+    ],
+    "correct": 0,
+    "explanation": "Den wirtschaftlichen und sozialen Zusammenhalt zwischen Regionen"
+  },
+  {
+    "id": "complex.geo-eu.018",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Was kann ein grenzüberschreitender Verkehrsweg erleichtern?",
+    "options": [
+      "Pendeln und Handel zwischen Nachbarregionen",
+      "Das Verhindern jeder Reise",
+      "Das Entstehen neuer Kontinente"
+    ],
+    "correct": 0,
+    "explanation": "Pendeln und Handel zwischen Nachbarregionen"
+  },
+  {
+    "id": "complex.geo-eu.019",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Welche Landschaft prägt Teile Südeuropas?",
+    "options": [
+      "Mediterrane Räume mit oft trockenen Sommern",
+      "Ausschließlich arktische Eiswüsten",
+      "Nur tropischer Regenwald"
+    ],
+    "correct": 0,
+    "explanation": "Mediterrane Räume mit oft trockenen Sommern"
+  },
+  {
+    "id": "complex.geo-eu.020",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Welches Gebirge verbindet und trennt mehrere europäische Regionen?",
+    "options": [
+      "Die Alpen",
+      "Die Anden",
+      "Die Rocky Mountains"
+    ],
+    "correct": 0,
+    "explanation": "Die Alpen erstrecken sich über mehrere europäische Staaten und beeinflussen Klima, Verkehr und Nutzung."
+  },
+  {
+    "id": "complex.geo-eu.021",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Welche Verkehrsachse verbindet mehrere europäische Wirtschaftsräume?",
+    "options": [
+      "Der Rhein mit seinen Häfen und Anschlüssen",
+      "Der Amazonas als EU-Binnenfluss",
+      "Der Nil als Fluss Deutschlands"
+    ],
+    "correct": 0,
+    "explanation": "Der Rhein mit seinen Häfen und Anschlüssen"
+  },
+  {
+    "id": "complex.geo-eu.022",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Warum sind europäische Küstenhäfen wichtig?",
+    "options": [
+      "Sie verbinden Binnenräume mit internationalen Seewegen.",
+      "Sie ersetzen jede Form des Binnenverkehrs.",
+      "Sie können ausschließlich Fisch annehmen."
+    ],
+    "correct": 0,
+    "explanation": "Sie verbinden Binnenräume mit internationalen Seewegen."
+  },
+  {
+    "id": "complex.geo-eu.023",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Was bedeutet EU-Verbraucherschutz?",
+    "options": [
+      "Gemeinsame Regeln sollen unter anderem Sicherheit und Rechte stärken.",
+      "Alle Waren müssen kostenlos sein.",
+      "Verbraucher müssen auf jede Information verzichten."
+    ],
+    "correct": 0,
+    "explanation": "Gemeinsame Regeln sollen unter anderem Sicherheit und Rechte stärken."
+  },
+  {
+    "id": "complex.geo-eu.024",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Was ist eine EU-Verordnung grundsätzlich?",
+    "options": [
+      "Ein Rechtsakt, der unmittelbar in den Mitgliedstaaten gilt",
+      "Eine bloße unverbindliche private Meinung",
+      "Immer ein nationaler Reiseprospekt"
+    ],
+    "correct": 0,
+    "explanation": "Ein Rechtsakt, der unmittelbar in den Mitgliedstaaten gilt"
+  },
+  {
+    "id": "complex.geo-eu.025",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Was ist eine EU-Richtlinie grundsätzlich?",
+    "options": [
+      "Ein verbindliches Ziel, das meist national umgesetzt werden muss",
+      "Ein Gesetz ohne jede Wirkung",
+      "Nur eine Empfehlung eines einzelnen Unternehmens"
+    ],
+    "correct": 0,
+    "explanation": "Ein verbindliches Ziel, das meist national umgesetzt werden muss"
+  },
+  {
+    "id": "complex.geo-eu.026",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Welche Idee beschreibt Subsidiarität?",
+    "options": [
+      "Die EU soll in geteilten Bereichen handeln, wenn Ziele gemeinsam besser erreichbar sind.",
+      "Jede örtliche Entscheidung muss immer in Brüssel fallen.",
+      "Gemeinden dürfen nie eigene Aufgaben haben."
+    ],
+    "correct": 0,
+    "explanation": "Die EU soll in geteilten Bereichen handeln, wenn Ziele gemeinsam besser erreichbar sind."
+  },
+  {
+    "id": "complex.geo-eu.027",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Warum bleibt Landwirtschaft trotz Binnenmarkt regional unterschiedlich?",
+    "options": [
+      "Klima, Böden, Traditionen und Betriebe unterscheiden sich.",
+      "Die EU besitzt überall dieselbe Höhenlage.",
+      "Alle Höfe müssen dieselbe Pflanze anbauen."
+    ],
+    "correct": 0,
+    "explanation": "Klima, Böden, Traditionen und Betriebe unterscheiden sich."
+  },
+  {
+    "id": "complex.geo-eu.028",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Was ist ein Grund für gemeinsame Umweltregeln?",
+    "options": [
+      "Luft- und Wasserbelastungen überschreiten Grenzen.",
+      "Umwelt endet grundsätzlich an Staatsgrenzen.",
+      "Jeder Fluss liegt immer nur in einem Staat."
+    ],
+    "correct": 0,
+    "explanation": "Luft- und Wasserbelastungen überschreiten Grenzen."
+  },
+  {
+    "id": "complex.geo-eu.029",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Was kann ein Austauschprogramm wie Erasmus+ ermöglichen?",
+    "options": [
+      "Lernen und Erfahrungen in anderen Ländern",
+      "Den automatischen Erhalt jeder Berufszulassung",
+      "Den Ersatz aller nationalen Schulen"
+    ],
+    "correct": 0,
+    "explanation": "Lernen und Erfahrungen in anderen Ländern"
+  },
+  {
+    "id": "complex.geo-eu.030",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 2,
+    "prompt": "Welche Werte gehören zur Grundlage der EU?",
+    "options": [
+      "Demokratie, Menschenrechte und Rechtsstaatlichkeit",
+      "Willkür und politische Gewalt",
+      "Bevorzugung einer einzigen erlaubten Meinung"
+    ],
+    "correct": 0,
+    "explanation": "Demokratie, Menschenrechte und Rechtsstaatlichkeit"
+  },
+  {
+    "id": "complex.geo-eu.031",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum sollte man EU, Euro und Schengen nicht gleichsetzen?",
+    "options": [
+      "Politische Zusammenarbeit, Währung und Grenzregeln haben unterschiedliche Geltungsbereiche.",
+      "Alle drei sind lediglich Namen derselben Stadt.",
+      "Jeder europäische Staat gehört immer allen drei Bereichen an."
+    ],
+    "correct": 0,
+    "explanation": "Politische Zusammenarbeit, Währung und Grenzregeln haben unterschiedliche Geltungsbereiche."
+  },
+  {
+    "id": "complex.geo-eu.032",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Wie können gemeinsame Produktnormen den Handel erleichtern?",
+    "options": [
+      "Betriebe müssen weniger unterschiedliche technische Anforderungen erfüllen.",
+      "Sie machen jede Qualitätsprüfung überflüssig.",
+      "Sie garantieren automatisch gleichen Wohlstand in jedem Land."
+    ],
+    "correct": 0,
+    "explanation": "Betriebe müssen weniger unterschiedliche technische Anforderungen erfüllen."
+  },
+  {
+    "id": "complex.geo-eu.033",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum kann eine gemeinsame Währung Wechselkursrisiken im Euroraum vermindern?",
+    "options": [
+      "Zwischen Euro-Zahlungen entfällt der Umtausch nationaler Währungen.",
+      "Alle Weltwährungen werden dadurch abgeschafft.",
+      "Jede Preisänderung wird dadurch ausgeschlossen."
+    ],
+    "correct": 0,
+    "explanation": "Zwischen Euro-Zahlungen entfällt der Umtausch nationaler Währungen."
+  },
+  {
+    "id": "complex.geo-eu.034",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Welcher Zielkonflikt kann bei EU-Verkehrsprojekten auftreten?",
+    "options": [
+      "Bessere Verbindungen können mit Lärm und Flächenverbrauch verbunden sein.",
+      "Verkehrsprojekte haben grundsätzlich keine Umweltfolgen.",
+      "Jede neue Verbindung verkürzt alle Wege gleich stark."
+    ],
+    "correct": 0,
+    "explanation": "Bessere Verbindungen können mit Lärm und Flächenverbrauch verbunden sein."
+  },
+  {
+    "id": "complex.geo-eu.035",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum bekommen wirtschaftlich schwächere EU-Regionen besondere Förderung?",
+    "options": [
+      "Ungleiche Entwicklung soll verringert werden.",
+      "Alle Regionen besitzen bereits gleiche Voraussetzungen.",
+      "Förderung dient ausschließlich der Änderung von Ortsnamen."
+    ],
+    "correct": 0,
+    "explanation": "Ungleiche Entwicklung soll verringert werden."
+  },
+  {
+    "id": "complex.geo-eu.036",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Was zeigt eine Grenzregion mit vielen Berufspendlern?",
+    "options": [
+      "Arbeits- und Wohnräume können nationale Grenzen überschreiten.",
+      "Staatsgrenzen verhindern grundsätzlich jeden Alltagstausch.",
+      "Jeder Pendler wechselt dauerhaft seine Staatsangehörigkeit."
+    ],
+    "correct": 0,
+    "explanation": "Arbeits- und Wohnräume können nationale Grenzen überschreiten."
+  },
+  {
+    "id": "complex.geo-eu.037",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum sind Durchschnittswerte für die gesamte EU begrenzt aussagekräftig?",
+    "options": [
+      "Sie verdecken Unterschiede zwischen und innerhalb von Staaten.",
+      "Sie beschreiben jeden Haushalt genau.",
+      "Sie enthalten ausschließlich Daten über das Klima."
+    ],
+    "correct": 0,
+    "explanation": "Sie verdecken Unterschiede zwischen und innerhalb von Staaten."
+  },
+  {
+    "id": "complex.geo-eu.038",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Was ist bei einer Aussage zur Zahl der EU-Mitgliedstaaten wichtig?",
+    "options": [
+      "Den Stand prüfen, weil Mitgliedschaften sich ändern können.",
+      "Die Zahl ist seit der Antike unverändert.",
+      "Die Anzahl der Staaten entspricht immer der Zahl aller europäischen Sprachen."
+    ],
+    "correct": 0,
+    "explanation": "Den Stand prüfen, weil Mitgliedschaften sich ändern können."
+  },
+  {
+    "id": "complex.geo-eu.039",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum sind Binnenzölle und Mehrwertsteuer zu unterscheiden?",
+    "options": [
+      "Zollregeln und Steuern auf Konsum erfüllen unterschiedliche Funktionen.",
+      "Im Binnenmarkt gibt es grundsätzlich keinerlei Steuern.",
+      "Jede Steuer ist automatisch ein Grenzzoll."
+    ],
+    "correct": 0,
+    "explanation": "Zollregeln und Steuern auf Konsum erfüllen unterschiedliche Funktionen."
+  },
+  {
+    "id": "complex.geo-eu.040",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Welche Aussage über offene Binnengrenzen ist richtig?",
+    "options": [
+      "Reisen bleibt an geltendes Recht gebunden; zeitweise Kontrollen sind möglich.",
+      "Alle Ausweis- und Aufenthaltsregeln entfallen vollständig.",
+      "Polizei darf innerhalb der EU nie kontrollieren."
+    ],
+    "correct": 0,
+    "explanation": "Reisen bleibt an geltendes Recht gebunden; zeitweise Kontrollen sind möglich."
+  },
+  {
+    "id": "complex.geo-eu.041",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum benötigt die EU verschiedene Institutionen?",
+    "options": [
+      "Unterschiedliche Aufgaben und Interessen werden vertreten und kontrolliert.",
+      "Jede Institution erfüllt völlig dieselbe Aufgabe ohne Zusammenhang.",
+      "Es gibt keine demokratische Mitwirkung."
+    ],
+    "correct": 0,
+    "explanation": "Unterschiedliche Aufgaben und Interessen werden vertreten und kontrolliert."
+  },
+  {
+    "id": "complex.geo-eu.042",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Was unterscheidet Europarat und Europäische Union?",
+    "options": [
+      "Es sind unterschiedliche Organisationen mit unterschiedlichen Aufgaben.",
+      "Der Europarat ist nur der neue Name der EU-Kommission.",
+      "Beide sind eine einzelne Währungsbehörde."
+    ],
+    "correct": 0,
+    "explanation": "Es sind unterschiedliche Organisationen mit unterschiedlichen Aufgaben."
+  },
+  {
+    "id": "complex.geo-eu.043",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Wie kann europäische Zusammenarbeit den Alltag in Grenzstädten beeinflussen?",
+    "options": [
+      "Gemeinsame Verkehrs-, Bildungs- oder Gesundheitsangebote können entstehen.",
+      "Grenzstädte müssen vollständig auf Nachbarn verzichten.",
+      "Nur Großkonzerne dürfen grenzüberschreitend zusammenarbeiten."
+    ],
+    "correct": 0,
+    "explanation": "Gemeinsame Verkehrs-, Bildungs- oder Gesundheitsangebote können entstehen."
+  },
+  {
+    "id": "complex.geo-eu.044",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum kann freier Handel Strukturwandel verstärken?",
+    "options": [
+      "Betriebe erhalten neue Märkte, stehen aber auch stärker im Wettbewerb.",
+      "Freier Handel macht alle Unternehmen automatisch gleich groß.",
+      "Wettbewerb betrifft grundsätzlich nur Landwirtschaft."
+    ],
+    "correct": 0,
+    "explanation": "Betriebe erhalten neue Märkte, stehen aber auch stärker im Wettbewerb."
+  },
+  {
+    "id": "complex.geo-eu.045",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Was beschreibt eine Außengrenze der EU?",
+    "options": [
+      "Eine Grenze des EU-Gebiets zu einem Nichtmitgliedstaat",
+      "Jede Grenze zwischen zwei deutschen Bundesländern",
+      "Nur die Grenze einer Gemeinde"
+    ],
+    "correct": 0,
+    "explanation": "Eine Grenze des EU-Gebiets zu einem Nichtmitgliedstaat"
+  },
+  {
+    "id": "complex.geo-eu.046",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum ist Zusammenarbeit an einem grenzüberschreitenden Fluss sinnvoll?",
+    "options": [
+      "Maßnahmen flussaufwärts beeinflussen Wasser und Risiken flussabwärts.",
+      "Wasser stoppt an jeder Staatsgrenze.",
+      "Jeder Fluss fließt ausschließlich in seinem Ursprungsstaat."
+    ],
+    "correct": 0,
+    "explanation": "Maßnahmen flussaufwärts beeinflussen Wasser und Risiken flussabwärts."
+  },
+  {
+    "id": "complex.geo-eu.047",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Was ist ein mögliches Ziel europäischer Verkehrskorridore?",
+    "options": [
+      "Nationale Netze zu grenzüberschreitenden Verbindungen verknüpfen",
+      "Alle regionalen Wege grundsätzlich stilllegen",
+      "Warenverkehr ausschließlich in die Luft verlagern"
+    ],
+    "correct": 0,
+    "explanation": "Nationale Netze zu grenzüberschreitenden Verbindungen verknüpfen"
+  },
+  {
+    "id": "complex.geo-eu.048",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum kann ein einheitlicher EU-Standard auch kleine Betriebe betreffen?",
+    "options": [
+      "Er kann Marktzugang erleichtern, aber Anpassungen erfordern.",
+      "Kleine Betriebe handeln grundsätzlich außerhalb jedes Rechts.",
+      "Standards gelten ausschließlich für staatliche Unternehmen."
+    ],
+    "correct": 0,
+    "explanation": "Er kann Marktzugang erleichtern, aber Anpassungen erfordern."
+  },
+  {
+    "id": "complex.geo-eu.049",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Welche Aussage vermeidet eine geografische Verwechslung?",
+    "options": [
+      "Die Schweiz liegt in Europa, gehört aber nicht zur EU.",
+      "Alle Alpenländer gehören automatisch zur EU.",
+      "Europa besteht ausschließlich aus dem Euroraum."
+    ],
+    "correct": 0,
+    "explanation": "Die Schweiz liegt in Europa, gehört aber nicht zur EU."
+  },
+  {
+    "id": "complex.geo-eu.050",
+    "subject": "geography",
+    "topic": "geo-eu",
+    "complexId": "geo-eu",
+    "competency": "geo-eu",
+    "difficulty": 3,
+    "prompt": "Warum bleiben nationale und regionale Entscheidungen trotz EU wichtig?",
+    "options": [
+      "Zuständigkeiten werden zwischen verschiedenen Ebenen geteilt.",
+      "Die EU übernimmt jede private und kommunale Entscheidung.",
+      "Mitgliedstaaten besitzen keinerlei eigene Parlamente."
+    ],
+    "correct": 0,
+    "explanation": "Zuständigkeiten werden zwischen verschiedenen Ebenen geteilt."
+  }
+]
