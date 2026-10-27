@@ -1,5 +1,4 @@
-import {cardDue,cardIntervals,cardDayStart,compareCardDifficulty} from './schedule';
-import {learningDay} from '../learning/journey';
+import {cardDue,cardIntervals,cardDeadline,cardMastered,compareCardDifficulty} from './schedule';
 import complexCards from '../content/complexCards.json' with {type:'json'};
 import {visibleRubric} from './topics';
 import {shuffle} from '../lib/engine';
@@ -35,16 +34,17 @@ export const restoreStandardCards=(data:UserData):UserData=>({...data,study:{...
 export function cardQueue(data:UserData,cards:Card[],now=Date.now()):Card[] {
   return shuffle(cards.filter(card=>cardDue(data.study.reviews[card.id],now))).sort((a,b)=>{const priority=(card:Card)=>{const review=data.study.reviews[card.id];return !review?0:cardDue(review,now)?-1:1;};return priority(a)-priority(b)||(data.study.reviews[a.id]&&data.study.reviews[b.id]?compareCardDifficulty(data.study.reviews[a.id],data.study.reviews[b.id]):0)||(data.study.reviews[a.id]?.due??0)-(data.study.reviews[b.id]?.due??0);}).slice(0,10);
 }
-export function extraCardQueue(data:UserData,cards:Card[]):Card[]{return shuffle(cards.filter(c=>(data.study.reviews[c.id]?.attempts??0)>0)).sort((a,b)=>compareCardDifficulty(data.study.reviews[a.id],data.study.reviews[b.id])).slice(0,10);}
-export function rateCard(data:UserData,id:string,known:boolean,now=Date.now(),extra=false):UserData {
-  if(extra)return data;
-  const old=data.study.reviews[id]??{box:0,due:0,attempts:0,known:0,lastRated:0};
-  const today=learningDay(now),first=old.attempts===0,sameDay=!first&&learningDay(old.lastRated)===today;
-  const box=known?(first||old.box===0?1:sameDay||!cardDue(old,now)?old.box:Math.min(5,old.box+1)):0;
-  const retries=known?0:Math.min(3,(old.retryDay===today?(old.retries??0):0)+1);
-  // Existing deadlines change only on a regular rating. Three failed ratings in one day end short retries.
-  const due=!known?(retries===3?cardDayStart(today+1):now+600_000):!first&&old.box>0&&(sameDay||!cardDue(old,now))?old.due:cardDayStart(today+cardIntervals[box]);
-  return {...data,study:{...data.study,reviews:{...data.study.reviews,[id]:{box,due,attempts:old.attempts+1,known:old.known+Number(known),lastRated:now,retryDay:today,retries}}}};
+export function rateCard(data:UserData,id:string,known:boolean,now=Date.now()):UserData {
+  const old=data.study.reviews[id];
+  if(old&&!cardDue(old,now)||cardMastered(old))return data;
+  const previous=old??{box:0,due:0,attempts:0,known:0,lastRated:0};
+  const {masteredAt:_mastered,stageFiveAt:_stageFive,...base}=previous;
+  const mastered=known&&previous.box===5&&(previous.stageFiveAt!==undefined||previous.known>=5);
+  const box=known?Math.min(5,previous.box+1):Math.max(0,previous.box-1);
+  const stageFiveAt=box===5?(mastered?(previous.stageFiveAt??previous.lastRated):now):undefined;
+  const due=mastered?cardDeadline(previous):now+(known?cardIntervals[box]:cardIntervals[0]);
+  const review={...base,box,due,attempts:previous.attempts+1,known:previous.known+Number(known),lastRated:now,...(stageFiveAt!==undefined?{stageFiveAt}:{}),...(mastered?{masteredAt:now}:{})};
+  return {...data,study:{...data.study,reviews:{...data.study.reviews,[id]:review}}};
 }
 export function personalVocabulary(data:UserData):VocabularyEntry[] {
   const ownIds=new Set(data.study.vocabulary.map(entry=>entry.id));
