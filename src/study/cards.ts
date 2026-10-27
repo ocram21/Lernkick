@@ -1,3 +1,5 @@
+import {cardDue,cardIntervals,cardDayStart,compareCardDifficulty} from './schedule';
+import {learningDay} from '../learning/journey';
 import complexCards from '../content/complexCards.json' with {type:'json'};
 import {visibleRubric} from './topics';
 import {shuffle} from '../lib/engine';
@@ -31,14 +33,18 @@ export function deletePersonalCard(data:UserData,id:string):UserData {
 }
 export const restoreStandardCards=(data:UserData):UserData=>({...data,study:{...data.study,hiddenDefaults:[]}});
 export function cardQueue(data:UserData,cards:Card[],now=Date.now()):Card[] {
-  return shuffle(cards.filter(card=>!data.study.reviews[card.id]||data.study.reviews[card.id].due<=now)).sort((a,b)=>{const priority=(card:Card)=>{const review=data.study.reviews[card.id];return !review?0:review.due<=now?-1:1;};return priority(a)-priority(b)||(data.study.reviews[a.id]?.due??0)-(data.study.reviews[b.id]?.due??0);}).slice(0,10);
+  return shuffle(cards.filter(card=>cardDue(data.study.reviews[card.id],now))).sort((a,b)=>{const priority=(card:Card)=>{const review=data.study.reviews[card.id];return !review?0:cardDue(review,now)?-1:1;};return priority(a)-priority(b)||(data.study.reviews[a.id]&&data.study.reviews[b.id]?compareCardDifficulty(data.study.reviews[a.id],data.study.reviews[b.id]):0)||(data.study.reviews[a.id]?.due??0)-(data.study.reviews[b.id]?.due??0);}).slice(0,10);
 }
-export function rateCard(data:UserData,id:string,known:boolean,now=Date.now()):UserData {
+export function extraCardQueue(data:UserData,cards:Card[]):Card[]{return shuffle(cards.filter(c=>(data.study.reviews[c.id]?.attempts??0)>0)).sort((a,b)=>compareCardDifficulty(data.study.reviews[a.id],data.study.reviews[b.id])).slice(0,10);}
+export function rateCard(data:UserData,id:string,known:boolean,now=Date.now(),extra=false):UserData {
+  if(extra)return data;
   const old=data.study.reviews[id]??{box:0,due:0,attempts:0,known:0,lastRated:0};
-  // Immediate repeat may be useful practice, but does not repeatedly grow the interval.
-  const box=known?(old.attempts>0&&now-old.lastRated<86_400_000?Math.max(1,old.box):Math.min(5,old.box+1)):0;
-  const days=[0,1,3,7,14,30];
-  return {...data,study:{...data.study,reviews:{...data.study.reviews,[id]:{box,due:now+(known?days[box]*86_400_000:600_000),attempts:old.attempts+1,known:old.known+Number(known),lastRated:now}}}};
+  const today=learningDay(now),first=old.attempts===0,sameDay=!first&&learningDay(old.lastRated)===today;
+  const box=known?(first||old.box===0?1:sameDay||!cardDue(old,now)?old.box:Math.min(5,old.box+1)):0;
+  const retries=known?0:Math.min(3,(old.retryDay===today?(old.retries??0):0)+1);
+  // Existing deadlines change only on a regular rating. Three failed ratings in one day end short retries.
+  const due=!known?(retries===3?cardDayStart(today+1):now+600_000):!first&&old.box>0&&(sameDay||!cardDue(old,now))?old.due:cardDayStart(today+cardIntervals[box]);
+  return {...data,study:{...data.study,reviews:{...data.study.reviews,[id]:{box,due,attempts:old.attempts+1,known:old.known+Number(known),lastRated:now,retryDay:today,retries}}}};
 }
 export function personalVocabulary(data:UserData):VocabularyEntry[] {
   const ownIds=new Set(data.study.vocabulary.map(entry=>entry.id));

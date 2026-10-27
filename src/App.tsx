@@ -133,7 +133,7 @@ export default function App() {
   },[activePractice.current]);
   const activeRun=useRef<{id:string;area:Area;subject?:BossSubject}|null>(null);
   const vocab=data.activities.vocabulary.session,country=data.activities.germany.session,hang=data.activities.hangman.session,cardRun=studySession??(view==='box'&&boxPracticing?data.cardSession:null);
-  activeRun.current=boss||practicePaused?null:round&&!round.done&&!mathSetup?{id:round.id,area:round.subject}:game==='vocabulary'&&vocab?.runId&&vocab.index<vocab.ids.length?{id:vocab.runId,area:'german'}:game==='germany'&&country?.runId&&!(country.round==='capitals'&&country.placed.length===16)?{id:country.runId,area:'germany'}:game==='hangman'&&hang?.runId&&!hang.recorded?{id:hang.runId,area:'hangman'}:cardRun&&!cardRun.done?{id:cardRun.id,area:'cards',subject:cardRun.subject}:null;
+  activeRun.current=boss||practicePaused?null:round&&!round.done&&!mathSetup?{id:round.id,area:round.subject}:game==='vocabulary'&&vocab?.runId&&vocab.index<vocab.ids.length?{id:vocab.runId,area:'german'}:game==='germany'&&country?.runId&&!(country.round==='capitals'&&country.placed.length===16)?{id:country.runId,area:'germany'}:game==='hangman'&&hang?.runId&&!hang.recorded?{id:hang.runId,area:'hangman'}:cardRun&&!cardRun.done&&!cardRun.extra?{id:cardRun.id,area:'cards',subject:cardRun.subject}:null;
   const runKey=activeRun.current?.id;
   useEffect(()=>{const run=activeRun.current;if(!run){statsClock.current.id='';return;}const clock=statsClock.current={id:run.id,previous:Date.now(),lastInput:Date.now()};
     const input=(event:Event)=>{if(event.isTrusted)clock.lastInput=Date.now();};const visibility=()=>{clock.previous=Date.now();clock.lastInput=0;};
