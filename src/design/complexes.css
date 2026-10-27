@@ -33,3 +33,5 @@
 @media(max-height:650px){.box-selecting .box-heading{margin-bottom:0}.box-selecting .box-options{padding-top:0;padding-bottom:0}.box-selecting .box-actions{margin-bottom:0}}
 
 .box-help-text p{font-size:inherit;line-height:inherit;margin:10px 0}
+/* White counts need contrast on the light, unselected Pink keys. */
+:root[data-pink=true] .rubric-buttons button[aria-pressed=false] .rubric-state:not(.mastered){background:#000b}
