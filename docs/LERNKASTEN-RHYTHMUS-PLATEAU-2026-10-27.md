@@ -30,7 +30,7 @@ Die wenigen Zusatzfelder `retryDay`/`retries` sind optional. Das optionale Kennz
 
 Bestehende Container und Materialflächen bleiben erhalten. Symmetrische Innenabstände von acht Pixeln, unten 18 Pixel einschließlich Platz für den vorhandenen Kachelschatten; dadurch bleibt der sichtbare Abschluss frei. Kein abschneidendes `overflow` und kein zusätzlicher Dekorstreifen. Die untere Lichtkante gehört wieder zum bestehenden Container-Schatten. Seitliche Außenabstände gleichen den zusätzlich benötigten Innenraum aus, sodass normale Kacheln nicht verkleinert werden.
 
-Nur wenn kurze Viewports Platz durch Safe Areas verlieren, wird deren Verbrauch in der verfügbaren Zeilenhöhe berücksichtigt. Die kurze Kompaktansicht spart stattdessen unnötige Zwischenabstände. Score, Skill und neun Kacheln bleiben angeordnet und bedienbar.
+Nur wenn kurze Viewports Platz durch Safe Areas verlieren, wird deren Verbrauch in der verfügbaren Zeilenhöhe berücksichtigt. Die kurze Kompaktansicht spart stattdessen unnötige Zwischenabstände. Kurze Desktopfenster bis 760 Pixel Höhe begrenzen die Kachelhöhe ebenfalls responsiv, damit die feste Navigation das Plateau nicht verdeckt. Score, Skill und neun Kacheln bleiben angeordnet und bedienbar.
 
 ## Geänderte Dateien
 
@@ -40,11 +40,11 @@ Nur wenn kurze Viewports Platz durch Safe Areas verlieren, wird deren Verbrauch 
 - `src/lib/schema.ts`, `src/App.tsx`: optionale Session-/Retryfelder und Schutz der Statistik im Zusatztraining.
 - `src/components/HelpPage.tsx`: geschriebene Hilfe zum Rhythmus, Status und Zusatztraining; keine Hilfestimme.
 - `src/design/home-status.css`, `game-updates.css`, `complexes.css`: Plateau, kurze Viewports und kompakte Statusanzeige.
-- `public/release.json`: Release `2026-10-27-card-calendar-plateau`.
+- `public/release.json`: Release `2026-10-27-card-rhythm-plateau`.
 - Neue Tests `card-calendar.test.ts`, `card-rhythm.test.ts`, `card-rhythm.spec.ts`; bestehende Geometrieerwartungen in `help-ui.spec.ts` und `games-update.spec.ts` angepasst.
 
 ## Prüfung
 
-Produktionsbuild und alle 244 Unit-Tests bestanden. 75 unterschiedliche gezielte Browserprüfungen bestanden (nach Behebung der kurzen Kompaktansicht): Kalenderdatum, Mitternacht, Sommer-/Winterzeit, zehnminütige Wiederholung und Tagesgrenze, Fehlerpriorisierung, Bestandskompatibilität, neutrale Zusatzrunden, Neustart/Offline, Export/Import, 30 fällige Karten in Zehnerrunden, Hilfe und bestehende Lernkasten-/Games-/Score-/Skill-Funktionen.
+Produktionsbuild und alle 244 Unit-Tests bestanden. 77 unterschiedliche gezielte Browserprüfungen bestanden (nach Behebung der kurzen Kompaktansicht): Kalenderdatum, Mitternacht, Sommer-/Winterzeit, zehnminütige Wiederholung und Tagesgrenze, Fehlerpriorisierung, Bestandskompatibilität, neutrale Zusatzrunden, Neustart/Offline, Export/Import, 30 fällige Karten in Zehnerrunden, Hilfe und bestehende Lernkasten-/Games-/Score-/Skill-Funktionen.
 
-Plateau-Sichtprüfung gemeinsam für Normal/Pink sowie Desktop und Smartphone. Automatisierte Geometrieprüfung auf 320×568, 375×667, 390×844, 414×736 und 1440×900; Kompaktansicht und simulierte Safe Areas zusätzlich geprüft. Mobile Browserprüfung erfolgte mit Chromium-Emulation; keine physische Safari-/Android-Geräteprüfung. Keine bekannten offenen funktionalen Einschränkungen im getesteten Umfang.
+Plateau-Sichtprüfung gemeinsam für Normal/Pink sowie Desktop und Smartphone. Automatisierte Geometrieprüfung auf 320×568, 375×667, 390×844, 414×736 1124×720 und 1440×900; Kompaktansicht und simulierte Safe Areas zusätzlich geprüft. Mobile Browserprüfung erfolgte mit Chromium-Emulation; keine physische Safari-/Android-Geräteprüfung. Keine bekannten offenen funktionalen Einschränkungen im getesteten Umfang.
