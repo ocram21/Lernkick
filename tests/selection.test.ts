@@ -1,0 +1,5 @@
+import {it,expect} from 'vitest';
+import {sameSelection,cardSelectionKey,vocabularySelectionKey} from '../src/learning/selection';
+import {emptyData,dataSchema} from '../src/lib/schema';
+it('Auswahl ist reihenfolgeunabhängig, aber fach- und themengenau',()=>{expect(sameSelection(['b','a'],['a','b'])).toBe(true);expect(sameSelection(['a'],['a','b'])).toBe(false);expect(cardSelectionKey('math',['a','b'])).toBe(cardSelectionKey('math',['b','a']));expect(cardSelectionKey('math',['a'])).not.toBe(cardSelectionKey('german',['a']));});
+it('Neue Rundenauswahl bleibt in Sicherungen erhalten, Altstände bleiben lesbar',()=>{const d=emptyData(),v=d.activities.vocabulary;v.session={selectionKey:vocabularySelectionKey(v),runId:'saved',ids:['x'],index:0,answer:null,draft:[],solved:false};expect(dataSchema.parse(JSON.parse(JSON.stringify(d))).activities.vocabulary.session).toEqual(v.session);const before=vocabularySelectionKey(v);v.enabled.grammar=false;expect(vocabularySelectionKey(v)).not.toBe(before);});

@@ -1,6 +1,7 @@
+import {cardSelectionKey} from '../learning/selection';
 import {cardSchedule,cardDeadline,cardDue} from '../study/schedule';
 import {useEffect,useRef,useState} from 'react';
-import {Check,Plus,Info} from 'lucide-react';
+import {Check,Plus,Info,ArrowLeft} from 'lucide-react';
 import {CardCreateDialog} from './CardCreateDialog';
 import {ExitButton} from './ExitButton';
 import {LearningBoxHelp} from './LearningBoxHelp';
@@ -8,26 +9,27 @@ import {subjectNames,topicsFor,rubricNames,visibleRubric,selectedTopics} from '.
 import {standardCards,isStandardCard,cardQueue,rateCard} from '../study/cards';
 import type {Subject,UserData} from '../lib/schema';
 export function LearningBox({data,onChange,onExit,onEditing,onPracticing}:{data:UserData;onChange:(data:UserData)=>Promise<boolean>;onExit:()=>void;onEditing:(active:boolean|null)=>void;onPracticing:(active:boolean)=>void}){
- const [busy,setBusy]=useState(false),[choosing,setChoosing]=useState(!data.cardSession||data.cardSession.done||Boolean(data.cardSession.extra)),latest=useRef(data);latest.current=data;
+ const [busy,setBusy]=useState(false),[choosing,setChoosing]=useState(!data.cardSession||data.cardSession.done||Boolean(data.cardSession.extra)||data.cardSession.selectionKey!==undefined&&data.cardSession.selectionKey!==cardSelectionKey(data.study.box.subject,selectedTopics(data.study.box.subject,data.study.box.rubrics[data.study.box.subject]))),latest=useRef(data);latest.current=data;
  const [adding,setAdding]=useState(false),[help,setHelp]=useState(false),[now,setNow]=useState(Date.now);
  const pane=useRef<HTMLDivElement>(null);
  const config=data.study.box,subject=config.subject,selected:readonly string[]=selectedTopics(subject,config.rubrics[subject]),session=data.cardSession?.returnView==='box'&&!data.cardSession.extra?data.cardSession:null;
- const resumeSelection=useRef(JSON.stringify(config));
+ const selectionKey=cardSelectionKey(subject,selected),legacySelection=useRef(selectionKey);
+ const running=Boolean(!choosing&&session);
+ useEffect(()=>{if(!running)return;if(!history.state?.learningBox)history.pushState({...history.state,learningBox:true},'');const back=()=>setChoosing(true);window.addEventListener('popstate',back);return()=>{window.removeEventListener('popstate',back);if(history.state?.learningBox){const {learningBox:_box,...state}=history.state;history.replaceState(state,'');}};},[running]);
+ function backToSelection(){if(history.state?.learningBox)history.back();else setChoosing(true);}
  const subjectCards=[...standardCards,...data.cards.filter(c=>!isStandardCard(c.id))].filter(c=>c.subject===subject);
  const pool=subjectCards.filter(c=>selected.includes(visibleRubric(c.subject,c.rubric)));
  useEffect(()=>{const refresh=()=>setNow(Date.now()),future=subjectCards.flatMap(c=>{const r=data.study.reviews[c.id];return r&&!r.masteredAt&&cardDeadline(r)>now?[cardDeadline(r)-now]:[];}),timer=window.setTimeout(refresh,Math.max(1,Math.min(60_000,...future)));window.addEventListener('focus',refresh);document.addEventListener('visibilitychange',refresh);return()=>{clearTimeout(timer);window.removeEventListener('focus',refresh);document.removeEventListener('visibilitychange',refresh);};},[now,subject,data.study.reviews,data.cards]);
  useEffect(()=>{if(pane.current)pane.current.scrollTop=0;},[session?.id,session?.index]);
  useEffect(()=>{onPracticing(Boolean(session&&!session.done&&!choosing));return()=>onPracticing(false);},[session?.id,session?.done,choosing,onPracticing]);
  const queue=cardQueue(data,pool,now),card=session?.cards[session.index],ready=card?cardDue(data.study.reviews[card.id],now):false;
- function settings(value:Partial<typeof config>){if(value.subject)setChoosing(true);void onChange({...latest.current,study:{...latest.current.study,box:{...config,...value}}});}
- function start(){if(session&&!session.done&&session.subject===subject&&session.cards.every(c=>selected.includes(visibleRubric(c.subject,c.rubric)))&&resumeSelection.current===JSON.stringify(config)){setChoosing(false);return;}if(!queue.length)return;setChoosing(false);void onChange({...latest.current,cardSession:{id:crypto.randomUUID(),subject,cards:queue,returnView:'box',index:0,flipped:false,known:0,done:false}});}
+ function settings(value:Partial<typeof config>){if(value.subject)setChoosing(true);void onChange({...latest.current,cardSession:session?{...session,selectionKey:session.selectionKey??legacySelection.current}:latest.current.cardSession,study:{...latest.current.study,box:{...config,...value}}});}
+ function start(){if(session&&!session.done&&session.subject===subject&&session.cards.every(c=>selected.includes(visibleRubric(c.subject,c.rubric)))&&(session.selectionKey??legacySelection.current)===selectionKey){setChoosing(false);return;}if(!queue.length)return;setChoosing(false);void onChange({...latest.current,cardSession:{id:crypto.randomUUID(),subject,cards:queue,returnView:'box',selectionKey,index:0,flipped:false,known:0,done:false}});}
  async function rate(known:boolean){if(!session||!card||!session.flipped||busy||!cardDue(latest.current.study.reviews[card.id],Date.now()))return;setBusy(true);const ratedAt=Date.now(),next=rateCard(latest.current,card.id,known,ratedAt);setNow(ratedAt);await onChange({...next,cardSession:{...session,index:session.index+1<session.cards.length?session.index+1:session.index,known:session.known+Number(known),flipped:false,done:session.index+1===session.cards.length}});setBusy(false);}
  return <section className={`learning-box ${(choosing||!session)?'box-selecting':''}`} data-subject={subject}>
- <div className="box-heading"><ExitButton onClick={onExit}/><h1>Lernkasten</h1><button className="box-help" aria-label="Lernkasten-Hilfe" title="So lernst du mit den Karten" onClick={()=>setHelp(true)}><Info size={20}/></button></div>
+ <div className="box-heading">{running?<button className="exit-button" onClick={backToSelection}><ArrowLeft size={18}/>Zurück</button>:<ExitButton onClick={onExit}/>}<h1>Lernkasten</h1><button className="box-help" aria-label="Lernkasten-Hilfe" title="So lernst du mit den Karten" onClick={()=>setHelp(true)}><Info size={20}/></button></div>
  {(choosing||!session)&&<div className="box-subjects" aria-label="Fach wählen">{(Object.entries(subjectNames) as [Subject,string][]).map(([id,name])=><button className="calculator-key subject-key" data-module={id} aria-label={name} key={id} aria-pressed={id===subject} onClick={()=>settings({subject:id})}><span className="key-name">{{math:'MA',german:'D',social:'SK',biology:'Bio',geography:'Geo'}[id]}</span></button>)}</div>}
  <div className="box-options" ref={pane}>
- {!choosing&&session&&!session.done&&<button className="small-button practice-end" onClick={()=>{setChoosing(true);void onChange({...latest.current,cardSession:null});}}>Übung beenden</button>}
- <div className="box-selection-row">{session&&<button className="small-button box-change" onClick={()=>{if(!choosing)resumeSelection.current=JSON.stringify(config);setChoosing(!choosing);}}>{choosing?'Auswahl schließen':'Auswahl ändern'}</button>}</div>
  {!choosing&&session?.done&&<><p role="status">Runde geschafft: {session.known} von {session.cards.length} Karten gewusst.</p>{queue.length>0&&<button className="primary" onClick={start}>Nächste Kartenrunde</button>}</>}
  {(choosing||!session)&&<><fieldset><legend>Unterrubriken</legend><div className="rubric-buttons">{topicsFor(subject).map(id=>{const state=cardSchedule(data,subjectCards.filter(c=>visibleRubric(c.subject,c.rubric)===id),now),stateId=`rubric-state-${subject}-${id}`;return <button key={id} aria-label={rubricNames[id]} aria-describedby={stateId} aria-pressed={selected.includes(id)} onClick={()=>settings({rubrics:{...config.rubrics,[subject]:(selected.includes(id)?selected.filter(r=>r!==id):[...selected,id]) as typeof config.rubrics[string]}})}><span>{rubricNames[id]}</span><span id={stateId} className={`rubric-state ${state.complete?'mastered':''}`}>{state.complete?<span className="mastery-check" aria-hidden="true"><Check className="check-outline"/><Check className="check-gold"/></span>:<span aria-hidden="true">{state.due}</span>}<span className="sr-only">{state.complete?'Alle Karten gemeistert':`${state.due} ${state.due===1?'Karte':'Karten'} fällig`}</span></span></button>;})}</div></fieldset>
  {!selected.length?<p role="status">Wähle mindestens eine Unterrubrik.</p>:!pool.length?<p role="status">Hier gibt es noch keine passenden Karten. Füge hier eigene Karten hinzu.</p>:null}

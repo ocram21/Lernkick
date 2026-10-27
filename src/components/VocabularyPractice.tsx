@@ -1,3 +1,4 @@
+import {vocabularySelectionKey} from '../learning/selection';
 import {questions} from '../content';
 import {recordLearningAnswer} from '../learning/adaptive';
 import {asTask} from '../learning/tasks';
@@ -24,7 +25,7 @@ export function VocabularyPractice({data,onChange,onExit,onEnd,onFinished,onRunn
  const advanced=useRef<string|null>(null);
  function next(){if(!session||busy.current||paused||advanced.current===`${session.runId}:${session.index}`)return;advanced.current=`${session.runId}:${session.index}`;const ids=[...session.ids],pool=normalSentenceQueue(config,ids.slice(0,session.index+1));let candidate=0;for(let i=session.index+1;i<ids.length;i++)if(config.level==='normal'&&sentenceById.get(ids[session.index])?.level==='normal'&&sentenceById.get(ids[i])?.level==='normal')ids[i]=pool[candidate++]??ids[i];void change({...config,session:{...session,ids,index:session.index+1,answer:null,draft:[],solved:false}});}
  const seconds=useAutoAdvance(Boolean(auto&&!paused&&session&&(session.solved||(questions.some(q=>q.id===session.ids[session.index])||wordById.has(session.ids[session.index])||grammarById.has(session.ids[session.index])||spellingById.has(session.ids[session.index])||proverbById.has(session.ids[session.index]))&&session.answer!==null)),session?.ids[session.index],next);
- function restart(){onRunning();const ids=practiceQueue(config);void change({...config,recent:[...ids,...config.recent.filter(id=>!ids.includes(id))].slice(0,60),session:{globalDifficulty:config.level,runId:crypto.randomUUID(),first:{},ids,optionOrders:Object.fromEntries(ids.filter(id=>proverbById.has(id)).map(id=>[id,shuffle([0,1,2])])),index:0,answer:null,draft:[],solved:false,history:[]}});}
+ function restart(){onRunning();const ids=practiceQueue(config);void change({...config,recent:[...ids,...config.recent.filter(id=>!ids.includes(id))].slice(0,60),session:{selectionKey:vocabularySelectionKey(config),globalDifficulty:config.level,runId:crypto.randomUUID(),first:{},ids,optionOrders:Object.fromEntries(ids.filter(id=>proverbById.has(id)).map(id=>[id,shuffle([0,1,2])])),index:0,answer:null,draft:[],solved:false,history:[]}});}
  useEffect(()=>{if(!session)restart();},[Boolean(session)]);
  const done=Boolean(session&&session.index>=session.ids.length);
  useEffect(()=>{if(done)onFinished();},[done,onFinished]);
