@@ -1,0 +1,232 @@
+{
+  "plannedBeforeExpansion": true,
+  "beforeTotal": 758,
+  "beforeHash": "a3b061f9cfe4d5bda971d29bbd67c477e8d10ac6d1945dd10a18254b527b563e",
+  "items": [
+    {
+      "subject": "math",
+      "rubric": "arithmetic",
+      "before": 30,
+      "target": 44,
+      "covered": "Grundbegriffe, Rechenrangfolge, Teilbarkeit und einfache Probe sind vorhanden.",
+      "gaps": "Vorzeichenregeln, Klammerfehler, Termvereinfachung, Gleichungsumformung und Ergebnisplausibilität.",
+      "reason": "Vier Rechenarten plus Zahlverständnis, Terme und einfache Gleichungen benötigen mehr als einen Definitionensatz, bleiben ohne höheres Algebra-Pensum mittelgroß."
+    },
+    {
+      "subject": "math",
+      "rubric": "fractions",
+      "before": 30,
+      "target": 40,
+      "covered": "Brucharten, Grundrechenarten, Vergleichen und Dezimalumwandlung sind abgedeckt.",
+      "gaps": "Nenner null, Kürzungsfehler bei Summen, negative Brüche, periodische Zahlen, Rundung und kontextbezogene Anteile.",
+      "reason": "Begrenzter Verfahrenskern mit mehreren Darstellungen und typischen Fehlern; 40 deckt zusätzliche Stolperstellen ohne Rechenvariantenserie ab."
+    },
+    {
+      "subject": "math",
+      "rubric": "percent",
+      "before": 30,
+      "target": 42,
+      "covered": "Grundaufgaben, Faktoren, Rabatt, Zinsmodelle und Prozentpunkte sind vorhanden.",
+      "gaps": "Rückwärtsrechnung nach Änderungen, Bezugswechsel, mehrere Jahre, Zinssatz und Vergleichsfallen.",
+      "reason": "Prozent- und Zinsrechnung teilen ein Verhältnisprinzip; Anwendungen und Rückwärtsfragen rechtfertigen einen mittleren Bestand."
+    },
+    {
+      "subject": "math",
+      "rubric": "geometry",
+      "before": 30,
+      "target": 56,
+      "covered": "Grundfiguren, elementare Formeln, Pythagoras und einige Körper sind vorhanden.",
+      "gaps": "Höhen/Längen unterscheiden, Umstellen, Oberfläche verschiedener Körper, Netze, Ähnlichkeit, Maßstab, Lage und Konstruktionen.",
+      "reason": "Ebene Figuren, Körper, Beziehungen und Darstellungen bilden mehrere eigenständige Teilgebiete; deshalb breiter als reines Formelabfragen."
+    },
+    {
+      "subject": "math",
+      "rubric": "units",
+      "before": 30,
+      "target": 42,
+      "covered": "Einheitenfamilien, Zeit, Tempo, Energie und erste Messfragen sind abgedeckt.",
+      "gaps": "Flächensprünge, Volumensprünge, Einheitengleichungen, Dichte, Flussraten, Toleranzen und berufliche Messpraxis.",
+      "reason": "Messgrößen und Umrechnung sind endlich, aber Dimensionen und Alltagsprüfung verlangen mehrere zusätzliche Konzepte."
+    },
+    {
+      "subject": "math",
+      "rubric": "data",
+      "before": 30,
+      "target": 48,
+      "covered": "Diagrammarten, Kennwerte, Stichproben und einfacher Zufall sind vorhanden.",
+      "gaps": "Gewichteter Mittelwert, kumulierte Anteile, Kreuztabellen, Veränderungsrate, absolute Risiken, mehrstufiger Zufall und Darstellungsfallen.",
+      "reason": "Statistik und Wahrscheinlichkeit sind zwei verbundene Lernfelder mit eigenständigen Fehlvorstellungen und Anwendungen."
+    },
+    {
+      "subject": "german",
+      "rubric": "word-types",
+      "before": 30,
+      "target": 60,
+      "covered": "Zentrale Wortklassen und erste Formen sowie Verwendungsbeispiele sind vorhanden.",
+      "gaps": "Pronomen-Unterarten, Fallbezug, Verbvalenz/Modus, Adjektivgebrauch, Präpositionsrektion, Wortbildung und Kontextdiagnose.",
+      "reason": "Viele Wortklassen plus Flexion und Funktionsunterschiede brauchen eigene Abrufe; kein künstlicher Schluss bei sieben Definitionen und wenigen Beispielen."
+    },
+    {
+      "subject": "german",
+      "rubric": "syntax",
+      "before": 30,
+      "target": 62,
+      "covered": "Satzglieder, Proben und häufige Nebensatzverknüpfungen sind vorhanden.",
+      "gaps": "Präpositionalobjekte, Gleichsetzungsnominativ, Infinitivgruppen, indirekte Rede, Satzstellung, Vorfeld, Bedeutungsbezüge und Überarbeitung.",
+      "reason": "Analyse, Satzbildung und funktionale Verknüpfung sind getrennte Kompetenzen; mehrere Konstruktionen und Fehlerklassen begründen großen Umfang."
+    },
+    {
+      "subject": "german",
+      "rubric": "spelling",
+      "before": 30,
+      "target": 64,
+      "covered": "Lautstrategien, grundlegende Großschreibung, einige Kommas und Redezeichen sind vorhanden.",
+      "gaps": "Infinitivgruppen nach Regelwerk 2024, Begleitsatzstellungen, Einschübe, Straßennamen/Anrede, Bindestrich, Abkürzungen und weitere Wortverwechslungen.",
+      "reason": "Orthografie und Zeichensetzung umfassen viele unabhängige Regeln; ein breiter Bestand ermöglicht gezielte Abrufe statt zufälliger Merkwörter."
+    },
+    {
+      "subject": "german",
+      "rubric": "tenses",
+      "before": 30,
+      "target": 38,
+      "covered": "Sechs Tempusformen, typische Bildung, Gebrauch und Passivabgrenzung sind vorhanden.",
+      "gaps": "Zeitform durch Hilfsverb erkennen, Verlaufsfolge, Partizip/Infinitiv abgrenzen, Zeitanker und unregelmäßige Verbformen.",
+      "reason": "Engerer Bereich mit festem Formenbestand; 38 genügt für Formen, Funktionen und zentrale Fehler. Weitere Zahlen- oder Verbwechsel wären überwiegend Varianten."
+    },
+    {
+      "subject": "german",
+      "rubric": "texts",
+      "before": 30,
+      "target": 54,
+      "covered": "Textsorten, Grundargumentation und berufliche Nachrichten sind vorhanden.",
+      "gaps": "Adressat/Zweck, Schlüsselstellen, Textkohärenz, Zusammenfassungsstrategien, Literaturmerkmale, sachliches Feedback und Gesprächsführung.",
+      "reason": "Lesen, Schreiben und mündliche Kommunikation sind eigenständige Handlungsfelder und benötigen mehr als Textsortenbegriffe."
+    },
+    {
+      "subject": "social",
+      "rubric": "soc-family",
+      "before": 30,
+      "target": 40,
+      "covered": "Zusammenleben, Grenzen, Budget und Barrieren sind vorhanden.",
+      "gaps": "Sozialisation, Rollenwandel, Unterstützung, lokale Beteiligung, Ressourcennutzung und Interessenperspektiven.",
+      "reason": "Klar begrenzter Nahraum- und Familienbereich mit mehreren Handlungssituationen, ohne ausufernde Sozialrechtseinzelfälle."
+    },
+    {
+      "subject": "social",
+      "rubric": "soc-leisure",
+      "before": 30,
+      "target": 40,
+      "covered": "Prävention, Warnzeichen, Konsumdruck, Freizeitkosten und erste Hilfe sind abgedeckt.",
+      "gaps": "Schutzfaktoren, Grenzen von Diagnosen, Medikamentenmissbrauch, Erholung, Vereine und risikobezogene Entscheidungen.",
+      "reason": "Ziel ist Präventionskompetenz, keine medizinische Spezialausbildung; zusätzliche Alltagssituationen ergänzen den kompakten Kern."
+    },
+    {
+      "subject": "social",
+      "rubric": "soc-media",
+      "before": 30,
+      "target": 44,
+      "covered": "Quellenprüfung, Werbung, Phishing und Grundschutz sind vorhanden.",
+      "gaps": "Primär-/Sekundärquelle, Filterung, Datenprofile, Plattforminteressen, Transparenz, Korrektur und verantwortliche Beteiligung.",
+      "reason": "Informationsprüfung und eigenes Medienhandeln sind zwei unterschiedliche Bereiche; mittlerer Umfang vermeidet bloße Warnungswiederholungen."
+    },
+    {
+      "subject": "social",
+      "rubric": "soc-state",
+      "before": 37,
+      "target": 54,
+      "covered": "Institutionen, Grundrechte und soziale Sicherung sind begrifflich gut vertreten.",
+      "gaps": "Gesetzgebungsweg, föderale Zuständigkeit, Verfassungsorgane, Sozialstaatsprinzip, Interessenvertretung und Rechtsschutz.",
+      "reason": "Staatsaufbau, Grundrechte und Sozialordnung sind ein breites Feld; bestehende 37 Begriffs-/Anwendungskarten lassen Verfahrenslücken."
+    },
+    {
+      "subject": "social",
+      "rubric": "soc-elections",
+      "before": 30,
+      "target": 40,
+      "covered": "Wahlgrundsätze, Stimmen, Wahlbeteiligung und Deckung sind vorhanden.",
+      "gaps": "Legitimation, Verhältniswahl, Mehrheitstypen, Wahlbenachrichtigung, ungültige Stimmen und Mandatsverantwortung.",
+      "reason": "Der Wahlablauf ist abgrenzbar; 40 deckt Grundlagen und Praxis ohne ständig wechselnde Ergebnisse oder Rechtsdetailserien ab."
+    },
+    {
+      "subject": "biology",
+      "rubric": "bio-metabolism",
+      "before": 30,
+      "target": 64,
+      "covered": "Organe, Verdauungsweg, Gasaustausch und einige Abwehr-/Ernährungsgrundlagen sind vorhanden.",
+      "gaps": "Nährstoffklassen, Transportwege, Blutbestandteile, Herzklappen, Atemmechanik, Niere, Leber, Hormone und Energiebilanz.",
+      "reason": "Mehrere zusammenwirkende Organsysteme verlangen differenzierte Struktur-Funktions-Erklärungen; daher großer Bestand statt 30 Sammelkarten."
+    },
+    {
+      "subject": "biology",
+      "rubric": "bio-senses",
+      "before": 30,
+      "target": 60,
+      "covered": "Reizleitung, Sinnesorgane und Grundfunktionen sind vorhanden.",
+      "gaps": "Neuron-Bau, Signalrichtung, Rückenmark/Gehirn, Reflexbogen, Auge/Fehlsichtigkeit, Innenohr, Aufmerksamkeit und Sinnesanpassung.",
+      "reason": "Mehrere Sinnesorgane plus Nervensystem, Verarbeitung und Schutz sind eigenständige Inhalte; 60 vermeidet überladene Mehrfachkarten."
+    },
+    {
+      "subject": "biology",
+      "rubric": "bio-cells",
+      "before": 30,
+      "target": 50,
+      "covered": "Zellstrukturen, Membran und Mikroskopie sind vorhanden.",
+      "gaps": "Zellzyklus, Energie/ATP, Organellenarbeit, Erbinformation, Modellgrenzen, Osmosebeispiele und experimentelle Auswertung.",
+      "reason": "Zellbau, Prozesse und Erkenntnismethoden ergeben einen mittleren bis breiten Bereich; keine molekulare Oberstufenvertiefung nötig."
+    },
+    {
+      "subject": "biology",
+      "rubric": "bio-ecology",
+      "before": 30,
+      "target": 48,
+      "covered": "Systembegriffe, Nahrungsbeziehungen und Stoff-/Energiefluss sind vorhanden.",
+      "gaps": "Populationsdynamik, ökologische Nische, Konkurrenz, Nahrungspyramide, Sukzession, invasive Arten und Untersuchungspraxis.",
+      "reason": "Beziehungen, Veränderungen und nachhaltige Handlung sind mehrere eigenständige Kompetenzfelder; 48 erlaubt Mechanismen statt Begriffswiederholung."
+    },
+    {
+      "subject": "geography",
+      "rubric": "geo-disparities",
+      "before": 31,
+      "target": 48,
+      "covered": "Orientierung, Kennzahlen und Verflechtungen sind vorhanden.",
+      "gaps": "Maßstab/Projektion, Wohlstandsmaße, Zentrum/Peripherie, Handel, Entwicklungsprozesse und Maßstabsebenen.",
+      "reason": "Kartieren, Vergleichen und Erklären räumlicher Ungleichheit verbindet Methoden und wirtschaftliche Prozesse."
+    },
+    {
+      "subject": "geography",
+      "rubric": "geo-americas",
+      "before": 30,
+      "target": 44,
+      "covered": "Lage, Klima, Relief, Amazonas und Nutzungskonflikte sind vorhanden.",
+      "gaps": "Meeresströmungen, Klimahöhenstufen, Landnutzung, Ressourcen, Stadtentwicklung und regionale Vergleichsmethoden.",
+      "reason": "Großraumübersicht braucht unterschiedliche Natur- und Wirtschaftsmechanismen, aber keinen beliebigen Länder- und Hauptstadtkatalog."
+    },
+    {
+      "subject": "geography",
+      "rubric": "geo-usa",
+      "before": 30,
+      "target": 42,
+      "covered": "Binnenmarkt, Cluster, Wasser und Metropolraum sind vorhanden.",
+      "gaps": "Wirtschaftsverflechtung, Standortwandel, Landwirtschaftsfolgen, Verkehrskosten, soziale Raumtrennung und regionale Resilienz.",
+      "reason": "Ein spezifischer Wirtschaftsraum; gezielte Ursachen-/Folgenfragen ergänzen die vorhandenen Profile ohne aktuelle Ranglisten."
+    },
+    {
+      "subject": "geography",
+      "rubric": "geo-eu",
+      "before": 30,
+      "target": 46,
+      "covered": "Institutionen, Binnenmarkt und Grenzräume sind vorhanden.",
+      "gaps": "Grenzüberschreitender Arbeitsalltag, Standortkonkurrenz, Förderprojekte, Verkehr, Ressourcen und wirtschaftliche Zielkonflikte.",
+      "reason": "Räumliche und wirtschaftliche Zusammenarbeit ergänzt Institutionenwissen; ein mittlerer Bestand ist fachlich passender als ein Rechtsdetaillexikon."
+    },
+    {
+      "subject": "geography",
+      "rubric": "geo-germany",
+      "before": 30,
+      "target": 46,
+      "covered": "Naturräume, Handel, Strukturwandel und Flächennutzung sind vorhanden.",
+      "gaps": "Logistikketten, demografischer Wandel, Standortentscheidungen, Landschaftsnutzung, Energieverbund und nachhaltige Regionalplanung.",
+      "reason": "Naturbedingungen und vernetzte Wirtschaft erfordern mehrere Anwendungen; keine wechselnden Wirtschaftsrangzahlen nötig."
+    }
+  ]
+}
