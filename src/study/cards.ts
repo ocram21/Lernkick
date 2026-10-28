@@ -1,3 +1,4 @@
+import expansionCards from '../content/expansionCards.json' with {type:'json'};
 import {cardDue,cardIntervals,cardDeadline,cardMastered,compareCardDifficulty} from './schedule';
 import complexCards from '../content/complexCards.json' with {type:'json'};
 import {visibleRubric} from './topics';
@@ -5,9 +6,9 @@ import {shuffle} from '../lib/engine';
 import catalog from '../content/standardCards.json' with {type:'json'};
 import words from '../content/vocabulary.json' with {type:'json'};
 import { cardSchema, vocabularyEntrySchema, type Card, type Subject, type UserData, type VocabularyEntry, type Question } from '../lib/schema';
-export const standardCards:Card[]=[...catalog.cards,...complexCards].map(card=>cardSchema.parse({...card,rubric:legacyCardRubric(card)}));
+export const standardCards:Card[]=[...catalog.cards,...complexCards,...expansionCards].map(card=>cardSchema.parse({...card,rubric:legacyCardRubric(card)}));
 function legacyCardRubric(card:{id:string;subject:string;rubric:string;front:string}){
- if(card.id.startsWith('standard.complex.'))return card.rubric;
+ if(card.id.startsWith('standard.complex.')||card.id.startsWith('standard.expansion.'))return card.rubric;
  if(card.subject==='biology'&&/Reflex|Nervenzelle/.test(card.front))return 'bio-senses';
  if(card.subject==='biology'&&/Gewebe|Chloroplasten|Virus|Bakterium|Antibiotika/.test(card.front))return 'bio-cells';
  if(card.subject==='social'&&/Medienkompetenz|Datenschutz|Meinungsfreiheit/.test(card.front))return 'soc-media';

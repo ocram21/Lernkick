@@ -1,0 +1,3054 @@
+[
+  {
+    "id": "standard.expansion.arithmetic.001",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Warum ergibt 8 + 0 wieder 8?",
+    "back": "Null verändert beim Addieren den Wert nicht. Es kommt nichts hinzu."
+  },
+  {
+    "id": "standard.expansion.arithmetic.002",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Warum ist 7 · 0 gleich null, aber 7 : 0 nicht erlaubt?",
+    "back": "Null Gruppen ergeben nichts. Durch null lässt sich eine Zahl nicht sinnvoll gleichmäßig teilen."
+  },
+  {
+    "id": "standard.expansion.arithmetic.003",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Erkläre, wie du 48 + 27 im Kopf berechnest.",
+    "back": "48 + 20 = 68; weitere 7 ergeben 75. Zerlege einen Summanden in Zehner und Einer."
+  },
+  {
+    "id": "standard.expansion.arithmetic.004",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Wie prüfst du das Ergebnis 83 − 29 = 54?",
+    "back": "Rechne 54 + 29 = 83. Addition und Subtraktion sind Umkehroperationen."
+  },
+  {
+    "id": "standard.expansion.arithmetic.005",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Warum darfst du 6 + 9 vertauschen, aber 6 − 9 nicht?",
+    "back": "Addition ist vertauschbar: Beide Summen sind 15. Die Differenzen sind dagegen −3 und 3."
+  },
+  {
+    "id": "standard.expansion.arithmetic.006",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Wie hilft das Verteilen bei 7 · 12?",
+    "back": "7 · (10 + 2) = 70 + 14 = 84. Multipliziere beide Teile und addiere."
+  },
+  {
+    "id": "standard.expansion.arithmetic.007",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Wie rechnest du 72 : 8 mit einer passenden Malaufgabe?",
+    "back": "8 · 9 = 72, also ist 72 : 8 = 9."
+  },
+  {
+    "id": "standard.expansion.arithmetic.008",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Was bedeutet der Rest bei 17 : 5?",
+    "back": "Es passen drei ganze Fünfer hinein, zwei bleiben übrig: 17 = 3 · 5 + 2."
+  },
+  {
+    "id": "standard.expansion.arithmetic.009",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Warum unterscheidet sich (2 + 3) · 4 von 2 + 3 · 4?",
+    "back": "Die Klammer wird zuerst gerechnet. Mit Klammer ergibt sich 20, ohne Klammer 14."
+  },
+  {
+    "id": "standard.expansion.arithmetic.010",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Wie rechnest du 24 : 6 · 2 richtig aus?",
+    "back": "Gleichrangige Rechenarten von links nach rechts: 24 : 6 = 4; 4 · 2 = 8."
+  },
+  {
+    "id": "standard.expansion.arithmetic.011",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Was ist der Unterschied zwischen −5 und dem Abziehen von 5?",
+    "back": "−5 bezeichnet eine negative Zahl. Beim Abziehen wird der Wert um fünf verringert."
+  },
+  {
+    "id": "standard.expansion.arithmetic.012",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Wie erklärst du −3 + 7 am Zahlenstrahl?",
+    "back": "Starte bei −3 und gehe sieben Schritte nach rechts. Du landest bei 4."
+  },
+  {
+    "id": "standard.expansion.arithmetic.013",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Warum ist −8 kleiner als −2?",
+    "back": "−8 liegt weiter links auf dem Zahlenstrahl. Der größere Abstand zu null macht eine negative Zahl nicht größer."
+  },
+  {
+    "id": "standard.expansion.arithmetic.014",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Woran erkennst du ohne Division, dass 246 durch 3 teilbar ist?",
+    "back": "Die Quersumme ist 2 + 4 + 6 = 12. Weil 12 durch 3 teilbar ist, gilt das auch für 246."
+  },
+  {
+    "id": "standard.expansion.arithmetic.015",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Woran erkennst du, ob eine ganze Zahl durch 2 und durch 5 teilbar ist?",
+    "back": "Durch 2: letzte Ziffer gerade. Durch 5: letzte Ziffer 0 oder 5. Beide Bedingungen erfüllt eine Endziffer 0."
+  },
+  {
+    "id": "standard.expansion.arithmetic.016",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Wie unterscheidest du einen Teiler von einem Vielfachen?",
+    "back": "Ein Teiler teilt eine Zahl ohne Rest. Ein Vielfaches entsteht durch Multiplikation, etwa 18 als Vielfaches von 6."
+  },
+  {
+    "id": "standard.expansion.arithmetic.017",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Warum ist 1 keine Primzahl?",
+    "back": "Eine Primzahl braucht genau zwei positive Teiler. Die 1 hat nur einen: sich selbst."
+  },
+  {
+    "id": "standard.expansion.arithmetic.018",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Erkläre den Unterschied zwischen 3² und 3 · 2.",
+    "back": "3² bedeutet 3 · 3 = 9. Dagegen bedeutet 3 · 2 = 6."
+  },
+  {
+    "id": "standard.expansion.arithmetic.019",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Wie findest du x in x + 7 = 19 und prüfst die Lösung?",
+    "back": "Auf beiden Seiten 7 abziehen: x = 12. Probe: 12 + 7 = 19."
+  },
+  {
+    "id": "standard.expansion.arithmetic.020",
+    "subject": "math",
+    "rubric": "arithmetic",
+    "front": "Drei Hefte kosten je 2 Euro, ein Stift 1,50 Euro. Wie bestimmst du den Gesamtpreis?",
+    "back": "3 · 2 Euro + 1,50 Euro = 7,50 Euro. Erst die gleichen Einzelpreise zusammenfassen, dann den Stift addieren."
+  },
+  {
+    "id": "standard.expansion.fractions.001",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Warum müssen Bruchteile einer Fläche gleich groß sein?",
+    "back": "Nur dann beschreibt jeder Teil denselben Anteil. Ein Viertel bedeutet einen von vier gleich großen Teilen."
+  },
+  {
+    "id": "standard.expansion.fractions.002",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Was bedeutet 3/5 einer Strecke?",
+    "back": "Die ganze Strecke wird in fünf gleiche Teile geteilt; drei dieser Teile werden betrachtet."
+  },
+  {
+    "id": "standard.expansion.fractions.003",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie erkennst du einen echten und einen unechten Bruch?",
+    "back": "Beim echten Bruch ist der Zähler kleiner als der Nenner. Beim unechten ist er mindestens so groß, etwa 7/4."
+  },
+  {
+    "id": "standard.expansion.fractions.004",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie schreibst du 7/4 als gemischte Zahl?",
+    "back": "Vier Viertel ergeben ein Ganzes; drei Viertel bleiben. Daher ist 7/4 = 1 3/4."
+  },
+  {
+    "id": "standard.expansion.fractions.005",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie wandelst du 2 1/3 in einen Bruch um?",
+    "back": "Zwei Ganze sind sechs Drittel. Mit einem weiteren Drittel ergibt sich 7/3."
+  },
+  {
+    "id": "standard.expansion.fractions.006",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Warum sind 1/2 und 2/4 gleich viel?",
+    "back": "Beide beschreiben dieselbe Hälfte. Beim Vierteilen bestehen jeweils zwei kleinere Teile zusammen aus einem Halbteil."
+  },
+  {
+    "id": "standard.expansion.fractions.007",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Welcher Bruch ist größer: 3/8 oder 5/8? Begründe.",
+    "back": "5/8 ist größer. Die Teile sind gleich groß, aber fünf solcher Teile sind mehr als drei."
+  },
+  {
+    "id": "standard.expansion.fractions.008",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Welcher Anteil ist größer: 1/3 oder 1/6? Begründe.",
+    "back": "1/3 ist größer. Dasselbe Ganze wird in weniger Teile geteilt; ein einzelner Teil ist dadurch größer."
+  },
+  {
+    "id": "standard.expansion.fractions.009",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie vergleichst du 2/3 und 3/4 mit einem gemeinsamen Nenner?",
+    "back": "2/3 = 8/12 und 3/4 = 9/12. Deshalb ist 3/4 größer."
+  },
+  {
+    "id": "standard.expansion.fractions.010",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Was ist der kleinste gemeinsame Nenner von 1/6 und 1/4?",
+    "back": "12, das kleinste gemeinsame Vielfache von 6 und 4. Die Brüche werden zu 2/12 und 3/12."
+  },
+  {
+    "id": "standard.expansion.fractions.011",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie berechnest du 2/7 + 3/7?",
+    "back": "Die gleich großen Teile werden gezählt: (2 + 3)/7 = 5/7. Der Nenner bleibt gleich."
+  },
+  {
+    "id": "standard.expansion.fractions.012",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Warum darfst du bei 1/2 + 1/3 nicht Zähler und Nenner einfach addieren?",
+    "back": "Halbe und Drittel sind verschieden große Teile. Mit Sechsteln ergibt sich 3/6 + 2/6 = 5/6."
+  },
+  {
+    "id": "standard.expansion.fractions.013",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie berechnest du 5/6 − 1/4?",
+    "back": "Erweitere auf Zwölftel: 10/12 − 3/12 = 7/12."
+  },
+  {
+    "id": "standard.expansion.fractions.014",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie berechnest du 3 · 2/5 und deutest das Ergebnis?",
+    "back": "Drei Gruppen von zwei Fünfteln ergeben 6/5, also 1 1/5."
+  },
+  {
+    "id": "standard.expansion.fractions.015",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Was bedeutet 1/2 von 3/4 und wie viel ist das?",
+    "back": "Eine Hälfte von drei Vierteln: 1/2 · 3/4 = 3/8 des ursprünglichen Ganzen."
+  },
+  {
+    "id": "standard.expansion.fractions.016",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie teilst du 3/4 durch 2?",
+    "back": "Halbiere den Anteil: 3/4 · 1/2 = 3/8."
+  },
+  {
+    "id": "standard.expansion.fractions.017",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie viele Viertelliter-Portionen passen in 1 1/2 Liter?",
+    "back": "1 1/2 : 1/4 = 6. In einen Liter passen vier, in einen halben Liter zwei Portionen."
+  },
+  {
+    "id": "standard.expansion.fractions.018",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie berechnest du 2/3 : 4/5?",
+    "back": "Multipliziere mit dem Kehrwert des zweiten Bruchs: 2/3 · 5/4 = 10/12 = 5/6."
+  },
+  {
+    "id": "standard.expansion.fractions.019",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie wandelst du 3/4 in eine Dezimalzahl um?",
+    "back": "Teile 3 durch 4 oder erweitere auf Hundertstel: 75/100 = 0,75."
+  },
+  {
+    "id": "standard.expansion.fractions.020",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie schreibst du 0,125 als vollständig gekürzten Bruch?",
+    "back": "0,125 = 125/1000. Teile Zähler und Nenner durch 125: 1/8."
+  },
+  {
+    "id": "standard.expansion.fractions.021",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Warum ist 0,5 genauso groß wie 0,50?",
+    "back": "Fünf Zehntel entsprechen fünfzig Hundertsteln. Eine angehängte Null verändert den Wert nicht."
+  },
+  {
+    "id": "standard.expansion.fractions.022",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie vergleichst du 0,8 und 0,75?",
+    "back": "Schreibe 0,8 als 0,80. Achtzig Hundertstel sind mehr als fünfundsiebzig; 0,8 ist größer."
+  },
+  {
+    "id": "standard.expansion.fractions.023",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie addierst du 1,25 und 0,6 schriftlich?",
+    "back": "Schreibe die Kommas untereinander: 1,25 + 0,60 = 1,85. So passen die Stellenwerte zusammen."
+  },
+  {
+    "id": "standard.expansion.fractions.024",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie berechnest du 0,4 · 0,3?",
+    "back": "4 · 3 = 12. Zusammen sind es zwei Nachkommastellen: 0,12."
+  },
+  {
+    "id": "standard.expansion.fractions.025",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie rechnest du 4,8 : 0,6 ohne einen Dezimaldivisor?",
+    "back": "Multipliziere beide Zahlen mit 10: 48 : 6 = 8. Der Quotient bleibt gleich."
+  },
+  {
+    "id": "standard.expansion.fractions.026",
+    "subject": "math",
+    "rubric": "fractions",
+    "front": "Wie berechnest du 3/4 von 20 Kilogramm?",
+    "back": "20 : 4 · 3 = 15 Kilogramm. Erst ein Viertel bestimmen, dann drei Viertel."
+  },
+  {
+    "id": "standard.expansion.percent.001",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie wandelst du 35 % in eine Dezimalzahl um?",
+    "back": "Durch 100 teilen: 35 % = 0,35. Damit lassen sich Anteile multiplizieren."
+  },
+  {
+    "id": "standard.expansion.percent.002",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie schreibst du 0,08 als Prozentangabe?",
+    "back": "Mit 100 multiplizieren: 0,08 entspricht 8 %."
+  },
+  {
+    "id": "standard.expansion.percent.003",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Welche Prozentangaben gehören zu 1/2, 1/4 und 3/4?",
+    "back": "1/2 entspricht 50 %, 1/4 entspricht 25 % und 3/4 entspricht 75 %."
+  },
+  {
+    "id": "standard.expansion.percent.004",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie berechnest du 10 % einer Menge im Kopf?",
+    "back": "Teile das Ganze durch zehn. Von 70 Kilogramm sind 10 % beispielsweise 7 Kilogramm."
+  },
+  {
+    "id": "standard.expansion.percent.005",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie findest du 15 % von 80 Euro ohne Taschenrechner?",
+    "back": "10 % sind 8 Euro und 5 % sind 4 Euro. Zusammen sind das 12 Euro."
+  },
+  {
+    "id": "standard.expansion.percent.006",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie berechnest du einen Prozentwert allgemein?",
+    "back": "Multipliziere den Grundwert mit dem Prozentsatz und teile durch 100: W = G · p/100."
+  },
+  {
+    "id": "standard.expansion.percent.007",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "12 von 40 Ausbildungsplätzen sind besetzt. Wie hoch ist der besetzte Anteil?",
+    "back": "12/40 · 100 % = 30 %. Der Grundwert sind alle 40 Plätze."
+  },
+  {
+    "id": "standard.expansion.percent.008",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "24 Euro entsprechen 30 %. Wie bestimmst du die ursprünglichen 100 %?",
+    "back": "24 : 0,30 = 80 Euro. Teile den Prozentwert durch den Prozentsatz als Dezimalzahl."
+  },
+  {
+    "id": "standard.expansion.percent.009",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie bestimmst du den Preis nach 20 % Rabatt auf 50 Euro?",
+    "back": "20 % Rabatt sind 10 Euro. 50 − 10 = 40 Euro; alternativ 50 · 0,8."
+  },
+  {
+    "id": "standard.expansion.percent.010",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Ein Preis von 80 Euro steigt um 5 %. Wie berechnest du den neuen Preis?",
+    "back": "80 · 1,05 = 84 Euro. Der Faktor enthält die ursprünglichen 100 % und weitere 5 %."
+  },
+  {
+    "id": "standard.expansion.percent.011",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Ein Preis steigt von 40 auf 50 Euro. Wie groß ist die prozentuale Erhöhung?",
+    "back": "Die Zunahme ist 10 Euro. Bezogen auf 40 Euro: 10/40 · 100 % = 25 %."
+  },
+  {
+    "id": "standard.expansion.percent.012",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Warum heben sich 20 % Rabatt und danach 20 % Aufschlag nicht auf?",
+    "back": "Die zweite Änderung bezieht sich auf den kleineren Preis. Bei 100 Euro: 100 · 0,8 · 1,2 = 96 Euro."
+  },
+  {
+    "id": "standard.expansion.percent.013",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Was unterscheidet Prozent von Prozentpunkten?",
+    "back": "Prozent beschreibt ein Verhältnis. Ein Anstieg von 20 % auf 30 % beträgt 10 Prozentpunkte, relativ aber 50 %."
+  },
+  {
+    "id": "standard.expansion.percent.014",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Kann ein Anteil mehr als 100 % betragen? Erkläre ein Beispiel.",
+    "back": "Ja, wenn eine Vergleichsgröße übertroffen wird. 150 % einer früheren Menge ist das Eineinhalbfache dieser Menge."
+  },
+  {
+    "id": "standard.expansion.percent.015",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Was bedeutet ein Wachstumsfaktor von 1,08?",
+    "back": "Der neue Wert beträgt 108 % des alten Werts, also eine Zunahme um 8 %."
+  },
+  {
+    "id": "standard.expansion.percent.016",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Was bedeutet ein Abnahmefaktor von 0,75?",
+    "back": "75 % des Ausgangswerts bleiben übrig. Der Rückgang beträgt 25 %."
+  },
+  {
+    "id": "standard.expansion.percent.017",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Warum brauchst du bei „50 % mehr“ eine Bezugsgröße?",
+    "back": "Erst die Ausgangsmenge bestimmt den Zuwachs. 50 % von 20 sind 10, von 100 dagegen 50."
+  },
+  {
+    "id": "standard.expansion.percent.018",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Was ist das Kapital bei einer einfachen Zinsrechnung?",
+    "back": "Der Geldbetrag, auf den die Zinsen berechnet werden. In der Schulformel wird er oft mit K bezeichnet."
+  },
+  {
+    "id": "standard.expansion.percent.019",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie berechnest du Jahreszinsen bei festem Zinssatz ohne weitere Buchungen?",
+    "back": "Z = K · p/100. Bei 1000 Euro und 3 % pro Jahr sind es 30 Euro vor möglichen Abzügen."
+  },
+  {
+    "id": "standard.expansion.percent.020",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie berechnest du für ein halbes Jahr einfache Zinsen bei 3 % auf 1000 Euro?",
+    "back": "Die Hälfte der Jahreszinsen: 1000 · 0,03 · 1/2 = 15 Euro. Vorausgesetzt sind gleichmäßige einfache Zinsen."
+  },
+  {
+    "id": "standard.expansion.percent.021",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie berechnest du in der Schulaufgabe 30 Zinstage mit einem 360-Tage-Jahr?",
+    "back": "Z = K · p/100 · 30/360. Bei 1200 Euro und 6 % sind das 6 Euro; echte Verträge können anders rechnen."
+  },
+  {
+    "id": "standard.expansion.percent.022",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Was unterscheidet einfache Zinsen von Zinseszinsen?",
+    "back": "Bei einfachen Zinsen bleibt die verzinste Ausgangssumme gleich. Bei Zinseszinsen werden gutgeschriebene Zinsen später mitverzinst."
+  },
+  {
+    "id": "standard.expansion.percent.023",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Wie wachsen 100 Euro bei jährlich gutgeschriebenen 10 % Zinsen in zwei Jahren?",
+    "back": "Erst auf 110 Euro, dann auf 121 Euro: 100 · 1,1². Im zweiten Jahr werden auch die ersten Zinsen verzinst."
+  },
+  {
+    "id": "standard.expansion.percent.024",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Warum solltest du zwei Rabatte nicht einfach addieren?",
+    "back": "Sie gelten nacheinander auf unterschiedliche Preise. 10 % und danach 20 % lassen 0,9 · 0,8 = 72 % übrig, also 28 % Gesamtrabatt."
+  },
+  {
+    "id": "standard.expansion.percent.025",
+    "subject": "math",
+    "rubric": "percent",
+    "front": "Ein Nettopreis beträgt 100 Euro, die Aufgabe nennt 19 % Umsatzsteuer. Wie hoch ist der Bruttopreis?",
+    "back": "100 · 1,19 = 119 Euro. Die 19 % beziehen sich auf den Nettopreis; der Steuersatz ist hier vorgegeben."
+  },
+  {
+    "id": "standard.expansion.geometry.001",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie unterscheiden sich Strecke, Gerade und Strahl?",
+    "back": "Eine Strecke hat zwei Endpunkte, ein Strahl einen Anfangspunkt. Eine Gerade ist in beide Richtungen unbegrenzt."
+  },
+  {
+    "id": "standard.expansion.geometry.002",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Was bedeutet, dass zwei Geraden parallel sind?",
+    "back": "In einer Ebene schneiden sie sich nicht und haben überall denselben Abstand."
+  },
+  {
+    "id": "standard.expansion.geometry.003",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Was bedeutet senkrecht und woran erkennst du es?",
+    "back": "Zwei Linien treffen sich im rechten Winkel, also mit 90°. In Zeichnungen kennzeichnet oft ein kleines Winkelzeichen den rechten Winkel."
+  },
+  {
+    "id": "standard.expansion.geometry.004",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie unterscheidest du spitze, stumpfe und gestreckte Winkel?",
+    "back": "Spitz: kleiner als 90°. Stumpf: größer als 90° und kleiner als 180°. Gestreckt: genau 180°."
+  },
+  {
+    "id": "standard.expansion.geometry.005",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du den fehlenden Dreieckswinkel bei 50° und 60°?",
+    "back": "Die Innenwinkel ergeben 180°. Es fehlen 180° − 50° − 60° = 70°."
+  },
+  {
+    "id": "standard.expansion.geometry.006",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Was kennzeichnet ein gleichschenkliges Dreieck?",
+    "back": "Es hat mindestens zwei gleich lange Seiten. Die beiden gegenüberliegenden Winkel sind gleich groß."
+  },
+  {
+    "id": "standard.expansion.geometry.007",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Was unterscheidet ein Quadrat von einem beliebigen Rechteck?",
+    "back": "Beide haben vier rechte Winkel. Beim Quadrat sind zusätzlich alle vier Seiten gleich lang."
+  },
+  {
+    "id": "standard.expansion.geometry.008",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du den Umfang eines Rechtecks mit 4 cm und 7 cm Seitenlänge?",
+    "back": "U = 2 · (4 + 7) = 22 cm. Jede Seitenlänge kommt zweimal vor."
+  },
+  {
+    "id": "standard.expansion.geometry.009",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du die Fläche eines Dreiecks mit Grundseite 8 cm und zugehöriger Höhe 3 cm?",
+    "back": "A = 8 · 3 : 2 = 12 cm². Die Höhe steht senkrecht zur Grundseite oder deren Verlängerung."
+  },
+  {
+    "id": "standard.expansion.geometry.010",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Warum brauchst du beim Parallelogramm die senkrechte Höhe statt der schrägen Seite?",
+    "back": "Die Fläche ist Grundseite mal zugehörige Höhe. Nur der senkrechte Abstand beschreibt die Breite eines flächengleichen Rechtecks."
+  },
+  {
+    "id": "standard.expansion.geometry.011",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du die Fläche eines Trapezes?",
+    "back": "Addiere die parallelen Seiten, halbiere die Summe und multipliziere mit ihrer senkrechten Entfernung: A = (a + c) · h/2."
+  },
+  {
+    "id": "standard.expansion.geometry.012",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du den Kreisumfang aus dem Radius?",
+    "back": "U = 2 · π · r. Bei r = 3 cm sind es ungefähr 18,85 cm."
+  },
+  {
+    "id": "standard.expansion.geometry.013",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du die Kreisfläche bei einem Radius von 2 cm?",
+    "back": "A = π · r² = 4π cm², ungefähr 12,57 cm². Der Radius wird quadriert."
+  },
+  {
+    "id": "standard.expansion.geometry.014",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Warum verdoppelt ein doppelter Radius nicht nur die Kreisfläche?",
+    "back": "Die Fläche hängt von r² ab. Bei doppeltem Radius wird die Fläche viermal so groß."
+  },
+  {
+    "id": "standard.expansion.geometry.015",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Was beschreibt der Satz des Pythagoras und wann gilt er?",
+    "back": "Im rechtwinkligen Dreieck gilt a² + b² = c². c ist die dem rechten Winkel gegenüberliegende Seite, die Hypotenuse."
+  },
+  {
+    "id": "standard.expansion.geometry.016",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie lang ist die Hypotenuse bei Katheten von 3 cm und 4 cm?",
+    "back": "c = √(3² + 4²) = √25 = 5 cm. Das Dreieck muss rechtwinklig sein."
+  },
+  {
+    "id": "standard.expansion.geometry.017",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du das Volumen eines Quaders mit 2 cm, 3 cm und 5 cm Kantenlänge?",
+    "back": "V = 2 · 3 · 5 = 30 cm³. Multipliziere Länge, Breite und Höhe."
+  },
+  {
+    "id": "standard.expansion.geometry.018",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Was gehört zur Oberfläche eines Würfels?",
+    "back": "Sechs gleich große Quadratflächen. Bei Kantenlänge a gilt O = 6 · a²."
+  },
+  {
+    "id": "standard.expansion.geometry.019",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie berechnest du das Volumen eines Zylinders?",
+    "back": "Multipliziere die Kreisgrundfläche mit der senkrechten Höhe: V = π · r² · h."
+  },
+  {
+    "id": "standard.expansion.geometry.020",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Warum hat eine Pyramide nicht dasselbe Volumen wie ein Prisma gleicher Grundfläche und Höhe?",
+    "back": "Bei gleicher Grundfläche und senkrechter Höhe hat sie ein Drittel des Prismenvolumens: V = G · h/3."
+  },
+  {
+    "id": "standard.expansion.geometry.021",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Was bedeutet Achsensymmetrie einer Figur?",
+    "back": "Beim Spiegeln an einer passenden Geraden fällt die Figur mit sich zusammen. Entsprechende Punkte haben denselben Abstand zur Achse."
+  },
+  {
+    "id": "standard.expansion.geometry.022",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie trägst du den Punkt P(3|2) im Koordinatensystem ein?",
+    "back": "Vom Ursprung drei Einheiten nach rechts und zwei nach oben. Die erste Zahl ist die x-, die zweite die y-Koordinate."
+  },
+  {
+    "id": "standard.expansion.geometry.023",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Wie bestimmst du die Fläche einer L-förmigen Bodenfläche?",
+    "back": "Zerlege sie in Rechtecke und addiere deren Flächen; alternativ ziehe ein fehlendes Rechteck von einem großen ab."
+  },
+  {
+    "id": "standard.expansion.geometry.024",
+    "subject": "math",
+    "rubric": "geometry",
+    "front": "Warum unterscheidest du beim Teppichkauf Fläche und Randlänge?",
+    "back": "Teppich wird für die Fläche in m² benötigt, eine Abschlussleiste für den Rand in Metern. Es sind verschiedene Größen."
+  },
+  {
+    "id": "standard.expansion.units.001",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie hängen Kilometer, Meter und Millimeter zusammen?",
+    "back": "1 km = 1000 m und 1 m = 1000 mm. Die Umrechnungsfaktoren beziehen sich jeweils auf die benachbarten genannten Einheiten."
+  },
+  {
+    "id": "standard.expansion.units.002",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie wandelst du 350 Zentimeter in Meter um?",
+    "back": "Durch 100 teilen: 350 cm = 3,5 m."
+  },
+  {
+    "id": "standard.expansion.units.003",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Warum wird der Zahlenwert größer, wenn du Meter in Millimeter umrechnest?",
+    "back": "Die Einheit wird kleiner. Für dieselbe Länge brauchst du entsprechend mehr kleine Einheiten."
+  },
+  {
+    "id": "standard.expansion.units.004",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie hängen Tonne, Kilogramm und Gramm zusammen?",
+    "back": "1 t = 1000 kg und 1 kg = 1000 g."
+  },
+  {
+    "id": "standard.expansion.units.005",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie vergleichst du 750 g mit 0,8 kg?",
+    "back": "Rechne 0,8 kg in 800 g um. 750 g sind 50 g weniger."
+  },
+  {
+    "id": "standard.expansion.units.006",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie rechnest du Milliliter in Liter um?",
+    "back": "1000 ml ergeben 1 l. Deshalb sind beispielsweise 250 ml = 0,25 l."
+  },
+  {
+    "id": "standard.expansion.units.007",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie hängen Liter und Kubikdezimeter zusammen?",
+    "back": "1 l = 1 dm³. Ein Würfel mit 10 cm Kantenlänge hat genau dieses Volumen."
+  },
+  {
+    "id": "standard.expansion.units.008",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Warum ist 1 m² gleich 10 000 cm² und nicht 100 cm²?",
+    "back": "Ein Quadratmeter ist 100 cm lang und 100 cm breit: 100 · 100 = 10 000 cm²."
+  },
+  {
+    "id": "standard.expansion.units.009",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie hängen Kubikmeter und Liter zusammen?",
+    "back": "1 m³ = 1000 dm³ = 1000 l. Ein Würfel mit einem Meter Kantenlänge fasst damit 1000 Liter."
+  },
+  {
+    "id": "standard.expansion.units.010",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie wandelst du 2,5 Stunden in Minuten um?",
+    "back": "Mit 60 multiplizieren: 2,5 · 60 = 150 Minuten."
+  },
+  {
+    "id": "standard.expansion.units.011",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Warum sind 1 Stunde 30 Minuten nicht 1,30 Stunden?",
+    "back": "30 Minuten sind eine halbe Stunde. Zusammen sind es 1,5 Stunden; die Stunde hat 60, nicht 100 Minuten."
+  },
+  {
+    "id": "standard.expansion.units.012",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie lange dauert eine Schicht von 8:15 bis 12:45 Uhr ohne Pause?",
+    "back": "4 Stunden 30 Minuten. Von 8:15 bis 12:15 sind es vier Stunden, dann weitere 30 Minuten."
+  },
+  {
+    "id": "standard.expansion.units.013",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie berechnest du eine Dauer über Mitternacht von 22:30 bis 1:15 Uhr?",
+    "back": "Bis Mitternacht vergehen 1 Stunde 30 Minuten, danach 1 Stunde 15 Minuten. Zusammen 2 Stunden 45 Minuten."
+  },
+  {
+    "id": "standard.expansion.units.014",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Welche Einheit passt zum Abstand zweier Städte und welche zur Dicke einer Münze?",
+    "back": "Für den Städteabstand meist Kilometer, für die Münzdicke Millimeter. Die Einheit soll zur Größenordnung passen."
+  },
+  {
+    "id": "standard.expansion.units.015",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie wandelst du 3 Hektar in Quadratmeter um?",
+    "back": "1 ha = 10 000 m². Also sind 3 ha = 30 000 m²."
+  },
+  {
+    "id": "standard.expansion.units.016",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Was misst eine Geschwindigkeit in km/h?",
+    "back": "Wie viele Kilometer bei gleichbleibendem Tempo in einer Stunde zurückgelegt werden. Sie verknüpft Strecke und Zeit."
+  },
+  {
+    "id": "standard.expansion.units.017",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie berechnest du die Strecke bei 60 km/h während einer halben Stunde?",
+    "back": "Strecke = Geschwindigkeit · Zeit: 60 · 0,5 = 30 km."
+  },
+  {
+    "id": "standard.expansion.units.018",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie berechnest du das mittlere Tempo für 12 km in 2 Stunden?",
+    "back": "Geschwindigkeit = Strecke : Zeit: 12 : 2 = 6 km/h."
+  },
+  {
+    "id": "standard.expansion.units.019",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie viel Meter pro Sekunde entsprechen 36 km/h?",
+    "back": "Durch 3,6 teilen: 36 km/h = 10 m/s. 1 km sind 1000 m, eine Stunde 3600 s."
+  },
+  {
+    "id": "standard.expansion.units.020",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Bei 18 °C sinkt die Temperatur um 25 Grad. Welche Temperatur wird erreicht?",
+    "back": "Die neue Temperatur nach einem Absinken um 25 Grad ist −7 °C. Der Unterschied zweier Temperaturen kann über null hinweggehen."
+  },
+  {
+    "id": "standard.expansion.units.021",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Was bedeutet eine Leistung von 1000 Watt in Kilowatt?",
+    "back": "1000 W = 1 kW. Kilo steht für den Faktor tausend."
+  },
+  {
+    "id": "standard.expansion.units.022",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Was beschreibt eine Kilowattstunde?",
+    "back": "Eine Energiemenge: Ein Gerät mit 1 kW Leistung verbraucht bei einstündigem Betrieb 1 kWh."
+  },
+  {
+    "id": "standard.expansion.units.023",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie prüfst du, ob „Ein Zimmer ist 15 Meter groß“ als Flächenangabe stimmt?",
+    "back": "Für eine Fläche muss es 15 m² heißen. Meter allein bezeichnet eine Länge."
+  },
+  {
+    "id": "standard.expansion.units.024",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie rechnest du 3 Euro 45 Cent als Dezimalbetrag?",
+    "back": "3,45 Euro. 100 Cent ergeben einen Euro; zwei Dezimalstellen stehen für Cent."
+  },
+  {
+    "id": "standard.expansion.units.025",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Was bedeutet der Vorsatz „milli“ bei einer Einheit?",
+    "back": "Ein Tausendstel der Grundeinheit. Ein Millimeter ist ein Tausendstel Meter."
+  },
+  {
+    "id": "standard.expansion.units.026",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Warum gehört zu einem Messergebnis oft eine Unsicherheit?",
+    "back": "Messgeräte und Ablesen sind begrenzt genau. Mehr Nachkommastellen machen eine Messung nicht automatisch genauer."
+  },
+  {
+    "id": "standard.expansion.units.027",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Wie liest du einen Maßstab von 1 : 50 bei einer Raumzeichnung?",
+    "back": "1 cm in der Zeichnung entspricht 50 cm in Wirklichkeit. 4 cm im Plan entsprechen 2 m."
+  },
+  {
+    "id": "standard.expansion.units.028",
+    "subject": "math",
+    "rubric": "units",
+    "front": "Warum musst du vor dem Addieren von 2 m und 35 cm eine gemeinsame Einheit wählen?",
+    "back": "Nur gleich benannte Einheiten lassen sich direkt addieren. 200 cm + 35 cm = 235 cm = 2,35 m."
+  },
+  {
+    "id": "standard.expansion.data.001",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Was ist eine absolute Häufigkeit?",
+    "back": "Die Anzahl, wie oft ein Merkmal vorkommt. Bei fünf roten Kugeln ist die absolute Häufigkeit für Rot fünf."
+  },
+  {
+    "id": "standard.expansion.data.002",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie unterscheidet sich relative von absoluter Häufigkeit?",
+    "back": "Die relative Häufigkeit ist der Anteil an allen Beobachtungen, etwa 5 von 20 = 1/4 = 25 %."
+  },
+  {
+    "id": "standard.expansion.data.003",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie erstellst du aus 2, 3, 2, 4, 2 eine Häufigkeitstabelle?",
+    "back": "Zähle jeden Wert: 2 kommt dreimal vor, 3 einmal und 4 einmal. Insgesamt gibt es fünf Beobachtungen."
+  },
+  {
+    "id": "standard.expansion.data.004",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wann ist ein Liniendiagramm besonders geeignet?",
+    "back": "Wenn eine Entwicklung über eine geordnete Folge, etwa Zeit, sichtbar werden soll. Achsen und Einheiten müssen beschriftet sein."
+  },
+  {
+    "id": "standard.expansion.data.005",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wann ist ein Balkendiagramm statt einer Tabelle hilfreich?",
+    "back": "Wenn Kategorien schnell miteinander verglichen werden sollen. Die Balkenlänge macht Größenunterschiede sichtbar."
+  },
+  {
+    "id": "standard.expansion.data.006",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Was zeigt ein Kreisdiagramm und welche Bedingung ist wichtig?",
+    "back": "Anteile an einem Ganzen. Die dargestellten Teile müssen zusammen dieses Ganze bilden, normalerweise 100 %."
+  },
+  {
+    "id": "standard.expansion.data.007",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Welchen Winkel braucht ein Kreisdiagramm für einen Anteil von 25 %?",
+    "back": "Ein Viertel von 360° sind 90°. Der ganze Kreis entspricht allen 100 %."
+  },
+  {
+    "id": "standard.expansion.data.008",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Warum kann eine abgeschnittene senkrechte Achse Unterschiede übertreiben?",
+    "back": "Kleine Wertunterschiede wirken durch den verkürzten Maßstab sehr groß. Prüfe daher immer den Achsenbeginn."
+  },
+  {
+    "id": "standard.expansion.data.009",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Welche Angaben brauchst du, um eine Diagrammzahl richtig zu verstehen?",
+    "back": "Merkmal, Einheit, Skala, Bezugsgruppe, Zeitraum und Quelle. Eine Zahl ohne Bezug kann irreführen."
+  },
+  {
+    "id": "standard.expansion.data.010",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Was ist die Spannweite einer Datenreihe?",
+    "back": "Größter Wert minus kleinster Wert. Für 3, 5 und 11 beträgt sie 8."
+  },
+  {
+    "id": "standard.expansion.data.011",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Was ist der häufigste Wert oder Modalwert?",
+    "back": "Der Wert, der am häufigsten vorkommt. Bei 2, 2, 3, 5 ist es 2; mehrere Modalwerte sind möglich."
+  },
+  {
+    "id": "standard.expansion.data.012",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie findest du den Median von 8, 1, 3, 6?",
+    "back": "Erst ordnen: 1, 3, 6, 8. Der Mittelwert der zwei mittleren Werte ist (3 + 6)/2 = 4,5."
+  },
+  {
+    "id": "standard.expansion.data.013",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Warum kann ein Ausreißer den Mittelwert stärker verändern als den Median?",
+    "back": "Der Mittelwert nutzt alle Zahlenwerte. Ein einzelner sehr großer Wert zieht ihn hoch; die mittlere Position ändert sich oft weniger."
+  },
+  {
+    "id": "standard.expansion.data.014",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Drei Leute verdienen 1000, 1000 und 7000 Euro. Warum beschreibt der Mittelwert nicht jeden gut?",
+    "back": "Der Mittelwert ist 3000 Euro, aber zwei Personen verdienen nur 1000 Euro. Verteilung und Median ergänzen den Durchschnitt."
+  },
+  {
+    "id": "standard.expansion.data.015",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Was unterscheidet eine Stichprobe von der Grundgesamtheit?",
+    "back": "Die Grundgesamtheit umfasst alle untersuchten Fälle. Eine Stichprobe untersucht nur einen ausgewählten Teil davon."
+  },
+  {
+    "id": "standard.expansion.data.016",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Warum ist eine Umfrage unter nur den eigenen Freunden oft nicht repräsentativ?",
+    "back": "Der Freundeskreis kann ähnliche Interessen oder Lebenslagen haben. Andere Gruppen sind dann nicht ausreichend vertreten."
+  },
+  {
+    "id": "standard.expansion.data.017",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Warum solltest du bei Umfrageprozenten auch die Anzahl der Befragten kennen?",
+    "back": "Bei wenigen Befragten verändern einzelne Antworten den Prozentwert stark. Die Stichprobengröße hilft, die Aussage einzuordnen."
+  },
+  {
+    "id": "standard.expansion.data.018",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Warum beweist ein gemeinsamer Anstieg zweier Größen noch keine Ursache?",
+    "back": "Ein Zusammenhang kann zufällig sein oder durch eine dritte Größe entstehen. Ursache und Wirkung brauchen zusätzliche Belege."
+  },
+  {
+    "id": "standard.expansion.data.019",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Was ist ein Zufallsexperiment?",
+    "back": "Ein Versuch, dessen einzelnes Ergebnis vorher nicht sicher feststeht, etwa das Werfen eines Würfels."
+  },
+  {
+    "id": "standard.expansion.data.020",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie berechnest du eine Wahrscheinlichkeit bei gleich wahrscheinlichen Ergebnissen?",
+    "back": "Anzahl günstiger Ergebnisse geteilt durch Anzahl aller möglichen Ergebnisse. Diese Zählregel braucht gleich wahrscheinliche Einzelergebnisse."
+  },
+  {
+    "id": "standard.expansion.data.021",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie groß ist beim fairen Würfel die Wahrscheinlichkeit für eine gerade Zahl?",
+    "back": "Drei günstige Ergebnisse, nämlich 2, 4 und 6, von sechs: 3/6 = 1/2."
+  },
+  {
+    "id": "standard.expansion.data.022",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Was bedeutet eine Wahrscheinlichkeit von null beziehungsweise eins?",
+    "back": "Null steht für ein unmögliches, eins für ein sicheres Ereignis im betrachteten endlichen Modell."
+  },
+  {
+    "id": "standard.expansion.data.023",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie bestimmst du die Wahrscheinlichkeit eines Gegenereignisses?",
+    "back": "Ziehe die Ereigniswahrscheinlichkeit von 1 ab. Bei 30 % Regenwahrscheinlichkeit bleiben 70 % für keinen Regen im Modell."
+  },
+  {
+    "id": "standard.expansion.data.024",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Warum muss eine Münze nach fünfmal Kopf nicht als Nächstes Zahl zeigen?",
+    "back": "Bei unabhängigen Würfen bleibt die Wahrscheinlichkeit jeweils gleich. Die Münze gleicht frühere Ergebnisse nicht absichtlich aus."
+  },
+  {
+    "id": "standard.expansion.data.025",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie unterscheidest du Ziehen mit und ohne Zurücklegen?",
+    "back": "Mit Zurücklegen bleiben Anzahlen gleich. Ohne Zurücklegen ändern sich Anzahl und Zusammensetzung für den nächsten Zug."
+  },
+  {
+    "id": "standard.expansion.data.026",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Warum ergeben gerundete Prozentanteile manchmal nicht genau 100 %?",
+    "back": "Jeder Anteil wird einzeln gerundet. Kleine Rundungsabweichungen können sich dadurch summieren."
+  },
+  {
+    "id": "standard.expansion.data.027",
+    "subject": "math",
+    "rubric": "data",
+    "front": "Wie prüfst du eine Statistik mit der Aussage „doppelt so viele Unfälle“?",
+    "back": "Frage nach Zeitraum, Ausgangszahl, Zahl der Betroffenen oder Fahrten und Quelle. Zwei statt einem Unfall ist anders einzuordnen als zweitausend statt tausend."
+  },
+  {
+    "id": "standard.expansion.word-types.001",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie unterscheidest du Wortart und Satzglied?",
+    "back": "Die Wortart ordnet ein Wort einer Klasse wie Nomen oder Verb zu. Ein Satzglied beschreibt eine Aufgabe im Satz und kann aus mehreren Wörtern bestehen."
+  },
+  {
+    "id": "standard.expansion.word-types.002",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Woran erkennst du im Satz „Das Schwimmen macht Spaß“ die Nominalisierung?",
+    "back": "Schwimmen wird hier als Nomen gebraucht. Der Artikel „das“ begleitet es; deshalb wird es großgeschrieben."
+  },
+  {
+    "id": "standard.expansion.word-types.003",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Welche Wörter sind in „Der ruhige Hund schläft“ veränderbar?",
+    "back": "Der Artikel, das Adjektiv, das Nomen und das Verb können ihre Form ändern: etwa „Die ruhigen Hunde schlafen“."
+  },
+  {
+    "id": "standard.expansion.word-types.004",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Was bedeutet die Einzahl und Mehrzahl bei Nomen?",
+    "back": "Singular benennt ein Exemplar, Plural mehrere. Beispiel: der Arbeitsplatz – die Arbeitsplätze."
+  },
+  {
+    "id": "standard.expansion.word-types.005",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Warum verrät das grammatische Geschlecht eines Nomens nicht immer ein natürliches Geschlecht?",
+    "back": "Es ist eine Spracheigenschaft. „Das Mädchen“ ist grammatisch sächlich, bezeichnet aber eine weibliche Person."
+  },
+  {
+    "id": "standard.expansion.word-types.006",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie unterscheidest du bestimmten und unbestimmten Artikel?",
+    "back": "„Der, die, das“ verweisen meist auf etwas Bestimmtes. „Ein, eine“ führen oft etwas noch nicht näher Bestimmtes ein."
+  },
+  {
+    "id": "standard.expansion.word-types.007",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Was bedeutet ein Verb zu konjugieren?",
+    "back": "Seine Form wird unter anderem an Person und Zahl angepasst: ich lerne, du lernst, wir lernen."
+  },
+  {
+    "id": "standard.expansion.word-types.008",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie findest du den Infinitiv eines gebeugten Verbs?",
+    "back": "Nenne die Grundform, etwa „gehen“ zu „ging“. Im Wörterbuch stehen Verben normalerweise im Infinitiv."
+  },
+  {
+    "id": "standard.expansion.word-types.009",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Was unterscheidet Vollverb und Hilfsverb in „Sie hat gearbeitet“?",
+    "back": "„Arbeiten“ trägt die eigentliche Bedeutung. „Hat“ hilft hier, die Zeitform Perfekt zu bilden."
+  },
+  {
+    "id": "standard.expansion.word-types.010",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Welche Bedeutung fügt ein Modalverb hinzu?",
+    "back": "Es beschreibt etwa Möglichkeit, Pflicht oder Wunsch: „Ich kann kommen“ ist anders als „Ich muss kommen“."
+  },
+  {
+    "id": "standard.expansion.word-types.011",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie unterscheiden sich „dürfen“ und „können“ in einer Arbeitsanweisung?",
+    "back": "„Dürfen“ beschreibt eine Erlaubnis, „können“ meist eine Fähigkeit oder Möglichkeit. Beides ist nicht dasselbe."
+  },
+  {
+    "id": "standard.expansion.word-types.012",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie werden trennbare Verben im Hauptsatz verwendet?",
+    "back": "Der abtrennbare Teil steht oft am Ende: „Ich räume den Tisch auf.“ Der Infinitiv ist „aufräumen“."
+  },
+  {
+    "id": "standard.expansion.word-types.013",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie steigerst du das Adjektiv „schnell“?",
+    "back": "schnell – schneller – am schnellsten. Das sind Positiv, Komparativ und Superlativ."
+  },
+  {
+    "id": "standard.expansion.word-types.014",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Warum heißt es „besser“ und nicht „guter“?",
+    "back": "Manche Adjektive werden unregelmäßig gesteigert. Zu „gut“ gehören „besser“ und „am besten“."
+  },
+  {
+    "id": "standard.expansion.word-types.015",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Woran erkennst du ein Personalpronomen in „Mara kommt. Sie hilft uns.“?",
+    "back": "„Sie“ steht für Mara, „uns“ für eine Gruppe mit der sprechenden Person. Personalpronomen vertreten Personen oder Dinge."
+  },
+  {
+    "id": "standard.expansion.word-types.016",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Welche Aufgabe hat ein Possessivwort wie „mein“?",
+    "back": "Es zeigt Zugehörigkeit an: „mein Fahrrad“. Die Form richtet sich auch nach dem begleiteten Nomen, etwa „meine Tasche“."
+  },
+  {
+    "id": "standard.expansion.word-types.017",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Was zeigt das Reflexivpronomen in „Ich wasche mich“?",
+    "back": "„Mich“ bezieht sich auf das Subjekt „ich“ zurück. Handelnde und betroffene Person sind hier dieselbe Person."
+  },
+  {
+    "id": "standard.expansion.word-types.018",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie unterscheidest du eine Präposition von einer Konjunktion am Beispiel „wegen“ und „weil“?",
+    "back": "„Wegen“ steht bei einer Nomengruppe: wegen des Regens. „Weil“ leitet einen Satz ein: weil es regnet."
+  },
+  {
+    "id": "standard.expansion.word-types.019",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Welche Wortart ist „heute“ und was leistet sie?",
+    "back": "Ein Adverb. Es ist unveränderlich und macht hier eine Zeitangabe."
+  },
+  {
+    "id": "standard.expansion.word-types.020",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Wie unterscheiden sich „und“ und „aber“ in ihrer Verknüpfung?",
+    "back": "„Und“ fügt etwas hinzu. „Aber“ stellt einen Gegensatz oder eine Einschränkung her."
+  },
+  {
+    "id": "standard.expansion.word-types.021",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Was bewirkt das Wort „nicht“ in „Ich komme nicht“?",
+    "back": "Es verneint die Aussage. Der Satz sagt nun aus, dass die Person nicht kommt."
+  },
+  {
+    "id": "standard.expansion.word-types.022",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Was bezeichnet ein Zahlwort und welche zwei Arten kannst du nennen?",
+    "back": "Es nennt etwa eine Anzahl oder Reihenfolge: „drei“ ist eine Grundzahl, „dritte“ eine Ordnungszahl."
+  },
+  {
+    "id": "standard.expansion.word-types.023",
+    "subject": "german",
+    "rubric": "word-types",
+    "front": "Warum brauchst du den Satz, um die Wortart von „Laut“ oder „laut“ zu bestimmen?",
+    "back": "Die Funktion hängt vom Gebrauch ab: „ein Laut“ ist ein Nomen, „laute Musik“ enthält ein Adjektiv."
+  },
+  {
+    "id": "standard.expansion.syntax.001",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie hilft die Umstellprobe beim Erkennen eines Satzglieds?",
+    "back": "Wörter, die gemeinsam verschoben werden können, bilden oft ein Satzglied: „Am Montag“ in „Am Montag beginnt der Kurs“."
+  },
+  {
+    "id": "standard.expansion.syntax.002",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie prüfst du, ob „der neue Kollege“ im Satz das Subjekt ist?",
+    "back": "Frage mit „Wer oder was?“. In „Der neue Kollege hilft“ ist diese ganze Wortgruppe die Antwort."
+  },
+  {
+    "id": "standard.expansion.syntax.003",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Warum ist „dem Mann“ in „Ich helfe dem Mann“ kein Akkusativobjekt?",
+    "back": "Die Frage lautet „Wem helfe ich?“. „Dem Mann“ steht im Dativ; „helfen“ verlangt hier diese Ergänzung."
+  },
+  {
+    "id": "standard.expansion.syntax.004",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Was ist ein Genitivobjekt und wie fragst du danach?",
+    "back": "Eine Ergänzung im Genitiv, nach der mit „Wessen?“ gefragt wird: „Wir gedenken der Opfer.“ Es kommt vergleichsweise selten vor."
+  },
+  {
+    "id": "standard.expansion.syntax.005",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie erkennst du eine Zeitangabe im Satz?",
+    "back": "Frage zum Beispiel „Wann?“, „Wie lange?“ oder „Wie oft?“. „Morgen“ in „Morgen beginnt die Arbeit“ ist eine Zeitangabe."
+  },
+  {
+    "id": "standard.expansion.syntax.006",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie unterscheidest du Ort und Richtung im Satz?",
+    "back": "Ein Ort beantwortet „Wo?“, eine Richtung „Wohin?“. „Im Raum“ bezeichnet einen Ort, „in den Raum“ eine Richtung."
+  },
+  {
+    "id": "standard.expansion.syntax.007",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Welche Frage hilft bei einer Angabe des Grundes?",
+    "back": "„Warum?“ oder „Weshalb?“. In „Wegen des Regens bleiben wir drinnen“ nennt die Wortgruppe den Grund."
+  },
+  {
+    "id": "standard.expansion.syntax.008",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie findest du eine Angabe der Art und Weise?",
+    "back": "Frage „Wie?“. In „Sie arbeitet sorgfältig“ erklärt „sorgfältig“ die Art des Arbeitens."
+  },
+  {
+    "id": "standard.expansion.syntax.009",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Was ist ein Attribut und warum ist es oft kein eigenes Satzglied?",
+    "back": "Es beschreibt ein Nomen genauer, etwa „rote“ in „die rote Jacke“. Es bleibt bei der Umstellprobe Teil der Nomengruppe."
+  },
+  {
+    "id": "standard.expansion.syntax.010",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Was bedeutet die Satzklammer bei „Er hat das Werkzeug gesucht“?",
+    "back": "Die Verbteile „hat“ und „gesucht“ umschließen andere Satzteile. Zusammen bilden sie das Prädikat."
+  },
+  {
+    "id": "standard.expansion.syntax.011",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie stellst du „Du kommst morgen“ als Entscheidungsfrage um?",
+    "back": "„Kommst du morgen?“ Das gebeugte Verb steht bei dieser Ja-Nein-Frage an erster Stelle."
+  },
+  {
+    "id": "standard.expansion.syntax.012",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie baust du eine Frage mit einem Fragewort?",
+    "back": "Das Fragewort steht vorn, das gebeugte Verb folgt: „Wann kommst du?“ Die Frage verlangt mehr als Ja oder Nein."
+  },
+  {
+    "id": "standard.expansion.syntax.013",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie formulierst du eine höfliche Aufforderung statt „Tür zu!“?",
+    "back": "Zum Beispiel: „Schließen Sie bitte die Tür.“ Die gewünschte Handlung und die angesprochene Person werden deutlich."
+  },
+  {
+    "id": "standard.expansion.syntax.014",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Warum steht in „Heute arbeitet meine Schwester“ das Verb trotz „heute“ an zweiter Stelle?",
+    "back": "Die erste Position wird von der ganzen Zeitangabe besetzt. Danach folgt das gebeugte Verb „arbeitet“."
+  },
+  {
+    "id": "standard.expansion.syntax.015",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie verbindest du zwei Hauptsätze mit einem Gegensatz?",
+    "back": "Zum Beispiel: „Ich möchte kommen, aber ich muss arbeiten.“ „Aber“ zeigt den Gegensatz der Aussagen."
+  },
+  {
+    "id": "standard.expansion.syntax.016",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie baust du aus „Es regnet. Wir bleiben drinnen.“ einen Satz mit „weil“?",
+    "back": "„Wir bleiben drinnen, weil es regnet.“ Im weil-Nebensatz steht „regnet“ am Ende."
+  },
+  {
+    "id": "standard.expansion.syntax.017",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Was unterscheidet Ursache und Folge in „Es regnet, deshalb bleiben wir drinnen“?",
+    "back": "Der Regen ist die Ursache, das Drinnenbleiben die Folge. „Deshalb“ leitet die Folgerung ein."
+  },
+  {
+    "id": "standard.expansion.syntax.018",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie drückst du eine Bedingung mit einem Nebensatz aus?",
+    "back": "„Wenn der Bus pünktlich ist, komme ich um acht.“ Der erste Satzteil nennt die Bedingung."
+  },
+  {
+    "id": "standard.expansion.syntax.019",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie drückst du einen Gegensatz trotz eines Hindernisses mit „obwohl“ aus?",
+    "back": "„Obwohl es regnet, gehen wir spazieren.“ Der Regen verhindert das Spazierengehen hier nicht."
+  },
+  {
+    "id": "standard.expansion.syntax.020",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie bildest du einen Relativsatz zu „Das ist die Frau. Sie leitet den Kurs.“?",
+    "back": "„Das ist die Frau, die den Kurs leitet.“ Der Relativsatz beschreibt „die Frau“ genauer."
+  },
+  {
+    "id": "standard.expansion.syntax.021",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Warum muss es „Die Kinder spielen“ statt „Die Kinder spielt“ heißen?",
+    "back": "Subjekt und gebeugtes Verb müssen in Person und Zahl zusammenpassen. „Die Kinder“ steht in der dritten Person Mehrzahl."
+  },
+  {
+    "id": "standard.expansion.syntax.022",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie vermeidest du den unklaren Bezug in „Mia sagt Lea, dass sie gewonnen hat“?",
+    "back": "Nenne die Gewinnerin ausdrücklich, etwa: „Mia berichtet Lea von Mias Sieg.“ Das Pronomen allein lässt den Bezug offen."
+  },
+  {
+    "id": "standard.expansion.syntax.023",
+    "subject": "german",
+    "rubric": "syntax",
+    "front": "Wie verbessert du einen überladenen Satz mit mehreren verschiedenen Aussagen?",
+    "back": "Trenne ihn an sinnvollen Stellen in kürzere vollständige Sätze. Behalte notwendige Verknüpfungen wie Ursache oder Gegensatz bei."
+  },
+  {
+    "id": "standard.expansion.spelling.001",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie prüfst du, ob „Hund“ am Ende mit d oder t geschrieben wird?",
+    "back": "Verlängere das Wort: „Hunde“. Jetzt hörst du das d; schreibe deshalb „Hund“."
+  },
+  {
+    "id": "standard.expansion.spelling.002",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie hilft eine verwandte Wortform bei „Häuser“?",
+    "back": "Die Einzahl „Haus“ zeigt den Zusammenhang. Aus dem au wird in der Mehrzahl äu, nicht eu."
+  },
+  {
+    "id": "standard.expansion.spelling.003",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Warum stehen in „kommen“ zwei m?",
+    "back": "Nach dem kurzen betonten Vokal folgt im Wortstamm nur ein Konsonantenlaut. Seine Verdopplung zeigt die Kürze an."
+  },
+  {
+    "id": "standard.expansion.spelling.004",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wann schreibst du nach kurzem betontem Vokal ck oder tz?",
+    "back": "Statt kk oder zz meist ck beziehungsweise tz: „packen“, „sitzen“. Die Regel betrifft diese Laut-Buchstaben-Verbindungen."
+  },
+  {
+    "id": "standard.expansion.spelling.005",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie unterscheidest du ss und ß in „müssen“ und „grüßen“?",
+    "back": "Nach kurzem betontem Vokal steht ss; nach langem Vokal oder Doppellaut kann ß stehen, wenn der s-Laut stimmlos ist."
+  },
+  {
+    "id": "standard.expansion.spelling.006",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Warum ist „viel“ nicht nach der Regel für den f-Laut vorhersagbar?",
+    "back": "Der f-Laut kann verschieden geschrieben werden. „Viel“ mit v ist ein Merkwort; ein Wörterbuch hilft bei Unsicherheit."
+  },
+  {
+    "id": "standard.expansion.spelling.007",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Warum schreibt man in „Ich lese ein Buch“ das erste Wort groß?",
+    "back": "Am Satzanfang beginnt das erste Wort mit einem Großbuchstaben, auch wenn es sonst kleingeschrieben wird."
+  },
+  {
+    "id": "standard.expansion.spelling.008",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie schreibst du die höfliche Anrede in einer Bewerbung?",
+    "back": "„Sie“, „Ihnen“ und „Ihr“ werden als höfliche Anrede großgeschrieben, zum Beispiel „Vielen Dank für Ihre Nachricht“."
+  },
+  {
+    "id": "standard.expansion.spelling.009",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie erkennst du das großgeschriebene Adjektiv in „etwas Neues“?",
+    "back": "Das Adjektiv wird als Nomen verwendet. Wörter wie „etwas“, „nichts“ oder „viel“ können auf diese Verwendung hinweisen."
+  },
+  {
+    "id": "standard.expansion.spelling.010",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Warum schreibt man „Rad fahren“ getrennt, aber „das Radfahren“ zusammen?",
+    "back": "Mit dem Verb steht hier eine Wortgruppe. Bei der Nominalisierung entsteht das zusammengesetzte Nomen „Radfahren“."
+  },
+  {
+    "id": "standard.expansion.spelling.011",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie trennst du eine Aufzählung ohne Bindewörter?",
+    "back": "Mit Kommas: „Wir kaufen Äpfel, Brot, Milch und Käse.“ Vor dem abschließenden „und“ ist hier kein Komma nötig."
+  },
+  {
+    "id": "standard.expansion.spelling.012",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wo setzt du das Komma in „Ich bleibe zu Hause weil ich krank bin“?",
+    "back": "Vor „weil“: „Ich bleibe zu Hause, weil ich krank bin.“ Das Komma trennt Haupt- und Nebensatz."
+  },
+  {
+    "id": "standard.expansion.spelling.013",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie setzt du Kommas bei einem eingeschobenen Relativsatz?",
+    "back": "„Die Jacke, die dort hängt, gehört mir.“ Der eingeschobene Nebensatz wird an beiden Seiten abgegrenzt."
+  },
+  {
+    "id": "standard.expansion.spelling.014",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie setzt du das Komma bei einer direkten Anrede?",
+    "back": "„Mara, komm bitte her.“ Die Anrede wird vom übrigen Satz mit Komma getrennt."
+  },
+  {
+    "id": "standard.expansion.spelling.015",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie schreibst du einen Aussagesatz als wörtliche Rede mit vorangestelltem Begleitsatz?",
+    "back": "Mara sagt: „Ich komme morgen.“ Der Begleitsatz endet mit Doppelpunkt; die Rede steht in Anführungszeichen."
+  },
+  {
+    "id": "standard.expansion.spelling.016",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wo steht das Fragezeichen bei einer wörtlichen Frage nach dem Begleitsatz „Mara fragt“?",
+    "back": "Mara fragt: „Kommst du?“ Das Fragezeichen gehört zur wörtlichen Frage und steht vor dem schließenden Anführungszeichen."
+  },
+  {
+    "id": "standard.expansion.spelling.017",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie unterscheidest du „seit“ und „seid“?",
+    "back": "„Seit“ bezeichnet Zeit: seit Montag. „Seid“ ist eine Verbform: ihr seid pünktlich."
+  },
+  {
+    "id": "standard.expansion.spelling.018",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie unterscheidest du „wieder“ und „wider“?",
+    "back": "„Wieder“ bedeutet erneut, „wider“ gegen. Beispiele: wiederkommen und Widerstand."
+  },
+  {
+    "id": "standard.expansion.spelling.019",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Was unterscheidet „wen“ und „wenn“?",
+    "back": "„Wen“ ist ein Frage- oder Relativpronomen im Akkusativ. „Wenn“ leitet etwa eine Bedingung oder einen Zeitsatz ein."
+  },
+  {
+    "id": "standard.expansion.spelling.020",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Warum heißen Vergleichsformen „größer als“ und Gleichsetzungen „so groß wie“?",
+    "back": "„Als“ kennzeichnet den Unterschied nach einem Komparativ. „Wie“ gehört zur Gleichsetzung mit „so“."
+  },
+  {
+    "id": "standard.expansion.spelling.021",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie suchst du „ging“ im Wörterbuch, wenn es dort nicht als Stichwort steht?",
+    "back": "Suche die Grundform „gehen“. Wörterbücher erklären gebeugte Formen normalerweise beim Grundwort."
+  },
+  {
+    "id": "standard.expansion.spelling.022",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Warum ersetzt eine automatische Rechtschreibkorrektur keine eigene Prüfung?",
+    "back": "Ein falsch verwendetes Wort kann trotzdem richtig geschrieben sein, etwa „Seite“ statt „Saite“. Prüfe den Sinn im Satz."
+  },
+  {
+    "id": "standard.expansion.spelling.023",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie gliederst du das zusammengesetzte Nomen „Haustürschlüssel“ zum Prüfen?",
+    "back": "In Haus, Tür und Schlüssel. Die Wortbausteine erleichtern das Verstehen und die Prüfung der Schreibweise."
+  },
+  {
+    "id": "standard.expansion.spelling.024",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie trennst du „Fens-ter“ am Zeilenende und warum nicht mitten in jedem Laut?",
+    "back": "Die Worttrennung folgt festgelegten Silbenregeln. Konsonantenverbindungen werden nicht beliebig zerrissen; „Fens-ter“ ist zulässig."
+  },
+  {
+    "id": "standard.expansion.spelling.025",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Warum setzt du bei „Das Auto ist neu“ kein Apostroph?",
+    "back": "Es liegt weder eine Auslassung noch ein entsprechender Eigenname im Genitiv vor. Ein Apostroph ist hier unnötig."
+  },
+  {
+    "id": "standard.expansion.spelling.026",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie schreibst du eine Frage mit indirektem Fragesatz: „Ich weiß nicht wann der Bus kommt“?",
+    "back": "„Ich weiß nicht, wann der Bus kommt.“ Der abhängige Fragesatz wird mit Komma abgegrenzt; der Gesamtsatz endet hier mit einem Punkt."
+  },
+  {
+    "id": "standard.expansion.spelling.027",
+    "subject": "german",
+    "rubric": "spelling",
+    "front": "Wie verbesserst du einen Text, ohne seinen Sinn beim Korrigieren zu verändern?",
+    "back": "Prüfe nacheinander Satzgrenzen, Großschreibung, Wortformen und Zeichensetzung. Vergleiche jede Änderung mit der beabsichtigten Aussage."
+  },
+  {
+    "id": "standard.expansion.tenses.001",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie bildest du das Präsens von „arbeiten“ für „du“?",
+    "back": "„Du arbeitest.“ Der Verbstamm erhält die passende Personalendung; hier steht ein zusätzliches e vor st."
+  },
+  {
+    "id": "standard.expansion.tenses.002",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie bildest du das Präteritum eines regelmäßigen Verbs wie „lernen“?",
+    "back": "Mit einer Form auf -te: „ich lernte“, „wir lernten“. Der Stamm bleibt hier unverändert."
+  },
+  {
+    "id": "standard.expansion.tenses.003",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Was verändert sich beim starken Verb „gehen“ im Präteritum?",
+    "back": "Der Stammvokal und die Form ändern sich: „ich ging“. Diese Form wird nicht mit der regelmäßigen Endung -te gebildet."
+  },
+  {
+    "id": "standard.expansion.tenses.004",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie setzt du „Ich kaufe Brot“ ins Perfekt?",
+    "back": "„Ich habe Brot gekauft.“ Das Hilfsverb ist gebeugt, „gekauft“ ist das Partizip II."
+  },
+  {
+    "id": "standard.expansion.tenses.005",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie setzt du „Sie fährt nach Hause“ ins Perfekt?",
+    "back": "„Sie ist nach Hause gefahren.“ Für diese gerichtete Bewegung wird hier „sein“ verwendet."
+  },
+  {
+    "id": "standard.expansion.tenses.006",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Warum heißt es „Er hat geschlafen“ und nicht immer „ist“ bei vergangenen Handlungen?",
+    "back": "Die Wahl des Hilfsverbs hängt vom Verb und seiner Verwendung ab. „Schlafen“ bildet das Perfekt mit „haben“."
+  },
+  {
+    "id": "standard.expansion.tenses.007",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie bildest du das Partizip II eines einfachen regelmäßigen Verbs?",
+    "back": "Meist ge- plus Stamm plus -t: „machen“ wird „gemacht“. Es gibt besondere Formen bei anderen Verben."
+  },
+  {
+    "id": "standard.expansion.tenses.008",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Warum lautet das Partizip II „besucht“ statt „gebesucht“?",
+    "back": "Verben mit unbetonten Vorsilben wie be- bilden ihr Partizip II ohne ge-."
+  },
+  {
+    "id": "standard.expansion.tenses.009",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie lautet das Partizip II von „aufstehen“ und wo steht ge-?",
+    "back": "„Aufgestanden“. Bei diesem trennbaren Verb steht ge- zwischen Vorsilbe und Stamm."
+  },
+  {
+    "id": "standard.expansion.tenses.010",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Warum heißt es „telefoniert“ statt „getelefoniert“?",
+    "back": "Verben auf -ieren bilden das Partizip II normalerweise ohne ge-: telefonieren – telefoniert."
+  },
+  {
+    "id": "standard.expansion.tenses.011",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie setzt du „Ich habe gegessen“ ins Plusquamperfekt?",
+    "back": "„Ich hatte gegessen.“ Das Hilfsverb steht nun im Präteritum, das Partizip II bleibt gleich."
+  },
+  {
+    "id": "standard.expansion.tenses.012",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Welche Handlung geschah zuerst: „Als der Bus kam, hatte ich schon gewartet“?",
+    "back": "Das Warten lag vor dem Kommen des Busses. Das Plusquamperfekt kennzeichnet die Vorzeitigkeit."
+  },
+  {
+    "id": "standard.expansion.tenses.013",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie formulierst du einen Plan mit Futur I?",
+    "back": "„Ich werde morgen lernen.“ Eine Präsensform von „werden“ wird mit dem Infinitiv verbunden."
+  },
+  {
+    "id": "standard.expansion.tenses.014",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Warum beschreibt „Morgen beginnt mein Praktikum“ trotz Präsens die Zukunft?",
+    "back": "Das Zeitwort „morgen“ und der Zusammenhang zeigen die Zukunft. Zeitform und tatsächliche Zeit müssen nicht übereinstimmen."
+  },
+  {
+    "id": "standard.expansion.tenses.015",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Welche Zeitform passt meist zu allgemein gültigen Regeln?",
+    "back": "Das Präsens, etwa „Wasser gefriert bei normalem Luftdruck bei etwa 0 °C“. Es bezeichnet hier keinen einmaligen aktuellen Vorgang."
+  },
+  {
+    "id": "standard.expansion.tenses.016",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wann wird in Erzählungen häufig Präteritum verwendet?",
+    "back": "Beim schriftlichen Erzählen vergangener Ereignisse, etwa „Sie öffnete die Tür“. Andere Zeitformen können darin zusätzliche Beziehungen zeigen."
+  },
+  {
+    "id": "standard.expansion.tenses.017",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Warum hört man im Gespräch oft „Ich habe gearbeitet“ statt „Ich arbeitete“?",
+    "back": "In vielen Regionen wird Vergangenes mündlich häufig mit Perfekt erzählt. Die Verteilung ist auch regional verschieden."
+  },
+  {
+    "id": "standard.expansion.tenses.018",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Welche Zeitform steht in einer üblichen Inhaltsangabe?",
+    "back": "Meist Präsens: „Die Figur verlässt das Haus.“ Vergangenes innerhalb der Handlung kann zusätzlich als vorzeitig markiert werden."
+  },
+  {
+    "id": "standard.expansion.tenses.019",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Was ist Futur II und wie wird es gebildet?",
+    "back": "Werden plus Partizip II plus haben oder sein: „Ich werde die Aufgabe gelöst haben.“ Es kann künftig Abgeschlossenes ausdrücken."
+  },
+  {
+    "id": "standard.expansion.tenses.020",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Was kann „Er wird schon zu Hause sein“ außer Zukunft ausdrücken?",
+    "back": "Eine Vermutung über die Gegenwart. Futur I ist nicht ausschließlich eine Zeitangabe für später."
+  },
+  {
+    "id": "standard.expansion.tenses.021",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Was kann „Sie wird den Bus verpasst haben“ ausdrücken?",
+    "back": "Eine Vermutung über etwas Vergangenes. Die Form Futur II kann ebenfalls eine Vermutung kennzeichnen."
+  },
+  {
+    "id": "standard.expansion.tenses.022",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Warum muss in „Wir haben gelernt“ das Hilfsverb zur Mehrzahl passen?",
+    "back": "Person und Zahl stehen am gebeugten Hilfsverb. Das Partizip „gelernt“ verändert sich dabei nicht."
+  },
+  {
+    "id": "standard.expansion.tenses.023",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie formulierst du eine klare zeitliche Reihenfolge mit „bevor“?",
+    "back": "„Ich hatte die Maschine ausgeschaltet, bevor ich sie reinigte.“ Die erste Handlung ist vorzeitig und wird so kenntlich gemacht."
+  },
+  {
+    "id": "standard.expansion.tenses.024",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Warum ist „Der Brief wurde geschrieben“ nicht Futur I?",
+    "back": "„Wurde“ mit Partizip II bildet hier Passiv im Präteritum. Futur I wäre „Der Brief wird geschrieben werden“."
+  },
+  {
+    "id": "standard.expansion.tenses.025",
+    "subject": "german",
+    "rubric": "tenses",
+    "front": "Wie korrigierst du einen unbegründeten Zeitwechsel in einem vergangenen Bericht?",
+    "back": "Halte die gewählte Erzählzeit ein und wechsle nur für erkennbare zeitliche Beziehungen. Aus „Gestern kam er und geht“ wird etwa „kam er und ging“."
+  },
+  {
+    "id": "standard.expansion.texts.001",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie helfen W-Fragen beim Vorbereiten eines Berichts?",
+    "back": "Wer, was, wann, wo, wie und warum sammeln wichtige Angaben. Unbekannte Informationen dürfen dabei nicht erfunden werden."
+  },
+  {
+    "id": "standard.expansion.texts.002",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie unterscheidest du eine Überschrift vom Hauptgedanken eines Textes?",
+    "back": "Die Überschrift benennt oder weckt Interesse am Thema. Der Hauptgedanke fasst die zentrale Aussage in eigenen Worten zusammen."
+  },
+  {
+    "id": "standard.expansion.texts.003",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie findest du gezielt eine Abfahrtszeit in einem Fahrplan?",
+    "back": "Suche erst Strecke, Richtung und Datum, dann die passende Zeile und Spalte. Beachte auch Fußnoten und Gültigkeitstage."
+  },
+  {
+    "id": "standard.expansion.texts.004",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Was bedeutet es, etwas aus einem Text zu erschließen?",
+    "back": "Eine nicht ausdrücklich genannte Information aus Textstellen und Zusammenhängen begründet abzuleiten. Eine bloße Vermutung reicht nicht."
+  },
+  {
+    "id": "standard.expansion.texts.005",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie belegst du eine Behauptung über eine Figur?",
+    "back": "Nenne eine passende Handlung oder Textstelle und erkläre, wie sie deine Aussage stützt. Kennzeichne Zitate und Fundstellen."
+  },
+  {
+    "id": "standard.expansion.texts.006",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Was unterscheidet Erzähler und Autor?",
+    "back": "Der Autor schreibt den Text. Der Erzähler ist die Stimme innerhalb der Erzählung; seine Sicht muss nicht der Meinung des Autors entsprechen."
+  },
+  {
+    "id": "standard.expansion.texts.007",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Woran erkennst du eine Ich-Erzählung und welche Grenze hat ihre Perspektive?",
+    "back": "Eine erzählende Figur berichtet mit „ich“. Sie kennt nicht automatisch alle Gedanken und Erlebnisse anderer Figuren."
+  },
+  {
+    "id": "standard.expansion.texts.008",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie unterscheidest du eine Vorgangsbeschreibung von einer Erzählung?",
+    "back": "Eine Vorgangsbeschreibung erklärt nachvollziehbare Schritte. Eine Erzählung gestaltet ein Geschehen, oft mit Figuren, Spannung und einer Perspektive."
+  },
+  {
+    "id": "standard.expansion.texts.009",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Was gehört in eine klare Arbeitsanweisung?",
+    "back": "Ziel, benötigte Mittel und eine sinnvolle Reihenfolge. Eindeutige Verben und Hinweise auf wichtige Bedingungen helfen beim Ausführen."
+  },
+  {
+    "id": "standard.expansion.texts.010",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie strukturierst du eine begründete Stellungnahme?",
+    "back": "Nenne deinen Standpunkt, begründe ihn mit passenden Beispielen und ziehe ein nachvollziehbares Fazit. Prüfe auch Gegenargumente."
+  },
+  {
+    "id": "standard.expansion.texts.011",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie entkräftest du ein Gegenargument sachlich?",
+    "back": "Gib es fair wieder und zeige anhand von Gründen oder Belegen seine Grenzen. Greife nicht die Person an."
+  },
+  {
+    "id": "standard.expansion.texts.012",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie unterscheiden sich ein Beispiel und ein Beweis für eine allgemeine Behauptung?",
+    "back": "Ein Beispiel veranschaulicht einen Fall. Es beweist allein noch nicht, dass eine Aussage immer oder für alle gilt."
+  },
+  {
+    "id": "standard.expansion.texts.013",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Was gehört in eine sachliche Bewerbung per E-Mail?",
+    "back": "Passender Betreff, höfliche Anrede, Anliegen, relevante Angaben, Gruß und Name. Erwähnte Anhänge sollten tatsächlich beigefügt sein."
+  },
+  {
+    "id": "standard.expansion.texts.014",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie reagierst du schriftlich auf eine unklare Terminangabe?",
+    "back": "Frage konkret nach Datum, Uhrzeit und Ort. Wiederhole bereits verstandene Angaben, damit Missverständnisse auffallen."
+  },
+  {
+    "id": "standard.expansion.texts.015",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie formulierst du eine sachliche Beschwerde?",
+    "back": "Beschreibe den überprüfbaren Vorfall, nenne relevante Daten und eine angemessene gewünschte Lösung. Vermeide Beleidigungen und unbelegte Vorwürfe."
+  },
+  {
+    "id": "standard.expansion.texts.016",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Warum braucht eine Zusammenfassung Abstand zur eigenen Meinung?",
+    "back": "Sie soll die Kernaussagen des Ausgangstextes wiedergeben. Persönliche Bewertungen würden die Darstellung verändern und müssen getrennt werden."
+  },
+  {
+    "id": "standard.expansion.texts.017",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie ordnest du Absätze in einem eigenen Text sinnvoll?",
+    "back": "Jeder Absatz behandelt einen zusammenhängenden Gedanken. Die Reihenfolge folgt etwa dem Ablauf oder der Argumentation."
+  },
+  {
+    "id": "standard.expansion.texts.018",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wozu dienen Verknüpfungen wie „deshalb“, „dagegen“ und „außerdem“?",
+    "back": "Sie zeigen Beziehungen zwischen Aussagen: Folge, Gegensatz oder Ergänzung. So wird der Gedankengang verständlicher."
+  },
+  {
+    "id": "standard.expansion.texts.019",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Was ist eine rhetorische Frage?",
+    "back": "Eine Frage, auf die im Zusammenhang keine echte Antwort erwartet wird. Sie kann etwa Zustimmung nahelegen oder Kritik verstärken."
+  },
+  {
+    "id": "standard.expansion.texts.020",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie erkennst du eine Übertreibung als sprachliches Mittel?",
+    "back": "Eine Aussage steigert bewusst über das wörtlich Gemeinte hinaus, etwa „Ich habe ewig gewartet“. Prüfe die Wirkung im Zusammenhang."
+  },
+  {
+    "id": "standard.expansion.texts.021",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie passt du eine Nachricht an ihre Empfänger an?",
+    "back": "Wähle passende Anrede, notwendige Informationen und verständliche Wörter. Eine Nachricht an Freunde unterscheidet sich von einer Bewerbung."
+  },
+  {
+    "id": "standard.expansion.texts.022",
+    "subject": "german",
+    "rubric": "texts",
+    "front": "Wie überarbeitest du einen Entwurf zuerst inhaltlich?",
+    "back": "Prüfe Ziel, Vollständigkeit, Reihenfolge und verständliche Begründungen. Erst danach lohnt die genaue sprachliche und orthografische Korrektur."
+  },
+  {
+    "id": "standard.expansion.soc-family.001",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Was unterscheidet eine vereinbarte Regel von einer bloßen Gewohnheit im Haushalt?",
+    "back": "Eine Regel benennt, was gemeinsam gelten soll. Eine Gewohnheit entsteht durch Wiederholung, ohne dass alle ihr ausdrücklich zugestimmt haben müssen."
+  },
+  {
+    "id": "standard.expansion.soc-family.002",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Warum ist unbezahlte Sorgearbeit gesellschaftlich wichtig?",
+    "back": "Kinderbetreuung, Pflege und Unterstützung ermöglichen das Zusammenleben und oft auch Erwerbsarbeit. Fehlender Lohn bedeutet nicht fehlenden Wert."
+  },
+  {
+    "id": "standard.expansion.soc-family.003",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Wie unterscheiden sich feste und veränderliche Haushaltsausgaben?",
+    "back": "Feste Ausgaben fallen regelmäßig in vereinbarter Höhe an, etwa Miete. Veränderliche Ausgaben wie Freizeitkosten können stärker schwanken."
+  },
+  {
+    "id": "standard.expansion.soc-family.004",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Wie planst du für eine nur einmal jährlich fällige Rechnung?",
+    "back": "Teile den Jahresbetrag durch zwölf und lege möglichst monatlich diesen Anteil zurück. So wird die spätere Zahlung planbarer."
+  },
+  {
+    "id": "standard.expansion.soc-family.005",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Wie gehst du vor, wenn das Haushaltsgeld nicht für alle Wünsche reicht?",
+    "back": "Sichere zuerst notwendige Ausgaben, prüfe Einsparmöglichkeiten und suche früh Unterstützung. Ein Wunsch ist nicht automatisch eine notwendige Ausgabe."
+  },
+  {
+    "id": "standard.expansion.soc-family.006",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Warum sollte eine Familienaufgabe nicht allein nach dem Geschlecht verteilt werden?",
+    "back": "Fähigkeiten, Zeit und Belastung unterscheiden sich individuell. Eine faire Absprache ersetzt pauschale Erwartungen an Frauen oder Männer."
+  },
+  {
+    "id": "standard.expansion.soc-family.007",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Wie unterscheidet sich ein Bedürfnis von einer konkreten Forderung im Streit?",
+    "back": "Das Bedürfnis beschreibt, was wichtig ist, etwa Ruhe. „Mach sofort die Musik aus“ ist eine mögliche Forderung; andere Lösungen sind verhandelbar."
+  },
+  {
+    "id": "standard.expansion.soc-family.008",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Was ist eine Ich-Botschaft und wie kann sie einen Streit entschärfen?",
+    "back": "Sie beschreibt die eigene Wahrnehmung und ein Bedürfnis: „Ich kann bei der Lautstärke nicht lernen.“ Sie vermeidet eine pauschale Abwertung."
+  },
+  {
+    "id": "standard.expansion.soc-family.009",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Warum ist eine persönliche Grenze auch in einer engen Beziehung zu respektieren?",
+    "back": "Nähe ersetzt keine Zustimmung. Jede Person darf Grenzen für Körper, Privatsphäre und persönlichen Umgang setzen."
+  },
+  {
+    "id": "standard.expansion.soc-family.010",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Welches Recht haben Kinder nach § 1631 BGB in der Erziehung?",
+    "back": "Sie haben ein Recht auf Pflege und Erziehung ohne Gewalt, körperliche Bestrafung, seelische Verletzung oder Entwürdigung."
+  },
+  {
+    "id": "standard.expansion.soc-family.011",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Wie unterscheiden sich Gleichbehandlung und ein Ausgleich von Hindernissen?",
+    "back": "Die gleiche Regel hilft nicht immer allen gleich. Ein barrierefreier Zugang kann nötig sein, damit Menschen tatsächlich dieselbe Chance zur Teilnahme haben."
+  },
+  {
+    "id": "standard.expansion.soc-family.012",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Warum sollte bei einem Streit nicht nur die lauteste Person entscheiden?",
+    "back": "Andere Bedürfnisse können sonst übergangen werden. Gleiche Redechancen und verständliche Absprachen machen Entscheidungen fairer."
+  },
+  {
+    "id": "standard.expansion.soc-family.013",
+    "subject": "social",
+    "rubric": "soc-family",
+    "front": "Wie kannst du dich für eine sauberere Umgebung im Wohnviertel einsetzen?",
+    "back": "Zum Beispiel gemeinsam eine Aufräumaktion organisieren und die Gemeinde auf fehlende Abfalleimer hinweisen. Zuständigkeiten und sichere Durchführung sind wichtig."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.001",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Was unterscheidet Genuss, riskanten Konsum und Abhängigkeit?",
+    "back": "Nicht jeder Konsum ist abhängig. Steigende Risiken und besonders Kontrollverlust oder Weiterkonsum trotz Schäden erfordern Aufmerksamkeit und fachliche Abklärung."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.002",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum ist Abhängigkeit nicht einfach ein Mangel an Willenskraft?",
+    "back": "Es ist eine Erkrankung mit körperlichen, psychischen und sozialen Einflüssen. Unterstützung und Behandlung können nötig sein."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.003",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Was bedeutet Toleranzentwicklung bei einem Suchtmittel?",
+    "back": "Die gleiche Menge wirkt bei wiederholtem Konsum schwächer. Höhere Mengen erhöhen Risiken; Gewöhnung bedeutet keine Ungefährlichkeit."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.004",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Was sind Entzugssymptome?",
+    "back": "Beschwerden nach dem Reduzieren oder Absetzen bei Abhängigkeit, etwa Unruhe oder Zittern. Ein Entzug kann medizinische Begleitung erfordern."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.005",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum ist „Ich halte viel Alkohol aus“ kein Beleg für Sicherheit?",
+    "back": "Gewöhnung kann Warnzeichen verdecken. Organe und Reaktionsfähigkeit können trotzdem geschädigt oder beeinträchtigt werden."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.006",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum macht Kaffee nach Alkoholkonsum nicht wieder nüchtern?",
+    "back": "Er beschleunigt den Alkoholabbau nicht entscheidend. Wachheit ist nicht dasselbe wie sichere Reaktions- und Urteilsfähigkeit."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.007",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum kann auch passives Rauchen schaden?",
+    "back": "Andere Menschen atmen Schadstoffe aus dem Tabakrauch ein. Sie müssen dafür nicht selbst rauchen."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.008",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum ist Nikotin bei E-Zigaretten ein eigenes Risiko?",
+    "back": "Nikotin kann abhängig machen. Ein anderes Gerät beseitigt dieses Risiko nicht; auch nikotinfreie Aerosole sind nicht automatisch harmlos."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.009",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum kann Werbung Risiken eines Produkts unterschätzen lassen?",
+    "back": "Sie hebt gewünschte Wirkungen und Lebensgefühle hervor. Gesundheitliche Folgen oder Abhängigkeit stehen dabei oft nicht im Mittelpunkt."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.010",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Wie kannst du eine angebotene Substanz ablehnen, ohne lange zu diskutieren?",
+    "back": "Sag klar „Nein, ich möchte das nicht“ und suche bei weiterem Druck Unterstützung oder verlasse die Situation. Eine Rechtfertigung ist nicht nötig."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.011",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Was unterscheidet ein gutes Freizeitangebot von ständigem Leistungsdruck?",
+    "back": "Es lässt Erholung, Freude und eigene Entscheidungen zu. Freizeit muss nicht dauernd messbare Leistung oder Anerkennung bringen."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.012",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Wie helfen feste bildschirmfreie Zeiten im Alltag?",
+    "back": "Sie schaffen Raum für Schlaf, Bewegung, persönliche Kontakte und andere Aufgaben. Wichtig ist, ob die Nutzung zum eigenen Alltag passt."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.013",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Welche Warnzeichen können auf problematisches Spielen hinweisen?",
+    "back": "Kontrollverlust, Vernachlässigung wichtiger Lebensbereiche und Fortsetzen trotz deutlicher Schäden. Spielzeit allein erlaubt keine Diagnose."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.014",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum ist eine bezahlte Zufallsbelohnung in einem Spiel finanziell riskant?",
+    "back": "Der Preis wird bezahlt, der gewünschte Gegenstand ist aber nicht sicher. Viele kleine Käufe können hohe Gesamtkosten ergeben."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.015",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum gleicht eine neue Glücksspieleinzahlung frühere Verluste nicht zuverlässig aus?",
+    "back": "Der Ausgang bleibt unsicher. Hinterherjagen nach Verlusten kann Schulden vergrößern; vergangene Verluste sichern keinen künftigen Gewinn."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.016",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Welche Folgen kann eine Abhängigkeit neben Gesundheitsschäden haben?",
+    "back": "Zum Beispiel Konflikte, Geldprobleme und Schwierigkeiten in Ausbildung oder Arbeit. Die Folgen unterscheiden sich von Person zu Person."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.017",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Wie sprichst du eine befreundete Person auf auffälligen Konsum an?",
+    "back": "Wähle eine ruhige Situation, nenne konkrete Beobachtungen und biete Unterstützung an. Beschämung und pauschale Vorwürfe erschweren das Gespräch."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.018",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum solltest du die Schulden einer abhängig spielenden Person nicht einfach immer ausgleichen?",
+    "back": "Das kann den Kreislauf verdecken und dich selbst belasten. Beratung kann helfen, klare Grenzen und geeignete Unterstützung zu finden."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.019",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Welche Aufgabe hat eine Suchtberatungsstelle auch ohne festgestellte Abhängigkeit?",
+    "back": "Sie informiert über Risiken, bespricht Sorgen und vermittelt bei Bedarf weitere Hilfen. Man darf sich auch als Angehöriger beraten lassen."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.020",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum ist der gemeinsame Konsum von Alkohol und Medikamenten nicht sicher vorhersehbar?",
+    "back": "Die Wirkungen können sich verändern oder verstärken. Hinweise und fachliche Beratung sind wichtiger als eigene Vermutungen."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.021",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Warum sind Schlaf und Bewegung sinnvolle Bestandteile der Freizeitplanung?",
+    "back": "Sie unterstützen Erholung, Aufmerksamkeit und körperliche Gesundheit. Sie sind kein Ersatz für notwendige Behandlung, aber wichtige Alltagsbedingungen."
+  },
+  {
+    "id": "standard.expansion.soc-leisure.022",
+    "subject": "social",
+    "rubric": "soc-leisure",
+    "front": "Wie erkennst du, ob ein Freizeitplan finanziell realistisch ist?",
+    "back": "Vergleiche verfügbare Mittel mit Eintritt, Fahrt, Essen und weiteren Kosten. Plane nur Geld ein, das nach notwendigen Ausgaben übrig bleibt."
+  },
+  {
+    "id": "standard.expansion.soc-media.001",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was ist eine redaktionelle Nachricht und woran erkennst du ihren Ursprung?",
+    "back": "Sie wird von einer Redaktion ausgewählt und bearbeitet. Autor, Medium, Datum und nachvollziehbare Belege helfen bei der Einordnung."
+  },
+  {
+    "id": "standard.expansion.soc-media.002",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was unterscheidet Information von einer Werbebotschaft am Zweck?",
+    "back": "Information soll über etwas Auskunft geben. Werbung will etwa Kauf oder Zustimmung fördern; beides kann in einem Beitrag vermischt sein."
+  },
+  {
+    "id": "standard.expansion.soc-media.003",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was ist ein Interessenkonflikt bei einer Produktempfehlung?",
+    "back": "Die empfehlende Person kann vom Verkauf profitieren. Dieses Interesse sollte erkennbar sein und bei der Bewertung berücksichtigt werden."
+  },
+  {
+    "id": "standard.expansion.soc-media.004",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was bedeutet „gesponsert“ bei einem Beitrag?",
+    "back": "Für die Veröffentlichung oder Darstellung gibt es eine Unterstützung oder Gegenleistung. Der Beitrag ist deshalb nicht automatisch unabhängig."
+  },
+  {
+    "id": "standard.expansion.soc-media.005",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Warum beweisen viele Likes nicht, dass eine Behauptung wahr ist?",
+    "back": "Likes messen Reaktionen, nicht die Qualität von Belegen. Beliebte Inhalte können ebenfalls falsch oder irreführend sein."
+  },
+  {
+    "id": "standard.expansion.soc-media.006",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was unterscheidet eine Quelle von einem Beleg?",
+    "back": "Die Quelle ist der Ursprung einer Information. Ein Beleg ist das konkrete Material, das eine Behauptung stützen soll."
+  },
+  {
+    "id": "standard.expansion.soc-media.007",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Wie prüfst du einen spektakulären Screenshot einer angeblichen Nachricht?",
+    "back": "Suche die Originalveröffentlichung mit Datum und Zusammenhang. Ein Screenshot lässt sich leicht verändern oder aus dem Kontext lösen."
+  },
+  {
+    "id": "standard.expansion.soc-media.008",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Warum können alte Meldungen als aktuelle Meldungen irreführen?",
+    "back": "Der zeitliche Zusammenhang verändert die Bedeutung. Eine echte alte Nachricht belegt nicht automatisch die Lage von heute."
+  },
+  {
+    "id": "standard.expansion.soc-media.009",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was ist Clickbait?",
+    "back": "Eine zugespitzte Überschrift soll zum Anklicken verleiten, hält aber oft weniger Informationen bereit als versprochen. Prüfe den eigentlichen Inhalt."
+  },
+  {
+    "id": "standard.expansion.soc-media.010",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Warum ist ein KI-generierter Text allein kein Beleg für seine Aussagen?",
+    "back": "Er kann überzeugend klingen und dennoch falsche Angaben enthalten. Prüfe zentrale Aussagen an nachvollziehbaren Originalquellen."
+  },
+  {
+    "id": "standard.expansion.soc-media.011",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was unterscheidet Desinformation von einem unbeabsichtigten Fehler?",
+    "back": "Desinformation soll täuschen. Ein Fehler kann ohne Täuschungsabsicht entstehen; die Absicht ist von außen nicht immer sicher feststellbar."
+  },
+  {
+    "id": "standard.expansion.soc-media.012",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Warum hilft das private Browserfenster nicht gegen alle Datenspuren?",
+    "back": "Es reduziert bestimmte lokale Spuren. Webseiten oder Netzbetreiber können trotzdem Verbindungsdaten erhalten; vollständige Anonymität entsteht nicht."
+  },
+  {
+    "id": "standard.expansion.soc-media.013",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Welche Folgen kann das öffentliche Teilen einer Wohnadresse haben?",
+    "back": "Andere können eine Person gezielt aufsuchen oder belästigen. Solche privaten Daten sollten nicht ohne berechtigten Anlass und Erlaubnis verbreitet werden."
+  },
+  {
+    "id": "standard.expansion.soc-media.014",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Warum ist die Zustimmung zu einem Foto nicht automatisch die Erlaubnis zur Veröffentlichung?",
+    "back": "Aufnahme und Veröffentlichung sind verschiedene Handlungen. Vor dem Teilen müssen Rechte, Zweck und mögliche Zustimmung geprüft werden."
+  },
+  {
+    "id": "standard.expansion.soc-media.015",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was ist ein sicheres Vorgehen bei einem unerwarteten Dateianhang?",
+    "back": "Öffne ihn nicht unüberlegt. Prüfe den Anlass über einen unabhängig bekannten Kontakt; auch scheinbar bekannte Absender können gefälscht sein."
+  },
+  {
+    "id": "standard.expansion.soc-media.016",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Warum sind regelmäßige Softwareupdates für die Mediennutzung wichtig?",
+    "back": "Sie schließen oft bekannte Sicherheitslücken. Veraltete Programme können leichter angegriffen werden."
+  },
+  {
+    "id": "standard.expansion.soc-media.017",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Was schützt eine Datensicherung, das ein Passwort nicht schützt?",
+    "back": "Eine Sicherung kann verlorene oder beschädigte Dateien wiederherstellen. Ein Passwort allein stellt gelöschte Daten nicht wieder her."
+  },
+  {
+    "id": "standard.expansion.soc-media.018",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Wie kannst du auf Cybermobbing reagieren, ohne es weiterzuverbreiten?",
+    "back": "Sichere nötige Belege geschützt, hole Unterstützung und nutze Meldewege. Teile demütigende Inhalte nicht zur Unterhaltung weiter."
+  },
+  {
+    "id": "standard.expansion.soc-media.019",
+    "subject": "social",
+    "rubric": "soc-media",
+    "front": "Warum sollte eine Korrektur falscher Angaben sichtbar sein?",
+    "back": "Lesende müssen erkennen können, was geändert wurde und warum. Transparente Korrekturen machen Fehler nachvollziehbar."
+  },
+  {
+    "id": "standard.expansion.soc-elections.001",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Was bedeutet eine unmittelbare Bundestagswahl?",
+    "back": "Wahlberechtigte wählen die Abgeordneten ohne dazwischengeschaltete Wahlpersonen. Parteien stellen zuvor Kandidierende und Listen auf."
+  },
+  {
+    "id": "standard.expansion.soc-elections.002",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Was schützt der Grundsatz der freien Wahl?",
+    "back": "Die Entscheidung darf nicht durch Zwang oder unzulässigen Druck bestimmt werden. Auch die Entscheidung, nicht zu wählen, darf nicht erzwungen werden."
+  },
+  {
+    "id": "standard.expansion.soc-elections.003",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Wie alt muss man für das aktive Wahlrecht bei Bundestagswahlen mindestens sein?",
+    "back": "Nach geltendem Grundgesetz 18 Jahre. Weitere gesetzliche Voraussetzungen gelten; andere Wahlarten können andere Altersgrenzen haben."
+  },
+  {
+    "id": "standard.expansion.soc-elections.004",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Warum lassen sich Regeln der Bundestagswahl nicht einfach auf jede Kommunalwahl übertragen?",
+    "back": "Wahlalter, Stimmenzahl und Stimmabgabe können je nach Wahlart und Bundesland verschieden sein. Maßgeblich sind die konkreten Wahlregeln."
+  },
+  {
+    "id": "standard.expansion.soc-elections.005",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Was bedeutet Wahlbeteiligung und wie wird sie berechnet?",
+    "back": "Der Anteil der Wählenden an allen Wahlberechtigten: Zahl der Wählenden geteilt durch Zahl der Wahlberechtigten, mal 100 %."
+  },
+  {
+    "id": "standard.expansion.soc-elections.006",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Warum ist Nichtwählen nicht dasselbe wie eine abgegebene Stimme für eine bestimmte Partei?",
+    "back": "Es wird keiner Partei eine Stimme zugeordnet. Die Zusammensetzung der abgegebenen Stimmen kann sich durch Nichtteilnahme trotzdem verändern."
+  },
+  {
+    "id": "standard.expansion.soc-elections.007",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Warum kann ein Wahlkreissieg einer Partei bei der Bundestagswahl nicht immer allein einen Sitz sichern?",
+    "back": "Nach dem geltenden System ist für Parteibewerber zusätzlich Zweitstimmendeckung erforderlich. Für erfolgreiche Einzelbewerber gelten eigene Regeln."
+  },
+  {
+    "id": "standard.expansion.soc-elections.008",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Was bezeichnet eine Sperrklausel im Wahlrecht?",
+    "back": "Eine gesetzliche Mindesthürde für die Berücksichtigung bei der Sitzverteilung. Voraussetzungen und Ausnahmen müssen für die jeweilige Wahl geprüft werden."
+  },
+  {
+    "id": "standard.expansion.soc-elections.009",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Warum solltest du einen Fehler auf dem Stimmzettel im Wahllokal nicht einfach unklar übermalen?",
+    "back": "Die Wahlentscheidung muss eindeutig sein. Frage die Wahlhelfenden nach einem neuen Stimmzettel, ohne deine Entscheidung offenzulegen."
+  },
+  {
+    "id": "standard.expansion.soc-elections.010",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Welche Unterstützung darf eine Hilfsperson bei der Stimmabgabe leisten?",
+    "back": "Sie darf eine benötigte praktische Hilfe nach dem Willen der wählenden Person geben. Sie darf die Wahlentscheidung nicht selbst bestimmen."
+  },
+  {
+    "id": "standard.expansion.soc-elections.011",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Was unterscheidet eine Mehrheit der Stimmen von einer Mehrheit der Sitze?",
+    "back": "Stimmen sind die abgegebenen Wahlentscheidungen. Sitze ergeben sich erst aus dem Wahlverfahren; beide Anteile müssen nicht genau gleich sein."
+  },
+  {
+    "id": "standard.expansion.soc-elections.012",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Warum sind geheime Stimmabgabe und öffentliche Kontrolle kein Widerspruch?",
+    "back": "Die persönliche Entscheidung bleibt geschützt. Der geregelte Ablauf und die Auszählung sollen dagegen grundsätzlich kontrollierbar sein."
+  },
+  {
+    "id": "standard.expansion.soc-elections.013",
+    "subject": "social",
+    "rubric": "soc-elections",
+    "front": "Wie unterscheidest du eine demokratische Wahlentscheidung von einem Beliebtheitswettbewerb?",
+    "back": "Prüfe Programme, Zuständigkeiten, begründete Vorschläge und Folgen. Auftreten oder Bekanntheit allein sagen wenig über politische Lösungen aus."
+  },
+  {
+    "id": "standard.expansion.bio-metabolism.001",
+    "subject": "biology",
+    "rubric": "bio-metabolism",
+    "front": "Welche Aufgabe hat der Speichel beim Verdauen?",
+    "back": "Er befeuchtet die Nahrung und enthält unter anderem ein Enzym, das Stärke abbaut. Kauen zerkleinert die Nahrung zusätzlich."
+  },
+  {
+    "id": "standard.expansion.bio-metabolism.002",
+    "subject": "biology",
+    "rubric": "bio-metabolism",
+    "front": "Warum fällt Nahrung auch beim Liegen durch die Speiseröhre zum Magen?",
+    "back": "Muskelbewegungen transportieren sie aktiv weiter. Der Transport hängt nicht nur von der Schwerkraft ab."
+  },
+  {
+    "id": "standard.expansion.bio-metabolism.003",
+    "subject": "biology",
+    "rubric": "bio-metabolism",
+    "front": "Welche Aufgaben haben Magensäure und Magenschleim?",
+    "back": "Säure unterstützt die Verdauung und hemmt viele Keime. Die Schleimschicht schützt die Magenwand vor dem sauren Inhalt."
+  },
+  {
+    "id": "standard.expansion.bio-metabolism.004",
+    "subject": "biology",
+    "rubric": "bio-metabolism",
+    "front": "Warum sind Enzyme für die Verdauung wichtig?",
+    "back": "Sie beschleunigen die Zerlegung großer Nährstoffmoleküle in kleinere Bausteine. Verschiedene Enzyme bearbeiten unterschiedliche Stoffe."
+  },
+  {
+    "id": "standard.expansion.bio-metabolism.005",
+    "subject": "biology",
+    "rubric": "bio-metabolism",
+    "front": "Welche Aufgabe hat der Dickdarm bei der Verdauung?",
+    "back": "Er nimmt unter anderem Wasser und Salze aus dem Darminhalt zurück. Unverdauliche Reste werden weitertransportiert."
+  },
+  {
+    "id": "standard.expansion.bio-metabolism.006",
+    "subject": "biology",
+    "rubric": "bio-metabolism",
+    "front": "Wie unterscheiden sich Arterien und Venen nach der Fließrichtung?",
+    "back": "Arterien führen Blut vom Herzen weg, Venen zum Herzen hin. Der Sauerstoffgehalt ist nicht das entscheidende Unterscheidungsmerkmal."
+  },
+  {
+    "id": "standard.expansion.bio-metabolism.007",
+    "subject": "biology",
+    "rubric": "bio-metabolism",
+    "front": "Warum nehmen Atmung und Puls bei körperlicher Anstrengung häufig zu?",
+    "back": "Die arbeitenden Muskeln brauchen mehr nutzbare Energie. Sauerstoff und Nährstoffe müssen schneller bereitgestellt und Stoffwechselprodukte abtransportiert werden."
+  },
+  {
+    "id": "standard.expansion.bio-senses.001",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Was ist ein Reiz und nenne ein Beispiel für einen geeigneten Sinn?",
+    "back": "Ein Reiz ist eine erfassbare Veränderung, etwa Licht für das Auge oder Schall für das Ohr. Sinneszellen wandeln ihn in Signale um."
+  },
+  {
+    "id": "standard.expansion.bio-senses.002",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Was unterscheidet Reiz und Reaktion an einer heißen Tasse?",
+    "back": "Die Wärme ist der Reiz. Das Zurückziehen der Hand ist eine mögliche Reaktion des Körpers darauf."
+  },
+  {
+    "id": "standard.expansion.bio-senses.003",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Welche Teile gehören zum zentralen Nervensystem?",
+    "back": "Gehirn und Rückenmark. Sie verarbeiten Informationen und steuern beziehungsweise koordinieren zahlreiche Körperfunktionen."
+  },
+  {
+    "id": "standard.expansion.bio-senses.004",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Welche Aufgabe hat das periphere Nervensystem?",
+    "back": "Es verbindet das zentrale Nervensystem mit Sinnesorganen, Muskeln und weiteren Organen durch Nervenbahnen."
+  },
+  {
+    "id": "standard.expansion.bio-senses.005",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Wie unterscheiden sich sensorische und motorische Nervenbahnen?",
+    "back": "Sensorische Bahnen leiten Informationen zum zentralen Nervensystem. Motorische Bahnen leiten Signale zu Muskeln oder anderen ausführenden Organen."
+  },
+  {
+    "id": "standard.expansion.bio-senses.006",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Warum reagieren wir auf dieselbe Situation nicht immer gleich schnell?",
+    "back": "Aufmerksamkeit, Müdigkeit, Ablenkung und die Art der Aufgabe beeinflussen die Verarbeitung. Eine bewusste Reaktion braucht mehrere Schritte."
+  },
+  {
+    "id": "standard.expansion.bio-senses.007",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Was ist die Pupille und warum ist sie kein schwarzer Farbfleck?",
+    "back": "Sie ist die Öffnung in der Iris, durch die Licht ins Auge gelangt. Sie erscheint dunkel, weil wenig Licht aus dem Augeninneren zurückkommt."
+  },
+  {
+    "id": "standard.expansion.bio-senses.008",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Wie stellt sich das Auge auf nahe Gegenstände scharf?",
+    "back": "Die Form der Linse wird verändert. Für die Nähe wird sie stärker gewölbt; dieser Vorgang heißt Akkommodation."
+  },
+  {
+    "id": "standard.expansion.bio-senses.009",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Was ist der blinde Fleck auf der Netzhaut?",
+    "back": "Die Austrittsstelle des Sehnervs hat keine Lichtsinneszellen. Das Gehirn ergänzt den fehlenden Bereich meist unbemerkt."
+  },
+  {
+    "id": "standard.expansion.bio-senses.010",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Warum helfen zwei Augen beim räumlichen Sehen?",
+    "back": "Sie betrachten Gegenstände aus leicht verschiedenen Richtungen. Das Gehirn nutzt die Bildunterschiede zur Einschätzung von Entfernungen."
+  },
+  {
+    "id": "standard.expansion.bio-senses.011",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Warum können optische Täuschungen auftreten?",
+    "back": "Das Gehirn deutet Sinnesinformationen mithilfe von Erfahrungen und Umgebung. Diese Deutung kann vom tatsächlichen Aufbau eines Bildes abweichen."
+  },
+  {
+    "id": "standard.expansion.bio-senses.012",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Welche Aufgabe hat die Ohrmuschel?",
+    "back": "Sie fängt Schall auf und unterstützt die Richtungswahrnehmung. Der Schall gelangt durch den Gehörgang zum Trommelfell."
+  },
+  {
+    "id": "standard.expansion.bio-senses.013",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Warum ist die Hörschnecke für das Hören unverzichtbar?",
+    "back": "In ihr werden mechanische Bewegungen durch Haarzellen in Signale für den Hörnerv übersetzt. Das Gehirn verarbeitet diese weiter."
+  },
+  {
+    "id": "standard.expansion.bio-senses.014",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Welche Aufgabe haben die Bogengänge im Innenohr?",
+    "back": "Sie erfassen Drehbewegungen des Kopfes und tragen zum Gleichgewichtssinn bei. Hören und Gleichgewicht sind unterschiedliche Sinnesleistungen."
+  },
+  {
+    "id": "standard.expansion.bio-senses.015",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Warum kann sehr lauter Schall dauerhaft das Gehör schädigen?",
+    "back": "Er kann empfindliche Haarzellen im Innenohr beschädigen. Lärmpausen, Abstand und geeigneter Gehörschutz verringern Belastungen."
+  },
+  {
+    "id": "standard.expansion.bio-senses.016",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Warum verändern sich beim Schnupfen oft Geschmackseindrücke?",
+    "back": "Der Geruchssinn trägt stark zum Aroma von Speisen bei. Ist er eingeschränkt, bleibt ein Teil des Gesamteindrucks aus."
+  },
+  {
+    "id": "standard.expansion.bio-senses.017",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Welche Sinnesleistungen übernimmt die Haut?",
+    "back": "Sie erfasst unter anderem Berührung, Druck, Wärme, Kälte und schädigende Reize. Dafür arbeiten verschiedene Rezeptoren."
+  },
+  {
+    "id": "standard.expansion.bio-senses.018",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Welche Aufgabe hat eine Synapse zwischen zwei Nervenzellen?",
+    "back": "Sie ist eine Kontaktstelle zur Signalübertragung. Häufig werden Botenstoffe freigesetzt, die an der nächsten Zelle wirken."
+  },
+  {
+    "id": "standard.expansion.bio-senses.019",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Warum ist die Schmerzempfindung ein wichtiges Warnsignal?",
+    "back": "Sie kann auf mögliche Schädigungen hinweisen und Schutzreaktionen auslösen. Stärke und Ursache lassen sich daraus nicht immer eindeutig ableiten."
+  },
+  {
+    "id": "standard.expansion.bio-senses.020",
+    "subject": "biology",
+    "rubric": "bio-senses",
+    "front": "Wie unterstützt wiederholtes aktives Abrufen das Lernen?",
+    "back": "Es trainiert das Wiederfinden von Informationen und kann Verbindungen im Gedächtnis festigen. Bloßes Wiederlesen verlangt weniger eigenen Abruf."
+  },
+  {
+    "id": "standard.expansion.bio-cells.001",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Welche Funktion hat die Zellwand einer Pflanzenzelle?",
+    "back": "Sie gibt Halt und begrenzt die Form. Sie liegt außerhalb der Zellmembran und besteht bei Pflanzen wesentlich aus Cellulose."
+  },
+  {
+    "id": "standard.expansion.bio-cells.002",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Welche Aufgabe hat die große Vakuole vieler Pflanzenzellen?",
+    "back": "Sie speichert unter anderem Wasser und gelöste Stoffe. Ihr Innendruck trägt zur Stabilität der Pflanzenzelle bei."
+  },
+  {
+    "id": "standard.expansion.bio-cells.003",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Warum welkt eine Pflanze häufig bei Wassermangel?",
+    "back": "Zellen verlieren Wasser und damit Innendruck. Die Gewebe werden weniger fest; bei starkem Mangel können Zellen geschädigt werden."
+  },
+  {
+    "id": "standard.expansion.bio-cells.004",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Welche Aufgabe haben Ribosomen?",
+    "back": "An ihnen werden Eiweiße anhand der entsprechenden genetischen Information aufgebaut. Sie kommen auch in Zellen ohne Zellkern vor."
+  },
+  {
+    "id": "standard.expansion.bio-cells.005",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Was ist Zellplasma?",
+    "back": "Der Inhalt der Zelle innerhalb der Membran, ohne den Zellkern betrachtet. Im flüssigen Anteil und an Zellstrukturen laufen viele Vorgänge ab."
+  },
+  {
+    "id": "standard.expansion.bio-cells.006",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Wie berechnest du die Gesamtvergrößerung eines einfachen Lichtmikroskops?",
+    "back": "Multipliziere Okular- und Objektivvergrößerung. Ein 10-faches Okular mit 40-fachem Objektiv ergibt 400-fache Vergrößerung."
+  },
+  {
+    "id": "standard.expansion.bio-cells.007",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Warum beginnt man beim Mikroskopieren meist mit der kleinsten Objektivvergrößerung?",
+    "back": "Das größere Sichtfeld erleichtert das Finden und Scharfstellen des Präparats. Danach kann vorsichtig stärker vergrößert werden."
+  },
+  {
+    "id": "standard.expansion.bio-cells.008",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Warum kann man Viren mit einem üblichen Schul-Lichtmikroskop nicht einzeln erkennen?",
+    "back": "Ihre Abmessungen liegen meist unter dessen Auflösungsgrenze. Eine hohe angegebene Vergrößerung ersetzt keine ausreichende Auflösung."
+  },
+  {
+    "id": "standard.expansion.bio-cells.009",
+    "subject": "biology",
+    "rubric": "bio-cells",
+    "front": "Warum müssen Kontroll- und Versuchsansatz möglichst gleich behandelt werden?",
+    "back": "Nur der untersuchte Einfluss soll sich unterscheiden. Sonst lässt sich eine beobachtete Wirkung nicht eindeutig diesem Einfluss zuordnen."
+  },
+  {
+    "id": "standard.expansion.bio-ecology.001",
+    "subject": "biology",
+    "rubric": "bio-ecology",
+    "front": "Warum kann das Entfernen eines Räubers auch andere Arten im Nahrungsnetz beeinflussen?",
+    "back": "Seine Beutetiere können sich stärker vermehren und ihrerseits andere Arten stärker nutzen. Mehrere Beziehungen im Netz verändern sich."
+  },
+  {
+    "id": "standard.expansion.bio-ecology.002",
+    "subject": "biology",
+    "rubric": "bio-ecology",
+    "front": "Wie unterscheidest du eine Beobachtung von einer Erklärung bei einem Naturversuch?",
+    "back": "„Im Schatten wachsen die Pflanzen langsamer“ beschreibt zunächst ein Ergebnis. „Wegen weniger Licht“ ist eine mögliche Erklärung, die geprüft werden muss."
+  },
+  {
+    "id": "standard.expansion.geo-americas.001",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Welche schmale Landverbindung verbindet Nord- und Südamerika?",
+    "back": "Der Isthmus von Panama im südlichen Mittelamerika. Er trennt zugleich Atlantikraum und Pazifikraum."
+  },
+  {
+    "id": "standard.expansion.geo-americas.002",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Warum ist der Panamakanal für den Welthandel bedeutsam?",
+    "back": "Er ermöglicht Schiffen den Wechsel zwischen Atlantik und Pazifik, ohne Südamerika zu umrunden. Dadurch können Wege deutlich kürzer werden."
+  },
+  {
+    "id": "standard.expansion.geo-americas.003",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Warum gibt es an einem Gebirge oft eine feuchte und eine trockene Seite?",
+    "back": "Aufsteigende Luft kühlt ab und kann Niederschlag bilden. Hinter dem Gebirge sinkende Luft wird wärmer und trockener; ein Regenschatten entsteht."
+  },
+  {
+    "id": "standard.expansion.geo-americas.004",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Was ist der Unterschied zwischen einem Hurrikan und einem Tornado?",
+    "back": "Ein Hurrikan ist ein großer tropischer Wirbelsturm über warmem Meer. Ein Tornado ist ein enger Luftwirbel mit Bodenkontakt, meist bei Gewittern."
+  },
+  {
+    "id": "standard.expansion.geo-americas.005",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Warum können Flüsse im Amazonasgebiet trotz großer Entfernung zum Meer schiffbar sein?",
+    "back": "Große Wassermengen und teilweise geringe Höhenunterschiede ermöglichen auf geeigneten Abschnitten Schifffahrt. Nicht jeder Nebenfluss ist überall befahrbar."
+  },
+  {
+    "id": "standard.expansion.geo-americas.006",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Was bedeutet „Lateinamerika“ und warum ist das keine reine Naturraumgrenze?",
+    "back": "Der Begriff bezieht sich vor allem auf sprachlich und historisch geprägte Räume, häufig mit Spanisch oder Portugiesisch. Er bezeichnet keine einheitliche Landschaft."
+  },
+  {
+    "id": "standard.expansion.geo-americas.007",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Warum lässt sich Amerika nicht als ein einziges Klima beschreiben?",
+    "back": "Der Raum umfasst viele Breiten- und Höhenlagen. Dazu verändern Gebirge, Meeresnähe und Strömungen die regionalen Bedingungen."
+  },
+  {
+    "id": "standard.expansion.geo-americas.008",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Was beschreibt El Niño im tropischen Pazifik?",
+    "back": "Eine Phase mit ungewöhnlich warmem Oberflächenwasser im zentralen und östlichen äquatorialen Pazifik, verbunden mit veränderten Luftströmungen und Wetterwirkungen."
+  },
+  {
+    "id": "standard.expansion.geo-americas.009",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Wie können Abholzungen im Amazonasgebiet auch den Wasserhaushalt beeinflussen?",
+    "back": "Weniger Wald verändert Verdunstung, Wasserspeicherung und Abfluss. Dadurch können regionale Niederschläge und die Erosionsgefahr beeinflusst werden."
+  },
+  {
+    "id": "standard.expansion.geo-americas.010",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Warum ist der Ausdruck „unbewohnte Wildnis“ bei indigenen Lebensräumen problematisch?",
+    "back": "Er übersieht dort lebende Gemeinschaften, ihre Geschichte, Rechte und Landnutzung. Geringe Bevölkerungsdichte bedeutet nicht, dass niemand dort lebt."
+  },
+  {
+    "id": "standard.expansion.geo-americas.011",
+    "subject": "geography",
+    "rubric": "geo-americas",
+    "front": "Wie kann eine große Exportplantage Vorteile und Nachteile zugleich haben?",
+    "back": "Sie kann Einkommen und Arbeitsplätze schaffen, aber auch Flächenkonflikte, Abhängigkeit von Weltmarktpreisen und Umweltbelastungen verstärken."
+  },
+  {
+    "id": "standard.expansion.geo-usa.001",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Wo liegen die USA im Verhältnis zu Kanada und Mexiko?",
+    "back": "Das zusammenhängende Kerngebiet liegt südlich von Kanada und nördlich von Mexiko. Alaska liegt im Nordwesten Nordamerikas, Hawaii im Pazifik."
+  },
+  {
+    "id": "standard.expansion.geo-usa.002",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum gehören Alaska und Hawaii zur Wirtschaft der USA, obwohl sie räumlich getrennt liegen?",
+    "back": "Beide sind Bundesstaaten. Ihre Lage bringt besondere Transportbedingungen sowie eigene wirtschaftliche Schwerpunkte mit sich."
+  },
+  {
+    "id": "standard.expansion.geo-usa.003",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Was bezeichnet ein Binnenmarkt am Beispiel der USA?",
+    "back": "Ein großer Raum, in dem Waren und Leistungen innerhalb eines gemeinsamen staatlichen und wirtschaftlichen Rahmens nachgefragt und angeboten werden."
+  },
+  {
+    "id": "standard.expansion.geo-usa.004",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Was misst das Bruttoinlandsprodukt einer Volkswirtschaft?",
+    "back": "Den Wert der im Inland erzeugten wirtschaftlichen Leistung in einem Zeitraum, ohne Vorleistungen doppelt zu zählen. Es ist kein Maß für individuelles Glück."
+  },
+  {
+    "id": "standard.expansion.geo-usa.005",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum kann ein hohes BIP pro Kopf Armut nicht ausschließen?",
+    "back": "Es ist ein Durchschnitt. Einkommen, Vermögen und Lebensbedingungen können sehr ungleich verteilt sein."
+  },
+  {
+    "id": "standard.expansion.geo-usa.006",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Welche Standortvorteile boten die Großen Seen der nordamerikanischen Industrie?",
+    "back": "Wasserwege, Verkehrsverbindungen und die Nähe zu Rohstoffen sowie Absatzmärkten unterstützten viele Industriestandorte."
+  },
+  {
+    "id": "standard.expansion.geo-usa.007",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum liegt Detroit als Beispiel für Strukturwandel nahe?",
+    "back": "Die Stadt wurde stark durch die Automobilindustrie geprägt. Veränderungen der Produktion und des Wettbewerbs wirkten sich auf Arbeit und Stadtentwicklung aus."
+  },
+  {
+    "id": "standard.expansion.geo-usa.008",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Was beschreibt der Begriff „Sun Belt“ wirtschaftsgeografisch?",
+    "back": "Einen breiten südlichen Raum der USA mit vielen wachsenden Wirtschaftsstandorten. Die Bezeichnung erklärt nicht allein die Entwicklung jeder einzelnen Stadt."
+  },
+  {
+    "id": "standard.expansion.geo-usa.009",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Was ist ein Cluster und warum kann es Unternehmen anziehen?",
+    "back": "Eine räumliche Konzentration verbundener Betriebe und Einrichtungen. Nähe erleichtert Kontakte, Wissenstransfer und die Suche nach Fachkräften."
+  },
+  {
+    "id": "standard.expansion.geo-usa.010",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum profitieren Technologieunternehmen häufig von Hochschulnähe?",
+    "back": "Forschung, qualifizierte Absolventen und Kooperationen können Innovationen fördern. Ohne Finanzierung, Infrastruktur und Nachfrage reicht Nähe allein nicht aus."
+  },
+  {
+    "id": "standard.expansion.geo-usa.011",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Was bedeutet „Agribusiness“?",
+    "back": "Die vernetzte Kette rund um Landwirtschaft, etwa Saatgut, Maschinen, Erzeugung, Verarbeitung und Handel. Landwirtschaft ist darin ein Teilbereich."
+  },
+  {
+    "id": "standard.expansion.geo-usa.012",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Welche Chancen und Risiken hat eine großflächige landwirtschaftliche Spezialisierung?",
+    "back": "Sie kann effiziente Produktion ermöglichen, erhöht aber etwa die Abhängigkeit von einzelnen Produkten, Wasser oder Absatzmärkten."
+  },
+  {
+    "id": "standard.expansion.geo-usa.013",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum kann Bewässerung mit Grundwasser langfristig problematisch werden?",
+    "back": "Wird mehr entnommen als sich neu bildet, sinken Vorräte und Wasserstände. Landwirtschaft und andere Nutzungen können dadurch gefährdet werden."
+  },
+  {
+    "id": "standard.expansion.geo-usa.014",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Welche Rolle spielt der Mississippi als Verkehrsraum?",
+    "back": "Er verbindet große Teile des Binnenlands mit dem Golf von Mexiko. Auf geeigneten Abschnitten können Massengüter per Schiff transportiert werden."
+  },
+  {
+    "id": "standard.expansion.geo-usa.015",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum sind Containerhäfen auf ihr Hinterland angewiesen?",
+    "back": "Waren müssen über Bahn, Straße oder andere Wege weiter zu Betrieben und Verbrauchern gelangen. Der Hafen allein erledigt diese Verteilung nicht."
+  },
+  {
+    "id": "standard.expansion.geo-usa.016",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Was bedeutet Suburbanisierung für eine Stadtregion?",
+    "back": "Wohnen oder andere Funktionen verlagern sich aus der Kernstadt in das Umland. Dadurch können Pendelwege und Flächenverbrauch zunehmen."
+  },
+  {
+    "id": "standard.expansion.geo-usa.017",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Was ist eine Metropolregion und warum reicht die Stadtgrenze zu ihrer Beschreibung nicht?",
+    "back": "Ein größerer funktional verbundener Stadt- und Umlandraum. Arbeitswege, Versorgung und Wirtschaft überschreiten Verwaltungsgrenzen."
+  },
+  {
+    "id": "standard.expansion.geo-usa.018",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum können hohe Wohnkosten die Beschäftigungschancen beeinflussen?",
+    "back": "Menschen können sich das Wohnen nahe verfügbarer Arbeit möglicherweise nicht leisten. Lange Wege und fehlende Verkehrsangebote erschweren dann den Zugang."
+  },
+  {
+    "id": "standard.expansion.geo-usa.019",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Wie kann wirtschaftliche Einwanderung einen Standort verändern?",
+    "back": "Sie kann Arbeitskräfte, Wissen und Unternehmensgründungen beitragen. Zugleich entstehen Aufgaben bei Wohnen, Bildung und gesellschaftlicher Teilhabe."
+  },
+  {
+    "id": "standard.expansion.geo-usa.020",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum gefährdet ein Hurrikan nicht nur Gebäude, sondern auch Lieferketten?",
+    "back": "Häfen, Straßen, Stromnetze oder Produktionsstätten können ausfallen. Auswirkungen reichen dadurch über das direkt betroffene Gebiet hinaus."
+  },
+  {
+    "id": "standard.expansion.geo-usa.021",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Wie kann die Verlagerung von Industrie Arbeitsmärkte verändern?",
+    "back": "An einem Ort können Arbeitsplätze wegfallen, an einem anderen entstehen. Qualifikationen, Löhne und neue Nutzungen beeinflussen die Folgen."
+  },
+  {
+    "id": "standard.expansion.geo-usa.022",
+    "subject": "geography",
+    "rubric": "geo-usa",
+    "front": "Warum sollte man die Wirtschaftskraft zweier Länder nicht nur mit Gesamtzahlen vergleichen?",
+    "back": "Bevölkerungsgröße, Preisniveau, Wirtschaftsstruktur und Verteilung unterscheiden sich. Gesamtleistung und Lebensbedingungen beantworten verschiedene Fragen."
+  },
+  {
+    "id": "standard.expansion.geo-eu.001",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Was ist der Unterschied zwischen dem Europäischen Rat und dem Rat der EU?",
+    "back": "Im Europäischen Rat beraten die Staats- und Regierungschefs über Grundlinien. Im Rat der EU wirken die jeweils zuständigen Minister an Entscheidungen mit."
+  },
+  {
+    "id": "standard.expansion.geo-eu.002",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Welche besondere demokratische Aufgabe hat das Europäische Parlament?",
+    "back": "Es wird direkt gewählt und vertritt die Bürgerinnen und Bürger. Es beschließt viele EU-Gesetze gemeinsam mit dem Rat der EU."
+  },
+  {
+    "id": "standard.expansion.geo-eu.003",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum beschließt die Europäische Kommission nicht allein alle EU-Gesetze?",
+    "back": "Sie schlägt viele Rechtsakte vor. Bei vielen Gesetzen entscheiden Parlament und Rat der EU gemeinsam darüber."
+  },
+  {
+    "id": "standard.expansion.geo-eu.004",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Welche Aufgabe hat der Gerichtshof der Europäischen Union?",
+    "back": "Er sichert die Wahrung und einheitliche Auslegung des EU-Rechts innerhalb seiner Zuständigkeiten. Er ist nicht der Europäische Gerichtshof für Menschenrechte."
+  },
+  {
+    "id": "standard.expansion.geo-eu.005",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Welche zentrale Aufgabe hat die Europäische Zentralbank für den Euroraum?",
+    "back": "Sie verfolgt vorrangig Preisstabilität und gestaltet die gemeinsame Geldpolitik. Sie setzt nicht die Preise einzelner Geschäfte fest."
+  },
+  {
+    "id": "standard.expansion.geo-eu.006",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Was unterscheidet eine EU-Verordnung von einer EU-Richtlinie grundsätzlich?",
+    "back": "Eine Verordnung gilt unmittelbar in den Mitgliedstaaten. Eine Richtlinie verpflichtet zu einem Ziel und wird grundsätzlich in nationales Recht umgesetzt."
+  },
+  {
+    "id": "standard.expansion.geo-eu.007",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum ist Norwegen ein Beispiel dafür, dass Europa und EU nicht dasselbe sind?",
+    "back": "Norwegen liegt in Europa, ist aber kein EU-Mitglied. Geografische Zugehörigkeit und politische Mitgliedschaft unterscheiden sich."
+  },
+  {
+    "id": "standard.expansion.geo-eu.008",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum darfst du aus einem Euro-Preisschild nicht sicher auf EU-Mitgliedschaft schließen?",
+    "back": "Der Euro wird auch außerhalb der EU genutzt. Währung und politische Mitgliedschaft sind verschiedene Merkmale."
+  },
+  {
+    "id": "standard.expansion.geo-eu.009",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Was bedeutet freier Warenverkehr im EU-Binnenmarkt?",
+    "back": "Waren sollen zwischen Mitgliedstaaten grundsätzlich ohne Binnenzölle gehandelt werden können. Sicherheits- und andere gemeinsame Vorschriften gelten weiterhin."
+  },
+  {
+    "id": "standard.expansion.geo-eu.010",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Was bedeutet Dienstleistungsfreiheit an einem einfachen Beispiel?",
+    "back": "Ein Betrieb kann unter geltenden Voraussetzungen Leistungen in einem anderen EU-Staat anbieten, etwa eine Reparatur. Fach- und Schutzregeln bleiben relevant."
+  },
+  {
+    "id": "standard.expansion.geo-eu.011",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum erleichtern gemeinsame Produktregeln Handel über Grenzen hinweg?",
+    "back": "Unternehmen müssen nicht für jeden Markt völlig unterschiedliche Anforderungen erfüllen. Gemeinsame Regeln können zudem Verbraucher und Sicherheit schützen."
+  },
+  {
+    "id": "standard.expansion.geo-eu.012",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Welche Vorteile kann eine gemeinsame Währung für Reisende haben?",
+    "back": "Ein Geldwechsel zwischen teilnehmenden Ländern entfällt und Preise lassen sich leichter vergleichen. Unterschiedliche Preisniveaus bleiben bestehen."
+  },
+  {
+    "id": "standard.expansion.geo-eu.013",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Welche Herausforderung entsteht durch eine gemeinsame Geldpolitik für verschiedene Volkswirtschaften?",
+    "back": "Ein gemeinsamer Zinsschritt wirkt auf Länder mit unterschiedlichen wirtschaftlichen Bedingungen. Die Bedürfnisse müssen nicht überall gleich sein."
+  },
+  {
+    "id": "standard.expansion.geo-eu.014",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Was ist eine Grenzregion und welche Zusammenarbeit kann dort helfen?",
+    "back": "Ein Raum auf beiden Seiten einer Grenze. Gemeinsamer Nahverkehr, Gesundheitsangebote oder Umweltprojekte können den Alltag erleichtern."
+  },
+  {
+    "id": "standard.expansion.geo-eu.015",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum fördert die EU auch Regionen statt nur ganze Staaten?",
+    "back": "Innerhalb eines Staates können große Unterschiede bestehen. Regionale Projekte können gezielt schlechter versorgte oder strukturschwache Gebiete unterstützen."
+  },
+  {
+    "id": "standard.expansion.geo-eu.016",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Wie kann eine gemeinsame Agrarpolitik auch Konflikte auslösen?",
+    "back": "Einkommen, Versorgung, Wettbewerb und Umweltschutz verfolgen nicht immer dieselben Ziele. Förderung muss diese Interessen abwägen."
+  },
+  {
+    "id": "standard.expansion.geo-eu.017",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum benötigt ein europaweiter Stromhandel auch Netze?",
+    "back": "Strom muss technisch zwischen Erzeugung und Verbrauch transportiert werden. Handelsvereinbarungen allein beseitigen keine Netzengpässe."
+  },
+  {
+    "id": "standard.expansion.geo-eu.018",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Was bedeutet Subsidiarität an einem lokalen Beispiel?",
+    "back": "Eine Gemeinde kann eine örtliche Angelegenheit selbst regeln, wenn sie sie wirksam lösen kann. Höhere Ebenen sollen nicht ohne guten Grund übernehmen."
+  },
+  {
+    "id": "standard.expansion.geo-eu.019",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum ist EU-weite Zusammenarbeit bei einem grenzüberschreitenden Fluss sinnvoll?",
+    "back": "Nutzung oder Verschmutzung oberhalb beeinflusst andere Länder unterhalb. Gemeinsame Vereinbarungen können die Interessen besser abstimmen."
+  },
+  {
+    "id": "standard.expansion.geo-eu.020",
+    "subject": "geography",
+    "rubric": "geo-eu",
+    "front": "Warum ist ein EU-Austauschprogramm mehr als eine Urlaubsreise?",
+    "back": "Es kann Lernen, Ausbildung, Sprache und Zusammenarbeit fördern. Für Teilnahme und Förderung gelten konkrete Bedingungen des Programms."
+  },
+  {
+    "id": "standard.expansion.geo-germany.001",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Warum sind Nord- und Ostseehäfen für deutsche Industrie im Binnenland wichtig?",
+    "back": "Sie verbinden Betriebe über Transportketten mit Auslandsmärkten und Rohstofflieferungen. Bahn, Straßen und Binnenwasserwege verknüpfen sie mit dem Hinterland."
+  },
+  {
+    "id": "standard.expansion.geo-germany.002",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Welche Bedeutung hat der Rhein für Wirtschaft und Siedlung?",
+    "back": "Er ist ein wichtiger Wasser- und Verkehrsraum mit vielen Industriestandorten. Niedrigwasser und Hochwasser können Nutzungen beeinträchtigen."
+  },
+  {
+    "id": "standard.expansion.geo-germany.003",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Warum braucht ein Industriebetrieb mehr als nur günstige Grundstücke?",
+    "back": "Zum Beispiel qualifizierte Arbeitskräfte, Energie, Zulieferer, Verkehrswege und Absatzmärkte. Standortfaktoren wirken gemeinsam."
+  },
+  {
+    "id": "standard.expansion.geo-germany.004",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Wie können Berufsschulen und Weiterbildung beim regionalen Strukturwandel helfen?",
+    "back": "Sie unterstützen neue Qualifikationen und berufliche Übergänge. Sie ersetzen aber nicht automatisch fehlende Arbeitsplätze oder andere Standortbedingungen."
+  },
+  {
+    "id": "standard.expansion.geo-germany.005",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Warum ist Siedlungsfläche nicht automatisch vollständig versiegelte Fläche?",
+    "back": "Zu Siedlungen gehören auch Grünanlagen und andere unbebaute Flächen. Versiegelung bezeichnet die konkrete Bodenbedeckung, etwa durch Asphalt."
+  },
+  {
+    "id": "standard.expansion.geo-germany.006",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Wie kann ein Neubaugebiet die örtliche Hochwassergefahr beeinflussen?",
+    "back": "Versiegelung kann den schnellen Oberflächenabfluss erhöhen. Rückhalteflächen, Versickerung und geeignete Planung können Belastungen begrenzen."
+  },
+  {
+    "id": "standard.expansion.geo-germany.007",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Warum entstehen bei Windenergieprojekten Nutzungskonflikte?",
+    "back": "Energiegewinnung, Naturschutz, Landschaft und Interessen der Anwohnenden können sich überschneiden. Standorte müssen fachlich und rechtlich abgewogen werden."
+  },
+  {
+    "id": "standard.expansion.geo-germany.008",
+    "subject": "geography",
+    "rubric": "geo-germany",
+    "front": "Was unterscheidet Flächenrecycling vom Recycling eines Getränkebehälters?",
+    "back": "Flächenrecycling nutzt bereits beanspruchte Standorte erneut, etwa Industriebrachen. Beim Behälter werden Materialien zurückgewonnen; der Grundgedanke der Wiederverwendung verbindet beide."
+  }
+]

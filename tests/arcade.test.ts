@@ -5,7 +5,7 @@ import {solvedBoard} from '../src/games/slidingPuzzle';
 import {emptyData,dataSchema} from '../src/lib/schema';
 import {newJourney} from '../src/learning/journey';
 import {migrateData,prepareImport} from '../src/learning/migration';
-const fresh=()=>{const d=emptyData();d.journey=newJourney(d.scores);return d;};
+const fresh=()=>{const d=emptyData();d.settings.difficulty='hard';d.journey=newJourney(d.scores);return d;};
 describe('Codeknacker',()=>{
  it('bewertet exakte und versetzte Farben ohne Positionshinweise',()=>{expect(codeFeedback([0,1,2,3],[0,1,2,3])).toEqual({black:4,white:0});expect(codeFeedback([0,1,2,3],[1,0,3,2])).toEqual({black:0,white:4});expect(codeFeedback([0,1,2,3],[0,2,4,5])).toEqual({black:1,white:1});expect(codeFeedback([0,1,2,3],[4,5,0,1])).toEqual({black:0,white:2});});
  it('erzeugt vier unterschiedliche Farben aus sechs und erhält korrigierbare Entwürfe',()=>{for(let i=0;i<100;i++)expect(codeRoundSchema.safeParse(newCodeRound()).success).toBe(true);let r=newCodeRound();for(const color of [0,1,2,3])r=setCodeColor(r,color);expect(r.draft).toEqual([0,1,2,3]);r=setCodeColor({...r,position:0},2);expect(r.draft).toEqual([2,1,0,3]);expect(codeRoundSchema.safeParse(r).success).toBe(true);expect(codeGuessSchema.safeParse([0,0,1,2]).success).toBe(false);expect(confirmCode(newCodeRound()).guesses).toHaveLength(0);});

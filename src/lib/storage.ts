@@ -9,14 +9,19 @@ function snapshot(value: unknown): string | undefined { return JSON.stringify(va
 let expectedSnapshot: string | undefined;
 let loaded = false;
 const db = () => openDB('lernkick', 1, { upgrade(database) { database.createObjectStore('user'); } });
+export const storageEpoch='cards-2026-10-28';
 export async function loadData(): Promise<UserData> {
-    const database = await db(), tx = database.transaction('user', 'readwrite'), value = await tx.store.get('data');
+    const database = await db(), tx = database.transaction('user', 'readwrite');
+    const reset=await tx.store.get('storage.epoch')!==storageEpoch;
+    if(reset){await tx.store.clear();await tx.store.put(storageEpoch,'storage.epoch');}
+    const value = await tx.store.get('data');
     if (value === undefined) {
         const next = { ...emptyData(), journey: newJourney(emptyData().scores) };
         await tx.store.put(next, 'data');
         await tx.store.put(next.journey, 'journey.current');
         await tx.store.put({profileId:next.journey.profileId,puzzle:next.puzzle},'arcade.current');
         await tx.done;
+        if(reset)try{localStorage.removeItem('lernkick.nback.round.v1');}catch{/* The canonical fresh profile is already saved. */}
         expectedSnapshot = snapshot(next);
         loaded = true;
         return next;

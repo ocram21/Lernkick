@@ -1,785 +1,785 @@
 [
   {
     "id": "standard.complex.bio-metabolism.01",
-    "front": "Nahrung: drei Aufgaben",
-    "back": "Nahrung liefert Energie, Baustoffe und Stoffe für Regelvorgänge. Wasser ist zusätzlich für Transport und viele Reaktionen nötig.",
+    "front": "Warum deckt Zucker allein nicht alle Ernährungsbedürfnisse?",
+    "back": "Er liefert Energie, aber nicht alle benötigten Baustoffe, Vitamine, Mineralstoffe und Ballaststoffe. Eine abwechslungsreiche Auswahl ist notwendig.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-metabolism.02",
-    "front": "Der Weg eines Bissens",
-    "back": "Mund, Speiseröhre, Magen, Dünndarm und Dickdarm arbeiten zusammen. Aufnahme und Zerlegung sind unterschiedliche Schritte.",
+    "front": "Beschreibe den Weg eines Bissens vom Mund bis zum Dickdarm.",
+    "back": "Nach dem Mund folgen Speiseröhre, Magen, Dünndarm und Dickdarm. Zerlegung, Transport und Aufnahme geschehen an verschiedenen Abschnitten.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-metabolism.03",
-    "front": "Dünndarm: große Aufnahmefläche",
-    "back": "Falten und Zotten vergrößern die Fläche. Zerlegte Nährstoffe können durch die Darmwand aufgenommen werden.",
+    "front": "Warum kann ein Dünndarm mit Falten und Zotten Nährstoffe gut aufnehmen?",
+    "back": "Die Falten und Zotten vergrößern die Kontaktfläche. Mehr Oberfläche erleichtert die Aufnahme zerlegter Nährstoffe durch die Darmwand.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-metabolism.04",
-    "front": "Lunge und Zellen",
-    "back": "Die Lunge nimmt Sauerstoff auf und gibt Kohlenstoffdioxid ab. Der Kreislauf verbindet die Lunge mit den Körperzellen.",
+    "front": "Warum hilft ein funktionierender Blutkreislauf den Körperzellen beim Atmen?",
+    "back": "Er transportiert Sauerstoff von der Lunge zu Zellen und Kohlenstoffdioxid zurück. Luft selbst strömt nicht durch die Blutgefäße.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-metabolism.05",
-    "front": "Zellatmung: Energie nutzbar machen",
-    "back": "Zellen setzen Glucose mit Sauerstoff um. Dabei entstehen unter anderem Wasser und Kohlenstoffdioxid; Energie wird für Lebensvorgänge nutzbar.",
+    "front": "Warum brauchen Muskelzellen neben Glucose auch Sauerstoff für die aerobe Zellatmung?",
+    "back": "Beide werden bei der Umsetzung benötigt. Dabei entstehen unter anderem Wasser und Kohlenstoffdioxid; Energie wird nutzbar gemacht.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-metabolism.06",
-    "front": "Zwei Kreisläufe",
-    "back": "Der Lungenkreislauf verbindet Herz und Lunge. Der Körperkreislauf versorgt die übrigen Organe mit Blut.",
+    "front": "Beschreibe den Weg des Blutes im Lungenkreislauf.",
+    "back": "Es fließt von der rechten Herzhälfte zur Lunge und nach dem Gasaustausch zur linken Herzhälfte zurück.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-metabolism.07",
-    "front": "Leber und Bauchspeicheldrüse",
-    "back": "Die Leber verarbeitet Nährstoffe und bildet Galle. Die Bauchspeicheldrüse liefert Verdauungsenzyme und Hormone wie Insulin.",
+    "front": "Warum übernehmen Leber und Bauchspeicheldrüse nicht dieselbe Verdauungsaufgabe?",
+    "back": "Die Leber bildet Galle zur Unterstützung der Fettverdauung. Die Bauchspeicheldrüse liefert unter anderem Verdauungsenzyme; sie bildet auch Hormone wie Insulin.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-metabolism.08",
-    "front": "Wasser- und Salzhaushalt",
-    "back": "Die Nieren regeln die Ausscheidung von Wasser, Salzen und Abfallstoffen mit. Starkes Schwitzen führt ebenfalls zu Wasser- und Salzverlust.",
+    "front": "Wie kann starkes Schwitzen den Wasser- und Salzhaushalt beeinflussen?",
+    "back": "Mit Schweiß gehen Wasser und Salze verloren. Nieren und weitere Regelvorgänge helfen, den Haushalt anzupassen; starke Verluste belasten den Körper.",
     "subject": "biology",
     "rubric": "bio-metabolism"
   },
   {
     "id": "standard.complex.bio-senses.01",
-    "front": "Vom Reiz zur Wahrnehmung",
-    "back": "Sinneszellen erfassen Reize und geben Signale weiter. Das Nervensystem verarbeitet sie zu Wahrnehmungen und Reaktionen.",
+    "front": "Warum ist das Wahrnehmen einer Ampelfarbe mehr als Licht im Auge?",
+    "back": "Sinneszellen müssen Licht in Signale umwandeln. Nerven leiten sie weiter, und das Gehirn verarbeitet sie zu einer Wahrnehmung.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-senses.02",
-    "front": "Das Auge als optisches System",
-    "back": "Hornhaut und Linse bündeln Licht. Auf der Netzhaut wandeln Sinneszellen Licht in Signale um; der Sehnerv leitet sie weiter.",
+    "front": "Welche Stationen durchläuft Licht bis zur Signalweitergabe an den Sehnerv?",
+    "back": "Es gelangt durch Hornhaut, Pupille und Linse zur Netzhaut. Dort wandeln Lichtsinneszellen die Information um; der Sehnerv führt Signale weiter.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-senses.03",
-    "front": "Hell, dunkel und farbig",
-    "back": "Stäbchen helfen besonders in der Dämmerung. Zapfen ermöglichen Farbsehen. Die Iris passt den Lichteinfall durch die Pupille an.",
+    "front": "Warum erkennt man Farben bei sehr schwachem Licht schlechter?",
+    "back": "Die für Farbsehen zuständigen Zapfen brauchen mehr Licht. Bei Dämmerung leisten die lichtempfindlicheren Stäbchen einen größeren Beitrag.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-senses.04",
-    "front": "Hören: von Schwingungen zu Signalen",
-    "back": "Schall bewegt das Trommelfell. Gehörknöchelchen übertragen die Bewegung. Haarzellen in der Hörschnecke erzeugen Signale für das Nervensystem.",
+    "front": "Was geschieht zwischen einem schwingenden Trommelfell und einem Hörsignal?",
+    "back": "Gehörknöchelchen übertragen Bewegungen ins Innenohr. Dort werden Haarzellen angeregt; Signale gelangen über den Hörnerv zum Gehirn.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-senses.05",
-    "front": "Nervenzellen arbeiten im Netz",
-    "back": "Eine Nervenzelle empfängt und leitet Signale. An Synapsen werden Informationen an andere Zellen übertragen, häufig durch Botenstoffe.",
+    "front": "Warum reicht eine einzelne Nervenzelle nicht aus, um einen ganzen Bewegungsablauf zu erklären?",
+    "back": "Wahrnehmung, Verarbeitung und Muskelsteuerung benötigen viele verbundene Zellen. An ihren Kontaktstellen werden Signale weitergegeben und beeinflusst.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-senses.06",
-    "front": "Reflex und bewusste Handlung",
-    "back": "Ein Reflex ist eine schnelle, weitgehend gleichartige Reaktion. Bewusste Entscheidungen benötigen zusätzliche Verarbeitung; beide nutzen Nervenbahnen.",
+    "front": "Was unterscheidet das schnelle Zurückziehen der Hand von der bewussten Entscheidung, weiterzuarbeiten?",
+    "back": "Das Zurückziehen kann als Reflex über kurze Schaltwege erfolgen. Die bewusste Entscheidung erfordert zusätzliche Verarbeitung und Abwägung.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-senses.07",
-    "front": "Körperfunktionen ohne bewussten Auftrag",
-    "back": "Das vegetative Nervensystem beeinflusst etwa Herzschlag und Verdauung. Sympathikus und Parasympathikus passen Organfunktionen an Situationen an.",
+    "front": "Warum musst du deinem Herzen nicht jeden einzelnen Schlag bewusst befehlen?",
+    "back": "Seine Aktivität entsteht durch körpereigene Steuerung und wird unter anderem vom vegetativen Nervensystem beeinflusst. Bewusste Einzelbefehle sind nicht nötig.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-senses.08",
-    "front": "Lernen braucht Erholung",
-    "back": "Übung verändert Nervennetzwerke. Schlaf und passende Pausen unterstützen Gedächtnis und Aufmerksamkeit. Ablenkungen können die Verarbeitung erschweren.",
+    "front": "Warum ist eine kurze Lernpause oft besser als stundenlanges unkonzentriertes Wiederlesen?",
+    "back": "Aufmerksamkeit lässt nach und Erholung unterstützt das Weiterlernen. Wiederholungen mit eigenen Abrufen und ausreichender Schlaf helfen dem Gedächtnis.",
     "subject": "biology",
     "rubric": "bio-senses"
   },
   {
     "id": "standard.complex.bio-cells.01",
-    "front": "Gemeinsamer Grundbau von Zellen",
-    "back": "Zellmembran, Zellplasma, Erbinformation und Ribosomen gehören zum Grundbau. Nicht jede Zelle besitzt einen membranumhüllten Zellkern.",
+    "front": "Welche Grundbestandteile hat eine Bakterienzelle trotz fehlenden Zellkerns?",
+    "back": "Sie hat Zellmembran, Zellplasma, Erbinformation und Ribosomen. Die DNA liegt nicht in einem membranumhüllten Zellkern.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-cells.02",
-    "front": "Tier- und Pflanzenzelle im Vergleich",
-    "back": "Beide haben Membran und Zellplasma. Pflanzenzellen besitzen zusätzlich eine Zellwand und meist eine große Vakuole; grüne Zellen enthalten Chloroplasten.",
+    "front": "Eine Zelle besitzt Zellwand, große Vakuole und Chloroplasten. Welche Einordnung passt?",
+    "back": "Eine grüne Pflanzenzelle. Tierzellen besitzen diese Kombination nicht; Membran und Zellplasma haben beide Zelltypen.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-cells.03",
-    "front": "Membran: geregelter Austausch",
-    "back": "Die Zellmembran trennt innen und außen. Bestimmte Stoffe können hindurch; andere benötigen Transportproteine oder Energie für den Transport.",
+    "front": "Warum können nicht alle gelösten Stoffe frei durch eine Zellmembran gelangen?",
+    "back": "Die Membran ist selektiv durchlässig. Manche Stoffe brauchen bestimmte Transportwege; für einige Transporte wird Energie benötigt.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-cells.04",
-    "front": "Organellen teilen die Arbeit",
-    "back": "Mitochondrien wirken an der Zellatmung mit. Ribosomen bauen Eiweiße. Der Zellkern enthält bei vielen Zellen den größten Teil der DNA.",
+    "front": "Eine Zelle baut viele Eiweiße auf. Welche Organellen sind direkt dafür nötig?",
+    "back": "Ribosomen bauen die Eiweiße auf. Mitochondrien übernehmen andere Aufgaben, insbesondere bei der nutzbaren Energieversorgung.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-cells.05",
-    "front": "Erbinformation geordnet weitergeben",
-    "back": "Vor der Mitose wird DNA verdoppelt. Die geordnete Verteilung ermöglicht Tochterzellen mit grundsätzlich gleicher Erbinformation.",
+    "front": "Warum wird vor einer gewöhnlichen Mitose die DNA verdoppelt?",
+    "back": "Damit bei der geordneten Verteilung grundsätzlich jede Tochterzelle einen vollständigen entsprechenden Satz an Erbinformation erhalten kann.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-cells.06",
-    "front": "Diffusion und Osmose unterscheiden",
-    "back": "Diffusion verteilt Teilchen entlang eines Konzentrationsgefälles. Osmose ist Wasserbewegung durch eine selektiv durchlässige Membran.",
+    "front": "Warum ist Wasserbewegung durch eine selektiv durchlässige Membran ein besonderer Diffusionsfall?",
+    "back": "Bei Osmose bewegt sich Wasser durch diese Membran entsprechend den Bedingungen der Lösungen. Nicht beliebige gelöste Teilchen müssen dabei hindurchgehen.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-cells.07",
-    "front": "Spezialisierung ermöglicht Zusammenarbeit",
-    "back": "Muskelzellen bewegen, Nervenzellen übertragen Signale. Gleichartige spezialisierte Zellen bilden Gewebe; mehrere Gewebe bilden Organe.",
+    "front": "Warum können gleichartige Erbinformationen dennoch verschiedene Zellaufgaben ermöglichen?",
+    "back": "In unterschiedlichen Zelltypen sind verschiedene Gene aktiv. Dadurch entstehen etwa Muskel- und Nervenzellen mit unterschiedlichen Eigenschaften.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-cells.08",
-    "front": "Bakterien und Viren unterscheiden",
-    "back": "Bakterien sind Zellen ohne membranumhüllten Zellkern. Viren sind keine Zellen und benötigen zur Vermehrung geeignete Wirtszellen.",
+    "front": "Warum ist ein Virus nicht einfach eine besonders kleine Bakterienzelle?",
+    "back": "Viren sind keine Zellen und besitzen keinen eigenen vollständigen Stoffwechsel. Sie brauchen geeignete Wirtszellen zur Vermehrung.",
     "subject": "biology",
     "rubric": "bio-cells"
   },
   {
     "id": "standard.complex.bio-ecology.01",
-    "front": "Lebensraum plus Lebensgemeinschaft",
-    "back": "Ein Ökosystem umfasst unbelebte Bedingungen und Organismen mit ihren Beziehungen. Licht und Temperatur sind ebenso wichtig wie Nahrung und Konkurrenz.",
+    "front": "Warum ist ein Aquarium mehr als eine Sammlung von Fischen?",
+    "back": "Wasser, Licht, Temperatur, Pflanzen, Tiere und Mikroorganismen beeinflussen sich. Zusammen bilden sie ein System aus Lebensraum und Lebensgemeinschaft.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.bio-ecology.02",
-    "front": "Stoffe kreisen, Energie fließt",
-    "back": "Produzenten bauen organische Stoffe auf. Konsumenten nutzen sie, Zersetzer bauen Reste ab. Stoffe werden wieder verfügbar; Energie wird letztlich als Wärme abgegeben.",
+    "front": "Warum läuft in einem Ökosystem Energie nicht wie ein Stoff im Kreis?",
+    "back": "Bei Lebensvorgängen wird Energie umgewandelt und letztlich als Wärme abgegeben. Deshalb ist fortlaufende Energiezufuhr nötig, meist durch Sonnenlicht.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.bio-ecology.03",
-    "front": "Nahrungskette und Nahrungsnetz",
-    "back": "Eine Nahrungskette zeigt einen Weg von Nahrung zu Fressern. In der Natur sind viele dieser Wege zu Nahrungsnetzen verbunden.",
+    "front": "Warum kann eine Art mehrere Verbindungen in einem Nahrungsnetz haben?",
+    "back": "Sie nutzt oft verschiedene Nahrungsquellen und hat mehrere Fressfeinde. Eine einzelne Nahrungskette zeigt nur einen Teil dieser Beziehungen.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.bio-ecology.04",
-    "front": "Drei Beziehungen zwischen Arten",
-    "back": "Konkurrenz betrifft begrenzte Ressourcen. Bei Symbiose profitieren Partner. Ein Parasit nutzt einen Wirt und kann ihn schädigen.",
+    "front": "Wie unterscheidest du Symbiose und Parasitismus an der Wirkung auf die Partner?",
+    "back": "Bei Symbiose profitieren beide Partner. Beim Parasitismus nutzt der Parasit den Wirt und schädigt ihn dabei in unterschiedlichem Ausmaß.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.bio-ecology.05",
-    "front": "Population und Vielfalt",
-    "back": "Eine Population umfasst Individuen einer Art in einem Gebiet. Artenvielfalt beschreibt unterschiedliche Arten; beide Begriffe messen Verschiedenes.",
+    "front": "Warum bedeutet eine große Zahl einer einzigen Tierart noch keine hohe Artenvielfalt?",
+    "back": "Die Zahl beschreibt viele Individuen, nicht viele verschiedene Arten. Artenvielfalt zählt unterschiedliche Arten eines Raums.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.bio-ecology.06",
-    "front": "Angepasst an Bedingungen",
-    "back": "Ein Merkmal hilft nur unter bestimmten Bedingungen. Wasserspeicher können bei Trockenheit nützlich sein; andere Lebensräume stellen andere Anforderungen.",
+    "front": "Warum kann eine Anpassung an Trockenheit in einem anderen Lebensraum weniger vorteilhaft sein?",
+    "back": "Ein Merkmal wirkt unter bestimmten Bedingungen günstig. Verändern sich Bedingungen, können andere Eigenschaften nützlicher sein.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.bio-ecology.07",
-    "front": "Nährstoffe im Gewässer",
-    "back": "Zu viele Nährstoffe können Algen stark vermehren. Beim Abbau abgestorbener Biomasse wird Sauerstoff verbraucht; Tiere können dadurch belastet werden.",
+    "front": "Warum kann nach starker Algenvermehrung Sauerstoff im Gewässer knapp werden?",
+    "back": "Beim Abbau abgestorbener Biomasse verbrauchen Zersetzer Sauerstoff. Dadurch kann für andere Lebewesen zu wenig übrig bleiben.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.bio-ecology.08",
-    "front": "Lebensräume verbinden",
-    "back": "Hecken, Gewässerränder und andere Verbindungen erleichtern Wanderung und Austausch. Schutz betrifft deshalb nicht nur einzelne isolierte Flächen.",
+    "front": "Warum helfen verbundene Hecken oder Gewässerränder beim Naturschutz?",
+    "back": "Sie erleichtern Bewegung und Austausch zwischen Lebensräumen. Isolierte Schutzflächen allein reichen für viele Arten nicht aus.",
     "subject": "biology",
     "rubric": "bio-ecology"
   },
   {
     "id": "standard.complex.geo-disparities.01",
-    "front": "Regionen unterscheiden sich",
-    "back": "Räumliche Disparitäten betreffen etwa Einkommen, Bildung, Arbeit und Versorgung. Ein einziger Durchschnitt zeigt nicht alle Lebenslagen.",
+    "front": "Warum kann derselbe Landesdurchschnitt sehr unterschiedliche Regionen verdecken?",
+    "back": "Reiche und ärmere Teilräume werden zusammengefasst. Ein Durchschnitt zeigt ihre räumliche Verteilung und Unterschiede nicht einzeln.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-disparities.02",
-    "front": "Infrastruktur schafft Verbindungen",
-    "back": "Straßen, Bahnen, Internet und öffentliche Einrichtungen ermöglichen Austausch und Versorgung. Schlechte Erreichbarkeit kann Chancen begrenzen.",
+    "front": "Wie kann ein neuer Bahnanschluss die Chancen einer ländlichen Region verändern?",
+    "back": "Arbeitsplätze, Ausbildung und Versorgung können besser erreichbar werden. Die Wirkung hängt auch von Angebot, Preisen und weiteren Bedingungen ab.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-disparities.03",
-    "front": "Vom Rohstoff zum Produkt",
-    "back": "Eine Lieferkette verbindet Beschaffung, Verarbeitung und Lieferung. Ihre Schritte können auf viele Staaten verteilt sein.",
+    "front": "Verfolge die Lieferkette eines T-Shirts in einfachen Schritten.",
+    "back": "Zum Beispiel Baumwollanbau, Spinnen, Weben, Nähen, Transport und Verkauf. Die Schritte können auf verschiedene Länder verteilt sein.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-disparities.04",
-    "front": "Drei Wirtschaftssektoren",
-    "back": "Landwirtschaft und Rohstoffgewinnung gehören zum primären, Verarbeitung zum sekundären und Dienstleistungen zum tertiären Sektor.",
+    "front": "Ordne Getreideanbau, Mehlproduktion und Brotverkauf den Wirtschaftssektoren zu.",
+    "back": "Anbau gehört zum primären, industrielle Mehlproduktion zum sekundären und Verkauf zum tertiären Sektor.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-disparities.05",
-    "front": "Stadt und Umland wirken zusammen",
-    "back": "Menschen pendeln zu Arbeit und Ausbildung. Betriebe beziehen Leistungen und Arbeitskräfte aus dem Umland; die Räume sind verflochten.",
+    "front": "Warum kann das Umland einer Großstadt von deren Arbeitsmarkt abhängen?",
+    "back": "Viele Menschen pendeln in die Stadt. Verkehr, Wohnorte und Beschäftigung sind deshalb über die Stadtgrenzen hinweg miteinander verknüpft.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-disparities.06",
-    "front": "Migration hat mehrere Gründe",
-    "back": "Push-Faktoren drängen zum Wegzug, Pull-Faktoren ziehen an. Wirtschaft, Sicherheit, Familie und persönliche Entscheidungen können zusammenwirken.",
+    "front": "Was unterscheidet einen Push- von einem Pull-Faktor bei Migration?",
+    "back": "Push-Faktoren begünstigen das Verlassen eines Herkunftsorts, etwa Unsicherheit. Pull-Faktoren machen einen Zielort attraktiv, etwa konkrete Arbeitsperspektiven.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-disparities.07",
-    "front": "Kennzahlen sorgfältig lesen",
-    "back": "BIP pro Kopf ist ein Durchschnitt der Wirtschaftsleistung, kein persönliches Einkommen. Preisniveau und Verteilung müssen zusätzlich betrachtet werden.",
+    "front": "Warum ist BIP pro Kopf nicht dasselbe wie das persönliche Einkommen einer Bewohnerin?",
+    "back": "Es teilt Wirtschaftsleistung rechnerisch durch die Bevölkerung. Die Leistung wird nicht gleichmäßig als Einkommen an alle ausgezahlt.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-disparities.08",
-    "front": "Globale Verflechtung: Chancen und Risiken",
-    "back": "Arbeitsteilung eröffnet Märkte und Spezialisierung. Sie kann zugleich Abhängigkeiten, Umweltfolgen und soziale Konflikte verstärken.",
+    "front": "Warum kann eine weltweite Lieferkette zugleich günstig und störanfällig sein?",
+    "back": "Spezialisierung kann Kosten senken. Ausfälle einzelner Zulieferer oder Transportwege können aber weit entfernte Betriebe beeinträchtigen.",
     "subject": "geography",
     "rubric": "geo-disparities"
   },
   {
     "id": "standard.complex.geo-americas.01",
-    "front": "Amerika räumlich einordnen",
-    "back": "Nord- und Südamerika bilden den Doppelkontinent. Mittelamerika und die Karibik verbinden seine großen Räume; westlich liegt der Pazifik, östlich der Atlantik.",
+    "front": "Welche Ozeane begrenzen den amerikanischen Doppelkontinent im Westen und Osten?",
+    "back": "Im Westen der Pazifik, im Osten der Atlantik. Die Lage hilft, Handelswege und Klimafaktoren räumlich einzuordnen.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-americas.02",
-    "front": "Gebirge an der Westseite",
-    "back": "Rocky Mountains und Anden prägen Amerikas Westseite. Relief beeinflusst Verkehrswege, Besiedlung und Niederschläge.",
+    "front": "Wie können die Anden den Verkehr zwischen Pazifikküste und Binnenland erschweren?",
+    "back": "Große Höhen und steile Hänge begrenzen mögliche Routen. Tunnel, Pässe und lange Umwege erhöhen den Aufwand.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-americas.03",
-    "front": "Klima über viele Breiten",
-    "back": "Amerika reicht von arktischen bis weit in südliche gemäßigte Breiten. Höhenlage, Meeresströmungen und Gebirge verändern die Bedingungen zusätzlich.",
+    "front": "Warum ist ein Ort in den Anden trotz Tropenlage nicht automatisch heiß?",
+    "back": "Mit der Höhe nimmt die Temperatur im Mittel ab. Geografische Breite allein bestimmt das lokale Klima nicht.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-americas.04",
-    "front": "Amazonas: ein zusammenhängender Naturraum",
-    "back": "Das Becken reicht über mehrere Staaten. Regenwald, Flüsse, Artenvielfalt sowie Wasser- und Kohlenstoffkreisläufe hängen zusammen.",
+    "front": "Warum betrifft Schutz im Amazonasbecken mehrere Staaten?",
+    "back": "Flussgebiet, Regenwald und ökologische Beziehungen überschreiten Staatsgrenzen. Entscheidungen in einem Teilraum können andere Teile beeinflussen.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-americas.05",
-    "front": "Grasländer und Landwirtschaft",
-    "back": "Prärien Nordamerikas und Pampas Südamerikas sind bedeutende Graslandräume. Nutzung und Erträge hängen von Boden, Klima und Wirtschaftsweisen ab.",
+    "front": "Warum eignen sich Prärien und Pampas nicht überall für dieselbe Landwirtschaft?",
+    "back": "Böden, Niederschläge und Temperaturen unterscheiden sich räumlich. Auch Bewirtschaftung, Wasser und Absatzmöglichkeiten beeinflussen die Nutzung.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-americas.06",
-    "front": "Plattenbewegungen an Amerikas Westen",
-    "back": "An Plattengrenzen können Erdbeben und Vulkanismus auftreten. Nicht jeder Berg ist deshalb ein aktiver Vulkan.",
+    "front": "Warum treten an der amerikanischen Westseite vielerorts Erdbeben und Vulkanismus auf?",
+    "back": "Dort treffen häufig Erdplatten aufeinander oder bewegen sich aneinander vorbei. Die genaue Gefährdung hängt von der jeweiligen Plattengrenze ab.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-americas.07",
-    "front": "Bevölkerung und Kultur",
-    "back": "Indigene Gemeinschaften, Kolonisierung und spätere Migration prägen unterschiedliche Gesellschaften. Ein einziges Bild beschreibt den Doppelkontinent nicht.",
+    "front": "Warum ist „die amerikanische Kultur“ als einzige Beschreibung zu ungenau?",
+    "back": "Indigene Geschichte, Kolonisierung und unterschiedliche Migration haben vielfältige Gesellschaften geprägt. Regionen und Gruppen unterscheiden sich stark.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-americas.08",
-    "front": "Nutzungskonflikte im Regenwald",
-    "back": "Landwirtschaft, Rohstoffgewinnung und Straßenbau können Einkommen schaffen und zugleich Wälder sowie Lebensgrundlagen gefährden.",
+    "front": "Welche Interessen können bei einer neuen Straße durch Regenwald aufeinandertreffen?",
+    "back": "Erreichbarkeit und Einkommen stehen möglichen Waldverlusten, Eingriffen in Lebensräume und Rechten dort lebender Menschen gegenüber.",
     "subject": "geography",
     "rubric": "geo-americas"
   },
   {
     "id": "standard.complex.geo-usa.01",
-    "front": "Ein großer Wirtschaftsraum",
-    "back": "Die USA besitzen einen großen Binnenmarkt und vielfältige Regionen. Alaska und Hawaii liegen außerhalb des zusammenhängenden Kerngebiets.",
+    "front": "Warum können große Entfernungen im US-Binnenmarkt ein Standortnachteil sein?",
+    "back": "Transport braucht Zeit, Geld und geeignete Infrastruktur. Ein großer Markt ist nicht von jedem Produktionsort gleich gut erreichbar.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-usa.02",
-    "front": "Industrieregionen im Wandel",
-    "back": "Im Manufacturing Belt wuchsen große Industrien. Strukturwandel bringt in manchen Räumen Arbeitsplatzverluste, aber auch neue Nutzungen und Branchen.",
+    "front": "Wie kann eine stillgelegte Fabrik nach Strukturwandel weitergenutzt werden?",
+    "back": "Zum Beispiel für neue Betriebe, Bildung oder Wohnen, wenn Zustand und Planung passen. Umnutzung benötigt Investitionen und gegebenenfalls Altlastensanierung.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-usa.03",
-    "front": "Technologiecluster",
-    "back": "Forschung, Hochschulen, Fachkräfte, Kapital und Netzwerke unterstützen innovative Standorte wie Silicon Valley. Temperatur allein erklärt den Erfolg nicht.",
+    "front": "Warum erklärt warmes Wetter allein den Erfolg eines Technologiestandorts nicht?",
+    "back": "Forschung, Fachkräfte, Kapital und Netzwerke sind ebenfalls wichtig. Gute Temperaturen ersetzen diese wirtschaftlichen Voraussetzungen nicht.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-usa.04",
-    "front": "Agrarwirtschaft ist regional",
-    "back": "Anbaugebiete hängen von Klima, Böden, Wasser und Absatz ab. Landwirtschaft ist oft stark mechanisiert und mit Verarbeitung sowie Handel verflochten.",
+    "front": "Warum hängt die Auswahl einer Feldfrucht auch vom Absatzmarkt ab?",
+    "back": "Anbau muss sich wirtschaftlich lohnen. Transport, Verarbeitung und Nachfrage beeinflussen, welche Produkte unter geeigneten Naturbedingungen angebaut werden.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-usa.05",
-    "front": "Wasser als Standortfrage",
-    "back": "Im trockenen Westen konkurrieren Landwirtschaft, Städte und Ökosysteme um begrenztes Wasser. Bewässerung ermöglicht Erträge, kann Reserven aber belasten.",
+    "front": "Warum konkurrieren Stadt und Landwirtschaft im trockenen Westen um Wasser?",
+    "back": "Beide benötigen Wasser, die verfügbaren Mengen sind begrenzt. Zusätzlich brauchen Flüsse und Ökosysteme ausreichende Wasserführung.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-usa.06",
-    "front": "Stadtregionen und Verkehr",
-    "back": "Suburbanisierung verlagert Wohnen und Funktionen ins Umland. Lange Wege können Staus, Energieverbrauch und Wohnkosten beeinflussen.",
+    "front": "Wie können ausgedehnte Vororte den alltäglichen Verkehr beeinflussen?",
+    "back": "Große Entfernungen zwischen Wohnen, Arbeit und Einkauf können mehr Autofahrten, Staus und Energieverbrauch verursachen.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-usa.07",
-    "front": "Häfen verbinden Weltmärkte",
-    "back": "Atlantik- und Pazifikhäfen verbinden unterschiedliche Handelsräume. Gute Bahn-, Straßen- und Lageranschlüsse bleiben für das Hinterland notwendig.",
+    "front": "Warum ist für einen Hafen an der Pazifikküste eine gute Bahnverbindung ins Landesinnere wichtig?",
+    "back": "Importierte und exportierte Güter brauchen einen Anschluss an Produktions- und Absatzräume. Die Küstenlage allein reicht nicht.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-usa.08",
-    "front": "Wirtschaftsmacht und Ungleichheit",
-    "back": "Große Gesamtleistung bedeutet nicht gleichen Wohlstand für alle. Auch zwischen Regionen und Bevölkerungsgruppen bestehen deutliche Unterschiede.",
+    "front": "Warum kann eine wirtschaftlich starke Metropole zugleich benachteiligte Wohnviertel haben?",
+    "back": "Einkommen, Wohnkosten, Bildung und Beschäftigungsmöglichkeiten sind ungleich verteilt. Die Gesamtleistung der Stadt beschreibt nicht jede Lebenslage.",
     "subject": "geography",
     "rubric": "geo-usa"
   },
   {
     "id": "standard.complex.geo-eu.01",
-    "front": "EU ist nicht ganz Europa",
-    "back": "Die Europäische Union beruht auf Verträgen zwischen Mitgliedstaaten. Der geografische Raum Europa umfasst auch Nichtmitglieder.",
+    "front": "Warum ist ein europäischer Staat nicht automatisch Mitglied der EU?",
+    "back": "Mitgliedschaft beruht auf politischen und rechtlichen Vereinbarungen. Der Kontinent umfasst auch Staaten außerhalb dieses Zusammenschlusses.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-eu.02",
-    "front": "Vier Freiheiten im Binnenmarkt",
-    "back": "Waren, Personen, Dienstleistungen und Kapital sollen sich weitgehend frei bewegen können. Geltende Regeln und Voraussetzungen bleiben wichtig.",
+    "front": "Welche vier Freiheiten soll der EU-Binnenmarkt grundsätzlich ermöglichen?",
+    "back": "Freien Verkehr von Waren, Personen, Dienstleistungen und Kapital. Für ihre Nutzung gelten gemeinsame Regeln und Voraussetzungen.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-eu.03",
-    "front": "Euro, EU und Schengen",
-    "back": "Die EU ist politische und wirtschaftliche Zusammenarbeit. Der Euro betrifft die Währung, Schengen vor allem Grenzkontrollen. Die Geltungsbereiche sind verschieden.",
+    "front": "Warum sind Eurogebiet und Schengen-Raum keine austauschbaren Begriffe?",
+    "back": "Das Eurogebiet betrifft die gemeinsame Währung, Schengen vor allem Grenzkontrollen. Die teilnehmenden Staaten müssen nicht deckungsgleich sein.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-eu.04",
-    "front": "Institutionen teilen Aufgaben",
-    "back": "Das Parlament vertritt Bürgerinnen und Bürger. Im Rat der EU wirken Fachminister mit. Die Kommission schlägt viele Rechtsakte vor; der Gerichtshof prüft EU-Recht.",
+    "front": "Warum arbeiten Parlament, Rat der EU und Kommission bei vielen Gesetzen zusammen?",
+    "back": "Sie haben verschiedene Rollen im Verfahren: Vorschläge, demokratische Vertretung und Vertretung der Mitgliedstaaten. Keine dieser Rollen ersetzt alle anderen.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-eu.05",
-    "front": "Regionale Förderung",
-    "back": "Die EU unterstützt den Zusammenhalt und den Abbau regionaler Unterschiede. Dafür sind unter anderem Verkehrs-, Bildungs- und Wirtschaftsprojekte wichtig.",
+    "front": "Wie kann regionale Förderung eine schlecht erreichbare Region unterstützen?",
+    "back": "Zum Beispiel durch ein geeignetes Verkehrs- oder Bildungsprojekt. Planung muss zu den konkreten regionalen Bedürfnissen passen.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-eu.06",
-    "front": "Natur kennt keine Staatsgrenzen",
-    "back": "Flüsse, Luftverschmutzung und Lebensräume überschreiten Grenzen. Gemeinsame Regeln können grenzüberschreitende Probleme bearbeiten.",
+    "front": "Warum kann Luftverschmutzung nicht allein an einer Staatsgrenze bekämpft werden?",
+    "back": "Luftmassen transportieren Schadstoffe über Grenzen. Gemeinsame Maßnahmen können Emissionsquellen und Auswirkungen besser zusammen betrachten.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-eu.07",
-    "front": "Europäische Wirtschaftsräume",
-    "back": "Häfen, Flüsse und Verkehrskorridore verbinden Standorte. Landwirtschaft und Industrie bleiben wegen Naturbedingungen und Geschichte regional unterschiedlich.",
+    "front": "Wie können ein Hafen und ein europäischer Verkehrskorridor gemeinsam wirken?",
+    "back": "Der Hafen verbindet Seeverkehr mit Landwegen. Der Korridor ermöglicht die Weiterverteilung zwischen Produktions- und Absatzräumen.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-eu.08",
-    "front": "Zuständigkeiten auf mehreren Ebenen",
-    "back": "EU, Mitgliedstaaten, Regionen und Gemeinden teilen Aufgaben. Subsidiarität fragt, auf welcher Ebene Ziele sinnvoll erreicht werden können.",
+    "front": "Wann kann eine gemeinsame europäische Regel sinnvoller als eine rein lokale Lösung sein?",
+    "back": "Wenn ein Problem grenzüberschreitend ist und gemeinsam wirksamer gelöst werden kann. Die geeignete Ebene muss begründet werden.",
     "subject": "geography",
     "rubric": "geo-eu"
   },
   {
     "id": "standard.complex.geo-germany.01",
-    "front": "Deutschlands Großräume",
-    "back": "Norddeutsches Tiefland, Mittelgebirge und Alpenraum besitzen unterschiedliche Naturbedingungen. Diese beeinflussen Siedlung, Landwirtschaft und Verkehr.",
+    "front": "Warum unterscheidet sich die Landwirtschaft im Alpenraum von der im Norddeutschen Tiefland?",
+    "back": "Relief, Höhenlage, Klima und Böden bieten andere Bedingungen. Steile Hänge erschweren etwa großflächigen Maschineneinsatz.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.geo-germany.02",
-    "front": "Mitteleuropäische Verflechtung",
-    "back": "Deutschland liegt an wichtigen europäischen Verbindungen. Handel und Transit schaffen Chancen, aber auch Verkehrs- und Umweltbelastungen.",
+    "front": "Warum bringt eine stark genutzte Transitroute neben Chancen auch Belastungen?",
+    "back": "Sie verbindet Wirtschaftsräume, verursacht aber auch Verkehr, Lärm und Emissionen. Nutzen und Folgen sind räumlich ungleich verteilt.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.geo-germany.03",
-    "front": "Industrie plus Dienstleistungen",
-    "back": "Maschinenbau, andere Industrien und vielfältige Dienstleistungen tragen zur Wertschöpfung bei. Keine einzelne Branche beschreibt die ganze Wirtschaft.",
+    "front": "Warum hängen Industrie und Dienstleistungen häufig voneinander ab?",
+    "back": "Industrie braucht etwa Transport, Software und Wartung. Dienstleistungsbetriebe erhalten umgekehrt Aufträge aus der Produktion.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.geo-germany.04",
-    "front": "Strukturwandel im Ruhrgebiet",
-    "back": "Kohle und Stahl prägten den Raum. Neue Branchen, Weiterbildung und Umnutzung alter Flächen helfen bei langfristigen Veränderungen.",
+    "front": "Wie kann eine frühere Zeche zum Bildungs- oder Kulturstandort werden?",
+    "back": "Gebäude und Flächen können nach geeigneter Sicherung und Planung umgenutzt werden. Das schafft neue Funktionen, ersetzt aber nicht automatisch alle früheren Arbeitsplätze.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.geo-germany.05",
-    "front": "Import und Export gehören zusammen",
-    "back": "Deutschland verkauft viele Produkte ins Ausland und bezieht Rohstoffe, Energie und Bauteile. Exporterfolge können auf importierten Vorleistungen beruhen.",
+    "front": "Warum kann ein deutsches Exportprodukt zugleich viele importierte Teile enthalten?",
+    "back": "Produktion ist arbeitsteilig organisiert. Bauteile und Rohstoffe werden aus anderen Ländern bezogen und hier weiterverarbeitet.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.geo-germany.06",
-    "front": "Regionale Unterschiede beachten",
-    "back": "Ballungsräume und ländliche Regionen bieten unterschiedliche Chancen und Herausforderungen. Auch innerhalb großer Ost-West-Gruppen bestehen Unterschiede.",
+    "front": "Warum ist „ländlich“ nicht gleichbedeutend mit „wirtschaftlich schwach“?",
+    "back": "Ländliche Regionen unterscheiden sich etwa in Betrieben, Erreichbarkeit, Tourismus und Versorgung. Die Siedlungsdichte allein beschreibt keine gesamte Wirtschaftslage.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.geo-germany.07",
-    "front": "Energie braucht räumliche Planung",
-    "back": "Wind, Sonne, Netze und Verbrauch müssen zusammenpassen. Ausbau erfordert Abwägung von Versorgung, Klima-, Natur- und Anwohnerinteressen.",
+    "front": "Warum braucht der Ausbau erneuerbarer Stromerzeugung auch Leitungen und Abstimmung?",
+    "back": "Erzeugungsorte und Verbrauch liegen oft auseinander. Netze, Flexibilität und Planung müssen schwankende Einspeisung und Bedarf zusammenbringen.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.geo-germany.08",
-    "front": "Flächen bewusst nutzen",
-    "back": "Neue Gebäude und Verkehrswege können Boden versiegeln. Flächenrecycling nutzt vorhandene Standorte erneut und kann zusätzlichen Flächenbedarf begrenzen.",
+    "front": "Wie kann die Wiederverwendung einer Industriebrache neue Bodenversiegelung vermeiden?",
+    "back": "Ein bereits beanspruchter Standort wird genutzt, statt zusätzliche Freifläche zu bebauen. Vorher können Sanierung und eine neue Planung nötig sein.",
     "subject": "geography",
     "rubric": "geo-germany"
   },
   {
     "id": "standard.complex.soc-family.01",
-    "front": "Familie hat verschiedene Formen",
-    "back": "Fürsorge und Verlässlichkeit sind in unterschiedlichen Familienformen möglich. Die Form allein sagt wenig über die Qualität des Zusammenlebens aus.",
+    "front": "Warum lässt sich aus „alleinerziehend“ nicht auf schlechte Fürsorge schließen?",
+    "back": "Eine Familienform sagt allein nichts über Zuwendung oder Verlässlichkeit aus. Entscheidend ist, wie Bedürfnisse und Versorgung der Beteiligten erfüllt werden.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-family.02",
-    "front": "Rechte und Grenzen im Alltag",
-    "back": "Jeder Mensch hat Anspruch auf respektvollen Umgang. Zusammenleben hebt Privatsphäre, persönliche Grenzen und Schutz vor Gewalt nicht auf.",
+    "front": "Ein Familienmitglied liest ungefragt private Nachrichten. Welches Problem entsteht?",
+    "back": "Das verletzt persönliche Grenzen und Privatsphäre. Zusammenleben ersetzt keine Zustimmung; Grenzen müssen besprochen und respektiert werden.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-family.03",
-    "front": "Konflikte konstruktiv bearbeiten",
-    "back": "Beschreibe die konkrete Situation, höre zu und benenne dein Bedürfnis. Gemeinsame Absprachen können unterschiedliche Interessen berücksichtigen.",
+    "front": "Zwei Geschwister brauchen denselben ruhigen Raum zum Lernen. Wie kann ein Kompromiss aussehen?",
+    "back": "Sie können feste Zeitfenster vereinbaren oder einen zweiten geeigneten Ort suchen. Beide Lernbedürfnisse sollen berücksichtigt werden.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-family.04",
-    "front": "Arbeit im Haushalt sichtbar machen",
-    "back": "Kochen, Putzen, Organisieren und Pflege brauchen Zeit und Kraft. Faire Verteilung berücksichtigt Belastungen, nicht nur die Anzahl der Aufgaben.",
+    "front": "Warum kann ein Haushaltsplan mit nur „Putzen“ unsichtbare Arbeit übersehen?",
+    "back": "Planung, Einkaufen, Termine und Betreuung kosten ebenfalls Zeit. Eine faire Verteilung muss auch diese Organisationsarbeit berücksichtigen.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-family.05",
-    "front": "Budget für einen Haushalt",
-    "back": "Einnahmen und Ausgaben werden gegenübergestellt. Wohnen und grundlegende Versorgung haben andere Priorität als aufschiebbare Wünsche.",
+    "front": "Wie erkennst du an einem Haushaltsplan, ob ein neuer Ratenkauf tragbar wäre?",
+    "back": "Vergleiche die zusätzliche regelmäßige Rate mit dem Geld nach notwendigen Ausgaben und Rücklagen. Ein niedriger Einzelbetrag sagt allein wenig über die Tragbarkeit.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-family.06",
-    "front": "Soziale Rollen können kollidieren",
-    "back": "Wer zugleich arbeitet, lernt oder Angehörige versorgt, kann widersprüchliche Erwartungen erleben. Absprachen und Unterstützung können entlasten.",
+    "front": "Eine Person arbeitet und pflegt Angehörige. Was ist ein Rollenkonflikt daran?",
+    "back": "Beruf und Pflege können gleichzeitig Zeit und Einsatz verlangen. Widersprüchliche Erwartungen lassen sich durch Absprachen und Unterstützung eher bewältigen.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-family.07",
-    "front": "Teilhabe im Wohnumfeld",
-    "back": "Barrierefreie Wege, erreichbare Angebote und ein respektvolles Miteinander erleichtern Teilnahme. Inklusion baut Hindernisse ab.",
+    "front": "Ein Jugendtreff hat nur Treppen am Eingang. Wie kann Teilhabe verbessert werden?",
+    "back": "Ein geeigneter barrierefreier Zugang und zugängliche Angebote bauen Hindernisse ab. Eine Einladung allein macht die Teilnahme noch nicht für alle möglich.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-family.08",
-    "front": "Unterstützung annehmen",
-    "back": "Beratungsstellen und Vertrauenspersonen können bei Überforderung helfen. Bei Gewalt ist Schutz wichtig; Hilfe holen ist kein Verrat.",
+    "front": "Was kannst du tun, wenn du dich in einem Konflikt zu Hause bedroht fühlst?",
+    "back": "Suche einen sicheren Ort und Unterstützung bei einer Vertrauensperson oder zuständigen Beratungsstelle. Schutz geht vor dem Versuch, den Streit allein zu lösen.",
     "subject": "social",
     "rubric": "soc-family"
   },
   {
     "id": "standard.complex.soc-leisure.01",
-    "front": "Freizeit bewusst gestalten",
-    "back": "Erholung, Bewegung, Kontakte und eigene Interessen können sich ergänzen. Planung sollte auch Schlaf, Verpflichtungen und Kosten berücksichtigen.",
+    "front": "Du möchtest dich erholen, hast aber wenig Geld. Wie planst du passende Freizeit?",
+    "back": "Suche kostenarme Möglichkeiten, etwa Bewegung oder Treffen im Park, und berücksichtige Zeit, Schlaf und Verpflichtungen. Erholung muss nicht teuer sein.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-leisure.02",
-    "front": "Gruppendruck erkennen",
-    "back": "Die Sorge vor Ausschluss kann zu unerwünschtem Verhalten drängen. Ein klares Nein und unterstützende Kontakte helfen, eigene Grenzen zu vertreten.",
+    "front": "In einer Gruppe heißt es „Alle machen mit“. Warum ist das kein guter Grund für Konsum?",
+    "back": "Die Gruppenerwartung ersetzt keine eigene Entscheidung über Risiken und Grenzen. Ein Nein darf bestehen bleiben, auch wenn andere anders entscheiden.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-leisure.03",
-    "front": "Erlaubt bedeutet nicht harmlos",
-    "back": "Auch Alkohol und Nikotin können Gesundheit schädigen und abhängig machen. Werbung und gesellschaftliche Gewohnheit sind keine Sicherheitsnachweise.",
+    "front": "Warum schützt der legale Verkauf einer Zigarette nicht vor Gesundheitsschäden?",
+    "back": "Rechtliche Zulassung und gesundheitliche Unbedenklichkeit sind verschieden. Tabakrauch enthält Schadstoffe, Nikotin kann abhängig machen.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-leisure.04",
-    "front": "Abhängigkeit hat mehrere Einflüsse",
-    "back": "Biologische, psychische und soziale Faktoren wirken zusammen. Kontrollverlust und Fortsetzung trotz Schäden sind wichtige Warnzeichen.",
+    "front": "Eine Person konsumiert weiter, obwohl Ausbildung und Beziehungen leiden. Welches Warnzeichen ist das?",
+    "back": "Fortsetzung trotz erkennbarer Schäden kann auf eine problematische Entwicklung hinweisen. Eine fachliche Beratung ist sinnvoll; eine Ferndiagnose reicht nicht.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-leisure.05",
-    "front": "Digitale Spiele und Glücksspiel unterscheiden",
-    "back": "Nicht jedes digitale Spiel ist Glücksspiel. Problematisch können Kontrollverlust, finanzielle Risiken und die Vernachlässigung wichtiger Lebensbereiche werden.",
+    "front": "Warum solltest du bei einem digitalen Spiel auch die Bezahlmechanik prüfen?",
+    "back": "Kostenpflichtige Zufallsangebote oder ständiger Kaufdruck können finanzielle Risiken schaffen. Nicht jedes Spiel ist Glücksspiel, aber Geldmechaniken verdienen Aufmerksamkeit.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-leisure.06",
-    "front": "Risiken von Mischkonsum",
-    "back": "Stoffe können sich gegenseitig beeinflussen. Wirkungen und Risiken hängen zusätzlich von Person und Situation ab; Mischen macht Konsum nicht sicher.",
+    "front": "Warum lässt sich das Risiko zweier gemeinsam genommener Substanzen nicht einfach addieren?",
+    "back": "Stoffe können sich gegenseitig verstärken oder ihre Wirkung verändern. Auch Person und Situation beeinflussen das Risiko; eine sichere Wirkung ist nicht ableitbar.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-leisure.07",
-    "front": "Hilfe früh nutzen",
-    "back": "Suchtberatung unterstützt bei Fragen zu eigenem oder fremdem Konsum. Respektvolle konkrete Gespräche helfen eher als Beschämung.",
+    "front": "Eine Freundin äußert Sorgen über ihren Konsum. Wie kann eine erste Unterstützung aussehen?",
+    "back": "Höre ohne Beschämung zu und biete an, gemeinsam Informationen oder Beratung zu suchen. Du musst keine Diagnose stellen oder Behandlung übernehmen.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-leisure.08",
-    "front": "Notfälle ernst nehmen",
-    "back": "Bei Bewusstlosigkeit nach möglichem Konsum sofort den Rettungsdienst rufen und Anweisungen befolgen. Nicht allein lassen und nichts zu trinken geben.",
+    "front": "Jemand ist nach möglichem Konsum bewusstlos. Was hat sofort Vorrang?",
+    "back": "112 rufen, Atmung prüfen und den Anweisungen folgen. Bei normaler Atmung stabile Seitenlage; ohne normale Atmung Wiederbelebung nach Anleitung. Nicht allein lassen, nichts einflößen.",
     "subject": "social",
     "rubric": "soc-leisure"
   },
   {
     "id": "standard.complex.soc-media.01",
-    "front": "Fakt, Meinung und Werbung",
-    "back": "Fakten sind überprüfbare Aussagen, Meinungen Bewertungen. Werbung verfolgt ein Interesse. In Beiträgen können diese Formen gemischt sein.",
+    "front": "Ein Beitrag mischt eine Zahl mit einer Wertung und einem Kaufaufruf. Wie gehst du beim Lesen vor?",
+    "back": "Trenne überprüfbare Aussage, persönliche Bewertung und Werbeabsicht. Prüfe für die Zahl Quelle und Bezugsgröße.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-media.02",
-    "front": "Quellen kritisch vergleichen",
-    "back": "Prüfe Ursprung, Datum, Belege und unabhängige weitere Darstellungen. Viele Kopien derselben Meldung sind keine unabhängigen Bestätigungen.",
+    "front": "Warum sind fünf Webseiten mit derselben kopierten Meldung keine fünf unabhängigen Belege?",
+    "back": "Sie können alle auf denselben Ursprung zurückgehen. Entscheidend sind voneinander unabhängige Nachweise, nicht die Anzahl der Kopien.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-media.03",
-    "front": "Bilder brauchen Kontext",
-    "back": "Ein echtes Bild kann mit falschem Ort oder Datum irreführen. Auch künstlich veränderte Bilder und Videos können glaubwürdig wirken.",
+    "front": "Ein echtes Foto wird mit falschem Aufnahmeort geteilt. Warum ist der Beitrag irreführend?",
+    "back": "Das Bild kann authentisch sein, der behauptete Zusammenhang aber falsch. Prüfe Ort, Datum und ursprüngliche Veröffentlichung gemeinsam.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-media.04",
-    "front": "Persönliche Daten schützen",
-    "back": "Gib nur notwendige Daten weiter und prüfe Freigaben. Lange einzigartige Passwörter und ein zweiter Anmeldefaktor erschweren fremden Zugriff.",
+    "front": "Warum erschwert ein zweiter Anmeldefaktor den Missbrauch eines gestohlenen Passworts?",
+    "back": "Zum Passwort wird ein weiterer Nachweis benötigt, etwa ein freigegebenes Gerät. Der Besitz des Passworts allein reicht dann oft nicht zum Anmelden.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-media.05",
-    "front": "Phishing erkennen",
-    "back": "Täuschende Nachrichten locken auf nachgeahmte Seiten. Rufe den bekannten Dienst unabhängig auf, statt Zugangsdaten über einen verdächtigen Link einzugeben.",
+    "front": "Eine Nachricht droht mit Kontosperrung und verlangt sofortige Anmeldung per Link. Wie reagierst du?",
+    "back": "Öffne den Dienst über seine bekannte Adresse oder App und prüfe dort die Meldung. Gib Zugangsdaten nicht über den verdächtigen Link ein.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-media.06",
-    "front": "Empfehlungsalgorithmen",
-    "back": "Dienste wählen Inhalte unter anderem nach Verhalten aus. Das kann ähnliche Perspektiven verstärken; ein Feed zeigt nicht die ganze Wirklichkeit.",
+    "front": "Warum kann dein Nachrichtenfeed andere Themen zeigen als der einer anderen Person?",
+    "back": "Auswahlverfahren berücksichtigen unter anderem Verhalten und Interessen. Ein persönlicher Feed ist deshalb keine vollständige Übersicht der Wirklichkeit.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-media.07",
-    "front": "Respekt online",
-    "back": "Kritisiere Argumente, nicht die Würde von Menschen. Bei Belästigung Beweise sichern und Unterstützung suchen. Private Daten sind kein Druckmittel.",
+    "front": "Wie kritisierst du online einen Vorschlag, ohne die Person abzuwerten?",
+    "back": "Nenne überprüfbare Probleme und begründe deinen Widerspruch. Beleidigungen, Drohungen oder das Veröffentlichen privater Daten sind keine Sachargumente.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-media.08",
-    "front": "Digitale Inhalte verantworten",
-    "back": "Urheberrecht, Bildrechte und Privatsphäre bleiben online wichtig. Löschen entfernt nicht sicher alle Kopien; prüfe deshalb vor dem Veröffentlichen.",
+    "front": "Warum solltest du vor dem Hochladen eines fremden Bildes Rechte und Erlaubnis prüfen?",
+    "back": "Urheber- und Persönlichkeitsrechte gelten auch online. Ein frei auffindbares Bild ist nicht automatisch zur beliebigen Weiterverwendung freigegeben.",
     "subject": "social",
     "rubric": "soc-media"
   },
   {
     "id": "standard.complex.soc-state.01",
-    "front": "Verfassung als Rahmen",
-    "back": "Das Grundgesetz ordnet den Staat und schützt Grundrechte. Staatliche Gewalt ist an diese Regeln gebunden.",
+    "front": "Warum kann eine einfache Regierungsentscheidung das Grundgesetz nicht beliebig ändern?",
+    "back": "Für Verfassungsänderungen gelten besondere Regeln; bestimmte Grundprinzipien sind geschützt. Die Regierung steht nicht über der Verfassung.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-state.02",
-    "front": "Demokratie schützt auch Minderheiten",
-    "back": "Mehrheiten entscheiden innerhalb rechtlicher Grenzen. Menschenwürde und Grundrechte gelten auch ohne Zustimmung einer Mehrheit.",
+    "front": "Darf eine Mehrheit die Menschenwürde einer Minderheit außer Kraft setzen? Begründe.",
+    "back": "Nein. Menschenwürde und Grundrechte begrenzen auch Mehrheitsentscheidungen. Demokratie braucht mehr als das Zählen von Stimmen.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-state.03",
-    "front": "Gewaltenteilung begrenzt Macht",
-    "back": "Gesetzgebung, Verwaltung und Rechtsprechung haben verschiedene Aufgaben. Kontrolle und unabhängige Gerichte erschweren Missbrauch.",
+    "front": "Warum ist ein unabhängiges Gericht bei einem Streit mit einer Behörde wichtig?",
+    "back": "Die Behörde soll nicht endgültig allein über die Rechtmäßigkeit ihres eigenen Handelns entscheiden. Gerichtliche Kontrolle begrenzt Macht.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-state.04",
-    "front": "Bund, Länder und Kommunen",
-    "back": "Staatliche Aufgaben sind auf mehrere Ebenen verteilt. Die Länder wirken über den Bundesrat an Bundesangelegenheiten mit.",
+    "front": "Welche staatliche Ebene ist bei Müllabfuhr und örtlichen Straßen häufig besonders nah am Alltag?",
+    "back": "Die kommunale Ebene. Aufgaben und genaue Zuständigkeiten hängen von Gesetzen und der örtlichen Organisation ab.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-state.05",
-    "front": "Parlament und Regierung",
-    "back": "Das Parlament beschließt Gesetze und kontrolliert. Die Regierung gestaltet Politik und setzt Recht um; Opposition prüft und kritisiert.",
+    "front": "Warum gehört Kritik einer Opposition zur parlamentarischen Demokratie?",
+    "back": "Sie kontrolliert die Regierung, stellt Fragen und bietet politische Alternativen. Kritik ist nicht automatisch eine Ablehnung des demokratischen Systems.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-state.06",
-    "front": "Soziale Sicherheit gemeinsam tragen",
-    "back": "Sozialversicherungen sichern Risiken wie Krankheit, Pflegebedürftigkeit, Alter und Arbeitslosigkeit ab. Steuern finanzieren weitere öffentliche Aufgaben.",
+    "front": "Wie unterscheiden sich Beiträge zur Sozialversicherung von Steuern?",
+    "back": "Beiträge finanzieren bestimmte Versicherungszweige nach ihren Regeln. Steuern finanzieren allgemeine staatliche Aufgaben und sind nicht einer persönlichen Gegenleistung zugeordnet.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-state.07",
-    "front": "Rechtsstaat im Alltag",
-    "back": "Behörden benötigen Zuständigkeit und rechtliche Grundlagen. Gerichte ermöglichen Überprüfung. Maßnahmen müssen unter anderem verhältnismäßig sein.",
+    "front": "Warum muss eine staatliche Maßnahme verhältnismäßig sein?",
+    "back": "Sie muss einem legitimen Zweck dienen und dafür geeignet, erforderlich und angemessen sein. Nicht jeder nützliche Eingriff ist dadurch schon zulässig.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-state.08",
-    "front": "Beteiligung jenseits des Wahltags",
-    "back": "Petitionen, Vereinigungen und friedliche Versammlungen ermöglichen Mitwirkung. Verschiedene Interessen müssen sachlich abgewogen werden.",
+    "front": "Wie kannst du dich zwischen zwei Wahlen für einen sicheren Schulweg einsetzen?",
+    "back": "Zum Beispiel mit einer Petition, einer Initiative oder einer friedlichen Versammlung. Anliegen, Zuständigkeit und konkrete Verbesserungsvorschläge helfen.",
     "subject": "social",
     "rubric": "soc-state"
   },
   {
     "id": "standard.complex.soc-elections.01",
-    "front": "Fünf Wahlgrundsätze",
-    "back": "Allgemein, unmittelbar, frei, gleich und geheim: Diese Grundsätze sichern die demokratische Wahl des Bundestags.",
+    "front": "Eine Person wird zur Offenlegung ihres Stimmzettels gedrängt. Welcher Wahlgrundsatz ist betroffen?",
+    "back": "Vor allem die geheime Wahl; bei Druck auch die freie Wahl. Die persönliche Entscheidung muss selbstbestimmt und unbeobachtet möglich sein.",
     "subject": "social",
     "rubric": "soc-elections"
   },
   {
     "id": "standard.complex.soc-elections.02",
-    "front": "Zwei Stimmen, zwei Aufgaben",
-    "back": "Die Erststimme gilt einer Person im Wahlkreis. Die Zweitstimme gilt einer Landesliste und ist wesentlich für die Sitzverteilung zwischen Parteien.",
+    "front": "Welche Aufgabe hat die Zweitstimme im Unterschied zur Erststimme bei der Bundestagswahl?",
+    "back": "Sie gilt einer Landesliste und ist maßgeblich für die Sitzverteilung zwischen Parteien. Die Erststimme gilt einer Person im Wahlkreis; gesetzliche Sitzregeln gelten zusätzlich.",
     "subject": "social",
     "rubric": "soc-elections"
   },
   {
     "id": "standard.complex.soc-elections.03",
-    "front": "Wahlrecht genau unterscheiden",
-    "back": "Aktiv heißt wählen dürfen, passiv heißt kandidieren dürfen. Voraussetzungen hängen von Wahlart und geltendem Recht ab.",
+    "front": "Eine Person darf wählen, möchte aber auch kandidieren. Welche zwei Rechte sind zu prüfen?",
+    "back": "Aktives Wahlrecht bedeutet wählen dürfen, passives Wahlrecht kandidieren dürfen. Die gesetzlichen Voraussetzungen können sich unterscheiden.",
     "subject": "social",
     "rubric": "soc-elections"
   },
   {
     "id": "standard.complex.soc-elections.04",
-    "front": "Geheim abstimmen, öffentlich zählen",
-    "back": "Die persönliche Entscheidung wird geschützt. Zugleich muss der ordnungsgemäße Ablauf kontrollierbar sein; die Auszählung ist grundsätzlich öffentlich.",
+    "front": "Warum dürfen Wahlbeobachtende nicht einfach einen ausgefüllten Stimmzettel fotografieren?",
+    "back": "Öffentliche Kontrolle darf das Wahlgeheimnis und den ordnungsgemäßen Ablauf nicht verletzen. Die individuelle Entscheidung bleibt geschützt.",
     "subject": "social",
     "rubric": "soc-elections"
   },
   {
     "id": "standard.complex.soc-elections.05",
-    "front": "Briefwahl sorgfältig nutzen",
-    "back": "Unterlagen rechtzeitig beantragen und Hinweise sowie Fristen beachten. Die eigene Entscheidung muss auch dabei selbstbestimmt bleiben.",
+    "front": "Warum reicht bei Briefwahl die rechtzeitige Absendung nicht als sichere Planung?",
+    "back": "Entscheidend ist der fristgerechte Eingang bei der zuständigen Stelle. Beachte die konkreten amtlichen Fristen und Postlaufzeiten.",
     "subject": "social",
     "rubric": "soc-elections"
   },
   {
     "id": "standard.complex.soc-elections.06",
-    "front": "Umfrage ist nicht Ergebnis",
-    "back": "Befragungen haben Unsicherheiten. Hochrechnungen nutzen Teilergebnisse; erst das amtliche Verfahren stellt das endgültige Ergebnis fest.",
+    "front": "Warum kann eine Wahlumfrage mit kleinen Abständen keine sichere Siegerprognose liefern?",
+    "back": "Stichproben, Unsicherheit und spätere Entscheidungen begrenzen die Aussage. Eine Umfrage ist keine Auszählung aller Stimmen.",
     "subject": "social",
     "rubric": "soc-elections"
   },
   {
     "id": "standard.complex.soc-elections.07",
-    "front": "Programme und Koalitionen",
-    "back": "Parteien setzen Schwerpunkte. Bei gemeinsamer Regierungsbildung werden unterschiedliche Ziele zu Kompromissen verbunden; Versprechen sind noch keine Gesetze.",
+    "front": "Warum bedeutet ein Wahlversprechen noch keine beschlossene Maßnahme?",
+    "back": "Es braucht Mehrheiten, Verfahren und oft Verhandlungen. Bei Koalitionen können die Beteiligten nur Teile ihrer Programme durchsetzen.",
     "subject": "social",
     "rubric": "soc-elections"
   },
   {
     "id": "standard.complex.soc-elections.08",
-    "front": "Informiert mitentscheiden",
-    "back": "Prüfe politische Angebote, Gründe und Folgen anhand verlässlicher Informationen. Wahlen ergänzen andere Formen demokratischer Beteiligung.",
+    "front": "Wie vergleichst du zwei Wahlprogramme zu derselben Sachfrage?",
+    "back": "Prüfe konkrete Vorschläge, Zuständigkeiten, Begründungen, Kosten und mögliche Folgen. Vergleiche ähnliche Punkte statt nur Schlagwörter.",
     "subject": "social",
     "rubric": "soc-elections"
   }

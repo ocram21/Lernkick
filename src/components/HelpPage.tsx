@@ -8,7 +8,7 @@ export const helpSections=[
   'Normal und Streber stellen die Schwierigkeit global ein. Streber bietet anspruchsvollere Aufgaben in den Bereichen, die diese Einstellung unterstützen.']},
  {title:'Games',paragraphs:[
   'Wähle Zahlenpuzzle, Bildpuzzle oder Codeknacker direkt aus. Beim Puzzle schiebst du eine benachbarte Kachel in die Lücke. Ordne die Zahlen oder die Berglandschaft; unten rechts bleibt frei.',
-  'Beim Codeknacker suchst du vier unterschiedliche Farben aus sechs Farben. Tippe eine Position und danach eine Farbe an. Eine bereits verwendete Farbe wird getauscht. Prüfen bewertet vier ausgefüllte Positionen. Du hast zehn Versuche.',
+  'Beim Codeknacker suchst du in Normal drei unterschiedliche Farben aus fünf, in Streber vier aus sechs. Die Variante bleibt für die laufende Runde fest. Tippe eine Position und danach eine Farbe an. Eine bereits verwendete Farbe wird getauscht. Prüfen bewertet alle ausgefüllten Positionen. Du hast zehn Versuche.',
   'Schwarz bedeutet: Farbe und Position stimmen. Weiß bedeutet: Farbe stimmt, Position nicht. Grau bedeutet: keine weitere passende Farbe. Bei noch offenen Versuchen sind alle Punkte grau und noch unbewertet. Die Rückmeldung gehört zu keiner bestimmten Position.',
   'Jede gewonnene Games-Runde bringt einmal 100 Score-Punkte. Verlieren oder Abbrechen bringt keine Punkte. Die drei Zahlen auf der Games-Kachel zählen Siege je Spiel. Spielstände bleiben beim Wechseln und Neuladen erhalten. Nur Neue Runde startet das ausgewählte Spiel neu.']},
  {title:'Weitere Spiele',paragraphs:[
