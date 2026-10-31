@@ -1,0 +1,5 @@
+/* Completion times only; existing game layout retained. */
+.game-playtime{display:inline-block;font-size:.8em;font-weight:400;margin-inline-start:.7em}
+.code-footer [role="status"]{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .5rem}
+.code-footer .game-playtime{margin-inline-start:0}
+.puzzle-controls .game-playtime{display:block;margin-inline-start:0}
