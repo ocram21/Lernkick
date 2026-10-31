@@ -1,0 +1,30 @@
+/* Written calculation and fraction tools inherit the calculator controls. */
+.game-playtime{display:inline-block;font-size:.8em;font-weight:400;margin-inline-start:.7em}
+.code-footer [role="status"]{display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem .5rem}
+.code-footer .game-playtime{margin-inline-start:0}
+.puzzle-controls .game-playtime{display:block;margin-inline-start:0}
+.game-switcher{flex-wrap:wrap}
+.game-switcher .profiled-button{min-width:0}
+.calculator-key[data-module="hangman"]{--key-color:var(--calc-red)}
+.work-heading{display:flex;align-items:center;gap:1rem}.work-heading h1{font-size:clamp(1.4rem,5vw,2rem);margin:0}
+.fraction-workshop,.written-practice{overflow:auto;min-height:0;padding:1rem;max-width:900px;width:100%;margin-inline:auto}
+.work-toolbar{display:flex;flex-wrap:wrap;gap:.5rem;margin-block:.75rem}
+.fraction-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.fraction-pair section{min-width:0}.fraction-pair h2{font-size:1.2rem}
+.fraction-picture{display:block;width:200px;max-width:100%;aspect-ratio:1;margin-inline:auto}
+.fraction-picture [role="button"]{fill:var(--calc-housing);stroke:var(--calc-ink);stroke-width:1.3;cursor:pointer}
+.fraction-picture .selected{fill:var(--calc-red)}
+.fraction-picture [role="button"]:focus-visible{stroke:var(--calc-teal);stroke-width:4;outline:none}
+.fraction-inputs{display:flex;gap:.75rem}.fraction-inputs label{display:grid;gap:.25rem;min-width:0;flex:1}.fraction-inputs input{width:100%;min-width:0;min-height:44px}
+.fraction-factor{display:flex;align-items:center;gap:.75rem}.fraction-factor select{min-height:44px;min-width:70px}
+.fraction-comparison{font-size:1.4rem;text-align:center}
+.written-entries{display:grid;gap:.5rem;margin-block:.75rem}
+.written-grid{font-variant-numeric:tabular-nums;max-width:100%;display:grid;gap:.65rem}
+.written-row>span{display:block;font-size:.85rem;margin-bottom:.25rem}
+.written-cells{display:grid;grid-template-columns:repeat(var(--written-columns),minmax(0,1fr));gap:.2rem;max-width:30rem;margin-left:auto}
+.written-cells>span,.written-cells label{position:relative;min-width:0;text-align:center;font-size:1.35rem;min-height:44px}
+.written-cells input{width:100%;min-width:0;height:44px;text-align:center;padding:.15rem;font:inherit;font-variant-numeric:tabular-nums}
+.written-cells .decimal-after::after{content:',';position:absolute;right:-.15rem;bottom:0;z-index:1}
+.written-row.active .written-cells{border-bottom:2px solid var(--calc-teal);padding-bottom:.3rem}
+@media(max-width:480px){.fraction-pair{gap:.5rem}.fraction-pair h2{font-size:1rem}.fraction-pair .work-toolbar{display:grid;grid-template-columns:1fr}.fraction-pair .profiled-button{padding-inline:.25rem;font-size:.85rem}.fraction-picture{width:180px}.game-switcher{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.fraction-workshop,.written-practice{padding:.65rem}}
+.workshop-screen{height:100dvh;display:flex;flex-direction:column}.workshop-screen .header{flex-shrink:0;height:56px}.workshop-screen>.fraction-workshop,.workshop-screen>.written-practice{flex:1;min-height:0}

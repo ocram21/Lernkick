@@ -1,8 +1,9 @@
+import {playTimeSchema} from './playTime';
 import {z} from 'zod';
 import {codeRoundSchema} from './codebreaker';
 export const solvedBoard=()=>Array.from({length:16},(_,i)=>(i+1)%16);
 export const puzzleBoardSchema=z.array(z.number().int().min(0).max(15)).length(16).refine(board=>new Set(board).size===16);
-export const puzzleSchema=z.object({level:z.union([z.literal(1),z.literal(2)]),boards:z.record(z.string(),puzzleBoardSchema.refine(puzzleSolvable,'Das Puzzle muss lösbar sein')),game:z.enum(['numbers','picture','codebreaker']).optional(),rounds:z.record(z.string(),z.object({id:z.string().min(1)})).default({}),code:codeRoundSchema.nullable().default(null)});
+export const puzzleSchema=z.object({level:z.union([z.literal(1),z.literal(2)]),boards:z.record(z.string(),puzzleBoardSchema.refine(puzzleSolvable,'Das Puzzle muss lösbar sein')),game:z.enum(['numbers','picture','codebreaker']).optional(),rounds:z.record(z.string(),z.object({id:z.string().min(1),playTime:playTimeSchema.optional()})).default({}),code:codeRoundSchema.nullable().default(null)});
 export const emptyPuzzle=()=>({level:1 as const,boards:{},rounds:{},code:null});
 export function adjacent(a:number,b:number){return Number.isInteger(a)&&Number.isInteger(b)&&a>=0&&a<16&&b>=0&&b<16&&Math.abs(Math.floor(a/4)-Math.floor(b/4))+Math.abs(a%4-b%4)===1;}
 export function movePuzzle(board:readonly number[],position:number){const empty=board.indexOf(0);if(!adjacent(empty,position))return board;const next=[...board];[next[position],next[empty]]=[next[empty],next[position]];return next;}
