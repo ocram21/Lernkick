@@ -1119,7 +1119,7 @@
       "topic": "verfassung",
       "competency": "verfassung",
       "difficulty": 1,
-      "prompt": "Wie heißt die Verfassung der Bundesrepublik Deutschland?",
+      "prompt": "Wie heißt das Grundgesetz der Bundesrepublik Deutschland?",
       "options": [
         "Grundgesetz",
         "Parteiprogramm",
@@ -1142,11 +1142,11 @@
       "prompt": "Warum muss auch eine gewählte Regierung das Grundgesetz beachten?",
       "options": [
         "Ein Wahlsieg hebt alle Regeln auf.",
-        "Verfassungen gelten nur für Privatpersonen.",
-        "Staatliche Macht ist an die Verfassung und an Recht gebunden."
+        "Das Grundgesetz gilt nur für Privatpersonen.",
+        "Staatliche Macht ist an das Grundgesetz und an Recht gebunden."
       ],
       "correct": 2,
-      "explanation": "Demokratie und Rechtsstaat gehören zusammen. Eine Wahl gibt kein Recht, die verfassungsmäßigen Grenzen zu überschreiten.",
+      "explanation": "Demokratie und Rechtsstaat gehören zusammen. Eine Wahl gibt kein Recht, die Grenzen des Grundgesetzes zu überschreiten.",
       "curriculum": {
         "sourceId": "lsa-social-2019",
         "section": "3.3",

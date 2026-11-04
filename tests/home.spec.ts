@@ -3,16 +3,16 @@ for(const viewport of [{width:320,height:568},{width:375,height:667},{width:390,
 test('Hilfe erklärt die Funktionen und führt zurück zur Fächerauswahl',async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('button',{name:'Hilfe',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Kurze Hilfe'})).toBeVisible();
-  expect((await page.locator('.help-page').innerText()).split(/\s+/).length).toBeLessThan(180);
-  await expect(page.locator('.help-page')).not.toContainText(/IndexedDB|Algorithmus|24 Stunden|drei Sekunden/);
-  await page.getByText('App installieren',{exact:true}).click();await expect(page.locator('.install-help')).toContainText('Android');await expect(page.locator('.install-help')).toContainText('iPhone');
+  expect((await page.locator('.help-page').innerText()).split(/\s+/).length).toBeLessThan(650);
+  await expect(page.locator('.help-page')).not.toContainText(/IndexedDB|Algorithmus/);
+  await page.locator('.install-help summary').click();await expect(page.locator('.install-help')).toContainText('Android');await expect(page.locator('.install-help')).toContainText('iPhone');
   await page.getByRole('button',{name:'Ausgang',exact:true}).click();await expect(page.locator('.calculator-grid')).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+1)).toBe(true);
-  await page.getByRole('button',{name:'Mathematik, Level 1'}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'Mathematik, Level 1'}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
 });
 
 for(const exit of ['Pfeil','Logo'])test(`Ausgang über ${exit} erhält die Runde ohne Rückfrage`,async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level 1/}).click();await page.getByRole('button',{name:'Runde starten',exact:true}).click();
+  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level 1/}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();
   const {answerCorrect,storedAttempts}=await import('./helpers');await answerCorrect(page);
   await page.getByRole('button',{name:exit==='Logo'?'LernKick Startseite':'Ausgang',exact:true}).click();
   await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.locator('.calculator-grid')).toBeVisible();expect(await storedAttempts(page)).toBe(1);

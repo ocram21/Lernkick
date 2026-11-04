@@ -14,6 +14,6 @@ for(const pink of [false,true])for(const size of [{width:320,height:568},{width:
 });
 test('Aktuelle Hilfe ohne Sprachausgabe auch offline',async({page,context})=>{
  await page.goto('/');await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('button',{name:'Hilfe',exact:true}).click();
- await expect(page.locator('.help-page')).not.toContainText('Balken darunter');await expect(page.locator('.help-page')).toContainText('von 80 auf 72');await expect(page.getByRole('button',{name:/vorlesen/i})).toHaveCount(0);
+ await expect(page.locator('.help-page')).not.toContainText('Balken darunter');await expect(page.locator('.help-page')).toContainText('von 80 % auf 72 %');await expect(page.getByRole('button',{name:/vorlesen/i})).toHaveCount(0);
  await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload();await context.setOffline(true);await page.reload();await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('button',{name:'Hilfe',exact:true}).click();await expect(page.locator('.help-page')).toContainText('keine weitere passende Farbe');
 });

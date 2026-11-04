@@ -24,12 +24,12 @@
     "difficulty": 1,
     "prompt": "Was ist das Grundgesetz?",
     "options": [
-      "Die Verfassung Deutschlands",
+      "Es legt die Grundordnung Deutschlands fest.",
       "Eine Hausordnung aller Betriebe",
       "Nur ein Wörterbuch politischer Begriffe"
     ],
     "correct": 0,
-    "explanation": "Die Verfassung Deutschlands"
+    "explanation": "Das Grundgesetz legt die Grundordnung Deutschlands fest."
   },
   {
     "id": "complex.soc-state.003",
