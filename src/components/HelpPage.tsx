@@ -17,7 +17,7 @@ export const helpSections=[
  {title:'Lernkasten',paragraphs:boxHelpParagraphs},
  {title:'Score und Skill',paragraphs:[
   'Score zählt deine Punkte aus dem Training und den Games. Skill zeigt deine Lernstärke. Für mindestens 30 aktive Lernminuten erhältst du einmal pro Kalendertag ein Siebtel des Höchstwerts. Von null auf 100 Prozent brauchst du sieben erfüllte Tagesziele; an einem Tag geht das nicht.',
-  'Jeder Tag unter 30 Minuten senkt den bestehenden Skill-Wert um zehn Prozent, zum Beispiel von 80 auf 72 Prozent. Pausen, Hintergrund und lange Untätigkeit zählen nicht.']},
+  'Jeder Tag unter 30 Minuten senkt den bestehenden Skill-Wert um 10 %, zum Beispiel von 80 % auf 72 %. Pausen, Hintergrund und lange Untätigkeit zählen nicht.']},
  {title:'Bosskampf und Statistik',details:true,paragraphs:[
   'Fünf vollständig abgeschlossene Runden in einem Fach laden dessen Roboter. Sobald ein Fach geladen ist, kannst du Bosskampf einschalten und dieses Fach wählen. Du hast drei Minuten für zehn Aufgaben; acht richtige Antworten gewinnen. Ein beendeter Kampf verbraucht diese Ladung. Beim Abbrechen bleibt sie erhalten.',
   'Die große Zahl auf einer Fachkachel zählt abgeschlossene Runden seit Beginn der Erfassung. Daneben stehen gewonnene und verlorene Bosskämpfe. Der Roboter zeigt die Ladung von null bis fünf.',
