@@ -1,6 +1,6 @@
 /* Requested colors and compact game surfaces; existing semantic palette stays shared. */
-:root{--settings-help: #8152ea;--settings-backup:#64748b;--settings-button-ink:#fff;--code-black:#000;--code-white:#fff;--code-neutral:#888}
-:root .app-shell.settings-screen .settings-top .small-button{background:var(--settings-help);color:var(--settings-button-ink)}
+:root{--settings-help:var(--calc-violet);--settings-backup:#64748b;--settings-button-ink:#fff;--settings-help-ink:var(--calc-number);--code-black:#000;--code-white:#fff;--code-neutral:#888}
+:root .app-shell.settings-screen .settings-top .small-button{background:var(--settings-help);color:var(--settings-help-ink)}
 :root .app-shell.settings-screen .settings-backup .small-button{background:var(--settings-backup);color:var(--settings-button-ink)}
 :root .home-console{--led-active:var(--calc-orange);--home-console-gap:12px;margin-top:calc(2 * var(--home-console-gap));margin-inline:0;overflow:visible;flex-shrink:0;position:relative}
 :root[data-pink="true"] .home-console{--led-active:var(--calc-orange)}
