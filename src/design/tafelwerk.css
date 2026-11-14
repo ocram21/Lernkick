@@ -19,8 +19,11 @@
 .tafelwerk-back{display:inline-flex;align-items:center;justify-content:center;gap:4px;min-width:44px;min-height:44px;padding:6px 8px;border:0;border-radius:8px;background:transparent;color:var(--ink);font-size:14px;font-weight:650;white-space:nowrap}
 .tafelwerk-back:hover{background:var(--panel)}
 .tafelwerk-prompt{margin:0;color:var(--muted);font-size:14px;line-height:1.25}
-.tafelwerk-subject-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:auto 0}
-.tafelwerk-subject{min-height:64px;padding:10px;border:1px solid var(--calc-housing);border-radius:10px;background:var(--calc-petrol);color:var(--calc-number);font-weight:700;font-size:17px;text-align:left;box-shadow:0 3px 0 var(--calc-display)}
+.tafelwerk-subject-grid{width:min(100%,500px);margin:auto;display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
+.tafelwerk-subject{width:100%;min-height:58px;padding:10px 14px;display:flex;align-items:center;justify-content:flex-start;gap:14px;border:1.5px solid var(--calc-petrol);border-radius:10px;background:var(--calc-display);color:var(--calc-ink);font-weight:700;font-size:17px;text-align:left;box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 10%,transparent),0 3px 0 var(--calc-number)}
+.tafelwerk-subject[data-subject="Mathematik"]{border-color:var(--calc-housing)}
+.tafelwerk-subject-icon{width:26px;height:26px;flex:0 0 26px;color:var(--calc-petrol)}
+.tafelwerk-subject[data-subject="Mathematik"] .tafelwerk-subject-icon{color:var(--calc-orange)}
 .tafelwerk-subject:active,.tafelwerk-area:active,.tafelwerk-lesson-choice:active{transform:translateY(2px)}
 .tafelwerk-catalog{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px;overflow:auto;overscroll-behavior:contain;padding:2px 1px 6px}
 .tafelwerk-stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;flex:0 0 auto}

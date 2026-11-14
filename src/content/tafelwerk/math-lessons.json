@@ -1579,32 +1579,34 @@
       "steps": [
         {
           "headline": "Werte sortieren",
-          "formula": "2, 3, 5, 7, 9",
-          "explanation": "Ordne die Werte der Größe nach. Der Median ist der mittlere Wert, nicht der Durchschnitt.",
+          "formula": "1, 5, 12, 70, 100",
+          "explanation": "Ordne die Werte der Größe nach. So siehst du die Reihe von klein nach groß.",
           "visual": {
             "type": "chips",
+            "emphasisIndex": 2,
             "values": [
-              "2",
-              "3",
+              "1",
               "5",
-              "7",
-              "9"
+              "12",
+              "70",
+              "100"
             ]
           },
           "sub": ""
         },
         {
           "headline": "Mitte finden",
-          "formula": "Median = 5",
-          "explanation": "Bei fünf Werten ist der dritte Wert die Mitte. Bei einer geraden Anzahl nimmst du den Mittelwert der zwei mittleren Werte.",
+          "formula": "Median = 12",
+          "explanation": "Bei fünf Werten ist der dritte Wert die Mitte: 12. Der Mittelwert wäre 37,6 – die großen Zahlen 70 und 100 ziehen ihn nach oben. Der Median bleibt die mittlere Zahl der sortierten Reihe.",
           "visual": {
             "type": "chips",
+            "emphasisIndex": 2,
             "values": [
-              "2",
-              "3",
+              "1",
               "5",
-              "7",
-              "9"
+              "12",
+              "70",
+              "100"
             ]
           },
           "sub": ""

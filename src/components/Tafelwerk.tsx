@@ -1,15 +1,20 @@
 import { useEffect, useState } from 'react';
-import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Compass, Globe2, Landmark, TreeDeciduous } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
 
-type Subject = 'Mathematik' | 'Geographie' | 'Sozialkunde' | 'Biologie';
+type Subject = 'Mathematik' | 'Geographie' | 'Sozialkunde' | 'Biologie' | 'Deutsch';
 type Step = { headline:string; formula:string; explanation:string; visual:any; sub?:string };
 type Lesson = { id:string; category:string; stage:string; title:string; subtitle:string; symbol:string; steps:Step[] };
 const categories=lessonData.categories;
 const lessons=lessonData.lessons as Lesson[];
-const subjects:Subject[]=['Mathematik','Geographie','Sozialkunde','Biologie'];
-const stages=[{id:'5-6',label:'Klasse 5/6'},{id:'7-8',label:'Klasse 7/8'},{id:'9-10',label:'Klasse 9/10'}];
+const subjects:{name:Subject;icon:typeof Compass}[]=[
+ {name:'Mathematik',icon:Compass},
+ {name:'Geographie',icon:Globe2},
+ {name:'Sozialkunde',icon:Landmark},
+ {name:'Biologie',icon:TreeDeciduous},
+ {name:'Deutsch',icon:BookOpen}
+];
 const categoryLabels:Record<string,string>={zahlen:'Zahlen',verfahren:'Rechnen',brueche:'Brüche',terme:'Terme',anwendung:'Alltag',funktionen:'Funktion',geometrie:'Geo',daten:'Daten'};
 function TafelSymbol({value}:{value:string}){
  const parts=fractionParts(value);
@@ -18,19 +23,15 @@ function TafelSymbol({value}:{value:string}){
 
 export function Tafelwerk(){
  const [subject,setSubject]=useState<Subject|null>(null);
- const [stage,setStage]=useState('5-6');
  const [category,setCategory]=useState<string|null>(null);
  const [lesson,setLesson]=useState<Lesson|null>(null);
  const [stepIndex,setStepIndex]=useState(0);
  const current=lesson?.steps[stepIndex];
 
- function showSubjects(){setLesson(null);setCategory(null);setSubject(null);setStage('5-6');setStepIndex(0);}
+ function showSubjects(){setLesson(null);setCategory(null);setSubject(null);setStepIndex(0);}
  function showLessons(){setLesson(null);setStepIndex(0);}
  function openLesson(item:Lesson){setLesson(item);setStepIndex(0);}
- function lessonsForStage(value:string){return lessons.filter(item=>item.stage===value);}
- function categoriesForStage(value:string){const ids=new Set(lessonsForStage(value).map(item=>item.category));return categories.filter(item=>ids.has(item.id));}
- function selectSubject(item:Subject){setSubject(item);if(item==='Mathematik'){const first=lessonsForStage(stage)[0];setCategory(first?.category??null);}}
- function selectStage(value:string){setStage(value);setCategory(categoriesForStage(value)[0]?.id??null);}
+ function selectSubject(item:Subject){setSubject(item);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}}
 
  useEffect(()=>{
   if(!lesson)return;
@@ -45,7 +46,7 @@ export function Tafelwerk(){
   {!subject&&<>
    <div className="tafelwerk-intro"><BookOpen size={22}/><h1>Tafelwerk</h1></div>
    <p className="tafelwerk-prompt">Wähle ein Fach.</p>
-   <div className="tafelwerk-subject-grid">{subjects.map(item=><button className="tafelwerk-subject" key={item} onClick={()=>selectSubject(item)}>{item}</button>)}</div>
+   <div className="tafelwerk-subject-grid">{subjects.map(({name,icon:Icon})=><button className="tafelwerk-subject" key={name} data-subject={name} onClick={()=>selectSubject(name)}><Icon className="tafelwerk-subject-icon" size={26} strokeWidth={1.7} aria-hidden="true"/><span>{name}</span></button>)}</div>
   </>}
 
   {subject&&subject!=='Mathematik'&&<>
@@ -53,12 +54,11 @@ export function Tafelwerk(){
    <div className="tafelwerk-empty"><span>Noch keine Tafeln</span><p>Hier können später wichtige Bilder und kurze Erklärschritte für {subject} abgelegt werden.</p></div>
   </>}
 
-  {subject==='Mathematik'&&category&&!lesson&&<>
+  {subject==='Mathematik'&&!lesson&&<>
    <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Mathematik</h1></div>
    <div className="tafelwerk-catalog">
-    <div className="tafelwerk-stage-grid" aria-label="Klassenstufe">{stages.map(item=><button key={item.id} aria-pressed={stage===item.id} onClick={()=>selectStage(item.id)}>{item.label}</button>)}</div>
-    <div className="tafelwerk-area-grid" aria-label="Themenbereiche">{categoriesForStage(stage).map(item=><button className="tafelwerk-area" key={item.id} aria-pressed={category===item.id} onClick={()=>setCategory(item.id)}><span className="tafelwerk-area-symbol" aria-hidden="true"><TafelSymbol value={item.icon}/></span><span>{categoryLabels[item.id]??item.title}</span></button>)}</div>
-    <div className="tafelwerk-lesson-grid" aria-label="Einzelthemen">{lessons.filter(item=>item.stage===stage&&item.category===category).map(item=><button className="tafelwerk-lesson-choice" key={item.id} onClick={()=>openLesson(item)}><span className="tafelwerk-lesson-symbol" aria-hidden="true"><TafelSymbol value={item.symbol}/></span><span>{item.title}</span><ChevronRight size={18}/></button>)}</div>
+    <div className="tafelwerk-area-grid" aria-label="Themenbereiche">{categories.map(item=><button className="tafelwerk-area" key={item.id} aria-pressed={category===item.id} onClick={()=>setCategory(item.id)}><span className="tafelwerk-area-symbol" aria-hidden="true"><TafelSymbol value={item.icon}/></span><span>{categoryLabels[item.id]??item.title}</span></button>)}</div>
+    <div className="tafelwerk-lesson-grid" aria-label="Einzelthemen">{lessons.filter(item=>item.category===category).map(item=><button className="tafelwerk-lesson-choice" key={item.id} onClick={()=>openLesson(item)}><span className="tafelwerk-lesson-symbol" aria-hidden="true"><TafelSymbol value={item.symbol}/></span><span>{item.title}</span><ChevronRight size={18}/></button>)}</div>
    </div>
   </>}
 

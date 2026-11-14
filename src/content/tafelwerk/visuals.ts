@@ -144,7 +144,7 @@ export function renderVisual(v:any) {
   if(!v) return '';
   let html='';
   switch(v.type) {
-    case 'chips': html=`<div class="visual-chips">${v.values.map((it:any,i:number)=>`<span class="visual-chip ${i===v.values.length-1?'emphasis':''}">${it}</span>`).join('')}</div>`;break;
+    case 'chips': html=`<div class="visual-chips">${v.values.map((it:any,i:number)=>`<span class="visual-chip ${i===(Number.isInteger(v.emphasisIndex)?v.emphasisIndex:v.values.length-1)?'emphasis':''}">${it}</span>`).join('')}</div>`;break;
     case 'numberline': html=numberLine(v);break;
     case 'bags': html=`<div class="bag-row">${Array.from({length:v.count},()=>`<div class="bag">${v.content}</div>`).join('')}</div>`;break;
     case 'fractions': html=v.parts.map((p:any,pi:number)=>`<div class="fraction-block"><div class="fraction-block-label">${p.label}</div><div class="fraction-strip">${Array.from({length:p.d},(_,i)=>`<span class="fraction-cell ${i<p.n?'filled':''} ${pi>0?'secondary':''}"></span>`).join('')}</div></div>`).join('');break;
