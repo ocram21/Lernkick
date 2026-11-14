@@ -23,6 +23,9 @@
 .tafelwerk-subject{min-height:64px;padding:10px;border:1px solid var(--calc-housing);border-radius:10px;background:var(--calc-petrol);color:var(--calc-number);font-weight:700;font-size:17px;text-align:left;box-shadow:0 3px 0 var(--calc-display)}
 .tafelwerk-subject:active,.tafelwerk-area:active,.tafelwerk-lesson-choice:active{transform:translateY(2px)}
 .tafelwerk-catalog{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px;overflow:auto;overscroll-behavior:contain;padding:2px 1px 6px}
+.tafelwerk-stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;flex:0 0 auto}
+.tafelwerk-stage-grid button{min-height:40px;padding:6px 4px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font-size:13px;font-weight:650}
+.tafelwerk-stage-grid button[aria-pressed=true]{border-color:var(--calc-orange);background:var(--calc-number);color:var(--calc-ink)}
 .tafelwerk-area-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;flex:0 0 auto}
 .tafelwerk-area{min-width:0;min-height:43px;padding:5px 3px;display:flex;align-items:center;justify-content:center;gap:4px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-align:center;font-size:11px;font-weight:650;line-height:1.1}
 .tafelwerk-area[aria-pressed=true]{border-color:var(--calc-orange);background:var(--calc-number);color:var(--calc-ink)}
@@ -118,6 +121,7 @@
 .tafelwerk .calculation-line>span:first-child{text-align:left;color:var(--calc-orange)}
 .tafelwerk .calculation-line>span:last-child{text-align:right;white-space:pre}
 .tafelwerk .calculation-rule{height:5px;margin:0 0 2px;border-top:2px solid var(--calc-ink)}
+.tafelwerk .calculation-partial{color:var(--calc-orange)}
 .tafelwerk .calculation-result{color:var(--calc-teal)}
 .tafelwerk-progress{flex:0 0 34px;min-height:34px;padding:0 8px;display:flex;align-items:center;justify-content:center;gap:3px;border-top:1px solid color-mix(in srgb,var(--calc-ink) 12%,transparent)}
 .tafelwerk-progress button{width:32px;height:32px;flex:0 0 32px;padding:0;border:0;background:transparent;display:grid;place-items:center}

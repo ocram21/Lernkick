@@ -86,7 +86,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "negative-addieren",
@@ -108,7 +110,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "reihenfolge",
@@ -130,7 +134,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "quadrat",
@@ -149,7 +155,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "9-10",
+      "sourceNote": "Grundwissen Klasse 9/10"
     },
     {
       "id": "dezimalzahlen",
@@ -179,7 +187,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "schriftlich-mal",
@@ -189,9 +199,38 @@
       "symbol": "×",
       "steps": [
         {
-          "headline": "24 · 13 vollständig rechnen",
-          "formula": "24 · 13 = 72 + 240 = 312",
-          "explanation": "Zuerst mit den Einern rechnen: 24 · 3 = 72. Dann mit dem Zehner: 24 · 10 = 240. Die Teilprodukte stehen untereinander und werden addiert.",
+          "headline": "Erst die Einer",
+          "formula": "24 · 3 = 72",
+          "explanation": "Beginne mit der Einerziffer 3. Schreibe das Teilprodukt 72 unter die Aufgabe. Danach rechnest du die Zehnerziffer.",
+          "visual": {
+            "type": "long-multiplication",
+            "top": "24",
+            "bottom": "13",
+            "partials": [
+              "72"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Dann die Zehner",
+          "formula": "24 · 10 = 240",
+          "explanation": "Die 1 in 13 steht für einen Zehner. Deshalb rechnest du 24 · 10. Das zweite Teilprodukt beginnt eine Stelle weiter links.",
+          "visual": {
+            "type": "long-multiplication",
+            "top": "24",
+            "bottom": "13",
+            "partials": [
+              "72",
+              "240"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Teilprodukte addieren",
+          "formula": "72 + 240 = 312",
+          "explanation": "Addiere jetzt die beiden passend untereinander stehenden Teilprodukte. So erhältst du das Ergebnis der Multiplikation.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
@@ -204,7 +243,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "schriftlich-geteilt",
@@ -214,20 +255,58 @@
       "symbol": "÷",
       "steps": [
         {
-          "headline": "156 : 12 vollständig rechnen",
-          "formula": "",
-          "explanation": "12 passt einmal in 15; nach dem Abziehen bleibt 3. Die 6 herunterholen ergibt 36. 12 passt dreimal in 36. Der Rest ist 0.",
+          "headline": "Erste Ziffern teilen",
+          "formula": "15 − 12 = 3",
+          "explanation": "12 passt einmal in 15. Schreibe die 1 an die Zehnerstelle des Ergebnisses und ziehe 12 ab.",
           "visual": {
-            "type": "math-stack",
+            "type": "long-division",
+            "divisor": "12",
+            "dividend": "156",
+            "quotient": "1",
+            "rows": [
+              "15 − 12 = 3"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Nächste Ziffer herunterholen",
+          "formula": "36 − 36 = 0",
+          "explanation": "Hole die 6 herunter. 12 passt dreimal in 36. Schreibe die 3 neben die 1 im Ergebnis.",
+          "visual": {
+            "type": "long-division",
+            "divisor": "12",
+            "dividend": "156",
+            "quotient": "13",
             "rows": [
               "15 − 12 = 3",
+              "36 herunterholen",
+              "36 − 36 = 0"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Ergebnis prüfen",
+          "formula": "156 : 12 = 13",
+          "explanation": "Es bleibt kein Rest. Die Probe bestätigt den Rechenweg: 13 · 12 = 156.",
+          "visual": {
+            "type": "long-division",
+            "divisor": "12",
+            "dividend": "156",
+            "quotient": "13",
+            "rows": [
+              "15 − 12 = 3",
+              "36 herunterholen",
               "36 − 36 = 0",
               "Ergebnis: 13, Rest 0"
             ]
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "bruchteil",
@@ -252,7 +331,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "erweitern",
@@ -287,7 +368,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "brueche-gleichnamig",
@@ -312,7 +395,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "brueche-ungleich",
@@ -334,7 +419,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "brueche-addieren",
@@ -359,7 +446,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "brueche-mult",
@@ -381,7 +470,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "bruch-dezimal-prozent",
@@ -403,7 +494,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "ausmultiplizieren",
@@ -427,7 +520,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "ausklammern",
@@ -450,7 +545,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "gleichung-einfach",
@@ -460,9 +557,46 @@
       "symbol": "x",
       "steps": [
         {
-          "headline": "In drei Umformungen zu x",
+          "headline": "Gleichung umformen",
           "formula": "",
-          "explanation": "Ziehe auf beiden Seiten dieselbe Zahl ab und teile dann durch den Koeffizienten von x. Probe: 3 · 5 + 5 = 20.",
+          "explanation": "Die 5 soll weg. Ziehe auf beiden Seiten 5 ab.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x + 5",
+                "right": "20",
+                "operation": "− 5"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Jetzt steht 3x = 15. Teile beide Seiten durch 3.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x + 5",
+                "right": "20",
+                "operation": "− 5"
+              },
+              {
+                "left": "3x",
+                "right": "15",
+                "operation": ": 3"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Damit ist x = 5. Probe: 3 · 5 + 5 = 20.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -478,13 +612,16 @@
               },
               {
                 "left": "x",
-                "right": "5"
+                "right": "5",
+                "operation": ""
               }
             ]
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "gleichung-beidseitig",
@@ -494,9 +631,72 @@
       "symbol": "x",
       "steps": [
         {
-          "headline": "Gleichartige Terme zusammenfassen",
+          "headline": "Gleichung umformen",
           "formula": "",
-          "explanation": "Ziehe 2x auf beiden Seiten ab, dann 4. Teile durch 3. Probe: Beide Seiten der Ausgangsgleichung ergeben 29.",
+          "explanation": "x steht auf beiden Seiten. Ziehe 2x auf beiden Seiten ab.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "5x + 4",
+                "right": "2x + 19",
+                "operation": "− 2x"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Ziehe nun auf beiden Seiten 4 ab.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "5x + 4",
+                "right": "2x + 19",
+                "operation": "− 2x"
+              },
+              {
+                "left": "3x + 4",
+                "right": "19",
+                "operation": "− 4"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Teile beide Seiten durch 3.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "5x + 4",
+                "right": "2x + 19",
+                "operation": "− 2x"
+              },
+              {
+                "left": "3x + 4",
+                "right": "19",
+                "operation": "− 4"
+              },
+              {
+                "left": "3x",
+                "right": "15",
+                "operation": ": 3"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Die Lösung ist x = 5. Setze 5 in die Ausgangsgleichung ein: beide Seiten sind 29.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -517,13 +717,16 @@
               },
               {
                 "left": "x",
-                "right": "5"
+                "right": "5",
+                "operation": ""
               }
             ]
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "gleichung-klammer",
@@ -533,15 +736,79 @@
       "symbol": "( )",
       "steps": [
         {
-          "headline": "Die Klammer auflösen und x isolieren",
+          "headline": "Gleichung umformen",
           "formula": "",
-          "explanation": "Multipliziere die 2 in die Klammer. Ziehe danach 6 auf beiden Seiten ab und teile durch 2. Probe: 2 · (4 + 3) = 14.",
+          "explanation": "Multipliziere die 2 mit beiden Teilen in der Klammer.",
           "visual": {
             "type": "equation",
             "rows": [
               {
                 "left": "2(x + 3)",
-                "right": "14"
+                "right": "14",
+                "operation": "Klammer auflösen"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Ziehe auf beiden Seiten 6 ab.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2(x + 3)",
+                "right": "14",
+                "operation": "Klammer auflösen"
+              },
+              {
+                "left": "2x + 6",
+                "right": "14",
+                "operation": "− 6"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Teile beide Seiten durch 2.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2(x + 3)",
+                "right": "14",
+                "operation": "Klammer auflösen"
+              },
+              {
+                "left": "2x + 6",
+                "right": "14",
+                "operation": "− 6"
+              },
+              {
+                "left": "2x",
+                "right": "8",
+                "operation": ": 2"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleichung umformen",
+          "formula": "",
+          "explanation": "Die Lösung ist x = 4. Probe: 2 · (4 + 3) = 14.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2(x + 3)",
+                "right": "14",
+                "operation": "Klammer auflösen"
               },
               {
                 "left": "2x + 6",
@@ -555,13 +822,16 @@
               },
               {
                 "left": "x",
-                "right": "4"
+                "right": "4",
+                "operation": ""
               }
             ]
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "prozent",
@@ -601,7 +871,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "dreisatz-direkt",
@@ -637,7 +909,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "dreisatz-indirekt",
@@ -672,7 +946,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "nichtproportional",
@@ -704,7 +980,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "einheiten",
@@ -726,7 +1004,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "koordinaten",
@@ -747,7 +1027,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "lineare-funktion",
@@ -784,7 +1066,9 @@
             ]
           }
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "winkelbeziehungen",
@@ -802,7 +1086,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "dreieck-winkel",
@@ -821,7 +1107,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "7-8",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
       "id": "rechteck",
@@ -840,7 +1128,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "pythagoras",
@@ -859,7 +1149,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "9-10",
+      "sourceNote": "Grundwissen Klasse 9/10"
     },
     {
       "id": "quader",
@@ -877,7 +1169,9 @@
             "type": "box"
           }
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "mittelwert",
@@ -899,7 +1193,9 @@
           },
           "sub": ""
         }
-      ]
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "kombinatorik",
@@ -916,6 +1212,1205 @@
             "type": "combos",
             "shirts": 2,
             "pants": 3
+          },
+          "sub": ""
+        }
+      ],
+      "stage": "5-6",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
+    },
+    {
+      "id": "stellenwert",
+      "category": "zahlen",
+      "stage": "5-6",
+      "title": "Stellenwerte natürlicher Zahlen",
+      "subtitle": "Zehner, Hunderter und Tausender",
+      "symbol": "123",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
+      "steps": [
+        {
+          "headline": "Ziffern haben einen Platzwert",
+          "formula": "3 482",
+          "explanation": "Von rechts nach links stehen Einer, Zehner, Hunderter und Tausender. Jede Stelle links ist zehnmal so groß.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Tausender",
+              "Hunderter",
+              "Zehner",
+              "Einer"
+            ],
+            "rows": [
+              [
+                "3",
+                "4",
+                "8",
+                "2"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Zahl in Stellen zerlegen",
+          "formula": "3 482 = 3 000 + 400 + 80 + 2",
+          "explanation": "Der Platz jeder Ziffer zeigt ihren Wert. So kannst du die Zahl lesen, ordnen und zerlegen.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "3 000 + 400",
+              "+ 80 + 2",
+              "= 3 482"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "schriftlich-addieren",
+      "category": "verfahren",
+      "stage": "5-6",
+      "title": "Schriftlich addieren",
+      "subtitle": "Einer unter Einer",
+      "symbol": "+",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
+      "steps": [
+        {
+          "headline": "Stellen ausrichten",
+          "formula": "348 + 176",
+          "explanation": "Schreibe Einer unter Einer, Zehner unter Zehner und Hunderter unter Hunderter.",
+          "visual": {
+            "type": "long-addition",
+            "first": "348",
+            "second": "176",
+            "result": ""
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Spaltenweise addieren",
+          "formula": "8 + 6 = 14",
+          "explanation": "Rechne von rechts nach links. Schreibe 4 Einer und übertrage einen Zehner.",
+          "visual": {
+            "type": "long-addition",
+            "first": "348",
+            "second": "176",
+            "result": "524"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Übertrag einrechnen",
+          "formula": "348 + 176 = 524",
+          "explanation": "Addiere jede Spalte einschließlich Übertrag. Kontrolliere das Ergebnis mit einem Überschlag.",
+          "visual": {
+            "type": "long-addition",
+            "first": "348",
+            "second": "176",
+            "result": "524"
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "massstab",
+      "category": "anwendung",
+      "stage": "5-6",
+      "title": "Maßstab und Zuordnung",
+      "subtitle": "Planstrecke in echte Länge umrechnen",
+      "symbol": "1:",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
+      "steps": [
+        {
+          "headline": "Maßstab lesen",
+          "formula": "1 cm entspricht 100 m",
+          "explanation": "Der Maßstab 1 : 10 000 bedeutet: 1 cm auf dem Plan steht für 10 000 cm in Wirklichkeit, also 100 m.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Plan",
+              "Wirklichkeit"
+            ],
+            "rows": [
+              [
+                "1 cm",
+                "100 m"
+              ],
+              [
+                "2 cm",
+                "200 m"
+              ],
+              [
+                "3 cm",
+                "300 m"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleiche Veränderung fortsetzen",
+          "formula": "3 cm → 300 m",
+          "explanation": "Verdreifacht sich die Planstrecke, verdreifacht sich auch die echte Strecke. Beide Größen bleiben proportional.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Plan",
+              "Wirklichkeit"
+            ],
+            "rows": [
+              [
+                "1 cm",
+                "100 m"
+              ],
+              [
+                "3 cm",
+                "300 m"
+              ]
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "bruch-dividieren",
+      "category": "brueche",
+      "stage": "5-6",
+      "title": "Brüche dividieren",
+      "subtitle": "Durch einen Bruch teilen",
+      "symbol": "⅔",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
+      "steps": [
+        {
+          "headline": "Division als Frage verstehen",
+          "formula": "⅔ : ⅙",
+          "explanation": "Wie oft passt ein Sechstel in zwei Drittel? Mache die Stücke gleich groß: zwei Drittel sind vier Sechstel.",
+          "visual": {
+            "type": "fractions",
+            "parts": [
+              {
+                "label": "⅔ sind vier Sechstel",
+                "n": 4,
+                "d": 6
+              },
+              {
+                "label": "⅙ ist ein Sechstel",
+                "n": 1,
+                "d": 6
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Kehrwert nutzen",
+          "formula": "⅔ : ⅙ = ⅔ · 6 = 4",
+          "explanation": "Teilen durch einen Bruch entspricht Multiplizieren mit seinem Kehrwert. Prüfe das Ergebnis: In ⅔ stecken vier Sechstel.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "⅔ : ⅙",
+              "= ⅔ · 6",
+              "= 4"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "median",
+      "category": "daten",
+      "stage": "5-6",
+      "title": "Median bestimmen",
+      "subtitle": "Der mittlere Wert einer sortierten Reihe",
+      "symbol": "M",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
+      "steps": [
+        {
+          "headline": "Werte sortieren",
+          "formula": "2, 3, 5, 7, 9",
+          "explanation": "Ordne die Werte der Größe nach. Der Median ist der mittlere Wert, nicht der Durchschnitt.",
+          "visual": {
+            "type": "chips",
+            "values": [
+              "2",
+              "3",
+              "5",
+              "7",
+              "9"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Mitte finden",
+          "formula": "Median = 5",
+          "explanation": "Bei fünf Werten ist der dritte Wert die Mitte. Bei einer geraden Anzahl nimmst du den Mittelwert der zwei mittleren Werte.",
+          "visual": {
+            "type": "chips",
+            "values": [
+              "2",
+              "3",
+              "5",
+              "7",
+              "9"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "wahrscheinlichkeit",
+      "category": "daten",
+      "stage": "5-6",
+      "title": "Einfache Wahrscheinlichkeit",
+      "subtitle": "Günstige Fälle durch alle Fälle",
+      "symbol": "P",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
+      "steps": [
+        {
+          "headline": "Alle gleich wahrscheinlichen Fälle zählen",
+          "formula": "1 rote und 3 blaue Kugeln",
+          "explanation": "Insgesamt liegen vier Kugeln im Beutel. Jede Kugel hat beim Ziehen dieselbe Chance.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Farbe",
+              "Anzahl"
+            ],
+            "rows": [
+              [
+                "Rot",
+                "1"
+              ],
+              [
+                "Blau",
+                "3"
+              ],
+              [
+                "Insgesamt",
+                "4"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Günstige Fälle ins Verhältnis setzen",
+          "formula": "P(Rot) = ¼ = 25 %",
+          "explanation": "Es gibt einen günstigen Fall von insgesamt vier. Die Wahrscheinlichkeit für Rot beträgt deshalb ein Viertel.",
+          "visual": {
+            "type": "fractions",
+            "parts": [
+              {
+                "label": "1 von 4 Fällen",
+                "n": 1,
+                "d": 4
+              }
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "symmetrie",
+      "category": "geometrie",
+      "stage": "7-8",
+      "title": "Achsensymmetrie erkennen",
+      "subtitle": "Beide Seiten passen spiegelbildlich",
+      "symbol": "↔",
+      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität",
+      "steps": [
+        {
+          "headline": "Abstand zur Achse vergleichen",
+          "formula": "Links und rechts gleich weit",
+          "explanation": "Bei einer Spiegelachse liegt jeder Punkt und sein Spiegelpunkt im gleichen Abstand zur Achse. Die Verbindung steht senkrecht auf der Achse.",
+          "visual": {
+            "type": "chips",
+            "values": [
+              "Punkt",
+              "│ Achse │",
+              "Spiegelpunkt"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Form prüfen",
+          "formula": "Falten an der Achse",
+          "explanation": "Beim Spiegeln decken sich beide Hälften genau. Eine Figur kann eine oder mehrere Symmetrieachsen haben.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "Abstand links = Abstand rechts",
+              "Verbindung ⟂ Spiegelachse"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "potenzen",
+      "category": "zahlen",
+      "stage": "9-10",
+      "title": "Potenzen verstehen",
+      "subtitle": "Gleiche Faktoren kurz schreiben",
+      "symbol": "aⁿ",
+      "sourceNote": "Grundwissen Klasse 9/10",
+      "steps": [
+        {
+          "headline": "Exponent zählt gleiche Faktoren",
+          "formula": "2⁴ = 2 · 2 · 2 · 2",
+          "explanation": "Die 2 ist die Basis. Die 4 sagt, wie oft die Basis als Faktor vorkommt.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "2⁴",
+              "= 2 · 2 · 2 · 2",
+              "= 16"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Gleiche Basen multiplizieren",
+          "formula": "2³ · 2² = 2⁵",
+          "explanation": "Beim Multiplizieren gleicher Basen addierst du die Exponenten: 3 + 2 = 5.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "2³ · 2²",
+              "= 2³⁺²",
+              "= 2⁵ = 32"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "quadratische-funktion",
+      "category": "funktionen",
+      "stage": "9-10",
+      "title": "Quadratische Funktionen",
+      "subtitle": "Parabel und Scheitelpunkt",
+      "symbol": "x²",
+      "sourceNote": "Grundwissen Klasse 9/10",
+      "steps": [
+        {
+          "headline": "Quadratwerte bilden eine Parabel",
+          "formula": "y = x²",
+          "explanation": "Setze Zahlen für x ein und quadriere sie. Gleiche positive und negative x-Werte liefern denselben y-Wert.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "x",
+              "−2",
+              "−1",
+              "0",
+              "1",
+              "2"
+            ],
+            "rows": [
+              [
+                "y = x²",
+                "4",
+                "1",
+                "0",
+                "1",
+                "4"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Scheitelpunkt erkennen",
+          "formula": "S(0 | 0)",
+          "explanation": "Bei y = x² ist der tiefste Punkt der Scheitel S(0 | 0). Die Parabel ist zur y-Achse symmetrisch.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "x: −2  −1   0   1   2",
+              "y:  4   1   0   1   4",
+              "Scheitel: S(0 | 0)"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "quadratische-gleichung",
+      "category": "terme",
+      "stage": "9-10",
+      "title": "Einfache quadratische Gleichungen",
+      "subtitle": "Nullstellen finden",
+      "symbol": "x²",
+      "sourceNote": "Grundwissen Klasse 9/10",
+      "steps": [
+        {
+          "headline": "Gleichung als Produkt schreiben",
+          "formula": "x² − 9 = 0",
+          "explanation": "Erkenne die Differenz zweier Quadrate: x² − 9 = (x − 3)(x + 3).",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "x² − 9 = 0",
+              "(x − 3)(x + 3) = 0"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Beide Faktoren prüfen",
+          "formula": "x = 3 oder x = −3",
+          "explanation": "Ein Produkt ist null, wenn mindestens ein Faktor null ist. Löse deshalb beide einfachen Gleichungen.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "x − 3 = 0  →  x = 3",
+              "x + 3 = 0  →  x = −3"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "trigonometrie",
+      "category": "geometrie",
+      "stage": "9-10",
+      "title": "Sinus, Kosinus und Tangens",
+      "subtitle": "Seiten am rechtwinkligen Dreieck vergleichen",
+      "symbol": "sin",
+      "sourceNote": "Grundwissen Klasse 9/10",
+      "steps": [
+        {
+          "headline": "Seiten zum Winkel zuordnen",
+          "formula": "Gegenkathete · Ankathete · Hypotenuse",
+          "explanation": "Wähle zuerst den betrachteten Winkel. Die Hypotenuse liegt gegenüber dem rechten Winkel; Gegen- und Ankathete beziehen sich auf deinen gewählten Winkel.",
+          "visual": {
+            "type": "triangle",
+            "label": "result"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Passendes Verhältnis wählen",
+          "formula": "sin α = Gegenkathete : Hypotenuse",
+          "explanation": "Sinus nutzt Gegenkathete und Hypotenuse, Kosinus Ankathete und Hypotenuse, Tangens Gegenkathete und Ankathete.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "sin α = GK : H",
+              "cos α = AK : H",
+              "tan α = GK : AK"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "exponentialfunktion",
+      "category": "funktionen",
+      "stage": "9-10",
+      "title": "Exponentielles Wachstum",
+      "subtitle": "In gleichen Schritten mit demselben Faktor",
+      "symbol": "aˣ",
+      "sourceNote": "Grundwissen Klasse 9/10",
+      "steps": [
+        {
+          "headline": "Wiederholt mit demselben Faktor vervielfachen",
+          "formula": "2, 4, 8, 16",
+          "explanation": "Beim exponentiellen Wachstum wird in jedem gleichen Zeitabschnitt mit demselben Faktor multipliziert.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Schritt",
+              "0",
+              "1",
+              "2",
+              "3"
+            ],
+            "rows": [
+              [
+                "Wert",
+                "2",
+                "4",
+                "8",
+                "16"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Faktor als Potenz schreiben",
+          "formula": "f(x) = 2 · 2ˣ",
+          "explanation": "Der Startwert ist 2. Der Wachstumsfaktor 2 wird x-mal angewendet.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "Startwert · Faktorˣ",
+              "2 · 2ˣ"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "mehrstufige-wahrscheinlichkeit",
+      "category": "daten",
+      "stage": "9-10",
+      "title": "Mehrstufige Zufallsexperimente",
+      "subtitle": "Wahrscheinlichkeiten entlang eines Wegs multiplizieren",
+      "symbol": "P",
+      "sourceNote": "Grundwissen Klasse 9/10",
+      "steps": [
+        {
+          "headline": "Zwei Münzwürfe aufteilen",
+          "formula": "Kopf oder Zahl je Wurf",
+          "explanation": "Bei jedem Wurf gibt es zwei gleich wahrscheinliche Ergebnisse. Zusammen entstehen vier mögliche Ergebnisfolgen.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "1. Wurf",
+              "2. Wurf",
+              "Folge"
+            ],
+            "rows": [
+              [
+                "Kopf",
+                "Kopf",
+                "KK"
+              ],
+              [
+                "Kopf",
+                "Zahl",
+                "KZ"
+              ],
+              [
+                "Zahl",
+                "Kopf",
+                "ZK"
+              ],
+              [
+                "Zahl",
+                "Zahl",
+                "ZZ"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Einen Ergebnisweg berechnen",
+          "formula": "P(KK) = ½ · ½ = ¼",
+          "explanation": "Für einen bestimmten Weg multiplizierst du die Wahrscheinlichkeiten entlang des Weges. Hier ist die Chance für zweimal Kopf ein Viertel.",
+          "visual": {
+            "type": "fractions",
+            "parts": [
+              {
+                "label": "KK: ein Weg von vier",
+                "n": 1,
+                "d": 4
+              }
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "negative-rechnen",
+      "category": "zahlen",
+      "stage": "5-6",
+      "title": "Mit negativen Zahlen rechnen",
+      "subtitle": "Bewegung nach links und rechts",
+      "symbol": "±",
+      "sourceNote": "Strobl Grundwissen Klasse 5, Abschnitt 3",
+      "steps": [
+        {
+          "headline": "Addition als Bewegung",
+          "formula": "−2 + 5 = 3",
+          "explanation": "Starte bei −2. Bei plus 5 gehst du fünf Schritte nach rechts. Du landest bei 3.",
+          "visual": {
+            "type": "numberline",
+            "from": -2,
+            "to": 3,
+            "emphasizeZero": true,
+            "caption": "Plus bewegt nach rechts"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Subtraktion als Gegenbewegung",
+          "formula": "2 − 5 = −3",
+          "explanation": "Starte bei 2. Minus 5 bedeutet fünf Schritte nach links. Du landest bei −3.",
+          "visual": {
+            "type": "numberline",
+            "from": 2,
+            "to": -3,
+            "emphasizeZero": true,
+            "caption": "Minus bewegt nach links"
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "winkel-messen",
+      "category": "geometrie",
+      "stage": "5-6",
+      "title": "Winkel erkennen und messen",
+      "subtitle": "Winkelöffnung in Grad",
+      "symbol": "∠",
+      "sourceNote": "Strobl Grundwissen Klasse 5, Abschnitt 5",
+      "steps": [
+        {
+          "headline": "Winkel nach Größe unterscheiden",
+          "formula": "Spitz < 90° · Recht = 90° · Stumpf > 90°",
+          "explanation": "Ein Winkel beschreibt die Öffnung zwischen zwei Schenkeln. Ein rechter Winkel ist genau 90 Grad.",
+          "visual": {
+            "type": "chips",
+            "values": [
+              "45° spitz",
+              "90° recht",
+              "120° stumpf"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Mit dem Geodreieck messen",
+          "formula": "Nullpunkt auf den Scheitel",
+          "explanation": "Lege den Nullpunkt auf den Scheitel und die Grundlinie auf einen Schenkel. Lies dort ab, wo der zweite Schenkel die Skala trifft.",
+          "visual": {
+            "type": "angles",
+            "active": "vertical"
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "flaeche-dreieck",
+      "category": "geometrie",
+      "stage": "5-6",
+      "title": "Flächeninhalt berechnen",
+      "subtitle": "Rechteck und Dreieck",
+      "symbol": "A",
+      "sourceNote": "Strobl Grundwissen Klasse 6, Abschnitt 6",
+      "steps": [
+        {
+          "headline": "Rechteck mit Einheitsquadraten füllen",
+          "formula": "A = Länge · Breite",
+          "explanation": "Zähle die Reihen und Spalten. Ein Rechteck mit 5 cm und 3 cm enthält 15 Quadratzentimeter.",
+          "visual": {
+            "type": "rect",
+            "mode": "area"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Dreieck ist ein halbes Rechteck",
+          "formula": "A = Grundseite · Höhe : 2",
+          "explanation": "Ein passendes Dreieck nimmt die Hälfte eines Rechtecks mit derselben Grundseite und Höhe ein.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "Rechteck: g · h",
+              "Dreieck: g · h : 2"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "relative-haeufigkeit",
+      "category": "daten",
+      "stage": "5-6",
+      "title": "Relative Häufigkeit",
+      "subtitle": "Anteil an allen Versuchen",
+      "symbol": "%",
+      "sourceNote": "Strobl Grundwissen Klasse 6, Abschnitte 2/9; DZLM Daten und Diagramme",
+      "steps": [
+        {
+          "headline": "Beobachtungen zählen",
+          "formula": "6-mal Treffer bei 10 Versuchen",
+          "explanation": "Die absolute Häufigkeit ist die Anzahl der Treffer. Hier gab es sechs Treffer.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Treffer",
+              "Versuche"
+            ],
+            "rows": [
+              [
+                "6",
+                "10"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Durch alle Versuche teilen",
+          "formula": "6 : 10 = 0,6 = 60 %",
+          "explanation": "Teile die Trefferzahl durch die Gesamtzahl der Versuche. Die relative Häufigkeit beträgt 60 Prozent.",
+          "visual": {
+            "type": "percent",
+            "filled": 60,
+            "label": "6 von 10 Versuchen"
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "binomische-formeln",
+      "category": "terme",
+      "stage": "7-8",
+      "title": "Binomische Formeln",
+      "subtitle": "Quadrate von Summen und Differenzen",
+      "symbol": "( )²",
+      "sourceNote": "Strobl Grundwissen Klasse 7, Abschnitt 3; Klasse 9, Abschnitt 1",
+      "steps": [
+        {
+          "headline": "Summe quadrieren",
+          "formula": "(a + b)²",
+          "explanation": "Ein Quadrat aus Seiten a + b besteht aus zwei Quadraten und zwei gleich großen Rechtecken.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "(a + b)²",
+              "= a² + 2ab + b²"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Differenz und Produkt merken",
+          "formula": "(a − b)(a + b) = a² − b²",
+          "explanation": "Bei der Differenz von Quadraten heben sich die beiden mittleren Produkte auf.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "(a − b)² = a² − 2ab + b²",
+              "(a − b)(a + b) = a² − b²"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "gleichungssystem",
+      "category": "terme",
+      "stage": "7-8",
+      "title": "Zwei Gleichungen lösen",
+      "subtitle": "Gemeinsame Lösung finden",
+      "symbol": "x,y",
+      "sourceNote": "Strobl Grundwissen Klasse 8, Abschnitt 9",
+      "steps": [
+        {
+          "headline": "Eine Gleichung nach y auflösen",
+          "formula": "y = 10 − x",
+          "explanation": "Aus x + y = 10 folgt y = 10 − x. Diesen Ausdruck setzt du in die zweite Gleichung ein.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "x + y",
+                "right": "10",
+                "operation": "− x"
+              },
+              {
+                "left": "y",
+                "right": "10 − x",
+                "operation": ""
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Einsetzen und x bestimmen",
+          "formula": "x + 2(10 − x) = 16",
+          "explanation": "Einsetzen ergibt x + 20 − 2x = 16. Daraus folgt x = 4. Setze x ein: y = 6.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "x + 2(10 − x) = 16",
+              "x = 4",
+              "y = 10 − 4 = 6"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "aehnlichkeit",
+      "category": "geometrie",
+      "stage": "9-10",
+      "title": "Ähnliche Figuren und Strahlensatz",
+      "subtitle": "Gleiche Form, anderer Maßstab",
+      "symbol": "∼",
+      "sourceNote": "Strobl Grundwissen Klasse 9, Abschnitt 6",
+      "steps": [
+        {
+          "headline": "Entsprechende Seiten zuordnen",
+          "formula": "klein : groß = 2 : 6",
+          "explanation": "Ähnliche Figuren haben gleiche Winkel und proportionale Seiten. Ordne zuerst zusammengehörige Seiten richtig zu.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Kleine Figur",
+              "Große Figur"
+            ],
+            "rows": [
+              [
+                "2",
+                "6"
+              ],
+              [
+                "3",
+                "9"
+              ],
+              [
+                "4",
+                "12"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Maßstab anwenden",
+          "formula": "Vergrößerungsfaktor = 3",
+          "explanation": "Jede Seite der großen Figur ist dreimal so lang. Nutze denselben Faktor für eine unbekannte entsprechende Seite.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "6 : 2 = 3",
+              "3 · 3 = 9",
+              "4 · 3 = 12"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "vierfeldertafel",
+      "category": "daten",
+      "stage": "9-10",
+      "title": "Vierfeldertafel lesen",
+      "subtitle": "Zwei Merkmale gemeinsam ordnen",
+      "symbol": "▦",
+      "sourceNote": "Strobl Grundwissen Klasse 9, Abschnitt 5",
+      "steps": [
+        {
+          "headline": "Gemeinsame Fälle eintragen",
+          "formula": "20 Personen: 12 mit Bus, 8 mit Rad",
+          "explanation": "Eine Vierfeldertafel ordnet zwei Ja/Nein-Merkmale. Jede Person gehört genau in ein Innenfeld.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "",
+              "Bus",
+              "Rad",
+              "Gesamt"
+            ],
+            "rows": [
+              [
+                "Merkmal A",
+                "5",
+                "7",
+                "12"
+              ],
+              [
+                "Merkmal B",
+                "3",
+                "5",
+                "8"
+              ],
+              [
+                "Gesamt",
+                "8",
+                "12",
+                "20"
+              ]
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Anteil aus der passenden Gruppe bilden",
+          "formula": "P(A) = 12 : 20 = 60 %",
+          "explanation": "Achte auf die Bezugsgruppe: Für einen Anteil an allen nimmst du die Gesamtzahl als Nenner.",
+          "visual": {
+            "type": "percent",
+            "filled": 60,
+            "label": "12 von 20 Personen"
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "logarithmus",
+      "category": "zahlen",
+      "stage": "9-10",
+      "title": "Logarithmen als Umkehrung",
+      "subtitle": "Gesuchten Exponenten finden",
+      "symbol": "log",
+      "sourceNote": "Strobl Grundwissen Klasse 10, Abschnitt 1",
+      "steps": [
+        {
+          "headline": "Exponentielle Frage stellen",
+          "formula": "2ˣ = 8",
+          "explanation": "Welche Potenz von 2 ergibt 8? Weil 2³ = 8 gilt, ist der gesuchte Exponent 3.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "2³ = 8",
+              "also: 2ˣ = 8 → x = 3"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Logarithmus schreiben",
+          "formula": "log₂(8) = 3",
+          "explanation": "Der Logarithmus fragt nach dem Exponenten: log zur Basis 2 von 8 ist 3.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "log₂(8) = 3",
+              "denn 2³ = 8"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "kugel",
+      "category": "geometrie",
+      "stage": "9-10",
+      "title": "Volumen und Oberfläche der Kugel",
+      "subtitle": "Radius bestimmt Inhalt und Außenfläche",
+      "symbol": "r",
+      "sourceNote": "Strobl Grundwissen Klasse 10, Abschnitt 9",
+      "steps": [
+        {
+          "headline": "Radius ablesen",
+          "formula": "r = halber Durchmesser",
+          "explanation": "Der Radius geht vom Mittelpunkt bis zur Kugeloberfläche. Er ist die Hälfte des Durchmessers.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "d = 2r",
+              "r = d : 2"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Passende Formel wählen",
+          "formula": "V = ⁴⁄₃πr³ · O = 4πr²",
+          "explanation": "Für das Volumen wird der Radius hoch drei gerechnet; für die Oberfläche hoch zwei. Achte auf Kubik- und Quadrateinheiten.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "V = 4πr³ : 3",
+              "O = 4πr²"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "kegel",
+      "category": "geometrie",
+      "stage": "9-10",
+      "title": "Volumen und Oberfläche des Kegels",
+      "subtitle": "Kreisgrundfläche und Spitze",
+      "symbol": "V",
+      "sourceNote": "Strobl Grundwissen Klasse 10, Abschnitt 8",
+      "steps": [
+        {
+          "headline": "Kreis als Grundfläche",
+          "formula": "G = πr²",
+          "explanation": "Miss den Radius der Grundfläche und berechne den Flächeninhalt des Kreises.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "G = πr²"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Spitze ergänzt ein Drittel",
+          "formula": "V = G · h : 3",
+          "explanation": "Ein Kegel hat ein Drittel des Volumens eines Zylinders mit gleicher Grundfläche und Höhe.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "V = πr²h : 3",
+              "O = πr² + πrs"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "kreis",
+      "category": "geometrie",
+      "stage": "5-6",
+      "title": "Umfang und Fläche des Kreises",
+      "subtitle": "Pi verbindet Durchmesser und Umfang",
+      "symbol": "π",
+      "sourceNote": "Strobl Grundwissen Klasse 6, Abschnitt 6",
+      "steps": [
+        {
+          "headline": "Umfang aus dem Durchmesser",
+          "formula": "U = π · d",
+          "explanation": "Der Kreisumfang ist ungefähr 3,14-mal so lang wie sein Durchmesser.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "U = π · d",
+              "U ≈ 3,14 · d"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Fläche mit dem Radius",
+          "formula": "A = π · r²",
+          "explanation": "Für die Kreisfläche quadrierst du den Radius und multiplizierst mit π.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "A = π · r²",
+              "d = 2r"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "flaecheneinheiten",
+      "category": "anwendung",
+      "stage": "5-6",
+      "title": "Längen- und Flächeneinheiten",
+      "subtitle": "Bei Flächen wird der Faktor quadriert",
+      "symbol": "m²",
+      "sourceNote": "Strobl Grundwissen Klasse 5, Abschnitt 8; Klasse 6, Abschnitt 6",
+      "steps": [
+        {
+          "headline": "Längeneinheiten umrechnen",
+          "formula": "1 m = 100 cm",
+          "explanation": "Bei Längen springst du pro Einheitenschritt mit dem Faktor 10. Von Metern zu Zentimetern sind es zwei Schritte.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "1 m = 10 dm",
+              "1 m = 100 cm"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Flächeneinheiten umrechnen",
+          "formula": "1 m² = 10 000 cm²",
+          "explanation": "Flächen bestehen aus zwei Längen. Deshalb gilt bei einem Einheitenschritt der Faktor 100, nicht 10.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "Einheit",
+              "Entspricht"
+            ],
+            "rows": [
+              [
+                "1 m²",
+                "100 dm²"
+              ],
+              [
+                "1 m²",
+                "10 000 cm²"
+              ]
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "linear-ungleichung",
+      "category": "terme",
+      "stage": "7-8",
+      "title": "Lineare Ungleichungen",
+      "subtitle": "Lösungsbereich statt einzelner Lösung",
+      "symbol": "<",
+      "sourceNote": "Strobl Grundwissen Klasse 8, Abschnitt 4",
+      "steps": [
+        {
+          "headline": "Wie eine Gleichung umformen",
+          "formula": "2x + 3 < 11",
+          "explanation": "Ziehe auf beiden Seiten 3 ab und teile dann durch 2. Bei Division durch eine negative Zahl dreht sich das Ungleichheitszeichen um.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "2x + 3 < 11  |  − 3",
+              "2x < 8  |  : 2",
+              "x < 4"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Lösungen als Bereich zeigen",
+          "formula": "x < 4",
+          "explanation": "Alle Zahlen kleiner als 4 erfüllen die Ungleichung. Auf der Zahlengeraden ist 4 nicht enthalten.",
+          "visual": {
+            "type": "table",
+            "heads": [
+              "x",
+              "−1",
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "rows": [
+              [
+                "x < 4",
+                "wahr",
+                "wahr",
+                "wahr",
+                "falsch",
+                "falsch"
+              ]
+            ]
           },
           "sub": ""
         }
