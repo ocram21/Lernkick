@@ -4,31 +4,31 @@
       "id": "zahlen",
       "icon": "±",
       "title": "Zahlen & Regeln",
-      "desc": "Zahlen, Stellenwerte und Rechenregeln"
+      "desc": "Rechenregeln, Zahlen und Stellenwerte"
     },
     {
       "id": "verfahren",
       "icon": "×",
       "title": "Schriftlich rechnen",
-      "desc": "Multiplizieren und dividieren"
+      "desc": "Musterrechnungen für Mal und Geteilt"
     },
     {
       "id": "brueche",
       "icon": "½",
       "title": "Brüche",
-      "desc": "Verstehen, erweitern, addieren"
+      "desc": "Bruchrechnen und Anteile"
     },
     {
       "id": "terme",
       "icon": "( )",
       "title": "Terme & Gleichungen",
-      "desc": "Klammern, x und Umformen"
+      "desc": "Klammern und vollständige Gleichungswege"
     },
     {
       "id": "anwendung",
       "icon": "%",
       "title": "Alltagsrechnen",
-      "desc": "Prozent, Dreisatz, Größen"
+      "desc": "Prozent, Dreisatz und Größen"
     },
     {
       "id": "funktionen",
@@ -40,7 +40,7 @@
       "id": "geometrie",
       "icon": "△",
       "title": "Geometrie",
-      "desc": "Winkel, Flächen, Pythagoras"
+      "desc": "Winkel, Flächen und Körper"
     },
     {
       "id": "daten",
@@ -53,30 +53,40 @@
     {
       "id": "vorzeichen",
       "category": "zahlen",
-      "title": "Vorzeichenregeln bei Mal und Geteilt",
-      "subtitle": "Gleiche Zeichen: plus · verschiedene: minus",
-      "symbol": "−",
+      "title": "Vorzeichenregeln",
+      "subtitle": "Mal und Geteilt",
+      "symbol": "±",
       "steps": [
         {
-          "headline": "Vorzeichen auf einen Blick",
+          "headline": "Gleiche oder verschiedene Vorzeichen?",
           "formula": "gleich → +   ·   verschieden → −",
-          "explanation": "Bei Multiplikation und Division gilt dieselbe Regel: gleiche Vorzeichen ergeben ein positives Ergebnis, verschiedene Vorzeichen ein negatives. Danach rechnest du die Zahlenwerte ohne Vorzeichen.",
+          "explanation": "Bei Mal und Geteilt gilt dieselbe Regel: Gleiche Vorzeichen ergeben plus, verschiedene Vorzeichen minus. Danach rechnest du die Beträge.",
           "visual": {
             "type": "table",
             "heads": [
-              "Rechenart",
-              "gleich",
-              "verschieden"
+              "Vorzeichen",
+              "Mal",
+              "Geteilt"
             ],
             "rows": [
               [
-                "Mal (·)",
+                "+ und +",
                 "+",
+                "+"
+              ],
+              [
+                "− und −",
+                "+",
+                "+"
+              ],
+              [
+                "+ und −",
+                "−",
                 "−"
               ],
               [
-                "Geteilt (:)",
-                "+",
+                "− und +",
+                "−",
                 "−"
               ]
             ]
@@ -88,20 +98,20 @@
     {
       "id": "negative-addieren",
       "category": "zahlen",
-      "title": "Negative Zahlen auf dem Zahlenstrahl",
-      "subtitle": "Links von null liegen die negativen Zahlen",
+      "title": "Negative Zahlen am Zahlenstrahl",
+      "subtitle": "Links von null wird es kleiner",
       "symbol": "↔",
       "steps": [
         {
-          "headline": "Orientierung auf der Zahlengeraden",
+          "headline": "Zahlen der Größe nach ordnen",
           "formula": "… −3, −2, −1, 0, 1, 2, 3 …",
-          "explanation": "Der Zahlenstrahl läuft von links nach rechts größer. Negative Zahlen liegen links von 0, positive rechts. Je weiter links eine Zahl liegt, desto kleiner ist sie.",
+          "explanation": "Der Zahlenstrahl wird nach rechts größer. Negative Zahlen liegen links von null, positive rechts. Die 0 ist weder positiv noch negativ.",
           "visual": {
             "type": "numberline",
             "from": -3,
             "to": -3,
             "emphasizeZero": true,
-            "caption": "Negative Zahlen links von null"
+            "caption": "Negative Zahlen liegen links von null"
           },
           "sub": ""
         }
@@ -111,51 +121,18 @@
       "id": "reihenfolge",
       "category": "zahlen",
       "title": "Punkt vor Strich",
-      "subtitle": "Warum die Reihenfolge wichtig ist",
+      "subtitle": "Klammern zuerst",
       "symbol": "≠",
       "steps": [
         {
-          "headline": "Ohne Klammern",
-          "formula": "4 + 2 · 3",
-          "explanation": "In diesem Ausdruck gibt es Addition und Multiplikation. Zuerst wird multipliziert.",
+          "headline": "Zwei Rechenwege vergleichen",
+          "formula": "4 + 2 · 3 = 10",
+          "explanation": "Ohne Klammern rechnest du zuerst Mal und Geteilt, dann Plus und Minus. Klammern werden zuerst berechnet.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "4",
-              "+",
-              "2 × 3"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Erst Punktrechnung",
-          "formula": "4 + <span class=\"accent\">6</span> = 10",
-          "explanation": "2 mal 3 ergibt 6. Erst danach wird 4 dazugezählt.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "4",
-              "+",
-              "6",
-              "=",
-              "10"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Eine Klammer verändert alles",
-          "formula": "(4 + 2) · 3 = 18",
-          "explanation": "In der Klammer zuerst 4 + 2 rechnen, dann das Ergebnis 6 mit 3 multiplizieren.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "(6)",
-              "×",
-              "3",
-              "=",
-              "18"
+            "type": "math-stack",
+            "rows": [
+              "4 + 2 · 3 = 4 + 6 = 10",
+              "(4 + 2) · 3 = 6 · 3 = 18"
             ]
           },
           "sub": ""
@@ -170,40 +147,12 @@
       "symbol": "²",
       "steps": [
         {
-          "headline": "Eine Zahl mit sich selbst multiplizieren",
-          "formula": "6² = 6 · 6 = 36",
-          "explanation": "Eine Quadratzahl entsteht, wenn eine Zahl mit sich selbst multipliziert wird. Das 6-mal-6-Quadrat hat 36 Kästchen.",
+          "headline": "Umkehroperationen am Quadrat",
+          "formula": "6² = 6 · 6 = 36   ↔   √36 = 6",
+          "explanation": "Eine Quadratzahl entsteht durch Malnehmen einer Zahl mit sich selbst. Die Quadratwurzel fragt umgekehrt nach dieser nichtnegativen Zahl.",
           "visual": {
             "type": "grid",
             "n": 6
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Umkehrung finden",
-          "formula": "√36 = 6",
-          "explanation": "Die Quadratwurzel fragt umgekehrt: Welche nichtnegative Zahl wurde mit sich selbst multipliziert, um 36 zu erhalten? Die Antwort ist 6.",
-          "visual": {
-            "type": "grid",
-            "n": 6
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Wege verbinden",
-          "formula": "6² = 36   ↔   √36 = 6",
-          "explanation": "Quadrieren und Quadratwurzelziehen sind Umkehroperationen: 6 zum Quadrat ergibt 36, und die Quadratwurzel aus 36 ergibt wieder 6.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "6²",
-              "=",
-              "36",
-              "↔",
-              "√36",
-              "=",
-              "6"
-            ]
           },
           "sub": ""
         }
@@ -213,17 +162,17 @@
       "id": "dezimalzahlen",
       "category": "zahlen",
       "title": "Dezimalzahlen verstehen",
-      "subtitle": "Ganze, Zehntel und Hundertstel",
+      "subtitle": "Stellenwerte hinter dem Komma",
       "symbol": "0,",
       "steps": [
         {
-          "headline": "Stellenwerte hinter dem Komma",
+          "headline": "Ganze, Zehntel und Hundertstel",
           "formula": "2,35 = 2 + 0,3 + 0,05",
-          "explanation": "Die 2 steht an der Einerstelle, die 3 an der Zehntelstelle und die 5 an der Hundertstelstelle. Jede Stelle rechts vom Komma ist zehnmal kleiner als die davor.",
+          "explanation": "Die 2 steht bei den Einern, die 3 bei den Zehnteln und die 5 bei den Hundertsteln. Jede Stelle rechts vom Komma ist zehnmal kleiner.",
           "visual": {
             "type": "table",
             "heads": [
-              "Ganze",
+              "Einer",
               "Zehntel",
               "Hundertstel"
             ],
@@ -243,46 +192,13 @@
       "id": "schriftlich-mal",
       "category": "verfahren",
       "title": "Schriftlich multiplizieren",
-      "subtitle": "Einer, Zehner und Teilergebnisse",
+      "subtitle": "Beide Teilprodukte stellengerecht addieren",
       "symbol": "×",
       "steps": [
         {
-          "headline": "Die Aufgabe zerlegen",
-          "formula": "24 · 13 = 24 · (10 + 3)",
-          "explanation": "13 besteht aus einem Zehner und drei Einern. Wir rechnen deshalb zuerst 24 · 3 und danach 24 · 10.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Zehner",
-              "Einer"
-            ],
-            "rows": [
-              [
-                "1",
-                "3"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mit den Einern beginnen",
-          "formula": "24 · 3 = <span class=\"accent\">72</span>",
-          "explanation": "Beginne bei den Einern: 3 · 4 = 12. Schreibe die 2 unter die Einer und übertrage die 1 zum nächsten Produkt: 3 · 2 + 1 = 7. Das erste Teilprodukt ist 72.",
-          "visual": {
-            "type": "long-multiplication",
-            "top": "24",
-            "bottom": "13",
-            "partials": [
-              "72"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Zehner berücksichtigen",
-          "formula": "24 · 10 = <span class=\"accent\">240</span>",
-          "explanation": "Jetzt kommt der Zehner des zweiten Faktors. 24 · 10 = 240. Das zweite Teilprodukt steht unter dem ersten, jeweils stellengerecht.",
+          "headline": "24 · 13 vollständig rechnen",
+          "formula": "24 · 13 = 72 + 240 = 312",
+          "explanation": "Zuerst mit den Einern rechnen: 24 · 3 = 72. Dann mit dem Zehner: 24 · 10 = 240. Die Teilprodukte stehen untereinander und werden addiert.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
@@ -290,18 +206,7 @@
             "partials": [
               "72",
               "240"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Teilergebnisse addieren",
-          "formula": "72 + 240 = <span class=\"accent\">312</span>",
-          "explanation": "Addiere die beiden Teilprodukte stellengerecht: 72 + 240 = 312. Damit ist 24 · 13 = 312.",
-          "visual": {
-            "type": "long-addition",
-            "first": "72",
-            "second": "240",
+            ],
             "result": "312"
           },
           "sub": ""
@@ -312,64 +217,19 @@
       "id": "schriftlich-geteilt",
       "category": "verfahren",
       "title": "Schriftlich dividieren",
-      "subtitle": "Schrittweise teilen und zurückmultiplizieren",
+      "subtitle": "Teilen, abziehen, nächste Ziffer herunterholen",
       "symbol": "÷",
       "steps": [
         {
-          "headline": "Beginne von links",
-          "formula": "156 : 12",
-          "explanation": "12 passt nicht in 1, aber einmal in 15. Die erste Ziffer des Ergebnisses ist also 1.",
+          "headline": "156 : 12 vollständig rechnen",
+          "formula": "",
+          "explanation": "12 passt einmal in 15; nach dem Abziehen bleibt 3. Die 6 herunterholen ergibt 36. 12 passt dreimal in 36. Der Rest ist 0.",
           "visual": {
-            "type": "array",
+            "type": "math-stack",
             "rows": [
-              "156 : 12",
-              "15 : 12 = 1"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Multiplizieren und abziehen",
-          "formula": "15 − 12 = <span class=\"accent\">3</span>",
-          "explanation": "Die 1 im Ergebnis bedeutet 1 mal 12. Ziehe 12 von 15 ab: Es bleibt 3.",
-          "visual": {
-            "type": "array",
-            "rows": [
-              "15",
-              "−12",
-              "───",
-              " 3"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Nächste Ziffer herunterholen",
-          "formula": "36 : 12 = <span class=\"accent\">3</span>",
-          "explanation": "Hole die 6 aus 156 herunter. Aus dem Rest 3 wird 36. 12 passt dreimal hinein.",
-          "visual": {
-            "type": "array",
-            "rows": [
-              " 36",
-              "−36",
-              "───",
-              "  0"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Ergebnis kontrollieren",
-          "formula": "156 : 12 = <span class=\"accent\">13</span>",
-          "explanation": "Die beiden Ergebnisziffern lauten 1 und 3. Die Probe: 13 mal 12 ergibt 156. Es bleibt kein Rest.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "13",
-              "×",
-              "12",
-              "=",
-              "156"
+              "15 − 12 = 3",
+              "36 − 36 = 0",
+              "Ergebnis: 13, Rest 0"
             ]
           },
           "sub": ""
@@ -379,53 +239,21 @@
     {
       "id": "bruchteil",
       "category": "brueche",
-      "title": "Was ist ein Bruch?",
-      "subtitle": "Zähler und Nenner werden sichtbar",
-      "symbol": "½",
+      "title": "Brüche lesen",
+      "subtitle": "Zähler und Nenner beschreiben einen Anteil",
+      "symbol": "¾",
       "steps": [
         {
-          "headline": "Das Ganze aufteilen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Der Nenner 4 sagt: Ein Ganzes wird in vier gleich große Teile zerlegt.",
+          "headline": "Drei von vier Teilen",
+          "formula": "¾ = 0,75 = 75 %",
+          "explanation": "Der Nenner 4 teilt das Ganze in vier gleich große Teile. Der Zähler 3 sagt, dass drei dieser Teile gemeint sind.",
           "visual": {
             "type": "fractions",
             "parts": [
               {
-                "n": 1,
-                "d": 4,
-                "label": "1 von 4 Teilen"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mehrere Teile nehmen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Der Zähler 3 sagt: Drei dieser vier gleich großen Teile werden betrachtet.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
+                "label": "3 von 4 Teilen",
                 "n": 3,
-                "d": 4,
-                "label": "3 von 4 Teilen"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Den Anteil verstehen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></span> = 0,75",
-          "explanation": "Drei Viertel entsprechen 0,75 eines Ganzen. Das sind auch 75 Prozent.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 3,
-                "d": 4,
-                "label": "Drei Viertel"
+                "d": 4
               }
             ]
           },
@@ -436,130 +264,31 @@
     {
       "id": "erweitern",
       "category": "brueche",
-      "title": "Brüche erweitern",
-      "subtitle": "Andere Stücke, gleicher Anteil",
-      "symbol": "=",
+      "title": "Brüche erweitern und kürzen",
+      "subtitle": "Den Wert erhalten, die Schreibweise ändern",
+      "symbol": "½",
       "steps": [
         {
-          "headline": "Ein halbes Ganzes",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></span>",
-          "explanation": "Die Hälfte ist eingefärbt. Wir möchten dieselbe Menge mit kleineren Teilstücken beschreiben.",
+          "headline": "Oben und unten gleich behandeln",
+          "formula": "½ = 2⁄4 = 4⁄8",
+          "explanation": "Beim Erweitern multiplizierst du Zähler und Nenner mit derselben Zahl. Beim Kürzen teilst du beide durch denselben gemeinsamen Teiler.",
           "visual": {
             "type": "fractions",
             "parts": [
               {
+                "label": "gleich großer Anteil",
                 "n": 1,
-                "d": 2,
-                "label": "Ein Halb"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Jeden Teil halbieren",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></span> = <span class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Wenn alle Hälften noch einmal geteilt werden, entstehen vier gleich große Teile. Zwei davon sind gefärbt.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 1,
-                "d": 2,
-                "label": "1/2"
+                "d": 2
               },
               {
+                "label": "erweitert",
                 "n": 2,
-                "d": 4,
-                "label": "2/4"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zähler und Nenner gleich behandeln",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1 · 2</span><span class=\"bottom\">2 · 2</span></span> = <span class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Beim Erweitern wird oben und unten mit derselben Zahl multipliziert. Der Wert des Bruchs bleibt unverändert.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 1,
-                "d": 2,
-                "label": "Ausgangsbruch"
+                "d": 4
               },
               {
-                "n": 2,
-                "d": 4,
-                "label": "Erweiterter Bruch"
-              }
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "kuerzen",
-      "category": "brueche",
-      "title": "Brüche kürzen",
-      "subtitle": "Weniger Teilstücke, gleicher Anteil",
-      "symbol": "÷",
-      "steps": [
-        {
-          "headline": "Vier von acht Teilen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">8</span></span>",
-          "explanation": "Vier von acht gleich großen Teilen sind gefärbt. Die Hälfte des Ganzen ist markiert.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
+                "label": "weiter erweitert",
                 "n": 4,
-                "d": 8,
-                "label": "4/8"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Zahlen teilen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">4 : 4</span><span class=\"bottom\">8 : 4</span></span> = <span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></span>",
-          "explanation": "Zähler und Nenner werden durch denselben gemeinsamen Teiler 4 geteilt.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 4,
-                "d": 8,
-                "label": "4/8"
-              },
-              {
-                "n": 1,
-                "d": 2,
-                "label": "1/2"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Der Anteil bleibt gleich",
-          "formula": "<span class=\"fraction\"><span class=\"top\">4</span><span class=\"bottom\">8</span></span> = <span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></span>",
-          "explanation": "Beim Kürzen verändert sich nicht der Anteil, sondern nur seine Schreibweise.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 4,
-                "d": 8,
-                "label": "Vorher"
-              },
-              {
-                "n": 1,
-                "d": 2,
-                "label": "Nachher"
+                "d": 8
               }
             ]
           },
@@ -571,57 +300,20 @@
       "id": "brueche-gleichnamig",
       "category": "brueche",
       "title": "Gleichnamige Brüche addieren",
-      "subtitle": "Gleich große Stücke zusammenzählen",
-      "symbol": "+",
+      "subtitle": "Die Teilstücke sind gleich groß",
+      "symbol": "¼",
       "steps": [
         {
-          "headline": "Gleiche Nenner erkennen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></span> + <span class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Beide Brüche bestehen aus Vierteln. Die Stücke sind gleich groß und können direkt gezählt werden.",
+          "headline": "Zähler addieren, Nenner behalten",
+          "formula": "¼ + ²⁄₄ = ¾",
+          "explanation": "Bei gleichem Nenner addierst du die Zähler. Der Nenner bleibt gleich, weil die Stücke weiterhin Viertel sind.",
           "visual": {
             "type": "fractions",
             "parts": [
               {
-                "n": 1,
-                "d": 4,
-                "label": "1/4"
-              },
-              {
-                "n": 2,
-                "d": 4,
-                "label": "2/4"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zähler addieren",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1 + 2</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Ein Viertel plus zwei Viertel sind drei Viertel. Der Nenner 4 bleibt erhalten.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
+                "label": "Ergebnis: 3 Viertel",
                 "n": 3,
-                "d": 4,
-                "label": "Zusammen: 3/4"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Das Ergebnis",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></span> + <span class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">4</span></span> = <span class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Nur die Zähler werden addiert, nicht die Nenner. Es handelt sich weiterhin um Viertel.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 3,
-                "d": 4,
-                "label": "3 von 4 Teilen"
+                "d": 4
               }
             ]
           },
@@ -633,79 +325,65 @@
       "id": "brueche-ungleich",
       "category": "brueche",
       "title": "Ungleichnamige Brüche addieren",
-      "subtitle": "Erst gleich große Stücke schaffen",
-      "symbol": "+",
+      "subtitle": "Erst einen gemeinsamen Nenner finden",
+      "symbol": "½",
       "steps": [
         {
-          "headline": "Unterschiedliche Teilstücke",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></span> + <span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></span>",
-          "explanation": "Eine Hälfte und ein Drittel sind unterschiedlich große Stücke. Sie lassen sich so noch nicht direkt addieren.",
+          "headline": "In Sechstel umwandeln und addieren",
+          "formula": "½ + ⅓ = ³⁄₆ + ²⁄₆ = ⅚",
+          "explanation": "Hälften und Drittel sind unterschiedlich groß. Wandle sie in Sechstel um, addiere dann die Zähler und prüfe, ob du kürzen kannst.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "½ + ⅓ = ³⁄₆ + ²⁄₆",
+              "³⁄₆ + ²⁄₆ = ⅚"
+            ]
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
+      "id": "brueche-addieren",
+      "category": "brueche",
+      "title": "Brüche subtrahieren",
+      "subtitle": "Bei gleichen Nennern die Zähler abziehen",
+      "symbol": "−",
+      "steps": [
+        {
+          "headline": "Ein Beispiel mit Achteln",
+          "formula": "⅞ − ³⁄₈ = ⁴⁄₈ = ½",
+          "explanation": "Ziehe bei gleichnamigen Brüchen die Zähler ab. Der Nenner bleibt gleich; anschließend kannst du das Ergebnis kürzen.",
           "visual": {
             "type": "fractions",
             "parts": [
               {
-                "n": 1,
-                "d": 2,
-                "label": "Eine Hälfte"
-              },
-              {
-                "n": 1,
-                "d": 3,
-                "label": "Ein Drittel"
+                "label": "7 Achtel minus 3 Achtel = 4 Achtel",
+                "n": 4,
+                "d": 8
               }
             ]
           },
           "sub": ""
-        },
+        }
+      ]
+    },
+    {
+      "id": "brueche-mult",
+      "category": "brueche",
+      "title": "Brüche multiplizieren",
+      "subtitle": "Zähler mal Zähler, Nenner mal Nenner",
+      "symbol": "·",
+      "steps": [
         {
-          "headline": "Gemeinsamen Nenner finden",
-          "formula": "<span class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">6</span></span> + <span class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">6</span></span>",
-          "explanation": "Halbe und Drittel lassen sich beide in Sechstel umwandeln. Eine Hälfte sind 3/6, ein Drittel sind 2/6.",
+          "headline": "Multiplizieren und kürzen",
+          "formula": "⅔ · ¾ = ⁶⁄₁₂ = ½",
+          "explanation": "Multipliziere die Zähler miteinander und die Nenner miteinander. Kürze das Ergebnis, wenn Zähler und Nenner einen gemeinsamen Teiler haben.",
           "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 3,
-                "d": 6,
-                "label": "3/6"
-              },
-              {
-                "n": 2,
-                "d": 6,
-                "label": "2/6"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Jetzt die Zähler addieren",
-          "formula": "<span class=\"fraction\"><span class=\"top\">3 + 2</span><span class=\"bottom\">6</span></span> = <span class=\"fraction\"><span class=\"top\">5</span><span class=\"bottom\">6</span></span>",
-          "explanation": "Nun sind die Teilstücke gleich groß. Drei Sechstel plus zwei Sechstel sind fünf Sechstel.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 5,
-                "d": 6,
-                "label": "Ergebnis: 5/6"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Merksatz",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></span> + <span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">3</span></span> = <span class=\"fraction\"><span class=\"top\">5</span><span class=\"bottom\">6</span></span>",
-          "explanation": "Erst gleichnamig machen, dann die Zähler addieren und prüfen, ob sich kürzen lässt.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 5,
-                "d": 6,
-                "label": "5 von 6 Teilen"
-              }
+            "type": "math-stack",
+            "rows": [
+              "⅔ · ¾ = ⁶⁄₁₂",
+              "⁶⁄₁₂ = ½"
             ]
           },
           "sub": ""
@@ -720,111 +398,14 @@
       "symbol": "%",
       "steps": [
         {
-          "headline": "Ein Viertel darstellen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Von vier gleich großen Teilen ist einer markiert. Das ist ein Viertel.",
+          "headline": "Ein Viertel umwandeln",
+          "formula": "¼ = 1 : 4 = 0,25 = 25 %",
+          "explanation": "Der Bruchstrich bedeutet Division. Für Prozent schreibst du den Anteil von hundert: 0,25 · 100 = 25.",
           "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 1,
-                "d": 4,
-                "label": "Ein Viertel"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "In eine Dezimalzahl umwandeln",
-          "formula": "1 : 4 = <span class=\"accent\">0,25</span>",
-          "explanation": "Ein Bruchstrich bedeutet Division. Ein Viertel ist daher 1 geteilt durch 4.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 1,
-                "d": 4,
-                "label": "1/4 = 0,25"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "In Prozent umwandeln",
-          "formula": "0,25 · 100 = <span class=\"accent\">25 %</span>",
-          "explanation": "Prozent bedeutet „von hundert“. Ein Viertel des Ganzen entspricht 25 von 100.",
-          "visual": {
-            "type": "percent",
-            "filled": 25,
-            "label": "25 von 100 = ein Viertel"
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "brueche-mult",
-      "category": "brueche",
-      "title": "Brüche multiplizieren",
-      "subtitle": "Zähler mal Zähler, Nenner mal Nenner",
-      "symbol": "×",
-      "steps": [
-        {
-          "headline": "Die Aufgabe",
-          "formula": "<span class=\"fraction\"><span class=\"top\">2</span><span class=\"bottom\">3</span></span> · <span class=\"fraction\"><span class=\"top\">3</span><span class=\"bottom\">4</span></span>",
-          "explanation": "Beim Multiplizieren von Brüchen wird ein Anteil von einem Anteil betrachtet.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 2,
-                "d": 3,
-                "label": "2/3"
-              },
-              {
-                "n": 3,
-                "d": 4,
-                "label": "3/4"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Oben mit oben, unten mit unten",
-          "formula": "<span class=\"fraction\"><span class=\"top\">2 · 3</span><span class=\"bottom\">3 · 4</span></span> = <span class=\"fraction\"><span class=\"top\">6</span><span class=\"bottom\">12</span></span>",
-          "explanation": "Die Zähler werden multipliziert und die Nenner ebenfalls. Es entstehen sechs Zwölftel.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 6,
-                "d": 12,
-                "label": "6/12"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Ergebnis kürzen",
-          "formula": "<span class=\"fraction\"><span class=\"top\">6</span><span class=\"bottom\">12</span></span> = <span class=\"fraction\"><span class=\"top\">1</span><span class=\"bottom\">2</span></span>",
-          "explanation": "Sechs Zwölftel sind ein Halb. Das Ergebnis kann durch 6 gekürzt werden.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "n": 6,
-                "d": 12,
-                "label": "6/12"
-              },
-              {
-                "n": 1,
-                "d": 2,
-                "label": "1/2"
-              }
+            "type": "math-stack",
+            "rows": [
+              "¼ = 1 : 4 = 0,25",
+              "0,25 · 100 = 25 %"
             ]
           },
           "sub": ""
@@ -835,54 +416,20 @@
       "id": "ausmultiplizieren",
       "category": "terme",
       "title": "Klammern ausmultiplizieren",
-      "subtitle": "Der Faktor gilt für alles im Beutel",
+      "subtitle": "Jeder Summand erhält den Faktor",
       "symbol": "( )",
       "steps": [
         {
-          "headline": "Die Klammer als Beutel",
-          "formula": "3(x + 2)",
-          "explanation": "Stelle dir die Klammer als einen Beutel vor. Darin liegen x und 2. Der Faktor 3 bedeutet: drei gleiche Beutel.",
+          "headline": "Das Distributivgesetz",
+          "formula": "3(x + 2) = 3·x + 3·2 = 3x + 6",
+          "explanation": "Der Faktor 3 wird mit jedem Summanden in der Klammer multipliziert. Allgemein gilt: a(b + c) = ab + ac.",
           "visual": {
-            "type": "distribute",
-            "stage": "groups"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Alle Inhalte vervielfachen",
-          "formula": "3 · x + 3 · 2",
-          "explanation": "Jeder der drei gleichen Beutel enthält ein x und eine 2. Der Faktor 3 wirkt deshalb auf beide Summanden.",
-          "visual": {
-            "type": "distribute",
-            "stage": "arrows"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Gleichartige Teile sammeln",
-          "formula": "3x + 6",
-          "explanation": "Drei x ergeben 3x und drei Zweier ergeben 6. Beide Bestandteile bleiben erhalten.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "3x",
-              "+",
-              "6"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Regel",
-          "formula": "3(x + 2) = <span class=\"accent\">3x + 6</span>",
-          "explanation": "Allgemein: a(b + c) = ab + ac. Der Faktor vor der Klammer wird mit jedem Summanden in der Klammer multipliziert.",
-          "visual": {
-            "type": "equation",
+            "type": "math-stack",
             "rows": [
-              {
-                "left": "3(x + 2)",
-                "right": "3x + 6"
-              }
+              "3(x + 2)",
+              "↙ ×3             ×3 ↘",
+              "3 · x       +       3 · 2",
+              "3x          +          6"
             ]
           },
           "sub": ""
@@ -893,59 +440,19 @@
       "id": "ausklammern",
       "category": "terme",
       "title": "Ausklammern",
-      "subtitle": "Der gemeinsame Faktor kommt vor den Beutel",
-      "symbol": "( )",
+      "subtitle": "Den gemeinsamen Faktor herausziehen",
+      "symbol": "3",
       "steps": [
         {
-          "headline": "Zwei Terme untersuchen",
-          "formula": "6x + 9",
-          "explanation": "Beide Summanden lassen sich durch 3 teilen. Die 3 ist der gemeinsame Faktor.",
+          "headline": "Gemeinsame Faktoren nutzen",
+          "formula": "6x + 9 = 3·2x + 3·3 = 3(2x + 3)",
+          "explanation": "Suche den größten gemeinsamen Faktor. Teile jeden Summanden durch ihn und setze die Ergebnisse in eine Klammer.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "6x",
-              "+",
-              "9"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Gemeinsames auslagern",
-          "formula": "3 · 2x + 3 · 3",
-          "explanation": "Schreibe beide Summanden als Produkt mit dem gemeinsamen Faktor 3.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "3 × 2x",
-              "+",
-              "3 × 3"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Den Faktor vor die Klammer setzen",
-          "formula": "3(2x + 3)",
-          "explanation": "Die 3 steht jetzt einmal vor der Klammer. Im Beutel bleiben 2x und 3.",
-          "visual": {
-            "type": "bags",
-            "count": 3,
-            "content": "2x + 3"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mit der Gegenprobe prüfen",
-          "formula": "3(2x + 3) = 6x + 9",
-          "explanation": "Multipliziere wieder aus. Wenn der ursprüngliche Ausdruck entsteht, wurde richtig ausgeklammert.",
-          "visual": {
-            "type": "equation",
+            "type": "math-stack",
             "rows": [
-              {
-                "left": "3(2x + 3)",
-                "right": "6x + 9"
-              }
+              "6x + 9",
+              "3 · 2x + 3 · 3",
+              "3(2x + 3)"
             ]
           },
           "sub": ""
@@ -956,28 +463,13 @@
       "id": "gleichung-einfach",
       "category": "terme",
       "title": "Eine Gleichung lösen",
-      "subtitle": "Auf beiden Seiten dasselbe tun",
+      "subtitle": "Dieselbe Operation auf beiden Seiten",
       "symbol": "x",
       "steps": [
         {
-          "headline": "Die Gleichung als Waage",
-          "formula": "3x + 5 = 20",
-          "explanation": "Eine Gleichung ist im Gleichgewicht: Links und rechts steht derselbe Wert. Ziel ist, x allein zu bekommen.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "3x + 5",
-                "right": "20"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf beiden Seiten 5 abziehen",
-          "formula": "3x + 5 − 5 = 20 − 5",
-          "explanation": "Damit x allein stehen kann, ziehen wir auf beiden Seiten 5 ab. Die senkrechte Angabe zeigt die gleiche Operation links und rechts.",
+          "headline": "In drei Umformungen zu x",
+          "formula": "",
+          "explanation": "Ziehe auf beiden Seiten dieselbe Zahl ab und teile dann durch den Koeffizienten von x. Probe: 3 · 5 + 5 = 20.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -987,47 +479,9 @@
                 "operation": "− 5"
               },
               {
-                "left": "3x + 5 − 5",
-                "right": "20 − 5"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Vereinfachen",
-          "formula": "3x = <span class=\"accent\">15</span>",
-          "explanation": "Die +5 und −5 heben sich auf. Nun stehen links drei gleiche x und rechts 15.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "3x + 5 − 5",
-                "right": "20 − 5"
-              },
-              {
-                "left": "3x",
-                "right": "15"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Durch 3 teilen",
-          "formula": "x = <span class=\"accent\">5</span>",
-          "explanation": "Teile beide Seiten durch 3. Zur Probe: 3 mal 5 plus 5 ergibt wieder 20.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
                 "left": "3x",
                 "right": "15",
                 "operation": ": 3"
-              },
-              {
-                "left": "3x : 3",
-                "right": "15 : 3"
               },
               {
                 "left": "x",
@@ -1043,28 +497,13 @@
       "id": "gleichung-beidseitig",
       "category": "terme",
       "title": "x auf beiden Seiten",
-      "subtitle": "Variable auf eine Seite bringen",
+      "subtitle": "x-Terme zuerst auf eine Seite bringen",
       "symbol": "x",
       "steps": [
         {
-          "headline": "Start mit zwei x-Termen",
-          "formula": "5x + 4 = 2x + 19",
-          "explanation": "Links stehen 5x, rechts 2x. Zuerst die Variablen auf einer Seite zusammenfassen.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "5x + 4",
-                "right": "2x + 19"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf beiden Seiten 2x abziehen",
-          "formula": "3x + 4 = 19",
-          "explanation": "Ziehe 2x auf beiden Seiten ab. Rechts heben sich die x-Terme auf; links bleiben 3x + 4.",
+          "headline": "Gleichartige Terme zusammenfassen",
+          "formula": "",
+          "explanation": "Ziehe 2x auf beiden Seiten ab, dann 4. Teile durch 3. Probe: Beide Seiten der Ausgangsgleichung ergeben 29.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -1074,56 +513,14 @@
                 "operation": "− 2x"
               },
               {
-                "left": "5x − 2x + 4",
-                "right": "2x − 2x + 19"
-              },
-              {
-                "left": "3x + 4",
-                "right": "19"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf beiden Seiten 4 abziehen",
-          "formula": "3x = <span class=\"accent\">15</span>",
-          "explanation": "Links bleibt 3x stehen und rechts 19 − 4 = 15.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
                 "left": "3x + 4",
                 "right": "19",
                 "operation": "− 4"
               },
               {
-                "left": "3x + 4 − 4",
-                "right": "19 − 4"
-              },
-              {
-                "left": "3x",
-                "right": "15"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Durch 3 teilen",
-          "formula": "x = <span class=\"accent\">5</span>",
-          "explanation": "Teile beide Seiten durch 3. Die Lösung ist x = 5. Probe: Beide Seiten der Ausgangsgleichung ergeben 29.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
                 "left": "3x",
                 "right": "15",
                 "operation": ": 3"
-              },
-              {
-                "left": "3x : 3",
-                "right": "15 : 3"
               },
               {
                 "left": "x",
@@ -1143,24 +540,9 @@
       "symbol": "( )",
       "steps": [
         {
-          "headline": "Die Ausgangsgleichung",
-          "formula": "2(x + 3) = 14",
-          "explanation": "Im Beutel liegen x und 3. Davor steht der Faktor 2.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "2(x + 3)",
-                "right": "14"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Klammerteile multiplizieren",
-          "formula": "2x + 6 = 14",
-          "explanation": "2 mal x ergibt 2x. 2 mal 3 ergibt 6.",
+          "headline": "Die Klammer auflösen und x isolieren",
+          "formula": "",
+          "explanation": "Multipliziere die 2 in die Klammer. Ziehe danach 6 auf beiden Seiten ab und teile durch 2. Probe: 2 · (4 + 3) = 14.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -1168,53 +550,15 @@
                 "left": "2(x + 3)",
                 "right": "14"
               },
-              {
-                "left": "2x + 6",
-                "right": "14"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf beiden Seiten 6 abziehen",
-          "formula": "2x = <span class=\"accent\">8</span>",
-          "explanation": "Nach dem Subtrahieren von 6 bleibt links 2x und rechts 8.",
-          "visual": {
-            "type": "equation",
-            "rows": [
               {
                 "left": "2x + 6",
                 "right": "14",
                 "operation": "− 6"
               },
               {
-                "left": "2x + 6 − 6",
-                "right": "14 − 6"
-              },
-              {
-                "left": "2x",
-                "right": "8"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Durch 2 teilen",
-          "formula": "x = <span class=\"accent\">4</span>",
-          "explanation": "Die Probe lautet 2·(4 + 3) = 14. Die Gleichung stimmt.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
                 "left": "2x",
                 "right": "8",
                 "operation": ": 2"
-              },
-              {
-                "left": "2x : 2",
-                "right": "8 : 2"
               },
               {
                 "left": "x",
@@ -1227,216 +571,40 @@
       ]
     },
     {
-      "id": "gleichung-probe",
-      "category": "terme",
-      "title": "Die Probe bei Gleichungen",
-      "subtitle": "Eine Lösung überprüfen",
-      "symbol": "✓",
-      "steps": [
-        {
-          "headline": "Eine mögliche Lösung",
-          "formula": "2x + 3 = 11",
-          "explanation": "Wir vermuten x = 4. Ob diese Zahl wirklich passt, zeigt das Einsetzen in die ursprüngliche Gleichung.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "2x + 3",
-                "right": "11"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "x durch 4 ersetzen",
-          "formula": "2 · 4 + 3 = 11",
-          "explanation": "Ersetze jedes x in der Ausgangsgleichung durch 4. Dann rechne beide Seiten aus.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "2x + 3",
-                "right": "11",
-                "operation": "x = 4 einsetzen"
-              },
-              {
-                "left": "2 · 4 + 3",
-                "right": "11"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Seiten vergleichen",
-          "formula": "11 = <span class=\"accent\">11</span>",
-          "explanation": "Links und rechts ergeben denselben Wert. Damit ist x = 4 tatsächlich eine Lösung.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "2 · 4 + 3",
-                "right": "11"
-              },
-              {
-                "left": "11",
-                "right": "11"
-              }
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "prozentwert",
+      "id": "prozent",
       "category": "anwendung",
-      "title": "Prozentwert berechnen",
-      "subtitle": "Wie viel sind 20 % von 80 €?",
+      "title": "Prozentwert, Grundwert und Prozentsatz",
+      "subtitle": "Welche Größe ist gesucht?",
       "symbol": "%",
       "steps": [
         {
-          "headline": "Grundwert bestimmen",
-          "formula": "G = 80 €",
-          "explanation": "Der Grundwert ist das Ganze. Hier entsprechen 80 Euro genau 100 Prozent.",
+          "headline": "Die drei Prozentformeln",
+          "formula": "",
+          "explanation": "G ist das Ganze, W der Anteil und p der Prozentsatz. Setze die bekannten Größen in die passende Zeile ein.",
           "visual": {
-            "type": "percent",
-            "filled": 100,
-            "label": "100 % = 80 €"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Prozentsatz auswählen",
-          "formula": "p = 20 %",
-          "explanation": "20 Prozent heißt 20 von 100, also 0,20 des Ganzen.",
-          "visual": {
-            "type": "percent",
-            "filled": 20,
-            "label": "20 % des Ganzen"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Den Anteil berechnen",
-          "formula": "W = 80 € · 0,20",
-          "explanation": "Multipliziere den Grundwert mit dem Prozentsatz als Dezimalzahl.",
-          "visual": {
-            "type": "percent",
-            "filled": 20,
-            "label": "20 % von 80 €"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Das Ergebnis",
-          "formula": "W = <span class=\"accent\">16 €</span>",
-          "explanation": "20 Prozent von 80 Euro sind 16 Euro. Die Formel lautet W = G · p/100, wenn p als Prozentzahl eingesetzt wird.",
-          "visual": {
-            "type": "percent",
-            "filled": 20,
-            "label": "16 € von 80 €"
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "grundwert",
-      "category": "anwendung",
-      "title": "Grundwert berechnen",
-      "subtitle": "Das Ganze aus einem Anteil finden",
-      "symbol": "G",
-      "steps": [
-        {
-          "headline": "Bekannte Werte",
-          "formula": "30 % = 15 €",
-          "explanation": "15 Euro entsprechen 30 Prozent des gesuchten Ganzen. Das Ganze ist unbekannt.",
-          "visual": {
-            "type": "percent",
-            "filled": 30,
-            "label": "30 % = 15 €"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf ein Prozent zurückgehen",
-          "formula": "1 % = 15 € : 30",
-          "explanation": "Teile 15 Euro durch 30. So erhältst du den Wert für ein Prozent.",
-          "visual": {
-            "type": "percent",
-            "filled": 1,
-            "label": "1 % = 0,50 €"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf 100 Prozent hochrechnen",
-          "formula": "100 % = 0,50 € · 100",
-          "explanation": "Ein Prozent sind 0,50 Euro. Hundert Prozent sind daher hundertmal so viel.",
-          "visual": {
-            "type": "percent",
-            "filled": 100,
-            "label": "100 % = 50 €"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Das Ergebnis",
-          "formula": "G = <span class=\"accent\">50 €</span>",
-          "explanation": "Probe: 30 Prozent von 50 Euro sind 15 Euro. Allgemein: G = W : (p/100).",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "30 %",
-              "von",
-              "50 €",
-              "=",
-              "15 €"
+            "type": "table",
+            "heads": [
+              "Gesucht",
+              "Formel",
+              "Beispiel"
+            ],
+            "rows": [
+              [
+                "W",
+                "G · p : 100",
+                "80 € · 20 : 100 = 16 €"
+              ],
+              [
+                "G",
+                "W · 100 : p",
+                "15 € · 100 : 30 = 50 €"
+              ],
+              [
+                "p",
+                "W : G · 100",
+                "18 € : 60 € · 100 = 30 %"
+              ]
             ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "prozentsatz",
-      "category": "anwendung",
-      "title": "Prozentsatz berechnen",
-      "subtitle": "Welcher Anteil ist 18 von 60?",
-      "symbol": "p",
-      "steps": [
-        {
-          "headline": "Teil und Ganzes unterscheiden",
-          "formula": "W = 18, G = 60",
-          "explanation": "18 ist der Anteil und 60 das Ganze. Gesucht wird, wie groß der Anteil in Prozent ist.",
-          "visual": {
-            "type": "percent",
-            "filled": 30,
-            "label": "18 von 60"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Anteil durch Ganzes teilen",
-          "formula": "18 : 60 = <span class=\"accent\">0,3</span>",
-          "explanation": "Der Quotient beschreibt, welchen Teil des Ganzen die 18 ausmachen.",
-          "visual": {
-            "type": "percent",
-            "filled": 30,
-            "label": "0,3 des Ganzen"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "In Prozent umwandeln",
-          "formula": "0,3 · 100 = <span class=\"accent\">30 %</span>",
-          "explanation": "Die Dezimalzahl mit 100 multiplizieren. 18 von 60 sind 30 Prozent.",
-          "visual": {
-            "type": "percent",
-            "filled": 30,
-            "label": "30 von 100 = 30 %"
           },
           "sub": ""
         }
@@ -1446,101 +614,30 @@
       "id": "dreisatz-direkt",
       "category": "anwendung",
       "title": "Dreisatz: proportional",
-      "subtitle": "Mehr Menge bedeutet mehr Preis",
-      "symbol": "↗",
+      "subtitle": "Beide Größen wachsen im gleichen Verhältnis",
+      "symbol": "→",
       "steps": [
         {
-          "headline": "Eine passende Zuordnung",
-          "formula": "3 m → 12 €",
-          "explanation": "Drei Meter Stoff kosten zwölf Euro. Wenn der Preis pro Meter konstant bleibt, ist der Zusammenhang direkt proportional.",
+          "headline": "Erst auf eine Einheit, dann auf fünf",
+          "formula": "",
+          "explanation": "Bei direkter Proportionalität bleibt der Quotient gleich. Ein Meter kostet 4 Euro; fünf Meter kosten deshalb 20 Euro.",
           "visual": {
             "type": "table",
             "heads": [
-              "Meter",
+              "Stoff",
               "Preis"
             ],
             "rows": [
               [
-                "3",
-                "12 €"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Erst auf eine Einheit",
-          "formula": "1 m → 4 €",
-          "explanation": "Teile 3 Meter und 12 Euro jeweils durch 3. Ein Meter kostet 4 Euro.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Meter",
-              "Preis"
-            ],
-            "rows": [
-              [
-                "3",
-                "12 €"
-              ],
-              [
-                "1",
-                "4 €"
-              ]
-            ],
-            "focus": 1
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf die gesuchte Menge",
-          "formula": "5 m → <span class=\"accent\">20 €</span>",
-          "explanation": "Multipliziere den Preis pro Meter mit 5. Fünf Meter kosten 20 Euro.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Meter",
-              "Preis"
-            ],
-            "rows": [
-              [
-                "3",
-                "12 €"
-              ],
-              [
-                "1",
+                "1 m",
                 "4 €"
               ],
               [
-                "5",
-                "20 €"
-              ]
-            ],
-            "focus": 2
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Proportionalität erkennen",
-          "formula": "Preis : Meter = 4 €/m",
-          "explanation": "Der Quotient aus Preis und Länge ist überall gleich: 4 Euro je Meter. Das ist das Kennzeichen direkter Proportionalität.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Meter",
-              "Preis"
-            ],
-            "rows": [
-              [
-                "1",
-                "4 €"
-              ],
-              [
-                "3",
+                "3 m",
                 "12 €"
               ],
               [
-                "5",
+                "5 m",
                 "20 €"
               ]
             ]
@@ -1552,95 +649,31 @@
     {
       "id": "dreisatz-indirekt",
       "category": "anwendung",
-      "title": "Dreisatz: indirekt proportional",
-      "subtitle": "Mehr Personen, weniger Zeit",
-      "symbol": "↘",
+      "title": "Dreisatz: umgekehrt proportional",
+      "subtitle": "Mehr Personen brauchen weniger Zeit",
+      "symbol": "↔",
       "steps": [
         {
-          "headline": "Die Ausgangslage",
-          "formula": "4 Personen → 6 h",
-          "explanation": "Vier gleich schnell arbeitende Personen brauchen sechs Stunden für eine bestimmte Arbeit.",
+          "headline": "Die Arbeitsmenge bleibt gleich",
+          "formula": "",
+          "explanation": "Bei gleicher Leistung bleibt das Produkt konstant: 4 · 6 = 24 Personenstunden. Mit 8 Personen dauert dieselbe Arbeit 3 Stunden.",
           "visual": {
             "type": "table",
             "heads": [
               "Personen",
-              "Stunden"
+              "Zeit",
+              "Produkt"
             ],
             "rows": [
               [
                 "4",
-                "6"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Gemeinsamen Arbeitsaufwand erkennen",
-          "formula": "4 · 6 = 24",
-          "explanation": "Die Arbeit beträgt 24 Personenstunden. Bei gleicher Leistung je Person bleibt dieses Produkt konstant.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Personen",
-              "Stunden"
-            ],
-            "rows": [
-              [
-                "4",
-                "6"
-              ],
-              [
-                "1",
+                "6 h",
                 "24"
-              ]
-            ],
-            "focus": 1
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mehr Personen einsetzen",
-          "formula": "8 Personen → <span class=\"accent\">3 h</span>",
-          "explanation": "Teile die 24 Personenstunden durch 8 Personen. Die Zeit sinkt auf drei Stunden.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Personen",
-              "Stunden"
-            ],
-            "rows": [
-              [
-                "4",
-                "6"
               ],
               [
                 "8",
-                "3"
-              ]
-            ],
-            "focus": 1
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Unterschied zum direkten Dreisatz",
-          "formula": "4 · 6 = 8 · 3",
-          "explanation": "Indirekt proportional heißt: Das Produkt beider Größen bleibt gleich. Es gilt nur unter den genannten Bedingungen.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Personen",
-              "Stunden"
-            ],
-            "rows": [
-              [
-                "4",
-                "6"
-              ],
-              [
-                "8",
-                "3"
+                "3 h",
+                "24"
               ]
             ]
           },
@@ -1652,65 +685,28 @@
       "id": "nichtproportional",
       "category": "anwendung",
       "title": "Nicht proportional erkennen",
-      "subtitle": "Warum nicht jede Zuordnung ein Dreisatz ist",
+      "subtitle": "Eine Grundgebühr verändert das Verhältnis",
       "symbol": "≠",
       "steps": [
         {
-          "headline": "Ein Preis mit Grundgebühr",
-          "formula": "Preis = 2 € + 3 € · Stück",
-          "explanation": "Zusätzlich zu drei Euro je Stück fallen zwei Euro Grundgebühr an.",
+          "headline": "Verdoppeln als Gegenprobe",
+          "formula": "",
+          "explanation": "Ohne Grundgebühr wäre der Preis pro Stück gleich. Mit 2 Euro Startpreis kosten ein Stück 5 Euro und zwei Stück 8 Euro: nicht doppelt so viel.",
           "visual": {
             "type": "table",
             "heads": [
               "Stück",
-              "Gesamtpreis"
+              "Preis"
             ],
             "rows": [
               [
                 "1",
-                "5 €"
+                "2 € + 3 € = 5 €"
               ],
               [
                 "2",
-                "8 €"
+                "2 € + 6 € = 8 €"
               ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Verdoppeln prüfen",
-          "formula": "1 Stück = 5 €, 2 Stück = 8 €",
-          "explanation": "Doppelt so viele Stücke kosten nicht doppelt so viel: 2 mal 5 Euro wären 10 Euro, nicht 8 Euro.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Stück",
-              "Gesamtpreis"
-            ],
-            "rows": [
-              [
-                "1",
-                "5 €"
-              ],
-              [
-                "2",
-                "8 €"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Das Verhältnis vergleichen",
-          "formula": "5 : 1 ≠ 8 : 2",
-          "explanation": "Die Quotienten sind verschieden. Deshalb liegt keine direkte Proportionalität vor; ein einfacher proportionaler Dreisatz wäre falsch.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "5 € / Stück",
-              "≠",
-              "4 € / Stück"
             ]
           },
           "sub": ""
@@ -1721,49 +717,18 @@
       "id": "einheiten",
       "category": "anwendung",
       "title": "Maßeinheiten umrechnen",
-      "subtitle": "Erst die Einheit, dann die Zahl",
-      "symbol": "cm",
+      "subtitle": "Die Größe bleibt gleich, die Zahl ändert sich",
+      "symbol": "↔",
       "steps": [
         {
-          "headline": "Länge in Metern",
-          "formula": "1,5 m",
-          "explanation": "Ein Meter besteht aus 100 Zentimetern. Diese Beziehung ist die Grundlage der Umrechnung.",
+          "headline": "Meter in Zentimeter",
+          "formula": "1 m = 100 cm   →   1,5 m = 150 cm",
+          "explanation": "Ein Meter besteht aus 100 Zentimetern. Von Metern zu Zentimetern multiplizierst du mit 100.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "1 m",
-              "=",
-              "100 cm"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "In Zentimeter umrechnen",
-          "formula": "1,5 · 100 = 150",
-          "explanation": "Von Metern zu Zentimetern wird mit 100 multipliziert.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "1,5",
-              "×",
-              "100",
-              "=",
-              "150"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Das Ergebnis",
-          "formula": "1,5 m = <span class=\"accent\">150 cm</span>",
-          "explanation": "Die Zahl wird größer, weil Zentimeter die kleinere Einheit sind. Die gemessene Länge bleibt gleich.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "1,5 m",
-              "=",
-              "150 cm"
+            "type": "math-stack",
+            "rows": [
+              "1 m = 100 cm",
+              "1,5 m = 1,5 · 100 cm = 150 cm"
             ]
           },
           "sub": ""
@@ -1774,37 +739,13 @@
       "id": "koordinaten",
       "category": "funktionen",
       "title": "Koordinaten ablesen",
-      "subtitle": "Erst x, dann y",
+      "subtitle": "Immer zuerst x, dann y",
       "symbol": "(x,y)",
       "steps": [
         {
-          "headline": "Zwei Achsen verstehen",
+          "headline": "Punkt P eintragen",
           "formula": "P(2 | 3)",
-          "explanation": "Die waagerechte Achse ist x, die senkrechte Achse ist y. Die Reihenfolge lautet immer zuerst x, dann y.",
-          "visual": {
-            "type": "graph",
-            "mode": "point",
-            "x": 2,
-            "y": 3
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zwei nach rechts",
-          "formula": "x = 2",
-          "explanation": "Gehe vom Ursprung zwei Einheiten nach rechts.",
-          "visual": {
-            "type": "graph",
-            "mode": "point",
-            "x": 2,
-            "y": 0
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Drei nach oben",
-          "formula": "P(<span class=\"accent\">2 | 3</span>)",
-          "explanation": "Gehe von dort drei Einheiten nach oben. Nun ist der Punkt P(2 | 3) erreicht.",
+          "explanation": "Vom Nullpunkt gehst du zuerst 2 Schritte nach rechts auf der x-Achse und dann 3 nach oben auf der y-Achse.",
           "visual": {
             "type": "graph",
             "mode": "point",
@@ -1819,31 +760,22 @@
       "id": "lineare-funktion",
       "category": "funktionen",
       "title": "Lineare Funktionen",
-      "subtitle": "Steigung und Startwert sichtbar machen",
-      "symbol": "ƒ",
+      "subtitle": "Steigung m und Startwert b",
+      "symbol": "y=mx+b",
       "steps": [
         {
-          "headline": "Die Funktionsgleichung",
-          "formula": "y = 2x + 1",
-          "explanation": "Der Wert +1 beschreibt den Schnittpunkt mit der y-Achse. Die 2 ist die Steigung.",
+          "headline": "y = 2x + 1",
+          "formula": "",
+          "explanation": "Bei y = 2x + 1 ist b = 1 der Schnittpunkt mit der y-Achse. m = 2 heißt: Für jeden Schritt nach rechts steigt y um 2.",
+          "sub": "",
           "visual": {
-            "type": "graph",
-            "mode": "line",
-            "show": "intercept"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Wertetabelle aufstellen",
-          "formula": "x = 0 → y = 1",
-          "explanation": "Für x = 0 gilt y = 2·0 + 1 = 1. Der erste Punkt liegt bei (0 | 1).",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "x",
-              "y = 2x + 1"
-            ],
-            "rows": [
+            "type": "linear-function",
+            "equation": "y = 2x + 1",
+            "values": [
+              [
+                "x",
+                "y"
+              ],
               [
                 "0",
                 "1"
@@ -1856,69 +788,24 @@
                 "2",
                 "5"
               ]
-            ],
-            "focus": 0
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Steigung verstehen",
-          "formula": "+1 bei x → +2 bei y",
-          "explanation": "Wenn x um 1 wächst, steigt y um 2. Von (0 | 1) gelangt man damit zu (1 | 3).",
-          "visual": {
-            "type": "graph",
-            "mode": "line",
-            "show": "two"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Gerade zeichnen",
-          "formula": "y = <span class=\"accent\">2x + 1</span>",
-          "explanation": "Zwei unterschiedliche Punkte genügen, um die Gerade zu zeichnen. Alle Punkte auf der Linie erfüllen dieselbe Gleichung.",
-          "visual": {
-            "type": "graph",
-            "mode": "line",
-            "show": "all"
-          },
-          "sub": ""
+            ]
+          }
         }
       ]
     },
     {
-      "id": "scheitelwinkel",
+      "id": "winkelbeziehungen",
       "category": "geometrie",
-      "title": "Scheitelwinkel & Nebenwinkel",
-      "subtitle": "Was passiert, wenn sich Geraden schneiden?",
+      "title": "Winkel an Parallelen",
+      "subtitle": "Stufen-, Wechsel-, Scheitel- und Nebenwinkel",
       "symbol": "∠",
       "steps": [
         {
-          "headline": "Zwei Geraden schneiden sich",
-          "formula": "α = 60°",
-          "explanation": "Bei einer Kreuzung entstehen vier Winkel. Einer ist hier 60 Grad groß.",
+          "headline": "Zwei Parallelen mit Transversale",
+          "formula": "g ∥ h",
+      "explanation": "Stufen- und Wechselwinkel sind nur bei Parallelen gleich. Scheitelwinkel sind gleich; Nebenwinkel ergeben 180°.",
           "visual": {
-            "type": "angles",
-            "active": "top"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Der gegenüberliegende Winkel",
-          "formula": "γ = <span class=\"accent\">60°</span>",
-          "explanation": "Gegenüberliegende Scheitelwinkel sind gleich groß. Daher ist auch der untere Winkel 60 Grad.",
-          "visual": {
-            "type": "angles",
-            "active": "vertical"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Den Nebenwinkel bestimmen",
-          "formula": "β = 180° − 60° = <span class=\"accent\">120°</span>",
-          "explanation": "Zwei benachbarte Winkel an einer Geraden ergeben zusammen 180 Grad. Der Nebenwinkel ist daher 120 Grad.",
-          "visual": {
-            "type": "angles",
-            "active": "adjacent"
+            "type": "transversal"
           },
           "sub": ""
         }
@@ -1928,33 +815,13 @@
       "id": "dreieck-winkel",
       "category": "geometrie",
       "title": "Winkelsumme im Dreieck",
-      "subtitle": "Drei Ecken ergeben 180 Grad",
+      "subtitle": "Die drei Innenwinkel ergeben 180°",
       "symbol": "△",
       "steps": [
         {
-          "headline": "Die Winkel benennen",
-          "formula": "α + β + γ = 180°",
-          "explanation": "In jedem ebenen Dreieck beträgt die Summe der Innenwinkel genau 180 Grad.",
-          "visual": {
-            "type": "triangle",
-            "label": "angles"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Bekannte Winkel einsetzen",
-          "formula": "50° + 60° + γ = 180°",
-          "explanation": "Zwei Winkel sind bekannt. Der dritte ist die Differenz zu 180 Grad.",
-          "visual": {
-            "type": "triangle",
-            "label": "angles"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Fehlenden Winkel finden",
-          "formula": "γ = 180° − 110° = <span class=\"accent\">70°</span>",
-          "explanation": "50 und 60 ergeben 110. Es fehlen 70 Grad bis 180 Grad.",
+          "headline": "Den fehlenden Winkel berechnen",
+          "formula": "50° + 60° + γ = 180°  →  γ = 70°",
+          "explanation": "Ziehe die bekannten Winkel von 180° ab. Die Winkelsumme von 180° gilt für jedes ebene Dreieck.",
           "visual": {
             "type": "triangle",
             "label": "angles"
@@ -1967,33 +834,13 @@
       "id": "rechteck",
       "category": "geometrie",
       "title": "Umfang und Fläche",
-      "subtitle": "Der Rand ist nicht das Innere",
-      "symbol": "□",
+      "subtitle": "Randlänge und Innenfläche unterscheiden",
+      "symbol": "▭",
       "steps": [
         {
-          "headline": "Seiten eines Rechtecks",
-          "formula": "a = 5 cm, b = 3 cm",
-          "explanation": "Ein Rechteck ist fünf Zentimeter breit und drei Zentimeter hoch.",
-          "visual": {
-            "type": "rect",
-            "mode": "outline"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Den Umfang berechnen",
-          "formula": "U = 2 · (5 + 3) = <span class=\"accent\">16 cm</span>",
-          "explanation": "Der Umfang ist die Länge des äußeren Randes. Es werden alle vier Seiten addiert.",
-          "visual": {
-            "type": "rect",
-            "mode": "outline"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Fläche berechnen",
-          "formula": "A = 5 · 3 = <span class=\"accent\">15 cm²</span>",
-          "explanation": "Der Flächeninhalt zählt das Innere: fünf Spalten mit je drei Quadratzentimetern ergeben 15 Quadratzentimeter.",
+          "headline": "Rechteck: 5 cm × 3 cm",
+          "formula": "U = 2·(5 + 3) = 16 cm   ·   A = 5·3 = 15 cm²",
+          "explanation": "Der Umfang addiert alle vier Seiten. Der Flächeninhalt zählt die Einheitsquadrate im Rechteck.",
           "visual": {
             "type": "rect",
             "mode": "area"
@@ -2006,49 +853,13 @@
       "id": "pythagoras",
       "category": "geometrie",
       "title": "Satz des Pythagoras",
-      "subtitle": "Rechtwinklige Dreiecke verstehen",
-      "symbol": "a²",
+      "subtitle": "Nur im rechtwinkligen Dreieck",
+      "symbol": "c²",
       "steps": [
         {
-          "headline": "Das rechtwinklige Dreieck",
-          "formula": "a = 3, b = 4",
-          "explanation": "Die Katheten a und b bilden den rechten Winkel. Die längste Seite c liegt gegenüber: die Hypotenuse.",
-          "visual": {
-            "type": "triangle",
-            "label": "sides"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Flächenbeziehung",
-          "formula": "a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>",
-          "explanation": "Nur im rechtwinkligen Dreieck ist die Summe der Kathetenquadrate gleich dem Hypotenusenquadrat.",
-          "visual": {
-            "type": "triangle",
-            "label": "sides"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zahlen einsetzen",
-          "formula": "3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25",
-          "explanation": "Quadriere die beiden Katheten und addiere die Quadratzahlen.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "9",
-              "+",
-              "16",
-              "=",
-              "25"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Wurzel ziehen",
-          "formula": "c = √25 = <span class=\"accent\">5</span>",
-          "explanation": "Die positive Quadratwurzel aus 25 ergibt die gesuchte Seitenlänge 5. Bei a und b in cm ist c ebenfalls in cm.",
+          "headline": "Katheten 3 cm und 4 cm",
+          "formula": "3² + 4² = c²  →  c = √25 = 5 cm",
+          "explanation": "Die Hypotenuse c liegt gegenüber dem rechten Winkel. Addiere die Kathetenquadrate und ziehe anschließend die positive Wurzel.",
           "visual": {
             "type": "triangle",
             "label": "result"
@@ -2061,35 +872,17 @@
       "id": "quader",
       "category": "geometrie",
       "title": "Volumen eines Quaders",
-      "subtitle": "Warum drei Längen multipliziert werden",
-      "symbol": "▣",
+      "subtitle": "Länge · Breite · Höhe",
+      "symbol": "V",
       "steps": [
         {
-          "headline": "Drei Ausdehnungen",
-          "formula": "3 cm × 2 cm × 4 cm",
-          "explanation": "Ein Quader hat Länge, Breite und Höhe. Alle drei sind nötig, um seinen Rauminhalt zu bestimmen.",
+          "headline": "3 cm × 2 cm × 4 cm = 24 cm³",
+          "formula": "",
+          "explanation": "Multipliziere die drei Kantenlängen. Die Einheit wird kubisch: cm · cm · cm = cm³.",
+          "sub": "",
           "visual": {
             "type": "box"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Grundfläche finden",
-          "formula": "3 · 2 = 6 cm²",
-          "explanation": "Eine Schicht auf dem Boden ist drei Zentimeter lang und zwei Zentimeter breit, also sechs Quadratzentimeter groß.",
-          "visual": {
-            "type": "box"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mit der Höhe multiplizieren",
-          "formula": "V = 6 · 4 = <span class=\"accent\">24 cm³</span>",
-          "explanation": "Vier Schichten mit je sechs Kubikzentimetern ergeben insgesamt 24 Kubikzentimeter.",
-          "visual": {
-            "type": "box"
-          },
-          "sub": ""
+          }
         }
       ]
     },
@@ -2097,53 +890,18 @@
       "id": "mittelwert",
       "category": "daten",
       "title": "Den Durchschnitt berechnen",
-      "subtitle": "Alle Werte fair verteilen",
-      "symbol": "÷",
+      "subtitle": "Summe durch Anzahl",
+      "symbol": "x̄",
       "steps": [
         {
-          "headline": "Drei Werte betrachten",
-          "formula": "4, 6, 8",
-          "explanation": "Gesucht ist ein Wert, der die drei Zahlen im Mittel repräsentiert.",
+          "headline": "Durchschnitt von 4, 6 und 8",
+          "formula": "(4 + 6 + 8) : 3 = 18 : 3 = 6",
+          "explanation": "Addiere alle Werte und teile die Summe durch ihre Anzahl. Der Mittelwert ist 6.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "4",
-              "6",
-              "8"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Alle Werte addieren",
-          "formula": "4 + 6 + 8 = <span class=\"accent\">18</span>",
-          "explanation": "Die Summe aller Werte beträgt 18.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "4",
-              "+",
-              "6",
-              "+",
-              "8",
-              "=",
-              "18"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Durch die Anzahl teilen",
-          "formula": "18 : 3 = <span class=\"accent\">6</span>",
-          "explanation": "Es gibt drei Werte. Der arithmetische Mittelwert ist 6.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "18",
-              "÷",
-              "3",
-              "=",
-              "6"
+            "type": "math-stack",
+            "rows": [
+              "4 + 6 + 8 = 18",
+              "18 : 3 Werte = 6"
             ]
           },
           "sub": ""
@@ -2153,36 +911,14 @@
     {
       "id": "kombinatorik",
       "category": "daten",
-      "title": "Einfache Kombinatorik",
-      "subtitle": "Wie viele Kombinationen sind möglich?",
-      "symbol": "⋮",
+      "title": "Möglichkeiten zählen",
+      "subtitle": "Jede Wahl mit jeder kombinieren",
+      "symbol": "×",
       "steps": [
         {
-          "headline": "Zwei unabhängige Entscheidungen",
-          "formula": "2 T-Shirts, 3 Hosen",
-          "explanation": "Zu jedem der zwei T-Shirts kann eine von drei Hosen gewählt werden.",
-          "visual": {
-            "type": "combos",
-            "shirts": 2,
-            "pants": 3
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Möglichkeiten systematisch zählen",
-          "formula": "3 + 3 = 6",
-          "explanation": "Für das erste T-Shirt gibt es drei Kombinationen und für das zweite noch einmal drei.",
-          "visual": {
-            "type": "combos",
-            "shirts": 2,
-            "pants": 3
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Multiplikationsregel",
-          "formula": "2 · 3 = <span class=\"accent\">6</span>",
-          "explanation": "Wenn jede erste Wahl mit jeder zweiten Wahl kombiniert werden kann, multipliziert man die Anzahlen.",
+          "headline": "Zwei Shirts, drei Hosen",
+          "formula": "2 · 3 = 6 Kombinationen",
+          "explanation": "Zu jedem der zwei Shirts passen alle drei Hosen. Multipliziere die Anzahlen der unabhängigen Wahlen.",
           "visual": {
             "type": "combos",
             "shirts": 2,
