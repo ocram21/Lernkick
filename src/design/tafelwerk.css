@@ -1,0 +1,97 @@
+.app-shell.tafelwerk-screen{height:100dvh;max-height:100dvh;overflow:hidden;display:flex;flex-direction:column;padding-bottom:env(safe-area-inset-bottom,0px)}
+.tafelwerk-screen>.header{height:56px;min-height:56px;flex:0 0 56px}
+.app-shell.tafelwerk-screen>main{flex:1;min-height:0;overflow:hidden;display:flex;margin:0;padding:8px 0 6px}
+.app-shell.tafelwerk-screen>main>.tafelwerk-main{flex:1;min-width:0;min-height:0;display:flex}
+.tafelwerk-screen>.bottom-nav{position:static;flex:0 0 auto;min-height:58px;width:100%;margin:0 auto;max-width:680px;transform:none;left:auto;bottom:auto}
+.tafelwerk-screen .header-tools{gap:8px}
+.header-tools.quick-actions{gap:8px}
+.header-settings,.header-update.icon-only{width:44px;height:44px;min-width:44px;min-height:44px;padding:0;display:inline-grid;place-items:center;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 22%,transparent),0 3px 3px var(--key-shadow)}
+.header-settings:hover,.header-update.icon-only:hover{background:var(--key-face)}
+.header-update.icon-only{color:var(--accent)}
+.header-settings svg,.header-update.icon-only svg{width:20px;height:20px}
+.tafelwerk-main{width:100%;}
+.tafelwerk{width:min(100%,760px);min-width:0;height:100%;min-height:0;margin:0 auto;padding:2px 12px;display:flex;flex-direction:column;gap:8px;overflow:hidden;color:var(--ink)}
+.tafelwerk h1{font-size:clamp(20px,5vw,27px);line-height:1.05;margin:0;letter-spacing:-.01em}
+.tafelwerk-intro,.tafelwerk-heading,.tafelwerk-lesson-top{height:42px;min-height:42px;display:flex;align-items:center;gap:10px}
+.tafelwerk-intro{color:var(--accent)}
+.tafelwerk-intro h1{color:var(--ink)}
+.tafelwerk-heading h1{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tafelwerk-back{display:inline-flex;align-items:center;justify-content:center;gap:4px;min-width:44px;min-height:44px;padding:6px 8px;border:0;border-radius:8px;background:transparent;color:var(--ink);font-size:14px;font-weight:650;white-space:nowrap}
+.tafelwerk-back:hover{background:var(--panel)}
+.tafelwerk-prompt{margin:0;color:var(--muted);font-size:14px;line-height:1.25}
+.tafelwerk-subject-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:auto 0}
+.tafelwerk-subject{min-height:64px;padding:10px;border:1px solid var(--calc-housing);border-radius:10px;background:var(--calc-petrol);color:var(--calc-number);font-weight:700;font-size:17px;text-align:left;box-shadow:0 3px 0 var(--calc-display)}
+.tafelwerk-subject:active,.tafelwerk-area:active,.tafelwerk-lesson-choice:active{transform:translateY(2px)}
+.tafelwerk-area-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-content:center;flex:1;min-height:0}
+.tafelwerk-area{position:relative;min-width:0;min-height:57px;padding:8px 30px 8px 10px;display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);text-align:left;font-size:14px;font-weight:650;line-height:1.15}
+.tafelwerk-area-symbol{width:25px;height:25px;flex:0 0 25px;display:grid;place-items:center;border-radius:6px;background:var(--calc-number);color:var(--calc-orange);font-size:17px;font-weight:700}
+.tafelwerk-area small{position:absolute;right:9px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:11px;font-weight:600}
+.tafelwerk-lesson-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:center;gap:7px;flex:1;min-height:0}
+.tafelwerk-lesson-choice{min-width:0;min-height:47px;padding:6px 8px;display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-align:left;font-size:13px;font-weight:650;line-height:1.15}
+.tafelwerk-lesson-choice>span:nth-child(2){flex:1;min-width:0}
+.tafelwerk-lesson-symbol{width:26px;height:26px;flex:0 0 26px;display:grid;place-items:center;border-radius:6px;background:var(--calc-number);color:var(--calc-teal);font-size:15px;font-weight:700}
+.tafelwerk-lesson-choice>svg{flex:0 0 auto;color:var(--muted)}
+.tafelwerk-empty{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:18px}
+.tafelwerk-empty>span{font-family:'Barlow Condensed',sans-serif;font-size:25px;font-weight:700;color:var(--accent)}
+.tafelwerk-empty p{margin:8px auto 0;max-width:30ch;font-size:15px;line-height:1.4}
+.tafelwerk-lesson-top{justify-content:space-between}
+.tafelwerk-current-lesson{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:12px}
+.tafelwerk-step-count{min-width:54px;text-align:right;font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
+.tafelwerk-board{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--calc-housing);border-radius:10px;background:var(--calc-display);color:var(--calc-ink);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 12%,transparent),0 3px 0 var(--calc-number)}
+.tafelwerk-board-head{flex:0 0 auto;min-height:39px;padding:8px 10px 6px;display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:1px solid color-mix(in srgb,var(--calc-ink) 15%,transparent)}
+.tafelwerk-board-head h1{font-size:16px;color:var(--calc-ink)}
+.tafelwerk-board-head>span{flex:0 0 auto;color:var(--calc-teal);font-size:12px;font-variant-numeric:tabular-nums}
+.tafelwerk-board-body{flex:1;min-height:0;padding:7px 8px 2px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;overflow:hidden}
+.tafelwerk-formula{flex:0 0 auto;max-width:100%;color:var(--calc-ink);font-family:'Barlow Condensed',sans-serif;font-size:clamp(24px,6vw,37px);font-weight:700;line-height:1.1;text-align:center;text-wrap:balance;overflow-wrap:anywhere}
+.tafelwerk-formula-small{font-size:clamp(18px,4.7vw,28px)}
+.tafelwerk-formula .accent{color:var(--calc-teal)}
+.tafelwerk-formula .yellow{color:var(--calc-orange)}
+.tafelwerk-formula .fraction{display:inline-flex;vertical-align:middle;flex-direction:column;align-items:center;min-width:1.05em;margin:0 .07em;font-size:.76em;line-height:1.05}
+.tafelwerk-formula .fraction .top{width:100%;padding:0 .12em .07em;border-bottom:1.8px solid currentColor}
+.tafelwerk-formula .fraction .bottom{padding-top:.08em}
+.tafelwerk-subline{flex:0 0 auto;margin:0;color:var(--muted);font-size:12px;line-height:1.2;text-align:center}
+.tafelwerk-visual{width:100%;flex:1 1 auto;min-height:0;display:grid;place-items:center;overflow:hidden}
+.tafelwerk .board-visual{width:100%;height:100%;min-height:0;display:grid;place-items:center;overflow:hidden}
+.tafelwerk .board-visual>svg{display:block;width:min(100%,520px);height:100%;max-height:100%;overflow:visible}
+.tafelwerk .visual-chips,.tafelwerk .viz-bands{max-width:100%;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px}
+.tafelwerk .visual-chip,.tafelwerk .viz-bands span{padding:5px 8px;border:1px solid var(--calc-housing);border-radius:6px;background:var(--calc-number);color:var(--calc-ink);font-size:clamp(14px,4vw,21px);font-weight:650}
+.tafelwerk .visual-chip.emphasis,.tafelwerk .viz-bands span.em{border-color:var(--calc-teal);color:var(--calc-teal)}
+.tafelwerk .bag-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.tafelwerk .bag{min-width:45px;padding:8px;border:1px solid var(--calc-housing);border-radius:8px;background:var(--calc-number);color:var(--calc-ink);text-align:center}
+.tafelwerk .fraction-block{width:min(100%,400px);margin:4px 0}
+.tafelwerk .fraction-block-label{margin-bottom:4px;color:var(--muted);font-size:11px}
+.tafelwerk .fraction-strip{height:25px;display:flex;gap:3px}
+.tafelwerk .fraction-cell{min-width:0;flex:1;border:1px solid var(--calc-housing);border-radius:3px;background:var(--calc-number)}
+.tafelwerk .fraction-cell.filled{border-color:var(--calc-teal);background:var(--calc-teal)}
+.tafelwerk .fraction-cell.filled.secondary{border-color:var(--calc-orange);background:var(--calc-orange)}
+.tafelwerk .balance-line{width:100%;display:flex;align-items:center;justify-content:center;gap:8px}
+.tafelwerk .balance-pan{max-width:145px;min-width:0;flex:1;padding:6px 4px;border-bottom:3px solid var(--calc-teal);border-radius:6px;background:var(--calc-number);text-align:center}
+.tafelwerk .balance-pan span{display:block;padding-bottom:3px;color:var(--muted);font-size:11px}
+.tafelwerk .balance-pan strong{display:block;color:var(--calc-ink);font-size:clamp(13px,4vw,18px);overflow-wrap:anywhere}
+.tafelwerk .balance-equal{color:var(--calc-teal);font-size:24px}
+.tafelwerk .viz-table{max-width:100%;border-collapse:separate;border-spacing:2px;color:var(--calc-ink);font-size:clamp(10px,3vw,14px)}
+.tafelwerk .viz-table th,.tafelwerk .viz-table td{padding:5px 7px;border-radius:4px;background:var(--calc-number);text-align:center}
+.tafelwerk .viz-table th{color:var(--muted)}
+.tafelwerk .viz-table tr.focus td{background:color-mix(in srgb,var(--calc-teal) 45%,var(--calc-display))}
+.tafelwerk .percent-strip{position:relative;width:100%;height:26px;display:block;overflow:hidden;border:1px solid var(--calc-housing);border-radius:6px;background:var(--calc-number)}
+.tafelwerk .percent-strip .percent-fill{height:100%;display:block;border:0;border-radius:0;background:var(--calc-teal)}
+.tafelwerk .percent-strip:after{position:absolute;inset:0;background:repeating-linear-gradient(to right,transparent 0,transparent calc(10% - 1px),var(--calc-ink) 10%);opacity:.3;content:'';pointer-events:none}
+.tafelwerk .viz-label{margin-top:3px;color:var(--muted);font-size:11px}
+.tafelwerk .square-grid{width:min(130px,36vw);aspect-ratio:1;display:grid;gap:3px}
+.tafelwerk .square-grid span{border-radius:2px;background:var(--calc-teal)}
+.tafelwerk .viz-array{min-width:125px;max-width:100%;padding:8px 16px;display:flex;flex-direction:column;gap:2px;border-radius:7px;background:var(--calc-number);font-family:ui-monospace,monospace;font-size:clamp(15px,4.4vw,21px);text-align:right}
+.tafelwerk .viz-array .line{padding-top:4px;border-top:1px solid var(--calc-teal);color:var(--calc-teal)}
+.tafelwerk .viz-array .partial{color:var(--muted)}
+.tafelwerk-progress{flex:0 0 34px;min-height:34px;padding:0 8px;display:flex;align-items:center;justify-content:center;gap:3px;border-top:1px solid color-mix(in srgb,var(--calc-ink) 12%,transparent)}
+.tafelwerk-progress button{width:32px;height:32px;flex:0 0 32px;padding:0;border:0;background:transparent;display:grid;place-items:center}
+.tafelwerk-progress button:before{width:8px;height:8px;border-radius:50%;background:var(--calc-housing);content:''}
+.tafelwerk-progress button.past:before{background:var(--calc-teal)}
+.tafelwerk-progress button.current:before{width:20px;border-radius:5px;background:var(--calc-orange)}
+.tafelwerk-explanation{flex:0 1 auto;max-height:7em;min-height:2.6em;margin:0;padding:2px 3px;color:var(--ink);font-size:clamp(13px,3.6vw,15px);line-height:1.35;overflow:hidden}
+.tafelwerk-step-controls{flex:0 0 48px;display:grid;grid-template-columns:1fr 1.2fr;gap:10px}
+.tafelwerk-step-controls button{min-height:44px;padding:8px 12px;display:flex;align-items:center;justify-content:center;gap:6px;font-size:14px}
+.tafelwerk-step-controls .primary{background:var(--calc-orange);color:var(--calc-number)}
+.tafelwerk-step-controls .small-button{background:var(--panel);color:var(--ink)}
+.tafelwerk-screen button:focus-visible{outline-offset:1px}
+@media(max-width:370px){.tafelwerk{padding-inline:8px;gap:6px}.tafelwerk-area-grid,.tafelwerk-lesson-grid{gap:6px}.tafelwerk-area{font-size:12px;padding-left:7px}.tafelwerk-lesson-choice{font-size:12px;padding-inline:6px}.tafelwerk-step-controls{gap:6px}}
+@media(max-height:620px){.app-shell.tafelwerk-screen>main{padding-block:3px}.tafelwerk{gap:4px}.tafelwerk-board-head{min-height:31px;padding-block:5px}.tafelwerk-board-head h1{font-size:14px}.tafelwerk-progress{flex-basis:28px;min-height:28px}.tafelwerk-progress button{height:28px}.tafelwerk-step-controls{flex-basis:44px}.tafelwerk-explanation{font-size:12px;line-height:1.25}}

@@ -17,6 +17,7 @@
 :root[data-pink="true"] .learning .answer.incorrect{background:var(--calc-number);color:var(--calc-ink)}
 :root[data-pink="true"] .quoted-example{color:var(--accent)}
 :root[data-pink="true"] .header-update{background:var(--pink-panel);color:var(--pink-accent);border-color:var(--pink-line)}
+:root[data-pink="true"] .header-settings{background:var(--pink-panel);color:var(--pink-ink);border-color:var(--pink-line)}
 :root[data-pink="true"] .letter-keyboard button:disabled{color:var(--pink-muted)}
 :root[data-pink="true"] .home-status progress::-webkit-progress-value{background:var(--pink-accent)}
 :root[data-pink="true"] .home-status progress::-moz-progress-bar{background:var(--pink-accent)}

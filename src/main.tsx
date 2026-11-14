@@ -13,6 +13,7 @@ import './design/background.css';
 import './design/pink';
 import './design/pink.css';
 import './design/actions.css';
+import './design/tafelwerk.css';
 import './design/compact.css';
 import './design/home-status.css';
 import './design/game-updates.css';
