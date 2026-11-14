@@ -4,7 +4,7 @@
       "id": "zahlen",
       "icon": "±",
       "title": "Zahlen & Regeln",
-      "desc": "Vorzeichen, Potenzen, Wurzeln"
+      "desc": "Zahlen, Stellenwerte und Rechenregeln"
     },
     {
       "id": "verfahren",
@@ -53,70 +53,32 @@
     {
       "id": "vorzeichen",
       "category": "zahlen",
-      "title": "Vorzeichen bei Mal und Geteilt",
-      "subtitle": "Warum Minus mal Minus Plus ergibt",
+      "title": "Vorzeichenregeln bei Mal und Geteilt",
+      "subtitle": "Gleiche Zeichen: plus · verschiedene: minus",
       "symbol": "−",
       "steps": [
         {
-          "headline": "Vorzeichen bestimmen",
-          "formula": "<span class=\"accent\">+</span> · <span class=\"accent\">+</span> = <span class=\"accent\">+</span>",
-          "explanation": "Zwei positive Faktoren ergeben ein positives Produkt. Zuerst das Vorzeichen bestimmen, danach die Beträge multiplizieren.",
+          "headline": "Vorzeichen auf einen Blick",
+          "formula": "gleich → +   ·   verschieden → −",
+          "explanation": "Bei Multiplikation und Division gilt dieselbe Regel: gleiche Vorzeichen ergeben ein positives Ergebnis, verschiedene Vorzeichen ein negatives. Danach rechnest du die Zahlenwerte ohne Vorzeichen.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "+",
-              "×",
-              "+",
-              "=",
-              "+"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Verschiedene Vorzeichen",
-          "formula": "<span class=\"yellow\">−</span> · <span class=\"accent\">+</span> = <span class=\"yellow\">−</span>",
-          "explanation": "Ein negativer und ein positiver Faktor ergeben ein negatives Produkt. Das gilt in beiden Reihenfolgen.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "−",
-              "×",
-              "+",
-              "=",
-              "−"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zwei negative Faktoren",
-          "formula": "<span class=\"accent\">−</span> · <span class=\"accent\">−</span> = <span class=\"accent\">+</span>",
-          "explanation": "Bei der Multiplikation zweier negativer Zahlen wird das Ergebnis positiv. Dasselbe Vorzeichen bedeutet bei Mal und Geteilt: plus.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "−",
-              "×",
-              "−",
-              "=",
-              "+"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Ein konkretes Beispiel",
-          "formula": "(−3) · (−2) = <span class=\"accent\">6</span>",
-          "explanation": "Zuerst die Vorzeichenregel: negativ mal negativ ergibt positiv. Dann die Beträge: 3 mal 2 ergibt 6.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "−3",
-              "×",
-              "−2",
-              "=",
-              "6"
+            "type": "table",
+            "heads": [
+              "Rechenart",
+              "gleich",
+              "verschieden"
+            ],
+            "rows": [
+              [
+                "Mal (·)",
+                "+",
+                "−"
+              ],
+              [
+                "Geteilt (:)",
+                "+",
+                "−"
+              ]
             ]
           },
           "sub": ""
@@ -126,43 +88,20 @@
     {
       "id": "negative-addieren",
       "category": "zahlen",
-      "title": "Mit negativen Zahlen rechnen",
-      "subtitle": "Die Zahlengerade als Weg",
+      "title": "Negative Zahlen auf dem Zahlenstrahl",
+      "subtitle": "Links von null liegen die negativen Zahlen",
       "symbol": "↔",
       "steps": [
         {
-          "headline": "Startpunkt wählen",
-          "formula": "−3 + 5",
-          "explanation": "Beginne bei −3. Plus 5 bedeutet: fünf Schritte nach rechts gehen.",
+          "headline": "Orientierung auf der Zahlengeraden",
+          "formula": "… −3, −2, −1, 0, 1, 2, 3 …",
+          "explanation": "Der Zahlenstrahl läuft von links nach rechts größer. Negative Zahlen liegen links von 0, positive rechts. Je weiter links eine Zahl liegt, desto kleiner ist sie.",
           "visual": {
             "type": "numberline",
             "from": -3,
             "to": -3,
-            "caption": "Start bei −3"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Nach rechts gehen",
-          "formula": "−3 + 5 = <span class=\"accent\">2</span>",
-          "explanation": "Von −3 fünf Schritte nach rechts: −2, −1, 0, 1, 2. Das Ergebnis ist 2.",
-          "visual": {
-            "type": "numberline",
-            "from": -3,
-            "to": 2,
-            "caption": "5 Schritte nach rechts"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Subtraktion umkehren",
-          "formula": "2 − 5 = <span class=\"yellow\">−3</span>",
-          "explanation": "Minus 5 bedeutet fünf Schritte nach links. So lässt sich auch das Rechnen über die Null erklären.",
-          "visual": {
-            "type": "numberline",
-            "from": 2,
-            "to": -3,
-            "caption": "5 Schritte nach links"
+            "emphasizeZero": true,
+            "caption": "Negative Zahlen links von null"
           },
           "sub": ""
         }
@@ -226,87 +165,44 @@
     {
       "id": "quadrat",
       "category": "zahlen",
-      "title": "Was bedeutet eine Quadratzahl?",
-      "subtitle": "Ein Quadrat aus gleich vielen Reihen",
+      "title": "Quadratzahl und Quadratwurzel",
+      "subtitle": "Quadrieren und Wurzelziehen gehören zusammen",
       "symbol": "²",
       "steps": [
         {
-          "headline": "Potenz verstehen",
-          "formula": "4<sup>2</sup> = 4 · 4",
-          "explanation": "Die hochgestellte 2 bedeutet: 4 wird zweimal als Faktor verwendet. Nicht: 4 mal 2.",
+          "headline": "Eine Zahl mit sich selbst multiplizieren",
+          "formula": "6² = 6 · 6 = 36",
+          "explanation": "Eine Quadratzahl entsteht, wenn eine Zahl mit sich selbst multipliziert wird. Das 6-mal-6-Quadrat hat 36 Kästchen.",
           "visual": {
             "type": "grid",
-            "n": 4
+            "n": 6
           },
           "sub": ""
         },
         {
-          "headline": "Fläche als Bild",
-          "formula": "4 · 4 = <span class=\"accent\">16</span>",
-          "explanation": "Vier Reihen mit je vier Kästchen ergeben 16 Kästchen. Daher heißt es Quadratzahl.",
+          "headline": "Die Umkehrung finden",
+          "formula": "√36 = 6",
+          "explanation": "Die Quadratwurzel fragt umgekehrt: Welche nichtnegative Zahl wurde mit sich selbst multipliziert, um 36 zu erhalten? Die Antwort ist 6.",
           "visual": {
             "type": "grid",
-            "n": 4
+            "n": 6
           },
           "sub": ""
         },
         {
-          "headline": "Verallgemeinern",
-          "formula": "a<sup>2</sup> = a · a",
-          "explanation": "Bei jeder Quadratzahl wird eine Zahl mit sich selbst multipliziert.",
+          "headline": "Beide Wege verbinden",
+          "formula": "6² = 36   ↔   √36 = 6",
+          "explanation": "Quadrieren und Quadratwurzelziehen sind Umkehroperationen: 6 zum Quadrat ergibt 36, und die Quadratwurzel aus 36 ergibt wieder 6.",
           "visual": {
             "type": "chips",
             "values": [
-              "a",
-              "×",
-              "a",
+              "6²",
               "=",
-              "a²"
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "wurzel",
-      "category": "zahlen",
-      "title": "Was ist eine Quadratwurzel?",
-      "subtitle": "Die Umkehrung des Quadrierens",
-      "symbol": "√",
-      "steps": [
-        {
-          "headline": "Die passende Quadratfläche",
-          "formula": "6 · 6 = 36",
-          "explanation": "Ein Quadrat mit sechs Kästchen pro Seite enthält insgesamt 36 Kästchen.",
-          "visual": {
-            "type": "grid",
-            "n": 6
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Die Frage umdrehen",
-          "formula": "√36 = <span class=\"accent\">6</span>",
-          "explanation": "Die Quadratwurzel aus 36 fragt: Welche nichtnegative Zahl ergibt mit sich selbst multipliziert 36?",
-          "visual": {
-            "type": "grid",
-            "n": 6
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Überprüfen",
-          "formula": "6<sup>2</sup> = 36",
-          "explanation": "Die Probe bestätigt die Rechnung. Die Quadratwurzel ist die Umkehrung des Quadrierens für nichtnegative Zahlen.",
-          "visual": {
-            "type": "chips",
-            "values": [
+              "36",
+              "↔",
               "√36",
               "=",
-              "6",
-              "↔",
-              "6² = 36"
+              "6"
             ]
           },
           "sub": ""
@@ -317,13 +213,13 @@
       "id": "dezimalzahlen",
       "category": "zahlen",
       "title": "Dezimalzahlen verstehen",
-      "subtitle": "Stellenwerte hinter dem Komma",
+      "subtitle": "Ganze, Zehntel und Hundertstel",
       "symbol": "0,",
       "steps": [
         {
-          "headline": "Eine Zahl zerlegen",
+          "headline": "Stellenwerte hinter dem Komma",
           "formula": "2,35 = 2 + 0,3 + 0,05",
-          "explanation": "Die 2 sind Ganze, die 3 steht für Zehntel und die 5 für Hundertstel.",
+          "explanation": "Die 2 steht an der Einerstelle, die 3 an der Zehntelstelle und die 5 an der Hundertstelstelle. Jede Stelle rechts vom Komma ist zehnmal kleiner als die davor.",
           "visual": {
             "type": "table",
             "heads": [
@@ -337,37 +233,6 @@
                 "3",
                 "5"
               ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zwei Dezimalzahlen addieren",
-          "formula": "2,35 + 1,20",
-          "explanation": "Bei der schriftlichen Addition stehen Einer unter Einern und Kommas unter Kommas.",
-          "visual": {
-            "type": "array",
-            "rows": [
-              " 2,35",
-              "+1,20",
-              "─────",
-              " 3,55"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Ergebnis prüfen",
-          "formula": "2,35 + 1,20 = <span class=\"accent\">3,55</span>",
-          "explanation": "2 + 1 = 3 und 0,35 + 0,20 = 0,55. Zusammen sind es 3,55.",
-          "visual": {
-            "type": "chips",
-            "values": [
-              "2,35",
-              "+",
-              "1,20",
-              "=",
-              "3,55"
             ]
           },
           "sub": ""

@@ -1,8 +1,8 @@
-.app-shell.tafelwerk-screen{height:100dvh;max-height:100dvh;overflow:hidden;display:flex;flex-direction:column;padding-bottom:env(safe-area-inset-bottom,0px)}
-.tafelwerk-screen>.header{height:56px;min-height:56px;flex:0 0 56px}
+.app-shell.tafelwerk-screen{height:100dvh;min-height:100dvh;max-height:100dvh;overflow:hidden;display:flex;flex-direction:column;padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+.tafelwerk-screen>.header{height:106px;min-height:106px;flex:0 0 106px}
 .app-shell.tafelwerk-screen>main{flex:1;min-height:0;overflow:hidden;display:flex;margin:0;padding:8px 0 6px}
 .app-shell.tafelwerk-screen>main>.tafelwerk-main{flex:1;min-width:0;min-height:0;display:flex}
-.tafelwerk-screen>.bottom-nav{position:static;flex:0 0 auto;min-height:58px;width:100%;margin:0 auto;max-width:680px;transform:none;left:auto;bottom:auto}
+.tafelwerk-screen>.bottom-nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);z-index:10;width:min(100%,680px);min-height:72px;margin:0;border-radius:12px 12px 0 0;padding:6px 8px calc(6px + env(safe-area-inset-bottom,0px));box-shadow:0 -2px 12px color-mix(in srgb,var(--calc-display) 13.33%,transparent)}
 .tafelwerk-screen .header-tools{gap:8px}
 .header-tools.quick-actions{gap:8px}
 .header-settings,.header-update.icon-only{width:44px;height:44px;min-width:44px;min-height:44px;padding:0;display:inline-grid;place-items:center;border:1px solid var(--line);border-radius:9px;background:var(--panel);color:var(--ink);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 22%,transparent),0 3px 3px var(--key-shadow)}
@@ -106,4 +106,5 @@
 .tafelwerk-screen button:focus-visible{outline-offset:1px}
 @media(max-width:370px){.tafelwerk{padding-inline:8px;gap:6px}.tafelwerk-area-grid,.tafelwerk-lesson-grid{gap:6px}.tafelwerk-area{font-size:12px;padding-left:7px}.tafelwerk-lesson-choice{font-size:12px;padding-inline:6px}.tafelwerk-step-controls{gap:6px}}
 @media(max-width:700px){.tafelwerk-board{max-height:min(44dvh,280px)}}
-@media(max-height:620px){.app-shell.tafelwerk-screen>main{padding-block:3px}.tafelwerk{gap:4px}.tafelwerk-board-head{min-height:31px;padding-block:5px}.tafelwerk-board-head h1{font-size:14px}.tafelwerk-progress{flex-basis:28px;min-height:28px}.tafelwerk-progress button{height:28px}.tafelwerk-step-controls{flex-basis:44px}.tafelwerk-explanation{font-size:15px;line-height:1.35}}
+@media(max-width:700px){.tafelwerk-screen>.header{height:60px;min-height:60px;flex-basis:60px}}
+@media(max-height:620px){.tafelwerk-screen>.header{height:56px;min-height:56px;flex-basis:56px}.app-shell.tafelwerk-screen>main{padding-block:3px}.tafelwerk{gap:4px}.tafelwerk-board-head{min-height:31px;padding-block:5px}.tafelwerk-board-head h1{font-size:14px}.tafelwerk-progress{flex-basis:28px;min-height:28px}.tafelwerk-progress button{height:28px}.tafelwerk-step-controls{flex-basis:44px}.tafelwerk-explanation{font-size:15px;line-height:1.35}}

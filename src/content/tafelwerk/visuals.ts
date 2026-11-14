@@ -11,7 +11,7 @@ function numberLine(v:any) {
   const x = (n:number) => 20+(n+5)*27;
   let marks='';
   for (let n=-5; n<=6; n++) {
-    marks += `<line x1="${x(n)}" y1="75" x2="${x(n)}" y2="84" stroke="var(--calc-ink)" stroke-width="1.4"/>`;
+    marks += `<line x1="${x(n)}" y1="${n===0&&v.emphasizeZero?'68':'75'}" x2="${x(n)}" y2="${n===0&&v.emphasizeZero?'90':'84'}" stroke="${n===0&&v.emphasizeZero?'var(--calc-orange)':'var(--calc-ink)'}" stroke-width="${n===0&&v.emphasizeZero?'3':'1.4'}"/>`;
     marks += svgText(x(n),103,n,'var(--calc-ink)',11);
   }
   let move='';
