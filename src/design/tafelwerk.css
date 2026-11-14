@@ -117,6 +117,10 @@
 .tafelwerk .transversal-key span:nth-child(3){color:var(--calc-violet)}
 .tafelwerk .transversal-key span:nth-child(4){color:var(--calc-orange)}
 .tafelwerk .long-calculation{width:max-content;max-width:100%;margin:auto;color:var(--calc-ink);font:600 clamp(21px,5.5vw,30px)/1.15 'Barlow',monospace;font-variant-numeric:tabular-nums}
+.tafelwerk .inline-multiplication{width:min(100%,390px);margin:auto;display:grid;gap:6px;color:var(--calc-ink);font-variant-numeric:tabular-nums;text-align:center}
+.tafelwerk .inline-multiplication-task{padding:0 6px 5px;border-bottom:2px solid var(--calc-ink);font:700 clamp(26px,6vw,36px)/1.15 'Barlow Condensed',sans-serif}
+.tafelwerk .inline-multiplication-partial{font:600 clamp(17px,4vw,22px)/1.2 'Barlow',sans-serif}
+.tafelwerk .inline-multiplication-result{padding-top:5px;border-top:1px solid var(--calc-ink);color:var(--calc-teal);font:700 clamp(19px,4.6vw,25px)/1.2 'Barlow',sans-serif}
 .tafelwerk .calculation-line{display:grid;grid-template-columns:1.1em minmax(4ch,max-content);justify-content:end;line-height:1.2}
 .tafelwerk .calculation-line>span:first-child{text-align:left;color:var(--calc-orange)}
 .tafelwerk .calculation-line>span:last-child{text-align:right;white-space:pre}

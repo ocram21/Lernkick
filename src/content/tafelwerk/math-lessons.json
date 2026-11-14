@@ -199,30 +199,42 @@
       "symbol": "×",
       "steps": [
         {
-          "headline": "Erst die Einer",
+          "headline": "Faktoren nebeneinanderschreiben",
+          "formula": "24 · 13",
+          "explanation": "Die Faktoren bleiben in einer Zeile. Der Rechenstrich trennt die Aufgabe von den Teilrechnungen.",
+          "visual": {
+            "type": "long-multiplication",
+            "top": "24",
+            "bottom": "13",
+            "partials": []
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Mit der Einerziffer rechnen",
           "formula": "24 · 3 = 72",
-          "explanation": "Beginne mit der Einerziffer 3. Schreibe das Teilprodukt 72 unter die Aufgabe. Danach rechnest du die Zehnerziffer.",
+          "explanation": "Zuerst rechnest du 24 mal 3. Dieses Teilprodukt steht unter dem Rechenstrich.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
             "bottom": "13",
             "partials": [
-              "72"
+              "24 · 3 = 72"
             ]
           },
           "sub": ""
         },
         {
-          "headline": "Dann die Zehner",
+          "headline": "Dann den Zehner berechnen",
           "formula": "24 · 10 = 240",
-          "explanation": "Die 1 in 13 steht für einen Zehner. Deshalb rechnest du 24 · 10. Das zweite Teilprodukt beginnt eine Stelle weiter links.",
+          "explanation": "Die 1 in 13 steht für einen Zehner. Deshalb rechnest du 24 mal 10.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
             "bottom": "13",
             "partials": [
-              "72",
-              "240"
+              "24 · 3 = 72",
+              "24 · 10 = 240"
             ]
           },
           "sub": ""
@@ -230,16 +242,16 @@
         {
           "headline": "Teilprodukte addieren",
           "formula": "72 + 240 = 312",
-          "explanation": "Addiere jetzt die beiden passend untereinander stehenden Teilprodukte. So erhältst du das Ergebnis der Multiplikation.",
+          "explanation": "Addiere die beiden Teilprodukte. Das Ergebnis der Aufgabe ist 312.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
             "bottom": "13",
             "partials": [
-              "72",
-              "240"
+              "24 · 3 = 72",
+              "24 · 10 = 240"
             ],
-            "result": "312"
+            "result": "72 + 240 = 312"
           },
           "sub": ""
         }
@@ -841,9 +853,9 @@
       "symbol": "%",
       "steps": [
         {
-          "headline": "Die drei Prozentformeln",
-          "formula": "",
-          "explanation": "G ist das Ganze, W der Anteil und p der Prozentsatz. Setze die bekannten Größen in die passende Zeile ein.",
+          "headline": "Gesuchte Größe auswählen",
+          "formula": "W = (G · p)/100",
+          "explanation": "G ist das Ganze, W der Anteil und p der Prozentsatz. Wähle die Zeile für die Größe, die du suchst.",
           "visual": {
             "type": "table",
             "heads": [
@@ -854,18 +866,18 @@
             "rows": [
               [
                 "W",
-                "G · p : 100",
-                "80 € · 20 : 100 = 16 €"
+                "W = (G · p)/100",
+                "(80 € · 20)/100 = 16 €"
               ],
               [
                 "G",
-                "W · 100 : p",
-                "15 € · 100 : 30 = 50 €"
+                "G = (W · 100)/p",
+                "(15 € · 100)/30 = 50 €"
               ],
               [
                 "p",
-                "W : G · 100",
-                "18 € : 60 € · 100 = 30 %"
+                "p = (W · 100)/G",
+                "(18 € · 100)/60 € = 30 %"
               ]
             ]
           },
@@ -921,9 +933,9 @@
       "symbol": "↔",
       "steps": [
         {
-          "headline": "Die Arbeitsmenge bleibt gleich",
-          "formula": "",
-          "explanation": "Bei gleicher Leistung bleibt das Produkt konstant: 4 · 6 = 24 Personenstunden. Mit 8 Personen dauert dieselbe Arbeit 3 Stunden.",
+          "headline": "Mehr Personen brauchen weniger Zeit",
+          "formula": "4 Personen · 6 h = 24 Personenstunden",
+          "explanation": "Bei gleicher Leistung bleibt die Arbeitsmenge gleich. Verdoppelst du die Personen, halbiert sich die Zeit.",
           "visual": {
             "type": "table",
             "heads": [
@@ -932,6 +944,11 @@
               "Produkt"
             ],
             "rows": [
+              [
+                "2",
+                "12 h",
+                "24"
+              ],
               [
                 "4",
                 "6 h",
@@ -992,14 +1009,40 @@
       "symbol": "↔",
       "steps": [
         {
-          "headline": "Meter in Zentimeter",
-          "formula": "1 m = 100 cm   →   1,5 m = 150 cm",
-          "explanation": "Ein Meter besteht aus 100 Zentimetern. Von Metern zu Zentimetern multiplizierst du mit 100.",
+          "headline": "Länge umrechnen",
+          "formula": "1,5 m = 150 cm",
+          "explanation": "Von Metern zu Zentimetern multiplizierst du mit 100. Das Komma wandert zwei Stellen nach rechts.",
           "visual": {
             "type": "math-stack",
             "rows": [
               "1 m = 100 cm",
               "1,5 m = 1,5 · 100 cm = 150 cm"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Masse umrechnen",
+          "formula": "1,5 kg = 1 500 g",
+          "explanation": "Ein Kilogramm besteht aus 1 000 Gramm. Multipliziere deshalb die Kilogrammzahl mit 1 000.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "1 kg = 1 000 g",
+              "1,5 kg = 1,5 · 1 000 g = 1 500 g"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Zeit umrechnen",
+          "formula": "2 h 15 min = 135 min",
+          "explanation": "Eine Stunde hat 60 Minuten. Wandle zuerst 2 Stunden in Minuten um und addiere dann die weiteren 15 Minuten.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "2 h = 2 · 60 min = 120 min",
+              "120 min + 15 min = 135 min"
             ]
           },
           "sub": ""
@@ -1039,13 +1082,13 @@
       "symbol": "y=mx+b",
       "steps": [
         {
-          "headline": "y = 2x + 1",
-          "formula": "",
-          "explanation": "Bei y = 2x + 1 ist b = 1 der Schnittpunkt mit der y-Achse. m = 2 heißt: Für jeden Schritt nach rechts steigt y um 2.",
-          "sub": "",
+          "headline": "Steigung und y-Achsenabschnitt",
+          "formula": "y = mx + n",
+          "explanation": "m gibt an, wie stark die Gerade pro Schritt nach rechts steigt. n ist der Schnittpunkt mit der y-Achse. Im Beispiel y = 2x + 1 gilt m = 2 und n = 1.",
           "visual": {
             "type": "linear-function",
-            "equation": "y = 2x + 1",
+            "slope": 2,
+            "n": 1,
             "values": [
               [
                 "x",
@@ -1064,7 +1107,8 @@
                 "5"
               ]
             ]
-          }
+          },
+          "sub": ""
         }
       ],
       "stage": "7-8",
@@ -1078,11 +1122,42 @@
       "symbol": "∠",
       "steps": [
         {
-          "headline": "Zwei Parallelen mit Transversale",
-          "formula": "g ∥ h",
-          "explanation": "Stufen- und Wechselwinkel sind nur bei Parallelen gleich. Scheitelwinkel sind gleich; Nebenwinkel ergeben 180°.",
+          "headline": "Stufenwinkel",
+          "formula": "α = α′",
+          "explanation": "Entsprechende Winkel liegen an beiden Schnittpunkten auf derselben Seite. Bei parallelen Geraden sind sie gleich groß.",
           "visual": {
-            "type": "transversal"
+            "type": "transversal",
+            "active": "corresponding"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Wechselwinkel",
+          "formula": "γ = β′",
+          "explanation": "Wechselwinkel liegen zwischen den parallelen Geraden auf gegenüberliegenden Seiten der schneidenden Geraden. Sie sind gleich groß.",
+          "visual": {
+            "type": "transversal",
+            "active": "alternate"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Scheitelwinkel",
+          "formula": "α = δ",
+          "explanation": "Scheitelwinkel liegen sich am selben Schnittpunkt gegenüber. Sie sind gleich groß.",
+          "visual": {
+            "type": "transversal",
+            "active": "vertical"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Nebenwinkel",
+          "formula": "α + β = 180°",
+          "explanation": "Nebenwinkel liegen direkt nebeneinander an einer Geraden. Zusammen bilden sie immer 180 Grad.",
+          "visual": {
+            "type": "transversal",
+            "active": "adjacent"
           },
           "sub": ""
         }
@@ -1098,9 +1173,19 @@
       "symbol": "△",
       "steps": [
         {
-          "headline": "Den fehlenden Winkel berechnen",
-          "formula": "50° + 60° + γ = 180°  →  γ = 70°",
-          "explanation": "Ziehe die bekannten Winkel von 180° ab. Die Winkelsumme von 180° gilt für jedes ebene Dreieck.",
+          "headline": "Den dritten Winkel benennen",
+          "formula": "50° + 60° + γ = 180°",
+          "explanation": "Der obere Innenwinkel heißt γ. Alle drei Innenwinkel eines Dreiecks ergeben zusammen 180 Grad.",
+          "visual": {
+            "type": "triangle",
+            "label": "angles"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "γ berechnen",
+          "formula": "γ = 180° − 50° − 60° = 70°",
+          "explanation": "Ziehe die beiden bekannten Winkel von 180 Grad ab. Im Dreieck steht oben also γ = 70 Grad.",
           "visual": {
             "type": "triangle",
             "label": "angles"
@@ -1140,12 +1225,74 @@
       "symbol": "c²",
       "steps": [
         {
-          "headline": "Katheten 3 cm und 4 cm",
-          "formula": "3² + 4² = c²  →  c = √25 = 5 cm",
-          "explanation": "Die Hypotenuse c liegt gegenüber dem rechten Winkel. Addiere die Kathetenquadrate und ziehe anschließend die positive Wurzel.",
+          "headline": "Flächen der drei Quadrate vergleichen",
+          "formula": "3² + 4² = c²",
+          "explanation": "Über jeder Seite des rechtwinkligen Dreiecks liegt ein Quadrat. Die Flächen über den Katheten zusammen sind so groß wie die Fläche über der Hypotenuse.",
           "visual": {
-            "type": "triangle",
-            "label": "result"
+            "type": "pythagoras-squares"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Katheten einsetzen",
+          "formula": "c² = 3² + 4²",
+          "explanation": "Die Katheten sind 3 cm und 4 cm. Setze beide Werte in den Satz des Pythagoras ein.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "c² = 3² + 4²",
+              "c² = 9 + 16"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Quadrate addieren",
+          "formula": "c² = 25  |  √ ziehen",
+          "explanation": "9 plus 16 ergibt 25. Ziehe jetzt auf beiden Seiten die Quadratwurzel.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "c²",
+                "right": "25",
+                "operation": "√ ziehen"
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Wurzel ziehen",
+          "formula": "c = √25 = 5 cm",
+          "explanation": "Die gesuchte Seitenlänge ist nicht negativ. Deshalb ist c gleich der positiven Quadratwurzel aus 25.",
+          "visual": {
+            "type": "equation",
+            "rows": [
+              {
+                "left": "c²",
+                "right": "25",
+                "operation": "√ ziehen"
+              },
+              {
+                "left": "c",
+                "right": "5 cm",
+                "operation": ""
+              }
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Ergebnis prüfen",
+          "formula": "5² = 3² + 4²",
+          "explanation": "Die Probe stimmt: 25 ist gleich 9 plus 16. Die Hypotenuse ist 5 cm lang.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "5² = 3² + 4²",
+              "25 = 9 + 16"
+            ]
           },
           "sub": ""
         }
