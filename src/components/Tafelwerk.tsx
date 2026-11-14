@@ -43,8 +43,8 @@ export function Tafelwerk(){
  },[lesson]);
 
  return <section className="tafelwerk" aria-label="Tafelwerk">
+  <div className="tafelwerk-intro section-marker" aria-label="Bereich: Tafelwerk"><BookOpen size={23}/></div>
   {!subject&&<>
-   <div className="tafelwerk-intro"><BookOpen size={22}/><h1>Tafelwerk</h1></div>
    <p className="tafelwerk-prompt">Wähle ein Fach.</p>
    <div className="tafelwerk-subject-grid">{subjects.map(({name,icon:Icon})=><button className="tafelwerk-subject" key={name} data-subject={name} onClick={()=>selectSubject(name)}><Icon className="tafelwerk-subject-icon" size={26} strokeWidth={1.7} aria-hidden="true"/><span>{name}</span></button>)}</div>
   </>}
