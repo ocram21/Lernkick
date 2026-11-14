@@ -118,6 +118,9 @@ export function renderVisual(v:any) {
     case 'rect': html=rectangle(v);break;
     case 'box': html=boxShape();break;
     case 'combos': html=combinations(v);break;
+    case 'equation': html=`<table class="equation-work" aria-label="Umformung der Gleichung"><tbody>${v.rows.map((row:any)=>`<tr><td>${row.left}</td><td>=</td><td>${row.right}</td><td class="equation-operation">${row.operation?`│ ${row.operation}`:''}</td></tr>`).join('')}</tbody></table>`;break;
+    case 'long-multiplication': html=`<div class="long-calculation" aria-label="Schriftliche Multiplikation">${[['',''+v.top],['×',''+v.bottom],['rule',''],...v.partials.map((value:string)=>['',value]),...(v.result?[['rule',''],['result',''+v.result]]:[])].map(([sign,value]:string[])=>sign==='rule'?'<div class="calculation-rule"></div>':`<div class="calculation-line ${sign==='result'?'calculation-result':''}"><span>${sign==='result'?'':sign}</span><span>${value}</span></div>`).join('')}</div>`;break;
+    case 'long-addition': html=`<div class="long-calculation" aria-label="Schriftliche Addition">${[['', ''+v.first],['+',''+v.second],['rule',''],['result',''+v.result]].map(([sign,value]:string[])=>sign==='rule'?'<div class="calculation-rule"></div>':`<div class="calculation-line ${sign==='result'?'calculation-result':''}"><span>${sign==='result'?'':sign}</span><span>${value}</span></div>`).join('')}</div>`;break;
     default: return '';
   }
   return `<div class="board-visual">${html}</div>`;

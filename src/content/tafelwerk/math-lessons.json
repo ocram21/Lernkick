@@ -384,7 +384,7 @@
         {
           "headline": "Die Aufgabe zerlegen",
           "formula": "24 · 13 = 24 · (10 + 3)",
-          "explanation": "13 besteht aus einem Zehner und drei Einern. Beide Teile müssen berücksichtigt werden.",
+          "explanation": "13 besteht aus einem Zehner und drei Einern. Wir rechnen deshalb zuerst 24 · 3 und danach 24 · 10.",
           "visual": {
             "type": "table",
             "heads": [
@@ -403,14 +403,13 @@
         {
           "headline": "Mit den Einern beginnen",
           "formula": "24 · 3 = <span class=\"accent\">72</span>",
-          "explanation": "Zuerst 24 mit 3 multiplizieren: 3 mal 4 ergibt 12, 2 notieren, 1 übertragen. 3 mal 2 plus 1 ergibt 7.",
+          "explanation": "Beginne bei den Einern: 3 · 4 = 12. Schreibe die 2 unter die Einer und übertrage die 1 zum nächsten Produkt: 3 · 2 + 1 = 7. Das erste Teilprodukt ist 72.",
           "visual": {
-            "type": "array",
-            "rows": [
-              "  24",
-              "× 13",
-              "────",
-              "  72"
+            "type": "long-multiplication",
+            "top": "24",
+            "bottom": "13",
+            "partials": [
+              "72"
             ]
           },
           "sub": ""
@@ -418,15 +417,14 @@
         {
           "headline": "Die Zehner berücksichtigen",
           "formula": "24 · 10 = <span class=\"accent\">240</span>",
-          "explanation": "Die 1 in 13 steht für zehn. Deshalb ist das zweite Teilprodukt 240, nicht 24.",
+          "explanation": "Jetzt kommt der Zehner des zweiten Faktors. 24 · 10 = 240. Das zweite Teilprodukt steht unter dem ersten, jeweils stellengerecht.",
           "visual": {
-            "type": "array",
-            "rows": [
-              "  24",
-              "× 13",
-              "────",
-              "  72",
-              " 240"
+            "type": "long-multiplication",
+            "top": "24",
+            "bottom": "13",
+            "partials": [
+              "72",
+              "240"
             ]
           },
           "sub": ""
@@ -434,15 +432,12 @@
         {
           "headline": "Teilergebnisse addieren",
           "formula": "72 + 240 = <span class=\"accent\">312</span>",
-          "explanation": "Beide Teilprodukte werden stellenrichtig addiert. 24 mal 13 ergibt 312.",
+          "explanation": "Addiere die beiden Teilprodukte stellengerecht: 72 + 240 = 312. Damit ist 24 · 13 = 312.",
           "visual": {
-            "type": "array",
-            "rows": [
-              "   72",
-              "+ 240",
-              "─────",
-              "  312"
-            ]
+            "type": "long-addition",
+            "first": "72",
+            "second": "240",
+            "result": "312"
           },
           "sub": ""
         }
@@ -1017,11 +1012,12 @@
           "formula": "3(x + 2) = <span class=\"accent\">3x + 6</span>",
           "explanation": "Allgemein: a(b + c) = ab + ac. Der Faktor vor der Klammer wird mit jedem Summanden in der Klammer multipliziert.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "3 · x",
-              "+",
-              "3 · 2"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3(x + 2)",
+                "right": "3x + 6"
+              }
             ]
           },
           "sub": ""
@@ -1079,11 +1075,12 @@
           "formula": "3(2x + 3) = 6x + 9",
           "explanation": "Multipliziere wieder aus. Wenn der ursprüngliche Ausdruck entsteht, wurde richtig ausgeklammert.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "6x",
-              "+",
-              "9"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3(2x + 3)",
+                "right": "6x + 9"
+              }
             ]
           },
           "sub": ""
@@ -1102,20 +1099,33 @@
           "formula": "3x + 5 = 20",
           "explanation": "Eine Gleichung ist im Gleichgewicht: Links und rechts steht derselbe Wert. Ziel ist, x allein zu bekommen.",
           "visual": {
-            "type": "balance",
-            "left": "3x + 5",
-            "right": "20"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x + 5",
+                "right": "20"
+              }
+            ]
           },
           "sub": ""
         },
         {
           "headline": "Auf beiden Seiten 5 abziehen",
           "formula": "3x + 5 − 5 = 20 − 5",
-          "explanation": "Nur links 5 abzuziehen wäre nicht erlaubt. Beide Seiten müssen gleich behandelt werden.",
+          "explanation": "Damit x allein stehen kann, ziehen wir auf beiden Seiten 5 ab. Die senkrechte Angabe zeigt die gleiche Operation links und rechts.",
           "visual": {
-            "type": "balance",
-            "left": "3x + 5 − 5",
-            "right": "20 − 5"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x + 5",
+                "right": "20",
+                "operation": "− 5"
+              },
+              {
+                "left": "3x + 5 − 5",
+                "right": "20 − 5"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1124,9 +1134,17 @@
           "formula": "3x = <span class=\"accent\">15</span>",
           "explanation": "Die +5 und −5 heben sich auf. Nun stehen links drei gleiche x und rechts 15.",
           "visual": {
-            "type": "balance",
-            "left": "3x",
-            "right": "15"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x + 5 − 5",
+                "right": "20 − 5"
+              },
+              {
+                "left": "3x",
+                "right": "15"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1135,9 +1153,22 @@
           "formula": "x = <span class=\"accent\">5</span>",
           "explanation": "Teile beide Seiten durch 3. Zur Probe: 3 mal 5 plus 5 ergibt wieder 20.",
           "visual": {
-            "type": "balance",
-            "left": "x",
-            "right": "5"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x",
+                "right": "15",
+                "operation": ": 3"
+              },
+              {
+                "left": "3x : 3",
+                "right": "15 : 3"
+              },
+              {
+                "left": "x",
+                "right": "5"
+              }
+            ]
           },
           "sub": ""
         }
@@ -1155,20 +1186,37 @@
           "formula": "5x + 4 = 2x + 19",
           "explanation": "Links stehen 5x, rechts 2x. Zuerst die Variablen auf einer Seite zusammenfassen.",
           "visual": {
-            "type": "balance",
-            "left": "5x + 4",
-            "right": "2x + 19"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "5x + 4",
+                "right": "2x + 19"
+              }
+            ]
           },
           "sub": ""
         },
         {
           "headline": "Auf beiden Seiten 2x abziehen",
           "formula": "3x + 4 = 19",
-          "explanation": "5x − 2x ergibt 3x. Rechts fallen die 2x weg.",
+          "explanation": "Ziehe 2x auf beiden Seiten ab. Rechts heben sich die x-Terme auf; links bleiben 3x + 4.",
           "visual": {
-            "type": "balance",
-            "left": "3x + 4",
-            "right": "19"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "5x + 4",
+                "right": "2x + 19",
+                "operation": "− 2x"
+              },
+              {
+                "left": "5x − 2x + 4",
+                "right": "2x − 2x + 19"
+              },
+              {
+                "left": "3x + 4",
+                "right": "19"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1177,20 +1225,46 @@
           "formula": "3x = <span class=\"accent\">15</span>",
           "explanation": "Links bleibt 3x stehen und rechts 19 − 4 = 15.",
           "visual": {
-            "type": "balance",
-            "left": "3x",
-            "right": "15"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x + 4",
+                "right": "19",
+                "operation": "− 4"
+              },
+              {
+                "left": "3x + 4 − 4",
+                "right": "19 − 4"
+              },
+              {
+                "left": "3x",
+                "right": "15"
+              }
+            ]
           },
           "sub": ""
         },
         {
           "headline": "Durch 3 teilen",
           "formula": "x = <span class=\"accent\">5</span>",
-          "explanation": "Die Lösung ist x = 5. Probe: 5·5 + 4 = 29 und 2·5 + 19 = 29.",
+          "explanation": "Teile beide Seiten durch 3. Die Lösung ist x = 5. Probe: Beide Seiten der Ausgangsgleichung ergeben 29.",
           "visual": {
-            "type": "balance",
-            "left": "29",
-            "right": "29"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "3x",
+                "right": "15",
+                "operation": ": 3"
+              },
+              {
+                "left": "3x : 3",
+                "right": "15 : 3"
+              },
+              {
+                "left": "x",
+                "right": "5"
+              }
+            ]
           },
           "sub": ""
         }
@@ -1208,9 +1282,13 @@
           "formula": "2(x + 3) = 14",
           "explanation": "Im Beutel liegen x und 3. Davor steht der Faktor 2.",
           "visual": {
-            "type": "bags",
-            "count": 2,
-            "content": "x + 3"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2(x + 3)",
+                "right": "14"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1219,9 +1297,17 @@
           "formula": "2x + 6 = 14",
           "explanation": "2 mal x ergibt 2x. 2 mal 3 ergibt 6.",
           "visual": {
-            "type": "balance",
-            "left": "2x + 6",
-            "right": "14"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2(x + 3)",
+                "right": "14"
+              },
+              {
+                "left": "2x + 6",
+                "right": "14"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1230,9 +1316,22 @@
           "formula": "2x = <span class=\"accent\">8</span>",
           "explanation": "Nach dem Subtrahieren von 6 bleibt links 2x und rechts 8.",
           "visual": {
-            "type": "balance",
-            "left": "2x",
-            "right": "8"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2x + 6",
+                "right": "14",
+                "operation": "− 6"
+              },
+              {
+                "left": "2x + 6 − 6",
+                "right": "14 − 6"
+              },
+              {
+                "left": "2x",
+                "right": "8"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1241,9 +1340,22 @@
           "formula": "x = <span class=\"accent\">4</span>",
           "explanation": "Die Probe lautet 2·(4 + 3) = 14. Die Gleichung stimmt.",
           "visual": {
-            "type": "balance",
-            "left": "x",
-            "right": "4"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2x",
+                "right": "8",
+                "operation": ": 2"
+              },
+              {
+                "left": "2x : 2",
+                "right": "8 : 2"
+              },
+              {
+                "left": "x",
+                "right": "4"
+              }
+            ]
           },
           "sub": ""
         }
@@ -1261,9 +1373,13 @@
           "formula": "2x + 3 = 11",
           "explanation": "Wir vermuten x = 4. Ob diese Zahl wirklich passt, zeigt das Einsetzen in die ursprüngliche Gleichung.",
           "visual": {
-            "type": "balance",
-            "left": "2x + 3",
-            "right": "11"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2x + 3",
+                "right": "11"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1272,9 +1388,18 @@
           "formula": "2 · 4 + 3 = 11",
           "explanation": "Ersetze jedes x in der Ausgangsgleichung durch 4. Dann rechne beide Seiten aus.",
           "visual": {
-            "type": "balance",
-            "left": "2 · 4 + 3",
-            "right": "11"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2x + 3",
+                "right": "11",
+                "operation": "x = 4 einsetzen"
+              },
+              {
+                "left": "2 · 4 + 3",
+                "right": "11"
+              }
+            ]
           },
           "sub": ""
         },
@@ -1283,9 +1408,17 @@
           "formula": "11 = <span class=\"accent\">11</span>",
           "explanation": "Links und rechts ergeben denselben Wert. Damit ist x = 4 tatsächlich eine Lösung.",
           "visual": {
-            "type": "balance",
-            "left": "11",
-            "right": "11"
+            "type": "equation",
+            "rows": [
+              {
+                "left": "2 · 4 + 3",
+                "right": "11"
+              },
+              {
+                "left": "11",
+                "right": "11"
+              }
+            ]
           },
           "sub": ""
         }

@@ -59,7 +59,7 @@ export function Tafelwerk(){
    <section className="tafelwerk-board" aria-label="Mathematische Tafel" aria-live="polite">
     <div className="tafelwerk-board-head"><h1>{current.headline}</h1><span>{stepIndex+1}/{lesson.steps.length}</span></div>
     <div className="tafelwerk-board-body">
-     <div className={`tafelwerk-formula ${current.formula.replace(/<[^>]+>/g,'').length>28?'tafelwerk-formula-small':''}`} dangerouslySetInnerHTML={{__html:current.formula}}/>
+     {current.visual?.type!=='equation'&&!['long-multiplication','long-addition'].includes(current.visual?.type)&&<div className={`tafelwerk-formula ${current.formula.replace(/<[^>]+>/g,'').length>28?'tafelwerk-formula-small':''}`} dangerouslySetInnerHTML={{__html:current.formula}}/>}
      {current.sub&&<p className="tafelwerk-subline">{current.sub}</p>}
      {current.visual&&<div className="tafelwerk-visual" dangerouslySetInnerHTML={{__html:renderVisual(current.visual)}}/>}
     </div>
