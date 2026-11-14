@@ -1,6 +1,24 @@
 // Übernommene, für die LernKick-Palette angepasste Mathe-Visualisierungen.
 const svgEsc=(str:string|number)=>String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
+const vulgarFractions:Record<string,[string,string]>={
+  '¼':['1','4'],'½':['1','2'],'¾':['3','4'],'⅐':['1','7'],'⅑':['1','9'],'⅒':['1','10'],
+  '⅓':['1','3'],'⅔':['2','3'],'⅕':['1','5'],'⅖':['2','5'],'⅗':['3','5'],'⅘':['4','5'],
+  '⅙':['1','6'],'⅚':['5','6'],'⅛':['1','8'],'⅜':['3','8'],'⅝':['5','8'],'⅞':['7','8']
+};
+const superscriptDigits:Record<string,string>={'⁰':'0','¹':'1','²':'2','³':'3','⁴':'4','⁵':'5','⁶':'6','⁷':'7','⁸':'8','⁹':'9'};
+const subscriptDigits:Record<string,string>={'₀':'0','₁':'1','₂':'2','₃':'3','₄':'4','₅':'5','₆':'6','₇':'7','₈':'8','₉':'9'};
+export function fractionParts(value:string):[string,string]|null{
+  if(vulgarFractions[value])return vulgarFractions[value];
+  const match=value.match(/^([⁰¹²³⁴⁵⁶⁷⁸⁹]+)⁄([₀₁₂₃₄₅₆₇₈₉]+)$/u);
+  return match?[Array.from(match[1],digit=>superscriptDigits[digit]).join(''),Array.from(match[2],digit=>subscriptDigits[digit]).join('')]:null;
+}
+export function formatFractions(markup:string){
+  return markup
+    .replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]+)⁄([₀₁₂₃₄₅₆₇₈₉]+)/gu,(_match:string,n:string,d:string)=>`<span class="fraction"><span class="top">${Array.from(n,digit=>superscriptDigits[digit]).join('')}</span><span class="bottom">${Array.from(d,digit=>subscriptDigits[digit]).join('')}</span></span>`)
+    .replace(/[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]/gu,(value:string)=>{const [n,d]=vulgarFractions[value];return `<span class="fraction"><span class="top">${n}</span><span class="bottom">${d}</span></span>`;});
+}
+
 function svg(content:string, title:string, viewBox:string='0 0 320 190') {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox}" role="img" aria-label="${svgEsc(title)}">${content}</svg>`;
 }
@@ -116,6 +134,7 @@ export function renderVisual(v:any) {
     case 'fractions': html=v.parts.map((p:any,pi:number)=>`<div class="fraction-block"><div class="fraction-block-label">${p.label}</div><div class="fraction-strip">${Array.from({length:p.d},(_,i)=>`<span class="fraction-cell ${i<p.n?'filled':''} ${pi>0?'secondary':''}"></span>`).join('')}</div></div>`).join('');break;
     case 'balance': html=`<div class="balance-line"><div class="balance-pan"><span>Links</span><strong>${v.left}</strong></div><span class="balance-equal">=</span><div class="balance-pan"><span>Rechts</span><strong>${v.right}</strong></div></div>`;break;
     case 'table': html=`<table class="viz-table"><thead><tr>${v.heads.map((x:any)=>`<th scope="col">${x}</th>`).join('')}</tr></thead><tbody>${v.rows.map((r:any,i:number)=>`<tr class="${v.focus===i?'focus':''}">${r.map((x:any)=>`<td>${x}</td>`).join('')}</tr>`).join('')}</tbody></table>`;break;
+    case 'sign-rules': html=`<div class="sign-rule-grid">${v.groups.map((group:any)=>`<section class="sign-rule-group"><h2>${svgEsc(group.title)}</h2>${group.examples.map((example:string)=>`<div class="sign-rule-example">${svgEsc(example)}</div>`).join('')}</section>`).join('')}</div>`;break;
     case 'percent': html=`<div class="percent-strip"><span class="percent-fill" style="width:${Math.max(0,Math.min(100,Number(v.filled)))}%"></span></div><span class="viz-label">${v.label}</span>`;break;
     case 'grid': html=`<div class="square-grid" style="grid-template-columns: repeat(${v.n},1fr)">${Array.from({length:v.n*v.n},()=>'<span></span>').join('')}</div>`;break;
     case 'array': html=`<div class="viz-array">${v.rows.map((r:string,i:number)=>`<div class="${i===v.rows.length-1?'line':''}">${r.replace(/ /g,'&nbsp;')}</div>`).join('')}</div>`;break;
@@ -126,7 +145,7 @@ export function renderVisual(v:any) {
     case 'rect': html=rectangle(v);break;
     case 'box': html=boxShape();break;
     case 'combos': html=combinations(v);break;
-    case 'math-stack': html=`<div class="math-stack" role="group" aria-label="Zusammenhängender Rechenweg">${v.rows.map((row:string)=>`<div>${svgEsc(row)}</div>`).join('')}</div>`;break;
+    case 'math-stack': html=`<div class="math-stack" role="group" aria-label="Zusammenhängender Rechenweg">${v.rows.map((row:string)=>`<div>${formatFractions(svgEsc(row))}</div>`).join('')}</div>`;break;
     case 'long-division': html=`<div class="long-division" aria-label="Schriftliche Division"><div class="division-quotient">${svgEsc(v.quotient)}</div><div class="division-start">${svgEsc(v.divisor)} ⟌ ${svgEsc(v.dividend)}</div>${v.rows.map((row:string,i:number)=>`<div class="division-row ${i===v.rows.length-1?'division-result':''}">${svgEsc(row)}</div>${i===0||i===2?'<div class="division-rule"></div>':''}`).join('')}</div>`;break;
     case 'linear-function': html=`<div class="linear-function-work">${graph({mode:'line',slope:2,intercept:1,points:[{x:0,y:1,label:'(0|1)',dx:-62,dy:-16},{x:1,y:3,label:'(1|3)',dx:11,dy:15}]})}<table class="function-values"><thead><tr>${v.values[0].map((x:string)=>`<th scope="col">${svgEsc(x)}</th>`).join('')}</tr></thead><tbody>${v.values.slice(1).map((row:string[])=>`<tr>${row.map((x:string)=>`<td>${svgEsc(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;break;
     case 'transversal': html=transversal();break;

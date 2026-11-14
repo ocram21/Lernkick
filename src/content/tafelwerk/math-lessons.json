@@ -58,37 +58,30 @@
       "symbol": "±",
       "steps": [
         {
-          "headline": "Gleiche oder verschiedene Vorzeichen?",
-          "formula": "gleich → +   ·   verschieden → −",
-          "explanation": "Bei Mal und Geteilt gilt dieselbe Regel: Gleiche Vorzeichen ergeben plus, verschiedene Vorzeichen minus. Danach rechnest du die Beträge.",
+          "headline": "Mal und Geteilt",
+          "formula": "",
+          "explanation": "Bei Mal und Geteilt gilt: Gleiche Vorzeichen ergeben ein positives, verschiedene ein negatives Ergebnis. Die Beträge rechnest du normal.",
           "visual": {
-            "type": "table",
-            "heads": [
-              "Vorzeichen",
-              "Mal",
-              "Geteilt"
-            ],
-            "rows": [
-              [
-                "+ und +",
-                "+",
-                "+"
-              ],
-              [
-                "− und −",
-                "+",
-                "+"
-              ],
-              [
-                "+ und −",
-                "−",
-                "−"
-              ],
-              [
-                "− und +",
-                "−",
-                "−"
-              ]
+            "type": "sign-rules",
+            "groups": [
+              {
+                "title": "Multiplikation · Mal",
+                "examples": [
+                  "(+3) · (+2) = +6",
+                  "(−3) · (−2) = +6",
+                  "(+3) · (−2) = −6",
+                  "(−3) · (+2) = −6"
+                ]
+              },
+              {
+                "title": "Division · Geteilt",
+                "examples": [
+                  "(+6) : (+3) = +2",
+                  "(−6) : (−3) = +2",
+                  "(+6) : (−3) = −2",
+                  "(−6) : (+3) = −2"
+                ]
+              }
             ]
           },
           "sub": ""
@@ -803,7 +796,7 @@
         {
           "headline": "Zwei Parallelen mit Transversale",
           "formula": "g ∥ h",
-      "explanation": "Stufen- und Wechselwinkel sind nur bei Parallelen gleich. Scheitelwinkel sind gleich; Nebenwinkel ergeben 180°.",
+          "explanation": "Stufen- und Wechselwinkel sind nur bei Parallelen gleich. Scheitelwinkel sind gleich; Nebenwinkel ergeben 180°.",
           "visual": {
             "type": "transversal"
           },

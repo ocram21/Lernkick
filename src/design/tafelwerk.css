@@ -39,18 +39,19 @@
 .tafelwerk:has(.tafelwerk-board){align-items:center;justify-content:center;gap:6px}
 .tafelwerk-current-lesson{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:12px}
 .tafelwerk-step-count{min-width:54px;text-align:right;font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
-.tafelwerk-board{width:min(100%,46dvh,540px);aspect-ratio:1;flex:0 0 auto;min-height:0;max-height:calc(100dvh - 170px);display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--calc-housing);border-radius:10px;background:var(--calc-display);color:var(--calc-ink);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 12%,transparent),0 3px 0 var(--calc-number)}
+.tafelwerk-board{width:min(calc(100% + 24px),760px);height:min(46dvh,390px);margin-inline:-12px;flex:0 0 auto;min-height:0;max-height:calc(100dvh - 170px);display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--calc-housing);border-radius:10px;background:var(--calc-display);color:var(--calc-ink);box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 12%,transparent),0 3px 0 var(--calc-number)}
 .tafelwerk-board-head{flex:0 0 auto;min-height:34px;padding:6px 9px 5px;display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:1px solid color-mix(in srgb,var(--calc-ink) 15%,transparent)}
-.tafelwerk-board-head h1{font-size:16px;color:var(--calc-ink)}
+.tafelwerk-board-head h1{font-size:18px;color:var(--calc-ink)}
 .tafelwerk-board-head>span{flex:0 0 auto;color:var(--calc-teal);font-size:12px;font-variant-numeric:tabular-nums}
 .tafelwerk-board-body{flex:1;min-height:0;padding:5px 6px 2px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;overflow:hidden}
-.tafelwerk-formula{flex:0 0 auto;max-width:100%;color:var(--calc-ink);font-family:'Barlow Condensed',sans-serif;font-size:clamp(24px,6vw,37px);font-weight:700;line-height:1.1;text-align:center;text-wrap:balance;overflow-wrap:anywhere}
-.tafelwerk-formula-small{font-size:clamp(18px,4.7vw,28px)}
+.tafelwerk-formula{flex:0 0 auto;max-width:100%;color:var(--calc-ink);font-family:'Barlow Condensed',sans-serif;font-size:clamp(28px,7vw,44px);font-weight:700;line-height:1.1;text-align:center;text-wrap:balance;overflow-wrap:anywhere}
+.tafelwerk-formula-small{font-size:clamp(22px,5.2vw,32px)}
 .tafelwerk-formula .accent{color:var(--calc-teal)}
 .tafelwerk-formula .yellow{color:var(--calc-orange)}
-.tafelwerk-formula .fraction{display:inline-flex;vertical-align:middle;flex-direction:column;align-items:center;min-width:1.05em;margin:0 .07em;font-size:.76em;line-height:1.05}
-.tafelwerk-formula .fraction .top{width:100%;padding:0 .12em .07em;border-bottom:1.8px solid currentColor}
-.tafelwerk-formula .fraction .bottom{padding-top:.08em}
+.tafelwerk .fraction{display:inline-flex;vertical-align:middle;flex-direction:column;align-items:center;min-width:1.05em;margin:0 .07em;font-size:.82em;line-height:1.02}
+.tafelwerk .fraction .top{width:100%;padding:0 .12em .07em;border-bottom:2px solid currentColor;text-align:center}
+.tafelwerk .fraction .bottom{padding-top:.08em}
+.tafelwerk .fraction-symbol{min-width:1em;margin:0;font-size:.9em;line-height:.9}
 .tafelwerk-subline{flex:0 0 auto;margin:0;color:var(--muted);font-size:12px;line-height:1.2;text-align:center}
 .tafelwerk-visual{width:100%;flex:1 1 auto;min-height:0;display:grid;place-items:center;overflow:hidden}
 .tafelwerk .board-visual{width:100%;height:100%;min-height:0;display:grid;place-items:center;overflow:hidden}
@@ -71,7 +72,7 @@
 .tafelwerk .balance-pan span{display:block;padding-bottom:3px;color:var(--muted);font-size:11px}
 .tafelwerk .balance-pan strong{display:block;color:var(--calc-ink);font-size:clamp(13px,4vw,18px);overflow-wrap:anywhere}
 .tafelwerk .balance-equal{color:var(--calc-teal);font-size:24px}
-.tafelwerk .viz-table{max-width:100%;border-collapse:separate;border-spacing:2px;color:var(--calc-ink);font-size:clamp(10px,3vw,14px)}
+.tafelwerk .viz-table{width:100%;max-width:100%;border-collapse:separate;border-spacing:3px;color:var(--calc-ink);font-size:clamp(13px,3.8vw,18px)}
 .tafelwerk .viz-table th,.tafelwerk .viz-table td{padding:5px 7px;border-radius:4px;background:var(--calc-number);text-align:center}
 .tafelwerk .viz-table th{color:var(--muted)}
 .tafelwerk .viz-table tr.focus td{background:color-mix(in srgb,var(--calc-teal) 45%,var(--calc-display))}
@@ -84,13 +85,17 @@
 .tafelwerk .viz-array{min-width:125px;max-width:100%;padding:8px 16px;display:flex;flex-direction:column;gap:2px;border-radius:7px;background:var(--calc-number);font-family:ui-monospace,monospace;font-size:clamp(15px,4.4vw,21px);text-align:right}
 .tafelwerk .viz-array .line{padding-top:4px;border-top:1px solid var(--calc-teal);color:var(--calc-teal)}
 .tafelwerk .viz-array .partial{color:var(--muted)}
-.tafelwerk .equation-work{width:max-content;max-width:100%;margin:auto;border-collapse:separate;border-spacing:0 4px;color:var(--calc-ink);font:600 clamp(14px,3.8vw,19px)/1.15 'Barlow',sans-serif;font-variant-numeric:tabular-nums}
+.tafelwerk .equation-work{width:max-content;max-width:100%;margin:auto;border-collapse:separate;border-spacing:0 4px;color:var(--calc-ink);font:600 clamp(16px,4.2vw,21px)/1.15 'Barlow',sans-serif;font-variant-numeric:tabular-nums}
 .tafelwerk .equation-work td{padding:0 3px;white-space:nowrap}
 .tafelwerk .equation-work td:nth-child(2){padding-inline:4px;color:var(--calc-teal);text-align:center}
 .tafelwerk .equation-work .equation-operation{padding-left:9px;color:var(--calc-orange);font-size:.9em}
-.tafelwerk .math-stack{width:max-content;max-width:100%;margin:auto;display:grid;gap:7px;color:var(--calc-ink);font:650 clamp(16px,4vw,21px)/1.2 'Barlow Condensed',sans-serif;text-align:center;font-variant-numeric:tabular-nums}
+.tafelwerk .math-stack{width:max-content;max-width:100%;margin:auto;display:grid;gap:7px;color:var(--calc-ink);font:650 clamp(20px,5vw,27px)/1.2 'Barlow Condensed',sans-serif;text-align:center;font-variant-numeric:tabular-nums}
 .tafelwerk .math-stack>div{max-width:100%;white-space:pre-wrap}
-.tafelwerk .long-division{width:max-content;max-width:100%;margin:auto;padding:4px 14px;color:var(--calc-ink);font:600 clamp(15px,4vw,20px)/1.16 'Barlow Condensed',sans-serif;font-variant-numeric:tabular-nums}
+.tafelwerk .sign-rule-grid{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(8px,2vw,18px);align-items:start}
+.tafelwerk .sign-rule-group{min-width:0}
+.tafelwerk .sign-rule-group h2{margin:0 0 7px;color:var(--calc-teal);font-family:'Barlow Condensed',sans-serif;font-size:clamp(15px,3.5vw,21px);line-height:1.1;text-align:center}
+.tafelwerk .sign-rule-example{padding:5px 0;border-bottom:1px solid color-mix(in srgb,var(--calc-ink) 18%,transparent);color:var(--calc-ink);font:650 clamp(15px,4.4vw,23px)/1.2 'Barlow Condensed',sans-serif;text-align:center;white-space:nowrap;font-variant-numeric:tabular-nums}
+.tafelwerk .long-division{width:max-content;max-width:100%;margin:auto;padding:4px 14px;color:var(--calc-ink);font:600 clamp(18px,4.8vw,24px)/1.16 'Barlow Condensed',sans-serif;font-variant-numeric:tabular-nums}
 .tafelwerk .division-quotient{padding-left:8ch;text-align:left;color:var(--calc-teal)}
 .tafelwerk .division-start,.tafelwerk .division-row{white-space:pre}
 .tafelwerk .division-row{text-align:right}
@@ -108,7 +113,7 @@
 .tafelwerk .transversal-key span:nth-child(2){color:var(--calc-teal)}
 .tafelwerk .transversal-key span:nth-child(3){color:var(--calc-violet)}
 .tafelwerk .transversal-key span:nth-child(4){color:var(--calc-orange)}
-.tafelwerk .long-calculation{width:max-content;max-width:100%;margin:auto;color:var(--calc-ink);font:600 clamp(18px,5vw,25px)/1.15 'Barlow',monospace;font-variant-numeric:tabular-nums}
+.tafelwerk .long-calculation{width:max-content;max-width:100%;margin:auto;color:var(--calc-ink);font:600 clamp(21px,5.5vw,30px)/1.15 'Barlow',monospace;font-variant-numeric:tabular-nums}
 .tafelwerk .calculation-line{display:grid;grid-template-columns:1.1em minmax(4ch,max-content);justify-content:end;line-height:1.2}
 .tafelwerk .calculation-line>span:first-child{text-align:left;color:var(--calc-orange)}
 .tafelwerk .calculation-line>span:last-child{text-align:right;white-space:pre}
@@ -125,7 +130,8 @@
 .tafelwerk-step-controls .primary{background:var(--calc-orange);color:var(--calc-number)}
 .tafelwerk-step-controls .small-button{background:var(--panel);color:var(--ink)}
 .tafelwerk-screen button:focus-visible{outline-offset:1px}
-@media(max-width:370px){.tafelwerk{padding-inline:8px;gap:5px}.tafelwerk-area-grid,.tafelwerk-lesson-grid{gap:4px}.tafelwerk-area{font-size:10px;padding-inline:1px}.tafelwerk-lesson-choice{gap:6px;font-size:12px;padding-inline:6px}.tafelwerk-lesson-choice>span:nth-child(2){overflow-wrap:normal;hyphens:auto}.tafelwerk-lesson-symbol{width:20px;flex-basis:20px}.tafelwerk-lesson-choice>svg{display:none}.tafelwerk-step-controls{gap:6px}.tafelwerk .math-stack{font-size:16px}}
-@media(max-width:700px){.tafelwerk-board{width:min(100%,46dvh,540px);max-height:calc(100dvh - 160px)}}
+@media(max-width:370px){.tafelwerk{padding-inline:8px;gap:5px}.tafelwerk-area-grid,.tafelwerk-lesson-grid{gap:4px}.tafelwerk-area{font-size:10px;padding-inline:1px}.tafelwerk-lesson-choice{gap:6px;font-size:12px;padding-inline:6px}.tafelwerk-lesson-choice>span:nth-child(2){overflow-wrap:normal;hyphens:auto}.tafelwerk-lesson-symbol{width:20px;flex-basis:20px}.tafelwerk-lesson-choice>svg{display:none}.tafelwerk-step-controls{gap:6px}.tafelwerk .math-stack{font-size:20px}.tafelwerk-board{width:calc(100% + 16px);margin-inline:-8px}}
+@media(max-width:700px){.tafelwerk-board{height:min(46dvh,390px);max-height:calc(100dvh - 160px)}}
 @media(max-width:700px){.tafelwerk-screen>.header{height:56px;min-height:56px;flex-basis:56px}}
-@media(max-height:620px){.tafelwerk-screen>.header{height:56px;min-height:56px;flex-basis:56px}.app-shell.tafelwerk-screen>main{padding-block:3px}.tafelwerk{gap:5px}.tafelwerk-board{width:min(100%,44dvh,540px)}.tafelwerk-board-head h1{font-size:14px}.tafelwerk-progress{flex-basis:28px;min-height:28px}.tafelwerk-progress button{height:28px}.tafelwerk-step-controls{flex-basis:44px}.tafelwerk-explanation{font-size:16px;line-height:1.35}}
+@media(max-height:620px){.tafelwerk-screen>.header{height:56px;min-height:56px;flex-basis:56px}.app-shell.tafelwerk-screen>main{padding-block:3px}.tafelwerk{gap:5px}.tafelwerk-board{height:min(46dvh,390px)}.tafelwerk-progress{flex-basis:28px;min-height:28px}.tafelwerk-progress button{height:28px}.tafelwerk-step-controls{flex-basis:44px}.tafelwerk-explanation{font-size:16px;line-height:1.35}}
+@media(max-height:500px){.tafelwerk{gap:3px}.tafelwerk-board{height:min(38dvh,148px)}.tafelwerk .math-stack{gap:2px;font-size:18px}.tafelwerk-explanation{min-height:3em;max-height:4em;font-size:15px;line-height:1.3}}
