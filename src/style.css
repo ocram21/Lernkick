@@ -343,7 +343,7 @@ progress{appearance:none;-webkit-appearance:none;border:0;border-radius:3px;over
 .app-shell.box-screen{padding-top:env(safe-area-inset-top)}
 @media(max-width:700px){.app-shell:is(.home-screen,.box-screen,.settings-screen) .wordmark{font-size:27px}}
 
-:root .app-shell .learning-box .rubric-buttons button[aria-pressed=true]{background:var(--calc-violet);color:var(--calc-number);border-color:var(--calc-number)}
+:root .app-shell .learning-box .rubric-buttons button[aria-pressed=true]{background:var(--calc-violet);color:var(--calc-ink);border-color:var(--calc-ink)}
 :root .app-shell .learning-box .rubric-buttons button:focus-visible{outline:2px dashed var(--calc-ink);outline-offset:4px}
 
 /* Bosskämpfe und Monatsstatistik im bestehenden Rechner-Design. */

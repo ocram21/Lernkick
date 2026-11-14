@@ -5,11 +5,11 @@ colors:
   housing: "#494b57"
   display: "#2b2d39"
   number: "#2a303c"
-  petrol: "#4eabcf"
-  teal: "#31b4aa"
-  red: "#f76a75"
-  orange: "#d58d1b"
-  violet: "#bd85d4"
+  petrol: "#00789a"
+  teal: "#12a49a"
+  red: "#ce4454"
+  orange: "#e79e35"
+  violet: "#86509b"
   ink: "#ecedf1"
   board-success: "#237647"
   pink-ground: "#4b0c35"
@@ -69,23 +69,23 @@ components:
 
 Verbindliche Nutzervorgabe vom 19.10.2026: die Farben des Taschenrechner-Referenzfotos verwenden und dieses Design konsistent fortführen. Die ausdrücklich freigegebenen Erweiterungen vom 21.10.2026 ergänzen optionales Pink und funktionales Tafel-Grün; sie ersetzen die Taschenrechner-Welt nicht. Kräftige, plastische rechteckige Tasten, große Fachkürzel und eine eingelassene dunkle Anzeige. Der Nutzer hat den vorherigen Pastell-Entwurf und die grüne LCD-Fläche ersetzt.
 
-Das Original liegt unter `docs/design/calculator-reference.jpeg`. Die daraus übernommenen Farbtöne stehen in `src/design/palette.json`; ihre fünf chromatischen Farben wurden am 06.11.2026 in OKLCH auf dieselbe Helligkeit normalisiert. `src/design/palette.css` stellt die verbindlichen Variablen bereit und wird nach den allgemeinen Styles geladen.
+Das Original liegt unter `docs/design/calculator-reference.jpeg`. Die aus ruhigen Bildflächen abgenommenen Farben stehen in `src/design/palette.json`; JPEG-Kompression verursacht kleine lokale Abweichungen. `src/design/palette.css` stellt die verbindlichen Variablen bereit und wird nach den allgemeinen Styles geladen.
 
 ## Colors
 
 - `housing`: **#494b57**.
 - `display`: **#2b2d39**.
 - `number`: **#2a303c**.
-- `petrol`: **#4eabcf**.
-- `teal`: **#31b4aa**.
-- `red`: **#f76a75**.
-- `orange`: **#d58d1b**.
-- `violet`: **#bd85d4**.
+- `petrol`: **#00789a**.
+- `teal`: **#12a49a**.
+- `red`: **#ce4454**.
+- `orange`: **#e79e35**.
+- `violet`: **#86509b**.
 - `ink`: **#ecedf1**.
 
-Die fünf chromatischen Grundtöne Petrol, Türkis, Rot, Orange und Violett liegen auf einer gemeinsamen OKLCH-Helligkeit von L ≈ 0,70. Die neutralen Gehäuse-, Anzeige- und Schriftfarben bleiben für lesbare Hell-Dunkel-Kontraste abgestuft; Texte auf den aufgehellten Farbtasten verwenden dunkle Schrift. Die optionale Pink-Palette und fachliche Statusfarben behalten ihre eigenen semantischen Abstufungen. Die Standardansicht erhält ihren dunklen LCD-Hintergrund. Die ausdrücklich freigegebene Option „Mit Pink“ ist die einzige zusätzliche Oberflächenpalette. Lichtkanten, Schatten und Zwischenflächen werden ausschließlich aus diesen Grundfarben gemischt; sie sind keine zusätzlichen Farbfamilien. Auf Weiß oder Schwarz als neue Grundfarbe verzichten: hellster Ton ist `ink`, dunkelste Töne sind `display`/`number`.
+Die Standardansicht erhält ihre Grundfarben und ihren dunklen LCD-Hintergrund. Die ausdrücklich freigegebene Option „Mit Pink“ ist die einzige zusätzliche Oberflächenpalette. Lichtkanten, Schatten und Zwischenflächen werden ausschließlich aus diesen Grundfarben gemischt; sie sind keine zusätzlichen Farbfamilien. Auf Weiß oder Schwarz als neue Grundfarbe verzichten: hellster Ton ist `ink`, dunkelste Töne sind `display`/`number`.
 
-Gehäuse: `housing`. Dunkle Anzeige: `display`. Mathematik: `number`. Deutsch, Sozialkunde, Biologie, Geographie und Wortschatz: `petrol`. Galgenraten: `red`. Deutschlandquiz und Hauptaktionen: `orange` mit dunkler Schrift. Dual N-Back: `violet`. Der globale Lernstärkebalken verwendet den aktuellen Orange-/Pink-Akzent; Prozenttext und Füllung bilden denselben Wert ohne künstliche Mindestfüllung ab. Die WebKit- und Gecko-Füllregeln stehen getrennt, damit unbekannte Pseudoelemente die jeweils andere Regel nicht verwerfen. Beschriftungen auf den nun helleren chromatischen Tasten verwenden dunkle Schrift für ausreichenden Kontrast.
+Gehäuse: `housing`. Dunkle Anzeige: `display`. Mathematik: `number`. Deutsch, Sozialkunde, Biologie, Geographie und Wortschatz: `petrol`. Galgenraten: `red`. Deutschlandquiz und Hauptaktionen: `orange` mit dunkler Schrift. Dual N-Back: `violet`. Der globale Lernstärkebalken verwendet den aktuellen Orange-/Pink-Akzent; Prozenttext und Füllung bilden denselben Wert ohne künstliche Mindestfüllung ab. Die WebKit- und Gecko-Füllregeln stehen getrennt, damit unbekannte Pseudoelemente die jeweils andere Regel nicht verwerfen. Kleine weiße Beschriftung auf farbigen Tasten erhält eine aus derselben Palette abgeleitete dunklere Tastenfläche für besseren Kontrast.
 
 **Ausdrückliche Ausnahme:** Spätere anatomische und andere Schautafeln dürfen fachlich notwendige andere Farben verwenden. Diese Ausnahme gilt für den Inhalt der Schautafeln, nicht für ihre umgebenden Bedienelemente oder die restliche App.
 
