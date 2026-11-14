@@ -19,4 +19,5 @@ import './design/home-status.css';
 import './design/game-updates.css';
 import './design/complexes.css';
 import './design/play-time.css';
+import './design/section-navigation.css';
 createRoot(document.getElementById('root')!).render(<React.StrictMode><AccessGate><App /></AccessGate></React.StrictMode>);

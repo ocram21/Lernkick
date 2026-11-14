@@ -1078,8 +1078,8 @@
       "id": "lineare-funktion",
       "category": "funktionen",
       "title": "Lineare Funktionen",
-      "subtitle": "Steigung m und Startwert b",
-      "symbol": "y=mx+b",
+      "subtitle": "Steigung m und Startwert n",
+      "symbol": "y = mx + n",
       "steps": [
         {
           "headline": "Steigung und y-Achsenabschnitt",

@@ -1,9 +1,10 @@
 import { ArrowRight, CircleHelp } from 'lucide-react';
 import type { HelpLevel, LearningTask } from '../learning/types';
+import { QuestionPrompt } from './QuestionPrompt';
 export function LearningTools({task,helpLevel,panel,alternate,onPanel,onHelp,disabled}:{task:LearningTask;helpLevel:HelpLevel;panel:'help'|'pace'|null;alternate:boolean;onPanel:(panel:'help'|'pace'|null)=>void;onHelp:(level:HelpLevel)=>void;disabled:boolean}) {
   return <section className="learning-tools" aria-label="Lernhilfe">
     <div className="tool-bar"><button disabled={disabled} aria-expanded={panel==='help'} onClick={()=>{onPanel(panel==='help'?null:'help');if(panel!=='help'&&helpLevel===0)onHelp(1);}}><CircleHelp size={18}/>Hilfe</button></div>
-    {panel==='help'&&<div className="tool-panel" aria-live="polite"><strong>{helpLevel===3?'Lösung verstehen':helpLevel===2?'Ein Beispiel':'Ein Hinweis'}</strong><p>{helpLevel===3?task.explanation:helpLevel===2?task.help.example:alternate?task.help.alternate:task.help.hint}</p>
+    {panel==='help'&&<div className="tool-panel" aria-live="polite"><strong>{helpLevel===3?'Lösung verstehen':helpLevel===2?'Ein Beispiel':'Ein Hinweis'}</strong><p><QuestionPrompt text={helpLevel===3?task.explanation:helpLevel===2?task.help.example:alternate?task.help.alternate:task.help.hint} math/></p>
       {helpLevel<3&&task.help.visual&&<CalculationVisual visual={task.help.visual}/>}
       {helpLevel<3&&<button className="text-button" disabled={disabled} onClick={()=>onHelp((helpLevel+1) as HelpLevel)}>{helpLevel===1?'Beispiel ansehen':'Lösung erklären'}<ArrowRight size={16}/></button>}
       <button className="text-button" disabled={disabled} onClick={()=>onPanel(null)}>Hilfe schließen</button>
