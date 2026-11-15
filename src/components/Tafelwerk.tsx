@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Compass, Globe2, Landmark, TreeDeciduous } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
-import { germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
+import { germanCategories, germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
 
 type Subject = 'Mathematik' | 'Geographie' | 'Sozialkunde' | 'Biologie' | 'Deutsch';
 type Step = { headline:string; formula:string; explanation:string; visual:any; sub?:string };
@@ -29,6 +29,7 @@ export function Tafelwerk(){
  const [category,setCategory]=useState<string|null>(null);
  const [lesson,setLesson]=useState<Lesson|null>(null);
  const [stepIndex,setStepIndex]=useState(0);
+ const [germanCategory,setGermanCategory]=useState<string>(germanCategories[0].id);
  const [germanLesson,setGermanLesson]=useState<GermanLesson|null>(null);
  const current=lesson?.steps[stepIndex];
  const sectionRef=useRef<HTMLElement>(null);
@@ -52,7 +53,7 @@ export function Tafelwerk(){
   }else setLesson(item);
   setStepIndex(0);
  }
- function selectSubject(item:Subject){setSubject(item);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}}
+ function selectSubject(item:Subject){setSubject(item);if(item==='Deutsch')setGermanCategory(germanCategories[0].id);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}}
 
  useEffect(()=>{
   if(lesson||germanLesson)headingRef.current?.focus();
@@ -87,7 +88,8 @@ export function Tafelwerk(){
   {subject==='Deutsch'&&!germanLesson&&<>
    <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Deutsch</h1></div>
    <div className="tafelwerk-catalog">
-    <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} aria-label={item.title} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><span>{germanTopicLabels[item.id]??item.title}</span></button>)}</div>
+    <div className="tafelwerk-area-grid deutsch-area-grid" aria-label="Deutschbereiche">{germanCategories.map(item=><button className="tafelwerk-area" key={item.id} aria-label={item.title} aria-pressed={germanCategory===item.id} onClick={()=>setGermanCategory(item.id)}><span>{item.title}</span></button>)}</div>
+    <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.filter(item=>item.category===germanCategory).map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} aria-label={item.title} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><span>{germanTopicLabels[item.id]??item.title}</span></button>)}</div>
    </div>
   </>}
 

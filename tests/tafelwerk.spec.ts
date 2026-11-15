@@ -99,15 +99,19 @@ test('Schriftliche Multiplikation und Division bleiben schrittweise und stellenr
  }
 });
 
-for(const {width,height} of [{width:320,height:568},{width:390,height:667},{width:390,height:844},{width:1440,height:900}])test(`Deutschthemen als Buttons ohne Unterteilung ${width}x${height}`,async({page})=>{
+for(const {width,height} of [{width:320,height:568},{width:390,height:667},{width:390,height:844},{width:1440,height:900}])test(`Deutschthemen mit Bereichen wie Mathe ${width}x${height}`,async({page})=>{
  await page.setViewportSize({width,height});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
  await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();
  const borders=await page.locator('.tafelwerk-subject').evaluateAll(els=>els.map(el=>getComputedStyle(el).borderColor));expect(new Set(borders).size).toBe(1);
  await page.getByRole('button',{name:'Deutsch',exact:true}).click();
  const topics=page.locator('.deutsch-topic-grid [data-lesson]');
- await expect(topics).toHaveCount(20);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
+ await expect(topics).toHaveCount(7);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
  expect(await page.locator('.deutsch-topic-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(2);
- await expect(page.getByRole('button',{name:/Sprachlehre|^Schreiben$|Lesen & Medien/})).toHaveCount(0);
+ const areas=page.locator('[aria-label="Deutschbereiche"] .tafelwerk-area');await expect(areas).toHaveCount(4);
+ for(const [label,count] of [['Grammatik',7],['Rechtschreibung',5],['Schreiben',4],['Lesen & Medien',4]] as const){
+  const area=page.getByRole('button',{name:label,exact:true});await area.click();await expect(area).toHaveAttribute('aria-pressed','true');
+  await expect(topics).toHaveCount(count);
+  expect(await area.evaluate(el=>el.scrollWidth<=el.clientWidth+1)).toBe(true);
  await expect(topics.locator('svg')).toHaveCount(0);
  const fits=await page.locator('.tafelwerk-catalog').evaluate(el=>el.scrollHeight<=el.clientHeight+1);expect(fits).toBe(true);
  for(const topic of await topics.all()){
@@ -115,13 +119,13 @@ for(const {width,height} of [{width:320,height:568},{width:390,height:667},{widt
   expect(await topic.evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
  }
  await page.screenshot({path:`test-results/deutsch-menu-${width}-${height}.png`});
- for(let i=0;i<20;i++){
+ for(let i=0;i<count;i++){
   const choice=topics.nth(i),title=(await choice.getAttribute('aria-label'))!;await choice.click();
   await expect(page.locator('.deutsch-reference-page h1')).toHaveText(title.trim());
   await expect(page.locator('.deutsch-reference-page h1')).toBeFocused();
   await expect(page.locator('.deutsch-reference-page')).toHaveCount(1);
   expect(await page.locator('.deutsch-reference-list').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(2);
-  if(i===0){
+  if(label==='Grammatik'&&i===0){
    expect(await page.locator('.deutsch-reference-page').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
    await page.screenshot({path:`test-results/wortarten-${width}-${height}.png`});
   }
@@ -129,6 +133,7 @@ for(const {width,height} of [{width:320,height:568},{width:390,height:667},{widt
   await expect(page.getByRole('button',{name:/Lösung|Beschriftet|Nummeriert|Ohne Begriffe/})).toHaveCount(0);
   expect(await page.locator('.deutsch-reference-page').evaluate(el=>el.scrollWidth<=el.clientWidth+1)).toBe(true);
   await page.getByRole('button',{name:'Zur Themenliste',exact:true}).click();await expect(choice).toBeFocused();
+ }
  }
  await page.getByRole('button',{name:'Zur Fächerauswahl'}).click();await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toBeVisible();
 });

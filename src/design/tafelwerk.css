@@ -182,9 +182,9 @@
 /* Deutsch: gemeinsame Themenauswahl und einzelne Nachschlagetafeln. */
 .deutsch-reference-page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 2px 8px}
 .tafelwerk:has(.deutsch-topic-grid,.deutsch-reference-page)>.tafelwerk-intro{display:none}
-.tafelwerk-catalog:has(.deutsch-topic-grid){overflow:visible}
-.deutsch-topic-grid{flex:1;min-height:0;max-height:560px;grid-template-rows:repeat(10,minmax(0,1fr));gap:4px}
-.deutsch-topic-grid .tafelwerk-lesson-choice{min-height:0;padding:4px 6px;font-size:13px;line-height:1.15}
+.deutsch-area-grid .tafelwerk-area>span{min-width:0;overflow-wrap:anywhere;hyphens:auto}
+.deutsch-topic-grid{gap:6px}
+.deutsch-topic-grid .tafelwerk-lesson-choice{min-height:47px;padding:6px 8px;font-size:13px;line-height:1.15}
 .deutsch-topic-grid .tafelwerk-lesson-choice>span{flex:1;min-width:0;overflow-wrap:normal;hyphens:auto}
 @media(max-width:370px){.deutsch-topic-grid .tafelwerk-lesson-choice{font-size:12px;line-height:1.1}}
 
