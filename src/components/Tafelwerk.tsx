@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
 import { germanCategories, germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
@@ -35,14 +35,18 @@ export function Tafelwerk(){
  const headingRef=useRef<HTMLHeadingElement>(null);
  const lastLessonId=useRef<string|null>(null);
 
- function showSubjects(){setGermanLesson(null);setLesson(null);setCategory(null);setSubject(null);setStepIndex(0);}
  function showLessons(){setGermanLesson(null);setLesson(null);setStepIndex(0);}
  function openLesson(item:Lesson){
   lastLessonId.current=item.id;
   setLesson(item);
   setStepIndex(0);
  }
- function selectSubject(item:Subject){setSubject(item);if(item==='Deutsch')setGermanCategory(germanCategories[0].id);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}}
+ function selectSubject(item:Subject){
+  if(item!==subject)lastLessonId.current=null;
+  setGermanLesson(null);setLesson(null);setStepIndex(0);setSubject(item);
+  if(item==='Mathematik'&&!category)setCategory(categories[0]?.id??null);
+ }
+
 
  useEffect(()=>{
   if(lesson||germanLesson)headingRef.current?.focus();
@@ -53,7 +57,7 @@ export function Tafelwerk(){
  },[lesson,germanLesson]);
 
  useEffect(()=>{
-  if(lesson&&sectionRef.current)sectionRef.current.scrollTop=0;
+  if(lesson)sectionRef.current?.querySelector('.tafelwerk-detail')?.scrollTo(0,0);
  },[lesson,stepIndex]);
 
  return <section ref={sectionRef} className="tafelwerk" aria-label="Tafelwerk" onKeyDown={event=>{
@@ -64,18 +68,14 @@ export function Tafelwerk(){
   }
  }}>
   <div className="tafelwerk-intro section-marker" aria-label="Bereich: Tafelwerk"><BookOpen size={23}/></div>
-  {!lesson&&!germanLesson&&<>
-   {!subject&&<p className="tafelwerk-prompt">Wähle ein Fach.</p>}
    <div className="box-subjects tafelwerk-subject-grid" aria-label="Fach wählen">{subjects.map(({name,short})=><button className="calculator-key subject-key" key={name} data-subject={name} aria-label={name} aria-pressed={subject===name} onClick={()=>selectSubject(name)}><span className="key-name">{short}</span></button>)}</div>
-  </>}
 
   {subject&&subject!=='Mathematik'&&subject!=='Deutsch'&&<>
-   <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>{subject}</h1></div>
+   <div className="tafelwerk-heading"><h1>{subject}</h1></div>
    <div className="tafelwerk-empty"><span>Noch keine Tafeln</span><p>Hier können später wichtige Bilder und kurze Erklärschritte für {subject} abgelegt werden.</p></div>
   </>}
 
   {subject==='Deutsch'&&!germanLesson&&<>
-   <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Deutsch</h1></div>
    <div className="tafelwerk-catalog">
     <div className="tafelwerk-area-grid deutsch-area-grid" aria-label="Deutschbereiche">{germanCategories.map(item=><button className="tafelwerk-area" key={item.id} aria-label={item.title} aria-pressed={germanCategory===item.id} onClick={()=>setGermanCategory(item.id)}><span>{item.title}</span></button>)}</div>
     <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.filter(item=>item.category===germanCategory).map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} aria-label={item.title} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><span>{germanTopicLabels[item.id]??item.title}</span></button>)}</div>
@@ -83,7 +83,6 @@ export function Tafelwerk(){
   </>}
 
   {subject==='Deutsch'&&germanLesson&&<>
-   <div className="tafelwerk-lesson-top"><button className="tafelwerk-back" onClick={showLessons} aria-label="Zur Themenliste"><ArrowLeft size={18}/><span>Themen</span></button></div>
    <section className="deutsch-reference-page" aria-labelledby={`${germanLesson.id}-title`}>
     <header className="deutsch-sheet-head"><h1 ref={headingRef} tabIndex={-1} id={`${germanLesson.id}-title`}>{germanLesson.title}</h1></header>
     <p className="deutsch-goal">{germanLesson.goal}</p>
@@ -94,7 +93,6 @@ export function Tafelwerk(){
   </>}
 
   {subject==='Mathematik'&&!lesson&&<>
-   <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Mathematik</h1></div>
    <div className="tafelwerk-catalog">
     <div className="tafelwerk-area-grid" aria-label="Themenbereiche">{categories.map(item=><button className="tafelwerk-area" key={item.id} aria-label={item.title} aria-pressed={category===item.id} onClick={()=>setCategory(item.id)}><span className="tafelwerk-area-symbol" aria-hidden="true"><TafelSymbol value={item.icon}/></span><span>{categoryLabels[item.id]??item.title}</span></button>)}</div>
     <div className="tafelwerk-lesson-grid" aria-label="Einzelthemen">{lessons.filter(item=>item.category===category).map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} key={item.id} onClick={()=>openLesson(item)}><span className="tafelwerk-lesson-symbol" aria-hidden="true"><TafelSymbol value={item.symbol}/></span><span>{item.title}</span><ChevronRight size={18}/></button>)}</div>
@@ -102,9 +100,9 @@ export function Tafelwerk(){
   </>}
 
   {lesson&&current&&<>
-   <div className="tafelwerk-lesson-top"><button className="tafelwerk-back" onClick={showLessons} aria-label="Zur Themenliste"><ArrowLeft size={18}/><span>Themen</span></button><span className="tafelwerk-current-lesson" title={lesson.title}>{lesson.title}</span>{lesson.steps.length>1&&<span className="tafelwerk-step-count">{stepIndex+1} / {lesson.steps.length}</span>}</div>
+   <div className="tafelwerk-detail">
    <section className="tafelwerk-board" aria-label="Mathematische Tafel" aria-live="polite">
-    <div className="tafelwerk-board-head"><h1 ref={headingRef} tabIndex={-1}>{current.headline}</h1>{lesson.steps.length>1&&<span>{stepIndex+1}/{lesson.steps.length}</span>}</div>
+    <div className="tafelwerk-board-head"><h1 ref={headingRef} tabIndex={-1}>{current.headline}</h1>{lesson.steps.length>1&&<span className="tafelwerk-step-count">{stepIndex+1} / {lesson.steps.length}</span>}</div>
    <div className="tafelwerk-board-body">
      {current.formula&&current.visual?.type!=='equation'&&!['long-multiplication','long-multiplication-grid','long-division-grid','long-addition','math-stack'].includes(current.visual?.type)&&<div className={`tafelwerk-formula ${current.formula.replace(/<[^>]+>/g,'').length>28?'tafelwerk-formula-small':''}`} dangerouslySetInnerHTML={{__html:formatFractions(current.formula)}}/>}
      {current.sub&&<p className="tafelwerk-subline">{current.sub}</p>}
@@ -114,6 +112,7 @@ export function Tafelwerk(){
    </section>
    <p className="tafelwerk-explanation" key={`${lesson.id}-${stepIndex}`} aria-live="polite">{current.explanation}</p>
    {lesson.steps.length>1&&<div className="tafelwerk-step-controls"><button className="small-button" disabled={stepIndex===0} onClick={()=>setStepIndex(index=>Math.max(0,index-1))}><ChevronLeft size={18}/>Zurück</button><button className="primary" onClick={()=>stepIndex===lesson.steps.length-1?showLessons():setStepIndex(index=>index+1)}>{stepIndex===lesson.steps.length-1?'Zur Themenliste':'Weiter'}<ChevronRight size={18}/></button></div>}
+   </div>
   </>}
  </section>;
 }

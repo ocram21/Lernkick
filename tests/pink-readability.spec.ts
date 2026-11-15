@@ -25,7 +25,7 @@ test('Pink: lesbare Schrift auf hellen Flächen in Navigation, Auswahl und Tafel
  await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();await checkLightSurfaces(page);
  await page.getByRole('button',{name:'Mathematik',exact:true}).click();await checkLightSurfaces(page);
  await page.getByRole('button',{name:'Schriftlich rechnen',exact:true}).click();await checkLightSurfaces(page);
- await page.locator('[data-lesson="schriftlich-subtrahieren"]').click();await checkLightSurfaces(page);await page.getByRole('button',{name:'Zur Themenliste',exact:true}).click();
+ await page.locator('[data-lesson="schriftlich-subtrahieren"]').click();await checkLightSurfaces(page);await page.getByRole('button',{name:'Mathematik',exact:true}).click();
  await page.getByRole('button',{name:'Deutsch',exact:true}).click();await checkLightSurfaces(page);await page.locator('[data-lesson="DEU-01"]').click();await checkLightSurfaces(page);
  await page.screenshot({path:'test-results/pink-tafel-wortarten.png'});
  await page.getByRole('button',{name:'Training',exact:true}).click();

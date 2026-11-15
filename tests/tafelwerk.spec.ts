@@ -10,7 +10,7 @@ for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440
    await page.locator(`[data-lesson="${lesson.id}"]`).click();
    if(lesson.id==='schriftlich-mal'||lesson.id==='schriftlich-geteilt'){
     await expect(page.locator('.tafelwerk-step-count')).toHaveCount(0);
-    await page.locator('.tafelwerk-lesson-top .tafelwerk-back').click();
+    await page.getByRole('button',{name:'Mathematik',exact:true}).click();
     await expect(page.locator(`[data-lesson="${lesson.id}"]`)).toBeFocused();
     continue;
    }
@@ -26,7 +26,7 @@ for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
     if(i<lesson.steps.length-1)await page.getByRole('button',{name:'Weiter',exact:true}).click();
    }
-   await page.getByRole('button',{name:'Zur Themenliste',exact:true}).last().click();
+   await page.getByRole('button',{name:'Mathematik',exact:true}).click();
    await expect(page.locator(`[data-lesson="${lesson.id}"]`)).toBeFocused();
   }
  }
@@ -38,7 +38,7 @@ test('Pfeiltasten bleiben auf die Tafel begrenzt; Schrittgrenzen und Rückweg',a
  await page.keyboard.press('ArrowRight');await expect(page.locator('.tafelwerk-step-count')).toHaveText('2 / 3');
  await page.getByRole('button',{name:'Schritt 3 von 3'}).click();await page.keyboard.press('ArrowRight');await expect(page.locator('.tafelwerk-step-count')).toHaveText('3 / 3');
  await page.getByRole('button',{name:'Training',exact:true}).focus();await page.keyboard.press('ArrowLeft');await expect(page.locator('.tafelwerk-step-count')).toHaveText('3 / 3');
- await page.getByRole('button',{name:'Zur Themenliste',exact:true}).last().click();await expect(page.locator('[data-lesson="prozent"]')).toBeFocused();
+ await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.locator('[data-lesson="prozent"]')).toBeFocused();
 });
 test('Tafelwerk funktioniert offline und erhält Lernstände und gespeicherte Runden',async({page,context})=>{
  await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
@@ -76,7 +76,7 @@ test('Schriftliche Musterrechnungen entsprechen der Heftanordnung',async({page})
    const centers=await page.locator('.written-reference text[data-column="4"]').evaluateAll(els=>els.map(el=>el.getBoundingClientRect().x+el.getBoundingClientRect().width/2));
    for(const center of centers)expect(Math.abs(center-centers[0])).toBeLessThan(1);
    await page.screenshot({path:`test-results/${id}-${viewport.width}.png`});
-   await page.getByRole('button',{name:'Zur Themenliste',exact:true}).click();await expect(page.locator(`[data-lesson="${id}"]`)).toBeFocused();
+   await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.locator(`[data-lesson="${id}"]`)).toBeFocused();
   }
  }
 });
@@ -114,10 +114,10 @@ for(const {width,height} of [{width:320,height:568},{width:390,height:667},{widt
   await expect(page.locator('.deutsch-question,.deutsch-mode,.deutsch-answer')).toHaveCount(0);
   await expect(page.getByRole('button',{name:/Lösung|Beschriftet|Nummeriert|Ohne Begriffe/})).toHaveCount(0);
   expect(await page.locator('.deutsch-reference-page').evaluate(el=>el.scrollWidth<=el.clientWidth+1)).toBe(true);
-  await page.getByRole('button',{name:'Zur Themenliste',exact:true}).click();await expect(choice).toBeFocused();
+  await page.getByRole('button',{name:'Deutsch',exact:true}).click();await expect(choice).toBeFocused();
  }
  }
- await page.getByRole('button',{name:'Zur Fächerauswahl'}).click();await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Zur Fächerauswahl'})).toHaveCount(0);await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toBeVisible();
 });
 
 for(const pink of [false,true])test(`Tafelwerk übernimmt Lernkasten-Kacheln und violette Auswahl: Pink ${pink}`,async({page})=>{
@@ -137,4 +137,23 @@ for(const pink of [false,true])test(`Tafelwerk übernimmt Lernkasten-Kacheln und
  await expect(page.locator('.tafelwerk-subject-grid [aria-pressed=true]')).toHaveCount(1);
  expect(await page.locator('.tafelwerk-area[aria-pressed=true]').evaluate(el=>getComputedStyle(el).backgroundColor)).toBe('rgb(134, 80, 155)');
  await page.screenshot({path:`test-results/tafelwerk-deutsch-tiles-${pink?'pink':'normal'}.png`});
+});
+
+for(const viewport of [{width:320,height:568},{width:844,height:390}])test(`Fächer bleiben an derselben Stelle und führen zur gewählten Rubrik zurück ${viewport.width}`,async({page})=>{
+ await page.setViewportSize(viewport);await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
+ await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();
+ const position=()=>page.locator('.tafelwerk-subject-grid').evaluate(el=>{const r=el.getBoundingClientRect();return [r.x,r.y];});
+ const original=await position();
+ for(const name of ['Mathematik','Deutsch','Sozialkunde','Biologie','Geographie']){
+  await page.getByRole('button',{name,exact:true}).click();expect(await position()).toEqual(original);await expect(page.locator('.tafelwerk-intro')).toBeVisible();
+ }
+ await page.getByRole('button',{name:'Mathematik',exact:true}).click();await page.getByRole('button',{name:'Schriftlich rechnen',exact:true}).click();await page.locator('[data-lesson="schriftlich-mal"]').click();
+ expect(await position()).toEqual(original);await page.locator('.tafelwerk-detail').evaluate(el=>{el.scrollTop=el.scrollHeight;});
+ expect(await position()).toEqual(original);await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toBeInViewport();
+ await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.getByRole('button',{name:'Schriftlich rechnen',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.getByRole('button',{name:'Deutsch',exact:true}).click();await page.getByRole('button',{name:'Rechtschreibung',exact:true}).click();await page.locator('[data-lesson="DEU-08"]').click();
+ await page.getByRole('button',{name:'Deutsch',exact:true}).click();await expect(page.getByRole('button',{name:'Rechtschreibung',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.locator('[data-lesson="DEU-08"]').click();await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);await expect(page.locator('.tafelwerk-board')).toHaveCount(0);
+ await expect(page.locator('.tafelwerk-back')).toHaveCount(0);
+ await page.screenshot({path:`test-results/tafelwerk-persistent-subjects-${viewport.width}.png`});
 });
