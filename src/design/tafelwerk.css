@@ -54,7 +54,7 @@
 .tafelwerk-formula-small{font-size:clamp(22px,5.2vw,32px)}
 .tafelwerk-formula .accent{color:var(--calc-teal)}
 .tafelwerk-formula .yellow{color:var(--calc-orange)}
-.tafelwerk .fraction{display:inline-flex;vertical-align:middle;flex-direction:column;align-items:center;min-width:1.05em;margin:0 .07em;font-size:.82em;line-height:1.02}
+.tafelwerk .fraction{display:inline-flex;vertical-align:middle;flex-direction:column;align-items:center;min-width:1.05em;margin:0 .07em;font-size:.74em;line-height:1.02}
 .tafelwerk .fraction .top{width:100%;padding:0 .12em .07em;border-bottom:2px solid currentColor;text-align:center}
 .tafelwerk .fraction .bottom{padding-top:.08em}
 .tafelwerk .fraction-symbol{min-width:1em;margin:0;font-size:.9em;line-height:.9}
@@ -101,11 +101,15 @@
 .tafelwerk .sign-rule-group{min-width:0}
 .tafelwerk .sign-rule-group h2{margin:0 0 7px;color:var(--calc-teal);font-family:'Barlow Condensed',sans-serif;font-size:clamp(15px,3.5vw,21px);line-height:1.1;text-align:center}
 .tafelwerk .sign-rule-example{padding:5px 0;border-bottom:1px solid color-mix(in srgb,var(--calc-ink) 18%,transparent);color:var(--calc-ink);font:650 clamp(15px,4.4vw,23px)/1.2 'Barlow Condensed',sans-serif;text-align:center;white-space:nowrap;font-variant-numeric:tabular-nums}
-.tafelwerk .long-division{width:max-content;max-width:100%;margin:auto;padding:4px 14px;color:var(--calc-ink);font:600 clamp(18px,4.8vw,24px)/1.16 'Barlow Condensed',sans-serif;font-variant-numeric:tabular-nums}
-.tafelwerk .division-quotient{padding-left:8ch;text-align:left;color:var(--calc-teal)}
-.tafelwerk .division-start,.tafelwerk .division-row{white-space:pre}
-.tafelwerk .division-row{text-align:right}
-.tafelwerk .division-rule{height:4px;margin:0 0 2px;border-top:1.5px solid var(--calc-ink)}
+.tafelwerk .long-division{width:max-content;max-width:100%;margin:auto;padding:4px 12px;color:var(--calc-ink);display:grid;grid-template-columns:max-content max-content;column-gap:3px;row-gap:0;font:600 clamp(20px,5vw,27px)/1.16 'Barlow Condensed',sans-serif;font-variant-numeric:tabular-nums}
+.tafelwerk .division-quotient{grid-column:2;grid-row:1;display:grid;grid-template-columns:repeat(var(--division-columns),1.2ch);color:var(--calc-teal);line-height:1.05}
+.tafelwerk .division-start{grid-column:2;grid-row:2;display:block;padding:2px 0 0 3px;border-top:2px solid var(--calc-ink);border-left:2px solid var(--calc-ink)}
+.tafelwerk .division-divisor{grid-column:1;grid-row:2;align-self:start;padding:2px 2px 0 0}
+.tafelwerk .division-digits{display:grid;grid-template-columns:repeat(var(--division-columns),1.2ch);text-align:center}
+.tafelwerk .division-digit{min-width:0;text-align:center}
+.tafelwerk .division-work{grid-column:2;display:grid;grid-auto-rows:min-content;row-gap:1px;padding-left:3px}
+.tafelwerk .division-row{width:max-content;margin-left:calc(var(--division-offset) * 1.2ch);line-height:1.05}
+.tafelwerk .division-rule{width:calc(var(--division-length) * 1.2ch);height:0;margin:1px 0 2px calc(var(--division-offset) * 1.2ch);border-top:1.5px solid var(--calc-ink)}
 .tafelwerk .division-result{color:var(--calc-teal)}
 .tafelwerk .linear-function-work{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:2px}
 .tafelwerk .linear-function-work>svg{width:100%;height:auto;max-height:100%}
@@ -120,10 +124,14 @@
 .tafelwerk .transversal-key span:nth-child(3){color:var(--calc-violet)}
 .tafelwerk .transversal-key span:nth-child(4){color:var(--calc-orange)}
 .tafelwerk .long-calculation{width:max-content;max-width:100%;margin:auto;color:var(--calc-ink);font:600 clamp(21px,5.5vw,30px)/1.15 'Barlow',monospace;font-variant-numeric:tabular-nums}
-.tafelwerk .inline-multiplication{width:min(100%,390px);margin:auto;display:grid;gap:6px;color:var(--calc-ink);font-variant-numeric:tabular-nums;text-align:center}
-.tafelwerk .inline-multiplication-task{padding:0 6px 5px;border-bottom:2px solid var(--calc-ink);font:700 clamp(26px,6vw,36px)/1.15 'Barlow Condensed',sans-serif}
-.tafelwerk .inline-multiplication-partial{font:600 clamp(17px,4vw,22px)/1.2 'Barlow',sans-serif}
-.tafelwerk .inline-multiplication-result{padding-top:5px;border-top:1px solid var(--calc-ink);color:var(--calc-teal);font:700 clamp(19px,4.6vw,25px)/1.2 'Barlow',sans-serif}
+.tafelwerk .inline-multiplication{width:max-content;max-width:100%;margin:auto;display:grid;color:var(--calc-ink);font-variant-numeric:tabular-nums;text-align:right}
+.tafelwerk .multiplication-stack{display:grid;grid-template-columns:max-content;grid-auto-rows:min-content;font:700 clamp(27px,6.4vw,36px)/1.08 'Barlow Condensed',sans-serif}
+.tafelwerk .multiplication-row{display:grid;grid-template-columns:1.2em auto;align-items:center;min-height:1.08em}
+.tafelwerk .multiplication-sign{padding-right:.15em;text-align:center;color:var(--calc-orange)}
+.tafelwerk .multiplication-digits{display:grid;grid-template-columns:repeat(var(--multiplication-columns),1.05ch);text-align:center}
+.tafelwerk .inline-multiplication-rule{grid-column:1;width:calc(var(--multiplication-columns) * 1.05ch);height:0;margin:1px 0 2px 1.2em;border-top:2px solid var(--calc-ink)}
+.tafelwerk .inline-multiplication-rule.result-rule{border-top-width:1.5px}
+.tafelwerk .multiplication-result{color:var(--calc-teal)}
 .tafelwerk .calculation-line{display:grid;grid-template-columns:1.1em minmax(4ch,max-content);justify-content:end;line-height:1.2}
 .tafelwerk .calculation-line>span:first-child{text-align:left;color:var(--calc-orange)}
 .tafelwerk .calculation-line>span:last-child{text-align:right;white-space:pre}

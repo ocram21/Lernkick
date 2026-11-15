@@ -201,7 +201,7 @@
         {
           "headline": "Faktoren nebeneinanderschreiben",
           "formula": "24 · 13",
-          "explanation": "Die Faktoren bleiben in einer Zeile. Der Rechenstrich trennt die Aufgabe von den Teilrechnungen.",
+          "explanation": "Die Faktoren stehen untereinander. Die letzte Ziffer der Einerstelle steht genau unter der Einerstelle des oberen Faktors.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
@@ -213,13 +213,13 @@
         {
           "headline": "Mit der Einerziffer rechnen",
           "formula": "24 · 3 = 72",
-          "explanation": "Zuerst rechnest du 24 mal 3. Dieses Teilprodukt steht unter dem Rechenstrich.",
+          "explanation": "Rechne zuerst mit der Einerziffer 3. Das Teilprodukt 72 steht rechtsbündig unter den Faktoren.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
             "bottom": "13",
             "partials": [
-              "24 · 3 = 72"
+              "72"
             ]
           },
           "sub": ""
@@ -227,14 +227,14 @@
         {
           "headline": "Dann den Zehner berechnen",
           "formula": "24 · 10 = 240",
-          "explanation": "Die 1 in 13 steht für einen Zehner. Deshalb rechnest du 24 mal 10.",
+          "explanation": "Die 1 in 13 steht für einen Zehner. Deshalb entsteht 240; die 0 hält die Einerstelle frei und die Ziffern stehen stellengerecht untereinander.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
             "bottom": "13",
             "partials": [
-              "24 · 3 = 72",
-              "24 · 10 = 240"
+              "72",
+              "240"
             ]
           },
           "sub": ""
@@ -242,16 +242,16 @@
         {
           "headline": "Teilprodukte addieren",
           "formula": "72 + 240 = 312",
-          "explanation": "Addiere die beiden Teilprodukte. Das Ergebnis der Aufgabe ist 312.",
+          "explanation": "Addiere 72 und 240 stellengerecht. Das Ergebnis 312 steht unter dem zweiten Rechenstrich.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
             "bottom": "13",
             "partials": [
-              "24 · 3 = 72",
-              "24 · 10 = 240"
+              "72",
+              "240"
             ],
-            "result": "72 + 240 = 312"
+            "result": "312"
           },
           "sub": ""
         }
@@ -269,50 +269,123 @@
         {
           "headline": "Erste Ziffern teilen",
           "formula": "15 − 12 = 3",
-          "explanation": "12 passt einmal in 15. Schreibe die 1 an die Zehnerstelle des Ergebnisses und ziehe 12 ab.",
+          "explanation": "12 passt einmal in 15. Schreibe die 1 über die passende Stelle und ziehe 12 unter den 15 ab.",
           "visual": {
             "type": "long-division",
             "divisor": "12",
             "dividend": "156",
             "quotient": "1",
             "rows": [
-              "15 − 12 = 3"
-            ]
+              {
+                "at": 0,
+                "value": "15"
+              },
+              {
+                "at": 0,
+                "value": "12"
+              },
+              {
+                "at": 0,
+                "rule": true,
+                "length": 2
+              },
+              {
+                "at": 1,
+                "value": "3"
+              }
+            ],
+            "quotientAt": 1
           },
           "sub": ""
         },
         {
           "headline": "Nächste Ziffer herunterholen",
           "formula": "36 − 36 = 0",
-          "explanation": "Hole die 6 herunter. 12 passt dreimal in 36. Schreibe die 3 neben die 1 im Ergebnis.",
+          "explanation": "Hole die 6 herunter und stelle sie neben den Rest 3. 12 passt dreimal in 36; die 3 kommt neben die 1 im Ergebnis.",
           "visual": {
             "type": "long-division",
             "divisor": "12",
             "dividend": "156",
             "quotient": "13",
             "rows": [
-              "15 − 12 = 3",
-              "36 herunterholen",
-              "36 − 36 = 0"
-            ]
+              {
+                "at": 0,
+                "value": "15"
+              },
+              {
+                "at": 0,
+                "value": "12"
+              },
+              {
+                "at": 0,
+                "rule": true,
+                "length": 2
+              },
+              {
+                "at": 1,
+                "value": "36"
+              },
+              {
+                "at": 1,
+                "value": "36"
+              },
+              {
+                "at": 1,
+                "rule": true,
+                "length": 2
+              },
+              {
+                "at": 2,
+                "value": "0"
+              }
+            ],
+            "quotientAt": 1
           },
           "sub": ""
         },
         {
-          "headline": "Ergebnis prüfen",
+          "headline": "Ergebnis und Probe",
           "formula": "156 : 12 = 13",
-          "explanation": "Es bleibt kein Rest. Die Probe bestätigt den Rechenweg: 13 · 12 = 156.",
+          "explanation": "Es bleibt kein Rest. Die Probe bestätigt den Rechenweg: 13 mal 12 ergibt 156.",
           "visual": {
             "type": "long-division",
             "divisor": "12",
             "dividend": "156",
             "quotient": "13",
             "rows": [
-              "15 − 12 = 3",
-              "36 herunterholen",
-              "36 − 36 = 0",
-              "Ergebnis: 13, Rest 0"
-            ]
+              {
+                "at": 0,
+                "value": "15"
+              },
+              {
+                "at": 0,
+                "value": "12"
+              },
+              {
+                "at": 0,
+                "rule": true,
+                "length": 2
+              },
+              {
+                "at": 1,
+                "value": "36"
+              },
+              {
+                "at": 1,
+                "value": "36"
+              },
+              {
+                "at": 1,
+                "rule": true,
+                "length": 2
+              },
+              {
+                "at": 2,
+                "value": "0",
+                "result": true
+              }
+            ],
+            "quotientAt": 1
           },
           "sub": ""
         }
@@ -1197,6 +1270,37 @@
       "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
+      "id": "tafelprojektion",
+      "category": "geometrie",
+      "stage": "9-10",
+      "title": "Tafelprojektion",
+      "subtitle": "Grundriss und Aufriss eines Punktes",
+      "symbol": "P′",
+      "sourceNote": "Grundwissen zur senkrechten Projektion auf Grund- und Aufrissebene",
+      "steps": [
+        {
+          "headline": "Punkt auf zwei Tafeln projizieren",
+          "formula": "P (x|y|z) → Pᵍ und Pᵃ",
+          "explanation": "Von P führen senkrechte Projektionslinien zur waagerechten Grundrissebene und zur senkrechten Aufrissebene.",
+          "visual": {
+            "type": "projection",
+            "active": "ground"
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Koordinaten zuordnen",
+          "formula": "Grundriss (x|y) · Aufriss (x|z)",
+          "explanation": "Im Grundriss bleiben x und y erhalten. Im Aufriss bleiben x und z erhalten. Die Projektionslinien stehen jeweils im rechten Winkel auf der Tafel.",
+          "visual": {
+            "type": "projection",
+            "active": "front"
+          },
+          "sub": ""
+        }
+      ]
+    },
+    {
       "id": "rechteck",
       "category": "geometrie",
       "title": "Umfang und Fläche",
@@ -1834,41 +1938,6 @@
       ]
     },
     {
-      "id": "trigonometrie",
-      "category": "geometrie",
-      "stage": "9-10",
-      "title": "Sinus, Kosinus und Tangens",
-      "subtitle": "Seiten am rechtwinkligen Dreieck vergleichen",
-      "symbol": "sin",
-      "sourceNote": "Grundwissen Klasse 9/10",
-      "steps": [
-        {
-          "headline": "Seiten zum Winkel zuordnen",
-          "formula": "Gegenkathete · Ankathete · Hypotenuse",
-          "explanation": "Wähle zuerst den betrachteten Winkel. Die Hypotenuse liegt gegenüber dem rechten Winkel; Gegen- und Ankathete beziehen sich auf deinen gewählten Winkel.",
-          "visual": {
-            "type": "triangle",
-            "label": "result"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Passendes Verhältnis wählen",
-          "formula": "sin α = Gegenkathete : Hypotenuse",
-          "explanation": "Sinus nutzt Gegenkathete und Hypotenuse, Kosinus Ankathete und Hypotenuse, Tangens Gegenkathete und Ankathete.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "sin α = GK : H",
-              "cos α = AK : H",
-              "tan α = GK : AK"
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
       "id": "exponentialfunktion",
       "category": "funktionen",
       "stage": "9-10",
@@ -2350,79 +2419,6 @@
             "rows": [
               "log₂(8) = 3",
               "denn 2³ = 8"
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "kugel",
-      "category": "geometrie",
-      "stage": "9-10",
-      "title": "Volumen und Oberfläche der Kugel",
-      "subtitle": "Radius bestimmt Inhalt und Außenfläche",
-      "symbol": "r",
-      "sourceNote": "Strobl Grundwissen Klasse 10, Abschnitt 9",
-      "steps": [
-        {
-          "headline": "Radius ablesen",
-          "formula": "r = halber Durchmesser",
-          "explanation": "Der Radius geht vom Mittelpunkt bis zur Kugeloberfläche. Er ist die Hälfte des Durchmessers.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "d = 2r",
-              "r = d : 2"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Passende Formel wählen",
-          "formula": "V = ⁴⁄₃πr³ · O = 4πr²",
-          "explanation": "Für das Volumen wird der Radius hoch drei gerechnet; für die Oberfläche hoch zwei. Achte auf Kubik- und Quadrateinheiten.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "V = 4πr³ : 3",
-              "O = 4πr²"
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "kegel",
-      "category": "geometrie",
-      "stage": "9-10",
-      "title": "Volumen und Oberfläche des Kegels",
-      "subtitle": "Kreisgrundfläche und Spitze",
-      "symbol": "V",
-      "sourceNote": "Strobl Grundwissen Klasse 10, Abschnitt 8",
-      "steps": [
-        {
-          "headline": "Kreis als Grundfläche",
-          "formula": "G = πr²",
-          "explanation": "Miss den Radius der Grundfläche und berechne den Flächeninhalt des Kreises.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "G = πr²"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Spitze ergänzt ein Drittel",
-          "formula": "V = G · h : 3",
-          "explanation": "Ein Kegel hat ein Drittel des Volumens eines Zylinders mit gleicher Grundfläche und Höhe.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "V = πr²h : 3",
-              "O = πr² + πrs"
             ]
           },
           "sub": ""
