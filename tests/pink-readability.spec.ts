@@ -20,6 +20,7 @@ test('Pink: lesbare Schrift auf hellen Flächen in Navigation, Auswahl und Tafel
  await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
  await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();await checkLightSurfaces(page);
  await page.getByRole('button',{name:'Ausgang',exact:true}).click();await checkLightSurfaces(page);
+ await page.getByRole('button',{name:'Training-Hilfe',exact:true}).click();await checkLightSurfaces(page);await page.keyboard.press('Escape');
  await page.getByRole('button',{name:'Lernkasten',exact:true}).click();await checkLightSurfaces(page);
  await page.getByRole('button',{name:'Karten hinzufügen',exact:true}).click();await checkLightSurfaces(page);await page.getByRole('button',{name:'Abbrechen',exact:true}).click();
  await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();await checkLightSurfaces(page);

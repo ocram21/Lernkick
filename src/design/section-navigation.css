@@ -44,3 +44,19 @@
 .learning-box.box-selecting .box-subjects .calculator-key{height:auto;min-height:52px}
 @media(max-width:370px){.learning-box.box-selecting{padding-inline:8px}}
 .tafelwerk .box-subjects .calculator-key{height:auto;min-height:52px}
+
+/* Shared centered subject labels and section Info controls. */
+.tafelwerk-subject-grid .calculator-key{display:flex;align-items:center;justify-content:center;text-align:center}
+:root .app-shell.home-screen>main{padding-top:10px}
+.home-screen .section-heading{width:min(calc(100vw - 96px),760px);align-self:center;min-height:36px;grid-template-columns:minmax(0,1fr) 44px minmax(0,1fr);padding-inline:12px;gap:6px}
+.training-heading-actions{display:flex;align-items:center;justify-content:flex-end;gap:4px;min-width:0}
+.home-screen .training-heading-actions .boss-switch{width:64px;min-width:0;flex-shrink:0;min-height:36px;padding:3px;font-size:11px;line-height:1.1;white-space:normal}
+.home-screen .training-heading-actions .boss-switch svg{display:none}
+.home-screen .training-help{width:36px;height:36px;min-width:36px;min-height:36px}
+.settings-top .settings-help{background:transparent;color:var(--ink)}
+.box-help-text h3{font-size:16px;margin:16px 0 6px}.box-help-text details{margin-top:14px}.box-help-text summary{cursor:pointer;font-weight:600}
+@media(max-width:700px){.home-screen .section-heading{width:calc(100vw - 32px)}}
+@media(max-width:370px){.home-screen .section-heading{padding-inline:8px}}
+.training-heading-actions{align-self:start}
+.home-screen .section-heading>.section-marker{height:36px;align-self:start}
+:root[data-pink=true] .box-help-dialog{--ink:var(--pink-ink);--muted:var(--pink-muted)}

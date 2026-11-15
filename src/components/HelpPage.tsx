@@ -28,6 +28,11 @@ export const helpSections=[
  {title:'App installieren und offline lernen',details:true,paragraphs:[
   'Öffne die App einmal vollständig online. Android: Browser-Menü, App installieren. iPhone: Safari, Teilen, Zum Home-Bildschirm. Danach kannst du offline üben. App aktualisieren lädt eine neue Version; deine gespeicherten Lernstände bleiben erhalten.']}
 ];
+export function HelpContent({scope}:{scope:'training'|'settings'}){
+ const Heading=scope==='settings'?'h2':'h3';
+ const sections=helpSections.filter(section=>scope==='settings'?['Einstellungen und Sicherung','App installieren und offline lernen'].includes(section.title):['Training und Schwierigkeit','Games','Weitere Spiele','Score und Skill','Bosskampf und Statistik'].includes(section.title));
+ return <>{sections.map(section=>section.details?<details key={section.title} className={section.title.startsWith('Boss')?'boss-help':'install-help'}><summary>{section.title}</summary>{section.paragraphs.map(text=><p key={text}>{text}</p>)}</details>:<div key={section.title}><Heading>{section.title}</Heading>{section.paragraphs.map(text=><p key={text}>{text}</p>)}</div>)}</>;
+}
 export function HelpPage({onExit}:{onExit:()=>void}){
- return <section className="help-page concise-help"><ExitButton onClick={onExit}/><h1>Kurze Hilfe</h1>{helpSections.map(section=>section.details?<details key={section.title} className={section.title.startsWith('Boss')?'boss-help':'install-help'}><summary>{section.title}</summary>{section.paragraphs.map(text=><p key={text}>{text}</p>)}</details>:<div key={section.title}><h2>{section.title}</h2>{section.paragraphs.map(text=><p key={text}>{text}</p>)}</div>)}</section>;
+ return <section className="help-page concise-help"><ExitButton onClick={onExit}/><h1>Hilfe zu den Einstellungen</h1><HelpContent scope="settings"/></section>;
 }

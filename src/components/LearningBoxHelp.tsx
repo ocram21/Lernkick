@@ -1,8 +1,8 @@
-import {useEffect,useRef} from 'react';
+import {useEffect,useRef,type ReactNode} from 'react';
 import {X} from 'lucide-react';
 import {boxHelpTitle,boxHelpParagraphs} from '../study/boxHelp';
-export function LearningBoxHelp({onClose,title=boxHelpTitle,paragraphs=boxHelpParagraphs,label='Lernkasten-Hilfe schließen'}:{onClose:()=>void;title?:string;paragraphs?:readonly string[];label?:string}){
+export function LearningBoxHelp({onClose,title=boxHelpTitle,paragraphs=boxHelpParagraphs,label='Lernkasten-Hilfe schließen',children}:{onClose:()=>void;title?:string;paragraphs?:readonly string[];label?:string;children?:ReactNode}){
  const ref=useRef<HTMLDialogElement>(null);
  useEffect(()=>{const opener=document.activeElement as HTMLElement,node=ref.current!;node.showModal();return()=>{node.close();opener?.focus();};},[]);
- return <dialog ref={ref} className="box-help-dialog" aria-labelledby="box-help-title" onCancel={e=>{e.preventDefault();onClose();}} onClick={e=>{if(e.target!==e.currentTarget)return;const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)onClose();}}><div className="box-help-heading"><h2 id="box-help-title">{title}</h2><button className="box-help-close" aria-label={label} onClick={onClose} autoFocus><X size={22}/></button></div><div className="box-help-text">{paragraphs.map(text=><p key={text}>{text}</p>)}</div></dialog>;
+ return <dialog ref={ref} className="box-help-dialog" aria-labelledby="box-help-title" onCancel={e=>{e.preventDefault();onClose();}} onClick={e=>{if(e.target!==e.currentTarget)return;const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)onClose();}}><div className="box-help-heading"><h2 id="box-help-title">{title}</h2><button className="box-help-close" aria-label={label} onClick={onClose} autoFocus><X size={22}/></button></div><div className="box-help-text">{children??paragraphs.map(text=><p key={text}>{text}</p>)}</div></dialog>;
 }
