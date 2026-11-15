@@ -60,7 +60,7 @@
         {
           "headline": "Mal und Geteilt",
           "formula": "",
-          "explanation": "Bei Mal und Geteilt gilt: Gleiche Vorzeichen ergeben ein positives, verschiedene ein negatives Ergebnis. Die Beträge rechnest du normal.",
+          "explanation": "Bei Mal und Geteilt gilt für Zahlen ungleich 0: Gleiche Vorzeichen ergeben ein positives, verschiedene ein negatives Ergebnis. Rechne zuerst ohne die Vorzeichen. Durch 0 darfst du nicht teilen.",
           "visual": {
             "type": "sign-rules",
             "groups": [
@@ -124,7 +124,7 @@
         {
           "headline": "Zwei Rechenwege vergleichen",
           "formula": "4 + 2 · 3 = 10",
-          "explanation": "Ohne Klammern rechnest du zuerst Mal und Geteilt, dann Plus und Minus. Klammern werden zuerst berechnet.",
+          "explanation": "Rechne zuerst Klammern, dann Potenzen, dann Mal und Geteilt, zuletzt Plus und Minus. Gleichrangige Rechenarten rechnest du von links nach rechts.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -199,7 +199,7 @@
       "symbol": "×",
       "steps": [
         {
-          "headline": "Faktoren nebeneinanderschreiben",
+          "headline": "Faktoren untereinanderschreiben",
           "formula": "24 · 13",
           "explanation": "Die Faktoren stehen untereinander. Die letzte Ziffer der Einerstelle steht genau unter der Einerstelle des oberen Faktors.",
           "visual": {
@@ -213,7 +213,7 @@
         {
           "headline": "Mit der Einerziffer rechnen",
           "formula": "24 · 3 = 72",
-          "explanation": "Rechne zuerst mit der Einerziffer 3. Das Teilprodukt 72 steht rechtsbündig unter den Faktoren.",
+          "explanation": "Rechne 3 · 4 = 12: Schreibe 2 und merke 1 Zehner. Dann 3 · 2 + 1 = 7 Zehner. Das Teilprodukt ist 72.",
           "visual": {
             "type": "long-multiplication",
             "top": "24",
@@ -269,7 +269,7 @@
         {
           "headline": "Erste Ziffern teilen",
           "formula": "15 − 12 = 3",
-          "explanation": "12 passt einmal in 15. Schreibe die 1 über die passende Stelle und ziehe 12 unter den 15 ab.",
+          "explanation": "1 ist kleiner als 12, deshalb beginne mit 15. 12 passt einmal hinein. Schreibe 1 über die Zehnerstelle (über die 5): 1 · 12 = 12, dann 15 − 12 = 3.",
           "visual": {
             "type": "long-division",
             "divisor": "12",
@@ -278,11 +278,8 @@
             "rows": [
               {
                 "at": 0,
-                "value": "15"
-              },
-              {
-                "at": 0,
-                "value": "12"
+                "value": "12",
+                "subtract": true
               },
               {
                 "at": 0,
@@ -310,11 +307,8 @@
             "rows": [
               {
                 "at": 0,
-                "value": "15"
-              },
-              {
-                "at": 0,
-                "value": "12"
+                "value": "12",
+                "subtract": true
               },
               {
                 "at": 0,
@@ -327,7 +321,8 @@
               },
               {
                 "at": 1,
-                "value": "36"
+                "value": "36",
+                "subtract": true
               },
               {
                 "at": 1,
@@ -355,11 +350,8 @@
             "rows": [
               {
                 "at": 0,
-                "value": "15"
-              },
-              {
-                "at": 0,
-                "value": "12"
+                "value": "12",
+                "subtract": true
               },
               {
                 "at": 0,
@@ -372,7 +364,8 @@
               },
               {
                 "at": 1,
-                "value": "36"
+                "value": "36",
+                "subtract": true
               },
               {
                 "at": 1,
@@ -430,7 +423,7 @@
         {
           "headline": "Oben und unten gleich behandeln",
           "formula": "½ = 2⁄4 = 4⁄8",
-          "explanation": "Beim Erweitern multiplizierst du Zähler und Nenner mit derselben Zahl. Beim Kürzen teilst du beide durch denselben gemeinsamen Teiler.",
+          "explanation": "Erweitern: Zähler und Nenner mit derselben Zahl ungleich 0 multiplizieren. Hier jeweils mit 2. Rückwärts kürzt du beide durch 2. Der Anteil bleibt gleich.",
           "visual": {
             "type": "fractions",
             "parts": [
@@ -569,12 +562,12 @@
         {
           "headline": "Ein Viertel umwandeln",
           "formula": "¼ = 1 : 4 = 0,25 = 25 %",
-          "explanation": "Der Bruchstrich bedeutet Division. Für Prozent schreibst du den Anteil von hundert: 0,25 · 100 = 25.",
+          "explanation": "Ein Viertel sind 25 Hundertstel. Prozent bedeutet „von hundert“: 25/100 = 25 %. Die Prozentzahl erhältst du mit 0,25 · 100 = 25.",
           "visual": {
             "type": "math-stack",
             "rows": [
               "¼ = 1 : 4 = 0,25",
-              "0,25 · 100 = 25 %"
+              "0,25 = 25/100 = 25 %"
             ]
           },
           "sub": ""
@@ -598,9 +591,8 @@
             "type": "math-stack",
             "rows": [
               "3(x + 2)",
-              "↙ ×3             ×3 ↘",
-              "3 · x       +       3 · 2",
-              "3x          +          6"
+              "= 3 · x + 3 · 2",
+              "= 3x + 6"
             ]
           },
           "sub": ""
@@ -619,7 +611,7 @@
         {
           "headline": "Gemeinsame Faktoren nutzen",
           "formula": "6x + 9 = 3·2x + 3·3 = 3(2x + 3)",
-          "explanation": "Suche den größten gemeinsamen Faktor. Teile jeden Summanden durch ihn und setze die Ergebnisse in eine Klammer.",
+          "explanation": "3 ist ein gemeinsamer Faktor von 6x und 9. Teile beide Summanden durch 3: Es bleiben 2x und 3 in der Klammer. Zur Probe kannst du wieder ausmultiplizieren.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -642,7 +634,7 @@
       "symbol": "x",
       "steps": [
         {
-          "headline": "Gleichung umformen",
+          "headline": "Auf beiden Seiten 5 abziehen",
           "formula": "",
           "explanation": "Die 5 soll weg. Ziehe auf beiden Seiten 5 ab.",
           "visual": {
@@ -658,7 +650,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Beide Seiten durch 3 teilen",
           "formula": "",
           "explanation": "Jetzt steht 3x = 15. Teile beide Seiten durch 3.",
           "visual": {
@@ -679,7 +671,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Lösung mit der Probe prüfen",
           "formula": "",
           "explanation": "Damit ist x = 5. Probe: 3 · 5 + 5 = 20.",
           "visual": {
@@ -716,7 +708,7 @@
       "symbol": "x",
       "steps": [
         {
-          "headline": "Gleichung umformen",
+          "headline": "Auf beiden Seiten 2x abziehen",
           "formula": "",
           "explanation": "x steht auf beiden Seiten. Ziehe 2x auf beiden Seiten ab.",
           "visual": {
@@ -732,7 +724,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Auf beiden Seiten 4 abziehen",
           "formula": "",
           "explanation": "Ziehe nun auf beiden Seiten 4 ab.",
           "visual": {
@@ -753,7 +745,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Beide Seiten durch 3 teilen",
           "formula": "",
           "explanation": "Teile beide Seiten durch 3.",
           "visual": {
@@ -779,7 +771,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Lösung mit der Probe prüfen",
           "formula": "",
           "explanation": "Die Lösung ist x = 5. Setze 5 in die Ausgangsgleichung ein: beide Seiten sind 29.",
           "visual": {
@@ -821,7 +813,7 @@
       "symbol": "( )",
       "steps": [
         {
-          "headline": "Gleichung umformen",
+          "headline": "Klammer ausmultiplizieren",
           "formula": "",
           "explanation": "Multipliziere die 2 mit beiden Teilen in der Klammer.",
           "visual": {
@@ -837,7 +829,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Auf beiden Seiten 6 abziehen",
           "formula": "",
           "explanation": "Ziehe auf beiden Seiten 6 ab.",
           "visual": {
@@ -858,7 +850,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Beide Seiten durch 2 teilen",
           "formula": "",
           "explanation": "Teile beide Seiten durch 2.",
           "visual": {
@@ -884,7 +876,7 @@
           "sub": ""
         },
         {
-          "headline": "Gleichung umformen",
+          "headline": "Lösung mit der Probe prüfen",
           "formula": "",
           "explanation": "Die Lösung ist x = 4. Probe: 2 · (4 + 3) = 14.",
           "visual": {
@@ -926,32 +918,41 @@
       "symbol": "%",
       "steps": [
         {
-          "headline": "Gesuchte Größe auswählen",
-          "formula": "W = (G · p)/100",
-          "explanation": "G ist das Ganze, W der Anteil und p der Prozentsatz. Wähle die Zeile für die Größe, die du suchst.",
+          "headline": "Prozentwert: Wie groß ist der Anteil?",
+          "formula": "",
+          "explanation": "G ist der Grundwert, also das Ganze: 80 €. Gesucht sind 20 % davon. Setze für die Prozentzahl p die 20 ein. Der Anteil W beträgt 16 €.",
           "visual": {
-            "type": "table",
-            "heads": [
-              "Gesucht",
-              "Formel",
-              "Beispiel"
-            ],
+            "type": "math-stack",
             "rows": [
-              [
-                "W",
-                "W = (G · p)/100",
-                "(80 € · 20)/100 = 16 €"
-              ],
-              [
-                "G",
-                "G = (W · 100)/p",
-                "(15 € · 100)/30 = 50 €"
-              ],
-              [
-                "p",
-                "p = (W · 100)/G",
-                "(18 € · 100)/60 € = 30 %"
-              ]
+              "W = (G · p)/100",
+              "W = (80 € · 20)/100 = 16 €"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Grundwert: Wie groß ist das Ganze?",
+          "formula": "",
+          "explanation": "15 € entsprechen 30 % des Ganzen. W = 15 € und p = 30 sind bekannt. Das Ganze G beträgt 50 €. Probe: 30 % von 50 € sind 15 €.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "G = (W · 100)/p",
+              "G = (15 € · 100)/30 = 50 €"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Prozentsatz: Wie viel Prozent?",
+          "formula": "",
+          "explanation": "18 € sind der Anteil W, 60 € das Ganze G. Die Rechnung ergibt die Prozentzahl p = 30. Der Anteil beträgt also 30 % des Ganzen.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "p = (W · 100)/G",
+              "p = (18 € · 100)/(60 €) = 30",
+              "Prozentsatz: 30 %"
             ]
           },
           "sub": ""
@@ -970,7 +971,7 @@
         {
           "headline": "Erst auf eine Einheit, dann auf fünf",
           "formula": "",
-          "explanation": "Bei direkter Proportionalität bleibt der Quotient gleich. Ein Meter kostet 4 Euro; fünf Meter kosten deshalb 20 Euro.",
+          "explanation": "3 m Stoff kosten 12 €. Teile beide Werte durch 3: 1 m kostet 4 €. Multipliziere beide mit 5: 5 m kosten 20 €. Der Preis je Meter bleibt gleich.",
           "visual": {
             "type": "table",
             "heads": [
@@ -979,12 +980,12 @@
             ],
             "rows": [
               [
-                "1 m",
-                "4 €"
-              ],
-              [
                 "3 m",
                 "12 €"
+              ],
+              [
+                "1 m",
+                "4 €"
               ],
               [
                 "5 m",
@@ -1008,7 +1009,7 @@
         {
           "headline": "Mehr Personen brauchen weniger Zeit",
           "formula": "4 Personen · 6 h = 24 Personenstunden",
-          "explanation": "Bei gleicher Leistung bleibt die Arbeitsmenge gleich. Verdoppelst du die Personen, halbiert sich die Zeit.",
+          "explanation": "Alle Personen arbeiten gleich schnell und können die Arbeit gleichmäßig aufteilen. Dann bleibt Personenanzahl · Zeit gleich: Doppelt so viele Personen brauchen halb so lange.",
           "visual": {
             "type": "table",
             "heads": [
@@ -1050,7 +1051,7 @@
         {
           "headline": "Verdoppeln als Gegenprobe",
           "formula": "",
-          "explanation": "Ohne Grundgebühr wäre der Preis pro Stück gleich. Mit 2 Euro Startpreis kosten ein Stück 5 Euro und zwei Stück 8 Euro: nicht doppelt so viel.",
+          "explanation": "Zum festen Startpreis von 2 € kommen 3 € je Stück. Ein Stück kostet 5 €, zwei Stück kosten 8 €. Doppelte Stückzahl bedeutet hier nicht doppelten Gesamtpreis.",
           "visual": {
             "type": "table",
             "heads": [
@@ -1134,7 +1135,7 @@
         {
           "headline": "Punkt P eintragen",
           "formula": "P(2 | 3)",
-          "explanation": "Vom Nullpunkt gehst du zuerst 2 Schritte nach rechts auf der x-Achse und dann 3 nach oben auf der y-Achse.",
+          "explanation": "Starte im Ursprung (0 | 0). Gehe 2 Einheiten nach rechts, parallel zur x-Achse, und von dort 3 nach oben, parallel zur y-Achse. Dort liegt P(2 | 3).",
           "visual": {
             "type": "graph",
             "mode": "point",
@@ -1157,7 +1158,7 @@
         {
           "headline": "Steigung und y-Achsenabschnitt",
           "formula": "y = mx + n",
-          "explanation": "m gibt an, wie stark die Gerade pro Schritt nach rechts steigt. n ist der Schnittpunkt mit der y-Achse. Im Beispiel y = 2x + 1 gilt m = 2 und n = 1.",
+          "explanation": "m ist die Steigung: Bei einem Schritt nach rechts ändert sich y um m. n ist der y-Wert bei x = 0. Hier gilt y = 2x + 1: Starte bei (0 | 1), gehe 1 nach rechts und 2 nach oben.",
           "visual": {
             "type": "linear-function",
             "slope": 2,
@@ -1261,7 +1262,8 @@
           "explanation": "Ziehe die beiden bekannten Winkel von 180 Grad ab. Im Dreieck steht oben also γ = 70 Grad.",
           "visual": {
             "type": "triangle",
-            "label": "angles"
+            "label": "angles",
+            "result": true
           },
           "sub": ""
         }
@@ -1330,8 +1332,8 @@
       "steps": [
         {
           "headline": "Flächen der drei Quadrate vergleichen",
-          "formula": "3² + 4² = c²",
-          "explanation": "Über jeder Seite des rechtwinkligen Dreiecks liegt ein Quadrat. Die Flächen über den Katheten zusammen sind so groß wie die Fläche über der Hypotenuse.",
+          "formula": "a² + b² = c²",
+          "explanation": "Nur im rechtwinkligen Dreieck gilt a² + b² = c². a und b sind die Katheten am rechten Winkel. c ist die Hypotenuse gegenüber. Die drei Quadrate sind rechts zum Flächenvergleich dargestellt.",
           "visual": {
             "type": "pythagoras-squares"
           },
@@ -1344,8 +1346,8 @@
           "visual": {
             "type": "math-stack",
             "rows": [
-              "c² = 3² + 4²",
-              "c² = 9 + 16"
+              "c² = (3 cm)² + (4 cm)²",
+              "c² = 9 cm² + 16 cm²"
             ]
           },
           "sub": ""
@@ -1359,7 +1361,7 @@
             "rows": [
               {
                 "left": "c²",
-                "right": "25",
+                "right": "25 cm²",
                 "operation": "√ ziehen"
               }
             ]
@@ -1369,13 +1371,13 @@
         {
           "headline": "Wurzel ziehen",
           "formula": "c = √25 = 5 cm",
-          "explanation": "Die gesuchte Seitenlänge ist nicht negativ. Deshalb ist c gleich der positiven Quadratwurzel aus 25.",
+          "explanation": "Die Seitenlänge c ist positiv. Aus c² = 25 cm² folgt deshalb c = 5 cm.",
           "visual": {
             "type": "equation",
             "rows": [
               {
                 "left": "c²",
-                "right": "25",
+                "right": "25 cm²",
                 "operation": "√ ziehen"
               },
               {
@@ -1394,8 +1396,8 @@
           "visual": {
             "type": "math-stack",
             "rows": [
-              "5² = 3² + 4²",
-              "25 = 9 + 16"
+              "(5 cm)² = (3 cm)² + (4 cm)²",
+              "25 cm² = 9 cm² + 16 cm²"
             ]
           },
           "sub": ""
@@ -1439,7 +1441,7 @@
             "type": "math-stack",
             "rows": [
               "4 + 6 + 8 = 18",
-              "18 : 3 Werte = 6"
+              "18 : 3 = 6"
             ]
           },
           "sub": ""
@@ -1509,9 +1511,8 @@
           "visual": {
             "type": "math-stack",
             "rows": [
-              "3 000 + 400",
-              "+ 80 + 2",
-              "= 3 482"
+              "3 482",
+              "= 3 000 + 400 + 80 + 2"
             ]
           },
           "sub": ""
@@ -1529,36 +1530,56 @@
       "steps": [
         {
           "headline": "Stellen ausrichten",
-          "formula": "348 + 176",
+          "formula": "",
           "explanation": "Schreibe Einer unter Einer, Zehner unter Zehner und Hunderter unter Hunderter.",
           "visual": {
             "type": "long-addition",
             "first": "348",
             "second": "176",
+            "partial": "",
+            "carry": "",
             "result": ""
           },
           "sub": ""
         },
         {
-          "headline": "Spaltenweise addieren",
-          "formula": "8 + 6 = 14",
-          "explanation": "Rechne von rechts nach links. Schreibe 4 Einer und übertrage einen Zehner.",
+          "headline": "Einer addieren",
+          "formula": "",
+          "explanation": "8 + 6 = 14. Schreibe 4 bei den Einern. Die kleine 1 in der Zehnerspalte ist der Übertrag.",
           "visual": {
             "type": "long-addition",
             "first": "348",
             "second": "176",
-            "result": "524"
+            "partial": "  4",
+            "carry": " 1 ",
+            "result": ""
           },
           "sub": ""
         },
         {
-          "headline": "Übertrag einrechnen",
-          "formula": "348 + 176 = 524",
-          "explanation": "Addiere jede Spalte einschließlich Übertrag. Kontrolliere das Ergebnis mit einem Überschlag.",
+          "headline": "Zehner mit Übertrag addieren",
+          "formula": "",
+          "explanation": "4 + 7 + 1 = 12 Zehner. Schreibe 2 bei den Zehnern und übertrage 1 Hunderter.",
           "visual": {
             "type": "long-addition",
             "first": "348",
             "second": "176",
+            "partial": " 24",
+            "carry": "11 ",
+            "result": ""
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Hunderter und Ergebnis",
+          "formula": "",
+          "explanation": "3 + 1 + 1 = 5 Hunderter. Das Ergebnis ist 524. Probe: 524 − 176 = 348.",
+          "visual": {
+            "type": "long-addition",
+            "first": "348",
+            "second": "176",
+            "partial": "",
+            "carry": "11 ",
             "result": "524"
           },
           "sub": ""
@@ -1659,7 +1680,7 @@
         {
           "headline": "Kehrwert nutzen",
           "formula": "⅔ : ⅙ = ⅔ · 6 = 4",
-          "explanation": "Teilen durch einen Bruch entspricht Multiplizieren mit seinem Kehrwert. Prüfe das Ergebnis: In ⅔ stecken vier Sechstel.",
+          "explanation": "Vertausche beim zweiten Bruch Zähler und Nenner: Aus 1/6 wird 6/1 = 6. Multipliziere damit: 2/3 · 6 = 4. Durch den Bruch 0 darfst du nicht teilen.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -1701,7 +1722,7 @@
         {
           "headline": "Mitte finden",
           "formula": "Median = 12",
-          "explanation": "Bei fünf Werten ist der dritte Wert die Mitte: 12. Der Mittelwert wäre 37,6 – die großen Zahlen 70 und 100 ziehen ihn nach oben. Der Median bleibt die mittlere Zahl der sortierten Reihe.",
+          "explanation": "Bei fünf sortierten Werten ist der dritte der Median: 12. Bei einer geraden Anzahl nimmst du den Durchschnitt der beiden mittleren Werte. Große Ausreißer beeinflussen den Mittelwert stärker als den Median.",
           "visual": {
             "type": "chips",
             "emphasisIndex": 2,
@@ -1785,12 +1806,7 @@
           "formula": "Links und rechts gleich weit",
           "explanation": "Bei einer Spiegelachse liegt jeder Punkt und sein Spiegelpunkt im gleichen Abstand zur Achse. Die Verbindung steht senkrecht auf der Achse.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "Punkt",
-              "│ Achse │",
-              "Spiegelpunkt"
-            ]
+            "type": "symmetry"
           },
           "sub": ""
         },
@@ -1799,11 +1815,7 @@
           "formula": "Falten an der Achse",
           "explanation": "Beim Spiegeln decken sich beide Hälften genau. Eine Figur kann eine oder mehrere Symmetrieachsen haben.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "Abstand links = Abstand rechts",
-              "Verbindung ⟂ Spiegelachse"
-            ]
+            "type": "symmetry"
           },
           "sub": ""
         }
@@ -1860,7 +1872,7 @@
         {
           "headline": "Quadratwerte bilden eine Parabel",
           "formula": "y = x²",
-          "explanation": "Setze Zahlen für x ein und quadriere sie. Gleiche positive und negative x-Werte liefern denselben y-Wert.",
+          "explanation": "Setze x ein und quadriere die ganze Zahl: (−2)² = 4 und 2² = 4. Entgegengesetzte x-Werte haben denselben y-Wert. Die Punkte liegen auf einer Parabel.",
           "visual": {
             "type": "table",
             "heads": [
@@ -1889,12 +1901,7 @@
           "formula": "S(0 | 0)",
           "explanation": "Bei y = x² ist der tiefste Punkt der Scheitel S(0 | 0). Die Parabel ist zur y-Achse symmetrisch.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "x: −2  −1   0   1   2",
-              "y:  4   1   0   1   4",
-              "Scheitel: S(0 | 0)"
-            ]
+            "type": "parabola"
           },
           "sub": ""
         }
@@ -1998,7 +2005,7 @@
         {
           "headline": "Zwei Münzwürfe aufteilen",
           "formula": "Kopf oder Zahl je Wurf",
-          "explanation": "Bei jedem Wurf gibt es zwei gleich wahrscheinliche Ergebnisse. Zusammen entstehen vier mögliche Ergebnisfolgen.",
+          "explanation": "Wir werfen eine faire Münze zweimal unabhängig voneinander. Kopf und Zahl haben bei jedem Wurf dieselbe Chance. Die vier Ergebnisfolgen sind gleich wahrscheinlich.",
           "visual": {
             "type": "table",
             "heads": [
@@ -2067,7 +2074,7 @@
             "from": -2,
             "to": 3,
             "emphasizeZero": true,
-            "caption": "Plus bewegt nach rechts"
+            "caption": "Addition von 5: fünf Schritte nach rechts"
           },
           "sub": ""
         },
@@ -2080,7 +2087,7 @@
             "from": 2,
             "to": -3,
             "emphasizeZero": true,
-            "caption": "Minus bewegt nach links"
+            "caption": "Subtraktion von 5: fünf Schritte nach links"
           },
           "sub": ""
         }
@@ -2097,8 +2104,8 @@
       "steps": [
         {
           "headline": "Winkel nach Größe unterscheiden",
-          "formula": "Spitz < 90° · Recht = 90° · Stumpf > 90°",
-          "explanation": "Ein Winkel beschreibt die Öffnung zwischen zwei Schenkeln. Ein rechter Winkel ist genau 90 Grad.",
+          "formula": "",
+          "explanation": "Spitze Winkel liegen zwischen 0° und 90°, rechte Winkel sind genau 90°, stumpfe Winkel liegen zwischen 90° und 180°.",
           "visual": {
             "type": "chips",
             "values": [
@@ -2112,7 +2119,7 @@
         {
           "headline": "Mit dem Geodreieck messen",
           "formula": "Nullpunkt auf den Scheitel",
-          "explanation": "Lege den Nullpunkt auf den Scheitel und die Grundlinie auf einen Schenkel. Lies dort ab, wo der zweite Schenkel die Skala trifft.",
+          "explanation": "Lege den Nullpunkt des Geodreiecks auf den Scheitel und die Grundlinie auf einen Schenkel. Nutze die Skala, die an diesem Schenkel bei 0° beginnt. Hier liest du 45° ab.",
           "visual": {
             "type": "angles",
             "active": "vertical"
@@ -2142,14 +2149,10 @@
         },
         {
           "headline": "Dreieck ist ein halbes Rechteck",
-          "formula": "A = Grundseite · Höhe : 2",
-          "explanation": "Ein passendes Dreieck nimmt die Hälfte eines Rechtecks mit derselben Grundseite und Höhe ein.",
+          "formula": "A = 5 cm · 3 cm : 2 = 7,5 cm²",
+          "explanation": "g ist die Grundseite, h die senkrechte Höhe: hier 5 cm und 3 cm. A = g · h : 2. Das markierte Dreieck ist halb so groß wie das Rechteck. Die schräge Seite ist nicht die Höhe.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "Rechteck: g · h",
-              "Dreieck: g · h : 2"
-            ]
+            "type": "triangle-area"
           },
           "sub": ""
         }
@@ -2219,9 +2222,9 @@
           "sub": ""
         },
         {
-          "headline": "Differenz und Produkt merken",
+          "headline": "Minusklammer und Quadratedifferenz",
           "formula": "(a − b)(a + b) = a² − b²",
-          "explanation": "Bei der Differenz von Quadraten heben sich die beiden mittleren Produkte auf.",
+          "explanation": "Beim Quadrieren von a − b entsteht der Mittelterm −2ab. Beim Produkt (a − b)(a + b) heben sich −ab und +ab auf. Deshalb bleibt dort a² − b².",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -2243,36 +2246,56 @@
       "sourceNote": "Strobl Grundwissen Klasse 8, Abschnitt 9",
       "steps": [
         {
-          "headline": "Eine Gleichung nach y auflösen",
-          "formula": "y = 10 − x",
-          "explanation": "Aus x + y = 10 folgt y = 10 − x. Diesen Ausdruck setzt du in die zweite Gleichung ein.",
+          "headline": "Beide Gleichungen betrachten",
+          "formula": "",
+          "explanation": "Gesucht sind x und y, die beide Gleichungen erfüllen. Löse zuerst I nach y auf: Ziehe auf beiden Seiten x ab.",
           "visual": {
-            "type": "equation",
+            "type": "math-stack",
             "rows": [
-              {
-                "left": "x + y",
-                "right": "10",
-                "operation": "− x"
-              },
-              {
-                "left": "y",
-                "right": "10 − x",
-                "operation": ""
-              }
+              "I: x + y = 10",
+              "II: x + 2y = 16"
             ]
           },
           "sub": ""
         },
         {
-          "headline": "Einsetzen und x bestimmen",
-          "formula": "x + 2(10 − x) = 16",
-          "explanation": "Einsetzen ergibt x + 20 − 2x = 16. Daraus folgt x = 4. Setze x ein: y = 6.",
+          "headline": "y in die zweite Gleichung einsetzen",
+          "formula": "",
+          "explanation": "Ersetze in II das y durch 10 − x. Setze eine Klammer, denn die 2 wird mit dem ganzen Ausdruck multipliziert.",
           "visual": {
             "type": "math-stack",
             "rows": [
-              "x + 2(10 − x) = 16",
-              "x = 4",
-              "y = 10 − 4 = 6"
+              "I: y = 10 − x",
+              "II: x + 2(10 − x) = 16"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "Klammer auflösen und x berechnen",
+          "formula": "",
+          "explanation": "Fasse x − 2x zu −x zusammen. Ziehe auf beiden Seiten 20 ab und teile dann durch −1.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "x + 20 − 2x = 16",
+              "20 − x = 16  |  −20",
+              "−x = −4  |  : (−1)",
+              "x = 4"
+            ]
+          },
+          "sub": ""
+        },
+        {
+          "headline": "y berechnen und beide Proben machen",
+          "formula": "",
+          "explanation": "Setze x = 4 in y = 10 − x ein. Du erhältst y = 6. Beide Ausgangsgleichungen stimmen mit diesen Werten.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "y = 10 − 4 = 6",
+              "I: 4 + 6 = 10",
+              "II: 4 + 2 · 6 = 16"
             ]
           },
           "sub": ""
@@ -2283,8 +2306,8 @@
       "id": "aehnlichkeit",
       "category": "geometrie",
       "stage": "9-10",
-      "title": "Ähnliche Figuren und Strahlensatz",
-      "subtitle": "Gleiche Form, anderer Maßstab",
+      "title": "Ähnliche Figuren",
+      "subtitle": "Entsprechende Seiten und Vergrößerungsfaktor",
       "symbol": "∼",
       "sourceNote": "Strobl Grundwissen Klasse 9, Abschnitt 6",
       "steps": [
@@ -2342,8 +2365,8 @@
       "steps": [
         {
           "headline": "Gemeinsame Fälle eintragen",
-          "formula": "20 Personen: 12 mit Bus, 8 mit Rad",
-          "explanation": "Eine Vierfeldertafel ordnet zwei Ja/Nein-Merkmale. Jede Person gehört genau in ein Innenfeld.",
+          "formula": "20 Personen: 8 mit Bus, 12 mit Rad",
+          "explanation": "Jede Person fährt entweder Bus oder Rad und hat ein Abo oder keines. Innen stehen die vier Gruppen; am Rand ihre Summen. Beispiel: 5 Personen fahren Bus und haben ein Abo.",
           "visual": {
             "type": "table",
             "heads": [
@@ -2354,13 +2377,13 @@
             ],
             "rows": [
               [
-                "Merkmal A",
+                "Mit Abo",
                 "5",
                 "7",
                 "12"
               ],
               [
-                "Merkmal B",
+                "Ohne Abo",
                 "3",
                 "5",
                 "8"
@@ -2377,8 +2400,8 @@
         },
         {
           "headline": "Anteil aus der passenden Gruppe bilden",
-          "formula": "P(A) = 12 : 20 = 60 %",
-          "explanation": "Achte auf die Bezugsgruppe: Für einen Anteil an allen nimmst du die Gesamtzahl als Nenner.",
+          "formula": "P(Abo) = 12 : 20 = 60 %",
+          "explanation": "Von allen 20 Personen haben 12 ein Abo. Bei zufälliger Auswahl einer Person beträgt die Wahrscheinlichkeit für „mit Abo“ daher 12/20 = 60 %.",
           "visual": {
             "type": "percent",
             "filled": 60,
@@ -2450,7 +2473,7 @@
         {
           "headline": "Fläche mit dem Radius",
           "formula": "A = π · r²",
-          "explanation": "Für die Kreisfläche quadrierst du den Radius und multiplizierst mit π.",
+          "explanation": "Der Radius r reicht vom Mittelpunkt zum Kreisrand. Der Durchmesser d ist doppelt so lang: d = 2r. Für die Fläche gilt A = π · r²; bei r in cm erhältst du A in cm².",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -2474,7 +2497,7 @@
         {
           "headline": "Längeneinheiten umrechnen",
           "formula": "1 m = 100 cm",
-          "explanation": "Bei Längen springst du pro Einheitenschritt mit dem Faktor 10. Von Metern zu Zentimetern sind es zwei Schritte.",
+          "explanation": "In der Folge m → dm → cm → mm multiplizierst du je Schritt mit 10. Von m zu cm sind es zwei Schritte: mal 100. Rückwärts teilst du durch 100.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -2487,7 +2510,7 @@
         {
           "headline": "Flächeneinheiten umrechnen",
           "formula": "1 m² = 10 000 cm²",
-          "explanation": "Flächen bestehen aus zwei Längen. Deshalb gilt bei einem Einheitenschritt der Faktor 100, nicht 10.",
+          "explanation": "Von m² zu dm² und von dm² zu cm² gilt jeweils mal 100. Zwei Schritte ergeben mal 10 000. Rückwärts teilst du durch 10 000.",
           "visual": {
             "type": "table",
             "heads": [
@@ -2521,7 +2544,7 @@
         {
           "headline": "Wie eine Gleichung umformen",
           "formula": "2x + 3 < 11",
-          "explanation": "Ziehe auf beiden Seiten 3 ab und teile dann durch 2. Bei Division durch eine negative Zahl dreht sich das Ungleichheitszeichen um.",
+          "explanation": "Ziehe auf beiden Seiten 3 ab, dann teile durch die positive Zahl 2. Das Zeichen bleibt dabei gleich. Nur beim Multiplizieren oder Teilen durch eine negative Zahl kehrst du es um.",
           "visual": {
             "type": "math-stack",
             "rows": [

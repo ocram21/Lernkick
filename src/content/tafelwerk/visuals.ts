@@ -14,11 +14,13 @@ export function fractionParts(value:string):[string,string]|null{
   return match?[Array.from(match[1],digit=>superscriptDigits[digit]).join(''),Array.from(match[2],digit=>subscriptDigits[digit]).join('')]:null;
 }
 export function formatFractions(markup:string){
-  return markup
-    .replace(/\(([^()]+)\)\s*\/\s*([A-Za-z0-9]+)/g,(_match:string,n:string,d:string)=>`<span class="fraction"><span class="top">${n.trim()}</span><span class="bottom">${d}</span></span>`)
-    .replace(/([A-Za-z0-9]+)\s*\/\s*([A-Za-z0-9]+)/g,(_match:string,n:string,d:string)=>`<span class="fraction"><span class="top">${n}</span><span class="bottom">${d}</span></span>`)
-    .replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]+)⁄([₀₁₂₃₄₅₆₇₈₉]+)/gu,(_match:string,n:string,d:string)=>`<span class="fraction"><span class="top">${Array.from(n,digit=>superscriptDigits[digit]).join('')}</span><span class="bottom">${Array.from(d,digit=>subscriptDigits[digit]).join('')}</span></span>`)
-    .replace(/[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]/gu,(value:string)=>{const [n,d]=vulgarFractions[value];return `<span class="fraction"><span class="top">${n}</span><span class="bottom">${d}</span></span>`;});
+  // Only transform text, never HTML tags or attributes. Support both slash forms.
+  const fraction=(n:string,d:string)=>`<span class="fraction"><span class="top">${n}</span><span class="bottom">${d}</span></span>`;
+  return markup.split(/(<[^>]*>)/g).map(part=>part.startsWith('<')?part:part
+    .replace(/(\([^()]+\)|[A-Za-z0-9]+(?:,[0-9]+)?)\s*[\/⁄]\s*(\([^()]+\)|[A-Za-z0-9]+(?:,[0-9]+)?)/g,(_match:string,n:string,d:string)=>fraction(n.replace(/^\(|\)$/g,''),d.replace(/^\(|\)$/g,'')))
+    .replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]+)⁄([₀₁₂₃₄₅₆₇₈₉]+)/gu,(_match:string,n:string,d:string)=>fraction(Array.from(n,digit=>superscriptDigits[digit]).join(''),Array.from(d,digit=>subscriptDigits[digit]).join('')))
+    .replace(/[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]/gu,(value:string)=>fraction(...vulgarFractions[value]))
+  ).join('');
 }
 
 function svg(content:string, title:string, viewBox:string='0 0 320 190') {
@@ -51,8 +53,9 @@ function graph(v:any) {
   let line='';
   if(v.mode==='line') {
     const m=v.slope??2,n=v.intercept??1;
-    const x1=Math.max(-3,(-2-n)/m),x2=Math.min(7,(6-n)/m);
-    line=`<line x1="${px(x1)}" y1="${py(m*x1+n)}" x2="${px(x2)}" y2="${py(m*x2+n)}" stroke="var(--calc-teal)" stroke-width="3.5" stroke-linecap="round"/>`;
+    const bounds=m===0?[-3,7]:[(-2-n)/m,(6-n)/m].sort((a,b)=>a-b);
+    const x1=Math.max(-3,bounds[0]),x2=Math.min(7,bounds[1]);
+    line=x1<=x2&&!(m===0&&(n < -2||n > 6))?`<line x1="${px(x1)}" y1="${py(m*x1+n)}" x2="${px(x2)}" y2="${py(m*x2+n)}" stroke="var(--calc-teal)" stroke-width="3.5" stroke-linecap="round"/>`:'';
   }
   const axes=`<path d="M 20 ${oy} H 264 M ${ox} 206 V 12" fill="none" stroke="var(--calc-ink)" stroke-width="2"/><path d="M 264 ${oy} l -7 -4 m 7 4 l -7 4 M ${ox} 12 l -4 7 m 4 -7 l 4 7" fill="none" stroke="var(--calc-ink)" stroke-width="2" stroke-linecap="round"/>${svgText(276,oy-7,'x','var(--calc-ink)',13)}${svgText(ox+10,10,'y','var(--calc-ink)',13)}`;
   let guides='',points='';
@@ -68,6 +71,20 @@ function graph(v:any) {
     }).join('');
   }
   return svg(`${grid}${line}${axes}${guides}${points}`,'Koordinatensystem mit x- und y-Achse, Pfeilspitzen und lesbaren Punktkoordinaten','0 0 320 220');
+}
+
+function parabola() {
+  const px=(x:number)=>160+x*46,py=(y:number)=>176-y*35;
+  const points=[-2,-1,0,1,2];
+  const grid=points.map(x=>`<path d="M ${px(x)} 22 V 176" stroke="var(--calc-housing)"/>${svgText(px(x),193,x,'var(--calc-ink)',11)}`).join('');
+  const curve=Array.from({length:81},(_,i)=>{const x=-2+i/20;return `${i?'L':'M'} ${px(x)} ${py(x*x)}`;}).join(' ');
+  return svg(`${grid}<path d="M 45 176 H 278 M 160 182 V 14" fill="none" stroke="var(--calc-ink)" stroke-width="2"/>${svgText(283,171,'x')}${svgText(173,17,'y')}${[1,2,3,4].map(y=>svgText(148,py(y)+4,y,'var(--calc-ink)',11)).join('')}<path d="${curve}" fill="none" stroke="var(--calc-teal)" stroke-width="3"/>${points.map(x=>`<circle cx="${px(x)}" cy="${py(x*x)}" r="4" fill="var(--calc-orange)"/>`).join('')}${svgText(211,162,'S(0 | 0)','var(--calc-orange)',12)}`,'Parabel y = x² mit den Punkten (−2 | 4), (−1 | 1), (0 | 0), (1 | 1), (2 | 4); Scheitel im Ursprung','0 0 320 205');
+}
+function symmetry() {
+  return svg(`<path d="M 160 14 V 172" stroke="var(--calc-orange)" stroke-width="2" stroke-dasharray="5 4"/><path d="M 160 30 L 70 145 H 250 Z" fill="var(--calc-teal)" fill-opacity=".15" stroke="var(--calc-teal)" stroke-width="2.5"/><path d="M 106 99 H 214 M 160 88 H 171 V 99" fill="none" stroke="var(--calc-ink)" stroke-width="2"/><circle cx="106" cy="99" r="4" fill="var(--calc-ink)"/><circle cx="214" cy="99" r="4" fill="var(--calc-ink)"/>${svgText(96,91,'P')}${svgText(225,91,'P′')}${svgText(132,116,'d','var(--calc-ink)',12)}${svgText(188,116,'d','var(--calc-ink)',12)}${svgText(160,190,'Spiegelachse','var(--calc-orange)',13)}`,'Achsensymmetrisches Dreieck mit senkrechter Spiegelachse. P und P′ haben denselben Abstand d zur Achse. Ihre Verbindung steht senkrecht zur Achse.','0 0 320 205');
+}
+function triangleArea() {
+  return svg(`<rect x="50" y="25" width="220" height="132" fill="none" stroke="var(--calc-housing)" stroke-width="2" stroke-dasharray="5 4"/><path d="M 50 157 L 50 25 L 270 157 Z" fill="var(--calc-teal)" fill-opacity=".25" stroke="var(--calc-teal)" stroke-width="3"/><path d="M 50 142 H 65 V 157" fill="none" stroke="var(--calc-orange)" stroke-width="2"/>${svgText(160,180,'g = 5 cm','var(--calc-ink)',13)}${svgText(25,95,'3 cm','var(--calc-orange)',12)}${svgText(112,135,'A = 7,5 cm²','var(--calc-ink)',14)}`,'Rechtwinkliges Dreieck als Hälfte eines Rechtecks: Grundseite 5 cm, senkrechte Höhe 3 cm, Fläche 7,5 cm²','0 0 320 195');
 }
 
 function transversal(v:any) {
@@ -107,10 +124,10 @@ function distribute(v:any) {
 function angleVisual(_v:any) {
   const cx=146,cy=151,r=88;let ticks='';
   for(let degree=0;degree<=180;degree+=10){const a=-degree*Math.PI/180;const x1=cx+(r-((degree%30===0)?10:6))*Math.cos(a),y1=cy+(r-((degree%30===0)?10:6))*Math.sin(a),x2=cx+r*Math.cos(a),y2=cy+r*Math.sin(a);ticks+=`<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="var(--calc-housing)" stroke-width="1.2"/>`;if(degree%30===0){const tx=cx+(r-18)*Math.cos(a),ty=cy+(r-18)*Math.sin(a);ticks+=svgText(tx,ty+3,degree,'var(--calc-ink)',9);}}
-  return svg(`<path d="M ${cx-r} ${cy} A ${r} ${r} 0 0 1 ${cx+r} ${cy}" fill="none" stroke="var(--calc-housing)" stroke-width="1.4"/><line x1="24" y1="${cy}" x2="300" y2="${cy}" stroke="var(--calc-ink)" stroke-width="3" stroke-linecap="round"/>${ticks}<line x1="${cx}" y1="${cy}" x2="${cx+104}" y2="47" stroke="var(--calc-teal)" stroke-width="3" stroke-linecap="round"/><path d="M 173.6 123.4 A 39 39 0 0 1 185 151" fill="none" stroke="var(--calc-orange)" stroke-width="3.2" stroke-linecap="round"/>${svgText(201,138,'45°','var(--calc-orange)',15)}<circle cx="${cx}" cy="${cy}" r="3.5" fill="var(--calc-ink)"/>${svgText(cx,176,'Scheitel','var(--calc-ink)',10)}`,'Geodreieck am Scheitel; der zweite Schenkel markiert einen Winkel von 45 Grad','0 0 320 190');
+  return svg(`<path d="M ${cx-r} ${cy} A ${r} ${r} 0 0 1 ${cx+r} ${cy}" fill="none" stroke="var(--calc-housing)" stroke-width="1.4"/><line x1="24" y1="${cy}" x2="300" y2="${cy}" stroke="var(--calc-ink)" stroke-width="3" stroke-linecap="round"/>${ticks}<line x1="${cx}" y1="${cy}" x2="${cx+104}" y2="47" stroke="var(--calc-teal)" stroke-width="3" stroke-linecap="round"/><path d="M 173.6 123.4 A 39 39 0 0 1 185 151" fill="none" stroke="var(--calc-orange)" stroke-width="3.2" stroke-linecap="round"/>${svgText(201,138,'45°','var(--calc-orange)',15)}<circle cx="${cx}" cy="${cy}" r="3.5" fill="var(--calc-ink)"/>${svgText(cx,176,'Scheitel','var(--calc-ink)',10)}`,'Winkelskala am Scheitel: rechts beginnt die Skala bei 0 Grad, der zweite Schenkel liegt bei 45 Grad','0 0 320 190');
 }
 function triangleVisual(v:any) {
-  if(v.label==='angles') return svg(`<path d="M 50 158 L 265 158 L 177 7 Z" fill="var(--calc-display)" stroke="var(--calc-teal)" stroke-width="3"/><path d="M 80 158 A 30 30 0 0 0 69 135 M 235 158 A 30 30 0 0 0 246 135" fill="none" stroke="var(--calc-orange)" stroke-width="3" stroke-linecap="round"/><path d="M 192 28 A 30 30 0 0 1 162 28" fill="none" stroke="var(--calc-teal)" stroke-width="3.2" stroke-linecap="round"/>${svgText(93,145,'50°','var(--calc-orange)',14)}${svgText(222,145,'60°','var(--calc-orange)',14)}${svgText(177,57,'γ','var(--calc-teal)',18)}`,'Dreieck mit deutlich eingezeichneten Innenwinkelbögen und den Winkeln 50 Grad, 60 Grad und Gamma');
+  if(v.label==='angles') return svg(`<path d="M 50 158 L 265 158 L 177 7 Z" fill="var(--calc-display)" stroke="var(--calc-teal)" stroke-width="3"/><path d="M 80 158 A 30 30 0 0 0 69 135 M 235 158 A 30 30 0 0 0 246 135" fill="none" stroke="var(--calc-orange)" stroke-width="3" stroke-linecap="round"/><path d="M 192 28 A 30 30 0 0 1 162 28" fill="none" stroke="var(--calc-teal)" stroke-width="3.2" stroke-linecap="round"/>${svgText(93,145,'50°','var(--calc-orange)',14)}${svgText(222,145,'60°','var(--calc-orange)',14)}${svgText(177,57,v.result?'70°':'γ','var(--calc-teal)',18)}`,v.result?'Dreieck mit Innenwinkeln 50 Grad, 60 Grad und 70 Grad':'Dreieck mit Innenwinkeln 50 Grad, 60 Grad und dem gesuchten Winkel Gamma');
   return svg(`<path d="M 58 154 L 58 34 L 218 154 Z" fill="var(--calc-display)" stroke="var(--calc-teal)" stroke-width="3"/><path d="M 58 139 H 73 V 154" fill="none" stroke="var(--calc-orange)" stroke-width="2"/>${svgText(35,95,'a = 3 cm','var(--calc-ink)',12)}${svgText(140,177,'b = 4 cm','var(--calc-ink)',12)}${svgText(154,75,v.label==='result'?'c = 5 cm':'c = ?','var(--calc-orange)',13)}`,'Rechtwinkliges Dreieck mit Katheten 3 und 4 Zentimeter und Hypotenuse 5 Zentimeter');
 }
 function pythagorasSquares() {
@@ -119,7 +136,7 @@ function pythagorasSquares() {
     for(let row=0;row<n;row++)for(let col=0;col<n;col++)cells+=`<rect x="${x+col*cell}" y="${y+row*cell}" width="${cell}" height="${cell}" fill="${color}" fill-opacity=".17" stroke="var(--calc-ink)" stroke-opacity=".6" stroke-width=".7"/>`;
     return `${cells}${svgText(x+cell*n/2,y+cell*n+17,label,'var(--calc-ink)',12)}`;
   };
-  return svg(`<path d="M 24 114 L 24 47 L 100 114 Z" fill="var(--calc-display)" stroke="var(--calc-ink)" stroke-width="2.5"/><path d="M 24 104 H 34 V 114" fill="none" stroke="var(--calc-orange)" stroke-width="2"/>${svgText(20,83,'3','var(--calc-ink)',11)}${svgText(62,132,'4','var(--calc-ink)',11)}${svgText(69,72,'c','var(--calc-ink)',11)}${square(132,57,3,'a²','var(--calc-teal)')}${svgText(166,81,'+','var(--calc-orange)',18)}${square(180,53,4,'b²','var(--calc-teal)')}${svgText(225,81,'=','var(--calc-orange)',18)}${square(240,49,5,'c²','var(--calc-orange)')}`,'Rechtwinkliges Dreieck und die Flächen der Quadrate über seinen Seiten','0 0 340 145');
+  return svg(`<path d="M 24 114 L 24 57 L 100 114 Z" fill="var(--calc-display)" stroke="var(--calc-ink)" stroke-width="2.5"/><path d="M 24 104 H 34 V 114" fill="none" stroke="var(--calc-orange)" stroke-width="2"/>${svgText(20,83,'3','var(--calc-ink)',11)}${svgText(62,132,'4','var(--calc-ink)',11)}${svgText(69,72,'c','var(--calc-ink)',11)}${square(132,57,3,'a²','var(--calc-teal)')}${svgText(166,81,'+','var(--calc-orange)',18)}${square(180,53,4,'b²','var(--calc-teal)')}${svgText(225,81,'=','var(--calc-orange)',18)}${square(240,49,5,'c²','var(--calc-orange)')}`,'Rechtwinkliges Dreieck und die Flächen der Quadrate über seinen Seiten','0 0 340 145');
 }
 function rectangle(v:any) {
   let grid='';
@@ -162,6 +179,9 @@ export function renderVisual(v:any) {
     case 'grid': html=`<div class="square-grid" style="grid-template-columns: repeat(${v.n},1fr)">${Array.from({length:v.n*v.n},()=>'<span></span>').join('')}</div>`;break;
     case 'array': html=`<div class="viz-array">${v.rows.map((r:string,i:number)=>`<div class="${i===v.rows.length-1?'line':''}">${r.replace(/ /g,'&nbsp;')}</div>`).join('')}</div>`;break;
     case 'graph': html=graph(v);break;
+    case 'parabola': html=parabola();break;
+    case 'symmetry': html=symmetry();break;
+    case 'triangle-area': html=triangleArea();break;
     case 'distribute': html=distribute(v);break;
     case 'angles': html=angleVisual(v);break;
     case 'triangle': html=triangleVisual(v);break;
@@ -171,12 +191,17 @@ export function renderVisual(v:any) {
     case 'projection': html=projectionVisual(v);break;
     case 'combos': html=combinations(v);break;
     case 'math-stack': html=`<div class="math-stack" role="group" aria-label="Zusammenhängender Rechenweg">${v.rows.map((row:string)=>`<div>${formatFractions(svgEsc(row))}</div>`).join('')}</div>`;break;
-    case 'long-division': {const columns=String(v.dividend).length;const digits=(value:string,offset=0)=>Array.from({length:columns},(_,i)=>`<span class="division-digit">${i>=offset&&i<offset+value.length?svgEsc(value[i-offset]):'&nbsp;'}</span>`).join('');const rows=(v.rows??[]).map((row:any)=>row.rule?`<div class="division-rule" style="--division-offset:${row.at??0};--division-length:${row.length??columns}"></div>`:`<div class="division-row ${row.result?'division-result':''}" style="--division-offset:${row.at??0}"><span class="division-digits">${digits(String(row.value),row.at??0)}</span></div>`).join('');html=`<div class="long-division" style="--division-columns:${columns}" role="img" aria-label="Schriftliche Division ${svgEsc(v.dividend)} geteilt durch ${svgEsc(v.divisor)}"><div class="division-quotient"><span class="division-digits">${digits(String(v.quotient),v.quotientAt??0)}</span></div><div class="division-divisor">${svgEsc(v.divisor)}</div><div class="division-start"><span class="division-digits">${digits(String(v.dividend))}</span></div><div class="division-work">${rows}</div></div>`;break;}
+    case 'long-division': {const columns=String(v.dividend).length;const digits=(value:string,offset=0)=>Array.from({length:columns},(_,i)=>`<span class="division-digit">${i>=offset&&i<offset+value.length?svgEsc(value[i-offset]):'&nbsp;'}</span>`).join('');const rows=(v.rows??[]).map((row:any)=>row.rule?`<div class="division-rule" style="--division-offset:${row.at??0};--division-length:${row.length??columns}"></div>`:`<div class="division-row ${row.result?'division-result':''}" style="--division-offset:0"><span class="division-digits">${digits(String(row.value),row.at??0)}</span>${row.subtract?'<span class="division-minus" aria-label="minus">−</span>':''}</div>`).join('');html=`<div class="long-division" style="--division-columns:${columns}" role="group" aria-label="Schriftliche Division ${svgEsc(v.dividend)} geteilt durch ${svgEsc(v.divisor)}"><div class="division-quotient"><span class="division-digits">${digits(String(v.quotient),v.quotientAt??0)}</span></div><div class="division-divisor">${svgEsc(v.divisor)}</div><div class="division-start"><span class="division-digits">${digits(String(v.dividend))}</span></div><div class="division-work">${rows}</div></div>`;break;}
     case 'linear-function': {const m=Number(v.slope??2),n=Number(v.n??1);html=`<div class="linear-function-work">${graph({mode:'line',slope:m,intercept:n,points:[{x:0,y:n},{x:1,y:m+n}]})}<table class="function-values"><thead><tr>${v.values[0].map((x:string)=>`<th scope="col">${svgEsc(x)}</th>`).join('')}</tr></thead><tbody>${v.values.slice(1).map((row:string[])=>`<tr>${row.map((x:string)=>`<td>${svgEsc(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;break;}
     case 'transversal': html=transversal(v);break;
     case 'equation': html=`<table class="equation-work" aria-label="Umformung der Gleichung"><tbody>${v.rows.map((row:any)=>`<tr><td>${row.left}</td><td>=</td><td>${row.right}</td><td class="equation-operation">${row.operation?`│ ${row.operation}`:''}</td></tr>`).join('')}</tbody></table>`;break;
-    case 'long-multiplication': {const values=[String(v.top),String(v.bottom),...(v.partials??[]).map(String),...(v.result?[String(v.result)]:[])];const columns=Math.max(...values.map(value=>value.length),2);const row=(value:string,sign='',className='')=>`<div class="multiplication-row ${className}"><span class="multiplication-sign">${sign}</span><span class="multiplication-digits" style="--multiplication-columns:${columns}">${Array.from({length:columns},(_,i)=>`<span>${i<columns-value.length?'&nbsp;':svgEsc(value[i-(columns-value.length)])}</span>`).join('')}</span></div>`;const rule=(extra='')=>`<div class="inline-multiplication-rule ${extra}" style="--multiplication-columns:${columns}"></div>`;html=`<div class="inline-multiplication" role="img" aria-label="Schriftliche Multiplikation ${svgEsc(v.top)} mal ${svgEsc(v.bottom)}"><div class="multiplication-stack">${row(String(v.top))}${row(String(v.bottom),'×')}${rule()}${(v.partials??[]).map((value:string,i:number)=>row(String(value),i?'+':'','multiplication-partial')).join('')}${v.result?`${rule('result-rule')}${row(String(v.result),'','multiplication-result')}`:''}</div></div>`;break;}
-    case 'long-addition': html=`<div class="long-calculation" aria-label="Schriftliche Addition">${[['', ''+v.first],['+',''+v.second],['rule',''],...(v.partial?[['partial',''+v.partial]]:[]),...(v.result?[['result',''+v.result]]:[])].map(([sign,value]:string[])=>sign==='rule'?'<div class="calculation-rule"></div>':`<div class="calculation-line ${sign==='result'?'calculation-result':sign==='partial'?'calculation-partial':''}"><span>${sign==='result'||sign==='partial'?'':sign}</span><span>${value}</span></div>`).join('')}</div>`;break;
+    case 'long-multiplication': {const values=[String(v.top),String(v.bottom),...(v.partials??[]).map(String),...(v.result?[String(v.result)]:[])];const columns=Math.max(...values.map(value=>value.length),2);const row=(value:string,sign='',className='')=>`<div class="multiplication-row ${className}"><span class="multiplication-sign">${sign}</span><span class="multiplication-digits" style="--multiplication-columns:${columns}">${Array.from({length:columns},(_,i)=>`<span>${i<columns-value.length?'&nbsp;':svgEsc(value[i-(columns-value.length)])}</span>`).join('')}</span></div>`;const rule=(extra='')=>`<div class="inline-multiplication-rule ${extra}" style="--multiplication-columns:${columns}"></div>`;html=`<div class="inline-multiplication" role="group" aria-label="Schriftliche Multiplikation ${svgEsc(v.top)} mal ${svgEsc(v.bottom)}"><div class="multiplication-stack">${row(String(v.top))}${row(String(v.bottom),'×')}${rule()}${(v.partials??[]).map((value:string,i:number)=>row(String(value),i?'+':'','multiplication-partial')).join('')}${v.result?`${rule('result-rule')}${row(String(v.result),'','multiplication-result')}`:''}</div></div>`;break;}
+    case 'long-addition': {
+      const columns=Math.max(String(v.first).length,String(v.second).length,String(v.result??'').length);
+      const row=(value:string,sign='',className='')=>`<div class="calculation-line ${className}"><span>${sign}</span><span class="addition-digits">${Array.from(value.padStart(columns,' '),digit=>`<span>${digit===' '?'&nbsp;':svgEsc(digit)}</span>`).join('')}</span></div>`;
+      html=`<div class="long-calculation" style="--addition-columns:${columns}" role="group" aria-label="Schriftliche Addition">${row(String(v.first))}${row(String(v.second),'+')}${v.carry?row(String(v.carry),'','calculation-carry'):''}<div class="calculation-rule"></div>${v.partial?row(String(v.partial),'','calculation-partial'):''}${v.result?row(String(v.result),'','calculation-result'):''}</div>`;
+      break;
+    }
     default: return '';
   }
   return `<div class="board-visual">${html}</div>`;
