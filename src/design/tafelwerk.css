@@ -21,9 +21,7 @@
 .tafelwerk-prompt{margin:0;color:var(--muted);font-size:14px;line-height:1.25}
 .tafelwerk-subject-grid{width:min(100%,500px);margin:auto;display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
 .tafelwerk-subject{width:100%;min-height:58px;padding:10px 14px;display:flex;align-items:center;justify-content:flex-start;gap:14px;border:1.5px solid var(--calc-petrol);border-radius:10px;background:var(--calc-display);color:var(--calc-ink);font-weight:700;font-size:17px;text-align:left;box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 10%,transparent),0 3px 0 var(--calc-number)}
-.tafelwerk-subject[data-subject="Mathematik"]{border-color:var(--calc-housing)}
 .tafelwerk-subject-icon{width:26px;height:26px;flex:0 0 26px;color:var(--calc-petrol)}
-.tafelwerk-subject[data-subject="Mathematik"] .tafelwerk-subject-icon{color:var(--calc-orange)}
 .tafelwerk-subject:active,.tafelwerk-area:active,.tafelwerk-lesson-choice:active{transform:translateY(2px)}
 .tafelwerk-catalog{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px;overflow:auto;overscroll-behavior:contain;padding:2px 1px 6px}
 .tafelwerk-stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;flex:0 0 auto}
@@ -182,23 +180,23 @@
 @media(min-width:701px){.tafelwerk-board-body{min-height:260px}}
 
 /* Deutsch: gemeinsame Themenauswahl und einzelne Nachschlagetafeln. */
-.deutsch-reference-page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 2px 20px}
- .tafelwerk:has(.deutsch-topic-grid)>.tafelwerk-intro{display:none}
+.deutsch-reference-page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 2px 8px}
+.tafelwerk:has(.deutsch-topic-grid,.deutsch-reference-page)>.tafelwerk-intro{display:none}
 .tafelwerk-catalog:has(.deutsch-topic-grid){overflow:visible}
 .deutsch-topic-grid{flex:1;min-height:0;max-height:560px;grid-template-rows:repeat(10,minmax(0,1fr));gap:4px}
 .deutsch-topic-grid .tafelwerk-lesson-choice{min-height:0;padding:4px 6px;font-size:13px;line-height:1.15}
 .deutsch-topic-grid .tafelwerk-lesson-choice>span{flex:1;min-width:0;overflow-wrap:normal;hyphens:auto}
 @media(max-width:370px){.deutsch-topic-grid .tafelwerk-lesson-choice{font-size:12px;line-height:1.1}}
 
-.deutsch-sheet-head h1{margin:0 0 12px;line-height:1.15}
+.deutsch-sheet-head h1{margin:0 0 8px;line-height:1.15}
 .deutsch-sheet-head h1:focus{outline:none}
-.deutsch-goal{margin:0 0 14px;color:var(--ink);font-size:15px;line-height:1.45}
-.deutsch-reference-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px}
+.deutsch-goal{margin:0 0 10px;color:var(--ink);font-size:14px;line-height:1.3}
+.deutsch-reference-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px}
 .deutsch-reference-item{min-width:0;color:var(--ink)}
 .deutsch-reference-item h2{margin:0 0 4px;color:var(--calc-teal);font-size:16px;line-height:1.2}
-.deutsch-reference-item p{margin:0;font-size:15px;line-height:1.45;overflow-wrap:anywhere}
-.deutsch-reference-item small{display:block;margin-top:4px;color:var(--muted);font-size:14px;line-height:1.4}
-@media(max-width:430px){.deutsch-reference-list{grid-template-columns:1fr}}
+.deutsch-reference-item p{margin:0;font-size:14px;line-height:1.3;overflow-wrap:anywhere}
+.deutsch-reference-item small{color:var(--muted);font-size:inherit;line-height:inherit}
+@media(max-width:370px){.deutsch-reference-item h2{font-size:14px}.deutsch-reference-item p{font-size:13px}.deutsch-reference-item small{font-size:inherit}}
 
 /* Column-locked arithmetic grids for the written algorithms. */
 .tafelwerk-example-choices{width:100%;flex:0 0 auto;display:flex;gap:5px;overflow-x:auto;overscroll-behavior-x:contain;padding:1px 0 3px}

@@ -97,7 +97,7 @@ export function Tafelwerk(){
     <header className="deutsch-sheet-head"><h1 ref={headingRef} tabIndex={-1} id={`${germanLesson.id}-title`}>{germanLesson.title}</h1></header>
     <p className="deutsch-goal">{germanLesson.goal}</p>
     <div className="deutsch-reference-list">{germanLesson.items.map(part=><article className="deutsch-reference-item" key={part.term}>
-     <h2>{part.term}</h2><p>{part.example}</p>{part.note&&<small>{part.note}</small>}
+     <h2>{part.term}</h2><p>{part.example}{part.note&&<small> · {part.note}</small>}</p>
     </article>)}</div>
    </section>
   </>}

@@ -101,7 +101,9 @@ test('Schriftliche Multiplikation und Division bleiben schrittweise und stellenr
 
 for(const {width,height} of [{width:320,height:568},{width:390,height:667},{width:390,height:844},{width:1440,height:900}])test(`Deutschthemen als Buttons ohne Unterteilung ${width}x${height}`,async({page})=>{
  await page.setViewportSize({width,height});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
- await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();await page.getByRole('button',{name:'Deutsch',exact:true}).click();
+ await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();
+ const borders=await page.locator('.tafelwerk-subject').evaluateAll(els=>els.map(el=>getComputedStyle(el).borderColor));expect(new Set(borders).size).toBe(1);
+ await page.getByRole('button',{name:'Deutsch',exact:true}).click();
  const topics=page.locator('.deutsch-topic-grid [data-lesson]');
  await expect(topics).toHaveCount(20);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
  expect(await page.locator('.deutsch-topic-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(2);
@@ -118,6 +120,11 @@ for(const {width,height} of [{width:320,height:568},{width:390,height:667},{widt
   await expect(page.locator('.deutsch-reference-page h1')).toHaveText(title.trim());
   await expect(page.locator('.deutsch-reference-page h1')).toBeFocused();
   await expect(page.locator('.deutsch-reference-page')).toHaveCount(1);
+  expect(await page.locator('.deutsch-reference-list').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(2);
+  if(i===0){
+   expect(await page.locator('.deutsch-reference-page').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
+   await page.screenshot({path:`test-results/wortarten-${width}-${height}.png`});
+  }
   await expect(page.locator('.deutsch-question,.deutsch-mode,.deutsch-answer')).toHaveCount(0);
   await expect(page.getByRole('button',{name:/Lösung|Beschriftet|Nummeriert|Ohne Begriffe/})).toHaveCount(0);
   expect(await page.locator('.deutsch-reference-page').evaluate(el=>el.scrollWidth<=el.clientWidth+1)).toBe(true);
