@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Compass, Globe2, Landmark, TreeDeciduous } from 'lucide-react';
+import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
 import { germanCategories, germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
@@ -9,12 +9,12 @@ type Step = { headline:string; formula:string; explanation:string; visual:any; s
 type Lesson = { id:string; category:string; stage:string; title:string; subtitle:string; symbol:string; steps:Step[] };
 const categories=lessonData.categories;
 const lessons=lessonData.lessons as Lesson[];
-const subjects:{name:Subject;icon:typeof Compass}[]=[
- {name:'Mathematik',icon:Compass},
- {name:'Geographie',icon:Globe2},
- {name:'Sozialkunde',icon:Landmark},
- {name:'Biologie',icon:TreeDeciduous},
- {name:'Deutsch',icon:BookOpen}
+const subjects:{name:Subject;short:string}[]=[
+ {name:'Mathematik',short:'MA'},
+ {name:'Deutsch',short:'D'},
+ {name:'Sozialkunde',short:'SK'},
+ {name:'Biologie',short:'Bio'},
+ {name:'Geographie',short:'Geo'}
 ];
 const germanTopicLabels:Record<string,string>={'DEU-09':'Kommas setzen','DEU-10':'Großschreibung','DEU-14':'Argumentieren','DEU-15':'Texte planen und überarbeiten','DEU-18':'Zusammenfassung und Inhaltsangabe','DEU-19':'Bericht, Beschreibung, Erzählung'};
 const categoryLabels:Record<string,string>={zahlen:'Zahlen',verfahren:'Rechnen',brueche:'Brüche',terme:'Terme',anwendung:'Alltag',funktionen:'Funktionen',geometrie:'Geometrie',daten:'Daten'};
@@ -64,9 +64,9 @@ export function Tafelwerk(){
   }
  }}>
   <div className="tafelwerk-intro section-marker" aria-label="Bereich: Tafelwerk"><BookOpen size={23}/></div>
-  {!subject&&<>
-   <p className="tafelwerk-prompt">Wähle ein Fach.</p>
-   <div className="tafelwerk-subject-grid">{subjects.map(({name,icon:Icon})=><button className="tafelwerk-subject" key={name} data-subject={name} onClick={()=>selectSubject(name)}><Icon className="tafelwerk-subject-icon" size={26} strokeWidth={1.7} aria-hidden="true"/><span>{name}</span></button>)}</div>
+  {!lesson&&!germanLesson&&<>
+   {!subject&&<p className="tafelwerk-prompt">Wähle ein Fach.</p>}
+   <div className="box-subjects tafelwerk-subject-grid" aria-label="Fach wählen">{subjects.map(({name,short})=><button className="calculator-key subject-key" key={name} data-subject={name} aria-label={name} aria-pressed={subject===name} onClick={()=>selectSubject(name)}><span className="key-name">{short}</span></button>)}</div>
   </>}
 
   {subject&&subject!=='Mathematik'&&subject!=='Deutsch'&&<>

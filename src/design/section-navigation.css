@@ -28,3 +28,5 @@
  .home-screen .boss-switch{font-size:11px;padding:4px 5px;}
  .app-shell .bottom-nav.primary-section-nav button{font-size:11px;}
 }
+/* The selected footer is a light panel in Pink and needs dark ink. */
+:root[data-pink=true] .app-shell .bottom-nav.primary-section-nav button[aria-current]{color:var(--pink-ink)}

@@ -16,7 +16,7 @@ for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440
    }
    for(let i=0;i<lesson.steps.length;i++){
     await expect(page.locator('.tafelwerk-board h1')).toHaveText(lesson.steps[i].headline);
-    if(id==='schriftlich-subtrahieren'){
+    if(lesson.id==='schriftlich-subtrahieren'){
     const carries=page.locator('.written-reference text[font-size="15"]');await expect(carries).toHaveCount(2);
     expect(await carries.evaluateAll(els=>els.map(el=>({column:el.getAttribute('data-column'),y:el.getAttribute('y'),text:el.textContent})))).toEqual([{column:'2',y:'98',text:'1'},{column:'3',y:'98',text:'1'}]);
    }
@@ -84,7 +84,7 @@ test('Schriftliche Musterrechnungen entsprechen der Heftanordnung',async({page})
 for(const {width,height} of [{width:320,height:568},{width:390,height:667},{width:390,height:844},{width:1440,height:900}])test(`Deutschthemen mit Bereichen wie Mathe ${width}x${height}`,async({page})=>{
  await page.setViewportSize({width,height});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
  await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();
- const borders=await page.locator('.tafelwerk-subject').evaluateAll(els=>els.map(el=>getComputedStyle(el).borderColor));expect(new Set(borders).size).toBe(1);
+ await expect(page.locator('.tafelwerk-subject-grid .calculator-key')).toHaveCount(5);
  await page.getByRole('button',{name:'Deutsch',exact:true}).click();
  const topics=page.locator('.deutsch-topic-grid [data-lesson]');
  await expect(topics).toHaveCount(7);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
@@ -118,4 +118,23 @@ for(const {width,height} of [{width:320,height:568},{width:390,height:667},{widt
  }
  }
  await page.getByRole('button',{name:'Zur Fächerauswahl'}).click();await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toBeVisible();
+});
+
+for(const pink of [false,true])test(`Tafelwerk übernimmt Lernkasten-Kacheln und violette Auswahl: Pink ${pink}`,async({page})=>{
+ await page.setViewportSize({width:390,height:844});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
+ if(pink){await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();await page.getByRole('button',{name:'Ausgang',exact:true}).click();}
+ await page.getByRole('button',{name:'Lernkasten',exact:true}).click();
+ const dimensions=await page.locator('.box-subjects button').evaluateAll(els=>els.map(el=>{const s=getComputedStyle(el);return [s.aspectRatio,s.borderRadius,s.minHeight];}));
+ await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();
+ const tiles=page.locator('.tafelwerk-subject-grid button');await expect(tiles).toHaveCount(5);
+ expect(await tiles.evaluateAll(els=>els.map(el=>{const s=getComputedStyle(el);return [s.aspectRatio,s.borderRadius,s.minHeight];}))).toEqual(dimensions);
+ await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toHaveAttribute('aria-pressed','true');
+ expect(await page.getByRole('button',{name:'Mathematik',exact:true}).evaluate(el=>getComputedStyle(el).backgroundColor)).toBe('rgb(134, 80, 155)');
+ await page.getByRole('button',{name:'Schriftlich rechnen',exact:true}).click();
+ expect(await page.locator('.tafelwerk-area[aria-pressed=true]').evaluate(el=>getComputedStyle(el).backgroundColor)).toBe('rgb(134, 80, 155)');
+ await page.screenshot({path:`test-results/tafelwerk-math-tiles-${pink?'pink':'normal'}.png`});
+ await page.getByRole('button',{name:'Deutsch',exact:true}).click();
+ await expect(page.locator('.tafelwerk-subject-grid [aria-pressed=true]')).toHaveCount(1);
+ expect(await page.locator('.tafelwerk-area[aria-pressed=true]').evaluate(el=>getComputedStyle(el).backgroundColor)).toBe('rgb(134, 80, 155)');
+ await page.screenshot({path:`test-results/tafelwerk-deutsch-tiles-${pink?'pink':'normal'}.png`});
 });

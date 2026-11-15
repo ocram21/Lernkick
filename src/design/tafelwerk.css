@@ -19,18 +19,18 @@
 .tafelwerk-back{display:inline-flex;align-items:center;justify-content:center;gap:4px;min-width:44px;min-height:44px;padding:6px 8px;border:0;border-radius:8px;background:transparent;color:var(--ink);font-size:14px;font-weight:650;white-space:nowrap}
 .tafelwerk-back:hover{background:var(--panel)}
 .tafelwerk-prompt{margin:0;color:var(--muted);font-size:14px;line-height:1.25}
-.tafelwerk-subject-grid{width:min(100%,500px);margin:auto;display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
-.tafelwerk-subject{width:100%;min-height:58px;padding:10px 14px;display:flex;align-items:center;justify-content:flex-start;gap:14px;border:1.5px solid var(--calc-petrol);border-radius:10px;background:var(--calc-display);color:var(--calc-ink);font-weight:700;font-size:17px;text-align:left;box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 10%,transparent),0 3px 0 var(--calc-number)}
-.tafelwerk-subject-icon{width:26px;height:26px;flex:0 0 26px;color:var(--calc-petrol)}
-.tafelwerk-subject:active,.tafelwerk-area:active,.tafelwerk-lesson-choice:active{transform:translateY(2px)}
+.tafelwerk-subject-grid{width:min(100%,420px);margin:6px 0 10px}
+.tafelwerk-subject-grid .calculator-key{--key-color:var(--calc-petrol);--key-ink:var(--calc-ink)}
+.tafelwerk-subject-grid .calculator-key[aria-pressed=true]{--key-color:var(--calc-violet);outline-color:var(--calc-violet)}
+.tafelwerk-area:active,.tafelwerk-lesson-choice:active{transform:translateY(2px)}
 .tafelwerk-catalog{flex:1;min-height:0;display:flex;flex-direction:column;gap:8px;overflow:auto;overscroll-behavior:contain;padding:2px 1px 6px}
 .tafelwerk-stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;flex:0 0 auto}
 .tafelwerk-stage-grid button{min-height:40px;padding:6px 4px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font-size:13px;font-weight:650}
-.tafelwerk-stage-grid button[aria-pressed=true]{border-color:var(--calc-orange);background:var(--calc-number);color:var(--calc-ink)}
+.tafelwerk-stage-grid button[aria-pressed=true]{border-color:var(--calc-violet);background:var(--calc-violet);color:var(--calc-ink)}
 .tafelwerk-area-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;flex:0 0 auto}
 .tafelwerk-area{min-width:0;min-height:43px;padding:5px 3px;display:flex;align-items:center;justify-content:center;gap:4px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-align:center;font-size:11px;font-weight:650;line-height:1.1}
-.tafelwerk-area[aria-pressed=true]{border-color:var(--calc-orange);background:var(--calc-number);color:var(--calc-ink)}
-.tafelwerk-area-symbol{width:18px;height:20px;flex:0 0 auto;display:grid;place-items:center;color:var(--calc-orange);font-size:14px;font-weight:700}
+.tafelwerk-area[aria-pressed=true]{--area-symbol-ink:var(--calc-ink);border-color:var(--calc-violet);background:var(--calc-violet);color:var(--calc-ink)}
+.tafelwerk-area-symbol{width:18px;height:20px;flex:0 0 auto;display:grid;place-items:center;color:var(--area-symbol-ink,var(--calc-orange));font-size:14px;font-weight:700}
 .tafelwerk-lesson-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:6px;flex:0 0 auto}
 .tafelwerk-lesson-choice{min-width:0;min-height:47px;padding:6px 8px;display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);text-align:left;font-size:13px;font-weight:650;line-height:1.15}
 .tafelwerk-lesson-choice>span:nth-child(2){flex:1;min-width:0;overflow-wrap:anywhere}
@@ -201,7 +201,7 @@
 /* Column-locked arithmetic grids for the written algorithms. */
 .tafelwerk-example-choices{width:100%;flex:0 0 auto;display:flex;gap:5px;overflow-x:auto;overscroll-behavior-x:contain;padding:1px 0 3px}
 .tafelwerk-example-choices button{min-height:32px;flex:0 0 auto;padding:5px 9px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink);font-size:12px;font-weight:650;white-space:nowrap}
-.tafelwerk-example-choices button[aria-pressed=true]{border-color:var(--calc-orange);background:var(--calc-number);color:var(--calc-ink)}
+.tafelwerk-example-choices button[aria-pressed=true]{border-color:var(--calc-violet);background:var(--calc-violet);color:var(--calc-ink)}
 .tafelwerk-progress{justify-content:flex-start;overflow-x:auto;overscroll-behavior-x:contain}
 .tafelwerk-progress button{flex:0 0 28px;width:28px}
 .tafelwerk-board-body{overflow:auto}
@@ -238,3 +238,10 @@
 
 .tafelwerk .board-visual>svg.written-reference{width:min(100%,480px);max-height:none}
 .tafelwerk-board:has(.written-reference) .tafelwerk-board-body{min-height:0;padding:12px}
+
+/* Light Pink panels need dark local ink; the chosen area keeps standard violet. */
+:root[data-pink=true] .tafelwerk :is(.tafelwerk-area,.tafelwerk-lesson-choice,.tafelwerk-stage-grid button,.tafelwerk-example-choices button,.tafelwerk-step-controls .small-button){--ink:var(--pink-ink);--muted:var(--pink-muted);color:var(--pink-ink)}
+:root[data-pink=true] .tafelwerk .tafelwerk-area[aria-pressed=true]{color:var(--calc-ink)}
+:root[data-pink=true] .tafelwerk-back:hover{color:var(--pink-ink)}
+:root[data-pink=true] .deutsch-reference-item h2{color:var(--pink-text)}
+:root .app-shell .tafelwerk-subject-grid .calculator-key[aria-pressed=true],:root[data-pink=true] .app-shell .tafelwerk-subject-grid .calculator-key[aria-pressed=true]{background:var(--calc-violet);color:var(--calc-ink);border-color:var(--calc-violet)}
