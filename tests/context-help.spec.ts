@@ -12,7 +12,7 @@ for(const pink of [false,true])for(const width of [320,390,1440])test(`Bereichsh
    const centered=await tile.evaluate(el=>{const a=el.getBoundingClientRect(),b=el.querySelector('.key-name')!.getBoundingClientRect();return Math.abs(a.x+a.width/2-b.x-b.width/2)<1&&getComputedStyle(el).textAlign==='center';});expect(centered).toBe(true);
   }
  }
- await page.getByRole('button',{name:'Einstellungen',exact:true}).click();const settingsInfo=page.getByRole('button',{name:'Einstellungen-Hilfe',exact:true});await expect(settingsInfo).toHaveText('');await settingsInfo.click();
- await expect(page.locator('.help-page')).toContainText('Einstellungen und Sicherung');await expect(page.locator('.help-page')).not.toContainText('Bosskampf');await expect(page.locator('.help-page')).not.toContainText('Games');
- await page.getByRole('button',{name:'Training',exact:true}).click();if(width===390)await page.screenshot({path:`test-results/training-info-${pink}.png`});
+ await page.getByRole('button',{name:'Einstellungen',exact:true}).click();const settingsInfo=page.getByRole('button',{name:'Einstellungen-Hilfe',exact:true});await expect(settingsInfo).toHaveText('');const settingsBox=(await settingsInfo.boundingBox())!;expect(settingsBox.width).toBe(reference.width);expect(settingsBox.height).toBe(reference.height);await settingsInfo.click();
+ await expect(page.getByRole('dialog')).toContainText('Einstellungen und Sicherung');await expect(page.getByRole('dialog')).not.toContainText('Bosskampf');await expect(page.getByRole('dialog')).not.toContainText('Games');
+ await page.keyboard.press('Escape');await expect(settingsInfo).toBeFocused();await page.getByRole('button',{name:'Training',exact:true}).click();if(width===390)await page.screenshot({path:`test-results/training-info-${pink}.png`});
 });

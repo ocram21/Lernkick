@@ -53,7 +53,7 @@
 .home-screen .training-heading-actions .boss-switch{width:64px;min-width:0;flex-shrink:0;min-height:36px;padding:3px;font-size:11px;line-height:1.1;white-space:normal}
 .home-screen .training-heading-actions .boss-switch svg{display:none}
 .home-screen .training-help{width:36px;height:36px;min-width:36px;min-height:36px}
-.settings-top .settings-help{background:transparent;color:var(--ink)}
+.settings-top .settings-help{width:36px;height:36px;min-width:36px;min-height:36px;background:transparent;color:var(--ink)}
 .box-help-text h3{font-size:16px;margin:16px 0 6px}.box-help-text details{margin-top:14px}.box-help-text summary{cursor:pointer;font-weight:600}
 @media(max-width:700px){.home-screen .section-heading{width:calc(100vw - 32px)}}
 @media(max-width:370px){.home-screen .section-heading{padding-inline:8px}}
