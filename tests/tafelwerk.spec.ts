@@ -9,7 +9,7 @@ for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440
   for(const lesson of data.lessons.filter(l=>l.category===category.id)){
    await page.locator(`[data-lesson="${lesson.id}"]`).click();
    if(lesson.id==='schriftlich-mal'||lesson.id==='schriftlich-geteilt'){
-    await expect(page.locator('.tafelwerk-step-count')).toContainText(' / ');
+    await expect(page.locator('.tafelwerk-step-count')).toHaveCount(0);
     await page.locator('.tafelwerk-lesson-top .tafelwerk-back').click();
     await expect(page.locator(`[data-lesson="${lesson.id}"]`)).toBeFocused();
     continue;
@@ -58,44 +58,21 @@ test('Überträge stehen stellengerecht; neue Schritte beginnen oben, auch in Pi
  await page.setViewportSize({width:320,height:568});await page.getByRole('button',{name:'Weiter',exact:true}).click();
  await expect.poll(()=>page.locator('.tafelwerk').evaluate(el=>el.scrollTop)).toBe(0);await expect(page.locator('.tafelwerk-board h1')).toBeInViewport();
 });
-test('Schriftliche Multiplikation und Division bleiben schrittweise und stellenrichtig',async({page})=>{
- test.setTimeout(180000);
- for(const viewport of [{width:360,height:800},{width:430,height:932},{width:1440,height:900}]){
+test('Schriftliche Musterrechnungen entsprechen der Heftanordnung',async({page})=>{
+ for(const viewport of [{width:320,height:568},{width:390,height:844},{width:1440,height:900}]){
   await page.setViewportSize(viewport);await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();await openMath(page);
   await page.getByRole('button',{name:'Schriftlich rechnen',exact:true}).click();
-  await page.locator('[data-lesson="schriftlich-mal"]').click();
-  await expect(page.locator('.tafelwerk-board h1')).toHaveText('Faktoren stellenrichtig aufschreiben');
-  await expect(page.locator('.arithmetic-equation')).toContainText('2637 × 24');
-  const multiplicationSteps=Number((await page.locator('.tafelwerk-step-count').innerText()).split(' / ')[1]);
-  await page.locator('.tafelwerk-progress button[title="Hunderterziffer 6 mit 4 multiplizieren"]').click();
-  await expect(page.locator('.tafelwerk-board h1')).toHaveText('Hunderterziffer 6 mit 4 multiplizieren');
-  await expect(page.locator('.tafelwerk-board-body')).toContainText('Übertrag');
-  await page.locator('.tafelwerk-progress button[title="Produkt und Probe"]').click();
-  await expect(page.locator('.tafelwerk-board h1')).toHaveText('Produkt und Probe');await expect(page.locator('.arithmetic-equation')).toContainText('63288');
-  expect(multiplicationSteps).toBeGreaterThan(8);
-  const columns=await page.locator('.multiplication-visual .arith-row').first().locator('.arith-cell').evaluateAll((cells:Element[])=>cells.map(cell=>{const r=cell.getBoundingClientRect();return r.x+r.width/2;}));
-  const aligned=await page.locator('.multiplication-visual .arith-row').evaluateAll((rows:Element[])=>rows.map(row=>Array.from(row.querySelectorAll('.arith-cell')).map(cell=>{const r=cell.getBoundingClientRect();return r.x+r.width/2;})));
-  for(const row of aligned)for(let i=0;i<columns.length;i++)expect(Math.abs(row[i]-columns[i])).toBeLessThan(1);
-  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-
-  await page.locator('.tafelwerk-lesson-top .tafelwerk-back').click();
-  await page.locator('[data-lesson="schriftlich-geteilt"]').click();
-  await expect(page.locator('.arithmetic-equation')).toContainText('59535 : 7');
-  await page.locator('.tafelwerk-progress button[title="Quotientenziffer 0 notieren"]').click();
-  await expect(page.locator('.tafelwerk-board h1')).toHaveText('Quotientenziffer 0 notieren');
-  await expect(page.locator('.tafelwerk-explanation')).toContainText('0 × 7 = 0');
-  await expect(page.locator('.division-visual .arith-quotient .arith-cell').filter({hasText:'0'})).toHaveCount(1);
-  await page.locator('.tafelwerk-progress button[title="Quotient, Rest und Probe"]').click();
-  await expect(page.locator('.tafelwerk-board h1')).toHaveText('Quotient, Rest und Probe');
-  await expect(page.locator('.arithmetic-equation')).toContainText('8505');
-  await expect(page.locator('.division-check')).toContainText('7 × 8505 = 59535');
-  const calculationField=page.locator('.tafelwerk-board-body');
-  expect(await calculationField.evaluate(el=>el.scrollHeight>el.clientHeight)).toBe(true);
-  await calculationField.evaluate(el=>{el.scrollTop=el.scrollHeight;});
-  await expect(page.locator('.division-check')).toBeInViewport();
-  await expect(page.locator('.arithmetic-equation')).toBeInViewport();
-  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-  await page.screenshot({path:`test-results/long-arithmetic-${viewport.width}.png`,fullPage:false});
+  for(const id of ['schriftlich-mal','schriftlich-geteilt']){
+   await page.locator(`[data-lesson="${id}"]`).click();
+   await expect(page.locator('.written-reference')).toBeVisible();
+   await expect(page.locator('.tafelwerk-step-count,.tafelwerk-progress,.tafelwerk-step-controls,.tafelwerk-example-choices')).toHaveCount(0);
+   await expect(page.locator('.written-reference')).toHaveAttribute('aria-label',id==='schriftlich-mal'?/2637.*24.*63288/:/59535.*7.*8505/);
+   const overflow=await page.locator('.tafelwerk-board-body').evaluate(el=>el.scrollWidth<=el.clientWidth+1);expect(overflow).toBe(true);
+   const centers=await page.locator('.written-reference text[data-column="4"]').evaluateAll(els=>els.map(el=>el.getBoundingClientRect().x+el.getBoundingClientRect().width/2));
+   for(const center of centers)expect(Math.abs(center-centers[0])).toBeLessThan(1);
+   await page.screenshot({path:`test-results/${id}-${viewport.width}.png`});
+   await page.getByRole('button',{name:'Zur Themenliste',exact:true}).click();await expect(page.locator(`[data-lesson="${id}"]`)).toBeFocused();
+  }
  }
 });
 

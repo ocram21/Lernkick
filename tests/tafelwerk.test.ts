@@ -41,10 +41,14 @@ describe('Mathe-Tafelwerk',()=>{
   expect(steps[1].visual).toMatchObject({partial:'  4',carry:' 1 '});
   expect(steps[2].visual).toMatchObject({partial:' 24',carry:'11 '});
  });
- it('verschiebt bei der Division jede Ziffer nur einmal und zeigt Minuszeichen',()=>{
-  const result=renderVisual(lesson('schriftlich-geteilt').steps[1].visual);
-  expect(result).not.toContain('class="division-row " style="--division-offset:1"');
-  expect(result.match(/aria-label="minus"/g)).toHaveLength(2);
+ it('zeigt die festen Musterrechnungen mit Kästchen und vollständigen Ergebnissen',()=>{
+  for(const id of ['schriftlich-mal','schriftlich-geteilt']){
+   expect(lesson(id).steps).toHaveLength(1);
+   expect(lesson(id).steps[0].visual.type).toBe('written-reference');
+   const result=renderVisual(lesson(id).steps[0].visual);
+   expect(result).toContain('class="written-reference"');
+   expect(result).toContain(id==='schriftlich-mal'?'63288':'8505');
+  }
  });
  it('berechnet schriftliche Multiplikation mit Teilprodukten, Versatz und Überträgen',()=>{
   const cases=[['24','13','312'],['2637','24','63288'],['305','24','7320'],['1002','30','30060'],['999','99','98901']];

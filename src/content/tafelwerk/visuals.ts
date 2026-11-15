@@ -1,3 +1,4 @@
+import { renderWrittenReference } from './written-reference';
 // Übernommene, für die LernKick-Palette angepasste Mathe-Visualisierungen.
 const svgEsc=(str:string|number)=>String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
@@ -192,6 +193,7 @@ export function renderVisual(v:any) {
     case 'combos': html=combinations(v);break;
     case 'math-stack': html=`<div class="math-stack" role="group" aria-label="Zusammenhängender Rechenweg">${v.rows.map((row:string)=>`<div>${formatFractions(svgEsc(row))}</div>`).join('')}</div>`;break;
     case 'long-division': {const columns=String(v.dividend).length;const digits=(value:string,offset=0)=>Array.from({length:columns},(_,i)=>`<span class="division-digit">${i>=offset&&i<offset+value.length?svgEsc(value[i-offset]):'&nbsp;'}</span>`).join('');const rows=(v.rows??[]).map((row:any)=>row.rule?`<div class="division-rule" style="--division-offset:${row.at??0};--division-length:${row.length??columns}"></div>`:`<div class="division-row ${row.result?'division-result':''}" style="--division-offset:0"><span class="division-digits">${digits(String(row.value),row.at??0)}</span>${row.subtract?'<span class="division-minus" aria-label="minus">−</span>':''}</div>`).join('');html=`<div class="long-division" style="--division-columns:${columns}" role="group" aria-label="Schriftliche Division ${svgEsc(v.dividend)} geteilt durch ${svgEsc(v.divisor)}"><div class="division-quotient"><span class="division-digits">${digits(String(v.quotient),v.quotientAt??0)}</span></div><div class="division-divisor">${svgEsc(v.divisor)}</div><div class="division-start"><span class="division-digits">${digits(String(v.dividend))}</span></div><div class="division-work">${rows}</div></div>`;break;}
+    case 'written-reference': html=renderWrittenReference(v.kind);break;
     case 'multiplication-grid': {
       const columns=Number(v.columns), cell=(value:string|null|undefined,classes='')=>`<span class="arith-cell ${value==null?'is-empty':''} ${classes}">${value==null?'&nbsp;':svgEsc(value)}</span>`;
       const row=(label:string,cells:(string|null)[],kind='',active:number[]=[])=>(`<div class="arith-row ${kind}"><span class="arith-label">${svgEsc(label)}</span>${Array.from({length:columns},(_,i)=>cell(cells[i],`${active.includes(i)?'is-active':''} ${i===v.activeAddColumn?'is-add-active':''}`)).join('')}</div>`);

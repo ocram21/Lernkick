@@ -235,3 +235,6 @@
 .tafelwerk .arithmetic-equation{position:sticky;top:0;z-index:2;min-height:36px;padding:5px 8px;border-radius:6px;background:var(--calc-display)}
 @media(max-width:370px){.tafelwerk .arith-row,.tafelwerk .arith-rule{grid-template-columns:64px repeat(var(--arith-columns),var(--arith-cell-width))}.tafelwerk .arith-label{font-size:9px}.tafelwerk .arithmetic-visual{gap:6px;padding-inline:2px}.tafelwerk-example-choices button{padding-inline:7px;font-size:11px}}
 @media(max-height:640px){.tafelwerk-board:has(.arithmetic-visual){height:min(42dvh,260px);min-height:230px;max-height:calc(100dvh - 220px)}}
+
+.tafelwerk .board-visual>svg.written-reference{width:min(100%,480px);max-height:none}
+.tafelwerk-board:has(.written-reference) .tafelwerk-board-body{min-height:0;padding:12px}

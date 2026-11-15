@@ -199,68 +199,13 @@
       "symbol": "×",
       "steps": [
         {
-          "headline": "Faktoren untereinanderschreiben",
-          "formula": "24 · 13",
-          "explanation": "Die Faktoren stehen untereinander. Die letzte Ziffer der Einerstelle steht genau unter der Einerstelle des oberen Faktors.",
+          "headline": "Schriftliche Multiplikation",
+          "formula": "",
+          "explanation": "2637 · 2 = 5274: Das Zehner-Teilprodukt steht eine Stelle weiter links. Darunter steht 2637 · 4 = 10548. Stellenrichtig addiert: 63288. Die kleine 1 ist der Übertrag beim Addieren.",
           "visual": {
-            "type": "long-multiplication",
-            "top": "24",
-            "bottom": "13",
-            "examples": [
-              { "top": "2637", "bottom": "24", "label": "2 637 × 24" },
-              { "top": "24", "bottom": "13", "label": "24 × 13" },
-              { "top": "305", "bottom": "24", "label": "305 × 24" },
-              { "top": "1002", "bottom": "30", "label": "1 002 × 30" },
-              { "top": "999", "bottom": "99", "label": "999 × 99" }
-            ],
-            "partials": []
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mit der Einerziffer rechnen",
-          "formula": "24 · 3 = 72",
-          "explanation": "Rechne 3 · 4 = 12: Schreibe 2 und merke 1 Zehner. Dann 3 · 2 + 1 = 7 Zehner. Das Teilprodukt ist 72.",
-          "visual": {
-            "type": "long-multiplication",
-            "top": "24",
-            "bottom": "13",
-            "partials": [
-              "72"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Dann den Zehner berechnen",
-          "formula": "24 · 10 = 240",
-          "explanation": "Die 1 in 13 steht für einen Zehner. Deshalb entsteht 240; die 0 hält die Einerstelle frei und die Ziffern stehen stellengerecht untereinander.",
-          "visual": {
-            "type": "long-multiplication",
-            "top": "24",
-            "bottom": "13",
-            "partials": [
-              "72",
-              "240"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Teilprodukte addieren",
-          "formula": "72 + 240 = 312",
-          "explanation": "Addiere 72 und 240 stellengerecht. Das Ergebnis 312 steht unter dem zweiten Rechenstrich.",
-          "visual": {
-            "type": "long-multiplication",
-            "top": "24",
-            "bottom": "13",
-            "partials": [
-              "72",
-              "240"
-            ],
-            "result": "312"
-          },
-          "sub": ""
+            "type": "written-reference",
+            "kind": "multiplication"
+          }
         }
       ],
       "stage": "5-6",
@@ -274,128 +219,13 @@
       "symbol": "÷",
       "steps": [
         {
-          "headline": "Erste Ziffern teilen",
-          "formula": "15 − 12 = 3",
-          "explanation": "1 ist kleiner als 12, deshalb beginne mit 15. 12 passt einmal hinein. Schreibe 1 über die Zehnerstelle (über die 5): 1 · 12 = 12, dann 15 − 12 = 3.",
+          "headline": "Schriftliche Division",
+          "formula": "",
+          "explanation": "Teilen, multiplizieren, abziehen, nächste Ziffer herunterholen. 59 − 56 = 3, dann 35 − 35 = 0. Die nächste Teilzahl 3 ist kleiner als 7: Im Ergebnis steht eine 0. Zum Schluss 35 − 35 = 0.",
           "visual": {
-            "type": "long-division",
-            "divisor": "12",
-            "dividend": "156",
-            "examples": [
-              { "dividend": "59535", "divisor": "7", "label": "59 535 : 7" },
-              { "dividend": "156", "divisor": "12", "label": "156 : 12" },
-              { "dividend": "1005", "divisor": "5", "label": "1 005 : 5" },
-              { "dividend": "1248", "divisor": "12", "label": "1 248 : 12" },
-              { "dividend": "17", "divisor": "5", "label": "17 : 5" },
-              { "dividend": "3", "divisor": "7", "label": "3 : 7" }
-            ],
-            "quotient": "1",
-            "rows": [
-              {
-                "at": 0,
-                "value": "12",
-                "subtract": true
-              },
-              {
-                "at": 0,
-                "rule": true,
-                "length": 2
-              },
-              {
-                "at": 1,
-                "value": "3"
-              }
-            ],
-            "quotientAt": 1
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Nächste Ziffer herunterholen",
-          "formula": "36 − 36 = 0",
-          "explanation": "Hole die 6 herunter und stelle sie neben den Rest 3. 12 passt dreimal in 36; die 3 kommt neben die 1 im Ergebnis.",
-          "visual": {
-            "type": "long-division",
-            "divisor": "12",
-            "dividend": "156",
-            "quotient": "13",
-            "rows": [
-              {
-                "at": 0,
-                "value": "12",
-                "subtract": true
-              },
-              {
-                "at": 0,
-                "rule": true,
-                "length": 2
-              },
-              {
-                "at": 1,
-                "value": "36"
-              },
-              {
-                "at": 1,
-                "value": "36",
-                "subtract": true
-              },
-              {
-                "at": 1,
-                "rule": true,
-                "length": 2
-              },
-              {
-                "at": 2,
-                "value": "0"
-              }
-            ],
-            "quotientAt": 1
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Ergebnis und Probe",
-          "formula": "156 : 12 = 13",
-          "explanation": "Es bleibt kein Rest. Die Probe bestätigt den Rechenweg: 13 mal 12 ergibt 156.",
-          "visual": {
-            "type": "long-division",
-            "divisor": "12",
-            "dividend": "156",
-            "quotient": "13",
-            "rows": [
-              {
-                "at": 0,
-                "value": "12",
-                "subtract": true
-              },
-              {
-                "at": 0,
-                "rule": true,
-                "length": 2
-              },
-              {
-                "at": 1,
-                "value": "36"
-              },
-              {
-                "at": 1,
-                "value": "36",
-                "subtract": true
-              },
-              {
-                "at": 1,
-                "rule": true,
-                "length": 2
-              },
-              {
-                "at": 2,
-                "value": "0",
-                "result": true
-              }
-            ],
-            "quotientAt": 1
-          },
-          "sub": ""
+            "type": "written-reference",
+            "kind": "division"
+          }
         }
       ],
       "stage": "5-6",
