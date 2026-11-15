@@ -25,6 +25,7 @@ function TafelSymbol({value}:{value:string}){
 }
 
 function DeutschTafel({item,onBack}:{item:GermanLesson;onBack:()=>void}){
+ const isReference=item.category!=='Sprachlehre';
  const [mode,setMode]=useState<GermanMode>('labeled');
  const [showAnswer,setShowAnswer]=useState(false);
  useEffect(()=>{setMode('labeled');setShowAnswer(false);},[item.id]);
@@ -33,17 +34,26 @@ function DeutschTafel({item,onBack}:{item:GermanLesson;onBack:()=>void}){
   <div className="tafelwerk-lesson-top"><button className="tafelwerk-back" onClick={onBack} aria-label="Zur Themenliste"><ArrowLeft size={18}/><span>Themen</span></button><span className="tafelwerk-current-lesson" title={item.title}>{item.id} · Priorität {item.priority}</span></div>
   <section className="deutsch-sheet" aria-label={`Deutschtafel: ${item.title}`}>
    <header className="deutsch-sheet-head"><h1>{item.title}</h1><span>{item.grade}</span></header>
-   <p className="deutsch-goal"><strong>Lernziel:</strong> {item.goal}</p>
-   <p className="deutsch-question"><strong>Prüfe dich:</strong> {item.question}</p>
-   <div className="deutsch-mode" role="group" aria-label="Lernstand der Tafel">{(Object.keys(modeLabels) as GermanMode[]).map(value=><button key={value} aria-pressed={mode===value} onClick={()=>setMode(value)}>{modeLabels[value]}</button>)}</div>
-   <div className="deutsch-diagram" data-count={item.items.length} aria-label={`${modeLabels[mode]}: ${item.title}`}>
-    {item.items.map((part,index)=><article className={`deutsch-tile mode-${mode}`} key={`${item.id}-${index}`}>
-      <span className="deutsch-marker" aria-hidden="true">{mode==='blank'?'':index+1}</span>
-      <div className="deutsch-tile-copy">{mode==='labeled'&&<strong>{part.term}</strong>}<span>{part.example}</span>{part.note&&<small>{part.note}</small>}</div>
-    </article>)}
-   </div>
-   <button className="deutsch-answer-toggle" aria-expanded={showAnswer} onClick={()=>setShowAnswer(value=>!value)}>{showAnswer?'Lösung ausblenden':'Lösung anzeigen'}<ChevronRight size={16}/></button>
-   {showAnswer&&<div className="deutsch-answer"><strong>Auflösung</strong><p>{item.answer}</p><ol>{item.items.map(part=><li key={part.term}>{part.term}</li>)}</ol></div>}
+   {isReference? <>
+    <p className="deutsch-goal"><strong>Kernwissen:</strong> {item.goal}</p>
+    <div className="deutsch-reference-list" aria-label={`Nachschlageübersicht: ${item.title}`}>
+     {item.items.map(part=><article className="deutsch-reference-item" key={`${item.id}-${part.term}`}>
+      <h2>{part.term}</h2><p>{part.example}</p>{part.note&&<small>{part.note}</small>}
+     </article>)}
+    </div>
+   </> : <>
+    <p className="deutsch-goal"><strong>Lernziel:</strong> {item.goal}</p>
+    <p className="deutsch-question"><strong>Prüfe dich:</strong> {item.question}</p>
+    <div className="deutsch-mode" role="group" aria-label="Lernstand der Tafel">{(Object.keys(modeLabels) as GermanMode[]).map(value=><button key={value} aria-pressed={mode===value} onClick={()=>setMode(value)}>{modeLabels[value]}</button>)}</div>
+    <div className="deutsch-diagram" data-count={item.items.length} aria-label={`${modeLabels[mode]}: ${item.title}`}>
+     {item.items.map((part,index)=><article className={`deutsch-tile mode-${mode}`} key={`${item.id}-${index}`}>
+       <span className="deutsch-marker" aria-hidden="true">{mode==='blank'?'':index+1}</span>
+       <div className="deutsch-tile-copy">{mode==='labeled'&&<strong>{part.term}</strong>}<span>{part.example}</span>{part.note&&<small>{part.note}</small>}</div>
+     </article>)}
+    </div>
+    <button className="deutsch-answer-toggle" aria-expanded={showAnswer} onClick={()=>setShowAnswer(value=>!value)}>{showAnswer?'Lösung ausblenden':'Lösung anzeigen'}<ChevronRight size={16}/></button>
+    {showAnswer&&<div className="deutsch-answer"><strong>Auflösung</strong><p>{item.answer}</p><ol>{item.items.map(part=><li key={part.term}>{part.term}</li>)}</ol></div>}
+   </>}
    <footer className="deutsch-source">Niveau {item.grade} · HSA-Bezug: Fachlehrplan Deutsch Sekundarschule Sachsen-Anhalt, Abschnitt 3.3 · Priorität {item.priority} ist redaktionell.</footer>
   </section>
  </>;

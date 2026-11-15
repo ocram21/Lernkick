@@ -98,3 +98,21 @@ test('Schriftliche Multiplikation und Division bleiben schrittweise und stellenr
   await page.screenshot({path:`test-results/long-arithmetic-${viewport.width}.png`,fullPage:false});
  }
 });
+
+test('Deutsch Schreiben und Lesen & Medien sind Nachschlagetafeln statt Aufgaben',async({page})=>{
+ await page.setViewportSize({width:390,height:844});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
+ await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();await page.getByRole('button',{name:'Deutsch',exact:true}).click();
+ for(const category of ['Schreiben','Lesen & Medien']){
+  await page.getByRole('button',{name:category,exact:true}).click();
+  const entries=await page.locator('.tafelwerk-lesson-grid [data-lesson]').count();expect(entries).toBeGreaterThan(0);
+  for(let i=0;i<entries;i++){
+   const choice=page.locator('.tafelwerk-lesson-grid [data-lesson]').nth(i);await choice.click();
+   await expect(page.locator('.deutsch-reference-list')).toBeVisible();expect(await page.locator('.deutsch-reference-item').count()).toBeGreaterThan(0);
+   await expect(page.locator('.deutsch-question')).toHaveCount(0);await expect(page.getByRole('button',{name:/Lösung anzeigen|Lösung ausblenden/})).toHaveCount(0);await expect(page.locator('.deutsch-mode')).toHaveCount(0);
+   await expect(page.getByText('Kernwissen:',{exact:false})).toBeVisible();
+   await page.getByRole('button',{name:'Zur Themenliste',exact:true}).click();
+  }
+ }
+ await page.getByRole('button',{name:'Sprachlehre',exact:true}).click();await page.locator('[data-lesson="DEU-01"]').click();
+ await expect(page.locator('.deutsch-mode')).toBeVisible();await expect(page.getByRole('button',{name:'Lösung anzeigen'})).toBeVisible();
+});
