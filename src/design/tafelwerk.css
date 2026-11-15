@@ -181,43 +181,20 @@
 .tafelwerk-board-head h1:focus{outline:none}
 @media(min-width:701px){.tafelwerk-board-body{min-height:260px}}
 
-/* Deutsch-Tafelwerk: reusable, text-first learning sheets (no generated images). */
-.deutsch-category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;flex:0 0 auto}
-.deutsch-category-grid button{min-height:42px;padding:6px 4px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font-size:12px;font-weight:650;line-height:1.1}
-.deutsch-category-grid button[aria-pressed=true]{border-color:var(--calc-orange);background:var(--calc-number);color:var(--calc-ink)}
-.deutsch-priority{font-size:13px!important}
-.deutsch-priority[aria-label="Priorität B"]{background:color-mix(in srgb,var(--calc-teal) 20%,var(--calc-number));color:var(--calc-teal)}
-.deutsch-catalog-note{flex:0 0 auto;margin:0;padding:4px;color:var(--muted);font-size:11px;text-align:center}
-.deutsch-sheet{width:100%;flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;display:flex;flex-direction:column;gap:8px;padding:0 1px 8px}
-.deutsch-sheet-head{flex:0 0 auto;display:flex;align-items:baseline;justify-content:space-between;gap:8px}
-.deutsch-sheet-head h1{font-size:clamp(19px,4.8vw,25px);line-height:1.08}
-.deutsch-sheet-head>span{flex:0 0 auto;color:var(--muted);font-size:12px}
-.deutsch-goal,.deutsch-question{flex:0 0 auto;margin:0;color:var(--ink);font-size:14px;line-height:1.3}
-.deutsch-goal strong,.deutsch-question strong{color:var(--calc-teal)}
-.deutsch-mode{flex:0 0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
-.deutsch-mode button{min-height:36px;padding:5px 3px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink);font-size:11px;font-weight:650;line-height:1.05}
-.deutsch-mode button[aria-pressed=true]{border-color:var(--calc-orange);background:var(--calc-number);color:var(--calc-ink)}
-.deutsch-diagram{flex:0 0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}
-.deutsch-tile{min-width:0;min-height:52px;padding:6px;display:flex;align-items:flex-start;gap:7px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink)}
-.deutsch-marker{width:22px;height:22px;flex:0 0 22px;display:grid;place-items:center;border-radius:50%;background:var(--calc-number);color:var(--calc-teal);font-size:12px;font-weight:750}
-.deutsch-tile.mode-blank .deutsch-marker{border:1px dashed var(--muted);background:transparent}
-.deutsch-tile-copy{min-width:0;display:flex;flex-direction:column;gap:2px;font-size:12px;line-height:1.2;overflow-wrap:anywhere}
-.deutsch-tile-copy strong{color:var(--calc-teal);font-size:12px;line-height:1.15}
-.deutsch-tile-copy small{color:var(--muted);font-size:10px}
-.deutsch-answer-toggle{min-height:38px;flex:0 0 auto;padding:6px 10px;display:flex;align-items:center;justify-content:center;gap:5px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink);font-size:13px;font-weight:650}
-.deutsch-answer-toggle[aria-expanded=true] svg{transform:rotate(90deg)}
-.deutsch-answer{flex:0 0 auto;padding:8px 10px;border-left:3px solid var(--calc-teal);border-radius:4px;background:var(--panel);color:var(--ink);font-size:13px;line-height:1.35}
-.deutsch-answer p{margin:4px 0}
-.deutsch-answer ol{margin:5px 0 0;padding-left:22px;columns:2;font-size:12px}
-.deutsch-source{flex:0 0 auto;color:var(--muted);font-size:10px;line-height:1.2}
-.deutsch-reference-list{flex:0 0 auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
-.deutsch-reference-item{min-width:0;padding:8px 9px;border:1px solid var(--line);border-left:3px solid var(--calc-teal);border-radius:7px;background:var(--panel);color:var(--ink)}
-.deutsch-reference-item h2{margin:0 0 4px;color:var(--calc-teal);font-size:14px;line-height:1.15}
-.deutsch-reference-item p{margin:0;font-size:13px;line-height:1.3;overflow-wrap:anywhere}
-.deutsch-reference-item small{display:block;margin-top:5px;color:var(--muted);font-size:11px;line-height:1.25}
-@media(max-width:370px){.deutsch-category-grid{gap:3px}.deutsch-category-grid button{font-size:10px}.deutsch-diagram{gap:4px}.deutsch-tile{gap:5px;padding:5px}.deutsch-marker{width:20px;height:20px;flex-basis:20px}.deutsch-tile-copy,.deutsch-tile-copy strong{font-size:11px}.deutsch-mode button{font-size:10px}}
-@media(max-width:430px){.deutsch-reference-list{grid-template-columns:1fr}.deutsch-reference-item{padding:7px 8px}.deutsch-reference-item h2{font-size:13px}.deutsch-reference-item p{font-size:12px}}
-@media(min-width:600px){.deutsch-tile{min-height:58px;padding:8px}.deutsch-tile-copy{font-size:14px}.deutsch-tile-copy strong{font-size:14px}}
+/* Deutsch: alle Nachschlagetexte auf einer gemeinsamen Seite. */
+.deutsch-reference-page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 2px 20px;scroll-behavior:auto}
+.deutsch-contents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px;margin-bottom:24px}
+.deutsch-contents a{min-width:0;min-height:44px;display:flex;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);color:var(--ink);font-size:14px;line-height:1.3;text-underline-offset:3px;overflow-wrap:anywhere}
+.deutsch-contents a:hover{color:var(--accent)}
+.deutsch-sheet{scroll-margin-top:8px;padding:18px 0;border-top:1px solid var(--line)}
+.deutsch-sheet-head h2{margin:0 0 8px;font-size:clamp(21px,5vw,27px);line-height:1.15}
+.deutsch-goal{margin:0 0 14px;color:var(--ink);font-size:15px;line-height:1.45}
+.deutsch-reference-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px}
+.deutsch-reference-item{min-width:0;color:var(--ink)}
+.deutsch-reference-item h3{margin:0 0 4px;color:var(--calc-teal);font-size:16px;line-height:1.2}
+.deutsch-reference-item p{margin:0;font-size:15px;line-height:1.45;overflow-wrap:anywhere}
+.deutsch-reference-item small{display:block;margin-top:4px;color:var(--muted);font-size:14px;line-height:1.4}
+@media(max-width:430px){.deutsch-reference-list,.deutsch-contents{grid-template-columns:1fr}}
 
 /* Column-locked arithmetic grids for the written algorithms. */
 .tafelwerk-example-choices{width:100%;flex:0 0 auto;display:flex;gap:5px;overflow-x:auto;overscroll-behavior-x:contain;padding:1px 0 3px}

@@ -2,13 +2,12 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Compass, Globe2, Landmark, TreeDeciduous } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
-import { germanCategories, germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
+import { germanLessons } from '../content/tafelwerk/german-lessons';
 
 type Subject = 'Mathematik' | 'Geographie' | 'Sozialkunde' | 'Biologie' | 'Deutsch';
 type Step = { headline:string; formula:string; explanation:string; visual:any; sub?:string };
 type ArithmeticExample = { top?:string; bottom?:string; dividend?:string; divisor?:string; label:string };
 type Lesson = { id:string; category:string; stage:string; title:string; subtitle:string; symbol:string; steps:Step[]; calculationKind?:'multiplication'|'division'; calculationExamples?:ArithmeticExample[]; selectedCalculationExample?:ArithmeticExample };
-type GermanMode = 'labeled' | 'numbered' | 'blank';
 const categories=lessonData.categories;
 const lessons=lessonData.lessons as Lesson[];
 const subjects:{name:Subject;icon:typeof Compass}[]=[
@@ -24,55 +23,18 @@ function TafelSymbol({value}:{value:string}){
  return parts?<span className="fraction fraction-symbol"><span className="top">{parts[0]}</span><span className="bottom">{parts[1]}</span></span>:value;
 }
 
-function DeutschTafel({item,onBack}:{item:GermanLesson;onBack:()=>void}){
- const isReference=item.category!=='Sprachlehre';
- const [mode,setMode]=useState<GermanMode>('labeled');
- const [showAnswer,setShowAnswer]=useState(false);
- useEffect(()=>{setMode('labeled');setShowAnswer(false);},[item.id]);
- const modeLabels:Record<GermanMode,string>={labeled:'Beschriftet',numbered:'Nummeriert',blank:'Ohne Begriffe'};
- return <>
-  <div className="tafelwerk-lesson-top"><button className="tafelwerk-back" onClick={onBack} aria-label="Zur Themenliste"><ArrowLeft size={18}/><span>Themen</span></button><span className="tafelwerk-current-lesson" title={item.title}>{item.id} · Priorität {item.priority}</span></div>
-  <section className="deutsch-sheet" aria-label={`Deutschtafel: ${item.title}`}>
-   <header className="deutsch-sheet-head"><h1>{item.title}</h1><span>{item.grade}</span></header>
-   {isReference? <>
-    <p className="deutsch-goal"><strong>Kernwissen:</strong> {item.goal}</p>
-    <div className="deutsch-reference-list" aria-label={`Nachschlageübersicht: ${item.title}`}>
-     {item.items.map(part=><article className="deutsch-reference-item" key={`${item.id}-${part.term}`}>
-      <h2>{part.term}</h2><p>{part.example}</p>{part.note&&<small>{part.note}</small>}
-     </article>)}
-    </div>
-   </> : <>
-    <p className="deutsch-goal"><strong>Lernziel:</strong> {item.goal}</p>
-    <p className="deutsch-question"><strong>Prüfe dich:</strong> {item.question}</p>
-    <div className="deutsch-mode" role="group" aria-label="Lernstand der Tafel">{(Object.keys(modeLabels) as GermanMode[]).map(value=><button key={value} aria-pressed={mode===value} onClick={()=>setMode(value)}>{modeLabels[value]}</button>)}</div>
-    <div className="deutsch-diagram" data-count={item.items.length} aria-label={`${modeLabels[mode]}: ${item.title}`}>
-     {item.items.map((part,index)=><article className={`deutsch-tile mode-${mode}`} key={`${item.id}-${index}`}>
-       <span className="deutsch-marker" aria-hidden="true">{mode==='blank'?'':index+1}</span>
-       <div className="deutsch-tile-copy">{mode==='labeled'&&<strong>{part.term}</strong>}<span>{part.example}</span>{part.note&&<small>{part.note}</small>}</div>
-     </article>)}
-    </div>
-    <button className="deutsch-answer-toggle" aria-expanded={showAnswer} onClick={()=>setShowAnswer(value=>!value)}>{showAnswer?'Lösung ausblenden':'Lösung anzeigen'}<ChevronRight size={16}/></button>
-    {showAnswer&&<div className="deutsch-answer"><strong>Auflösung</strong><p>{item.answer}</p><ol>{item.items.map(part=><li key={part.term}>{part.term}</li>)}</ol></div>}
-   </>}
-   <footer className="deutsch-source">Niveau {item.grade} · HSA-Bezug: Fachlehrplan Deutsch Sekundarschule Sachsen-Anhalt, Abschnitt 3.3 · Priorität {item.priority} ist redaktionell.</footer>
-  </section>
- </>;
-}
-
 export function Tafelwerk(){
  const [subject,setSubject]=useState<Subject|null>(null);
  const [category,setCategory]=useState<string|null>(null);
  const [lesson,setLesson]=useState<Lesson|null>(null);
  const [stepIndex,setStepIndex]=useState(0);
- const [germanCategory,setGermanCategory]=useState<string>(germanCategories[0]);
- const [germanLesson,setGermanLesson]=useState<GermanLesson|null>(null);
  const current=lesson?.steps[stepIndex];
  const sectionRef=useRef<HTMLElement>(null);
  const headingRef=useRef<HTMLHeadingElement>(null);
  const lastLessonId=useRef<string|null>(null);
 
- function showSubjects(){setLesson(null);setGermanLesson(null);setCategory(null);setSubject(null);setStepIndex(0);}
- function showLessons(){setLesson(null);setGermanLesson(null);setStepIndex(0);}
+ function showSubjects(){setLesson(null);setCategory(null);setSubject(null);setStepIndex(0);}
+ function showLessons(){setLesson(null);setStepIndex(0);}
  async function openLesson(item:Lesson,example?:ArithmeticExample){
   lastLessonId.current=item.id;
   if(item.id==='schriftlich-mal'||item.id==='schriftlich-geteilt'){
@@ -88,7 +50,7 @@ export function Tafelwerk(){
   }else setLesson(item);
   setStepIndex(0);
  }
- function selectSubject(item:Subject){setSubject(item);setGermanLesson(null);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}if(item==='Deutsch')setGermanCategory(germanCategories[0]);}
+ function selectSubject(item:Subject){setSubject(item);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}}
 
  useEffect(()=>{
   if(lesson)headingRef.current?.focus();
@@ -120,16 +82,19 @@ export function Tafelwerk(){
    <div className="tafelwerk-empty"><span>Noch keine Tafeln</span><p>Hier können später wichtige Bilder und kurze Erklärschritte für {subject} abgelegt werden.</p></div>
   </>}
 
-  {subject==='Deutsch'&&!germanLesson&&<>
+  {subject==='Deutsch'&&<>
    <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Deutsch</h1></div>
-   <div className="tafelwerk-catalog deutsch-catalog">
-    <div className="deutsch-category-grid" aria-label="Themenbereiche">{germanCategories.map(item=><button key={item} aria-pressed={germanCategory===item} onClick={()=>setGermanCategory(item)}>{item}</button>)}</div>
-    <div className="tafelwerk-lesson-grid" aria-label="Deutschthemen">{germanLessons.filter(item=>item.category===germanCategory).map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><span className="tafelwerk-lesson-symbol deutsch-priority" aria-label={`Priorität ${item.priority}`}>{item.priority}</span><span>{item.title}</span><ChevronRight size={18}/></button>)}</div>
-    <p className="deutsch-catalog-note">HSA-Schwerpunkt bis Jahrgang 9 · A zuerst, B ergänzend</p>
+   <div className="deutsch-reference-page">
+    <nav className="deutsch-contents" aria-label="Deutschthemen">{germanLessons.map(item=><a key={item.id} href={`#${item.id}`}>{item.title}</a>)}</nav>
+    {germanLessons.map(item=><section className="deutsch-sheet" id={item.id} key={item.id} aria-labelledby={`${item.id}-title`}>
+     <header className="deutsch-sheet-head"><h2 id={`${item.id}-title`}>{item.title}</h2></header>
+     <p className="deutsch-goal">{item.goal}</p>
+     <div className="deutsch-reference-list">{item.items.map(part=><article className="deutsch-reference-item" key={part.term}>
+      <h3>{part.term}</h3><p>{part.example}</p>{part.note&&<small>{part.note}</small>}
+     </article>)}</div>
+    </section>)}
    </div>
   </>}
-
-  {subject==='Deutsch'&&germanLesson&&<DeutschTafel item={germanLesson} onBack={showLessons}/>}
 
   {subject==='Mathematik'&&!lesson&&<>
    <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Mathematik</h1></div>
