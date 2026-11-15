@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, BookOpen, ChevronLeft, ChevronRight, Compass, Globe2, Landmark, TreeDeciduous } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
-import { germanLessons } from '../content/tafelwerk/german-lessons';
+import { germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
 
 type Subject = 'Mathematik' | 'Geographie' | 'Sozialkunde' | 'Biologie' | 'Deutsch';
 type Step = { headline:string; formula:string; explanation:string; visual:any; sub?:string };
@@ -28,13 +28,14 @@ export function Tafelwerk(){
  const [category,setCategory]=useState<string|null>(null);
  const [lesson,setLesson]=useState<Lesson|null>(null);
  const [stepIndex,setStepIndex]=useState(0);
+ const [germanLesson,setGermanLesson]=useState<GermanLesson|null>(null);
  const current=lesson?.steps[stepIndex];
  const sectionRef=useRef<HTMLElement>(null);
  const headingRef=useRef<HTMLHeadingElement>(null);
  const lastLessonId=useRef<string|null>(null);
 
- function showSubjects(){setLesson(null);setCategory(null);setSubject(null);setStepIndex(0);}
- function showLessons(){setLesson(null);setStepIndex(0);}
+ function showSubjects(){setGermanLesson(null);setLesson(null);setCategory(null);setSubject(null);setStepIndex(0);}
+ function showLessons(){setGermanLesson(null);setLesson(null);setStepIndex(0);}
  async function openLesson(item:Lesson,example?:ArithmeticExample){
   lastLessonId.current=item.id;
   if(item.id==='schriftlich-mal'||item.id==='schriftlich-geteilt'){
@@ -53,12 +54,12 @@ export function Tafelwerk(){
  function selectSubject(item:Subject){setSubject(item);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}}
 
  useEffect(()=>{
-  if(lesson)headingRef.current?.focus();
+  if(lesson||germanLesson)headingRef.current?.focus();
   else if(lastLessonId.current){
    sectionRef.current?.querySelector<HTMLButtonElement>(`[data-lesson="${lastLessonId.current}"]`)?.focus();
    lastLessonId.current=null;
   }
- },[lesson]);
+ },[lesson,germanLesson]);
 
  useEffect(()=>{
   if(lesson&&sectionRef.current)sectionRef.current.scrollTop=0;
@@ -82,18 +83,22 @@ export function Tafelwerk(){
    <div className="tafelwerk-empty"><span>Noch keine Tafeln</span><p>Hier können später wichtige Bilder und kurze Erklärschritte für {subject} abgelegt werden.</p></div>
   </>}
 
-  {subject==='Deutsch'&&<>
+  {subject==='Deutsch'&&!germanLesson&&<>
    <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Deutsch</h1></div>
-   <div className="deutsch-reference-page">
-    <nav className="deutsch-contents" aria-label="Deutschthemen">{germanLessons.map(item=><a key={item.id} href={`#${item.id}`}>{item.title}</a>)}</nav>
-    {germanLessons.map(item=><section className="deutsch-sheet" id={item.id} key={item.id} aria-labelledby={`${item.id}-title`}>
-     <header className="deutsch-sheet-head"><h2 id={`${item.id}-title`}>{item.title}</h2></header>
-     <p className="deutsch-goal">{item.goal}</p>
-     <div className="deutsch-reference-list">{item.items.map(part=><article className="deutsch-reference-item" key={part.term}>
-      <h3>{part.term}</h3><p>{part.example}</p>{part.note&&<small>{part.note}</small>}
-     </article>)}</div>
-    </section>)}
+   <div className="tafelwerk-catalog">
+    <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><BookOpen className="deutsch-topic-icon" size={18} aria-hidden="true"/><span>{item.title}</span><ChevronRight size={18}/></button>)}</div>
    </div>
+  </>}
+
+  {subject==='Deutsch'&&germanLesson&&<>
+   <div className="tafelwerk-lesson-top"><button className="tafelwerk-back" onClick={showLessons} aria-label="Zur Themenliste"><ArrowLeft size={18}/><span>Themen</span></button></div>
+   <section className="deutsch-reference-page" aria-labelledby={`${germanLesson.id}-title`}>
+    <header className="deutsch-sheet-head"><h1 ref={headingRef} tabIndex={-1} id={`${germanLesson.id}-title`}>{germanLesson.title}</h1></header>
+    <p className="deutsch-goal">{germanLesson.goal}</p>
+    <div className="deutsch-reference-list">{germanLesson.items.map(part=><article className="deutsch-reference-item" key={part.term}>
+     <h2>{part.term}</h2><p>{part.example}</p>{part.note&&<small>{part.note}</small>}
+    </article>)}</div>
+   </section>
   </>}
 
   {subject==='Mathematik'&&!lesson&&<>

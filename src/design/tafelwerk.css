@@ -181,20 +181,18 @@
 .tafelwerk-board-head h1:focus{outline:none}
 @media(min-width:701px){.tafelwerk-board-body{min-height:260px}}
 
-/* Deutsch: alle Nachschlagetexte auf einer gemeinsamen Seite. */
-.deutsch-reference-page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 2px 20px;scroll-behavior:auto}
-.deutsch-contents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px;margin-bottom:24px}
-.deutsch-contents a{min-width:0;min-height:44px;display:flex;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);color:var(--ink);font-size:14px;line-height:1.3;text-underline-offset:3px;overflow-wrap:anywhere}
-.deutsch-contents a:hover{color:var(--accent)}
-.deutsch-sheet{scroll-margin-top:8px;padding:18px 0;border-top:1px solid var(--line)}
-.deutsch-sheet-head h2{margin:0 0 8px;font-size:clamp(21px,5vw,27px);line-height:1.15}
+/* Deutsch: gemeinsame Themenauswahl und einzelne Nachschlagetafeln. */
+.deutsch-reference-page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:2px 2px 20px}
+.deutsch-topic-icon{flex:0 0 18px;color:var(--calc-teal)}
+.deutsch-sheet-head h1{margin:0 0 12px;line-height:1.15}
+.deutsch-sheet-head h1:focus{outline:none}
 .deutsch-goal{margin:0 0 14px;color:var(--ink);font-size:15px;line-height:1.45}
 .deutsch-reference-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px}
 .deutsch-reference-item{min-width:0;color:var(--ink)}
-.deutsch-reference-item h3{margin:0 0 4px;color:var(--calc-teal);font-size:16px;line-height:1.2}
+.deutsch-reference-item h2{margin:0 0 4px;color:var(--calc-teal);font-size:16px;line-height:1.2}
 .deutsch-reference-item p{margin:0;font-size:15px;line-height:1.45;overflow-wrap:anywhere}
 .deutsch-reference-item small{display:block;margin-top:4px;color:var(--muted);font-size:14px;line-height:1.4}
-@media(max-width:430px){.deutsch-reference-list,.deutsch-contents{grid-template-columns:1fr}}
+@media(max-width:430px){.deutsch-reference-list{grid-template-columns:1fr}}
 
 /* Column-locked arithmetic grids for the written algorithms. */
 .tafelwerk-example-choices{width:100%;flex:0 0 auto;display:flex;gap:5px;overflow-x:auto;overscroll-behavior-x:contain;padding:1px 0 3px}

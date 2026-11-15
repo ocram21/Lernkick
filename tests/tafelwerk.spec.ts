@@ -99,20 +99,23 @@ test('Schriftliche Multiplikation und Division bleiben schrittweise und stellenr
  }
 });
 
-for(const width of [320,1440])test(`Deutsch ist ein gemeinsames Nachschlagewerk ${width}`,async({page})=>{
+for(const width of [320,1440])test(`Deutschthemen als Buttons ohne Unterteilung ${width}`,async({page})=>{
  await page.setViewportSize({width,height:844});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
  await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();await page.getByRole('button',{name:'Deutsch',exact:true}).click();
- await expect(page.locator('.deutsch-sheet')).toHaveCount(20);
- await expect(page.getByRole('navigation',{name:'Deutschthemen'}).getByRole('link')).toHaveCount(20);
- await expect(page.getByRole('button',{name:/Sprachlehre|Schreiben|Lesen & Medien|Lösung|Beschriftet|Nummeriert|Ohne Begriffe/})).toHaveCount(0);
- await expect(page.locator('.deutsch-question,.deutsch-mode,.deutsch-answer')).toHaveCount(0);
- for(const id of ['DEU-01','DEU-12','DEU-20']){
-  await page.locator(`.deutsch-contents a[href="#${id}"]`).click();
-  await expect(page.locator(`#${id} h2`)).toBeInViewport();
+ const topics=page.locator('.deutsch-topic-grid [data-lesson]');
+ await expect(topics).toHaveCount(20);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
+ expect(await page.locator('.deutsch-topic-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(2);
+ await expect(page.getByRole('button',{name:/Sprachlehre|^Schreiben$|Lesen & Medien/})).toHaveCount(0);
+ await page.screenshot({path:`test-results/deutsch-menu-${width}.png`});
+ for(let i=0;i<20;i++){
+  const choice=topics.nth(i),title=await choice.innerText();await choice.click();
+  await expect(page.locator('.deutsch-reference-page h1')).toHaveText(title.trim());
+  await expect(page.locator('.deutsch-reference-page h1')).toBeFocused();
+  await expect(page.locator('.deutsch-reference-page')).toHaveCount(1);
+  await expect(page.locator('.deutsch-question,.deutsch-mode,.deutsch-answer')).toHaveCount(0);
+  await expect(page.getByRole('button',{name:/Lösung|Beschriftet|Nummeriert|Ohne Begriffe/})).toHaveCount(0);
+  expect(await page.locator('.deutsch-reference-page').evaluate(el=>el.scrollWidth<=el.clientWidth+1)).toBe(true);
+  await page.getByRole('button',{name:'Zur Themenliste',exact:true}).click();await expect(choice).toBeFocused();
  }
- expect(await page.locator('.deutsch-reference-page').evaluate(el=>el.scrollWidth<=el.clientWidth+1)).toBe(true);
- expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
- await page.locator('.deutsch-contents a').first().click();
- await page.screenshot({path:`test-results/deutsch-reference-${width}.png`});
  await page.getByRole('button',{name:'Zur Fächerauswahl'}).click();await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toBeVisible();
 });
