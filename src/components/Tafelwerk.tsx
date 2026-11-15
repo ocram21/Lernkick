@@ -6,7 +6,8 @@ import { germanCategories, germanLessons, type GermanLesson } from '../content/t
 
 type Subject = 'Mathematik' | 'Geographie' | 'Sozialkunde' | 'Biologie' | 'Deutsch';
 type Step = { headline:string; formula:string; explanation:string; visual:any; sub?:string };
-type Lesson = { id:string; category:string; stage:string; title:string; subtitle:string; symbol:string; steps:Step[] };
+type ArithmeticExample = { top?:string; bottom?:string; dividend?:string; divisor?:string; label:string };
+type Lesson = { id:string; category:string; stage:string; title:string; subtitle:string; symbol:string; steps:Step[]; calculationKind?:'multiplication'|'division'; calculationExamples?:ArithmeticExample[]; selectedCalculationExample?:ArithmeticExample };
 type GermanMode = 'labeled' | 'numbered' | 'blank';
 const categories=lessonData.categories;
 const lessons=lessonData.lessons as Lesson[];
@@ -62,7 +63,21 @@ export function Tafelwerk(){
 
  function showSubjects(){setLesson(null);setGermanLesson(null);setCategory(null);setSubject(null);setStepIndex(0);}
  function showLessons(){setLesson(null);setGermanLesson(null);setStepIndex(0);}
- function openLesson(item:Lesson){lastLessonId.current=item.id;setLesson(item);setStepIndex(0);}
+ async function openLesson(item:Lesson,example?:ArithmeticExample){
+  lastLessonId.current=item.id;
+  if(item.id==='schriftlich-mal'||item.id==='schriftlich-geteilt'){
+   const {buildLongArithmeticSteps}=await import('../content/tafelwerk/long-arithmetic');
+   const kind=item.id==='schriftlich-mal'?'multiplication':'division';
+   const configured=(item.calculationExamples??(item.steps[0]?.visual?.examples as ArithmeticExample[]|undefined));
+   const fallback=item.steps[0]?.visual;
+   const examples=configured?.length?configured:[kind==='multiplication'?{top:fallback?.top??'24',bottom:fallback?.bottom??'13',label:`${fallback?.top??'24'} × ${fallback?.bottom??'13'}`}:{dividend:fallback?.dividend??'156',divisor:fallback?.divisor??'12',label:`${fallback?.dividend??'156'} : ${fallback?.divisor??'12'}`}];
+   const selected=example??item.selectedCalculationExample??examples[0];
+   const first=kind==='multiplication'?selected.top!:selected.dividend!;
+   const second=kind==='multiplication'?selected.bottom!:selected.divisor!;
+   setLesson({...item,calculationKind:kind,calculationExamples:examples,selectedCalculationExample:selected,steps:buildLongArithmeticSteps(kind,first,second)});
+  }else setLesson(item);
+  setStepIndex(0);
+ }
  function selectSubject(item:Subject){setSubject(item);setGermanLesson(null);if(item==='Mathematik'){setCategory(categories[0]?.id??null);}if(item==='Deutsch')setGermanCategory(germanCategories[0]);}
 
  useEffect(()=>{
@@ -116,10 +131,11 @@ export function Tafelwerk(){
 
   {lesson&&current&&<>
    <div className="tafelwerk-lesson-top"><button className="tafelwerk-back" onClick={showLessons} aria-label="Zur Themenliste"><ArrowLeft size={18}/><span>Themen</span></button><span className="tafelwerk-current-lesson" title={lesson.title}>{lesson.title}</span>{lesson.steps.length>1&&<span className="tafelwerk-step-count">{stepIndex+1} / {lesson.steps.length}</span>}</div>
+   {lesson.calculationExamples&&<div className="tafelwerk-example-choices" role="group" aria-label="Rechenbeispiel auswählen">{lesson.calculationExamples.map((example,index)=><button key={`${example.label}-${index}`} aria-pressed={lesson.selectedCalculationExample===example||lesson.selectedCalculationExample?.label===example.label} onClick={()=>openLesson(lesson,example)}>{example.label}</button>)}</div>}
    <section className="tafelwerk-board" aria-label="Mathematische Tafel" aria-live="polite">
     <div className="tafelwerk-board-head"><h1 ref={headingRef} tabIndex={-1}>{current.headline}</h1>{lesson.steps.length>1&&<span>{stepIndex+1}/{lesson.steps.length}</span>}</div>
-    <div className="tafelwerk-board-body">
-     {current.formula&&current.visual?.type!=='equation'&&!['long-multiplication','long-addition','math-stack'].includes(current.visual?.type)&&<div className={`tafelwerk-formula ${current.formula.replace(/<[^>]+>/g,'').length>28?'tafelwerk-formula-small':''}`} dangerouslySetInnerHTML={{__html:formatFractions(current.formula)}}/>}
+   <div className="tafelwerk-board-body" tabIndex={lesson.calculationKind?0:undefined} aria-label={lesson.calculationKind?'Scrollbares schriftliches Rechenfeld':''}>
+     {current.formula&&current.visual?.type!=='equation'&&!['long-multiplication','long-multiplication-grid','long-division-grid','long-addition','math-stack'].includes(current.visual?.type)&&<div className={`tafelwerk-formula ${current.formula.replace(/<[^>]+>/g,'').length>28?'tafelwerk-formula-small':''}`} dangerouslySetInnerHTML={{__html:formatFractions(current.formula)}}/>}
      {current.sub&&<p className="tafelwerk-subline">{current.sub}</p>}
      {current.visual&&<div className="tafelwerk-visual" dangerouslySetInnerHTML={{__html:renderVisual(current.visual)}}/>}
     </div>

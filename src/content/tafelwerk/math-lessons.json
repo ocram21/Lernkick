@@ -206,6 +206,13 @@
             "type": "long-multiplication",
             "top": "24",
             "bottom": "13",
+            "examples": [
+              { "top": "2637", "bottom": "24", "label": "2 637 × 24" },
+              { "top": "24", "bottom": "13", "label": "24 × 13" },
+              { "top": "305", "bottom": "24", "label": "305 × 24" },
+              { "top": "1002", "bottom": "30", "label": "1 002 × 30" },
+              { "top": "999", "bottom": "99", "label": "999 × 99" }
+            ],
             "partials": []
           },
           "sub": ""
@@ -274,6 +281,14 @@
             "type": "long-division",
             "divisor": "12",
             "dividend": "156",
+            "examples": [
+              { "dividend": "59535", "divisor": "7", "label": "59 535 : 7" },
+              { "dividend": "156", "divisor": "12", "label": "156 : 12" },
+              { "dividend": "1005", "divisor": "5", "label": "1 005 : 5" },
+              { "dividend": "1248", "divisor": "12", "label": "1 248 : 12" },
+              { "dividend": "17", "divisor": "5", "label": "17 : 5" },
+              { "dividend": "3", "divisor": "7", "label": "3 : 7" }
+            ],
             "quotient": "1",
             "rows": [
               {

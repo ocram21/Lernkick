@@ -1,6 +1,7 @@
 import {describe,expect,it} from 'vitest';
 import data from '../src/content/tafelwerk/math-lessons.json';
 import {formatFractions,renderVisual} from '../src/content/tafelwerk/visuals';
+import {buildDivisionSteps,buildMultiplicationSteps} from '../src/content/tafelwerk/long-arithmetic';
 const lesson=(id:string)=>data.lessons.find(item=>item.id===id)!;
 describe('Mathe-Tafelwerk',()=>{
  it('behält alle Themen eindeutig und rendert jeden Schritt',()=>{
@@ -44,6 +45,46 @@ describe('Mathe-Tafelwerk',()=>{
   const result=renderVisual(lesson('schriftlich-geteilt').steps[1].visual);
   expect(result).not.toContain('class="division-row " style="--division-offset:1"');
   expect(result.match(/aria-label="minus"/g)).toHaveLength(2);
+ });
+ it('berechnet schriftliche Multiplikation mit Teilprodukten, Versatz und Überträgen',()=>{
+  const cases=[['24','13','312'],['2637','24','63288'],['305','24','7320'],['1002','30','30060'],['999','99','98901']];
+  for(const [top,bottom,expected] of cases){
+   const steps=buildMultiplicationSteps(top,bottom);const final=steps.at(-1)!;
+   expect(final.visual.result,`${top}×${bottom}`).toBe(expected);
+   const sum=final.visual.partials.reduce((total:number,row:{cells:(string|null)[]})=>total+Number(row.cells.filter(Boolean).join('')),0);
+   expect(sum,`${top}×${bottom} partial sum`).toBe(Number(expected));
+   expect(steps.map(step=>renderVisual(step.visual)).join('')).not.toMatch(/NaN|undefined|Infinity/);
+  }
+  const shift=buildMultiplicationSteps('2637','24').at(-1)!.visual.partials.map((row:any)=>row.label);
+  expect(shift).toEqual(['× 4 Einer','× 2 Zehner']);
+  expect(buildMultiplicationSteps('24','13').some(step=>step.explanation.includes('Übertrag'))).toBe(true);
+ });
+ it('berechnet schriftliche Division inklusive interner Quotientennullen und Resten',()=>{
+  const cases=[['156','12','13','0'],['59535','7','8505','0'],['1005','5','201','0'],['1248','12','104','0'],['17','5','3','2'],['3','7','0','3']];
+  for(const [dividend,divisor,wantQuotient,wantRemainder] of cases){
+   const steps=buildDivisionSteps(dividend,divisor);const final=steps.at(-1)!;
+   expect(final.visual.quotient,`${dividend}:${divisor}`).toBe(wantQuotient);
+   expect(final.visual.remainder,`${dividend}:${divisor} remainder`).toBe(wantRemainder);
+   expect(BigInt(divisor)*BigInt(final.visual.quotient)+BigInt(final.visual.remainder)).toBe(BigInt(dividend));
+   expect(BigInt(final.visual.remainder)).toBeLessThan(BigInt(divisor));
+   expect(steps.map(step=>renderVisual(step.visual)).join('')).not.toMatch(/NaN|undefined|Infinity/);
+  }
+  const ref=buildDivisionSteps('59535','7');
+  expect(ref.some(step=>step.headline==='Quotientenziffer 0 notieren')).toBe(true);
+  expect(ref.find(step=>step.headline==='Quotientenziffer 0 notieren')?.explanation).toContain('0 × 7 = 0');
+ });
+ it('erhält Multiplikations- und Divisionsinvarianten bei vielen gültigen Eingaben',()=>{
+  let seed=721331;const rand=(limit:number)=>{seed=(seed*48271)%2147483647;return seed%limit;};
+  for(let i=0;i<250;i++){
+   const top=String(rand(99999)+1),bottom=String(rand(999)+1);
+   const product=buildMultiplicationSteps(top,bottom).at(-1)!.visual;
+   expect(BigInt(product.result)).toBe(BigInt(top)*BigInt(bottom));
+   const divisor=String(rand(999)+1),quotient=String(rand(99999)),remainder=String(rand(Number(divisor)));
+   const dividend=(BigInt(divisor)*BigInt(quotient)+BigInt(remainder)).toString();
+   const division=buildDivisionSteps(dividend,divisor).at(-1)!.visual;
+   expect(BigInt(division.quotient)*BigInt(divisor)+BigInt(division.remainder)).toBe(BigInt(dividend));
+   expect(BigInt(division.remainder)).toBeLessThan(BigInt(divisor));
+  }
  });
  it('zeichnet auch waagerechte und fallende Geraden endlich im Koordinatenbereich',()=>{
   for(const slope of [0,-2,2]){

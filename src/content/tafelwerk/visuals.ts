@@ -192,6 +192,48 @@ export function renderVisual(v:any) {
     case 'combos': html=combinations(v);break;
     case 'math-stack': html=`<div class="math-stack" role="group" aria-label="Zusammenhängender Rechenweg">${v.rows.map((row:string)=>`<div>${formatFractions(svgEsc(row))}</div>`).join('')}</div>`;break;
     case 'long-division': {const columns=String(v.dividend).length;const digits=(value:string,offset=0)=>Array.from({length:columns},(_,i)=>`<span class="division-digit">${i>=offset&&i<offset+value.length?svgEsc(value[i-offset]):'&nbsp;'}</span>`).join('');const rows=(v.rows??[]).map((row:any)=>row.rule?`<div class="division-rule" style="--division-offset:${row.at??0};--division-length:${row.length??columns}"></div>`:`<div class="division-row ${row.result?'division-result':''}" style="--division-offset:0"><span class="division-digits">${digits(String(row.value),row.at??0)}</span>${row.subtract?'<span class="division-minus" aria-label="minus">−</span>':''}</div>`).join('');html=`<div class="long-division" style="--division-columns:${columns}" role="group" aria-label="Schriftliche Division ${svgEsc(v.dividend)} geteilt durch ${svgEsc(v.divisor)}"><div class="division-quotient"><span class="division-digits">${digits(String(v.quotient),v.quotientAt??0)}</span></div><div class="division-divisor">${svgEsc(v.divisor)}</div><div class="division-start"><span class="division-digits">${digits(String(v.dividend))}</span></div><div class="division-work">${rows}</div></div>`;break;}
+    case 'multiplication-grid': {
+      const columns=Number(v.columns), cell=(value:string|null|undefined,classes='')=>`<span class="arith-cell ${value==null?'is-empty':''} ${classes}">${value==null?'&nbsp;':svgEsc(value)}</span>`;
+      const row=(label:string,cells:(string|null)[],kind='',active:number[]=[])=>(`<div class="arith-row ${kind}"><span class="arith-label">${svgEsc(label)}</span>${Array.from({length:columns},(_,i)=>cell(cells[i],`${active.includes(i)?'is-active':''} ${i===v.activeAddColumn?'is-add-active':''}`)).join('')}</div>`);
+      const blank:Array<string|null>=Array(columns).fill(null);
+      const carryCells=[...blank];if(v.carryIn?.value)carryCells[v.carryIn.column]=String(v.carryIn.value);
+      const addCarryCells=[...blank];if(v.addCarry?.value)addCarryCells[v.addCarry.column]=String(v.addCarry.value);
+      const topCells=Array(columns-v.top.length).fill(null).concat([...String(v.top)]);
+      const bottomCells=Array(columns-v.bottom.length).fill(null).concat([...String(v.bottom)]);
+      const activeTop=v.activeTopIndex==null?[]:[columns-v.top.length+v.activeTopIndex];
+      const activeBottom=v.activeBottomIndex==null?[]:[columns-v.bottom.length+v.activeBottomIndex];
+      const parts=(v.partials??[]).map((part:any,index:number)=>row(`${index?'＋ ':''}${part.label}`,part.cells,`arith-partial ${part.complete?'is-complete':''}`,v.activeAddColumn==null?[]:[v.activeAddColumn])).join('');
+      const carries=v.carryIn?.value?row('Übertrag',carryCells,'arith-carry-row'):'';
+      const addCarry=v.addCarry?.value?row('Übertrag',addCarryCells,'arith-carry-row'):'';
+      const result=v.resultCells?row('Ergebnis',v.resultCells,`arith-result ${v.final?'is-final':''}`,v.activeAddColumn==null?[]:[v.activeAddColumn]):'';
+      html=`<div class="arithmetic-visual multiplication-visual"><div class="arithmetic-equation">${svgEsc(v.top)} × ${svgEsc(v.bottom)}${v.final?` = ${svgEsc(v.result)}`:''}</div><div class="arithmetic-grid" style="--arith-columns:${columns}" role="group" aria-label="Rechenschritte schriftlich multiplizieren">${carries}${row('1. Faktor',topCells,'arith-factor',activeTop)}${row('× 2. Faktor',bottomCells,'arith-factor',activeBottom)}<div class="arith-rule"><span></span></div>${parts}${v.resultCells?`<div class="arith-rule"><span></span></div>${addCarry}${result}`:''}</div></div>`;
+      break;
+    }
+    case 'division-grid': {
+      const columns=String(v.dividend).length, cell=(value:string|null|undefined,classes='')=>`<span class="arith-cell ${value==null?'is-empty':''} ${classes}">${value==null?'&nbsp;':svgEsc(value)}</span>`;
+      const row=(label:string,cells:(string|null)[],kind='',active:number[]=[])=>(`<div class="arith-row ${kind}"><span class="arith-label">${svgEsc(label)}</span>${Array.from({length:columns},(_,i)=>cell(cells[i],`${active.includes(i)?'is-active':''}`)).join('')}</div>`);
+      const aligned=(value:string,end:number)=>{const cells:Array<string|null>=Array(columns).fill(null);[...String(value)].forEach((digit,i)=>{const col=end-String(value).length+1+i;if(col>=0&&col<columns)cells[col]=digit;});return cells;};
+      const quotientCells=(v.quotientCells??Array(columns).fill('')).map((digit:string)=>digit||null);
+      const dividendCells=[...String(v.dividend)];
+      const work=(v.groups??[]).map((group:any,index:number)=>{
+        const active=index===v.activeGroup?[group.end]:[];
+        let rows='';
+        if(group.brought){
+          const broughtCells=aligned(group.brought.rest,group.brought.from);broughtCells[group.brought.to]=String(group.brought.digit);
+          rows+=row('↓ Ziffer holen',broughtCells,'arith-brought',[group.brought.to]);
+        }
+        rows+=row('Teilzahl',aligned(String(group.partial),group.end),`arith-partial ${index===v.activeGroup?'is-current':''}`,active);
+        if(group.product!=null){
+          rows+=row(`− ${group.quotientDigit} × ${v.divisor}`,aligned(String(group.product),group.end),'arith-subtract',active);
+          rows+='<div class="arith-rule"><span></span></div>';
+          rows+=row('Rest',aligned(String(group.remainder),group.end),'arith-remainder');
+        }
+        return rows;
+      }).join('');
+      const quotient=v.final?String(v.quotient):quotientCells.filter((digit:string|null)=>digit!=null).join('');
+      html=`<div class="arithmetic-visual division-visual"><div class="arithmetic-equation"><span>${svgEsc(v.dividend)} : ${svgEsc(v.divisor)} =</span><strong>${svgEsc(quotient||'…')}</strong>${v.final&&BigInt(v.remainder||'0')>0n?`<small>Rest ${svgEsc(v.remainder)}</small>`:''}</div><div class="arithmetic-grid" style="--arith-columns:${columns}" role="group" aria-label="Rechenschritte schriftlich dividieren">${row('Quotient',quotientCells,'arith-quotient',v.activeIndex==null?[]:[v.activeIndex])}${row('Dividend',dividendCells,'arith-factor',v.activeIndex==null?[]:[v.activeIndex])}${work}${v.final?`<div class="division-check">Probe: ${svgEsc(v.divisor)} × ${svgEsc(v.quotient)}${BigInt(v.remainder||'0')>0n?` + ${svgEsc(v.remainder)}`:''} = ${svgEsc(v.dividend)}</div>`:''}</div></div>`;
+      break;
+    }
     case 'linear-function': {const m=Number(v.slope??2),n=Number(v.n??1);html=`<div class="linear-function-work">${graph({mode:'line',slope:m,intercept:n,points:[{x:0,y:n},{x:1,y:m+n}]})}<table class="function-values"><thead><tr>${v.values[0].map((x:string)=>`<th scope="col">${svgEsc(x)}</th>`).join('')}</tr></thead><tbody>${v.values.slice(1).map((row:string[])=>`<tr>${row.map((x:string)=>`<td>${svgEsc(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;break;}
     case 'transversal': html=transversal(v);break;
     case 'equation': html=`<table class="equation-work" aria-label="Umformung der Gleichung"><tbody>${v.rows.map((row:any)=>`<tr><td>${row.left}</td><td>=</td><td>${row.right}</td><td class="equation-operation">${row.operation?`│ ${row.operation}`:''}</td></tr>`).join('')}</tbody></table>`;break;
