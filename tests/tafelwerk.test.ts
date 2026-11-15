@@ -36,7 +36,7 @@ describe('Mathe-Tafelwerk',()=>{
   expect(lesson('vierfeldertafel').steps[0].formula).toContain('8 mit Bus, 12 mit Rad');
  });
  it('zeigt Addition und Subtraktion vollständig mit kleinen stellenrichtigen Ziffern',()=>{
-  for(const [id,kind,expected] of [['schriftlich-addieren','addition','524'],['schriftlich-subtrahieren','subtraction','348']]){
+  for(const [id,kind,expected] of [['schriftlich-addieren','addition','524'],['schriftlich-subtrahieren','subtraction','168']]){
    const steps=lesson(id).steps;expect(steps).toHaveLength(1);
    expect(steps[0].visual).toMatchObject({type:'written-reference',kind});
    const visual=renderVisual(steps[0].visual);expect(visual).toContain(expected);expect(visual).toContain('font-size="15"');

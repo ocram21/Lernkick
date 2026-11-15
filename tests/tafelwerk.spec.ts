@@ -16,7 +16,11 @@ for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440
    }
    for(let i=0;i<lesson.steps.length;i++){
     await expect(page.locator('.tafelwerk-board h1')).toHaveText(lesson.steps[i].headline);
-    const overflow=await page.locator('.tafelwerk-board-body').evaluate(el=>({width:el.clientWidth,scroll:el.scrollWidth,height:el.clientHeight,scrollHeight:el.scrollHeight}));
+    if(id==='schriftlich-subtrahieren'){
+    const carries=page.locator('.written-reference text[font-size="15"]');await expect(carries).toHaveCount(2);
+    expect(await carries.evaluateAll(els=>els.map(el=>({column:el.getAttribute('data-column'),y:el.getAttribute('y'),text:el.textContent})))).toEqual([{column:'2',y:'98',text:'1'},{column:'3',y:'98',text:'1'}]);
+   }
+   const overflow=await page.locator('.tafelwerk-board-body').evaluate(el=>({width:el.clientWidth,scroll:el.scrollWidth,height:el.clientHeight,scrollHeight:el.scrollHeight}));
     expect(overflow.scroll,`${lesson.id}/${i}: horizontal`).toBeLessThanOrEqual(overflow.width+1);
     expect(overflow.scrollHeight,`${lesson.id}/${i}: vertical`).toBeLessThanOrEqual(overflow.height+1);
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
@@ -67,7 +71,7 @@ test('Schriftliche Musterrechnungen entsprechen der Heftanordnung',async({page})
    await page.locator(`[data-lesson="${id}"]`).click();
    await expect(page.locator('.written-reference')).toBeVisible();
    await expect(page.locator('.tafelwerk-step-count,.tafelwerk-progress,.tafelwerk-step-controls,.tafelwerk-example-choices')).toHaveCount(0);
-   await expect(page.locator('.written-reference')).toHaveAttribute('aria-label',id==='schriftlich-addieren'?/348.*176.*524/:id==='schriftlich-subtrahieren'?/524.*176.*348/:id==='schriftlich-mal'?/2637.*24.*63288/:/59535.*7.*8505/);
+   await expect(page.locator('.written-reference')).toHaveAttribute('aria-label',id==='schriftlich-addieren'?/348.*176.*524/:id==='schriftlich-subtrahieren'?/426.*258.*168/:id==='schriftlich-mal'?/2637.*24.*63288/:/59535.*7.*8505/);
    const overflow=await page.locator('.tafelwerk-board-body').evaluate(el=>el.scrollWidth<=el.clientWidth+1);expect(overflow).toBe(true);
    const centers=await page.locator('.written-reference text[data-column="4"]').evaluateAll(els=>els.map(el=>el.getBoundingClientRect().x+el.getBoundingClientRect().width/2));
    for(const center of centers)expect(Math.abs(center-centers[0])).toBeLessThan(1);

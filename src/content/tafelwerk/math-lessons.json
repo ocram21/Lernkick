@@ -216,14 +216,14 @@
       "category": "verfahren",
       "stage": "5-6",
       "title": "Schriftlich subtrahieren",
-      "subtitle": "Stellenrichtig abziehen und entbündeln",
+      "subtitle": "Ergänzen mit Übertrag",
       "symbol": "−",
       "sourceNote": "Grundwissen Klasse 5/6; eigenes Musterbeispiel",
       "steps": [
         {
           "headline": "Schriftliche Subtraktion",
           "formula": "",
-          "explanation": "Von rechts abziehen. Zum Entbündeln wird aus 524: 4 Hunderter, 11 Zehner, 14 Einer. Die kleinen Ziffern zeigen diese Aufteilung. Dann 14 − 6 = 8, 11 − 7 = 4 und 4 − 1 = 3. Ergebnis: 348.",
+          "explanation": "Ergänzen von rechts: 8 + 8 = 16; 5 + 1 + 6 = 12; 2 + 1 + 1 = 4. Die kleinen Einsen werden jeweils in der nächsten Spalte mitgerechnet. Ergebnis: 168.",
           "visual": {
             "type": "written-reference",
             "kind": "subtraction"
