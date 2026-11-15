@@ -5,8 +5,8 @@ import {buildDivisionSteps,buildMultiplicationSteps} from '../src/content/tafelw
 const lesson=(id:string)=>data.lessons.find(item=>item.id===id)!;
 describe('Mathe-Tafelwerk',()=>{
  it('behält alle Themen eindeutig und rendert jeden Schritt',()=>{
-  expect(data.lessons).toHaveLength(58);
-  expect(new Set(data.lessons.map(l=>l.id)).size).toBe(58);
+  expect(data.lessons).toHaveLength(59);
+  expect(new Set(data.lessons.map(l=>l.id)).size).toBe(59);
   for(const l of data.lessons){
    expect(data.categories.some(c=>c.id===l.category)).toBe(true);
    for(const step of l.steps){
@@ -35,11 +35,14 @@ describe('Mathe-Tafelwerk',()=>{
   expect(visual.rows.map(r=>r[0])).toEqual(['Mit Abo','Ohne Abo','Gesamt']);
   expect(lesson('vierfeldertafel').steps[0].formula).toContain('8 mit Bus, 12 mit Rad');
  });
- it('entwickelt schriftliche Addition mit sichtbaren Überträgen',()=>{
-  const steps=lesson('schriftlich-addieren').steps;
-  expect(steps.map(s=>(s.visual as {result?:string}).result)).toEqual(['','','','524']);
-  expect(steps[1].visual).toMatchObject({partial:'  4',carry:' 1 '});
-  expect(steps[2].visual).toMatchObject({partial:' 24',carry:'11 '});
+ it('zeigt Addition und Subtraktion vollständig mit kleinen stellenrichtigen Ziffern',()=>{
+  for(const [id,kind,expected] of [['schriftlich-addieren','addition','524'],['schriftlich-subtrahieren','subtraction','348']]){
+   const steps=lesson(id).steps;expect(steps).toHaveLength(1);
+   expect(steps[0].visual).toMatchObject({type:'written-reference',kind});
+   const visual=renderVisual(steps[0].visual);expect(visual).toContain(expected);expect(visual).toContain('font-size="15"');
+  }
+  const ids=data.lessons.filter(l=>l.category==='verfahren').map(l=>l.id);
+  expect(ids.indexOf('schriftlich-subtrahieren')).toBe(ids.indexOf('schriftlich-addieren')+1);
  });
  it('zeigt die festen Musterrechnungen mit Kästchen und vollständigen Ergebnissen',()=>{
   for(const id of ['schriftlich-mal','schriftlich-geteilt']){

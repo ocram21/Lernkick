@@ -192,6 +192,46 @@
       "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
+      "id": "schriftlich-addieren",
+      "category": "verfahren",
+      "stage": "5-6",
+      "title": "Schriftlich addieren",
+      "subtitle": "Einer unter Einer",
+      "symbol": "+",
+      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
+      "steps": [
+        {
+          "headline": "Schriftliche Addition",
+          "formula": "",
+          "explanation": "Einer unter Einer, Zehner unter Zehner. Von rechts addieren: 8 + 6 = 14, dann 4 + 7 + 1 = 12. Die kleinen Einsen sind die Überträge in die nächste Spalte. Ergebnis: 524.",
+          "visual": {
+            "type": "written-reference",
+            "kind": "addition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "schriftlich-subtrahieren",
+      "category": "verfahren",
+      "stage": "5-6",
+      "title": "Schriftlich subtrahieren",
+      "subtitle": "Stellenrichtig abziehen und entbündeln",
+      "symbol": "−",
+      "sourceNote": "Grundwissen Klasse 5/6; eigenes Musterbeispiel",
+      "steps": [
+        {
+          "headline": "Schriftliche Subtraktion",
+          "formula": "",
+          "explanation": "Von rechts abziehen. Zum Entbündeln wird aus 524: 4 Hunderter, 11 Zehner, 14 Einer. Die kleinen Ziffern zeigen diese Aufteilung. Dann 14 − 6 = 8, 11 − 7 = 4 und 4 − 1 = 3. Ergebnis: 348.",
+          "visual": {
+            "type": "written-reference",
+            "kind": "subtraction"
+          }
+        }
+      ]
+    },
+    {
       "id": "schriftlich-mal",
       "category": "verfahren",
       "title": "Schriftlich multiplizieren",
@@ -1359,73 +1399,6 @@
               "3 482",
               "= 3 000 + 400 + 80 + 2"
             ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "schriftlich-addieren",
-      "category": "verfahren",
-      "stage": "5-6",
-      "title": "Schriftlich addieren",
-      "subtitle": "Einer unter Einer",
-      "symbol": "+",
-      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
-      "steps": [
-        {
-          "headline": "Stellen ausrichten",
-          "formula": "",
-          "explanation": "Schreibe Einer unter Einer, Zehner unter Zehner und Hunderter unter Hunderter.",
-          "visual": {
-            "type": "long-addition",
-            "first": "348",
-            "second": "176",
-            "partial": "",
-            "carry": "",
-            "result": ""
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Einer addieren",
-          "formula": "",
-          "explanation": "8 + 6 = 14. Schreibe 4 bei den Einern. Die kleine 1 in der Zehnerspalte ist der Übertrag.",
-          "visual": {
-            "type": "long-addition",
-            "first": "348",
-            "second": "176",
-            "partial": "  4",
-            "carry": " 1 ",
-            "result": ""
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zehner mit Übertrag addieren",
-          "formula": "",
-          "explanation": "4 + 7 + 1 = 12 Zehner. Schreibe 2 bei den Zehnern und übertrage 1 Hunderter.",
-          "visual": {
-            "type": "long-addition",
-            "first": "348",
-            "second": "176",
-            "partial": " 24",
-            "carry": "11 ",
-            "result": ""
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Hunderter und Ergebnis",
-          "formula": "",
-          "explanation": "3 + 1 + 1 = 5 Hunderter. Das Ergebnis ist 524. Probe: 524 − 176 = 348.",
-          "visual": {
-            "type": "long-addition",
-            "first": "348",
-            "second": "176",
-            "partial": "",
-            "carry": "11 ",
-            "result": "524"
           },
           "sub": ""
         }
