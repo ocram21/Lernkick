@@ -1,4 +1,5 @@
 import {z} from 'zod';
+export const bossChargeRequired=2;
 export const subjects=['math','german','social','biology','geography'] as const;
 export const areas=[...subjects,'vocabulary','hangman','germany','nback','cards'] as const;
 export type Area=typeof areas[number];
@@ -7,6 +8,7 @@ const nonnegative=z.number().nonnegative(),counts=z.record(z.string(),nonnegativ
 const pendingSchema=z.object({area:z.enum(areas),subject:z.enum(subjects).optional(),slices:counts});
 const runSchema=pendingSchema.extend({at:nonnegative,kind:z.enum(['regular','cards','boss'])});
 const bossSchema=z.object({id:z.string(),subject:z.enum(subjects),difficulty:z.enum(['normal','hard']),startedAt:nonnegative,endedAt:nonnegative.optional(),status:z.enum(['running','aborted','finished']),correct:z.number().int().min(0).max(10),wrong:z.number().int().min(0).max(10),won:z.boolean(),durationMs:nonnegative.max(180000)});
+// Alte Sicherungen mit bis zu fünf Ladungen bleiben lesbar; neue Ladung ist auf zwei begrenzt.
 export const statisticsSchema=z.object({since:nonnegative,pending:z.record(z.string(),pendingSchema),runs:z.record(z.string(),runSchema),bosses:z.record(z.string(),bossSchema),charges:z.record(z.string(),z.number().int().min(0).max(5))});
 export type Statistics=z.infer<typeof statisticsSchema>;
 export type BossResult=z.infer<typeof bossSchema>;
@@ -29,7 +31,7 @@ export function finishRun(s:Statistics,id:string,area:Area,at=Date.now(),kind:'r
  if(s.runs[id])return s;
  const pending={...s.pending},run=pending[id]??{area,subject,slices:{}};delete pending[id];
  const charge=kind==='regular'&&subjects.includes(area as BossSubject);
- return {...s,since:s.since||at,pending,runs:{...s.runs,[id]:{...run,area,subject:subject??run.subject,kind,at}},charges:charge?{...s.charges,[area]:Math.min(5,(s.charges[area]??0)+1)}:s.charges};
+ return {...s,since:s.since||at,pending,runs:{...s.runs,[id]:{...run,area,subject:subject??run.subject,kind,at}},charges:charge?{...s.charges,[area]:Math.min(bossChargeRequired,(s.charges[area]??0)+1)}:s.charges};
 }
 export function roundCount(s:Statistics,area:Area){return Object.values(s.runs).filter(r=>r.area===area&&r.kind==='regular').length;}
 export function beginBoss(s:Statistics,result:BossResult):Statistics{return {...s,since:s.since||result.startedAt,bosses:{...s.bosses,[result.id]:result}};}
@@ -42,7 +44,7 @@ export function endBoss(s:Statistics,result:BossResult,slices:Record<string,numb
 export function mergeStatistics(a:Statistics,b:Statistics):Statistics{
  const bosses={...a.bosses,...b.bosses};for(const [id,old]of Object.entries(a.bosses))if(old.status!=='running'&&bosses[id]?.status==='running')bosses[id]=old;
  const runs={...a.runs,...b.runs},charges:Statistics['charges']={};
- for(const subject of subjects){const last=Math.max(0,...Object.values(bosses).filter(r=>r.subject===subject&&r.status==='finished').map(r=>r.endedAt??0));const charge=Math.min(5,Object.values(runs).filter(r=>r.area===subject&&r.kind==='regular'&&r.at>last).length);if(charge||subject in a.charges||subject in b.charges)charges[subject]=charge;}
+ for(const subject of subjects){const last=Math.max(0,...Object.values(bosses).filter(r=>r.subject===subject&&r.status==='finished').map(r=>r.endedAt??0));const charge=Math.min(bossChargeRequired,Object.values(runs).filter(r=>r.area===subject&&r.kind==='regular'&&r.at>last).length);if(charge||subject in a.charges||subject in b.charges)charges[subject]=charge;}
  return {since:a.since&&b.since?Math.min(a.since,b.since):a.since||b.since,pending:{...a.pending,...b.pending},runs,bosses,charges};
 }
 export function monthDays(month:string){const [y,m]=month.split('-').map(Number);return new Date(Date.UTC(y,m,0)).getUTCDate();}

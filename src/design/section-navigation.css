@@ -30,3 +30,17 @@
 }
 /* The selected footer is a light panel in Pink and needs dark ink. */
 :root[data-pink=true] .app-shell .bottom-nav.primary-section-nav button[aria-current]{color:var(--pink-ink)}
+
+/* Identische Kopfzeile und Fachposition in Lernkasten und Tafelwerk. */
+.app-shell.box-screen>main,.app-shell.tafelwerk-screen>main{width:100%;max-width:760px;margin-inline:auto;padding-top:8px}
+.learning-box.box-selecting{padding:2px 12px;gap:6px}
+.learning-box.box-selecting .box-heading,.tafelwerk-intro{position:relative;height:36px;min-height:36px;flex:0 0 36px;display:flex;align-items:center}
+.learning-box.box-selecting .box-help,.tafelwerk-intro .box-help{margin-left:auto;width:36px;height:36px;min-width:36px;min-height:36px}
+.learning-box.box-selecting .box-subjects{margin:6px 0 10px}
+:root .app-shell .box-subjects .calculator-key[aria-pressed=true],:root[data-pink=true] .app-shell .box-subjects .calculator-key[aria-pressed=true]{--key-color:var(--calc-violet);background:var(--calc-violet);color:var(--calc-ink);outline:2px solid var(--calc-violet);outline-offset:3px;border-color:var(--calc-violet)}
+.learning-box.box-selecting .box-heading{margin-bottom:0}
+:root .app-shell:is(.box-screen,.tafelwerk-screen)>main{padding-top:8px}
+.app-shell.box-screen:has(.box-selecting)>.header{height:56px;min-height:56px}
+.learning-box.box-selecting .box-subjects .calculator-key{height:auto;min-height:52px}
+@media(max-width:370px){.learning-box.box-selecting{padding-inline:8px}}
+.tafelwerk .box-subjects .calculator-key{height:auto;min-height:52px}

@@ -1,5 +1,6 @@
+import {LearningBoxHelp} from './LearningBoxHelp';
 import { useEffect, useRef, useState } from 'react';
-import { BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, Info, ChevronLeft, ChevronRight } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
 import { germanCategories, germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
@@ -24,8 +25,9 @@ function TafelSymbol({value}:{value:string}){
 }
 
 export function Tafelwerk(){
- const [subject,setSubject]=useState<Subject|null>(null);
- const [category,setCategory]=useState<string|null>(null);
+ const [help,setHelp]=useState(false);
+ const [subject,setSubject]=useState<Subject>('Mathematik');
+ const [category,setCategory]=useState<string|null>(categories[0]?.id??null);
  const [lesson,setLesson]=useState<Lesson|null>(null);
  const [stepIndex,setStepIndex]=useState(0);
  const [germanCategory,setGermanCategory]=useState<string>(germanCategories[0].id);
@@ -60,14 +62,14 @@ export function Tafelwerk(){
   if(lesson)sectionRef.current?.querySelector('.tafelwerk-detail')?.scrollTo(0,0);
  },[lesson,stepIndex]);
 
- return <section ref={sectionRef} className="tafelwerk" aria-label="Tafelwerk" onKeyDown={event=>{
+ return <><section ref={sectionRef} className="tafelwerk" aria-label="Tafelwerk" onKeyDown={event=>{
   if(!lesson||event.altKey||event.ctrlKey||event.metaKey||event.shiftKey)return;
   if(event.key==='ArrowLeft'||event.key==='ArrowRight'){
    event.preventDefault();
    setStepIndex(index=>Math.max(0,Math.min(lesson.steps.length-1,index+(event.key==='ArrowRight'?1:-1))));
   }
  }}>
-  <div className="tafelwerk-intro section-marker" aria-label="Bereich: Tafelwerk"><BookOpen size={23}/></div>
+  <div className="tafelwerk-intro"><span className="section-marker box-section-marker" aria-label="Bereich: Tafelwerk"><BookOpen size={23}/></span><button className="box-help" aria-label="Tafelwerk-Hilfe" title="So nutzt du das Tafelwerk" onClick={()=>setHelp(true)}><Info size={20}/></button></div>
    <div className="box-subjects tafelwerk-subject-grid" aria-label="Fach wählen">{subjects.map(({name,short})=><button className="calculator-key subject-key" key={name} data-subject={name} aria-label={name} aria-pressed={subject===name} onClick={()=>selectSubject(name)}><span className="key-name">{short}</span></button>)}</div>
 
   {subject&&subject!=='Mathematik'&&subject!=='Deutsch'&&<>
@@ -114,6 +116,6 @@ export function Tafelwerk(){
    {lesson.steps.length>1&&<div className="tafelwerk-step-controls"><button className="small-button" disabled={stepIndex===0} onClick={()=>setStepIndex(index=>Math.max(0,index-1))}><ChevronLeft size={18}/>Zurück</button><button className="primary" onClick={()=>stepIndex===lesson.steps.length-1?showLessons():setStepIndex(index=>index+1)}>{stepIndex===lesson.steps.length-1?'Zur Themenliste':'Weiter'}<ChevronRight size={18}/></button></div>}
    </div>
   </>}
- </section>;
+ </section>{help&&<LearningBoxHelp onClose={()=>setHelp(false)} title="Das Tafelwerk" label="Tafelwerk-Hilfe schließen" paragraphs={['Wähle oben ein Fach und darunter eine Rubrik. Ein Themenbutton öffnet die zugehörige Nachschlagetafel.','Die Fächer bleiben sichtbar. Tippe erneut auf das aktuelle Fach, um zur Themenauswahl zurückzukehren. Ein anderes Fach wechselst du direkt an.','Die Tafeln erklären Regeln und Beispiele ohne Aufgaben oder Bewertung. Sie verändern deinen Lernstand nicht und sind auch offline verfügbar.']}/>}</>;
 }
 
