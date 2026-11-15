@@ -17,6 +17,7 @@ const subjects:{name:Subject;icon:typeof Compass}[]=[
  {name:'Biologie',icon:TreeDeciduous},
  {name:'Deutsch',icon:BookOpen}
 ];
+const germanTopicLabels:Record<string,string>={'DEU-09':'Kommas setzen','DEU-10':'Großschreibung','DEU-14':'Argumentieren','DEU-15':'Texte planen und überarbeiten','DEU-18':'Zusammenfassung und Inhaltsangabe','DEU-19':'Bericht, Beschreibung, Erzählung'};
 const categoryLabels:Record<string,string>={zahlen:'Zahlen',verfahren:'Rechnen',brueche:'Brüche',terme:'Terme',anwendung:'Alltag',funktionen:'Funktionen',geometrie:'Geometrie',daten:'Daten'};
 function TafelSymbol({value}:{value:string}){
  const parts=fractionParts(value);
@@ -86,7 +87,7 @@ export function Tafelwerk(){
   {subject==='Deutsch'&&!germanLesson&&<>
    <div className="tafelwerk-heading"><button className="tafelwerk-back" onClick={showSubjects} aria-label="Zur Fächerauswahl"><ArrowLeft size={18}/><span>Fächer</span></button><h1>Deutsch</h1></div>
    <div className="tafelwerk-catalog">
-    <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><BookOpen className="deutsch-topic-icon" size={18} aria-hidden="true"/><span>{item.title}</span><ChevronRight size={18}/></button>)}</div>
+    <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} aria-label={item.title} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><span>{germanTopicLabels[item.id]??item.title}</span></button>)}</div>
    </div>
   </>}
 

@@ -99,16 +99,22 @@ test('Schriftliche Multiplikation und Division bleiben schrittweise und stellenr
  }
 });
 
-for(const width of [320,1440])test(`Deutschthemen als Buttons ohne Unterteilung ${width}`,async({page})=>{
- await page.setViewportSize({width,height:844});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
+for(const {width,height} of [{width:320,height:568},{width:390,height:667},{width:390,height:844},{width:1440,height:900}])test(`Deutschthemen als Buttons ohne Unterteilung ${width}x${height}`,async({page})=>{
+ await page.setViewportSize({width,height});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
  await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();await page.getByRole('button',{name:'Deutsch',exact:true}).click();
  const topics=page.locator('.deutsch-topic-grid [data-lesson]');
  await expect(topics).toHaveCount(20);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
  expect(await page.locator('.deutsch-topic-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(2);
  await expect(page.getByRole('button',{name:/Sprachlehre|^Schreiben$|Lesen & Medien/})).toHaveCount(0);
- await page.screenshot({path:`test-results/deutsch-menu-${width}.png`});
+ await expect(topics.locator('svg')).toHaveCount(0);
+ const fits=await page.locator('.tafelwerk-catalog').evaluate(el=>el.scrollHeight<=el.clientHeight+1);expect(fits).toBe(true);
+ for(const topic of await topics.all()){
+  await expect(topic).toBeInViewport();
+  expect(await topic.evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
+ }
+ await page.screenshot({path:`test-results/deutsch-menu-${width}-${height}.png`});
  for(let i=0;i<20;i++){
-  const choice=topics.nth(i),title=await choice.innerText();await choice.click();
+  const choice=topics.nth(i),title=(await choice.getAttribute('aria-label'))!;await choice.click();
   await expect(page.locator('.deutsch-reference-page h1')).toHaveText(title.trim());
   await expect(page.locator('.deutsch-reference-page h1')).toBeFocused();
   await expect(page.locator('.deutsch-reference-page')).toHaveCount(1);
