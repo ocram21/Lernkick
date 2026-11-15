@@ -4,7 +4,7 @@ for(const pink of [false,true])for(const width of [320,390,1440])test(`Bereichsh
  if(pink){await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();await page.getByRole('button',{name:'Training',exact:true}).click();}
  const info=page.getByRole('button',{name:'Training-Hilfe',exact:true});const reference=(await info.boundingBox())!;
  const boss=(await page.locator('.boss-switch').boundingBox())!;expect(boss.x+boss.width).toBeLessThan(reference.x);await info.click();
- const dialog=page.getByRole('dialog');await expect(dialog).toContainText('Training und Schwierigkeit');await expect(dialog).toContainText('Games');await expect(dialog).toContainText('Score und Skill');await dialog.locator('.boss-help summary').click();await expect(dialog).toContainText('Zwei vollständig abgeschlossene Runden');await expect(dialog).not.toContainText('Sicherung importieren');
+ const dialog=page.getByRole('dialog');await expect(dialog).toContainText('Training und Schwierigkeit');await expect(dialog).toContainText('Games');await expect(dialog).toContainText('Score und Skill');await expect(dialog.locator('details')).toHaveCount(0);await expect(dialog).toContainText('Nach zwei vollständigen Runden');await expect(dialog).not.toContainText('Sicherung importieren');
  await page.keyboard.press('Escape');await expect(info).toBeFocused();
  for(const [section,label] of [['Lernkasten','Lernkasten-Hilfe'],['Tafelwerk','Tafelwerk-Hilfe']]){
   await page.getByRole('button',{name:section,exact:true}).click();const box=(await page.getByRole('button',{name:label,exact:true}).boundingBox())!;expect(box.x).toBeCloseTo(reference.x,0);expect(box.y).toBeCloseTo(reference.y,0);

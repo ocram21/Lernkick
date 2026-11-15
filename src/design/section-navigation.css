@@ -60,3 +60,14 @@
 .training-heading-actions{align-self:start}
 .home-screen .section-heading>.section-marker{height:36px;align-self:start}
 :root[data-pink=true] .box-help-dialog{--ink:var(--pink-ink);--muted:var(--pink-muted)}
+
+/* Bossmodus: rote Lampe statt beschriftetem Schalter, mit Abstand zur Info. */
+.home-screen .training-heading-actions{gap:18px}
+.home-screen .training-heading-actions .boss-switch{display:flex;flex-direction:column;justify-content:center;gap:1px;width:58px;min-height:42px;padding:0;border:0;background:transparent;color:var(--ink);font-size:10px;line-height:1.1;box-shadow:none}
+.home-screen .training-heading-actions .boss-switch .boss-bulb{display:block;width:23px;height:23px;color:var(--calc-red);fill:transparent;opacity:.65;filter:none}
+.home-screen .training-heading-actions .boss-switch[aria-pressed=true]{outline:none}
+.home-screen .training-heading-actions .boss-switch[aria-pressed=true] .boss-bulb{fill:var(--calc-red);opacity:1;filter:drop-shadow(0 0 4px var(--calc-red))}
+.home-screen .training-heading-actions .boss-switch:disabled{opacity:1}
+.training-help-points p{margin:6px 0;font-size:14px;line-height:1.3}
+@media(max-height:650px){.training-help-points p{margin:5px 0;font-size:13px;line-height:1.25}}
+.home-screen .training-heading-actions .training-help{align-self:flex-start}
