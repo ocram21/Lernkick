@@ -171,3 +171,17 @@ for(const pink of [false,true])test(`Winkelmesser und Kreiszeichnungen sind selb
   await page.screenshot({path:`test-results/${id}-reference-${pink}.png`});await page.getByRole('button',{name:'Mathematik',exact:true}).click();
  }
 });
+
+for(const pink of [false,true])test(`Neue Nachschlagezeichnungen und Beispiele aus dem Prüfprotokoll Pink ${pink}`,async({page})=>{
+ await page.setViewportSize({width:320,height:568});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
+ if(pink){await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();}
+ await openMath(page);
+ for(const [id,step] of [['binomische-formeln',0],['aehnlichkeit',0],['tafelprojektion',0],['linear-ungleichung',1],['brueche-ungleich',0]] as const){
+  const lesson=data.lessons.find(item=>item.id===id)!,category=data.categories.find(item=>item.id===lesson.category)!;
+  await page.getByRole('button',{name:category.title,exact:true}).click();await page.locator(`[data-lesson="${id}"]`).click();
+  if(step)await page.getByRole('button',{name:'Weiter',exact:true}).click();
+  expect(await page.locator('.tafelwerk-detail').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
+  if(id!=='brueche-ungleich')await expect(page.locator('.tafelwerk-visual svg')).toBeVisible();
+  await page.screenshot({path:`test-results/audit-${id}-${pink}.png`});await page.getByRole('button',{name:'Mathematik',exact:true}).click();
+ }
+});

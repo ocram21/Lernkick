@@ -323,3 +323,5 @@
  .tafelwerk-detail .equation-work{padding:0}
  .tafelwerk-detail .equation-work .equation-operation{max-width:none;white-space:nowrap}
 }
+/* Platz für ausgeschriebene Bruch-Zwischenschritte im flachen Querformat. */
+@media(min-width:650px) and (max-height:500px){.tafelwerk-detail .tafelwerk-board-body:has(.math-stack){padding-block:4px}}

@@ -1,6 +1,8 @@
 # Prüfprotokoll: Verständlichkeit des Mathe-Tafelwerks
 
-**Datum:** 15.11.2026  
+**Aktueller Bearbeitungsstand:** M01–M14 umgesetzt (16.11.2026). Die ursprünglichen Befunde bleiben unten als Prüfverlauf erhalten.
+
+**Datum der Erstprüfung:** 15.11.2026
 **Geprüfter Stand:** Commit `3aae8f7`  
 **Auftrag:** Nur prüfen und protokollieren; keine Änderungen an Tafeln, Oberfläche oder Funktionen.
 
@@ -275,3 +277,28 @@ Nach Freigabe wurden ausschließlich die Punkte M01, M05 und M06 bearbeitet:
 Die Inhalte von M02 und M03 sowie die übrigen noch offenen Protokollpunkte wurden nicht geändert. Ein Vergleich der Inhaltsdatei mit dem vorherigen Stand bestätigt ausschließlich Änderungen an `winkel-messen` und `kreis`; die Layoutanpassung aus M01 gilt themenübergreifend.
 
 Validierung: alle 59 Tafeln und 105 Schritte auf 320 × 568, 844 × 390 und 1440 × 900 Pixeln auf Überlauf und sichtbare Erklärung geprüft; zusätzlich Bildbezug in Normal/Pink sowie Offline-Funktion und unveränderte gespeicherte Runden geprüft. Die Quelldatei dieses Protokolls bewahrt oben den ursprünglichen Prüfstand vom 15.11.2026.
+
+
+## Abschluss der übrigen Punkte am 16.11.2026
+
+Der Folgeauftrag umfasst ausdrücklich alle noch offenen Befunde, einschließlich der zuvor zurückgestellten Punkte M02 und M03. Die bereits erledigten Punkte M01, M05 und M06 bleiben bestehen.
+
+| Punkt | Umgesetzt |
+|---|---|
+| M02 | Das Ergänzungsverfahren erklärt jetzt, wann oben 10 dazugenommen und unten links 1 übertragen wird; die drei Ergänzungen sind der fertigen Rechnung zugeordnet. |
+| M03 | Die 2 in 24 ist ausdrücklich als 20 erklärt. 52 740, der Linksversatz und die leere Einerstelle als 0 sind benannt. |
+| M04 | Die vier Quotientenziffern 8, 5, 0, 5 sind den Teilzahlen 59, 35, 3 und 35 zugeordnet; insbesondere die Nullstelle ist erklärt. |
+| M07 | Die erste binomische Formel besitzt eine Flächenzerlegung mit a², ab, ab und b². Zweite und dritte Formel stehen auf getrennten Schritten mit ihren jeweiligen Mischprodukten. |
+| M08 | Erweiterung mit 3 bzw. 2 steht als Zwischenrechnung direkt am Bruch; der gemeinsame Nenner wird als gleich große Teilstücke erklärt. |
+| M09 | Eine Zahlengerade zeigt den offenen Rand bei 4 und den Bereich links davon. Ein weiterer Schritt erläutert −2x < −8 → x > 4 samt Zeichenwechsel beim Teilen durch −2. |
+| M10 | Zwei maßstäbliche ähnliche Dreiecke zeigen die entsprechenden Seiten a/a′, b/b′ und c/c′ mit 2/6, 3/9 und 4/12. Der Vergrößerungsfaktor 3 ist zugeordnet. |
+| M11 | Grundriss und Aufriss sind als zwei klare Ansichten dargestellt. P(3|2|4) führt zu den unterschiedlichen Paaren Pᵍ(3|2) und Pᵃ(3|4); Breite, Tiefe, Höhe und die hochgestellten Buchstaben sind erklärt. |
+| M12 | 2 − (−3) = 2 + 3 = 5 ergänzt den Zahlenstrahl. Der Text grenzt die Vorzeichenregel ausdrücklich auf Mal und Geteilt ein. |
+| M13 | Ein Beispiel mit vier sortierten Werten zeigt die beiden mittleren Werte 5 und 12 hervorgehoben und ihren Durchschnitt 8,5. |
+| M14 | U/A und Rand-/Innenfläche, Volumen als Rauminhalt mit Einheitswürfeln, die Überschrift zum Wurzelziehen, Summanden/Faktoren sowie x als Anzahl gleich langer Zeitschritte sind verständlicher erläutert. |
+
+Die vier schriftlichen Musterrechnungen bleiben vollständige feste Darstellungen; ihre Anordnung wurde nicht verändert. Es wurden keine neuen Themen oder Abhängigkeiten eingeführt. Die Zahl der Tafeln bleibt 59; durch getrennte Fälle gibt es jetzt 109 Schritte.
+
+Prüfung: alle 109 Schritte bei 320 × 568, 844 × 390 und 1440 × 900 Pixeln auf Überlauf und sichtbare Erklärung; zusätzliche Sichtprüfung der neuen Zeichnungen in Normal und Pink; Offline-Funktion und gespeicherte Runden weiterhin abgesichert. Der kleine zusätzliche Innenabstand für Formelblöcke im flachen Querformat verhindert einen unnötigen Scrollüberlauf bei den erweiterten Bruchrechnungen.
+
+**Status: Alle 14 protokollierten Punkte sind umgesetzt.**

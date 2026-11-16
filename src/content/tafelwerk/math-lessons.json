@@ -60,7 +60,7 @@
         {
           "headline": "Mal und Geteilt",
           "formula": "",
-          "explanation": "Bei Mal und Geteilt gilt für Zahlen ungleich 0: Gleiche Vorzeichen ergeben ein positives, verschiedene ein negatives Ergebnis. Rechne zuerst ohne die Vorzeichen. Durch 0 darfst du nicht teilen.",
+          "explanation": "Diese Vorzeichenregel gilt nur für Mal und Geteilt: Gleiches Vorzeichen → positiv, verschiedenes → negativ (ohne 0). Plus und Minus erklärt der Zahlenstrahl. Durch 0 darfst du nicht teilen.",
           "visual": {
             "type": "sign-rules",
             "groups": [
@@ -146,7 +146,7 @@
       "symbol": "²",
       "steps": [
         {
-          "headline": "Umkehroperationen am Quadrat",
+          "headline": "Quadrieren und Wurzelziehen",
           "formula": "6² = 6 · 6 = 36   ↔   √36 = 6",
           "explanation": "Eine Quadratzahl entsteht durch Malnehmen einer Zahl mit sich selbst. Die Quadratwurzel fragt umgekehrt nach dieser nichtnegativen Zahl.",
           "visual": {
@@ -223,7 +223,7 @@
         {
           "headline": "Schriftliche Subtraktion",
           "formula": "",
-          "explanation": "Ergänzen von rechts: 8 + 8 = 16; 5 + 1 + 6 = 12; 2 + 1 + 1 = 4. Die kleinen Einsen werden jeweils in der nächsten Spalte mitgerechnet. Ergebnis: 168.",
+          "explanation": "Ist die obere Ziffer zu klein: oben 10 dazu, unten links 1 übertragen. Von 8 bis 16: 8; von 5 + 1 bis 12: 6; von 2 + 1 bis 4: 1. Ergebnis: 168.",
           "visual": {
             "type": "written-reference",
             "kind": "subtraction"
@@ -241,7 +241,7 @@
         {
           "headline": "Schriftliche Multiplikation",
           "formula": "",
-          "explanation": "2637 · 2 = 5274: Das Zehner-Teilprodukt steht eine Stelle weiter links. Darunter steht 2637 · 4 = 10548. Stellenrichtig addiert: 63288. Die kleine 1 ist der Übertrag beim Addieren.",
+          "explanation": "Die 2 in 24 steht für 20: 2637 · 20 = 52 740. Deshalb steht 5274 eine Spalte links; die leere Einerstelle zählt als 0. Dazu 10548 ergibt 63288. Die kleine 1 ist der Übertrag beim Addieren.",
           "visual": {
             "type": "written-reference",
             "kind": "multiplication"
@@ -261,7 +261,7 @@
         {
           "headline": "Schriftliche Division",
           "formula": "",
-          "explanation": "Teilen, multiplizieren, abziehen, nächste Ziffer herunterholen. 59 − 56 = 3, dann 35 − 35 = 0. Die nächste Teilzahl 3 ist kleiner als 7: Im Ergebnis steht eine 0. Zum Schluss 35 − 35 = 0.",
+          "explanation": "59 : 7 = 8 Rest 3; nächste 5 herunterholen: 35 : 7 = 5. Nächste 3: 3 : 7 = 0 Rest 3 – deshalb 0 im Ergebnis. Letzte 5: 35 : 7 = 5. Ergebnis: 8505, Rest 0.",
           "visual": {
             "type": "written-reference",
             "kind": "division"
@@ -371,13 +371,14 @@
       "steps": [
         {
           "headline": "In Sechstel umwandeln und addieren",
-          "formula": "½ + ⅓ = ³⁄₆ + ²⁄₆ = ⅚",
-          "explanation": "Hälften und Drittel sind unterschiedlich groß. Wandle sie in Sechstel um, addiere dann die Zähler und prüfe, ob du kürzen kannst.",
+          "formula": "",
+          "explanation": "Ein gemeinsamer Nenner macht die Teilstücke gleich groß. Die Hälfte wird mit 3 erweitert, das Drittel mit 2. Danach nur die Zähler addieren.",
           "visual": {
             "type": "math-stack",
             "rows": [
-              "½ + ⅓ = ³⁄₆ + ²⁄₆",
-              "³⁄₆ + ²⁄₆ = ⅚"
+              "1/2 = (1 · 3)/(2 · 3) = 3/6",
+              "1/3 = (1 · 2)/(3 · 2) = 2/6",
+              "3/6 + 2/6 = 5/6"
             ]
           },
           "sub": ""
@@ -496,7 +497,7 @@
         {
           "headline": "Gemeinsame Faktoren nutzen",
           "formula": "6x + 9 = 3·2x + 3·3 = 3(2x + 3)",
-          "explanation": "3 ist ein gemeinsamer Faktor von 6x und 9. Teile beide Summanden durch 3: Es bleiben 2x und 3 in der Klammer. Zur Probe kannst du wieder ausmultiplizieren.",
+          "explanation": "Summanden werden addiert: hier 6x und 9. Faktoren werden miteinander multipliziert. Beide Summanden enthalten den Faktor 3. In der Klammer bleiben 6x : 3 = 2x und 9 : 3 = 3.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -1166,9 +1167,9 @@
       "sourceNote": "Grundwissen zur senkrechten Projektion auf Grund- und Aufrissebene",
       "steps": [
         {
-          "headline": "Punkt auf zwei Tafeln projizieren",
-          "formula": "P (x|y|z) → Pᵍ und Pᵃ",
-          "explanation": "Von P führen senkrechte Projektionslinien zur waagerechten Grundrissebene und zur senkrechten Aufrissebene.",
+          "headline": "Grundriss: Blick von oben",
+          "formula": "P(3 | 2 | 4)",
+          "explanation": "x = Breite, y = Tiefe, z = Höhe. Von oben bleiben x und y sichtbar: Grundriss Pᵍ(3 | 2). Das hochgestellte g steht für Grundriss.",
           "visual": {
             "type": "projection",
             "active": "ground"
@@ -1176,9 +1177,9 @@
           "sub": ""
         },
         {
-          "headline": "Koordinaten zuordnen",
-          "formula": "Grundriss (x|y) · Aufriss (x|z)",
-          "explanation": "Im Grundriss bleiben x und y erhalten. Im Aufriss bleiben x und z erhalten. Die Projektionslinien stehen jeweils im rechten Winkel auf der Tafel.",
+          "headline": "Aufriss: Blick von vorn",
+          "formula": "P(3 | 2 | 4)",
+          "explanation": "Von vorn bleiben Breite x und Höhe z sichtbar: Aufriss Pᵃ(3 | 4). Das hochgestellte a steht für Aufriss. Die Tiefe y fällt in dieser Ansicht weg.",
           "visual": {
             "type": "projection",
             "active": "front"
@@ -1196,8 +1197,8 @@
       "steps": [
         {
           "headline": "Rechteck: 5 cm × 3 cm",
-          "formula": "U = 2·(5 + 3) = 16 cm   ·   A = 5·3 = 15 cm²",
-          "explanation": "Der Umfang addiert alle vier Seiten. Der Flächeninhalt zählt die Einheitsquadrate im Rechteck.",
+          "formula": "U = 16 cm; A = 15 cm²",
+          "explanation": "U = Umfang (Randlänge): 2 · (5 cm + 3 cm) = 16 cm. A = Flächeninhalt: 5 cm · 3 cm = 15 cm²; hier 15 Einheitsquadrate.",
           "visual": {
             "type": "rect",
             "mode": "area"
@@ -1301,7 +1302,7 @@
         {
           "headline": "3 cm × 2 cm × 4 cm = 24 cm³",
           "formula": "",
-          "explanation": "Multipliziere die drei Kantenlängen. Die Einheit wird kubisch: cm · cm · cm = cm³.",
+          "explanation": "Volumen V bedeutet Rauminhalt: Länge · Breite · Höhe. Ein Würfel mit 1 cm Kantenlänge hat 1 cm³. Hier passen 24 solche Einheitswürfel hinein.",
           "sub": "",
           "visual": {
             "type": "box"
@@ -1540,7 +1541,7 @@
         {
           "headline": "Mitte finden",
           "formula": "Median = 12",
-          "explanation": "Bei fünf sortierten Werten ist der dritte der Median: 12. Bei einer geraden Anzahl nimmst du den Durchschnitt der beiden mittleren Werte. Große Ausreißer beeinflussen den Mittelwert stärker als den Median.",
+          "explanation": "Bei fünf geordneten Werten ist der dritte der Median: 12. Große Ausreißer verändern den Durchschnitt stärker als den Median.",
           "visual": {
             "type": "chips",
             "emphasisIndex": 2,
@@ -1553,6 +1554,24 @@
             ]
           },
           "sub": ""
+        },
+        {
+          "headline": "Gerade Anzahl: zwei mittlere Werte",
+          "formula": "(5 + 12) : 2 = 8,5",
+          "explanation": "Bei vier geordneten Werten bilden die beiden mittleren Werte den Median gemeinsam: ihren Durchschnitt berechnen. Der Median muss nicht in der Reihe stehen.",
+          "visual": {
+            "type": "chips",
+            "emphasisIndices": [
+              1,
+              2
+            ],
+            "values": [
+              "1",
+              "5",
+              "12",
+              "70"
+            ]
+          }
         }
       ]
     },
@@ -1799,7 +1818,7 @@
         {
           "headline": "Faktor als Potenz schreiben",
           "formula": "f(x) = 2 · 2ˣ",
-          "explanation": "Der Startwert ist 2. Der Wachstumsfaktor 2 wird x-mal angewendet.",
+          "explanation": "x zählt hier gleich lange Zeitschritte: Bei x = 0 ist der Startwert 2 da. Nach x Schritten wurde x-mal verdoppelt. Beispiel: f(3) = 2 · 2³ = 16.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -1908,6 +1927,18 @@
             "caption": "Subtraktion von 5: fünf Schritte nach links"
           },
           "sub": ""
+        },
+        {
+          "headline": "Eine negative Zahl abziehen",
+          "formula": "2 − (−3) = 2 + 3 = 5",
+          "explanation": "Eine negative Zahl abziehen wirkt wie die positive Zahl addieren. Von 2 geht es deshalb drei Schritte nach rechts bis 5.",
+          "visual": {
+            "type": "numberline",
+            "from": 2,
+            "to": 5,
+            "emphasizeZero": true,
+            "caption": "2 minus minus 3: drei Schritte nach rechts bis 5"
+          }
         }
       ]
     },
@@ -2027,30 +2058,38 @@
       "sourceNote": "Strobl Grundwissen Klasse 7, Abschnitt 3; Klasse 9, Abschnitt 1",
       "steps": [
         {
-          "headline": "Summe quadrieren",
-          "formula": "(a + b)²",
-          "explanation": "Ein Quadrat aus Seiten a + b besteht aus zwei Quadraten und zwei gleich großen Rechtecken.",
+          "headline": "1. Formel: Summe quadrieren",
+          "formula": "",
+          "explanation": "Die Seitenlänge a + b bildet vier Teilflächen: a², zweimal ab und b². Daher steht in der Formel 2ab.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "(a + b)²",
-              "= a² + 2ab + b²"
-            ]
-          },
-          "sub": ""
+            "type": "binomial-squares"
+          }
         },
         {
-          "headline": "Minusklammer und Quadratedifferenz",
-          "formula": "(a − b)(a + b) = a² − b²",
-          "explanation": "Beim Quadrieren von a − b entsteht der Mittelterm −2ab. Beim Produkt (a − b)(a + b) heben sich −ab und +ab auf. Deshalb bleibt dort a² − b².",
+          "headline": "2. Formel: Differenz quadrieren",
+          "formula": "",
+          "explanation": "Beim Ausmultiplizieren entstehen zwei negative Mischprodukte: −ab − ab = −2ab. Das letzte Produkt (−b) · (−b) ist +b².",
           "visual": {
             "type": "math-stack",
             "rows": [
-              "(a − b)² = a² − 2ab + b²",
-              "(a − b)(a + b) = a² − b²"
+              "(a − b)² = (a − b)(a − b)",
+              "= a² − ab − ab + b²",
+              "= a² − 2ab + b²"
             ]
-          },
-          "sub": ""
+          }
+        },
+        {
+          "headline": "3. Formel: Summe mal Differenz",
+          "formula": "",
+          "explanation": "Die Mischprodukte +ab und −ab heben sich auf. Es bleibt die Differenz der beiden Quadrate.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "(a − b)(a + b)",
+              "= a² + ab − ab − b²",
+              "= a² − b²"
+            ]
+          }
         }
       ]
     },
@@ -2131,42 +2170,19 @@
       "steps": [
         {
           "headline": "Entsprechende Seiten zuordnen",
-          "formula": "klein : groß = 2 : 6",
-          "explanation": "Ähnliche Figuren haben gleiche Winkel und proportionale Seiten. Ordne zuerst zusammengehörige Seiten richtig zu.",
+          "formula": "",
+          "explanation": "Gleiche Buchstaben markieren entsprechende Seiten: a ↔ a′, b ↔ b′, c ↔ c′. Die Winkel sind gleich; jede große Seite ist dreimal so lang.",
           "visual": {
-            "type": "table",
-            "heads": [
-              "Kleine Figur",
-              "Große Figur"
-            ],
-            "rows": [
-              [
-                "2",
-                "6"
-              ],
-              [
-                "3",
-                "9"
-              ],
-              [
-                "4",
-                "12"
-              ]
-            ]
+            "type": "similar-triangles"
           },
           "sub": ""
         },
         {
           "headline": "Maßstab anwenden",
-          "formula": "Vergrößerungsfaktor = 3",
-          "explanation": "Jede Seite der großen Figur ist dreimal so lang. Nutze denselben Faktor für eine unbekannte entsprechende Seite.",
+          "formula": "k = 6 : 2 = 3",
+          "explanation": "Der Vergrößerungsfaktor k ist 3: 2 · 3 = 6, 3 · 3 = 9 und 4 · 3 = 12. Er gilt für alle entsprechenden Seiten.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "6 : 2 = 3",
-              "3 · 3 = 9",
-              "4 · 3 = 12"
-            ]
+            "type": "similar-triangles"
           },
           "sub": ""
         }
@@ -2369,30 +2385,26 @@
         },
         {
           "headline": "Lösungen als Bereich zeigen",
-          "formula": "x < 4",
-          "explanation": "Alle Zahlen kleiner als 4 erfüllen die Ungleichung. Auf der Zahlengeraden ist 4 nicht enthalten.",
+          "formula": "",
+          "explanation": "Alle Zahlen links von 4 sind Lösungen: x < 4. Der offene Kreis bedeutet: Die 4 selbst gehört nicht dazu.",
           "visual": {
-            "type": "table",
-            "heads": [
-              "x",
-              "−1",
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "rows": [
-              [
-                "x < 4",
-                "wahr",
-                "wahr",
-                "wahr",
-                "falsch",
-                "falsch"
-              ]
-            ]
+            "type": "inequality-line",
+            "bound": 4,
+            "direction": "less"
           },
           "sub": ""
+        },
+        {
+          "headline": "Bei negativer Zahl: Zeichen umkehren",
+          "formula": "",
+          "explanation": "Beim Teilen durch −2 kehrt sich < zu > um. Aus −2x < −8 folgt x > 4: Alle Zahlen rechts von 4 sind Lösungen.",
+          "visual": {
+            "type": "math-stack",
+            "rows": [
+              "−2x < −8  |  : (−2)",
+              "x > 4"
+            ]
+          }
         }
       ]
     }

@@ -93,6 +93,23 @@ describe('Mathe-Tafelwerk',()=>{
    expect(BigInt(division.remainder)).toBeLessThan(BigInt(divisor));
   }
  });
+ it('erläutert die schriftlichen Verfahren bei unveränderter vollständiger Musterrechnung',()=>{
+  expect(lesson('schriftlich-subtrahieren').steps[0].explanation).toContain('obere Ziffer zu klein');
+  const multiply=lesson('schriftlich-mal').steps[0];expect(multiply.explanation).toContain('52 740');expect(multiply.explanation).toContain('leere Einerstelle');
+  const divide=lesson('schriftlich-geteilt').steps[0];expect(divide.explanation).toContain('3 : 7 = 0 Rest 3');
+  for(const id of ['schriftlich-subtrahieren','schriftlich-mal','schriftlich-geteilt'])expect(lesson(id).steps).toHaveLength(1);
+ });
+ it('zeigt die noch fehlenden Bilder und getrennten Fälle aus dem Prüfprotokoll',()=>{
+  const binom=lesson('binomische-formeln').steps;expect(binom).toHaveLength(3);expect(renderVisual(binom[0].visual)).toContain('zerlegt in a², ab, ab und b²');
+  expect(binom[1].visual).toMatchObject({rows:expect.arrayContaining(['= a² − 2ab + b²'])});expect(binom[2].visual).toMatchObject({rows:expect.arrayContaining(['= a² − b²'])});
+  const line=renderVisual(lesson('linear-ungleichung').steps[1].visual);expect(line).toContain('offener Kreis bei 4');expect(line).toContain('Lösungsbereich nach links');
+  expect(lesson('linear-ungleichung').steps[2].visual).toMatchObject({rows:expect.arrayContaining(['x > 4'])});
+  expect(renderVisual(lesson('aehnlichkeit').steps[0].visual)).toContain('Maßstab 1 zu 3');
+  for(const s of lesson('tafelprojektion').steps){const picture=renderVisual(s.visual);expect(picture).toContain('Pᵍ(3|2)');expect(picture).toContain('Pᵃ(3|4)');}
+  expect(lesson('negative-rechnen').steps[2].visual).toMatchObject({from:2,to:5});
+  const median=lesson('median').steps[2];expect(median.formula).toContain('8,5');expect(renderVisual(median.visual).match(/visual-chip emphasis/g)).toHaveLength(2);
+  expect(lesson('brueche-ungleich').steps[0].visual).toMatchObject({rows:expect.arrayContaining(['1/2 = (1 · 3)/(2 · 3) = 3/6','1/3 = (1 · 2)/(3 · 2) = 2/6'])});
+ });
  it('stimmt Werkzeug, Messmarkierung und Kreisgrößen auf die Erklärung ab',()=>{
   const angle=lesson('winkel-messen').steps[1];expect(angle.headline).toBe('Mit dem Winkelmesser messen');expect(angle.explanation).toContain('Nullmarke rechts');expect(renderVisual(angle.visual)).toContain('45-Grad-Markierung');
   for(const [index,mode,result] of [[0,'circumference','18,85'],[1,'area','28,27']] as const){

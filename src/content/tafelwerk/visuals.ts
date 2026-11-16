@@ -163,10 +163,34 @@ function boxShape() {
   return svg(`<polygon points="89,52 214,52 266,21 140,21" fill="var(--calc-display)" stroke="var(--calc-teal)" stroke-width="2"/><polygon points="214,52 266,21 266,126 214,158" fill="var(--calc-number)" stroke="var(--calc-teal)" stroke-width="2"/><rect x="89" y="52" width="125" height="106" fill="var(--calc-number)" stroke="var(--calc-teal)" stroke-width="2"/>${svgText(150,176,'3 cm','var(--calc-ink)',13)}${svgText(257,163,'2 cm','var(--calc-ink)',13)}${svgText(73,110,'4 cm','var(--calc-ink)',13)}`,'Quader mit Länge 3, Breite 2 und Höhe 4 Zentimeter');
 }
 function projectionVisual(v:any) {
-  const front=v.active==='front';
-  const ground=v.active==='ground';
-  return svg(`<polygon points="54,154 220,154 270,182 104,182" fill="var(--calc-teal)" fill-opacity=".10" stroke="var(--calc-teal)" stroke-width="2"/><polygon points="54,154 220,154 220,32 54,32" fill="var(--calc-orange)" fill-opacity=".08" stroke="var(--calc-orange)" stroke-width="2"/><line x1="54" y1="154" x2="220" y2="154" stroke="var(--calc-ink)" stroke-width="2"/><line x1="54" y1="154" x2="54" y2="32" stroke="var(--calc-ink)" stroke-width="2"/><line x1="54" y1="154" x2="104" y2="182" stroke="var(--calc-ink)" stroke-width="2"/><line x1="211" y1="96" x2="211" y2="164" stroke="${ground?'var(--calc-orange)':'var(--calc-housing)'}" stroke-width="2.3" stroke-dasharray="5 4"/><line x1="211" y1="96" x2="176" y2="77" stroke="${front?'var(--calc-orange)':'var(--calc-housing)'}" stroke-width="2.3" stroke-dasharray="5 4"/><circle cx="211" cy="96" r="5" fill="var(--calc-ink)"/><circle cx="211" cy="164" r="5" fill="${ground?'var(--calc-orange)':'var(--calc-teal)'}"/><circle cx="176" cy="77" r="5" fill="${front?'var(--calc-orange)':'var(--calc-teal)'}"/>${svgText(220,91,'P (3|2|2)','var(--calc-ink)',11,'start')}${svgText(216,170,'Pᵍ','var(--calc-ink)',11,'start')}${svgText(168,69,'Pᵃ','var(--calc-ink)',11,'end')}${svgText(137,149,'x','var(--calc-ink)',12)}${svgText(89,170,'y','var(--calc-ink)',12)}${svgText(47,91,'z','var(--calc-ink)',12)}${svgText(73,47,'Aufriss','var(--calc-orange)',11,'start')}${svgText(130,196,'Grundriss','var(--calc-teal)',11)}`,'Punkt P wird rechtwinklig auf die senkrechte Aufrissebene und die waagerechte Grundrissebene projiziert','0 0 320 205');
+ const view=(ox:number,vertical:string,value:number,title:string,label:string,active:boolean)=>{
+  const color=active?'var(--calc-orange)':'var(--calc-teal)',px=ox+60,py=140-value*20;let ticks='';
+  for(let n=0;n<=4;n++)ticks+=svgText(ox+n*20,157,n,'var(--calc-ink)',10);
+  for(let n=1;n<=5;n++)ticks+=svgText(ox-10,144-n*20,n,'var(--calc-ink)',10);
+  return `${svgText(ox+58,18,title,'var(--calc-ink)',13)}<path d="M ${ox} 30 V 140 H ${ox+100}" fill="none" stroke="var(--calc-ink)" stroke-width="2"/>${ticks}${svgText(ox+110,144,'x','var(--calc-ink)',12)}${svgText(ox-7,27,vertical,'var(--calc-ink)',12)}<path d="M ${px} 140 V ${py} H ${ox}" fill="none" stroke="${color}" stroke-dasharray="4 3" stroke-width="2"/><circle cx="${px}" cy="${py}" r="4" fill="${color}"/>${svgText(px+8,py-9,label,'var(--calc-ink)',12,'start')}`;
+ };
+ return svg(view(25,'y',2,'Grundriss: von oben','Pᵍ(3|2)',v.active==='ground')+view(205,'z',4,'Aufriss: von vorn','Pᵃ(3|4)',v.active==='front'),'Punkt P(3|2|4): Grundriss Pᵍ(3|2) von oben und Aufriss Pᵃ(3|4) von vorn','0 0 360 170');
 }
+function binomialSquares(){
+ const rect=(x:number,y:number,w:number,h:number,label:string,color:string)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${color}" fill-opacity=".22" stroke="var(--calc-ink)" stroke-width="1.4"/>${svgText(x+w/2,y+h/2+5,label,'var(--calc-ink)',18)}`;
+ return svg(`${rect(25,25,90,90,'a²','var(--calc-teal)')}${rect(115,25,60,90,'ab','var(--calc-orange)')}${rect(25,115,90,60,'ab','var(--calc-orange)')}${rect(115,115,60,60,'b²','var(--calc-violet)')}${svgText(70,17,'a')}${svgText(145,17,'b')}${svgText(14,75,'a')}${svgText(14,150,'b')}${svgText(194,70,'(a + b)²','var(--calc-ink)',20,'start')}${svgText(194,108,'= a² + 2ab + b²','var(--calc-ink)',16,'start')}`,'Quadrat mit Seitenlänge a plus b, zerlegt in a², ab, ab und b²','0 0 340 190');
+}
+function inequalityLine(v:any){
+ const x=(n:number)=>38+(n+1)*35,bound=Number(v.bound),less=v.direction==='less';
+ let ticks='';for(let n=-1;n<=6;n++)ticks+=`<line x1="${x(n)}" y1="70" x2="${x(n)}" y2="82" stroke="var(--calc-ink)"/>${svgText(x(n),103,n,'var(--calc-ink)',13)}`;
+ const end=less?16:304;
+ return svg(`<line x1="12" y1="76" x2="310" y2="76" stroke="var(--calc-ink)" stroke-width="2"/>${ticks}<path d="M ${x(bound)} 57 H ${end}m${less?7:-7} -5 ${less?-7:7} 5 ${less?7:-7} 5" fill="none" stroke="var(--calc-teal)" stroke-width="3"/><circle cx="${x(bound)}" cy="57" r="6" fill="var(--calc-display)" stroke="var(--calc-teal)" stroke-width="3"/>${svgText(160,28,`x ${less?'<':'>'} ${bound}`,'var(--calc-ink)',20)}` ,`Zahlengerade: x ${less?'kleiner':'größer'} als ${bound}; offener Kreis bei ${bound}, Lösungsbereich nach ${less?'links':'rechts'}`,'0 0 320 118');
+}
+function similarTriangles(){
+ const h=Math.sqrt(3*3-2.625*2.625);
+ const triangle=(ox:number,scale:number,large:boolean)=>{
+  const a=[ox,130],b=[ox+4*scale,130],c=[ox+2.625*scale,130-h*scale],suffix=large?'′':'';
+  const side=(p:number[],q:number[],color:string)=>`<line x1="${p[0]}" y1="${p[1]}" x2="${q[0]}" y2="${q[1]}" stroke="${color}" stroke-width="3"/>`;
+  return side(a,b,'var(--calc-orange)')+side(a,c,'var(--calc-teal)')+side(b,c,'var(--calc-violet)')+svgText((a[0]+b[0])/2,150,`c${suffix} = ${large?12:4}`,'var(--calc-ink)',13)+svgText((a[0]+c[0])/2-10,(a[1]+c[1])/2-9,`b${suffix} = ${large?9:3}`,'var(--calc-ink)',12)+svgText((b[0]+c[0])/2+9,(b[1]+c[1])/2-9,`a${suffix} = ${large?6:2}`,'var(--calc-ink)',12);
+ };
+ return svg(`${svgText(52,27,'klein','var(--calc-ink)',15)}${svgText(212,27,'groß: Faktor 3','var(--calc-ink)',15)}${triangle(20,16,false)}${triangle(110,48,true)}`,'Zwei ähnliche Dreiecke im Maßstab 1 zu 3: entsprechende Seiten a und a′ mit 2 und 6, b und b′ mit 3 und 9, c und c′ mit 4 und 12','0 0 340 162');
+}
+
 function combinations(v:any) {
   let g='';
   for(let a=0;a<v.shirts;a++) for(let b=0;b<v.pants;b++) {
@@ -181,7 +205,7 @@ export function renderVisual(v:any) {
   if(!v) return '';
   let html='';
   switch(v.type) {
-    case 'chips': html=`<div class="visual-chips">${v.values.map((it:any,i:number)=>`<span class="visual-chip ${i===(Number.isInteger(v.emphasisIndex)?v.emphasisIndex:v.values.length-1)?'emphasis':''}">${it}</span>`).join('')}</div>`;break;
+    case 'chips': html=`<div class="visual-chips">${v.values.map((it:any,i:number)=>`<span class="visual-chip ${(v.emphasisIndices??[Number.isInteger(v.emphasisIndex)?v.emphasisIndex:v.values.length-1]).includes(i)?'emphasis':''}">${it}</span>`).join('')}</div>`;break;
     case 'numberline': html=numberLine(v);break;
     case 'bags': html=`<div class="bag-row">${Array.from({length:v.count},()=>`<div class="bag">${v.content}</div>`).join('')}</div>`;break;
     case 'fractions': html=v.parts.map((p:any,pi:number)=>`<div class="fraction-block"><div class="fraction-block-label">${p.label}</div><div class="fraction-strip">${Array.from({length:p.d},(_,i)=>`<span class="fraction-cell ${i<p.n?'filled':''} ${pi>0?'secondary':''}"></span>`).join('')}</div></div>`).join('');break;
@@ -196,6 +220,9 @@ export function renderVisual(v:any) {
     case 'symmetry': html=symmetry();break;
     case 'triangle-area': html=triangleArea();break;
     case 'distribute': html=distribute(v);break;
+    case 'binomial-squares': html=binomialSquares();break;
+    case 'inequality-line': html=inequalityLine(v);break;
+    case 'similar-triangles': html=similarTriangles();break;
     case 'circle-reference': html=circleReference(v);break;
     case 'angles': html=angleVisual(v);break;
     case 'triangle': html=triangleVisual(v);break;
