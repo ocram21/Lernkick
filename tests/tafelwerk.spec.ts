@@ -50,7 +50,7 @@ test('Tafelwerk funktioniert offline und erhält Lernstände und gespeicherte Ru
  await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload();await expect(page.locator('.calculator-grid')).toBeVisible();await expect.poll(()=>page.evaluate(()=>!!navigator.serviceWorker.controller)).toBe(true);
  await context.setOffline(true);await page.reload();await expect(page.locator('.calculator-grid')).toBeVisible();await openMath(page);
  await page.getByRole('button',{name:'Alltagsrechnen',exact:true}).click();await page.locator('[data-lesson="prozent"]').click();await page.getByRole('button',{name:'Weiter',exact:true}).click();
- await expect(page.locator('.tafelwerk-board h1')).toHaveText('Grundwert: Wie groß ist das Ganze?');
+ await expect(page.locator('.tafelwerk-board h1')).toHaveText('Grundwert: das Ganze');
  const after=await read();expect(after.rounds).toEqual(before.rounds);expect(after.progress).toEqual(before.progress);expect(after.journey.totalPoints).toEqual(before.journey.totalPoints);expect(after.cards).toEqual(before.cards);
  await context.setOffline(false);
 });

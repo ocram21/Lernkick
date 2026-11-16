@@ -60,7 +60,7 @@
         {
           "headline": "Mal und Geteilt",
           "formula": "",
-          "explanation": "Diese Vorzeichenregel gilt nur für Mal und Geteilt: Gleiches Vorzeichen → positiv, verschiedenes → negativ (ohne 0). Plus und Minus erklärt der Zahlenstrahl. Durch 0 darfst du nicht teilen.",
+          "explanation": "Für Mal und Geteilt mit Zahlen ungleich 0 gilt: gleiches Vorzeichen → positiv, verschiedenes → negativ. Durch 0 darfst du nicht teilen.",
           "visual": {
             "type": "sign-rules",
             "groups": [
@@ -148,7 +148,7 @@
         {
           "headline": "Quadrieren und Wurzelziehen",
           "formula": "6² = 6 · 6 = 36   ↔   √36 = 6",
-          "explanation": "Eine Quadratzahl entsteht durch Malnehmen einer Zahl mit sich selbst. Die Quadratwurzel fragt umgekehrt nach dieser nichtnegativen Zahl.",
+          "explanation": "Quadrieren heißt, eine Zahl mit sich selbst zu multiplizieren. Die Quadratwurzel ist die nichtnegative Zahl, deren Quadrat 36 ergibt: √36 = 6.",
           "visual": {
             "type": "grid",
             "n": 6
@@ -169,7 +169,7 @@
         {
           "headline": "Ganze, Zehntel und Hundertstel",
           "formula": "2,35 = 2 + 0,3 + 0,05",
-          "explanation": "Die 2 steht bei den Einern, die 3 bei den Zehnteln und die 5 bei den Hundertsteln. Jede Stelle rechts vom Komma ist zehnmal kleiner.",
+          "explanation": "Jede nächste Stelle nach rechts hat ein Zehntel des Werts. Nach den Einern folgen Zehntel und Hundertstel.",
           "visual": {
             "type": "table",
             "heads": [
@@ -203,7 +203,7 @@
         {
           "headline": "Schriftliche Addition",
           "formula": "",
-          "explanation": "Einer unter Einer, Zehner unter Zehner. Von rechts addieren: 8 + 6 = 14, dann 4 + 7 + 1 = 12. Die kleinen Einsen sind die Überträge in die nächste Spalte. Ergebnis: 524.",
+          "explanation": "Einer unter Einer, Zehner unter Zehner. Von rechts addieren: 8 + 6 = 14, dann 4 + 7 + 1 = 12. Die kleinen Einsen sind die Überträge in die nächste Spalte.",
           "visual": {
             "type": "written-reference",
             "kind": "addition"
@@ -223,7 +223,7 @@
         {
           "headline": "Schriftliche Subtraktion",
           "formula": "",
-          "explanation": "Ist die obere Ziffer zu klein: oben 10 dazu, unten links 1 übertragen. Von 8 bis 16: 8; von 5 + 1 bis 12: 6; von 2 + 1 bis 4: 1. Ergebnis: 168.",
+          "explanation": "Bei den Einern ist 6 kleiner als 8. Von 8 bis 16 fehlen 8; die kleine 1 wird unten in die Zehnerspalte übertragen.",
           "visual": {
             "type": "written-reference",
             "kind": "subtraction"
@@ -241,7 +241,7 @@
         {
           "headline": "Schriftliche Multiplikation",
           "formula": "",
-          "explanation": "Die 2 in 24 steht für 20: 2637 · 20 = 52 740. Deshalb steht 5274 eine Spalte links; die leere Einerstelle zählt als 0. Dazu 10548 ergibt 63288. Die kleine 1 ist der Übertrag beim Addieren.",
+          "explanation": "Die 2 in 24 steht für 20: 2637 · 20 = 52 740. Deshalb steht 5274 eine Spalte links; die leere Einerstelle zählt als 0. Die kleine 1 ist der Übertrag beim Addieren.",
           "visual": {
             "type": "written-reference",
             "kind": "multiplication"
@@ -261,7 +261,7 @@
         {
           "headline": "Schriftliche Division",
           "formula": "",
-          "explanation": "59 : 7 = 8 Rest 3; nächste 5 herunterholen: 35 : 7 = 5. Nächste 3: 3 : 7 = 0 Rest 3 – deshalb 0 im Ergebnis. Letzte 5: 35 : 7 = 5. Ergebnis: 8505, Rest 0.",
+          "explanation": "Teilen, abziehen, nächste Ziffer herunterholen. Ist die Teilzahl kleiner als 7, gehört eine 0 ins Ergebnis: 3 : 7 = 0 Rest 3. Dann die nächste Ziffer herunterholen.",
           "visual": {
             "type": "written-reference",
             "kind": "division"
@@ -470,9 +470,9 @@
       "symbol": "( )",
       "steps": [
         {
-          "headline": "Das Distributivgesetz",
+          "headline": "Zahl mit beiden Klammerteilen multiplizieren",
           "formula": "3(x + 2) = 3·x + 3·2 = 3x + 6",
-          "explanation": "Der Faktor 3 wird mit jedem Summanden in der Klammer multipliziert. Allgemein gilt: a(b + c) = ab + ac.",
+          "explanation": "Die Zahl vor der Klammer wird mit beiden Teilen multipliziert.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -497,7 +497,7 @@
         {
           "headline": "Gemeinsame Faktoren nutzen",
           "formula": "6x + 9 = 3·2x + 3·3 = 3(2x + 3)",
-          "explanation": "Summanden werden addiert: hier 6x und 9. Faktoren werden miteinander multipliziert. Beide Summanden enthalten den Faktor 3. In der Klammer bleiben 6x : 3 = 2x und 9 : 3 = 3.",
+          "explanation": "6x und 9 enthalten beide den Faktor 3. In der Klammer bleiben 2x und 3.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -520,46 +520,9 @@
       "symbol": "x",
       "steps": [
         {
-          "headline": "Auf beiden Seiten 5 abziehen",
+          "headline": "Rechenweg und Probe",
           "formula": "",
-          "explanation": "Die 5 soll weg. Ziehe auf beiden Seiten 5 ab.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "3x + 5",
-                "right": "20",
-                "operation": "− 5"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Seiten durch 3 teilen",
-          "formula": "",
-          "explanation": "Jetzt steht 3x = 15. Teile beide Seiten durch 3.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "3x + 5",
-                "right": "20",
-                "operation": "− 5"
-              },
-              {
-                "left": "3x",
-                "right": "15",
-                "operation": ": 3"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Lösung mit der Probe prüfen",
-          "formula": "",
-          "explanation": "Damit ist x = 5. Probe: 3 · 5 + 5 = 20.",
+          "explanation": "Bei jedem Umformen gilt dieselbe Operation auf beiden Seiten. Probe: 3 · 5 + 5 = 20.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -594,72 +557,9 @@
       "symbol": "x",
       "steps": [
         {
-          "headline": "Auf beiden Seiten 2x abziehen",
+          "headline": "Rechenweg und Probe",
           "formula": "",
-          "explanation": "x steht auf beiden Seiten. Ziehe 2x auf beiden Seiten ab.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "5x + 4",
-                "right": "2x + 19",
-                "operation": "− 2x"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf beiden Seiten 4 abziehen",
-          "formula": "",
-          "explanation": "Ziehe nun auf beiden Seiten 4 ab.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "5x + 4",
-                "right": "2x + 19",
-                "operation": "− 2x"
-              },
-              {
-                "left": "3x + 4",
-                "right": "19",
-                "operation": "− 4"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Seiten durch 3 teilen",
-          "formula": "",
-          "explanation": "Teile beide Seiten durch 3.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "5x + 4",
-                "right": "2x + 19",
-                "operation": "− 2x"
-              },
-              {
-                "left": "3x + 4",
-                "right": "19",
-                "operation": "− 4"
-              },
-              {
-                "left": "3x",
-                "right": "15",
-                "operation": ": 3"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Lösung mit der Probe prüfen",
-          "formula": "",
-          "explanation": "Die Lösung ist x = 5. Setze 5 in die Ausgangsgleichung ein: beide Seiten sind 29.",
+          "explanation": "Bei jedem Umformen gilt dieselbe Operation auf beiden Seiten. Die Lösung ist x = 5. Setze 5 in die Ausgangsgleichung ein: beide Seiten sind 29.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -699,72 +599,9 @@
       "symbol": "( )",
       "steps": [
         {
-          "headline": "Klammer ausmultiplizieren",
+          "headline": "Rechenweg und Probe",
           "formula": "",
-          "explanation": "Multipliziere die 2 mit beiden Teilen in der Klammer.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "2(x + 3)",
-                "right": "14",
-                "operation": "Klammer auflösen"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Auf beiden Seiten 6 abziehen",
-          "formula": "",
-          "explanation": "Ziehe auf beiden Seiten 6 ab.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "2(x + 3)",
-                "right": "14",
-                "operation": "Klammer auflösen"
-              },
-              {
-                "left": "2x + 6",
-                "right": "14",
-                "operation": "− 6"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Seiten durch 2 teilen",
-          "formula": "",
-          "explanation": "Teile beide Seiten durch 2.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "2(x + 3)",
-                "right": "14",
-                "operation": "Klammer auflösen"
-              },
-              {
-                "left": "2x + 6",
-                "right": "14",
-                "operation": "− 6"
-              },
-              {
-                "left": "2x",
-                "right": "8",
-                "operation": ": 2"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Lösung mit der Probe prüfen",
-          "formula": "",
-          "explanation": "Die Lösung ist x = 4. Probe: 2 · (4 + 3) = 14.",
+          "explanation": "Bei jedem Umformen gilt dieselbe Operation auf beiden Seiten. Die Lösung ist x = 4. Probe: 2 · (4 + 3) = 14.",
           "visual": {
             "type": "equation",
             "rows": [
@@ -804,9 +641,9 @@
       "symbol": "%",
       "steps": [
         {
-          "headline": "Prozentwert: Wie groß ist der Anteil?",
+          "headline": "Prozentwert: der Anteil",
           "formula": "",
-          "explanation": "G ist der Grundwert, also das Ganze: 80 €. Gesucht sind 20 % davon. Setze für die Prozentzahl p die 20 ein. Der Anteil W beträgt 16 €.",
+          "explanation": "G ist das Ganze, W der Anteil. Für 20 % wird die Prozentzahl p = 20 eingesetzt.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -817,9 +654,9 @@
           "sub": ""
         },
         {
-          "headline": "Grundwert: Wie groß ist das Ganze?",
+          "headline": "Grundwert: das Ganze",
           "formula": "",
-          "explanation": "15 € entsprechen 30 % des Ganzen. W = 15 € und p = 30 sind bekannt. Das Ganze G beträgt 50 €. Probe: 30 % von 50 € sind 15 €.",
+          "explanation": "W ist der bekannte Anteil, p die Prozentzahl. Die Rechnung ergibt das Ganze G.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -830,9 +667,9 @@
           "sub": ""
         },
         {
-          "headline": "Prozentsatz: Wie viel Prozent?",
+          "headline": "Prozentsatz: Anteil in Prozent",
           "formula": "",
-          "explanation": "18 € sind der Anteil W, 60 € das Ganze G. Die Rechnung ergibt die Prozentzahl p = 30. Der Anteil beträgt also 30 % des Ganzen.",
+          "explanation": "W ist der Anteil, G das Ganze. Die Rechnung ergibt die Prozentzahl p; p = 30 bedeutet 30 %.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -1133,7 +970,7 @@
       "symbol": "△",
       "steps": [
         {
-          "headline": "Den dritten Winkel benennen",
+          "headline": "Dritter Innenwinkel",
           "formula": "50° + 60° + γ = 180°",
           "explanation": "Der obere Innenwinkel heißt γ. Alle drei Innenwinkel eines Dreiecks ergeben zusammen 180 Grad.",
           "visual": {
@@ -1167,22 +1004,11 @@
       "sourceNote": "Grundwissen zur senkrechten Projektion auf Grund- und Aufrissebene",
       "steps": [
         {
-          "headline": "Grundriss: Blick von oben",
+          "headline": "Grundriss und Aufriss",
           "formula": "P(3 | 2 | 4)",
-          "explanation": "x = Breite, y = Tiefe, z = Höhe. Von oben bleiben x und y sichtbar: Grundriss Pᵍ(3 | 2). Das hochgestellte g steht für Grundriss.",
+          "explanation": "x = Breite, y = Tiefe, z = Höhe. Grundriss: Blick von oben auf x und y. Aufriss: Blick von vorn auf x und z; die Tiefe fällt weg.",
           "visual": {
-            "type": "projection",
-            "active": "ground"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Aufriss: Blick von vorn",
-          "formula": "P(3 | 2 | 4)",
-          "explanation": "Von vorn bleiben Breite x und Höhe z sichtbar: Aufriss Pᵃ(3 | 4). Das hochgestellte a steht für Aufriss. Die Tiefe y fällt in dieser Ansicht weg.",
-          "visual": {
-            "type": "projection",
-            "active": "front"
+            "type": "projection"
           },
           "sub": ""
         }
@@ -1198,7 +1024,7 @@
         {
           "headline": "Rechteck: 5 cm × 3 cm",
           "formula": "U = 16 cm; A = 15 cm²",
-          "explanation": "U = Umfang (Randlänge): 2 · (5 cm + 3 cm) = 16 cm. A = Flächeninhalt: 5 cm · 3 cm = 15 cm²; hier 15 Einheitsquadrate.",
+          "explanation": "U = Umfang, die Länge des Randes: 2 · (5 cm + 3 cm) = 16 cm. A = Fläche: 5 cm · 3 cm = 15 cm², also 15 Einheitsquadrate.",
           "visual": {
             "type": "rect",
             "mode": "area"
@@ -1219,71 +1045,23 @@
         {
           "headline": "Flächen der drei Quadrate vergleichen",
           "formula": "a² + b² = c²",
-          "explanation": "Nur im rechtwinkligen Dreieck gilt a² + b² = c². a und b sind die Katheten am rechten Winkel. c ist die Hypotenuse gegenüber. Die drei Quadrate sind rechts zum Flächenvergleich dargestellt.",
+          "explanation": "Nur im rechtwinkligen Dreieck gilt a² + b² = c². a und b sind die Katheten am rechten Winkel; c ist die Hypotenuse gegenüber.",
           "visual": {
             "type": "pythagoras-squares"
           },
           "sub": ""
         },
         {
-          "headline": "Katheten einsetzen",
-          "formula": "c² = 3² + 4²",
-          "explanation": "Die Katheten sind 3 cm und 4 cm. Setze beide Werte in den Satz des Pythagoras ein.",
+          "headline": "Seitenlänge und Probe",
+          "formula": "5² = 3² + 4²",
+          "explanation": "Die positive Wurzel ergibt die Seitenlänge. Die Probe setzt sie in die Ausgangsformel ein.",
           "visual": {
             "type": "math-stack",
             "rows": [
               "c² = (3 cm)² + (4 cm)²",
-              "c² = 9 cm² + 16 cm²"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Quadrate addieren",
-          "formula": "c² = 25  |  √ ziehen",
-          "explanation": "9 plus 16 ergibt 25. Ziehe jetzt auf beiden Seiten die Quadratwurzel.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "c²",
-                "right": "25 cm²",
-                "operation": "√ ziehen"
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Wurzel ziehen",
-          "formula": "c = √25 = 5 cm",
-          "explanation": "Die Seitenlänge c ist positiv. Aus c² = 25 cm² folgt deshalb c = 5 cm.",
-          "visual": {
-            "type": "equation",
-            "rows": [
-              {
-                "left": "c²",
-                "right": "25 cm²",
-                "operation": "√ ziehen"
-              },
-              {
-                "left": "c",
-                "right": "5 cm",
-                "operation": ""
-              }
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Ergebnis prüfen",
-          "formula": "5² = 3² + 4²",
-          "explanation": "Die Probe stimmt: 25 ist gleich 9 plus 16. Die Hypotenuse ist 5 cm lang.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "(5 cm)² = (3 cm)² + (4 cm)²",
-              "25 cm² = 9 cm² + 16 cm²"
+              "c² = 9 cm² + 16 cm² = 25 cm²",
+              "c = √(25 cm²) = 5 cm",
+              "Probe: (5 cm)² = 9 cm² + 16 cm²"
             ]
           },
           "sub": ""
@@ -1322,7 +1100,7 @@
         {
           "headline": "Durchschnitt von 4, 6 und 8",
           "formula": "(4 + 6 + 8) : 3 = 18 : 3 = 6",
-          "explanation": "Addiere alle Werte und teile die Summe durch ihre Anzahl. Der Mittelwert ist 6.",
+          "explanation": "Alle Werte addieren und die Summe durch die Anzahl der Werte teilen.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -1346,7 +1124,7 @@
         {
           "headline": "Zwei Shirts, drei Hosen",
           "formula": "2 · 3 = 6 Kombinationen",
-          "explanation": "Zu jedem der zwei Shirts passen alle drei Hosen. Multipliziere die Anzahlen der unabhängigen Wahlen.",
+          "explanation": "Jedes Shirt passt zu jeder Hose: 2 · 3 = 6.",
           "visual": {
             "type": "combos",
             "shirts": 2,
@@ -1393,7 +1171,7 @@
         {
           "headline": "Zahl in Stellen zerlegen",
           "formula": "3 482 = 3 000 + 400 + 80 + 2",
-          "explanation": "Der Platz jeder Ziffer zeigt ihren Wert. So kannst du die Zahl lesen, ordnen und zerlegen.",
+          "explanation": "Der Platz jeder Ziffer zeigt ihren Wert.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -1432,29 +1210,6 @@
               [
                 "2 cm",
                 "200 m"
-              ],
-              [
-                "3 cm",
-                "300 m"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Gleiche Veränderung fortsetzen",
-          "formula": "3 cm → 300 m",
-          "explanation": "Verdreifacht sich die Planstrecke, verdreifacht sich auch die echte Strecke. Beide Größen bleiben proportional.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Plan",
-              "Wirklichkeit"
-            ],
-            "rows": [
-              [
-                "1 cm",
-                "100 m"
               ],
               [
                 "3 cm",
@@ -1522,26 +1277,9 @@
       "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
       "steps": [
         {
-          "headline": "Werte sortieren",
-          "formula": "1, 5, 12, 70, 100",
-          "explanation": "Ordne die Werte der Größe nach. So siehst du die Reihe von klein nach groß.",
-          "visual": {
-            "type": "chips",
-            "emphasisIndex": 2,
-            "values": [
-              "1",
-              "5",
-              "12",
-              "70",
-              "100"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mitte finden",
+          "headline": "Ungerade Anzahl: der mittlere Wert",
           "formula": "Median = 12",
-          "explanation": "Bei fünf geordneten Werten ist der dritte der Median: 12. Große Ausreißer verändern den Durchschnitt stärker als den Median.",
+          "explanation": "Zuerst die Werte der Größe nach ordnen. Bei ungerader Anzahl ist der mittlere Wert der Median.",
           "visual": {
             "type": "chips",
             "emphasisIndex": 2,
@@ -1587,7 +1325,7 @@
         {
           "headline": "Alle gleich wahrscheinlichen Fälle zählen",
           "formula": "1 rote und 3 blaue Kugeln",
-          "explanation": "Insgesamt liegen vier Kugeln im Beutel. Jede Kugel hat beim Ziehen dieselbe Chance.",
+          "explanation": "Jede Kugel hat beim Ziehen dieselbe Chance.",
           "visual": {
             "type": "table",
             "heads": [
@@ -1614,7 +1352,7 @@
         {
           "headline": "Günstige Fälle ins Verhältnis setzen",
           "formula": "P(Rot) = ¼ = 25 %",
-          "explanation": "Es gibt einen günstigen Fall von insgesamt vier. Die Wahrscheinlichkeit für Rot beträgt deshalb ein Viertel.",
+          "explanation": "Bei gleich wahrscheinlichen Fällen gilt: günstige Fälle durch alle Fälle teilen.",
           "visual": {
             "type": "fractions",
             "parts": [
@@ -1639,18 +1377,9 @@
       "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität",
       "steps": [
         {
-          "headline": "Abstand zur Achse vergleichen",
-          "formula": "Links und rechts gleich weit",
-          "explanation": "Bei einer Spiegelachse liegt jeder Punkt und sein Spiegelpunkt im gleichen Abstand zur Achse. Die Verbindung steht senkrecht auf der Achse.",
-          "visual": {
-            "type": "symmetry"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Form prüfen",
+          "headline": "Spiegelachse",
           "formula": "Falten an der Achse",
-          "explanation": "Beim Spiegeln decken sich beide Hälften genau. Eine Figur kann eine oder mehrere Symmetrieachsen haben.",
+          "explanation": "Beim Falten an der Achse decken sich beide Hälften. Punkt und Spiegelpunkt haben denselben Abstand zur Achse; ihre Verbindung steht senkrecht dazu. Eine Figur kann mehrere Symmetrieachsen haben.",
           "visual": {
             "type": "symmetry"
           },
@@ -1818,7 +1547,7 @@
         {
           "headline": "Faktor als Potenz schreiben",
           "formula": "f(x) = 2 · 2ˣ",
-          "explanation": "x zählt hier gleich lange Zeitschritte: Bei x = 0 ist der Startwert 2 da. Nach x Schritten wurde x-mal verdoppelt. Beispiel: f(3) = 2 · 2³ = 16.",
+          "explanation": "x zählt gleich lange Zeitschritte. Startwert 2, in jedem Schritt verdoppeln. Beispiel: f(3) = 2 · 2³ = 16.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -1842,7 +1571,7 @@
         {
           "headline": "Zwei Münzwürfe aufteilen",
           "formula": "Kopf oder Zahl je Wurf",
-          "explanation": "Wir werfen eine faire Münze zweimal unabhängig voneinander. Kopf und Zahl haben bei jedem Wurf dieselbe Chance. Die vier Ergebnisfolgen sind gleich wahrscheinlich.",
+          "explanation": "Zwei unabhängige Würfe einer fairen Münze: Die vier Ergebnisfolgen sind gleich wahrscheinlich.",
           "visual": {
             "type": "table",
             "heads": [
@@ -1878,7 +1607,7 @@
         {
           "headline": "Einen Ergebnisweg berechnen",
           "formula": "P(KK) = ½ · ½ = ¼",
-          "explanation": "Für einen bestimmten Weg multiplizierst du die Wahrscheinlichkeiten entlang des Weges. Hier ist die Chance für zweimal Kopf ein Viertel.",
+          "explanation": "Die Wahrscheinlichkeiten entlang eines Weges werden multipliziert.",
           "visual": {
             "type": "fractions",
             "parts": [
@@ -2017,28 +1746,9 @@
       "sourceNote": "Strobl Grundwissen Klasse 6, Abschnitte 2/9; DZLM Daten und Diagramme",
       "steps": [
         {
-          "headline": "Beobachtungen zählen",
-          "formula": "6-mal Treffer bei 10 Versuchen",
-          "explanation": "Die absolute Häufigkeit ist die Anzahl der Treffer. Hier gab es sechs Treffer.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Treffer",
-              "Versuche"
-            ],
-            "rows": [
-              [
-                "6",
-                "10"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Durch alle Versuche teilen",
+          "headline": "Trefferzahl durch Versuchszahl",
           "formula": "6 : 10 = 0,6 = 60 %",
-          "explanation": "Teile die Trefferzahl durch die Gesamtzahl der Versuche. Die relative Häufigkeit beträgt 60 Prozent.",
+          "explanation": "Die absolute Häufigkeit zählt die Treffer. Die relative Häufigkeit ist ihr Anteil an allen Versuchen: Trefferzahl durch Versuchszahl teilen.",
           "visual": {
             "type": "percent",
             "filled": 60,
@@ -2068,7 +1778,7 @@
         {
           "headline": "2. Formel: Differenz quadrieren",
           "formula": "",
-          "explanation": "Beim Ausmultiplizieren entstehen zwei negative Mischprodukte: −ab − ab = −2ab. Das letzte Produkt (−b) · (−b) ist +b².",
+          "explanation": "−ab − ab ergibt −2ab. Die Quadrate a² und b² bleiben positiv.",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -2081,7 +1791,7 @@
         {
           "headline": "3. Formel: Summe mal Differenz",
           "formula": "",
-          "explanation": "Die Mischprodukte +ab und −ab heben sich auf. Es bleibt die Differenz der beiden Quadrate.",
+          "explanation": "+ab und −ab heben sich auf. Es bleibt a² − b².",
           "visual": {
             "type": "math-stack",
             "rows": [
@@ -2103,25 +1813,14 @@
       "sourceNote": "Strobl Grundwissen Klasse 8, Abschnitt 9",
       "steps": [
         {
-          "headline": "Beide Gleichungen betrachten",
+          "headline": "y umstellen und einsetzen",
           "formula": "",
-          "explanation": "Gesucht sind x und y, die beide Gleichungen erfüllen. Löse zuerst I nach y auf: Ziehe auf beiden Seiten x ab.",
+          "explanation": "Beide Gleichungen müssen stimmen. In I auf beiden Seiten x abziehen. In II y durch (10 − x) ersetzen; die Klammer gehört zum Faktor 2.",
           "visual": {
             "type": "math-stack",
             "rows": [
               "I: x + y = 10",
-              "II: x + 2y = 16"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "y in die zweite Gleichung einsetzen",
-          "formula": "",
-          "explanation": "Ersetze in II das y durch 10 − x. Setze eine Klammer, denn die 2 wird mit dem ganzen Ausdruck multipliziert.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
+              "II: x + 2y = 16",
               "I: y = 10 − x",
               "II: x + 2(10 − x) = 16"
             ]
@@ -2169,18 +1868,9 @@
       "sourceNote": "Strobl Grundwissen Klasse 9, Abschnitt 6",
       "steps": [
         {
-          "headline": "Entsprechende Seiten zuordnen",
-          "formula": "",
-          "explanation": "Gleiche Buchstaben markieren entsprechende Seiten: a ↔ a′, b ↔ b′, c ↔ c′. Die Winkel sind gleich; jede große Seite ist dreimal so lang.",
-          "visual": {
-            "type": "similar-triangles"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Maßstab anwenden",
+          "headline": "Entsprechende Seiten und Faktor",
           "formula": "k = 6 : 2 = 3",
-          "explanation": "Der Vergrößerungsfaktor k ist 3: 2 · 3 = 6, 3 · 3 = 9 und 4 · 3 = 12. Er gilt für alle entsprechenden Seiten.",
+          "explanation": "Gleiche Buchstaben markieren entsprechende Seiten. Die Winkel sind gleich; jede große Seite ist dreimal so lang. Der Faktor k = 3 gilt für alle entsprechenden Seiten.",
           "visual": {
             "type": "similar-triangles"
           },
@@ -2198,9 +1888,9 @@
       "sourceNote": "Strobl Grundwissen Klasse 9, Abschnitt 5",
       "steps": [
         {
-          "headline": "Gemeinsame Fälle eintragen",
+          "headline": "Innenfelder und Randsummen",
           "formula": "20 Personen: 8 mit Bus, 12 mit Rad",
-          "explanation": "Jede Person fährt entweder Bus oder Rad und hat ein Abo oder keines. Innen stehen die vier Gruppen; am Rand ihre Summen. Beispiel: 5 Personen fahren Bus und haben ein Abo.",
+          "explanation": "Jede Person fährt entweder Bus oder Rad und hat ein Abo oder keines. Die Innenfelder zeigen diese vier Gruppen, die Ränder ihre Summen.",
           "visual": {
             "type": "table",
             "heads": [
@@ -2235,7 +1925,7 @@
         {
           "headline": "Anteil aus der passenden Gruppe bilden",
           "formula": "P(Abo) = 12 : 20 = 60 %",
-          "explanation": "Von allen 20 Personen haben 12 ein Abo. Bei zufälliger Auswahl einer Person beträgt die Wahrscheinlichkeit für „mit Abo“ daher 12/20 = 60 %.",
+          "explanation": "Bei zufälliger Auswahl aus allen Personen gilt: Anzahl mit Abo durch Gesamtzahl teilen.",
           "visual": {
             "type": "percent",
             "filled": 60,
@@ -2255,7 +1945,7 @@
       "sourceNote": "Strobl Grundwissen Klasse 10, Abschnitt 1",
       "steps": [
         {
-          "headline": "Exponentielle Frage stellen",
+          "headline": "Den Exponenten bestimmen",
           "formula": "2ˣ = 8",
           "explanation": "Welche Potenz von 2 ergibt 8? Weil 2³ = 8 gilt, ist der gesuchte Exponent 3.",
           "visual": {
@@ -2294,7 +1984,7 @@
         {
           "headline": "Umfang aus dem Durchmesser",
           "formula": "",
-          "explanation": "Der Durchmesser d geht durch den Mittelpunkt: d = 2r. Bei d = 6 cm beträgt der Umfang U = π · 6 cm ≈ 18,85 cm.",
+          "explanation": "Der Durchmesser d geht durch den Mittelpunkt und ist doppelt so lang wie der Radius r. Der Umfang ist die Länge des Kreisrandes.",
           "visual": {
             "type": "circle-reference",
             "mode": "circumference"
@@ -2304,7 +1994,7 @@
         {
           "headline": "Fläche mit dem Radius",
           "formula": "",
-          "explanation": "Der Radius r reicht vom Mittelpunkt zum Kreisrand. Bei r = 3 cm beträgt die Fläche A = π · (3 cm)² ≈ 28,27 cm².",
+          "explanation": "r ist der Abstand vom Mittelpunkt zum Rand. Die Fläche wird in cm² angegeben.",
           "visual": {
             "type": "circle-reference",
             "mode": "area"
