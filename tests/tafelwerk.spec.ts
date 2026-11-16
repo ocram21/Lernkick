@@ -23,6 +23,7 @@ for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440
    const overflow=await page.locator('.tafelwerk-board-body').evaluate(el=>({width:el.clientWidth,scroll:el.scrollWidth,height:el.clientHeight,scrollHeight:el.scrollHeight}));
     expect(overflow.scroll,`${lesson.id}/${i}: horizontal`).toBeLessThanOrEqual(overflow.width+1);
     expect(overflow.scrollHeight,`${lesson.id}/${i}: vertical`).toBeLessThanOrEqual(overflow.height+1);
+    const fits=await page.locator('.tafelwerk-detail').evaluate(el=>el.scrollHeight<=el.clientHeight+1);expect(fits,`${lesson.id}/${i}: Erklärung ohne Scrollen`).toBe(true);
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
     if(i<lesson.steps.length-1)await page.getByRole('button',{name:'Weiter',exact:true}).click();
    }
@@ -156,4 +157,17 @@ for(const viewport of [{width:320,height:568},{width:844,height:390}])test(`Fäc
  await page.locator('[data-lesson="DEU-08"]').click();await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);await expect(page.locator('.tafelwerk-board')).toHaveCount(0);
  await expect(page.locator('.tafelwerk-back')).toHaveCount(0);
  await page.screenshot({path:`test-results/tafelwerk-persistent-subjects-${viewport.width}.png`});
+});
+
+for(const pink of [false,true])test(`Winkelmesser und Kreiszeichnungen sind selbsterklärend und passen auf das Handy Pink ${pink}`,async({page})=>{
+ await page.setViewportSize({width:320,height:568});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
+ if(pink){await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();}
+ await openMath(page);await page.getByRole('button',{name:'Geometrie',exact:true}).click();
+ for(const id of ['winkel-messen','kreis']){
+  await page.locator(`[data-lesson="${id}"]`).click();await page.getByRole('button',{name:'Weiter',exact:true}).click();
+  const visual=page.locator('.tafelwerk-visual svg');await expect(visual).toHaveAttribute('aria-label',id==='kreis'?/Mittelpunkt M, Radius 3 cm und Durchmesser 6 cm/:/Winkelmesser.*45-Grad/);
+  await expect(page.locator('.tafelwerk-board h1')).toHaveText(id==='kreis'?'Fläche mit dem Radius':'Mit dem Winkelmesser messen');
+  expect(await page.locator('.tafelwerk-detail').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
+  await page.screenshot({path:`test-results/${id}-reference-${pink}.png`});await page.getByRole('button',{name:'Mathematik',exact:true}).click();
+ }
 });

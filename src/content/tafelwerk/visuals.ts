@@ -123,9 +123,21 @@ function distribute(v:any) {
   return svg(content, v.stage === 'groups' ? 'Der Faktor 3 bildet drei gleiche Gruppen aus x und 2' : 'Der Faktor 3 wird zu beiden Summanden geleitet','0 0 320 190');
 }
 function angleVisual(_v:any) {
-  const cx=146,cy=151,r=88;let ticks='';
-  for(let degree=0;degree<=180;degree+=10){const a=-degree*Math.PI/180;const x1=cx+(r-((degree%30===0)?10:6))*Math.cos(a),y1=cy+(r-((degree%30===0)?10:6))*Math.sin(a),x2=cx+r*Math.cos(a),y2=cy+r*Math.sin(a);ticks+=`<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="var(--calc-housing)" stroke-width="1.2"/>`;if(degree%30===0){const tx=cx+(r-18)*Math.cos(a),ty=cy+(r-18)*Math.sin(a);ticks+=svgText(tx,ty+3,degree,'var(--calc-ink)',9);}}
-  return svg(`<path d="M ${cx-r} ${cy} A ${r} ${r} 0 0 1 ${cx+r} ${cy}" fill="none" stroke="var(--calc-housing)" stroke-width="1.4"/><line x1="24" y1="${cy}" x2="300" y2="${cy}" stroke="var(--calc-ink)" stroke-width="3" stroke-linecap="round"/>${ticks}<line x1="${cx}" y1="${cy}" x2="${cx+104}" y2="47" stroke="var(--calc-teal)" stroke-width="3" stroke-linecap="round"/><path d="M 173.6 123.4 A 39 39 0 0 1 185 151" fill="none" stroke="var(--calc-orange)" stroke-width="3.2" stroke-linecap="round"/>${svgText(201,138,'45°','var(--calc-orange)',15)}<circle cx="${cx}" cy="${cy}" r="3.5" fill="var(--calc-ink)"/>${svgText(cx,176,'Scheitel','var(--calc-ink)',10)}`,'Winkelskala am Scheitel: rechts beginnt die Skala bei 0 Grad, der zweite Schenkel liegt bei 45 Grad','0 0 320 190');
+ const cx=146,cy=151,r=88;let ticks='';
+ for(let degree=0;degree<=180;degree+=5){
+  const a=-degree*Math.PI/180,major=degree%30===0||degree===45;
+  const x1=cx+(r-(major?10:5))*Math.cos(a),y1=cy+(r-(major?10:5))*Math.sin(a),x2=cx+r*Math.cos(a),y2=cy+r*Math.sin(a);
+  const color=degree===45?'var(--calc-orange)':'var(--calc-ink)';
+  ticks+=`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${color}" stroke-width="${degree===45?3:1}"/>`;
+  if(major){const tx=cx+(r-20)*Math.cos(a),ty=cy+(r-20)*Math.sin(a);ticks+=svgText(tx,ty+3,degree,color,10);}
+ }
+ return svg(`<path d="M ${cx-r} ${cy} A ${r} ${r} 0 0 1 ${cx+r} ${cy}" fill="none" stroke="var(--calc-ink)" stroke-width="1.4"/><line x1="24" y1="${cy}" x2="300" y2="${cy}" stroke="var(--calc-ink)" stroke-width="2"/>${ticks}<line x1="${cx}" y1="${cy}" x2="250" y2="47" stroke="var(--calc-teal)" stroke-width="3"/><path d="M 173.6 123.4 A 39 39 0 0 1 185 151" fill="none" stroke="var(--calc-orange)" stroke-width="3"/>${svgText(204,138,'45°','var(--calc-orange)',15)}<circle cx="${cx}" cy="${cy}" r="3" fill="var(--calc-orange)"/>${svgText(cx,176,'Mittelpunkt am Scheitel','var(--calc-ink)',11)}`,'Winkelmesser mit Nullmarke rechts, 5-Grad-Teilung und hervorgehobener 45-Grad-Markierung','0 40 320 145');
+}
+function circleReference(v:any){
+ const area=v.mode==='area';
+ const formula=area?'A = π · r²':'U = π · d';
+ const result=area?'A ≈ 28,27 cm²':'U ≈ 18,85 cm';
+ return svg(`<circle cx="90" cy="90" r="64" fill="var(--calc-teal)" fill-opacity="${area ? .18 : 0}" stroke="var(--calc-orange)" stroke-width="3"/><line x1="26" y1="90" x2="154" y2="90" stroke="var(--calc-orange)" stroke-width="2"/><line x1="90" y1="90" x2="135.25" y2="44.75" stroke="var(--calc-teal)" stroke-width="3"/><circle cx="90" cy="90" r="3" fill="var(--calc-ink)"/>${svgText(90,112,'d = 6 cm','var(--calc-ink)',13)}${svgText(83,39,'r = 3 cm','var(--calc-ink)',13)}${svgText(81,82,'M','var(--calc-ink)',12)}${svgText(176,53,formula,'var(--calc-ink)',20,'start')}${svgText(176,91,area?'r = 3 cm':'d = 2r = 6 cm','var(--calc-ink)',15,'start')}${svgText(176,126,result,'var(--calc-ink)',16,'start')}`,'Kreis mit Mittelpunkt M, Radius 3 cm und Durchmesser 6 cm. '+(area?'Flächeninhalt ungefähr 28,27 Quadratzentimeter.':'Umfang ungefähr 18,85 Zentimeter.'),'0 0 360 180');
 }
 function triangleVisual(v:any) {
   if(v.label==='angles') return svg(`<path d="M 50 158 L 265 158 L 177 7 Z" fill="var(--calc-display)" stroke="var(--calc-teal)" stroke-width="3"/><path d="M 80 158 A 30 30 0 0 0 69 135 M 235 158 A 30 30 0 0 0 246 135" fill="none" stroke="var(--calc-orange)" stroke-width="3" stroke-linecap="round"/><path d="M 192 28 A 30 30 0 0 1 162 28" fill="none" stroke="var(--calc-teal)" stroke-width="3.2" stroke-linecap="round"/>${svgText(93,145,'50°','var(--calc-orange)',14)}${svgText(222,145,'60°','var(--calc-orange)',14)}${svgText(177,57,v.result?'70°':'γ','var(--calc-teal)',18)}`,v.result?'Dreieck mit Innenwinkeln 50 Grad, 60 Grad und 70 Grad':'Dreieck mit Innenwinkeln 50 Grad, 60 Grad und dem gesuchten Winkel Gamma');
@@ -184,6 +196,7 @@ export function renderVisual(v:any) {
     case 'symmetry': html=symmetry();break;
     case 'triangle-area': html=triangleArea();break;
     case 'distribute': html=distribute(v);break;
+    case 'circle-reference': html=circleReference(v);break;
     case 'angles': html=angleVisual(v);break;
     case 'triangle': html=triangleVisual(v);break;
     case 'pythagoras-squares': html=pythagorasSquares();break;

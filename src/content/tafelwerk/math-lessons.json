@@ -1935,9 +1935,9 @@
           "sub": ""
         },
         {
-          "headline": "Mit dem Geodreieck messen",
-          "formula": "Nullpunkt auf den Scheitel",
-          "explanation": "Lege den Nullpunkt des Geodreiecks auf den Scheitel und die Grundlinie auf einen Schenkel. Nutze die Skala, die an diesem Schenkel bei 0° beginnt. Hier liest du 45° ab.",
+          "headline": "Mit dem Winkelmesser messen",
+          "formula": "",
+          "explanation": "Mittelpunkt auf den Scheitel legen. Die Nullmarke rechts liegt auf dem waagerechten Schenkel. Der zweite Schenkel zeigt auf 45°.",
           "visual": {
             "type": "angles",
             "active": "vertical"
@@ -2277,27 +2277,21 @@
       "steps": [
         {
           "headline": "Umfang aus dem Durchmesser",
-          "formula": "U = π · d",
-          "explanation": "Der Kreisumfang ist ungefähr 3,14-mal so lang wie sein Durchmesser.",
+          "formula": "",
+          "explanation": "Der Durchmesser d geht durch den Mittelpunkt: d = 2r. Bei d = 6 cm beträgt der Umfang U = π · 6 cm ≈ 18,85 cm.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "U = π · d",
-              "U ≈ 3,14 · d"
-            ]
+            "type": "circle-reference",
+            "mode": "circumference"
           },
           "sub": ""
         },
         {
           "headline": "Fläche mit dem Radius",
-          "formula": "A = π · r²",
-          "explanation": "Der Radius r reicht vom Mittelpunkt zum Kreisrand. Der Durchmesser d ist doppelt so lang: d = 2r. Für die Fläche gilt A = π · r²; bei r in cm erhältst du A in cm².",
+          "formula": "",
+          "explanation": "Der Radius r reicht vom Mittelpunkt zum Kreisrand. Bei r = 3 cm beträgt die Fläche A = π · (3 cm)² ≈ 28,27 cm².",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "A = π · r²",
-              "d = 2r"
-            ]
+            "type": "circle-reference",
+            "mode": "area"
           },
           "sub": ""
         }

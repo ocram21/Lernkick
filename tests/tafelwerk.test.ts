@@ -93,6 +93,12 @@ describe('Mathe-Tafelwerk',()=>{
    expect(BigInt(division.remainder)).toBeLessThan(BigInt(divisor));
   }
  });
+ it('stimmt Werkzeug, Messmarkierung und Kreisgrößen auf die Erklärung ab',()=>{
+  const angle=lesson('winkel-messen').steps[1];expect(angle.headline).toBe('Mit dem Winkelmesser messen');expect(angle.explanation).toContain('Nullmarke rechts');expect(renderVisual(angle.visual)).toContain('45-Grad-Markierung');
+  for(const [index,mode,result] of [[0,'circumference','18,85'],[1,'area','28,27']] as const){
+   const step=lesson('kreis').steps[index];expect(step.visual).toMatchObject({type:'circle-reference',mode});const rendered=renderVisual(step.visual);expect(rendered).toContain('<circle');expect(rendered).toContain('r = 3 cm');expect(rendered).toContain('d = 6 cm');expect(rendered).toContain(result);expect(step.explanation).toContain(result);
+  }
+ });
  it('zeichnet auch waagerechte und fallende Geraden endlich im Koordinatenbereich',()=>{
   for(const slope of [0,-2,2]){
    const result=renderVisual({type:'graph',mode:'line',slope,intercept:1});
