@@ -16,8 +16,8 @@ export const helpSections=[
   'Dual N-Back: Vergleiche Position und Ton mit dem Reiz N Schritte zuvor. Melde passende Positionen und Töne getrennt. 1-Back und 2-Back sind direkt wählbar; 3-Back wird nach bestandenem 2-Back frei. Markierungen auf der Startseite zeigen gemeisterte Stufen.']},
  {title:'Lernkasten',paragraphs:boxHelpParagraphs},
  {title:'Score und Routine',paragraphs:[
-  'Score zählt deine Punkte aus dem Training und den Games. Routine zeigt erfasste Übungszeit, nicht dein Fachkönnen. Auch eine kurze Runde ist sinnvoll. Für mindestens 30 erfasste Übungsminuten erhältst du einmal pro Kalendertag ein Siebtel des Höchstwerts. Von null auf 100 Prozent brauchst du sieben erfüllte Tagesziele; an einem Tag geht das nicht.',
-  'Jeder Tag unter 30 Minuten senkt den bestehenden Routine-Wert um 10 %, zum Beispiel von 80 % auf 72 %. Pausen, Hintergrund und lange Untätigkeit zählen nicht.']},
+  'Score zählt deine Punkte aus dem Training und den Games. Routine zeigt erfasste Übungszeit, nicht dein Fachkönnen. Auch eine kurze Runde ist sinnvoll. Jede erfasste aktive Übezeit erhöht die Routine sofort – auch kurze Einheiten. 30 Minuten entsprechen etwa 14,3 Prozentpunkten. Mehrere Einheiten zählen zusammen, bis höchstens 100 %.',
+  'Nur ein vollständig vergangener Tag ohne erfasste Übezeit senkt den bestehenden Routine-Wert um 10 %, zum Beispiel von 80 % auf 72 %. Pausen, Hintergrund und lange Untätigkeit zählen nicht.']},
  {title:'Bosskampf und Statistik',details:true,paragraphs:[
   'Zwei vollständig abgeschlossene Runden in einem Fach laden dessen Roboter. Sobald ein Fach geladen ist, kannst du Bosskampf einschalten und dieses Fach wählen. Du hast drei Minuten für zehn Aufgaben; acht richtige Antworten gewinnen. Ein beendeter Kampf verbraucht diese Ladung. Beim Abbrechen bleibt sie erhalten.',
   'Die große Zahl auf einer Fachkachel zählt abgeschlossene Runden seit Beginn der Erfassung. Daneben stehen gewonnene und verlorene Bosskämpfe. Der Roboter zeigt die Ladung von null bis zwei.',
@@ -32,7 +32,7 @@ const trainingNotes=[
  {title:'Training und Schwierigkeit',text:'Fach und Themen wählen. Normal oder Knifflig einstellen. Pause hält die Runde an.'},
  {title:'Games',text:'Puzzle oder Codeknacker: 100 Punkte je Sieg.'},
  {title:'Weitere Spiele',text:'Galgenraten, Deutschlandquiz und Dual N-Back sind direkt wählbar.'},
- {title:'Score und Routine',text:'Score zählt Punkte. Routine misst Zeit, nicht Können: 30 erfasste Übungsminuten pro Tag; sieben erfüllte Tagesziele bis 100 %. Unter dem Ziel: täglich 10 % weniger Routine.'},
+ {title:'Score und Routine',text:'Score zählt Punkte. Routine misst Zeit, nicht Können: Jede erfasste Übezeit zählt sofort. 30 Minuten ergeben etwa 14,3 Prozentpunkte. Nur Tage ohne Übezeit: 10 % weniger Routine.'},
  {title:'Bosskampf',text:'Nach zwei vollständigen Runden je Fach: Glühbirne einschalten und Fach wählen. Drei Minuten, zehn Aufgaben; acht richtige gewinnen. Abbruch erhält die Ladung.'},
  {title:'Statistik',text:'Score oder Routine antippen: erfasste Übungszeit und Bosskämpfe nach Monat und Bereich ansehen.'}
 ];

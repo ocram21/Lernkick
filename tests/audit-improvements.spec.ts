@@ -11,10 +11,8 @@ test('Fehlerrückmeldung bleibt stehen und Nachschlagen erhält die Aufgabe',asy
  await answerWrong(page);await expect(page.locator('.feedback')).toBeVisible();
  await page.waitForTimeout(2500);await expect(page.locator('.question h1')).toHaveText(prompt);await expect(page.locator('.feedback')).toBeVisible();
 });
-test('Tafelwerk bietet sichtbaren Rückweg und größere Leseansicht',async({page})=>{
+test('Tafelwerk bietet sichtbaren Rückweg ohne unerwünschte Lupe',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.goto('/');await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();
- await page.locator('[data-lesson="vorzeichen"]').click();await page.getByRole('button',{name:'Große Leseansicht',exact:true}).click();
- await page.screenshot({path:'test-results/audit-reading.png'});
- await expect(page.locator('.tafelwerk')).toHaveClass(/tafelwerk-reading/);await expect(page.locator('.tafelwerk-explanation')).toBeVisible();
+ await page.locator('[data-lesson="vorzeichen"]').click();await expect(page.getByRole('button',{name:'Große Leseansicht',exact:true})).toHaveCount(0);await expect(page.locator('.tafelwerk-explanation')).toBeVisible();
  await page.getByRole('button',{name:'Themen',exact:true}).click();await expect(page.locator('[data-lesson="vorzeichen"]')).toBeVisible();
 });

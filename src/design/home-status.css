@@ -25,3 +25,5 @@
 :root[data-motion="reduced"] :is(.strength-led.newly-lit){animation:none}
 
 .home-console .calculator-grid{padding-left:6px;padding-right:6px}
+
+.strength-led.partial{position:relative;overflow:hidden}.strength-led.partial::before{content:"";position:absolute;inset:0 auto 0 0;width:calc(var(--led-level) * 100%);background:var(--led-active)}

@@ -11,3 +11,11 @@ for(const pink of [false,true])test(`Routine: Skala trifft LED-Gruppen, Licht bl
  const colors=await page.locator('.strength-leds').evaluate(el=>{const lit=el.querySelector('.lit')!,off=el.querySelector('.strength-led:not(.lit)')!;return [getComputedStyle(lit).backgroundColor,getComputedStyle(off).backgroundColor];});expect(colors[0]).not.toBe(colors[1]);
  await page.screenshot({path:`test-results/routine-scale-${pink}.png`});
 });
+test('Kurze aktive Einheit erhöht Routine sofort, auch nach Reload; Tafelwerk ohne Lupe',async({page})=>{
+ await page.clock.install();await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
+ await page.locator('[data-module="math"]').click();await page.getByRole('button',{name:'Üben',exact:true}).click();
+ await page.clock.runFor(10000);await page.getByRole('button',{name:'Hilfe',exact:true}).click();await page.clock.runFor(10000);await page.getByRole('button',{name:'Ausgang',exact:true}).click();
+ const meter=page.getByRole('meter',{name:'Routine',exact:true});const value=Number(await meter.getAttribute('aria-valuenow'));expect(value).toBeGreaterThan(0);expect(value).toBeLessThan(5);await expect(page.locator('.strength-led.partial')).toHaveCount(1);
+ await page.reload();await expect(meter).toHaveAttribute('aria-valuenow',String(value));
+ await page.getByRole('button',{name:'Tafelwerk',exact:true}).click();await expect(page.getByRole('button',{name:'Große Leseansicht',exact:true})).toHaveCount(0);
+});

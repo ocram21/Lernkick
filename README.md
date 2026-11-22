@@ -12,6 +12,8 @@ Mobile Lern-PWA für einen BvB-Reha-Piloten. Lernangebot mit 500 redaktionellen 
 
 Aktuelle Überarbeitung: [Umsetzung der App-Prüfung vom 22.11.2026](docs/APP-VERBESSERUNGEN-UMSETZUNG-2026-11-22.md). Dieser Bericht dokumentiert die derzeitigen Änderungen an Hilfen, Tafelwerk, Rückmeldungen und Fachinhalten.
 
+Routine zählt seit der Überarbeitung vom 22.11.2026 erfasste aktive Übezeit anteilig und sofort: 30 Minuten entsprechen etwa 14,3 Prozentpunkten, auch mehrere kurze Einheiten zählen zusammen. Ein erfasster aktiver Tag schützt vor dem bisherigen Tagesabzug; nur vollständig inaktive Tage verringern den Wert um 10 %. Bestehende Werte bleiben erhalten, eine im bisherigen Modell noch nicht belohnte kurze Tageszeit wird einmalig übernommen. Teilgefüllte LEDs und der genaue Prozentwert zeigen auch kleine Fortschritte. Die unerwünschte Lupe im Tafelwerk wurde entfernt.
+
 ## Lokal entwickeln
 
 Node.js 22.12 oder neuer installieren, dann:
