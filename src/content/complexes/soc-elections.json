@@ -13,7 +13,7 @@
       "Nur Mitglieder der Regierung dürfen wählen."
     ],
     "correct": 0,
-    "explanation": "Alle Wahlberechtigten dürfen unabhängig etwa von Vermögen teilnehmen."
+    "explanation": "Die Zugehörigkeit zu einer reichen Gruppe darf nicht Voraussetzung sein. Wer wahlberechtigt ist, bestimmen die Regeln der jeweiligen Wahl."
   },
   {
     "id": "complex.soc-elections.002",
@@ -29,7 +29,7 @@
       "Der Arbeitgeber entscheidet verbindlich für Beschäftigte."
     ],
     "correct": 0,
-    "explanation": "Die Entscheidung darf nicht durch unzulässigen Zwang bestimmt werden."
+    "explanation": "Eine Person darf nicht durch Drohungen zu einer bestimmten Stimme gezwungen werden. Wahlwerbung ist davon zu unterscheiden."
   },
   {
     "id": "complex.soc-elections.003",
@@ -45,7 +45,7 @@
       "Die Namen aller Kandidierenden sind geheim."
     ],
     "correct": 0,
-    "explanation": "Die persönliche Stimmabgabe soll unbeobachtet und nicht zuordenbar erfolgen."
+    "explanation": "Niemand soll kontrollieren können, welcher Person ein bestimmter ausgefüllter Stimmzettel gehört. Deshalb gibt es geschützte Wahlbereiche."
   },
   {
     "id": "complex.soc-elections.004",
@@ -61,7 +61,7 @@
       "Die Stimme eines Amtsinhabers zählt mehrfach."
     ],
     "correct": 0,
-    "explanation": "Stimmen haben grundsätzlich denselben Zählwert."
+    "explanation": "Ein hoher Verdienst verleiht einer Person keine zusätzlichen Stimmen. Gleiches Wahlrecht begrenzt solche Unterschiede."
   },
   {
     "id": "complex.soc-elections.005",
@@ -77,7 +77,7 @@
       "Ein Unternehmen wählt die Abgeordneten aus."
     ],
     "correct": 0,
-    "explanation": "Wähler bestimmen die Abgeordneten ohne dazwischengeschaltete Wahlleute."
+    "explanation": "Die Stimme wirkt ohne eine zusätzliche Wahlmännerstufe auf die Zusammensetzung der gewählten Vertretung."
   },
   {
     "id": "complex.soc-elections.006",
@@ -93,7 +93,7 @@
       "Eine amtliche Wettervorhersage"
     ],
     "correct": 0,
-    "explanation": "Eine Darstellung politischer Ziele einer Partei"
+    "explanation": "Das Programm hilft, die Ziele einer Partei zu vergleichen. Es ist nicht bereits ein beschlossenes Gesetz."
   },
   {
     "id": "complex.soc-elections.007",
@@ -109,7 +109,7 @@
       "Der gesamte europäische Kontinent bei jeder Wahl"
     ],
     "correct": 0,
-    "explanation": "Ein räumlich abgegrenztes Gebiet für eine Wahl"
+    "explanation": "Für die Zuordnung bestimmter Kandidaturen wird das Wahlgebiet räumlich eingeteilt. Ein Wahlkreis ist keine politische Partei."
   },
   {
     "id": "complex.soc-elections.008",
@@ -125,7 +125,7 @@
       "Ein automatischer Anspruch auf Regierungsführung"
     ],
     "correct": 0,
-    "explanation": "Der durch Wahl übertragene Auftrag beziehungsweise Sitz"
+    "explanation": "Wer ein Mandat erhält, übernimmt eine Vertretungsaufgabe. Der Begriff bezeichnet nicht eine zusätzliche Stimme des Wählers."
   },
   {
     "id": "complex.soc-elections.009",
@@ -141,7 +141,7 @@
       "Nur die Bundesregierung"
     ],
     "correct": 0,
-    "explanation": "Die nach den gesetzlichen Regeln wahlberechtigten Personen"
+    "explanation": "Das Wahlrecht richtet sich nach den Voraussetzungen der jeweiligen Wahl. Nicht jede in Deutschland anwesende Person ist deshalb automatisch bei jeder Wahl berechtigt."
   },
   {
     "id": "complex.soc-elections.010",
@@ -157,7 +157,7 @@
       "Fünf Stimmen"
     ],
     "correct": 0,
-    "explanation": "Bei der Bundestagswahl sind grundsätzlich eine Erststimme und eine Zweitstimme vorgesehen."
+    "explanation": "Erst- und Zweitstimme erfüllen verschiedene Funktionen. Ihre Namen sind keine Rangfolge von wichtig und unwichtig."
   },
   {
     "id": "complex.soc-elections.011",
@@ -173,7 +173,7 @@
       "Für die Wahl der EU-Kommission"
     ],
     "correct": 0,
-    "explanation": "Für eine Person im Wahlkreis"
+    "explanation": "Mit der Erststimme wird eine konkrete Wahlkreisbewerbung unterstützt. Die gesetzlichen Regeln bestimmen, unter welchen Bedingungen daraus ein Sitz entsteht."
   },
   {
     "id": "complex.soc-elections.012",
@@ -189,7 +189,7 @@
       "Für die direkte Wahl des Bundespräsidenten"
     ],
     "correct": 0,
-    "explanation": "Für den Landeslistenvorschlag einer Partei"
+    "explanation": "Die Zweitstimme unterstützt die Landesliste einer Partei. Sie ist für die Verteilung der Parteisitze maßgeblich."
   },
   {
     "id": "complex.soc-elections.013",
@@ -205,7 +205,7 @@
       "Eine Pflicht, eine bestimmte Partei zu wählen"
     ],
     "correct": 0,
-    "explanation": "Eine Mitteilung mit wichtigen Angaben zur Teilnahme an der Wahl"
+    "explanation": "Die Benachrichtigung enthält etwa Hinweise zu Wahl und Wahllokal. Sie ist nicht selbst der abgegebene Stimmzettel."
   },
   {
     "id": "complex.soc-elections.014",
@@ -221,7 +221,7 @@
       "Eine Wahl ohne gültigen Stimmzettel"
     ],
     "correct": 0,
-    "explanation": "Stimmabgabe mit beantragten Wahlunterlagen außerhalb des Wahllokals"
+    "explanation": "Die Stimmabgabe findet nicht in der Wahlkabine des Wahllokals statt. Die vorgegebenen Unterlagen und Fristen sichern die ordnungsgemäße Teilnahme."
   },
   {
     "id": "complex.soc-elections.015",
@@ -237,7 +237,7 @@
       "Eine Gaststätte ohne Wahlfunktion"
     ],
     "correct": 0,
-    "explanation": "Ein Ort zur Stimmabgabe am Wahltag"
+    "explanation": "Das Wahllokal stellt einen geregelten Ort mit geschützter Stimmabgabe bereit. Es ist kein Ort, an dem Parteien die Wahlentscheidung kontrollieren sollen."
   },
   {
     "id": "complex.soc-elections.016",
@@ -253,7 +253,7 @@
       "Eine Liste aller Parteispenden"
     ],
     "correct": 0,
-    "explanation": "Ein Behälter zur Aufnahme von Stimmzetteln"
+    "explanation": "Die Urne sammelt die Stimmzettel für die spätere Auszählung. Sie soll die einzelne Stimme nicht einer Person zuordnen."
   },
   {
     "id": "complex.soc-elections.017",
@@ -269,7 +269,7 @@
       "Sie dürfen Stimmen nach eigener Vorliebe ergänzen."
     ],
     "correct": 0,
-    "explanation": "Sie unterstützen den ordnungsgemäßen Ablauf und die Auszählung."
+    "explanation": "Der geordnete Ablauf und die richtige Zählung benötigen Menschen vor Ort. Wahlhelfende bestimmen dabei nicht, wen andere wählen sollen."
   },
   {
     "id": "complex.soc-elections.018",
@@ -285,7 +285,7 @@
       "Die Zahl der Wahlplakate pro Straße"
     ],
     "correct": 0,
-    "explanation": "Der Anteil der Wahlberechtigten, die an der Wahl teilnehmen"
+    "explanation": "Die Bezugsgruppe sind die Wahlberechtigten. Ein Parteiergebnis verwendet dagegen eine andere Bezugsgröße."
   },
   {
     "id": "complex.soc-elections.019",
@@ -301,7 +301,7 @@
       "Jede per Brief abgegebene Stimme"
     ],
     "correct": 0,
-    "explanation": "Eine Stimme, die nach den geltenden Regeln nicht gewertet werden kann"
+    "explanation": "Kann der Wählerwille nach den Regeln nicht eindeutig gewertet werden, kann eine Stimme ungültig sein. Ein unliebsames politisches Ergebnis macht sie nicht ungültig."
   },
   {
     "id": "complex.soc-elections.020",
@@ -317,7 +317,7 @@
       "Es wird grundsätzlich ohne Stimmen gezählt."
     ],
     "correct": 0,
-    "explanation": "Ein Mandat geht nach den geltenden Regeln an die stärkste Person oder Option."
+    "explanation": "Entscheidend ist die jeweils vorgeschriebene Mehrheit. Welche Art von Mehrheit verlangt wird, hängt vom Wahlsystem ab."
   },
   {
     "id": "complex.soc-elections.021",
@@ -333,7 +333,7 @@
       "Nur die größte Partei erhält sämtliche Sitze."
     ],
     "correct": 0,
-    "explanation": "Sitze sollen sich am Stimmenverhältnis orientieren."
+    "explanation": "Ein Stimmenanteil soll sich in der Verteilung der Sitze widerspiegeln. Gesetzliche Regeln können die konkrete Umsetzung begrenzen."
   },
   {
     "id": "complex.soc-elections.022",
@@ -349,7 +349,7 @@
       "Sie wählt unmittelbar alle Minister."
     ],
     "correct": 0,
-    "explanation": "Sie bestimmt wesentlich die Sitzverteilung zwischen den Parteien."
+    "explanation": "Ein Wahlkreisergebnis allein beschreibt nicht die Parteistärke im Bundestag. Dafür ist besonders das Zweitstimmenergebnis wichtig."
   },
   {
     "id": "complex.soc-elections.023",
@@ -365,7 +365,7 @@
       "Die Pflicht, Wahlplakate aufzuhängen"
     ],
     "correct": 0,
-    "explanation": "Das Recht, selbst zu wählen"
+    "explanation": "Aktiv bedeutet hier, die eigene Stimme abgeben zu dürfen. Das ist vom Recht auf eine Kandidatur zu unterscheiden."
   },
   {
     "id": "complex.soc-elections.024",
@@ -381,7 +381,7 @@
       "Die Pflicht, nicht zu wählen"
     ],
     "correct": 0,
-    "explanation": "Das Recht, sich zur Wahl stellen zu können"
+    "explanation": "Passiv bezeichnet die Möglichkeit, selbst gewählt zu werden. Eine Person kann damit als Kandidatin oder Kandidat antreten."
   },
   {
     "id": "complex.soc-elections.025",
@@ -397,7 +397,7 @@
       "Eine Änderung aller abgegebenen Stimmen"
     ],
     "correct": 0,
-    "explanation": "Gespräche über eine gemeinsame politische Zusammenarbeit zur Regierungsbildung"
+    "explanation": "Mehrere Parteien müssen sich über Ziele und Zusammenarbeit verständigen. Ein Wahlergebnis allein legt nicht jeden gemeinsamen Programmpunkt fest."
   },
   {
     "id": "complex.soc-elections.026",
@@ -413,7 +413,7 @@
       "Eine Garantie ohne parlamentarische Entscheidungen"
     ],
     "correct": 0,
-    "explanation": "Eine angekündigte politische Absicht"
+    "explanation": "Eine Absicht braucht nach der Wahl weiterhin Mehrheiten und Umsetzung. Sie wird durch die Ankündigung nicht automatisch geltendes Recht."
   },
   {
     "id": "complex.soc-elections.027",
@@ -429,7 +429,7 @@
       "Eine verbindliche Anweisung an Wahlhelfende"
     ],
     "correct": 0,
-    "explanation": "Eine Schätzung des Ergebnisses anhand von Befragungen"
+    "explanation": "Befragte geben Auskunft über ihre Entscheidung. Das Ergebnis ist eine Schätzung, bevor sämtliche amtlichen Stimmen ausgezählt sind."
   },
   {
     "id": "complex.soc-elections.028",
@@ -445,7 +445,7 @@
       "Ein Beschluss über das künftige Wahlprogramm"
     ],
     "correct": 0,
-    "explanation": "Eine Berechnung aus bereits vorliegenden Teilergebnissen"
+    "explanation": "Bereits ausgezählte Gebiete dienen als Grundlage, um den weiteren Ausgang abzuschätzen. Eine Hochrechnung ist noch kein endgültiges Gesamtergebnis."
   },
   {
     "id": "complex.soc-elections.029",
@@ -461,7 +461,7 @@
       "Nur Regierungsmitglieder dürfen politische Fragen besprechen."
     ],
     "correct": 0,
-    "explanation": "Politische Anliegen etwa durch Vereine, Petitionen oder Gespräche einbringen"
+    "explanation": "Auch zwischen Wahlterminen lassen sich Anliegen organisieren und öffentlich vertreten. Die nächste Wahl ist nicht der einzige Beteiligungsweg."
   },
   {
     "id": "complex.soc-elections.030",
@@ -477,7 +477,7 @@
       "Das Alter aus einer beliebigen Werbeanzeige übernehmen"
     ],
     "correct": 0,
-    "explanation": "Wahlart, Ort und aktuellen Rechtsstand unterscheiden"
+    "explanation": "Für verschiedene Wahlen können unterschiedliche Voraussetzungen gelten. Ein einmal gelerntes Alter lässt sich deshalb nicht ungeprüft übertragen."
   },
   {
     "id": "complex.soc-elections.031",
@@ -493,7 +493,7 @@
       "Eine Firmenleitung besitzt zusätzliche Stimmen aller Beschäftigten."
     ],
     "correct": 0,
-    "explanation": "Die Freiheit der Wahl schützt die selbstbestimmte Entscheidung."
+    "explanation": "Die Arbeitsstelle darf nicht kontrollieren, welche politische Wahl jemand treffen soll. Der Schutz gilt auch gegenüber wirtschaftlichem Druck."
   },
   {
     "id": "complex.soc-elections.032",
@@ -509,7 +509,7 @@
       "Öffentliche Auszählung erlaubt das Markieren der Namen auf Stimmzetteln."
     ],
     "correct": 0,
-    "explanation": "Die Zählung wird kontrollierbar, ohne einzelne Stimmen Personen zuzuordnen."
+    "explanation": "Bei der Auszählung werden Stimmzettel geprüft, nicht die politische Entscheidung benannter Personen veröffentlicht."
   },
   {
     "id": "complex.soc-elections.033",
@@ -525,7 +525,7 @@
       "Abgeordnete müssen jede einzelne Wählermeinung gleichzeitig umsetzen."
     ],
     "correct": 0,
-    "explanation": "Abgeordnete sind dem ganzen Volk und ihrem Gewissen verpflichtet."
+    "explanation": "Abgeordnete sind keine bloßen Boten eines einzelnen Auftraggebers. Ihr Mandat verlangt eine eigenverantwortliche Entscheidung."
   },
   {
     "id": "complex.soc-elections.034",
@@ -541,7 +541,7 @@
       "Umfragen ersetzen nach Veröffentlichung die Wahl."
     ],
     "correct": 0,
-    "explanation": "Sie beruhen auf Stichproben und besitzen Unsicherheit."
+    "explanation": "Eine Stichprobe erfasst nur einen Teil der Bevölkerung. Zufällige und methodische Unsicherheiten bleiben deshalb möglich."
   },
   {
     "id": "complex.soc-elections.035",
@@ -557,7 +557,7 @@
       "Ob das Ergebnis der eigenen Hoffnung entspricht"
     ],
     "correct": 0,
-    "explanation": "Zeitraum, Stichprobe, Fragestellung und Unsicherheiten"
+    "explanation": "Unterschiedliche Fragen oder Befragungszeiten können Ergebnisse verändern. Zahlen sind ohne diese Angaben schwer vergleichbar."
   },
   {
     "id": "complex.soc-elections.036",
@@ -573,7 +573,7 @@
       "Jede Stichprobe umfasst automatisch alle Wahlberechtigten."
     ],
     "correct": 0,
-    "explanation": "Der Abstand kann innerhalb der statistischen Unsicherheit liegen."
+    "explanation": "Ein kleiner gemessener Unterschied kann durch die Unsicherheit der Schätzung erklärt werden. Er beweist noch keinen sicheren Vorsprung."
   },
   {
     "id": "complex.soc-elections.037",
@@ -589,7 +589,7 @@
       "Wahlbeteiligung zählt nur die stärkste Partei."
     ],
     "correct": 0,
-    "explanation": "Die Bezugsgruppen sind unterschiedlich."
+    "explanation": "Wahlbeteiligung bezieht sich auf Wahlberechtigte. Ein Parteianteil bezieht sich bei der jeweiligen Auswertung auf die entsprechend gültigen Stimmen."
   },
   {
     "id": "complex.soc-elections.038",
@@ -605,7 +605,7 @@
       "Nichtwählen löscht automatisch die ganze Wahl."
     ],
     "correct": 0,
-    "explanation": "Nur abgegebene gültige Stimmen fließen entsprechend in die Verteilung ein."
+    "explanation": "Wer nicht teilnimmt, trägt keine gültige Parteistimme zur Sitzverteilung bei. Dadurch verändert sich das Gewicht der tatsächlich abgegebenen Stimmen."
   },
   {
     "id": "complex.soc-elections.039",
@@ -621,7 +621,7 @@
       "Den Stimmzettel ohne weitere Unterlagen beliebig öffentlich hochladen"
     ],
     "correct": 0,
-    "explanation": "Fristen und die mitgelieferten Hinweise genau beachten"
+    "explanation": "Eine verspätete oder falsch zusammengestellte Rücksendung kann die Berücksichtigung verhindern. Die konkreten Hinweise gehören deshalb zur Teilnahme."
   },
   {
     "id": "complex.soc-elections.040",
@@ -637,7 +637,7 @@
       "Nur Papier im Hochformat darf fotografiert werden."
     ],
     "correct": 0,
-    "explanation": "Die geheime Wahlhandlung muss geschützt werden."
+    "explanation": "Eine dokumentierte Wahlentscheidung kann Kontrolle oder Druck ermöglichen. Der geschützte Wahlvorgang soll gerade davor schützen."
   },
   {
     "id": "complex.soc-elections.041",
@@ -653,7 +653,7 @@
       "Doppelt so viele Stimmen erhalten"
     ],
     "correct": 0,
-    "explanation": "Stimmensplitting bedeutet, Erst- und Zweitstimme unterschiedlichen politischen Angeboten zu geben."
+    "explanation": "Die Person kann für die beiden Funktionen unterschiedliche politische Entscheidungen treffen. Das ist nicht dasselbe wie zwei Zweitstimmen abzugeben."
   },
   {
     "id": "complex.soc-elections.042",
@@ -669,7 +669,7 @@
       "Die Erststimme entscheidet unmittelbar über jede Regierungsperson."
     ],
     "correct": 0,
-    "explanation": "Die Namen bezeichnen unterschiedliche Funktionen, keine Rangfolge der Bedeutung."
+    "explanation": "Die Zweitstimme hat eine zentrale Funktion für die Parteisitze. Die Reihenfolge der Bezeichnungen sagt darüber nichts aus."
   },
   {
     "id": "complex.soc-elections.043",
@@ -685,7 +685,7 @@
       "Die Zweitstimme spielt bei Sitzen keinerlei Rolle."
     ],
     "correct": 0,
-    "explanation": "Es sind zusätzlich die gesetzlichen Regeln der Zweitstimmendeckung zu beachten."
+    "explanation": "Das Zusammenspiel von Wahlkreisergebnis und Parteiergebnis folgt besonderen Regeln. Der lokale Vorsprung allein garantiert bei Parteibewerbungen nicht jeden Sitz."
   },
   {
     "id": "complex.soc-elections.044",
@@ -701,7 +701,7 @@
       "Eine beliebige alte Grafik ist immer verbindlich."
     ],
     "correct": 0,
-    "explanation": "Ausnahmen und verfassungsgerichtliche Entscheidungen können die Anwendung beeinflussen."
+    "explanation": "Eine vereinfachte Faustregel kann nach einer Rechtsänderung falsch werden. Deshalb müssen Ausnahmen und geltende Entscheidungen geprüft werden."
   },
   {
     "id": "complex.soc-elections.045",
@@ -717,7 +717,7 @@
       "Die Regierung wird grundsätzlich nur vom Bundesrat gewählt."
     ],
     "correct": 0,
-    "explanation": "Die Bevölkerung wählt den Bundestag; dieser wählt die Kanzlerin oder den Kanzler."
+    "explanation": "Die Wahl der Regierungsspitze erfolgt auf Bundesebene durch den Bundestag. Die Stimmabgabe der Bevölkerung richtet sich zunächst auf dessen Zusammensetzung."
   },
   {
     "id": "complex.soc-elections.046",
@@ -733,7 +733,7 @@
       "Kandidierende ausschließlich nach Kleidung beurteilen"
     ],
     "correct": 0,
-    "explanation": "Ziele, Begründungen und mögliche Folgen verschiedener Programme prüfen"
+    "explanation": "Eine einzelne griffige Forderung zeigt noch nicht alle Folgen. Ein Vergleich braucht auch Begründungen und die übrigen Ziele."
   },
   {
     "id": "complex.soc-elections.047",
@@ -749,7 +749,7 @@
       "Nach der Wahl sind keine parlamentarischen Entscheidungen mehr nötig."
     ],
     "correct": 0,
-    "explanation": "Mehrere Parteien müssen unterschiedliche Ziele miteinander vereinbaren."
+    "explanation": "Keine beteiligte Partei kann automatisch ihr ganzes Programm durchsetzen. Ein gemeinsamer Plan verbindet deshalb Zugeständnisse."
   },
   {
     "id": "complex.soc-elections.048",
@@ -765,7 +765,7 @@
       "Eine Sachabstimmung wählt immer automatisch den Bundestag."
     ],
     "correct": 0,
-    "explanation": "Bei Wahlen werden Personen oder Vertretungen bestimmt; Sachabstimmungen entscheiden eine konkrete Frage."
+    "explanation": "Die Entscheidung über einen konkreten Sachvorschlag ist etwas anderes als die Auswahl von Personen für eine Vertretung."
   },
   {
     "id": "complex.soc-elections.049",
@@ -781,7 +781,7 @@
       "Assistenz bedeutet, dass alle Stimmen öffentlich bekannt werden müssen."
     ],
     "correct": 0,
-    "explanation": "Sie unterstützt eine selbstbestimmte Entscheidung und unterliegt Schutzregeln."
+    "explanation": "Hilfe soll die eigene Entscheidung ermöglichen, nicht ersetzen. Eine unterstützende Person darf keine fremde Wahlentscheidung aufzwingen."
   },
   {
     "id": "complex.soc-elections.050",
@@ -797,6 +797,6 @@
       "Die Wahlentscheidung an eine Werbung abgeben"
     ],
     "correct": 0,
-    "explanation": "Informationen prüfen und eigene Prioritäten mit politischen Angeboten vergleichen"
+    "explanation": "Wer die eigenen Ziele mit überprüften Angeboten vergleicht, kann begründeter entscheiden. Aufmerksamkeit für Werbung ersetzt diese Prüfung nicht."
   }
 ]

@@ -93,7 +93,7 @@
       "Norddeutsches Tiefland"
     ],
     "correct": 0,
-    "explanation": "Silicon Valley in Kalifornien"
+    "explanation": "Die Nähe von Forschung, Fachkräften und Kapital erleichtert die Gründung von Technologieunternehmen."
   },
   {
     "id": "complex.geo-usa.007",
@@ -109,7 +109,7 @@
       "Eine Gebirgskette in Alaska"
     ],
     "correct": 0,
-    "explanation": "Einen stark industriell geprägten Raum im Nordosten und an den Großen Seen"
+    "explanation": "Verkehrswege, Absatzmärkte und Industrie bildeten dort einen zusammenhängenden Wirtschaftsraum."
   },
   {
     "id": "complex.geo-usa.008",
@@ -125,7 +125,7 @@
       "Nur das Zentrum der Stadt New York"
     ],
     "correct": 0,
-    "explanation": "Wachstumsräume im Süden und Südwesten der USA"
+    "explanation": "Der Begriff fasst unterschiedliche südliche Wachstumsregionen zusammen, keine einheitliche Landschaft."
   },
   {
     "id": "complex.geo-usa.009",
@@ -189,7 +189,7 @@
       "Sie erzeugen allein alle Exportgüter."
     ],
     "correct": 0,
-    "explanation": "Sie verbinden internationale Warenströme mit dem Hinterland."
+    "explanation": "Erst Straßen und Bahnanschlüsse verteilen die umgeschlagenen Waren weiter ins Landesinnere."
   },
   {
     "id": "complex.geo-usa.013",
@@ -205,7 +205,7 @@
       "Nur der Handel mit Binnenfischen"
     ],
     "correct": 0,
-    "explanation": "Ein zusammenhängender Markt innerhalb eines Wirtschaftsraums"
+    "explanation": "Anbieter und Käufer können innerhalb dieses Raums miteinander handeln."
   },
   {
     "id": "complex.geo-usa.014",
@@ -221,7 +221,7 @@
       "Nur Versicherungsverträge"
     ],
     "correct": 0,
-    "explanation": "Natürliche Ausgangsstoffe für die Produktion"
+    "explanation": "Sie werden gewonnen und anschließend zu Werkstoffen oder anderen Produkten verarbeitet."
   },
   {
     "id": "complex.geo-usa.015",
@@ -253,7 +253,7 @@
       "Spezialisierung entsteht nur durch die Namen der Bundesstaaten."
     ],
     "correct": 0,
-    "explanation": "Klima, Böden, Technik und Absatzmöglichkeiten unterscheiden sich."
+    "explanation": "Eine Anbauform, die in einer Region gut passt, muss anderswo nicht wirtschaftlich sein."
   },
   {
     "id": "complex.geo-usa.017",
@@ -269,7 +269,7 @@
       "Landwirtschaft wird vollständig aufgegeben."
     ],
     "correct": 0,
-    "explanation": "Maschinen übernehmen viele Arbeitsvorgänge."
+    "explanation": "Maschinen können pro Arbeitskraft größere Flächen bearbeiten."
   },
   {
     "id": "complex.geo-usa.018",
@@ -285,7 +285,7 @@
       "Beliebige Ernten ohne Boden und Nährstoffe"
     ],
     "correct": 0,
-    "explanation": "Anbau trotz geringer natürlicher Niederschläge"
+    "explanation": "Zugeführtes Wasser ergänzt den Niederschlag, schafft aber zusätzlichen Wasserbedarf."
   },
   {
     "id": "complex.geo-usa.019",
@@ -301,7 +301,7 @@
       "Bewässerung spart grundsätzlich immer sämtliches Wasser."
     ],
     "correct": 0,
-    "explanation": "Wasserreserven können übernutzt werden."
+    "explanation": "Wird mehr Wasser entnommen als nachkommt, sinken verfügbare Reserven."
   },
   {
     "id": "complex.geo-usa.020",
@@ -317,7 +317,7 @@
       "Ausschließlich die staatliche Wettervorhersage"
     ],
     "correct": 0,
-    "explanation": "Eng verflochtene Unternehmen von Agrarvorleistungen bis Vermarktung"
+    "explanation": "Landwirtschaft ist dabei mit Saatgut, Maschinen, Verarbeitung und Handel verbunden."
   },
   {
     "id": "complex.geo-usa.021",
@@ -333,7 +333,7 @@
       "Sie ersetzen jede betriebliche Investition."
     ],
     "correct": 0,
-    "explanation": "Sie fördern Forschung und die Ausbildung von Fachkräften."
+    "explanation": "Forschung kann Innovationen anstoßen; Absolventen bringen Wissen in Betriebe."
   },
   {
     "id": "complex.geo-usa.022",
@@ -349,7 +349,7 @@
       "Städte wachsen ausschließlich in ihren historischen Mauern."
     ],
     "correct": 0,
-    "explanation": "Bevölkerung und Funktionen verlagern sich ins städtische Umland."
+    "explanation": "Nicht nur Wohngebiete, auch Handel und Arbeitsplätze können ins Umland wandern."
   },
   {
     "id": "complex.geo-usa.023",
@@ -365,7 +365,7 @@
       "Alle Menschen können automatisch zu Fuß zur Arbeit gehen."
     ],
     "correct": 0,
-    "explanation": "Lange Wege können Zeitbedarf, Staus und Emissionen erhöhen."
+    "explanation": "Große Entfernungen machen viele tägliche Fahrten notwendig."
   },
   {
     "id": "complex.geo-usa.024",
@@ -397,7 +397,7 @@
       "Nur besonders trockene Wüsten"
     ],
     "correct": 0,
-    "explanation": "Ehemals stark industriell geprägte Räume mit Strukturproblemen"
+    "explanation": "Der Name verweist auf industrielle Altbestände und den Wandel früherer Produktionsschwerpunkte."
   },
   {
     "id": "complex.geo-usa.026",
@@ -413,7 +413,7 @@
       "Die tägliche Öffnung eines Geschäfts"
     ],
     "correct": 0,
-    "explanation": "Eine langfristige Veränderung der Wirtschafts- und Beschäftigungsstruktur"
+    "explanation": "Bedeutung und Beschäftigung verschieben sich zwischen Branchen, nicht nur zwischen einzelnen Betrieben."
   },
   {
     "id": "complex.geo-usa.027",
@@ -429,7 +429,7 @@
       "Unternehmen dürfen grundsätzlich keine Dienstleistungen exportieren."
     ],
     "correct": 0,
-    "explanation": "Viele sind international in Produktion, Handel oder Dienstleistungen aktiv."
+    "explanation": "Aktivitäten über Staatsgrenzen verbinden die US-Wirtschaft mit ausländischen Märkten."
   },
   {
     "id": "complex.geo-usa.028",
@@ -445,7 +445,7 @@
       "Jeder Ort der USA ist ein Seehafen."
     ],
     "correct": 0,
-    "explanation": "Pazifik- und Atlantikhäfen erschließen unterschiedliche Weltregionen."
+    "explanation": "Häfen an beiden Seiten ermöglichen Verbindungen nach Europa und in den Pazifikraum."
   },
   {
     "id": "complex.geo-usa.029",
@@ -461,7 +461,7 @@
       "Nur ein einzelnes Lager ohne Kontakte"
     ],
     "correct": 0,
-    "explanation": "Räumliche Konzentration vernetzter Betriebe und Einrichtungen einer Branche"
+    "explanation": "Nähe erleichtert den Austausch von Wissen, Fachkräften und Zulieferleistungen."
   },
   {
     "id": "complex.geo-usa.030",
@@ -477,7 +477,7 @@
       "Nur die Küsten besitzen wirtschaftliche Tätigkeiten."
     ],
     "correct": 0,
-    "explanation": "Hohe Gesamtleistung schließt soziale und regionale Ungleichheit nicht aus."
+    "explanation": "Ein hoher Landeswert sagt nicht, wie Einkommen und Chancen innerhalb des Landes verteilt sind."
   },
   {
     "id": "complex.geo-usa.031",
@@ -493,7 +493,7 @@
       "Wirtschaft hängt allein vom Namen eines Landes ab."
     ],
     "correct": 0,
-    "explanation": "Auch Marktgröße, Forschung, Infrastruktur und Kapital spielen eine Rolle."
+    "explanation": "Wirtschaftliche Entwicklung entsteht aus dem Zusammenwirken vieler Bedingungen."
   },
   {
     "id": "complex.geo-usa.032",
@@ -509,7 +509,7 @@
       "Mit einer Werksschließung verschwinden alle Verkehrswege."
     ],
     "correct": 0,
-    "explanation": "Infrastruktur, Fachwissen und Flächen lassen sich teilweise neu nutzen."
+    "explanation": "Vorhandene Verkehrswege und Kenntnisse können auch für andere Branchen nützlich sein."
   },
   {
     "id": "complex.geo-usa.033",
@@ -525,7 +525,7 @@
       "Allein eine hohe Durchschnittstemperatur"
     ],
     "correct": 0,
-    "explanation": "Forschung, qualifizierte Beschäftigte, Kapital und Unternehmensnetzwerke"
+    "explanation": "Ideen brauchen neben Forschung auch Menschen und Mittel für ihre Umsetzung."
   },
   {
     "id": "complex.geo-usa.034",
@@ -541,7 +541,7 @@
       "Jeder neue Computer schafft automatisch überall gleiche Chancen."
     ],
     "correct": 0,
-    "explanation": "Ausbildung, Netze und Kapitalzugang sind ungleich verteilt."
+    "explanation": "Ohne passende Kenntnisse oder schnelle Netze sind digitale Chancen schwerer nutzbar."
   },
   {
     "id": "complex.geo-usa.035",
@@ -557,7 +557,7 @@
       "Wechselkurse betreffen nur Landkarten."
     ],
     "correct": 0,
-    "explanation": "Für Käufer mit anderen Währungen können US-Waren teurer werden."
+    "explanation": "Steigt der Dollar gegenüber einer anderen Währung, kostet derselbe Dollarpreis dort mehr."
   },
   {
     "id": "complex.geo-usa.036",
@@ -573,7 +573,7 @@
       "Alle US-Unternehmen produzieren sämtliche Bauteile selbst."
     ],
     "correct": 0,
-    "explanation": "Fehlende Bauteile können die Produktion unterbrechen."
+    "explanation": "Auch ein großer Binnenmarkt ersetzt fehlende spezialisierte Vorprodukte nicht sofort."
   },
   {
     "id": "complex.geo-usa.037",
@@ -589,7 +589,7 @@
       "Nur ein einziger Haushalt nutzt das gesamte Wasser."
     ],
     "correct": 0,
-    "explanation": "Landwirtschaft, Städte und Ökosysteme benötigen begrenztes Wasser."
+    "explanation": "Wenn mehrere Nutzungen dieselbe begrenzte Ressource benötigen, müssen Ansprüche abgewogen werden."
   },
   {
     "id": "complex.geo-usa.038",
@@ -605,7 +605,7 @@
       "Vollständigen Wegfall jedes Pflanzenschutzbedarfs"
     ],
     "correct": 0,
-    "explanation": "Anfälligkeit für Schädlinge und Verlust von Vielfalt"
+    "explanation": "Viele gleiche Pflanzen bieten bestimmten Schädlingen viel Nahrung und verdrängen andere Lebensräume."
   },
   {
     "id": "complex.geo-usa.039",
@@ -621,7 +621,7 @@
       "Innerhalb eines Belts wächst überall nur eine einzige Pflanze."
     ],
     "correct": 0,
-    "explanation": "Anbaugrenzen sind unscharf und verändern sich."
+    "explanation": "Betriebe passen ihren Anbau unter anderem an Preise, Technik und Wasserverfügbarkeit an."
   },
   {
     "id": "complex.geo-usa.040",
@@ -637,7 +637,7 @@
       "Maschinen schaffen grundsätzlich nur mehr Handarbeit."
     ],
     "correct": 0,
-    "explanation": "Tätigkeiten verändern sich; manche entfallen, andere entstehen."
+    "explanation": "Maschinen übernehmen Aufgaben, während etwa Wartung und Steuerung andere Fähigkeiten verlangen."
   },
   {
     "id": "complex.geo-usa.041",
@@ -653,7 +653,7 @@
       "Wohnkosten hängen ausschließlich vom Breitengrad ab."
     ],
     "correct": 0,
-    "explanation": "Zuzug und begrenzter Wohnraum können die Nachfrage erhöhen."
+    "explanation": "Wenn das Wohnungsangebot langsamer wächst als die Nachfrage, können Preise steigen."
   },
   {
     "id": "complex.geo-usa.042",
@@ -669,7 +669,7 @@
       "BIP pro Kopf ist das persönliche Bankguthaben aller Menschen."
     ],
     "correct": 0,
-    "explanation": "Große Bevölkerung und durchschnittliche Wirtschaftsleistung sind zu unterscheiden."
+    "explanation": "Das Gesamt-BIP hängt auch von der Bevölkerungsgröße ab; pro Kopf wird rechnerisch geteilt."
   },
   {
     "id": "complex.geo-usa.043",
@@ -685,7 +685,7 @@
       "Jede Dienstleistung besteht aus einem physischen Container."
     ],
     "correct": 0,
-    "explanation": "Auch Forschung, Finanzdienste und digitale Leistungen können international sein."
+    "explanation": "Digitale Leistungen und Finanzgeschäfte können Kunden weltweit erreichen."
   },
   {
     "id": "complex.geo-usa.044",
@@ -701,7 +701,7 @@
       "Andere Arbeitsplätze entstehen dann grundsätzlich nicht."
     ],
     "correct": 0,
-    "explanation": "Betriebliche Krisen können viele Haushalte gleichzeitig treffen."
+    "explanation": "Bei einer Schließung fehlen gleichzeitig vielen Beschäftigten Einkommen und örtlichen Betrieben Kunden."
   },
   {
     "id": "complex.geo-usa.045",
@@ -717,7 +717,7 @@
       "Jeder Container wird am Hafen vollständig verbraucht."
     ],
     "correct": 0,
-    "explanation": "Lager, Verkehrsanbindung und Logistik gewinnen an Bedeutung."
+    "explanation": "Große Mengen müssen sortiert, zwischengelagert und auf weitere Verkehrsmittel verteilt werden."
   },
   {
     "id": "complex.geo-usa.046",
@@ -733,7 +733,7 @@
       "Wirtschaftliche Ziele und Umweltfragen können nie zusammen auftreten."
     ],
     "correct": 0,
-    "explanation": "Arbeitsplätze und Einnahmen können mit Flächen- und Wasserbedarf kollidieren."
+    "explanation": "Eine Ansiedlung kann gleichzeitig Nutzen schaffen und knappe Ressourcen beanspruchen."
   },
   {
     "id": "complex.geo-usa.047",
@@ -749,7 +749,7 @@
       "Städte können grundsätzlich keine Ungleichheit aufweisen."
     ],
     "correct": 0,
-    "explanation": "Einkommen, Wohnraum und Teilhabe können ungleich verteilt sein."
+    "explanation": "Vom Wachstum profitieren Haushalte und Stadtteile nicht zwangsläufig im gleichen Maß."
   },
   {
     "id": "complex.geo-usa.048",
@@ -765,7 +765,7 @@
       "Forschung wirkt ausschließlich auf die Einwohnerzahl."
     ],
     "correct": 0,
-    "explanation": "Neue Verfahren und Produkte können entstehen."
+    "explanation": "Aus Wissen können bessere Produktionsverfahren und neue Angebote entwickelt werden."
   },
   {
     "id": "complex.geo-usa.049",
@@ -781,7 +781,7 @@
       "Ob die Karte möglichst keine Legende besitzt"
     ],
     "correct": 0,
-    "explanation": "Stand, Maßstab und unterschiedliche regionale Schwerpunkte"
+    "explanation": "Wirtschaftliche Schwerpunkte verändern sich; eine ältere Karte zeigt nicht automatisch die heutige Verteilung."
   },
   {
     "id": "complex.geo-usa.050",
@@ -797,6 +797,6 @@
       "Kleine Betriebe können in einer großen Volkswirtschaft nicht existieren."
     ],
     "correct": 0,
-    "explanation": "Der Begriff beschreibt die internationale Bedeutung der gesamten Wirtschaft."
+    "explanation": "Ein gesamtwirtschaftlicher Rang beschreibt nicht Größe oder Erfolg jeder einzelnen Firma."
   }
 ]

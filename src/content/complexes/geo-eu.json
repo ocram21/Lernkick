@@ -13,7 +13,7 @@
       "Ein anderer Name für ganz Europa"
     ],
     "correct": 0,
-    "explanation": "Ein Zusammenschluss europäischer Staaten auf Grundlage gemeinsamer Verträge"
+    "explanation": "Gemeinsame Verträge regeln Aufgaben und Zuständigkeiten der Mitgliedstaaten und EU-Organe."
   },
   {
     "id": "complex.geo-eu.002",
@@ -29,7 +29,7 @@
       "Die EU ist ein Ozean innerhalb Europas."
     ],
     "correct": 0,
-    "explanation": "Europa ist ein geografischer Raum; nicht alle europäischen Staaten gehören zur EU."
+    "explanation": "Zum Beispiel liegt die Schweiz in Europa, ist aber kein EU-Mitglied."
   },
   {
     "id": "complex.geo-eu.003",
@@ -45,7 +45,7 @@
       "Jeden Handel zwischen Nachbarn verbieten"
     ],
     "correct": 0,
-    "explanation": "Frieden und Zusammenarbeit fördern"
+    "explanation": "Gemeinsame Regeln und Zusammenarbeit sollen Konflikte zwischen Staaten friedlich lösbar machen."
   },
   {
     "id": "complex.geo-eu.004",
@@ -77,7 +77,7 @@
       "Nein, der Euro wird nur außerhalb der EU verwendet."
     ],
     "correct": 0,
-    "explanation": "Nein, EU-Mitgliedschaft und Euroraum sind zu unterscheiden."
+    "explanation": "Der Beitritt zur EU und die Einführung des Euro sind unterschiedliche Schritte."
   },
   {
     "id": "complex.geo-eu.006",
@@ -93,7 +93,7 @@
       "Ein Markt ausschließlich für Lebensmittel"
     ],
     "correct": 0,
-    "explanation": "Ein Raum mit weitgehend freiem Verkehr von Waren, Personen, Dienstleistungen und Kapital"
+    "explanation": "Die vier Freiheiten verbinden Märkte; rechtliche Bedingungen gelten trotzdem weiter."
   },
   {
     "id": "complex.geo-eu.007",
@@ -109,7 +109,7 @@
       "Ausschließlich den Handel zwischen Städten eines Landes"
     ],
     "correct": 0,
-    "explanation": "Handel innerhalb der EU ohne reguläre Binnenzölle"
+    "explanation": "Waren werden dadurch nicht bei jeder Staatsgrenze innerhalb der EU mit einem Binnenzoll belastet."
   },
   {
     "id": "complex.geo-eu.008",
@@ -125,7 +125,7 @@
       "Ohne jede Qualifikation jeden Beruf ausüben dürfen"
     ],
     "correct": 0,
-    "explanation": "Unter rechtlichen Voraussetzungen in anderen EU-Staaten leben und arbeiten können"
+    "explanation": "Freizügigkeit bedeutet nicht, dass sämtliche Aufenthaltsbedingungen und Pflichten entfallen."
   },
   {
     "id": "complex.geo-eu.009",
@@ -157,7 +157,7 @@
       "Das Bundesverfassungsgericht"
     ],
     "correct": 0,
-    "explanation": "Die Europäische Kommission"
+    "explanation": "Viele Gesetzgebungsverfahren beginnen mit einem Vorschlag der Kommission."
   },
   {
     "id": "complex.geo-eu.011",
@@ -173,7 +173,7 @@
       "Nur Mitglieder des Europäischen Parlaments"
     ],
     "correct": 0,
-    "explanation": "Fachministerinnen und Fachminister der Mitgliedstaaten"
+    "explanation": "Je nach Thema beraten die dafür zuständigen Minister der Mitgliedstaaten."
   },
   {
     "id": "complex.geo-eu.012",
@@ -189,7 +189,7 @@
       "Ausschließlich Richter aus den Mitgliedstaaten"
     ],
     "correct": 0,
-    "explanation": "Staats- und Regierungschefs mit den zuständigen EU-Spitzen"
+    "explanation": "Dort werden die großen politischen Leitlinien beraten, nicht alle Einzelgesetze beschlossen."
   },
   {
     "id": "complex.geo-eu.013",
@@ -205,7 +205,7 @@
       "Die jährliche Ernte jedes Staates festlegen"
     ],
     "correct": 0,
-    "explanation": "Über die einheitliche Anwendung des EU-Rechts wachen"
+    "explanation": "Gleiche EU-Regeln sollen in den Mitgliedstaaten nicht beliebig unterschiedlich ausgelegt werden."
   },
   {
     "id": "complex.geo-eu.014",
@@ -221,7 +221,7 @@
       "Eine Pflicht zur Nutzung des Euro in ganz Europa"
     ],
     "correct": 0,
-    "explanation": "Den grundsätzlichen Wegfall regulärer Personenkontrollen an vielen Binnengrenzen"
+    "explanation": "Der Wegfall regulärer Kontrollen ist von zeitweise zulässigen Grenzkontrollen zu unterscheiden."
   },
   {
     "id": "complex.geo-eu.015",
@@ -237,7 +237,7 @@
       "Schengen ist nur eine Bezeichnung für EU-Agrarpolitik."
     ],
     "correct": 0,
-    "explanation": "Nein, sie beruhen auf unterschiedlichen Mitgliedschaften und Regeln."
+    "explanation": "Mitgliedschaft in der EU legt die Teilnahme an anderen europäischen Regelungen nicht automatisch fest."
   },
   {
     "id": "complex.geo-eu.016",
@@ -253,7 +253,7 @@
       "Jeder Staat stellt grundsätzlich alle Produkte allein her."
     ],
     "correct": 0,
-    "explanation": "Waren, Dienstleistungen und Beschäftigte überschreiten Grenzen."
+    "explanation": "Betriebe und Beschäftigte nutzen Angebote und Produktionsschritte auf mehreren Seiten der Grenze."
   },
   {
     "id": "complex.geo-eu.017",
@@ -269,7 +269,7 @@
       "Die Abschaffung jeder regionalen Verwaltung"
     ],
     "correct": 0,
-    "explanation": "Den wirtschaftlichen und sozialen Zusammenhalt zwischen Regionen"
+    "explanation": "Förderung soll Unterschiede in Entwicklung und Chancen zwischen Regionen verringern."
   },
   {
     "id": "complex.geo-eu.018",
@@ -285,7 +285,7 @@
       "Das Entstehen neuer Kontinente"
     ],
     "correct": 0,
-    "explanation": "Pendeln und Handel zwischen Nachbarregionen"
+    "explanation": "Ein besserer Anschluss verkürzt Wege zu Arbeitsplätzen und Absatzmärkten jenseits der Grenze."
   },
   {
     "id": "complex.geo-eu.019",
@@ -301,7 +301,7 @@
       "Nur tropischer Regenwald"
     ],
     "correct": 0,
-    "explanation": "Mediterrane Räume mit oft trockenen Sommern"
+    "explanation": "Die sommerliche Trockenheit beeinflusst Vegetation, Landwirtschaft und Wasserbedarf."
   },
   {
     "id": "complex.geo-eu.020",
@@ -333,7 +333,7 @@
       "Der Nil als Fluss Deutschlands"
     ],
     "correct": 0,
-    "explanation": "Der Rhein mit seinen Häfen und Anschlüssen"
+    "explanation": "Die Wasserstraße verbindet Industrie- und Handelsstandorte mit Seehäfen."
   },
   {
     "id": "complex.geo-eu.022",
@@ -349,7 +349,7 @@
       "Sie können ausschließlich Fisch annehmen."
     ],
     "correct": 0,
-    "explanation": "Sie verbinden Binnenräume mit internationalen Seewegen."
+    "explanation": "Waren können zwischen Schiff, Bahn und Straße umgeladen und weiterverteilt werden."
   },
   {
     "id": "complex.geo-eu.023",
@@ -365,7 +365,7 @@
       "Verbraucher müssen auf jede Information verzichten."
     ],
     "correct": 0,
-    "explanation": "Gemeinsame Regeln sollen unter anderem Sicherheit und Rechte stärken."
+    "explanation": "Gemeinsame Anforderungen helfen Verbrauchern auch bei Käufen über Staatsgrenzen."
   },
   {
     "id": "complex.geo-eu.024",
@@ -381,7 +381,7 @@
       "Immer ein nationaler Reiseprospekt"
     ],
     "correct": 0,
-    "explanation": "Ein Rechtsakt, der unmittelbar in den Mitgliedstaaten gilt"
+    "explanation": "Eine Verordnung braucht grundsätzlich kein nationales Gesetz, das sie erst inhaltlich überträgt."
   },
   {
     "id": "complex.geo-eu.025",
@@ -397,7 +397,7 @@
       "Nur eine Empfehlung eines einzelnen Unternehmens"
     ],
     "correct": 0,
-    "explanation": "Ein verbindliches Ziel, das meist national umgesetzt werden muss"
+    "explanation": "Mitgliedstaaten müssen das Ziel innerhalb der vorgegebenen Regeln in ihr Recht übertragen."
   },
   {
     "id": "complex.geo-eu.026",
@@ -413,7 +413,7 @@
       "Gemeinden dürfen nie eigene Aufgaben haben."
     ],
     "correct": 0,
-    "explanation": "Die EU soll in geteilten Bereichen handeln, wenn Ziele gemeinsam besser erreichbar sind."
+    "explanation": "Die EU soll nicht jede Aufgabe übernehmen, die auf staatlicher oder örtlicher Ebene ausreichend lösbar ist."
   },
   {
     "id": "complex.geo-eu.027",
@@ -429,7 +429,7 @@
       "Alle Höfe müssen dieselbe Pflanze anbauen."
     ],
     "correct": 0,
-    "explanation": "Klima, Böden, Traditionen und Betriebe unterscheiden sich."
+    "explanation": "Der Binnenmarkt vereinheitlicht nicht die natürlichen Voraussetzungen für jede Nutzpflanze."
   },
   {
     "id": "complex.geo-eu.028",
@@ -445,7 +445,7 @@
       "Jeder Fluss liegt immer nur in einem Staat."
     ],
     "correct": 0,
-    "explanation": "Luft- und Wasserbelastungen überschreiten Grenzen."
+    "explanation": "Ein Staat kann grenzüberschreitende Belastungen nicht allein an seiner Grenze stoppen."
   },
   {
     "id": "complex.geo-eu.029",
@@ -461,7 +461,7 @@
       "Den Ersatz aller nationalen Schulen"
     ],
     "correct": 0,
-    "explanation": "Lernen und Erfahrungen in anderen Ländern"
+    "explanation": "Teilnehmer können Bildungseinrichtungen und Alltag anderer Länder kennenlernen."
   },
   {
     "id": "complex.geo-eu.030",
@@ -477,7 +477,7 @@
       "Bevorzugung einer einzigen erlaubten Meinung"
     ],
     "correct": 0,
-    "explanation": "Demokratie, Menschenrechte und Rechtsstaatlichkeit"
+    "explanation": "Gemeinsame Zusammenarbeit setzt voraus, dass diese Werte und rechtlichen Regeln geachtet werden."
   },
   {
     "id": "complex.geo-eu.031",
@@ -493,7 +493,7 @@
       "Jeder europäische Staat gehört immer allen drei Bereichen an."
     ],
     "correct": 0,
-    "explanation": "Politische Zusammenarbeit, Währung und Grenzregeln haben unterschiedliche Geltungsbereiche."
+    "explanation": "Ein europäisches Land kann an einer Regelung teilnehmen und an einer anderen nicht."
   },
   {
     "id": "complex.geo-eu.032",
@@ -509,7 +509,7 @@
       "Sie garantieren automatisch gleichen Wohlstand in jedem Land."
     ],
     "correct": 0,
-    "explanation": "Betriebe müssen weniger unterschiedliche technische Anforderungen erfüllen."
+    "explanation": "Wenn dieselben Anforderungen gelten, müssen Produkte seltener für jeden Zielmarkt neu angepasst werden."
   },
   {
     "id": "complex.geo-eu.033",
@@ -525,7 +525,7 @@
       "Jede Preisänderung wird dadurch ausgeschlossen."
     ],
     "correct": 0,
-    "explanation": "Zwischen Euro-Zahlungen entfällt der Umtausch nationaler Währungen."
+    "explanation": "Ein Eurobetrag muss bei Geschäften innerhalb des Euroraums nicht in eine andere nationale Währung umgerechnet werden."
   },
   {
     "id": "complex.geo-eu.034",
@@ -541,7 +541,7 @@
       "Jede neue Verbindung verkürzt alle Wege gleich stark."
     ],
     "correct": 0,
-    "explanation": "Bessere Verbindungen können mit Lärm und Flächenverbrauch verbunden sein."
+    "explanation": "Verkehr schafft Erreichbarkeit, beansprucht aber auch Flächen und belastet Anwohner."
   },
   {
     "id": "complex.geo-eu.035",
@@ -557,7 +557,7 @@
       "Förderung dient ausschließlich der Änderung von Ortsnamen."
     ],
     "correct": 0,
-    "explanation": "Ungleiche Entwicklung soll verringert werden."
+    "explanation": "Bessere Infrastruktur und Entwicklungsmöglichkeiten sollen bestehende Nachteile verringern."
   },
   {
     "id": "complex.geo-eu.036",
@@ -573,7 +573,7 @@
       "Jeder Pendler wechselt dauerhaft seine Staatsangehörigkeit."
     ],
     "correct": 0,
-    "explanation": "Arbeits- und Wohnräume können nationale Grenzen überschreiten."
+    "explanation": "Staatsgrenzen und die täglichen Wege der Menschen stimmen nicht immer überein."
   },
   {
     "id": "complex.geo-eu.037",
@@ -589,7 +589,7 @@
       "Sie enthalten ausschließlich Daten über das Klima."
     ],
     "correct": 0,
-    "explanation": "Sie verdecken Unterschiede zwischen und innerhalb von Staaten."
+    "explanation": "Ein Mittelwert kann sehr unterschiedliche regionale Lebensbedingungen zusammenfassen."
   },
   {
     "id": "complex.geo-eu.038",
@@ -605,7 +605,7 @@
       "Die Anzahl der Staaten entspricht immer der Zahl aller europäischen Sprachen."
     ],
     "correct": 0,
-    "explanation": "Den Stand prüfen, weil Mitgliedschaften sich ändern können."
+    "explanation": "Eine Mitgliederzahl benötigt einen zeitlichen Bezug, statt unbegrenzt als unveränderlich zu gelten."
   },
   {
     "id": "complex.geo-eu.039",
@@ -621,7 +621,7 @@
       "Jede Steuer ist automatisch ein Grenzzoll."
     ],
     "correct": 0,
-    "explanation": "Zollregeln und Steuern auf Konsum erfüllen unterschiedliche Funktionen."
+    "explanation": "Mehrwertsteuer kann auch bei Warenhandel ohne Binnenzoll anfallen."
   },
   {
     "id": "complex.geo-eu.040",
@@ -637,7 +637,7 @@
       "Polizei darf innerhalb der EU nie kontrollieren."
     ],
     "correct": 0,
-    "explanation": "Reisen bleibt an geltendes Recht gebunden; zeitweise Kontrollen sind möglich."
+    "explanation": "Offene Grenzen bedeuten nicht das Ende aller Vorschriften oder jeder möglichen Kontrolle."
   },
   {
     "id": "complex.geo-eu.041",
@@ -653,7 +653,7 @@
       "Es gibt keine demokratische Mitwirkung."
     ],
     "correct": 0,
-    "explanation": "Unterschiedliche Aufgaben und Interessen werden vertreten und kontrolliert."
+    "explanation": "Gesetzgebung, politische Leitlinien und Rechtskontrolle sind unterschiedliche Aufgaben."
   },
   {
     "id": "complex.geo-eu.042",
@@ -669,7 +669,7 @@
       "Beide sind eine einzelne Währungsbehörde."
     ],
     "correct": 0,
-    "explanation": "Es sind unterschiedliche Organisationen mit unterschiedlichen Aufgaben."
+    "explanation": "Ähnliche Namen machen daraus nicht dieselbe Organisation; Zuständigkeiten und Mitgliedschaften unterscheiden sich."
   },
   {
     "id": "complex.geo-eu.043",
@@ -685,7 +685,7 @@
       "Nur Großkonzerne dürfen grenzüberschreitend zusammenarbeiten."
     ],
     "correct": 0,
-    "explanation": "Gemeinsame Verkehrs-, Bildungs- oder Gesundheitsangebote können entstehen."
+    "explanation": "Nachbarorte können Leistungen gemeinsam organisieren, die beide Seiten im Alltag nutzen."
   },
   {
     "id": "complex.geo-eu.044",
@@ -701,7 +701,7 @@
       "Wettbewerb betrifft grundsätzlich nur Landwirtschaft."
     ],
     "correct": 0,
-    "explanation": "Betriebe erhalten neue Märkte, stehen aber auch stärker im Wettbewerb."
+    "explanation": "Neue Käufer bieten Chancen; zusätzliche Anbieter verändern gleichzeitig den Konkurrenzdruck."
   },
   {
     "id": "complex.geo-eu.045",
@@ -717,7 +717,7 @@
       "Nur die Grenze einer Gemeinde"
     ],
     "correct": 0,
-    "explanation": "Eine Grenze des EU-Gebiets zu einem Nichtmitgliedstaat"
+    "explanation": "Eine Grenze zwischen zwei EU-Mitgliedern ist dagegen eine EU-Binnengrenze."
   },
   {
     "id": "complex.geo-eu.046",
@@ -733,7 +733,7 @@
       "Jeder Fluss fließt ausschließlich in seinem Ursprungsstaat."
     ],
     "correct": 0,
-    "explanation": "Maßnahmen flussaufwärts beeinflussen Wasser und Risiken flussabwärts."
+    "explanation": "Wasser transportiert Belastungen und Hochwasser über Grenzen; Maßnahmen wirken deshalb überörtlich."
   },
   {
     "id": "complex.geo-eu.047",
@@ -749,7 +749,7 @@
       "Warenverkehr ausschließlich in die Luft verlagern"
     ],
     "correct": 0,
-    "explanation": "Nationale Netze zu grenzüberschreitenden Verbindungen verknüpfen"
+    "explanation": "Einzelne nationale Strecken werden dadurch zu nutzbaren Verbindungen zwischen Staaten."
   },
   {
     "id": "complex.geo-eu.048",
@@ -765,7 +765,7 @@
       "Standards gelten ausschließlich für staatliche Unternehmen."
     ],
     "correct": 0,
-    "explanation": "Er kann Marktzugang erleichtern, aber Anpassungen erfordern."
+    "explanation": "Auch ein kleiner Hersteller muss die für sein Produkt geltenden Anforderungen beachten."
   },
   {
     "id": "complex.geo-eu.049",
@@ -781,7 +781,7 @@
       "Europa besteht ausschließlich aus dem Euroraum."
     ],
     "correct": 0,
-    "explanation": "Die Schweiz liegt in Europa, gehört aber nicht zur EU."
+    "explanation": "Geografische Lage und politische Mitgliedschaft sind zwei verschiedene Aussagen."
   },
   {
     "id": "complex.geo-eu.050",
@@ -797,6 +797,6 @@
       "Mitgliedstaaten besitzen keinerlei eigene Parlamente."
     ],
     "correct": 0,
-    "explanation": "Zuständigkeiten werden zwischen verschiedenen Ebenen geteilt."
+    "explanation": "Nicht jede Aufgabe ist der EU übertragen; viele Entscheidungen liegen bei Staaten, Regionen oder Gemeinden."
   }
 ]

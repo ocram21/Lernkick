@@ -10,6 +10,8 @@
 
 Mobile Lern-PWA für einen BvB-Reha-Piloten. Lernangebot mit 500 redaktionellen Fragen und einem adaptiven Mathe-Piloten mit zusätzlichen generierten Aufgaben zur Vorbereitung auf den qualifizierten Hauptschulabschluss in Sachsen-Anhalt. **Keine offiziellen Prüfungsfragen, keine fachliche Freigabe.** Das Originalbriefing liegt in `docs/CODEX_BRIEF_LERN_PWA.md`.
 
+Aktuelle Überarbeitung: [Umsetzung der App-Prüfung vom 22.11.2026](docs/APP-VERBESSERUNGEN-UMSETZUNG-2026-11-22.md). Dieser Bericht dokumentiert die derzeitigen Änderungen an Hilfen, Tafelwerk, Rückmeldungen und Fachinhalten.
+
 ## Lokal entwickeln
 
 Node.js 22.12 oder neuer installieren, dann:
@@ -43,7 +45,7 @@ Die Startseite passt auf geprüfte Handygrößen ab 320×568 ohne Scrollen. Alle
 - IndexedDB für Fortschritt, Bestleistungen, Einstellungen und eigene Karten. 75 feste Standardkarten (15 je Fach) gemeinsam mit eigenen Karten im Leitner-System wiederholen. Nur eigene Karten können unter „Meine Karten“ angelegt, bearbeitet und gelöscht werden. Nach dem Aufdecken steuern „Gewusst“ / „Noch üben“ die Wiederholungsfristen (1/3/7/14/30 Tage bzw. zehn Minuten). Nicht fällige Karten bleiben mit ihrem Kastenstatus gespeichert und werden aus automatischen Lernrunden herausgehalten. Frühere persönliche Bearbeitungen von Standardkarten werden einmalig als eigene Fassungen übernommen; die Standardvorlagen bleiben unveränderlich. Selbstbewertungen schalten keine Bildteile frei.
 - Versionierter, validierter JSON-Export/Import. Import ersetzt nach Bestätigung den vorhandenen Lernstand und die Karten; bereits freigelegte Bildteile bleiben erhalten. Der Import ist auf 5 MB / 2.075 Karten (einschließlich übernommener persönlicher Standardfassungen) begrenzt.
 - Rechts neben dem Logo auf der Fächerauswahl steht „App aktualisieren“. Er prüft online auf eine neue Version, wartet auf den vollständigen Download und lädt die App nach dem Versionswechsel neu. Meldungen unterscheiden aktuell, offline und Fehler. Während der Prüfung kann keine Lernrunde gestartet werden. Nutzerdaten bleiben unabhängig vom Service-Worker-Cache erhalten.
-- Lösung und Erklärung bleiben standardmäßig bis zum manuellen Weitergehen sichtbar. Auf Wunsch startet „Automatisch weiter“ bei richtigen Antworten einen Dreisekunden-Timer; „Anhalten“ stoppt ihn. Falsche Antworten wechseln immer nur manuell. Tafelwerk und Abbruchdialog pausieren die Automatik.
+- Lösung und Erklärung bleiben standardmäßig bis zum manuellen Weitergehen sichtbar. Auf Wunsch startet „Automatisch weiter“ bei richtigen Antworten einen Zweisekunden-Timer; „Anhalten“ stoppt ihn. Falsche Antworten wechseln immer nur manuell. Tafelwerk und Abbruchdialog pausieren die Automatik.
 
 Für ein neues Fortschrittsfeld werden je Fach mindestens vier von fünf verschiedenen Aufgaben ohne Hilfe richtig beantwortet. Dieselbe Aufgabensignatur zählt innerhalb von 24 Stunden nicht erneut; nach Freigabe beginnt ein neues Fenster. Alte Freischaltungen bleiben erhalten. Langfristige Kompetenzfestigung wird separat bewertet. Details: [Überarbeitung vom 17.10.2026](docs/UEBERARBEITUNG-2026-10-17.md). Lesbarer Anfangsbestand: [Lernkarten und Wortschatz](docs/LERNKARTEN-UND-WORTSCHATZ.md).
 

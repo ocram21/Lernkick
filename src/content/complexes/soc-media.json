@@ -13,7 +13,7 @@
       "Ausschließlich politische Parteien"
     ],
     "correct": 0,
-    "explanation": "Mittel zur Vermittlung von Informationen und Inhalten"
+    "explanation": "Ein Schulbuch, ein Podcast und ein Video vermitteln Inhalte auf unterschiedlichen Wegen."
   },
   {
     "id": "complex.soc-media.002",
@@ -29,7 +29,7 @@
       "Nur eine persönliche Beschimpfung"
     ],
     "correct": 0,
-    "explanation": "Eine sachliche Information über ein Ereignis"
+    "explanation": "Die Nachricht berichtet, was geschehen ist; eine persönliche Bewertung gehört erkennbar in einen Kommentar."
   },
   {
     "id": "complex.soc-media.003",
@@ -45,7 +45,7 @@
       "Eine gesetzlich vorgeschriebene Tatsache"
     ],
     "correct": 0,
-    "explanation": "Eine persönliche Bewertung oder Haltung"
+    "explanation": "Die Aussage „Dieser Film ist spannend“ bewertet den Film. Andere Menschen können ihn anders beurteilen."
   },
   {
     "id": "complex.soc-media.004",
@@ -61,7 +61,7 @@
       "Nur eine private Tagebuchnotiz"
     ],
     "correct": 0,
-    "explanation": "Kommunikation, die für Angebote oder Anliegen Aufmerksamkeit und Wirkung erzielen soll"
+    "explanation": "Auch eine Kampagne für ein Anliegen kann Werbung sein; sie muss kein Produkt verkaufen."
   },
   {
     "id": "complex.soc-media.005",
@@ -77,7 +77,7 @@
       "Die Farbe eines Bildrahmens"
     ],
     "correct": 0,
-    "explanation": "Der Ursprung einer Information"
+    "explanation": "Bei einer Meldung hilft die ursprüngliche Untersuchung mehr als eine Weiterleitung ohne Herkunft."
   },
   {
     "id": "complex.soc-media.006",
@@ -93,7 +93,7 @@
       "Die Überschrift ungeprüft weiterleiten"
     ],
     "correct": 0,
-    "explanation": "Absender und weitere verlässliche Quellen prüfen"
+    "explanation": "Mehrere Webseiten können denselben Fehler abschreiben. Wichtig sind nachvollziehbare, voneinander unabhängige Belege."
   },
   {
     "id": "complex.soc-media.007",
@@ -109,7 +109,7 @@
       "Jede beliebige Fantasiezahl"
     ],
     "correct": 0,
-    "explanation": "Informationen, die sich auf eine identifizierbare Person beziehen"
+    "explanation": "Auch ein Foto oder eine Kennnummer kann zu einer Person gehören, selbst wenn ihr Name fehlt."
   },
   {
     "id": "complex.soc-media.008",
@@ -125,7 +125,7 @@
       "Passwörter öffentlich in Profilen zeigen"
     ],
     "correct": 0,
-    "explanation": "Lange, einzigartige Passwörter verwenden"
+    "explanation": "Ein eigenes Passwort je Dienst verhindert, dass ein gestohlener Zugang gleich alle anderen öffnet."
   },
   {
     "id": "complex.soc-media.009",
@@ -141,7 +141,7 @@
       "Die öffentliche Angabe der Adresse"
     ],
     "correct": 0,
-    "explanation": "Ein weiterer unabhängiger Nachweis"
+    "explanation": "Neben dem Passwort kann beispielsweise ein Sicherheitsgerät erforderlich sein. Zwei gleiche Passwörter sind kein zweiter unabhängiger Faktor."
   },
   {
     "id": "complex.soc-media.010",
@@ -157,7 +157,7 @@
       "Ein Verfahren zum Drucken von Fotos"
     ],
     "correct": 0,
-    "explanation": "Ein Täuschungsversuch, um Daten oder Zugänge zu erlangen"
+    "explanation": "Die Nachricht gibt sich etwa als Bank aus und führt auf eine gefälschte Anmeldeseite."
   },
   {
     "id": "complex.soc-media.011",
@@ -173,7 +173,7 @@
       "Jedes Spiel mit mehreren Personen"
     ],
     "correct": 0,
-    "explanation": "Wiederholtes Bloßstellen oder Bedrängen über digitale Medien"
+    "explanation": "Digitale Angriffe können das Opfer auch außerhalb der Schule erreichen und durch Weiterleiten verstärkt werden."
   },
   {
     "id": "complex.soc-media.012",
@@ -189,7 +189,7 @@
       "Alle beleidigenden Nachrichten weiterverbreiten"
     ],
     "correct": 0,
-    "explanation": "Beweise sichern und Unterstützung suchen"
+    "explanation": "Gesicherte Nachrichten können den Vorfall nachvollziehbar machen. Unterstützung muss nicht allein organisiert werden."
   },
   {
     "id": "complex.soc-media.013",
@@ -205,7 +205,7 @@
       "Nur ob genug Speicherplatz frei ist"
     ],
     "correct": 0,
-    "explanation": "Ob die Veröffentlichung erlaubt ist und die Person einverstanden sein muss"
+    "explanation": "Ein aufgenommenes Foto ist nicht automatisch zur öffentlichen Weitergabe freigegeben. Aufnahme und Veröffentlichung sind unterschiedliche Handlungen."
   },
   {
     "id": "complex.soc-media.014",
@@ -221,7 +221,7 @@
       "Nur gedruckte Bücher können geschützt sein."
     ],
     "correct": 0,
-    "explanation": "Es schützt schöpferische Werke und regelt ihre Nutzung."
+    "explanation": "Ein fremdes Bild bleibt geschützt, auch wenn es leicht heruntergeladen werden kann. Die erlaubte Nutzung muss geprüft werden."
   },
   {
     "id": "complex.soc-media.015",
@@ -237,7 +237,7 @@
       "Ein Ersatz für jedes Passwort"
     ],
     "correct": 0,
-    "explanation": "Eine Möglichkeit, den Umgang mit eigenen Daten mitzubestimmen"
+    "explanation": "Die Einstellung kann etwa begrenzen, wer ein Profil sieht. Sie verhindert nicht jede weitere Verarbeitung von Daten."
   },
   {
     "id": "complex.soc-media.016",
@@ -253,7 +253,7 @@
       "Beide Begriffe bedeuten ausschließlich Satire."
     ],
     "correct": 0,
-    "explanation": "Desinformation wird absichtlich zur Täuschung verbreitet."
+    "explanation": "Ein Irrtum kann unbeabsichtigt entstehen. Bei Desinformation ist die Täuschungsabsicht entscheidend."
   },
   {
     "id": "complex.soc-media.017",
@@ -269,7 +269,7 @@
       "Ein gesetzlich vorgeschriebener Quellenbeleg"
     ],
     "correct": 0,
-    "explanation": "Eine zugespitzte Überschrift soll vor allem Klicks auslösen."
+    "explanation": "Die Überschrift kann mehr versprechen, als der Artikel belegt. Aufmerksamkeit ist noch kein Nachweis für Richtigkeit."
   },
   {
     "id": "complex.soc-media.018",
@@ -285,7 +285,7 @@
       "Eine Garantie für neutrale und vollständige Informationen"
     ],
     "correct": 0,
-    "explanation": "Ein Verfahren, das unter anderem auswählt, welche Inhalte angezeigt werden"
+    "explanation": "Das Verfahren sortiert mögliche Beiträge nach vorgegebenen Regeln und berechneten Erwartungen."
   },
   {
     "id": "complex.soc-media.019",
@@ -301,7 +301,7 @@
       "Ähnliche Beiträge beweisen automatisch ihre Richtigkeit."
     ],
     "correct": 0,
-    "explanation": "Empfehlungen können bisheriges Verhalten berücksichtigen."
+    "explanation": "Wer häufig Sportvideos ansieht, kann mehr davon empfohlen bekommen. Der Feed ist deshalb keine neutrale Gesamtauswahl."
   },
   {
     "id": "complex.soc-media.020",
@@ -317,7 +317,7 @@
       "Ausschließlich eine handgeschriebene Meinung"
     ],
     "correct": 0,
-    "explanation": "Künstlich veränderter oder erzeugter Medieninhalt, der echt wirken kann"
+    "explanation": "Auch ein glaubwürdig wirkender Ton oder ein bewegtes Gesicht kann künstlich erzeugt sein."
   },
   {
     "id": "complex.soc-media.021",
@@ -333,7 +333,7 @@
       "Nur das Bild auf der Startseite"
     ],
     "correct": 0,
-    "explanation": "Angaben zur verantwortlichen Stelle nach den geltenden Regeln"
+    "explanation": "Die Angaben helfen zu erkennen, wer für eine Website verantwortlich ist. Sie garantieren allein keine wahrheitsgemäßen Inhalte."
   },
   {
     "id": "complex.soc-media.022",
@@ -349,7 +349,7 @@
       "Den Link an alle Kontakte weiterleiten"
     ],
     "correct": 0,
-    "explanation": "Die echte Dienstadresse unabhängig aufrufen und die Nachricht prüfen"
+    "explanation": "Die bekannte Adresse selbst aufzurufen vermeidet, dem möglicherweise gefälschten Nachrichtenlink zu vertrauen."
   },
   {
     "id": "complex.soc-media.023",
@@ -365,7 +365,7 @@
       "Sie machen jedes Gerät dauerhaft unverwundbar."
     ],
     "correct": 0,
-    "explanation": "Sie können Sicherheitslücken schließen."
+    "explanation": "Bei einer bekannten Schwachstelle können Angreifer ansetzen. Ein Update kann diese Schwachstelle beheben."
   },
   {
     "id": "complex.soc-media.024",
@@ -381,7 +381,7 @@
       "Nur das Ändern der Bildschirmhelligkeit"
     ],
     "correct": 0,
-    "explanation": "Eine zusätzliche Kopie wichtiger Daten"
+    "explanation": "Eine unabhängige Kopie hilft, wenn das Originalgerät ausfällt oder die ursprüngliche Datei verloren geht."
   },
   {
     "id": "complex.soc-media.025",
@@ -397,7 +397,7 @@
       "Sie macht jedes betrügerische Gegenüber vertrauenswürdig."
     ],
     "correct": 0,
-    "explanation": "Inhalte werden so geschützt, dass nur die beteiligten Endgeräte sie entschlüsseln sollen."
+    "explanation": "Der Transportdienst soll den Nachrichteninhalt nicht lesen können. Die beteiligten Geräte müssen trotzdem geschützt sein."
   },
   {
     "id": "complex.soc-media.026",
@@ -413,7 +413,7 @@
       "Ein Beweis, dass alle Nutzer dieselbe Meinung haben"
     ],
     "correct": 0,
-    "explanation": "Personalisierte Auswahl kann die sichtbare Vielfalt von Perspektiven begrenzen."
+    "explanation": "Wer nur ähnlich ausgewählte Beiträge sieht, kann andere Sichtweisen übersehen. Andere Informationen sind dadurch nicht grundsätzlich unzugänglich."
   },
   {
     "id": "complex.soc-media.027",
@@ -429,7 +429,7 @@
       "Nur Überschriften derselben Meldung lesen"
     ],
     "correct": 0,
-    "explanation": "Unabhängige Darstellungen und Belege gegenüberstellen"
+    "explanation": "Zwei Berichte sind nur dann ein zusätzlicher Beleg, wenn sie nicht bloß denselben Ausgangstext abschreiben."
   },
   {
     "id": "complex.soc-media.028",
@@ -445,7 +445,7 @@
       "Ob ein Ereignis allein durch das Foto vollständig erklärt wird"
     ],
     "correct": 0,
-    "explanation": "Ob ein Bild bereits in anderem Zusammenhang veröffentlicht wurde"
+    "explanation": "Ein Bild kann echt sein, aber ein anderes Jahr oder einen anderen Ort zeigen. Die frühere Verwendung hilft beim Einordnen."
   },
   {
     "id": "complex.soc-media.029",
@@ -461,7 +461,7 @@
       "Eine Nachricht besteht ausschließlich aus Werbung."
     ],
     "correct": 0,
-    "explanation": "Ein Kommentar bewertet ausdrücklich; eine Nachricht soll vor allem informieren."
+    "explanation": "Eine Bewertung kann gut begründet sein, bleibt aber eine Bewertung. Nachricht und Kommentar erfüllen verschiedene Aufgaben."
   },
   {
     "id": "complex.soc-media.030",
@@ -477,7 +477,7 @@
       "Sie besitzen immer Zugang zu allen aktuellen Tatsachen."
     ],
     "correct": 0,
-    "explanation": "Sie können plausibel klingende Fehler enthalten."
+    "explanation": "Eine überzeugende Formulierung kann erfundene Angaben oder Quellen enthalten. Die Behauptung braucht einen überprüfbaren Beleg."
   },
   {
     "id": "complex.soc-media.031",
@@ -493,7 +493,7 @@
       "Eine falsche Behauptung kann nie beliebt sein."
     ],
     "correct": 0,
-    "explanation": "Aufmerksamkeit und überprüfbare Richtigkeit sind verschieden."
+    "explanation": "Eine Meldung kann wegen ihrer Aufregung beliebt sein. Die Zahl der Reaktionen überprüft ihren Inhalt nicht."
   },
   {
     "id": "complex.soc-media.032",
@@ -509,7 +509,7 @@
       "Nur die Bildauflösung entscheidet über den Wahrheitsgehalt."
     ],
     "correct": 0,
-    "explanation": "Der falsche Kontext kann täuschen, obwohl das Bild echt ist."
+    "explanation": "Die Aufnahme belegt nur ihren ursprünglichen Zusammenhang. Das neue Datum verändert die Bedeutung der Behauptung."
   },
   {
     "id": "complex.soc-media.033",
@@ -525,7 +525,7 @@
       "Jede Seite mit Schlosszeichen gehört automatisch zum behaupteten Unternehmen."
     ],
     "correct": 0,
-    "explanation": "Logos lassen sich kopieren; Adresse und Zugangspfad müssen geprüft werden."
+    "explanation": "Eine nachgemachte Seite kann genauso aussehen wie das Original. Die bekannte Dienstadresse ist deshalb wichtiger als das Bildzeichen."
   },
   {
     "id": "complex.soc-media.034",
@@ -541,7 +541,7 @@
       "Jede neue Internetadresse ist automatisch unabhängig."
     ],
     "correct": 0,
-    "explanation": "Sie beruhen auf eigener Recherche oder unterschiedlichen Belegen."
+    "explanation": "Zehn Abschriften derselben Meldung liefern nicht zehn voneinander unabhängige Bestätigungen."
   },
   {
     "id": "complex.soc-media.035",
@@ -557,7 +557,7 @@
       "Jede Korrektur löscht automatisch alle früheren Belege."
     ],
     "correct": 0,
-    "explanation": "Transparente Fehlerkorrektur kann zur Qualitätssicherung gehören."
+    "explanation": "Das Offenlegen und Berichtigen eines Fehlers macht die Änderung nachvollziehbar. Ein verschwiegener Fehler wäre schwerer zu erkennen."
   },
   {
     "id": "complex.soc-media.036",
@@ -573,7 +573,7 @@
       "Die Tatsache, dass Zahlen grundsätzlich keine Bedeutung haben"
     ],
     "correct": 0,
-    "explanation": "Bezugsgröße, Zeitraum und Auswahl der Daten"
+    "explanation": "Ein Prozentwert ohne Angabe „von wem“ kann einen falschen Eindruck erzeugen. Zeitraum und Vergleichsgruppe gehören zur Aussage."
   },
   {
     "id": "complex.soc-media.037",
@@ -589,7 +589,7 @@
       "Die Länge allein beweist die politische Absicht."
     ],
     "correct": 0,
-    "explanation": "Wichtige Vorgeschichte oder anschließende Aussagen können fehlen."
+    "explanation": "Ein einzelner Satz kann durch einen Schnitt eine andere Bedeutung erhalten. Der längere Originalausschnitt hilft beim Prüfen."
   },
   {
     "id": "complex.soc-media.038",
@@ -605,7 +605,7 @@
       "Werbung und unabhängige Beratung sind immer identisch."
     ],
     "correct": 0,
-    "explanation": "Bezahlung kann die Unabhängigkeit der Empfehlung beeinflussen."
+    "explanation": "Wer für eine Empfehlung bezahlt wird, kann ein eigenes Verkaufsinteresse haben. Das muss beim Bewerten berücksichtigt werden."
   },
   {
     "id": "complex.soc-media.039",
@@ -621,7 +621,7 @@
       "Ohne Geldzahlung gibt es niemals Werbung."
     ],
     "correct": 0,
-    "explanation": "Daten und Aufmerksamkeit können wirtschaftlich genutzt werden."
+    "explanation": "Ein Dienst kann sich durch Werbung finanzieren. Geld ist deshalb nicht die einzige mögliche Gegenleistung."
   },
   {
     "id": "complex.soc-media.040",
@@ -637,7 +637,7 @@
       "Auf jede Einstellung und Nachfrage verzichten"
     ],
     "correct": 0,
-    "explanation": "Zielgruppe und Freigaben vor dem Teilen prüfen"
+    "explanation": "Eine Nachricht für Freunde kann versehentlich öffentlich landen. Vor dem Teilen muss die tatsächlich gewählte Zielgruppe stimmen."
   },
   {
     "id": "complex.soc-media.041",
@@ -653,7 +653,7 @@
       "Digitale Inhalte können grundsätzlich nicht kopiert werden."
     ],
     "correct": 0,
-    "explanation": "Andere können Kopien oder Screenshots besitzen."
+    "explanation": "Das Entfernen auf der eigenen Seite löscht keine bereits gespeicherten Kopien auf fremden Geräten."
   },
   {
     "id": "complex.soc-media.042",
@@ -669,7 +669,7 @@
       "Private Daten als Druckmittel veröffentlichen"
     ],
     "correct": 0,
-    "explanation": "Argumente prüfen und Personen respektvoll behandeln"
+    "explanation": "Eine Behauptung lässt sich kritisieren, ohne den Menschen dahinter anzugreifen. Belege helfen mehr als Beleidigungen."
   },
   {
     "id": "complex.soc-media.043",
@@ -685,7 +685,7 @@
       "Ein Klarname macht jede Aussage richtig."
     ],
     "correct": 0,
-    "explanation": "Glaubwürdigkeit hängt von überprüfbaren Belegen ab, nicht nur vom Namen."
+    "explanation": "Ein Klarname macht eine unbelegte Behauptung nicht wahr. Auch ein unbekannter Absender muss überprüfbare Belege liefern."
   },
   {
     "id": "complex.soc-media.044",
@@ -701,7 +701,7 @@
       "Ob das Ergebnis der eigenen Meinung entspricht"
     ],
     "correct": 0,
-    "explanation": "Wer untersucht hat, wie untersucht wurde und was tatsächlich folgt"
+    "explanation": "Die Überschrift einer Studie kann weiter gehen als ihre Ergebnisse. Methode und tatsächlich untersuchte Gruppe begrenzen die Aussage."
   },
   {
     "id": "complex.soc-media.045",
@@ -717,7 +717,7 @@
       "Verschlüsselung überprüft automatisch alle Behauptungen."
     ],
     "correct": 0,
-    "explanation": "Ein berechtigter Nachrichtenempfänger kann trotzdem täuschen."
+    "explanation": "Verschlüsselung schützt den Übertragungsweg. Sie verhindert nicht, dass der Empfänger absichtlich falsche Angaben macht."
   },
   {
     "id": "complex.soc-media.046",
@@ -733,7 +733,7 @@
       "Die Quelle entfernen, damit niemand nachfragt"
     ],
     "correct": 0,
-    "explanation": "Erst prüfen und bis dahin nicht als Tatsache verbreiten"
+    "explanation": "Ungeprüftes Weiterleiten kann eine falsche Warnung verbreiten. Eine Pause zum Prüfen verhindert das vorschnelle Verstärken."
   },
   {
     "id": "complex.soc-media.047",
@@ -749,7 +749,7 @@
       "Er ersetzt jeden sachlichen Produktvergleich."
     ],
     "correct": 0,
-    "explanation": "Er macht kommerzielle Interessen leichter erkennbar."
+    "explanation": "Die Kennzeichnung hilft, eine bezahlte Empfehlung von einem unabhängigen Urteil zu unterscheiden."
   },
   {
     "id": "complex.soc-media.048",
@@ -765,7 +765,7 @@
       "Jeder Einzelfall ersetzt jede systematische Untersuchung."
     ],
     "correct": 0,
-    "explanation": "Ein Einzelfall zeigt nicht automatisch, was für alle gilt."
+    "explanation": "Ein Erlebnis kann zutreffen, ohne für alle Menschen typisch zu sein. Dafür sind breitere Belege erforderlich."
   },
   {
     "id": "complex.soc-media.049",
@@ -781,7 +781,7 @@
       "Berechtigungen als reine Dekoration ansehen"
     ],
     "correct": 0,
-    "explanation": "Prüfen, ob der Zugriff für die genutzte Funktion notwendig ist"
+    "explanation": "Eine Taschenlampenfunktion benötigt zum Beispiel keinen Zugriff auf Kontakte. Berechtigungen sollen zur Aufgabe passen."
   },
   {
     "id": "complex.soc-media.050",
@@ -797,6 +797,6 @@
       "Eine verbreitete Falschmeldung darf nie korrigiert werden."
     ],
     "correct": 0,
-    "explanation": "Er ermöglicht Korrektur, ohne Menschen unnötig bloßzustellen."
+    "explanation": "Eine sachliche Korrektur richtet sich gegen die falsche Behauptung. Persönliche Angriffe können die Klärung erschweren."
   }
 ]

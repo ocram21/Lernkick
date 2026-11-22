@@ -13,7 +13,7 @@
       "Für alle Mitglieder jede Entscheidung allein treffen"
     ],
     "correct": 0,
-    "explanation": "Fürsorge und Unterstützung bieten"
+    "explanation": "Familienmitglieder können einander etwa bei Krankheit oder bei Alltagsaufgaben unterstützen. Keine Familienform garantiert automatisch gutes Zusammenleben."
   },
   {
     "id": "complex.soc-family.002",
@@ -29,7 +29,7 @@
       "Mehrere Firmen teilen ein Büro."
     ],
     "correct": 0,
-    "explanation": "Ein Elternteil lebt mit einem oder mehreren Kindern zusammen."
+    "explanation": "Entscheidend ist, dass im gemeinsamen Haushalt ein Elternteil mit Kindern lebt; die Zahl der Kinder kann unterschiedlich sein."
   },
   {
     "id": "complex.soc-family.003",
@@ -45,7 +45,7 @@
       "Jede Familie mit demselben Beruf"
     ],
     "correct": 0,
-    "explanation": "Eine Familie, in der Partner Kinder aus früheren Beziehungen mitbringen können"
+    "explanation": "Nach neuen Partnerschaften können Kinder aus unterschiedlichen früheren Beziehungen zusammenleben. Nicht jede Familie hat denselben Aufbau."
   },
   {
     "id": "complex.soc-family.004",
@@ -61,7 +61,7 @@
       "Konflikte ausschließlich mit Drohungen lösen"
     ],
     "correct": 0,
-    "explanation": "Andere Menschen und ihre Grenzen ernst nehmen"
+    "explanation": "Respekt bedeutet etwa, ein Nein zu akzeptieren. Eigene Wünsche setzen die Grenzen anderer nicht außer Kraft."
   },
   {
     "id": "complex.soc-family.005",
@@ -77,7 +77,7 @@
       "Ein amtlicher Nachname"
     ],
     "correct": 0,
-    "explanation": "Erwartungen an eine Person in einer bestimmten Stellung"
+    "explanation": "An dieselbe Person können als Kind, Freundin oder Mitarbeiterin unterschiedliche Erwartungen gestellt werden."
   },
   {
     "id": "complex.soc-family.006",
@@ -93,7 +93,7 @@
       "Nur ein besonders teures Gerät"
     ],
     "correct": 0,
-    "explanation": "Etwas, das ein Mensch zum Leben oder Wohlbefinden braucht oder sich wünscht"
+    "explanation": "Nahrung und Sicherheit sind grundlegende Bedürfnisse. Auch Wünsche nach Zugehörigkeit oder Erholung können wichtig sein."
   },
   {
     "id": "complex.soc-family.007",
@@ -109,7 +109,7 @@
       "Es gibt grundsätzlich nur eine beteiligte Person."
     ],
     "correct": 0,
-    "explanation": "Unterschiedliche Interessen oder Bedürfnisse treffen aufeinander."
+    "explanation": "Ein Streit entsteht nicht zwingend aus Bosheit. Zwei Menschen können gleichzeitig berechtigte, aber unvereinbare Anliegen haben."
   },
   {
     "id": "complex.soc-family.008",
@@ -125,7 +125,7 @@
       "Gerüchte über Beteiligte verbreiten"
     ],
     "correct": 0,
-    "explanation": "Zuhören und eigene Anliegen klar beschreiben"
+    "explanation": "Die Beschreibung einer konkreten Situation lässt sich leichter besprechen als eine pauschale Beschuldigung."
   },
   {
     "id": "complex.soc-family.009",
@@ -141,7 +141,7 @@
       "Eine Entscheidung ohne jede Rücksicht"
     ],
     "correct": 0,
-    "explanation": "Eine Lösung, bei der Beteiligte einander entgegenkommen"
+    "explanation": "Beim Kompromiss setzt nicht eine Seite alles durch. Beide müssen mit den vereinbarten Zugeständnissen leben können."
   },
   {
     "id": "complex.soc-family.010",
@@ -157,7 +157,7 @@
       "Ausschließlich über abwesende Personen reden"
     ],
     "correct": 0,
-    "explanation": "Die eigene Wahrnehmung und das eigene Bedürfnis ausdrücken"
+    "explanation": "„Ich brauche abends Ruhe“ benennt das eigene Anliegen. „Du nervst immer“ wertet stattdessen die andere Person ab."
   },
   {
     "id": "complex.soc-family.011",
@@ -173,7 +173,7 @@
       "Nur Rechte beanspruchen"
     ],
     "correct": 0,
-    "explanation": "Abgesprochene Aufgaben zuverlässig übernehmen"
+    "explanation": "Absprachen helfen nur, wenn Beteiligte sich auf ihre Erfüllung verlassen können. Überlastung sollte neu besprochen werden."
   },
   {
     "id": "complex.soc-family.012",
@@ -189,7 +189,7 @@
       "Ein Vertrag für eine politische Partei"
     ],
     "correct": 0,
-    "explanation": "Ein Überblick über verfügbare Einnahmen und geplante Ausgaben"
+    "explanation": "Wer Einnahmen und Ausgaben gegenüberstellt, erkennt, welches Geld für weitere Wünsche überhaupt verfügbar ist."
   },
   {
     "id": "complex.soc-family.013",
@@ -205,7 +205,7 @@
       "Ein spontan gekauftes Eis"
     ],
     "correct": 0,
-    "explanation": "Miete fällt meist regelmäßig in vereinbarter Höhe an. Freizeitkäufe sind eher veränderliche Ausgaben."
+    "explanation": "Miete fällt regelmäßig an und lässt sich nicht einfach bei jedem Einkauf weglassen. Sie muss im Budget eingeplant werden."
   },
   {
     "id": "complex.soc-family.014",
@@ -221,7 +221,7 @@
       "Die Pflicht, jede Nachricht öffentlich zu zeigen"
     ],
     "correct": 0,
-    "explanation": "Ein geschützter persönlicher Lebensbereich"
+    "explanation": "Auch zusammenlebende Menschen brauchen eigene Rückzugsräume und Kontrolle darüber, welche persönlichen Informationen sie teilen."
   },
   {
     "id": "complex.soc-family.015",
@@ -237,7 +237,7 @@
       "Jemand, der jedes Geheimnis öffentlich macht"
     ],
     "correct": 0,
-    "explanation": "Jemand, an den man sich mit Sorgen wenden kann"
+    "explanation": "Eine Vertrauensperson hört zu und kann helfen, weitere Unterstützung zu finden. Sorgen müssen nicht allein getragen werden."
   },
   {
     "id": "complex.soc-family.016",
@@ -253,7 +253,7 @@
       "Alle Haushalte müssen gleich viele Personen haben."
     ],
     "correct": 0,
-    "explanation": "Zusammenleben und Fürsorge sind auf verschiedene Weise organisiert."
+    "explanation": "Fürsorge kann etwa in Eineltern-, Paar- oder Patchworkfamilien stattfinden. Entscheidend ist nicht nur die äußere Form."
   },
   {
     "id": "complex.soc-family.017",
@@ -269,7 +269,7 @@
       "Angst als einziges Erziehungsmittel"
     ],
     "correct": 0,
-    "explanation": "Schutz vor körperlicher Bestrafung und entwürdigender Behandlung"
+    "explanation": "Erziehung soll Orientierung geben, ohne einem Kind körperlich oder durch Demütigung zu schaden."
   },
   {
     "id": "complex.soc-family.018",
@@ -285,7 +285,7 @@
       "Aufgaben sind rechtlich immer nach Haarfarbe verteilt."
     ],
     "correct": 0,
-    "explanation": "Gleiche Rechte unabhängig vom Geschlecht"
+    "explanation": "Das Geschlecht entscheidet nicht darüber, wessen Anliegen mehr zählt oder wer allein Hausarbeit übernehmen muss."
   },
   {
     "id": "complex.soc-family.019",
@@ -301,7 +301,7 @@
       "Nur sichtbare Arbeit zählen und Pflege ignorieren"
     ],
     "correct": 0,
-    "explanation": "Zeit, Fähigkeiten und Belastungen gemeinsam berücksichtigen"
+    "explanation": "Eine kurze Aufgabe und mehrere Stunden Pflege sind nicht gleich belastend. Faire Absprachen berücksichtigen den tatsächlichen Aufwand."
   },
   {
     "id": "complex.soc-family.020",
@@ -317,7 +317,7 @@
       "Automatisch ein neues Sorgerechtsurteil"
     ],
     "correct": 0,
-    "explanation": "Unterstützung bei Erziehungs- und Zusammenlebensfragen"
+    "explanation": "Beratung hilft, Probleme und mögliche Schritte gemeinsam zu ordnen. Sie ersetzt nicht jede eigene Entscheidung der Familie."
   },
   {
     "id": "complex.soc-family.021",
@@ -333,7 +333,7 @@
       "Jede Freizeitaktivität verbieten"
     ],
     "correct": 0,
-    "explanation": "Familien unterstützen und Kinder schützen"
+    "explanation": "Zum Unterstützen gehören beispielsweise Beratung und Hilfe für Familien. Schutzaufgaben werden wichtig, wenn Kinder gefährdet sind."
   },
   {
     "id": "complex.soc-family.022",
@@ -349,7 +349,7 @@
       "Eine neutrale Mengenangabe"
     ],
     "correct": 0,
-    "explanation": "Ein Urteil über Menschen ohne ausreichende Prüfung"
+    "explanation": "Eine einzelne Beobachtung rechtfertigt kein pauschales Urteil über eine ganze Gruppe."
   },
   {
     "id": "complex.soc-family.023",
@@ -365,7 +365,7 @@
       "Jede unterschiedliche private Vorliebe"
     ],
     "correct": 0,
-    "explanation": "Benachteiligung wegen bestimmter persönlicher Merkmale"
+    "explanation": "Nicht jede unterschiedliche Behandlung ist Diskriminierung. Problematisch ist eine unbegründete Benachteiligung wegen eines Merkmals."
   },
   {
     "id": "complex.soc-family.024",
@@ -381,7 +381,7 @@
       "Menschen grundsätzlich voneinander trennen"
     ],
     "correct": 0,
-    "explanation": "Teilhabe ermöglichen und Barrieren abbauen"
+    "explanation": "Nicht die Person allein soll sich anpassen müssen. Zugänge und Angebote können so gestaltet werden, dass Teilnahme möglich ist."
   },
   {
     "id": "complex.soc-family.025",
@@ -397,7 +397,7 @@
       "Ein Ersatz für sämtliche öffentlichen Aufgaben"
     ],
     "correct": 0,
-    "explanation": "Freiwillige gegenseitige Unterstützung im Wohnumfeld"
+    "explanation": "Einkaufshilfe oder gegenseitige Betreuung können den Alltag erleichtern. Die Unterstützung wird miteinander vereinbart."
   },
   {
     "id": "complex.soc-family.026",
@@ -413,7 +413,7 @@
       "Sie gelten nur, wenn niemand darüber spricht."
     ],
     "correct": 0,
-    "explanation": "Sie machen Erwartungen und Zuständigkeiten klar."
+    "explanation": "Absprachen über Putzen, Ruhe und gemeinsame Kosten verhindern, dass jede Person von anderen Regeln ausgeht."
   },
   {
     "id": "complex.soc-family.027",
@@ -429,7 +429,7 @@
       "Geräte grundsätzlich dauerhaft unnötig laufen lassen"
     ],
     "correct": 0,
-    "explanation": "Energie und Wasser bewusst nutzen"
+    "explanation": "Wer nur benötigtes Wasser erwärmt und unnötigen Verbrauch vermeidet, spart Ressourcen im Alltag."
   },
   {
     "id": "complex.soc-family.028",
@@ -445,7 +445,7 @@
       "Nur die Verpackungsfarbe beachten"
     ],
     "correct": 0,
-    "explanation": "Bedarf prüfen und langlebige Produkte nutzen"
+    "explanation": "Ein langlebiges, reparierbares Produkt muss seltener ersetzt werden. Vor dem Kauf zählt deshalb auch der tatsächliche Bedarf."
   },
   {
     "id": "complex.soc-family.029",
@@ -461,7 +461,7 @@
       "Jede Hilfe grundsätzlich ablehnen"
     ],
     "correct": 0,
-    "explanation": "Aufgaben ansprechen und Unterstützung organisieren"
+    "explanation": "Unbesprochene Überlastung kann Konflikte verschärfen. Konkrete Aufgaben lassen sich gemeinsam neu verteilen."
   },
   {
     "id": "complex.soc-family.030",
@@ -477,7 +477,7 @@
       "Eine frühere Zustimmung gilt zwingend für immer."
     ],
     "correct": 0,
-    "explanation": "Nähe und Eingriffe müssen die Selbstbestimmung respektieren."
+    "explanation": "Freundschaft oder Verwandtschaft ersetzt kein Einverständnis. Jede Person darf eigene Grenzen äußern."
   },
   {
     "id": "complex.soc-family.031",
@@ -493,7 +493,7 @@
       "Jede Form von Gespräch verbieten"
     ],
     "correct": 0,
-    "explanation": "Zeiten und Lautstärke gemeinsam vereinbaren"
+    "explanation": "Eine Vereinbarung kann beiden einen Teil ihres Wunsches ermöglichen. Nur einer Seite alles zu verbieten berücksichtigt die andere nicht."
   },
   {
     "id": "complex.soc-family.032",
@@ -509,7 +509,7 @@
       "Nur die Zahl der Aufgaben hat Bedeutung."
     ],
     "correct": 0,
-    "explanation": "Aufgaben beanspruchen unterschiedlich viel Zeit und Kraft."
+    "explanation": "Mehrere kleine Handgriffe können weniger Arbeit sein als eine einzige lange Pflegeaufgabe. Die Anzahl allein ist kein fairer Maßstab."
   },
   {
     "id": "complex.soc-family.033",
@@ -525,7 +525,7 @@
       "Der höchste Preis entscheidet über Notwendigkeit."
     ],
     "correct": 0,
-    "explanation": "Eine notwendige Ausgabe sichert etwa Wohnen oder grundlegende Versorgung."
+    "explanation": "Wohnen und Grundversorgung haben bei knappem Geld Vorrang vor verschiebbaren zusätzlichen Wünschen."
   },
   {
     "id": "complex.soc-family.034",
@@ -541,7 +541,7 @@
       "Mit einem Budget gibt es keine laufenden Kosten mehr."
     ],
     "correct": 0,
-    "explanation": "Unerwartete Ausgaben und Einkommensänderungen bleiben möglich."
+    "explanation": "Eine Planung ordnet das bekannte Geld. Eine kaputte Waschmaschine oder ein Einkommensausfall kann trotzdem eine neue Entscheidung verlangen."
   },
   {
     "id": "complex.soc-family.035",
@@ -557,7 +557,7 @@
       "Alle Menschen derselben Familienform sind gleich."
     ],
     "correct": 0,
-    "explanation": "Verlässlichkeit hängt vom Umgang miteinander ab, nicht allein von der Familienform."
+    "explanation": "Zuverlässigkeit zeigt sich im Verhalten der Beteiligten. Aus der Familienform allein lässt sie sich nicht ablesen."
   },
   {
     "id": "complex.soc-family.036",
@@ -573,7 +573,7 @@
       "Wer zuhört, darf keine eigenen Bedürfnisse haben."
     ],
     "correct": 0,
-    "explanation": "Nachfragen und Zusammenfassen helfen, das Anliegen zu verstehen."
+    "explanation": "Wer das Gehörte kurz wiedergibt, kann Missverständnisse erkennen, bevor die Diskussion weitergeht."
   },
   {
     "id": "complex.soc-family.037",
@@ -589,7 +589,7 @@
       "Jeder Streit entsteht durch einen falschen Namen."
     ],
     "correct": 0,
-    "explanation": "Erwartungen aus verschiedenen Rollen widersprechen sich."
+    "explanation": "Eine Person soll etwa gleichzeitig als Freundin loyal sein und als Gruppenleitung eine Regel durchsetzen. Die Erwartungen können kollidieren."
   },
   {
     "id": "complex.soc-family.038",
@@ -605,7 +605,7 @@
       "Pflege ist keine Belastung, sobald sie unbezahlt ist."
     ],
     "correct": 0,
-    "explanation": "Zeitliche Erwartungen beider Aufgaben überschneiden sich."
+    "explanation": "Wenn Arbeitszeiten und Pflegeaufgaben auf dieselben Stunden fallen, kann eine Person nicht beide Anforderungen zugleich erfüllen."
   },
   {
     "id": "complex.soc-family.039",
@@ -621,7 +621,7 @@
       "Sie ersetzt automatisch alle Sozialleistungen."
     ],
     "correct": 0,
-    "explanation": "Sie unterstützt Versorgung und Zusammenleben, auch ohne Lohnzahlung."
+    "explanation": "Betreuung, Pflege und Hausarbeit ermöglichen vielen Menschen erst ihren Alltag. Ihr Nutzen hängt nicht davon ab, ob dafür Lohn gezahlt wird."
   },
   {
     "id": "complex.soc-family.040",
@@ -637,7 +637,7 @@
       "Ein verständliches Hinweisschild"
     ],
     "correct": 0,
-    "explanation": "Eine Treppe ohne geeignete Alternative für Rollstuhlnutzende"
+    "explanation": "Eine Treppe kann den Zugang verhindern, obwohl der Raum dahinter offen ist. Eine geeignete Alternative beseitigt diese Barriere."
   },
   {
     "id": "complex.soc-family.041",
@@ -653,7 +653,7 @@
       "Betroffene müssen Konflikte immer allein lösen."
     ],
     "correct": 0,
-    "explanation": "Schutz und Sicherheit haben Vorrang vor dem Verschweigen von Gewalt."
+    "explanation": "Gewalt ist kein Problem, das Betroffene zum Schutz anderer verschweigen müssen. Unterstützung kann Sicherheit ermöglichen."
   },
   {
     "id": "complex.soc-family.042",
@@ -669,7 +669,7 @@
       "Betroffene für jedes Verhalten der Gruppe verantwortlich machen"
     ],
     "correct": 0,
-    "explanation": "Betroffene unterstützen und das Verhalten ansprechen"
+    "explanation": "Wer Betroffene einbezieht und Ausgrenzung nicht unterstützt, verändert die Situation. Schweigen kann den Ausschluss bestehen lassen."
   },
   {
     "id": "complex.soc-family.043",
@@ -685,7 +685,7 @@
       "Regeln haben grundsätzlich keine Ziele."
     ],
     "correct": 0,
-    "explanation": "Bedürfnisse und Lebenssituationen können sich verändern."
+    "explanation": "Eine Regel, die früher passte, kann nach einem Umzug oder bei Krankheit unpraktisch werden. Änderungen lassen sich gemeinsam vereinbaren."
   },
   {
     "id": "complex.soc-family.044",
@@ -701,7 +701,7 @@
       "Unterschiedliche Wünsche erlauben unterschiedliche Menschenwürde."
     ],
     "correct": 0,
-    "explanation": "Gleiche Rechte schließen unterschiedliche Bedürfnisse nicht aus."
+    "explanation": "Die gleichen Rechte gelten für alle. Welche Unterstützung jemand braucht, kann trotzdem sehr unterschiedlich sein."
   },
   {
     "id": "complex.soc-family.045",
@@ -717,7 +717,7 @@
       "Ungeprüfte Vermutungen an alle Nachbarn senden"
     ],
     "correct": 0,
-    "explanation": "Die konkrete Situation und gemeinte Aussage nachfragen"
+    "explanation": "Eine Rückfrage prüft die Bedeutung einer konkreten Aussage. Vermutungen über Absichten können das Missverständnis verstärken."
   },
   {
     "id": "complex.soc-family.046",
@@ -733,7 +733,7 @@
       "Gesundheit und Wohnbedingungen haben keinen Zusammenhang."
     ],
     "correct": 0,
-    "explanation": "Lärm, Luft und Grünflächen beeinflussen Lebensqualität."
+    "explanation": "Schlechte Luft und ständiger Lärm beeinträchtigen auch das Zusammenleben. Umweltschutz ist deshalb nicht nur eine Frage ferner Naturgebiete."
   },
   {
     "id": "complex.soc-family.047",
@@ -749,7 +749,7 @@
       "Preis und Herstellungsbedingungen sind immer identisch."
     ],
     "correct": 0,
-    "explanation": "Geringe Kosten können mit Haltbarkeit oder fairen Bedingungen kollidieren."
+    "explanation": "Ein sehr billiges Produkt kann schnell verschleißen. Nicht jedes Ziel lässt sich beim selben Kauf vollständig verwirklichen."
   },
   {
     "id": "complex.soc-family.048",
@@ -765,7 +765,7 @@
       "Wer Grenzen setzt, verliert jedes Recht auf Unterstützung."
     ],
     "correct": 0,
-    "explanation": "Freundschaft beruht auf Respekt und hebt Selbstbestimmung nicht auf."
+    "explanation": "Zugehörigkeit verlangt nicht, jede Bitte anzunehmen. Ein respektiertes Nein schützt die Selbstbestimmung innerhalb der Freundschaft."
   },
   {
     "id": "complex.soc-family.049",
@@ -781,7 +781,7 @@
       "Sie nutzt möglichst viele Beleidigungen."
     ],
     "correct": 0,
-    "explanation": "Sie bezieht sich auf konkretes Verhalten und mögliche Verbesserungen."
+    "explanation": "„Bitte räume das Geschirr weg“ nennt ein veränderbares Verhalten. „Du bist nutzlos“ greift die ganze Person an."
   },
   {
     "id": "complex.soc-family.050",
@@ -797,6 +797,6 @@
       "Nur die lauteste Person ohne Rückfrage entscheiden lassen"
     ],
     "correct": 0,
-    "explanation": "Betroffene anhören, Möglichkeiten prüfen und Absprachen nachvollziehbar machen"
+    "explanation": "Wenn Gründe und Absprachen bekannt sind, können Beteiligte die Entscheidung nachvollziehen und später überprüfen."
   }
 ]

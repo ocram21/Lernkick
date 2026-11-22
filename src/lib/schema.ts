@@ -28,7 +28,7 @@ export const cardSchema = z.object({ id: z.string().min(1).max(100), front: z.st
 export type Card = z.infer<typeof cardSchema>;
 const commonData = {
   progress: z.record(z.string(), progressSchema), scores: z.record(subjectSchema, z.number().int().nonnegative()),
-  cards: z.array(cardSchema).max(2075), settings: z.object({ reducedMotion: z.boolean(), pink:z.boolean().default(false), difficulty:levelSchema.default('normal'),compact:z.boolean().default(false),bossMode:z.boolean().default(false),theme:z.enum(['soft-dark','soft-light','classic-dark','retro-tech']).optional() })
+  cards: z.array(cardSchema).max(2075), settings: z.object({ autoAdvance:z.boolean().optional(), reducedMotion: z.boolean(), pink:z.boolean().default(false), difficulty:levelSchema.default('normal'),compact:z.boolean().default(false),bossMode:z.boolean().default(false),theme:z.enum(['soft-dark','soft-light','classic-dark','retro-tech']).optional() })
 };
 const uniqueCards = (d: {cards: Card[]}) => new Set(d.cards.map(c=>c.id)).size === d.cards.length;
 export const legacyDataSchema = z.object({version:z.literal(1),...commonData}).refine(uniqueCards,'Karten-IDs müssen eindeutig sein');

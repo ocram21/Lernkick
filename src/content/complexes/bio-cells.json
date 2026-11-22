@@ -45,7 +45,7 @@
       "Er leitet Luft in die Lunge."
     ],
     "correct": 0,
-    "explanation": "Er enthält einen großen Teil der Erbinformation."
+    "explanation": "Die DNA trägt Bauinformationen. Der Zellkern schützt und organisiert einen großen Teil dieser DNA in den Chromosomen."
   },
   {
     "id": "complex.bio-cells.004",
@@ -70,11 +70,11 @@
     "complexId": "bio-cells",
     "competency": "bio-cells",
     "difficulty": 1,
-    "prompt": "Welche Struktur besitzen Pflanzenzellen zusätzlich zur Zellmembran?",
+    "prompt": "Welche Struktur liegt bei Pflanzenzellen außerhalb der Zellmembran?",
     "options": [
       "Eine Zellwand",
-      "Eine Ohrmuschel",
-      "Eine Sehne"
+      "Der Zellkern",
+      "Die Mitochondrien"
     ],
     "correct": 0,
     "explanation": "Die Zellwand liegt außerhalb der Membran und verleiht Pflanzenzellen zusätzliche Stabilität."
@@ -221,7 +221,7 @@
       "Zellen bestehen dann nicht mehr aus Stoffen."
     ],
     "correct": 0,
-    "explanation": "Zellen besitzen einen für bestimmte Aufgaben passenden Bau."
+    "explanation": "Nervenzellen haben beispielsweise lange Fortsätze zur Signalweiterleitung; Muskelzellen sind für das Zusammenziehen eingerichtet."
   },
   {
     "id": "complex.bio-cells.015",
@@ -253,7 +253,7 @@
       "Kein Stoff kann sie jemals passieren."
     ],
     "correct": 0,
-    "explanation": "Nicht alle Stoffe können gleich gut hindurchtreten."
+    "explanation": "Die Membran lässt bestimmte Stoffe leichter passieren als andere. Größe, Eigenschaften und Transportproteine spielen dabei eine Rolle."
   },
   {
     "id": "complex.bio-cells.017",
@@ -317,7 +317,7 @@
       "Werkzeuge zum Schneiden von Zellen"
     ],
     "correct": 0,
-    "explanation": "Strukturen aus DNA und zugehörigen Proteinen"
+    "explanation": "Die DNA enthält Erbinformation; Proteine helfen bei ihrer Verpackung und Organisation, besonders während der Zellteilung."
   },
   {
     "id": "complex.bio-cells.021",
@@ -333,7 +333,7 @@
       "Sie muss zu Zucker verdaut werden."
     ],
     "correct": 0,
-    "explanation": "Sie muss verdoppelt werden."
+    "explanation": "Nur nach der Verdopplung kann normalerweise jede Tochterzelle einen vollständigen Satz der Erbinformation erhalten."
   },
   {
     "id": "complex.bio-cells.022",
@@ -349,7 +349,7 @@
       "Herstellung von Sonnenlicht"
     ],
     "correct": 0,
-    "explanation": "Wachstum und Ersatz von Körperzellen"
+    "explanation": "Durch Mitose entstehen Körperzellen mit normalerweise gleicher Erbinformation. Sie ermöglichen Wachstum und Gewebeerneuerung."
   },
   {
     "id": "complex.bio-cells.023",
@@ -365,7 +365,7 @@
       "Tierzellen besitzen keine Zellmembran."
     ],
     "correct": 0,
-    "explanation": "Bakterien besitzen keinen von einer Membran umschlossenen Zellkern."
+    "explanation": "Bakterielle DNA liegt im Zellinneren ohne umgebende Kernmembran. Tierzellen besitzen normalerweise einen abgegrenzten Zellkern."
   },
   {
     "id": "complex.bio-cells.024",
@@ -381,7 +381,7 @@
       "Sie besitzen dieselben Organellen wie Pflanzenzellen."
     ],
     "correct": 0,
-    "explanation": "Sie besitzen keinen eigenen Zellaufbau und benötigen Wirtszellen zur Vermehrung."
+    "explanation": "Viren haben keinen eigenen Stoffwechsel wie Zellen. Für ihre Vermehrung nutzen sie Einrichtungen einer Wirtszelle."
   },
   {
     "id": "complex.bio-cells.025",
@@ -397,7 +397,7 @@
       "Jede Membran wird mechanisch zerrissen."
     ],
     "correct": 0,
-    "explanation": "Teilchen verteilen sich durch ihre Bewegung entlang eines Konzentrationsgefälles."
+    "explanation": "Teilchen bewegen sich ungeordnet. Insgesamt ergibt sich dabei meist ein Transport von höherer zu niedrigerer Konzentration."
   },
   {
     "id": "complex.bio-cells.026",
@@ -413,7 +413,7 @@
       "DNA wird vor der Zellteilung kopiert."
     ],
     "correct": 0,
-    "explanation": "Wasser bewegt sich durch eine selektiv durchlässige Membran."
+    "explanation": "Bei unterschiedlichen Konzentrationen nicht durchlässiger gelöster Teilchen bewegt sich netto Wasser zur stärker konzentrierten Seite."
   },
   {
     "id": "complex.bio-cells.027",
@@ -429,7 +429,7 @@
       "Es verhindert jede chemische Reaktion."
     ],
     "correct": 0,
-    "explanation": "Viele Reaktionen und Stofftransporte finden in wässriger Umgebung statt."
+    "explanation": "Wasser dient als Lösungsmittel: Gelöste Teilchen können miteinander reagieren und innerhalb der Zelle transportiert werden."
   },
   {
     "id": "complex.bio-cells.028",
@@ -445,7 +445,7 @@
       "Vielzeller bestehen nur aus Zellwänden."
     ],
     "correct": 0,
-    "explanation": "Einzeller bestehen aus einer einzigen Zelle als Organismus."
+    "explanation": "Die einzelne Zelle erfüllt beim Einzeller die nötigen Lebensfunktionen. Im Vielzeller teilen spezialisierte Zellen viele Aufgaben auf."
   },
   {
     "id": "complex.bio-cells.029",
@@ -461,7 +461,7 @@
       "Die Mitochondrien ersetzen die Muskelfasern vollständig."
     ],
     "correct": 0,
-    "explanation": "Die Muskelarbeit benötigt viel nutzbare Energie."
+    "explanation": "Mitochondrien stellen bei der Zellatmung nutzbare Energie bereit. Davon braucht ein arbeitender Muskel besonders viel."
   },
   {
     "id": "complex.bio-cells.030",
@@ -477,7 +477,7 @@
       "Nur Pflanzenzellen können Stoffwechsel betreiben."
     ],
     "correct": 0,
-    "explanation": "Beide besitzen Zellmembran und Zellplasma."
+    "explanation": "Diese gemeinsamen Bestandteile gehören zum grundlegenden Zellbau. Eine Zellwand besitzen typische Tierzellen dagegen nicht."
   },
   {
     "id": "complex.bio-cells.031",
@@ -493,7 +493,7 @@
       "Die DNA verlässt jede Blattzelle."
     ],
     "correct": 0,
-    "explanation": "Der Innendruck vieler Zellen nimmt ab."
+    "explanation": "Wasser in den Vakuolen trägt zur Spannung der Pflanzenzellen bei. Wasserverlust verringert diese Stützfunktion."
   },
   {
     "id": "complex.bio-cells.032",
@@ -509,7 +509,7 @@
       "Die Zellwand wandelt Wasser in Salz um."
     ],
     "correct": 0,
-    "explanation": "Wasser bewegt sich osmotisch zur stärker konzentrierten Lösung."
+    "explanation": "Die Membran lässt Wasser durch, viele gelöste Teilchen aber nicht frei. Der Konzentrationsunterschied treibt die Wasserbewegung an."
   },
   {
     "id": "complex.bio-cells.033",
@@ -525,7 +525,7 @@
       "Gewebe – Organismus – Molekül – Organ"
     ],
     "correct": 0,
-    "explanation": "Zelle – Gewebe – Organ – Organsystem"
+    "explanation": "Ähnliche Zellen arbeiten im Gewebe zusammen. Mehrere Gewebe bilden Organe, die wiederum in Organsystemen zusammenwirken."
   },
   {
     "id": "complex.bio-cells.034",
@@ -541,7 +541,7 @@
       "Alle sichtbaren Unterschiede sind Mikroskopfehler."
     ],
     "correct": 0,
-    "explanation": "Ihr Bau passt zu unterschiedlichen Aufgaben."
+    "explanation": "Nervenzellen leiten Signale über Fortsätze. Rote Blutkörperchen sind dagegen auf den Transport von Atemgasen spezialisiert."
   },
   {
     "id": "complex.bio-cells.035",
@@ -557,7 +557,7 @@
       "Fotosynthese ist nur außerhalb von Zellen möglich."
     ],
     "correct": 0,
-    "explanation": "Sie erhalten normalerweise kaum Licht und sind auf andere Aufgaben spezialisiert."
+    "explanation": "Fotosynthese benötigt Licht. Die meist unterirdischen Wurzelzellen dienen vor allem Aufnahme, Transport und Speicherung."
   },
   {
     "id": "complex.bio-cells.036",
@@ -573,7 +573,7 @@
       "Beide laufen nur in der Zellwand ab."
     ],
     "correct": 0,
-    "explanation": "Fotosynthese baut energiereiche Stoffe auf; Zellatmung macht deren Energie nutzbar."
+    "explanation": "Grüne Pflanzen nutzen beide Vorgänge. Fotosynthese benötigt Licht; Zellatmung kann auch im Dunkeln stattfinden."
   },
   {
     "id": "complex.bio-cells.037",
@@ -589,7 +589,7 @@
       "Jede kleine Zelle braucht keinen Sauerstoff."
     ],
     "correct": 0,
-    "explanation": "Im Verhältnis zum Volumen ist ihre Oberfläche groß."
+    "explanation": "Stoffe werden über die Oberfläche ausgetauscht. Bei kleinerem Volumen sind außerdem die Wege im Zellinneren oft kürzer."
   },
   {
     "id": "complex.bio-cells.038",
@@ -605,7 +605,7 @@
       "Sie besteht ausschließlich aus Erbinformation."
     ],
     "correct": 0,
-    "explanation": "Sie enthält bewegliche Bestandteile und Transportproteine."
+    "explanation": "Die Membranbestandteile können sich bewegen. Eingelagerte Proteine ermöglichen geregelten Austausch und Signalaufnahme."
   },
   {
     "id": "complex.bio-cells.039",
@@ -621,7 +621,7 @@
       "Die Zerlegung einer Zelle durch äußeren Druck"
     ],
     "correct": 0,
-    "explanation": "Stofftransport unter Energieaufwand, auch gegen ein Konzentrationsgefälle"
+    "explanation": "Gegen das Konzentrationsgefälle reicht passive Diffusion nicht aus. Transportproteine benötigen dafür eine Energiequelle."
   },
   {
     "id": "complex.bio-cells.040",
@@ -637,7 +637,7 @@
       "Alle Eiweiße werden dadurch widerstandsfähiger."
     ],
     "correct": 0,
-    "explanation": "Ihre räumliche Struktur kann geschädigt werden."
+    "explanation": "Die Form eines Proteins ist für seine Funktion wichtig. Durch starke Hitze kann es diese Form und damit seine Wirkung verlieren."
   },
   {
     "id": "complex.bio-cells.041",
@@ -653,7 +653,7 @@
       "Sie enthalten grundsätzlich keine DNA."
     ],
     "correct": 0,
-    "explanation": "Sie können sich teilen und zu verschiedenen Zelltypen entwickeln."
+    "explanation": "Ihr Entwicklungsvermögen unterscheidet sie von vielen bereits spezialisierten Zellen. Nicht jede Stammzelle kann jeden Zelltyp bilden."
   },
   {
     "id": "complex.bio-cells.042",
@@ -669,7 +669,7 @@
       "Nur eine Tochterzelle bekommt die gesamte DNA."
     ],
     "correct": 0,
-    "explanation": "Verdoppelte Chromosomen werden geordnet verteilt."
+    "explanation": "Der Spindelapparat trennt die zuvor verdoppelten Chromosomen und verteilt die Kopien auf die beiden Tochterzellen."
   },
   {
     "id": "complex.bio-cells.043",
@@ -685,7 +685,7 @@
       "Sie besitzen immer die doppelte Zahl aller Körperzellen."
     ],
     "correct": 0,
-    "explanation": "Sie besitzen einen einfachen statt doppelten Chromosomensatz."
+    "explanation": "Bei der Befruchtung vereinigen sich zwei einfache Chromosomensätze. So entsteht wieder der doppelte Satz der Körperzellen."
   },
   {
     "id": "complex.bio-cells.044",
@@ -701,7 +701,7 @@
       "Der tägliche Wechsel der Körpertemperatur"
     ],
     "correct": 0,
-    "explanation": "Eine dauerhafte Veränderung der Erbinformation"
+    "explanation": "Betroffen sein können kleine DNA-Abschnitte oder größere Chromosomenbereiche. Die Änderung kann bei Zellteilung weitergegeben werden."
   },
   {
     "id": "complex.bio-cells.045",
@@ -717,7 +717,7 @@
       "Jede Mutation verbessert alle Eigenschaften."
     ],
     "correct": 0,
-    "explanation": "Ihre Wirkung hängt von Ort, Art und Umwelt ab."
+    "explanation": "Eine Änderung kann ohne erkennbare Folgen bleiben, nachteilig sein oder unter bestimmten Bedingungen einen Vorteil bringen."
   },
   {
     "id": "complex.bio-cells.046",
@@ -733,7 +733,7 @@
       "Alle benachbarten Zellkerne verlassen ihre Zellen."
     ],
     "correct": 0,
-    "explanation": "Zellen teilen sich und bilden neues Gewebe."
+    "explanation": "Zellteilung ersetzt verlorene Zellen. Dabei wirken verschiedene Zelltypen beim Aufbau und Umbau des Gewebes zusammen."
   },
   {
     "id": "complex.bio-cells.047",
@@ -749,7 +749,7 @@
       "Antibiotika liefern Viren fehlende Mitochondrien."
     ],
     "correct": 0,
-    "explanation": "Sie greifen bakterielle Strukturen oder Vorgänge an, die Viren nicht besitzen."
+    "explanation": "Viren besitzen beispielsweise keine bakterielle Zellwand. Ein Wirkstoff gegen deren Aufbau hat deshalb kein entsprechendes Ziel am Virus."
   },
   {
     "id": "complex.bio-cells.048",
@@ -765,7 +765,7 @@
       "Eine gemeinsame Farbe ohne biologische Funktion"
     ],
     "correct": 0,
-    "explanation": "Zusammenarbeit spezialisierter Zellen für gemeinsame Aufgaben"
+    "explanation": "Nicht nur die räumliche Nähe ist entscheidend: Die Zellen wirken mit ihrem angepassten Bau gemeinsam an einer Funktion mit."
   },
   {
     "id": "complex.bio-cells.049",
@@ -781,7 +781,7 @@
       "Nur Knochenzellen besitzen überhaupt einen Zellkern."
     ],
     "correct": 0,
-    "explanation": "Reife rote Blutkörperchen besitzen keinen Zellkern."
+    "explanation": "Beim Reifen verlieren menschliche rote Blutkörperchen ihren Zellkern. Deshalb gilt die vereinfachte Regel nicht ausnahmslos."
   },
   {
     "id": "complex.bio-cells.050",
@@ -797,6 +797,6 @@
       "Baustoffe können in keiner chemischen Reaktion vorkommen."
     ],
     "correct": 0,
-    "explanation": "Sie muss Strukturen erneuern und Energie für Prozesse bereitstellen."
+    "explanation": "Zum Erneuern von Strukturen werden Bausteine gebraucht. Transport, Bewegung und andere Zellvorgänge benötigen zusätzlich nutzbare Energie."
   }
 ]

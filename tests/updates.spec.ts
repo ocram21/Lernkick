@@ -16,16 +16,16 @@ test('Update-Button im Header ist sichtbar und erklärt den Offline-Fall',async(
 });
 
 test('Antwort bleibt zwei Sekunden sichtbar; Automatik lässt sich anhalten und fortsetzen',async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();
+  await page.goto('/');await page.getByRole('button',{name:/Mathematik, /}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();
   const answer=()=>answerCorrect(page);
   await answer();await expect(page.locator('.feedback')).toBeVisible();
   await page.clock.install();
   // Re-arm via pause so the mocked clock owns both timers.
-  await page.getByRole('button',{name:'Anhalten',exact:true}).click();
+  if(await page.getByRole('button',{name:'Anhalten',exact:true}).isVisible())await page.getByRole('button',{name:'Anhalten',exact:true}).click();
   await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
   await page.clock.runFor(1999);await expect(page.getByText('Frage 1 von 10',{exact:true})).toBeVisible();
   await page.clock.runFor(1);await expect(page.getByText('Frage 2 von 10',{exact:true})).toBeVisible();
-  await answer();await page.getByRole('button',{name:'Anhalten',exact:true}).click();
+  await answer();await expect(page.getByRole('button',{name:'Anhalten',exact:true})).toBeVisible();await page.getByRole('button',{name:'Anhalten',exact:true}).click();
   await page.clock.runFor(5000);await expect(page.getByText('Frage 2 von 10',{exact:true})).toBeVisible();await expect(page.locator('.feedback')).toBeVisible();
   await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();await page.clock.runFor(3000);await expect(page.getByText('Frage 3 von 10',{exact:true})).toBeVisible();
   await answer();await page.getByRole('button',{name:'Nächste Frage',exact:true}).click();await page.clock.runFor(4000);await expect(page.getByText('Frage 4 von 10',{exact:true})).toBeVisible();
@@ -33,13 +33,15 @@ test('Antwort bleibt zwei Sekunden sichtbar; Automatik lässt sich anhalten und 
 });
 
 
-test('Falsche Antworten zeigen die Lösung zwei Sekunden und wechseln einschließlich der letzten Frage automatisch',async({page})=>{
-  await page.clock.install();await page.goto('/');await page.getByRole('button',{name:/Mathematik, Level /}).click();await page.getByRole('button',{name:'Alle',exact:true}).click();await page.getByRole('button',{name:'Grundrechenarten',exact:true}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();
-  for(let i=0;i<10;i++) {
-    await answerWrong(page);await expect(page.locator('.feedback p')).not.toBeEmpty();await expect(page.getByRole('button',{name:'Anhalten',exact:true})).toBeVisible();
-    await page.clock.runFor(1900);await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible();await page.clock.runFor(150);
-  }
-  await expect(page.getByRole('heading',{name:'Weiter üben.'})).toBeVisible();await expect(page.locator('.result-numbers')).toContainText('0/10');
+test('Falsche Antworten bleiben auch bei gewählter Automatik bis zum manuellen Weitergehen',async({page})=>{
+ await page.clock.install();await page.goto('/');await page.locator('[data-module="math"]').click();await page.getByRole('button',{name:'Alle',exact:true}).click();await page.getByRole('button',{name:'Grundrechenarten',exact:true}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();
+ for(let i=0;i<10;i++){
+  await answerWrong(page);await expect(page.locator('.feedback p')).not.toBeEmpty();
+  if(i===0)await page.getByRole('button',{name:'Automatisch weiter',exact:true}).click();
+  await page.clock.runFor(5000);await expect(page.getByText(`Frage ${i+1} von 10`,{exact:true})).toBeVisible();
+  await page.getByRole('button',{name:i===9?'Runde abschließen':'Nächste Frage',exact:true}).click();
+ }
+ await expect(page.getByRole('heading',{name:'Weiter üben.'})).toBeVisible();await expect(page.locator('.result-numbers')).toContainText('0/10');
 });
 
 test('echtes PWA-Update mit anschließendem Neuladen erhält lokale Nutzerdaten',async({page})=>{

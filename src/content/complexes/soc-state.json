@@ -13,7 +13,7 @@
       "Bürgerrechtlicher Dienst"
     ],
     "correct": 0,
-    "explanation": "Bundesrepublik Deutschland"
+    "explanation": "Der Name bezeichnet den deutschen Staat. Die Abkürzung ist kein eigenes staatliches Organ."
   },
   {
     "id": "complex.soc-state.002",
@@ -29,7 +29,7 @@
       "Nur ein Wörterbuch politischer Begriffe"
     ],
     "correct": 0,
-    "explanation": "Das Grundgesetz legt die Grundordnung Deutschlands fest."
+    "explanation": "Die Verfassung legt grundlegende Rechte und die Organisation der Staatsgewalt fest. Ein einzelnes Gesetz muss sich an ihr messen lassen."
   },
   {
     "id": "complex.soc-state.003",
@@ -45,7 +45,7 @@
       "Würde gilt nur für Menschen mit einem Amt."
     ],
     "correct": 0,
-    "explanation": "Jeder Mensch besitzt einen zu achtenden und zu schützenden Eigenwert."
+    "explanation": "Der Wert eines Menschen hängt nicht von Leistung, Herkunft oder Beliebtheit ab. Staatliche Macht darf ihn nicht zum bloßen Mittel machen."
   },
   {
     "id": "complex.soc-state.004",
@@ -61,7 +61,7 @@
       "Alle Entscheidungen werden vom Militär getroffen."
     ],
     "correct": 0,
-    "explanation": "Staatliche Herrschaft wird durch das Volk legitimiert."
+    "explanation": "Wahlen und weitere Beteiligungswege verbinden politische Entscheidungen mit den Bürgerinnen und Bürgern. Demokratie ist nicht nur die Entscheidung einer einzelnen Person."
   },
   {
     "id": "complex.soc-state.005",
@@ -77,7 +77,7 @@
       "Nur private Personen müssen Gesetze beachten."
     ],
     "correct": 0,
-    "explanation": "Staatliches Handeln ist an Recht und Gesetz gebunden."
+    "explanation": "Auch eine Regierung darf nicht nach Belieben handeln. Ihre Entscheidungen können anhand rechtlicher Regeln kontrolliert werden."
   },
   {
     "id": "complex.soc-state.006",
@@ -93,7 +93,7 @@
       "Private Hilfe ist grundsätzlich verboten."
     ],
     "correct": 0,
-    "explanation": "Der Staat trägt Verantwortung für soziale Sicherheit und Gerechtigkeit."
+    "explanation": "Soziale Absicherung soll Menschen bei Lebensrisiken unterstützen. Welche Leistungen es gibt, wird durch politische und rechtliche Entscheidungen ausgestaltet."
   },
   {
     "id": "complex.soc-state.007",
@@ -109,7 +109,7 @@
       "Es gibt keine Landesparlamente."
     ],
     "correct": 0,
-    "explanation": "Bund und Länder teilen staatliche Aufgaben und Zuständigkeiten."
+    "explanation": "Nicht jede Aufgabe wird zentral erledigt. Länder haben eigene Zuständigkeiten und wirken auch auf Bundesebene mit."
   },
   {
     "id": "complex.soc-state.008",
@@ -125,7 +125,7 @@
       "Nur Polizei, Feuerwehr und Rettungsdienst"
     ],
     "correct": 0,
-    "explanation": "Gesetzgebung, vollziehende Gewalt und Rechtsprechung"
+    "explanation": "Gesetze beschließen, sie ausführen und Streit darüber entscheiden sind unterschiedliche Aufgaben. Ihre Trennung begrenzt Macht."
   },
   {
     "id": "complex.soc-state.009",
@@ -141,7 +141,7 @@
       "Jede private Kaufentscheidung genehmigen"
     ],
     "correct": 0,
-    "explanation": "Gesetze beraten und beschließen sowie Regierung kontrollieren"
+    "explanation": "Ein Parlament soll nicht nur Vorschläge bestätigen. Es berät Entscheidungen und kann Auskünfte von der Regierung verlangen."
   },
   {
     "id": "complex.soc-state.010",
@@ -157,7 +157,7 @@
       "Jede öffentliche Kritik verbieten"
     ],
     "correct": 0,
-    "explanation": "Politik gestalten und beschlossene Gesetze umsetzen"
+    "explanation": "Regieren umfasst politische Planung und Leitung der Verwaltung. Gerichte übernehmen dagegen die unabhängige Rechtsprechung."
   },
   {
     "id": "complex.soc-state.011",
@@ -173,7 +173,7 @@
       "Den Wetterbericht festlegen"
     ],
     "correct": 0,
-    "explanation": "Rechtsstreitigkeiten nach geltendem Recht entscheiden"
+    "explanation": "Ein Gericht entscheidet einen Streit anhand von Recht und Verfahren. Es soll nicht allein die Wünsche einer Regierung durchsetzen."
   },
   {
     "id": "complex.soc-state.012",
@@ -189,7 +189,7 @@
       "Nur eine politische Partei"
     ],
     "correct": 0,
-    "explanation": "Eine Gemeinde oder Stadt als örtliche Verwaltungseinheit"
+    "explanation": "Viele Aufgaben des unmittelbaren Alltags werden vor Ort organisiert, etwa Teile der örtlichen Infrastruktur."
   },
   {
     "id": "complex.soc-state.013",
@@ -205,7 +205,7 @@
       "Ein Gericht für Arbeitsrecht"
     ],
     "correct": 0,
-    "explanation": "Ein Zusammenschluss, der an politischer Willensbildung mitwirkt"
+    "explanation": "Parteien bündeln politische Vorstellungen und werben für Unterstützung. Sie sind nicht mit einer staatlichen Behörde gleichzusetzen."
   },
   {
     "id": "complex.soc-state.014",
@@ -221,7 +221,7 @@
       "Nur Menschen, die nicht wählen dürfen"
     ],
     "correct": 0,
-    "explanation": "Die parlamentarischen Kräfte, die nicht die Regierung tragen"
+    "explanation": "Auch ohne Regierungsmehrheit können Abgeordnete Regierungspolitik kritisieren und Alternativen einbringen."
   },
   {
     "id": "complex.soc-state.015",
@@ -237,7 +237,7 @@
       "Ein privater Kaufvertrag"
     ],
     "correct": 0,
-    "explanation": "Eine Bitte oder Beschwerde an zuständige öffentliche Stellen"
+    "explanation": "Mit einer Petition lässt sich ein Anliegen an eine zuständige Stelle richten. Sie garantiert nicht automatisch die gewünschte Entscheidung."
   },
   {
     "id": "complex.soc-state.016",
@@ -253,7 +253,7 @@
       "Das Recht, anderen jede Äußerung zu verbieten"
     ],
     "correct": 0,
-    "explanation": "Eigene Ansichten äußern und sich informieren"
+    "explanation": "Auch unpopuläre Ansichten können geschützt sein. Die Meinungsfreiheit hebt andere gesetzliche Schutzgrenzen nicht auf."
   },
   {
     "id": "complex.soc-state.017",
@@ -269,7 +269,7 @@
       "Eine Pflicht zur Mitgliedschaft in einer Kirche"
     ],
     "correct": 0,
-    "explanation": "Glauben, Nichtglauben und religiöse Betätigung im rechtlichen Rahmen"
+    "explanation": "Die Freiheit schützt auch die Entscheidung, keiner Religion anzugehören. Der Staat darf nicht nur einen bestimmten Glauben achten."
   },
   {
     "id": "complex.soc-state.018",
@@ -285,7 +285,7 @@
       "Jede unterschiedliche Lebenssituation ist verboten."
     ],
     "correct": 0,
-    "explanation": "Recht darf Menschen nicht willkürlich unterschiedlich behandeln."
+    "explanation": "Sachliche Unterschiede können unterschiedliche Regeln rechtfertigen. Willkürliche Benachteiligung widerspricht dagegen dem Gleichheitsgrundsatz."
   },
   {
     "id": "complex.soc-state.019",
@@ -301,7 +301,7 @@
       "Jede Unterrichtsstunde planen"
     ],
     "correct": 0,
-    "explanation": "Die Bundesregierung kontrollieren"
+    "explanation": "Durch Anfragen und parlamentarische Verfahren können Regierungsentscheidungen öffentlich geprüft werden. Die Regierung kontrolliert sich nicht ausschließlich selbst."
   },
   {
     "id": "complex.soc-state.020",
@@ -317,7 +317,7 @@
       "Durch die Europäische Zentralbank"
     ],
     "correct": 0,
-    "explanation": "Im Bundesrat wirken Mitglieder der Landesregierungen an Gesetzgebung und Verwaltung des Bundes mit."
+    "explanation": "Im Bundesrat wirken Vertreter der Landesregierungen mit. Er ist nicht dasselbe wie der direkt gewählte Bundestag."
   },
   {
     "id": "complex.soc-state.021",
@@ -333,7 +333,7 @@
       "Eine freiwillige Müllsammelaktion allein"
     ],
     "correct": 0,
-    "explanation": "Ein Bündnis mehrerer politischer Kräfte, oft zur Regierungsbildung"
+    "explanation": "Wenn eine Partei allein nicht genügend Unterstützung hat, können mehrere Kräfte gemeinsame Ziele vereinbaren."
   },
   {
     "id": "complex.soc-state.022",
@@ -349,7 +349,7 @@
       "Alle Gemeinden verwalten"
     ],
     "correct": 0,
-    "explanation": "Über die Einhaltung des Grundgesetzes entscheiden"
+    "explanation": "Das Gericht prüft verfassungsrechtliche Fragen. Es ist kein Ersatzparlament, das beliebige politische Wünsche beschließt."
   },
   {
     "id": "complex.soc-state.023",
@@ -365,7 +365,7 @@
       "Eine Garantie auf ein Luxusgut"
     ],
     "correct": 0,
-    "explanation": "Gesetzlich geregelte Absicherung bestimmter Lebensrisiken"
+    "explanation": "Die Versicherung verteilt bestimmte Risiken auf viele Versicherte. Sie ist nicht einfach eine beliebige private Geldanlage."
   },
   {
     "id": "complex.soc-state.024",
@@ -381,7 +381,7 @@
       "Private Reisegepäckversicherung"
     ],
     "correct": 0,
-    "explanation": "Die gesetzliche Pflegeversicherung gehört zur Sozialversicherung; Kfz- und Reiseversicherungen nicht."
+    "explanation": "Pflegebedürftigkeit ist ein eigenes abgesichertes Lebensrisiko. Sie ist nicht mit jeder gewöhnlichen Haushaltsausgabe gleichzusetzen."
   },
   {
     "id": "complex.soc-state.025",
@@ -397,7 +397,7 @@
       "Nur durch Gewinne privater Sportvereine"
     ],
     "correct": 0,
-    "explanation": "Unter anderem durch Steuern"
+    "explanation": "Ausgaben etwa für Straßen oder Schulen brauchen gemeinsame Einnahmen. Steuern gehören zu diesen Finanzierungsquellen."
   },
   {
     "id": "complex.soc-state.026",
@@ -413,7 +413,7 @@
       "Nur aktuell Erkrankte finanzieren die gesamte Versorgung."
     ],
     "correct": 0,
-    "explanation": "Menschen tragen gemeinsam zur Absicherung von Risiken bei."
+    "explanation": "Nicht nur aktuell Betroffene tragen zur Absicherung bei. Das Risiko wird über eine größere Gemeinschaft verteilt."
   },
   {
     "id": "complex.soc-state.027",
@@ -429,7 +429,7 @@
       "Ein Urteil über einen Nachbarschaftsstreit"
     ],
     "correct": 0,
-    "explanation": "Eine Vereinbarung zwischen Tarifparteien über Arbeitsbedingungen"
+    "explanation": "Tarifparteien vereinbaren beispielsweise Entgelt oder Arbeitszeiten. Ein einzelner privater Kaufvertrag erfüllt diese Funktion nicht."
   },
   {
     "id": "complex.soc-state.028",
@@ -445,7 +445,7 @@
       "Jede private Meinung der Beschäftigten festlegen"
     ],
     "correct": 0,
-    "explanation": "Beschäftigte im Betrieb vertreten und mitbestimmen"
+    "explanation": "Ein Betriebsrat vertritt Anliegen der Beschäftigten gegenüber dem Arbeitgeber. Er ist weder Unternehmensleitung noch Gericht."
   },
   {
     "id": "complex.soc-state.029",
@@ -461,7 +461,7 @@
       "Privatpersonen müssen Konflikte mit Gewalt entscheiden."
     ],
     "correct": 0,
-    "explanation": "Staatlicher Zwang ist grundsätzlich staatlichen Stellen im gesetzlichen Rahmen vorbehalten."
+    "explanation": "Auch staatlicher Zwang braucht eine gesetzliche Grundlage und Grenzen. Das Gewaltmonopol erlaubt kein beliebiges Vorgehen."
   },
   {
     "id": "complex.soc-state.030",
@@ -477,7 +477,7 @@
       "Wahlzettel anderer Menschen ausfüllen"
     ],
     "correct": 0,
-    "explanation": "Petitionen, Vereinigungen und friedliche Versammlungen nutzen"
+    "explanation": "Politische Anliegen können auch nach dem Wahltag öffentlich vertreten werden. Beteiligung endet nicht mit der Stimmabgabe."
   },
   {
     "id": "complex.soc-state.031",
@@ -493,7 +493,7 @@
       "Grundrechte gelten nur bei einstimmigen Entscheidungen."
     ],
     "correct": 0,
-    "explanation": "Mehrheiten dürfen die geschützten Rechte von Menschen nicht beliebig verletzen."
+    "explanation": "Grundrechte gelten auch für Menschen, deren Anliegen gerade keine Mehrheit finden. Eine Abstimmung beseitigt diese Bindung nicht."
   },
   {
     "id": "complex.soc-state.032",
@@ -509,7 +509,7 @@
       "Gerichte sollen ausschließlich nach Umfragewerten entscheiden."
     ],
     "correct": 0,
-    "explanation": "Auch staatliche Entscheidungen können rechtlich überprüft werden."
+    "explanation": "Eine betroffene Person braucht eine von der angegriffenen Entscheidung unabhängige Prüfung. Sonst bliebe Kontrolle von der überprüften Stelle abhängig."
   },
   {
     "id": "complex.soc-state.033",
@@ -525,7 +525,7 @@
       "Unterschiedliche Einkommen beweisen das Fehlen aller Gesetze."
     ],
     "correct": 0,
-    "explanation": "Gleiche Rechte bedeuten nicht, dass Einkommen und Chancen bereits gleich verteilt sind."
+    "explanation": "Ein gleiches Recht auf Bildung beseitigt nicht automatisch jede soziale Benachteiligung. Rechtliche Gleichheit und tatsächliche Chancen sind zu unterscheiden."
   },
   {
     "id": "complex.soc-state.034",
@@ -541,7 +541,7 @@
       "Kontrolle ist danach grundsätzlich nicht mehr nötig."
     ],
     "correct": 0,
-    "explanation": "Verschiedene Organe kontrollieren und begrenzen einander."
+    "explanation": "Wer eine Entscheidung trifft, soll nicht jede Kontrolle darüber selbst beherrschen. Gegengewichte erschweren eine unkontrollierte Machtkonzentration."
   },
   {
     "id": "complex.soc-state.035",
@@ -557,7 +557,7 @@
       "Das Bundesverfassungsgericht wählt sämtliche Minister neu."
     ],
     "correct": 0,
-    "explanation": "Eine neue Kanzlerin oder ein neuer Kanzler wird statt der bisherigen Person gewählt."
+    "explanation": "Die Ablösung ist mit der Wahl einer Nachfolge verbunden. Eine bloße Mehrheit gegen die bisherige Person genügt dafür nicht."
   },
   {
     "id": "complex.soc-state.036",
@@ -573,7 +573,7 @@
       "Pressefreiheit ersetzt alle Wahlen."
     ],
     "correct": 0,
-    "explanation": "Unabhängige Berichterstattung macht Macht und Entscheidungen überprüfbar."
+    "explanation": "Journalistische Recherche kann Widersprüche und Missstände sichtbar machen. Dafür darf sie nicht nur die Sicht der Mächtigen wiedergeben."
   },
   {
     "id": "complex.soc-state.037",
@@ -589,7 +589,7 @@
       "Nur rechtswidrige Ziele können miteinander konkurrieren."
     ],
     "correct": 0,
-    "explanation": "Mehrere berechtigte Ziele lassen sich nicht immer gleichzeitig vollständig erreichen."
+    "explanation": "Ein Ausbau kann etwa mehr Mobilität schaffen und zugleich Natur belasten. Die Entscheidung verlangt eine Abwägung verschiedener Folgen."
   },
   {
     "id": "complex.soc-state.038",
@@ -605,7 +605,7 @@
       "Gerichte dürfen ausschließlich nach persönlicher Sympathie urteilen."
     ],
     "correct": 0,
-    "explanation": "Rechtliche Regeln gelten nicht allein nach individuellen Vorstellungen."
+    "explanation": "Menschen können dieselbe Regel unterschiedlich gerecht finden. Ob sie rechtlich gilt, entscheidet sich nicht allein an einer persönlichen Meinung."
   },
   {
     "id": "complex.soc-state.039",
@@ -621,7 +621,7 @@
       "Ein Eingriff darf nie überprüft werden."
     ],
     "correct": 0,
-    "explanation": "Eingriffe müssen für ihr rechtmäßiges Ziel geeignet, erforderlich und angemessen sein."
+    "explanation": "Selbst ein erlaubtes Ziel rechtfertigt nicht jedes Mittel. Eine weniger belastende geeignete Maßnahme muss berücksichtigt werden."
   },
   {
     "id": "complex.soc-state.040",
@@ -637,7 +637,7 @@
       "Eine einzige private Spende löst jede soziale Frage dauerhaft."
     ],
     "correct": 0,
-    "explanation": "Krankheit, Alter, Arbeitslosigkeit und andere Risiken unterscheiden sich."
+    "explanation": "Eine Geldleistung für Arbeitslosigkeit erfüllt einen anderen Zweck als Unterstützung bei Pflegebedürftigkeit. Verschiedene Risiken brauchen unterschiedliche Antworten."
   },
   {
     "id": "complex.soc-state.041",
@@ -653,7 +653,7 @@
       "Beide werden ausschließlich freiwillig gezahlt."
     ],
     "correct": 0,
-    "explanation": "Beiträge stehen im Zusammenhang mit einem Versicherungssystem; Steuern finanzieren allgemeine Aufgaben."
+    "explanation": "Eine Steuerzahlung begründet nicht den gleichen konkreten Versicherungsbezug wie ein Beitrag. Beide können aber gesetzlich vorgeschriebene Zahlungen sein."
   },
   {
     "id": "complex.soc-state.042",
@@ -669,7 +669,7 @@
       "Zuständigkeit ist nur eine unverbindliche Empfehlung."
     ],
     "correct": 0,
-    "explanation": "Nicht jede Behörde darf jede Entscheidung treffen."
+    "explanation": "Zuständigkeiten begrenzen, welche Stelle handeln darf. Eine sachlich gewünschte Entscheidung macht eine unzuständige Behörde nicht zuständig."
   },
   {
     "id": "complex.soc-state.043",
@@ -685,7 +685,7 @@
       "Gerüchte ersetzen grundsätzlich eine Beweisaufnahme."
     ],
     "correct": 0,
-    "explanation": "Eine beschuldigte Person gilt bis zum rechtmäßigen Schuldnachweis nicht als schuldig."
+    "explanation": "Ein Verdacht ist noch kein rechtmäßiger Schuldnachweis. Vorverurteilung würde die Prüfung im Verfahren ersetzen."
   },
   {
     "id": "complex.soc-state.044",
@@ -701,7 +701,7 @@
       "Jede Drohung ist automatisch geschützte politische Kritik."
     ],
     "correct": 0,
-    "explanation": "Auch scharfe Kritik ist möglich, aber rechtliche Grenzen bleiben bestehen."
+    "explanation": "Kritik muss nicht freundlich oder bequem sein. Sie ist aber von rechtlich unzulässigen Angriffen zu unterscheiden."
   },
   {
     "id": "complex.soc-state.045",
@@ -717,7 +717,7 @@
       "Minderheiten müssen vor jeder Äußerung eine Wahl gewinnen."
     ],
     "correct": 0,
-    "explanation": "Gleiche Freiheit und Würde gelten auch ohne Mehrheit."
+    "explanation": "Demokratie schützt nicht nur die Sieger einer Abstimmung. Auch Menschen ohne Mehrheit behalten grundlegende Rechte."
   },
   {
     "id": "complex.soc-state.046",
@@ -733,7 +733,7 @@
       "Behörden dürfen nur nach persönlichem Geschmack handeln."
     ],
     "correct": 0,
-    "explanation": "Staatliches Handeln benötigt Zuständigkeit und rechtliche Grundlage."
+    "explanation": "Eine Privatperson trifft viele eigene Alltagsentscheidungen. Eine Behörde handelt dagegen in einer gesetzlich begrenzten öffentlichen Rolle."
   },
   {
     "id": "complex.soc-state.047",
@@ -749,7 +749,7 @@
       "Die Person hat neben Arbeit auch Freizeit."
     ],
     "correct": 0,
-    "explanation": "Private Vorteile könnten eine dienstliche Entscheidung beeinflussen."
+    "explanation": "Ein privates Interesse kann die Unvoreingenommenheit einer Amtsentscheidung gefährden. Es muss deshalb von der dienstlichen Aufgabe getrennt werden."
   },
   {
     "id": "complex.soc-state.048",
@@ -765,7 +765,7 @@
       "Informationen sind nur für Behörden wichtig."
     ],
     "correct": 0,
-    "explanation": "Entscheidungen und ihre Folgen müssen nachvollziehbar sein."
+    "explanation": "Ohne nachvollziehbare Angaben lässt sich schwer beurteilen, ob eine Entscheidung begründet war. Transparenz ermöglicht Kritik und Kontrolle."
   },
   {
     "id": "complex.soc-state.049",
@@ -781,7 +781,7 @@
       "Der Bund ist eine einzelne Gemeinde."
     ],
     "correct": 0,
-    "explanation": "Bildungspolitik wird wesentlich durch die Länder gestaltet."
+    "explanation": "Schulfragen werden deshalb nicht ausschließlich von einer zentralen Bundesstelle entschieden. Die Länder tragen wesentliche Verantwortung."
   },
   {
     "id": "complex.soc-state.050",
@@ -797,6 +797,6 @@
       "Staatliche Hilfe macht alle Entscheidungen anderer Menschen bedeutungslos."
     ],
     "correct": 0,
-    "explanation": "Gemeinsame Absicherung und persönliche Mitwirkung können nebeneinander bestehen."
+    "explanation": "Eine gemeinsame Absicherung kann Unterstützung und Mitwirkung verbinden. Sie bedeutet nicht, dass jede eigene Entscheidung bedeutungslos wird."
   }
 ]

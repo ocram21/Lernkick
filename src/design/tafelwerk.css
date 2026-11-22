@@ -325,3 +325,23 @@
 }
 /* Platz für ausgeschriebene Bruch-Zwischenschritte im flachen Querformat. */
 @media(min-width:650px) and (max-height:500px){.tafelwerk-detail .tafelwerk-board-body:has(.math-stack){padding-block:4px}}
+
+/* Lesebreite und ein sichtbarer Rückweg ohne zusätzlichen großen Kopfbereich. */
+.tafelwerk-topic-return{align-self:flex-start;flex-shrink:0;display:flex;align-items:center;gap:4px;min-height:28px;padding:2px 6px;border:0;background:transparent;color:var(--ink);font-size:13px}
+.tafelwerk-lesson-choice{gap:5px;hyphens:auto;overflow-wrap:normal}
+.tafelwerk-lesson-symbol{width:20px;flex-basis:20px}
+.tafelwerk-lesson-choice>svg{display:none}
+.tafelwerk-lesson-choice>span:nth-child(2){overflow-wrap:normal;hyphens:auto}
+
+.tafelwerk-intro .tafelwerk-reading-toggle{margin-left:auto;margin-right:4px}
+.tafelwerk-reading:has(.tafelwerk-detail){overflow-y:auto;display:flex}
+.tafelwerk-reading .tafelwerk-detail,.tafelwerk-reading .tafelwerk-detail:has(.tafelwerk-step-controls){flex:none;display:flex;height:auto;overflow:visible}
+.tafelwerk-reading .tafelwerk-board{flex:none;min-height:380px}
+.tafelwerk-reading .tafelwerk-board-body{flex:none;min-height:300px;overflow:auto}
+.tafelwerk-reading .board-visual{height:auto;min-height:260px}
+.tafelwerk-reading .math-stack{font-size:30px;line-height:1.4}
+.tafelwerk-reading .tafelwerk-explanation,.tafelwerk-reading .deutsch-reference-item p{font-size:20px;line-height:1.5;max-height:none}
+.tafelwerk-reading .tafelwerk-board-head h1,.tafelwerk-reading .deutsch-reference-item h2{font-size:22px}
+.tafelwerk-reading .deutsch-reference-list{grid-template-columns:1fr}
+.tafelwerk-reading .deutsch-reference-page{flex:none;overflow:visible}
+.tafelwerk-reading:has(.deutsch-reference-page){overflow-y:auto}

@@ -13,7 +13,7 @@
       "Jede Belastung im Leben vollständig beseitigen"
     ],
     "correct": 0,
-    "explanation": "Erholung, Kontakte und persönliche Interessen fördern"
+    "explanation": "Eine freiwillig gewählte Tätigkeit kann einen Ausgleich zu Schule und Arbeit schaffen. Auch Ruhe darf Freizeit sein."
   },
   {
     "id": "complex.soc-leisure.002",
@@ -29,7 +29,7 @@
       "Nur Sportvideos ansehen"
     ],
     "correct": 0,
-    "explanation": "Spazierengehen oder Sport nach eigenen Möglichkeiten"
+    "explanation": "Bewegung muss kein Wettkampfsport sein. Ein passender Spaziergang kann ebenfalls körperliche Aktivität ermöglichen."
   },
   {
     "id": "complex.soc-leisure.003",
@@ -45,7 +45,7 @@
       "Die Pflicht, persönliche Grenzen aufzugeben"
     ],
     "correct": 0,
-    "explanation": "Gemeinsame Aktivitäten und soziale Kontakte"
+    "explanation": "Regelmäßige Treffen machen es leichter, gemeinsam einem Interesse nachzugehen und andere Menschen kennenzulernen."
   },
   {
     "id": "complex.soc-leisure.004",
@@ -61,7 +61,7 @@
       "Alle Gruppenmitglieder entscheiden immer völlig unabhängig."
     ],
     "correct": 0,
-    "explanation": "Andere erwarten ein Verhalten, dem man sich schwer entziehen kann."
+    "explanation": "Die Sorge, ausgeschlossen zu werden, kann das Nein erschweren. Eine eigene Grenze bleibt trotzdem berechtigt."
   },
   {
     "id": "complex.soc-leisure.005",
@@ -77,7 +77,7 @@
       "Zustimmen müssen, sobald Freunde zuschauen"
     ],
     "correct": 0,
-    "explanation": "Klar ablehnen und Unterstützung suchen, wenn nötig"
+    "explanation": "Niemand muss ein Angebot annehmen, um dazuzugehören. Eine unterstützende Person kann beim Ablehnen helfen."
   },
   {
     "id": "complex.soc-leisure.006",
@@ -93,7 +93,7 @@
       "Jedes beliebige Möbelstück"
     ],
     "correct": 0,
-    "explanation": "Ein Stoff, der Wahrnehmung, Stimmung oder Verhalten beeinflussen kann"
+    "explanation": "Der Begriff beschreibt die Wirkung auf psychische Vorgänge. Er sagt allein noch nichts über die rechtliche Einordnung des Stoffes."
   },
   {
     "id": "complex.soc-leisure.007",
@@ -109,7 +109,7 @@
       "Ballaststoff"
     ],
     "correct": 0,
-    "explanation": "Nikotin wirkt auf das Nervensystem und kann eine starke Abhängigkeit hervorrufen."
+    "explanation": "Nikotin wirkt auf das Nervensystem und kann die erneute Einnahme verstärken. Rauchbestandteile bergen daneben weitere Risiken."
   },
   {
     "id": "complex.soc-leisure.008",
@@ -125,7 +125,7 @@
       "Nur wenn er warm getrunken wird."
     ],
     "correct": 0,
-    "explanation": "Ja, er beeinflusst unter anderem das Nervensystem."
+    "explanation": "Alkohol kann Stimmung und Verhalten verändern. Dass er in Getränken vorkommt, macht ihn nicht zu einem wirkungslosen Stoff."
   },
   {
     "id": "complex.soc-leisure.009",
@@ -141,7 +141,7 @@
       "Ausschließlich die Körpergröße"
     ],
     "correct": 0,
-    "explanation": "Reaktion, Aufmerksamkeit und Einschätzung"
+    "explanation": "Für sicheres Fahren müssen Wahrnehmung und Reaktion zusammenpassen. Alkohol kann beides beeinträchtigen."
   },
   {
     "id": "complex.soc-leisure.010",
@@ -157,7 +157,7 @@
       "Sie sind für Jugendliche automatisch risikofrei."
     ],
     "correct": 0,
-    "explanation": "Sie sind nicht harmlos und können abhängig machendes Nikotin enthalten."
+    "explanation": "Auch ohne Tabakverbrennung können schädliche Stoffe aufgenommen werden. Fehlender Rauch bedeutet deshalb nicht automatisch fehlendes Risiko."
   },
   {
     "id": "complex.soc-leisure.011",
@@ -173,7 +173,7 @@
       "Nur ein Laden für Freizeitgeräte"
     ],
     "correct": 0,
-    "explanation": "Eine Anlaufstelle bei Fragen zu Konsum und Abhängigkeit"
+    "explanation": "Eine Beratung kann Konsummuster und Unterstützungsmöglichkeiten besprechen. Man muss dafür nicht erst eine Abhängigkeit nachweisen."
   },
   {
     "id": "complex.soc-leisure.012",
@@ -189,7 +189,7 @@
       "Jeden Konsum verheimlichen"
     ],
     "correct": 0,
-    "explanation": "Auf einen bestimmten Stoff oder ein bestimmtes Verhalten verzichten"
+    "explanation": "Abstinenz kann sich auf einen bestimmten Stoff beziehen. Sie bedeutet nicht automatisch den Verzicht auf jede Freizeitaktivität."
   },
   {
     "id": "complex.soc-leisure.013",
@@ -205,7 +205,7 @@
       "Jemand lehnt Alkohol ab."
     ],
     "correct": 0,
-    "explanation": "Wichtige Pflichten und Kontakte werden zunehmend vernachlässigt."
+    "explanation": "Wenn Konsum Schule, Arbeit oder Beziehungen verdrängt, sind die Folgen ein Anlass, Unterstützung zu suchen."
   },
   {
     "id": "complex.soc-leisure.014",
@@ -221,7 +221,7 @@
       "Jede sportliche Übung"
     ],
     "correct": 0,
-    "explanation": "Ein Spiel um einen Einsatz, dessen Gewinn wesentlich vom Zufall abhängt"
+    "explanation": "Ein Einsatz kann verloren gehen, obwohl die Person sich anstrengt. Der entscheidende Gewinn hängt wesentlich vom Zufall ab."
   },
   {
     "id": "complex.soc-leisure.015",
@@ -237,7 +237,7 @@
       "Alle Kontakte zugunsten einer einzigen Aktivität aufgeben"
     ],
     "correct": 0,
-    "explanation": "Zeit für Erholung und Verpflichtungen berücksichtigen"
+    "explanation": "Ein voller Freizeitkalender ist nicht automatisch erholsam. Auch Schlaf und freie Zeit ohne Verpflichtung brauchen Platz."
   },
   {
     "id": "complex.soc-leisure.016",
@@ -253,7 +253,7 @@
       "Gesundheitsrisiken betreffen nur verbotene Substanzen."
     ],
     "correct": 0,
-    "explanation": "Auch erlaubte Stoffe können schaden und abhängig machen."
+    "explanation": "Gesetzliche Erlaubnis und gesundheitliche Wirkung beantworten verschiedene Fragen. Ein erlaubtes Produkt kann trotzdem Risiken haben."
   },
   {
     "id": "complex.soc-leisure.017",
@@ -269,7 +269,7 @@
       "Jeder Konsum wird dadurch automatisch selten."
     ],
     "correct": 0,
-    "explanation": "Beginn, Menge oder Ende des Konsums lassen sich schwer steuern."
+    "explanation": "Die Person kann Schwierigkeiten haben, eine selbst gesetzte Grenze einzuhalten. Das unterscheidet Kontrollverlust von einer freien Mengenentscheidung."
   },
   {
     "id": "complex.soc-leisure.018",
@@ -285,7 +285,7 @@
       "Die Person verträgt danach unbegrenzt große Mengen sicher."
     ],
     "correct": 0,
-    "explanation": "Für eine ähnliche Wirkung wird teils mehr vom Stoff benötigt."
+    "explanation": "Der Körper kann sich an einen Stoff gewöhnen. Mehr zu benötigen ist kein Zeichen, dass der Konsum deshalb sicherer wird."
   },
   {
     "id": "complex.soc-leisure.019",
@@ -301,7 +301,7 @@
       "Immer nur freiwillig gespielte Gefühle"
     ],
     "correct": 0,
-    "explanation": "Beschwerden, die bei Absetzen oder Verringerung eines gewohnten Stoffes auftreten können"
+    "explanation": "Der Körper reagiert auf die veränderte Stoffzufuhr. Ob und wie stark Beschwerden auftreten, hängt vom Stoff und der Situation ab."
   },
   {
     "id": "complex.soc-leisure.020",
@@ -317,7 +317,7 @@
       "Betroffene können grundsätzlich nicht unterstützt werden."
     ],
     "correct": 0,
-    "explanation": "Biologische, psychische und soziale Faktoren wirken zusammen."
+    "explanation": "Abhängigkeit entsteht nicht allein aus einer einzelnen Willensentscheidung. Mehrere Einflussbereiche können sich gegenseitig verstärken."
   },
   {
     "id": "complex.soc-leisure.021",
@@ -333,7 +333,7 @@
       "Jeder Jugendliche reagiert auf jeden Stoff genau gleich."
     ],
     "correct": 0,
-    "explanation": "Körper und Gehirn entwickeln sich noch."
+    "explanation": "Entwicklung bedeutet, dass Wirkungen und Risiken nicht einfach mit denen Erwachsener gleichgesetzt werden können."
   },
   {
     "id": "complex.soc-leisure.022",
@@ -349,7 +349,7 @@
       "Ausschließlich das Wachstum von Fingernägeln"
     ],
     "correct": 0,
-    "explanation": "Aufmerksamkeit, Gedächtnis und Reaktionsfähigkeit"
+    "explanation": "Beeinträchtigte Aufmerksamkeit und Reaktion können etwa beim Lernen oder im Straßenverkehr gefährlich werden."
   },
   {
     "id": "complex.soc-leisure.023",
@@ -365,7 +365,7 @@
       "Mischen macht Konsum grundsätzlich gesünder."
     ],
     "correct": 0,
-    "explanation": "Wirkungen können sich unvorhersehbar verstärken."
+    "explanation": "Eine Kombination ist nicht einfach die Summe zweier vorhersehbarer Einzelwirkungen. Gegenseitige Verstärkung kann zusätzliche Risiken schaffen."
   },
   {
     "id": "complex.soc-leisure.024",
@@ -381,7 +381,7 @@
       "Nur auf Werbeversprechen vertrauen"
     ],
     "correct": 0,
-    "explanation": "Frühzeitig eine geeignete Beratungsstelle oder Vertrauensperson ansprechen"
+    "explanation": "Ein frühes Gespräch kann helfen, Risiken und nächste Schritte zu ordnen. Eine eigene sichere Diagnose ist dafür nicht Voraussetzung."
   },
   {
     "id": "complex.soc-leisure.025",
@@ -397,7 +397,7 @@
       "Ihr weitere Getränke geben"
     ],
     "correct": 0,
-    "explanation": "Sofort den Rettungsdienst rufen und den Anweisungen folgen"
+    "explanation": "Bewusstlosigkeit ist ein Notfall. Eine vermeintlich harmlose Ursache darf das Holen professioneller Hilfe nicht verzögern."
   },
   {
     "id": "complex.soc-leisure.026",
@@ -413,7 +413,7 @@
       "Kurze Strecken benötigen keine Aufmerksamkeit."
     ],
     "correct": 0,
-    "explanation": "Wahrnehmung und Reaktion können beeinträchtigt sein."
+    "explanation": "Für das Fahren reicht es nicht, sich subjektiv noch sicher zu fühlen. Schon eine schlechtere Reaktion kann gefährlich sein."
   },
   {
     "id": "complex.soc-leisure.027",
@@ -429,7 +429,7 @@
       "Belastungen mit immer höheren Einsätzen verdrängen"
     ],
     "correct": 0,
-    "explanation": "Bewegung, Entspannung oder Gespräche passend zur Person"
+    "explanation": "Welche Aktivität entlastet, ist individuell. Sie sollte zur Person und zu ihren Möglichkeiten passen, statt zusätzlichen Druck zu erzeugen."
   },
   {
     "id": "complex.soc-leisure.028",
@@ -445,7 +445,7 @@
       "Eine geplante Pause wird eingehalten."
     ],
     "correct": 0,
-    "explanation": "Trotz deutlicher Nachteile gelingt es kaum, das Spielen zu begrenzen."
+    "explanation": "Nicht allein die Spieldauer ist entscheidend. Wichtig ist auch, ob Begrenzen trotz spürbarer Nachteile noch gelingt."
   },
   {
     "id": "complex.soc-leisure.029",
@@ -461,7 +461,7 @@
       "Konsum als Voraussetzung für Freundschaft ansehen"
     ],
     "correct": 0,
-    "explanation": "Ansprechende Bilder von Gesundheitsrisiken unterscheiden helfen"
+    "explanation": "Werbung zeigt häufig erwünschte Gefühle statt möglicher Schäden. Diese beiden Ebenen müssen getrennt beurteilt werden."
   },
   {
     "id": "complex.soc-leisure.030",
@@ -477,7 +477,7 @@
       "Es richtet sich nur an Menschen ohne Freunde."
     ],
     "correct": 0,
-    "explanation": "Gemeinsame Erlebnisse sind ohne Konsum möglich."
+    "explanation": "Eine Gruppe kann Spaß und Zugehörigkeit durch die gemeinsame Tätigkeit erleben. Dafür ist kein Suchtmittel erforderlich."
   },
   {
     "id": "complex.soc-leisure.031",
@@ -493,7 +493,7 @@
       "Ohne starkes Gefühl erreicht ein Stoff nie das Gehirn."
     ],
     "correct": 0,
-    "explanation": "Selbsteinschätzung und tatsächliche Reaktionsfähigkeit können auseinanderliegen."
+    "explanation": "Menschen können ihre Beeinträchtigung unterschätzen. Das eigene Gefühl ist deshalb kein verlässlicher Sicherheitstest."
   },
   {
     "id": "complex.soc-leisure.032",
@@ -509,7 +509,7 @@
       "Eine Abhängigkeit verursacht niemals Nachteile."
     ],
     "correct": 0,
-    "explanation": "Kontrollverlust und Fortsetzung trotz Schäden sind wichtige Warnzeichen."
+    "explanation": "Eine Gewohnheit kann regelmäßig sein, ohne diese Merkmale zu erfüllen. Kontrollverlust und Schäden verdienen besondere Aufmerksamkeit."
   },
   {
     "id": "complex.soc-leisure.033",
@@ -525,7 +525,7 @@
       "Es ersetzt grundsätzlich jede weitere Unterstützung."
     ],
     "correct": 0,
-    "explanation": "Situationen und Muster werden erkennbar."
+    "explanation": "Aufzeichnungen können zeigen, wann, wie oft und in welchen Situationen konsumiert wird. Das unterstützt ein konkretes Beratungsgespräch."
   },
   {
     "id": "complex.soc-leisure.034",
@@ -541,7 +541,7 @@
       "Andere zwingen, ebenfalls zu konsumieren"
     ],
     "correct": 0,
-    "explanation": "Eine unterstützende Person einbeziehen und eine klare Grenze vereinbaren"
+    "explanation": "Ein vorher abgesprochenes Nein und Rückhalt machen es leichter, der Gruppe nicht einfach nachzugeben."
   },
   {
     "id": "complex.soc-leisure.035",
@@ -557,7 +557,7 @@
       "Die Umgebung hat grundsätzlich nie Einfluss auf Verhalten."
     ],
     "correct": 0,
-    "explanation": "Person, Situation, Zusammensetzung und Kombinationen wirken mit."
+    "explanation": "Dieselbe Menge kann je nach körperlicher Verfassung und Umständen unterschiedlich wirken. Eine einzelne Mengenangabe beschreibt daher nicht das ganze Risiko."
   },
   {
     "id": "complex.soc-leisure.036",
@@ -573,7 +573,7 @@
       "Die betroffene Person beschämen und ausschließen"
     ],
     "correct": 0,
-    "explanation": "Unterstützung nutzen und Auslöser sowie nächste Schritte besprechen"
+    "explanation": "Ein Rückfall zeigt, dass der bisherige Plan angepasst werden sollte. Unterstützung bleibt auch danach sinnvoll."
   },
   {
     "id": "complex.soc-leisure.037",
@@ -589,7 +589,7 @@
       "Werbung ist grundsätzlich unabhängige Gesundheitsberatung."
     ],
     "correct": 0,
-    "explanation": "Sie verbindet Produkte oft mit Erfolg, Freiheit oder Zugehörigkeit."
+    "explanation": "Die positiven Bilder sollen das Produkt attraktiv machen. Sie bilden mögliche Schäden und problematische Folgen nicht vollständig ab."
   },
   {
     "id": "complex.soc-leisure.038",
@@ -605,7 +605,7 @@
       "Nur künstliche Farben verursachen Gesundheitsrisiken."
     ],
     "correct": 0,
-    "explanation": "Auch natürliche Stoffe können stark wirken und schaden."
+    "explanation": "Die Herkunft eines Stoffes sagt nicht, wie er auf den Körper wirkt. Natürlich vorkommende Stoffe können ebenfalls giftig sein."
   },
   {
     "id": "complex.soc-leisure.039",
@@ -621,7 +621,7 @@
       "Es handelt sich immer nur um zu viel Freizeit."
     ],
     "correct": 0,
-    "explanation": "Problematisches Verhalten kann suchttypische Merkmale ohne Stoffkonsum zeigen."
+    "explanation": "Auch ohne aufgenommenen Stoff können Kontrollverlust und fortgesetztes Verhalten trotz Schäden auftreten. Eine Diagnose erfordert fachliche Prüfung."
   },
   {
     "id": "complex.soc-leisure.040",
@@ -637,7 +637,7 @@
       "Jede Stunde am Bildschirm beweist eine Abhängigkeit."
     ],
     "correct": 0,
-    "explanation": "Kontrolle, Folgen und Lebensumstände müssen mitbetrachtet werden."
+    "explanation": "Lange Nutzung kann unterschiedliche Gründe haben. Erst der Zusammenhang mit Kontrolle, Belastung und Folgen erlaubt eine angemessene Einschätzung."
   },
   {
     "id": "complex.soc-leisure.041",
@@ -653,7 +653,7 @@
       "Nur Strafen können jeden Menschen dauerhaft schützen."
     ],
     "correct": 0,
-    "explanation": "Wissen, Lebenskompetenzen und erreichbare Unterstützung sind ebenfalls wichtig."
+    "explanation": "Eine Regel erklärt noch nicht, wie man mit Druck oder schwierigen Situationen umgeht. Erreichbare Hilfe ergänzt Prävention."
   },
   {
     "id": "complex.soc-leisure.042",
@@ -669,7 +669,7 @@
       "Unterstützung bedeutet immer, Geld für weitere Suchtmittel zu geben."
     ],
     "correct": 0,
-    "explanation": "Man kann Hilfe anbieten, ohne die Verantwortung der anderen Person zu übernehmen."
+    "explanation": "Unterstützung kann Wege öffnen, garantiert aber keine Entscheidung anderer Menschen. Eigene Grenzen bleiben auch für Helfende wichtig."
   },
   {
     "id": "complex.soc-leisure.043",
@@ -685,7 +685,7 @@
       "Probleme dürfen ausschließlich öffentlich in Gruppen besprochen werden."
     ],
     "correct": 0,
-    "explanation": "Beschämung kann Hilfe erschweren; konkrete Beobachtungen erleichtern Gespräche."
+    "explanation": "„Mir ist aufgefallen, dass du oft fehlst“ beschreibt eine Beobachtung. Ein abwertendes Etikett kann ein offenes Gespräch erschweren."
   },
   {
     "id": "complex.soc-leisure.044",
@@ -701,7 +701,7 @@
       "Für jede Aktivität ohne Prüfung Schulden aufnehmen"
     ],
     "correct": 0,
-    "explanation": "Kosten für Fahrt, Eintritt und Essen vorher prüfen"
+    "explanation": "Der Eintrittspreis allein ist nicht immer der Gesamtpreis. Fahrt und Verpflegung können den Ausflug deutlich teurer machen."
   },
   {
     "id": "complex.soc-leisure.045",
@@ -717,7 +717,7 @@
       "Inklusion hängt nur von der Zahl der Teilnehmenden ab."
     ],
     "correct": 0,
-    "explanation": "Zugang, Kosten und individuelle Bedürfnisse müssen passen."
+    "explanation": "Ein Angebot kann für einige erreichbar sein und andere durch Kosten oder Hindernisse ausschließen. Gemeinsame Planung muss diese Unterschiede berücksichtigen."
   },
   {
     "id": "complex.soc-leisure.046",
@@ -733,7 +733,7 @@
       "Jede Anfängerfrage als Scheitern bewerten"
     ],
     "correct": 0,
-    "explanation": "Ein erreichbares Ziel und passende Unterstützung vereinbaren"
+    "explanation": "Ein kleiner nächster Schritt ist leichter umsetzbar als eine unklare große Erwartung. Unterstützung kann die erste schwierige Phase erleichtern."
   },
   {
     "id": "complex.soc-leisure.047",
@@ -749,7 +749,7 @@
       "Er ist nur an Arbeitstagen nötig."
     ],
     "correct": 0,
-    "explanation": "Er unterstützt Erholung, Konzentration und Leistungsfähigkeit."
+    "explanation": "Freie Zeit ohne ausreichenden Schlaf kann wenig erholsam sein. Erholung unterstützt auch den nächsten Schul- oder Arbeitstag."
   },
   {
     "id": "complex.soc-leisure.048",
@@ -765,7 +765,7 @@
       "Alle bisherigen Erfahrungen ignorieren"
     ],
     "correct": 0,
-    "explanation": "Konkrete Alternativen und erreichbare Unterstützung vorher festlegen"
+    "explanation": "Ein vorher geplanter Ausweg ist in einer Drucksituation leichter abrufbar. Dazu kann eine Person gehören, die tatsächlich erreichbar ist."
   },
   {
     "id": "complex.soc-leisure.049",
@@ -781,7 +781,7 @@
       "Flüssigkeit ersetzt den Rettungsdienst."
     ],
     "correct": 0,
-    "explanation": "Verschlucken und Atemwegsprobleme sind möglich."
+    "explanation": "Eine bewusstlose Person kann nicht sicher schlucken. Flüssigkeit kann in die Atemwege gelangen und die Situation verschlimmern."
   },
   {
     "id": "complex.soc-leisure.050",
@@ -797,6 +797,6 @@
       "Hilfe steht nur Menschen ohne Rückfälle zu."
     ],
     "correct": 0,
-    "explanation": "Menschen mit Abhängigkeit verdienen Unterstützung und respektvolle Behandlung."
+    "explanation": "Abhängigkeit nimmt einem Menschen nicht seine Würde. Respektvolle Hilfe bleibt auch bei Schwierigkeiten oder Rückfällen wichtig."
   }
 ]

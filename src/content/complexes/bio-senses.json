@@ -61,7 +61,7 @@
       "Nervensignale im Gehirn speichern"
     ],
     "correct": 0,
-    "explanation": "Licht bündeln und scharfstellen"
+    "explanation": "Die Linse verändert durch ihre Form die Lichtbrechung. So kann das Bild auf der Netzhaut scharf werden."
   },
   {
     "id": "complex.bio-senses.005",
@@ -77,7 +77,7 @@
       "Tränenflüssigkeit herstellen"
     ],
     "correct": 0,
-    "explanation": "Signale vom Auge zum Gehirn leiten"
+    "explanation": "Die Netzhaut wandelt Lichtreize in elektrische Signale um. Der Sehnerv führt sie zur weiteren Verarbeitung weiter."
   },
   {
     "id": "complex.bio-senses.006",
@@ -125,7 +125,7 @@
       "Den Blutzucker senken"
     ],
     "correct": 0,
-    "explanation": "Lage und Bewegung des Kopfes erfassen"
+    "explanation": "Sinneszellen im Innenohr reagieren auf Bewegungen und die Schwerkraft. Das unterstützt Orientierung und Gleichgewicht."
   },
   {
     "id": "complex.bio-senses.009",
@@ -141,7 +141,7 @@
       "Den Sauerstoffgehalt des Blutes"
     ],
     "correct": 0,
-    "explanation": "Bestimmte Duftstoffe in der Luft"
+    "explanation": "Duftstoffmoleküle lösen sich im Schleim der Nase und wirken dort auf passende Riechrezeptoren."
   },
   {
     "id": "complex.bio-senses.010",
@@ -221,7 +221,7 @@
       "Ein Speicher für Nahrung"
     ],
     "correct": 0,
-    "explanation": "Eine Veränderung, die Sinneszellen erfassen können"
+    "explanation": "Licht, Druck oder Temperatur können sich verändern. Eine passende Sinneszelle wandelt den erfassten Reiz in ein Signal um."
   },
   {
     "id": "complex.bio-senses.015",
@@ -237,7 +237,7 @@
       "Sie erzeugt ausschließlich Geruchssignale."
     ],
     "correct": 0,
-    "explanation": "Sie erfasst unter anderem Berührung und Temperatur."
+    "explanation": "Verschiedene Rezeptoren der Haut sprechen auf unterschiedliche Reize an; die Haut ist nicht auf einen einzigen Sinn beschränkt."
   },
   {
     "id": "complex.bio-senses.016",
@@ -301,7 +301,7 @@
       "Dort liegen ausschließlich besonders viele Zapfen."
     ],
     "correct": 0,
-    "explanation": "Dort tritt der Sehnerv aus; es fehlen Fotorezeptoren."
+    "explanation": "Ohne lichtempfindliche Zellen kann dieser kleine Netzhautbereich kein Lichtsignal erzeugen. Meist ergänzt das Gehirn den Eindruck."
   },
   {
     "id": "complex.bio-senses.020",
@@ -317,7 +317,7 @@
       "Sie ordnen Gerüche bestimmten Erinnerungen zu."
     ],
     "correct": 0,
-    "explanation": "Sie übertragen Schwingungen zum Innenohr."
+    "explanation": "Die Gehörknöchelchen übertragen die Bewegung des Trommelfells auf das ovale Fenster und damit auf Flüssigkeit im Innenohr."
   },
   {
     "id": "complex.bio-senses.021",
@@ -333,7 +333,7 @@
       "Ein Gefäß der Netzhaut"
     ],
     "correct": 0,
-    "explanation": "Eine Kontaktstelle zur Signalübertragung zwischen Zellen"
+    "explanation": "Eine Nervenzelle kann dort Signale an eine weitere Nervenzelle oder beispielsweise eine Muskelzelle weitergeben."
   },
   {
     "id": "complex.bio-senses.022",
@@ -349,7 +349,7 @@
       "Durch neu gebildete Knochenstücke"
     ],
     "correct": 0,
-    "explanation": "Durch chemische Botenstoffe"
+    "explanation": "Der Botenstoff wird freigesetzt und bindet an Rezeptoren der nächsten Zelle. So überbrückt das Signal den synaptischen Spalt."
   },
   {
     "id": "complex.bio-senses.023",
@@ -381,7 +381,7 @@
       "Eine dauerhaft gespeicherte Mahlzeit"
     ],
     "correct": 0,
-    "explanation": "Eine rasche, weitgehend gleichartige unwillkürliche Reaktion"
+    "explanation": "Eine Reflexreaktion wird ohne bewusste Entscheidung ausgelöst. Das spart bei manchen Schutzreaktionen Zeit."
   },
   {
     "id": "complex.bio-senses.025",
@@ -397,7 +397,7 @@
       "Blutzuckeranstieg – Knochenwachstum – Hören"
     ],
     "correct": 0,
-    "explanation": "Reizaufnahme – Nervenleitung – Verschaltung – Muskelreaktion"
+    "explanation": "Sinneszellen melden den Reiz; eine Verschaltung im Nervensystem aktiviert die passenden Muskeln zum Zurückziehen."
   },
   {
     "id": "complex.bio-senses.026",
@@ -413,7 +413,7 @@
       "Er schaltet alle Gehirnaktivität vollständig aus."
     ],
     "correct": 0,
-    "explanation": "Er unterstützt Erholung und Gedächtnisprozesse."
+    "explanation": "Im Schlaf werden unter anderem zuvor aufgenommene Informationen weiterverarbeitet. Er ersetzt das Üben jedoch nicht."
   },
   {
     "id": "complex.bio-senses.027",
@@ -429,7 +429,7 @@
       "Nur bei Schmerzen eine Pause erwägen"
     ],
     "correct": 0,
-    "explanation": "Geeigneten Gehörschutz tragen"
+    "explanation": "Gehörschutz schwächt die Schallbelastung ab, bevor sie das empfindliche Innenohr erreicht."
   },
   {
     "id": "complex.bio-senses.028",
@@ -445,7 +445,7 @@
       "Die Ohren übernehmen das Schmecken."
     ],
     "correct": 0,
-    "explanation": "Riechen trägt wesentlich zum Geschmackserlebnis bei."
+    "explanation": "Die Zunge erfasst Grundgeschmacksrichtungen; die Nase ergänzt viele Aromen. Fehlt das Riechen, fehlen Teile des Gesamteindrucks."
   },
   {
     "id": "complex.bio-senses.029",
@@ -461,7 +461,7 @@
       "Er zerlegt Nahrung in Zucker."
     ],
     "correct": 0,
-    "explanation": "Er leitet ein Bewegungssignal zum Muskel."
+    "explanation": "Motorische Bahnen verbinden die Bewegungssteuerung des Nervensystems mit den Muskeln, die sich zusammenziehen sollen."
   },
   {
     "id": "complex.bio-senses.030",
@@ -477,7 +477,7 @@
       "Nur angenehme Gerüche"
     ],
     "correct": 0,
-    "explanation": "Mögliche Gewebeschädigung etwa durch starke Hitze"
+    "explanation": "Schmerzrezeptoren warnen bei potenziell schädigenden Reizen. Das kann eine schützende Reaktion auslösen."
   },
   {
     "id": "complex.bio-senses.031",
@@ -493,7 +493,7 @@
       "Muskeln reagieren immer vor dem Reiz."
     ],
     "correct": 0,
-    "explanation": "Verarbeitung, Entscheidung und Bewegung benötigen zusätzlich Zeit."
+    "explanation": "Nach der Aufnahme muss das Signal verarbeitet und eine Reaktion ausgelöst werden. Auch die Muskelbewegung braucht Zeit."
   },
   {
     "id": "complex.bio-senses.032",
@@ -525,7 +525,7 @@
       "Das zweite Auge ersetzt die Netzhaut des ersten."
     ],
     "correct": 0,
-    "explanation": "Das Gehirn vergleicht leicht unterschiedliche Bilder."
+    "explanation": "Weil die Augen etwas auseinanderliegen, sehen sie dieselbe Szene aus leicht verschiedenen Blickrichtungen."
   },
   {
     "id": "complex.bio-senses.034",
@@ -541,7 +541,7 @@
       "Die Umwandlung eines Tons in Licht"
     ],
     "correct": 0,
-    "explanation": "Die Anpassung der Linse an unterschiedliche Entfernungen"
+    "explanation": "Für nahe und ferne Gegenstände ist eine unterschiedliche Lichtbrechung nötig. Dazu verändert sich die Linsenform."
   },
   {
     "id": "complex.bio-senses.035",
@@ -557,7 +557,7 @@
       "Das Trommelfell wandelt sich in Haut ohne Nerven um."
     ],
     "correct": 0,
-    "explanation": "Empfindliche Haarzellen im Innenohr können beschädigt werden."
+    "explanation": "Die Haarzellen wandeln Schwingungen in Signale um. Werden sie geschädigt, kann diese Umwandlung dauerhaft beeinträchtigt sein."
   },
   {
     "id": "complex.bio-senses.036",
@@ -573,7 +573,7 @@
       "Dauerhafte Zerstörung aller Riechzellen nach jedem Geruch"
     ],
     "correct": 0,
-    "explanation": "Anpassung der Sinnesverarbeitung an einen dauernden Reiz"
+    "explanation": "Dauerreize werden oft weniger stark wahrgenommen. So fallen neue oder veränderte Reize leichter auf."
   },
   {
     "id": "complex.bio-senses.037",
@@ -589,7 +589,7 @@
       "Nur das Gleichgewichtsorgan erfasst Berührungen."
     ],
     "correct": 0,
-    "explanation": "Mechanorezeptoren der Haut arbeiten unabhängig vom Sehen."
+    "explanation": "Druck und Berührung reizen Sinneszellen in der Haut. Die entstehenden Nervensignale benötigen kein Licht."
   },
   {
     "id": "complex.bio-senses.038",
@@ -605,7 +605,7 @@
       "Sensorische Bahnen bestehen aus Knochen, motorische aus Blut."
     ],
     "correct": 0,
-    "explanation": "Sensorische leiten zum zentralen Nervensystem, motorische zu ausführenden Organen."
+    "explanation": "Die Begriffe beschreiben die Richtung: Information hinein zur Verarbeitung, Bewegungssignal hinaus zum Muskel."
   },
   {
     "id": "complex.bio-senses.039",
@@ -621,7 +621,7 @@
       "Reflexe verhindern dauerhaft jede Wahrnehmung."
     ],
     "correct": 0,
-    "explanation": "Die schnelle Verschaltung und die spätere bewusste Wahrnehmung können nebeneinander erfolgen."
+    "explanation": "Ein Schutzreflex kann bereits über das Rückenmark ausgelöst werden, während Informationen zugleich zum Gehirn weiterlaufen."
   },
   {
     "id": "complex.bio-senses.040",
@@ -637,7 +637,7 @@
       "Die Schrift auf dem Lernblatt kleiner machen"
     ],
     "correct": 0,
-    "explanation": "Benachrichtigungen ausschalten und eine ruhige Lernphase planen"
+    "explanation": "Jede neue Benachrichtigung kann Aufmerksamkeit abziehen. Weniger Unterbrechungen erleichtern es, bei einer Aufgabe zu bleiben."
   },
   {
     "id": "complex.bio-senses.041",
@@ -653,7 +653,7 @@
       "Einmal gespeicherte Informationen können nie verändert werden."
     ],
     "correct": 0,
-    "explanation": "Nervennetzwerke passen sich durch Lernen an."
+    "explanation": "Beim wiederholten Ausführen können Verbindungen und Abläufe im Nervensystem gefestigt werden. Die Aufgabe fällt dann oft leichter."
   },
   {
     "id": "complex.bio-senses.042",
@@ -669,7 +669,7 @@
       "Sie ersetzen die Synapsen durch Blutgefäße."
     ],
     "correct": 0,
-    "explanation": "Sie isolieren Abschnitte und beschleunigen die Erregungsleitung."
+    "explanation": "Die isolierte Nervenfaser leitet die Erregung zwischen den Lücken der Myelinscheide besonders schnell weiter."
   },
   {
     "id": "complex.bio-senses.043",
@@ -685,7 +685,7 @@
       "Sie steuern ausschließlich bewusste Fingerbewegungen."
     ],
     "correct": 0,
-    "explanation": "Sie beeinflussen unbewusste Organfunktionen häufig gegensätzlich."
+    "explanation": "Der Sympathikus unterstützt häufig Aktivität, der Parasympathikus Erholung. Beide wirken auf viele derselben Organe."
   },
   {
     "id": "complex.bio-senses.044",
@@ -701,7 +701,7 @@
       "Die Atmung muss dauerhaft aussetzen."
     ],
     "correct": 0,
-    "explanation": "Der Herzschlag kann schneller werden."
+    "explanation": "Ein schnellerer Herzschlag kann Muskeln rascher mit Blut versorgen und gehört zu den möglichen Alarmreaktionen."
   },
   {
     "id": "complex.bio-senses.045",
@@ -717,7 +717,7 @@
       "Ein einziger Messwert beschreibt alle geistigen Fähigkeiten."
     ],
     "correct": 0,
-    "explanation": "Müdigkeit, Übung und viele weitere Faktoren beeinflussen das Ergebnis."
+    "explanation": "Ein Reaktionstest misst eine konkrete Leistung unter bestimmten Bedingungen, nicht sämtliche Denkfähigkeiten eines Menschen."
   },
   {
     "id": "complex.bio-senses.046",
@@ -733,7 +733,7 @@
       "Das Gehirn erzeugt dazu erst neue Lichtstrahlen im Auge."
     ],
     "correct": 0,
-    "explanation": "Erst die Verarbeitung ordnet Signale zu einem Wahrnehmungseindruck."
+    "explanation": "Sinneszellen liefern Signale. Das Gehirn verbindet sie mit anderen Informationen und Erfahrungen zu einem Eindruck."
   },
   {
     "id": "complex.bio-senses.047",
@@ -749,7 +749,7 @@
       "Das Licht besitzt dabei keine Richtung mehr."
     ],
     "correct": 0,
-    "explanation": "Wahrnehmung enthält Verarbeitung und Deutung."
+    "explanation": "Das Gehirn ergänzt und deutet Sinnesinformationen. Deshalb kann der Wahrnehmungseindruck von messbaren Eigenschaften abweichen."
   },
   {
     "id": "complex.bio-senses.048",
@@ -765,7 +765,7 @@
       "Das Gehirn kann nur während Pausen lernen."
     ],
     "correct": 0,
-    "explanation": "Aufmerksamkeit ist begrenzt und kann sich erholen."
+    "explanation": "Längeres gleichförmiges Arbeiten kann Aufmerksamkeit beanspruchen. Eine Unterbrechung kann beim erneuten Fokussieren helfen."
   },
   {
     "id": "complex.bio-senses.049",
@@ -781,7 +781,7 @@
       "Die Augen schließen, um besser zu hören"
     ],
     "correct": 0,
-    "explanation": "Verkehr aufmerksam beobachten und Warnsignale nicht überdecken"
+    "explanation": "Kopfhörer können wichtige Geräusche wie Klingeln oder herannahende Fahrzeuge verdecken. Aufmerksamkeit für den Verkehr bleibt nötig."
   },
   {
     "id": "complex.bio-senses.050",
@@ -797,6 +797,6 @@
       "Er stellt die Augen auf Nahsicht ein."
     ],
     "correct": 0,
-    "explanation": "Ähnlicher Luftdruck auf beiden Seiten erleichtert das Schwingen des Trommelfells."
+    "explanation": "Ein starker Druckunterschied spannt das Trommelfell ungleich an und behindert seine Bewegung. Die Ohrtrompete ermöglicht Druckausgleich."
   }
 ]

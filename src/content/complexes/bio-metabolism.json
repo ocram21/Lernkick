@@ -29,7 +29,7 @@
       "Eiweiß ins Blut aufnehmen"
     ],
     "correct": 0,
-    "explanation": "Nahrung mechanisch zerkleinern"
+    "explanation": "Kleine Nahrungsstücke lassen sich leichter schlucken und bieten Enzymen mehr Oberfläche."
   },
   {
     "id": "complex.bio-metabolism.003",
@@ -45,7 +45,7 @@
       "Alle Nährstoffe werden dort aufgenommen."
     ],
     "correct": 0,
-    "explanation": "Sie wird gleitfähig und Enzyme beginnen die Spaltung."
+    "explanation": "Speichel befeuchtet die Nahrung. Seine Amylase beginnt, Stärke in kleinere Zucker zu zerlegen."
   },
   {
     "id": "complex.bio-metabolism.004",
@@ -77,7 +77,7 @@
       "Sie nimmt den größten Teil der Nährstoffe auf."
     ],
     "correct": 0,
-    "explanation": "Sie unterstützt die Eiweißverdauung und hemmt viele Keime."
+    "explanation": "Das saure Milieu ist für die Wirkung des Enzyms Pepsin wichtig und erschwert vielen Keimen das Überleben."
   },
   {
     "id": "complex.bio-metabolism.006",
@@ -125,7 +125,7 @@
       "Insulin herstellen"
     ],
     "correct": 0,
-    "explanation": "Wasser und Salze zurückgewinnen"
+    "explanation": "Dadurch verliert der Körper weniger Flüssigkeit; der verbleibende Darminhalt wird eingedickt."
   },
   {
     "id": "complex.bio-metabolism.009",
@@ -157,7 +157,7 @@
       "Zum Ersatz jeder Flüssigkeitsaufnahme"
     ],
     "correct": 0,
-    "explanation": "Zum Aufbau und zur Erneuerung von Gewebe"
+    "explanation": "Eiweiße bestehen aus Aminosäuren, aus denen der Körper unter anderem Muskeln und Enzyme aufbaut."
   },
   {
     "id": "complex.bio-metabolism.011",
@@ -173,7 +173,7 @@
       "Sie sind die wichtigsten Sauerstoffträger im Blut."
     ],
     "correct": 0,
-    "explanation": "Sie liefern Energie und unterstützen die Aufnahme bestimmter Vitamine."
+    "explanation": "Fett speichert viel Energie. Die Vitamine A, D, E und K sind fettlöslich."
   },
   {
     "id": "complex.bio-metabolism.012",
@@ -189,7 +189,7 @@
       "Sie werden vollständig zu Eiweiß umgebaut."
     ],
     "correct": 0,
-    "explanation": "Sie unterstützen die Darmtätigkeit."
+    "explanation": "Viele Ballaststoffe binden Wasser und vergrößern den Darminhalt. Das unterstützt dessen Weitertransport."
   },
   {
     "id": "complex.bio-metabolism.013",
@@ -237,7 +237,7 @@
       "Nahrung zerkleinern"
     ],
     "correct": 0,
-    "explanation": "Blut durch die Gefäße pumpen"
+    "explanation": "Durch rhythmisches Zusammenziehen treibt der Herzmuskel das Blut im Lungen- und Körperkreislauf an."
   },
   {
     "id": "complex.bio-metabolism.016",
@@ -253,7 +253,7 @@
       "Er muss Sauerstoff als Fett speichern."
     ],
     "correct": 0,
-    "explanation": "Seine Zellen setzen mehr Energie um."
+    "explanation": "Bei Belastung steigt der Bedarf an nutzbarer Energie. Für die aerobe Zellatmung ist Sauerstoff nötig."
   },
   {
     "id": "complex.bio-metabolism.017",
@@ -317,7 +317,7 @@
       "Es verschließt die Luftröhre."
     ],
     "correct": 0,
-    "explanation": "Es zieht sich zusammen und senkt sich."
+    "explanation": "Dadurch vergrößert sich der Brustraum. Der Druck sinkt, sodass Luft in die Lunge strömt."
   },
   {
     "id": "complex.bio-metabolism.021",
@@ -349,7 +349,7 @@
       "Eiweiß und Stickstoff"
     ],
     "correct": 0,
-    "explanation": "Kohlenstoffdioxid und Wasser"
+    "explanation": "Glucose wird schrittweise abgebaut. Dabei wird Energie nutzbar, während Kohlenstoffdioxid und Wasser entstehen."
   },
   {
     "id": "complex.bio-metabolism.023",
@@ -365,7 +365,7 @@
       "Sie erzeugt den Harn in der Blase."
     ],
     "correct": 0,
-    "explanation": "Sie verarbeitet und speichert Nährstoffe."
+    "explanation": "Die Leber kann beispielsweise Glucose in Form von Glykogen speichern und bei Bedarf wieder bereitstellen."
   },
   {
     "id": "complex.bio-metabolism.024",
@@ -397,7 +397,7 @@
       "Sie wandelt Fett direkt in Blut um."
     ],
     "correct": 0,
-    "explanation": "Sie verteilt Fett in kleine Tröpfchen."
+    "explanation": "Die vielen Tröpfchen haben zusammen eine große Oberfläche. Dort können fettspaltende Enzyme besser wirken."
   },
   {
     "id": "complex.bio-metabolism.026",
@@ -429,7 +429,7 @@
       "Die Speiseröhre bildet mehr Stärke."
     ],
     "correct": 0,
-    "explanation": "Der Blutzucker sinkt durch Aufnahme und Speicherung von Glucose."
+    "explanation": "Insulin fördert bei vielen Körperzellen die Glucoseaufnahme und unterstützt die Speicherung, etwa als Glykogen."
   },
   {
     "id": "complex.bio-metabolism.028",
@@ -445,7 +445,7 @@
       "Nahrung im Magen zerkleinern"
     ],
     "correct": 0,
-    "explanation": "Blut filtern und den Wasser- sowie Salzhaushalt mitregeln"
+    "explanation": "Die Nieren geben Abfallstoffe mit dem Urin ab und gewinnen benötigte Stoffe und Wasser aus dem Filtrat zurück."
   },
   {
     "id": "complex.bio-metabolism.029",
@@ -461,7 +461,7 @@
       "Die Lunge gibt feste Reste an die Blase ab."
     ],
     "correct": 0,
-    "explanation": "Die Nieren scheiden gelöste Abfallstoffe aus."
+    "explanation": "Beim Stoffwechsel entsteht etwa Harnstoff. Er gelangt mit dem Blut zu den Nieren und von dort in den Urin."
   },
   {
     "id": "complex.bio-metabolism.030",
@@ -477,7 +477,7 @@
       "Der Körper benötigt keinen Kreislauf mehr."
     ],
     "correct": 0,
-    "explanation": "Mehr Sauerstoff wird benötigt und mehr Kohlenstoffdioxid abgegeben."
+    "explanation": "Arbeitende Zellen betreiben mehr Zellatmung. Die Lunge muss deshalb mehr Sauerstoff aufnehmen und Kohlenstoffdioxid abgeben."
   },
   {
     "id": "complex.bio-metabolism.031",
@@ -493,7 +493,7 @@
       "Wasser wird im Mund zu Zucker."
     ],
     "correct": 0,
-    "explanation": "Speichelenzyme spalten Stärke zu kleineren Zuckern."
+    "explanation": "Stärke selbst schmeckt kaum süß. Beim Abbau durch Amylase entstehen unter anderem süß schmeckende Zucker."
   },
   {
     "id": "complex.bio-metabolism.032",
@@ -509,7 +509,7 @@
       "Die Magensäure kann nicht mehr gebildet werden."
     ],
     "correct": 0,
-    "explanation": "Die Fläche zur Aufnahme von Nährstoffen nimmt ab."
+    "explanation": "Darmzotten vergrößern normalerweise die Oberfläche. Weniger Aufnahmefläche kann die Nährstoffaufnahme begrenzen."
   },
   {
     "id": "complex.bio-metabolism.033",
@@ -525,7 +525,7 @@
       "Die Nährstoffe müssen dann nicht mehr gespalten werden."
     ],
     "correct": 0,
-    "explanation": "Kleinere Stücke bieten eine größere Angriffsfläche."
+    "explanation": "Enzyme wirken an zugänglichen Stellen der Nahrung. Zerkleinern macht mehr dieser Stellen erreichbar."
   },
   {
     "id": "complex.bio-metabolism.034",
@@ -541,7 +541,7 @@
       "Verdauung benötigt immer Licht; Zellatmung nur Dunkelheit."
     ],
     "correct": 0,
-    "explanation": "Verdauung zerlegt Nahrung; Zellatmung macht chemische Energie nutzbar."
+    "explanation": "Verdauung liefert aufnehmbare Bausteine. In den Zellen werden daraus unter anderem energiereiche Stoffe für die Zellatmung bereitgestellt."
   },
   {
     "id": "complex.bio-metabolism.035",
@@ -557,7 +557,7 @@
       "Nur Knochen können Energie umwandeln."
     ],
     "correct": 0,
-    "explanation": "Ein Teil wird als Wärme frei oder für andere Lebensvorgänge genutzt."
+    "explanation": "Auch Temperaturregelung, Stofftransport und Zellaufbau benötigen Energie; Bewegung ist nur eine von vielen Nutzungen."
   },
   {
     "id": "complex.bio-metabolism.036",
@@ -573,7 +573,7 @@
       "Nur gesalzene Butter ohne weitere Lebensmittel"
     ],
     "correct": 0,
-    "explanation": "Vollkornbrot mit Quark und Gemüse"
+    "explanation": "Brot liefert unter anderem Kohlenhydrate und Ballaststoffe, Quark Eiweiß, Gemüse verschiedene Vitamine und Mineralstoffe."
   },
   {
     "id": "complex.bio-metabolism.037",
@@ -589,7 +589,7 @@
       "Nur die Verdauung benötigt Energie."
     ],
     "correct": 0,
-    "explanation": "Zellen erhalten Atmung, Kreislauf und andere Lebensvorgänge."
+    "explanation": "Auch ohne sichtbare Bewegung schlagen Herz und Atemmuskeln weiter, und Zellen erhalten ihre inneren Bedingungen."
   },
   {
     "id": "complex.bio-metabolism.038",
@@ -605,7 +605,7 @@
       "Schweiß schaltet die Muskelzellen ab."
     ],
     "correct": 0,
-    "explanation": "Beim Verdunsten wird Wärme aufgenommen."
+    "explanation": "Für den Übergang von flüssigem Wasser zu Wasserdampf wird Energie benötigt. Diese Wärme wird der Umgebung entzogen."
   },
   {
     "id": "complex.bio-metabolism.039",
@@ -621,7 +621,7 @@
       "Das Blut wird dadurch automatisch stärker mit Sauerstoff versorgt."
     ],
     "correct": 0,
-    "explanation": "Der Körper verliert Wasser und Salze."
+    "explanation": "Wasser ist für den Kreislauf und Salze sind für viele Zellfunktionen wichtig. Beides geht mit dem Schweiß verloren."
   },
   {
     "id": "complex.bio-metabolism.040",
@@ -653,7 +653,7 @@
       "Sie enthält statt Blut ausschließlich Luft."
     ],
     "correct": 0,
-    "explanation": "Sie führt sauerstoffarmes Blut vom Herzen zur Lunge."
+    "explanation": "Arterien sind nach ihrer Flussrichtung benannt: Sie führen vom Herzen weg, nicht grundsätzlich sauerstoffreiches Blut."
   },
   {
     "id": "complex.bio-metabolism.042",
@@ -669,7 +669,7 @@
       "Luftdichte Knochenplatten zwischen Luft und Blut"
     ],
     "correct": 0,
-    "explanation": "Dünne Wände und eine große Oberfläche"
+    "explanation": "Eine große Fläche bietet viele Austauschstellen; dünne Wände halten den Weg für die Gase kurz."
   },
   {
     "id": "complex.bio-metabolism.043",
@@ -685,7 +685,7 @@
       "Es wird von Insulin in Sauerstoff verwandelt."
     ],
     "correct": 0,
-    "explanation": "Es diffundiert entlang eines Konzentrationsgefälles."
+    "explanation": "Im ankommenden Blut ist der Kohlenstoffdioxid-Partialdruck höher als in der Luft der Lungenbläschen. Das treibt die Diffusion an."
   },
   {
     "id": "complex.bio-metabolism.044",
@@ -701,7 +701,7 @@
       "Er nimmt Nährstoffe direkt ins Blut auf."
     ],
     "correct": 0,
-    "explanation": "Er hilft, Nahrung aus den Atemwegen fernzuhalten."
+    "explanation": "Nahrung soll in die Speiseröhre gelangen. Das Verschließen des Kehlkopfeingangs unterstützt diese Trennung beim Schlucken."
   },
   {
     "id": "complex.bio-metabolism.045",
@@ -717,7 +717,7 @@
       "Enzyme wirken ausschließlich auf Wasser."
     ],
     "correct": 0,
-    "explanation": "Ihre Wirkung hängt von passenden Substraten ab."
+    "explanation": "Das aktive Zentrum eines Enzyms passt nur zu bestimmten Molekülen. Darum benötigen verschiedene Nährstoffe unterschiedliche Enzyme."
   },
   {
     "id": "complex.bio-metabolism.046",
@@ -733,7 +733,7 @@
       "Die Zunge schiebt einen Bissen nach hinten."
     ],
     "correct": 0,
-    "explanation": "Ein Enzym zerlegt Eiweiß in kleinere Bausteine."
+    "explanation": "Dabei werden chemische Bindungen gespalten. Kauen dagegen verändert zunächst nur die Größe der Nahrungsstücke."
   },
   {
     "id": "complex.bio-metabolism.047",
@@ -749,7 +749,7 @@
       "Vitamine bestehen aus gespeichertem Sauerstoff."
     ],
     "correct": 0,
-    "explanation": "Vitamine erfüllen Regel- und Hilfsfunktionen und liefern kaum Energie."
+    "explanation": "Vitamine unterstützen bestimmte Stoffwechselvorgänge. Gespeichertes Fett kann ihre jeweiligen Funktionen nicht übernehmen."
   },
   {
     "id": "complex.bio-metabolism.048",
@@ -765,7 +765,7 @@
       "Die Nieren wandeln jede zusätzliche Energie in Sauerstoff um."
     ],
     "correct": 0,
-    "explanation": "Ein Teil der überschüssigen Energie wird gespeichert."
+    "explanation": "Wird länger mehr Energie aufgenommen als verbraucht, kann der Körper den Überschuss vor allem als Fett einlagern."
   },
   {
     "id": "complex.bio-metabolism.049",
@@ -781,7 +781,7 @@
       "Sie erzeugen elektrische Impulse im Gehirn."
     ],
     "correct": 0,
-    "explanation": "Ihre dünnen Wände ermöglichen Stoffaustausch mit dem Gewebe."
+    "explanation": "Kapillaren verbinden kleinste Arterien und Venen. Ihre Wände erlauben den Austausch von Gasen und gelösten Stoffen."
   },
   {
     "id": "complex.bio-metabolism.050",
@@ -797,6 +797,6 @@
       "Die Lunge ersetzt die Verdauung, sobald man sich bewegt."
     ],
     "correct": 0,
-    "explanation": "Der Kreislauf bringt Sauerstoff und aufgenommene Nährstoffe zu den Zellen."
+    "explanation": "Die Zellen brauchen beides für die aerobe Zellatmung: Nährstoffbausteine aus dem Darm und Sauerstoff aus der Lunge."
   }
 ]

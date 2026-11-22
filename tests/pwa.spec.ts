@@ -69,7 +69,7 @@ for (const [subject, title] of [['math','Mathematik'],['german','Deutsch'],['soc
     await page.reload();await expect(page.locator('.calculator-grid')).toBeVisible();
     const seen=new Set<string>();
     for(let round=0;round<(subject==='math'||subject==='german'?10:2);round++) {
-      if(round===1&&!['math','german'].includes(subject))await page.getByRole('switch',{name:'Streber',exact:true}).click();await page.getByRole('button',{name:new RegExp(title+', Level ')}).click();if(subject==='german')for(const label of ['Begriffe','Satzbau','Grammatik','Rechtschreibung','Sprichwörter']){const toggle=page.getByRole('switch',{name:label,exact:true});if(await toggle.getAttribute('aria-checked')==='true')await toggle.click();}await page.getByRole('button',{name:'Üben',exact:true}).click();
+      if(round===1&&!['math','german'].includes(subject))await page.getByRole('switch',{name:'Anspruchsvollere Aufgaben',exact:true}).click();await page.getByRole('button',{name:new RegExp(title+', Level ')}).click();if(subject==='german')for(const label of ['Begriffe','Satzbau','Grammatik','Rechtschreibung','Sprichwörter']){const toggle=page.getByRole('switch',{name:label,exact:true});if(await toggle.getAttribute('aria-checked')==='true')await toggle.click();}await page.getByRole('button',{name:'Üben',exact:true}).click();
       for(let i=0;i<10;i++) {
         const prompt=(await page.locator('.question h1,.equation-lines h1').innerText())+(await page.locator('.geometry-figure svg').count()?await page.locator('.geometry-figure svg').getAttribute('aria-label'):'');expect(seen.has(prompt)).toBe(false);seen.add(prompt);
         await answerCorrect(page);

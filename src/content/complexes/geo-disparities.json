@@ -13,7 +13,7 @@
       "Eine überall gleiche Lebensbedingung"
     ],
     "correct": 0,
-    "explanation": "Ein Unterschied zwischen Regionen, etwa bei Einkommen oder Versorgung"
+    "explanation": "Verglichen werden Lebensbedingungen an verschiedenen Orten, nicht nur Grenzen auf einer Karte."
   },
   {
     "id": "complex.geo-disparities.002",
@@ -29,7 +29,7 @@
       "Nur die Zahl der Berge"
     ],
     "correct": 0,
-    "explanation": "Grundausstattung wie Verkehrswege, Netze und Einrichtungen"
+    "explanation": "Straßen, Schulen und Leitungen ermöglichen Arbeit, Versorgung und Austausch."
   },
   {
     "id": "complex.geo-disparities.003",
@@ -45,7 +45,7 @@
       "Ausschließlich im eigenen Haushalt produzieren"
     ],
     "correct": 0,
-    "explanation": "Waren oder Dienstleistungen aus dem Ausland beziehen"
+    "explanation": "Aus Sicht Deutschlands ist ein Einkauf aus Frankreich ein Import."
   },
   {
     "id": "complex.geo-disparities.004",
@@ -61,7 +61,7 @@
       "Nur Geld im Inland sparen"
     ],
     "correct": 0,
-    "explanation": "Waren oder Dienstleistungen ins Ausland verkaufen"
+    "explanation": "Ein Verkauf aus Deutschland nach Frankreich ist aus deutscher Sicht ein Export."
   },
   {
     "id": "complex.geo-disparities.005",
@@ -77,7 +77,7 @@
       "Abschaffung jeder regionalen Produktion"
     ],
     "correct": 0,
-    "explanation": "Zunehmende weltweite Verflechtung von Wirtschaft und Gesellschaft"
+    "explanation": "Produktion, Kommunikation und Handel verbinden immer mehr Orte über Staatsgrenzen hinweg."
   },
   {
     "id": "complex.geo-disparities.006",
@@ -93,7 +93,7 @@
       "Eine Liste aller Staatsgrenzen"
     ],
     "correct": 0,
-    "explanation": "Abfolge von Beschaffung, Herstellung und Lieferung"
+    "explanation": "Fällt ein notwendiger Schritt aus, kann sich die Lieferung des fertigen Produkts verzögern."
   },
   {
     "id": "complex.geo-disparities.007",
@@ -157,7 +157,7 @@
       "Ein einzelnes unbewohntes Gebäude"
     ],
     "correct": 0,
-    "explanation": "Ein dicht besiedeltes Gebiet mit vielen Verflechtungen"
+    "explanation": "Wohnorte, Arbeitsplätze und Verkehrswege liegen hier eng beieinander."
   },
   {
     "id": "complex.geo-disparities.011",
@@ -173,7 +173,7 @@
       "Immer ein tropischer Regenwald"
     ],
     "correct": 0,
-    "explanation": "Ein eher dünn besiedeltes Gebiet mit Dörfern und kleineren Orten"
+    "explanation": "Die geringere Bevölkerungsdichte führt häufig zu größeren Entfernungen zwischen Angeboten."
   },
   {
     "id": "complex.geo-disparities.012",
@@ -189,7 +189,7 @@
       "Nur Waren über einen Hafen ausführen"
     ],
     "correct": 0,
-    "explanation": "Regelmäßig zwischen Wohnort und Arbeitsort fahren"
+    "explanation": "Wohnort und Arbeitsort müssen dafür nicht im selben Ort liegen."
   },
   {
     "id": "complex.geo-disparities.013",
@@ -205,7 +205,7 @@
       "Eine beliebige Flugroute"
     ],
     "correct": 0,
-    "explanation": "Eine Bedingung, die die Wahl eines Betriebsstandorts beeinflusst"
+    "explanation": "Ein Betrieb prüft etwa Transportwege, Arbeitskräfte und Energiekosten."
   },
   {
     "id": "complex.geo-disparities.014",
@@ -221,7 +221,7 @@
       "Jede Warenlieferung zwischen Geschäften"
     ],
     "correct": 0,
-    "explanation": "Verlagerung des Lebensmittelpunktes in einen anderen Raum"
+    "explanation": "Ein Urlaub verlagert den Lebensmittelpunkt normalerweise nicht und zählt deshalb nicht dazu."
   },
   {
     "id": "complex.geo-disparities.015",
@@ -237,7 +237,7 @@
       "Verschiebung der Erdachse"
     ],
     "correct": 0,
-    "explanation": "Zunahme städtischer Bevölkerung und Lebensweisen"
+    "explanation": "Dabei können Städte wachsen und städtische Lebensweisen im Umland zunehmen."
   },
   {
     "id": "complex.geo-disparities.016",
@@ -253,7 +253,7 @@
       "Jede Fabrik braucht einen Flughafen direkt im Gebäude."
     ],
     "correct": 0,
-    "explanation": "Material und Produkte lassen sich leichter transportieren."
+    "explanation": "Kurze, zuverlässige Transportwege können Kosten und Lieferzeiten senken."
   },
   {
     "id": "complex.geo-disparities.017",
@@ -269,7 +269,7 @@
       "Die Drehung der Erde"
     ],
     "correct": 0,
-    "explanation": "Digitale Arbeit und Zugang zu Onlineangeboten"
+    "explanation": "Ohne stabile Verbindung sind etwa Videokonferenzen und digitale Bestellungen schwieriger."
   },
   {
     "id": "complex.geo-disparities.018",
@@ -285,7 +285,7 @@
       "Zahl der abgegebenen Wahlzettel"
     ],
     "correct": 0,
-    "explanation": "Wert der im Inland erzeugten Waren und Dienstleistungen abzüglich Vorleistungen"
+    "explanation": "Vorleistungen werden abgezogen, damit bereits enthaltene Leistungen nicht mehrfach gezählt werden."
   },
   {
     "id": "complex.geo-disparities.019",
@@ -301,7 +301,7 @@
       "Ein Durchschnitt misst nur das Klima."
     ],
     "correct": 0,
-    "explanation": "Einkommen können sehr ungleich verteilt sein."
+    "explanation": "Wenige sehr hohe Einkommen können einen Durchschnitt stark anheben."
   },
   {
     "id": "complex.geo-disparities.020",
@@ -317,7 +317,7 @@
       "Nur die Größe eines Einkaufszentrums"
     ],
     "correct": 0,
-    "explanation": "Welche Waren und Leistungen man mit Geld erwerben kann"
+    "explanation": "Derselbe Geldbetrag kauft bei höheren Preisen weniger Waren."
   },
   {
     "id": "complex.geo-disparities.021",
@@ -333,7 +333,7 @@
       "Indikatoren haben grundsätzlich keinen räumlichen Bezug."
     ],
     "correct": 0,
-    "explanation": "Gesundheit, Bildung und Einkommen zeigen verschiedene Lebensbedingungen."
+    "explanation": "Eine einzelne Kennzahl kann andere wichtige Lebensbereiche nicht abbilden."
   },
   {
     "id": "complex.geo-disparities.022",
@@ -349,7 +349,7 @@
       "Eine Naturkatastrophe am Herkunftsort"
     ],
     "correct": 0,
-    "explanation": "Gute Ausbildungs- und Arbeitsmöglichkeiten"
+    "explanation": "Attraktive Möglichkeiten am Zielort ziehen Menschen an; daher heißt es Pull-Faktor."
   },
   {
     "id": "complex.geo-disparities.023",
@@ -365,7 +365,7 @@
       "Eine gute Bahnverbindung am Zielort"
     ],
     "correct": 0,
-    "explanation": "Fehlende Zukunftsperspektiven am Herkunftsort"
+    "explanation": "Belastungen am Herkunftsort können Menschen zum Wegzug bewegen; daher Push-Faktor."
   },
   {
     "id": "complex.geo-disparities.024",
@@ -381,7 +381,7 @@
       "Verkehr entsteht nur zwischen Kontinenten."
     ],
     "correct": 0,
-    "explanation": "Menschen nutzen Arbeitsplätze und Angebote an unterschiedlichen Orten."
+    "explanation": "Wer im Umland wohnt und in der Stadt arbeitet, verbindet beide Räume regelmäßig."
   },
   {
     "id": "complex.geo-disparities.025",
@@ -397,7 +397,7 @@
       "Jede Firma mit mehr als einem Mitarbeiter"
     ],
     "correct": 0,
-    "explanation": "Ein Unternehmen mit Aktivitäten in mehreren Staaten"
+    "explanation": "Produktion, Verkauf oder andere betriebliche Tätigkeiten verteilen sich über Staatsgrenzen."
   },
   {
     "id": "complex.geo-disparities.026",
@@ -413,7 +413,7 @@
       "Transportwege werden grundsätzlich bedeutungslos."
     ],
     "correct": 0,
-    "explanation": "Ein Produkt wird an mehreren Orten hergestellt."
+    "explanation": "Ein Bauteil kann aus einem anderen Land kommen als die Endmontage."
   },
   {
     "id": "complex.geo-disparities.027",
@@ -429,7 +429,7 @@
       "Jede Lagerstätte gehört automatisch allen Bewohnern gleichmäßig."
     ],
     "correct": 0,
-    "explanation": "Verarbeitung, Verteilung und politische Bedingungen spielen ebenfalls eine Rolle."
+    "explanation": "Einnahmen aus Rohstoffen müssen nicht allen Menschen zugutekommen."
   },
   {
     "id": "complex.geo-disparities.028",
@@ -445,7 +445,7 @@
       "Garantiert alle Unternehmen verlustfrei machen"
     ],
     "correct": 0,
-    "explanation": "Schwächere Regionen bei Infrastruktur und Entwicklung unterstützen"
+    "explanation": "Investitionen können Nachteile verringern, garantieren aber keinen sofortigen Aufschwung."
   },
   {
     "id": "complex.geo-disparities.029",
@@ -461,7 +461,7 @@
       "Alle Beschäftigten haben zu viele Abschlüsse."
     ],
     "correct": 0,
-    "explanation": "Betriebe finden für bestimmte Aufgaben nicht genügend qualifizierte Menschen."
+    "explanation": "Entscheidend sind passende Fähigkeiten für konkrete Stellen, nicht nur die Zahl der Bewerber."
   },
   {
     "id": "complex.geo-disparities.030",
@@ -477,7 +477,7 @@
       "Umwelt grundsätzlich ohne soziale Fragen betrachten"
     ],
     "correct": 0,
-    "explanation": "Heutige Bedürfnisse erfüllen und zukünftige Lebensgrundlagen erhalten"
+    "explanation": "Kurzfristige Vorteile sollen nicht die Möglichkeiten späterer Generationen zerstören."
   },
   {
     "id": "complex.geo-disparities.031",
@@ -493,7 +493,7 @@
       "Ungleichheit des Meeressalzgehalts"
     ],
     "correct": 0,
-    "explanation": "Ungleichheit beim Zugang zur Gesundheitsversorgung"
+    "explanation": "Ein längerer Weg macht Versorgung trotz gleicher Behandlungsrechte schwerer erreichbar."
   },
   {
     "id": "complex.geo-disparities.032",
@@ -509,7 +509,7 @@
       "Es erfasst ausschließlich private Ersparnisse."
     ],
     "correct": 0,
-    "explanation": "Es ist ein rechnerischer Durchschnitt der Wirtschaftsleistung."
+    "explanation": "Die Wirtschaftsleistung wird rechnerisch durch die Einwohnerzahl geteilt, nicht als Einkommen ausgezahlt."
   },
   {
     "id": "complex.geo-disparities.033",
@@ -525,7 +525,7 @@
       "Lohnhöhe hat keinerlei Bedeutung für Beschäftigte."
     ],
     "correct": 0,
-    "explanation": "Arbeitsbedingungen und Existenzsicherung müssen zusätzlich betrachtet werden."
+    "explanation": "Ein billiger Produktionsstandort kann für Beschäftigte unzureichende Lebensbedingungen bedeuten."
   },
   {
     "id": "complex.geo-disparities.034",
@@ -541,7 +541,7 @@
       "Container ersetzen sämtliche Verkehrswege."
     ],
     "correct": 0,
-    "explanation": "Viele aufeinander angewiesene Produktionsschritte können unterbrochen werden."
+    "explanation": "Fehlt ein notwendiges Teil, können auch nachfolgende Betriebe nicht weiterarbeiten."
   },
   {
     "id": "complex.geo-disparities.035",
@@ -557,7 +557,7 @@
       "Die Lage der Erdumlaufbahn"
     ],
     "correct": 0,
-    "explanation": "Die Fläche und damit die Bevölkerungsdichte"
+    "explanation": "Erst Einwohner pro Fläche machen unterschiedlich große Gebiete besser vergleichbar."
   },
   {
     "id": "complex.geo-disparities.036",
@@ -573,7 +573,7 @@
       "Statistische Werte sind unabhängig von ihrer Bezugsgruppe."
     ],
     "correct": 0,
-    "explanation": "Durch andere Gebietsabgrenzungen können sich Durchschnittswerte ändern."
+    "explanation": "Eine wohlhabende Teilregion kann in einem größeren Gebiet mit schwächeren Regionen zusammengefasst sein."
   },
   {
     "id": "complex.geo-disparities.037",
@@ -589,7 +589,7 @@
       "Räumliche Nähe verhindert jeden Wettbewerb."
     ],
     "correct": 0,
-    "explanation": "Nähe vieler Betriebe erleichtert Austausch, Zulieferung und Fachkräftesuche."
+    "explanation": "Räumliche Nähe verkürzt Wege und erleichtert Zusammenarbeit zwischen spezialisierten Betrieben."
   },
   {
     "id": "complex.geo-disparities.038",
@@ -605,7 +605,7 @@
       "Alle verbliebenen Einwohner erhalten automatisch Arbeit."
     ],
     "correct": 0,
-    "explanation": "Altersstruktur und Nachfrage nach Einrichtungen verändern sich."
+    "explanation": "Mit weniger jungen Menschen verändern sich etwa Bedarf an Schulen und verfügbaren Arbeitskräften."
   },
   {
     "id": "complex.geo-disparities.039",
@@ -621,7 +621,7 @@
       "Verkehrswege beeinflussen ausschließlich das Wetter."
     ],
     "correct": 0,
-    "explanation": "Erreichbarkeit, Belastungen und wirtschaftliche Chancen verteilen sich ungleich."
+    "explanation": "Neue Anschlüsse können helfen, während andere Orte Lärm oder zusätzlichen Verkehr tragen."
   },
   {
     "id": "complex.geo-disparities.040",
@@ -637,7 +637,7 @@
       "Andere Staaten müssen es unbegrenzt kaufen."
     ],
     "correct": 0,
-    "explanation": "Preisschwankungen treffen die Wirtschaft besonders stark."
+    "explanation": "Sinkt der Preis des wichtigsten Exportguts, fehlen schnell große Teile der Einnahmen."
   },
   {
     "id": "complex.geo-disparities.041",
@@ -653,7 +653,7 @@
       "Handel funktioniert dann ohne Preise und Verträge."
     ],
     "correct": 0,
-    "explanation": "Bessere Bedingungen können Einkommen und Planungssicherheit fördern."
+    "explanation": "Verlässlichere Erlöse können Investitionen ermöglichen; Handel allein löst nicht alle Probleme."
   },
   {
     "id": "complex.geo-disparities.042",
@@ -669,7 +669,7 @@
       "Importierte Waren benötigen grundsätzlich keine Ressourcen."
     ],
     "correct": 0,
-    "explanation": "Ein Produkt kann Umweltbelastungen an anderen Produktionsorten verursachen."
+    "explanation": "Herstellung benötigt zum Beispiel Wasser und Energie, auch wenn der Kauf anderswo erfolgt."
   },
   {
     "id": "complex.geo-disparities.043",
@@ -685,7 +685,7 @@
       "Eine neue Straße beendet jede Abwanderung dauerhaft."
     ],
     "correct": 0,
-    "explanation": "Neue Arbeitsplätze ziehen Menschen an, dadurch wächst die Nachfrage vor Ort."
+    "explanation": "Mehr Nachfrage kann weitere Betriebe anziehen und damit die Entwicklung verstärken."
   },
   {
     "id": "complex.geo-disparities.044",
@@ -701,7 +701,7 @@
       "Er erzeugt grundsätzlich keine Arbeitsplätze."
     ],
     "correct": 0,
-    "explanation": "Er schafft Einkommen, kann aber Natur und Wohnraum belasten."
+    "explanation": "Gäste schaffen Nachfrage, gleichzeitig brauchen Unterkünfte Platz und Ressourcen."
   },
   {
     "id": "complex.geo-disparities.045",
@@ -717,7 +717,7 @@
       "Geldbeträge messen nur Bevölkerungsdichte."
     ],
     "correct": 0,
-    "explanation": "Preisänderungen verändern die Kaufkraft."
+    "explanation": "Bei gestiegenen Preisen bedeutet ein höherer Geldbetrag nicht unbedingt mehr verfügbare Güter."
   },
   {
     "id": "complex.geo-disparities.046",
@@ -733,7 +733,7 @@
       "Jeder Staat verteilt das BIP gleichmäßig an alle Haushalte."
     ],
     "correct": 0,
-    "explanation": "Landesdurchschnitte verdecken soziale und regionale Unterschiede."
+    "explanation": "Ein Durchschnitt beschreibt eine Gruppe und nicht jeden einzelnen Menschen."
   },
   {
     "id": "complex.geo-disparities.047",
@@ -749,7 +749,7 @@
       "Jede wirtschaftliche Krise für immer verhindern"
     ],
     "correct": 0,
-    "explanation": "Qualifikationen und berufliche Möglichkeiten verbessern"
+    "explanation": "Ausbildung erweitert Fähigkeiten, die für unterschiedliche Berufe und neue Betriebe gebraucht werden."
   },
   {
     "id": "complex.geo-disparities.048",
@@ -765,7 +765,7 @@
       "Import und Export können nie denselben Betrieb betreffen."
     ],
     "correct": 0,
-    "explanation": "Viele Exportprodukte enthalten Bauteile aus anderen Ländern."
+    "explanation": "Beim Export eines Endprodukts wird auch der Wert zuvor eingeführter Bauteile mit erfasst."
   },
   {
     "id": "complex.geo-disparities.049",
@@ -781,7 +781,7 @@
       "Nur der Name des größten Berges"
     ],
     "correct": 0,
-    "explanation": "Karten der Pendler- und Warenströme"
+    "explanation": "Ströme zeigen Beziehungen zwischen Orten; eine Ortszahl zeigt diese Bewegungen nicht."
   },
   {
     "id": "complex.geo-disparities.050",
@@ -797,6 +797,6 @@
       "Ob alle Gebiete gleich groß gezeichnet sind"
     ],
     "correct": 0,
-    "explanation": "Legende, Bezugsgröße, Zeitraum und Gebietsabgrenzung"
+    "explanation": "Ohne diese Angaben bleibt unklar, welche Werte und Räume tatsächlich verglichen werden."
   }
 ]

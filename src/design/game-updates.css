@@ -64,3 +64,6 @@
 @media(max-width:699px) and (max-height:650px){.home-screen .home-console .calculator-key{height:calc(var(--home-key-height) - max(0px,568px - 100dvh) / 3 - (var(--home-safe-top) + var(--home-safe-bottom)) / 3)}}
 @media(max-width:699px) and (max-height:650px){:root[data-compact=true] .home-screen>main{padding-top:7px}:root[data-compact=true] .home-screen .calculator-grid{row-gap:10px}}
 @media(min-width:700px) and (max-height:760px){.home-screen .home-console .calculator-key{height:min(var(--home-key-height),max(96px,calc(126px - (760px - 100dvh) / 3)))}}
+
+/* Stable identities keep code colors distinguishable without color vision. */
+.code-symbol{display:grid;place-items:center;width:1.15em;height:1.15em;background:var(--calc-display);color:var(--calc-ink);border-radius:2px;font-size:.75em;line-height:1}

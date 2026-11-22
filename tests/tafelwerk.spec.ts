@@ -43,7 +43,7 @@ test('Pfeiltasten bleiben auf die Tafel begrenzt; Schrittgrenzen und Rückweg',a
 });
 test('Tafelwerk funktioniert offline und erhält Lernstände und gespeicherte Runden',async({page,context})=>{
  await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
- await page.getByRole('button',{name:'Mathematik, Level 1',exact:true}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();
+ await page.getByRole('button',{name:/^Mathematik, \d+ abgeschlossene Runden$/,exact:true}).click();await page.getByRole('button',{name:'Üben',exact:true}).click();
  await page.getByRole('button',{name:'Ausgang',exact:true}).click();
  const read=()=>page.evaluate(()=>new Promise<any>((resolve,reject)=>{const r=indexedDB.open('lernkick',1);r.onerror=()=>reject(r.error);r.onsuccess=()=>{const g=r.result.transaction('user').objectStore('user').get('data');g.onsuccess=()=>{resolve(g.result);r.result.close();};};}));
  const before=await read();expect(before.rounds.math).toBeTruthy();

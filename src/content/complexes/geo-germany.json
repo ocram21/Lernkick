@@ -109,7 +109,7 @@
       "Eine Hochseeregion ohne Städte"
     ],
     "correct": 0,
-    "explanation": "Einen früher stark von Kohle und Stahl geprägten Industrieraum"
+    "explanation": "Bergbau, Stahlproduktion und Zulieferbetriebe prägten dort lange Arbeit und Siedlungen."
   },
   {
     "id": "complex.geo-germany.008",
@@ -157,7 +157,7 @@
       "Eine Senke unter dem Meeresboden"
     ],
     "correct": 0,
-    "explanation": "Ein Gebirge mit geringeren Höhen und meist gerundeteren Formen als Hochgebirge"
+    "explanation": "Das Mittelgebirge ist als Landschaftsform vom flachen Tiefland und vom Hochgebirge zu unterscheiden."
   },
   {
     "id": "complex.geo-germany.011",
@@ -173,7 +173,7 @@
       "Nur eine geerntete Kartoffel"
     ],
     "correct": 0,
-    "explanation": "Eine Leistung wie Pflege, Beratung oder Transport"
+    "explanation": "Es entsteht vor allem ein Nutzen für andere, nicht zwingend ein neues körperliches Produkt."
   },
   {
     "id": "complex.geo-germany.012",
@@ -189,7 +189,7 @@
       "Nur die Versorgung privater Haushalte mit Freizeit"
     ],
     "correct": 0,
-    "explanation": "Die meist arbeitsteilige Herstellung und Verarbeitung von Gütern"
+    "explanation": "Viele Arbeitsschritte und spezialisierte Betriebe wirken an der Herstellung mit."
   },
   {
     "id": "complex.geo-germany.013",
@@ -221,7 +221,7 @@
       "Eine Liste aller Regenmengen"
     ],
     "correct": 0,
-    "explanation": "Miteinander verbundene Wege und Knoten des Verkehrs"
+    "explanation": "Knoten wie Häfen und Bahnhöfe verbinden die einzelnen Verkehrswege."
   },
   {
     "id": "complex.geo-germany.015",
@@ -237,7 +237,7 @@
       "Ein Land darf nichts importieren."
     ],
     "correct": 0,
-    "explanation": "Ein wichtiger Teil der Produktion wird im Ausland verkauft."
+    "explanation": "Betriebe sind dadurch auch von Nachfrage und Bedingungen auf ausländischen Märkten abhängig."
   },
   {
     "id": "complex.geo-germany.016",
@@ -253,7 +253,7 @@
       "Sie ersetzen sämtliche Fachkräfte."
     ],
     "correct": 0,
-    "explanation": "Sie erleichtern Transporte und Erreichbarkeit."
+    "explanation": "Rohstoffe müssen zum Betrieb und Produkte zu Kunden gelangen."
   },
   {
     "id": "complex.geo-germany.017",
@@ -269,7 +269,7 @@
       "Ausschließlich die Entfernung zum Äquator"
     ],
     "correct": 0,
-    "explanation": "Qualifizierte Beschäftigte und Wissenseinrichtungen"
+    "explanation": "Forschung benötigt fachliches Wissen und Austausch mit anderen Wissenseinrichtungen."
   },
   {
     "id": "complex.geo-germany.018",
@@ -285,7 +285,7 @@
       "Die Bevölkerung arbeitet danach nur noch im Bergbau."
     ],
     "correct": 0,
-    "explanation": "Andere Branchen gewinnen gegenüber Kohle und Stahl an Bedeutung."
+    "explanation": "Die Wirtschaftsstruktur verändert sich, wenn andere Tätigkeiten und Arbeitgeber wichtiger werden."
   },
   {
     "id": "complex.geo-germany.019",
@@ -301,7 +301,7 @@
       "Importe sind nur für Urlaubsreisen notwendig."
     ],
     "correct": 0,
-    "explanation": "Sie benötigen Rohstoffe, Energie oder Vorprodukte aus anderen Ländern."
+    "explanation": "Nicht alle benötigten Ausgangsstoffe werden in Deutschland in ausreichender Menge gewonnen."
   },
   {
     "id": "complex.geo-germany.020",
@@ -333,7 +333,7 @@
       "Ein Kanal nur für Personenschiffe"
     ],
     "correct": 0,
-    "explanation": "Rohstoffabbau in einer offenen Grube"
+    "explanation": "Beim Tagebau wird die Erdoberfläche über der Lagerstätte abgetragen."
   },
   {
     "id": "complex.geo-germany.022",
@@ -349,7 +349,7 @@
       "Ein Fluss bildet ein neues Delta."
     ],
     "correct": 0,
-    "explanation": "Boden wird durch Gebäude oder dichte Beläge bedeckt."
+    "explanation": "Wasser kann dort oft schlechter versickern und Bodenfunktionen gehen verloren."
   },
   {
     "id": "complex.geo-germany.023",
@@ -365,7 +365,7 @@
       "Er macht alle Pflanzen unabhängig von Wasser."
     ],
     "correct": 0,
-    "explanation": "Er erleichtert gute Erträge bei passenden weiteren Bedingungen."
+    "explanation": "Pflanzen benötigen neben Nährstoffen im Boden auch geeignete Temperaturen und Wasser."
   },
   {
     "id": "complex.geo-germany.024",
@@ -381,7 +381,7 @@
       "Eine reine Rohstofflagerstätte im Gebirge"
     ],
     "correct": 0,
-    "explanation": "Einen Ort zur Bündelung, Lagerung und Verteilung von Waren"
+    "explanation": "Waren verschiedener Herkunft werden dort gesammelt und für weitere Ziele verteilt."
   },
   {
     "id": "complex.geo-germany.025",
@@ -397,7 +397,7 @@
       "Eine einzige Lieferung ohne weitere Beziehungen"
     ],
     "correct": 0,
-    "explanation": "Verflechtung von Produktion, Einkommen und Nachfrage innerhalb einer Region"
+    "explanation": "Ausgaben der Haushalte werden zu Einnahmen anderer örtlicher Betriebe und Beschäftigter."
   },
   {
     "id": "complex.geo-germany.026",
@@ -413,7 +413,7 @@
       "Alle ländlichen Räume besitzen keinerlei Arbeitsplätze."
     ],
     "correct": 0,
-    "explanation": "Ausbildung, Arbeit und vielfältige Angebote können attraktiv sein."
+    "explanation": "Die Entscheidung hängt von persönlichen Möglichkeiten ab; nicht jede Großstadt ist für jeden günstiger."
   },
   {
     "id": "complex.geo-germany.027",
@@ -429,7 +429,7 @@
       "Unmöglichkeit jeder digitalen Verbindung unabhängig vom Ausbau"
     ],
     "correct": 0,
-    "explanation": "Weite Wege zu Versorgung, Ausbildung oder medizinischen Angeboten"
+    "explanation": "Wenige Bewohner auf großer Fläche können dichte Angebote und häufige Verbindungen erschweren."
   },
   {
     "id": "complex.geo-germany.028",
@@ -445,7 +445,7 @@
       "Einen bestehenden Wald vollständig versiegeln"
     ],
     "correct": 0,
-    "explanation": "Eine vom Abbau veränderte Fläche wieder nutzbar und ökologisch gestaltbar machen"
+    "explanation": "Nach Abbau können beispielsweise neue Nutzflächen oder naturnahe Lebensräume entstehen."
   },
   {
     "id": "complex.geo-germany.029",
@@ -461,7 +461,7 @@
       "Sie dürfen nicht ausbilden."
     ],
     "correct": 0,
-    "explanation": "Sie tragen wesentlich zu Beschäftigung und Wertschöpfung bei."
+    "explanation": "Auch viele kleinere Betriebe zusammen beschäftigen zahlreiche Menschen und erzeugen Produkte und Leistungen."
   },
   {
     "id": "complex.geo-germany.030",
@@ -477,7 +477,7 @@
       "Tourismus ist nur an einer Meeresküste möglich."
     ],
     "correct": 0,
-    "explanation": "Natur, Kultur und Erreichbarkeit unterscheiden sich."
+    "explanation": "Reiseziele unterscheiden sich zum Beispiel durch Küste, Gebirge, Städte und erreichbare Angebote."
   },
   {
     "id": "complex.geo-germany.031",
@@ -493,7 +493,7 @@
       "Sie macht Verkehrsplanung überflüssig."
     ],
     "correct": 0,
-    "explanation": "Sie erleichtert Verbindungen, führt aber auch zu viel Transitverkehr."
+    "explanation": "Durchgangsverkehr bringt Verbindungen, aber auch Lärm und Flächenbedarf."
   },
   {
     "id": "complex.geo-germany.032",
@@ -509,7 +509,7 @@
       "Alle anderen Betriebe gewinnen automatisch Umsatz."
     ],
     "correct": 0,
-    "explanation": "Zulieferer, Handel und kommunale Einnahmen können ebenfalls betroffen sein."
+    "explanation": "Wenn ein wichtiger Kunde wegfällt, sinken auch Aufträge und Ausgaben bei anderen Betrieben."
   },
   {
     "id": "complex.geo-germany.033",
@@ -525,7 +525,7 @@
       "Der billigste Standort ist für jede Branche immer der beste."
     ],
     "correct": 0,
-    "explanation": "Verkehr, Fachkräfte, Energie und Absatz müssen ebenfalls passen."
+    "explanation": "Eine billige Fläche kann durch ungünstige laufende Kosten oder schlechte Erreichbarkeit teuer werden."
   },
   {
     "id": "complex.geo-germany.034",
@@ -541,7 +541,7 @@
       "Wind- und Sonnenenergie entstehen überall zu jeder Zeit gleich stark."
     ],
     "correct": 0,
-    "explanation": "Erzeugung, Netze und Verbrauch müssen über Regionen verbunden werden."
+    "explanation": "Strom muss von Erzeugungsorten zu den Verbrauchern transportiert werden können."
   },
   {
     "id": "complex.geo-germany.035",
@@ -557,7 +557,7 @@
       "Alle Beteiligten haben immer genau dasselbe Interesse."
     ],
     "correct": 0,
-    "explanation": "Klimaschutz, Landschaft, Artenschutz und Anwohnerinteressen sind abzuwägen."
+    "explanation": "Ein Projekt kann unterschiedlichen Zielen zugleich nützen oder entgegenstehen."
   },
   {
     "id": "complex.geo-germany.036",
@@ -573,7 +573,7 @@
       "Schienen können grundsätzlich keine Container tragen."
     ],
     "correct": 0,
-    "explanation": "Ein Teil der Transporte kann von der Straße auf die Bahn wechseln."
+    "explanation": "Dafür müssen passende Anschlüsse und ausreichend nutzbare Kapazitäten vorhanden sein."
   },
   {
     "id": "complex.geo-germany.037",
@@ -589,7 +589,7 @@
       "Nur Schiffe beeinflussen die Verteilung von Waren."
     ],
     "correct": 0,
-    "explanation": "Seeverkehr und Landverkehr sind wirtschaftlich verknüpft."
+    "explanation": "Ohne Weitertransport ins Binnenland endet die Warenkette am Hafen."
   },
   {
     "id": "complex.geo-germany.038",
@@ -605,7 +605,7 @@
       "Alle älteren Menschen haben identische Bedürfnisse."
     ],
     "correct": 0,
-    "explanation": "Arbeitskräfteangebot und Nachfrage nach Leistungen verändern sich."
+    "explanation": "Ändern sich Alter und Zahl der Bewohner, ändern sich auch Berufsnachwuchs und Versorgungsbedarf."
   },
   {
     "id": "complex.geo-germany.039",
@@ -621,7 +621,7 @@
       "Standortfaktoren wie Strom und Beschäftigte abschaffen"
     ],
     "correct": 0,
-    "explanation": "Kundenkontakte und bestimmte Arbeiten über größere Entfernungen organisieren"
+    "explanation": "Schnelle Verbindungen ermöglichen etwa Onlineverkauf und Zusammenarbeit mit entfernten Kunden."
   },
   {
     "id": "complex.geo-germany.040",
@@ -637,7 +637,7 @@
       "Regionale Daten dürfen grundsätzlich nicht verglichen werden."
     ],
     "correct": 0,
-    "explanation": "Auch innerhalb dieser Großräume gibt es große Unterschiede."
+    "explanation": "Ein grober Durchschnitt kann Unterschiede zwischen Großstadt und ländlichem Raum verdecken."
   },
   {
     "id": "complex.geo-germany.041",
@@ -653,7 +653,7 @@
       "Arbeitswege spielen danach keine Rolle mehr."
     ],
     "correct": 0,
-    "explanation": "Mieten und Pendeldistanzen können steigen."
+    "explanation": "Hohe Mieten können Menschen zu weiter entfernten Wohnorten drängen."
   },
   {
     "id": "complex.geo-germany.042",
@@ -669,7 +669,7 @@
       "Neue Nutzung ist auf bestehenden Flächen grundsätzlich unmöglich."
     ],
     "correct": 0,
-    "explanation": "Bereits genutzte Flächen werden neu genutzt, statt zusätzliche freie Flächen zu bebauen."
+    "explanation": "Die neue Nutzung vorhandener Standorte kann weiteren Verbrauch unbebauter Böden begrenzen."
   },
   {
     "id": "complex.geo-germany.043",
@@ -685,7 +685,7 @@
       "Eine Mauer an einem Ort beseitigt jedes Hochwasserrisiko überall."
     ],
     "correct": 0,
-    "explanation": "Siedlungen und Verkehrswege können in Überschwemmungsräumen liegen."
+    "explanation": "Neue Bauten können gefährdet sein und zugleich Überflutungsflächen einschränken."
   },
   {
     "id": "complex.geo-germany.044",
@@ -701,7 +701,7 @@
       "Die Tragfähigkeit einer Güterbrücke"
     ],
     "correct": 0,
-    "explanation": "Kultur- und Freizeitangebote für Beschäftigte"
+    "explanation": "Solche Angebote beeinflussen die Lebensqualität, lassen sich aber schwer direkt in Betriebskosten ausdrücken."
   },
   {
     "id": "complex.geo-germany.045",
@@ -717,7 +717,7 @@
       "Industrie umfasst automatisch sämtliche private Haushaltsarbeit."
     ],
     "correct": 0,
-    "explanation": "Dienstleistungen und andere Sektoren tragen ebenfalls bei."
+    "explanation": "Zur gesamten Wirtschaftsleistung gehören auch etwa Handel, Verkehr, Bildung und weitere Leistungen."
   },
   {
     "id": "complex.geo-germany.046",
@@ -733,7 +733,7 @@
       "Sämtliche Schulen schließen, um Flächen zu gewinnen"
     ],
     "correct": 0,
-    "explanation": "Weiterbildung, neue Betriebe und passende Infrastruktur fördern"
+    "explanation": "Vorhandene Fähigkeiten können durch Weiterbildung für andere Tätigkeiten nutzbar werden."
   },
   {
     "id": "complex.geo-germany.047",
@@ -749,7 +749,7 @@
       "Dass Produktionsschritte in Deutschland stattgefunden haben können"
     ],
     "correct": 0,
-    "explanation": "Dass alle Vorprodukte ausschließlich aus Deutschland stammen"
+    "explanation": "Ein in Deutschland hergestelltes Endprodukt kann importierte Bauteile und Rohstoffe enthalten."
   },
   {
     "id": "complex.geo-germany.048",
@@ -765,7 +765,7 @@
       "Wasser dient immer nur der Gebäudereinigung."
     ],
     "correct": 0,
-    "explanation": "Einige Prozesse benötigen Kühl- oder Prozesswasser."
+    "explanation": "Knappes Wasser kann die Produktion begrenzen oder aufwendige Lösungen erforderlich machen."
   },
   {
     "id": "complex.geo-germany.049",
@@ -781,7 +781,7 @@
       "Sie sind nur durch identische Wappen verbunden."
     ],
     "correct": 0,
-    "explanation": "Pendler, Lieferbeziehungen und gemeinsame Infrastruktur verbinden sie."
+    "explanation": "Wirtschaftliche Beziehungen orientieren sich an tatsächlichen Wegen und Partnern, nicht nur an Verwaltungsgrenzen."
   },
   {
     "id": "complex.geo-germany.050",
@@ -797,6 +797,6 @@
       "Wirtschaft grundsätzlich ohne Menschen und Natur planen"
     ],
     "correct": 0,
-    "explanation": "Beschäftigung fördern und Umwelt sowie soziale Teilhabe berücksichtigen"
+    "explanation": "Nachhaltigkeit betrachtet wirtschaftliche Möglichkeiten zusammen mit sozialen und ökologischen Folgen."
   }
 ]

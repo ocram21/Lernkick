@@ -2,7 +2,7 @@
   {
     "id": "grammar.v3.normal.1",
     "level": "normal",
-    "prompt": "Ergänze den Dativ: Die Auszubildende hilft ___ neuen Kollegen.",
+    "prompt": "Ergänze den Dativ Singular: Die Auszubildende hilft ___ neuen Kollegen.",
     "options": [
       "dem",
       "den",
@@ -171,9 +171,9 @@
     "options": [
       "um",
       "für",
-      "auf"
+      "mit"
     ],
-    "explanation": "Die standardsprachliche Verbindung lautet „sich um eine Stelle bewerben“."
+    "explanation": "Es heißt „sich um eine Stelle bewerben“. Auch „auf eine Stelle“ ist richtig; „für“ und „mit“ passen hier nicht."
   },
   {
     "id": "grammar.v3.normal.17",

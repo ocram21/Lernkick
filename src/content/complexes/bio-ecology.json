@@ -13,7 +13,7 @@
       "Eine Sammlung unbelebter Steine ohne Umgebung"
     ],
     "correct": 0,
-    "explanation": "Lebensraum und darin lebende Organismen mit ihren Beziehungen"
+    "explanation": "Zum Wald gehören beispielsweise Bäume, Tiere, Pilze, Boden und Wasser sowie ihre Wechselwirkungen, nicht nur die Pflanzen."
   },
   {
     "id": "complex.bio-ecology.002",
@@ -29,7 +29,7 @@
       "Nur die Nahrung eines Organismus"
     ],
     "correct": 0,
-    "explanation": "Den Bereich mit seinen Umweltbedingungen, in dem Organismen leben"
+    "explanation": "Ein Lebensraum wird durch Bedingungen wie Licht, Wasser und Temperatur geprägt und kann viele Arten beherbergen."
   },
   {
     "id": "complex.bio-ecology.003",
@@ -45,7 +45,7 @@
       "Alle unbelebten Bestandteile eines Waldes"
     ],
     "correct": 0,
-    "explanation": "Individuen einer Art in einem Gebiet zur selben Zeit"
+    "explanation": "Eine Population umfasst nicht alle Tiere eines Ortes, sondern nur die dort zur betrachteten Zeit lebenden Individuen derselben Art."
   },
   {
     "id": "complex.bio-ecology.004",
@@ -61,7 +61,7 @@
       "Nur abgestorbene Blätter"
     ],
     "correct": 0,
-    "explanation": "Produzenten wie grüne Pflanzen"
+    "explanation": "Mithilfe von Licht entstehen aus Kohlenstoffdioxid und Wasser energiereiche organische Stoffe. Sie bilden eine Grundlage vieler Nahrungsketten."
   },
   {
     "id": "complex.bio-ecology.005",
@@ -93,7 +93,7 @@
       "Sie verhindern jeden Stoffkreislauf."
     ],
     "correct": 0,
-    "explanation": "Sie bauen abgestorbenes organisches Material ab."
+    "explanation": "Beim Abbau werden unter anderem Mineralstoffe freigesetzt, die Pflanzen erneut aufnehmen können."
   },
   {
     "id": "complex.bio-ecology.007",
@@ -125,7 +125,7 @@
       "Ein Fanggerät für alle Organismen eines Waldes"
     ],
     "correct": 0,
-    "explanation": "Mehrere miteinander verbundene Nahrungsketten"
+    "explanation": "Ein Tier hat oft mehrere Nahrungsquellen und Fressfeinde. Die einzelnen Nahrungsketten sind deshalb verbunden."
   },
   {
     "id": "complex.bio-ecology.009",
@@ -173,7 +173,7 @@
       "Körpergröße eines einzigen Tieres"
     ],
     "correct": 0,
-    "explanation": "Verschiedenheit der Arten in einem Gebiet"
+    "explanation": "Gemeint sind unterschiedliche Arten, nicht allein die Zahl aller Individuen. Viele Tiere derselben Art ergeben noch keine hohe Artenvielfalt."
   },
   {
     "id": "complex.bio-ecology.012",
@@ -189,7 +189,7 @@
       "Ein Tiername im Wörterbuch"
     ],
     "correct": 0,
-    "explanation": "Ein Teich mit seinen Uferbereichen"
+    "explanation": "Wasser, Uferboden, Licht und weitere Bedingungen bieten verschiedenen Lebewesen geeignete Lebensmöglichkeiten."
   },
   {
     "id": "complex.bio-ecology.013",
@@ -221,7 +221,7 @@
       "Sauerstoff im Boden erzeugen wie Blätter im Licht"
     ],
     "correct": 0,
-    "explanation": "Wasser und Mineralstoffe aufnehmen"
+    "explanation": "Die aufgenommenen Stoffe gelangen über Leitgewebe in andere Pflanzenteile. Wurzeln verankern die Pflanze außerdem im Boden."
   },
   {
     "id": "complex.bio-ecology.015",
@@ -237,7 +237,7 @@
       "Ein Tier erzeugt immer grelles Warnlicht."
     ],
     "correct": 0,
-    "explanation": "Ähnlichkeit mit der Umgebung erschwert das Entdecken."
+    "explanation": "Wenn Form oder Farbe wenig auffallen, können Beutetiere schwerer entdeckt werden; auch Räuber können von Tarnung profitieren."
   },
   {
     "id": "complex.bio-ecology.016",
@@ -253,7 +253,7 @@
       "Jede Begegnung endet mit dem Tod eines Tieres."
     ],
     "correct": 0,
-    "explanation": "Organismen nutzen begrenzte gleiche Ressourcen."
+    "explanation": "Sind Nahrung, Raum oder Licht begrenzt, kann die Nutzung durch einen Organismus die Möglichkeiten anderer einschränken."
   },
   {
     "id": "complex.bio-ecology.017",
@@ -269,7 +269,7 @@
       "Jede Beziehung zwischen Räuber und Beute"
     ],
     "correct": 0,
-    "explanation": "Zusammenleben verschiedener Arten mit gegenseitigem Nutzen"
+    "explanation": "Ein Beispiel sind bestimmte Pilze und Pflanzenwurzeln: Die Pflanze liefert Zucker, der Pilz unterstützt die Wasser- und Mineralstoffaufnahme."
   },
   {
     "id": "complex.bio-ecology.018",
@@ -285,7 +285,7 @@
       "Nur tote Stoffe werden abgebaut."
     ],
     "correct": 0,
-    "explanation": "Ein Organismus nutzt einen Wirt und schädigt ihn."
+    "explanation": "Ein Parasit gewinnt Nahrung oder andere Vorteile vom Wirt. Anders als bei einer Symbiose profitiert der Wirt dabei nicht."
   },
   {
     "id": "complex.bio-ecology.019",
@@ -301,7 +301,7 @@
       "Sie verhindern jede Samenbildung."
     ],
     "correct": 0,
-    "explanation": "Sie können Pollen übertragen."
+    "explanation": "Pollen bleibt am Tier hängen und gelangt zu einer anderen Blüte. So kann Bestäubung ermöglicht werden."
   },
   {
     "id": "complex.bio-ecology.020",
@@ -317,7 +317,7 @@
       "Verteilung fertiger Früchte im Boden"
     ],
     "correct": 0,
-    "explanation": "Übertragung von Pollen auf die passende weibliche Blütenstruktur"
+    "explanation": "Bei Blütenpflanzen gelangt Pollen auf die Narbe. Bestäubung ist noch nicht dasselbe wie die anschließende Befruchtung."
   },
   {
     "id": "complex.bio-ecology.021",
@@ -333,7 +333,7 @@
       "Zum sofortigen Abbau der Wurzeln"
     ],
     "correct": 0,
-    "explanation": "Zur Vermehrung und Ausbreitung"
+    "explanation": "Ein Samen enthält einen Pflanzenembryo. Durch Verbreitung können neue Standorte besiedelt werden."
   },
   {
     "id": "complex.bio-ecology.022",
@@ -349,7 +349,7 @@
       "Ein Blatt verdunstet Wasser."
     ],
     "correct": 0,
-    "explanation": "Aus dem Samen beginnt eine junge Pflanze zu wachsen."
+    "explanation": "Bei geeigneten Bedingungen nimmt der Samen Wasser auf; der Embryo entwickelt unter anderem Wurzel und Spross."
   },
   {
     "id": "complex.bio-ecology.023",
@@ -365,7 +365,7 @@
       "Weil Bäume im Winter zu Tieren werden."
     ],
     "correct": 0,
-    "explanation": "Dadurch wird unter anderem Wasserverlust in ungünstigen Zeiten verringert."
+    "explanation": "Über Blätter verdunstet Wasser. Bei Kälte oder gefrorenem Boden ist die Wasseraufnahme eingeschränkt, sodass Blattabwurf schützen kann."
   },
   {
     "id": "complex.bio-ecology.024",
@@ -381,7 +381,7 @@
       "Fehlende Wasseraufnahme in jeder Lebensphase"
     ],
     "correct": 0,
-    "explanation": "Wasserspeicher und geringe verdunstende Blattfläche"
+    "explanation": "Wasserspeicherung überbrückt trockene Zeiten. Zu Dornen umgebildete Blätter verringern bei vielen Kakteen den Wasserverlust."
   },
   {
     "id": "complex.bio-ecology.025",
@@ -397,7 +397,7 @@
       "Der gesamte Niederschlag wird sofort zu Grundwasser."
     ],
     "correct": 0,
-    "explanation": "Wasser versickert schlechter und Lebensraum geht verloren."
+    "explanation": "Asphalt oder Beton bedecken den Boden. Regen fließt stärker oberflächlich ab, und viele Bodenlebewesen verlieren geeignete Bedingungen."
   },
   {
     "id": "complex.bio-ecology.026",
@@ -413,7 +413,7 @@
       "Es enthält keine organischen Stoffe."
     ],
     "correct": 0,
-    "explanation": "Es bietet Lebensraum und wird im Stoffkreislauf abgebaut."
+    "explanation": "Pilze, Insekten und andere Organismen nutzen abgestorbenes Holz. Sein Abbau führt Stoffe wieder in den Kreislauf zurück."
   },
   {
     "id": "complex.bio-ecology.027",
@@ -429,7 +429,7 @@
       "Wetter beschreibt nur die Meerestiefe."
     ],
     "correct": 0,
-    "explanation": "Wetter ist kurzfristig; Klima beschreibt typische Verhältnisse über lange Zeit."
+    "explanation": "Ein Regentag ist Wetter. Erst die langfristige Auswertung vieler Beobachtungen beschreibt das Klima eines Gebietes."
   },
   {
     "id": "complex.bio-ecology.028",
@@ -445,7 +445,7 @@
       "Vollständiger Wegfall aller Mikroorganismen"
     ],
     "correct": 0,
-    "explanation": "Starkes Algenwachstum mit späterem Sauerstoffmangel"
+    "explanation": "Beim Abbau großer Mengen abgestorbener Algen verbrauchen Mikroorganismen Sauerstoff. Dadurch kann anderen Organismen Sauerstoff fehlen."
   },
   {
     "id": "complex.bio-ecology.029",
@@ -461,7 +461,7 @@
       "Sie gewinnen daraus direkt Sonnenlicht."
     ],
     "correct": 0,
-    "explanation": "Sie benötigen ihn für die Zellatmung."
+    "explanation": "Auch unter Wasser müssen viele Lebewesen aus Nährstoffen nutzbare Energie gewinnen. Dafür nutzen sie gelösten Sauerstoff."
   },
   {
     "id": "complex.bio-ecology.030",
@@ -477,7 +477,7 @@
       "Sämtliche Pflanzen vor der Blüte abschneiden"
     ],
     "correct": 0,
-    "explanation": "Heimische Blühpflanzen und unterschiedliche Strukturen erhalten"
+    "explanation": "Verschiedene Pflanzen bieten über die Saison Nahrung; strukturreiche Flächen schaffen zusätzlich Verstecke und Nistmöglichkeiten."
   },
   {
     "id": "complex.bio-ecology.031",
@@ -493,7 +493,7 @@
       "Energie kann nur in Raubtieren gespeichert werden."
     ],
     "correct": 0,
-    "explanation": "Organismen nutzen Energie und geben Wärme ab."
+    "explanation": "Nicht die gesamte aufgenommene Energie wird als neue Biomasse gespeichert. Deshalb steht für die nächste Stufe weniger bereit."
   },
   {
     "id": "complex.bio-ecology.032",
@@ -509,7 +509,7 @@
       "Stoffe verschwinden nach jeder Verdauung spurlos."
     ],
     "correct": 0,
-    "explanation": "Energie wird letztlich als Wärme abgegeben; Stoffe werden wiederverwendet."
+    "explanation": "Mineralstoffe können erneut in Pflanzen gelangen. Als Wärme abgegebene Energie steht dagegen nicht einfach wieder für Fotosynthese bereit."
   },
   {
     "id": "complex.bio-ecology.033",
@@ -525,7 +525,7 @@
       "Nur gleich große Tiere können einander beeinflussen."
     ],
     "correct": 0,
-    "explanation": "Nahrungs- und andere Beziehungen verbinden die Arten."
+    "explanation": "Fehlt beispielsweise eine Nahrungspflanze, trifft das ihre Pflanzenfresser und möglicherweise auch deren Fressfeinde."
   },
   {
     "id": "complex.bio-ecology.034",
@@ -541,7 +541,7 @@
       "Eine beliebige kleine Höhle im Gestein"
     ],
     "correct": 0,
-    "explanation": "Gesamtheit der Ansprüche und Beziehungen einer Art"
+    "explanation": "Die Nische umfasst zum Beispiel Nahrung, Aktivitätszeiten und benötigte Bedingungen. Sie ist kein bloßer Platz auf einer Karte."
   },
   {
     "id": "complex.bio-ecology.035",
@@ -557,7 +557,7 @@
       "Durch unbegrenzte Verdoppelung jeder Ressource"
     ],
     "correct": 0,
-    "explanation": "Durch Nutzung unterschiedlicher Nahrung oder Zeiten"
+    "explanation": "Werden Ressourcen auf unterschiedliche Weise genutzt, treffen die Ansprüche weniger stark aufeinander."
   },
   {
     "id": "complex.bio-ecology.036",
@@ -573,7 +573,7 @@
       "Beutezahlen hängen nie von Nahrung ab."
     ],
     "correct": 0,
-    "explanation": "Nahrungsangebot und Fraßdruck wirken auf beide Bestände."
+    "explanation": "Mehr Beute kann mehr Räuber ernähren. Stärkerer Fraß kann anschließend den Beutebestand und damit die Nahrung der Räuber verringern."
   },
   {
     "id": "complex.bio-ecology.037",
@@ -589,7 +589,7 @@
       "Nur heimische Arten können sich vermehren."
     ],
     "correct": 0,
-    "explanation": "Erst starke Ausbreitung mit negativen Folgen macht sie problematisch."
+    "explanation": "Herkunft allein sagt noch nichts über die Auswirkungen aus. Entscheidend sind Ausbreitung und Schäden an bestehenden Lebensgemeinschaften."
   },
   {
     "id": "complex.bio-ecology.038",
@@ -605,7 +605,7 @@
       "Jede Art entwickelt sich zwangsläufig zum Menschen."
     ],
     "correct": 0,
-    "explanation": "Vorteilhafte erbliche Merkmale können unter bestimmten Bedingungen häufiger werden."
+    "explanation": "Wenn Träger erblicher Merkmale mehr überlebende Nachkommen haben, können diese Merkmale über Generationen zunehmen."
   },
   {
     "id": "complex.bio-ecology.039",
@@ -621,7 +621,7 @@
       "Umweltbedingungen beeinflussen Überleben grundsätzlich nicht."
     ],
     "correct": 0,
-    "explanation": "Ein nützliches Merkmal kann unter anderen Bedingungen nachteilig sein."
+    "explanation": "Ein dichter Pelz schützt bei Kälte, kann bei Hitze aber belasten. Vorteile hängen von den jeweiligen Bedingungen ab."
   },
   {
     "id": "complex.bio-ecology.040",
@@ -637,7 +637,7 @@
       "Sie machen alle Nahrungsketten identisch."
     ],
     "correct": 0,
-    "explanation": "Sie bieten verschiedenen Arten und Funktionen Raum."
+    "explanation": "Verschiedene Strukturen ermöglichen unterschiedliche Lebensweisen. Bei einer Störung können dadurch manche Funktionen eher erhalten bleiben."
   },
   {
     "id": "complex.bio-ecology.041",
@@ -653,7 +653,7 @@
       "Blätter nehmen dann grundsätzlich keine Sonnenenergie mehr auf."
     ],
     "correct": 0,
-    "explanation": "Höhere Verdunstung kann Trockenstress verstärken."
+    "explanation": "Bei Wärme kann mehr Wasser verdunsten. Fehlt Nachschub aus dem Boden, geraten Pflanzen leichter in Wassermangel."
   },
   {
     "id": "complex.bio-ecology.042",
@@ -669,7 +669,7 @@
       "Trockengelegte Moore speichern immer mehr Kohlenstoff als nasse."
     ],
     "correct": 0,
-    "explanation": "Nasse Moorböden können große Mengen Kohlenstoff speichern."
+    "explanation": "Unter nassen, sauerstoffarmen Bedingungen wird Pflanzenmaterial langsam abgebaut. Kohlenstoff kann sich deshalb über lange Zeit im Torf ansammeln."
   },
   {
     "id": "complex.bio-ecology.043",
@@ -685,7 +685,7 @@
       "Ersatz jedes Baumes durch eine asphaltierte Fläche"
     ],
     "correct": 0,
-    "explanation": "Nutzung, die Regeneration und ökologische Funktionen langfristig erhält"
+    "explanation": "Es geht nicht nur um die aktuelle Holzmenge: Auch Nachwuchs, Boden, Lebensräume und andere Waldfunktionen müssen erhalten bleiben."
   },
   {
     "id": "complex.bio-ecology.044",
@@ -701,7 +701,7 @@
       "Er garantiert allen Arten identische Nahrung."
     ],
     "correct": 0,
-    "explanation": "Er verbindet Lebensräume und erleichtert Wanderung und Austausch."
+    "explanation": "Verbundene Flächen erleichtern das Erreichen von Nahrung, Partnern und neuen Lebensorten. Getrennte Bestände können sich eher austauschen."
   },
   {
     "id": "complex.bio-ecology.045",
@@ -717,7 +717,7 @@
       "Chemische Stoffe bleiben stets genau am Aufsprühpunkt."
     ],
     "correct": 0,
-    "explanation": "Wirkstoffe können andere empfindliche Organismen erreichen."
+    "explanation": "Ein Mittel unterscheidet nicht immer nur die gewünschte Zielart. Abdrift und Nahrungsketten können weitere Organismen damit in Kontakt bringen."
   },
   {
     "id": "complex.bio-ecology.046",
@@ -733,7 +733,7 @@
       "Sie wandeln alle Bodenpartikel in Plastik um."
     ],
     "correct": 0,
-    "explanation": "Sie fördern Abbau, Bodenstruktur und Nährstoffverfügbarkeit."
+    "explanation": "Zersetzer setzen Nährstoffe frei; andere Bodenlebewesen lockern und durchmischen den Boden und verbessern seine Struktur."
   },
   {
     "id": "complex.bio-ecology.047",
@@ -749,7 +749,7 @@
       "Ein Fuchs erzeugt aus Licht neue Mineralstoffe."
     ],
     "correct": 0,
-    "explanation": "Mineralstoffe aus zersetzten Blättern werden von Pflanzen aufgenommen."
+    "explanation": "Der Stoff verschwindet beim Blattabbau nicht. Er wird in anderer Form verfügbar und kann erneut zum Pflanzenaufbau beitragen."
   },
   {
     "id": "complex.bio-ecology.048",
@@ -765,7 +765,7 @@
       "Ein einziges großes Tier beweist ein stabiles Ökosystem."
     ],
     "correct": 0,
-    "explanation": "Artenzusammensetzung, Lebensraum und Bedingungen sind ebenfalls wichtig."
+    "explanation": "Eine Zahl allein erklärt nicht, welche Arten vorkommen oder ob ihre Lebensbedingungen günstig sind. Dafür braucht es mehrere Beobachtungen."
   },
   {
     "id": "complex.bio-ecology.049",
@@ -781,7 +781,7 @@
       "Alle Böden können danach mehr Wasser speichern."
     ],
     "correct": 0,
-    "explanation": "Nistplätze und Verbindungen zwischen Lebensräumen gehen verloren."
+    "explanation": "Hecken bieten Deckung, Brutplätze und Wege zwischen Flächen. Ihre Entfernung kann diese Funktionen unterbrechen."
   },
   {
     "id": "complex.bio-ecology.050",
@@ -797,6 +797,6 @@
       "Ergebnisse ohne Messungen allein nach Wunsch festlegen"
     ],
     "correct": 0,
-    "explanation": "Vergleichbare Flächen mit und ohne Einfluss mehrfach untersuchen"
+    "explanation": "Wiederholte vergleichbare Untersuchungen helfen, zufällige Schwankungen von einem möglichen Einfluss zu unterscheiden."
   }
 ]
