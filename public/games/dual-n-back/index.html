@@ -73,7 +73,7 @@
     }
     .cell { border-radius: 9px; background: var(--cell); }
     .cell.active { background: var(--stimulus);position:relative;box-shadow:inset 0 0 0 3px var(--calc-ink); }
-    .level-choice span{box-shadow:inset 0 -3px 0 var(--calc-orange)}
+    .level-choice span{box-shadow:inset 0 1px 0 color-mix(in srgb,var(--calc-ink) 22%,transparent),0 3px 3px var(--calc-display)}
     .level-choice input:disabled+span{opacity:.48;cursor:not-allowed}
     .answers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     .answer { min-height:clamp(72px,15vh,140px); font-size:24px; padding: 12px 10px; border: 1px solid var(--line); background: var(--calc-ink); color: var(--ink); }
@@ -129,6 +129,11 @@
 :root[data-theme="pink"] .answer{color:var(--surface-ink)}
 :root[data-theme="pink"] button:focus-visible,:root[data-theme="pink"] input:focus-visible+span{outline:3px solid var(--theme-selection);outline-offset:3px}
 :root[data-theme="pink"] .primary{background:var(--action-main);color:var(--action-main-ink)}
+/* Stufentasten folgen der violetten Fachauswahl im Tafelwerk. */
+:root[data-theme] .level-choice span{min-height:48px;display:flex;align-items:center;justify-content:center;border:1px solid var(--calc-petrol);border-radius:9px;background:var(--calc-petrol);color:var(--calc-ink)}
+:root[data-theme] .level-choice input:checked+span{background:var(--calc-violet);border-color:var(--calc-violet);color:var(--calc-ink)}
+:root[data-theme] .level-choice input:disabled+span{opacity:1;background:var(--calc-number);border-color:var(--calc-housing);color:var(--calc-ink);box-shadow:none;cursor:not-allowed}
+:root[data-theme] .level-choice input:focus-visible+span{outline:3px solid var(--calc-orange);outline-offset:3px}
 </style>
 </head>
 <body>
