@@ -19,7 +19,7 @@
 .tafelwerk-intro{align-self:stretch;width:100%;height:36px;min-height:36px;flex:0 0 36px;justify-content:center;color:var(--ink);}
 .tafelwerk-lesson-choice[data-lesson="lineare-funktion"]{grid-column:1/-1;}
 .tafelwerk-lesson-choice[data-lesson="lineare-funktion"] .tafelwerk-lesson-symbol{width:auto;min-width:92px;flex-basis:92px;padding:0 6px;font-size:12px;white-space:nowrap;}
-.math-fraction{display:inline-grid;grid-template-rows:auto auto;vertical-align:-.38em;justify-items:center;align-items:center;min-width:1em;margin:0 .09em;font-size:.76em;line-height:1.05;white-space:nowrap;}
+.math-fraction{display:inline-flex;flex-direction:column;vertical-align:middle;align-items:center;min-width:1em;margin:0 .09em;font-size:.76em;line-height:1.05;white-space:nowrap;}
 .math-fraction>span:first-child{width:100%;padding:0 .12em .08em;border-bottom:1.5px solid currentColor;text-align:center;}
 .math-fraction>span:last-child{padding-top:.08em;}
 @media(max-width:380px){
