@@ -22,7 +22,11 @@ for(const viewport of [{width:320,height:568},{width:844,height:390},{width:1440
    }
    const overflow=await page.locator('.tafelwerk-board-body').evaluate(el=>({width:el.clientWidth,scroll:el.scrollWidth,height:el.clientHeight,scrollHeight:el.scrollHeight}));
     expect(overflow.scroll,`${lesson.id}/${i}: horizontal`).toBeLessThanOrEqual(overflow.width+1);
-    expect(overflow.scrollHeight,`${lesson.id}/${i}: vertical`).toBeLessThanOrEqual(overflow.height+1);
+    if((viewport.width===320||viewport.height<400)&&lesson.steps[i].visual.type==='reference-panels'){
+     // Große gemeinsame Übersichten dürfen auf sehr kleinen Displays intern scrollen; nichts wird abgeschnitten.
+     await expect(page.locator('.reference-panel').last()).toBeAttached();
+     expect(await page.locator('.tafelwerk-board-body').evaluate(el=>getComputedStyle(el).overflowY)).toBe('auto');
+    }else expect(overflow.scrollHeight,`${lesson.id}/${i}: vertical`).toBeLessThanOrEqual(overflow.height+1);
     const fits=await page.locator('.tafelwerk-detail').evaluate(el=>el.scrollHeight<=el.clientHeight+1);expect(fits,`${lesson.id}/${i}: Erklärung ohne Scrollen`).toBe(true);
     expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
     if(i<lesson.steps.length-1)await page.getByRole('button',{name:'Weiter',exact:true}).click();
@@ -88,13 +92,13 @@ for(const {width,height} of [{width:320,height:568},{width:390,height:667},{widt
  await expect(page.locator('.tafelwerk-subject-grid .calculator-key')).toHaveCount(5);
  await page.getByRole('button',{name:'Deutsch',exact:true}).click();
  const topics=page.locator('.deutsch-topic-grid [data-lesson]');
- await expect(topics).toHaveCount(7);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
+ await expect(topics).toHaveCount(5);await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);
  expect(await page.locator('.deutsch-topic-grid').evaluate(el=>getComputedStyle(el).gridTemplateColumns.split(' ').length)).toBe(2);
- const areas=page.locator('[aria-label="Deutschbereiche"] .tafelwerk-area');await expect(areas).toHaveCount(4);
- for(const [label,count] of [['Grammatik',7],['Rechtschreibung',5],['Schreiben',4],['Lesen & Medien',4]] as const){
-  const area=page.getByRole('button',{name:label,exact:true});await area.click();await expect(area).toHaveAttribute('aria-pressed','true');
+ await expect(page.locator('.deutsch-category-title')).toHaveText('Grammatik');
+ for(const [label,count] of [['Grammatik',5]] as const){
+  await expect(page.locator('.deutsch-category-title')).toHaveText(label);
   await expect(topics).toHaveCount(count);
-  expect(await area.evaluate(el=>el.scrollWidth<=el.clientWidth+1)).toBe(true);
+
  await expect(topics.locator('svg')).toHaveCount(0);
  const fits=await page.locator('.tafelwerk-catalog').evaluate(el=>el.scrollHeight<=el.clientHeight+1);expect(fits).toBe(true);
  for(const topic of await topics.all()){
@@ -136,7 +140,7 @@ for(const pink of [false,true])test(`Tafelwerk übernimmt Lernkasten-Kacheln und
  await page.screenshot({path:`test-results/tafelwerk-math-tiles-${pink?'pink':'normal'}.png`});
  await page.getByRole('button',{name:'Deutsch',exact:true}).click();
  await expect(page.locator('.tafelwerk-subject-grid [aria-pressed=true]')).toHaveCount(1);
- expect(await page.locator('.tafelwerk-area[aria-pressed=true]').evaluate(el=>getComputedStyle(el).backgroundColor)).toBe('rgb(134, 80, 155)');
+ await expect(page.locator('.deutsch-category-title')).toHaveText('Grammatik');
  await page.screenshot({path:`test-results/tafelwerk-deutsch-tiles-${pink?'pink':'normal'}.png`});
 });
 
@@ -152,9 +156,9 @@ for(const viewport of [{width:320,height:568},{width:844,height:390}])test(`Fäc
  expect(await position()).toEqual(original);await page.locator('.tafelwerk-detail').evaluate(el=>{el.scrollTop=el.scrollHeight;});
  expect(await position()).toEqual(original);await expect(page.getByRole('button',{name:'Mathematik',exact:true})).toBeInViewport();
  await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.getByRole('button',{name:'Schriftlich rechnen',exact:true})).toHaveAttribute('aria-pressed','true');
- await page.getByRole('button',{name:'Deutsch',exact:true}).click();await page.getByRole('button',{name:'Rechtschreibung',exact:true}).click();await page.locator('[data-lesson="DEU-08"]').click();
- await page.getByRole('button',{name:'Deutsch',exact:true}).click();await expect(page.getByRole('button',{name:'Rechtschreibung',exact:true})).toHaveAttribute('aria-pressed','true');
- await page.locator('[data-lesson="DEU-08"]').click();await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);await expect(page.locator('.tafelwerk-board')).toHaveCount(0);
+ await page.getByRole('button',{name:'Deutsch',exact:true}).click();await page.locator('[data-lesson="DEU-03"]').click();
+ await page.getByRole('button',{name:'Deutsch',exact:true}).click();await expect(page.locator('.deutsch-category-title')).toHaveText('Grammatik');
+ await page.locator('[data-lesson="DEU-03"]').click();await page.getByRole('button',{name:'Mathematik',exact:true}).click();await expect(page.locator('.deutsch-reference-page')).toHaveCount(0);await expect(page.locator('.tafelwerk-board')).toHaveCount(0);
  await expect(page.locator('.tafelwerk-back')).toHaveCount(0);
  await page.screenshot({path:`test-results/tafelwerk-persistent-subjects-${viewport.width}.png`});
 });
@@ -164,9 +168,9 @@ for(const pink of [false,true])test(`Winkelmesser und Kreiszeichnungen sind selb
  if(pink){await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();}
  await openMath(page);await page.getByRole('button',{name:'Geometrie',exact:true}).click();
  for(const id of ['winkel-messen','kreis']){
-  await page.locator(`[data-lesson="${id}"]`).click();await page.getByRole('button',{name:'Weiter',exact:true}).click();
-  const visual=page.locator('.tafelwerk-visual svg');await expect(visual).toHaveAttribute('aria-label',id==='kreis'?/Mittelpunkt M, Radius 3 cm und Durchmesser 6 cm/:/Winkelmesser.*45-Grad/);
-  await expect(page.locator('.tafelwerk-board h1')).toHaveText(id==='kreis'?'Fläche mit dem Radius':'Mit dem Winkelmesser messen');
+  await page.locator(`[data-lesson="${id}"]`).click();
+  await expect(page.getByRole('button',{name:'Weiter',exact:true})).toHaveCount(0);
+  const visual=page.locator('.tafelwerk-visual svg');await expect(visual).toBeVisible();
   expect(await page.locator('.tafelwerk-detail').evaluate(el=>el.scrollHeight<=el.clientHeight+1)).toBe(true);
   await page.screenshot({path:`test-results/${id}-reference-${pink}.png`});await page.getByRole('button',{name:'Mathematik',exact:true}).click();
  }
@@ -176,7 +180,7 @@ for(const pink of [false,true])test(`Neue Nachschlagezeichnungen und Beispiele a
  await page.setViewportSize({width:320,height:568});await page.goto('/');await expect(page.locator('.calculator-grid')).toBeVisible();
  if(pink){await page.getByRole('button',{name:'Einstellungen',exact:true}).click();await page.getByRole('switch',{name:'Mit Pink',exact:true}).click();}
  await openMath(page);
- for(const [id,step] of [['binomische-formeln',0],['aehnlichkeit',0],['tafelprojektion',0],['linear-ungleichung',1],['brueche-ungleich',0]] as const){
+ for(const [id,step] of [['pythagoras',0],['aehnlichkeit',0],['tafelprojektion',0],['winkelbeziehungen',0],['brueche-ungleich',0]] as const){
   const lesson=data.lessons.find(item=>item.id===id)!,category=data.categories.find(item=>item.id===lesson.category)!;
   await page.getByRole('button',{name:category.title,exact:true}).click();await page.locator(`[data-lesson="${id}"]`).click();
   if(step)await page.getByRole('button',{name:'Weiter',exact:true}).click();

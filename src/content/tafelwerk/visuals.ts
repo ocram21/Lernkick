@@ -144,13 +144,9 @@ function triangleVisual(v:any) {
   return svg(`<path d="M 58 154 L 58 34 L 218 154 Z" fill="var(--calc-display)" stroke="var(--calc-teal)" stroke-width="3"/><path d="M 58 139 H 73 V 154" fill="none" stroke="var(--calc-orange)" stroke-width="2"/>${svgText(35,95,'a = 3 cm','var(--calc-ink)',12)}${svgText(140,177,'b = 4 cm','var(--calc-ink)',12)}${svgText(154,75,v.label==='result'?'c = 5 cm':'c = ?','var(--calc-orange)',13)}`,'Rechtwinkliges Dreieck mit Katheten 3 und 4 Zentimeter und Hypotenuse 5 Zentimeter');
 }
 function pythagorasSquares() {
-  const square=(x:number,y:number,n:number,label:string,color:string)=>{
-    const cell=8;let cells='';
-    for(let row=0;row<n;row++)for(let col=0;col<n;col++)cells+=`<rect x="${x+col*cell}" y="${y+row*cell}" width="${cell}" height="${cell}" fill="${color}" fill-opacity=".17" stroke="var(--calc-ink)" stroke-opacity=".6" stroke-width=".7"/>`;
-    return `${cells}${svgText(x+cell*n/2,y+cell*n+17,label,'var(--calc-ink)',12)}`;
-  };
-  return svg(`<path d="M 24 114 L 24 57 L 100 114 Z" fill="var(--calc-display)" stroke="var(--calc-ink)" stroke-width="2.5"/><path d="M 24 104 H 34 V 114" fill="none" stroke="var(--calc-orange)" stroke-width="2"/>${svgText(20,83,'a = 3','var(--calc-ink)',11)}${svgText(62,132,'b = 4','var(--calc-ink)',11)}${svgText(69,72,'c','var(--calc-ink)',11)}${square(132,57,3,'a²','var(--calc-teal)')}${svgText(166,81,'+','var(--calc-orange)',18)}${square(180,53,4,'b²','var(--calc-teal)')}${svgText(225,81,'=','var(--calc-orange)',18)}${square(240,49,5,'c²','var(--calc-orange)')}`,'Rechtwinkliges Dreieck und die Flächen der Quadrate über seinen Seiten','0 0 340 145');
+ return svg(`<polygon points="53,78 125,78 125,150 53,150" fill="var(--calc-teal)" fill-opacity=".2" stroke="var(--calc-teal)" stroke-width="2"/><polygon points="125,150 221,150 221,246 125,246" fill="var(--calc-teal)" fill-opacity=".2" stroke="var(--calc-teal)" stroke-width="2"/><polygon points="125,78 221,150 293,54 197,-18" fill="var(--calc-orange)" fill-opacity=".2" stroke="var(--calc-orange)" stroke-width="2"/><path d="M 125 78 V 150 H 221 Z M 125 138 H 137 V 150" fill="none" stroke="var(--calc-ink)" stroke-width="2.5"/>${svgText(147,120,'a = 3','var(--calc-ink)',14)}${svgText(174,143,'b = 4','var(--calc-ink)',14)}${svgText(190,88,'c = 5','var(--calc-ink)',14)}${svgText(89,120,'9 cm²','var(--calc-ink)',19)}${svgText(173,205,'16 cm²','var(--calc-ink)',19)}${svgText(209,66,'25 cm²','var(--calc-ink)',19)}${svgText(174,278,'a² + b² = c²','var(--calc-ink)',22)}${svgText(174,308,'3² + 4² = 5²','var(--calc-ink)',22)}`,'Rechtwinkliges 3-4-5-Dreieck mit direkt an den Seiten angrenzenden Quadraten: 9 cm² plus 16 cm² ergibt 25 cm².','0 -30 340 355');
 }
+
 function rectangle(v:any) {
   let grid='';
   if(v.mode==='area') {
@@ -192,19 +188,58 @@ function similarTriangles(){
 }
 
 function combinations(v:any) {
-  let g='';
-  for(let a=0;a<v.shirts;a++) for(let b=0;b<v.pants;b++) {
-    const x=45+b*78,y=10+a*81;
-    g+=`<rect x="${x}" y="${y}" width="66" height="67" rx="9" fill="var(--calc-display)" stroke="var(--calc-housing)"/>`;
-    g+=`<path d="M ${x+15} ${y+17} L ${x+24} ${y+8} H ${x+41} L ${x+50} ${y+17} L ${x+42} ${y+28} V ${y+48} H ${x+24} V ${y+28} Z" fill="${a===0?'var(--calc-teal)':'var(--calc-orange)'}"/>`;
-    g+=svgText(x+33,y+62,`T${a+1} + H${b+1}`,'var(--calc-ink)',10);
-  }
-  return svg(g,'Sechs mögliche Kombinationen aus zwei T-Shirts und drei Hosen','0 0 320 177');
+ let content='';
+ for(let a=0;a<v.shirts;a++)for(let b=0;b<v.pants;b++){
+  const x=8+b*118,y=8+a*110,shirt=a===0?'var(--calc-teal)':'var(--calc-orange)',pants=['var(--calc-petrol)','var(--calc-violet)','var(--calc-housing)'][b%3];
+  content+=`<g transform="translate(${x} ${y})"><rect x="0" y="0" width="108" height="99" rx="6" fill="var(--calc-display)" stroke="var(--calc-housing)"/><path d="M 8 25 L 18 13 H 35 L 45 25 L 38 34 L 34 29 V 60 H 19 V 29 L 15 34 Z" fill="${shirt}" stroke="var(--calc-ink)" stroke-width="1"/><path d="M 65 18 H 93 L 91 60 H 82 L 79 36 L 76 60 H 67 Z" fill="${pants}" stroke="var(--calc-ink)" stroke-width="1.5"/>${b===1?'<path d="M 71 22 L 73 53 M 87 22 L 85 53" stroke="var(--calc-ink)" stroke-width="2"/>':b===2?'<path d="M 67 27 H 91 M 68 35 H 77 M 82 35 H 90" stroke="var(--calc-ink)" stroke-width="2"/>':''}${svgText(54,83,`T${a+1} + H${b+1}`,'var(--calc-ink)',17)}</g>`;
+ }
+ return svg(content,'Sechs Kombinationen: zwei verschiedenfarbige T-Shirts, jeweils mit drei durch Farbe, Muster und Bezeichnung unterscheidbaren Hosen.','0 0 360 226');
 }
+
+function angleOverview(){
+ const arc=(x:number,y:number,from:number,to:number,color:string)=>{const p=(d:number)=>`${x+14*Math.cos(d*Math.PI/180)} ${y+14*Math.sin(d*Math.PI/180)}`;return `<path d="M ${p(from)} A 14 14 0 0 1 ${p(to)}" fill="none" stroke="${color}" stroke-width="3"/>`;};
+ const panel=(ox:number,oy:number,title:string,kind:string,rule:string)=>{
+  const upper=[67,40],lower=[107,80],orange='var(--calc-orange)',teal='var(--calc-teal)';
+  let marks='';
+  if(kind==='corresponding')marks=arc(...upper as [number,number],0,45,orange)+arc(...lower as [number,number],0,45,teal)+svgText(95,61,'α',orange,16)+svgText(136,101,'α′',teal,16);
+  if(kind==='alternate')marks=arc(...upper as [number,number],45,180,orange)+arc(...lower as [number,number],225,360,teal)+svgText(52,69,'α',orange,16)+svgText(119,66,'β',teal,16);
+  if(kind==='vertical')marks=arc(...upper as [number,number],180,225,orange)+arc(...upper as [number,number],0,45,teal)+svgText(39,31,'α',orange,16)+svgText(96,62,'β',teal,16);
+  if(kind==='adjacent')marks=arc(...upper as [number,number],180,225,orange)+arc(...upper as [number,number],225,360,teal)+svgText(39,31,'α',orange,16)+svgText(91,27,'β',teal,16);
+  return `<g transform="translate(${ox} ${oy})">${svgText(85,0,title,'var(--calc-ink)',17)}<path d="M 15 40 H 155 M 42 15 L 132 105${kind==='corresponding'||kind==='alternate'?' M 15 80 H 155':''}" fill="none" stroke="var(--calc-ink)" stroke-width="2"/>${marks}${svgText(85,132,rule,'var(--calc-ink)',18)}</g>`;
+ };
+ return svg(panel(0,22,'Stufenwinkel','corresponding','α = α′')+panel(180,22,'Wechselwinkel','alternate','α = β')+panel(0,193,'Scheitelwinkel','vertical','α = β')+panel(180,193,'Nebenwinkel','adjacent','α + β = 180°')+'<path d="M 180 3 V 334 M 5 170 H 355" stroke="var(--calc-housing)" stroke-width="1"/>','Vier Winkelbilder: Stufen- und Wechselwinkel an parallelen Geraden sind gleich groß; Scheitelwinkel sind gleich groß; Nebenwinkel ergeben 180 Grad.','0 0 360 340');
+}
+function projectionObject(){
+ const ink='var(--calc-ink)',front='var(--calc-teal)',top='var(--calc-orange)';
+ return svg(`${svgText(100,24,'Quader','var(--calc-ink)',19)}<path d="M 40 100 L 82 72 H 172 L 130 100 Z" fill="${top}" fill-opacity=".25" stroke="${top}" stroke-width="2.5"/><path d="M 130 100 L 172 72 V 192 L 130 220 Z" fill="var(--calc-violet)" fill-opacity=".2" stroke="${ink}" stroke-width="2"/><rect x="40" y="100" width="90" height="120" fill="${front}" fill-opacity=".22" stroke="${front}" stroke-width="2.5"/>${svgText(85,244,'3 cm',ink,17)}${svgText(19,165,'4 cm',ink,16)}${svgText(161,218,'2 cm',ink,16)}<path d="M 95 41 V 67 m -6 -8 6 8 6 -8" stroke="${top}" stroke-width="3" fill="none"/>${svgText(99,292,'Blick von vorn',front,15)}<path d="M 55 275 V 233 m -6 8 6 -8 6 8" stroke="${front}" stroke-width="3" fill="none"/>${svgText(270,24,'Grundriss',top,18)}${svgText(270,47,'von oben',ink,15)}<rect x="225" y="65" width="90" height="60" fill="${top}" fill-opacity=".2" stroke="${top}" stroke-width="2.5"/>${svgText(270,148,'3 cm',ink,16)}${svgText(334,101,'2 cm',ink,15)}${svgText(270,185,'Aufriss',front,18)}${svgText(270,207,'von vorn',ink,15)}<rect x="225" y="224" width="90" height="120" fill="${front}" fill-opacity=".2" stroke="${front}" stroke-width="2.5"/>${svgText(270,366,'3 cm',ink,16)}${svgText(335,290,'4 cm',ink,15)}`,'Quader mit Breite 3 cm, Tiefe 2 cm und Höhe 4 cm. Grundriss von oben: 3 mal 2 cm. Aufriss von vorn: 3 mal 4 cm.','0 0 360 378');
+}
+function circleOverview(){
+ return svg(`<circle cx="95" cy="87" r="61" fill="var(--calc-teal)" fill-opacity=".15" stroke="var(--calc-orange)" stroke-width="3"/><path d="M 34 87 H 156 M 95 87 L 138 44" stroke="var(--calc-ink)" stroke-width="2"/>${svgText(94,110,'d = 6 cm','var(--calc-ink)',17)}${svgText(98,26,'r = 3 cm','var(--calc-ink)',17)}${svgText(202,59,'d = 2r','var(--calc-ink)',23,'start')}${svgText(202,101,'π ≈ 3,14','var(--calc-ink)',19,'start')}${svgText(180,186,'Umfang: U = π · d','var(--calc-orange)',23)}${svgText(180,220,'U = π · 6 cm ≈ 18,85 cm','var(--calc-ink)',19)}${svgText(180,269,'Fläche: A = π · r²','var(--calc-teal)',23)}${svgText(180,303,'A = π · (3 cm)² ≈ 28,27 cm²','var(--calc-ink)',18)}`,'Kreis mit Radius 3 cm und Durchmesser 6 cm. Umfang ungefähr 18,85 cm, Fläche ungefähr 28,27 cm².','0 0 360 325');
+}
+function angleMeasureOverview(){
+ const small=(ox:number,degree:number,label:string)=>{const a=-degree*Math.PI/180,x=ox+52*Math.cos(a),y=75+52*Math.sin(a);return `<path d="M ${ox} 75 H ${ox+55} M ${ox} 75 L ${x} ${y}" stroke="var(--calc-teal)" stroke-width="3" fill="none"/>${degree===90?`<path d="M ${ox} 62 H ${ox+13} V 75" stroke="var(--calc-orange)" stroke-width="2" fill="none"/>`:''}${svgText(ox+20,101,`${degree}°`,'var(--calc-ink)',18)}${svgText(ox+20,125,label,'var(--calc-ink)',16)}`;};
+ const meter=angleVisual({}).replace(/^<svg[^>]*>/,'').replace(/<\/svg>$/,'');
+ return svg(small(20,45,'spitz')+small(140,90,'recht')+small(265,120,'stumpf')+svgText(180,159,'Messen: Nullmarke rechts','var(--calc-ink)',18)+`<g transform="translate(0 127)">${meter}</g>`,'Winkelarten: 45 Grad spitz, 90 Grad recht, 120 Grad stumpf. Darunter Winkelmesser mit Nullmarke rechts und 45-Grad-Markierung.','0 0 360 320');
+}
+function quadraticOverview(){
+ return `<div class="quadratic-overview">${parabola()}<table class="viz-table"><thead><tr><th scope="col">x</th>${['−2','−1','0','1','2'].map(n=>`<th scope="col">${n}</th>`).join('')}</tr></thead><tbody><tr><th scope="row">y = x²</th>${[4,1,0,1,4].map(n=>`<td>${n}</td>`).join('')}</tr></tbody></table></div>`;
+}
+function probabilityOverview(){
+ const balls=[['var(--calc-red)','rot'],['var(--calc-petrol)','blau'],['var(--calc-petrol)','blau'],['var(--calc-petrol)','blau']];
+ return `<div class="probability-overview">${svg(balls.map(([color,label],i)=>`<circle cx="${45+i*88}" cy="57" r="28" fill="${color}" stroke="var(--calc-ink)" stroke-width="2"/>${svgText(45+i*88,111,label,'var(--calc-ink)',18)}`).join(''),'Vier gleich große Kugeln: eine rote und drei blaue. Jede Kugel ist beim Ziehen gleich wahrscheinlich.','0 0 360 135')}<div class="math-stack">${formatFractions('P(Rot) = 1/4 = 25 %')}</div></div>`;
+}
+
 export function renderVisual(v:any) {
   if(!v) return '';
   let html='';
   switch(v.type) {
+    case 'reference-panels': html=`<div class="reference-panels">${v.panels.map((panel:any)=>`<section class="reference-panel"><h2>${svgEsc(panel.title)}</h2><div class="math-stack">${panel.rows.map((row:string)=>`<div>${formatFractions(svgEsc(row))}</div>`).join('')}</div></section>`).join('')}</div>`;break;
+    case 'angle-overview': html=angleOverview();break;
+    case 'projection-object': html=projectionObject();break;
+    case 'circle-overview': html=circleOverview();break;
+    case 'angle-measure-overview': html=angleMeasureOverview();break;
+    case 'quadratic-overview': html=quadraticOverview();break;
+    case 'probability-overview': html=probabilityOverview();break;
     case 'chips': html=`<div class="visual-chips">${v.values.map((it:any,i:number)=>`<span class="visual-chip ${(v.emphasisIndices??[Number.isInteger(v.emphasisIndex)?v.emphasisIndex:v.values.length-1]).includes(i)?'emphasis':''}">${it}</span>`).join('')}</div>`;break;
     case 'numberline': html=numberLine(v);break;
     case 'bags': html=`<div class="bag-row">${Array.from({length:v.count},()=>`<div class="bag">${v.content}</div>`).join('')}</div>`;break;

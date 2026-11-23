@@ -4,13 +4,13 @@
       "id": "zahlen",
       "icon": "±",
       "title": "Zahlen & Regeln",
-      "desc": "Rechenregeln, Zahlen und Stellenwerte"
+      "desc": "Vorzeichen, Potenzen und Rechenregeln"
     },
     {
       "id": "verfahren",
       "icon": "×",
       "title": "Schriftlich rechnen",
-      "desc": "Musterrechnungen für Mal und Geteilt"
+      "desc": "Fertige Musterrechnungen mit Stellenordnung"
     },
     {
       "id": "brueche",
@@ -60,26 +60,26 @@
         {
           "headline": "Mal und Geteilt",
           "formula": "",
-          "explanation": "Für Mal und Geteilt mit Zahlen ungleich 0 gilt: gleiches Vorzeichen → positiv, verschiedenes → negativ. Durch 0 darfst du nicht teilen.",
+          "explanation": "Gilt für Mal und Geteilt mit Zahlen ungleich 0. Durch 0 darf nicht geteilt werden.",
           "visual": {
             "type": "sign-rules",
             "groups": [
               {
                 "title": "Multiplikation · Mal",
                 "examples": [
-                  "(+3) · (+2) = +6",
-                  "(−3) · (−2) = +6",
-                  "(+3) · (−2) = −6",
-                  "(−3) · (+2) = −6"
+                  "+ · + = +",
+                  "− · − = +",
+                  "+ · − = −",
+                  "− · + = −"
                 ]
               },
               {
                 "title": "Division · Geteilt",
                 "examples": [
-                  "(+6) : (+3) = +2",
-                  "(−6) : (−3) = +2",
-                  "(+6) : (−3) = −2",
-                  "(−6) : (+3) = −2"
+                  "+ : + = +",
+                  "− : − = +",
+                  "+ : − = −",
+                  "− : + = −"
                 ]
               }
             ]
@@ -91,35 +91,11 @@
       "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
     },
     {
-      "id": "negative-addieren",
-      "category": "zahlen",
-      "title": "Negative Zahlen am Zahlenstrahl",
-      "subtitle": "Links von null wird es kleiner",
-      "symbol": "↔",
-      "steps": [
-        {
-          "headline": "Zahlen der Größe nach ordnen",
-          "formula": "… −3, −2, −1, 0, 1, 2, 3 …",
-          "explanation": "Der Zahlenstrahl wird nach rechts größer. Negative Zahlen liegen links von null, positive rechts. Die 0 ist weder positiv noch negativ.",
-          "visual": {
-            "type": "numberline",
-            "from": -3,
-            "to": -3,
-            "emphasizeZero": true,
-            "caption": "Negative Zahlen liegen links von null"
-          },
-          "sub": ""
-        }
-      ],
-      "stage": "5-6",
-      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
-    },
-    {
       "id": "reihenfolge",
       "category": "zahlen",
       "title": "Punkt vor Strich",
       "subtitle": "Klammern zuerst",
-      "symbol": "≠",
+      "symbol": "·",
       "steps": [
         {
           "headline": "Zwei Rechenwege vergleichen",
@@ -158,38 +134,6 @@
       ],
       "stage": "9-10",
       "sourceNote": "Grundwissen Klasse 9/10"
-    },
-    {
-      "id": "dezimalzahlen",
-      "category": "zahlen",
-      "title": "Dezimalzahlen verstehen",
-      "subtitle": "Stellenwerte hinter dem Komma",
-      "symbol": "0,",
-      "steps": [
-        {
-          "headline": "Ganze, Zehntel und Hundertstel",
-          "formula": "2,35 = 2 + 0,3 + 0,05",
-          "explanation": "Jede nächste Stelle nach rechts hat ein Zehntel des Werts. Nach den Einern folgen Zehntel und Hundertstel.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Einer",
-              "Zehntel",
-              "Hundertstel"
-            ],
-            "rows": [
-              [
-                "2",
-                "3",
-                "5"
-              ]
-            ]
-          },
-          "sub": ""
-        }
-      ],
-      "stage": "5-6",
-      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
     },
     {
       "id": "schriftlich-addieren",
@@ -687,112 +631,46 @@
     {
       "id": "dreisatz-direkt",
       "category": "anwendung",
-      "title": "Dreisatz: proportional",
-      "subtitle": "Beide Größen wachsen im gleichen Verhältnis",
+      "title": "Dreisatz und Zuordnungen",
+      "subtitle": "Proportional, antiproportional oder nicht proportional",
       "symbol": "→",
       "steps": [
         {
-          "headline": "Erst auf eine Einheit, dann auf fünf",
+          "headline": "Drei Arten von Zuordnungen",
           "formula": "",
-          "explanation": "3 m Stoff kosten 12 €. Teile beide Werte durch 3: 1 m kostet 4 €. Multipliziere beide mit 5: 5 m kosten 20 €. Der Preis je Meter bleibt gleich.",
+          "explanation": "Proportional: gleicher Preis je Meter. Antiproportional: gleiche Arbeit, gleich schnelle Personen. Nicht proportional: Der feste Startpreis bleibt bestehen.",
           "visual": {
-            "type": "table",
-            "heads": [
-              "Stoff",
-              "Preis"
-            ],
-            "rows": [
-              [
-                "3 m",
-                "12 €"
-              ],
-              [
-                "1 m",
-                "4 €"
-              ],
-              [
-                "5 m",
-                "20 €"
-              ]
+            "type": "reference-panels",
+            "panels": [
+              {
+                "title": "Proportional",
+                "rows": [
+                  "3 m → 12 €",
+                  "1 m → 4 €",
+                  "5 m → 20 €",
+                  "Preis : Meter = 4 €/m"
+                ]
+              },
+              {
+                "title": "Antiproportional",
+                "rows": [
+                  "2 Personen → 12 h",
+                  "4 Personen → 6 h",
+                  "8 Personen → 3 h",
+                  "Arbeit: 24 Personenstunden"
+                ]
+              },
+              {
+                "title": "Nicht proportional",
+                "rows": [
+                  "Startpreis 2 €; je Stück 3 €",
+                  "1 Stück → 5 €",
+                  "2 Stück → 8 €",
+                  "Doppelte Menge ≠ doppelter Preis"
+                ]
+              }
             ]
-          },
-          "sub": ""
-        }
-      ],
-      "stage": "7-8",
-      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
-    },
-    {
-      "id": "dreisatz-indirekt",
-      "category": "anwendung",
-      "title": "Dreisatz: umgekehrt proportional",
-      "subtitle": "Mehr Personen brauchen weniger Zeit",
-      "symbol": "↔",
-      "steps": [
-        {
-          "headline": "Mehr Personen brauchen weniger Zeit",
-          "formula": "4 Personen · 6 h = 24 Personenstunden",
-          "explanation": "Alle Personen arbeiten gleich schnell und können die Arbeit gleichmäßig aufteilen. Dann bleibt Personenanzahl · Zeit gleich: Doppelt so viele Personen brauchen halb so lange.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Personen",
-              "Zeit",
-              "Produkt"
-            ],
-            "rows": [
-              [
-                "2",
-                "12 h",
-                "24"
-              ],
-              [
-                "4",
-                "6 h",
-                "24"
-              ],
-              [
-                "8",
-                "3 h",
-                "24"
-              ]
-            ]
-          },
-          "sub": ""
-        }
-      ],
-      "stage": "7-8",
-      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität"
-    },
-    {
-      "id": "nichtproportional",
-      "category": "anwendung",
-      "title": "Nicht proportional erkennen",
-      "subtitle": "Eine Grundgebühr verändert das Verhältnis",
-      "symbol": "≠",
-      "steps": [
-        {
-          "headline": "Verdoppeln als Gegenprobe",
-          "formula": "",
-          "explanation": "Zum festen Startpreis von 2 € kommen 3 € je Stück. Ein Stück kostet 5 €, zwei Stück kosten 8 €. Doppelte Stückzahl bedeutet hier nicht doppelten Gesamtpreis.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Stück",
-              "Preis"
-            ],
-            "rows": [
-              [
-                "1",
-                "2 € + 3 € = 5 €"
-              ],
-              [
-                "2",
-                "2 € + 6 € = 8 €"
-              ]
-            ]
-          },
-          "sub": ""
+          }
         }
       ],
       "stage": "7-8",
@@ -806,43 +684,42 @@
       "symbol": "↔",
       "steps": [
         {
-          "headline": "Länge umrechnen",
-          "formula": "1,5 m = 150 cm",
-          "explanation": "Von Metern zu Zentimetern multiplizierst du mit 100. Das Komma wandert zwei Stellen nach rechts.",
+          "headline": "Maßeinheiten im Überblick",
+          "formula": "",
+          "explanation": "Zur kleineren Einheit multiplizieren, zurück teilen. Längen: je Stufe ×10; Flächen: je Stufe ×100. Zeit wird mit 60 umgerechnet.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "1 m = 100 cm",
-              "1,5 m = 1,5 · 100 cm = 150 cm"
+            "type": "reference-panels",
+            "panels": [
+              {
+                "title": "Länge",
+                "rows": [
+                  "1 m = 100 cm",
+                  "1,5 m = 150 cm"
+                ]
+              },
+              {
+                "title": "Masse",
+                "rows": [
+                  "1 kg = 1 000 g",
+                  "1,5 kg = 1 500 g"
+                ]
+              },
+              {
+                "title": "Zeit",
+                "rows": [
+                  "1 h = 60 min",
+                  "2 h 15 min = 135 min"
+                ]
+              },
+              {
+                "title": "Fläche",
+                "rows": [
+                  "1 m² = 10 000 cm²",
+                  "1 cm² = 100 mm²"
+                ]
+              }
             ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Masse umrechnen",
-          "formula": "1,5 kg = 1 500 g",
-          "explanation": "Ein Kilogramm besteht aus 1 000 Gramm. Multipliziere deshalb die Kilogrammzahl mit 1 000.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "1 kg = 1 000 g",
-              "1,5 kg = 1,5 · 1 000 g = 1 500 g"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zeit umrechnen",
-          "formula": "2 h 15 min = 135 min",
-          "explanation": "Eine Stunde hat 60 Minuten. Wandle zuerst 2 Stunden in Minuten um und addiere dann die weiteren 15 Minuten.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "2 h = 2 · 60 min = 120 min",
-              "120 min + 15 min = 135 min"
-            ]
-          },
-          "sub": ""
+          }
         }
       ],
       "stage": "5-6",
@@ -919,44 +796,12 @@
       "symbol": "∠",
       "steps": [
         {
-          "headline": "Stufenwinkel",
-          "formula": "α = α′",
-          "explanation": "Entsprechende Winkel liegen an beiden Schnittpunkten auf derselben Seite. Bei parallelen Geraden sind sie gleich groß.",
+          "headline": "Winkel im Überblick",
+          "formula": "",
+          "explanation": "Stufen- und Wechselwinkel sind an parallelen Geraden gleich groß. Scheitelwinkel sind immer gleich groß; Nebenwinkel ergeben zusammen 180°.",
           "visual": {
-            "type": "transversal",
-            "active": "corresponding"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Wechselwinkel",
-          "formula": "γ = β′",
-          "explanation": "Wechselwinkel liegen zwischen den parallelen Geraden auf gegenüberliegenden Seiten der schneidenden Geraden. Sie sind gleich groß.",
-          "visual": {
-            "type": "transversal",
-            "active": "alternate"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Scheitelwinkel",
-          "formula": "α = δ",
-          "explanation": "Scheitelwinkel liegen sich am selben Schnittpunkt gegenüber. Sie sind gleich groß.",
-          "visual": {
-            "type": "transversal",
-            "active": "vertical"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Nebenwinkel",
-          "formula": "α + β = 180°",
-          "explanation": "Nebenwinkel liegen direkt nebeneinander an einer Geraden. Zusammen bilden sie immer 180 Grad.",
-          "visual": {
-            "type": "transversal",
-            "active": "adjacent"
-          },
-          "sub": ""
+            "type": "angle-overview"
+          }
         }
       ],
       "stage": "7-8",
@@ -1005,12 +850,11 @@
       "steps": [
         {
           "headline": "Grundriss und Aufriss",
-          "formula": "P(3 | 2 | 4)",
-          "explanation": "x = Breite, y = Tiefe, z = Höhe. Grundriss: Blick von oben auf x und y. Aufriss: Blick von vorn auf x und z; die Tiefe fällt weg.",
+          "formula": "",
+          "explanation": "Grundriss: Blick von oben auf Länge und Tiefe. Aufriss: Blick von vorn auf Länge und Höhe. Beide zeigen denselben Körper.",
           "visual": {
-            "type": "projection"
-          },
-          "sub": ""
+            "type": "projection-object"
+          }
         }
       ]
     },
@@ -1043,28 +887,12 @@
       "symbol": "c²",
       "steps": [
         {
-          "headline": "Flächen der drei Quadrate vergleichen",
-          "formula": "a² + b² = c²",
-          "explanation": "Nur im rechtwinkligen Dreieck gilt a² + b² = c². a und b sind die Katheten am rechten Winkel; c ist die Hypotenuse gegenüber.",
+          "headline": "Satz des Pythagoras",
+          "formula": "",
+          "explanation": "Seitenlängen in cm; c liegt gegenüber dem rechten Winkel. Nur im rechtwinkligen Dreieck: Die Quadrate an den Katheten ergeben zusammen das Quadrat an der Hypotenuse gegenüber dem rechten Winkel.",
           "visual": {
             "type": "pythagoras-squares"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Seitenlänge und Probe",
-          "formula": "5² = 3² + 4²",
-          "explanation": "Die positive Wurzel ergibt die Seitenlänge. Die Probe setzt sie in die Ausgangsformel ein.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "c² = (3 cm)² + (4 cm)²",
-              "c² = 9 cm² + 16 cm² = 25 cm²",
-              "c = √(25 cm²) = 5 cm",
-              "Probe: (5 cm)² = 9 cm² + 16 cm²"
-            ]
-          },
-          "sub": ""
+          }
         }
       ],
       "stage": "9-10",
@@ -1135,53 +963,6 @@
       ],
       "stage": "5-6",
       "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen"
-    },
-    {
-      "id": "stellenwert",
-      "category": "zahlen",
-      "stage": "5-6",
-      "title": "Stellenwerte natürlicher Zahlen",
-      "subtitle": "Zehner, Hunderter und Tausender",
-      "symbol": "123",
-      "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
-      "steps": [
-        {
-          "headline": "Ziffern haben einen Platzwert",
-          "formula": "3 482",
-          "explanation": "Von rechts nach links stehen Einer, Zehner, Hunderter und Tausender. Jede Stelle links ist zehnmal so groß.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Tausender",
-              "Hunderter",
-              "Zehner",
-              "Einer"
-            ],
-            "rows": [
-              [
-                "3",
-                "4",
-                "8",
-                "2"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Zahl in Stellen zerlegen",
-          "formula": "3 482 = 3 000 + 400 + 80 + 2",
-          "explanation": "Der Platz jeder Ziffer zeigt ihren Wert.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "3 482",
-              "= 3 000 + 400 + 80 + 2"
-            ]
-          },
-          "sub": ""
-        }
-      ]
     },
     {
       "id": "massstab",
@@ -1323,67 +1104,12 @@
       "sourceNote": "Grundwissen Klasse 5/6 und DZLM-Bausteine zu Zahlen, Brüchen und Dezimalzahlen",
       "steps": [
         {
-          "headline": "Alle gleich wahrscheinlichen Fälle zählen",
-          "formula": "1 rote und 3 blaue Kugeln",
-          "explanation": "Jede Kugel hat beim Ziehen dieselbe Chance.",
+          "headline": "Einfache Wahrscheinlichkeit",
+          "formula": "",
+          "explanation": "Bei gleich wahrscheinlichen Ergebnissen: günstige Fälle durch alle Fälle teilen. Jede Kugel hat beim Ziehen dieselbe Chance.",
           "visual": {
-            "type": "table",
-            "heads": [
-              "Farbe",
-              "Anzahl"
-            ],
-            "rows": [
-              [
-                "Rot",
-                "1"
-              ],
-              [
-                "Blau",
-                "3"
-              ],
-              [
-                "Insgesamt",
-                "4"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Günstige Fälle ins Verhältnis setzen",
-          "formula": "P(Rot) = ¼ = 25 %",
-          "explanation": "Bei gleich wahrscheinlichen Fällen gilt: günstige Fälle durch alle Fälle teilen.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "label": "1 von 4 Fällen",
-                "n": 1,
-                "d": 4
-              }
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "symmetrie",
-      "category": "geometrie",
-      "stage": "7-8",
-      "title": "Achsensymmetrie erkennen",
-      "subtitle": "Beide Seiten passen spiegelbildlich",
-      "symbol": "↔",
-      "sourceNote": "Grundwissen Klasse 7/8 und DZLM-Bausteine zu Rechenwegen und Proportionalität",
-      "steps": [
-        {
-          "headline": "Spiegelachse",
-          "formula": "Falten an der Achse",
-          "explanation": "Beim Falten an der Achse decken sich beide Hälften. Punkt und Spiegelpunkt haben denselben Abstand zur Achse; ihre Verbindung steht senkrecht dazu. Eine Figur kann mehrere Symmetrieachsen haben.",
-          "visual": {
-            "type": "symmetry"
-          },
-          "sub": ""
+            "type": "probability-overview"
+          }
         }
       ]
     },
@@ -1397,32 +1123,16 @@
       "sourceNote": "Grundwissen Klasse 9/10",
       "steps": [
         {
-          "headline": "Exponent zählt gleiche Faktoren",
-          "formula": "2⁴ = 2 · 2 · 2 · 2",
-          "explanation": "Die 2 ist die Basis. Die 4 sagt, wie oft die Basis als Faktor vorkommt.",
+          "headline": "Potenzen: gleiche Faktoren",
+          "formula": "",
+          "explanation": "Die Basis nennt den Faktor, der Exponent seine Anzahl. Bei gleicher Basis werden beim Multiplizieren die Exponenten addiert.",
           "visual": {
             "type": "math-stack",
             "rows": [
-              "2⁴",
-              "= 2 · 2 · 2 · 2",
-              "= 16"
+              "2⁴ = 2 · 2 · 2 · 2 = 16",
+              "2³ · 2² = 2³⁺² = 2⁵ = 32"
             ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Gleiche Basen multiplizieren",
-          "formula": "2³ · 2² = 2⁵",
-          "explanation": "Beim Multiplizieren gleicher Basen addierst du die Exponenten: 3 + 2 = 5.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "2³ · 2²",
-              "= 2³⁺²",
-              "= 2⁵ = 32"
-            ]
-          },
-          "sub": ""
+          }
         }
       ]
     },
@@ -1436,189 +1146,12 @@
       "sourceNote": "Grundwissen Klasse 9/10",
       "steps": [
         {
-          "headline": "Quadratwerte bilden eine Parabel",
-          "formula": "y = x²",
-          "explanation": "Setze x ein und quadriere die ganze Zahl: (−2)² = 4 und 2² = 4. Entgegengesetzte x-Werte haben denselben y-Wert. Die Punkte liegen auf einer Parabel.",
+          "headline": "Quadratische Funktion: y = x²",
+          "formula": "",
+          "explanation": "Entgegengesetzte x-Werte haben denselben y-Wert. Die Parabel ist zur y-Achse symmetrisch; ihr tiefster Punkt ist S(0 | 0).",
           "visual": {
-            "type": "table",
-            "heads": [
-              "x",
-              "−2",
-              "−1",
-              "0",
-              "1",
-              "2"
-            ],
-            "rows": [
-              [
-                "y = x²",
-                "4",
-                "1",
-                "0",
-                "1",
-                "4"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Scheitelpunkt erkennen",
-          "formula": "S(0 | 0)",
-          "explanation": "Bei y = x² ist der tiefste Punkt der Scheitel S(0 | 0). Die Parabel ist zur y-Achse symmetrisch.",
-          "visual": {
-            "type": "parabola"
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "quadratische-gleichung",
-      "category": "terme",
-      "stage": "9-10",
-      "title": "Einfache quadratische Gleichungen",
-      "subtitle": "Nullstellen finden",
-      "symbol": "x²",
-      "sourceNote": "Grundwissen Klasse 9/10",
-      "steps": [
-        {
-          "headline": "Gleichung als Produkt schreiben",
-          "formula": "x² − 9 = 0",
-          "explanation": "Erkenne die Differenz zweier Quadrate: x² − 9 = (x − 3)(x + 3).",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "x² − 9 = 0",
-              "(x − 3)(x + 3) = 0"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Beide Faktoren prüfen",
-          "formula": "x = 3 oder x = −3",
-          "explanation": "Ein Produkt ist null, wenn mindestens ein Faktor null ist. Löse deshalb beide einfachen Gleichungen.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "x − 3 = 0  →  x = 3",
-              "x + 3 = 0  →  x = −3"
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "exponentialfunktion",
-      "category": "funktionen",
-      "stage": "9-10",
-      "title": "Exponentielles Wachstum",
-      "subtitle": "In gleichen Schritten mit demselben Faktor",
-      "symbol": "aˣ",
-      "sourceNote": "Grundwissen Klasse 9/10",
-      "steps": [
-        {
-          "headline": "Wiederholt mit demselben Faktor vervielfachen",
-          "formula": "2, 4, 8, 16",
-          "explanation": "Beim exponentiellen Wachstum wird in jedem gleichen Zeitabschnitt mit demselben Faktor multipliziert.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Schritt",
-              "0",
-              "1",
-              "2",
-              "3"
-            ],
-            "rows": [
-              [
-                "Wert",
-                "2",
-                "4",
-                "8",
-                "16"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Faktor als Potenz schreiben",
-          "formula": "f(x) = 2 · 2ˣ",
-          "explanation": "x zählt gleich lange Zeitschritte. Startwert 2, in jedem Schritt verdoppeln. Beispiel: f(3) = 2 · 2³ = 16.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "Startwert · Faktorˣ",
-              "2 · 2ˣ"
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "mehrstufige-wahrscheinlichkeit",
-      "category": "daten",
-      "stage": "9-10",
-      "title": "Mehrstufige Zufallsexperimente",
-      "subtitle": "Wahrscheinlichkeiten entlang eines Wegs multiplizieren",
-      "symbol": "P",
-      "sourceNote": "Grundwissen Klasse 9/10",
-      "steps": [
-        {
-          "headline": "Zwei Münzwürfe aufteilen",
-          "formula": "Kopf oder Zahl je Wurf",
-          "explanation": "Zwei unabhängige Würfe einer fairen Münze: Die vier Ergebnisfolgen sind gleich wahrscheinlich.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "1. Wurf",
-              "2. Wurf",
-              "Folge"
-            ],
-            "rows": [
-              [
-                "Kopf",
-                "Kopf",
-                "KK"
-              ],
-              [
-                "Kopf",
-                "Zahl",
-                "KZ"
-              ],
-              [
-                "Zahl",
-                "Kopf",
-                "ZK"
-              ],
-              [
-                "Zahl",
-                "Zahl",
-                "ZZ"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Einen Ergebnisweg berechnen",
-          "formula": "P(KK) = ½ · ½ = ¼",
-          "explanation": "Die Wahrscheinlichkeiten entlang eines Weges werden multipliziert.",
-          "visual": {
-            "type": "fractions",
-            "parts": [
-              {
-                "label": "KK: ein Weg von vier",
-                "n": 1,
-                "d": 4
-              }
-            ]
-          },
-          "sub": ""
+            "type": "quadratic-overview"
+          }
         }
       ]
     },
@@ -1681,58 +1214,12 @@
       "sourceNote": "Strobl Grundwissen Klasse 5, Abschnitt 5",
       "steps": [
         {
-          "headline": "Winkel nach Größe unterscheiden",
+          "headline": "Winkel erkennen und messen",
           "formula": "",
-          "explanation": "Spitze Winkel liegen zwischen 0° und 90°, rechte Winkel sind genau 90°, stumpfe Winkel liegen zwischen 90° und 180°.",
+          "explanation": "Mittelpunkt auf den Scheitel, Nullmarke auf einen Schenkel legen. Auf der dort beginnenden Skala ablesen: hier 45°.",
           "visual": {
-            "type": "chips",
-            "values": [
-              "45° spitz",
-              "90° recht",
-              "120° stumpf"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Mit dem Winkelmesser messen",
-          "formula": "",
-          "explanation": "Mittelpunkt auf den Scheitel legen. Die Nullmarke rechts liegt auf dem waagerechten Schenkel. Der zweite Schenkel zeigt auf 45°.",
-          "visual": {
-            "type": "angles",
-            "active": "vertical"
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "flaeche-dreieck",
-      "category": "geometrie",
-      "stage": "5-6",
-      "title": "Flächeninhalt berechnen",
-      "subtitle": "Rechteck und Dreieck",
-      "symbol": "A",
-      "sourceNote": "Strobl Grundwissen Klasse 6, Abschnitt 6",
-      "steps": [
-        {
-          "headline": "Rechteck mit Einheitsquadraten füllen",
-          "formula": "A = Länge · Breite",
-          "explanation": "Zähle die Reihen und Spalten. Ein Rechteck mit 5 cm und 3 cm enthält 15 Quadratzentimeter.",
-          "visual": {
-            "type": "rect",
-            "mode": "area"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Dreieck ist ein halbes Rechteck",
-          "formula": "A = 5 cm · 3 cm : 2 = 7,5 cm²",
-          "explanation": "g ist die Grundseite, h die senkrechte Höhe: hier 5 cm und 3 cm. A = g · h : 2. Das markierte Dreieck ist halb so groß wie das Rechteck. Die schräge Seite ist nicht die Höhe.",
-          "visual": {
-            "type": "triangle-area"
-          },
-          "sub": ""
+            "type": "angle-measure-overview"
+          }
         }
       ]
     },
@@ -1759,51 +1246,6 @@
       ]
     },
     {
-      "id": "binomische-formeln",
-      "category": "terme",
-      "stage": "7-8",
-      "title": "Binomische Formeln",
-      "subtitle": "Quadrate von Summen und Differenzen",
-      "symbol": "( )²",
-      "sourceNote": "Strobl Grundwissen Klasse 7, Abschnitt 3; Klasse 9, Abschnitt 1",
-      "steps": [
-        {
-          "headline": "1. Formel: Summe quadrieren",
-          "formula": "",
-          "explanation": "Die Seitenlänge a + b bildet vier Teilflächen: a², zweimal ab und b². Daher steht in der Formel 2ab.",
-          "visual": {
-            "type": "binomial-squares"
-          }
-        },
-        {
-          "headline": "2. Formel: Differenz quadrieren",
-          "formula": "",
-          "explanation": "−ab − ab ergibt −2ab. Vor a² und b² stehen Pluszeichen.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "(a − b)² = (a − b)(a − b)",
-              "= a² − ab − ab + b²",
-              "= a² − 2ab + b²"
-            ]
-          }
-        },
-        {
-          "headline": "3. Formel: Summe mal Differenz",
-          "formula": "",
-          "explanation": "+ab und −ab heben sich auf. Es bleibt a² − b².",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "(a − b)(a + b)",
-              "= a² + ab − ab − b²",
-              "= a² − b²"
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "gleichungssystem",
       "category": "terme",
       "stage": "7-8",
@@ -1813,48 +1255,33 @@
       "sourceNote": "Strobl Grundwissen Klasse 8, Abschnitt 9",
       "steps": [
         {
-          "headline": "y umstellen und einsetzen",
+          "headline": "Einsetzungsverfahren",
           "formula": "",
-          "explanation": "Beide Gleichungen müssen stimmen. In I auf beiden Seiten x abziehen. In II y durch (10 − x) ersetzen; die Klammer gehört zum Faktor 2.",
+          "explanation": "I nach y auflösen und in II einsetzen. Die Klammer gehört zum Faktor 2. Die gemeinsame Lösung muss beide Gleichungen erfüllen.",
           "visual": {
-            "type": "math-stack",
-            "rows": [
-              "I: x + y = 10",
-              "II: x + 2y = 16",
-              "I: y = 10 − x",
-              "II: x + 2(10 − x) = 16"
+            "type": "reference-panels",
+            "panels": [
+              {
+                "title": "1 · Einsetzen",
+                "rows": [
+                  "I: x + y = 10",
+                  "II: x + 2y = 16",
+                  "I: y = 10 − x",
+                  "II: x + 2(10 − x) = 16"
+                ]
+              },
+              {
+                "title": "2 · Lösen, Probe",
+                "rows": [
+                  "20 − x = 16  | −20",
+                  "−x = −4  | : (−1)",
+                  "x = 4; y = 6",
+                  "I: 4 + 6 = 10",
+                  "II: 4 + 2 · 6 = 16"
+                ]
+              }
             ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Klammer auflösen und x berechnen",
-          "formula": "",
-          "explanation": "Fasse x − 2x zu −x zusammen. Ziehe auf beiden Seiten 20 ab und teile dann durch −1.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "x + 20 − 2x = 16",
-              "20 − x = 16  |  −20",
-              "−x = −4  |  : (−1)",
-              "x = 4"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "y berechnen und beide Proben machen",
-          "formula": "",
-          "explanation": "Setze x = 4 in y = 10 − x ein. Du erhältst y = 6. Beide Ausgangsgleichungen stimmen mit diesen Werten.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "y = 10 − 4 = 6",
-              "I: 4 + 6 = 10",
-              "II: 4 + 2 · 6 = 16"
-            ]
-          },
-          "sub": ""
+          }
         }
       ]
     },
@@ -1879,100 +1306,6 @@
       ]
     },
     {
-      "id": "vierfeldertafel",
-      "category": "daten",
-      "stage": "9-10",
-      "title": "Vierfeldertafel lesen",
-      "subtitle": "Zwei Merkmale gemeinsam ordnen",
-      "symbol": "▦",
-      "sourceNote": "Strobl Grundwissen Klasse 9, Abschnitt 5",
-      "steps": [
-        {
-          "headline": "Innenfelder und Randsummen",
-          "formula": "20 Personen: 8 mit Bus, 12 mit Rad",
-          "explanation": "Jede Person fährt entweder Bus oder Rad und hat ein Abo oder keines. Die Innenfelder zeigen diese vier Gruppen, die Ränder ihre Summen.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "",
-              "Bus",
-              "Rad",
-              "Gesamt"
-            ],
-            "rows": [
-              [
-                "Mit Abo",
-                "5",
-                "7",
-                "12"
-              ],
-              [
-                "Ohne Abo",
-                "3",
-                "5",
-                "8"
-              ],
-              [
-                "Gesamt",
-                "8",
-                "12",
-                "20"
-              ]
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Anteil aus der passenden Gruppe bilden",
-          "formula": "P(Abo) = 12 : 20 = 60 %",
-          "explanation": "Bei zufälliger Auswahl aus allen Personen gilt: Anzahl mit Abo durch Gesamtzahl teilen.",
-          "visual": {
-            "type": "percent",
-            "filled": 60,
-            "label": "12 von 20 Personen"
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "logarithmus",
-      "category": "zahlen",
-      "stage": "9-10",
-      "title": "Logarithmen als Umkehrung",
-      "subtitle": "Gesuchten Exponenten finden",
-      "symbol": "log",
-      "sourceNote": "Strobl Grundwissen Klasse 10, Abschnitt 1",
-      "steps": [
-        {
-          "headline": "Den Exponenten bestimmen",
-          "formula": "2ˣ = 8",
-          "explanation": "Welche Potenz von 2 ergibt 8? Weil 2³ = 8 gilt, ist der gesuchte Exponent 3.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "2³ = 8",
-              "also: 2ˣ = 8 → x = 3"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Logarithmus schreiben",
-          "formula": "log₂(8) = 3",
-          "explanation": "Der Logarithmus fragt nach dem Exponenten: log zur Basis 2 von 8 ist 3.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "log₂(8) = 3",
-              "denn 2³ = 8"
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
       "id": "kreis",
       "category": "geometrie",
       "stage": "5-6",
@@ -1982,118 +1315,11 @@
       "sourceNote": "Strobl Grundwissen Klasse 6, Abschnitt 6",
       "steps": [
         {
-          "headline": "Umfang aus dem Durchmesser",
+          "headline": "Kreis: Umfang und Fläche",
           "formula": "",
-          "explanation": "Der Durchmesser d geht durch den Mittelpunkt und ist doppelt so lang wie der Radius r. Der Umfang ist die Länge des Kreisrandes.",
+          "explanation": "r ist der Abstand vom Mittelpunkt zum Rand; d = 2r. Umfang: Randlänge in cm. Fläche: Innenfläche in cm². π ≈ 3,14.",
           "visual": {
-            "type": "circle-reference",
-            "mode": "circumference"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Fläche mit dem Radius",
-          "formula": "",
-          "explanation": "r ist der Abstand vom Mittelpunkt zum Rand. Die Fläche wird in cm² angegeben.",
-          "visual": {
-            "type": "circle-reference",
-            "mode": "area"
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "flaecheneinheiten",
-      "category": "anwendung",
-      "stage": "5-6",
-      "title": "Längen- und Flächeneinheiten",
-      "subtitle": "Bei Flächen wird der Faktor quadriert",
-      "symbol": "m²",
-      "sourceNote": "Strobl Grundwissen Klasse 5, Abschnitt 8; Klasse 6, Abschnitt 6",
-      "steps": [
-        {
-          "headline": "Längeneinheiten umrechnen",
-          "formula": "1 m = 100 cm",
-          "explanation": "In der Folge m → dm → cm → mm multiplizierst du je Schritt mit 10. Von m zu cm sind es zwei Schritte: mal 100. Rückwärts teilst du durch 100.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "1 m = 10 dm",
-              "1 m = 100 cm"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Flächeneinheiten umrechnen",
-          "formula": "1 m² = 10 000 cm²",
-          "explanation": "Von m² zu dm² und von dm² zu cm² gilt jeweils mal 100. Zwei Schritte ergeben mal 10 000. Rückwärts teilst du durch 10 000.",
-          "visual": {
-            "type": "table",
-            "heads": [
-              "Einheit",
-              "Entspricht"
-            ],
-            "rows": [
-              [
-                "1 m²",
-                "100 dm²"
-              ],
-              [
-                "1 m²",
-                "10 000 cm²"
-              ]
-            ]
-          },
-          "sub": ""
-        }
-      ]
-    },
-    {
-      "id": "linear-ungleichung",
-      "category": "terme",
-      "stage": "7-8",
-      "title": "Lineare Ungleichungen",
-      "subtitle": "Lösungsbereich statt einzelner Lösung",
-      "symbol": "<",
-      "sourceNote": "Strobl Grundwissen Klasse 8, Abschnitt 4",
-      "steps": [
-        {
-          "headline": "Wie eine Gleichung umformen",
-          "formula": "2x + 3 < 11",
-          "explanation": "Ziehe auf beiden Seiten 3 ab, dann teile durch die positive Zahl 2. Das Zeichen bleibt dabei gleich. Nur beim Multiplizieren oder Teilen durch eine negative Zahl kehrst du es um.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "2x + 3 < 11  |  − 3",
-              "2x < 8  |  : 2",
-              "x < 4"
-            ]
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Lösungen als Bereich zeigen",
-          "formula": "",
-          "explanation": "Alle Zahlen links von 4 sind Lösungen: x < 4. Der offene Kreis bedeutet: Die 4 selbst gehört nicht dazu.",
-          "visual": {
-            "type": "inequality-line",
-            "bound": 4,
-            "direction": "less"
-          },
-          "sub": ""
-        },
-        {
-          "headline": "Bei negativer Zahl: Zeichen umkehren",
-          "formula": "",
-          "explanation": "Beim Teilen durch −2 kehrt sich < zu > um. Aus −2x < −8 folgt x > 4: Alle Zahlen rechts von 4 sind Lösungen.",
-          "visual": {
-            "type": "math-stack",
-            "rows": [
-              "−2x < −8  |  : (−2)",
-              "x > 4"
-            ]
+            "type": "circle-overview"
           }
         }
       ]

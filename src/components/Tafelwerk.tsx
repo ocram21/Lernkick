@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { BookOpen, Info, ChevronLeft, ChevronRight } from 'lucide-react';
 import lessonData from '../content/tafelwerk/math-lessons.json';
 import { formatFractions, fractionParts, renderVisual } from '../content/tafelwerk/visuals';
-import { germanCategories, germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
+import { germanLessons, type GermanLesson } from '../content/tafelwerk/german-lessons';
 
 type Subject = 'Mathematik' | 'Geographie' | 'Sozialkunde' | 'Biologie' | 'Deutsch';
 type Step = { headline:string; formula:string; explanation:string; visual:any; sub?:string };
@@ -17,7 +17,6 @@ const subjects:{name:Subject;short:string}[]=[
  {name:'Biologie',short:'Bio'},
  {name:'Geographie',short:'Geo'}
 ];
-const germanTopicLabels:Record<string,string>={'DEU-09':'Kommas setzen','DEU-10':'Großschreibung','DEU-14':'Argumentieren','DEU-15':'Texte planen und überarbeiten','DEU-18':'Zusammenfassung und Inhaltsangabe','DEU-19':'Bericht, Beschreibung, Erzählung'};
 const categoryLabels:Record<string,string>={zahlen:'Zahlen',verfahren:'Rechnen',brueche:'Brüche',terme:'Terme',anwendung:'Alltag',funktionen:'Funktionen',geometrie:'Geometrie',daten:'Daten'};
 function TafelSymbol({value}:{value:string}){
  const parts=fractionParts(value);
@@ -31,7 +30,6 @@ export function Tafelwerk({initialLessonId}:{initialLessonId?:string}={}){
  const [category,setCategory]=useState<string|null>(initialLesson?.category??categories[0]?.id??null);
  const [lesson,setLesson]=useState<Lesson|null>(initialLesson??null);
  const [stepIndex,setStepIndex]=useState(0);
- const [germanCategory,setGermanCategory]=useState<string>(germanCategories[0].id);
  const [germanLesson,setGermanLesson]=useState<GermanLesson|null>(null);
  const current=lesson?.steps[stepIndex];
  const sectionRef=useRef<HTMLElement>(null);
@@ -80,17 +78,17 @@ export function Tafelwerk({initialLessonId}:{initialLessonId?:string}={}){
 
   {subject==='Deutsch'&&!germanLesson&&<>
    <div className="tafelwerk-catalog">
-    <div className="tafelwerk-area-grid deutsch-area-grid" aria-label="Deutschbereiche">{germanCategories.map(item=><button className="tafelwerk-area" key={item.id} aria-label={item.title} aria-pressed={germanCategory===item.id} onClick={()=>setGermanCategory(item.id)}><span>{item.title}</span></button>)}</div>
-    <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.filter(item=>item.category===germanCategory).map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} aria-label={item.title} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><span>{germanTopicLabels[item.id]??item.title}</span></button>)}</div>
+    <h1 className="deutsch-category-title">Grammatik</h1>
+    <div className="tafelwerk-lesson-grid deutsch-topic-grid" aria-label="Deutschthemen">{germanLessons.map(item=><button className="tafelwerk-lesson-choice" data-lesson={item.id} aria-label={item.title} key={item.id} onClick={()=>{lastLessonId.current=item.id;setGermanLesson(item);}}><span>{item.title}</span></button>)}</div>
    </div>
   </>}
 
   {subject==='Deutsch'&&germanLesson&&<>
-   <section className="deutsch-reference-page" aria-labelledby={`${germanLesson.id}-title`}>
+   <section className={`deutsch-reference-page ${germanLesson.id==='DEU-01'?'deutsch-word-types':''}`} aria-labelledby={`${germanLesson.id}-title`}>
     <header className="deutsch-sheet-head"><h1 ref={headingRef} tabIndex={-1} id={`${germanLesson.id}-title`}>{germanLesson.title}</h1></header>
-    <p className="deutsch-goal">{germanLesson.goal}</p>
     <div className="deutsch-reference-list">{germanLesson.items.map(part=><article className="deutsch-reference-item" key={part.term}>
-     <h2>{part.term}</h2><p>{part.example}{part.note&&<small> · {part.note}</small>}</p>
+     <p className="deutsch-reference-example">{part.emphasis&&part.example.includes(part.emphasis)?<>{part.example.slice(0,part.example.indexOf(part.emphasis))}<strong className="deutsch-focus">{part.emphasis}</strong>{part.example.slice(part.example.indexOf(part.emphasis)+part.emphasis.length)}</>:part.example}</p>
+     <div className="deutsch-reference-caption"><h2>{part.term}</h2><p>{part.note}</p></div>
     </article>)}</div>
    </section>
   </>}

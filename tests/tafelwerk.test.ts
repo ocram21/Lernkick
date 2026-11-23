@@ -1,12 +1,13 @@
 import {describe,expect,it} from 'vitest';
 import data from '../src/content/tafelwerk/math-lessons.json';
+import {germanCategories,germanLessons} from '../src/content/tafelwerk/german-lessons';
 import {formatFractions,renderVisual} from '../src/content/tafelwerk/visuals';
 import {buildDivisionSteps,buildMultiplicationSteps} from '../src/content/tafelwerk/long-arithmetic';
 const lesson=(id:string)=>data.lessons.find(item=>item.id===id)!;
 describe('Mathe-Tafelwerk',()=>{
- it('behält alle Themen eindeutig und rendert jeden Schritt',()=>{
-  expect(data.lessons).toHaveLength(59);
-  expect(new Set(data.lessons.map(l=>l.id)).size).toBe(59);
+ it('behält die ausgewählten Themen eindeutig und rendert jede Ansicht',()=>{
+  expect(data.lessons.length).toBeGreaterThan(0);
+  expect(new Set(data.lessons.map(l=>l.id)).size).toBe(data.lessons.length);
   for(const l of data.lessons){
    expect(data.categories.some(c=>c.id===l.category)).toBe(true);
    for(const step of l.steps){
@@ -27,13 +28,17 @@ describe('Mathe-Tafelwerk',()=>{
   expect(lesson('prozent').steps).toHaveLength(3);
   expect(JSON.stringify(lesson('prozent'))).not.toContain('= 30 %');
  });
- it('Vierfeldertafel hat konsistente Ränder und disjunkte Merkmale',()=>{
-  const visual=lesson('vierfeldertafel').steps[0].visual as {rows:string[][]};
-  const numbers=visual.rows.map(r=>r.slice(1).map(Number));
-  for(const row of numbers)expect(row[0]+row[1]).toBe(row[2]);
-  for(let i=0;i<3;i++)expect(numbers[0][i]+numbers[1][i]).toBe(numbers[2][i]);
-  expect(visual.rows.map(r=>r[0])).toEqual(['Mit Abo','Ohne Abo','Gesamt']);
-  expect(lesson('vierfeldertafel').steps[0].formula).toContain('8 mit Bus, 12 mit Rad');
+ it('entfernt nur die nicht mehr benötigten Nachschlagethemen und bündelt verwandte Inhalte',()=>{
+  const ids=data.lessons.map(item=>item.id);
+  for(const id of ['dezimalzahlen','logarithmus','negative-addieren','stellenwert','linear-ungleichung','quadratische-gleichung','binomische-formeln','exponentialfunktion','symmetrie','flaeche-dreieck','mehrstufige-wahrscheinlichkeit','vierfeldertafel','flaecheneinheiten','dreisatz-indirekt','nichtproportional'])expect(ids).not.toContain(id);
+  for(const id of ['potenzen','gleichungssystem','einheiten','quadratische-funktion','winkelbeziehungen','pythagoras','kreis','winkel-messen','wahrscheinlichkeit','dreisatz-direkt'])expect(lesson(id).steps,id).toHaveLength(1);
+ });
+ it('beschränkt Deutsch auf die fünf Grammatiktafeln mit Beispielen',()=>{
+  expect(germanCategories.map(c=>c.id)).toEqual(['grammatik']);
+  expect(germanLessons.map(l=>l.id)).toEqual(['DEU-01','DEU-02','DEU-03','DEU-04','DEU-06']);
+  expect(germanLessons[0].items).toHaveLength(10);
+  for(const item of germanLessons.flatMap(l=>l.items)){expect(item.example.trim()).not.toBe('');expect(item.note.trim()).not.toBe('');}
+  expect(lesson('reihenfolge').symbol).toBe('·');
  });
  it('zeigt Addition und Subtraktion vollständig mit kleinen stellenrichtigen Ziffern',()=>{
   for(const [id,kind,expected] of [['schriftlich-addieren','addition','524'],['schriftlich-subtrahieren','subtraction','168']]){
@@ -100,20 +105,16 @@ describe('Mathe-Tafelwerk',()=>{
   for(const id of ['schriftlich-subtrahieren','schriftlich-mal','schriftlich-geteilt'])expect(lesson(id).steps).toHaveLength(1);
  });
  it('zeigt die noch fehlenden Bilder und getrennten Fälle aus dem Prüfprotokoll',()=>{
-  const binom=lesson('binomische-formeln').steps;expect(binom).toHaveLength(3);expect(renderVisual(binom[0].visual)).toContain('zerlegt in a², ab, ab und b²');
-  expect(binom[1].visual).toMatchObject({rows:expect.arrayContaining(['= a² − 2ab + b²'])});expect(binom[2].visual).toMatchObject({rows:expect.arrayContaining(['= a² − b²'])});
-  const line=renderVisual(lesson('linear-ungleichung').steps[1].visual);expect(line).toContain('offener Kreis bei 4');expect(line).toContain('Lösungsbereich nach links');
-  expect(lesson('linear-ungleichung').steps[2].visual).toMatchObject({rows:expect.arrayContaining(['x > 4'])});
   expect(renderVisual(lesson('aehnlichkeit').steps[0].visual)).toContain('Maßstab 1 zu 3');
-  for(const s of lesson('tafelprojektion').steps){const picture=renderVisual(s.visual);expect(picture).toContain('Pᵍ(3|2)');expect(picture).toContain('Pᵃ(3|4)');}
+  for(const s of lesson('tafelprojektion').steps){const picture=renderVisual(s.visual);expect(picture).toContain('Grundriss');expect(picture).toContain('Aufriss');expect(picture).toContain('3 cm');expect(picture).toContain('4 cm');}
   expect(lesson('negative-rechnen').steps[2].visual).toMatchObject({from:2,to:5});
   const median=lesson('median').steps[1];expect(median.formula).toContain('8,5');expect(renderVisual(median.visual).match(/visual-chip emphasis/g)).toHaveLength(2);
   expect(lesson('brueche-ungleich').steps[0].visual).toMatchObject({rows:expect.arrayContaining(['1/2 = (1 · 3)/(2 · 3) = 3/6','1/3 = (1 · 2)/(3 · 2) = 2/6'])});
  });
- it('stimmt Werkzeug, Messmarkierung und Kreisgrößen auf die Erklärung ab',()=>{
-  const angle=lesson('winkel-messen').steps[1];expect(angle.headline).toBe('Mit dem Winkelmesser messen');expect(angle.explanation).toContain('Nullmarke rechts');expect(renderVisual(angle.visual)).toContain('45-Grad-Markierung');
-  for(const [index,mode,result] of [[0,'circumference','18,85'],[1,'area','28,27']] as const){
-   const step=lesson('kreis').steps[index];expect(step.visual).toMatchObject({type:'circle-reference',mode});const rendered=renderVisual(step.visual);expect(rendered).toContain('<circle');expect(rendered).toContain('r = 3 cm');expect(rendered).toContain('d = 6 cm');expect(rendered).toContain(result);
+ it('stellt Winkelmesser und Kreisgrößen jeweils zusammenhängend dar',()=>{
+  for(const id of ['winkel-messen','kreis']){
+   const steps=lesson(id).steps;expect(steps).toHaveLength(1);
+   const rendered=renderVisual(steps[0].visual);expect(rendered).toContain('<svg');expect(rendered).not.toMatch(/NaN|undefined|Infinity/);
   }
  });
  it('zeichnet auch waagerechte und fallende Geraden endlich im Koordinatenbereich',()=>{

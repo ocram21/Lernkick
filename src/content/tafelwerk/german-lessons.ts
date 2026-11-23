@@ -1,59 +1,50 @@
-export type GermanItem = { term: string; example: string; note?: string };
+export type GermanItem = { term: string; example: string; note: string; emphasis?: string };
 export type GermanLesson = {
   id: string;
-  category: 'grammatik' | 'rechtschreibung' | 'schreiben' | 'lesen';
+  category: 'grammatik';
   title: string;
   goal: string;
   items: GermanItem[];
 };
 
-export const germanCategories = [
-  {id:'grammatik',title:'Grammatik'},
-  {id:'rechtschreibung',title:'Rechtschreibung'},
-  {id:'schreiben',title:'Schreiben'},
-  {id:'lesen',title:'Lesen & Medien'}
-] as const;
+export const germanCategories = [{id:'grammatik',title:'Grammatik'}] as const;
 
-// Selbsterklärende Nachschlagetexte mit eigenen Beispielen.
+// Reine Nachschlagebeispiele: keine Aufgaben, Bewertung oder Lösungsschalter.
 export const germanLessons: GermanLesson[] = [
-  {id:'DEU-01',category:'grammatik',title:'Die zehn Wortarten',goal:'Begriffe, Beispiele und Merkmale.',items:[
-    {term:'Nomen',example:'Bus',note:'Namenwort; groß.'}, {term:'Verb',example:'fahren',note:'Tätigkeit oder Zustand: fahren, sein.'}, {term:'Adjektiv',example:'rot',note:'Eigenschaft; häufig steigerbar.'}, {term:'Artikel',example:'ein',note:'Nomenbegleiter.'}, {term:'Pronomen',example:'sie',note:'Fürwort: sie, mein.'}, {term:'Numerale',example:'drei',note:'Zahlwort.'}, {term:'Adverb',example:'heute',note:'Umstand: Zeit, Ort, Art.'}, {term:'Präposition',example:'mit',note:'Verhältnis; mit + Dativ.'}, {term:'Konjunktion',example:'weil',note:'Bindewort.'}, {term:'Interjektion',example:'Oh!',note:'Ausruf.'}]},
-  {id:'DEU-02',category:'grammatik',title:'Satzglieder: Umstellprobe',goal:'Satzglieder lassen sich als ganze Einheit umstellen: Am Morgen liest die Schülerin ein Buch.',items:[
-    {term:'Adverbiale Bestimmung',example:'Am Morgen',note:'Zeitangabe. Umgestellt: Die Schülerin liest am Morgen ein Buch.'}, {term:'Subjekt',example:'die Schülerin',note:'Subjekt: Träger der Handlung; steht im Nominativ.'}, {term:'Prädikat',example:'liest',note:'Prädikat: Verb des Satzes. Mehrteilig: hat … gelesen.'}, {term:'Objekt',example:'ein Buch',note:'Akkusativobjekt: Ergänzung zum Verb lesen.'}]},
-  {id:'DEU-03',category:'grammatik',title:'Die vier Fälle',goal:'Kasus = Fall. Verben und Präpositionen bestimmen häufig den Fall.',items:[
-    {term:'Nominativ',example:'Der Hund schläft.',note:'Grundform; kennzeichnet unter anderem das Subjekt: der Hund.'}, {term:'Genitiv',example:'Das Spielzeug des Kindes.',note:'Kennzeichnet hier Zugehörigkeit: des Kindes.'}, {term:'Dativ',example:'Ich helfe dem Kind.',note:'Vom Verb helfen geforderter Fall: dem Kind.'}, {term:'Akkusativ',example:'Der Hund bringt den Ball.',note:'Kennzeichnet hier das Objekt: den Ball.'}]},
-  {id:'DEU-04',category:'grammatik',title:'Hauptsatz und Nebensatz',goal:'Satzgrenze, Komma und Stellung des finiten Verbs erkennen.',items:[
-    {term:'Hauptsatz',example:'Wir bleiben zu Hause',note:'Im Aussagesatz steht das finite (gebeugte) Verb an zweiter Satzgliedstelle.'}, {term:'Konjunktion',example:'weil',note:'Bindewort.'}, {term:'Nebensatz',example:'es draußen regnet.',note:'Mit „weil“ eingeleiteter Nebensatz: Das finite Verb steht am Ende.'}, {term:'Satzgefüge',example:'Wir bleiben zu Hause, weil es draußen regnet.',note:'Ein Komma trennt Hauptsatz und Nebensatz.'}]},
-  {id:'DEU-05',category:'grammatik',title:'Satzarten und Satzzeichen',goal:'Aussage, Frage, Aufforderung und Ausruf unterscheiden.',items:[
-    {term:'Aussagesatz',example:'Der Bus kommt.',note:'Eine Aussage endet mit einem Punkt.'}, {term:'Fragesatz',example:'Wann kommt der Bus?',note:'Eine direkte Frage endet mit einem Fragezeichen.'}, {term:'Aufforderungssatz',example:'Steig bitte ein.',note:'Eine Aufforderung endet je nach Nachdruck mit Punkt oder Ausrufezeichen.'}, {term:'Ausrufesatz',example:'Das ging schnell!',note:'Ein Ausruf endet oft mit einem Ausrufezeichen.'}]},
-  {id:'DEU-06',category:'grammatik',title:'Fünf häufige Zeitformen',goal:'Zeitformen ordnen Ereignisse zeitlich ein.',items:[
-    {term:'Präsens',example:'Ich spiele.',note:'Gegenwart, Allgemeingültiges; mit Zeitangabe auch Zukunft.'}, {term:'Präteritum',example:'Ich spielte.',note:'Vergangenheit; häufig in Erzählungen.'}, {term:'Perfekt',example:'Ich habe gespielt.',note:'haben/sein + Partizip II; Vergangenheit im Gespräch.'}, {term:'Plusquamperfekt',example:'Ich hatte gespielt.',note:'hatten/waren + Partizip II; vor einem vergangenen Ereignis.'}, {term:'Futur I',example:'Ich werde spielen.',note:'werden + Infinitiv; Zukunft oder Vermutung.'}]},
-  {id:'DEU-07',category:'grammatik',title:'Aktiv und Vorgangspassiv',goal:'Dieselbe Handlung aus zwei Blickwinkeln ausdrücken.',items:[
-    {term:'Aktiv',example:'Die Mechanikerin repariert das Fahrrad.',note:'Die handelnde Person steht als Subjekt im Mittelpunkt.'}, {term:'Vorgangspassiv',example:'Das Fahrrad wird von der Mechanikerin repariert.',note:'Vorgang im Mittelpunkt: werden + Partizip II. „Von der Mechanikerin“ kann entfallen. Hier: Präsens.'}]},
-  {id:'DEU-08',category:'rechtschreibung',title:'Wörtliche Rede',goal:'Begleitsatz und wörtliche Rede korrekt verbinden.',items:[
-    {term:'Begleitsatz vorangestellt',example:'Mia sagt: „Ich komme gleich.“',note:'Vor der wörtlichen Rede steht ein Doppelpunkt.'}, {term:'Begleitsatz nachgestellt',example:'„Ich komme gleich“, sagt Mia.',note:'Der Punkt der Rede entfällt; nach den Anführungszeichen folgt ein Komma.'}, {term:'Begleitsatz eingeschoben',example:'„Ich“, sagt Mia, „komme gleich.“',note:'Der eingeschobene Begleitsatz steht zwischen Kommas.'}]},
-  {id:'DEU-09',category:'rechtschreibung',title:'Kommas: Aufzählung und Nebensatz',goal:'Kommas in Aufzählungen und Satzgefügen passend setzen.',items:[
-    {term:'Aufzählung',example:'Im Rucksack sind Brot, Äpfel und Wasser.'}, {term:'Nebensatz',example:'Ich nehme einen Schirm mit, weil Regen angekündigt ist.'}, {term:'Regel',example:'Aufzählung: Kommas zwischen gleichrangigen Teilen, meist keines vor „und“/„oder“. Nebensätze: durch Kommas abtrennen.'}]},
-  {id:'DEU-10',category:'rechtschreibung',title:'Großschreibung und Nominalisierung',goal:'Nominalisierte Verben und Adjektive im Satzzusammenhang erkennen.',items:[
-    {term:'Verb',example:'Wir schwimmen gern.',note:'Das Verb bleibt kleingeschrieben.'}, {term:'Nominalisiertes Verb',example:'Das Schwimmen macht Spaß.',note:'Die Tätigkeit wird als Nomen verwendet; deshalb Großschreibung.'}, {term:'Nominalisiertes Adjektiv',example:'Ich wünsche dir alles Gute.',note:'Das Adjektiv wird als Nomen verwendet; deshalb Großschreibung.'}]},
-  {id:'DEU-11',category:'rechtschreibung',title:'Das und dass',goal:'Pronomen „das“ und Konjunktion „dass“ unterscheiden.',items:[
-    {term:'Artikel / Pronomen: das',example:'Das Buch gefällt mir.',note:'„Das“ begleitet hier als Artikel das Nomen Buch.'}, {term:'Relativpronomen: das',example:'Das Buch, das ich lese, ist spannend.',note:'„Das“ bezieht sich als Relativpronomen auf Buch und lässt sich durch „welches“ ersetzen.'}, {term:'Ersatzprobe',example:'das → dieses / jenes / welches',note:'Passt eine dieser Ersetzungen, steht „das“ mit einfachem s.'}, {term:'Konjunktion: dass',example:'Ich weiß, dass du kommst.',note:'„Dass“ leitet einen Nebensatz ein; die Ersatzprobe passt nicht.'}]},
-  {id:'DEU-12',category:'rechtschreibung',title:'Seit und seid',goal:'Zeitangabe „seit“ und Verbform „seid“ unterscheiden.',items:[
-    {term:'seit = Zeit',example:'Seit Montag üben wir.',note:'„Seit“ kennzeichnet einen Zeitraum oder dessen Beginn.'}, {term:'seid = Verb sein',example:'Ihr seid gut vorbereitet.',note:'„Seid“ ist die Form von sein für ihr: du bist – ihr seid.'}]},
-  {id:'DEU-13',category:'schreiben',title:'Sätze sinnvoll verknüpfen',goal:'Bindewörter und andere Verknüpfungen zeigen Ursache, Folge, Gegensatz oder Ergänzung.',items:[
-    {term:'weil · Ursache',example:'Leitet einen Nebensatz ein; das finite Verb steht am Ende.',note:'Wir gehen hinein, weil es regnet.'}, {term:'deshalb · Folge',example:'Verknüpft die Folge; im Hauptsatz folgt das Verb direkt.',note:'Es regnet; deshalb gehen wir hinein.'}, {term:'obwohl · Gegensatz',example:'Leitet einen Nebensatz mit unerwartetem Gegensatz ein.',note:'Obwohl es regnet, gehen wir spazieren.'}, {term:'außerdem · Ergänzung',example:'Fügt einen weiteren gleichartigen Gedanken hinzu.'}, {term:'dagegen · Gegensatz',example:'Stellt zwei unterschiedliche Sachverhalte gegenüber.'}]},
-  {id:'DEU-14',category:'schreiben',title:'Argumentieren: Behauptung, Grund, Beispiel',goal:'Ein überzeugendes Argument besteht aus klar unterscheidbaren Bausteinen.',items:[
-    {term:'Behauptung',example:'Ein überdachter Fahrradplatz wäre sinnvoll.'}, {term:'Begründung',example:'Dort bleiben Fahrräder bei Regen trockener.'}, {term:'Beispiel',example:'Nach dem letzten Regentag waren viele Sättel nass.',note:'Ein Einzelbeispiel beweist eine allgemeine Behauptung nicht automatisch.'}, {term:'Schluss',example:'Deshalb sollte ein Teil der Stellplätze überdacht werden.'}]},
-  {id:'DEU-15',category:'schreiben',title:'Vom Einfall zum fertigen Text',goal:'Texte in klaren Arbeitsschritten planen und überarbeiten.',items:[
-    {term:'1 · Thema klären',example:'Thema, Adressaten und Zweck bestimmen'}, {term:'2 · Sammeln',example:'Ideen und Informationen notieren'}, {term:'3 · Ordnen',example:'Reihenfolge und Gliederung festlegen'}, {term:'4 · Entwerfen',example:'Text vollständig schreiben'}, {term:'5 · Überarbeiten',example:'Inhalt, Aufbau, Verständlichkeit'}, {term:'6 · Korrigieren',example:'Rechtschreibung und Satzzeichen'}]},
-  {id:'DEU-16',category:'schreiben',title:'Bewerbung und Lebenslauf',goal:'Aufbau und wesentliche Bestandteile einer Bewerbung im Überblick.',items:[
-    {term:'Anschreiben',example:'Betreff · Anrede · Einleitung · Motivation · Schluss'}, {term:'Motivation',example:'Interesse und passende eigene Fähigkeiten knapp belegen.'}, {term:'Lebenslauf',example:'Schule · Praxiserfahrung · Kenntnisse; übersichtlich; die neueste Station steht meist zuerst.'}, {term:'Persönliche Angaben',example:'Nur erforderliche und aktuelle Daten angeben.'}]},
-  {id:'DEU-17',category:'lesen',title:'Sachtexte in fünf Schritten lesen',goal:'Kernaussagen und wichtige Einzelheiten gezielt erfassen.',items:[
-    {term:'1 · Überblick',example:'Überschrift, Zwischenüberschriften und Absätze erfassen.'}, {term:'2 · Leseziel',example:'Das Leseziel legt fest, welche Informationen im Text wichtig sind.'}, {term:'3 · Genau lesen',example:'Abschnitt für Abschnitt lesen; unbekannte Begriffe klären.'}, {term:'4 · Markieren',example:'Kernaussagen und Schlüsselbegriffe sparsam hervorheben.'}, {term:'5 · Sichern',example:'Wichtiges in eigenen Worten knapp festhalten.'}]},
-  {id:'DEU-18',category:'lesen',title:'Zusammenfassung und Inhaltsangabe',goal:'Inhalte knapp, sachlich und in eigenen Worten wiedergeben.',items:[
-    {term:'Einleitung',example:'Textsorte, Titel, Verfasser und Thema nennen, soweit bekannt.'}, {term:'Hauptteil',example:'Wesentliche Inhalte geordnet und knapp wiedergeben.'}, {term:'Sprache',example:'Sachlich, im Präsens und mit eigenen Worten formulieren.'}, {term:'Weglassen',example:'Eigene Bewertung, Nebensächliches und lange Zitate vermeiden.'}]},
-  {id:'DEU-19',category:'lesen',title:'Bericht, Beschreibung, Erzählung',goal:'Textsorten an Absicht, Inhalt und Sprache unterscheiden.',items:[
-    {term:'Bericht',example:'Informiert sachlich und geordnet; beantwortet wichtige W-Fragen.'}, {term:'Beschreibung',example:'Stellt Merkmale geordnet und anschaulich dar, oft vom Ganzen zum Detail.'}, {term:'Erzählung',example:'Gestaltet einen zeitlichen Verlauf; Gedanken, Gefühle und Spannung können vorkommen.'}]},
-  {id:'DEU-20',category:'lesen',title:'Nachricht, Kommentar, Werbung',goal:'Textabsicht und Verhältnis von Information und Meinung erkennen.',items:[
-    {term:'Nachricht',example:'Informiert möglichst sachlich über überprüfbare Ereignisse; Quelle und Datum sind wichtig.'}, {term:'Kommentar',example:'Bewertet ein Thema und begründet die eigene Meinung.'}, {term:'Werbung',example:'Will Aufmerksamkeit wecken und meist zu einer Handlung bewegen; Werbeabsicht muss erkennbar sein.'}, {term:'Quellen und Absicht',example:'Verfasser, Datum, Belege und Absicht beachten; unabhängige Quellen vergleichen.'}]}
+  {id:'DEU-01',category:'grammatik',title:'Die zehn Wortarten',goal:'Wortarten an kurzen Beispielen erkennen.',items:[
+    {term:'Nomen',example:'der Bus',note:'Namenwort; groß.'},
+    {term:'Verb',example:'fahren · sein',note:'Tätigkeit, Zustand.'},
+    {term:'Adjektiv',example:'ein roter Bus',emphasis:'roter',note:'Eigenschaft.'},
+    {term:'Artikel',example:'der · ein',note:'Begleitet Nomen.'},
+    {term:'Pronomen',example:'sie · wir',note:'Stellvertreter.'},
+    {term:'Numerale',example:'drei Busse',emphasis:'drei',note:'Zahlwort.'},
+    {term:'Adverb',example:'heute · dort',note:'Zeit, Ort usw.'},
+    {term:'Präposition',example:'mit dem Bus',emphasis:'mit',note:'Verhältnis; mit + Dativ.'},
+    {term:'Konjunktion',example:'und · weil',note:'Verbindet.'},
+    {term:'Interjektion',example:'Oh!',note:'Ausruf.'}
+  ]},
+  {id:'DEU-02',category:'grammatik',title:'Satzglieder: Umstellprobe',goal:'Die Teile eines Satzes und ihre Funktion.',items:[
+    {term:'Subjekt',example:'Mia liest ein Buch.',emphasis:'Mia',note:'Mia ist hier das Subjekt; es steht im Nominativ.'},
+    {term:'Prädikat',example:'Mia liest ein Buch.',emphasis:'liest',note:'Das Verb sagt hier, was Mia tut.'},
+    {term:'Akkusativobjekt',example:'Mia liest ein Buch.',emphasis:'ein Buch',note:'Ergänzt hier das Verb lesen.'},
+    {term:'Zeitangabe · Umstellprobe',example:'Am Morgen liest Mia ein Buch.',emphasis:'Am Morgen',note:'Auch möglich: Mia liest am Morgen ein Buch. „Am Morgen“ bleibt eine Einheit.'}
+  ]},
+  {id:'DEU-03',category:'grammatik',title:'Die vier Fälle',goal:'Derselbe Hund in vier Fällen.',items:[
+    {term:'Nominativ',example:'Der Hund schläft.',emphasis:'Der Hund',note:'Das Subjekt steht im Nominativ.'},
+    {term:'Genitiv',example:'Das Fell des Hundes glänzt.',emphasis:'des Hundes',note:'Zeigt hier die Zugehörigkeit.'},
+    {term:'Dativ',example:'Ich helfe dem Hund.',emphasis:'dem Hund',note:'Das Verb helfen verlangt den Dativ.'},
+    {term:'Akkusativ',example:'Ich sehe den Hund.',emphasis:'den Hund',note:'Das Verb sehen verlangt hier den Akkusativ.'}
+  ]},
+  {id:'DEU-04',category:'grammatik',title:'Hauptsatz und Nebensatz',goal:'Das gebeugte Verb und die Satzgrenze erkennen.',items:[
+    {term:'Hauptsatz',example:'Mia bleibt zu Hause.',emphasis:'bleibt',note:'Im Aussagesatz steht das gebeugte Verb an zweiter Satzgliedstelle.'},
+    {term:'Nebensatz nach dem Hauptsatz',example:'Mia bleibt zu Hause, weil sie krank ist.',emphasis:'ist',note:'Das Komma trennt die Sätze. Nach weil steht das gebeugte Verb am Ende.'},
+    {term:'Nebensatz vor dem Hauptsatz',example:'Weil Mia krank ist, bleibt sie zu Hause.',emphasis:'bleibt',note:'Nach dem vorangestellten Nebensatz folgt im Hauptsatz direkt das gebeugte Verb.'}
+  ]},
+  {id:'DEU-06',category:'grammatik',title:'Fünf häufige Zeitformen',goal:'Zeitformen am gleichen Verb vergleichen.',items:[
+    {term:'Präsens',example:'Ich spiele.',note:'Gegenwart; mit Zeitangabe auch Zukunft.'},
+    {term:'Präteritum',example:'Ich spielte.',note:'Vergangenheit; oft in Erzählungen.'},
+    {term:'Perfekt',example:'Ich habe gespielt.',note:'haben oder sein + Partizip II; Vergangenheit.'},
+    {term:'Plusquamperfekt',example:'Ich hatte gespielt.',note:'hatte oder war + Partizip II; vor einem vergangenen Ereignis.'},
+    {term:'Futur I',example:'Ich werde spielen.',note:'werden + Infinitiv; Zukunft oder Vermutung.'}
+  ]}
 ];

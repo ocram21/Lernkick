@@ -332,3 +332,61 @@
 .tafelwerk-lesson-symbol{width:20px;flex-basis:20px}
 .tafelwerk-lesson-choice>svg{display:none}
 .tafelwerk-lesson-choice>span:nth-child(2){overflow-wrap:normal;hyphens:auto}
+/* Schlankes Tafelwerk: große Beispiele, kurze Erklärungen darunter. */
+.tafelwerk-detail .math-stack{font-size:clamp(24px,6vw,34px);gap:10px;line-height:1.2}
+.tafelwerk-detail .sign-rule-example{font-size:clamp(22px,5vw,30px);padding-block:4px}
+.tafelwerk-detail .sign-rule-group h2{font-size:19px}
+.tafelwerk .reference-panels{width:100%;height:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-content:center}
+.tafelwerk .reference-panel{min-width:0;padding:6px 2px}
+.tafelwerk .reference-panel h2{margin:0 0 10px;color:var(--calc-teal);font:700 19px/1.15 'Barlow Condensed',sans-serif;text-align:center}
+.tafelwerk .reference-panel .math-stack{font-size:clamp(19px,4.9vw,28px);gap:7px;width:100%;overflow-wrap:normal}
+.tafelwerk .reference-panels:has(>.reference-panel:nth-child(3)):not(:has(>.reference-panel:nth-child(4))){grid-template-columns:1fr}
+.tafelwerk .reference-panels:has(>.reference-panel:nth-child(3)):not(:has(>.reference-panel:nth-child(4))) .reference-panel{padding:2px;display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px;align-items:center}
+.tafelwerk .reference-panels:has(>.reference-panel:nth-child(3)):not(:has(>.reference-panel:nth-child(4))) .math-stack{gap:3px;font-size:20px}
+.tafelwerk .reference-panels:has(>.reference-panel:nth-child(3)):not(:has(>.reference-panel:nth-child(4))) h2{margin:0;font-size:18px}
+.tafelwerk .tafelwerk-lesson-symbol{min-width:24px;flex-basis:24px;width:24px;overflow:hidden;font-size:14px}
+.deutsch-category-title{margin:0;font:700 22px/1.1 'Barlow Condensed',sans-serif}
+.deutsch-reference-page .deutsch-reference-item{padding:9px 8px;min-width:0}
+.deutsch-reference-page .deutsch-reference-item .deutsch-reference-example{font:650 22px/1.25 'Barlow',sans-serif;margin:0 0 7px;color:var(--ink);overflow-wrap:normal;hyphens:auto}
+.deutsch-reference-page .deutsch-reference-caption h2{font-size:16px;margin:0 0 3px}
+.deutsch-reference-page .deutsch-reference-caption p{font-size:14px;line-height:1.3}
+.deutsch-focus{font-weight:800;text-decoration:underline;text-decoration-color:var(--calc-teal);text-underline-offset:.18em}
+.deutsch-word-types .deutsch-reference-item{padding:6px}
+.deutsch-word-types .deutsch-reference-item .deutsch-reference-example{font-size:23px;margin-bottom:4px}
+.deutsch-word-types .deutsch-reference-caption p{font-size:13px;line-height:1.2}
+@media(min-width:650px) and (max-height:500px){
+ .tafelwerk-detail .math-stack{font-size:22px;gap:5px}
+ .tafelwerk .reference-panels{gap:8px}
+ .tafelwerk .reference-panel .math-stack{font-size:18px;gap:3px}
+ .tafelwerk .reference-panel h2{font-size:17px;margin-bottom:5px}
+ .tafelwerk .reference-panels:has(>.reference-panel:nth-child(3)):not(:has(>.reference-panel:nth-child(4))){grid-template-columns:repeat(3,minmax(0,1fr))}
+ .tafelwerk .reference-panels:has(>.reference-panel:nth-child(3)):not(:has(>.reference-panel:nth-child(4))) .reference-panel{display:block}
+ .tafelwerk .reference-panels:has(>.reference-panel:nth-child(3)):not(:has(>.reference-panel:nth-child(4))) .math-stack{font-size:17px}
+}
+/* Gemeinsame Bilder und Tabellen teilen sich die verfügbare Tafelhöhe. */
+.tafelwerk .quadratic-overview{width:100%;height:100%;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:4px}
+.tafelwerk .quadratic-overview>svg{width:100%;height:100%;min-height:0}
+.tafelwerk .probability-overview{width:100%;height:100%;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:8px}
+.tafelwerk .probability-overview>svg{width:100%;height:100%;min-height:0}
+@media(max-height:650px){.tafelwerk-detail .math-stack{font-size:22px;gap:6px}.tafelwerk .reference-panel .math-stack{font-size:18px;gap:5px}}
+@media(min-width:650px) and (max-height:500px){.tafelwerk-detail .sign-rule-example{font-size:17px;padding:2px}.tafelwerk-detail .sign-rule-group h2{font-size:16px;margin-bottom:3px}}
+.deutsch-word-types .deutsch-reference-item{padding:3px 2px}
+@media(max-height:700px){
+ .deutsch-word-types .deutsch-reference-list{gap:4px 8px}
+ .deutsch-word-types .deutsch-reference-item{padding:0}
+ .deutsch-word-types .deutsch-reference-item .deutsch-reference-example{font-size:20px;line-height:1.1;margin-bottom:2px}
+ .deutsch-word-types .deutsch-reference-caption h2{font-size:14px;line-height:1.1;margin-bottom:1px}
+ .deutsch-word-types .deutsch-reference-caption p{font-size:12px;line-height:1.1}
+}
+@media(min-width:650px) and (max-height:500px){.tafelwerk-detail .sign-rule-example{font-size:16px;line-height:1.1;padding:1px}}
+@media(max-width:370px) and (max-height:650px){
+ .tafelwerk .reference-panel .math-stack{font-size:17px;gap:4px}
+ .tafelwerk .reference-panel h2{font-size:16px;margin-bottom:4px}
+ .tafelwerk .reference-panels{gap:6px}
+ .deutsch-word-types .deutsch-reference-item .deutsch-reference-example{font-size:18px;line-height:1.05;margin-bottom:1px}
+ .deutsch-word-types .deutsch-reference-caption h2{font-size:13px;line-height:1;margin-bottom:1px}
+ .deutsch-word-types .deutsch-reference-caption p{font-size:12px;line-height:1.05}
+ .deutsch-word-types .deutsch-reference-list{gap:3px 8px}
+}
+@media(min-width:650px) and (max-height:500px){.tafelwerk-detail .math-stack{font-size:18px;gap:4px}.tafelwerk-detail .math-stack .fraction{font-size:.74em}}
+@media(min-width:650px) and (max-height:500px){.tafelwerk-detail .math-stack{font-size:17px;gap:3px}}
